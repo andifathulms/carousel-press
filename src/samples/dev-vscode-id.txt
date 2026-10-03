@@ -1,0 +1,69 @@
+template: dev/github-dark
+lang: id
+title: 7 shortcut vs code
+caption: Hafalin pelan-pelan, satu per hari juga cukup. #vscode #programmer #produktif
+---
+[cover kicker="VS CODE • SHORTCUT"]
+7 Shortcut VS Code | yang Bikin Ngoding Lebih Cepat
+Lepas mouse, tangan tetap di keyboard.
+---
+[code]
+Buka file tanpa nyari di folder
+Ketik sebagian nama filenya saja.
+```
+Ctrl + P
+```
+Mac: Cmd + P
+---
+[code]
+Buka Command Palette
+Semua perintah VS Code ada di sini.
+```
+Ctrl + Shift + P
+```
+Mac: Cmd + Shift + P
+---
+[code]
+Pilih kata yang sama berikutnya
+Tekan berulang untuk edit banyak tempat sekaligus.
+```
+Ctrl + D
+```
+Mac: Cmd + D
+---
+[code]
+Pindahkan baris ke atas atau bawah
+Nggak perlu cut lalu paste.
+```
+Alt + Up / Down
+```
+Mac: Option + Up / Down
+---
+[code]
+Duplikat baris
+Salin baris ke bawah dalam satu tekan.
+```
+Shift + Alt + Down
+```
+Mac: Shift + Option + Down
+---
+[code]
+Ganti nama di semua file
+Rename variabel atau fungsi dengan aman.
+```
+F2
+```
+---
+[code]
+Buka atau tutup terminal
+Terminal langsung di dalam editor.
+```
+Ctrl + `
+```
+Mac: Ctrl + ` juga.
+---
+[end]
+Simpan dulu.
+Coba satu shortcut hari ini.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

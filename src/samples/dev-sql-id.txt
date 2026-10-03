@@ -1,0 +1,70 @@
+template: dev/paper-light
+lang: id
+title: 6 query sql
+caption: Query yang paling sering dipakai, dalam satu carousel. #sql #database #belajarcoding
+---
+[cover kicker="SQL • CHEAT SHEET"]
+6 Query SQL | yang Wajib Kamu Kuasai
+Cukup ini dulu buat kerja harian.
+---
+[code]
+Ambil data dengan filter
+Pilih kolom yang perlu saja.
+```sql
+SELECT name, email
+FROM users
+WHERE active = 1;
+```
+---
+[code]
+Urutkan dan batasi hasil
+Ambil 10 pesanan terbaru.
+```sql
+SELECT *
+FROM orders
+ORDER BY created_at DESC
+LIMIT 10;
+```
+---
+[code]
+Hitung per kelompok
+Berapa user di tiap kota?
+```sql
+SELECT city, COUNT(*) AS total
+FROM users
+GROUP BY city;
+```
+---
+[code]
+Gabungkan dua tabel
+Pesanan lengkap dengan nama pembelinya.
+```sql
+SELECT u.name, o.total
+FROM orders o
+JOIN users u ON u.id = o.user_id;
+```
+---
+[code]
+Filter hasil hitungan
+WHERE untuk baris, HAVING untuk hasil GROUP BY.
+```sql
+SELECT user_id, SUM(total) AS spent
+FROM orders
+GROUP BY user_id
+HAVING SUM(total) > 1000000;
+```
+---
+[code]
+Cari dengan pola
+% artinya teks apa saja.
+```sql
+SELECT *
+FROM products
+WHERE name LIKE '%kopi%';
+```
+---
+[end]
+Simpan dulu.
+Nanti pas lupa sintaksnya, buka lagi.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

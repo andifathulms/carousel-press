@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { parse, tokenizeTag } from '../src/core/parser';
 import { mulberry32 } from '../src/core/hash';
 import type { WarningCode } from '../src/core/types';
@@ -220,5 +220,24 @@ describe('golden samples', () => {
     const r = parse(sample('editorial-places-en'), { photoIds: ['sample-dusk'] });
     expect(r.warnings).toEqual([]);
     expect(r.deck.slides.map((s) => s.type)).toEqual(['cover', 'card', 'card', 'card', 'end']);
+  });
+});
+
+describe('every shipped deck', () => {
+  const files = readdirSync(new URL('../src/samples/', import.meta.url)).filter((f) => f.endsWith('.txt'));
+  for (const f of files) {
+    it(`${f} parses without warnings`, () => {
+      const r = parse(sample(f.slice(0, -4)), { photoIds: ['sample-dusk'] });
+      expect(r.warnings).toEqual([]);
+      expect(r.deck.slides.length).toBeGreaterThanOrEqual(5);
+      expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);
+    });
+  }
+  it('dev decks by the owner end with the portfolio line', () => {
+    for (const f of ['dev-linux-id', 'dev-sql-id', 'dev-vscode-id']) {
+      const end = parse(sample(f)).deck.slides.at(-1)!;
+      expect(end.type).toBe('end');
+      expect(JSON.stringify(end.body)).toContain('andifathulms.github.io');
+    }
   });
 });

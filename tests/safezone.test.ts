@@ -1,12 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { parse } from '../src/core/parser';
 import { fakeMeasurer } from '../src/layout/measure';
 import { deckIcons, layoutSlide } from '../src/render/renderSlide';
 import { SAFE, insideSafe } from '../src/render/safezone';
 import { VARIANTS } from '../src/templates/registry';
 
-const SAMPLES = ['editorial-couples-id', 'dev-git-id', 'editorial-places-en'];
+const SAMPLES = readdirSync(new URL('../src/samples/', import.meta.url)).filter((f) => f.endsWith('.txt')).map((f) => f.slice(0, -4));
 const text = (n: string) => readFileSync(new URL(`../src/samples/${n}.txt`, import.meta.url), 'utf8');
 
 // An extra deck that exercises every slide type, attribute and flag.

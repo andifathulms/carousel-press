@@ -1,0 +1,66 @@
+template: dev/terminal
+lang: id
+title: 7 perintah linux
+caption: Simpan buat contekan pas lagi di server. #linux #programmer #belajarcoding
+---
+[cover kicker="LINUX • TERMINAL"]
+7 Perintah Linux | yang Sering Kepakai
+Dari cek folder sampai cari proses.
+---
+[code]
+Lihat isi folder, lengkap
+Termasuk file tersembunyi dan ukurannya.
+```bash
+ls -lah
+```
+---
+[code]
+Cari teks di banyak file
+Rekursif, lengkap dengan nomor baris.
+```bash
+grep -rn "TODO" src/
+```
+---
+[code]
+Pantau log secara langsung
+Baris baru muncul otomatis.
+```bash
+tail -f app.log
+```
+Tekan Ctrl+C untuk berhenti.
+---
+[code]
+Cek folder yang paling besar
+Urutkan ukuran dari yang terbesar.
+```bash
+du -sh * | sort -rh
+```
+---
+[code]
+Cari proses yang pakai port
+Berguna pas muncul "port already in use".
+```bash
+lsof -i :3000
+```
+---
+[code]
+Bikin script bisa dijalankan
+Tambahkan izin eksekusi, lalu jalankan.
+```bash
+chmod +x deploy.sh
+./deploy.sh
+```
+---
+[code]
+Ulangi perintah terakhir pakai sudo
+Nggak perlu ngetik ulang dari awal.
+```bash
+sudo !!
+```
+Pastikan kamu tahu perintah apa yang diulang.
+---
+[end]
+Simpan dulu.
+Nanti pas di server, tinggal buka lagi.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
