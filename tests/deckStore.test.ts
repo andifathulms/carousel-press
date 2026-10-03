@@ -17,6 +17,14 @@ beforeEach(() => {
 });
 
 describe('DeckStore', () => {
+  it('keeps the sample tag across saves', () => {
+    const s = new DeckStore();
+    s.saveDeck({ id: 'a', text: 'Hi', settings: { darkness: 50 }, updatedAt: 1 }, { title: 'Hi', template: 'dev/terminal', slides: 3 });
+    s.setSample('a', 'dev-git-id');
+    s.saveDeck({ id: 'a', text: 'Hi!', settings: { darkness: 50 }, updatedAt: 2 }, { title: 'Hi!', template: 'dev/terminal', slides: 4 });
+    expect(s.listDecks()[0]).toMatchObject({ sampleId: 'dev-git-id', slides: 4, title: 'Hi!' });
+  });
+
   it('round-trips decks, index and settings', () => {
     const s = new DeckStore();
     s.saveSettings({ ...s.loadSettings(), handle: '@x' });

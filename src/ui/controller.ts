@@ -199,7 +199,7 @@ export class Controller {
     }
     const ok = this.decks.saveDeck(
       { id: s.deckId, text: s.text, settings: { darkness: s.darkness }, updatedAt: Date.now() },
-      { title: s.parsed.deck.title || 'Untitled', template: s.parsed.deck.template },
+      { title: s.parsed.deck.title || 'Untitled', template: s.parsed.deck.template, slides: s.parsed.deck.slides.length },
     );
     this.store.set({ saveStatus: ok ? 'saved' : 'off', savedAt: Date.now(), decks: this.decks.listDecks() });
   }
@@ -223,9 +223,13 @@ export class Controller {
     this.saveNow();
   }
 
-  newDeck(text: string): string {
+  newDeck(text: string, sampleId?: string): string {
     const id = newDeckId();
     this.openDeck(id, text);
+    if (sampleId) {
+      this.decks.setSample(id, sampleId);
+      this.store.set({ decks: this.decks.listDecks() });
+    }
     return id;
   }
 

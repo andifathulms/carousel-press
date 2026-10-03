@@ -13,6 +13,7 @@ import {
   validateDeckFile,
 } from '../store/deckFile';
 import type { Controller } from './controller';
+import { decksFromSample, sampleInfo } from './libraryData';
 import { confirmDialog, exportWarningsDialog, promptDialog, toast } from './dialogs';
 
 /** Blocking warnings for the current deck, from a fresh layout pass with real fonts. */
@@ -133,9 +134,17 @@ export function openDeck(c: Controller, id: string): void {
   c.openDeck(d.id, d.text, d.settings.darkness);
 }
 
-export function loadSample(c: Controller, sampleId: string): void {
+/** Open the deck made from this sample, or create it the first time. `fresh` always makes a new copy. */
+export function loadSample(c: Controller, sampleId: string, fresh = false): void {
   const sample = SAMPLES.find((x) => x.id === sampleId);
-  if (sample) c.newDeck(sample.text);
+  if (!sample) return;
+  const existing = fresh ? undefined : decksFromSample(c.decks.listDecks(), sampleInfo(sample))[0];
+  if (existing) {
+    openDeck(c, existing.id);
+    return;
+  }
+  c.newDeck(sample.text, sampleId);
+  if (fresh) toast('New copy of the sample. You are editing the copy.');
 }
 
 export function newBlankDeck(c: Controller): void {

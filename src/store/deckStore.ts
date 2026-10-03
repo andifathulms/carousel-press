@@ -19,6 +19,10 @@ export interface DeckIndexEntry {
   updatedAt: number;
   /** Small JPEG data URL of the cover (P1 library). */
   thumb?: string;
+  /** Slide count at the last save. */
+  slides?: number;
+  /** Set when the deck was created from a sample, so loading it again opens this deck. */
+  sampleId?: string;
 }
 
 export interface AppSettings {
@@ -111,7 +115,7 @@ export class DeckStore {
     if (!ok) return false;
     const list = this.listDecks().filter((d) => d.id !== deck.id);
     const prev = this.listDecks().find((d) => d.id === deck.id);
-    list.push({ id: deck.id, updatedAt: deck.updatedAt, ...entry, thumb: entry.thumb ?? prev?.thumb });
+    list.push({ id: deck.id, updatedAt: deck.updatedAt, ...entry, thumb: entry.thumb ?? prev?.thumb, sampleId: entry.sampleId ?? prev?.sampleId });
     return this.write(K.index, list);
   }
 
@@ -120,6 +124,14 @@ export class DeckStore {
     const e = list.find((d) => d.id === id);
     if (!e || e.thumb === thumb) return;
     e.thumb = thumb;
+    this.write(K.index, list);
+  }
+
+  setSample(id: string, sampleId: string): void {
+    const list = this.listDecks();
+    const e = list.find((d) => d.id === id);
+    if (!e || e.sampleId === sampleId) return;
+    e.sampleId = sampleId;
     this.write(K.index, list);
   }
 
