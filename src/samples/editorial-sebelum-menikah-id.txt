@@ -1,0 +1,28 @@
+template: editorial/rose-dusk
+lang: id
+title: 5 pertanyaan sebelum melangkah
+caption: Bukan buat nguji, tapi buat saling ngerti 🤍 #pertanyaanpasangan #menujuhalal
+---
+[cover]
+5 Pertanyaan | Sebelum Melangkah Lebih Jauh
+Bukan buat nguji. Buat saling ngerti.
+---
+[icon=key]
+Menurutmu, uang di rumah tangga sebaiknya diatur gimana?
+Nggak ada jawaban yang paling benar. Yang penting sama-sama jelas.
+---
+[icon=shield]
+Kalau kita lagi marahan, kamu butuh apa dari aku?
+Dikasih ruang dulu, atau langsung diobrolin?
+---
+[icon=coffee]
+Hari Minggu yang ideal versi kamu kayak gimana?
+Hal kecil kayak gini sering jadi sumber beda pendapat.
+---
+[icon=flower]
+Ada mimpi pribadimu yang tetap pengen kamu kejar nanti?
+Biar kita bisa saling dukung dari sekarang.
+---
+[cta icon=leaf]
+Apa yang bikin kamu merasa dihargai dalam hubungan?
+Jawab jujur. Bahas pelan-pelan, nggak harus selesai malam ini.

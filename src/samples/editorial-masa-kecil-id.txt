@@ -1,0 +1,28 @@
+template: editorial/sage
+lang: id
+title: 5 pertanyaan masa kecil
+caption: Kenal lebih dalam, mulai dari cerita waktu kecil 🌿 #pertanyaanpasangan #deeptalk
+---
+[cover]
+5 Pertanyaan tentang Masa Kecil | yang Jarang Ditanyain
+Kenal lebih dalam, mulai dari dulu.
+---
+[icon=book]
+Dulu waktu kecil, kamu pengen jadi apa?
+Terus kenapa akhirnya berubah, atau malah nggak berubah sama sekali?
+---
+[icon=home]
+Kebiasaan di rumahmu dulu yang masih kamu bawa sampai sekarang?
+Yang kecil juga boleh. Cara sarapan, cara beres-beres, cara pamitan.
+---
+[icon=music]
+Lagu apa yang langsung bikin kamu inget masa kecil?
+Putar bareng, terus ceritain kenangan di baliknya.
+---
+[icon=umbrella]
+Siapa yang paling bikin kamu merasa aman waktu kecil?
+Kadang jawabannya bukan orang yang kita kira.
+---
+[cta icon=star]
+Kalau bisa ngomong ke dirimu yang umur 10 tahun, mau bilang apa?
+Jawab gantian. Dengerin sampai selesai, jangan dipotong.

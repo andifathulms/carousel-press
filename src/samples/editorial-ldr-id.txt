@@ -1,0 +1,28 @@
+template: editorial/midnight
+lang: id
+title: 5 pertanyaan buat yang ldr
+caption: Jarak boleh jauh, obrolan jangan 🌙 Tanya malam ini ya. #ldr #pertanyaanpasangan
+---
+[cover photo=1]
+5 Pertanyaan | Buat Kalian yang LDR
+Jarak boleh jauh. Obrolan jangan.
+---
+[icon=plane]
+Momen apa yang paling pengen kamu ulang dari pertemuan terakhir kita?
+Biar pertemuan berikutnya makin kerasa.
+---
+[icon=moon]
+Jam berapa biasanya kamu paling kangen aku?
+Siapa tahu jawabannya sama.
+---
+[icon=chat]
+Cara aku nunjukin sayang yang paling kerasa buat kamu, walau dari jauh?
+Chat, telepon, atau kiriman kecil. Mana yang paling sampai?
+---
+[icon=map-pin]
+Kalau nanti udah satu kota, tempat pertama yang mau kita datengin?
+Tulis sekarang, simpan buat nanti.
+---
+[cta icon=heart photo=1]
+Satu hal yang bikin kamu yakin kita bisa lewatin jarak ini?
+Kirim jawabannya malam ini.
