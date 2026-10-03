@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 import { resolve } from 'node:path';
 
 // REVIEW=1 adds the dev-only review page; production builds ship index.html only.
