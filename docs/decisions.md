@@ -17,3 +17,10 @@ One line each. Things the specs left open, or deliberate deviations.
 - Safe-zone test image centre label is split over two lines; at 30 px it doesn't fit in 816 px on one line.
 - Review contact sheet draws the SAFE outline as a CSS overlay on each image copy.
 - Visual review M1–M2: big glyph `$_` bleeds so only `$` is visible on github-dark; kept, since the spec places it at right 1140 deliberately.
+- Deck library (F10) lives in the top-bar deck switcher popover (DESIGN §8.2 "Deck: … ▾") rather than a permanent sidebar, to keep the 3-column layout.
+- "Load sample" always opens the sample as a new deck in the library, so nothing is overwritten and no confirm is needed (PRD F15 "in practice").
+- Saving a deck file rewrites `photo=N` tray indexes to photo IDs, because tray order differs between browsers.
+- Photos are always re-encoded on import (JPEG 0.92, PNG when the source has alpha), so HEIC/WebP sources become portable blobs.
+- Preview draws the overflow outline as an overlay on the visible canvas, so cached preview bitmaps stay identical to exports.
+- Blocking warnings for the export dialog come from a fresh layout pass with real fonts, so the dialog is correct even before every slide has rendered.
+- Tablet (768–1199): the caption panel is hidden in the toolbar row; it's in the Export tab on phones and the inspector on desktop.
