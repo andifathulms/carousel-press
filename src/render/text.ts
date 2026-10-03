@@ -73,3 +73,11 @@ export function drawWrapped(
     }
   });
 }
+
+/** Truncate with "…" in the current font so the text fits maxWidth. */
+export function truncateToWidth(ctx: Ctx, text: string, maxWidth: number): string {
+  if (ctx.measureText(text).width <= maxWidth) return text;
+  const chars = Array.from(text);
+  while (chars.length && ctx.measureText(chars.join('') + '…').width > maxWidth) chars.pop();
+  return chars.join('') + '…';
+}
