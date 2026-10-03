@@ -1,0 +1,757 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`golden samples > dev-git-id 1`] = `
+{
+  "deck": {
+    "caption": "Save dulu, nanti pas lupa tinggal buka lagi. #git #programmer #belajarcoding",
+    "handle": "@namaakun",
+    "hasHeader": true,
+    "header": {
+      "caption": "Save dulu, nanti pas lupa tinggal buka lagi. #git #programmer #belajarcoding",
+      "handle": "@namaakun",
+      "lang": "id",
+      "template": "dev/github-dark",
+      "title": "7 perintah git",
+    },
+    "lang": "id",
+    "slides": [
+      {
+        "attribution": null,
+        "attrs": {
+          "kicker": "GIT • CHEAT SHEET",
+        },
+        "badge": null,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Bukan cuma add, commit, push.",
+              },
+            ],
+          ],
+        ],
+        "code": null,
+        "contentIndex": -1,
+        "counter": {
+          "i": 1,
+          "total": 9,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "7 Perintah Git",
+              },
+            ],
+            [
+              {
+                "style": "plain",
+                "text": "yang Wajib Kamu Tahu",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "7 Perintah Git | yang Wajib Kamu Tahu",
+        "index": 0,
+        "lines": [
+          6,
+          8,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "coverSwipe",
+        "type": "cover",
+      },
+      {
+        "attribution": null,
+        "attrs": {},
+        "badge": 1,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Lihat file yang berubah, sudah di-stage, atau belum dilacak.",
+              },
+            ],
+          ],
+        ],
+        "code": {
+          "lang": "bash",
+          "text": "git status",
+        },
+        "contentIndex": 0,
+        "counter": {
+          "i": 2,
+          "total": 9,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Cek kondisi repo",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Cek kondisi repo",
+        "index": 1,
+        "lines": [
+          10,
+          15,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "code",
+      },
+      {
+        "attribution": null,
+        "attrs": {},
+        "badge": 2,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Pilih potongan perubahan satu per satu sebelum commit.",
+              },
+            ],
+          ],
+        ],
+        "code": {
+          "lang": "bash",
+          "text": "git add -p",
+        },
+        "contentIndex": 1,
+        "counter": {
+          "i": 3,
+          "total": 9,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Stage sebagian perubahan",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Stage sebagian perubahan",
+        "index": 2,
+        "lines": [
+          17,
+          23,
+        ],
+        "note": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Tekan y untuk ambil, n untuk lewati.",
+              },
+            ],
+          ],
+        ],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "code",
+      },
+      {
+        "attribution": null,
+        "attrs": {},
+        "badge": 3,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Ganti pesan atau tambahkan file yang ketinggalan.",
+              },
+            ],
+          ],
+        ],
+        "code": {
+          "lang": "bash",
+          "text": "git add file-ketinggalan.js
+git commit --amend",
+        },
+        "contentIndex": 2,
+        "counter": {
+          "i": 4,
+          "total": 9,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Perbaiki commit terakhir",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Perbaiki commit terakhir",
+        "index": 3,
+        "lines": [
+          25,
+          32,
+        ],
+        "note": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Jangan dipakai untuk commit yang sudah di-push ke branch bersama.",
+              },
+            ],
+          ],
+        ],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "code",
+      },
+      {
+        "attribution": null,
+        "attrs": {},
+        "badge": 4,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Bersihkan working tree tanpa commit, lalu ambil lagi nanti.",
+              },
+            ],
+          ],
+        ],
+        "code": {
+          "lang": "bash",
+          "text": "git stash
+git stash pop",
+        },
+        "contentIndex": 3,
+        "counter": {
+          "i": 5,
+          "total": 9,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Simpan kerjaan sementara",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Simpan kerjaan sementara",
+        "index": 4,
+        "lines": [
+          34,
+          40,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "code",
+      },
+      {
+        "attribution": null,
+        "attrs": {},
+        "badge": 5,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Satu baris per commit, lengkap dengan grafik branch.",
+              },
+            ],
+          ],
+        ],
+        "code": {
+          "lang": "bash",
+          "text": "git log --oneline --graph",
+        },
+        "contentIndex": 4,
+        "counter": {
+          "i": 6,
+          "total": 9,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Lihat riwayat dengan ringkas",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Lihat riwayat dengan ringkas",
+        "index": 5,
+        "lines": [
+          42,
+          47,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "code",
+      },
+      {
+        "attribution": null,
+        "attrs": {},
+        "badge": 6,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Buat branch dan langsung pindah ke sana.",
+              },
+            ],
+          ],
+        ],
+        "code": {
+          "lang": "bash",
+          "text": "git switch -c fitur-login",
+        },
+        "contentIndex": 5,
+        "counter": {
+          "i": 7,
+          "total": 9,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Pindah ke branch baru",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Pindah ke branch baru",
+        "index": 6,
+        "lines": [
+          49,
+          54,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "code",
+      },
+      {
+        "attribution": null,
+        "attrs": {},
+        "badge": 7,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Kembalikan file ke versi commit terakhir.",
+              },
+            ],
+          ],
+        ],
+        "code": {
+          "lang": "bash",
+          "text": "git restore app.js",
+        },
+        "contentIndex": 6,
+        "counter": {
+          "i": 8,
+          "total": 9,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Buang perubahan di satu file",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Buang perubahan di satu file",
+        "index": 7,
+        "lines": [
+          56,
+          62,
+        ],
+        "note": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Hati-hati: perubahan yang belum di-commit hilang permanen.",
+              },
+            ],
+          ],
+        ],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "code",
+      },
+      {
+        "attribution": null,
+        "attrs": {},
+        "badge": null,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Nanti pas lupa Git, kamu bakal nyari ini lagi.",
+              },
+            ],
+          ],
+        ],
+        "code": null,
+        "contentIndex": -1,
+        "counter": {
+          "i": 9,
+          "total": 9,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Save dulu.",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Save dulu.",
+        "index": 8,
+        "lines": [
+          64,
+          67,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": true,
+        "swipe": null,
+        "type": "end",
+      },
+    ],
+    "slug": "7-perintah-git",
+    "template": "dev/github-dark",
+    "title": "7 perintah git",
+  },
+  "warnings": [],
+}
+`;
+
+exports[`golden samples > editorial-couples-id 1`] = `
+{
+  "deck": {
+    "caption": "Coba tanya malam ini, terus ceritain hasilnya di komen 🤍 #pertanyaanpasangan #ldr",
+    "handle": "@namaakun",
+    "hasHeader": true,
+    "header": {
+      "caption": "Coba tanya malam ini, terus ceritain hasilnya di komen 🤍 #pertanyaanpasangan #ldr",
+      "handle": "@namaakun",
+      "lang": "id",
+      "template": "editorial/rose-dusk",
+      "title": "5 pertanyaan kecil",
+    },
+    "lang": "id",
+    "slides": [
+      {
+        "attribution": null,
+        "attrs": {
+          "photo": "1",
+        },
+        "badge": null,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Nggak harus serius. Cukup jujur.",
+              },
+            ],
+          ],
+        ],
+        "code": null,
+        "contentIndex": -1,
+        "counter": {
+          "i": 1,
+          "total": 6,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "5 Pertanyaan Kecil",
+              },
+            ],
+            [
+              {
+                "style": "plain",
+                "text": "yang Bikin Kalian Makin Dekat",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "5 Pertanyaan Kecil | yang Bikin Kalian Makin Dekat",
+        "index": 0,
+        "lines": [
+          6,
+          8,
+        ],
+        "note": [],
+        "photoId": "sample-dusk",
+        "showCta": false,
+        "swipe": "coverSwipe",
+        "type": "cover",
+      },
+      {
+        "attribution": null,
+        "attrs": {
+          "icon": "heart",
+        },
+        "badge": 1,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Bukan yang besar-besar. Yang sering kelewat tapi kamu perhatiin.",
+              },
+            ],
+          ],
+        ],
+        "code": null,
+        "contentIndex": 0,
+        "counter": {
+          "i": 2,
+          "total": 6,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Apa hal kecil dariku yang diam-diam kamu suka?",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Apa hal kecil dariku yang diam-diam kamu suka?",
+        "index": 1,
+        "lines": [
+          10,
+          12,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "card",
+      },
+      {
+        "attribution": null,
+        "attrs": {
+          "icon": "mountain",
+        },
+        "badge": 2,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Nggak usah realistis dulu. Bayangin aja.",
+              },
+            ],
+          ],
+        ],
+        "code": null,
+        "contentIndex": 1,
+        "counter": {
+          "i": 3,
+          "total": 6,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Lima tahun lagi, kamu pengen kita lagi ngapain?",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Lima tahun lagi, kamu pengen kita lagi ngapain?",
+        "index": 2,
+        "lines": [
+          14,
+          16,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "card",
+      },
+      {
+        "attribution": null,
+        "attrs": {
+          "icon": "shield",
+        },
+        "badge": 3,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Boleh dijawab sekarang, boleh juga nanti. Aku tunggu.",
+              },
+            ],
+          ],
+        ],
+        "code": null,
+        "contentIndex": 2,
+        "counter": {
+          "i": 4,
+          "total": 6,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Ada hal yang belum berani kamu ceritain ke aku?",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Ada hal yang belum berani kamu ceritain ke aku?",
+        "index": 3,
+        "lines": [
+          18,
+          20,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "card",
+      },
+      {
+        "attribution": null,
+        "attrs": {
+          "icon": "home",
+        },
+        "badge": 4,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Dari cara makan bareng sampai cara menyelesaikan masalah.",
+              },
+            ],
+          ],
+        ],
+        "code": null,
+        "contentIndex": 3,
+        "counter": {
+          "i": 5,
+          "total": 6,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Kebiasaan keluargamu yang pengen kamu bawa ke rumah kita?",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Kebiasaan keluargamu yang pengen kamu bawa ke rumah kita?",
+        "index": 4,
+        "lines": [
+          22,
+          24,
+        ],
+        "note": [],
+        "photoId": null,
+        "showCta": false,
+        "swipe": "swipe",
+        "type": "card",
+      },
+      {
+        "attribution": null,
+        "attrs": {
+          "cta": true,
+          "icon": "leaf",
+          "photo": "1",
+        },
+        "badge": 5,
+        "body": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Siapa tahu ini jadi bahan obrolan kalian nanti.",
+              },
+            ],
+          ],
+        ],
+        "code": null,
+        "contentIndex": 4,
+        "counter": {
+          "i": 6,
+          "total": 6,
+        },
+        "headline": [
+          [
+            [
+              {
+                "style": "plain",
+                "text": "Kalau besok kita cuma punya satu hari bebas, mau ke mana?",
+              },
+            ],
+          ],
+        ],
+        "headlineSrc": "Kalau besok kita cuma punya satu hari bebas, mau ke mana?",
+        "index": 5,
+        "lines": [
+          26,
+          29,
+        ],
+        "note": [],
+        "photoId": "sample-dusk",
+        "showCta": true,
+        "swipe": null,
+        "type": "card",
+      },
+    ],
+    "slug": "5-pertanyaan-kecil",
+    "template": "editorial/rose-dusk",
+    "title": "5 pertanyaan kecil",
+  },
+  "warnings": [],
+}
+`;
