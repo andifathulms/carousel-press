@@ -1,0 +1,50 @@
+template: dev/paper-light
+lang: id
+title: api itu sebenarnya apa
+caption: Penjelasan API paling sederhana yang aku temuin, dalam satu carousel. #api #belajarcoding #webdev
+---
+[cover kicker="API • DASAR"]
+API Itu | Sebenarnya Apa?
+Penjelasan simpel, tanpa istilah ribet.
+---
+Bayangin kamu di restoran
+Kamu nggak masuk dapur. Kamu pesan lewat pelayan.
+API itu pelayannya: jembatan antara aplikasimu dan sistem lain.
+---
+Aplikasimu kirim *request*
+Isinya: mau apa, ke alamat mana, bawa data apa.
+Alamat itu disebut *endpoint*, misalnya `/users/42`.
+---
+[code]
+Server balas pakai *response*
+Biasanya dalam format JSON.
+```js
+{
+  "id": 42,
+  "name": "Rina",
+  "city": "Makassar"
+}
+```
+---
+Method bilang mau ngapain
+`GET` ambil data. `POST` kirim data baru.
+`PUT` ubah data. `DELETE` hapus data.
+---
+[code]
+Coba sendiri dari JavaScript
+Satu baris buat ambil data dari API.
+```js
+const res = await fetch("/api/users/42");
+const user = await res.json();
+console.log(user.name);
+```
+---
+Status code kasih tahu hasilnya
+`200` berhasil. `404` nggak ketemu.
+`401` belum login. `500` servernya yang error.
+---
+[end]
+Simpan dulu ⭐
+Nanti pas ketemu API pertama kali, buka lagi.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

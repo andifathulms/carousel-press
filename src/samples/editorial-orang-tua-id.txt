@@ -1,0 +1,28 @@
+template: editorial/sage
+lang: id
+title: 5 pertanyaan buat orang tua
+caption: Tanyain pas makan malam nanti. Ceritanya sering nggak terduga 🌿 #keluarga #orangtua #deeptalk
+---
+[cover photo=1]
+5 Pertanyaan | yang Jarang Kita Tanyain ke Orang Tua
+Mereka juga pernah seumuran kita.
+---
+[icon=book]
+Waktu seumuranku, Ayah atau Ibu lagi sibuk ngejar apa?
+Mimpinya, kerjaannya, atau cintanya.
+---
+[icon=home]
+Gimana rasanya pertama kali jadi orang tua?
+Yang takut, yang bingung, yang bahagia.
+---
+[icon=music]
+Lagu apa yang paling kalian dengerin waktu muda?
+Putar bareng. Biasanya ceritanya ikut keluar.
+---
+[icon=lightbulb]
+Keputusan apa yang dulu berat banget, tapi sekarang disyukuri?
+Dengerin sampai selesai, jangan buru-buru nanggepin.
+---
+[cta icon=heart]
+Ada hal yang dari dulu pengen kalian ceritain ke aku?
+Kadang mereka cuma nunggu ditanya.

@@ -1,0 +1,55 @@
+template: dev/github-dark
+lang: id
+title: 5 cara pakai ai buat coding
+caption: Bukan buat gantiin mikir, tapi buat bantu mikir. #ai #belajarcoding #programmer
+---
+[cover kicker="AI • WORKFLOW"]
+5 Cara Pakai AI | yang Beneran Bantu Coding
+Yang aku pakai hampir tiap hari.
+---
+[code]
+Minta jelasin error, bukan cuma fix
+Kamu jadi paham, bukan sekadar copy paste.
+```
+Jelasin kenapa error ini muncul,
+lalu kasih 2 cara memperbaikinya:
+TypeError: Cannot read properties
+of undefined (reading 'map')
+```
+---
+[code]
+Kasih konteks yang cukup
+Sebutin bahasa, framework, dan tujuanmu.
+```
+Aku pakai React + TypeScript.
+Komponen ini harus nampilin daftar
+user dari API. Ini kodenya: ...
+```
+---
+[code]
+Minta review sebelum push
+Anggap AI teman yang teliti.
+```
+Review kode ini. Cari bug,
+edge case, dan nama variabel
+yang kurang jelas.
+```
+---
+[code]
+Pakai buat bikin test
+Seringnya, ini yang paling hemat waktu.
+```
+Tulis unit test buat fungsi ini.
+Sertakan kasus input kosong
+dan input yang salah.
+```
+---
+Tetap cek hasilnya
+AI bisa salah dengan sangat yakin.
+Jalankan, baca, dan pahami kodenya sebelum dipakai.
+---
+[end]
+Simpan dulu ⭐
+Coba satu cara ini di project-mu minggu ini.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

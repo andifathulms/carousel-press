@@ -1,0 +1,32 @@
+template: editorial/rose-dusk
+lang: id
+title: pilih satu versi pasangan
+caption: Jawab di komentar, terus suruh pasanganmu jawab juga 😆 #pilihsatu #pasangan #thisorthat
+---
+[cover photo=1]
+Pilih Satu | Versi Pacaran
+Jawab cepat, jangan kelamaan mikir.
+---
+[icon=coffee]
+Ngedate di kafe ramai, atau masak berdua di rumah?
+Tulis jawabanmu di komentar.
+---
+[icon=chat]
+Chat seharian, atau telepon satu jam sebelum tidur?
+Mana yang lebih bikin kamu ngerasa dekat?
+---
+[icon=plane]
+Liburan direncanain detail, atau berangkat spontan?
+Jujur, biasanya siapa yang nyusun itinerary?
+---
+[icon=gift]
+Kado yang dipilih sendiri, atau kado yang kamu minta?
+Nggak ada jawaban yang salah.
+---
+[icon=sun]
+Kenalan sama keluarganya duluan, atau sama teman-temannya?
+Yang mana yang lebih bikin deg-degan?
+---
+[end]
+Simpan dulu 🤍
+Kirim ke pasanganmu, lihat jawabannya sama atau beda.

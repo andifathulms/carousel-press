@@ -234,7 +234,7 @@ describe('every shipped deck', () => {
     });
   }
   it('dev decks by the owner end with the portfolio line', () => {
-    for (const f of ['dev-linux-id', 'dev-sql-id', 'dev-vscode-id']) {
+    for (const f of readdirSync(new URL('../src/samples/', import.meta.url)).filter((n) => n.startsWith('dev-') && n !== 'dev-git-id.txt').map((n) => n.slice(0, -4))) {
       const end = parse(sample(f)).deck.slides.at(-1)!;
       expect(end.type).toBe('end');
       expect(JSON.stringify(end.body)).toContain('andifathulms.github.io');

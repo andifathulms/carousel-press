@@ -1,0 +1,59 @@
+template: dev/terminal
+lang: id
+title: 6 cara undo di git
+caption: Salah commit itu biasa. Yang penting tahu cara balikinnya. #git #github #belajarcoding
+---
+[cover kicker="GIT • UNDO"]
+Salah di Git? | Ini 6 Cara Undo-nya
+Tenang, hampir semuanya bisa dibalikin.
+---
+[code]
+Typo di pesan commit terakhir
+Belum di-push? Ganti pesannya saja.
+```bash
+git commit --amend -m "pesan baru"
+```
+---
+[code]
+Ada file yang ketinggalan
+Masukkan ke commit terakhir.
+```bash
+git add lupa.js
+git commit --amend --no-edit
+```
+---
+[code]
+Batalkan commit, simpan perubahannya
+Commit hilang, kodenya tetap ada.
+```bash
+git reset --soft HEAD~1
+```
+---
+[code]
+Batalkan commit yang sudah di-push
+Bikin commit baru yang membalik perubahannya.
+```bash
+git revert a1b2c3d
+```
+Aman buat branch yang dipakai bareng.
+---
+[code]
+Keluarkan file dari staging
+Perubahannya tetap ada di file.
+```bash
+git restore --staged app.js
+```
+---
+[code]
+Cari commit yang "hilang"
+Semua posisi HEAD tercatat di sini.
+```bash
+git reflog
+```
+Hati-hati: `git reset --hard` menghapus perubahan yang belum di-commit.
+---
+[end]
+Simpan dulu.
+Nanti pas panik gara-gara Git, buka lagi.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

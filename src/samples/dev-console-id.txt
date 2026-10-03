@@ -1,0 +1,62 @@
+template: dev/github-dark
+lang: id
+title: 5 trik console javascript
+caption: Debugging nggak harus console.log doang. #javascript #debugging #belajarcoding
+---
+[cover kicker="JAVASCRIPT • DEBUGGING"]
+5 Trik `console` | Selain console.log
+Debugging jadi lebih rapi dan cepat.
+---
+[code]
+Tampilkan array sebagai tabel
+Enak buat data dari API.
+```js
+const users = [
+  { name: "Rina", age: 24 },
+  { name: "Budi", age: 27 },
+];
+console.table(users);
+```
+---
+[code]
+Kasih nama variabelnya
+Bungkus pakai kurung kurawal.
+```js
+const total = 120;
+console.log({ total });
+// { total: 120 }
+```
+---
+[code]
+Ukur berapa lama kodenya jalan
+Cocok buat cari bagian yang lambat.
+```js
+console.time("fetch");
+await fetch("/api/users");
+console.timeEnd("fetch");
+```
+---
+[code]
+Kelompokkan log
+Biar console nggak berantakan.
+```js
+console.group("Login");
+console.log("cek email");
+console.log("cek password");
+console.groupEnd();
+```
+---
+[code]
+Lihat jejak pemanggilan fungsi
+Siapa yang manggil fungsi ini?
+```js
+function save() {
+  console.trace("save dipanggil");
+}
+```
+---
+[end]
+Simpan dulu ⭐
+Coba satu trik ini pas debugging berikutnya.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

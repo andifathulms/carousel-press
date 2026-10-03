@@ -1,0 +1,28 @@
+template: editorial/rose-dusk
+lang: id
+title: 5 pertanyaan buat sahabat
+caption: Kirim ke sahabatmu, terus bandingin jawaban kalian 🤍 #sahabat #pertanyaan #deeptalk
+---
+[cover photo=1]
+5 Pertanyaan | Buat Sahabatmu
+Jawab jujur. Nggak ada yang salah.
+---
+[icon=smile]
+Kapan pertama kali kamu ngerasa kita bakal jadi dekat?
+Coba ingat-ingat momennya. Kadang sepele banget.
+---
+[icon=chat]
+Obrolan kita yang paling kamu ingat sampai sekarang?
+Yang lucu, yang serius, atau yang sampai subuh.
+---
+[icon=shield-heart]
+Kapan aku paling ada buat kamu, walau mungkin aku nggak sadar?
+Biar aku tahu apa yang berarti buatmu.
+---
+[icon=gift]
+Hal kecil dariku yang diam-diam kamu syukuri?
+Nggak harus besar. Yang kecil justru sering paling kena.
+---
+[cta icon=star]
+Sepuluh tahun lagi, kamu bayangin kita lagi ngapain?
+Tulis jawabannya, simpan, buka lagi nanti.

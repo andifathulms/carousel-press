@@ -1,0 +1,61 @@
+template: dev/github-dark
+lang: id
+title: akhirnya paham async await
+caption: Butuh waktu lama buat aku paham ini. Semoga kamu lebih cepat. #javascript #asyncawait #belajarcoding
+---
+[cover kicker="BELAJAR • JAVASCRIPT"]
+Akhirnya Aku Paham | `async/await`
+Catatan dari yang tadinya bingung.
+---
+[code]
+Dulu aku kira ini jalan berurutan
+Ternyata `fetch` nggak nunggu.
+```js
+const res = fetch("/api/user");
+console.log(res);
+// Promise { <pending> }
+```
+---
+Promise itu janji
+`fetch` langsung balikin janji: "nanti datanya aku kasih".
+Datanya sendiri belum ada.
+---
+[code]
+`await` artinya: tunggu janjinya
+Kode di bawahnya jalan setelah datanya ada.
+```js
+const res = await fetch("/api/user");
+const user = await res.json();
+console.log(user.name);
+```
+---
+[code]
+`await` cuma bisa di fungsi `async`
+Ini yang dulu bikin aku error terus.
+```js
+async function loadUser() {
+  const res = await fetch("/api/user");
+  return res.json();
+}
+```
+---
+[code]
+Jangan lupa tangani error
+Request bisa gagal kapan saja.
+```js
+try {
+  const user = await loadUser();
+} catch (err) {
+  console.error("Gagal:", err);
+}
+```
+---
+[quote]
+`await` nggak bikin JavaScript berhenti. Cuma fungsi itu yang nunggu.
+— Catatan yang akhirnya bikin aku paham
+---
+[end]
+Simpan dulu ⭐
+Nanti pas bingung lagi, balik ke sini.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

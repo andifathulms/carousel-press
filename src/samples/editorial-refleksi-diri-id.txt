@@ -1,0 +1,28 @@
+template: editorial/midnight
+lang: id
+title: 5 pertanyaan buat diri sendiri
+caption: Nggak perlu dijawab sekarang. Simpan buat malam yang tenang 🌙 #refleksidiri #selfreflection
+---
+[cover photo=1]
+5 Pertanyaan | Buat Dirimu Sendiri
+Jawab pelan-pelan. Nggak ada yang nilai.
+---
+[icon=moon]
+Apa yang akhir-akhir ini paling sering kamu pikirin sebelum tidur?
+Kadang itu tanda ada yang belum selesai.
+---
+[icon=leaf]
+Kebiasaan kecil apa yang bikin harimu terasa lebih baik?
+Udah berapa lama kamu nggak ngelakuinnya?
+---
+[icon=mountain]
+Hal apa yang dulu kamu takutin, tapi sekarang udah bisa kamu hadapi?
+Kamu tumbuh lebih banyak dari yang kamu kira.
+---
+[icon=clock]
+Kalau setahun lagi hidupmu sama persis kayak sekarang, kamu lega atau gelisah?
+Jawabannya nunjukin apa yang sebenarnya kamu mau.
+---
+[cta icon=heart-spark]
+Kalimat apa yang paling pengen kamu dengar hari ini?
+Coba bilang ke dirimu sendiri dulu.

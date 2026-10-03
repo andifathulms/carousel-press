@@ -1,0 +1,28 @@
+template: editorial/sage
+lang: id
+title: 5 obrolan soal uang
+caption: Canggung di awal, tapi bikin lebih tenang ke depannya 🌿 #pasangan #keuangan #deeptalk
+---
+[cover photo=1]
+5 Obrolan Soal Uang | yang Sering Dihindari Pasangan
+Nggak harus serius. Yang penting jujur.
+---
+[icon=home]
+Waktu kecil, gimana keluargamu ngomongin soal uang?
+Cara kita sekarang sering kebawa dari situ.
+---
+[icon=coffee]
+Pengeluaran kecil apa yang bikin kamu bahagia dan nggak mau dikurangin?
+Biar nggak saling ngehakimin nanti.
+---
+[icon=key]
+Kamu tipe yang lebih tenang kalau nabung, atau kalau punya pengalaman?
+Dua-duanya masuk akal. Yang penting saling ngerti.
+---
+[icon=umbrella]
+Kalau ada kondisi darurat, kamu biasanya cerita atau beresin sendiri dulu?
+Biar tahu harus gimana kalau itu terjadi.
+---
+[cta icon=star]
+Satu hal yang pengen kita wujudin bareng beberapa tahun lagi?
+Tulis berdua. Mulai dari yang paling dekat.
