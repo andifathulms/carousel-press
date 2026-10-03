@@ -1,7 +1,7 @@
 node_modules/
-dist/
-dist-review/
-review/
+/dist/
+/dist-review/
+/review/
 .DS_Store
 *.log
 .vite/
