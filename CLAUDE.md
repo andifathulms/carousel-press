@@ -3,6 +3,7 @@
 You are building **Carousel Press**, a static web app that turns a plain-text deck into 1080×1920 TikTok photo-carousel PNGs.
 
 **Read first, in this order:** `PRD.md` (behaviour, deck format, features, milestones) → `DESIGN.md` (every visual number and token) → this file (how to build).
+**Writing deck content** (new decks, posts, samples): read `docs/channels.md` first. It defines the two accounts (Ruang Rasa, Fathul Learn Coding), their tone, pillars, templates and deck recipes.
 If they conflict: DESIGN.md wins on visuals, PRD.md on behaviour, and this file on code structure and tooling. If something isn't specified, choose the simplest option consistent with the three files and write the decision in `docs/decisions.md` (one line each).
 
 ---
