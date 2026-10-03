@@ -200,7 +200,7 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[], opts: P
   let i = 0;
   while (i < L.length && L[i]!.trim() === '') i++;
 
-  let type: SlideType | null = null;
+  let type = null as SlideType | null;
   const attrs: SlideAttrs = {};
   const tagLine = block.start + i;
   const warn = (code: Warning['code'], message: string, line = tagLine): void => {
