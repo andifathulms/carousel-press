@@ -9,8 +9,8 @@ const body: TextSpec = { family: 'Poppins', weight: 400, max: 42, min: 32, step:
 const frame = { x: 96, width: 816, top: 344, limit: 1400 };
 
 const words = (n: number) => Array.from({ length: n }, () => 'kata').join(' ');
-const head = (s: string): StackItem => ({ kind: 'text', role: 'headline', rich: [parseInline(s)], spec: headline, gap: 48 });
-const bod = (s: string): StackItem => ({ kind: 'text', role: 'body', rich: parseRich([s]), spec: body, gap: 48 });
+const head = (s: string): StackItem => ({ kind: 'text', role: 'headline', rich: [parseInline(s)], spec: headline, gap: 48, tone: 'ink' });
+const bod = (s: string): StackItem => ({ kind: 'text', role: 'body', rich: parseRich([s]), spec: body, gap: 48, tone: 'body' });
 const icon: StackItem = { kind: 'icon', h: 120, w: 120, gap: 72 };
 const badge: StackItem = { kind: 'badge', h: 120, w: 120, gap: 0 };
 
@@ -47,7 +47,7 @@ describe('fitStack', () => {
   });
   it('steps a capped block down before others', () => {
     const capped = { ...body, maxLines: 2 };
-    const item: StackItem = { kind: 'text', role: 'body', rich: parseRich([words(18)]), spec: capped, gap: 0 };
+    const item: StackItem = { kind: 'text', role: 'body', rich: parseRich([words(18)]), spec: capped, gap: 0, tone: 'body' };
     const r = fitStack([head('Hi'), item], frame, m);
     expect(r.placed[0]!.size).toBe(92);
     expect(r.placed[1]!.wrap!.lines.length).toBeLessThanOrEqual(2);

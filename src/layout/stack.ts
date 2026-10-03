@@ -34,10 +34,13 @@ export interface CodeSpec {
 
 export type FixedKind = 'badge' | 'number' | 'icon' | 'cta' | 'kicker' | 'attribution';
 
+/** Colour role a renderer uses for a text block. */
+export type Tone = 'ink' | 'body' | 'muted';
+
 export type StackItem =
-  | { kind: 'text'; role: TextRole; rich: Rich; spec: TextSpec; gap: number }
+  | { kind: 'text'; role: TextRole; rich: Rich; spec: TextSpec; gap: number; tone: Tone }
   | { kind: 'code'; lines: CodeLineSrc[]; lang: string; spec: CodeSpec; gap: number }
-  | { kind: FixedKind; h: number; w: number; gap: number };
+  | { kind: FixedKind; h: number; w: number; gap: number; label?: string };
 
 export interface Placed {
   item: StackItem;
