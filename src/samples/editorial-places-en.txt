@@ -1,0 +1,25 @@
+handle: @namaakun
+template: editorial/midnight
+lang: en
+title: quiet places at dusk
+caption: Save this for your next slow evening 🌙 #slowtravel #dusk
+---
+[cover photo=sample-dusk kicker="SLOW EVENINGS"]
+Quiet Places | to Watch the Day End
+Three spots that ask nothing of you.
+---
+[icon=sun]
+A hill with *no* signal
+Walk up an hour before sunset. Leave your phone in your pocket and let the sky change colour on its own.
+---
+[icon=coffee]
+The last table on the terrace
+Order something warm, sit facing west, and stay until the lights come on below you.
+---
+[icon=moon]
+A pier after the boats come in
+The water goes quiet, the gulls settle, and the town sounds a little further away.
+---
+[end photo=sample-dusk]
+Save it for a slow evening.
+Which one would you go to first?

@@ -1,0 +1,29 @@
+handle: @namaakun
+template: editorial/rose-dusk
+lang: id
+title: 5 pertanyaan kecil
+caption: Coba tanya malam ini, terus ceritain hasilnya di komen 🤍 #pertanyaanpasangan #ldr
+---
+[cover photo=1]
+5 Pertanyaan Kecil | yang Bikin Kalian Makin Dekat
+Nggak harus serius. Cukup jujur.
+---
+[icon=heart]
+Apa hal kecil dariku yang diam-diam kamu suka?
+Bukan yang besar-besar. Yang sering kelewat tapi kamu perhatiin.
+---
+[icon=mountain]
+Lima tahun lagi, kamu pengen kita lagi ngapain?
+Nggak usah realistis dulu. Bayangin aja.
+---
+[icon=shield]
+Ada hal yang belum berani kamu ceritain ke aku?
+Boleh dijawab sekarang, boleh juga nanti. Aku tunggu.
+---
+[icon=home]
+Kebiasaan keluargamu yang pengen kamu bawa ke rumah kita?
+Dari cara makan bareng sampai cara menyelesaikan masalah.
+---
+[cta icon=leaf photo=1]
+Kalau besok kita cuma punya satu hari bebas, mau ke mana?
+Siapa tahu ini jadi bahan obrolan kalian nanti.

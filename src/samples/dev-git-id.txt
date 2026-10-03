@@ -1,0 +1,67 @@
+handle: @namaakun
+template: dev/github-dark
+lang: id
+title: 7 perintah git
+caption: Save dulu, nanti pas lupa tinggal buka lagi. #git #programmer #belajarcoding
+---
+[cover kicker="GIT • CHEAT SHEET"]
+7 Perintah Git | yang Wajib Kamu Tahu
+Bukan cuma add, commit, push.
+---
+[code]
+Cek kondisi repo
+Lihat file yang berubah, sudah di-stage, atau belum dilacak.
+```bash
+git status
+```
+---
+[code]
+Stage sebagian perubahan
+Pilih potongan perubahan satu per satu sebelum commit.
+```bash
+git add -p
+```
+Tekan y untuk ambil, n untuk lewati.
+---
+[code]
+Perbaiki commit terakhir
+Ganti pesan atau tambahkan file yang ketinggalan.
+```bash
+git add file-ketinggalan.js
+git commit --amend
+```
+Jangan dipakai untuk commit yang sudah di-push ke branch bersama.
+---
+[code]
+Simpan kerjaan sementara
+Bersihkan working tree tanpa commit, lalu ambil lagi nanti.
+```bash
+git stash
+git stash pop
+```
+---
+[code]
+Lihat riwayat dengan ringkas
+Satu baris per commit, lengkap dengan grafik branch.
+```bash
+git log --oneline --graph
+```
+---
+[code]
+Pindah ke branch baru
+Buat branch dan langsung pindah ke sana.
+```bash
+git switch -c fitur-login
+```
+---
+[code]
+Buang perubahan di satu file
+Kembalikan file ke versi commit terakhir.
+```bash
+git restore app.js
+```
+Hati-hati: perubahan yang belum di-commit hilang permanen.
+---
+[end]
+Save dulu.
+Nanti pas lupa Git, kamu bakal nyari ini lagi.
