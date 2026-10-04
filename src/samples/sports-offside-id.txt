@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: offside dijelaskan
+caption: Aturan yang paling sering diperdebatkan, dalam 8 slide. Sumber: IFAB Laws of the Game 2026/27, Law 11 #sepakbola #offside #aturanbola
+---
+[cover kicker="SEPAK BOLA • PERATURAN 11" photo=sport-offside-line]
+Offside, | Dijelaskan dengan Benar
+Berdiri di posisi offside saja belum tentu pelanggaran.
+---
+[photo=sport-ball-kick]
+Posisi offside bukan pelanggaran
+Peraturannya jelas: berada di posisi offside bukan pelanggaran. Yang dihukum adalah ikut terlibat dalam permainan dari posisi itu.
+---
+[photo=sport-corner-flag]
+Apa itu posisi offside
+Kamu ada di separuh lapangan lawan, dan bagian kepala, badan, atau kakimu lebih dekat ke garis gawang lawan daripada bola dan lawan kedua terakhir. Biasanya lawan terakhir itu kiper.
+---
+[photo=sport-level-pair]
+Tangan tidak dihitung
+Tangan dan lengan semua pemain diabaikan, termasuk kiper. Batas lengan ada di garis bawah ketiak, jadi bahu tetap dihitung.
+---
+[photo=sport-level-pair]
+Sejajar berarti onside
+Sejajar dengan lawan kedua terakhir, atau dengan dua lawan terakhir, tidak termasuk posisi offside. Di sini keputusan sering ditentukan beberapa sentimeter.
+---
+[photo=sport-linesman-flag]
+Kapan dihukum
+Hanya kalau kamu ikut terlibat saat rekan setim memainkan atau menyentuh bola: memainkan bola, mengganggu lawan, atau mendapat keuntungan dari bola pantulan.
+---
+[photo=sport-ball-kick]
+Bola dari lawan yang sengaja memainkannya
+Kalau bola datang dari lawan yang sengaja memainkannya, kamu tidak dianggap mendapat keuntungan, meski operannya meleset. Pengecualiannya penyelamatan, misalnya tepisan kiper.
+---
+[photo=sport-corner-flag]
+Tidak ada offside dari sini
+Langsung dari tendangan gawang, lemparan ke dalam, atau tendangan sudut. Tendangan bebas tidak termasuk, jadi kamu tetap bisa offside dari situ.
+---
+[photo=sport-referee-signal]
+Hukumannya
+Tendangan bebas tidak langsung di tempat pelanggaran terjadi, bahkan kalau itu di separuh lapangan pemain sendiri.
+---
+[end photo=sport-offside-line]
+Simpan buat debat VAR berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.

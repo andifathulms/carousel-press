@@ -21,11 +21,11 @@ import yupa from './sejarah-yupa-id.txt?raw';
 import syarifKasim from './sejarah-syarif-kasim-id.txt?raw';
 import baabullah from './sejarah-baabullah-id.txt?raw';
 import bongaya from './sejarah-bongaya-id.txt?raw';
-import offside from './sports-offside-en.txt?raw';
-import handball from './sports-handball-en.txt?raw';
-import tennisScoring from './sports-tennis-scoring-en.txt?raw';
-import badmintonScoring from './sports-badminton-scoring-en.txt?raw';
-import badmintonService from './sports-badminton-service-en.txt?raw';
+import offside from './sports-offside-id.txt?raw';
+import handball from './sports-handball-id.txt?raw';
+import tennisScoring from './sports-tennis-scoring-id.txt?raw';
+import badmintonScoring from './sports-badminton-scoring-id.txt?raw';
+import badmintonService from './sports-badminton-service-id.txt?raw';
 import places from './editorial-places-en.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
@@ -77,9 +77,9 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sejarah-baabullah-id', name: 'Sultan Baabullah mengusir Portugis (sejarah, id)', category: 'history', text: baabullah },
   { id: 'sejarah-bongaya-id', name: 'Perjanjian Bongaya (sejarah, id)', category: 'history', text: bongaya },
   // Owner decks: Whistle Notes (photos bundled in ./photos)
-  { id: 'sports-offside-en', name: 'Offside, explained (sports, en)', category: 'sports', text: offside },
-  { id: 'sports-handball-en', name: 'Handball, explained (sports, en)', category: 'sports', text: handball },
-  { id: 'sports-tennis-scoring-en', name: 'Tennis scoring 15-30-40 (sports, en)', category: 'sports', text: tennisScoring },
-  { id: 'sports-badminton-scoring-en', name: 'Badminton scoring is changing (sports, en)', category: 'sports', text: badmintonScoring },
-  { id: 'sports-badminton-service-en', name: 'The badminton serve (sports, en)', category: 'sports', text: badmintonService },
+  { id: 'sports-offside-id', name: 'Offside, dijelaskan (sports, id)', category: 'sports', text: offside },
+  { id: 'sports-handball-id', name: 'Handball, dijelaskan (sports, id)', category: 'sports', text: handball },
+  { id: 'sports-tennis-scoring-id', name: 'Skor tenis 15-30-40 (sports, id)', category: 'sports', text: tennisScoring },
+  { id: 'sports-badminton-scoring-id', name: 'Skor bulu tangkis berubah (sports, id)', category: 'sports', text: badmintonScoring },
+  { id: 'sports-badminton-service-id', name: 'Servis bulu tangkis (sports, id)', category: 'sports', text: badmintonService },
 ];

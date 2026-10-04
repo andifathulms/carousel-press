@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: hitungan skor tenis
+caption: 15, 30, 40, dan tidak ada yang tahu pasti kenapa. Sumber: ITF Rules of Tennis 2026, Rules 5–7 & Appendix VI; Grand Slam Rule Book 2026, Art. L #tenis #aturantenis #olahraga
+---
+[cover kicker="TENIS • ATURAN 5–7" photo=sport-tennis-ball]
+Kenapa Tenis Menghitung | 15, 30, 40
+Dan apa yang terjadi saat deuce.
+---
+[photo=sport-tennis-scorecards]
+Poin dalam satu gim
+Love (nol), 15, 30, 40, lalu gim. Skor pemain yang servis selalu disebut lebih dulu.
+---
+[photo=sport-tennis-swing]
+Deuce
+Di 40-40 disebut deuce. Dari situ kamu perlu dua poin beruntun: advantage, lalu gim. Kalau kehilangan satu poin, skor kembali deuce.
+---
+[photo=sport-tennis-court-lines]
+Enam gim untuk satu set
+Siapa yang lebih dulu enam gim, dengan selisih minimal dua. Di 6-6 biasanya dimainkan tie-break, kecuali turnamennya memakai set advantage.
+---
+[photo=sport-tennis-scorecards]
+Tie-break
+Poin dihitung 1, 2, 3. Yang lebih dulu tujuh poin, dengan selisih dua, memenangkan gim dan set. Setelah poin pertama, servis berganti tiap dua poin.
+---
+[photo=sport-tennis-swing]
+No-Ad: satu poin penentu
+Di format No-Ad, saat deuce langsung dimainkan satu poin penentu. Penerima servis memilih menerima dari sisi kanan atau kiri.
+---
+[photo=sport-tennis-court-lines]
+Set penentuan di Grand Slam
+Sejak 2022, keempat Grand Slam memakai tie-break sampai 10 poin di skor 6-6 set penentuan. Sebelumnya, tiap turnamen punya aturan sendiri.
+---
+[photo=sport-jeu-de-paume]
+Jadi kenapa 15, 30, 40?
+Tidak ada yang tahu pasti. Sistem ini berasal dari abad pertengahan, dari real tennis. Teori jarum jam populer, tapi sejarawan meragukannya karena jam masa itu belum punya jarum menit.
+---
+[photo=sport-ballhaus-1606]
+Kenapa bukan 45?
+Catatan awal memang menyebut 45. Salah satu teori: disingkat jadi 40 supaya lebih cepat diucapkan. Itu teori, bukan fakta yang tercatat.
+---
+[end photo=sport-tennis-ball]
+Simpan buat nonton pertandingan berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.

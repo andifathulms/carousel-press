@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: servis bulu tangkis
+caption: Kenapa banyak servis dinyatakan fault. Sumber: BWF Laws of Badminton (2025), Law 9 & Law 10 #bulutangkis #badminton #servis
+---
+[cover kicker="BULU TANGKIS • LAW 9" photo=sport-badminton-serve]
+Servis Bulu Tangkis, | Dijelaskan
+Kenapa banyak servis dinyatakan fault.
+---
+[photo=sport-badminton-low-hit]
+Pukul di bawah 1,15 m
+Seluruh kok harus berada di bawah 1,15 meter dari permukaan lapangan saat raket mengenainya. Bukan hanya pangkalnya, tapi seluruh kok.
+---
+[photo=sport-badminton-low-hit]
+Tinggi tetap sejak 2018
+Dulu hakim servis membandingkan tinggi pukulan dengan pinggang pemain. BWF menguji tinggi tetap mulai Maret 2018 dan menjadikannya permanen di tahun yang sama.
+---
+[photo=sport-shuttlecock]
+Pangkal kok dulu, tanpa putaran
+Raket harus mengenai pangkal kok lebih dulu. Sejak 2025, memberi putaran saat melepas kok tidak diperbolehkan.
+---
+[photo=sport-badminton-feet]
+Kaki tetap menapak
+Pemain yang servis dan penerima sama-sama menjaga sebagian kedua kakinya tetap di lantai, tidak bergerak, sampai servis dipukul.
+---
+[photo=sport-badminton-feet]
+Raket terus bergerak maju
+Begitu servis dimulai, raket harus terus bergerak ke depan. Jeda setelah ayunan ke belakang dihitung sebagai penundaan yang tidak semestinya.
+---
+[photo=sport-badminton-serve]
+Kapan servis dimulai?
+Servis dimulai pada gerakan maju pertama kepala raket. Penerima dianggap sudah siap kalau ia mencoba mengembalikan kok.
+---
+[photo=sport-badminton-court]
+Petak servis diagonal
+Pemain yang servis dan penerima berdiri di petak servis yang berseberangan secara diagonal, tanpa menyentuh garis.
+---
+[photo=sport-badminton-court]
+Kanan atau kiri?
+Di tunggal, servis dari kanan saat skormu nol atau genap, dan dari kiri saat ganjil.
+---
+[end photo=sport-badminton-serve]
+Simpan buat main berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.

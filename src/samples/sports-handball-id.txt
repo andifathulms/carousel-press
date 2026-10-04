@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: handball dijelaskan
+caption: Tidak semua sentuhan tangan itu handball. Sumber: IFAB Laws of the Game 2026/27, Law 12 #sepakbola #handball #aturanbola
+---
+[cover kicker="SEPAK BOLA • PERATURAN 12" photo=sport-goalkeeper]
+Handball, | Dijelaskan dengan Benar
+Tidak semua sentuhan tangan itu pelanggaran.
+---
+[photo=sport-kids-soccer]
+Tidak semua sentuhan itu pelanggaran
+Peraturannya bilang langsung: tidak setiap sentuhan tangan atau lengan dengan bola adalah pelanggaran. Wasit melihat bagaimana sentuhan itu terjadi.
+---
+[photo=sport-hands-up]
+Di mana lengan dimulai
+Di garis bawah ketiak. Bola yang mengenai bahu, di atas garis itu, bukan handball.
+---
+[photo=sport-handball-1950s]
+Pelanggaran 1: sengaja
+Sengaja menyentuh bola dengan tangan atau lengan. Contoh klasiknya: menggerakkan tangan ke arah bola.
+---
+[photo=sport-handball-1950s]
+Pelanggaran 2: badan dibuat lebih besar
+Kalau posisi lenganmu tidak wajar untuk gerakan badanmu saat itu, kamu mengambil risiko. Bola kena lengan? Pelanggaran.
+---
+[photo=sport-hands-up]
+Pelanggaran 3: gol dari tangan
+Mencetak gol langsung dari tangan atau lengan, atau tepat setelah bola menyentuhnya, adalah pelanggaran. Meski tidak sengaja, dan berlaku juga untuk kiper.
+---
+[photo=sport-kids-soccer]
+Ketidaksengajaan rekan setim tidak dihukum
+Sejak 2021, handball tidak sengaja yang lalu menghasilkan gol rekan setim bukan lagi pelanggaran. Yang dihukum hanya tangan si pencetak gol.
+---
+[photo=sport-keeper-gloves]
+Bagaimana dengan kiper?
+Di luar kotak penaltinya, kiper punya batasan yang sama dengan pemain lain. Di dalam kotaknya sendiri, pelanggaran memegang bola dihukum tendangan bebas tidak langsung, tanpa kartu.
+---
+[photo=sport-penalty-1950s]
+Hukumannya
+Tendangan bebas langsung, atau penalti di kotak sendiri. Sengaja menggagalkan gol dengan tangan berarti kartu merah, kecuali kiper di kotaknya sendiri.
+---
+[end photo=sport-goalkeeper]
+Simpan buat debat penalti berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.

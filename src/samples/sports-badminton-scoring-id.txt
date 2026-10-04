@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: skor bulu tangkis berubah
+caption: Bulu tangkis ganti dari 21 ke 15 poin mulai 4 Jan 2027. Sumber: BWF Laws of Badminton (2025), Laws 7, 8 & 16; Laws 2027 disahkan 25 Apr 2026, berlaku 4 Jan 2027 #bulutangkis #badminton #bwf
+---
+[cover kicker="BULU TANGKIS • LAW 7" photo=sport-badminton-racket]
+Skor Bulu Tangkis | Akan Berubah
+Cara kerjanya sekarang, dan apa yang berubah Januari 2027.
+---
+[photo=sport-badminton-net-talk]
+Menang dua gim
+Satu pertandingan dimainkan best of three: yang lebih dulu menang dua gim. Bagian ini tidak berubah.
+---
+[photo=sport-badminton-smash]
+Setiap reli jadi poin
+Menang reli, dapat poin, siapa pun yang servis. Inilah sistem reli poin. Pemenang reli juga mendapat giliran servis berikutnya.
+---
+[photo=sport-badminton-rackets]
+Sekarang: sampai 21
+Di 20-20, harus unggul dua poin. Di 29-29, siapa pun yang mencetak poin ke-30 menang. Jadi skor gim paling panjang 30-29.
+---
+[photo=sport-badminton-break]
+Jeda dan pindah tempat
+Ada jeda maksimal 60 detik saat skor tertinggi mencapai 11, dan maksimal 120 detik antargim. Di gim ketiga, pemain pindah tempat di poin 11.
+---
+[photo=sport-badminton-rackets]
+Mulai 4 Januari 2027: sampai 15
+Anggota BWF menyetujuinya pada April 2026. Di 14-14 harus unggul dua poin. Di 20-20, poin ke-21 yang menentukan.
+---
+[photo=sport-badminton-break]
+Yang ikut bergeser
+Jeda di tengah gim dan pindah tempat di gim ketiga bergeser dari poin 11 ke poin 8. Format tiga gim tetap.
+---
+[photo=sport-badminton-net-talk]
+Format 5×11 pernah ditolak
+Usulan lima gim sampai 11 poin, yang diajukan Indonesia dan Maladewa, divoting pada 2021. Dukungannya 66,31%, sedikit di bawah syarat dua pertiga.
+---
+[photo=sport-badminton-smash]
+Pernah berubah sebelumnya
+Sampai 2006, kebanyakan gim dimainkan sampai 15 dan hanya pihak yang servis bisa mencetak poin. Sistem reli sampai 21 berlaku sejak 2006.
+---
+[end photo=sport-badminton-racket]
+Simpan sebelum Januari.
+Mau dibahas aturan apa lagi? Tulis di komen.
