@@ -3,7 +3,7 @@ lang: en
 title: handball explained
 caption: Not every touch is a foul. Source: IFAB Laws of the Game 2026/27, Law 12 #football #handball #sportsrules
 ---
-[cover kicker="FOOTBALL • LAW 12"]
+[cover photo=sport-goalkeeper kicker="FOOTBALL • LAW 12"]
 Handball, | Explained Properly
 Not every touch is a foul.
 ---
@@ -28,6 +28,6 @@ Since 2021, an accidental handball that sets up a teammate's goal is no longer a
 The punishment
 A direct free kick, or a penalty in your own box. Deliberately stopping a goal with your hand is a red card, except a goalkeeper in their own box.
 ---
-[end]
+[end photo=sport-goalkeeper]
 Save this for the next penalty debate.
 Which rule should we break down next?

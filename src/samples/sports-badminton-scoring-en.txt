@@ -3,7 +3,7 @@ lang: en
 title: badminton scoring is changing
 caption: Badminton goes from 21 to 15 points on 4 Jan 2027. Source: BWF Laws of Badminton (2025), Laws 7, 8 & 16; 2027 Laws adopted 25 Apr 2026, effective 4 Jan 2027 #badminton #bwf #sportsrules
 ---
-[cover kicker="BADMINTON • LAW 7"]
+[cover photo=sport-badminton-racket kicker="BADMINTON • LAW 7"]
 Badminton Scoring | Is About to Change
 How it works now, and what changes in January 2027.
 ---
@@ -28,6 +28,6 @@ The mid-game break, and the change of ends in game three, move from 11 points to
 It has changed before
 Until 2006, games mostly went to 15 and only the serving side could score. Rally scoring to 21 arrived in 2006.
 ---
-[end]
+[end photo=sport-badminton-racket]
 Save this before January.
 Which rule should we break down next?

@@ -3,7 +3,7 @@ lang: en
 title: offside explained
 caption: The rule everyone argues about, in 7 slides. Source: IFAB Laws of the Game 2026/27, Law 11 #football #offside #sportsrules
 ---
-[cover kicker="FOOTBALL • LAW 11"]
+[cover photo=sport-offside-line kicker="FOOTBALL • LAW 11"]
 Offside, | Explained Properly
 No, you're not offside just for standing there.
 ---
@@ -28,6 +28,6 @@ Straight from a goal kick, a throw-in or a corner kick. Free kicks aren't on the
 The punishment
 An indirect free kick where the offence happened, even if that's in the player's own half.
 ---
-[end]
+[end photo=sport-offside-line]
 Save this for the next VAR argument.
 Which rule should we break down next?

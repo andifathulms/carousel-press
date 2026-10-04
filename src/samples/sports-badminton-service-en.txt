@@ -3,7 +3,7 @@ lang: en
 title: badminton serve explained
 caption: Why so many serves get called as faults. Source: BWF Laws of Badminton (2025), Law 9 & Law 10 #badminton #bwf #sportsrules
 ---
-[cover kicker="BADMINTON • LAW 9"]
+[cover photo=sport-badminton-serve kicker="BADMINTON • LAW 9"]
 The Badminton Serve, | Explained
 Why so many serves get called as faults.
 ---
@@ -28,6 +28,6 @@ Server and receiver stand in diagonally opposite service courts, without touchin
 Right or left?
 In singles, serve from the right when your score is zero or even, and from the left when it's odd.
 ---
-[end]
+[end photo=sport-badminton-serve]
 Save this for your next game.
 Which rule should we break down next?
