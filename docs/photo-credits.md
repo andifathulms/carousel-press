@@ -71,3 +71,17 @@ Sports card photos are all CC0 or public domain (Commons; Nationaal Archief, Uns
 - `sport-shuttlecock`: Shuttlecock.jpg (PD)
 - `sport-badminton-feet`: J._van_Beusekom_in_aktie_badminton,_Bestanddeelnr_921-2194.jpg
 - `sport-badminton-court`: Badminton_court.jpg
+
+## Second batch (Oct 2026)
+
+History photos (Commons; credit lines are in each deck's caption):
+
+| Prefix | Deck | Licences |
+|---|---|---|
+| banjar- | sejarah-banjar-id | W.A. van Rees lithographs (PD); Ilham Mufti Laksono, Tim WikiBarakat – WikiBanua, Herusutimbul (CC BY-SA 4.0); Ahyaru Andrestyo (PD-self) |
+| nama- | sejarah-nama-kota-kaltim-id | KITLV / Leiden University Libraries (CC BY 4.0); Sri Wahyuni Nur Indah Sari (CC BY-SA 4.0); Bloesafir Pamanjagau (CC BY 3.0); Unsplash, consigliere ivan (CC0). The Tenggarong photo (2011) shows the bridge that collapsed in Nov 2011. |
+| rotterdam- | sejarah-fort-rotterdam-id | C.W.M. van de Velde 1845, AMH floor plan (PD); Rijksmuseum (CC0); Sanko, Heandra (CC BY-SA 3.0); Oceanmuse (CC BY 4.0); Nourish25 (CC0) |
+| tambora- | sejarah-tambora-id | NASA (PD); Zollinger 1855 map, Raffles engraving (PD); Rijksmuseum (CC0); Felix Dance (CC BY 2.0); Georesearch Volcanedo, Budi Wasisto (CC BY-SA 4.0); Tisquesusa (CC BY 4.0) |
+| risaju- | sejarah-opu-daeng-risaju-id | Silentwinner (CC0); Midori (CC BY 3.0); Jorge Franganillo (CC BY 2.0); KITLV (CC BY 4.0). No freely licensed portrait of Opu Daeng Risaju exists; the Sarekat Islam photo is a meeting in Blitar (Java). |
+
+Sports photos (`sport-bb-`, `sport-voli-`, `sport-backpass-`, `sport-shotclock-`, `sport-kriket-`) are all CC0 or public domain (Unsplash via Commons, Nationaal Archief, US government/DVIDS, a 1908 basketball guide), so they need no credit.

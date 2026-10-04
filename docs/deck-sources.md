@@ -59,3 +59,19 @@ Photo licences are in [photo-credits.md](photo-credits.md).
 ## Added in the second pass (Oct 2026)
 
 Extra sentences and cards use only facts from the reports above: Islam in Kutai (Tuan Tunggang Parangan c. 1575, title "sultan" from Aji Muhammad Idris 1735–1778, kaltimkece/Sarip), Bupati Syaukani's 1999 proposal and Sultan Arifin from 15 Dec 2018 (Afriandi & Ariyadi; kaltimkece), Purnawarman's inscriptions being later than the yupa (Sarip 2020), Istana Siak built 1889 and death in Rumbai 1968 (DJKN Kemenkeu; Yupa 4(1) 2020), Drake's 1579 visit (Hanna & Des Alwi), Karaeng Tallo signing 9 Mar 1668, five bastions in the 1670s, Hasanuddin's death 12 Jun 1670 and Keppres 087/TK/1973 (Sagimun; Atlas of Mutual Heritage; Setneg). Sports: deliberate play by a defender (Law 11.2), goalkeeper handling (Law 12), No-Ad deciding point (ITF Appendix VI), the 2021 5×11 vote at 66.31% proposed by Indonesia and the Maldives (BWF news 22 May 2021), start of service (BWF Law 9.2/9.4).
+
+## Third batch (Oct 2026)
+
+### History
+- **sejarah-banjar-id:** Norpikriadi, Naditira Widya 8(2) 2014 (BRIN); Susanto, Naditira Widya 2018; Al-Banjari 21(2) 2022 citing Helius Sjamsuddin, *Pegustian dan Temenggung* (2001); UIN Antasari thesis; Setneg list (Keppres 06/TK/1968). Disputed and left vague: the exact June 1859 day, the Keppres date, the 2010 revival date.
+- **sejarah-nama-kota-kaltim-id:** Pemkot Balikpapan (web.balikpapan.go.id); Sarip & Nandini, Yupa 5(2) 2021; Sheilla & Sarip, Jurnal Riset Inossa 6(2) 2024; Perda Kabupaten Kutai No. 2/1997 (1782); Sarip, Yupa 4(2) 2020; Rifani, Jurnal Mahakam 1(1) 2012. Legends are labelled as legends; the 1739 year of the planks legend is left out (its source can't support it).
+- **sejarah-fort-rotterdam-id:** Universitas Hasanuddin thesis (repository.unhas.ac.id); UNM papers; Kompas TV citing Peter Carey, *Takdir* (Diponegoro arrived 11 Jul 1833, not 1834); Disbudpar Sulsel. Left out: the founding year (1545 vs c. 1634) and the turtle-shape philosophy.
+- **sejarah-tambora-id:** Bernice de Jong Boers, *Indonesia* 60 (1995); Oppenheimer 2003; Bo' Sangaji Kai (ed. Chambert-Loir & Siti Maryam 1999, via GNFI); URI news 2006; Setkab 2015. Death tolls differ by author, so the deck gives ~10,000 direct and "puluhan ribu" after.
+- **sejarah-opu-daeng-risaju-id:** Kemdikbud, *Sejarah Indonesia Kelas XII* (2018) pp. 42–44; Amir & Azis, Al-Qalam 28(2) 2022; Setneg list (Keppres 085/TK/2006). Left out: "first female National Hero from Sulsel" (unconfirmed) and details of the torture.
+
+### Sports
+- **sports-basket-travelling-id:** FIBA Official Basketball Rules 2026 (valid 1 Oct 2026) Art. 25 & 22.2; NBA Rulebook 2025-26 Rule 10 Sec. XIII; NBA 2019 gather clarification. The 2017 FIBA date is from secondary sources.
+- **sports-voli-rotasi-id:** FIVB Official Volleyball Rules 2025–2028, Rules 7 & 19 (serving team free to stand anywhere since 2025). The 2026 receiving-team trial is not in the deck.
+- **sports-backpass-id:** IFAB Laws of the Game 2026/27, Law 12.2 & 13.2; IFAB Laws 1992-93 (30 May 1992). Euro 1992 / Barcelona 1992 and the late-1990s throw-in clause are secondary but consistent.
+- **sports-shotclock-id:** FIBA OBR 2026 Art. 29; NBA Rulebook 2025-26 Rule 7; NBA.com 1954-55 season review; NBA 2018 rule changes. The 19–18 game (22 Nov 1950) is secondary; FIBA's switch year from 30 to 24 is left out.
+- **sports-kriket-lbw-id:** MCC Laws of Cricket, 2017 Code 4th Edition (2026), Law 36; Wisden Almanack 2024 (1774); ICC WTC 2025–27 Playing Conditions, App. D (umpire's call).

@@ -33,3 +33,4 @@ One line each. Things the specs left open, or deliberate deviations.
 - History and sports decks have a photo on every slide (4–6 distinct per deck). Very busy photos are toned down in the file itself (sport-kids-soccer, sport-tennis-scorecards) rather than raising the deck's darkness.
 - `npm run review` fetches one template × sample per call: with photos on every slide even one template's PNGs exceed Playwright's message limit.
 - Whistle Notes decks are Indonesian (owner decision, Oct 2026); rulebook names stay English in captions.
+- `npm run review` writes each batch to disk as it arrives; holding ~2,000 photo-backed PNGs exhausted Node's heap.
