@@ -21,6 +21,11 @@ import yupa from './sejarah-yupa-id.txt?raw';
 import syarifKasim from './sejarah-syarif-kasim-id.txt?raw';
 import baabullah from './sejarah-baabullah-id.txt?raw';
 import bongaya from './sejarah-bongaya-id.txt?raw';
+import offside from './sports-offside-en.txt?raw';
+import handball from './sports-handball-en.txt?raw';
+import tennisScoring from './sports-tennis-scoring-en.txt?raw';
+import badmintonScoring from './sports-badminton-scoring-en.txt?raw';
+import badmintonService from './sports-badminton-service-en.txt?raw';
 import places from './editorial-places-en.txt?raw';
 
 export interface Sample {
@@ -59,4 +64,10 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sejarah-syarif-kasim-id', name: 'Sultan Syarif Kasim II (sejarah, id)', text: syarifKasim },
   { id: 'sejarah-baabullah-id', name: 'Sultan Baabullah mengusir Portugis (sejarah, id)', text: baabullah },
   { id: 'sejarah-bongaya-id', name: 'Perjanjian Bongaya (sejarah, id)', text: bongaya },
+  // Owner decks: Whistle Notes
+  { id: 'sports-offside-en', name: 'Offside, explained (sports, en)', text: offside },
+  { id: 'sports-handball-en', name: 'Handball, explained (sports, en)', text: handball },
+  { id: 'sports-tennis-scoring-en', name: 'Tennis scoring 15-30-40 (sports, en)', text: tennisScoring },
+  { id: 'sports-badminton-scoring-en', name: 'Badminton scoring is changing (sports, en)', text: badmintonScoring },
+  { id: 'sports-badminton-service-en', name: 'The badminton serve (sports, en)', text: badmintonService },
 ];

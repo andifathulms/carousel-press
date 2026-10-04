@@ -1,0 +1,33 @@
+template: dev/paper-light
+lang: en
+title: tennis scoring explained
+caption: 15, 30, 40, and nobody knows exactly why. Source: ITF Rules of Tennis 2026, Rules 5–7 & Appendix VI; Grand Slam Rule Book 2026, Art. L #tennis #sportsrules #tennisrules
+---
+[cover kicker="TENNIS • RULES 5–7"]
+Why Tennis Counts | 15, 30, 40
+And what actually happens at deuce.
+---
+Points in a game
+Love, 15, 30, 40, game. The server's score is always called first.
+---
+Deuce
+At 40-all it's deuce. Now you need two points in a row: advantage, then game.
+---
+Six games win a set
+First to six games, at least two clear. At 6-all a tie-break decides it, unless the event plays advantage sets.
+---
+The tie-break
+Points count 1, 2, 3. First to seven, at least two clear, wins the game and the set.
+---
+Grand Slam final sets
+Since 2022, all four majors play a first-to-10 tie-break at 6-all in the deciding set.
+---
+So why 15, 30, 40?
+Nobody knows for sure. The scoring is medieval and comes from real tennis. A clock-face theory is popular, but historians doubt it.
+---
+And why not 45?
+Early records do say 45. One theory: it got shortened to 40 because it's quicker to say.
+---
+[end]
+Save this for your next match.
+Which rule should we break down next?
