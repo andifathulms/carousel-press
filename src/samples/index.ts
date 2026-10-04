@@ -31,6 +31,11 @@ import namaKotaKaltim from './sejarah-nama-kota-kaltim-id.txt?raw';
 import fortRotterdam from './sejarah-fort-rotterdam-id.txt?raw';
 import tambora from './sejarah-tambora-id.txt?raw';
 import opuDaengRisaju from './sejarah-opu-daeng-risaju-id.txt?raw';
+import basketTravelling from './sports-basket-travelling-id.txt?raw';
+import voliRotasi from './sports-voli-rotasi-id.txt?raw';
+import backpass from './sports-backpass-id.txt?raw';
+import shotclock from './sports-shotclock-id.txt?raw';
+import kriketLbw from './sports-kriket-lbw-id.txt?raw';
 import places from './editorial-places-en.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
@@ -92,4 +97,9 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sports-tennis-scoring-id', name: 'Skor tenis 15-30-40 (sports, id)', category: 'sports', text: tennisScoring },
   { id: 'sports-badminton-scoring-id', name: 'Skor bulu tangkis berubah (sports, id)', category: 'sports', text: badmintonScoring },
   { id: 'sports-badminton-service-id', name: 'Servis bulu tangkis (sports, id)', category: 'sports', text: badmintonService },
+  { id: 'sports-basket-travelling-id', name: 'Travelling basket, dijelaskan (sports, id)', category: 'sports', text: basketTravelling },
+  { id: 'sports-voli-rotasi-id', name: 'Rotasi dan libero voli (sports, id)', category: 'sports', text: voliRotasi },
+  { id: 'sports-backpass-id', name: 'Aturan backpass (sports, id)', category: 'sports', text: backpass },
+  { id: 'sports-shotclock-id', name: 'Kenapa shot clock 24 detik (sports, id)', category: 'sports', text: shotclock },
+  { id: 'sports-kriket-lbw-id', name: 'LBW kriket, dijelaskan (sports, id)', category: 'sports', text: kriketLbw },
 ];

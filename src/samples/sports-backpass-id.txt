@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: aturan backpass
+caption: Kenapa kiper tidak boleh menangkap backpass. Sumber: IFAB Laws of the Game 2026/27, Law 12.2 & 13.2; IFAB Laws of the Game 1992-93 #sepakbola #backpass #aturanbola
+---
+[cover kicker="SEPAK BOLA • PERATURAN 12" photo=sport-backpass-keeper-dusk]
+Kenapa Kiper Tidak Boleh | Menangkap Backpass
+Aturan yang lahir pada 1992.
+---
+[photo=sport-backpass-keeper-hands]
+Aturannya
+Kiper di kotak penaltinya tidak boleh menyentuh bola dengan tangan kalau bola itu sengaja ditendang rekan setim kepadanya.
+---
+[photo=sport-backpass-throw-in]
+Juga dari lemparan ke dalam
+Bola yang datang langsung dari lemparan ke dalam rekan setim juga tidak boleh dipegang kiper. Bagian ini ditambahkan belakangan, pada akhir 1990-an.
+---
+[photo=sport-backpass-ball-feet]
+Harus ditendang, dan disengaja
+Sundulan, dada, atau lutut ke kiper boleh ditangkap. Bola yang tidak sengaja mengenai kaki rekan juga boleh.
+---
+[photo=sport-backpass-catch-1970s]
+Akal-akalan dihukum
+Sengaja mencungkil bola lalu menyundulnya ke kiper untuk mengakali aturan tetap pelanggaran, plus kartu kuning, meski kiper tidak memegang bolanya.
+---
+[photo=sport-backpass-goal-fog]
+Hukumannya
+Tendangan bebas tidak langsung. Kalau terjadi di kotak kecil, bola ditaruh di garis kotak kecil terdekat, dan pemain bertahan boleh berdiri di garis gawang.
+---
+[photo=sport-backpass-ball-feet]
+Lahir pada 1992
+IFAB mengesahkannya pada 30 Mei 1992 untuk memberantas buang-buang waktu. Piala Dunia 1990, yang penuh backpass dan mengulur waktu, sering disebut sebagai pemicunya.
+---
+[photo=sport-backpass-catch-1970s]
+Euro 1992 masih boleh
+Euro 1992 jadi turnamen besar terakhir tanpa aturan ini. Olimpiade Barcelona 1992 termasuk yang pertama memakainya.
+---
+[photo=sport-backpass-keeper-hands]
+Sekarang ada aturan delapan detik
+Sejak 2025/26, kiper yang memegang bola lebih dari delapan detik dihukum tendangan sudut untuk lawan, bukan lagi tendangan bebas tidak langsung.
+---
+[end photo=sport-backpass-keeper-dusk]
+Simpan buat debat bola berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.

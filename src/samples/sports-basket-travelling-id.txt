@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: travelling basket dijelaskan
+caption: Kenapa langkah itu sah, dan kapan jadi travelling. Sumber: FIBA Official Basketball Rules 2026 (berlaku 1 Okt 2026), Art. 25 & 22.2; NBA Official Rulebook 2025-26, Rule 10 Sec. XIII #basket #basketball #aturanbasket
+---
+[cover kicker="BASKET • FIBA ART. 25" photo=sport-bb-cover-shot]
+Travelling, | Dijelaskan dengan Benar
+Kenapa langkah itu sah, dan kapan jadi pelanggaran.
+---
+[photo=sport-bb-dribble]
+Apa itu travelling
+Gerakan kaki yang melewati batas aturan saat memegang bola hidup di lapangan. Hukumannya: bola diberikan ke lawan lewat lemparan ke dalam.
+---
+[photo=sport-bb-pivot-1908]
+Kaki poros
+Saat memegang bola, kamu boleh melangkah berkali-kali ke segala arah dengan satu kaki, selama kaki yang lain, kaki poros, tetap menempel di lantai.
+---
+[photo=sport-bb-feet-court]
+Menangkap bola sambil diam
+Begitu satu kaki diangkat, kaki yang lain jadi kaki poros. Mau mulai dribel? Bola harus lepas dari tangan sebelum kaki poros terangkat.
+---
+[photo=sport-bb-layup]
+Menangkap bola sambil bergerak
+Kamu boleh dua langkah untuk berhenti, mengoper, atau menembak. Kalau mau dribel, bola harus sudah lepas sebelum langkah kedua.
+---
+[photo=sport-bb-gather-archive]
+Gather step: langkah nol
+Langkah pertama dihitung saat kaki menyentuh lantai setelah bola dikuasai. Kaki yang sudah di lantai saat menangkap bola tidak dihitung. FIBA memakai cara hitung ini sejak aturan 2017.
+---
+[photo=sport-bb-layup]
+Mitos langkah ketiga
+Yang terlihat seperti tiga langkah biasanya gather step plus dua langkah, dan itu sah. Langkah ketiga setelah bola dikuasai tetap travelling.
+---
+[photo=sport-bb-feet-court]
+Tidak boleh melompat satu kaki
+Setelah berhenti dribel atau menguasai bola, kamu tidak boleh menyentuh lantai berturut-turut dengan kaki yang sama, atau dengan kedua kaki.
+---
+[photo=sport-bb-dribble]
+NBA: aturannya mirip
+NBA juga membolehkan dua langkah setelah gather, yaitu saat pemain cukup menguasai bola untuk memegang, mengoper, atau menembak. Definisi gather ditulis di buku aturan NBA sejak 2019.
+---
+[end photo=sport-bb-cover-shot]
+Simpan buat main basket berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.

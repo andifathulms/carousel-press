@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: lbw kriket dijelaskan
+caption: Aturan kriket yang paling sering bikin bingung. Sumber: MCC Laws of Cricket, 2017 Code 4th Edition (2026), Law 36; DRS: ICC WTC 2025–27 Playing Conditions, App. D #kriket #cricket #aturankriket
+---
+[cover kicker="KRIKET • LAW 36" photo=sport-kriket-sunset]
+LBW, | Aturan Kriket yang Bikin Bingung
+Dijelaskan untuk yang baru nonton kriket.
+---
+[photo=sport-kriket-pads]
+Apa itu LBW
+Leg before wicket: pemukul dinyatakan out karena bola yang mengarah ke wicket terhalang badannya, biasanya kaki. Kelima syarat berikut harus terpenuhi semua.
+---
+[photo=sport-kriket-bowler]
+Syarat 1: bukan no ball
+Kalau lemparannya no ball, pemukul tidak bisa out LBW.
+---
+[photo=sport-kriket-ball]
+Syarat 2: tempat bola mendarat
+Bola harus mendarat segaris antara wicket dan wicket, atau di sisi off, yaitu sisi yang dihadapi pemukul. Bola yang mendarat di luar stump sisi leg tidak pernah LBW.
+---
+[photo=sport-kriket-pads]
+Syarat 3: tidak kena bat dulu
+Kalau bola menyentuh bat sebelum mengenai badan, bukan LBW. Kalau mengenai bat dan pad bersamaan, dianggap kena bat lebih dulu.
+---
+[photo=sport-kriket-stumps-keeper]
+Syarat 4: titik benturan
+Benturan harus segaris antara wicket dan wicket, meski di atas tinggi bails. Kalau pemukul tidak sungguh-sungguh mencoba memukul, benturan di luar stump off juga dihitung.
+---
+[photo=sport-kriket-stumps-keeper]
+Syarat 5: bola akan kena wicket
+Seandainya tidak terhalang badan, bola harus akan mengenai wicket. Ini yang paling sering diperdebatkan.
+---
+[photo=sport-kriket-umpire]
+Umpire's call di DRS
+Di laga internasional, kalau teknologi menunjukkan keputusan tipis, keputusan wasit lapangan tetap berlaku. Ini aturan ICC, bukan Laws MCC, dan jatah review tidak berkurang.
+---
+[photo=sport-kriket-bowler]
+Sejak 1774
+LBW masuk ke Laws of Cricket pada 25 Februari 1774. Edisi terbaru, 2026, mengganti kata "pitch" dengan "lands" untuk tempat bola mendarat.
+---
+[end photo=sport-kriket-sunset]
+Simpan buat nonton kriket berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.

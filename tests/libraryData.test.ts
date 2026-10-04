@@ -45,7 +45,7 @@ describe('filtering', () => {
     expect(filterSamples(SAMPLES.map(sampleInfo), 'git', 'dev').map((s) => s.id).sort()).toEqual(['dev-git-id', 'dev-git-undo-id']);
     const all = SAMPLES.map(sampleInfo);
     expect(filterSamples(all, '', 'history').map((s) => s.id).every((id) => id.startsWith('sejarah-'))).toBe(true);
-    expect(filterSamples(all, '', 'sports')).toHaveLength(5);
+    expect(filterSamples(all, '', 'sports')).toHaveLength(SAMPLES.filter((s) => s.category === 'sports').length);
     expect(filterSamples(all, 'sahabat', 'all').map((s) => s.id)).toEqual(['editorial-sahabat-id']);
   });
 });

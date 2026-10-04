@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: kenapa shot clock 24 detik
+caption: Aturan yang lahir dari skor 19–18. Sumber: FIBA Official Basketball Rules 2026, Art. 29; NBA Official Rulebook 2025-26, Rule 7; NBA.com, review musim 1954-55 #basket #basketball #shotclock
+---
+[cover kicker="BASKET • FIBA ART. 29" photo=sport-shotclock-backboard]
+Kenapa Shot Clock | 24 Detik?
+Aturan yang lahir dari skor 19–18.
+---
+[photo=sport-shotclock-stopwatch-coach]
+Tembak dalam 24 detik
+Tim yang menguasai bola harus mencoba menembak dalam 24 detik. Bola harus lepas dari tangan sebelum shot clock berbunyi, lalu menyentuh ring atau masuk.
+---
+[photo=sport-shotclock-jump-shot]
+Bola di udara saat berbunyi
+Kalau shot clock berbunyi saat bola di udara dan bola tidak menyentuh ring, itu pelanggaran, kecuali lawan langsung menguasai bola.
+---
+[photo=sport-shotclock-jump-shot]
+Reset ke 24 atau 14
+Setelah bola menyentuh ring: 24 detik kalau lawan yang menguasai bola, 14 detik kalau tim yang sama merebutnya kembali.
+---
+[photo=sport-shotclock-stopwatch]
+14 detik di daerah serang
+Lemparan ke dalam di daerah serang setelah pelanggaran lawan: kalau sisa waktu 13 detik atau kurang, shot clock jadi 14. FIBA memperkenalkan reset 14 detik pada 2014.
+---
+[photo=sport-shotclock-archive-layup]
+Masalahnya: mengulur waktu
+Tanpa shot clock, tim yang unggul bisa menahan bola selama mungkin. Pada 1950, Fort Wayne Pistons mengalahkan Minneapolis Lakers 19–18, skor terendah dalam sejarah NBA.
+---
+[photo=sport-shotclock-archive-layup]
+Lahir di Syracuse, 1954
+Pemilik Syracuse Nationals, Danny Biasone, dan manajernya, Leo Ferris, mengusulkan shot clock. NBA memakainya mulai musim 1954–55, dan rata-rata skor naik dari 79,5 ke 93,1 poin.
+---
+[photo=sport-shotclock-stopwatch]
+Kenapa 24?
+48 menit sama dengan 2.880 detik. Dibagi sekitar 120 tembakan per pertandingan untuk dua tim, hasilnya 24 detik per serangan.
+---
+[photo=sport-shotclock-stopwatch-coach]
+FIBA dulu 30 detik
+FIBA lama memakai shot clock 30 detik sebelum beralih ke 24. NBA ikut memakai reset 14 detik setelah rebound serang mulai musim 2018–19.
+---
+[end photo=sport-shotclock-hoop-sunset]
+Simpan buat nonton basket berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.

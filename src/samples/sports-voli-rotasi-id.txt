@@ -1,0 +1,44 @@
+template: dev/paper-light
+lang: id
+title: rotasi dan libero voli
+caption: Rotasi voli berubah di 2025: tim yang servis kini bebas berdiri. Sumber: FIVB Official Volleyball Rules 2025–2028, Rule 7 & 19 #voli #bolavoli #aturanvoli
+---
+[cover kicker="VOLI • ATURAN 7 & 19" photo=sport-voli-serve-toss]
+Rotasi dan Libero, | Dijelaskan
+Termasuk aturan yang berubah di 2025.
+---
+[photo=sport-voli-lineup]
+Enam posisi di lapangan
+Depan: posisi 4 (kiri), 3 (tengah), 2 (kanan). Belakang: posisi 5 (kiri), 6 (tengah), 1 (kanan). Pemain di posisi 1 yang melakukan servis.
+---
+[photo=sport-voli-lineup]
+Rotasi searah jarum jam
+Saat tim penerima merebut hak servis, semua pemainnya bergeser satu posisi searah jarum jam. Pemain di posisi 2 pindah ke posisi 1 untuk servis.
+---
+[photo=sport-voli-serve-court]
+Berubah di 2025: tim servis bebas
+Sejak aturan FIVB 2025–2028, hanya tim penerima yang harus berada di urutan rotasi saat servis dipukul. Pemain tim yang servis boleh berdiri di posisi mana saja.
+---
+[photo=sport-voli-setter]
+Posisi dilihat dari kaki
+Untuk tim penerima, posisi pemain dinilai dari kaki yang terakhir menyentuh lantai. Setelah servis dipukul, semua pemain bebas bergerak.
+---
+[photo=sport-voli-net-block]
+Salah posisi, salah rotasi
+Salah posisi saat servis: lawan dapat poin dan servis. Salah urutan servis juga begitu, dan poin yang dicetak setelah kesalahan itu bisa dibatalkan.
+---
+[photo=sport-voli-libero-dig]
+Libero: kostum beda warna
+Tim boleh punya sampai dua libero, tapi hanya satu di lapangan. Kostumnya harus berwarna dominan berbeda dari pemain lain. Pergantian libero tidak dihitung sebagai pergantian pemain.
+---
+[photo=sport-voli-libero-dig]
+Yang tidak boleh dilakukan libero
+Libero hanya menggantikan pemain belakang. Ia tidak boleh servis, blok, atau menyerang bola yang seluruhnya berada di atas tinggi net.
+---
+[photo=sport-voli-setter]
+Umpan libero di depan
+Kalau libero mengumpan dengan jari dari daerah serang, rekannya tidak boleh menyerang bola itu di atas tinggi net. Kalau umpannya dari belakang garis serang, boleh.
+---
+[end photo=sport-voli-serve-toss]
+Simpan buat main voli berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.
