@@ -1,0 +1,36 @@
+template: editorial/sage
+lang: id
+title: kesultanan kutai pernah dihapus
+caption: Kesultanan tua yang pernah dihapus, lalu punya sultan lagi. Sumber: Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020; Sarip, Yupa 4(2) 2020; kaltimkece.id · Foto: Sri Wahyuni Nur Indah Sari / Wikimedia Commons / CC BY-SA 4.0 #sejarahindonesia #kutai #kalimantantimur
+---
+[cover photo=kutai-kedaton]
+Kesultanan Ini Pernah | Dihapus Negara
+Lalu punya sultan lagi 41 tahun kemudian. Kutai Kartanegara, Kalimantan Timur.
+---
+[number=off icon=home]
+Berawal di tepi Mahakam
+Menurut naskah Salasilah Kutai, rajanya yang pertama, Aji Batara Agung Dewa Sakti, memerintah sekitar awal abad ke-14. Pusat kerajaannya beberapa kali pindah sampai ke Tenggarong.
+---
+[number=off icon=map-pin]
+*1635*: menaklukkan Muara Kaman
+Kutai Kartanegara mengalahkan kerajaan yang lebih tua di Muara Kaman, lalu menambahkan "ing Martapura" ke namanya. Kini nama resminya ditulis Martadipura.
+---
+[number=off icon=book]
+*1953*: jadi daerah istimewa
+Lewat UU Darurat No. 3/1953, wilayah kesultanan menjadi Daerah Istimewa Kutai, dipimpin Sultan Aji Muhammad Parikesit.
+---
+[number=off icon=alert]
+*1960*: pemerintahan diserahkan
+UU No. 27/1959 memecahnya jadi Kabupaten Kutai, Kota Samarinda, dan Kota Balikpapan. Pada 21 Januari 1960, Sultan Parikesit menyerahkan pemerintahan kepada bupati.
+---
+[number=off icon=star]
+*2001*: sultan dinobatkan lagi
+Pada 22 September 2001, putra mahkota dinobatkan sebagai Sultan Aji Muhammad Salehuddin II. Kali ini sebagai pemimpin adat dan budaya, bukan pemerintahan.
+---
+[number=off icon=leaf]
+Hari ini
+Sejak 2018, Sultan Aji Muhammad Arifin bertakhta. Bekas istana di Tenggarong kini menjadi Museum Mulawarman.
+---
+[end]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

@@ -228,7 +228,9 @@ describe('every shipped deck', () => {
   for (const f of files) {
     it(`${f} parses without warnings`, () => {
       const r = parse(sample(f.slice(0, -4)), { photoIds: ['sample-dusk'] });
-      expect(r.warnings).toEqual([]);
+      // History decks reference archive photos the owner imports from photos/ (not shipped).
+      const ws = f.startsWith('sejarah-') ? r.warnings.filter((w) => w.code !== 'unknown-photo') : r.warnings;
+      expect(ws).toEqual([]);
       expect(r.deck.slides.length).toBeGreaterThanOrEqual(5);
       expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);
     });

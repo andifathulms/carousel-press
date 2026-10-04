@@ -1,0 +1,44 @@
+template: editorial/midnight
+lang: id
+title: perjanjian bongaya
+caption: Satu perjanjian yang mengubah Makassar. Sumber: Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud, 1975); Atlas of Mutual Heritage (Nationaal Archief) · Gambar: Romeyn de Hooge / Nationaal Archief / Public domain #sejarahindonesia #makassar #sulawesiselatan
+---
+[cover photo=penaklukan-makassar]
+Satu Perjanjian | yang Mengubah Makassar
+Perjanjian Bongaya, 18 November 1667.
+---
+[number=off icon=home]
+Benteng milik Gowa
+Benteng Ujung Pandang dibangun Kerajaan Gowa-Tallo sekitar 1630-an, untuk bertahan dari blokade VOC.
+---
+[number=off icon=alert]
+Dua pihak, satu sekutu
+Sultan Hasanuddin dari Gowa berhadapan dengan panglima VOC Cornelis Speelman, yang dibantu Arung Palakka dari Bone.
+---
+[number=off icon=book]
+*18 November 1667*: ditandatangani
+Setelah perang panjang, Hasanuddin dan Speelman menandatangani perjanjian di Bungaya.
+---
+[number=off icon=key]
+Isinya berat untuk Gowa
+VOC mendapat monopoli dagang, orang Eropa lain diusir, dan benteng-benteng Gowa dibongkar, kecuali Somba Opu.
+---
+[number=off icon=map-pin]
+Ujung Pandang jadi Fort Rotterdam
+Benteng itu diserahkan ke VOC dan dinamai sesuai kota kelahiran Speelman.
+---
+[number=off icon=clock]
+*1668*: perang pecah lagi
+Pada 12 April 1668 pertempuran kembali terjadi.
+---
+[number=off icon=mountain]
+*24 Juni 1669*: Somba Opu jatuh
+Benteng utama Gowa jatuh setelah diserang VOC dan pasukan Arung Palakka. Hasanuddin turun takhta pada tahun itu.
+---
+[number=off icon=star]
+"Ayam Jantan dari Timur"
+Julukan Hasanuddin ini sering disebut berasal dari Belanda. Sejauh ini belum ada sumber sezaman yang memastikannya.
+---
+[end]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

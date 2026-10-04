@@ -16,6 +16,11 @@ import aiCoding from './dev-ai-coding-id.txt?raw';
 import consoleTricks from './dev-console-id.txt?raw';
 import asyncAwait from './dev-async-await-id.txt?raw';
 import gitUndo from './dev-git-undo-id.txt?raw';
+import kutai from './sejarah-kutai-id.txt?raw';
+import yupa from './sejarah-yupa-id.txt?raw';
+import syarifKasim from './sejarah-syarif-kasim-id.txt?raw';
+import baabullah from './sejarah-baabullah-id.txt?raw';
+import bongaya from './sejarah-bongaya-id.txt?raw';
 import places from './editorial-places-en.txt?raw';
 
 export interface Sample {
@@ -48,4 +53,10 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-api-id', name: 'API itu sebenarnya apa (dev, id)', text: api },
   { id: 'dev-ai-coding-id', name: '5 cara pakai AI buat coding (dev, id)', text: aiCoding },
   { id: 'dev-async-await-id', name: 'Akhirnya paham async/await (dev, id)', text: asyncAwait },
+  // Owner decks: Catatan Kaki Sejarah (covers use photo IDs from photos/, see docs/photo-credits.md)
+  { id: 'sejarah-kutai-id', name: 'Kesultanan Kutai pernah dihapus (sejarah, id)', text: kutai },
+  { id: 'sejarah-yupa-id', name: 'Prasasti Yupa (sejarah, id)', text: yupa },
+  { id: 'sejarah-syarif-kasim-id', name: 'Sultan Syarif Kasim II (sejarah, id)', text: syarifKasim },
+  { id: 'sejarah-baabullah-id', name: 'Sultan Baabullah mengusir Portugis (sejarah, id)', text: baabullah },
+  { id: 'sejarah-bongaya-id', name: 'Perjanjian Bongaya (sejarah, id)', text: bongaya },
 ];

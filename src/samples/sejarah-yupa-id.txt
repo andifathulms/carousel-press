@@ -1,0 +1,40 @@
+template: editorial/sage
+lang: id
+title: prasasti yupa
+caption: Tujuh tiang batu dari Muara Kaman, bukti tertulis tertua yang diketahui di Nusantara. Sumber: Sarip, Yupa: Historical Studies Journal 4(2) 2020; kaltimkece.id · Foto: Photo Dharma / Wikimedia Commons / CC BY 2.0 #sejarahindonesia #prasasti #kalimantantimur
+---
+[cover photo=yupa-mulawarman]
+Bukti Tertulis Tertua | di Nusantara
+Tujuh tiang batu dari Muara Kaman, Kalimantan Timur.
+---
+[number=off icon=book]
+Tujuh tiang batu bernama yupa
+Bahasanya Sanskerta, hurufnya Pallawa awal. Tiang-tiang ini didirikan para brahmana untuk Raja Mulawarman.
+---
+[number=off icon=map-pin]
+*1879*: empat yupa ditemukan
+Lokasinya Bukit Brubus, Muara Kaman. Setahun kemudian dibawa ke Batavia. Tiga yupa lagi ditemukan di situs yang sama pada 1940.
+---
+[number=off icon=home]
+Tiga generasi raja
+Yupa menyebut Kudungga, anaknya Aswawarman yang disebut pendiri dinasti, dan cucunya, Mulawarman.
+---
+[number=off icon=gift]
+*20.000* ekor sapi
+Salah satu yupa mencatat Mulawarman menghadiahkan 20.000 sapi kepada para brahmana. Arkeolog menduga angka ini bisa jadi dilebihkan sebagai bagian dari ritual.
+---
+[number=off icon=clock]
+Kapan dibuatnya?
+Prasastinya tidak bertanggal. Para ahli menaksir dari bentuk hurufnya: sekitar 400 Masehi, ada juga yang menyebut 425 atau 450.
+---
+[number=off icon=alert]
+Tidak ada kata "Kutai"
+Nama Kutai tidak tertulis di yupa mana pun. Peneliti zaman Belanda menamai kerajaan ini dari lokasi temuannya.
+---
+[number=off icon=star]
+Hari ini
+Yupa yang asli disimpan di Museum Nasional Indonesia, Jakarta.
+---
+[end]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

@@ -1,0 +1,36 @@
+template: editorial/sage
+lang: id
+title: sultan syarif kasim ii
+caption: Sultan Siak yang memilih Republik. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Setneg, Daftar Penerima Gelar Pahlawan Nasional · Foto: Taufik Hadris / Wikimedia Commons / CC BY 4.0 #sejarahindonesia #siak #riau
+---
+[cover photo=istana-siak]
+Sultan Ini Memilih | Bergabung dengan Republik
+Sultan Syarif Kasim II, Siak Sri Indrapura, Riau.
+---
+[number=off icon=star]
+*1915*: sultan di usia 21
+Syarif Kasim II dinobatkan sebagai sultan ke-12 Siak pada 3 Maret 1915. Sebelumnya ia bersekolah di Batavia.
+---
+[number=off icon=book]
+Sekolah untuk rakyatnya
+Ia mendirikan sekolah, termasuk Sekolah Latifah khusus perempuan dan Madrasah Taufiqiyah.
+---
+[number=off icon=chat]
+*28 November 1945*: satu telegram
+Setelah memastikan kabar proklamasi, ia mengirim telegram ke Presiden Soekarno: Siak setia kepada Republik Indonesia.
+---
+[number=off icon=map-pin]
+*1946*: meninggalkan Siak
+Ia ke Medan, lalu ke Aceh, dan berpidato mendukung Republik lewat RRI. Istananya dipakai sebagai markas pasukan Republik.
+---
+[number=off icon=gift]
+Berapa yang ia sumbangkan?
+Sering disebut 13 juta gulden. Dokumen yang terlacak mencatat uang Rp20.000 dan sebagian permata istana. Jumlah pastinya belum jelas.
+---
+[number=off icon=shield-heart]
+*1998*: Pahlawan Nasional
+Gelar itu diberikan lewat Keppres No. 109/TK/1998. Namanya kini dipakai bandara di Pekanbaru.
+---
+[end]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

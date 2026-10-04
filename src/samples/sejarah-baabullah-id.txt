@@ -1,0 +1,44 @@
+template: editorial/midnight
+lang: id
+title: sultan baabullah ternate
+caption: Lima tahun pengepungan, lalu Portugis angkat kaki dari Ternate. Sumber: Indonesia Baik (Kominfo); Kompas, 11 Nov 2020; Setneg; Hanna & Des Alwi, Turbulent Times Past in Ternate and Tidore (1990) · Foto: Ana Ainina / Wikimedia Commons / CC BY 4.0 #sejarahindonesia #ternate #malukuutara
+---
+[cover photo=benteng-kastela]
+Sultan yang Mengusir | Portugis dari Ternate
+Sultan Baabullah, Maluku Utara, abad ke-16.
+---
+[number=off icon=home]
+Benteng di pulau cengkih
+Portugis mulai membangun benteng São João Baptista di Ternate pada 1522. Reruntuhannya kini dikenal sebagai Benteng Kastela.
+---
+[number=off icon=alert]
+*1570*: Sultan Khairun dibunuh
+Ayah Baabullah tewas di dalam benteng Portugis.
+---
+[number=off icon=star]
+Baabullah naik takhta
+Di tahun yang sama ia dinobatkan sebagai sultan dan menyatakan perang terhadap Portugis.
+---
+[number=off icon=clock]
+Lima tahun pengepungan
+Benteng Portugis diblokade sekitar lima tahun.
+---
+[number=off icon=plane]
+*1575*: Portugis angkat kaki
+Portugis menyerahkan benteng dan mundur, sebagian besar ke Ambon. Tanggal pastinya berbeda-beda antarsumber.
+---
+[number=off icon=leaf]
+Puncak kejayaan Ternate
+Benteng itu dijadikan istana. Di bawah Baabullah (1570–1583), Ternate menjadi pusat perdagangan cengkih.
+---
+[number=off icon=map-pin]
+"Penguasa 72 pulau"
+Julukan ini ditulis François Valentijn, penulis Belanda, pada 1724, lebih dari 140 tahun kemudian. Jumlah pulaunya sulit dipastikan.
+---
+[number=off icon=shield-heart]
+*2020*: Pahlawan Nasional
+Lewat Keppres No. 117/TK/2020, ia menjadi Pahlawan Nasional pertama dari Maluku Utara.
+---
+[end]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.
