@@ -1,35 +1,43 @@
 template: editorial/sage
 lang: id
 title: sultan syarif kasim ii
-caption: Sultan Siak yang memilih Republik. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Setneg, Daftar Penerima Gelar Pahlawan Nasional · Foto: Taufik Hadris / Wikimedia Commons / CC BY 4.0 #sejarahindonesia #siak #riau
+caption: Sultan Siak yang memilih Republik. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Setneg, Daftar Penerima Gelar Pahlawan Nasional; DJKN Kemenkeu · Foto: Taufik Hadris (CC BY 4.0), DinaMardiati (CC BY 4.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #siak #riau
 ---
 [cover photo=istana-siak]
 Sultan Ini Memilih | Bergabung dengan Republik
 Sultan Syarif Kasim II, Siak Sri Indrapura, Riau.
 ---
-[number=off icon=star]
+[number=off icon=star photo=siak-sultan-1926]
 *1915*: sultan di usia 21
-Syarif Kasim II dinobatkan sebagai sultan ke-12 Siak pada 3 Maret 1915. Sebelumnya ia bersekolah di Batavia.
+Syarif Kasim II lahir di Siak pada 1 Desember 1893. Ia dinobatkan sebagai sultan ke-12 Siak pada 3 Maret 1915, setelah bersekolah di Batavia.
 ---
-[number=off icon=book]
+[number=off icon=book photo=siak-madrasah-taufiqiyah]
 Sekolah untuk rakyatnya
-Ia mendirikan sekolah, termasuk Sekolah Latifah khusus perempuan dan Madrasah Taufiqiyah.
+Ia mendirikan sekolah, termasuk Sekolah Latifah khusus perempuan dan Madrasah Taufiqiyah. Ia juga disebut mendirikan HIS pertama di Riau.
 ---
-[number=off icon=chat]
+[number=off icon=home photo=siak-istana-lama]
+*1889*: Istana Siak berdiri
+Istana Asserayah Hasyimiah dibangun pada masa ayahnya, Sultan Syarif Hasyim. Kini istana ini menjadi museum yang terbuka untuk umum.
+---
+[number=off icon=chat photo=istana-siak]
 *28 November 1945*: satu telegram
-Setelah memastikan kabar proklamasi, ia mengirim telegram ke Presiden Soekarno: Siak setia kepada Republik Indonesia.
+Utusannya, O.K.M. Djamil, memastikan kabar proklamasi di Pekanbaru. Setelah itu ia mengirim telegram ke Presiden Soekarno: Siak setia kepada Republik Indonesia.
 ---
-[number=off icon=map-pin]
+[number=off icon=map-pin photo=siak-sungai]
 *1946*: meninggalkan Siak
-Ia ke Medan, lalu ke Aceh, dan berpidato mendukung Republik lewat RRI. Istananya dipakai sebagai markas pasukan Republik.
+Ia ke Medan untuk membicarakan penyerahan kekuasaan dengan Gubernur T.M. Hasan, lalu ke Aceh dan berpidato mendukung Republik lewat RRI. Istananya dipakai sebagai markas pasukan Republik.
 ---
-[number=off icon=gift]
+[number=off icon=gift photo=siak-mahkota]
 Berapa yang ia sumbangkan?
-Sering disebut 13 juta gulden. Dokumen yang terlacak mencatat uang Rp20.000 dan sebagian permata istana. Jumlah pastinya belum jelas.
+Sering disebut 13 juta gulden. Dokumen yang terlacak mencatat uang Rp20.000 dan sebagian permata istana, yang disebut dalam surat Gubernur T.M. Hasan tahun 1950. Jumlah pastinya belum jelas.
 ---
-[number=off icon=shield-heart]
+[number=off icon=moon photo=siak-sungai]
+*1968*: wafat di Pekanbaru
+Syarif Kasim II wafat di Rumbai, Pekanbaru, pada 1968. Ia adalah sultan terakhir Siak.
+---
+[number=off icon=shield-heart photo=siak-sultan-1926]
 *1998*: Pahlawan Nasional
-Gelar itu diberikan lewat Keppres No. 109/TK/1998. Namanya kini dipakai bandara di Pekanbaru.
+Gelar itu diberikan lewat Keppres No. 109/TK/1998 tanggal 6 November 1998. Namanya kini dipakai bandara di Pekanbaru.
 ---
 [end photo=istana-siak]
 Di daerahmu ada cerita kayak gini?

@@ -1,39 +1,43 @@
 template: editorial/sage
 lang: id
 title: prasasti yupa
-caption: Tujuh tiang batu dari Muara Kaman, bukti tertulis tertua yang diketahui di Nusantara. Sumber: Sarip, Yupa: Historical Studies Journal 4(2) 2020; kaltimkece.id · Foto: Photo Dharma / Wikimedia Commons / CC BY 2.0 #sejarahindonesia #prasasti #kalimantantimur
+caption: Tujuh tiang batu dari Muara Kaman, bukti tertulis tertua yang diketahui di Nusantara. Sumber: Sarip, Yupa: Historical Studies Journal 4(2) 2020; kaltimkece.id · Foto: Photo Dharma (CC BY 2.0), Ezagren (CC BY-SA 4.0), Muhammad Syarif. S (CC BY-SA 4.0) via Wikimedia Commons; I. van Kinsbergen (domain publik) #sejarahindonesia #prasasti #kalimantantimur
 ---
 [cover photo=yupa-mulawarman]
 Bukti Tertulis Tertua | di Nusantara
 Tujuh tiang batu dari Muara Kaman, Kalimantan Timur.
 ---
-[number=off icon=book]
+[number=off icon=book photo=yupa-replika-muara-kaman]
 Tujuh tiang batu bernama yupa
-Bahasanya Sanskerta, hurufnya Pallawa awal. Tiang-tiang ini didirikan para brahmana untuk Raja Mulawarman.
+Bahasanya Sanskerta, hurufnya Pallawa awal. Tiang-tiang ini didirikan para brahmana untuk Raja Mulawarman. Dalam tradisi Weda, yupa adalah tiang kurban.
 ---
-[number=off icon=map-pin]
+[number=off icon=map-pin photo=yupa-replika-muara-kaman]
 *1879*: empat yupa ditemukan
-Lokasinya Bukit Brubus, Muara Kaman. Setahun kemudian dibawa ke Batavia. Tiga yupa lagi ditemukan di situs yang sama pada 1940.
+Lokasinya Bukit Brubus, Muara Kaman, di tepi Sungai Mahakam. Setahun kemudian keempatnya dibawa ke Batavia. Tiga yupa lagi ditemukan di situs yang sama pada 1940.
 ---
-[number=off icon=home]
+[number=off icon=home photo=yupa-aksara]
 Tiga generasi raja
-Yupa menyebut Kudungga, anaknya Aswawarman yang disebut pendiri dinasti, dan cucunya, Mulawarman.
+Yupa menyebut Kudungga, anaknya Aswawarman yang disebut pendiri dinasti, dan cucunya, Mulawarman. Aswawarman adalah yang pertama memakai nama berakhiran -warman.
 ---
-[number=off icon=gift]
+[number=off icon=gift photo=yupa-sapi]
 *20.000* ekor sapi
-Salah satu yupa mencatat Mulawarman menghadiahkan 20.000 sapi kepada para brahmana. Arkeolog menduga angka ini bisa jadi dilebihkan sebagai bagian dari ritual.
+Salah satu yupa mencatat Mulawarman menghadiahkan 20.000 sapi kepada para brahmana di tempat suci bernama Waprakeswara. Arkeolog menduga angka ini bisa jadi dilebihkan sebagai bagian dari ritual.
 ---
-[number=off icon=clock]
+[number=off icon=clock photo=yupa-aksara]
 Kapan dibuatnya?
-Prasastinya tidak bertanggal. Para ahli menaksir dari bentuk hurufnya: sekitar 400 Masehi, ada juga yang menyebut 425 atau 450.
+Prasastinya tidak bertanggal. Para ahli menaksir dari bentuk hurufnya: sekitar 400 Masehi, ada juga yang menyebut 425 atau 450. Jadi angka 400 itu perkiraan, bukan tanggal pasti.
 ---
-[number=off icon=alert]
+[number=off icon=lightbulb photo=yupa-ciaruteun]
+Lebih tua dari prasasti Purnawarman
+Prasasti Raja Purnawarman di Jawa Barat diperkirakan dibuat setelah yupa. Karena itu yupa disebut bukti tertulis tertua yang diketahui di Nusantara, meski kesimpulan ini bertumpu pada bentuk huruf.
+---
+[number=off icon=alert photo=yupa-mulawarman]
 Tidak ada kata "Kutai"
-Nama Kutai tidak tertulis di yupa mana pun. Peneliti zaman Belanda menamai kerajaan ini dari lokasi temuannya.
+Nama Kutai tidak tertulis di yupa mana pun. Peneliti zaman Belanda menamai kerajaan ini dari lokasi temuannya. Sejarawan Muhammad Sarip berpendapat namanya justru Martapura.
 ---
-[number=off icon=star]
+[number=off icon=star photo=yupa-museum-nasional]
 Hari ini
-Yupa yang asli disimpan di Museum Nasional Indonesia, Jakarta.
+Yupa yang asli disimpan di Museum Nasional Indonesia, Jakarta. Usianya sekitar 1.600 tahun.
 ---
 [end photo=yupa-mulawarman]
 Di daerahmu ada cerita kayak gini?
