@@ -25,32 +25,33 @@ async function main(): Promise<void> {
     page.on('console', (m) => { if (m.type() === 'error') console.error('[page]', m.text()); });
     await page.goto(`${url}review.html`);
     await page.waitForFunction(() => typeof window.__review === 'function');
-    // One template × sample per call: all PNGs at once exceed Playwright's message size limit.
+    // One template × sample per call, written to disk straight away: holding every PNG at once
+    // exceeds Playwright's message limit and Node's heap.
     const templates = (await page.evaluate(() => window.__reviewTemplates!)) as string[];
     const samples = (await page.evaluate(() => window.__reviewSamples!)) as string[];
-    const items: Item[] = [];
-    for (const t of templates) {
-      for (const smp of samples) {
-        items.push(...((await page.evaluate(([id, sid]) => window.__review!(id as never, sid), [t, smp] as const)) as Item[]));
-      }
-    }
-
     rmSync(out, { recursive: true, force: true });
     const rows: string[] = [];
     const warnings: Record<string, Item['warnings']> = {};
-    for (const it of items) {
-      const dir = join(out, it.template);
-      mkdirSync(dir, { recursive: true });
-      const file = `${it.sample}_${String(it.index + 1).padStart(2, '0')}.png`;
-      writeFileSync(join(dir, file), Buffer.from(it.dataUrl.split(',')[1]!, 'base64'));
-      const rel = `${it.template}/${file}`;
-      if (it.warnings.length) warnings[rel] = it.warnings;
-      const badge = it.warnings.length ? `<b class="w">${it.warnings.map((w) => w.code).join(', ')}</b>` : '';
-      rows.push(`<figure data-t="${it.template}"><div class="f"><img src="${rel}"><i></i></div><figcaption>${rel}${badge}</figcaption></figure>`);
+    let count = 0;
+    for (const t of templates) {
+      for (const smp of samples) {
+        const batch = (await page.evaluate(([id, sid]) => window.__review!(id as never, sid), [t, smp] as const)) as Item[];
+        for (const it of batch) {
+          const dir = join(out, it.template);
+          mkdirSync(dir, { recursive: true });
+          const file = `${it.sample}_${String(it.index + 1).padStart(2, '0')}.png`;
+          writeFileSync(join(dir, file), Buffer.from(it.dataUrl.split(',')[1]!, 'base64'));
+          const rel = `${it.template}/${file}`;
+          if (it.warnings.length) warnings[rel] = it.warnings;
+          const badge = it.warnings.length ? `<b class="w">${it.warnings.map((w) => w.code).join(', ')}</b>` : '';
+          rows.push(`<figure data-t="${it.template}"><div class="f"><img src="${rel}"><i></i></div><figcaption>${rel}${badge}</figcaption></figure>`);
+          count++;
+        }
+      }
     }
     writeFileSync(join(out, 'warnings.json'), JSON.stringify(warnings, null, 2));
     writeFileSync(join(out, 'index.html'), sheet(rows));
-    console.log(`review: ${items.length} slides → ${out}`);
+    console.log(`review: ${count} slides → ${out}`);
     console.log(`review: ${Object.keys(warnings).length} slides with warnings`);
   } finally {
     await browser.close();
