@@ -1,0 +1,44 @@
+template: editorial/sage
+lang: id
+title: opu daeng risaju
+caption: Bangsawan Luwu yang memilih kehilangan gelarnya. Sumber: Kemdikbud, Sejarah Indonesia Kelas XII (2018), hlm. 42–44; Amir & Azis, Al-Qalam 28(2) 2022; Setneg, Daftar Pahlawan Nasional · Foto: Midori (CC BY 3.0), Jorge Franganillo (CC BY 2.0), KITLV/Leiden University Libraries (CC BY 4.0; rapat Sarekat Islam di Blitar) via Wikimedia Commons; Silentwinner (CC0) #sejarahindonesia #luwu #sulawesiselatan
+---
+[cover photo=risaju-istana-luwu]
+Bangsawan yang Rela | Kehilangan Gelarnya
+Opu Daeng Risaju, Luwu, Sulawesi Selatan.
+---
+[number=off icon=home photo=risaju-palopo]
+Lahir di Palopo, 1880
+Nama kecilnya Famajjah. Ia keturunan bangsawan Luwu dan tidak pernah bersekolah Barat. Suaminya, H. Muhammad Daud, seorang ulama yang pernah tinggal di Makkah.
+---
+[number=off icon=book photo=risaju-sarekat-islam]
+*1927*: bergabung dengan PSII
+Di Parepare, lewat H. Muhammad Yahya, ia bergabung dengan Partai Sarekat Islam Indonesia.
+---
+[number=off icon=star photo=risaju-masjid-tua-palopo]
+*Januari 1930*: cabang Palopo
+Ia mendirikan dan memimpin PSII cabang Palopo. Saat itu jarang sekali perempuan memimpin organisasi Islam.
+---
+[number=off icon=alert photo=risaju-jembatan-rimbung]
+Dipenjara, tetap berangkat
+Kontrolir Belanda di Masamba menuduhnya menghasut rakyat, dan ia dipenjara 13 bulan. Pada 1933 ia tetap berangkat ke kongres PSII di Jawa, dengan biaya dari menjual hartanya.
+---
+[number=off icon=key photo=risaju-istana-luwu]
+Gelarnya dicabut
+Datu Luwu memintanya keluar dari PSII, dan ia menolak. Pada 1934 dewan adat menghukumnya 14 bulan penjara dan mencabut gelar bangsawannya. Suaminya pun menceraikannya.
+---
+[number=off icon=mountain photo=risaju-monumen-toddopuli]
+Masa revolusi
+Ia menggerakkan pemuda melawan NICA, lalu ditangkap dan dibawa berjalan kaki 40 km ke Watampone. Ia ditahan tanpa diadili dan disiksa hingga tuli seumur hidup.
+---
+[number=off icon=moon photo=risaju-rumah-adat-luwu]
+*10 Februari 1964*: wafat
+Ia wafat dan dimakamkan di pemakaman raja-raja Lokkoe, Palopo. Di masa tuanya ia tinggal bersama putranya di Parepare.
+---
+[number=off icon=shield-heart photo=risaju-monumen-toddopuli]
+*2006*: Pahlawan Nasional
+Opu Daeng Risaju ditetapkan sebagai Pahlawan Nasional lewat Keppres No. 085/TK/2006.
+---
+[end photo=risaju-istana-luwu]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

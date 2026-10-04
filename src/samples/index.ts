@@ -26,6 +26,11 @@ import handball from './sports-handball-id.txt?raw';
 import tennisScoring from './sports-tennis-scoring-id.txt?raw';
 import badmintonScoring from './sports-badminton-scoring-id.txt?raw';
 import badmintonService from './sports-badminton-service-id.txt?raw';
+import banjar from './sejarah-banjar-id.txt?raw';
+import namaKotaKaltim from './sejarah-nama-kota-kaltim-id.txt?raw';
+import fortRotterdam from './sejarah-fort-rotterdam-id.txt?raw';
+import tambora from './sejarah-tambora-id.txt?raw';
+import opuDaengRisaju from './sejarah-opu-daeng-risaju-id.txt?raw';
 import places from './editorial-places-en.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
@@ -76,6 +81,11 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sejarah-syarif-kasim-id', name: 'Sultan Syarif Kasim II (sejarah, id)', category: 'history', text: syarifKasim },
   { id: 'sejarah-baabullah-id', name: 'Sultan Baabullah mengusir Portugis (sejarah, id)', category: 'history', text: baabullah },
   { id: 'sejarah-bongaya-id', name: 'Perjanjian Bongaya (sejarah, id)', category: 'history', text: bongaya },
+  { id: 'sejarah-banjar-id', name: 'Kesultanan Banjar dihapus (sejarah, id)', category: 'history', text: banjar },
+  { id: 'sejarah-nama-kota-kaltim-id', name: 'Asal-usul nama Balikpapan, Samarinda, Tenggarong (sejarah, id)', category: 'history', text: namaKotaKaltim },
+  { id: 'sejarah-fort-rotterdam-id', name: 'Fort Rotterdam setelah 1667 (sejarah, id)', category: 'history', text: fortRotterdam },
+  { id: 'sejarah-tambora-id', name: 'Tambora 1815 dari Sumbawa (sejarah, id)', category: 'history', text: tambora },
+  { id: 'sejarah-opu-daeng-risaju-id', name: 'Opu Daeng Risaju (sejarah, id)', category: 'history', text: opuDaengRisaju },
   // Owner decks: Whistle Notes (photos bundled in ./photos)
   { id: 'sports-offside-id', name: 'Offside, dijelaskan (sports, id)', category: 'sports', text: offside },
   { id: 'sports-handball-id', name: 'Handball, dijelaskan (sports, id)', category: 'sports', text: handball },

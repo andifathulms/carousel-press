@@ -1,0 +1,44 @@
+template: editorial/sage
+lang: id
+title: fort rotterdam setelah 1667
+caption: Dari benteng Gowa, penjara Diponegoro, sampai museum. Sumber: tesis Universitas Hasanuddin (repository.unhas.ac.id); jurnal UNM; Kompas TV mengutip Peter Carey, Takdir; Disbudpar Sulsel · Foto: Sanko, Heandra (CC BY-SA 3.0), Oceanmuse (CC BY 4.0) via Wikimedia Commons; Rijksmuseum (CC0); litografi C.W.M. van de Velde (domain publik) #sejarahindonesia #makassar #fortrotterdam
+---
+[cover photo=rotterdam-litho-1845]
+Benteng Ini Pernah | Jadi Penjara Diponegoro
+Fort Rotterdam, Makassar, setelah 1667.
+---
+[number=off icon=home photo=rotterdam-foto-lama]
+Dari Gowa ke VOC
+Benteng Ujung Pandang awalnya milik Kerajaan Gowa-Tallo. Lewat Perjanjian Bongaya 1667, benteng ini diserahkan ke VOC dan dinamai Rotterdam, kota kelahiran Speelman.
+---
+[number=off icon=key photo=rotterdam-denah]
+Lima bastion
+VOC membangunnya ulang dengan lima bastion: Bone, Bacan, Buton, Mandarsyah, dan Amboina. Bentuknya membuat benteng ini dijuluki Benteng Panyyua, benteng penyu.
+---
+[number=off icon=plane photo=rotterdam-ruang-diponegoro]
+*11 Juli 1833*: Diponegoro tiba
+Setelah tiga tahun di Manado, Pangeran Diponegoro dipindah ke Makassar dengan kapal Circe. Ia masuk benteng bersama keluarga dan 23 pengikutnya, lalu tinggal terkurung di sana lebih dari 20 tahun.
+---
+[number=off icon=moon photo=rotterdam-makam-diponegoro]
+*8 Januari 1855*: wafat
+Diponegoro wafat di Makassar. Ia dimakamkan di luar benteng, di Kampung Melayu, bersama keluarga dan pengikutnya. Kawasan itu kini Jalan Diponegoro.
+---
+[number=off icon=book photo=rotterdam-halaman]
+*1938*: jadi museum
+Celebes Museum dibuka di bekas rumah Speelman di dalam benteng. Pada 1940 benteng ini didaftarkan sebagai monumen oleh pemerintah kolonial.
+---
+[number=off icon=clock photo=rotterdam-foto-lama]
+Zaman Jepang dan revolusi
+Pada masa Jepang, museum ditutup dan benteng dipakai untuk penelitian pertanian dan bahasa. Sekitar 1950, benteng sempat dihuni tentara dan warga sipil.
+---
+[number=off icon=star photo=rotterdam-maket]
+*1970*: Museum La Galigo
+Museum di dalam benteng berganti nama menjadi Museum La Galigo pada 1 Mei 1970. Pemerintah memugar benteng ini pada 1970-an.
+---
+[number=off icon=map-pin photo=rotterdam-halaman]
+Hari ini
+Fort Rotterdam ditetapkan sebagai cagar budaya peringkat nasional pada 2014. Benteng ini buka setiap hari untuk umum.
+---
+[end photo=rotterdam-litho-1845]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

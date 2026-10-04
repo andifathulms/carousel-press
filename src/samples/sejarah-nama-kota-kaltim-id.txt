@@ -1,0 +1,44 @@
+template: editorial/sage
+lang: id
+title: asal-usul nama kota kaltim
+caption: Mana yang tercatat, mana yang cerita rakyat. Sumber: Pemkot Balikpapan; Sarip & Nandini, Yupa 5(2) 2021; Sheilla & Sarip, Jurnal Riset Inossa 6(2) 2024; Perda Kabupaten Kutai No. 2/1997; Sarip, Yupa 4(2) 2020; Rifani, Jurnal Mahakam 1(1) 2012 · Foto: KITLV/Leiden University Libraries (CC BY 4.0), Sri Wahyuni Nur Indah Sari (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0) via Wikimedia Commons #sejarahindonesia #balikpapan #samarinda
+---
+[cover photo=nama-papan]
+Asal-usul Nama | Balikpapan, Samarinda, Tenggarong
+Mana yang tercatat, mana yang cerita rakyat.
+---
+[icon=gift photo=nama-balikpapan-pelabuhan]
+Balikpapan: lahir dari minyak
+Hari jadi Balikpapan, 10 Februari 1897, adalah tanggal pengeboran pertama sumur minyak Mathilda. Tanggal ini ditetapkan lewat seminar sejarah kota pada 1984.
+---
+[icon=book photo=nama-papan]
+Balikpapan: legenda papan
+Menurut legenda, Sultan Kutai memesan papan untuk istana barunya. Sepuluh papan terlepas di perjalanan lalu muncul kembali di Jenebora: "baliklah papan itu".
+---
+[icon=chat photo=nama-balikpapan-kota]
+Balikpapan: versi lain
+Cerita rakyat Pasir Balik menyebut leluhur bernama Kayun Kuleng dan Papan Ayun. Pemerintah kota sendiri menyebut kisah-kisah ini sebagai legenda.
+---
+[icon=home photo=nama-samarinda-mahakam]
+Samarinda: sama rendah?
+Penjelasan populernya: rumah rakit pendatang dibangun sama tinggi, lambang kesetaraan. Penelitian lain membacanya sebagai "sama randah" dalam bahasa Banjar: daratan serendah permukaan Mahakam.
+---
+[icon=clock photo=nama-samarinda-islamic-center]
+Samarinda: hari jadi 1668
+Perda Samarinda menetapkan hari jadi 21 Januari 1668, dari kedatangan pendatang Bugis Wajo pimpinan La Mohang Daeng Mangkona. Tanggalnya dihitung 64 hari setelah Perjanjian Bongaya.
+---
+[icon=alert photo=nama-samarinda-mahakam]
+Samarinda: masih diperdebatkan
+Sejarawan Muhammad Sarip mencatat, naskah perjanjian Bugis–Kutai menyebut pemimpin pertamanya Anakoda Tujing, bukan Mangkona. Pertemuannya pun diperkirakan terjadi sekitar 1732 atau sesudahnya.
+---
+[icon=map-pin photo=nama-tenggarong-tepian]
+Tenggarong: sejak 1782
+Pada 1782 ibu kota Kutai pindah ke Tepian Pandan. Aji Imbut, bergelar Sultan Muhammad Muslihuddin, lalu menamainya Tenggarong. Tahun ini tercantum dalam Perda Kabupaten Kutai 1997.
+---
+[icon=star photo=nama-tenggarong-lembuswana]
+Tenggarong: tangga arung
+Menurut tradisi, pengikut Bugis Aji Imbut menyebut tempat itu "Tangga Arung", rumah raja. Lama-lama sebutan itu menjadi Tenggarong.
+---
+[end photo=nama-papan]
+Kotamu punya cerita nama kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

@@ -1,0 +1,44 @@
+template: editorial/midnight
+lang: id
+title: kesultanan banjar dihapus
+caption: Kesultanan yang dihapus lewat satu proklamasi, tapi perlawanannya bertahan 46 tahun. Sumber: Norpikriadi, Naditira Widya 8(2) 2014; Susanto, Naditira Widya 2018; Al-Banjari 21(2) 2022; Setneg, Daftar Pahlawan Nasional · Foto: Ilham Mufti Laksono, Tim WikiBarakat – WikiBanua, Herusutimbul (CC BY-SA 4.0) via Wikimedia Commons; litografi W.A. van Rees (domain publik) #sejarahindonesia #banjar #kalimantanselatan
+---
+[cover photo=banjar-perang-tongka]
+Kesultanan Ini Dihapus | dengan Satu Proklamasi
+Kesultanan Banjar, Kalimantan Selatan, 1860.
+---
+[number=off icon=alert photo=banjar-pengaron]
+*28 April 1859*: perang dimulai
+Di tengah sengketa takhta, pasukan Banjar menyerang pos Belanda di Martapura dan tambang batu bara Oranje Nassau di Pengaron. Bentengnya bertahan, tapi kawasan tambang terbakar.
+---
+[number=off icon=star photo=banjar-sungai-martapura]
+*Juni 1859*: sultan dicopot
+Belanda mencopot Sultan Tamjidillah II dan mengirimnya ke Bogor dengan uang pensiun. Para pengikut lalu mengangkat Pangeran Hidayatullah sebagai sultan.
+---
+[number=off icon=book photo=banjar-masjid-suriansyah]
+*11 Juni 1860*: kesultanan dihapus
+Belanda menyatakan Kesultanan Banjar dihapus dan wilayahnya diambil alih pemerintah kolonial. Tapi perlawanan tidak berhenti di situ.
+---
+[number=off icon=map-pin photo=banjar-hidayatullah]
+*1862*: Hidayatullah dibuang
+Sultan Hidayatullah diasingkan ke Cianjur dengan pensiun f1.000 sebulan. Ia tinggal di sana sampai wafat pada 1904.
+---
+[number=off icon=shield-heart photo=banjar-makam-antasari]
+Pangeran Antasari
+Pada 14 Maret 1862, Antasari diangkat sebagai Panembahan Amiruddin Khalifatul Mukminin, disaksikan para kepala suku Dayak. Ia wafat karena sakit pada 11 Oktober 1862 di hulu Barito.
+---
+[number=off icon=mountain photo=banjar-perang-tongka]
+Perlawanan sampai 1905
+Putranya, Sultan Muhammad Seman, memimpin pemerintahan Pagustian di hulu Barito. Ia gugur melawan pasukan Marsose Belanda pada 1905, dan anak-anaknya masih melawan sampai 1906.
+---
+[number=off icon=star photo=banjar-makam-antasari]
+*1968*: Pahlawan Nasional
+Antasari ditetapkan sebagai Pahlawan Nasional lewat Keppres No. 06/TK/1968. Sepuluh tahun sebelumnya, makamnya dipindahkan ke Banjarmasin.
+---
+[number=off icon=leaf photo=banjar-bubungan-tinggi]
+*2010*: keraton dihidupkan lagi
+Keraton Banjar dibentuk kembali pada 2010 sebagai lembaga adat dan budaya, tanpa kekuasaan politik.
+---
+[end photo=banjar-sungai-martapura]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

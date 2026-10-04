@@ -1,0 +1,44 @@
+template: editorial/midnight
+lang: id
+title: tambora 1815 dari sumbawa
+caption: Letusan terbesar dalam sejarah tercatat, dilihat dari Sumbawa. Sumber: Bernice de Jong Boers, Indonesia 60 (1995), Cornell; Oppenheimer, Progress in Physical Geography 27 (2003); University of Rhode Island (2006); Setkab (2015) · Foto: Felix Dance (CC BY 2.0), Georesearch Volcanedo (CC BY-SA 4.0), Tisquesusa (CC BY 4.0), Budi Wasisto (CC BY-SA 4.0) via Wikimedia Commons; NASA, Rijksmuseum (domain publik/CC0) #sejarahindonesia #tambora #sumbawa
+---
+[cover photo=tambora-kaldera]
+Dua Kerajaan Hilang | dalam Satu Letusan
+Gunung Tambora, Sumbawa, April 1815.
+---
+[number=off icon=home photo=tambora-peta-1855]
+Enam kerajaan di Sumbawa
+Sebelum 1815, Sumbawa punya enam kerajaan: Sumbawa, Bima, Dompu, Sanggar, Pekat, dan Tambora. Orang Tambora bahkan punya bahasanya sendiri, yang kini sudah punah.
+---
+[number=off icon=alert photo=tambora-dari-teluk-saleh]
+*5–11 April 1815*: letusan
+Ledakan pertama pada 5 April terdengar ratusan kilometer jauhnya. Pada malam 10 April, menurut Raja Sanggar yang menyaksikannya, tiga tiang api naik dari puncak.
+---
+[number=off icon=book photo=tambora-bima-litho]
+Catatan Kerajaan Bima
+Bo' Sangaji Kai, catatan istana Bima, menulis: hari gelap, terdengar bunyi seperti meriam, lalu turun batu dan abu "lamanya tiga hari dua malam".
+---
+[number=off icon=mountain photo=tambora-tepi-kaldera]
+Pekat dan Tambora lenyap
+Kerajaan Pekat dan Tambora musnah bersama rajanya. Sanggar kehilangan banyak penduduk, dan pantainya dihantam tsunami. Abu menumpuk 50–60 cm.
+---
+[number=off icon=umbrella photo=tambora-raffles]
+Kelaparan setelahnya
+Sekitar 10.000 orang tewas langsung. Kelaparan dan penyakit menyusul, dan puluhan ribu lainnya meninggal atau meninggalkan pulau. Raffles mengirim kapal bantuan, tapi tak banyak menolong. Angka korbannya berbeda antarsumber.
+---
+[number=off icon=chat photo=tambora-dari-teluk-saleh]
+Menurut cerita rakyat
+Letusan itu dikisahkan sebagai hukuman karena Raja Tambora menjamu seorang haji dengan daging anjing lalu membunuhnya. Kisah ini masih diceritakan di Pekat.
+---
+[number=off icon=map-pin photo=tambora-lapisan-abu]
+*2004*: desa yang terkubur
+Tim University of Rhode Island dan Direktorat Vulkanologi Indonesia menggali sisa rumah panggung, keramik, dan perkakas logam yang terkubur abu 1815.
+---
+[number=off icon=leaf photo=tambora-sabana]
+*2015*: taman nasional
+Dua abad setelah letusan, Taman Nasional Gunung Tambora diresmikan di Doro Ncanga, Dompu. Di belahan bumi lain, 1816 dikenal sebagai "tahun tanpa musim panas".
+---
+[end photo=tambora-kaldera]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.
