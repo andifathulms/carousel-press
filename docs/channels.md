@@ -177,7 +177,7 @@ It should feel like "wait, this happened here?", never like a lecture or a polit
 
 ### Images
 
-Follow the image policy in Shared rules. Prefer real archive photos and old maps. No AI-generated images presented as historical; if one is used, the slide must say "ilustrasi".
+Every deck has a photo: the place, object or an old print/map, on the cover and again on the end slide. Follow the image policy in Shared rules. No AI-generated images presented as historical; if one is used, the slide must say "ilustrasi".
 
 ### Writing rules
 
@@ -193,10 +193,10 @@ Follow the image policy in Shared rules. Prefer real archive photos and old maps
   - **Story deck** (one event): cover → context → turning point → what happened → aftermath → "today" link → end. Use `number=off` on story cards.
   - **List deck** ("5 kerajaan yang…", "4 nama kota yang…"): cover + 4–6 numbered cards + end.
 - **Length:** ≤ 10 slides total.
-- **Cover:** `[cover photo=<id>]` with an archive photo or map; headline = a surprising true statement or question with a `|` break; subtitle sets place + era.
+- **Cover:** `[cover photo=<id>]` with a photo of the place/object or an old print or map; headline = a surprising true statement or question with a `|` break; subtitle sets place + era.
 - **Quote slide:** a documented quote (with attribution and source only), or a line from a prasasti/chronicle.
-- **End:** `[end]` with `Di daerahmu ada cerita kayak gini?` + `Tulis di komen, siapa tahu jadi postingan berikutnya.`
-- **Caption:** one line hook + `Sumber:` short source list + image credits + 2–4 hashtags (`#sejarahindonesia`, `#sejarahlokal`, `#kalimantantimur`…).
+- **End:** `[end photo=<same id>]` with `Di daerahmu ada cerita kayak gini?` + `Tulis di komen, siapa tahu jadi postingan berikutnya.`
+- **Caption:** one line hook + `Sumber:` short source list + a credit line if the image licence needs one + 2–4 hashtags (`#sejarahindonesia`, `#sejarahlokal`, `#kalimantantimur`…).
 
 ```text
 template: editorial/sage
@@ -204,7 +204,7 @@ lang: id
 title: kutai pernah dihapus
 caption: Kerajaan tua yang masih punya sultan. Sumber: [isi sumber terverifikasi] · Foto: [credit lines] #sejarahindonesia #kutai #kalimantantimur
 ---
-[cover photo=kutai-keraton]
+[cover photo=kutai-kedaton]
 Kesultanan Ini Pernah | Dihapus Negara
 Lalu "hidup lagi" 41 tahun kemudian. Kutai Kartanegara, Kalimantan Timur.
 ---
@@ -266,7 +266,7 @@ It should feel like "oh, so THAT's why the referee did that", never like reading
 
 ### Images
 
-Follow the image policy in Shared rules. Most match photos are owned by agencies and leagues: **don't use them**, and no club/league logos or kits. Prefer text-only decks now, and pitch/court diagrams once the `figure` slide exists (see Open items).
+Every deck has a photo on the cover and the end slide: equipment, lines, nets, courts, or players who aren't the point of the photo (silhouettes, archive shots). Follow the image policy in Shared rules. No agency/league match photos, no club or league logos or kits, no brand logos as the subject. Pitch/court diagrams come later with the `figure` slide (see Open items).
 
 ### Writing rules
 
@@ -426,9 +426,10 @@ Tulis di komen, nanti kami cek datanya.
 - When asked for many posts at once, vary pillar, template and opening hook across them.
 - **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
-  - Only images whose license allows reuse: Wikimedia Commons (public domain, CC0, CC BY, CC BY-SA), Rijksmuseum (CC0), Nationaal Archief, KITLV/Leiden University Libraries (check each item's rights statement), Unsplash/Pexels for present-day places. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
-  - For each image give a manifest row: `photo ID | source URL | title | author | license | credit line`. With file access, download it to `photos/<deck-slug>/<photo-id>.<ext>` so `photo=<photo-id>` works; otherwise list the URLs.
-  - CC BY / CC BY-SA images need credit: put credit lines in the caption until the app supports `credit=`.
+  - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
+  - No source manifest or source list in the reply is needed for images. Just pick a fitting free image.
+  - Only if the licence requires attribution (CC BY / CC BY-SA): put a short credit line in the caption.
+  - Images for sample decks are bundled with the app: save a downscaled JPEG to `src/samples/photos/<photo-id>.jpg` (it fills 1080×1920; wide images cropped to ≤ 2160 px wide), reference it with `photo=<photo-id>`, and set a focal point in `src/samples/photos.ts` if the subject isn't centred. Loading the sample adds it to the photo tray automatically.
 - Out of scope for this app: screen recordings, video demos. Only photo carousels.
 
 ## 7. Open items
