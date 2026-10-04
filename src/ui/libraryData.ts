@@ -1,19 +1,20 @@
 import { parse } from '../core/parser';
 import { isTemplateId } from '../core/types';
-import type { Sample } from '../samples';
+import type { Sample, SampleCategory } from '../samples';
 import type { DeckIndexEntry } from '../store/deckStore';
 import { getVariant } from '../templates/registry';
 
 // Library helpers without DOM: sample metadata, sample ↔ deck matching, filtering.
 
 export type Family = 'editorial' | 'dev';
-export type FamilyFilter = 'all' | Family;
+export type CategoryFilter = 'all' | SampleCategory;
 
 export interface SampleInfo {
   id: string;
   name: string;
   title: string;
   template: string;
+  category: SampleCategory;
   family: Family;
   variantName: string;
   lang: string;
@@ -36,7 +37,7 @@ function shortName(name: string): string {
 export function sampleInfo(s: Sample): SampleInfo {
   const { deck } = parse(s.text);
   return {
-    id: s.id, name: shortName(s.name), title: deck.title, template: deck.template, family: familyOf(deck.template),
+    id: s.id, name: shortName(s.name), title: deck.title, template: deck.template, category: s.category, family: familyOf(deck.template),
     variantName: variantName(deck.template), lang: deck.lang, slides: deck.slides.length,
   };
 }
@@ -59,12 +60,19 @@ export function matches(query: string, ...fields: string[]): boolean {
   return norm(query).split(/\s+/).filter(Boolean).every((w) => hay.includes(w));
 }
 
-export function filterDecks(decks: readonly DeckIndexEntry[], query: string, family: FamilyFilter): DeckIndexEntry[] {
-  return decks.filter((d) =>
-    (family === 'all' || familyOf(d.template) === family) && matches(query, d.title));
+/** Category of each saved deck that came from a sample. Decks written from scratch have none. */
+export function deckCategories(decks: readonly DeckIndexEntry[], samples: readonly SampleInfo[]): Map<string, SampleCategory> {
+  const out = new Map<string, SampleCategory>();
+  for (const s of samples) for (const d of decksFromSample(decks, s)) out.set(d.id, s.category);
+  return out;
 }
 
-export function filterSamples(samples: readonly SampleInfo[], query: string, family: FamilyFilter): SampleInfo[] {
-  return samples.filter((s) =>
-    (family === 'all' || s.family === family) && matches(query, s.name, s.title));
+export function filterDecks(
+  decks: readonly DeckIndexEntry[], query: string, category: CategoryFilter, cats: ReadonlyMap<string, SampleCategory>,
+): DeckIndexEntry[] {
+  return decks.filter((d) => (category === 'all' || cats.get(d.id) === category) && matches(query, d.title));
+}
+
+export function filterSamples(samples: readonly SampleInfo[], query: string, category: CategoryFilter): SampleInfo[] {
+  return samples.filter((s) => (category === 'all' || s.category === category) && matches(query, s.name, s.title));
 }

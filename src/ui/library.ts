@@ -1,4 +1,4 @@
-import { SAMPLES } from '../samples';
+import { CATEGORIES, SAMPLES, type SampleCategory } from '../samples';
 import type { DeckIndexEntry } from '../store/deckStore';
 import {
   cleanUnusedPhotos, deleteDeck, duplicateDeck, loadSample, newBlankDeck, openDeck, openDeckFile, renameDeck, saveDeckFile,
@@ -6,12 +6,12 @@ import {
 import type { Controller } from './controller';
 import { h, svg, timeAgo } from './dom';
 import {
-  type Family, type FamilyFilter, type SampleInfo, decksFromSample, familyOf, filterDecks, filterSamples, sampleInfo, variantName,
+  type CategoryFilter, type SampleInfo, deckCategories, decksFromSample, filterDecks, filterSamples, sampleInfo, variantName,
 } from './libraryData';
 import { UI_ICONS } from './uiIcons';
 
 type Tab = 'decks' | 'samples';
-const FAMILY_LABEL: Record<Family, string> = { editorial: 'Editorial', dev: 'Dev' };
+const CATEGORY_LABEL = Object.fromEntries(CATEGORIES.map((x) => [x.id, x.label])) as Record<SampleCategory, string>;
 
 /** Top-bar deck switcher: saved decks, deck actions, samples and deck files (PRD F10, F11, F15). */
 export function mountLibrary(root: HTMLElement, c: Controller): void {
@@ -24,7 +24,7 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
 
   // View state survives closing the popover (per page session).
   let tab: Tab | null = null;
-  let family: FamilyFilter = 'all';
+  let category: CategoryFilter = 'all';
   let query = '';
   let samples: SampleInfo[] | null = null;
   const allSamples = (): SampleInfo[] => (samples ??= SAMPLES.map(sampleInfo));
@@ -50,7 +50,8 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
   };
   const item = (label: string, fn: () => unknown, cls = ''): HTMLButtonElement =>
     h('button', { type: 'button', class: `menu-item ${cls}`, onclick: act(fn) }, label);
-  const famTag = (f: Family): HTMLElement => h('span', { class: `fam-tag fam-${f}` }, FAMILY_LABEL[f]);
+  const catTag = (x: SampleCategory | undefined): HTMLElement | null =>
+    x ? h('span', { class: `cat-tag cat-${x}` }, CATEGORY_LABEL[x]) : null;
   const slidesText = (n: number | undefined): string | null => (n ? `${n} slides` : null);
   const meta = (...parts: (string | null)[]): string => parts.filter(Boolean).join(' · ');
 
@@ -59,16 +60,16 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
     type: 'search', class: 'input library-search', placeholder: 'Search decks and samples', 'aria-label': 'Search decks and samples',
   });
   const tabs = h('div', { class: 'lib-tabs', role: 'tablist' });
-  const chips = h('div', { class: 'chips', role: 'group', 'aria-label': 'Template family' });
+  const chips = h('div', { class: 'chips', role: 'group', 'aria-label': 'Category' });
 
-  const deckRow = (d: DeckIndexEntry, current: boolean): HTMLElement => {
+  const deckRow = (d: DeckIndexEntry, current: boolean, cat: SampleCategory | undefined): HTMLElement => {
     const thumb = d.thumb ? h('img', { src: d.thumb, alt: '' }) : h('span', { class: 'deck-thumb-empty' });
     return h('li', {}, h('button', {
       type: 'button', class: `deck-row${current ? ' current' : ''}`, 'aria-current': current ? 'true' : 'false',
       onclick: act(() => openDeck(c, d.id)),
     }, h('span', { class: 'deck-thumb' }, thumb), h('span', { class: 'deck-meta' },
       h('strong', {}, d.title || 'Untitled'),
-      h('small', {}, famTag(familyOf(d.template)), meta(variantName(d.template), slidesText(d.slides), timeAgo(d.updatedAt)))),
+      h('small', {}, catTag(cat), meta(variantName(d.template), slidesText(d.slides), timeAgo(d.updatedAt)))),
     current ? h('span', { class: 'pill' }, 'Editing') : null));
   };
 
@@ -90,26 +91,27 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
   const renderBody = (): void => {
     const s = c.store.get();
     const t: Tab = tab ?? (s.decks.length ? 'decks' : 'samples');
-    const decks = filterDecks(s.decks, query, family);
-    const smp = filterSamples(allSamples(), query, family);
+    const cats = deckCategories(s.decks, allSamples());
+    const decks = filterDecks(s.decks, query, category, cats);
+    const smp = filterSamples(allSamples(), query, category);
     tabs.replaceChildren(...(['decks', 'samples'] as const).map((k) => h('button', {
       type: 'button', role: 'tab', class: 'lib-tab', 'aria-selected': t === k ? 'true' : 'false',
       onclick: () => { tab = k; renderBody(); },
     }, k === 'decks' ? 'Your decks' : 'Samples', h('span', { class: 'count' }, String(k === 'decks' ? decks.length : smp.length)))));
-    chips.replaceChildren(...(['all', 'editorial', 'dev'] as const).map((f) => h('button', {
-      type: 'button', class: `chip${f === 'all' ? '' : ` fam-${f}`}`, 'aria-pressed': family === f ? 'true' : 'false',
-      onclick: () => { family = f; renderBody(); },
-    }, f === 'all' ? 'All' : FAMILY_LABEL[f])));
+    chips.replaceChildren(...(['all', ...CATEGORIES.map((x) => x.id)] as const).map((f) => h('button', {
+      type: 'button', class: `chip${f === 'all' ? '' : ` cat-${f}`}`, 'aria-pressed': category === f ? 'true' : 'false',
+      onclick: () => { category = f; renderBody(); },
+    }, f === 'all' ? 'All' : CATEGORY_LABEL[f])));
 
     if (t === 'decks') {
       if (!s.decks.length) body.replaceChildren(empty(s.storageAvailable ? 'No saved decks yet. Start from a sample.' : 'Autosave is off in this browser.'));
       else if (!decks.length) body.replaceChildren(empty('No decks match.'));
-      else body.replaceChildren(h('ul', { class: 'deck-list' }, ...decks.map((d) => deckRow(d, d.id === s.deckId))));
+      else body.replaceChildren(h('ul', { class: 'deck-list' }, ...decks.map((d) => deckRow(d, d.id === s.deckId, cats.get(d.id)))));
       return;
     }
-    const groups = (['editorial', 'dev'] as const).map((f) => {
-      const rows = smp.filter((x) => x.family === f);
-      return rows.length ? h('section', {}, h('h3', { class: 'label' }, `${FAMILY_LABEL[f]} · ${rows.length}`),
+    const groups = CATEGORIES.map(({ id, label }) => {
+      const rows = smp.filter((x) => x.category === id);
+      return rows.length ? h('section', {}, h('h3', { class: `label cat-head cat-${id}` }, `${label} · ${rows.length}`),
         h('ul', { class: 'deck-list' }, ...rows.map((x) => sampleRow(x, s.decks)))) : null;
     });
     body.replaceChildren(...(smp.length ? [

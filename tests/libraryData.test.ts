@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { SAMPLES } from '../src/samples';
+import { SAMPLE_PHOTO_IDS, samplePhotosIn } from '../src/samples/photos';
 import type { DeckIndexEntry } from '../src/store/deckStore';
-import { decksFromSample, filterDecks, filterSamples, matches, sampleInfo } from '../src/ui/libraryData';
+import { deckCategories, decksFromSample, filterDecks, filterSamples, matches, sampleInfo } from '../src/ui/libraryData';
 
 const git = sampleInfo(SAMPLES.find((s) => s.id === 'dev-git-id')!);
 const deck = (over: Partial<DeckIndexEntry>): DeckIndexEntry => ({ id: 'x', title: 't', template: 'editorial/sage', updatedAt: 0, ...over });
@@ -34,13 +35,26 @@ describe('filtering', () => {
     expect(matches('cafe', 'Café pagi')).toBe(true);
     expect(matches('git sql', '6 cara undo di git')).toBe(false);
   });
-  it('filters decks and samples by family and query', () => {
-    const decks = [deck({ id: 'a', title: 'Sahabat' }), deck({ id: 'b', title: 'Git', template: 'dev/terminal' })];
-    expect(filterDecks(decks, '', 'dev').map((d) => d.id)).toEqual(['b']);
-    expect(filterDecks(decks, 'git', 'all').map((d) => d.id)).toEqual(['b']);
+  it('filters decks and samples by category and query', () => {
+    const decks = [deck({ id: 'a', title: 'Sahabat' }), deck({ id: 'b', title: 'Git', template: 'dev/terminal', sampleId: 'dev-git-id' })];
+    const cats = deckCategories(decks, SAMPLES.map(sampleInfo));
+    expect(cats.get('b')).toBe('dev');
+    expect(cats.has('a')).toBe(false);
+    expect(filterDecks(decks, '', 'dev', cats).map((d) => d.id)).toEqual(['b']);
+    expect(filterDecks(decks, 'git', 'all', cats).map((d) => d.id)).toEqual(['b']);
     expect(filterSamples(SAMPLES.map(sampleInfo), 'git', 'dev').map((s) => s.id).sort()).toEqual(['dev-git-id', 'dev-git-undo-id']);
     const all = SAMPLES.map(sampleInfo);
-    expect(filterSamples(all, '', 'editorial').every((s) => s.family === 'editorial')).toBe(true);
+    expect(filterSamples(all, '', 'history').map((s) => s.id).every((id) => id.startsWith('sejarah-'))).toBe(true);
+    expect(filterSamples(all, '', 'sports')).toHaveLength(5);
     expect(filterSamples(all, 'sahabat', 'all').map((s) => s.id)).toEqual(['editorial-sahabat-id']);
+  });
+});
+
+describe('sample photos', () => {
+  it('every photo a sample uses is bundled, and every bundled photo is used', () => {
+    const used = new Set(SAMPLES.flatMap((s) => samplePhotosIn(s.text).map((p) => p.id)));
+    const refs = new Set(SAMPLES.flatMap((s) => [...s.text.matchAll(/\bphoto="?([^\s\]"]+)/g)].map((m) => m[1]!)));
+    for (const r of refs) if (!/^\d+$/.test(r) && r !== 'sample-dusk') expect(SAMPLE_PHOTO_IDS).toContain(r);
+    expect([...used].sort()).toEqual([...SAMPLE_PHOTO_IDS].sort());
   });
 });
