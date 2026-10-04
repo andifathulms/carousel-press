@@ -18,14 +18,15 @@ export interface ReviewItem {
   warnings: Warning[];
 }
 
-async function review(): Promise<ReviewItem[]> {
+/** Renders every sample, for one template (or all). Callers batch by template so results stay small. */
+async function review(template?: TemplateId): Promise<ReviewItem[]> {
   await loadAllFonts(VARIANTS);
   const dusk = await generateSampleDusk();
   const bitmap = await createImageBitmap(dusk.blob);
   const photo: PhotoInput = { image: bitmap, width: dusk.width, height: dusk.height, focalX: 0.5, focalY: 0.5 };
   const out: ReviewItem[] = [];
   const { canvas, ctx } = makeCanvas(CANVAS.w, CANVAS.h);
-  for (const variant of VARIANTS) {
+  for (const variant of VARIANTS.filter((v) => !template || v.id === template)) {
     for (const sample of SAMPLES) {
       const { deck, warnings: parseWarnings } = parse(sample.text, { photoIds: [SAMPLE_DUSK.id] });
       const icons = deckIcons(deck, variant);
@@ -54,9 +55,11 @@ function blobToDataUrl(blob: Blob): Promise<string> {
 
 declare global {
   interface Window {
-    __review?: () => Promise<ReviewItem[]>;
+    __review?: (template?: TemplateId) => Promise<ReviewItem[]>;
+    __reviewTemplates?: TemplateId[];
   }
 }
 
 window.__review = review;
+window.__reviewTemplates = VARIANTS.map((v) => v.id);
 document.getElementById('status')!.textContent = 'Ready: call window.__review()';
