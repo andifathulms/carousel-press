@@ -30,3 +30,6 @@ One line each. Things the specs left open, or deliberate deviations.
 - Deck library: search + "Your decks / Samples" tabs + Editorial/Dev chips. Loading a sample opens the deck already made from it (index entry `sampleId`; older untagged decks match by title + template); "New copy" forces a fresh one. Two chrome tokens added, `--fam-editorial` and `--fam-dev`, for family tags.
 - Sample photos are bundled (`src/samples/photos/`, ~4.4 MB, fetched same-origin only when a sample needs them) and added to the tray when a sample or a deck made from one is opened. This is the app's own static asset, not a third-party request.
 - Library groups samples by category (Relationships, Dev, History, Sports, Travel) instead of template family; a saved deck takes its sample's category, decks written from scratch show only under All.
+- History and sports decks have a photo on every slide (4–6 distinct per deck). Very busy photos are toned down in the file itself (sport-kids-soccer, sport-tennis-scorecards) rather than raising the deck's darkness.
+- `npm run review` fetches one template × sample per call: with photos on every slide even one template's PNGs exceed Playwright's message limit.
+- Whistle Notes decks are Indonesian (owner decision, Oct 2026); rulebook names stay English in captions.

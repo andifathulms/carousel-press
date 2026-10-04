@@ -38,20 +38,24 @@ Photo licences are in [photo-credits.md](photo-credits.md).
 
 ## Whistle Notes
 
-### sports-offside-en / sports-handball-en
+### sports-offside-id / sports-handball-id (decks in Indonesian since Oct 2026)
 - IFAB Laws of the Game 2026/27 (in force 1 Jul 2026), Laws 11 and 12: https://www.theifab.com/laws/latest/offside/ , https://www.theifab.com/laws/latest/fouls-and-misconduct/
 - IFAB AGM 2021 (accidental handball by a teammate no longer an offence): https://www.theifab.com/news/annual-general-meeting-2021
 - Not in the decks: Wenger's "daylight" offside is only a trial (Canadian Premier League, 2026).
 
-### sports-tennis-scoring-en
+### sports-tennis-scoring-id
 - ITF Rules of Tennis 2026, Rules 5–7 and Appendix VI: https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf
 - Grand Slam Rule Book 2026, Art. L (10-point final-set tie-break, since 2022): https://www.itftennis.com/media/5986/grand-slam-rulebook-2026-f2.pdf
 - The 15-30-40 origin has no authoritative answer; the deck presents theories as theories.
 
-### sports-badminton-scoring-en / sports-badminton-service-en
+### sports-badminton-scoring-id / sports-badminton-service-id
 - BWF Laws of Badminton (2025), Laws 7, 8, 9, 10, 16, read via the worldbadminton.com mirror (BWF's own site blocked automated access): https://worldbadminton.com/laws/rules_2025.htm
 - 3×15 scoring adopted at the BWF AGM, 25 Apr 2026, effective 4 Jan 2027 (press: IANS, Malay Mail, USA Badminton)
 - Fixed 1.15 m service height: trial from Mar 2018, made permanent by BWF Council late 2018 (BWF memorandum, 18 Dec 2018)
 - Spin serve ban: experimental Aug 2024, permanent Apr 2025
 - Before posting, open the BWF Laws PDF at https://corporate.bwfbadminton.com/statutes/ in a browser to confirm against BWF's own page.
 - The scoring deck goes out of date on 4 Jan 2027; post it before then.
+
+## Added in the second pass (Oct 2026)
+
+Extra sentences and cards use only facts from the reports above: Islam in Kutai (Tuan Tunggang Parangan c. 1575, title "sultan" from Aji Muhammad Idris 1735–1778, kaltimkece/Sarip), Bupati Syaukani's 1999 proposal and Sultan Arifin from 15 Dec 2018 (Afriandi & Ariyadi; kaltimkece), Purnawarman's inscriptions being later than the yupa (Sarip 2020), Istana Siak built 1889 and death in Rumbai 1968 (DJKN Kemenkeu; Yupa 4(1) 2020), Drake's 1579 visit (Hanna & Des Alwi), Karaeng Tallo signing 9 Mar 1668, five bastions in the 1670s, Hasanuddin's death 12 Jun 1670 and Keppres 087/TK/1973 (Sagimun; Atlas of Mutual Heritage; Setneg). Sports: deliberate play by a defender (Law 11.2), goalkeeper handling (Law 12), No-Ad deciding point (ITF Appendix VI), the 2021 5×11 vote at 66.31% proposed by Indonesia and the Maldives (BWF news 22 May 2021), start of service (BWF Law 9.2/9.4).

@@ -7,7 +7,7 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 - relationships, friendship, family, feelings, self-reflection → **Ruang Rasa**
 - code, AI for developers, dev tools → **Fathul Learn Coding**
 - Indonesian history, kingdoms, local events, place-name origins → **Catatan Kaki Sejarah**
-- sports rules, how a sport works, rule incidents (English) → **Whistle Notes**
+- sports rules, how a sport works, rule incidents → **Whistle Notes**
 - regional statistics, rankings, "kabupaten mana yang paling…" → **Peta Angka**
 
 The deck format is PRD §4. This file only says *what* to write and which template/attributes to use. It adds no new syntax.
@@ -17,7 +17,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 🌿 Ruang Rasa | `id` | Conversation questions | `editorial/*` | `editorial/rose-dusk` |
 | 💻 Fathul Learn Coding | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
 | 📜 Catatan Kaki Sejarah | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
-| 🏟️ Whistle Notes | `en` | One sports rule per post | `dev/*` (clean sans) | `dev/paper-light` |
+| 🏟️ Whistle Notes | `id` | One sports rule per post | `dev/*` (clean sans) | `dev/paper-light` |
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
 
 ---
@@ -177,13 +177,13 @@ It should feel like "wait, this happened here?", never like a lecture or a polit
 
 ### Images
 
-Every deck has a photo: the place, object or an old print/map, on the cover and again on the end slide. Follow the image policy in Shared rules. No AI-generated images presented as historical; if one is used, the slide must say "ilustrasi".
+Every slide has a photo: the place, object, an old print/map, or a true related subject (cloves for the clove trade, the river a kingdom stood on). Use 4–6 distinct photos per deck, each on at most 2–3 slides; the cover photo returns on the end slide. Never label one place as another. Follow the image policy in Shared rules. No AI-generated images presented as historical; if one is used, the slide must say "ilustrasi".
 
 ### Writing rules
 
 - Language: Indonesian (`lang: id`), standard but relaxed: `kamu` is fine, light slang only in the hook. Proper names in correct spelling (`Kesultanan Kutai Kartanegara ing Martadipura` on first mention).
 - Put the year or place at the start of story headlines: `*1960*: …`, `Tenggarong, 2001: …` (`*…*` = accent colour).
-- Body ≤ 35 words per slide. One beat of the story per slide.
+- Body ≤ 45 words per slide (2–3 short sentences). One beat of the story per slide.
 - The hook must be true. No "rahasia yang disembunyikan", no clickbait the deck can't back up.
 
 ### Deck recipe
@@ -236,13 +236,13 @@ Tulis di komen, siapa tahu jadi postingan berikutnya.
 ## 4. 🏟️ Whistle Notes
 
 **Tagline:** *One rule. Explained properly.*
-A faceless English account that explains sports rules one piece at a time: the objective of a sport, one rule, one tricky case, or the incident that changed a rule.
+A faceless Indonesian account that explains sports rules one piece at a time: the objective of a sport, one rule, one tricky case, or the incident that changed a rule.
 It should feel like "oh, so THAT's why the referee did that", never like reading a rulebook.
 
 | | |
 |---|---|
 | Purpose | Make sports rules click |
-| Audience | Casual fans, new viewers of a sport, people who argue about referee calls |
+| Audience | Indonesian casual fans, new viewers of a sport, people who argue about referee calls |
 | Reader should think | "Saving this for the next match argument." |
 | Primary action | Save / share / comment ("do X next") |
 | Tone | Clear, confident, a little playful, never smug |
@@ -255,7 +255,7 @@ It should feel like "oh, so THAT's why the referee did that", never like reading
 2. **How to play in 6 slides**: the objective and the 4–5 rules a new viewer needs (one sport per post, never "all the rules").
 3. **Tricky cases / myths**: "Is it offside if…?", common misconceptions, edge cases from the rulebook.
 4. **Why the rule exists**: the incident or problem that created or changed a rule (with dates and sources).
-5. **Badminton corner**: a recurring series on badminton rules and scoring for a global audience.
+5. **Pojok bulu tangkis**: a recurring series on badminton rules and scoring (Indonesia's favourite sport).
 
 ### Accuracy rules (non-negotiable)
 
@@ -266,55 +266,45 @@ It should feel like "oh, so THAT's why the referee did that", never like reading
 
 ### Images
 
-Every deck has a photo on the cover and the end slide: equipment, lines, nets, courts, or players who aren't the point of the photo (silhouettes, archive shots). Follow the image policy in Shared rules. No agency/league match photos, no club or league logos or kits, no brand logos as the subject. Pitch/court diagrams come later with the `figure` slide (see Open items).
+Every slide has a photo (4–6 distinct photos per deck, each used on at most 2–3 slides): equipment, lines, nets, courts, or players who aren't the point of the photo (silhouettes, archive shots). Follow the image policy in Shared rules. No agency/league match photos, no club or league logos or kits, no brand logos as the subject. Pitch/court diagrams come later with the `figure` slide (see Open items).
 
 ### Writing rules
 
-- Language: English (`lang: en`), plain words, short sentences. Explain any term the first time (e.g. "second-last opponent").
-- One idea per slide. Headline = the point; body ≤ 30 words.
+- Language: Indonesian (`lang: id`), plain words, short sentences. Keep terms Indonesian fans actually use (`offside`, `handball`, `deuce`, `tie-break`, `reli`, `kok`, `fault`) and explain any term the first time (e.g. "lawan kedua terakhir").
+- Rule names follow common Indonesian usage: tendangan bebas (tidak) langsung, tendangan gawang, lemparan ke dalam, tendangan sudut, kartu merah; bulu tangkis: gim, servis, petak servis.
+- One idea per slide. Headline = the point; body ≤ 40 words (2–3 short sentences).
 - Use numbers and positions concretely ("both feet", "behind the service line"), not vague words.
-- Light humour is fine ("Save this for the next VAR argument"). Don't mock players, referees or fans.
+- Light humour is fine ("Simpan buat debat VAR berikutnya"). Don't mock players, referees or fans.
 
 ### Deck recipe
 
 - **Templates:** `dev/paper-light` (default: light, clean Inter, blue accent; reads like a rulebook), `dev/github-dark` for variety. No `code` slides.
 - **Length:** cover + 4–6 cards + end, ≤ 10 total.
-- **Cover:** `[cover kicker="FOOTBALL • LAW 11"]` style kicker (SPORT • RULE in caps), headline as the question or "X, explained" with a `|` break.
+- **Cover:** `[cover photo=<id> kicker="SEPAK BOLA • PERATURAN 11"]` style kicker (SPORT • RULE in caps), headline as the question or "X, Dijelaskan dengan Benar" with a `|` break.
 - **Cards:** build up in order: objective → basic rule → the tricky part → exceptions → why it exists. Badge numbers on.
-- **End:** `[end]` with a save line + `Which rule should we break down next?`
-- **Caption:** one line + `Source: <rulebook, law number, edition>` + 2–4 hashtags (`#football`, `#offside`, `#sportsrules`, `#badminton`…).
+- **End:** `[end photo=<id>]` with a save line + `Mau dibahas aturan apa lagi? Tulis di komen.`
+- **Caption:** one line + `Sumber: <rulebook, law number, edition>` (rulebook names stay in English) + 2–4 hashtags (`#sepakbola`, `#offside`, `#aturanbola`, `#bulutangkis`…).
 
 ```text
 template: dev/paper-light
-lang: en
-title: offside explained
-caption: The rule everyone argues about, in 5 slides. Source: IFAB Laws of the Game, Law 11 (check current edition) #football #offside #sportsrules
+lang: id
+title: offside dijelaskan
+caption: Aturan yang paling sering diperdebatkan. Sumber: IFAB Laws of the Game 2026/27, Law 11 #sepakbola #offside #aturanbola
 ---
-[cover kicker="FOOTBALL • LAW 11"]
-Offside, | Explained Properly
-No, you're not offside just for standing there.
+[cover photo=sport-offside-line kicker="SEPAK BOLA • PERATURAN 11"]
+Offside, | Dijelaskan dengan Benar
+Berdiri di posisi offside saja belum tentu pelanggaran.
 ---
-The idea behind it
-Offside stops attackers from waiting next to the goalkeeper for a long ball.
+[photo=sport-ball-kick]
+Posisi offside bukan pelanggaran
+Peraturannya jelas: berada di posisi offside bukan pelanggaran. Yang dihukum adalah ikut terlibat dalam permainan dari posisi itu.
 ---
-What "offside position" means
-Any part of your head, body or feet is nearer the opponents' goal line than both the ball and the second-last opponent.
----
-Level is onside
-Level with the second-last opponent, or with the ball, is fine. Hands and arms don't count.
----
-Position alone isn't an offence
-It's only penalised if you get involved in play when a teammate plays or touches the ball.
----
-When you can't be offside
-In your own half, and straight from a goal kick, throw-in or corner kick.
----
-[end]
-Save this for the next VAR argument.
-Which rule should we break down next?
+[end photo=sport-offside-line]
+Simpan buat debat VAR berikutnya.
+Mau dibahas aturan apa lagi? Tulis di komen.
 ```
 
-(Example only: check against the current edition of Law 11 before posting.)
+(Short excerpt; the full deck is `src/samples/sports-offside-id.txt`.)
 
 ---
 
