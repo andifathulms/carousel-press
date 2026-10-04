@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync, readdirSync } from 'node:fs';
 import { parse } from '../src/core/parser';
+import { SAMPLE_PHOTO_IDS } from '../src/samples/photos';
 import { fakeMeasurer } from '../src/layout/measure';
 import { deckIcons, layoutSlide } from '../src/render/renderSlide';
 import { SAFE, insideSafe } from '../src/render/safezone';
@@ -45,7 +46,7 @@ describe('safe zone (every template × slide type × sample)', () => {
     for (const name of [...SAMPLES, 'kitchen-sink']) {
       it(`${v.id} · ${name}`, () => {
         const src = name === 'kitchen-sink' ? KITCHEN_SINK : text(name);
-        const { deck } = parse(src, { photoIds: ['sample-dusk'] });
+        const { deck } = parse(src, { photoIds: ['sample-dusk', ...SAMPLE_PHOTO_IDS] });
         const icons = deckIcons(deck, v);
         const bad: string[] = [];
         deck.slides.forEach((s, i) => {

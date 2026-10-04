@@ -1,6 +1,7 @@
 import './ui/app.css';
 import { SAMPLES } from './samples';
 import { Controller } from './ui/controller';
+import { ensureSamplePhotos, loadSample } from './ui/actions';
 import { mountApp } from './ui/app';
 
 async function boot(): Promise<void> {
@@ -17,8 +18,10 @@ async function boot(): Promise<void> {
     const fallback = c.decks.listDecks()[0];
     const stored = fallback ? c.decks.loadDeck(fallback.id) : null;
     if (stored) c.openDeck(stored.id, stored.text, stored.settings.darkness);
-    else c.newDeck(SAMPLES[0]!.text);
+    else await loadSample(c, SAMPLES[0]!.id);
   }
+  // Decks made from samples get their bundled photos back if the tray lost them.
+  void ensureSamplePhotos(c, c.store.get().text);
 
   window.addEventListener('pagehide', () => c.flushSave());
   document.addEventListener('visibilitychange', () => {

@@ -8,6 +8,7 @@ import { createCanvasMeasurer } from '../layout/measure';
 import { makeCanvas } from '../render/ctx';
 import { deckIcons, layoutSlide } from '../render/renderSlide';
 import { SAMPLES } from '../samples';
+import { samplePhotosIn } from '../samples/photos';
 import {
   DECK_FORMAT, type DeckFile, base64ToBlob, blobToBase64, planPhotoIds, referencedPhotoIds, rewritePhotoRefs,
   validateDeckFile,
@@ -132,12 +133,33 @@ export function openDeck(c: Controller, id: string): void {
     return;
   }
   c.openDeck(d.id, d.text, d.settings.darkness);
+  void ensureSamplePhotos(c, d.text);
+}
+
+/** Add the bundled photos a sample uses to the tray, if they aren't there yet. */
+export async function ensureSamplePhotos(c: Controller, text: string): Promise<void> {
+  const missing = samplePhotosIn(text).filter((p) => !c.photos.get(p.id));
+  if (!missing.length) return;
+  for (const p of missing) {
+    try {
+      const blob = await (await fetch(p.url)).blob();
+      const bmp = await createImageBitmap(blob);
+      await c.photos.addBlob({
+        id: p.id, name: `${p.id}.jpg`, width: bmp.width, height: bmp.height, focalX: p.focalX, focalY: p.focalY, mime: blob.type || 'image/jpeg',
+      }, blob);
+      bmp.close();
+    } catch {
+      // The slide renders without its photo and the editor shows unknown-photo.
+    }
+  }
+  c.refreshPhotos();
 }
 
 /** Open the deck made from this sample, or create it the first time. `fresh` always makes a new copy. */
-export function loadSample(c: Controller, sampleId: string, fresh = false): void {
+export async function loadSample(c: Controller, sampleId: string, fresh = false): Promise<void> {
   const sample = SAMPLES.find((x) => x.id === sampleId);
   if (!sample) return;
+  await ensureSamplePhotos(c, sample.text);
   const existing = fresh ? undefined : decksFromSample(c.decks.listDecks(), sampleInfo(sample))[0];
   if (existing) {
     openDeck(c, existing.id);
@@ -173,7 +195,7 @@ export async function deleteDeck(c: Controller): Promise<void> {
   c.store.set({ deckId: '' });
   const next = c.decks.listDecks()[0];
   if (next) openDeck(c, next.id);
-  else loadSample(c, SAMPLES[0]!.id);
+  else await loadSample(c, SAMPLES[0]!.id);
   c.store.set({ decks: c.decks.listDecks() });
 }
 

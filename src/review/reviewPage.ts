@@ -9,6 +9,7 @@ import { CANVAS } from '../render/safezone';
 import { SAMPLE_DUSK, generateSampleDusk } from '../render/samplePhoto';
 import { VARIANTS } from '../templates/registry';
 import { SAMPLES } from '../samples';
+import { SAMPLE_PHOTOS } from '../samples/photos';
 
 export interface ReviewItem {
   template: TemplateId;
@@ -23,16 +24,22 @@ async function review(template?: TemplateId): Promise<ReviewItem[]> {
   await loadAllFonts(VARIANTS);
   const dusk = await generateSampleDusk();
   const bitmap = await createImageBitmap(dusk.blob);
-  const photo: PhotoInput = { image: bitmap, width: dusk.width, height: dusk.height, focalX: 0.5, focalY: 0.5 };
+  const photos = new Map<string, PhotoInput>([
+    [SAMPLE_DUSK.id, { image: bitmap, width: dusk.width, height: dusk.height, focalX: 0.5, focalY: 0.5 }],
+  ]);
+  for (const p of SAMPLE_PHOTOS) {
+    const img = await createImageBitmap(await (await fetch(p.url)).blob());
+    photos.set(p.id, { image: img, width: img.width, height: img.height, focalX: p.focalX, focalY: p.focalY });
+  }
   const out: ReviewItem[] = [];
   const { canvas, ctx } = makeCanvas(CANVAS.w, CANVAS.h);
   for (const variant of VARIANTS.filter((v) => !template || v.id === template)) {
     for (const sample of SAMPLES) {
-      const { deck, warnings: parseWarnings } = parse(sample.text, { photoIds: [SAMPLE_DUSK.id] });
+      const { deck, warnings: parseWarnings } = parse(sample.text, { photoIds: [...photos.keys()] });
       const icons = deckIcons(deck, variant);
       for (const [i, slide] of deck.slides.entries()) {
         const r = renderSlide(ctx, slide, deck, variant, {
-          photo: slide.photoId ? photo : null, darkness: 50, icon: icons[i] ?? null,
+          photo: slide.photoId ? photos.get(slide.photoId) ?? null : null, darkness: 50, icon: icons[i] ?? null,
         });
         const blob = 'convertToBlob' in canvas ? await canvas.convertToBlob({ type: 'image/png' }) : null;
         const dataUrl = blob ? await blobToDataUrl(blob) : (canvas as HTMLCanvasElement).toDataURL('image/png');

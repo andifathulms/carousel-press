@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync, readdirSync } from 'node:fs';
 import { parse, tokenizeTag } from '../src/core/parser';
+import { SAMPLE_PHOTO_IDS } from '../src/samples/photos';
 import { mulberry32 } from '../src/core/hash';
 import type { WarningCode } from '../src/core/types';
 
@@ -227,10 +228,8 @@ describe('every shipped deck', () => {
   const files = readdirSync(new URL('../src/samples/', import.meta.url)).filter((f) => f.endsWith('.txt'));
   for (const f of files) {
     it(`${f} parses without warnings`, () => {
-      const r = parse(sample(f.slice(0, -4)), { photoIds: ['sample-dusk'] });
-      // History decks reference archive photos the owner imports from photos/ (not shipped).
-      const ws = f.startsWith('sejarah-') ? r.warnings.filter((w) => w.code !== 'unknown-photo') : r.warnings;
-      expect(ws).toEqual([]);
+      const r = parse(sample(f.slice(0, -4)), { photoIds: ['sample-dusk', ...SAMPLE_PHOTO_IDS] });
+      expect(r.warnings).toEqual([]);
       expect(r.deck.slides.length).toBeGreaterThanOrEqual(5);
       expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);
     });
