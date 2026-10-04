@@ -1,21 +1,24 @@
 # Channels: content brief for writing decks
 
-Read this before writing any deck. The owner runs two TikTok accounts, and every deck is for exactly one of them.
-If a request names an account ("10 posts for Ruang Rasa", "deck for Fathul Learn Coding"), use that account's section.
-If it doesn't name one, infer it from the topic (relationships/feelings → Ruang Rasa, code/AI/tools → Fathul Learn Coding) and say which one you picked.
+Read this before writing any deck. The owner runs five TikTok accounts, and every deck is for exactly one of them.
+If a request names an account ("10 posts for Ruang Rasa", "deck for Whistle Notes"), use that account's section.
+If it doesn't name one, infer it from the topic and say which one you picked:
+
+- relationships, friendship, family, feelings, self-reflection → **Ruang Rasa**
+- code, AI for developers, dev tools → **Fathul Learn Coding**
+- Indonesian history, kingdoms, local events, place-name origins → **Catatan Kaki Sejarah**
+- sports rules, how a sport works, rule incidents (English) → **Whistle Notes**
+- regional statistics, rankings, "kabupaten mana yang paling…" → **Peta Angka**
 
 The deck format is PRD §4. This file only says *what* to write and which template/attributes to use. It adds no new syntax.
 
-| | 🌿 Ruang Rasa | 💻 Fathul Learn Coding |
-|---|---|---|
-| Purpose | Start conversations | Teach/share useful things |
-| Audience | Indonesian young adults | Indonesian beginner/junior devs, students, AI-curious |
-| Reader should think | "I want to send this to someone." | "I should save this." |
-| Primary action | Share / save | Save / follow |
-| Tone | Warm, intimate, relatable, thoughtful | Practical, curious, friendly, concise, slightly nerdy |
-| Voice | Anonymous companion | Fathul learning in public: "belajar bareng, bukan menggurui" |
-| Template family | `editorial/*` | `dev/*` |
-| Slide types | `cover`, `card`, `quote`, `end` | `cover`, `card`, `code`, `end` (`quote` rarely) |
+| Account | Language | What it posts | Template family | Default template |
+|---|---|---|---|---|
+| 🌿 Ruang Rasa | `id` | Conversation questions | `editorial/*` | `editorial/rose-dusk` |
+| 💻 Fathul Learn Coding | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
+| 📜 Catatan Kaki Sejarah | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
+| 🏟️ Whistle Notes | `en` | One sports rule per post | `dev/*` (clean sans) | `dev/paper-light` |
+| 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
 
 ---
 
@@ -24,6 +27,16 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 **Tagline:** *Pertanyaan kecil. Cerita yang lebih dalam.*
 A faceless Indonesian account about meaningful conversations, relationships and self-reflection.
 It should feel like "someone gave me a good question to think about", never "someone is telling me how to live my life".
+
+| | |
+|---|---|
+| Purpose | Start conversations |
+| Audience | Indonesian young adults |
+| Reader should think | "I want to send this to someone." |
+| Primary action | Share / save |
+| Tone | Warm, intimate, relatable, thoughtful |
+| Voice | Anonymous companion |
+| Slide types | `cover`, `card`, `quote`, `end` |
 
 ### Pillars
 
@@ -47,7 +60,7 @@ It should feel like "someone gave me a good question to think about", never "som
 - **Templates:** `editorial/rose-dusk` (default: cream, dusty rose, deep green), `editorial/sage` (nostalgia, family, calm), `editorial/midnight` (night-time, longing, LDR). Rotate between them so the feed doesn't look identical.
 - **Length:** cover + 5–7 cards + end. Stay ≤ 10 slides (`long-deck` warning above that).
 - **Cover:** `[cover photo=1]`, headline with a number and a `|` break, subtitle as a low-pressure invitation.
-- **Cards:** pick a fitting `icon=` per card (see list below) or leave `auto`. Don't type `01`, `02`: badge numbers are drawn automatically.
+- **Cards:** pick a fitting `icon=` per card (see the list in Shared rules) or leave `auto`. Don't type `01`, `02`: badge numbers are drawn automatically.
 - **Interactive pillar:** "A atau B?" goes in the headline, the body nudges people to answer in the comments. No hidden answers, since a carousel can't hide them.
 - **End:** `[end]` with a save/share line, e.g. `Simpan dulu 🤍` + `Buat bahan obrolan nanti.` Or end on the last question with `[cta]`.
 - **Caption:** one line, warm, invites a reply, plus 2–4 hashtags (`#pertanyaanpasangan`, `#sahabat`, `#refleksidiri`…).
@@ -79,6 +92,16 @@ Buat bahan obrolan nanti.
 Profile line: `💻 Coding • 🤖 AI • 🛠️ Dev Tools`.
 Voice is "I found this useful, here's how it works", not "I'm the expert, listen to me".
 
+| | |
+|---|---|
+| Purpose | Teach/share useful things |
+| Audience | Indonesian beginner/junior devs, students, AI-curious |
+| Reader should think | "I should save this." |
+| Primary action | Save / follow |
+| Tone | Practical, curious, friendly, concise, slightly nerdy |
+| Voice | Fathul learning in public: "belajar bareng, bukan menggurui" |
+| Slide types | `cover`, `card`, `code`, `end` (`quote` rarely) |
+
 ### Pillars
 
 1. **Coding fundamentals**: concepts explained simply (API, HTTP, databases, JS/Python basics). "X itu sebenarnya apa?"
@@ -98,7 +121,7 @@ Voice is "I found this useful, here's how it works", not "I'm the expert, listen
 
 ### Deck recipe
 
-- **Templates:** `dev/github-dark` (default: near-black + green, closest to the brand), `dev/terminal` (Linux/CLI topics). `dev/paper-light` has a blue accent, so it's off-brand; use it only for variety.
+- **Templates:** `dev/github-dark` (default: near-black + green, closest to the brand), `dev/terminal` (Linux/CLI topics). Don't use `dev/paper-light` here: it's Whistle Notes' look.
 - **Length:** cover + 4–7 slides + end, ≤ 10 total.
 - **Cover:** `[cover kicker="GIT • CHEAT SHEET"]` style kicker (TOPIC • FORMAT in caps), headline with a number and `|` break.
 - **Slides:** `[code]` with a fenced block in `bash`, `js`, `py` or `sql` for commands/snippets; plain cards for concepts. Inline `` `code` `` in headlines is fine. Keep code lines short (no wrapping; long lines get shrunk then clipped with `code-line-too-long`).
@@ -114,16 +137,305 @@ Voice is "I found this useful, here's how it works", not "I'm the expert, listen
 
 ---
 
-## 3. Shared rules
+## 3. 📜 Catatan Kaki Sejarah
 
-- Don't let either account become a content farm: every deck needs a specific angle, not a generic list.
+**Tagline:** *Yang nggak sempat masuk buku pelajaran.*
+A faceless Indonesian account telling lesser-known stories from Indonesian history, one place or event at a time: kingdoms, local events, place-name origins, objects and people the textbook skipped.
+It should feel like "wait, this happened here?", never like a lecture or a political opinion.
+
+| | |
+|---|---|
+| Purpose | Make people curious about local history |
+| Audience | Indonesian teens to adults, students, people proud of their region |
+| Reader should think | "I didn't know this, I'm sending it to someone from there." |
+| Primary action | Share / save / comment ("di daerahku juga ada…") |
+| Tone | Curious, vivid, respectful, neutral |
+| Voice | A storyteller who did the reading: concrete dates, places, names; no exaggeration |
+| Slide types | `cover`, `card`, `quote`, `end` |
+
+### Pillars
+
+1. **Kerajaan & kesultanan**: how they rose, ended, or survived as cultural institutions (Kutai, Ternate, Gowa, Banjar, Siak…).
+2. **Peristiwa lokal**: regional events that stayed regional: uprisings, disasters, battles, odd incidents.
+3. **Asal-usul nama**: where a city, river or island name comes from (only if the origin is documented; label folklore as folklore).
+4. **Benda & tempat**: one object, building or site and its story (a prasasti, a fort, a ship, a palace).
+5. **Tokoh yang terlupa**: one lesser-known person and the moment they mattered.
+
+### Accuracy rules (non-negotiable)
+
+- **Every date, name, number and claim needs a source.** Before writing the deck, list sources in the reply: books, journals, official/government sites, museum or archive pages. Wikipedia is a starting point only; find at least one stronger source for the key facts.
+- If sources disagree, say so on the slide ("Sebagian sumber menyebut 1575, sebagian lain…") or leave the detail out.
+- If something can't be confirmed, don't write it. Never fill gaps with plausible-sounding details.
+- Folklore and legend are welcome, but labelled: "Menurut cerita rakyat…".
+- No present-day political commentary. Tell what happened; let viewers draw conclusions.
+
+### Sensitive topics
+
+- Topics involving SARA, 1965–66, Papua, Aceh, Timor Leste, or communal conflicts (e.g. Sampit, Poso): only when the owner explicitly asks. Neutral wording, sources from more than one side, no blame language, no graphic detail, no images of victims or bodies.
+- Don't mock or rank ethnic groups, regions or religions.
+- Royal families still exist: describe them respectfully and accurately.
+
+### Images
+
+Follow the image policy in Shared rules. Prefer real archive photos and old maps. No AI-generated images presented as historical; if one is used, the slide must say "ilustrasi".
+
+### Writing rules
+
+- Language: Indonesian (`lang: id`), standard but relaxed: `kamu` is fine, light slang only in the hook. Proper names in correct spelling (`Kesultanan Kutai Kartanegara ing Martadipura` on first mention).
+- Put the year or place at the start of story headlines: `*1960*: …`, `Tenggarong, 2001: …` (`*…*` = accent colour).
+- Body ≤ 35 words per slide. One beat of the story per slide.
+- The hook must be true. No "rahasia yang disembunyikan", no clickbait the deck can't back up.
+
+### Deck recipe
+
+- **Templates:** `editorial/sage` (default: calm, archival feel, Lora serif), `editorial/midnight` (tragedies, wars, night-time events). Switch to `editorial/archive` once it exists (see Open items).
+- **Two deck shapes:**
+  - **Story deck** (one event): cover → context → turning point → what happened → aftermath → "today" link → end. Use `number=off` on story cards.
+  - **List deck** ("5 kerajaan yang…", "4 nama kota yang…"): cover + 4–6 numbered cards + end.
+- **Length:** ≤ 10 slides total.
+- **Cover:** `[cover photo=<id>]` with an archive photo or map; headline = a surprising true statement or question with a `|` break; subtitle sets place + era.
+- **Quote slide:** a documented quote (with attribution and source only), or a line from a prasasti/chronicle.
+- **End:** `[end]` with `Di daerahmu ada cerita kayak gini?` + `Tulis di komen, siapa tahu jadi postingan berikutnya.`
+- **Caption:** one line hook + `Sumber:` short source list + image credits + 2–4 hashtags (`#sejarahindonesia`, `#sejarahlokal`, `#kalimantantimur`…).
+
+```text
+template: editorial/sage
+lang: id
+title: kutai pernah dihapus
+caption: Kerajaan tua yang masih punya sultan. Sumber: [isi sumber terverifikasi] · Foto: [credit lines] #sejarahindonesia #kutai #kalimantantimur
+---
+[cover photo=kutai-keraton]
+Kesultanan Ini Pernah | Dihapus Negara
+Lalu "hidup lagi" 41 tahun kemudian. Kutai Kartanegara, Kalimantan Timur.
+---
+[number=off icon=home]
+Berdiri sejak abad ke-14
+Kutai Kartanegara berpusat di tepi Sungai Mahakam dan memeluk Islam pada abad ke-16.
+---
+[number=off icon=map-pin]
+Setelah merdeka, jadi daerah istimewa
+Wilayah kesultanan sempat punya status khusus di dalam Republik Indonesia.
+---
+[number=off icon=alert]
+*1960*: status itu dihapus
+Pemerintah pusat menghapus status istimewanya. Kekuasaan politik sultan berakhir, wilayahnya jadi bagian biasa dari Kalimantan Timur.
+---
+[number=off icon=star]
+*2001*: sultan dinobatkan lagi
+Aji Muhammad Salehuddin II naik takhta pada 22 September 2001, kali ini sebagai simbol budaya, bukan pemerintahan.
+---
+[end]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.
+```
+
+(Example only: verify every fact and fill in real sources/credits before posting.)
+
+---
+
+## 4. 🏟️ Whistle Notes
+
+**Tagline:** *One rule. Explained properly.*
+A faceless English account that explains sports rules one piece at a time: the objective of a sport, one rule, one tricky case, or the incident that changed a rule.
+It should feel like "oh, so THAT's why the referee did that", never like reading a rulebook.
+
+| | |
+|---|---|
+| Purpose | Make sports rules click |
+| Audience | Casual fans, new viewers of a sport, people who argue about referee calls |
+| Reader should think | "Saving this for the next match argument." |
+| Primary action | Save / share / comment ("do X next") |
+| Tone | Clear, confident, a little playful, never smug |
+| Voice | The friend who actually read the rulebook |
+| Slide types | `cover`, `card`, `quote` (rarely), `end` |
+
+### Pillars
+
+1. **One rule explained**: offside, handball, tennis scoring, badminton service, LBW, travelling, volleyball rotation…
+2. **How to play in 6 slides**: the objective and the 4–5 rules a new viewer needs (one sport per post, never "all the rules").
+3. **Tricky cases / myths**: "Is it offside if…?", common misconceptions, edge cases from the rulebook.
+4. **Why the rule exists**: the incident or problem that created or changed a rule (with dates and sources).
+5. **Badminton corner**: a recurring series on badminton rules and scoring for a global audience.
+
+### Accuracy rules (non-negotiable)
+
+- Use the **current official rulebook** of the governing body (e.g. IFAB Laws of the Game, BWF Laws of Badminton, ITF Rules of Tennis, FIBA, FIVB, ICC/MCC Laws of Cricket). Name the law/rule number and edition in the caption.
+- Rules change every season. If unsure whether a rule changed recently, say so to the owner instead of guessing. Trials and proposals (e.g. new offside ideas) only when confirmed and clearly labelled as trials.
+- When competitions differ (NBA vs FIBA, college vs pro), say which one the deck follows.
+- Incidents: real dates, competitions and sources only. Describe what happened and what changed, no blame.
+
+### Images
+
+Follow the image policy in Shared rules. Most match photos are owned by agencies and leagues: **don't use them**, and no club/league logos or kits. Prefer text-only decks now, and pitch/court diagrams once the `figure` slide exists (see Open items).
+
+### Writing rules
+
+- Language: English (`lang: en`), plain words, short sentences. Explain any term the first time (e.g. "second-last opponent").
+- One idea per slide. Headline = the point; body ≤ 30 words.
+- Use numbers and positions concretely ("both feet", "behind the service line"), not vague words.
+- Light humour is fine ("Save this for the next VAR argument"). Don't mock players, referees or fans.
+
+### Deck recipe
+
+- **Templates:** `dev/paper-light` (default: light, clean Inter, blue accent; reads like a rulebook), `dev/github-dark` for variety. No `code` slides.
+- **Length:** cover + 4–6 cards + end, ≤ 10 total.
+- **Cover:** `[cover kicker="FOOTBALL • LAW 11"]` style kicker (SPORT • RULE in caps), headline as the question or "X, explained" with a `|` break.
+- **Cards:** build up in order: objective → basic rule → the tricky part → exceptions → why it exists. Badge numbers on.
+- **End:** `[end]` with a save line + `Which rule should we break down next?`
+- **Caption:** one line + `Source: <rulebook, law number, edition>` + 2–4 hashtags (`#football`, `#offside`, `#sportsrules`, `#badminton`…).
+
+```text
+template: dev/paper-light
+lang: en
+title: offside explained
+caption: The rule everyone argues about, in 5 slides. Source: IFAB Laws of the Game, Law 11 (check current edition) #football #offside #sportsrules
+---
+[cover kicker="FOOTBALL • LAW 11"]
+Offside, | Explained Properly
+No, you're not offside just for standing there.
+---
+The idea behind it
+Offside stops attackers from waiting next to the goalkeeper for a long ball.
+---
+What "offside position" means
+Any part of your head, body or feet is nearer the opponents' goal line than both the ball and the second-last opponent.
+---
+Level is onside
+Level with the second-last opponent, or with the ball, is fine. Hands and arms don't count.
+---
+Position alone isn't an offence
+It's only penalised if you get involved in play when a teammate plays or touches the ball.
+---
+When you can't be offside
+In your own half, and straight from a goal kick, throw-in or corner kick.
+---
+[end]
+Save this for the next VAR argument.
+Which rule should we break down next?
+```
+
+(Example only: check against the current edition of Law 11 before posting.)
+
+---
+
+## 5. 📊 Peta Angka
+
+**Tagline:** *Indonesia dibaca lewat angka, satu daerah satu cerita.*
+A faceless Indonesian account turning official regional statistics into surprising, easy-to-read facts about provinsi, kabupaten/kota and kecamatan.
+It should feel like "wait, my kabupaten is #2?!", never like a government report or a ranking that shames a region.
+Not an official account: never use BPS/Kemendagri/Kemenkeu logos, and say "Diolah dari data …", not "Data resmi dari …".
+
+| | |
+|---|---|
+| Purpose | Make regional data surprising and shareable |
+| Audience | Indonesian young adults, students, people curious about their own region |
+| Reader should think | "Daerahku nomor berapa?", then tag a friend from that region |
+| Primary action | Share / comment ("daerahku gimana?") / save |
+| Tone | Curious, clear, neutral, respectful to every region |
+| Voice | A data nerd who checks everything twice; plain words, no jargon without explanation |
+| Slide types | `cover`, `card`, `quote` (rarely), `end` |
+
+### Where the numbers come from (non-negotiable)
+
+- **Only from a NusaStats data pack** (`"format": "carousel-data/1"`) that the owner pastes into the request, produced by `manage.py export_carousel_pack`. If no pack is provided, ask for one. **Never use numbers from memory or the web.**
+- Use the pack's `rows`, `unit`, `period`, `source` and `notes` exactly. Every caveat in `notes` must appear on a slide or in the caption.
+- **One source per deck.** Never put BPS, Dukcapil and DJPK numbers in the same ranking or comparison, and never compute per-capita figures by mixing sources.
+- Round only in the text: at most 2 decimals for indices/percent, whole numbers for people and Rupiah. Large Rupiah in words: `Rp7,5 triliun`, `Rp3,9 miliar`.
+- **Indonesian number format:** decimal comma, thousands dot (`89,55`, `582.327`, `15,3%`).
+- Name the exact series when BPS has several (e.g. "IPM (UHH Long Form SP2020)"). Never mix series.
+- Dukcapil numbers = **registered** residents (administrasi kependudukan), not census results. Say so when the story is about population.
+- If a pack's notes say `n = X dari Y` (incomplete), don't call anything "tertinggi/terendah se-Indonesia".
+
+### Fairness rules
+
+- **No shaming.** Never "kabupaten terburuk", "paling tertinggal", or jokes about a region. A low value is a gap to explain, not a verdict.
+- At most **1 in 4 posts** may headline a lowest-ranking. Prefer top-end, surprising, or "gap" framing ("Beda 22 tahun umur harapan hidup antar kabupaten").
+- When the bottom of a ranking is the same Papua highland kabupaten again, add context (geography, access, cost of living) or don't headline the bottom.
+- Don't attribute causes (nickel industry, tourism, migration…) unless the owner supplies a separate source.
+- **Never use:** Dukcapil "bottom" rankings for % children / crude death rate / KTP-el coverage (registration artifacts), stunting 2018, blood-type rhesus, "least smokers", divorce framed as a judgement, religion "least diverse".
+- Aggregates at kecamatan level or above only. No desa-level or small-group breakdowns.
+
+### Pillars
+
+1. **"Ternyata…" facts**: one surprising comparison (e.g. one kecamatan with more residents than 370 kab/kota).
+2. **Top 5**: the five highest in something positive or neutral (density, oldest population, fishers, fiscal independence).
+3. **Gap**: highest vs lowest, framed as distance, not winners and losers.
+4. **Daerahmu**: one province's kab/kota compared (Kaltim first: home ground), ending with "kabupatenmu nomor berapa?".
+5. **Cara baca data**: explain one concept simply (IPM, garis kemiskinan, rasio jenis kelamin, PAD), as a follow-up to a ranking post.
+
+### How data slides are built (until the `chart` slide exists)
+
+- **Cover:** the surprising fact as the headline with a `|` break; subtitle = what's measured + period; kicker = `"DATA • <SOURCE> <YEAR>"`.
+- **Ranking cards:** one region per card. Headline = region name (with Kota/Kab. as in the pack). Body starts with the value in accent, `*582.327 jiwa*`, followed by one short line of meaning.
+- **Top 5 = countdown:** `number=5` … `number=1` so the reveal is the last card; the #1 card gets `icon=star`, the others `icon=map-pin`.
+- **Gap decks:** card 1 = highest, card 2 = lowest, card 3 = the distance in plain words ("5,5× lipat", "beda 22 tahun"), card 4 = what the metric means.
+- **Context card (always):** `[icon=book]` headline `Catatan`, body = what the number measures + the pack's caveat, in plain words.
+- **End:** `[end]` with `Daerahmu nomor berapa?` + `Tulis di komen, nanti kami cek datanya.`
+- **Caption:** hook line + `Sumber: <pack.source>` + `Diolah oleh Peta Angka` + 2–4 hashtags (`#datadaerah`, `#indonesia`, `#statistik`, `#kalimantantimur`…).
+- **Templates:** `editorial/midnight` (default: navy + amber reads like a dashboard), `editorial/sage` for explainer decks.
+- **Length:** cover + 5–7 slides + end, ≤ 10 total.
+
+```text
+template: editorial/midnight
+lang: id
+title: kecamatan terpadat penduduk
+caption: Satu kecamatan, lebih ramai dari 370 kabupaten/kota. Sumber: Ditjen Dukcapil Kemendagri (GIS Dukcapil), diakses Okt 2026 · Diolah oleh Peta Angka #datadaerah #jakarta #indonesia
+---
+[cover kicker="DATA • DUKCAPIL 2026"]
+Satu Kecamatan Ini | Lebih Ramai dari 370 Kabupaten
+Jumlah penduduk terdaftar per kecamatan.
+---
+[number=5 icon=map-pin]
+Cilincing, Jakarta Utara
+*445.729 jiwa*
+---
+[number=4 icon=map-pin]
+Tambun Selatan, Kab. Bekasi
+*450.469 jiwa*, satu-satunya di luar Jakarta di daftar ini.
+---
+[number=3 icon=map-pin]
+Kalideres, Jakarta Barat
+*464.076 jiwa*
+---
+[number=2 icon=map-pin]
+Cengkareng, Jakarta Barat
+*581.788 jiwa*
+---
+[number=1 icon=star]
+Cakung, Jakarta Timur
+*582.327 jiwa*, lebih banyak dari penduduk 370 dari 514 kabupaten/kota di Indonesia.
+---
+[icon=book]
+Catatan
+Ini penduduk terdaftar di Dukcapil, bukan hasil sensus. Tanggal rujukan data tidak dicantumkan sumber.
+---
+[end]
+Daerahmu nomor berapa?
+Tulis di komen, nanti kami cek datanya.
+```
+
+---
+
+## 6. Shared rules
+
+- Don't let any account become a content farm: every deck needs a specific angle, not a generic list.
 - No text copied from real TikTok accounts.
+- Each account keeps its own default template so feeds look distinct. Borrowing another account's template is fine occasionally, never as a habit.
 - Emoji are fine in text (system emoji font); arrows and bookmarks are drawn by the app, don't type them.
 - Icons available for `icon=`: alert, arrow-right, book, bookmark, bug, chat, check-circle, circle-arrow, clock, code, coffee, cpu, database, flower, folder, gift, git-branch, heart, heart-spark, home, key, leaf, lightbulb, map-pin, moon, mountain, music, plane, rocket, shield-heart, smile, star, sun, terminal, umbrella (aliases: shield, pin, branch, bulb, check, spark).
 - When asked for many posts at once, vary pillar, template and opening hook across them.
+- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
+- **Image policy** (all accounts):
+  - Only images whose license allows reuse: Wikimedia Commons (public domain, CC0, CC BY, CC BY-SA), Rijksmuseum (CC0), Nationaal Archief, KITLV/Leiden University Libraries (check each item's rights statement), Unsplash/Pexels for present-day places. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
+  - For each image give a manifest row: `photo ID | source URL | title | author | license | credit line`. With file access, download it to `photos/<deck-slug>/<photo-id>.<ext>` so `photo=<photo-id>` works; otherwise list the URLs.
+  - CC BY / CC BY-SA images need credit: put credit lines in the caption until the app supports `credit=`.
 - Out of scope for this app: screen recordings, video demos. Only photo carousels.
 
-## 4. Open items
+## 7. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so one of the two accounts will get the wrong handle. Once the owner gives both handles, put `handle:` in every deck header.
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all five handles, put `handle:` in every deck header.
 - **Fonts vs the brand note.** The brand note says Playfair Display + DM Sans; `editorial/rose-dusk` uses Playfair + Poppins (DM Sans is on `midnight`). Tokens follow DESIGN.md, so this is accepted as-is unless the owner wants a variant change.
+- **BPS Papua fix.** No BPS-based Peta Angka decks until the NusaStats ingest fix is merged (26 new-Papua kabupaten were missing from rankings). Dukcapil and DJPK packs are fine now.
+- **`chart` slide.** Add `[chart data=<pack-id> kind=bar top=N]` to Carousel Press: paste a `carousel-data/1` pack into a Data tab, rendered as a bar chart in template colours. Until then, rankings are one card per region.
+- **`figure` slide + `credit=`.** A slide that shows an image uncropped in a frame (maps, court/pitch diagrams, charts) without the dark photo overlay, plus a `credit="…"` line on photo slides. Needed by Catatan Kaki Sejarah, Whistle Notes and Peta Angka.
+- **`editorial/archive` variant.** Sepia paper, dark brown ink, serif, a small year/place label, so Catatan Kaki Sejarah stops borrowing `sage`.
