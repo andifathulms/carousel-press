@@ -1,43 +1,59 @@
 template: editorial/sage
 lang: id
 title: prasasti yupa
-caption: Tujuh tiang batu dari Muara Kaman, bukti tertulis tertua yang diketahui di Nusantara. Sumber: Sarip, Yupa: Historical Studies Journal 4(2) 2020; kaltimkece.id · Foto: Photo Dharma (CC BY 2.0), Ezagren (CC BY-SA 4.0), Muhammad Syarif. S (CC BY-SA 4.0) via Wikimedia Commons; I. van Kinsbergen (domain publik) #sejarahindonesia #prasasti #kalimantantimur
+caption: Tujuh tiang batu dari Muara Kaman: apa isinya, siapa yang membawanya, dan apa yang masih diperdebatkan. Sumber: Vogel, BKI 74 (1918); Kern (1880–1882); Notulen Bataviaasch Genootschap (1879–1880); Chhabra, Expansion of Indo-Aryan Culture During Pallava Rule (1965); Sarip, Yupa: Historical Studies Journal 4(2) 2020; Kasnowihardjo, Berkala Arkeologi 26(1) 2006; Museum Nasional (2023); kaltimkece.id · Foto: Photo Dharma (CC BY 2.0), Ezagren, Muhammad Syarif. S (CC BY-SA 4.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons; I. van Kinsbergen (domain publik) #sejarahindonesia #prasasti #kalimantantimur
 ---
 [cover photo=yupa-mulawarman]
 Bukti Tertulis Tertua | di Nusantara
 Tujuh tiang batu dari Muara Kaman, Kalimantan Timur.
 ---
-[number=off icon=book photo=yupa-replika-muara-kaman]
+[number=off icon=book photo=yupa-aksara]
 Tujuh tiang batu bernama yupa
-Bahasanya Sanskerta, hurufnya Pallawa awal. Tiang-tiang ini didirikan para brahmana untuk Raja Mulawarman. Dalam tradisi Weda, yupa adalah tiang kurban.
+Bahasanya Sanskerta, hurufnya Pallawa awal, didirikan para brahmana untuk Raja Mulawarman. Dalam tradisi Weda, yupa aslinya tiang kayu untuk kurban; batu-batu ini tiang peringatan setelah upacara.
 ---
 [number=off icon=map-pin photo=yupa-replika-muara-kaman]
-*1879*: empat yupa ditemukan
-Lokasinya Bukit Brubus, Muara Kaman, di tepi Sungai Mahakam. Setahun kemudian keempatnya dibawa ke Batavia. Tiga yupa lagi ditemukan di situs yang sama pada 1940.
+*1879* dan *1940*: ditemukan
+Empat yupa ditemukan di Muara Kaman pada 1879, tiga lagi pada 1940. Titik temuan persisnya masih diperdebatkan. Tiga yupa terakhir pertama kali diterbitkan di India, karena Perang Dunia II memutus kontak Batavia–India.
+---
+[number=off icon=key photo=yupa-museum-nasional]
+Diserahkan Sultan, dibawa ke Batavia
+Empat yupa pertama diserahkan Sultan Kutai ke museum Bataviaasch Genootschap di masa Hindia Belanda. Sejak itu yang asli tak pernah kembali ke Kalimantan.
 ---
 [number=off icon=home photo=yupa-aksara]
 Tiga generasi raja
-Yupa menyebut Kudungga, anaknya Aswawarman yang disebut pendiri dinasti, dan cucunya, Mulawarman. Aswawarman adalah yang pertama memakai nama berakhiran -warman.
+Yupa menyebut Kundunga, putranya Aswawarman yang disebut pendiri dinasti, dan cucunya, Mulawarman. Aswawarman diibaratkan Ansuman dari epos, dan tiga putranya diibaratkan tiga api suci.
+---
+[number=off icon=chat photo=kutai-mahakam]
+Siapa Kundunga?
+Namanya bukan Sanskerta. Kern menganggapnya orang lokal Kalimantan, Chhabra menduga nama Tamil, Poerbatjaraka menyebut orang Nusantara, dan ada yang mengaitkannya dengan nama Bugis Kadungga. Sampai kini belum ada kata sepakat.
 ---
 [number=off icon=gift photo=yupa-sapi]
 *20.000* ekor sapi
-Salah satu yupa mencatat Mulawarman menghadiahkan 20.000 sapi kepada para brahmana di tempat suci bernama Waprakeswara. Arkeolog menduga angka ini bisa jadi dilebihkan sebagai bagian dari ritual.
+Satu yupa mencatat Mulawarman menghadiahkan sapi kepada para brahmana di tempat suci Waprakeswara. Jumlahnya 20.000 menurut bacaan Chhabra yang kini ada di buku pelajaran, tapi 1.020 menurut Kern dan Vogel.
 ---
-[number=off icon=clock photo=yupa-aksara]
+[number=off icon=leaf photo=yupa-sapi]
+Wijen, minyak samin, dan pelita
+Yupa lain mencatat sedekah air, minyak samin, sapi cokelat, wijen, 11 sapi jantan, serta setumpuk wijen dengan deretan pelita. Ada juga upacara Bahusuwarnaka, artinya "banyak emas".
+---
+[number=off icon=mountain photo=yupa-mulawarman]
+Raja yang menaklukkan
+Satu yupa temuan 1940 menyebut Mulawarman mengalahkan raja-raja lain di medan perang dan menjadikan mereka pembayar upeti, seperti Yudistira dalam Mahabharata.
+---
+[number=off icon=clock photo=yupa-ciaruteun]
 Kapan dibuatnya?
-Prasastinya tidak bertanggal. Para ahli menaksir dari bentuk hurufnya: sekitar 400 Masehi, ada juga yang menyebut 425 atau 450. Jadi angka 400 itu perkiraan, bukan tanggal pasti.
+Yupa tidak bertanggal. Para ahli menaksir dari bentuk hurufnya: sekitar 400, 425, atau 450 Masehi. Karena lebih tua dari prasasti Purnawarman di Jawa Barat, yupa disebut bukti tertulis tertua yang diketahui di Nusantara.
 ---
-[number=off icon=lightbulb photo=yupa-ciaruteun]
-Lebih tua dari prasasti Purnawarman
-Prasasti Raja Purnawarman di Jawa Barat diperkirakan dibuat setelah yupa. Karena itu yupa disebut bukti tertulis tertua yang diketahui di Nusantara, meski kesimpulan ini bertumpu pada bentuk huruf.
----
-[number=off icon=alert photo=yupa-mulawarman]
+[number=off icon=alert photo=yupa-replika-muara-kaman]
 Tidak ada kata "Kutai"
 Nama Kutai tidak tertulis di yupa mana pun. Peneliti zaman Belanda menamai kerajaan ini dari lokasi temuannya. Sejarawan Muhammad Sarip berpendapat namanya justru Martapura.
 ---
+[number=off icon=map-pin photo=kutai-mahakam]
+Tempat asalnya hilang
+Sebelum arkeolog datang, situs Muara Kaman sudah digali pencari harta, termasuk seratus orang atas perintah Sultan, dan benda emasnya masuk perbendaharaan istana. Titik asli berdirinya prasasti belum ditemukan.
+---
 [number=off icon=star photo=yupa-museum-nasional]
 Hari ini
-Yupa yang asli disimpan di Museum Nasional Indonesia, Jakarta. Usianya sekitar 1.600 tahun.
+Ketujuh yupa asli disimpan di Museum Nasional Indonesia dan berstatus cagar budaya peringkat nasional. Galeri yang terdampak kebakaran museum 2023 tidak termasuk koleksi prasasti. Museum Mulawarman di Tenggarong memajang replikanya.
 ---
 [end photo=yupa-mulawarman]
 Di daerahmu ada cerita kayak gini?

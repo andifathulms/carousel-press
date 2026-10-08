@@ -1,7 +1,7 @@
 template: editorial/midnight
 lang: id
 title: perjanjian bongaya
-caption: Satu perjanjian yang mengubah Makassar. Sumber: Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud, 1975); Atlas of Mutual Heritage (Nationaal Archief); Setneg · Gambar: Romeyn de Hooge / Nationaal Archief (domain publik), Rijksmuseum (CC0); Foto: Herusutimbul (CC BY-SA 4.0), Torbenbrinker (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #makassar #sulawesiselatan
+caption: Satu perjanjian yang mengubah Makassar, dan kekerasan di kedua sisi. Sumber: Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud, 1975) termasuk teks perjanjian; Andaya, The Heritage of Arung Palakka (1981); Palallo, Attoriolong 18(1) 2020; Atlas of Mutual Heritage (Nationaal Archief); Setneg · Gambar: Romeyn de Hooge / Nationaal Archief (domain publik), Rijksmuseum (CC0); Foto: Herusutimbul, Torbenbrinker (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #makassar #sulawesiselatan
 ---
 [cover photo=penaklukan-makassar]
 Satu Perjanjian | yang Mengubah Makassar
@@ -9,36 +9,52 @@ Perjanjian Bongaya, 18 November 1667.
 ---
 [number=off icon=home photo=makassar-fort-rotterdam]
 Benteng milik Gowa
-Benteng Ujung Pandang dibangun Kerajaan Gowa-Tallo sekitar 1630-an, untuk bertahan dari blokade VOC. Letaknya di tepi pantai Makassar.
+Benteng Ujung Pandang dibangun Kerajaan Gowa-Tallo di tepi pantai Makassar; tahun berdirinya masih diperdebatkan. Setelah 1667 benteng ini diserahkan ke VOC, dibangun ulang, dan dinamai Rotterdam, kota kelahiran Speelman.
 ---
-[number=off icon=alert photo=makassar-speelman]
-Dua pihak, satu sekutu
-Sultan Hasanuddin dari Gowa berhadapan dengan panglima VOC Cornelis Speelman, yang dibantu Arung Palakka dari Bone. Arung Palakka memimpin perang di darat.
+[number=off icon=alert photo=penaklukan-makassar]
+*1660*: VOC sudah menyerang
+Pada 12 Juni 1660 armada VOC merebut Benteng Pannakukang dan menewaskan seluruh pasukan Gowa di dalamnya. Perjanjian damai sesudahnya memaksa sekitar 2.000 orang Portugis meninggalkan Gowa.
 ---
-[number=off icon=book photo=penaklukan-makassar]
+[number=off icon=mountain photo=makassar-somba-opu]
+Kenapa Arung Palakka memihak VOC?
+Tahun 1660 Gowa mengerahkan ribuan orang Bone menggali parit dan membangun pertahanan. Yang lari ditangkap dan dihukum, banyak yang dibunuh. Arung Palakka memimpin pelarian dan pemberontakan, kalah, lalu menyingkir ke Buton dan pada 1663 ke Batavia.
+---
+[number=off icon=plane photo=makassar-speelman]
+Armada Speelman
+Pada 24 November 1666 Cornelis Speelman berangkat dari Batavia dengan sekitar 1.860 orang, termasuk prajurit Ambon dan Bugis. Di Sulawesi, pasukan Bugis Arung Palakka kemudian mencapai sekitar 8.000 orang.
+---
+[number=off icon=alert photo=penaklukan-makassar]
+*Januari 1667*: tragedi Selat Buton
+Armada Gowa runtuh setelah sekitar 5.000 orang Bugis di dalamnya berbalik ke Arung Palakka. Sekitar 5.500 orang Makassar ditawan. Ratusan dijual sebagai budak, ribuan dibuang ke pulau kecil dan banyak yang mati kelaparan.
+---
+[number=off icon=book photo=makassar-speelman]
 *18 November 1667*: ditandatangani
-Setelah perang panjang, Hasanuddin dan Speelman menandatangani perjanjian di Bungaya. Karaeng Tallo baru menandatanganinya pada 9 Maret 1668.
+Setelah setahun perang, Sultan Hasanuddin dan Speelman menandatangani perjanjian di Bungaya. Karaeng Tallo baru menandatanganinya pada 9 Maret 1668.
 ---
-[number=off icon=key photo=makassar-speelman]
+[number=off icon=key photo=makassar-fort-rotterdam]
 Isinya berat untuk Gowa
-VOC mendapat monopoli dagang, orang Eropa lain diusir, dan benteng-benteng Gowa dibongkar, kecuali Somba Opu. Gowa juga harus melepas wilayah-wilayah bawahannya.
+VOC mendapat monopoli dagang, orang Portugis dan Inggris diusir, dan benteng Gowa dibongkar kecuali Somba Opu. Gowa juga wajib membayar 250.000 ringgit dalam lima tahun dan menyerahkan 1.000 budak.
 ---
-[number=off icon=map-pin photo=makassar-fort-rotterdam]
-Ujung Pandang jadi Fort Rotterdam
-Benteng itu diserahkan ke VOC dan dinamai sesuai kota kelahiran Speelman. Pada 1670-an benteng dibangun ulang dengan lima bastion.
----
-[number=off icon=clock photo=penaklukan-makassar]
+[number=off icon=clock photo=makassar-somba-opu]
 *1668*: perang pecah lagi
-Pada 12 April 1668 pertempuran kembali terjadi. Perjanjian itu ternyata tidak langsung mengakhiri perang.
+Pada 12 April 1668 pertempuran kembali terjadi. Speelman memblokade pantai dan menyuruh pasukan Bugis merampas padi dan ternak di pedalaman Gowa, supaya Gowa kelaparan.
 ---
 [number=off icon=mountain photo=makassar-somba-opu]
 *24 Juni 1669*: Somba Opu jatuh
-Benteng utama Gowa jatuh setelah diserang VOC dan pasukan Arung Palakka. Hasanuddin turun takhta pada tahun itu dan wafat pada 12 Juni 1670.
+Tembok Somba Opu dijebol ranjau. Para pembela meledakkan meriam keramat Anak Makassar agar tidak dirampas. VOC lalu meratakan benteng itu. Hasanuddin turun takhta pada 1669 dan wafat pada 12 Juni 1670.
+---
+[number=off icon=chat photo=makassar-fort-rotterdam]
+Pahlawan atau pengkhianat?
+Bagi orang Gowa, Arung Palakka pemberontak yang bersekutu dengan VOC. Bagi banyak orang Bone dan Soppeng, ia pembebas dari kekuasaan Gowa. Sampai kini sosoknya masih diperdebatkan.
+---
+[number=off icon=map-pin photo=penaklukan-makassar]
+Setelah kalah: merantau dan melawan
+Sebagian bangsawan dan prajurit Makassar menolak Perjanjian Bongaya. Mereka berlayar ke Banten, lalu ke Jawa Timur. Di sana Karaeng Galesong bergabung dengan pemberontakan Trunajaya melawan Mataram dan VOC, sampai wafat pada 1679.
 ---
 [number=off icon=star photo=makassar-hasanuddin]
 "Ayam Jantan dari Timur"
-Julukan Hasanuddin ini sering disebut berasal dari Belanda, tapi belum ada sumber sezaman yang memastikannya. Ia dianugerahi gelar Pahlawan Nasional pada 1973.
+Julukan ini sering disebut berasal dari Belanda, tapi belum ada sumber sezaman yang memastikannya; dulu sebutan itu dipakai untuk orang Makassar umumnya. Hasanuddin dianugerahi gelar Pahlawan Nasional pada 1973.
 ---
-[end photo=makassar-fort-rotterdam]
+[end photo=makassar-hasanuddin]
 Di daerahmu ada cerita kayak gini?
 Tulis di komen, siapa tahu jadi postingan berikutnya.
