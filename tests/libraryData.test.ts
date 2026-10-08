@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { SAMPLES } from '../src/samples';
 import { SAMPLE_PHOTO_IDS, samplePhotosIn } from '../src/samples/photos';
 import type { DeckIndexEntry } from '../src/store/deckStore';
-import { deckCategories, decksFromSample, filterDecks, filterSamples, matches, sampleInfo } from '../src/ui/libraryData';
+import { countStatuses, deckCategories, deckMarkKey, deckSamples, decksFromSample, keepStatus, postStatus, sampleMarkKey, filterDecks, filterSamples, matches, sampleInfo } from '../src/ui/libraryData';
 
 const git = sampleInfo(SAMPLES.find((s) => s.id === 'dev-git-id')!);
 const deck = (over: Partial<DeckIndexEntry>): DeckIndexEntry => ({ id: 'x', title: 't', template: 'editorial/sage', updatedAt: 0, ...over });
@@ -56,5 +56,23 @@ describe('sample photos', () => {
     const refs = new Set(SAMPLES.flatMap((s) => [...s.text.matchAll(/\bphoto="?([^\s\]"]+)/g)].map((m) => m[1]!)));
     for (const r of refs) if (!/^\d+$/.test(r) && r !== 'sample-dusk') expect(SAMPLE_PHOTO_IDS).toContain(r);
     expect([...used].sort()).toEqual([...SAMPLE_PHOTO_IDS].sort());
+  });
+});
+
+describe('posting status', () => {
+  const all = SAMPLES.map(sampleInfo);
+  const decks = [deck({ id: 'a', sampleId: 'dev-git-id' }), deck({ id: 'b', title: 'Mine' })];
+  const from = deckSamples(decks, all);
+  it('a deck from a sample shares the sample key; own decks get their own', () => {
+    expect(deckMarkKey('a', from)).toBe(sampleMarkKey('dev-git-id'));
+    expect(deckMarkKey('b', from)).toBe('d:b');
+  });
+  it('defaults to todo, counts and filters', () => {
+    const marks = { [sampleMarkKey('dev-git-id')]: { state: 'posted' as const, at: 1 }, 'd:b': { state: 'skip' as const, at: 2 } };
+    expect(postStatus(marks, 's:other')).toBe('todo');
+    expect(countStatuses(['s:dev-git-id', 'd:b', 's:other'], marks)).toEqual({ todo: 1, posted: 1, skip: 1 });
+    expect(keepStatus('s:other', marks, 'todo')).toBe(true);
+    expect(keepStatus('s:dev-git-id', marks, 'todo')).toBe(false);
+    expect(keepStatus('s:dev-git-id', marks, 'all')).toBe(true);
   });
 });

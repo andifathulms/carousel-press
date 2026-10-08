@@ -17,6 +17,15 @@ beforeEach(() => {
 });
 
 describe('DeckStore', () => {
+  it('stores, updates and clears posting marks', () => {
+    const s = new DeckStore();
+    expect(s.loadMarks()).toEqual({});
+    s.setMark('s:dev-git-id', 'posted', 10);
+    s.setMark('d:abc', 'skip', 20);
+    expect(new DeckStore().loadMarks()).toEqual({ 's:dev-git-id': { state: 'posted', at: 10 }, 'd:abc': { state: 'skip', at: 20 } });
+    expect(s.setMark('s:dev-git-id', null, 30)).toEqual({ 'd:abc': { state: 'skip', at: 20 } });
+  });
+
   it('keeps the sample tag across saves', () => {
     const s = new DeckStore();
     s.saveDeck({ id: 'a', text: 'Hi', settings: { darkness: 50 }, updatedAt: 1 }, { title: 'Hi', template: 'dev/terminal', slides: 3 });

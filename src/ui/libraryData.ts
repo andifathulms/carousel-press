@@ -1,13 +1,15 @@
 import { parse } from '../core/parser';
 import { isTemplateId } from '../core/types';
 import type { Sample, SampleCategory } from '../samples';
-import type { DeckIndexEntry } from '../store/deckStore';
+import type { DeckIndexEntry, PostMark, PostMarks } from '../store/deckStore';
 import { getVariant } from '../templates/registry';
 
 // Library helpers without DOM: sample metadata, sample ↔ deck matching, filtering.
 
 export type Family = 'editorial' | 'dev';
 export type CategoryFilter = 'all' | SampleCategory;
+export type PostStatus = 'todo' | PostMark['state'];
+export type StatusFilter = 'all' | PostStatus;
 
 export interface SampleInfo {
   id: string;
@@ -60,11 +62,40 @@ export function matches(query: string, ...fields: string[]): boolean {
   return norm(query).split(/\s+/).filter(Boolean).every((w) => hay.includes(w));
 }
 
-/** Category of each saved deck that came from a sample. Decks written from scratch have none. */
-export function deckCategories(decks: readonly DeckIndexEntry[], samples: readonly SampleInfo[]): Map<string, SampleCategory> {
-  const out = new Map<string, SampleCategory>();
-  for (const s of samples) for (const d of decksFromSample(decks, s)) out.set(d.id, s.category);
+/** The sample each saved deck came from. Decks written from scratch have none. */
+export function deckSamples(decks: readonly DeckIndexEntry[], samples: readonly SampleInfo[]): Map<string, SampleInfo> {
+  const out = new Map<string, SampleInfo>();
+  for (const s of samples) for (const d of decksFromSample(decks, s)) out.set(d.id, s);
   return out;
+}
+
+/** Category of each saved deck that came from a sample. */
+export function deckCategories(decks: readonly DeckIndexEntry[], samples: readonly SampleInfo[]): Map<string, SampleCategory> {
+  return new Map([...deckSamples(decks, samples)].map(([id, s]) => [id, s.category]));
+}
+
+// ---- posting status -----------------------------------------------------------
+// A deck made from a sample shares the sample's mark, so marking either marks both.
+
+export const sampleMarkKey = (sampleId: string): string => `s:${sampleId}`;
+
+export function deckMarkKey(deckId: string, fromSample: ReadonlyMap<string, SampleInfo>): string {
+  const s = fromSample.get(deckId);
+  return s ? sampleMarkKey(s.id) : `d:${deckId}`;
+}
+
+export function postStatus(marks: PostMarks, key: string): PostStatus {
+  return marks[key]?.state ?? 'todo';
+}
+
+export function countStatuses(keys: readonly string[], marks: PostMarks): Record<PostStatus, number> {
+  const out: Record<PostStatus, number> = { todo: 0, posted: 0, skip: 0 };
+  for (const k of keys) out[postStatus(marks, k)]++;
+  return out;
+}
+
+export function keepStatus(key: string, marks: PostMarks, filter: StatusFilter): boolean {
+  return filter === 'all' || postStatus(marks, key) === filter;
 }
 
 export function filterDecks(

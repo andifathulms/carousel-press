@@ -25,6 +25,14 @@ export interface DeckIndexEntry {
   sampleId?: string;
 }
 
+/** Posting status of a deck or sample. No entry means "to post". */
+export type PostState = 'posted' | 'skip';
+export interface PostMark {
+  state: PostState;
+  at: number;
+}
+export type PostMarks = Record<string, PostMark>;
+
 export interface AppSettings {
   handle: string;
   lastTemplate: TemplateId | null;
@@ -45,6 +53,7 @@ const K = {
   settings: 'cp:v1:settings',
   index: 'cp:v1:decks',
   deck: (id: string) => `cp:v1:deck:${id}`,
+  marks: 'cp:v1:status',
 };
 
 /** localStorage wrapper: every call is guarded; failures flip `available` off. */
@@ -142,6 +151,20 @@ export class DeckStore {
       e.title = title;
       this.write(K.index, list);
     }
+  }
+
+  loadMarks(): PostMarks {
+    const m = this.read<PostMarks>(K.marks);
+    return m && typeof m === 'object' && !Array.isArray(m) ? m : {};
+  }
+
+  /** Set or clear (state = null) one posting mark; returns the updated map. */
+  setMark(key: string, state: PostState | null, at: number): PostMarks {
+    const marks = { ...this.loadMarks() };
+    if (state) marks[key] = { state, at };
+    else delete marks[key];
+    this.write(K.marks, marks);
+    return marks;
   }
 
   deleteDeck(id: string): void {

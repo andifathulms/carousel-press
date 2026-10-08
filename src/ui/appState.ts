@@ -1,5 +1,5 @@
 import type { ParseResult, Warning } from '../core/types';
-import type { DeckIndexEntry } from '../store/deckStore';
+import type { DeckIndexEntry, PostMarks } from '../store/deckStore';
 import type { PhotoMeta } from '../store/photoStore';
 import type { Variant } from '../templates/types';
 
@@ -28,6 +28,8 @@ export interface AppState {
   mobileTab: MobileTab;
   tip: boolean;
   decks: DeckIndexEntry[];
+  /** Posting status per sample/deck key (see libraryData.markKey…). */
+  marks: PostMarks;
   busy: string | null;
   /** Slide index whose start the editor should jump to (consumed by the editor). */
   jump: { line: number; seq: number } | null;

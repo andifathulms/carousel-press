@@ -3,7 +3,7 @@ import { parse } from '../core/parser';
 import { DEFAULT_TEMPLATE, type Lang, type ParseResult, type TemplateId, type Warning } from '../core/types';
 import { loadFonts } from '../fonts/loadFonts';
 import { SAMPLE_DUSK, generateSampleDusk } from '../render/samplePhoto';
-import { type AppSettings, DeckStore, newDeckId } from '../store/deckStore';
+import { type AppSettings, DeckStore, type PostState, newDeckId } from '../store/deckStore';
 import { PHOTO, PhotoStore } from '../store/photoStore';
 import { getVariant } from '../templates/registry';
 import type { AppState } from './appState';
@@ -37,7 +37,7 @@ export class Controller {
       showSafe: this.settings.showSafe, showGrid: this.settings.showGrid, fontsReady: false, fontError: null,
       storageAvailable: this.decks.available, photos: [], renderWarnings: [], renderVersion: 0,
       saveStatus: this.decks.available ? 'saved' : 'off', savedAt: Date.now(), leftTab: 'write', mobileTab: 'write',
-      tip: !this.settings.tipDismissed, decks: this.decks.listDecks(), busy: null, jump: null,
+      tip: !this.settings.tipDismissed, decks: this.decks.listDecks(), marks: this.decks.loadMarks(), busy: null, jump: null,
     });
   }
 
@@ -58,6 +58,11 @@ export class Controller {
       this.updateSettings({ sampleSeeded: true });
     }
     this.store.set({ photos: this.photos.list() });
+  }
+
+  /** Mark a sample/deck as posted or skipped; null puts it back to "to post". */
+  setMark(key: string, state: PostState | null): void {
+    this.store.set({ marks: this.decks.setMark(key, state, Date.now()) });
   }
 
   updateSettings(patch: Partial<AppSettings>): void {
