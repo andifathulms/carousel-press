@@ -1,7 +1,7 @@
 template: editorial/sage
 lang: id
 title: opu daeng risaju
-caption: Bangsawan Luwu yang memilih kehilangan gelarnya. Sumber: Kemdikbud, Sejarah Indonesia Kelas XII (2018), hlm. 42–44; Amir & Azis, Al-Qalam 28(2) 2022; Setneg, Daftar Pahlawan Nasional · Foto: Midori (CC BY 3.0), Jorge Franganillo (CC BY 2.0), KITLV/Leiden University Libraries (CC BY 4.0; rapat Sarekat Islam di Blitar) via Wikimedia Commons; Silentwinner (CC0) #sejarahindonesia #luwu #sulawesiselatan
+caption: Bangsawan Luwu yang memilih kehilangan gelarnya. Sumber: Kemdikbud, Sejarah Indonesia Kelas XII (2018), hlm. 42–44; Amir & Azis, Al-Qalam 28(2) 2022; Mattingaragau, Andi Djemma Pahlawan Nasional (2016); Masita dkk., JPDSH 1(5) 2022; Republika (2014); Setneg · Foto: Midori (CC BY 3.0), Jorge Franganillo (CC BY 2.0), KITLV/Leiden University Libraries (CC BY 4.0; rapat Sarekat Islam di Blitar) via Wikimedia Commons; Silentwinner (CC0) #sejarahindonesia #luwu #sulawesiselatan
 ---
 [cover photo=risaju-istana-luwu]
 Bangsawan yang Rela | Kehilangan Gelarnya
@@ -23,21 +23,29 @@ Ia mendirikan dan memimpin PSII cabang Palopo. Saat itu jarang sekali perempuan 
 Dipenjara, tetap berangkat
 Kontrolir Belanda di Masamba menuduhnya menghasut rakyat, dan ia dipenjara 13 bulan. Pada 1933 ia tetap berangkat ke kongres PSII di Jawa, dengan biaya dari menjual hartanya.
 ---
-[number=off icon=key photo=risaju-istana-luwu]
-Gelarnya dicabut
-Datu Luwu memintanya keluar dari PSII, dan ia menolak. Pada 1934 dewan adat menghukumnya 14 bulan penjara dan mencabut gelar bangsawannya. Suaminya pun menceraikannya.
+[number=off icon=chat photo=risaju-istana-luwu]
+Datu Luwu di pihak mana?
+Datu Luwu saat itu, Andi Kambo, adalah perempuan, ibu Andi Djemma. Belanda memintanya membujuk Opu Daeng Risaju keluar dari PSII. Bujukan itu gagal.
+---
+[number=off icon=key photo=risaju-rumah-adat-luwu]
+*1934*: gelarnya dicabut
+Ia kembali dipenjara 14 bulan, gelar bangsawannya dicabut, dan suaminya menceraikannya. Sumber berbeda soal siapa yang menghukum: dewan adat Luwu atau pemerintah Belanda.
 ---
 [number=off icon=mountain photo=risaju-monumen-toddopuli]
-Masa revolusi
-Ia menggerakkan pemuda melawan NICA, lalu ditangkap dan dibawa berjalan kaki 40 km ke Watampone. Ia ditahan tanpa diadili dan disiksa hingga tuli seumur hidup.
+*23 Januari 1946*: Luwu melawan
+Pemuda Luwu menyerang pasukan NICA. Orang yang dianggap pro-NICA juga dibunuh, sebagian kerabat Datu Luwu Andi Djemma sendiri. Juni 1946 Andi Djemma tertangkap dan dihukum 25 tahun.
+---
+[number=off icon=alert photo=risaju-jembatan-rimbung]
+Sebelas bulan tanpa pengadilan
+Ditangkap tentara NICA, ia dibawa berjalan kaki ke Watampone, lalu dipenjara di Bone, Sengkang, dan Bajo. Seorang kepala distrik menembakkan senapan di dekat telinganya hingga ia tuli. Setelah 11 bulan ia dilepas tanpa diadili.
 ---
 [number=off icon=moon photo=risaju-rumah-adat-luwu]
 *10 Februari 1964*: wafat
-Ia wafat dan dimakamkan di pemakaman raja-raja Lokkoe, Palopo. Di masa tuanya ia tinggal bersama putranya di Parepare.
+Sejak 1949 ia tinggal bersama putranya di Parepare. Ia wafat pada 1964 dan dimakamkan di pemakaman raja-raja Lokkoe, Palopo.
 ---
 [number=off icon=shield-heart photo=risaju-monumen-toddopuli]
 *2006*: Pahlawan Nasional
-Opu Daeng Risaju ditetapkan sebagai Pahlawan Nasional lewat Keppres No. 085/TK/2006.
+Usulan gelarnya dibahas dalam seminar nasional di Makassar pada Juni 2006, 42 tahun setelah ia wafat. Keppres No. 085/TK/2006 terbit pada 3 November 2006.
 ---
 [end photo=risaju-istana-luwu]
 Di daerahmu ada cerita kayak gini?

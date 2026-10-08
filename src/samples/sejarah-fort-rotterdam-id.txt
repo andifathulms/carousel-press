@@ -1,7 +1,7 @@
 template: editorial/sage
 lang: id
 title: fort rotterdam setelah 1667
-caption: Dari benteng Gowa, penjara Diponegoro, sampai museum. Sumber: tesis Universitas Hasanuddin (repository.unhas.ac.id); jurnal UNM; Kompas TV mengutip Peter Carey, Takdir; Disbudpar Sulsel · Foto: Sanko, Heandra (CC BY-SA 3.0), Oceanmuse (CC BY 4.0) via Wikimedia Commons; Rijksmuseum (CC0); litografi C.W.M. van de Velde (domain publik) #sejarahindonesia #makassar #fortrotterdam
+caption: Dari benteng Gowa, pusat kuasa VOC, penjara Diponegoro, sampai museum. Sumber: Sagimun M.D. (Depdikbud, 1975) mengutip Keyzer (1862); tesis Universitas Hasanuddin; jurnal UNM; Kompas TV mengutip Peter Carey, Takdir; Carey (2008) tentang Babad Diponegoro; Disbudpar Sulsel · Foto: Sanko, Heandra (CC BY-SA 3.0), Oceanmuse (CC BY 4.0) via Wikimedia Commons; Rijksmuseum (CC0); litografi C.W.M. van de Velde (domain publik) #sejarahindonesia #makassar #fortrotterdam
 ---
 [cover photo=rotterdam-litho-1845]
 Benteng Ini Pernah | Jadi Penjara Diponegoro
@@ -15,13 +15,25 @@ Benteng Ujung Pandang awalnya milik Kerajaan Gowa-Tallo. Lewat Perjanjian Bongay
 Lima bastion
 VOC membangunnya ulang dengan lima bastion: Bone, Bacan, Buton, Mandarsyah, dan Amboina. Bentuknya membuat benteng ini dijuluki Benteng Panyyua, benteng penyu.
 ---
+[number=off icon=map-pin photo=rotterdam-halaman]
+Kunci wilayah timur
+Benteng ini jadi pusat kekuasaan VOC di Sulawesi Selatan. Seorang penulis Belanda (1862) menyebut Makassar "kunci seluruh wilayah timur". Arung Palakka pun tinggal di Bontoala, dekat benteng, sampai wafat.
+---
+[number=off icon=alert photo=rotterdam-foto-lama]
+Ditangkap saat berunding
+28 Maret 1830, saat Lebaran, Pangeran Diponegoro datang ke Magelang untuk berunding dengan Jenderal De Kock. Ia justru ditahan. Diponegoro menyebutnya pengkhianatan; Belanda menyebutnya penyerahan diri.
+---
+[number=off icon=book photo=rotterdam-ruang-diponegoro]
+Babadnya lahir di Manado
+Otobiografinya, Babad Diponegoro, ditulis di Manado pada 1831–1832, sebelum ia dipindah ke benteng ini. Naskahnya masuk daftar Memory of the World UNESCO pada 2013.
+---
 [number=off icon=plane photo=rotterdam-ruang-diponegoro]
 *11 Juli 1833*: Diponegoro tiba
-Setelah tiga tahun di Manado, Pangeran Diponegoro dipindah ke Makassar dengan kapal Circe. Ia masuk benteng bersama keluarga dan 23 pengikutnya, lalu tinggal terkurung di sana lebih dari 20 tahun.
+Setelah tiga tahun di Manado, Diponegoro dipindah ke Makassar dengan kapal Circe. Ia masuk benteng bersama keluarga dan 23 pengikutnya, lalu tinggal terkurung di sana lebih dari 20 tahun.
 ---
 [number=off icon=moon photo=rotterdam-makam-diponegoro]
 *8 Januari 1855*: wafat
-Diponegoro wafat di Makassar. Ia dimakamkan di luar benteng, di Kampung Melayu, bersama keluarga dan pengikutnya. Kawasan itu kini Jalan Diponegoro.
+Diponegoro wafat di Makassar dan dimakamkan di luar benteng, di Kampung Melayu. Istrinya, Ratnaningsih, tetap di Makassar sampai wafat pada 1885 dan dimakamkan di sampingnya.
 ---
 [number=off icon=book photo=rotterdam-halaman]
 *1938*: jadi museum

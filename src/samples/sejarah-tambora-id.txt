@@ -1,7 +1,7 @@
 template: editorial/midnight
 lang: id
 title: tambora 1815 dari sumbawa
-caption: Letusan terbesar dalam sejarah tercatat, dilihat dari Sumbawa. Sumber: Bernice de Jong Boers, Indonesia 60 (1995), Cornell; Oppenheimer, Progress in Physical Geography 27 (2003); University of Rhode Island (2006); Setkab (2015) · Foto: Felix Dance (CC BY 2.0), Georesearch Volcanedo (CC BY-SA 4.0), Tisquesusa (CC BY 4.0), Budi Wasisto (CC BY-SA 4.0) via Wikimedia Commons; NASA, Rijksmuseum (domain publik/CC0) #sejarahindonesia #tambora #sumbawa
+caption: Letusan terbesar dalam sejarah tercatat, dan kelaparan yang menyusul. Sumber: Bernice de Jong Boers, Indonesia 60 (1995), Cornell; Oppenheimer, Progress in Physical Geography 27 (2003); University of Rhode Island (2006); Setkab (2015) · Foto: Felix Dance (CC BY 2.0), Georesearch Volcanedo, Budi Wasisto (CC BY-SA 4.0), Tisquesusa (CC BY 4.0) via Wikimedia Commons; NASA, Rijksmuseum (domain publik/CC0) #sejarahindonesia #tambora #sumbawa
 ---
 [cover photo=tambora-kaldera]
 Dua Kerajaan Hilang | dalam Satu Letusan
@@ -21,13 +21,29 @@ Bo' Sangaji Kai, catatan istana Bima, menulis: hari gelap, terdengar bunyi seper
 ---
 [number=off icon=mountain photo=tambora-tepi-kaldera]
 Pekat dan Tambora lenyap
-Kerajaan Pekat dan Tambora musnah bersama rajanya. Sanggar kehilangan banyak penduduk, dan pantainya dihantam tsunami. Abu menumpuk 50–60 cm.
+Kerajaan Pekat dan Tambora musnah bersama rajanya, Muhamad dan Abdul Gafur. Sanggar kehilangan banyak penduduk, dan pantainya dihantam tsunami. Abu menumpuk 50–60 cm.
 ---
-[number=off icon=umbrella photo=tambora-raffles]
-Kelaparan setelahnya
-Sekitar 10.000 orang tewas langsung. Kelaparan dan penyakit menyusul, dan puluhan ribu lainnya meninggal atau meninggalkan pulau. Raffles mengirim kapal bantuan, tapi tak banyak menolong. Angka korbannya berbeda antarsumber.
+[number=off icon=alert photo=tambora-lapisan-abu]
+Separuh penduduk hilang
+Menurut taksiran Zollinger, Sumbawa kehilangan sekitar 84.000 dari 170.000 jiwa: 10.000 tewas langsung, 38.000 karena lapar dan penyakit, 36.000 mengungsi. Ini taksiran, bukan sensus.
 ---
-[number=off icon=chat photo=tambora-dari-teluk-saleh]
+[number=off icon=umbrella photo=tambora-tepi-kaldera]
+Menjual anak demi beras
+Orang makan daun kering dan umbi beracun. Sebagian menjual anaknya demi beras, kadang hanya satu gantang, sekitar 3 kilogram. Ada yang menjual diri sebagai budak kepada pedagang dari Seram.
+---
+[number=off icon=chat photo=tambora-raffles]
+Wabah, dan bantuan yang tak cukup
+Diare dan demam menyebar. Wabah 1816 ikut menewaskan Sultan Sumbawa dan tiga putranya. Raffles mengirim kapal bantuan, tapi tak banyak menolong.
+---
+[number=off icon=map-pin photo=tambora-dari-teluk-saleh]
+Bali dan Lombok ikut lapar
+Abu menimbun sawah Bali dan Lombok. Kelaparan, wabah, dan hama tikus menyusul; orang menjual diri dan anaknya demi makan. Taksiran korban Lombok berkisar 10.000 hingga lebih dari 100.000, Bali sekitar 25.000.
+---
+[number=off icon=clock photo=tambora-sabana]
+Pulihnya puluhan tahun
+Panen pertama di Bima baru datang pada 1820. Pada 1824 Tambora dan Pekat masih disebut "tumpukan puing". Tiga perempat ternak mati, dan baru pada 1844 pengungsi Sanggar meminta izin pulang.
+---
+[number=off icon=chat photo=tambora-peta-1855]
 Menurut cerita rakyat
 Letusan itu dikisahkan sebagai hukuman karena Raja Tambora menjamu seorang haji dengan daging anjing lalu membunuhnya. Kisah ini masih diceritakan di Pekat.
 ---
