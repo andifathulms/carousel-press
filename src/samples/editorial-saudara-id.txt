@@ -1,0 +1,28 @@
+template: editorial/sage
+lang: id
+title: 5 pertanyaan buat saudara kandung
+caption: Kirim ke kakak atau adikmu, terus tanya satu-satu 🌿 #keluarga #saudara #deeptalk
+---
+[cover photo=1]
+5 Pertanyaan | Buat Kakak atau Adikmu
+Dulu sering berantem, sekarang saling cari.
+---
+[icon=home]
+Kenangan masa kecil kita yang paling kamu ingat?
+Bisa jadi kamu ingat hal yang aku sudah lupa.
+---
+[icon=smile]
+Kebiasaanku waktu kecil yang dulu bikin kamu kesal banget?
+Sekarang boleh diketawain bareng.
+---
+[icon=shield-heart]
+Kapan kamu ngerasa aku ada di pihakmu?
+Kadang hal kecil itu yang paling diingat.
+---
+[icon=chat]
+Apa yang pengen kamu ceritain ke aku, tapi belum sempat?
+Nggak harus sekarang. Aku dengerin kapan pun.
+---
+[cta icon=heart]
+Kalau kita bisa liburan berdua, mau ke mana?
+Siapa tahu bisa diwujudin tahun depan.

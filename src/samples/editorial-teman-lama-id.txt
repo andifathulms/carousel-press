@@ -1,0 +1,28 @@
+template: editorial/rose-dusk
+lang: id
+title: 5 pertanyaan buat teman lama
+caption: Buat teman yang lama nggak ketemu, tapi masih sering kepikiran 🤍 #sahabat #temanlama #deeptalk
+---
+[cover photo=1]
+5 Pertanyaan | Buat Teman yang Lama Nggak Ketemu
+Mulai dari "apa kabar" yang beneran.
+---
+[icon=chat]
+Apa yang paling berubah dari hidupmu sejak terakhir kita ngobrol?
+Ceritain versi panjangnya.
+---
+[icon=smile]
+Momen kita yang paling sering kamu ingat?
+Yang konyol juga dihitung.
+---
+[icon=coffee]
+Hal baru apa yang lagi kamu suka akhir-akhir ini?
+Lagu, tempat, hobi, apa aja.
+---
+[icon=mountain]
+Hal berat apa yang udah berhasil kamu lewatin?
+Kalau mau cerita, aku dengerin.
+---
+[cta icon=star]
+Kapan kita ketemu lagi?
+Tentuin tanggalnya sekarang, biar nggak cuma wacana.

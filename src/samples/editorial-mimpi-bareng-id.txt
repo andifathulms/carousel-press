@@ -1,0 +1,28 @@
+template: editorial/sage
+lang: id
+title: 5 pertanyaan tentang mimpi kalian
+caption: Ngobrolin masa depan, pelan-pelan aja 🌿 #pasangan #pertanyaanpasangan #deeptalk
+---
+[cover photo=1]
+5 Pertanyaan | Tentang Mimpi Kalian Berdua
+Ngobrolin masa depan, pelan-pelan.
+---
+[icon=home]
+Rumah impianmu kayak gimana?
+Bukan soal besar, tapi suasananya.
+---
+[icon=plane]
+Tempat mana yang pengen kita kunjungi berdua suatu hari?
+Tulis daftarnya, mulai dari satu.
+---
+[icon=lightbulb]
+Mimpi apa yang belum pernah kamu ceritain ke siapa pun?
+Aku pengen tahu, kalau kamu mau cerita.
+---
+[icon=clock]
+Lima tahun lagi, hari Minggu kita kayak gimana?
+Bayangin dari bangun tidur.
+---
+[cta icon=heart]
+Satu langkah kecil apa yang bisa kita mulai bulan ini?
+Mimpi besar dimulai dari yang kecil.

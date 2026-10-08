@@ -1,0 +1,32 @@
+template: editorial/rose-dusk
+lang: id
+title: pilih satu versi sahabat
+caption: Jawab di komentar, terus tag sahabatmu 😆 #pilihsatu #sahabat #thisorthat
+---
+[cover photo=1]
+Pilih Satu | Versi Sahabat
+Jawab cepat, terus tag sahabatmu.
+---
+[icon=chat]
+Curhat lewat chat panjang, atau voice note 10 menit?
+Tulis jawabanmu di komentar.
+---
+[icon=coffee]
+Nongkrong di kafe, atau rebahan di rumah salah satu?
+Jujur, mana yang lebih sering kejadian?
+---
+[icon=plane]
+Liburan bareng yang serba direncanain, atau dadakan?
+Biasanya siapa yang bikin rencana?
+---
+[icon=gift]
+Kado ulang tahun yang lucu, atau yang berguna?
+Nggak ada jawaban yang salah.
+---
+[icon=music]
+Karaoke bareng, atau nonton konser bareng?
+Mana yang lebih kalian banget?
+---
+[end]
+Simpan dulu 🤍
+Kirim ke sahabatmu, lihat jawabannya sama atau beda.

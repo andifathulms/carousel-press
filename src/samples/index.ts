@@ -36,6 +36,11 @@ import voliRotasi from './sports-voli-rotasi-id.txt?raw';
 import backpass from './sports-backpass-id.txt?raw';
 import shotclock from './sports-shotclock-id.txt?raw';
 import kriketLbw from './sports-kriket-lbw-id.txt?raw';
+import saudara from './editorial-saudara-id.txt?raw';
+import temanLama from './editorial-teman-lama-id.txt?raw';
+import akhirTahun from './editorial-akhir-tahun-id.txt?raw';
+import pilihSatuSahabat from './editorial-pilih-satu-sahabat-id.txt?raw';
+import mimpiBareng from './editorial-mimpi-bareng-id.txt?raw';
 import places from './editorial-places-en.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
@@ -70,6 +75,11 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-refleksi-diri-id', name: '5 pertanyaan buat diri sendiri (editorial, id)', category: 'relationships', text: refleksiDiri },
   { id: 'editorial-pilih-satu-id', name: 'Pilih satu: versi pacaran (editorial, id)', category: 'relationships', text: pilihSatu },
   { id: 'editorial-soal-uang-id', name: '5 obrolan soal uang (editorial, id)', category: 'relationships', text: soalUang },
+  { id: 'editorial-saudara-id', name: '5 pertanyaan buat saudara kandung (editorial, id)', category: 'relationships', text: saudara },
+  { id: 'editorial-teman-lama-id', name: '5 pertanyaan buat teman lama (editorial, id)', category: 'relationships', text: temanLama },
+  { id: 'editorial-akhir-tahun-id', name: '5 pertanyaan sebelum tahun berganti (editorial, id)', category: 'relationships', text: akhirTahun },
+  { id: 'editorial-pilih-satu-sahabat-id', name: 'Pilih satu: versi sahabat (editorial, id)', category: 'relationships', text: pilihSatuSahabat },
+  { id: 'editorial-mimpi-bareng-id', name: '5 pertanyaan tentang mimpi kalian (editorial, id)', category: 'relationships', text: mimpiBareng },
   // Owner decks: dev cheat sheets (end slide carries the portfolio line)
   { id: 'dev-linux-id', name: '7 perintah Linux (dev, id)', category: 'dev', text: linux },
   { id: 'dev-sql-id', name: '6 query SQL (dev, id)', category: 'dev', text: sql },

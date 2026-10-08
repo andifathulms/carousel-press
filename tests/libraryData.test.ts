@@ -46,7 +46,7 @@ describe('filtering', () => {
     const all = SAMPLES.map(sampleInfo);
     expect(filterSamples(all, '', 'history').map((s) => s.id).every((id) => id.startsWith('sejarah-'))).toBe(true);
     expect(filterSamples(all, '', 'sports')).toHaveLength(SAMPLES.filter((s) => s.category === 'sports').length);
-    expect(filterSamples(all, 'sahabat', 'all').map((s) => s.id)).toEqual(['editorial-sahabat-id']);
+    expect(filterSamples(all, 'buat sahabat', 'all').map((s) => s.id)).toEqual(['editorial-sahabat-id']);
   });
 });
 
