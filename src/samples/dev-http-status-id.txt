@@ -1,0 +1,46 @@
+template: dev/github-dark
+lang: id
+title: 8 status code http
+caption: Biar nggak bingung lagi pas lihat angka di tab Network. #webdev #api #belajarcoding
+---
+[cover kicker="HTTP • STATUS CODE"]
+8 Status Code HTTP | yang Wajib Kamu Kenal
+Angka kecil di balik setiap response.
+---
+`200` OK
+Request berhasil, dan server mengirim datanya.
+Paling sering kamu lihat saat mengambil data.
+---
+`201` Created
+Data baru berhasil dibuat.
+Biasanya muncul setelah request POST.
+---
+`204` No Content
+Berhasil, tapi tidak ada isi yang dikirim balik.
+Sering dipakai untuk DELETE.
+---
+`400` Bad Request
+Request-nya salah format.
+Cek lagi body atau parameter yang kamu kirim.
+---
+`401` Unauthorized
+Belum login, atau token-nya tidak valid.
+Walau namanya "unauthorized", artinya: server belum tahu siapa kamu.
+---
+`403` Forbidden
+Server tahu siapa kamu, tapi kamu tidak punya izin.
+Login ulang tidak akan membantu.
+---
+`404` Not Found
+Alamat yang diminta tidak ada.
+Cek lagi URL atau endpoint-nya.
+---
+`500` Internal Server Error
+Ada yang error di sisi server.
+Bukan salah request-mu, cek log server-nya.
+---
+[end]
+Simpan dulu ⭐
+Nanti pas ketemu error, cek angkanya di sini.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

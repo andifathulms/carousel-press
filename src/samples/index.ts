@@ -41,6 +41,11 @@ import temanLama from './editorial-teman-lama-id.txt?raw';
 import akhirTahun from './editorial-akhir-tahun-id.txt?raw';
 import pilihSatuSahabat from './editorial-pilih-satu-sahabat-id.txt?raw';
 import mimpiBareng from './editorial-mimpi-bareng-id.txt?raw';
+import httpStatus from './dev-http-status-id.txt?raw';
+import pythonTrik from './dev-python-trik-id.txt?raw';
+import aiJanganDikirim from './dev-ai-jangan-dikirim-id.txt?raw';
+import cliTools from './dev-cli-tools-id.txt?raw';
+import cors from './dev-cors-id.txt?raw';
 import places from './editorial-places-en.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
@@ -90,6 +95,11 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-api-id', name: 'API itu sebenarnya apa (dev, id)', category: 'dev', text: api },
   { id: 'dev-ai-coding-id', name: '5 cara pakai AI buat coding (dev, id)', category: 'dev', text: aiCoding },
   { id: 'dev-async-await-id', name: 'Akhirnya paham async/await (dev, id)', category: 'dev', text: asyncAwait },
+  { id: 'dev-http-status-id', name: '8 status code HTTP (dev, id)', category: 'dev', text: httpStatus },
+  { id: 'dev-python-trik-id', name: '6 trik Python (dev, id)', category: 'dev', text: pythonTrik },
+  { id: 'dev-ai-jangan-dikirim-id', name: '5 hal jangan ditempel ke AI (dev, id)', category: 'dev', text: aiJanganDikirim },
+  { id: 'dev-cli-tools-id', name: '5 CLI tools (dev, id)', category: 'dev', text: cliTools },
+  { id: 'dev-cors-id', name: 'Akhirnya paham CORS (dev, id)', category: 'dev', text: cors },
   // Owner decks: Catatan Kaki Sejarah (photos bundled in ./photos, see photos.ts)
   { id: 'sejarah-kutai-id', name: 'Kesultanan Kutai pernah dihapus (sejarah, id)', category: 'history', text: kutai },
   { id: 'sejarah-yupa-id', name: 'Prasasti Yupa (sejarah, id)', category: 'history', text: yupa },

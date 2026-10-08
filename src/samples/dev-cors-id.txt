@@ -1,0 +1,57 @@
+template: dev/github-dark
+lang: id
+title: akhirnya paham cors
+caption: Error merah yang dulu bikin aku panik, sekarang aku paham kenapa muncul. #webdev #javascript #belajarcoding
+---
+[cover kicker="BELAJAR • WEB"]
+Akhirnya Aku Paham | CORS
+Error merah di console yang dulu bikin aku panik.
+---
+[code]
+Errornya kayak gini
+Muncul saat frontend memanggil API di domain lain.
+```
+Access to fetch at 'https://api.toko.id'
+from origin 'http://localhost:5173'
+has been blocked by CORS policy
+```
+---
+Yang memblokir itu browser
+Aku kira server-nya rusak. Ternyata untuk request sederhana, request-nya sampai ke server. Browser yang menahan response-nya.
+---
+Origin itu apa?
+Gabungan protokol, domain, dan port.
+`localhost:5173` dan `localhost:3000` dianggap origin berbeda.
+---
+[code]
+Server yang harus mengizinkan
+Server mengirim header yang menyebut siapa yang boleh membaca response.
+```
+Access-Control-Allow-Origin: *
+```
+`*` berarti semua origin. Untuk request dengan cookie atau login, `*` tidak bisa dipakai.
+---
+Preflight: request OPTIONS
+Untuk request tertentu, misalnya method PUT atau header Authorization, browser bertanya izin dulu lewat request OPTIONS.
+---
+[code]
+Contoh di Express
+Pakai paket cors dan sebutkan origin-nya.
+```js
+app.use(cors({
+  origin: "http://localhost:5173",
+}));
+```
+---
+Kenapa di Postman jalan?
+Postman dan curl bukan browser, jadi tidak menerapkan CORS. Makanya API terlihat jalan di Postman tapi gagal di frontend.
+---
+[quote]
+CORS bukan pelindung server. CORS itu aturan browser tentang siapa yang boleh membaca response.
+— Catatan yang akhirnya bikin aku paham
+---
+[end]
+Simpan dulu ⭐
+Nanti pas ketemu error CORS, balik ke sini.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

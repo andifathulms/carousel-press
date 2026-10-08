@@ -1,0 +1,65 @@
+template: dev/github-dark
+lang: id
+title: 6 trik python
+caption: Trik kecil yang bikin kode Python lebih rapi. #python #belajarcoding #programmer
+---
+[cover kicker="PYTHON • TIPS"]
+6 Trik Python | yang Bikin Kode Lebih Rapi
+Kecil, tapi kepakai tiap hari.
+---
+[code]
+f-string
+Sisipkan variabel langsung ke dalam teks.
+```py
+nama = "Rina"
+print(f"Halo, {nama}!")
+```
+---
+[code]
+List comprehension
+Bikin list baru dalam satu baris.
+```py
+angka = [1, 2, 3, 4]
+kuadrat = [x * x for x in angka]
+```
+---
+[code]
+enumerate: dapat index sekalian
+Nggak perlu bikin counter sendiri.
+```py
+buah = ["apel", "jeruk"]
+for i, b in enumerate(buah):
+    print(i, b)
+```
+---
+[code]
+zip: dua list sekaligus
+Jalan berpasangan, satu per satu.
+```py
+nama = ["Rina", "Budi"]
+nilai = [90, 85]
+for n, v in zip(nama, nilai):
+    print(n, v)
+```
+---
+[code]
+dict.get dengan nilai default
+Nggak error kalau key-nya tidak ada.
+```py
+user = {"nama": "Rina"}
+kota = user.get("kota", "-")
+```
+---
+[code]
+Tukar dua variabel
+Tanpa variabel sementara.
+```py
+a, b = 1, 2
+a, b = b, a
+```
+---
+[end]
+Simpan dulu ⭐
+Coba satu trik ini di kode berikutnya.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

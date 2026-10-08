@@ -1,0 +1,58 @@
+template: dev/terminal
+lang: id
+title: 5 cli tools
+caption: Tool terminal kecil yang bikin kerja harian lebih cepat. #terminal #linux #belajarcoding
+---
+[cover kicker="TERMINAL • TOOLS"]
+5 CLI Tools | yang Bikin Terminal Lebih Enak
+Kecil, cepat, dan gratis.
+---
+[code]
+ripgrep: cari teks super cepat
+Cari kata di semua file sebuah folder.
+```bash
+rg "TODO" src/
+```
+---
+[code]
+fzf: cari file sambil mengetik
+Pilih file dengan pencarian fuzzy, lalu buka di VS Code.
+```bash
+code $(fzf)
+```
+---
+[code]
+bat: cat dengan warna
+Tampilkan isi file lengkap dengan nomor baris dan highlight.
+```bash
+bat app.js
+```
+Di Ubuntu dan Debian, perintahnya bernama `batcat`.
+---
+[code]
+jq: olah JSON di terminal
+Ambil satu nilai dari file JSON.
+```bash
+jq '.name' user.json
+```
+---
+[code]
+tldr: contoh perintah yang singkat
+Contoh pemakaian praktis, bukan manual panjang.
+```bash
+tldr tar
+```
+---
+[code]
+Cara pasangnya
+Mac pakai Homebrew, Ubuntu pakai apt.
+```bash
+brew install ripgrep fzf bat jq
+sudo apt install ripgrep fzf bat jq
+```
+---
+[end]
+Simpan dulu.
+Pasang satu dulu, rasakan bedanya.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

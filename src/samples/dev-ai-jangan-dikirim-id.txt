@@ -1,0 +1,44 @@
+template: dev/github-dark
+lang: id
+title: 5 hal jangan ditempel ke ai
+caption: AI bantu ngoding, tapi data tetap harus dijaga. #ai #keamanan #belajarcoding
+---
+[cover kicker="AI • KEAMANAN"]
+5 Hal yang Jangan | Kamu Tempel ke AI
+Biar ngoding pakai AI tetap aman.
+---
+API key dan password
+Jangan tempel isi `.env`, token, atau kunci API ke chat AI.
+Ganti dengan contoh palsu sebelum minta bantuan.
+---
+[code]
+Samarkan sebelum kirim
+Struktur tetap sama, isinya palsu.
+```
+# jangan
+API_KEY=sk-live-8f3a9...
+# kirim versi ini
+API_KEY=sk-xxxx
+```
+---
+Data pribadi pengguna
+Email, nomor HP, alamat, atau data pelanggan asli.
+Pakai data dummy saat minta AI membantu.
+---
+Kode rahasia kantor atau klien
+Cek dulu aturan kantor atau klien soal tool AI.
+Banyak perusahaan punya kebijakan sendiri.
+---
+Log server mentah
+Log sering berisi token, alamat IP, atau data user.
+Potong dan samarkan bagian sensitifnya dulu.
+---
+Hasil AI tanpa dicek
+Bukan soal yang dikirim, tapi yang diterima.
+Kode AI bisa terlihat benar tapi salah: jalankan, baca, dan pahami dulu.
+---
+[end]
+Simpan dulu ⭐
+Cek lagi sebelum menekan Enter.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
