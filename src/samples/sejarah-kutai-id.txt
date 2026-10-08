@@ -1,17 +1,17 @@
 template: editorial/sage
 lang: id
 title: kesultanan kutai pernah dihapus
-caption: Kesultanan tua yang pernah dihapus, lalu punya sultan lagi. Sumber: Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020; Sarip, Yupa 4(2) 2020; kaltimkece.id · Foto: Sri Wahyuni Nur Indah Sari (CC BY-SA 4.0), Gunawan Kartapranata (CC BY-SA 4.0), Ezagren, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kutai #kalimantantimur
+caption: Kesultanan tua yang dihapus, sultannya ditahan, pusakanya dibakar, lalu punya sultan lagi. Sumber: Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020; Sarip, Yupa 4(2) 2020; kaltimkece.id & sejarahkaltim.com (Muhammad Sarip); Tirto (2017); detik.com (2024) · Foto: Sri Wahyuni Nur Indah Sari, Gunawan Kartapranata, Fauzan Noviatmoko (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kutai #kalimantantimur
 ---
 [cover photo=kutai-kedaton]
 Kesultanan Ini Pernah | Dihapus Negara
-Lalu punya sultan lagi 41 tahun kemudian. Kutai Kartanegara, Kalimantan Timur.
+Lalu sultannya ditahan dan pusakanya dibakar. Kutai Kartanegara, Kalimantan Timur.
 ---
 [number=off icon=home photo=kutai-mahakam]
 Berawal di tepi Mahakam
 Menurut naskah Salasilah Kutai, rajanya yang pertama, Aji Batara Agung Dewa Sakti, memerintah sekitar awal abad ke-14. Pusat kerajaannya beberapa kali pindah sampai ke Tenggarong. Tahun-tahun awal ini berasal dari tradisi istana, bukan prasasti.
 ---
-[number=off icon=book photo=kutai-masjid-sulaiman]
+[number=off icon=book photo=kutai-masjid-amir-hasanuddin]
 Akhir abad ke-16: Islam datang
 Menurut Salasilah Kutai, pendakwah Tuan Tunggang Parangan tiba sekitar 1575, dan rajanya, Aji Raja Mahkota, kemudian memeluk Islam. Gelar sultan sendiri baru dipakai sejak Aji Muhammad Idris (1735–1778).
 ---
@@ -19,22 +19,42 @@ Menurut Salasilah Kutai, pendakwah Tuan Tunggang Parangan tiba sekitar 1575, dan
 *1635*: menaklukkan Muara Kaman
 Kutai Kartanegara mengalahkan kerajaan yang lebih tua di Muara Kaman, lalu menambahkan "ing Martapura" ke namanya. Kini nama resminya ditulis Martadipura. Di Muara Kaman inilah prasasti yupa ditemukan.
 ---
+[number=off icon=alert photo=nama-tenggarong-tepian]
+*1844*: Tenggarong dibakar Belanda
+Petualang Inggris James Erskine Murray datang menuntut tanah dan monopoli dagang, lalu tewas dalam pertempuran Februari 1844. April 1844 armada Belanda membakar Tenggarong. Oktober 1844, Sultan mengakui kedaulatan Belanda.
+---
+[number=off icon=gift photo=nama-balikpapan-pelabuhan]
+Kaya dari minyak
+Sejak 1888 Sultan Kutai memberi konsesi tambang kepada pengusaha Belanda, dan sumur minyak Mathilda di Balikpapan menyembur 1897. Dari royaltinya, kesultanan membangun istana (1936), rumah sakit jiwa di Samarinda (1933), dan suaka margasatwa 306.000 hektare.
+---
+[number=off icon=chat photo=nama-samarinda-mahakam]
+*1950*: wibawa yang runtuh
+Kaum republik curiga karena kesultanan dekat dengan Belanda. Januari 1950, gerilyawan melucuti pasukan kesultanan, dan di Lapangan Kinibalu, Samarinda, Sultan Parikesit menyatakan menerima negara kesatuan.
+---
 [number=off icon=book photo=kutai-parikesit]
-*1953*: jadi daerah istimewa
-Lewat UU Darurat No. 3/1953, wilayah kesultanan menjadi Daerah Istimewa Kutai, dipimpin Sultan Aji Muhammad Parikesit. Sebelumnya wilayah ini berstatus swapraja, daerah yang memerintah dirinya sendiri.
+*1953–1960*: dari istimewa ke biasa
+Kutai sempat menjadi Daerah Istimewa lewat UU Darurat No. 3/1953. UU No. 27/1959 memecahnya, dan pada 21 Januari 1960 Sultan Parikesit menyerahkan pemerintahan kepada pemerintah daerah. Tapi ceritanya belum selesai.
 ---
 [number=off icon=alert photo=kutai-parikesit]
-*1960*: pemerintahan diserahkan
-UU No. 27/1959 memecahnya jadi Kabupaten Kutai, Kota Samarinda, dan Kota Balikpapan. Pada 21 Januari 1960, Sultan Parikesit menyerahkan pemerintahan kepada bupati. Sejak itu kesultanan tak lagi memegang jabatan politik.
+*1964*: Sultan ditangkap tentara
+Agustus 1964, dengan tuduhan makar dan menghidupkan feodalisme, Pangdam Mulawarman Soehario memerintahkan penangkapan Sultan Parikesit, Bupati Kutai, dan sejumlah bangsawan. Mereka ditahan berbulan-bulan di penjara militer Balikpapan tanpa diadili.
+---
+[number=off icon=alert photo=kutai-mahkota]
+*1965*: pusaka dibakar
+21 Mei 1965, pakaian kebesaran, mantel, dan payung Sultan dibakar di Lapangan Kinibalu, Samarinda, di depan warga yang dikumpulkan. Kata Pangdam Soemitro: "yang kita ganyang adalah sistemnya". Sumber lain menyebut pembakaran juga di halaman keraton.
+---
+[number=off icon=shield-heart photo=kutai-kedaton]
+Istana yang diselamatkan, lalu dilepas
+Agustus 1964 militer berupaya membakar keraton, tapi Gubernur Abdoel Moeis Hassan mengirim polisi menjaganya. Belakangan istana itu dilepas ke pemerintah dengan ganti rugi Rp64 juta, dan dibuka sebagai museum pada 25 November 1971.
+---
+[number=off icon=moon photo=kutai-parikesit]
+Raja kaya yang hidup susah
+Sultan yang dulu kaya dari royalti minyak menghabiskan masa tuanya dengan tunjangan kecil dari negara. Ia wafat di Tenggarong pada 22 November 1981.
 ---
 [number=off icon=star photo=kutai-mahkota]
-*2001*: sultan dinobatkan lagi
-Pada 22 September 2001, putra mahkota dinobatkan sebagai Sultan Aji Muhammad Salehuddin II, kali ini sebagai pemimpin adat dan budaya. Usul menghidupkan kesultanan datang dari Bupati Syaukani pada 1999.
+*2001*: sultan lagi, tanpa kuasa
+Pada 22 September 2001, putra mahkota dinobatkan sebagai Sultan Aji Muhammad Salehuddin II, sebagai pemimpin adat dan budaya. Sejak 2018 Sultan Aji Muhammad Arifin bertakhta. Mahkota emas Kutai yang asli disimpan di Museum Nasional.
 ---
-[number=off icon=leaf photo=kutai-kedaton]
-Hari ini
-Sejak 15 Desember 2018, Sultan Aji Muhammad Arifin bertakhta menggantikan ayahnya. Bekas istana di Tenggarong, yang dibangun pada 1936, kini menjadi Museum Mulawarman.
----
-[end photo=kutai-mahkota]
+[end photo=kutai-kedaton]
 Di daerahmu ada cerita kayak gini?
 Tulis di komen, siapa tahu jadi postingan berikutnya.
