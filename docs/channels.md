@@ -169,6 +169,12 @@ It should feel like "wait, this happened here?", never like a lecture or a polit
 - Folklore and legend are welcome, but labelled: "Menurut cerita rakyat…".
 - No present-day political commentary. Tell what happened; let viewers draw conclusions.
 
+### Real history, not the comfortable version (owner rule, Oct 2026)
+
+- Tell what actually happened, including what reflects badly on the Indonesian state or military, the Dutch, the Japanese, kingdoms, or national heroes: arrests without trial, burned regalia, forced takeovers, slavery, massacres, collaboration. Don't sanitise by leaving the hard part out.
+- Show violence on every side (e.g. both Banjar fighters and the Dutch, both Gowa and the VOC), stated factually, no gore.
+- Wikipedia is a lead, not a source. Every such claim needs a stronger source; when sources disagree on a date, number or who did it, say so on the slide or keep only what they agree on.
+
 ### Sensitive topics
 
 - Topics involving SARA, 1965–66, Papua, Aceh, Timor Leste, or communal conflicts (e.g. Sampit, Poso): only when the owner explicitly asks. Neutral wording, sources from more than one side, no blame language, no graphic detail, no images of victims or bodies.
@@ -192,7 +198,7 @@ Every slide has a photo: the place, object, an old print/map, or a true related 
 - **Two deck shapes:**
   - **Story deck** (one event): cover → context → turning point → what happened → aftermath → "today" link → end. Use `number=off` on story cards.
   - **List deck** ("5 kerajaan yang…", "4 nama kota yang…"): cover + 4–6 numbered cards + end.
-- **Length:** ≤ 10 slides total.
+- **Length:** up to 14 slides (cover + up to 12 cards + end). This goes past the app's 10-slide `long-deck` hint on purpose: the story needs the room.
 - **Cover:** `[cover photo=<id>]` with a photo of the place/object or an old print or map; headline = a surprising true statement or question with a `|` break; subtitle sets place + era.
 - **Quote slide:** a documented quote (with attribution and source only), or a line from a prasasti/chronicle.
 - **End:** `[end photo=<same id>]` with `Di daerahmu ada cerita kayak gini?` + `Tulis di komen, siapa tahu jadi postingan berikutnya.`

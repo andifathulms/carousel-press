@@ -23,7 +23,7 @@ Every slide of the history and sports decks has a photo. Commons file names belo
 | Photo ID | Deck | Commons file | Author | Licence |
 |---|---|---|---|---|
 | kutai-mahakam | Kutai | Rivier_Mahakam_(Koetai-rivier)_te_Midden-Borneo,_KITLV_143508.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
-| kutai-masjid-sulaiman | Kutai | Masjid_Jami_Sultan_Sulaiman,_Tenggarong.jpg | Ezagren | Attribution |
+| kutai-masjid-amir-hasanuddin | Kutai | Masjid_Jami_Aji_Amir_Hasanuddin_(1).jpg | Fauzan Noviatmoko | CC BY-SA 4.0 |
 | kutai-parikesit | Kutai | Sultan_Aji_Muhammad_Parikesit,_sultan_van_Koetai,_KITLV_176300.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
 | kutai-mahkota | Kutai | Mahkota_Sultan_Kutai_3.jpg | Gunawan Kartapranata | CC BY-SA 4.0 |
 | yupa-replika-muara-kaman | Yupa | Replika_Prasasti_Yupa.JPG | Ezagren | CC BY-SA 4.0 |
@@ -85,3 +85,5 @@ History photos (Commons; credit lines are in each deck's caption):
 | risaju- | sejarah-opu-daeng-risaju-id | Silentwinner (CC0); Midori (CC BY 3.0); Jorge Franganillo (CC BY 2.0); KITLV (CC BY 4.0). No freely licensed portrait of Opu Daeng Risaju exists; the Sarekat Islam photo is a meeting in Blitar (Java). |
 
 Sports photos (`sport-bb-`, `sport-voli-`, `sport-backpass-`, `sport-shotclock-`, `sport-kriket-`) are all CC0 or public domain (Unsplash via Commons, Nationaal Archief, US government/DVIDS, a 1908 basketball guide), so they need no credit.
+
+Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterdam-denah, rotterdam-foto-lama, rotterdam-litho-1845, tambora-peta-1855, tambora-raffles, tambora-bima-litho. Some history decks now also reuse photos from another history deck (e.g. Kutai uses nama-tenggarong-tepian, nama-balikpapan-pelabuhan, nama-samarinda-mahakam; Yupa uses kutai-mahakam).
