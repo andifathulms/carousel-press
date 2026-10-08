@@ -23,6 +23,10 @@
   --cat-history: #D9A55B;
   --cat-sports: #6AA8F0;
   --cat-travel: #B29CE0;
+  /* Posting status in the deck library. */
+  --st-todo: #E7B54A;
+  --st-posted: #6FBF73;
+  --st-skip: #9C948A;
   color-scheme: dark;
 }
 
@@ -306,6 +310,23 @@ code { font-family: var(--font-mono); font-size: 12px; }
 .pill.ok { border-color: color-mix(in srgb, var(--ok) 50%, transparent); color: var(--ok); }
 .sample-row { display: flex; align-items: center; gap: var(--s2); padding-right: 6px; border-radius: 8px; }
 .sample-open { display: flex; align-items: center; gap: var(--s3); flex: 1; min-width: 0; padding: 8px; background: none; border: 0; text-align: left; }
+
+/* Posting status: picker on each row, filter chips, done rows dimmed */
+.deck-item, .sample-row { display: flex; align-items: center; gap: var(--s2); border-radius: 8px; }
+.deck-item > .deck-row { flex: 1; min-width: 0; }
+.status-select {
+  flex: none; max-width: 104px; padding: 3px 6px; font-size: 12px; border-radius: 6px;
+  background: var(--ink-2); border: 1px solid var(--line); color: var(--st); cursor: pointer;
+}
+.status-select:hover { border-color: var(--muted); }
+.st-todo { --st: var(--st-todo); }
+.st-posted { --st: var(--st-posted); }
+.st-skip { --st: var(--st-skip); }
+.deck-item.st-posted > .deck-row, .deck-item.st-skip > .deck-row,
+.sample-row.st-posted > .sample-open, .sample-row.st-skip > .sample-open { opacity: 0.55; }
+.status-chips .chip[class*="st-"]::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--st); }
+.status-chips .count { font: 11px var(--font-mono); color: var(--muted); }
+.current-status { margin-left: auto; display: inline-flex; }
 
 /* ---- modals ---- */
 .modal-backdrop { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: var(--s4); background: rgba(8, 7, 6, 0.72); }

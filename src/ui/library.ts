@@ -6,12 +6,16 @@ import {
 import type { Controller } from './controller';
 import { h, svg, timeAgo } from './dom';
 import {
-  type CategoryFilter, type SampleInfo, deckCategories, decksFromSample, filterDecks, filterSamples, sampleInfo, variantName,
+  type CategoryFilter, type PostStatus, type SampleInfo, type StatusFilter, countStatuses, deckMarkKey, deckSamples, decksFromSample,
+  filterDecks, filterSamples, keepStatus, postStatus, sampleInfo, sampleMarkKey, variantName,
 } from './libraryData';
 import { UI_ICONS } from './uiIcons';
 
 type Tab = 'decks' | 'samples';
 const CATEGORY_LABEL = Object.fromEntries(CATEGORIES.map((x) => [x.id, x.label])) as Record<SampleCategory, string>;
+const STATUS_LABEL: Record<PostStatus, string> = { todo: 'To post', posted: 'Posted', skip: 'Skipped' };
+const STATUSES: readonly PostStatus[] = ['todo', 'posted', 'skip'];
+const shortDate = (at: number): string => new Date(at).toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
 
 /** Top-bar deck switcher: saved decks, deck actions, samples and deck files (PRD F10, F11, F15). */
 export function mountLibrary(root: HTMLElement, c: Controller): void {
@@ -25,6 +29,7 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
   // View state survives closing the popover (per page session).
   let tab: Tab | null = null;
   let category: CategoryFilter = 'all';
+  let status: StatusFilter = 'all';
   let query = '';
   let samples: SampleInfo[] | null = null;
   const allSamples = (): SampleInfo[] => (samples ??= SAMPLES.map(sampleInfo));
@@ -61,29 +66,49 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
   });
   const tabs = h('div', { class: 'lib-tabs', role: 'tablist' });
   const chips = h('div', { class: 'chips', role: 'group', 'aria-label': 'Category' });
+  const statusChips = h('div', { class: 'chips status-chips', role: 'group', 'aria-label': 'Posting status' });
+  const currentStatus = h('span', { class: 'current-status' });
 
-  const deckRow = (d: DeckIndexEntry, current: boolean, cat: SampleCategory | undefined): HTMLElement => {
+  /** Posting status picker; the same key is shared by a sample and the decks made from it. */
+  const statusPicker = (key: string, label: string): HTMLSelectElement => {
+    const now = postStatus(c.store.get().marks, key);
+    return h('select', {
+      class: `status-select st-${now}`, 'aria-label': `Posting status: ${label}`,
+      onchange: (e: Event) => {
+        const v = (e.target as HTMLSelectElement).value as PostStatus;
+        c.setMark(key, v === 'todo' ? null : v);
+        renderBody();
+      },
+    }, ...STATUSES.map((x) => h('option', { value: x, selected: x === now }, STATUS_LABEL[x])));
+  };
+  const markNote = (key: string): string | null => {
+    const m = c.store.get().marks[key];
+    return m ? `${STATUS_LABEL[m.state]} ${shortDate(m.at)}` : null;
+  };
+
+  const deckRow = (d: DeckIndexEntry, current: boolean, cat: SampleCategory | undefined, key: string): HTMLElement => {
     const thumb = d.thumb ? h('img', { src: d.thumb, alt: '' }) : h('span', { class: 'deck-thumb-empty' });
-    return h('li', {}, h('button', {
+    return h('li', { class: `deck-item st-${postStatus(c.store.get().marks, key)}` }, h('button', {
       type: 'button', class: `deck-row${current ? ' current' : ''}`, 'aria-current': current ? 'true' : 'false',
       onclick: act(() => openDeck(c, d.id)),
     }, h('span', { class: 'deck-thumb' }, thumb), h('span', { class: 'deck-meta' },
       h('strong', {}, d.title || 'Untitled'),
-      h('small', {}, catTag(cat), meta(variantName(d.template), slidesText(d.slides), timeAgo(d.updatedAt)))),
-    current ? h('span', { class: 'pill' }, 'Editing') : null));
+      h('small', {}, catTag(cat), meta(variantName(d.template), slidesText(d.slides), markNote(key) ?? timeAgo(d.updatedAt)))),
+    current ? h('span', { class: 'pill' }, 'Editing') : null), statusPicker(key, d.title || 'Untitled'));
   };
 
   const sampleRow = (x: SampleInfo, decks: readonly DeckIndexEntry[]): HTMLElement => {
     const mine = decksFromSample(decks, x)[0];
-    return h('li', { class: 'sample-row' },
+    const key = sampleMarkKey(x.id);
+    return h('li', { class: `sample-row st-${postStatus(c.store.get().marks, key)}` },
       h('button', { type: 'button', class: 'sample-open', onclick: act(() => loadSample(c, x.id)) },
         h('span', { class: 'deck-meta' }, h('strong', {}, x.name),
-          h('small', {}, meta(x.variantName, `${x.slides} slides`, x.lang.toUpperCase()))),
+          h('small', {}, meta(x.variantName, `${x.slides} slides`, x.lang.toUpperCase(), markNote(key)))),
         h('span', { class: mine ? 'pill ok' : 'pill' }, mine ? 'Open' : 'Add')),
       mine ? h('button', {
         type: 'button', class: 'menu-item small', title: 'Start another copy from the original sample',
         onclick: act(() => loadSample(c, x.id, true)),
-      }, 'New copy') : null);
+      }, 'New copy') : null, statusPicker(key, x.name));
   };
 
   const empty = (text: string): HTMLElement => h('p', { class: 'hint library-empty' }, text);
@@ -91,9 +116,21 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
   const renderBody = (): void => {
     const s = c.store.get();
     const t: Tab = tab ?? (s.decks.length ? 'decks' : 'samples');
-    const cats = deckCategories(s.decks, allSamples());
-    const decks = filterDecks(s.decks, query, category, cats);
-    const smp = filterSamples(allSamples(), query, category);
+    const from = deckSamples(s.decks, allSamples());
+    const cats = new Map([...from].map(([id, x]) => [id, x.category]));
+    const dKey = (d: DeckIndexEntry): string => deckMarkKey(d.id, from);
+    const sKey = (x: SampleInfo): string => sampleMarkKey(x.id);
+    const decksAll = filterDecks(s.decks, query, category, cats);
+    const smpAll = filterSamples(allSamples(), query, category);
+    const decks = decksAll.filter((d) => keepStatus(dKey(d), s.marks, status));
+    const smp = smpAll.filter((x) => keepStatus(sKey(x), s.marks, status));
+    const counts = countStatuses(t === 'decks' ? decksAll.map(dKey) : smpAll.map(sKey), s.marks);
+    statusChips.replaceChildren(...(['all', ...STATUSES] as const).map((f) => h('button', {
+      type: 'button', class: `chip${f === 'all' ? '' : ` st-${f}`}`, 'aria-pressed': status === f ? 'true' : 'false',
+      onclick: () => { status = f; renderBody(); },
+    }, f === 'all' ? 'All' : STATUS_LABEL[f], f === 'all' ? null : h('span', { class: 'count' }, String(counts[f])))));
+    const cur = s.decks.find((d) => d.id === s.deckId);
+    currentStatus.replaceChildren(...(cur ? [statusPicker(dKey(cur), 'this deck')] : []));
     tabs.replaceChildren(...(['decks', 'samples'] as const).map((k) => h('button', {
       type: 'button', role: 'tab', class: 'lib-tab', 'aria-selected': t === k ? 'true' : 'false',
       onclick: () => { tab = k; renderBody(); },
@@ -105,8 +142,8 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
 
     if (t === 'decks') {
       if (!s.decks.length) body.replaceChildren(empty(s.storageAvailable ? 'No saved decks yet. Start from a sample.' : 'Autosave is off in this browser.'));
-      else if (!decks.length) body.replaceChildren(empty('No decks match.'));
-      else body.replaceChildren(h('ul', { class: 'deck-list' }, ...decks.map((d) => deckRow(d, d.id === s.deckId, cats.get(d.id)))));
+      else if (!decks.length) body.replaceChildren(empty(status === 'todo' ? 'Nothing left to post here.' : 'No decks match.'));
+      else body.replaceChildren(h('ul', { class: 'deck-list' }, ...decks.map((d) => deckRow(d, d.id === s.deckId, cats.get(d.id), dKey(d)))));
       return;
     }
     const groups = CATEGORIES.map(({ id, label }) => {
@@ -116,7 +153,7 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
     });
     body.replaceChildren(...(smp.length ? [
       h('p', { class: 'hint' }, 'Opens your copy if you already added it. Use New copy to start over.'), ...groups.filter((g): g is HTMLElement => g !== null),
-    ] : [empty('No samples match.')]));
+    ] : [empty(status === 'todo' ? 'Nothing left to post here.' : 'No samples match.')]));
   };
 
   search.addEventListener('input', () => { query = search.value; renderBody(); });
@@ -133,8 +170,8 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
       h('div', { class: 'library-head' },
         h('div', { class: 'library-actions' },
           item('New deck', () => newBlankDeck(c)), item('Duplicate', () => duplicateDeck(c)),
-          item('Rename', () => renameDeck(c)), item('Delete', () => deleteDeck(c), 'danger')),
-        search, h('div', { class: 'library-filters' }, tabs, chips)),
+          item('Rename', () => renameDeck(c)), item('Delete', () => deleteDeck(c), 'danger'), currentStatus),
+        search, h('div', { class: 'library-filters' }, tabs, chips), statusChips),
       body,
       h('div', { class: 'library-foot' },
         item('Save deck file', () => saveDeckFile(c)), item('Open deck file…', () => fileInput.click()),
