@@ -1,6 +1,6 @@
 # Channels: content brief for writing decks
 
-Read this before writing any deck. The owner runs five TikTok accounts, and every deck is for exactly one of them.
+Read this before writing any deck. The owner runs seven TikTok accounts, and every deck is for exactly one of them.
 If a request names an account ("10 posts for Ruang Rasa", "deck for Whistle Notes"), use that account's section.
 If it doesn't name one, infer it from the topic and say which one you picked:
 
@@ -9,6 +9,8 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 - Indonesian history, kingdoms, local events, place-name origins → **Catatan Kaki Sejarah**
 - sports rules, how a sport works, rule incidents → **Whistle Notes**
 - regional statistics, rankings, "kabupaten mana yang paling…" → **Peta Angka**
+- English vocabulary, grammar, pronunciation for Indonesians → **English Sehari**
+- Indonesian words, KBBI meanings, kata baku, kata serapan → **Kamus Kecil**
 
 The deck format is PRD §4. This file only says *what* to write and which template/attributes to use. It adds no new syntax.
 
@@ -19,6 +21,8 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 📜 Catatan Kaki Sejarah | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
 | 🏟️ Whistle Notes | `id` | One sports rule per post | `dev/*` (clean sans) | `dev/paper-light` |
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
+| ✏️ English Sehari | `id` (teaches English) | Words, irregular verbs, common mistakes | `lexicon/*` | `lexicon/notebook` |
+| 📖 Kamus Kecil | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
 
 ---
 
@@ -412,7 +416,202 @@ Tulis di komen, nanti kami cek datanya.
 
 ---
 
-## 6. Shared rules
+## 6. ✏️ English Sehari
+
+**Tagline:** *Satu hari, satu hal kecil tentang bahasa Inggris.*
+A faceless account that teaches English to Indonesians, one small, useful thing per post: a word, a verb pattern, a common mistake, a pronunciation trap.
+It should feel like "oh, jadi selama ini aku salah", never like a textbook or a test.
+
+| | |
+|---|---|
+| Purpose | Make English click for Indonesian speakers |
+| Audience | Indonesian students, job seekers, workers, anyone learning English (beginner → intermediate) |
+| Reader should think | "I'll save this and use it today." |
+| Primary action | Save / share / comment (try the word in a sentence) |
+| Tone | Friendly, encouraging, a little playful; mistakes are normal |
+| Voice | A patient friend who knows where Indonesians usually slip |
+| Slide types | `cover`, `word`, `table`, `compare`, `card`, `end` |
+
+### Pillars
+
+1. **Word of the day**: one useful word with meaning, pronunciation, an example and its forms.
+2. **Irregular verbs by pattern**: V1–V2–V3 grouped so they stick (`think–thought`, `buy–bought`, `spend–spent`, `send–sent`, `sing–sang–sung`…).
+3. **Salah kaprah**: mistakes Indonesians commonly make (`I am agree` → `I agree`, `discuss about` → `discuss`, `very like` → `really like`).
+4. **False friends**: words that look like Indonesian but mean something else (e.g. English *actual* ≠ Indonesian *aktual*).
+5. **Pronunciation traps**: silent letters, stress, `-ed` endings (`walked` /t/, `played` /d/, `wanted` /ɪd/).
+6. **Pairs that confuse**: make vs do, bored vs boring, fun vs funny, say vs tell, borrow vs lend.
+7. **Phrasal verbs & everyday expressions**: one situation per post (meeting, chatting, email).
+8. **Mini quiz**: question on one slide, answer on the next slide (a carousel can reveal it by swiping).
+
+### Accuracy rules
+
+- Meanings, IPA and verb forms must match a reputable learner's dictionary (Cambridge Dictionary, Oxford Learner's Dictionaries or Merriam-Webster). Name it in the caption when giving IPA or a definition.
+- Say which pronunciation you show: `(UK)`, `(US)`, or both. Default: both when they differ.
+- `say:` respelling is a friendly approximation in Indonesian spelling, not a replacement for IPA. Keep both.
+- When British and American usage differ (spelling, words, verb forms like *learnt/learned*), say so.
+- Translations should be natural Indonesian, not word-for-word.
+
+### Writing rules
+
+- Explanations in Indonesian (`lang: id`); English examples in English. Keep it casual (`kamu`, `nggak` is fine).
+- One concept per deck. Example sentences short, everyday, and relevant to Indonesian life (kantor, kampus, ojol, nongkrong).
+- Highlight the target word in examples with `*word*`.
+- Never mock learners' mistakes. "Banyak yang salah di sini" beats "Masa nggak tahu?".
+
+### Deck recipe
+
+- **Templates:** `lexicon/notebook` (default). Use `deep` surface (`surface=deep`) for the cover/end if no photo.
+- **Length:** cover + 4–6 slides + end, ≤ 10 total.
+- **Word-of-the-day deck:** cover → `[word]` → `[table]` (forms, or synonyms/opposites) → `[compare]` (common mistake with it) → `[card]` "Coba pakai: …" prompt → end.
+- **Pattern deck (verbs):** cover → 2–3 `[table]` slides grouped by pattern → `[word]` for the trickiest one → `[compare]` → end.
+- **Salah kaprah deck:** cover → 3–5 `[compare]` slides → end.
+- **Quiz deck:** cover → `[card]` question + "Jawaban di slide berikutnya" → `[compare]` or `[card]` answer → … → end.
+- **End:** `[end]` with `Simpan dulu ✏️` + a reply prompt (`Coba bikin kalimat pakai kata ini di komen`).
+- **Caption:** one line + dictionary source if IPA/definitions are used + 2–4 hashtags (`#belajarbahasainggris`, `#englishsehari`, `#irregularverbs`, `#vocabulary`…).
+- **Fallback until the lexicon features ship** (see Open items): `[word]` → `[card]` with headline = word and body lines `IPA · arti · contoh`; `[table]` → `[card]` with one row per body line (`think → thought`); `[compare]` → `[card]` with `✘ …` / `✔ …` body lines.
+
+```text
+template: lexicon/notebook
+lang: id
+title: verb pola ought
+caption: Think jadi thought, buy jadi bought. Ini polanya 👇 Sumber IPA: Cambridge Dictionary #belajarbahasainggris #irregularverbs
+---
+[cover kicker="IRREGULAR VERBS"]
+Think → Thought? | Ini Polanya
+6 kata kerja yang V2-nya berakhiran -ought / -aught.
+---
+[table]
+Pola *-ought*
+| V1 | V2 / V3 | Arti |
+| think | th*ought* | berpikir |
+| bring | br*ought* | membawa |
+| buy | b*ought* | membeli |
+| fight | f*ought* | bertarung |
+---
+[table]
+Pola *-aught*
+| V1 | V2 / V3 | Arti |
+| teach | t*aught* | mengajar |
+| catch | c*aught* | menangkap |
+---
+[word]
+pos: verb · V2/V3 of think
+word: thought
+ipa: /θɔːt/ (UK) · /θɑːt/ (US)
+say: "thot", ujung lidah di antara gigi
+meaning: berpikir; mengira
+example: I *thought* you were coming.
+translation: Kukira kamu mau datang.
+---
+[compare]
+wrong: Yesterday I thinked about it.
+right: Yesterday I *thought* about it.
+why: Think tidak pakai -ed. Bentuk lampaunya thought.
+---
+[end]
+Simpan dulu ✏️
+Coba bikin kalimat pakai "brought" di komen.
+```
+
+---
+
+## 7. 📖 Kamus Kecil
+
+**Tagline:** *Kata-kata kita sendiri, yang ternyata jarang kita kenal.*
+A faceless account about the Indonesian language: words most people don't know, what KBBI actually says, standard vs non-standard spelling, and where our words came from.
+It should feel like "lho, ternyata kata ini dari bahasa Portugis?", never like a grammar teacher correcting people.
+
+| | |
+|---|---|
+| Purpose | Make people curious and a bit proud of Bahasa Indonesia |
+| Audience | Indonesian students, writers, office workers, content creators, word nerds |
+| Reader should think | "I'm sending this to the friend who always writes 'resiko'." |
+| Primary action | Share / save / comment ("kata lain yang sering salah?") |
+| Tone | Curious, warm, light humour, never preachy |
+| Voice | A friend who reads KBBI for fun |
+| Slide types | `cover`, `word`, `table`, `compare`, `card`, `quote` (rarely), `end` |
+
+### Pillars
+
+1. **Kata hari ini**: a rare or beautiful word with its KBBI meaning, word class and an example (`gawai`, `swafoto`, `luring`…).
+2. **Kata serapan**: where a word came from and its original form (Arab, Sanskerta, Belanda, Portugis, Tionghoa/Hokkien, Tamil, Persia, Inggris), e.g. `jendela` ← Portugis *janela*, `kantor` ← Belanda *kantoor*.
+3. **Baku vs tidak baku**: spellings people get wrong (`risiko`, `apotek`, `praktik`, `nasihat`…).
+4. **Padanan kata asing**: the Indonesian equivalent of a foreign term (`unduh` = download, `daring/luring` = online/offline, `tetikus` = mouse).
+5. **Satu kata, banyak arti**: homonyms and polysemy (`bisa` = can / venom), and meanings that shifted over time.
+6. **Kata daerah di KBBI**: regional words that made it into KBBI (with the region label).
+7. **Imbuhan & bentuk kata**: one affix or a confusing pair per post (`di-` attached vs `di` as preposition, `merubah` vs `mengubah`).
+8. **Peribahasa & ungkapan**: one proverb with its meaning and a modern example.
+
+### Accuracy rules (non-negotiable)
+
+- **KBBI VI Daring** (kbbi.kemdikbud.go.id) is the reference for meanings, word class, labels and spelling. Quote definitions exactly and briefly, and cite "KBBI VI Daring" in the caption (and the `note:` field on `[word]` slides). Never paraphrase a definition and present it as KBBI's.
+- If KBBI doesn't list a word or a sense, say so ("belum tercatat di KBBI") instead of inventing a meaning.
+- Etymology: use KBBI's language label where it has one, plus a scholarly source when making claims (e.g. Russell Jones (ed.), *Loan-Words in Indonesian and Malay*, 2007). If origins are disputed, say "diduga dari…" or leave it out. No folk etymology presented as fact.
+- Baku/tidak baku and padanan claims must be checkable in KBBI or Badan Bahasa resources (e.g. Pedoman Umum Pembentukan Istilah, glosarium/padanan istilah).
+
+### Writing rules
+
+- Language: Indonesian (`lang: id`), relaxed but correct. The account's own spelling must be impeccable: no typos, correct baku forms everywhere outside the deliberate "tidak baku" examples.
+- Use the word class labels KBBI uses (`nomina`, `verba`, `adjektiva`…) in `pos:`.
+- Highlight the target word with `*word*` in examples. Examples should be natural, modern sentences.
+- Correct gently: "Yang baku ternyata…" beats "Kamu salah!".
+
+### Deck recipe
+
+- **Templates:** `lexicon/kamus` (default). Use `surface=deep` for cover/end if no photo.
+- **Length:** cover + 4–6 slides + end, ≤ 10 total.
+- **Kata hari ini deck:** cover → `[word]` (meaning, example, origin) → `[card]` the story behind the word → `[table]` related words or padanan → end.
+- **Serapan deck:** cover → `[table]` (`Kata | Dari | Bentuk asli`) → 2–3 `[word]` slides with `origin:` → end.
+- **Baku deck:** cover → `[table]` (`Baku | Tidak baku`) → 2–3 `[compare]` slides with `wrong-label: Tidak baku` / `right-label: Baku` → end.
+- **End:** `[end]` with a comment prompt (`Kata apa yang sering bikin kamu ragu?`).
+- **Caption:** one line + `Sumber: KBBI VI Daring` (+ other sources) + 2–4 hashtags (`#bahasaindonesia`, `#kbbi`, `#katabaku`, `#kataserapan`…).
+- **Fallback until the lexicon features ship:** same as English Sehari.
+
+```text
+template: lexicon/kamus
+lang: id
+title: baku atau tidak
+caption: Sering salah, padahal dipakai tiap hari. Sumber: KBBI VI Daring #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="KATA BAKU"]
+Kamu Masih Nulis | "Resiko"?
+4 kata yang sering salah tulis.
+---
+[table]
+Mana yang baku?
+| Baku | Tidak baku |
+| *risiko* | resiko |
+| *apotek* | apotik |
+| *praktik* | praktek |
+| *nasihat* | nasehat |
+Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Apa resikonya?
+right: Apa *risikonya*?
+why: KBBI mencatat bentuk bakunya "risiko".
+---
+[word]
+pos: nomina
+tag: SERAPAN
+word: jendela
+meaning: [kutip definisi persis dari KBBI VI Daring]
+example: Buka *jendela* biar udaranya segar.
+origin: dari bahasa Portugis *janela*
+note: Sumber: KBBI VI Daring
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.
+```
+
+(Example only: replace the `meaning` placeholder with KBBI's exact definition before posting.)
+
+---
+
+## 8. Shared rules
 
 - Don't let any account become a content farm: every deck needs a specific angle, not a generic list.
 - No text copied from real TikTok accounts.
@@ -420,7 +619,7 @@ Tulis di komen, nanti kami cek datanya.
 - Emoji are fine in text (system emoji font); arrows and bookmarks are drawn by the app, don't type them.
 - Icons available for `icon=`: alert, arrow-right, book, bookmark, bug, chat, check-circle, circle-arrow, clock, code, coffee, cpu, database, flower, folder, gift, git-branch, heart, heart-spark, home, key, leaf, lightbulb, map-pin, moon, mountain, music, plane, rocket, shield-heart, smile, star, sun, terminal, umbrella (aliases: shield, pin, branch, bulb, check, spark).
 - When asked for many posts at once, vary pillar, template and opening hook across them.
-- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
+- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, English Sehari, Kamus Kecil): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
   - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
   - No source manifest or source list in the reply is needed for images. Just pick a fitting free image.
@@ -428,9 +627,10 @@ Tulis di komen, nanti kami cek datanya.
   - Images for sample decks are bundled with the app: save a downscaled JPEG to `src/samples/photos/<photo-id>.jpg` (it fills 1080×1920; wide images cropped to ≤ 2160 px wide), reference it with `photo=<photo-id>`, and set a focal point in `src/samples/photos.ts` if the subject isn't centred. Loading the sample adds it to the photo tray automatically.
 - Out of scope for this app: screen recordings, video demos. Only photo carousels.
 
-## 7. Open items
+## 9. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all five handles, put `handle:` in every deck header.
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all seven handles, put `handle:` in every deck header.
+- **Lexicon features: shipped (M7, Oct 2026).** `[word]`, `[table]`, `[compare]` and `lexicon/notebook` / `lexicon/kamus` are built (see SPEC-lexicon.md); the card fallbacks in the recipes are no longer needed. Note: KBBI VI Daring now lives at kbbi.kemendikdasmen.go.id, and its etymology labels (Por, Skt…) are only shown to logged-in users, so don't print them unless checked while logged in.
 - **Fonts vs the brand note.** The brand note says Playfair Display + DM Sans; `editorial/rose-dusk` uses Playfair + Poppins (DM Sans is on `midnight`). Tokens follow DESIGN.md, so this is accepted as-is unless the owner wants a variant change.
 - **BPS Papua fix.** No BPS-based Peta Angka decks until the NusaStats ingest fix is merged (26 new-Papua kabupaten were missing from rankings). Dukcapil and DJPK packs are fine now.
 - **`chart` slide.** Add `[chart data=<pack-id> kind=bar top=N]` to Carousel Press: paste a `carousel-data/1` pack into a Data tab, rendered as a bar chart in template colours. Until then, rankings are one card per region.
