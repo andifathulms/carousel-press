@@ -13,7 +13,7 @@ export function numberSlides(slides: Slide[]): Slide[] {
     s.counter = { i: i + 1, total };
 
     s.badge = null;
-    if (s.type === 'card' || s.type === 'code') {
+    if (s.type === 'card' || s.type === 'code' || (s.type === 'table' && typeof s.attrs.number === 'number')) {
       const n = s.attrs.number;
       if (n === 'off') {
         // skipped: doesn't consume a number
@@ -26,7 +26,8 @@ export function numberSlides(slides: Slide[]): Slide[] {
       }
     }
 
-    const isContent = s.type === 'card' || s.type === 'code' || s.type === 'quote';
+    const isContent = s.type === 'card' || s.type === 'code' || s.type === 'quote' ||
+      s.type === 'word' || s.type === 'table' || s.type === 'compare';
     s.contentIndex = isContent ? content++ : -1;
 
     s.showCta = s.type === 'end' || (isContent && s.attrs.cta !== undefined);

@@ -1,12 +1,18 @@
 // Core data types shared by parser, layout and renderer. Pure: no DOM.
 
-export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end';
-export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end'];
+export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end' | 'word' | 'table' | 'compare';
+export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end', 'word', 'table', 'compare'];
+
+/** Lexicon slide types (SPEC-lexicon §2): structured fields instead of headline + body. */
+export type LexType = 'word' | 'table' | 'compare';
+export function isLexType(t: SlideType): t is LexType {
+  return t === 'word' || t === 'table' || t === 'compare';
+}
 
 export type Lang = 'id' | 'en';
 export const LANGS: readonly Lang[] = ['id', 'en'];
 
-export type FamilyId = 'editorial' | 'dev';
+export type FamilyId = 'editorial' | 'dev' | 'lexicon';
 
 export const TEMPLATE_IDS = [
   'editorial/rose-dusk',
@@ -15,6 +21,8 @@ export const TEMPLATE_IDS = [
   'dev/github-dark',
   'dev/terminal',
   'dev/paper-light',
+  'lexicon/kamus',
+  'lexicon/notebook',
 ] as const;
 export type TemplateId = (typeof TEMPLATE_IDS)[number];
 export const DEFAULT_TEMPLATE: TemplateId = 'editorial/rose-dusk';
@@ -24,7 +32,8 @@ export function isTemplateId(v: string): v is TemplateId {
 }
 
 export function familyOf(id: TemplateId): FamilyId {
-  return id.startsWith('dev/') ? 'dev' : 'editorial';
+  if (id.startsWith('dev/')) return 'dev';
+  return id.startsWith('lexicon/') ? 'lexicon' : 'editorial';
 }
 
 // ---- Rich text ----------------------------------------------------------
@@ -53,9 +62,18 @@ export type WarningCode =
   | 'code-missing-fence'
   | 'long-deck'
   | 'photo-low-res'
-  | 'long-word';
+  | 'long-word'
+  | 'unknown-field'
+  | 'missing-word'
+  | 'missing-field'
+  | 'table-shape'
+  | 'table-too-many-rows'
+  | 'table-too-wide'
+  | 'ipa-glyph-missing';
 
-export const BLOCKING_CODES: readonly WarningCode[] = ['overflow', 'code-line-too-long'];
+export const BLOCKING_CODES: readonly WarningCode[] = [
+  'overflow', 'code-line-too-long', 'table-too-many-rows', 'table-too-wide', 'ipa-glyph-missing',
+];
 
 export interface Warning {
   code: WarningCode;
@@ -84,6 +102,12 @@ export interface CodeBlock {
   lang: string;
 }
 
+/** `[table]` cells as raw source (inline markers intact). First row = header. */
+export interface TableData {
+  header: string[];
+  rows: string[][];
+}
+
 export interface Slide {
   index: number;
   type: SlideType;
@@ -96,6 +120,9 @@ export interface Slide {
   note: Rich;
   attribution: string | null;
   code: CodeBlock | null;
+  /** `[word]` / `[compare]` field values (raw source), keyed by field name. */
+  fields: Record<string, string>;
+  table: TableData | null;
   /** Resolved photo id (after tray lookup) or null. */
   photoId: string | null;
   /** [startLine, endLine] inclusive, 0-based, in the deck text. */

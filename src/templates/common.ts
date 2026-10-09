@@ -5,6 +5,7 @@ import type { FontSpec, TextMeasurer } from '../layout/measure';
 import type { StackResult } from '../layout/stack';
 import { type Box, CONTENT_W, ROWS, SAFE } from '../render/safezone';
 import type { Surface, Variant } from './types';
+import type { LexLayout } from './lexicon/lexLayout';
 
 export interface LayoutInput {
   slide: Slide;
@@ -40,6 +41,8 @@ export interface SlideLayout {
   footer: FooterLayout;
   boxes: Box[];
   warnings: Warning[];
+  /** word/table/compare slides: positioned lexicon elements (drawn instead of the stack). */
+  lex?: LexLayout;
 }
 
 /** Shared header/footer/CTA metrics (DESIGN §3.1, §3.2, §3.8). */

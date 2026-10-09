@@ -10,6 +10,7 @@ const swatches = (v: Variant): HTMLElement =>
 const GROUPS: { label: string; family: Variant['family'] }[] = [
   { label: 'Editorial', family: 'editorial' },
   { label: 'Dev', family: 'dev' },
+  { label: 'Lexicon', family: 'lexicon' },
 ];
 
 /** Dropdown grouped by family; each option shows 4 swatches + the variant name. */

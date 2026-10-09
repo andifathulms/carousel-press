@@ -18,13 +18,20 @@ import '@fontsource/jetbrains-mono/latin-400.css';
 import '@fontsource/jetbrains-mono/latin-500.css';
 import '@fontsource/jetbrains-mono/latin-600.css';
 import '@fontsource/jetbrains-mono/latin-700.css';
+// IPA face for word slides (SPEC-lexicon §3.1): latin + latin-ext + greek via unicode-range.
+import '@fontsource/gentium-book-plus/400.css';
 
 import type { Variant } from '../templates/types';
 
 export interface Face {
   family: string;
   weight: number;
+  /** Sample text that pulls in the subsets this face is used for. */
+  text?: string;
 }
+
+/** IPA sample: latin-ext (ɔ ː ʃ ŋ ˈ) and greek (θ) subsets. */
+export const IPA_SAMPLE = 'θɔːæʃʒŋəɜɪʊˈˌð';
 
 export const FONT_TIMEOUT_MS = 8000;
 
@@ -37,7 +44,7 @@ export function facesFor(v: Variant): Face[] {
       if (!faces.some((f) => f.family === family && f.weight === weight)) faces.push({ family, weight });
     }
   };
-  if (v.family === 'editorial') {
+  if (v.family === 'editorial' || v.family === 'lexicon') {
     add(v.fonts.serif, [600, 700]);
     add(v.fonts.sans, [400, 500, 600]);
     add(v.fonts.mono, [400, 500, 600]);
@@ -45,6 +52,8 @@ export function facesFor(v: Variant): Face[] {
     add(v.fonts.sans, [400, 500, 600, 700, v.headlineWeight ?? 800]);
     add(v.fonts.mono, [400, 500, 600, 700]);
   }
+  // Word slides can appear in any template, so every variant gates on the IPA face.
+  faces.push({ family: 'Gentium Book Plus', weight: 400, text: IPA_SAMPLE });
   return faces;
 }
 
@@ -71,8 +80,8 @@ export async function loadAllFonts(variants: readonly Variant[]): Promise<void> 
 async function loadFaces(faces: Face[]): Promise<void> {
   await Promise.all(faces.map(async (f) => {
     const spec = `${f.weight} 40px "${f.family}"`;
-    const res = await document.fonts.load(spec, 'Aa09•—');
-    if (!res.length || !document.fonts.check(spec, 'Aa')) throw new Error(`Font face missing: ${spec}`);
+    const res = await document.fonts.load(spec, f.text ?? 'Aa09•—');
+    if (!res.length || !document.fonts.check(spec, f.text ?? 'Aa')) throw new Error(`Font face missing: ${spec}`);
   }));
   await document.fonts.ready;
 }

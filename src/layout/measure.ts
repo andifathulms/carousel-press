@@ -8,7 +8,7 @@ export interface TextMeasurer {
   width(text: string, font: FontSpec): number;
 }
 
-const SERIF = new Set(['Playfair Display', 'Lora']);
+const SERIF = new Set(['Playfair Display', 'Lora', 'Gentium Book Plus']);
 
 export function isMonoFamily(family: string): boolean {
   return /mono/i.test(family);

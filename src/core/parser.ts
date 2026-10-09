@@ -1,11 +1,12 @@
 import type {
   CodeBlock, Deck, DeckHeader, Lang, ParseResult, Rich, Slide, SlideAttrs, SlideType, TemplateId, Warning,
 } from './types';
-import { DEFAULT_TEMPLATE, LANGS, SLIDE_TYPES, isTemplateId } from './types';
+import { DEFAULT_TEMPLATE, LANGS, SLIDE_TYPES, isLexType, isTemplateId } from './types';
 import { parseInline, parseRich, richToPlain } from './inline';
 import { canonicalIcon } from './iconNames';
 import { numberSlides } from './numbering';
 import { slugify } from './slug';
+import { fillCompare, fillTable, fillWord } from './lexicon';
 
 export interface ParseOptions {
   /** Template used when the header has none (last used). */
@@ -234,6 +235,22 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[], opts: P
   while (content.length && content[0]!.text.trim() === '') content.shift();
 
   const slide = makeSlide(index, finalType, attrs, block);
+  if (isLexType(finalType)) {
+    // Lexicon slides: word/compare are field lines; table has a headline line, then rows.
+    if (finalType === 'word') fillWord(slide, content, warn);
+    else if (finalType === 'compare') fillCompare(slide, content, warn);
+    else {
+      const head = content[0] && !content[0].text.trim().startsWith('|') ? content.shift() : undefined;
+      if (head) {
+        slide.headlineSrc = head.text.trim();
+        slide.headline = [parseInline(slide.headlineSrc)];
+      } else warn('missing-headline', 'This slide has no headline');
+      fillTable(slide, content, warn);
+    }
+    checkAttrScope(slide, warn);
+    resolvePhoto(slide, opts, warn);
+    return slide;
+  }
   const head = content.shift();
   if (!head || FENCE.test(head.text)) {
     warn('missing-headline', 'This slide has no headline');
@@ -254,7 +271,7 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[], opts: P
 
 function makeSlide(index: number, type: SlideType, attrs: SlideAttrs, block: RawBlock): Slide {
   return {
-    index, type, attrs, headlineSrc: '', headline: [], body: [], note: [], attribution: null, code: null,
+    index, type, attrs, headlineSrc: '', headline: [], body: [], note: [], attribution: null, code: null, fields: {}, table: null,
     photoId: null, lines: [block.start, Math.max(block.start, block.end)],
     badge: null, counter: { i: index + 1, total: 0 }, swipe: null, showCta: false, contentIndex: -1,
   };
@@ -300,8 +317,10 @@ function checkAttrScope(slide: Slide, warn: Warn): void {
     warn('unknown-attr', `"${k}" doesn't apply to ${slide.type} slides`);
   };
   if (a.icon !== undefined && slide.type === 'cover') drop('icon');
+  // Lexicon slides ignore icon= silently (SPEC-lexicon §2).
+  if (isLexType(slide.type)) delete a.icon;
   if (a.cta !== undefined && (slide.type === 'cover' || slide.type === 'end')) drop('cta');
-  if (a.number !== undefined && slide.type !== 'card' && slide.type !== 'code') drop('number');
+  if (a.number !== undefined && slide.type !== 'card' && slide.type !== 'code' && slide.type !== 'table') drop('number');
   if (a.kicker !== undefined && slide.type !== 'cover') drop('kicker');
 }
 

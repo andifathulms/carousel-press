@@ -41,6 +41,24 @@ export interface Deco {
   dotColor?: string;
   /** Peak alpha of the accent glow. */
   glowAlpha?: number;
+  /** Lexicon: double rule under the header (kamus). */
+  doubleRule?: boolean;
+  /** Lexicon: ruled notebook lines + margin line (notebook). */
+  notebook?: boolean;
+  /** Lexicon: large faint glyph off the bottom-right corner. */
+  cornerGlyph?: string;
+}
+
+/** Extra tokens for word/table/compare slides (SPEC-lexicon §3.2). Derived for other families. */
+export interface LexTokens {
+  rule: string;
+  highlight: string;
+  okBg: string;
+  okInk: string;
+  badBg: string;
+  badInk: string;
+  /** Notebook margin line. */
+  margin?: string;
 }
 
 export interface Variant {
@@ -57,4 +75,6 @@ export interface Variant {
   /** Dev/terminal: headline weight override and an accent prefix on cover/card headlines. */
   headlineWeight?: number;
   headlinePrefix?: string;
+  /** Lexicon family only; other families derive these (templates/lexicon/tokens.ts). */
+  lex?: LexTokens;
 }

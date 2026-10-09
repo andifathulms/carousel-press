@@ -37,6 +37,7 @@ exports[`golden samples > dev-git-id 1`] = `
           "i": 1,
           "total": 9,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -63,6 +64,7 @@ exports[`golden samples > dev-git-id 1`] = `
         "photoId": null,
         "showCta": false,
         "swipe": "coverSwipe",
+        "table": null,
         "type": "cover",
       },
       {
@@ -88,6 +90,7 @@ exports[`golden samples > dev-git-id 1`] = `
           "i": 2,
           "total": 9,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -108,6 +111,7 @@ exports[`golden samples > dev-git-id 1`] = `
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "code",
       },
       {
@@ -133,6 +137,7 @@ exports[`golden samples > dev-git-id 1`] = `
           "i": 3,
           "total": 9,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -162,6 +167,7 @@ exports[`golden samples > dev-git-id 1`] = `
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "code",
       },
       {
@@ -188,6 +194,7 @@ git commit --amend",
           "i": 4,
           "total": 9,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -217,6 +224,7 @@ git commit --amend",
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "code",
       },
       {
@@ -243,6 +251,7 @@ git stash pop",
           "i": 5,
           "total": 9,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -263,6 +272,7 @@ git stash pop",
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "code",
       },
       {
@@ -288,6 +298,7 @@ git stash pop",
           "i": 6,
           "total": 9,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -308,6 +319,7 @@ git stash pop",
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "code",
       },
       {
@@ -333,6 +345,7 @@ git stash pop",
           "i": 7,
           "total": 9,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -353,6 +366,7 @@ git stash pop",
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "code",
       },
       {
@@ -378,6 +392,7 @@ git stash pop",
           "i": 8,
           "total": 9,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -407,6 +422,7 @@ git stash pop",
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "code",
       },
       {
@@ -429,6 +445,7 @@ git stash pop",
           "i": 9,
           "total": 9,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -449,6 +466,7 @@ git stash pop",
         "photoId": null,
         "showCta": true,
         "swipe": null,
+        "table": null,
         "type": "end",
       },
     ],
@@ -497,6 +515,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 1,
           "total": 6,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -523,6 +542,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
         "photoId": "sample-dusk",
         "showCta": false,
         "swipe": "coverSwipe",
+        "table": null,
         "type": "cover",
       },
       {
@@ -547,6 +567,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 2,
           "total": 6,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -567,6 +588,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "card",
       },
       {
@@ -591,6 +613,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 3,
           "total": 6,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -611,6 +634,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "card",
       },
       {
@@ -635,6 +659,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 4,
           "total": 6,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -655,6 +680,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "card",
       },
       {
@@ -679,6 +705,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 5,
           "total": 6,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -699,6 +726,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
         "photoId": null,
         "showCta": false,
         "swipe": "swipe",
+        "table": null,
         "type": "card",
       },
       {
@@ -725,6 +753,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 6,
           "total": 6,
         },
+        "fields": {},
         "headline": [
           [
             [
@@ -745,6 +774,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
         "photoId": "sample-dusk",
         "showCta": true,
         "swipe": null,
+        "table": null,
         "type": "card",
       },
     ],

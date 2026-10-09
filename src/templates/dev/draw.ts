@@ -6,6 +6,7 @@ import { clipToStack, drawCta, drawFooter, drawHeader, drawTextBlock } from '../
 import { CONTENT_W } from '../../render/safezone';
 import { drawTracked, setFont, setShadow, truncateToWidth } from '../../render/text';
 import type { SlideLayout } from '../common';
+import { drawLex } from '../../render/lexDraw';
 import { FIXED } from './layout';
 
 /** Draw a dev slide whose background (flat colour or photo) is already painted. */
@@ -18,6 +19,14 @@ export function drawDev(ctx: Ctx, L: SlideLayout): void {
     if (v.deco.dotGrid && v.deco.dotColor) drawDotGrid(ctx, v.deco.dotColor);
     if (v.deco.glow) drawGlow(ctx, s.accent, v.deco.glowAlpha ?? 0.08);
     if (v.deco.bigGlyph && (slide.type === 'cover' || slide.type === 'end')) drawBigGlyph(ctx, v.deco.bigGlyph, mono, s.ink);
+  }
+
+  if (L.lex) {
+    drawHeader(ctx, L, s.body, s.muted);
+    drawFooter(ctx, L, s.muted, s.muted);
+    drawLex(ctx, L);
+    if (!onPhoto && v.deco.scanlines) drawScanlines(ctx);
+    return;
   }
 
   if (slide.type === 'quote') {

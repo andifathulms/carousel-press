@@ -66,6 +66,8 @@ export const ICON_PATHS: Record<IconName, string> = {
   'arrow-right': 'M3.8 12h15.4 M13.6 6.4l5.6 5.6-5.6 5.6',
   'circle-arrow': 'M12 3.4a8.6 8.6 0 1 0 .1 0z M7.8 12h7.8 M12.6 8.9l3.1 3.1-3.1 3.1',
   bookmark: 'M6.4 3.4h11.2v17.2L12 16.4l-5.6 4.2z',
+  // Lexicon compare slides: the "wrong" box.
+  'x-circle': 'M12 3.4a8.6 8.6 0 1 0 .1 0z M8.9 8.9l6.2 6.2 M15.1 8.9l-6.2 6.2',
 };
 
 const cache = new Map<string, Path2D>();

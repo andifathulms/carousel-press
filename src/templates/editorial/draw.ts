@@ -8,6 +8,7 @@ import { clipToStack, drawCta, drawFooter, drawHeader, drawTextBlock } from '../
 import { CONTENT_W } from '../../render/safezone';
 import { drawTracked, setFont, setShadow, truncateToWidth } from '../../render/text';
 import type { SlideLayout } from '../common';
+import { drawLex } from '../../render/lexDraw';
 import { FIXED } from './layout';
 
 /** Draw an editorial slide whose background (flat colour or photo) is already painted. */
@@ -19,6 +20,13 @@ export function drawEditorial(ctx: Ctx, L: SlideLayout): void {
   if (!onPhoto && v.deco.blobs) {
     const big = slide.type === 'cover' || slide.type === 'end';
     drawBlobs(ctx, slideRng(deck.slug, slide.index), s.blob, big);
+  }
+
+  if (L.lex) {
+    drawHeader(ctx, L, s.body, s.muted);
+    drawFooter(ctx, L, s.muted, s.muted);
+    drawLex(ctx, L);
+    return;
   }
 
   if (slide.type === 'quote') {

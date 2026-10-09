@@ -1,12 +1,21 @@
 import type { Lang } from './types';
 
-export type StringKey = 'swipe' | 'coverSwipe' | 'cta';
+export type StringKey =
+  | 'swipe' | 'coverSwipe' | 'cta'
+  | 'compareWrong' | 'compareRight' | 'labelMeaning' | 'labelExample' | 'labelOrigin' | 'labelSay';
 
 /** Built-in slide strings (PRD §4.7). Add a language by adding one column. */
 export const STRINGS: Record<StringKey, Record<Lang, string>> = {
   swipe: { id: 'Geser →', en: 'Swipe →' },
   coverSwipe: { id: 'Geser untuk lihat', en: 'Swipe to see' },
   cta: { id: 'Simpan • Bagikan', en: 'Save • Share' },
+  // Lexicon slides (SPEC-lexicon §2.4)
+  compareWrong: { id: 'Salah', en: 'Wrong' },
+  compareRight: { id: 'Benar', en: 'Right' },
+  labelMeaning: { id: 'Arti', en: 'Meaning' },
+  labelExample: { id: 'Contoh', en: 'Example' },
+  labelOrigin: { id: 'Asal kata', en: 'Origin' },
+  labelSay: { id: 'Cara baca', en: 'Say it' },
 };
 
 export function t(key: StringKey, lang: Lang): string {

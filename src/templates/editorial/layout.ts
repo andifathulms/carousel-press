@@ -6,7 +6,8 @@ import {
   CHROME, type LayoutInput, type SlideLayout, ctaLabel, ctaWidth, frameFrom, layoutFooter, layoutHeader,
   resolveSurface, stackBoxes, stackWarnings,
 } from '../common';
-import type { Warning } from '../../core/types';
+import { type Warning, isLexType } from '../../core/types';
+import { layoutLexSlide } from '../lexicon/lexDispatch';
 
 type Spec = Omit<TextSpec, 'family' | 'mono'> & { face: 'serif' | 'sans' };
 
@@ -47,6 +48,7 @@ export const STACK = {
 };
 
 export function layoutEditorial(input: LayoutInput): SlideLayout {
+  if (isLexType(input.slide.type)) return layoutLexSlide(input);
   const { slide, deck, variant: v, measurer: m } = input;
   const serif = v.fonts.serif ?? v.fonts.sans;
   const sans = v.fonts.sans;

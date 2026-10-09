@@ -14,7 +14,7 @@ export const DEV_ICONS = [
 ] as const;
 
 /** UI-on-slide icons (not in pools, not selectable with icon=). */
-export const UI_ICONS = ['arrow-right', 'circle-arrow', 'bookmark'] as const;
+export const UI_ICONS = ['arrow-right', 'circle-arrow', 'bookmark', 'x-circle'] as const;
 
 /**
  * Short aliases accepted by `icon=` (the PRD sample uses `icon=shield`).
@@ -59,7 +59,8 @@ export function resolveIcons(slides: readonly Slide[], slug: string, family: Fam
   for (const s of slides) {
     let icon: PoolIcon | null = null;
     if (s.type !== 'cover') {
-      const raw = s.attrs.icon ?? (family === 'dev' ? 'none' : 'auto');
+      // Dev and lexicon decks are icon-free unless a slide asks for one.
+      const raw = s.attrs.icon ?? (family === 'editorial' ? 'auto' : 'none');
       if (raw === 'auto') {
         // End slides have a CTA as their closing element; auto icons stay off.
         if (s.type !== 'end') {
