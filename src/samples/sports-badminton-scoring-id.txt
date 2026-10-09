@@ -1,43 +1,59 @@
 template: dev/paper-light
 lang: id
 title: skor bulu tangkis berubah
-caption: Bulu tangkis ganti dari 21 ke 15 poin mulai 4 Jan 2027. Sumber: BWF Laws of Badminton (2025), Laws 7, 8 & 16; Laws 2027 disahkan 25 Apr 2026, berlaku 4 Jan 2027 #bulutangkis #badminton #bwf
+caption: Bulu tangkis ganti dari 21 ke 15 poin mulai 4 Jan 2027. Sumber: BWF Laws of Badminton (2025), Laws 7, 8, 10, 11 & 16; Laws 2027 disahkan 25 Apr 2026, berlaku 4 Jan 2027; NST, USA Badminton, JawaPos, FMT (2026); Badminton Asia (2018); Scroll (2021) #bulutangkis #badminton #bwf
 ---
-[cover kicker="BULU TANGKIS • LAW 7" photo=sport-badminton-racket]
+[cover photo=sport-badminton-racket kicker="BULU TANGKIS • LAW 7"]
 Skor Bulu Tangkis | Akan Berubah
 Cara kerjanya sekarang, dan apa yang berubah Januari 2027.
 ---
 [photo=sport-badminton-net-talk]
 Menang dua gim
-Satu pertandingan dimainkan best of three: yang lebih dulu menang dua gim. Bagian ini tidak berubah.
+Satu pertandingan dimainkan best of three: yang lebih dulu menang dua gim. Pemenang gim servis lebih dulu di gim berikutnya, dan pemain pindah sisi setelah tiap gim. Bagian ini tidak berubah.
 ---
 [photo=sport-badminton-smash]
 Setiap reli jadi poin
-Menang reli, dapat poin, siapa pun yang servis. Inilah sistem reli poin. Pemenang reli juga mendapat giliran servis berikutnya.
+Menang reli, dapat poin, siapa pun yang servis, dan pemenang reli servis berikutnya. Di tunggal, server servis dari kanan saat skornya genap (termasuk 0) dan dari kiri saat ganjil.
 ---
 [photo=sport-badminton-rackets]
 Sekarang: sampai 21
-Di 20-20, harus unggul dua poin. Di 29-29, siapa pun yang mencetak poin ke-30 menang. Jadi skor gim paling panjang 30-29.
+Di 20-20 harus unggul dua poin, dan di 29-29 siapa pun yang mencetak poin ke-30 menang. Contoh: dari 20-20, skor 22-20 menang; tapi dari 29-29, 30-29 sudah cukup.
 ---
 [photo=sport-badminton-break]
 Jeda dan pindah tempat
 Ada jeda maksimal 60 detik saat skor tertinggi mencapai 11, dan maksimal 120 detik antargim. Di gim ketiga, pemain pindah tempat di poin 11.
 ---
+[photo=sport-badminton-smash]
+Ganda: siapa yang servis?
+Kalau tim yang servis menang reli, server yang sama servis lagi dari kotak sebelah. Kalau tim penerima menang, servis pindah ke mereka, oleh pemain di kotak sesuai skor tim itu: kanan genap, kiri ganjil.
+---
+[photo=sport-badminton-net-talk]
+Ganda: kapan pindah kotak?
+Pemain hanya bertukar kotak saat timnya sedang servis dan menang poin. Saat menerima, posisi tetap. Penerima adalah pemain yang diagonal dari server; setelah servis dikembalikan, siapa pun boleh memukul.
+---
 [photo=sport-badminton-rackets]
 Mulai 4 Januari 2027: sampai 15
-Anggota BWF menyetujuinya pada April 2026. Di 14-14 harus unggul dua poin. Di 20-20, poin ke-21 yang menentukan.
+Di 14-14 harus unggul dua poin, dan di 20-20 poin ke-21 yang menentukan. Disetujui 198 lawan 43 suara di Rapat Umum Tahunan BWF ke-87 di Horsens, Denmark, 25 April 2026.
 ---
 [photo=sport-badminton-break]
 Yang ikut bergeser
-Jeda di tengah gim dan pindah tempat di gim ketiga bergeser dari poin 11 ke poin 8. Format tiga gim tetap.
+Jeda di tengah gim dan pindah tempat di gim ketiga bergeser dari poin 11 ke poin 8. Jeda antargim tetap maksimal 120 detik, dan gim terpanjang kini 21-20, bukan lagi 30-29.
+---
+[photo=sport-badminton-racket]
+Kenapa BWF memilih 15?
+Alasannya: laga lebih cepat dan seru, durasi lebih mudah ditebak untuk jadwal dan siaran, dan pemulihan pemain lebih baik. Format ini sempat diuji di Kejuaraan Dunia Junior 2025 di Guwahati, India.
 ---
 [photo=sport-badminton-net-talk]
-Format 5×11 pernah ditolak
-Usulan lima gim sampai 11 poin, yang diajukan Indonesia dan Maladewa, divoting pada 2021. Dukungannya 66,31%, sedikit di bawah syarat dua pertiga.
+Tidak semua setuju
+43 suara menolak. PBSI menyatakan akan mempelajari dampaknya pada pola main atlet. Zaki Ubaidillah, yang sudah mencobanya di Kejuaraan Dunia Junior 2025, mengaku formatnya sulit dan sedikit bikin kewalahan.
+---
+[photo=sport-badminton-rackets]
+Format 5×11 ditolak dua kali
+Pada 2018 usulan 5×11 kalah suara. Pada 2021, usulan dari Indonesia dan Maladewa meraih 66,31%, sedikit di bawah syarat dua pertiga.
 ---
 [photo=sport-badminton-smash]
 Pernah berubah sebelumnya
-Sampai 2006, kebanyakan gim dimainkan sampai 15 dan hanya pihak yang servis bisa mencetak poin. Sistem reli sampai 21 berlaku sejak 2006.
+Sampai 2006, kebanyakan gim sampai 15, tunggal putri sampai 11, dan hanya pihak yang servis bisa dapat poin. Dengan sistem itu Susi Susanti dan Alan Budikusuma meraih emas Olimpiade pertama Indonesia di Barcelona 1992.
 ---
 [end photo=sport-badminton-racket]
 Simpan sebelum Januari.

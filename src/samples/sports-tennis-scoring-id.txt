@@ -1,43 +1,59 @@
 template: dev/paper-light
 lang: id
 title: hitungan skor tenis
-caption: 15, 30, 40, dan tidak ada yang tahu pasti kenapa. Sumber: ITF Rules of Tennis 2026, Rules 5–7 & Appendix VI; Grand Slam Rule Book 2026, Art. L #tenis #aturantenis #olahraga
+caption: 15, 30, 40, dan tidak ada yang tahu pasti kenapa. Sumber: ITF Rules of Tennis 2026, Rules 5–7, 10, 14–15, 22 & Appendix VI; Grand Slam Rule Book 2026, Art. L; Tennis.com (2022); catatan Wimbledon 2010 #tenis #aturantenis #olahraga
 ---
-[cover kicker="TENIS • ATURAN 5–7" photo=sport-tennis-ball]
+[cover photo=sport-tennis-ball kicker="TENIS • ATURAN 5–7"]
 Kenapa Tenis Menghitung | 15, 30, 40
 Dan apa yang terjadi saat deuce.
 ---
 [photo=sport-tennis-scorecards]
 Poin dalam satu gim
-Love (nol), 15, 30, 40, lalu gim. Skor pemain yang servis selalu disebut lebih dulu.
+Love (nol), 15, 30, 40, lalu gim. Skor pemain yang servis selalu disebut lebih dulu. Contoh: server menang dua poin dan lawan satu, skornya 30-15; kalau kebalikannya, 15-30.
 ---
 [photo=sport-tennis-swing]
 Deuce
-Di 40-40 disebut deuce. Dari situ kamu perlu dua poin beruntun: advantage, lalu gim. Kalau kehilangan satu poin, skor kembali deuce.
+Di 40-40 disebut deuce. Kamu perlu dua poin beruntun: advantage, lalu gim. Kehilangan satu poin, skor kembali deuce. Tidak ada batasnya, jadi satu gim bisa bolak-balik ke deuce berkali-kali.
 ---
 [photo=sport-tennis-court-lines]
 Enam gim untuk satu set
-Siapa yang lebih dulu enam gim, dengan selisih minimal dua. Di 6-6 biasanya dimainkan tie-break, kecuali turnamennya memakai set advantage.
+Yang lebih dulu enam gim dengan selisih dua memenangkan set. Jadi 6-4 sudah selesai, tapi 6-5 belum: lanjut ke 7-5, atau ke tie-break kalau jadi 6-6, kecuali turnamennya memakai set advantage.
 ---
 [photo=sport-tennis-scorecards]
 Tie-break
-Poin dihitung 1, 2, 3. Yang lebih dulu tujuh poin, dengan selisih dua, memenangkan gim dan set. Setelah poin pertama, servis berganti tiap dua poin.
+Poin dihitung 1, 2, 3. Yang lebih dulu tujuh poin dengan selisih dua memenangkan gim dan set. Yang servis pertama di tie-break akan menerima servis di gim pertama set berikutnya.
+---
+[photo=sport-tennis-court-lines]
+Siapa servis di tie-break?
+Pemain yang gilirannya servis memukul poin pertama, dari sisi kanan. Lalu lawan servis dua poin, dan seterusnya bergantian tiap dua poin. Pemain pindah sisi tiap enam poin, misalnya di 4-2 atau 3-3.
 ---
 [photo=sport-tennis-swing]
 No-Ad: satu poin penentu
-Di format No-Ad, saat deuce langsung dimainkan satu poin penentu. Penerima servis memilih menerima dari sisi kanan atau kiri.
+Di format No-Ad, saat deuce langsung dimainkan satu poin penentu, dan penerima memilih menerima dari kanan atau kiri. Di ganda campuran, poin itu diterima pemain yang jenis kelaminnya sama dengan server.
+---
+[photo=sport-tennis-ball]
+Servis kena net: let
+Servis yang menyentuh net lalu masuk adalah let: diulang, tapi tidak menghapus fault sebelumnya. Di format dengan aturan No-Let, bola itu langsung dimainkan.
+---
+[photo=sport-tennis-swing]
+Urutan servis di ganda
+Di awal set, tiap tim memilih siapa yang servis duluan, lalu urutannya tetap sampai set selesai: A1, B1, A2, B2. Setelah servis dikembalikan, siapa pun boleh memukul.
+---
+[photo=sport-tennis-scorecards]
+Set penentuan di Grand Slam
+Sejak 2022, keempat Grand Slam memakai tie-break sampai 10 poin di skor 6-6 set penentuan. Saat diumumkan statusnya uji coba; kini tertulis di Grand Slam Rule Book 2026.
 ---
 [photo=sport-tennis-court-lines]
-Set penentuan di Grand Slam
-Sejak 2022, keempat Grand Slam memakai tie-break sampai 10 poin di skor 6-6 set penentuan. Sebelumnya, tiap turnamen punya aturan sendiri.
+Laga 11 jam
+Wimbledon 2010: John Isner mengalahkan Nicolas Mahut 70-68 di set kelima, total 11 jam 5 menit dalam tiga hari. Laga maraton seperti ini mendorong Grand Slam memasang tie-break di set penentuan.
 ---
 [photo=sport-jeu-de-paume]
 Jadi kenapa 15, 30, 40?
-Tidak ada yang tahu pasti. Sistem ini berasal dari abad pertengahan, dari real tennis. Teori jarum jam populer, tapi sejarawan meragukannya karena jam masa itu belum punya jarum menit.
+Tidak ada yang tahu pasti. Sistem ini berasal dari abad pertengahan, dari real tennis. Teori jarum jam populer tapi tak terbukti; teori lain menyebut server maju 15 kaki tiap poin, juga tanpa bukti.
 ---
 [photo=sport-ballhaus-1606]
 Kenapa bukan 45?
-Catatan awal memang menyebut 45. Salah satu teori: disingkat jadi 40 supaya lebih cepat diucapkan. Itu teori, bukan fakta yang tercatat.
+Catatan awal memang menyebut 45: balada Charles d'Orléans sekitar 1435 menulis "quarante cinq". Salah satu teori: disingkat jadi 40 supaya lebih cepat diucapkan. Itu teori, bukan fakta yang tercatat.
 ---
 [end photo=sport-tennis-ball]
 Simpan buat nonton pertandingan berikutnya.

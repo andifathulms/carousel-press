@@ -1,43 +1,59 @@
 template: dev/paper-light
 lang: id
 title: servis bulu tangkis
-caption: Kenapa banyak servis dinyatakan fault. Sumber: BWF Laws of Badminton (2025), Law 9 & Law 10 #bulutangkis #badminton #servis
+caption: Kenapa banyak servis dinyatakan fault. Sumber: BWF Laws of Badminton (2025, sama di versi 2027), Laws 9–11, 13, 14 & 17; BWF memorandum 18 Des 2018; BWF (larangan spin serve 2023, permanen 2025); Scroll.in & ESPN #bulutangkis #badminton #servis
 ---
-[cover kicker="BULU TANGKIS • LAW 9" photo=sport-badminton-serve]
+[cover photo=sport-badminton-serve kicker="BULU TANGKIS • LAW 9"]
 Servis Bulu Tangkis, | Dijelaskan
-Kenapa banyak servis dinyatakan fault.
+Kenapa banyak servis dinyatakan fault. Law 9 sama di versi 2025 dan 2027.
 ---
 [photo=sport-badminton-low-hit]
 Pukul di bawah 1,15 m
-Seluruh kok harus berada di bawah 1,15 meter dari permukaan lapangan saat raket mengenainya. Bukan hanya pangkalnya, tapi seluruh kok.
+Seluruh kok harus berada di bawah 1,15 meter dari permukaan lapangan saat raket mengenainya. Sebagai gambaran, pita net di tengah setinggi 1,524 m, jadi titik pukul servis minimal sekitar 37 cm di bawah pita net.
 ---
 [photo=sport-badminton-low-hit]
 Tinggi tetap sejak 2018
-Dulu hakim servis membandingkan tinggi pukulan dengan pinggang pemain. BWF menguji tinggi tetap mulai Maret 2018 dan menjadikannya permanen di tahun yang sama.
+Dulu hakim servis membandingkan tinggi pukulan dengan pinggang pemain, dan batang raket wajib mengarah ke bawah. Penilaiannya sering dikeluhkan tidak konsisten, jadi BWF menguji tinggi tetap mulai Maret 2018 dan menjadikannya permanen di tahun yang sama.
 ---
 [photo=sport-shuttlecock]
 Pangkal kok dulu, tanpa putaran
-Raket harus mengenai pangkal kok lebih dulu. Sejak 2025, memberi putaran saat melepas kok tidak diperbolehkan.
+Raket harus mengenai pangkal kok lebih dulu; kalau raket lebih dulu mengenai bulu kok, itu fault. Memberi putaran saat melepas kok dilarang sejak Mei 2023, dan jadi aturan permanen pada April 2025.
+---
+[photo=sport-shuttlecock]
+Spin serve: viral lalu dilarang
+Maret 2023, servis berputar muncul di Polish Open. Kok berputar ke arah tak terduga sehingga nyaris tak bisa dikembalikan. BWF melarangnya sejak Mei 2023, mirip "Sidek serve" yang sudah dilarang sejak 1980-an.
 ---
 [photo=sport-badminton-feet]
 Kaki tetap menapak
-Pemain yang servis dan penerima sama-sama menjaga sebagian kedua kakinya tetap di lantai, tidak bergerak, sampai servis dipukul.
+Pemain yang servis dan penerima sama-sama menjaga sebagian kedua kakinya tetap di lantai, tidak bergerak, sampai servis dipukul. Mengangkat kaki tepat setelah kok terpukul tidak apa-apa, karena servis selesai saat kok terkena raket.
 ---
 [photo=sport-badminton-feet]
 Raket terus bergerak maju
-Begitu servis dimulai, raket harus terus bergerak ke depan. Jeda setelah ayunan ke belakang dihitung sebagai penundaan yang tidak semestinya.
+Begitu servis dimulai, raket harus terus bergerak ke depan; jeda setelah ayunan ke belakang dihitung penundaan. Gerakan maju, mundur, lalu maju lagi untuk mengecoh penerima juga fault.
 ---
 [photo=sport-badminton-serve]
 Kapan servis dimulai?
 Servis dimulai pada gerakan maju pertama kepala raket. Penerima dianggap sudah siap kalau ia mencoba mengembalikan kok.
 ---
+[photo=sport-badminton-serve]
+Penerima belum siap? Let
+Kalau servis dipukul sebelum penerima siap dan ia tidak mencoba mengembalikan, servis diulang: let. Let juga terjadi kalau pemain servis dan penerima sama-sama fault. Skor tidak berubah.
+---
+[photo=sport-badminton-court]
+Siapa yang memanggil fault?
+Hakim servis memanggil fault pemain yang servis. Penundaan servis dan kesalahan penerima dipanggil wasit. Kok servis yang tersangkut di net juga fault.
+---
 [photo=sport-badminton-court]
 Petak servis diagonal
-Pemain yang servis dan penerima berdiri di petak servis yang berseberangan secara diagonal, tanpa menyentuh garis.
+Pemain yang servis dan penerima berdiri di petak servis yang berseberangan secara diagonal, tanpa menyentuh garis. Kok servis yang jatuh tepat di garis dihitung masuk.
 ---
 [photo=sport-badminton-court]
 Kanan atau kiri?
-Di tunggal, servis dari kanan saat skormu nol atau genap, dan dari kiri saat ganjil.
+Di tunggal, servis dari kanan saat skormu nol atau genap, dan dari kiri saat ganjil. Contoh: skor pemain yang servis 7, ia servis dari kiri, dan penerima juga menunggu di petak kiri.
+---
+[photo=sport-badminton-low-hit]
+Servis di ganda: siapa menerima?
+Di ganda, sisi yang servis memakai petak kanan saat skornya genap dan kiri saat ganjil. Penerimanya pemain di petak diagonal. Pasangan hanya bertukar petak saat menang poin dari servisnya sendiri.
 ---
 [end photo=sport-badminton-serve]
 Simpan buat main berikutnya.
