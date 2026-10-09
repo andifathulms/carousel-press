@@ -229,10 +229,11 @@ describe('every shipped deck', () => {
   for (const f of files) {
     it(`${f} parses without warnings`, () => {
       const r = parse(sample(f.slice(0, -4)), { photoIds: ['sample-dusk', ...SAMPLE_PHOTO_IDS] });
-      // History decks may run past 10 slides (owner decision): only the long-deck hint is allowed.
-      const ws = f.startsWith('sejarah-') ? r.warnings.filter((w) => w.code !== 'long-deck') : r.warnings;
+      // History and sports decks may run past 10 slides (owner decision): only the long-deck hint is allowed.
+      const long = f.startsWith('sejarah-') || f.startsWith('sports-');
+      const ws = long ? r.warnings.filter((w) => w.code !== 'long-deck') : r.warnings;
       expect(ws).toEqual([]);
-      if (f.startsWith('sejarah-')) expect(r.deck.slides.length).toBeLessThanOrEqual(14);
+      if (long) expect(r.deck.slides.length).toBeLessThanOrEqual(14);
       expect(r.deck.slides.length).toBeGreaterThanOrEqual(5);
       expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);
     });

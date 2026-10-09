@@ -35,6 +35,6 @@ One line each. Things the specs left open, or deliberate deviations.
 - Whistle Notes decks are Indonesian (owner decision, Oct 2026); rulebook names stay English in captions.
 - `npm run review` writes each batch to disk as it arrives; holding ~2,000 photo-backed PNGs exhausted Node's heap.
 - Posting status (To post / Posted / Skipped) lives in `cp:v1:status`, not in the deck text (no new header keys). A deck made from a sample shares the sample's mark (`s:<sampleId>`); decks written from scratch use `d:<deckId>`. It stays in this browser only, like the rest of the library.
-- History decks may run to 14 slides (owner wants more depth); the parser test allows only the `long-deck` hint for `sejarah-*` samples and caps them at 14.
+- History and sports decks may run to 14 slides (owner wants more depth); the parser test allows only the `long-deck` hint for `sejarah-*` and `sports-*` samples and caps them at 14.
 - History decks follow a "real history" rule (docs/channels.md): uncomfortable events stay in when a source stronger than Wikipedia confirms them; disputed details are marked as disputed or left out.
 - "Save to Photos" uses the Web Share API (`navigator.share` with files), shown only where `canShare` accepts PNGs (iPad/iPhone Safari, macOS Safari). It is not a network request: the OS share sheet takes the files on-device. Rendering outlasts Safari's user-gesture window, so a "ready" dialog asks for a second tap.
