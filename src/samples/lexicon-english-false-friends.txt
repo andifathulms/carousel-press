@@ -1,0 +1,56 @@
+template: lexicon/notebook
+lang: id
+title: false friends inggris indonesia
+caption: Mirip bahasa Indonesia, tapi artinya lain. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; KBBI VI Daring #belajarbahasainggris #englishsehari #falsefriends
+---
+[cover kicker="FALSE FRIENDS"]
+Mirip Bahasa Indonesia, | Artinya Beda
+Tiga kata yang sering bikin salah paham.
+---
+[table]
+Kata Inggris dan artinya
+| Inggris | Artinya |
+| actual | sesungguhnya |
+| *current* | aktual, terbaru |
+| sympathetic | pengertian, peduli |
+| *likeable* | simpatik |
+| sensible | masuk akal, bijak |
+| *sensitive* | sensitif, peka |
+Yang ditandai: padanan yang sebenarnya kita maksud.
+---
+[word]
+pos: adjective
+word: actual
+ipa: /ˈæk.tʃu.əl/ (UK & US)
+say: "EK-chu-el"
+meaning: benar-benar ada; sesungguhnya
+example: The *actual* price was higher than the ad.
+translation: Harga sebenarnya lebih mahal dari iklannya.
+---
+[compare]
+wrong-label: Salah arti
+right-label: Tepat
+wrong: Let's talk about actual issues.
+right: Let's talk about *current* issues.
+why: Aktual yang artinya hangat atau terbaru dalam bahasa Inggris: current atau latest.
+---
+[word]
+pos: adjective
+word: sympathetic
+ipa: /ˌsɪm.pəˈθet.ɪk/ (UK)
+say: "sim-pe-TE-tik"
+meaning: peduli dan ikut merasakan kesusahan orang lain; pengertian
+example: She was very *sympathetic* when my dad was sick.
+translation: Dia sangat pengertian waktu ayahku sakit.
+note: Simpatik (menarik hati) dalam bahasa Inggris: likeable atau pleasant.
+---
+[compare]
+wrong-label: Salah arti
+right-label: Tepat
+wrong: He's very sensible, he cries at sad films.
+right: He's very *sensitive*, he cries at sad films.
+why: Sensitif itu sensitive. Sensible artinya masuk akal atau bijak: that's a sensible idea.
+---
+[end]
+Simpan dulu ✏️
+Coba bikin satu kalimat yang benar di komen.

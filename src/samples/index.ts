@@ -46,16 +46,22 @@ import pythonTrik from './dev-python-trik-id.txt?raw';
 import aiJanganDikirim from './dev-ai-jangan-dikirim-id.txt?raw';
 import cliTools from './dev-cli-tools-id.txt?raw';
 import cors from './dev-cors-id.txt?raw';
+import lexOught from './lexicon-english-ought.txt?raw';
+import lexSalahKaprah from './lexicon-english-salah-kaprah.txt?raw';
+import lexFalseFriends from './lexicon-english-false-friends.txt?raw';
+import lexEd from './lexicon-english-ed.txt?raw';
+import lexMakeDo from './lexicon-english-make-do.txt?raw';
 import places from './editorial-places-en.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
-export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'travel';
+export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'language' | 'travel';
 
 export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'relationships', label: 'Relationships' },
   { id: 'dev', label: 'Dev' },
   { id: 'history', label: 'History' },
   { id: 'sports', label: 'Sports' },
+  { id: 'language', label: 'Language' },
   { id: 'travel', label: 'Travel' },
 ];
 
@@ -122,4 +128,10 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sports-backpass-id', name: 'Aturan backpass (sports, id)', category: 'sports', text: backpass },
   { id: 'sports-shotclock-id', name: 'Kenapa shot clock 24 detik (sports, id)', category: 'sports', text: shotclock },
   { id: 'sports-kriket-lbw-id', name: 'LBW kriket, dijelaskan (sports, id)', category: 'sports', text: kriketLbw },
+  // English Sehari & Kamus Kecil (lexicon slides)
+  { id: 'lexicon-english-ought', name: 'Pola -ought (English Sehari, id)', category: 'language', text: lexOught },
+  { id: 'lexicon-english-salah-kaprah', name: '5 kalimat yang sering salah (English Sehari, id)', category: 'language', text: lexSalahKaprah },
+  { id: 'lexicon-english-false-friends', name: 'False friends (English Sehari, id)', category: 'language', text: lexFalseFriends },
+  { id: 'lexicon-english-ed', name: 'Bunyi -ed ada tiga (English Sehari, id)', category: 'language', text: lexEd },
+  { id: 'lexicon-english-make-do', name: 'Make atau do (English Sehari, id)', category: 'language', text: lexMakeDo },
 ];

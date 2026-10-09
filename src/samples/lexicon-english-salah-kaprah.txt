@@ -1,0 +1,37 @@
+template: lexicon/notebook
+lang: id
+title: salah kaprah bahasa inggris
+caption: Lima kalimat yang sering salah, dan versi yang benar. Sumber: Cambridge Grammar; Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #grammar
+---
+[cover kicker="SALAH KAPRAH"]
+5 Kalimat Inggris | yang Sering Salah
+Banyak yang keliru di sini. Santai, ini wajar.
+---
+[compare]
+wrong: I am agree with you.
+right: I *agree* with you.
+why: Agree itu kata kerja, jadi tidak perlu am. Sama seperti kita tidak bilang I am like.
+---
+[compare]
+wrong: We discussed about the plan.
+right: We *discussed* the plan.
+why: Discuss langsung diikuti topiknya, tanpa about. Kalau mau pakai about: have a discussion about.
+---
+[compare]
+wrong: Can you explain me the route?
+right: Can you *explain the route to me*?
+why: Explain tidak bisa langsung diikuti orang. Pakai to sebelum orangnya.
+---
+[compare]
+wrong: She's married with a doctor.
+right: She's married *to* a doctor.
+why: Married to + pasangan. Tapi "married with two children" benar: sudah menikah dan punya dua anak.
+---
+[compare]
+wrong: I very like this song.
+right: I *really like* this song.
+why: Very tidak dipakai langsung dengan kata kerja. Bisa juga: I like this song very much.
+---
+[end]
+Simpan dulu ✏️
+Coba bikin satu kalimat yang benar di komen.

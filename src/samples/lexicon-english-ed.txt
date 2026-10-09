@@ -1,0 +1,57 @@
+template: lexicon/notebook
+lang: id
+title: cara baca akhiran ed
+caption: Walked, played, wanted: bunyi -ed ternyata ada tiga. Sumber aturan: Cambridge Grammar; IPA: Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #pronunciation
+---
+[cover kicker="PRONUNCIATION"]
+Walked, Played, Wanted: | Bunyi -ed Ada Tiga
+Dan cuma satu yang menambah suku kata.
+---
+[table]
+Tiga bunyi *-ed*
+| Bunyi | Contoh |
+| t | walk*ed*, stopp*ed*, laugh*ed* |
+| d | play*ed*, clean*ed*, call*ed* |
+| id | want*ed*, need*ed*, decid*ed* |
+---
+Cara cepat mengingatnya
+Kata dasarnya berakhir bunyi t atau d? Tambah satu suku kata: "id".
+Selain itu, -ed tidak menambah suku kata. Walked dibaca satu ketukan, bukan wal-ked.
+---
+[word]
+pos: verb · V2/V3 of walk
+word: walked
+ipa: /wɔːkt/ (UK & US)
+say: "wokt", satu suku kata
+meaning: berjalan kaki
+example: I *walked* to school this morning.
+translation: Tadi pagi aku jalan kaki ke sekolah.
+---
+[word]
+pos: verb · V2/V3 of play
+word: played
+ipa: /pleɪd/ (UK & US)
+say: "pleid", satu suku kata
+meaning: bermain
+example: We *played* football after class.
+translation: Kami main bola sepulang kelas.
+---
+[word]
+pos: verb · V2/V3 of want
+word: wanted
+ipa: /ˈwɒntɪd/ (UK) · /ˈwɑːntɪd/ (US)
+say: "WON-tid", dua suku kata
+meaning: ingin; mau
+example: She *wanted* to quit.
+translation: Dia pengin berhenti.
+---
+[compare]
+wrong-label: Jangan
+right-label: Begini
+wrong: walk-ed (dua ketukan)
+right: *walkt* (satu ketukan)
+why: Bunyi k tidak bersuara, jadi -ed dibaca t dan menyatu dengan suku kata sebelumnya.
+---
+[end]
+Simpan dulu ✏️
+Coba bikin satu kalimat yang benar di komen.

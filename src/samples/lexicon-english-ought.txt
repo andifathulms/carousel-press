@@ -1,0 +1,42 @@
+handle: @englishsehari
+template: lexicon/notebook
+lang: id
+title: verb pola ought
+caption: Think jadi thought, buy jadi bought. Ini polanya 👇 #belajarbahasainggris #irregularverbs #englishsehari
+---
+[cover kicker="IRREGULAR VERBS"]
+Think → Thought? | Ini Polanya
+6 kata kerja yang V2-nya berakhiran -ought / -aught.
+---
+[table]
+Pola *-ought*
+| V1 | V2 / V3 | Arti |
+| think | th*ought* | berpikir |
+| bring | br*ought* | membawa |
+| buy | b*ought* | membeli |
+| fight | f*ought* | bertarung |
+Bunyinya sama: "ot" panjang.
+---
+[table]
+Pola *-aught*
+| V1 | V2 / V3 | Arti |
+| teach | t*aught* | mengajar |
+| catch | c*aught* | menangkap |
+---
+[word]
+pos: verb · V2/V3 of think
+word: thought
+ipa: /θɔːt/ (UK) · /θɑːt/ (US)
+say: "thot", ujung lidah di antara gigi
+meaning: berpikir; mengira
+example: I *thought* you were coming.
+translation: Kukira kamu mau datang.
+---
+[compare]
+wrong: Yesterday I thinked about it.
+right: Yesterday I *thought* about it.
+why: Think tidak pakai -ed. Bentuk lampaunya thought.
+---
+[end]
+Simpan dulu ✏️
+Besok kita bahas pola yang lain.

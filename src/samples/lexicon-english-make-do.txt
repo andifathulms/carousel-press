@@ -1,0 +1,43 @@
+template: lexicon/notebook
+lang: id
+title: make atau do
+caption: Make a mistake, tapi do your best. Sumber: Cambridge Dictionary; Cambridge Grammar ("Do or make?") #belajarbahasainggris #englishsehari #collocation
+---
+[cover kicker="MAKE VS DO"]
+Make atau Do? | Ini Pasangannya
+Keduanya bisa diartikan "membuat", tapi tidak bisa ditukar.
+---
+[table]
+Pakai *make*
+| Frasa | Artinya |
+| make a mistake | bikin kesalahan |
+| make a decision | mengambil keputusan |
+| make money | cari uang |
+| make a cake | bikin kue |
+---
+[table]
+Pakai *do*
+| Frasa | Artinya |
+| do homework | mengerjakan PR |
+| do business | berbisnis |
+| do your best | berusaha sebaik mungkin |
+| do someone a favour | menolong seseorang |
+| do the dishes | mencuci piring |
+Do the dishes lebih sering di AS; di Inggris: do the washing-up.
+---
+Tidak ada rumus pasti
+Make dan do sudah "berjodoh" dengan kata tertentu. Cara paling aman: hafalkan sebagai satu frasa, bukan kata per kata.
+---
+[compare]
+wrong: I did a mistake.
+right: I *made* a mistake.
+why: Mistake selalu berpasangan dengan make.
+---
+[compare]
+wrong: Can you make me a favour?
+right: Can you *do* me a favour?
+why: Favour selalu dengan do. Ejaan Amerika: favor.
+---
+[end]
+Simpan dulu ✏️
+Coba bikin satu kalimat yang benar di komen.
