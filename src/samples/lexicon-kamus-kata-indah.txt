@@ -1,0 +1,47 @@
+template: lexicon/kamus
+lang: id
+title: kata indah di kbbi
+caption: Kata-kata indah yang benar-benar ada di KBBI. Sumber: KBBI VI Daring #bahasaindonesia #kataindah #kbbi
+---
+[cover kicker="KATA INDAH"]
+5 Kata Indah | yang Jarang Dipakai
+Semuanya benar-benar tercatat di KBBI.
+---
+[word]
+pos: nomina
+word: renjana
+meaning: rasa hati yang kuat (rindu, cinta kasih, berahi, dan sebagainya)
+example: Ada *renjana* yang tak sempat ia ucapkan.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva · Minangkabau
+word: lindap
+meaning: redup; samar; (mulai) kabur; berkurang (tentang cahaya, panas, terang)
+example: Cahaya senja mulai *lindap* di balik bukit.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva · klasik
+word: nirmala
+meaning: tanpa cacat cela; bersih; suci; tidak bernoda
+example: Senyumnya *nirmala*, tanpa pura-pura.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: baskara
+meaning: matahari
+example: *Baskara* pagi menghangatkan teras rumah.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: lembayung
+meaning: warna merah bercampur ungu
+example: Langit sore berwarna *lembayung*.
+note: Sumber: KBBI VI Daring
+---
+[end]
+Kata indah mana yang paling kamu suka?
+Tulis di komen, nanti kita bahas.

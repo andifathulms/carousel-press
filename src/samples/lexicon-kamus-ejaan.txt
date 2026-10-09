@@ -1,0 +1,45 @@
+template: lexicon/kamus
+lang: id
+title: merubah atau mengubah
+caption: Empat bentuk yang sering keliru ditulis. Sumber: KBBI VI Daring; EYD Edisi Kelima #bahasaindonesia #katabaku #ejaan
+---
+[cover kicker="EJAAN"]
+Merubah atau Mengubah? | 4 yang Sering Keliru
+Yang baku ternyata bukan yang biasa kita tulis.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Aku mau merubah jadwal.
+right: Aku mau *mengubah* jadwal.
+why: Kata dasarnya ubah, jadi bentuknya mengubah. KBBI VI menandai merubah sebagai tidak baku.
+---
+[word]
+pos: nomina
+word: rubah
+meaning: mamalia karnivor terkecil dari kelompok anjing, bermoncong panjang (Vulpes vulpes)
+example: Yang licik itu *rubah*, bukan jadwal kita.
+note: Sumber: KBBI VI Daring
+---
+[compare]
+wrong: Bukunya ada didalam tas.
+right: Bukunya ada *di dalam* tas.
+why: Di sebagai kata depan ditulis terpisah. Di- sebagai awalan ditulis serangkai, misalnya dijual.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Aku mempercayai kamu.
+right: Aku *memercayai* kamu.
+why: KBBI VI mencatat memercayai sebagai bentuk baku, mempercayai tidak baku.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Silahkan duduk.
+right: *Silakan* duduk.
+why: KBBI VI mencatat silakan sebagai bentuk baku, silahkan tidak baku.
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.

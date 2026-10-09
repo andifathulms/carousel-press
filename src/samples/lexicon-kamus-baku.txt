@@ -1,0 +1,38 @@
+handle: @kamuskecil
+template: lexicon/kamus
+lang: id
+title: baku atau tidak
+caption: Sering salah, padahal dipakai tiap hari. Sumber: KBBI VI Daring #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="KATA BAKU"]
+Kamu Masih Nulis | "Resiko"?
+4 kata yang sering salah tulis.
+---
+[table]
+Mana yang baku?
+| Baku | Tidak baku |
+| *risiko* | resiko |
+| *apotek* | apotik |
+| *praktik* | praktek |
+| *nasihat* | nasehat |
+Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Apa resikonya?
+right: Apa *risikonya*?
+why: KBBI mencatat bentuk bakunya "risiko".
+---
+[word]
+pos: nomina
+tag: SERAPAN
+word: jendela
+meaning: lubang yang dapat diberi tutup dan berfungsi sebagai tempat keluar masuk udara; tingkap
+example: Buka *jendela* biar udaranya segar.
+origin: dari bahasa Portugis *janela*
+note: Sumber: KBBI VI Daring
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.

@@ -1,0 +1,43 @@
+template: lexicon/kamus
+lang: id
+title: padanan kata asing
+caption: Download, upload, online: padanannya sudah ada di KBBI. Sumber: KBBI VI Daring #bahasaindonesia #padanankata #kbbi
+---
+[cover kicker="PADANAN KATA"]
+Download, Upload, Online: | Bahasa Indonesianya Apa?
+Padanannya sudah tercatat di KBBI.
+---
+[table]
+Padanannya
+| Asing | Indonesia |
+| download | *unduh* |
+| upload | *unggah* |
+| online | *daring* |
+| offline | *luring* |
+| gadget | *gawai* |
+| selfie | *swafoto* |
+| mouse | *tetikus* |
+| hashtag | *tagar* |
+Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva · akronim
+word: daring
+meaning: dalam jaringan, terhubung melalui jejaring komputer, internet, dan sebagainya
+example: Kelasnya hari ini *daring*, jadi bisa ikut dari rumah.
+note: Lawannya: luring, luar jaringan. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: gawai
+meaning: peranti elektronik atau mekanik dengan fungsi praktis; gadget; acang
+example: Simpan dulu *gawai* saat makan bareng.
+note: Sumber: KBBI VI Daring
+---
+Email: pakai pos-el
+"Surel" sering dipakai, tapi belum tercatat di KBBI VI. Yang tercatat: surat elektronik dan pos-el.
+Entri "email" di KBBI justru berarti lapisan email, seperti email gigi.
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.

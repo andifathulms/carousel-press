@@ -1,0 +1,49 @@
+template: lexicon/kamus
+lang: id
+title: kata serapan dari portugis
+caption: Jendela, meja, sepatu: ternyata pinjaman dari bahasa Portugis. Sumber: KBBI VI Daring; J. Oliveira, BiblioAsia 19(1), 2023 #bahasaindonesia #kataserapan #kbbi
+---
+[cover kicker="KATA SERAPAN"]
+Kata Sehari-hari | dari Bahasa Portugis
+Jendela, meja, sepatu: semuanya pinjaman.
+---
+[table]
+Dari bahasa Portugis
+| Kata | Bentuk asli |
+| jendela | *janela* |
+| meja | *mesa* |
+| sepatu | *sapato* |
+| keju | *queijo* |
+| boneka | *boneca* |
+| Minggu | *domingo* |
+| lemari | *armário* |
+Sumber asal kata: J. Oliveira, BiblioAsia (2023)
+---
+[word]
+pos: nomina
+tag: SERAPAN
+word: sepatu
+meaning: lapik atau pembungkus kaki yang biasanya dibuat dari kulit (karet dan sebagainya), bagian telapak dan tumitnya tebal dan keras
+example: *Sepatunya* basah kena hujan.
+origin: dari bahasa Portugis *sapato*
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+tag: SERAPAN
+word: Minggu
+meaning: hari pertama dalam jangka waktu satu minggu; Ahad
+example: Hari *Minggu* kita ke pasar, yuk.
+origin: dari bahasa Portugis *domingo*
+note: KBBI: huruf pertamanya ditulis kapital.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Bajunya ada di almari.
+right: Bajunya ada di *lemari*.
+why: KBBI VI mencatat almari sebagai bentuk tidak baku dari lemari. Asalnya dari bahasa Portugis armário.
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.

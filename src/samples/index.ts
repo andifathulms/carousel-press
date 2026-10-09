@@ -47,6 +47,11 @@ import aiJanganDikirim from './dev-ai-jangan-dikirim-id.txt?raw';
 import cliTools from './dev-cli-tools-id.txt?raw';
 import cors from './dev-cors-id.txt?raw';
 import lexOught from './lexicon-english-ought.txt?raw';
+import lexBaku from './lexicon-kamus-baku.txt?raw';
+import lexSerapan from './lexicon-kamus-serapan-portugis.txt?raw';
+import lexPadanan from './lexicon-kamus-padanan.txt?raw';
+import lexKataIndah from './lexicon-kamus-kata-indah.txt?raw';
+import lexEjaan from './lexicon-kamus-ejaan.txt?raw';
 import lexSalahKaprah from './lexicon-english-salah-kaprah.txt?raw';
 import lexFalseFriends from './lexicon-english-false-friends.txt?raw';
 import lexEd from './lexicon-english-ed.txt?raw';
@@ -134,4 +139,9 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-english-false-friends', name: 'False friends (English Sehari, id)', category: 'language', text: lexFalseFriends },
   { id: 'lexicon-english-ed', name: 'Bunyi -ed ada tiga (English Sehari, id)', category: 'language', text: lexEd },
   { id: 'lexicon-english-make-do', name: 'Make atau do (English Sehari, id)', category: 'language', text: lexMakeDo },
+  { id: 'lexicon-kamus-baku', name: 'Baku atau tidak (Kamus Kecil, id)', category: 'language', text: lexBaku },
+  { id: 'lexicon-kamus-serapan-portugis', name: 'Kata serapan dari Portugis (Kamus Kecil, id)', category: 'language', text: lexSerapan },
+  { id: 'lexicon-kamus-padanan', name: 'Padanan kata asing (Kamus Kecil, id)', category: 'language', text: lexPadanan },
+  { id: 'lexicon-kamus-kata-indah', name: '5 kata indah di KBBI (Kamus Kecil, id)', category: 'language', text: lexKataIndah },
+  { id: 'lexicon-kamus-ejaan', name: 'Merubah atau mengubah? (Kamus Kecil, id)', category: 'language', text: lexEjaan },
 ];
