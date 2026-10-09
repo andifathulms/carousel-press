@@ -59,14 +59,15 @@ import lexMakeDo from './lexicon-english-make-do.txt?raw';
 import places from './editorial-places-en.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
-export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'language' | 'travel';
+export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'travel';
 
 export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'relationships', label: 'Relationships' },
   { id: 'dev', label: 'Dev' },
   { id: 'history', label: 'History' },
   { id: 'sports', label: 'Sports' },
-  { id: 'language', label: 'Language' },
+  { id: 'english', label: 'English' },
+  { id: 'indonesian', label: 'Bahasa Indonesia' },
   { id: 'travel', label: 'Travel' },
 ];
 
@@ -133,15 +134,15 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sports-backpass-id', name: 'Aturan backpass (sports, id)', category: 'sports', text: backpass },
   { id: 'sports-shotclock-id', name: 'Kenapa shot clock 24 detik (sports, id)', category: 'sports', text: shotclock },
   { id: 'sports-kriket-lbw-id', name: 'LBW kriket, dijelaskan (sports, id)', category: 'sports', text: kriketLbw },
-  // English Sehari & Kamus Kecil (lexicon slides)
-  { id: 'lexicon-english-ought', name: 'Pola -ought (English Sehari, id)', category: 'language', text: lexOught },
-  { id: 'lexicon-english-salah-kaprah', name: '5 kalimat yang sering salah (English Sehari, id)', category: 'language', text: lexSalahKaprah },
-  { id: 'lexicon-english-false-friends', name: 'False friends (English Sehari, id)', category: 'language', text: lexFalseFriends },
-  { id: 'lexicon-english-ed', name: 'Bunyi -ed ada tiga (English Sehari, id)', category: 'language', text: lexEd },
-  { id: 'lexicon-english-make-do', name: 'Make atau do (English Sehari, id)', category: 'language', text: lexMakeDo },
-  { id: 'lexicon-kamus-baku', name: 'Baku atau tidak (Kamus Kecil, id)', category: 'language', text: lexBaku },
-  { id: 'lexicon-kamus-serapan-portugis', name: 'Kata serapan dari Portugis (Kamus Kecil, id)', category: 'language', text: lexSerapan },
-  { id: 'lexicon-kamus-padanan', name: 'Padanan kata asing (Kamus Kecil, id)', category: 'language', text: lexPadanan },
-  { id: 'lexicon-kamus-kata-indah', name: '5 kata indah di KBBI (Kamus Kecil, id)', category: 'language', text: lexKataIndah },
-  { id: 'lexicon-kamus-ejaan', name: 'Merubah atau mengubah? (Kamus Kecil, id)', category: 'language', text: lexEjaan },
+  // English Sehari (english) & Kamus Kecil (indonesian), lexicon slides
+  { id: 'lexicon-english-ought', name: 'Pola -ought (English Sehari, id)', category: 'english', text: lexOught },
+  { id: 'lexicon-english-salah-kaprah', name: '5 kalimat yang sering salah (English Sehari, id)', category: 'english', text: lexSalahKaprah },
+  { id: 'lexicon-english-false-friends', name: 'False friends (English Sehari, id)', category: 'english', text: lexFalseFriends },
+  { id: 'lexicon-english-ed', name: 'Bunyi -ed ada tiga (English Sehari, id)', category: 'english', text: lexEd },
+  { id: 'lexicon-english-make-do', name: 'Make atau do (English Sehari, id)', category: 'english', text: lexMakeDo },
+  { id: 'lexicon-kamus-baku', name: 'Baku atau tidak (Kamus Kecil, id)', category: 'indonesian', text: lexBaku },
+  { id: 'lexicon-kamus-serapan-portugis', name: 'Kata serapan dari Portugis (Kamus Kecil, id)', category: 'indonesian', text: lexSerapan },
+  { id: 'lexicon-kamus-padanan', name: 'Padanan kata asing (Kamus Kecil, id)', category: 'indonesian', text: lexPadanan },
+  { id: 'lexicon-kamus-kata-indah', name: '5 kata indah di KBBI (Kamus Kecil, id)', category: 'indonesian', text: lexKataIndah },
+  { id: 'lexicon-kamus-ejaan', name: 'Merubah atau mengubah? (Kamus Kecil, id)', category: 'indonesian', text: lexEjaan },
 ];
