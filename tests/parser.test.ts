@@ -166,12 +166,12 @@ describe('warnings (PRD §4.8)', () => {
   });
   it('every parser warning code is reachable', () => {
     const all = new Set<WarningCode>([
-      ...codes('foo: 1\nhandle: x\ntemplate: x/y\n---\n[cover photo=9]\nA', { photoIds: [] }),
+      ...codes('foo: 1\nhandle: x\ntemplate: x/y\nlang: zz\n---\n[cover photo=9]\nA', { photoIds: [] }),
       ...codes('A\n---\n[zzz bad=1]\nB\n---\n[code]\nX\n---\n[code]\nY\n```\nz'),
       ...codes('A\n---\n[card]'),
     ]);
     for (const c of ['unknown-header-key', 'unknown-template', 'unknown-photo', 'unknown-slide-type',
-      'unknown-attr', 'code-missing-fence', 'unclosed-fence', 'missing-headline'] as WarningCode[]) {
+      'unknown-attr', 'code-missing-fence', 'unclosed-fence', 'missing-headline', 'unknown-lang'] as WarningCode[]) {
       expect(all.has(c)).toBe(true);
     }
   });
@@ -193,7 +193,7 @@ describe('robustness', () => {
         s += rng() < 0.15 ? String.fromCharCode(Math.floor(rng() * 0xffff)) : alphabet[Math.floor(rng() * alphabet.length)];
       }
       expect(() => parse(s)).not.toThrow();
-      expect(parse(s).warnings.every((w) => w.message.startsWith('Parser error')) && parse(s).warnings.length > 0).toBe(false);
+      expect(parse(s).warnings.some((w) => w.code === 'internal-error')).toBe(false);
     }
   });
   it('tolerates non-string input', () => {

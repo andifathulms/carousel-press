@@ -67,9 +67,9 @@ Simpan dulu.
 Siapa tahu jadi bahan obrolan kalian nanti.
 ````
 
-- **Slide separator:** a line whose trimmed content is exactly `---`. Separators inside a code fence (see 4.4) do **not** split slides.
-- **Header (optional):** everything before the first `---` is the header **only if** every non-empty line in it matches `^\s*([a-z]+)\s*:\s*(.*)$` with a known key. Otherwise there is no header, and that first block is slide 1.
-- Line endings: accept `\n` and `\r\n`. Trim trailing whitespace on each line, except inside code fences.
+- **Slide separator:** a line whose trimmed content is exactly `---`. Only the code fence of a `[code]` slide (see 4.4) protects separators, and only if it closes: its first fence line opens it, and the next line that is exactly ```` ``` ```` closes it. A fence counts as unclosed when the text ends, or a `---` followed by a tag line (starting with a slide type or a known attribute) comes, before that closing line. An unclosed fence protects nothing, so it never swallows the following slides. On every other slide type ```` ``` ```` is literal text.
+- **Header (optional):** everything before the first `---` in the text is the header **only if** every non-empty line in it matches `^\s*([a-z]+)\s*:\s*(.*)$` (keys are lowercase) **and at least one key is known**. Unknown keys in a header warn (4.2). Otherwise there is no header, and that first block is slide 1 (so `Template: x` becomes a visible slide).
+- Line endings: accept `\n` and `\r\n`. Trim leading and trailing whitespace on each text line. Code inside fences keeps its whitespace (4.4).
 - Empty blocks (only whitespace) are skipped silently.
 
 ### 4.2 Header keys
@@ -78,8 +78,8 @@ Siapa tahu jadi bahan obrolan kalian nanti.
 |---|---|---|---|
 | `handle` | any text, e.g. `@namaakun` | value in Settings | Drawn top-left on every slide |
 | `template` | `<family>/<variant>` ID, see DESIGN.md §4 | last used, else `editorial/rose-dusk` | Template for this deck |
-| `lang` | `id` \| `en` | `id` | Language of built-in strings (4.7) |
-| `title` | text | cover headline | Used for file names (slugified) and the deck library |
+| `lang` | `id` \| `en` | `id` | Language of built-in strings (4.7). Any other value → warning `unknown-lang`, falls back to `id` |
+| `title` | text | headline of the first `cover` slide (else slide 1), `\|` read as a space | Used for file names (slugified; `carousel` when the slug is empty) and the deck library |
 | `caption` | text, one line | empty | Shown in the caption panel with a Copy button. Never drawn on slides |
 
 Unknown key → warning `unknown-header-key`, ignored.
@@ -93,19 +93,21 @@ The first non-empty line of a block may be a tag:
 [type attr=value attr="value with spaces" flag]
 ```
 
-- `type` ∈ `cover | card | code | quote | end`, and it's **optional**. The first token is the type only if it is a bare word (no `=`) matching a known type. Otherwise every token is an attribute or flag, and the type is the default. So `[icon=heart]` and `[cta icon=leaf]` are valid card tags.
+- `type` ∈ `cover | card | code | quote | end` (plus the lexicon types in `docs/SPEC-lexicon.md`), and it's **optional**. The first token is the type only if it is a bare word (no `=`) matching a known type. Otherwise every token is an attribute or flag, and the type is the default. So `[icon=heart]` and `[cta icon=leaf]` are valid card tags.
 - A line counts as a tag line only if the whole trimmed line matches `^\[[^\]]*\]$`.
 - If there is no tag, or the tag has no type: block 1 → `cover`, any other block → `card`.
-- A first bare token that is neither a known type nor a known flag (`cta`) → warning `unknown-slide-type`, rendered as `card`.
-- Attribute values are either bare (`[^\s\]]+`) or double-quoted (with `\"` as an escape). A bare word with no `=` is a flag (`true`).
+- A first bare token that is neither a known type nor a known flag (`cta`) → warning `unknown-slide-type`, rendered as `card`. The token itself is ignored; the remaining tokens still apply.
+- Attribute values are either bare (`[^\s\]]+`) or double-quoted (with `\"` as the only escape). A quote that never closes → warning `unknown-attr`, and the value runs to the end of the tag. A bare word with no `=` is a flag (`true`). A later unknown bare word → `unknown-attr`.
+- A valued attribute written as a flag (e.g. `[photo]`) → `unknown-attr`, ignored. `cta=""` is the same as the bare `cta` flag.
+- An attribute on a slide type outside its "Applies to" column → `unknown-attr`, removed.
 
 | Attribute | Applies to | Values | Meaning |
 |---|---|---|---|
-| `photo` | all | photo ID or 1-based tray index | Background photo (see §5.5) |
-| `icon` | card, code, quote, end | icon name \| `auto` \| `none` | Line icon below the body (DESIGN.md §7). Default: `none` for the dev family, `auto` for editorial |
-| `surface` | all | surface name from the variant \| `auto` | Overrides the background rotation for this slide |
-| `cta` | card, code, quote | flag, or `"custom text"` | Adds the CTA button below the body/icon, so the last question can double as the end slide. Custom text replaces the button label |
-| `number` | card, code | `off` \| integer | `off` hides the badge. An integer forces this badge's number without changing the running count |
+| `photo` | all | photo ID, or an integer = 1-based tray index | Background photo (see §5.5). An integer is **always** a tray index, never an ID, and it's resolved against the tray the deck renders with. No such index or ID in the tray → `unknown-photo` (photo IDs are never all digits) |
+| `icon` | card, code, quote, end | icon name \| `auto` \| `none` | Line icon below the body (DESIGN.md §7). Names are case-insensitive. Aliases: `shield`, `spark`, `pin`, `branch`, `bulb`, `check`. An unknown name → `unknown-attr`. Default: `none` for the dev family, `auto` for editorial. `auto` picks from the family pool by `hash(slug:index)`, never repeats the previous slide's icon, and never adds one to an `end` slide |
+| `surface` | all | surface name from the variant \| `auto` | Overrides the background rotation for this slide. Checked against the variant at layout time, so an unknown name warns `unknown-attr` under that template only |
+| `cta` | card, code, quote, end | flag, or `"custom text"` | Adds the CTA button below the body/icon, so the last question can double as the end slide. Custom text replaces the button label. On `end` (which always has the button) it only sets the label |
+| `number` | card, code | `off` \| integer (digits) | `off` hides the badge. An integer forces this badge's number without changing the running count. Anything else → `unknown-attr` |
 | `kicker` | cover | text | Small label above the cover title, e.g. `"GIT • CHEAT SHEET"` |
 
 Unknown attribute → warning `unknown-attr`, ignored.
@@ -118,20 +120,20 @@ After the tag line is removed, the remaining lines map to fields:
 |---|---|---|
 | `cover` | **headline** (big title) | **subtitle** |
 | `card` | **headline** | **body** |
-| `code` | **headline** | **body** lines until the first code fence; the fenced **code**; any lines after the closing fence become the **note** (small, muted) |
-| `quote` | **quote text** | a line starting with `— `, `-- ` or `- ` becomes the **attribution** (marker stripped); other lines become **body** |
+| `code` | **headline** (if the first line is already the fence → `missing-headline`) | **body** lines until the first code fence; the fenced **code**; any lines after the closing fence become the **note** (small, muted) |
+| `quote` | **quote text** | if the first non-empty line after it starts with `— `, `-- ` or `- `, it becomes the **attribution** (marker stripped); every other line, dashes included, is **body** |
 | `end` | **headline** | **body**; the CTA button is always drawn |
 
-**Code fences** use triple backticks with an optional language: ` ```bash `, ` ```js `, ` ```py `, ` ```sql `, or plain ` ``` `. Content between the fences is kept verbatim: no trimming, no `|` processing, tabs expanded to 2 spaces. A fence that is never closed → warning `unclosed-fence`, and the code runs to the end of the block.
+**Code fences** use triple backticks with an optional language: ` ```bash `, ` ```js `, ` ```py `, ` ```sql `, or plain ` ``` `. Content between the fences is kept verbatim: no trimming, no `|` processing, tabs expanded to 2 spaces. A fence that is never closed → warning `unclosed-fence`, and the code runs to the end of the block. The closing fence is a line that is exactly ```` ``` ````. Trailing blank code lines are dropped. The language is lowercased: `bash`/`sh`/`shell`/`zsh` get the prompt and highlighting; `js`/`ts`/`javascript`/`typescript`/`jsx`/`tsx`, `py`/`python` and `sql` are highlighted; any other language renders as plain code with no warning.
 
 A `code` slide with no fence → warning `code-missing-fence`, rendered as a card.
 
 ### 4.5 Inline text rules (headline, subtitle, body, note, quote)
 
 - `|` = manual line break. `\|` = a literal pipe.
-- A blank line inside the body = paragraph break (rendered as extra spacing; see DESIGN.md).
-- `*text*` = accent colour (no italics).
-- `` `text` `` = inline code: monospace font with a subtle pill background.
+- Each source line of a subtitle, body or note is its own line (a hard break). A blank line = paragraph break (rendered as extra spacing; see DESIGN.md).
+- `*text*` = accent colour (no italics). The opening `*` must be followed by a non-space and the closing `*` preceded by one. An accent can't cross `|` or a backtick. Unmatched stars render literally.
+- `` `text` `` = inline code: monospace font with a subtle pill background. Inside it, `|` doesn't break the line and `\|` stays as typed. An empty pair (``` `` ```) renders literally.
 - No other markdown. `**`, `_` and `#` render literally.
 
 ### 4.6 Numbering and counters
@@ -148,7 +150,7 @@ A `code` slide with no fence → warning `code-missing-fence`, rendered as a car
 | `coverSwipe` | `Geser untuk lihat` | `Swipe to see` |
 | `cta` | `Simpan • Bagikan` | `Save • Share` |
 
-Keep these in one `strings.ts` table, so adding a language means adding one column.
+Keep these in one `strings.ts` table, so adding a language means adding one column. A trailing `→` is drawn as the `arrow-right` icon, never as a glyph.
 
 ### 4.8 Warnings
 
@@ -158,12 +160,14 @@ The parser and renderer return warnings as `{ code, slideIndex | null, line, mes
 |---|---|---|
 | `overflow` | renderer: text doesn't fit even at the minimum size | **Yes**, unless the user confirms "Export anyway" |
 | `code-line-too-long` | renderer: a code line doesn't fit at the minimum mono size | **Yes** (same confirm) |
-| `unknown-header-key`, `unknown-template`, `unknown-slide-type`, `unknown-attr` | parser | No |
-| `unknown-photo` | parser + photo store | No (renders without the photo) |
+| `internal-error` | parser: an unexpected exception (the deck comes back empty; message "Parser error — please report") | **Yes**, and not a text-length problem |
+| `unknown-header-key`, `unknown-template`, `unknown-lang`, `unknown-slide-type`, `unknown-attr` | parser (`unknown-attr` for `surface=` comes from the renderer) | No |
+| `unknown-photo` | photo resolution against the tray | No (renders without the photo) |
 | `missing-headline` | parser | No |
 | `unclosed-fence`, `code-missing-fence` | parser | No |
 | `long-deck` | parser: more than 10 slides | No (style hint only) |
-| `photo-low-res` | photo store: photo shorter than 1280px on its short side | No |
+| `long-word` | renderer: a word was too wide and was broken between characters | No |
+| `photo-low-res` | photo store (not the parser): photo shorter than 1280px on its short side | No |
 
 ---
 

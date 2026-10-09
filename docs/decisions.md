@@ -42,3 +42,38 @@ One line each. Things the specs left open, or deliberate deviations.
 - IPA face: `@fontsource/gentium-book-plus/400.css` (latin + latin-ext + greek via unicode-range, not latin-only) because IPA needs ɔ ː ʃ and Greek θ. Every variant's font gate waits for it with an IPA sample. `ipa-glyph-missing` is checked against the bundled unicode ranges (pure), e.g. it rejects the combining U+032C in Cambridge's US /t̬/.
 - Lexicon slides: `icon=` is ignored silently; a `[table]` shows a badge only with an explicit `number=N`; lexicon and dev decks default to no auto icons.
 - New sample category "Language" for English Sehari and Kamus Kecil decks. The SPEC sample covers keep "→" verbatim (owner's spec text) although slides normally avoid Unicode arrows.
+
+## Grammar contract: pre-extraction fixes (Oct 2026)
+
+Before `carousel-core` is extracted, the parser snapshots become the contract (docs/PORTING.md §3.4). Each row has a regression test in `tests/grammar.test.ts` under the same ID. Rule for G6–G25: fix the code when the old behaviour could silently lose or misplace content; otherwise update PRD §4 to match the code.
+
+| ID | Difference (old behaviour) | Resolution | Reason |
+|---|---|---|---|
+| G1 | A ``` on any slide toggled fence mode, so an unclosed fence on a card swallowed every later slide with no warning | **Code** (owner decision): only a `[code]` slide's first fence protects `---`, and only if it closes. Elsewhere ``` is literal. An unclosed code fence ends at its block with `unclosed-fence` | Silent loss of whole slides |
+| G2 | `[end cta="…"]` was dropped with `unknown-attr` | **Code** (owner decision): allowed. The text replaces the button label (end always shows the button) | An end slide's label couldn't be customised |
+| G3 | Without a tray, `photo=2` became the photo ID `"2"` | **Code** (owner decision): an integer is always a 1-based tray index, resolved against the tray at render (`resolvePhotos`). A missing index → `unknown-photo`. New photo IDs are never all digits (`2024.jpg` → `photo-2024`) | An index silently became an ID that matches nothing |
+| G4 | An invalid `lang:` fell back to `id` silently | **Code** (owner decision): warning `unknown-lang` (non-blocking), falls back to `id` | A typo silently changed every built-in string |
+| G5 | A parser exception returned a blocking `overflow` | **Code** (owner decision): blocking `internal-error`, "Parser error — please report". The export gate now includes parse-time blockers | Distinct from "text too long". The empty deck must not export |
+| G6 | A header needs only one known key; unknown keys in it warn (PRD: every key known) | PRD | Warned, nothing lost |
+| G7 | The header ends at the first `---`; keys are lowercase only (`Template:` → no header) | PRD | The block becomes a visible slide, not a silent loss |
+| G8 | `title` falls back to the first cover's headline, else slide 1; the slug falls back to `carousel` | PRD | Unspecified detail |
+| G9 | The splitter toggled on any ``` (e.g. ```` ```js ```` inside code) while the code reader closed only on a bare ```, so they could disagree and push a following slide into the note | **Code** (covered by the G1 splitter: first fence opens, only a bare ``` closes) | Misplaced content |
+| G10 | Text lines are fully trimmed (leading too); trailing blank code lines are dropped; tabs → 2 spaces | PRD | Whitespace only, never rendered |
+| G11 | An unknown first bare token warns `unknown-slide-type`, renders as card, and the token is discarded | PRD | Warned |
+| G12 | An unterminated quote (`kicker="A photo=x]`) silently turned the rest of the tag into the value | **Code**: warning `unknown-attr` ("never closes"); value unchanged | Later attributes vanished silently |
+| G13 | A valued attribute written as a flag warns; `cta=""` equals the flag | PRD | Warned / harmless |
+| G14 | `number=` must be `off`/digits; `icon=` is validated (pools, `auto`, `none`, six aliases, any case) | PRD | Warned |
+| G15 | `surface=` is checked at layout time against the variant, not by the parser | PRD | Warned, per template |
+| G16 | `missing-headline` when the first line is a fence | PRD (now `[code]` only; on other slides ``` is literal text, per G1) | Warned |
+| G17 | The attribution was the first dash line **anywhere** after the quote, so a body list item could become the attribution | **Code**: only the first non-empty line after the quote text can be the attribution | Misplaced content |
+| G18 | The code language is lowercased; unknown languages render plain with no warning | PRD | Rendered in full, nothing lost |
+| G19 | Each body source line is a hard break; a blank line is a paragraph | PRD | Unspecified detail |
+| G20 | Accent needs non-space inside both stars and can't cross `\|` or a backtick; unmatched stars are literal | PRD | Literal rendering, nothing lost |
+| G21 | In inline code, `\|` doesn't break the line and `\\|` stays as typed; an empty pair is literal | PRD | Unspecified detail |
+| G22 | `icon=auto` never on cover/end, hashed by slug, no back-to-back repeat | PRD | Unspecified detail |
+| G23 | A trailing `→` in built-in strings is drawn as an icon | PRD | Unspecified detail |
+| G24 | Extra renderer warning `long-word` (non-blocking) | PRD (§4.8 row) | Already logged above; now in the table |
+| G25 | `photo-low-res` comes from the app's photo store, not the parser | PRD (wording only) | The PRD already said "photo store" |
+
+- Unclosed-fence heuristic (G1): a ``` line further down still counts as the closing fence unless a `---` followed by a tag line (slide type or known attribute) comes first. So an unclosed code fence followed only by *untagged* slides that themselves contain a bare ``` line can still merge them. Typed tags are the reliable boundary.
+- `unknown-photo` from `resolvePhotos` points at the slide's first line, not the tag line. That's the same anchor render warnings use.

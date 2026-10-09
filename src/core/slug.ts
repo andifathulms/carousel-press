@@ -15,10 +15,14 @@ export function slugify(input: string, max = SLUG_MAX): string {
   return base.slice(0, max).replace(/-+$/g, '');
 }
 
-/** Photo ID from a file name: strip the extension, slugify, de-duplicate. */
+/**
+ * Photo ID from a file name: strip the extension, slugify, de-duplicate.
+ * All-digit names get a `photo-` prefix, since `photo=<integer>` is always a tray index.
+ */
 export function photoIdFromName(fileName: string, existing: Iterable<string>): string {
   const stem = fileName.replace(/\.[^./\\]+$/, '');
-  const base = slugify(stem) || 'photo';
+  const slug = slugify(stem);
+  const base = !slug ? 'photo' : /^\d+$/.test(slug) ? `photo-${slug}` : slug;
   return uniqueId(base, existing);
 }
 

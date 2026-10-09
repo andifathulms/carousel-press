@@ -37,6 +37,10 @@ describe('photo IDs', () => {
   it('falls back when the name has no usable characters', () => {
     expect(photoIdFromName('🌅.jpg', [])).toBe('photo');
   });
+  it('never makes an all-digit id (photo=<integer> is a tray index)', () => {
+    expect(photoIdFromName('2024.jpg', [])).toBe('photo-2024');
+    expect(photoIdFromName('2024.jpg', ['photo-2024'])).toBe('photo-2024-2');
+  });
 });
 
 describe('file names', () => {

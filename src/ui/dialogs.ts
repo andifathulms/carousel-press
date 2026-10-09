@@ -96,6 +96,7 @@ export function promptDialog(title: string, label: string, value: string): Promi
 const REASON: Partial<Record<Warning['code'], string>> = {
   overflow: "text doesn't fit",
   'code-line-too-long': 'a code line is too long',
+  'internal-error': 'the parser hit an error (please report it)',
 };
 
 /** DESIGN §8.4: list blocking warnings; Fix jumps to the first one. */

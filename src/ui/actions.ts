@@ -19,21 +19,25 @@ import { decksFromSample, sampleInfo } from './libraryData';
 import { confirmDialog, exportWarningsDialog, openModal, promptDialog, toast } from './dialogs';
 import { h } from './dom';
 
-/** Blocking warnings for the current deck, from a fresh layout pass with real fonts. */
+/** Blocking warnings for the current deck: the parser's, plus a fresh layout pass with real fonts. */
 async function blockingWarnings(c: Controller): Promise<Warning[]> {
   const s = c.store.get();
   await loadFonts(s.variant);
   const { ctx } = makeCanvas(8, 8);
   const m = createCanvasMeasurer(ctx);
   const icons = deckIcons(s.parsed.deck, s.variant);
-  return s.parsed.deck.slides.flatMap((slide, i) =>
-    layoutSlide(slide, s.parsed.deck, s.variant, m, icons[i] ?? null, !!(slide.photoId && c.photos.get(slide.photoId))).warnings,
-  ).filter(isBlocking);
+  return [
+    ...s.parsed.warnings,
+    ...s.parsed.deck.slides.flatMap((slide, i) =>
+      layoutSlide(slide, s.parsed.deck, s.variant, m, icons[i] ?? null, !!(slide.photoId && c.photos.get(slide.photoId))).warnings,
+    ),
+  ].filter(isBlocking);
 }
 
 async function passGate(c: Controller, onlySlide?: number): Promise<boolean> {
   let ws = await blockingWarnings(c);
-  if (onlySlide !== undefined) ws = ws.filter((w) => w.slideIndex === onlySlide);
+  // Deck-level blockers (slideIndex null, e.g. internal-error) apply to every export.
+  if (onlySlide !== undefined) ws = ws.filter((w) => w.slideIndex === onlySlide || w.slideIndex === null);
   if (!ws.length) return true;
   const r = await exportWarningsDialog(ws, (w) => {
     c.store.set({ mobileTab: 'write', leftTab: 'write' });

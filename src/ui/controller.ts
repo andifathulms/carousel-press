@@ -1,6 +1,6 @@
 import { setHeaderKey } from '../core/headerEdit';
 import { parse } from '../core/parser';
-import { DEFAULT_TEMPLATE, type Lang, type ParseResult, type TemplateId, type Warning } from '../core/types';
+import { DEFAULT_TEMPLATE, type Lang, type ParseResult, type TemplateId } from '../core/types';
 import { loadFonts } from '../fonts/loadFonts';
 import { SAMPLE_DUSK, generateSampleDusk } from '../render/samplePhoto';
 import { type AppSettings, DeckStore, type PostState, newDeckId } from '../store/deckStore';
@@ -241,9 +241,5 @@ export class Controller {
   refreshPhotos(): void {
     this.store.set({ photos: this.photos.list() });
     this.reparse();
-  }
-
-  blockingWarnings(): Warning[] {
-    return this.engine.warnings().flat().filter((w) => w.code === 'overflow' || w.code === 'code-line-too-long');
   }
 }

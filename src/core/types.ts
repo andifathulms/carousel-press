@@ -69,10 +69,12 @@ export type WarningCode =
   | 'table-shape'
   | 'table-too-many-rows'
   | 'table-too-wide'
-  | 'ipa-glyph-missing';
+  | 'ipa-glyph-missing'
+  | 'unknown-lang'
+  | 'internal-error';
 
 export const BLOCKING_CODES: readonly WarningCode[] = [
-  'overflow', 'code-line-too-long', 'table-too-many-rows', 'table-too-wide', 'ipa-glyph-missing',
+  'overflow', 'code-line-too-long', 'table-too-many-rows', 'table-too-wide', 'ipa-glyph-missing', 'internal-error',
 ];
 
 export interface Warning {
