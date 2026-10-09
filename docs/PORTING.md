@@ -140,48 +140,29 @@ In v1 a variant is **data on an existing family**. `editorial` gives serif headl
 
 `registerFamily(id, FamilyLayout)` for a different layout, `registerStrings(lang, table)`, `registerIcon(name, path)`, and canvas profiles other than 9:16. Each is additive (a minor version) once B4 has moved the family-specific logic into `FamilyLayout`.
 
-### 2.5 The deck grammar as implemented (differences from PRD §4)
+### 2.5 The deck grammar as implemented
 
-PRD §4 stays the reference. These are the cases where the code does something different from, or more specific than, the PRD. They are now part of the contract (§3.3). Each was checked against `src/core/parser.ts` and `inline.ts`, and the ones marked † were confirmed by running the parser.
+**Status:** PRD §4 now matches the code. The pre-extraction pass ("grammar: pre-extraction fixes") reconciled every difference this section used to list. Each difference is a row G1–G25 in the "Grammar contract" table in `docs/decisions.md`, with a regression test under the same ID in `tests/grammar.test.ts`. The grammar `carousel-core` ships is PRD §4 plus `docs/SPEC-lexicon.md` (word/table/compare). The golden snapshots (`tests/__snapshots__/parser.test.ts.snap`) didn't change in that pass.
 
-**Header**
-1. A pre-`---` block is a header when every non-empty line matches `key: value` (lowercase `[a-z]+` key) **and at least one key is known**. The PRD requires every key to be known. Here, unknown keys inside a valid header give `unknown-header-key` and are ignored. †
-2. The header ends at the **first** `---` line in the text. Header keys are case-sensitive (`Template:` doesn't count, so there's no header).
-3. An invalid `lang:` value falls back to `id` **silently**, with no warning. †
-4. `title` falls back to the plain text of the first `cover` slide's headline (`|` becomes a space). If there's no cover, it's the first slide's headline. `slug` falls back to `carousel`.
+What changed in behaviour, which hosts should know about:
 
-**Slide splitting and fences**
-5. **Any** line starting with optional whitespace + ```` ``` ```` toggles "inside a fence" for slide splitting, on every slide type, not only `code`. A fence that's never closed on a non-code slide therefore swallows every later `---`. The rest of the deck becomes part of that slide, **with no warning** (`unclosed-fence` is only emitted for `code` slides). † *Known gap: worth a warning in a minor release.*
-6. A `code` slide's fence closes only on a line that is exactly ```` ``` ```` (whitespace allowed). For splitting, a ```` ```js ```` line inside code also toggles, so the two scanners can disagree on malformed input.
-7. "Trim trailing whitespace" is implemented as a full `trim()` of each headline/body/note line (leading whitespace too). Code is kept verbatim except that tabs become 2 spaces and **trailing blank code lines are dropped**.
+| ID | Rule now |
+|---|---|
+| G1, G9 | Only a `[code]` slide's **first** fence protects `---`, and only if it closes on a bare ```` ``` ````. On other slide types ```` ``` ```` is literal text. An unclosed code fence ends at its block with `unclosed-fence` and never swallows the following slides |
+| G2 | `[end cta="…"]` sets the end button's label |
+| G3 | `photo=<integer>` is always a 1-based tray index. Without a tray it stays unresolved (`photoId: null`). `resolvePhotos(slides, trayIds)` resolves it against the tray the deck renders with (`parse(…, { photoIds })` calls it). A missing index → `unknown-photo`. Photo IDs are never all digits |
+| G4 | An invalid `lang:` → `unknown-lang` (non-blocking), falls back to `id` |
+| G5 | A parser exception → blocking `internal-error` ("Parser error — please report") with an empty deck. It never uses `overflow` |
+| G12 | An unterminated quoted value warns `unknown-attr` instead of silently absorbing the rest of the tag |
+| G17 | Only the first non-empty line after the quote text can be the attribution |
 
-**Tag line**
-8. A first bare token `cta` is the flag, not a type. An unknown first bare token gives `unknown-slide-type`, the slide renders as `card`, and the token is **discarded**. A later unknown bare token gives `unknown-attr` ("Unknown flag").
-9. Quoted values support only the `\"` escape (`\\` isn't an escape). An unterminated quote runs to the closing `]`.
-10. A valued attribute written as a bare flag (e.g. `[photo]`) gives `unknown-attr` and is ignored. `cta=""` means the same as the bare `cta` flag.
-11. `number=` must be `off` or digits, otherwise `unknown-attr`. `icon=` is validated at parse time against both icon pools, `auto` and `none`, plus six aliases (`shield`, `spark`, `pin`, `branch`, `bulb`, `check`). Matching is case-insensitive.
-12. `surface=` is **not** validated by the parser. It's validated at layout time against the variant (renderer `unknown-attr`, listing the variant's surfaces). The same deck can therefore warn under one template and not another.
-13. The PRD §4.3 "Applies to" column is enforced. An out-of-scope attribute (icon on cover; cta on cover or end; number on anything except card/code; kicker on anything except cover) gives `unknown-attr` and is removed. As a result, **an end slide's CTA label can't be customised**: `[end cta="…"]` warns, and the default string is used. †
-14. `photo=` without `photoIds` in the options keeps the raw reference as the photo ID, even a number (`photo=2` becomes ID `"2"`), and gives no `unknown-photo`. † Hosts that use tray indexes must pass `photoIds`.
+The other rows (G6–G8, G10, G11, G13–G16, G18–G25) were documentation-only. The code was kept, and PRD §4 now states it.
 
-**Fields**
-15. `missing-headline` is also raised when the first content line is a fence. In that case the fence is kept as content.
-16. Quote attribution is the **first** line, anywhere after the quote text, that matches `^(—|--|-)\s+`. Any later matching lines stay in the body.
-17. The code `lang` is lowercased. `bash`/`sh`/`shell`/`zsh` get prompts and highlighting. `js`/`ts`/`javascript`/`typescript`/`jsx`/`tsx`, `py`/`python` and `sql` are highlighted. Anything else renders as plain text with no warning.
-18. Each source line in a body/subtitle is a hard line break. A blank line starts a paragraph.
+**Known gaps left in the contract** (candidates for minor releases after v1):
 
-**Inline**
-19. `*accent*`: the opening `*` must be followed by a non-space and the closing `*` preceded by a non-space. An accent can't cross `|` or a backtick. A run of two or more `*` is always literal. `\|` inside an accent becomes `|`.
-20. In an inline code span, `|` doesn't break the line and `\|` stays as typed. An empty span (``` `` ```) is literal.
-
-**Icons, numbering, strings**
-21. `icon=auto` never puts an icon on an `end` slide, and covers never have an icon. Auto picks `hash(slug + ':' + index) % pool`, skipping a repeat of the previous slide's icon. The auto icon therefore changes when the title (slug) changes.
-22. A trailing `→` in built-in strings is drawn as an icon, never as a glyph.
-
-**Warnings**
-23. There's an extra renderer warning, `long-word` (non-blocking): a word was broken by characters.
-24. If the parser crashes internally, it returns an empty deck and **one `overflow` warning**, which is blocking. That's deliberate (never export a half-parsed deck), but a host shouldn't read it as "text too long". The fuzz test (1,000 random strings) has never triggered it.
-25. `photo-low-res` comes from the app's photo store, not the package. Hosts that want it check the short side < 1280 px themselves.
+- **G1 heuristic:** a later bare ```` ``` ```` still closes an unclosed code fence, unless a `---` followed by a tag line comes first. Untagged slides that contain a literal ```` ``` ```` line can therefore still merge into an unclosed code slide. Typed tags are the reliable boundary.
+- **Lexicon CTA:** `[word]`/`[table]`/`[compare]` accept `cta` (SPEC-lexicon §2) and drop the swipe hint for it. The lexicon layout never draws the button, though (`templates/lexicon/lexDispatch.ts`, `ctaLabel: null`). Fix this before v1, or document it.
+- **SPEC-lexicon not audited:** the lexicon grammar hasn't been through the same code-vs-spec pass yet.
 
 ---
 
