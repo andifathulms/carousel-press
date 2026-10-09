@@ -1,7 +1,7 @@
 template: lexicon/notebook
 lang: id
 title: cara baca akhiran ed
-caption: Walked, played, wanted: bunyi -ed ternyata ada tiga. Sumber aturan: Cambridge Grammar; IPA: Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #pronunciation
+caption: Walked, played, wanted: bunyi -ed ternyata ada tiga. Sumber aturan: Cambridge Grammar; British Council TeachingEnglish; IPA: Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #pronunciation
 ---
 [cover kicker="PRONUNCIATION"]
 Walked, Played, Wanted: | Bunyi -ed Ada Tiga
@@ -17,6 +17,9 @@ Tiga bunyi *-ed*
 Cara cepat mengingatnya
 Kata dasarnya berakhir bunyi t atau d? Tambah satu suku kata: "id".
 Selain itu, -ed tidak menambah suku kata. Walked dibaca satu ketukan, bukan wal-ked.
+---
+Tes leher: bersuara atau tidak?
+Taruh tangan di leher, ucapkan p lalu b. Bergetar berarti bersuara: -ed dibaca d. Tidak bergetar (p, k, f, s, sh, ch): -ed dibaca t.
 ---
 [word]
 pos: verb · V2/V3 of walk
@@ -51,6 +54,35 @@ right-label: Begini
 wrong: walk-ed (dua ketukan)
 right: *walkt* (satu ketukan)
 why: Bunyi k tidak bersuara, jadi -ed dibaca t dan menyatu dengan suku kata sebelumnya.
+---
+[table]
+Pengecualian: kata sifat *-ed*
+| Kata | Arti |
+| nak*ed* | telanjang |
+| wick*ed* | jahat |
+| crook*ed* | bengkok |
+| belov*ed* | tercinta |
+Kata sifat ini dibaca "id". Beloved begini di depan kata benda.
+---
+[word]
+pos: adjective (formal)
+word: learned
+ipa: /ˈlɜːnɪd/ (UK) · /ˈlɜːrnɪd/ (US)
+say: "LER-nid", dua suku kata
+meaning: terpelajar; berpengetahuan luas
+example: He was a *learned* man who read every day.
+translation: Dia orang terpelajar yang membaca setiap hari.
+note: Sebagai kata kerja, learned dibaca satu suku kata: I learned a lot.
+---
+Kuis: t, d, atau id?
+watched, needed, cleaned. Tebak dulu bunyi -ed masing-masing, lalu geser. Ingat tes leher tadi.
+---
+[table]
+Jawabannya
+| Kata | Bunyi |
+| watch*ed* | t |
+| need*ed* | id |
+| clean*ed* | d |
 ---
 [end]
 Simpan dulu ✏️

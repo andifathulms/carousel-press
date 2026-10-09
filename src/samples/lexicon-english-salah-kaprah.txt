@@ -1,10 +1,10 @@
 template: lexicon/notebook
 lang: id
 title: salah kaprah bahasa inggris
-caption: Lima kalimat yang sering salah, dan versi yang benar. Sumber: Cambridge Grammar; Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #grammar
+caption: Sebelas kalimat yang sering salah, dan versi yang benar. Sumber: Cambridge Grammar (Common mistakes); Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #grammar
 ---
 [cover kicker="SALAH KAPRAH"]
-5 Kalimat Inggris | yang Sering Salah
+11 Kalimat Inggris | yang Sering Salah
 Banyak yang keliru di sini. Santai, ini wajar.
 ---
 [compare]
@@ -31,6 +31,36 @@ why: Married to + pasangan. Tapi "married with two children" benar: sudah menika
 wrong: I very like this song.
 right: I *really like* this song.
 why: Very tidak dipakai langsung dengan kata kerja. Bisa juga: I like this song very much.
+---
+[compare]
+wrong: I'm boring. Let's go out.
+right: I'm *bored*. Let's go out.
+why: Bored artinya merasa bosan. Boring artinya membosankan. Jadi I'm boring berarti "aku orang yang membosankan".
+---
+[compare]
+wrong: According to me, this plan is risky.
+right: *In my opinion*, this plan is risky.
+why: According to dipakai untuk pendapat orang lain atau sumber: according to the report. Untuk pendapatmu sendiri: in my opinion atau I think.
+---
+[compare]
+wrong: I've lived here since two years.
+right: I've lived here *for* two years.
+why: For untuk lamanya waktu: for two years. Since untuk titik awal: since 2022, since Monday.
+---
+[compare]
+wrong: Your plan is more better.
+right: Your plan is *better*.
+why: Better sudah bentuk perbandingan dari good, jadi tidak perlu more. Sama halnya: bukan most biggest, tapi biggest.
+---
+[compare]
+wrong: He entered in the room quietly.
+right: He *entered* the room quietly.
+why: Enter langsung diikuti tempatnya, tanpa in atau to. Untuk bus, jangan pakai enter: get on the bus.
+---
+[compare]
+wrong: I was really surprise.
+right: I was really *surprised*.
+why: Untuk perasaan, pakai bentuk -ed: surprised, bored, interested. Tanpa -ed, surprise itu kata benda atau kata kerja.
 ---
 [end]
 Simpan dulu ✏️

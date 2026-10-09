@@ -2,11 +2,11 @@ handle: @englishsehari
 template: lexicon/notebook
 lang: id
 title: verb pola ought
-caption: Think jadi thought, buy jadi bought. Ini polanya 👇 #belajarbahasainggris #irregularverbs #englishsehari
+caption: Think jadi thought, buy jadi bought. Ini polanya 👇 Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar #belajarbahasainggris #irregularverbs #englishsehari
 ---
 [cover kicker="IRREGULAR VERBS"]
-Think → Thought? | Ini Polanya
-6 kata kerja yang V2-nya berakhiran -ought / -aught.
+Think Jadi Thought? | Ini Polanya
+7 kata kerja yang V2-nya berakhiran -ought / -aught.
 ---
 [table]
 Pola *-ought*
@@ -15,13 +15,17 @@ Pola *-ought*
 | bring | br*ought* | membawa |
 | buy | b*ought* | membeli |
 | fight | f*ought* | bertarung |
-Bunyinya sama: "ot" panjang.
+| seek | s*ought* | mencari |
+Seek lebih formal; sehari-hari biasanya look for.
 ---
 [table]
 Pola *-aught*
 | V1 | V2 / V3 | Arti |
 | teach | t*aught* | mengajar |
 | catch | c*aught* | menangkap |
+---
+Ejaan beda, bunyi sama
+-ought dan -aught dibaca persis sama: thought, bought, taught, caught berakhir dengan bunyi "ot" panjang. Huruf gh-nya tidak dibaca.
 ---
 [word]
 pos: verb · V2/V3 of think
@@ -32,11 +36,43 @@ meaning: berpikir; mengira
 example: I *thought* you were coming.
 translation: Kukira kamu mau datang.
 ---
+[word]
+pos: verb · V2/V3 of teach
+word: taught
+ipa: /tɔːt/ (UK) · /tɑːt/ (US)
+say: "tot", o panjang
+meaning: mengajar; mengajari
+example: My mum *taught* me how to cook.
+translation: Ibuku yang mengajariku masak.
+note: Thought dan taught cuma beda bunyi awal: th dan t.
+---
+[word]
+pos: verb · V2/V3 of buy
+word: bought
+ipa: /bɔːt/ (UK) · /bɑːt/ (US)
+say: "bot", o panjang
+meaning: membeli
+example: I *bought* this shirt online.
+translation: Kemeja ini aku beli online.
+---
 [compare]
 wrong: Yesterday I thinked about it.
 right: Yesterday I *thought* about it.
-why: Think tidak pakai -ed. Bentuk lampaunya thought.
+why: Think tidak pakai -ed. Begitu juga bukan buyed, teached, catched: yang benar bought, taught, caught.
+---
+[compare]
+wrong-label: Salah arti
+right-label: Tepat
+wrong: I brought a new phone yesterday.
+right: I *bought* a new phone yesterday.
+why: Maksudnya membeli? Pakai bought, dari buy. Brought dari bring, artinya membawa. Beda satu huruf r, artinya beda jauh.
+---
+Kuis: V2 dari *bring*?
+Jawab di kepala dulu, lalu geser. Petunjuk: polanya sama dengan think jadi thought.
+---
+Jawaban: *brought*
+Bring, brought, brought. Contoh: I brought snacks for everyone. Aku bawa camilan buat semua.
 ---
 [end]
 Simpan dulu ✏️
-Besok kita bahas pola yang lain.
+Coba bikin kalimat pakai "brought" di komen.

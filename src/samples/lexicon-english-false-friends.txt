@@ -1,11 +1,11 @@
 template: lexicon/notebook
 lang: id
 title: false friends inggris indonesia
-caption: Mirip bahasa Indonesia, tapi artinya lain. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; KBBI VI Daring #belajarbahasainggris #englishsehari #falsefriends
+caption: Mirip bahasa Indonesia, tapi artinya lain. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar; KBBI VI Daring #belajarbahasainggris #englishsehari #falsefriends
 ---
 [cover kicker="FALSE FRIENDS"]
 Mirip Bahasa Indonesia, | Artinya Beda
-Tiga kata yang sering bikin salah paham.
+Delapan kata yang sering bikin salah paham.
 ---
 [table]
 Kata Inggris dan artinya
@@ -50,6 +50,54 @@ right-label: Tepat
 wrong: He's very sensible, he cries at sad films.
 right: He's very *sensitive*, he cries at sad films.
 why: Sensitif itu sensitive. Sensible artinya masuk akal atau bijak: that's a sensible idea.
+---
+[word]
+pos: noun
+word: argument
+ipa: /ˈɑːɡ.jə.mənt/ (UK) · /ˈɑːrɡ.jə.mənt/ (US)
+say: "AA-gyu-ment"
+meaning: pertengkaran, adu mulut; juga alasan untuk mendukung pendapat
+example: I had a big *argument* with my brother.
+translation: Aku bertengkar hebat sama kakakku.
+note: Di KBBI, argumen artinya alasan; tidak ada arti bertengkar.
+---
+[compare]
+wrong-label: Salah arti
+right-label: Tepat
+wrong: My uncle works in a shoe fabric.
+right: My uncle works in a shoe *factory*.
+why: Pabrik itu factory. Fabric artinya kain: cotton fabric = kain katun.
+---
+[word]
+pos: verb
+word: realize
+ipa: /ˈrɪə.laɪz/ (UK) · /ˈriː.ə.laɪz/ (US)
+say: "RI-e-laiz"
+meaning: menyadari; juga mewujudkan (impian, rencana)
+example: I didn't *realize* it was so late.
+translation: Aku nggak sadar ternyata sudah selarut ini.
+note: Realisasi di KBBI artinya perwujudan. Ejaan UK: realise.
+---
+[compare]
+wrong-label: Salah arti
+right-label: Tepat
+wrong: This car is very economic.
+right: This car is very *economical*.
+why: Ekonomis (hemat) itu economical. Economic artinya berhubungan dengan ekonomi: economic growth.
+---
+[compare]
+wrong-label: Salah arti
+right-label: Tepat
+wrong: I sent the package by expedition.
+right: I sent the package by *courier*.
+why: Jasa ekspedisi (kirim paket) itu courier. Expedition artinya perjalanan terencana, misalnya menjelajah daerah yang belum dikenal.
+---
+[compare]
+wrong-label: Salah arti
+right-label: Tepat
+wrong: He's very consequent. He always keeps his word.
+right: He's very *consistent*. He always keeps his word.
+why: Konsekuen (teguh pada ucapan dan keputusan) lebih dekat ke consistent. Consequent artinya terjadi sebagai akibat dari sesuatu.
 ---
 [end]
 Simpan dulu ✏️
