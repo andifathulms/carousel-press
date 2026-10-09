@@ -42,12 +42,26 @@ export function mountInspector(root: HTMLElement, c: Controller): void {
     return h('label', { class: 'check' }, box, h('span', {}, label));
   };
 
-  const caption = h('p', { class: 'caption-text' });
-  const capCount = h('span', { class: 'caption-count' });
-  const capCopy = h('button', { type: 'button', class: 'btn small' }, svg(UI_ICONS.copy), 'Copy');
-  capCopy.addEventListener('click', async () => {
-    flash(capCopy, (await copyText(c.store.get().parsed.deck.caption)) ? 'Copied' : 'Copy failed');
-  });
+  /** One copyable line of post text (TikTok title or caption). */
+  const copyRow = (label: string, get: () => string): { el: HTMLElement; text: HTMLElement; count: HTMLElement; btn: HTMLButtonElement } => {
+    const text = h('p', { class: 'caption-text' });
+    const count = h('span', { class: 'caption-count' });
+    const btnLabel = h('span', {}, 'Copy');
+    const btn = h('button', { type: 'button', class: 'btn small', 'aria-label': `Copy ${label.toLowerCase()}` }, svg(UI_ICONS.copy), btnLabel);
+    btn.addEventListener('click', async () => {
+      flash(btnLabel, (await copyText(get())) ? 'Copied' : 'Copy failed');
+    });
+    const el = h('div', { class: 'caption-row' }, h('div', { class: 'caption-head' }, h('h4', { class: 'caption-label' }, label), count, btn), text);
+    return { el, text, count, btn };
+  };
+  const title = copyRow('Title', () => c.store.get().parsed.deck.title);
+  const caption = copyRow('Caption', () => c.store.get().parsed.deck.caption);
+  const showText = (row: typeof title, value: string, empty: string): void => {
+    row.text.textContent = value || empty;
+    row.text.classList.toggle('empty', !value);
+    row.count.textContent = value ? `${Array.from(value).length} chars` : '';
+    row.btn.disabled = !value;
+  };
 
   const one = h('button', { type: 'button', class: 'btn' }, svg(UI_ICONS.download), 'Download slide');
   const all = h('button', { type: 'button', class: 'btn primary' }, svg(UI_ICONS.box), 'Download all (ZIP)');
@@ -66,7 +80,7 @@ export function mountInspector(root: HTMLElement, c: Controller): void {
     group('Language', langSeg),
     group('Photo darkness', h('div', { class: 'range-row' }, dark, darkVal)),
     group('View', toggle('Safe zone', 'showSafe'), toggle('Grid', 'showGrid')),
-    h('section', { class: 'group caption-group' }, h('div', { class: 'caption-head' }, h('h3', { class: 'label' }, 'Caption'), capCount, capCopy), caption),
+    h('section', { class: 'group caption-group' }, h('h3', { class: 'label' }, 'Post text'), title.el, caption.el),
     h('section', { class: 'group export-group' }, one, all, ...(photos ? [photos] : []), hint, test),
   );
 
@@ -74,11 +88,8 @@ export function mountInspector(root: HTMLElement, c: Controller): void {
     picker.set(p.deck.template);
     if (document.activeElement !== handle) handle.value = p.deck.handle;
     langBtns.forEach((b, i) => b.setAttribute('aria-pressed', String(langs[i] === p.deck.lang)));
-    const cap = p.deck.caption;
-    caption.textContent = cap || 'Add a caption: line to the header to see it here.';
-    caption.classList.toggle('empty', !cap);
-    capCount.textContent = cap ? `${Array.from(cap).length} chars` : '';
-    capCopy.disabled = !cap;
+    showText(title, p.deck.title, 'Add a title: line to the header, or a cover slide.');
+    showText(caption, p.deck.caption, 'Add a caption: line to the header to see it here.');
   });
   c.store.watch((s) => s.darkness, (d) => {
     dark.value = String(d);

@@ -23,7 +23,7 @@ One line each. Things the specs left open, or deliberate deviations.
 - Photos are always re-encoded on import (JPEG 0.92, PNG when the source has alpha), so HEIC/WebP sources become portable blobs.
 - Preview draws the overflow outline as an overlay on the visible canvas, so cached preview bitmaps stay identical to exports.
 - Blocking warnings for the export dialog come from a fresh layout pass with real fonts, so the dialog is correct even before every slide has rendered.
-- Tablet (768–1199): the caption panel is hidden in the toolbar row; it's in the Export tab on phones and the inspector on desktop.
+- "Post text" (Title + Caption, each with Copy) shows at every width: in the inspector on desktop, the Export tab on phones, and as a one-line-per-field strip at the bottom of the toolbar on tablet (768–1199, iPad), where it used to be hidden. Title is the header `title:` or the cover headline, as the parser resolves it.
 - Owner decks (3 couples + 3 dev) ship as extra entries in "Load sample". They omit `handle:` so the handle from Settings is used.
 - Dev decks end with a one-line portfolio signature in the end-slide body (accent URL `andifathulms.github.io`, which redirects to /en/). It's plain deck text: no new slide type or attribute. The PRD git sample stays verbatim.
 - Owner's headshots are not used on slides (too low-res for 1080×1920; a face beside a pitch reads as an ad) and are kept out of git.

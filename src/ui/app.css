@@ -221,7 +221,9 @@ code { font-family: var(--font-mono); font-size: 12px; }
 .check { display: flex; align-items: center; gap: var(--s2); cursor: pointer; }
 .check input { accent-color: var(--press); width: 16px; height: 16px; margin: 0; }
 .caption-head { display: flex; align-items: center; gap: var(--s2); }
-.caption-head .label { flex: 1; }
+.caption-row { display: flex; flex-direction: column; gap: var(--s1); }
+.caption-row + .caption-row { margin-top: var(--s2); }
+.caption-label { flex: 1; margin: 0; font-size: 12px; font-weight: 600; color: var(--muted); }
 .caption-count { font: 500 11px var(--font-mono); color: var(--muted); }
 .caption-text { margin: 0; font-size: 13px; white-space: pre-wrap; overflow-wrap: anywhere; }
 .caption-text.empty { color: var(--muted); font-style: italic; }
@@ -374,7 +376,11 @@ code { font-family: var(--font-mono); font-size: 12px; }
   .inspector .group:first-child { flex-direction: row; align-items: flex-end; }
   .inspector .group:first-child > .label { display: none; }
   .inspector .picker { width: 240px; }
-  .inspector .caption-group { display: none; }
+  /* Post text: a full-width strip, one line per field, so copy stays reachable on iPad. */
+  .inspector .caption-group { order: 10; flex: 1 1 100%; flex-direction: row; flex-wrap: wrap; align-items: center; gap: var(--s2) var(--s4); min-width: 0; }
+  .inspector .caption-group > .label { display: none; }
+  .inspector .caption-row { flex: 1 1 280px; min-width: 0; margin: 0; }
+  .inspector .caption-row .caption-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .inspector .group:nth-child(2) { width: 160px; }
   .inspector .export-group { flex-direction: row; align-items: center; }
   .inspector .export-group .btn { width: auto; }
@@ -398,7 +404,9 @@ code { font-family: var(--font-mono); font-size: 12px; }
   .inspector .group:first-child { flex-direction: column; align-items: stretch; }
   .inspector .group:first-child > .label { display: block; }
   .inspector .picker { width: 100%; }
-  .inspector .caption-group { display: flex; }
+  .inspector .caption-group { display: flex; flex-direction: column; align-items: stretch; order: 0; }
+  .inspector .caption-group > .label { display: block; }
+  .inspector .caption-row .caption-text { white-space: pre-wrap; }
   .inspector .export-group { flex-direction: column; align-items: stretch; }
   .inspector .export-group .btn { width: 100%; min-height: 48px; font-size: 15px; }
   .mobile-tabs {
