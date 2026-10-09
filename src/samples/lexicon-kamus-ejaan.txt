@@ -1,10 +1,10 @@
 template: lexicon/kamus
 lang: id
 title: merubah atau mengubah
-caption: Empat bentuk yang sering keliru ditulis. Sumber: KBBI VI Daring; EYD Edisi Kelima #bahasaindonesia #katabaku #ejaan
+caption: Sepuluh bentuk yang sering keliru ditulis. Sumber: KBBI VI Daring; EYD Edisi Kelima (Penulisan Kata) #bahasaindonesia #katabaku #ejaan
 ---
 [cover kicker="EJAAN"]
-Merubah atau Mengubah? | 4 yang Sering Keliru
+Merubah atau Mengubah? | 10 yang Sering Keliru
 Yang baku ternyata bukan yang biasa kita tulis.
 ---
 [compare]
@@ -24,7 +24,17 @@ note: Sumber: KBBI VI Daring
 [compare]
 wrong: Bukunya ada didalam tas.
 right: Bukunya ada *di dalam* tas.
-why: Di sebagai kata depan ditulis terpisah. Di- sebagai awalan ditulis serangkai, misalnya dijual.
+why: Di sebagai kata depan ditulis terpisah. Di- sebagai awalan ditulis serangkai, misalnya dijual. Sumber: EYD V, Kata Depan.
+---
+[compare]
+wrong: Kamu tinggal dimana?
+right: Kamu tinggal *di mana*?
+why: Di sebagai kata depan ditulis terpisah. KBBI VI mencatat di mana; dimana tidak ada entrinya.
+---
+[compare]
+wrong: Besok aku mau keluar kota.
+right: Besok aku mau *ke luar* kota.
+why: Ke sebagai kata depan ditulis terpisah. Keluar ditulis serangkai kalau berupa verba: Ia keluar dari rumah.
 ---
 [compare]
 wrong-label: Tidak baku
@@ -39,6 +49,37 @@ right-label: Baku
 wrong: Silahkan duduk.
 right: *Silakan* duduk.
 why: KBBI VI mencatat silakan sebagai bentuk baku, silahkan tidak baku.
+---
+[compare]
+wrong: Apapun yang terjadi, aku tetap datang.
+right: *Apa pun* yang terjadi, aku tetap datang.
+why: Partikel pun ditulis terpisah. Yang serangkai hanya pun dalam kata penghubung, seperti walaupun, meskipun, dan adapun.
+---
+Sekali-sekali atau sekali-kali?
+Sekali-sekali artinya kadang-kadang, tidak sering. Sekali-kali artinya sama sekali (tidak, jangan). Sekali-sekali kita makan di luar. Jangan sekali-kali berbohong.
+---
+[compare]
+wrong: Kerja sama antar negara makin penting.
+right: Kerja sama *antarnegara* makin penting.
+why: Antar- adalah bentuk terikat, jadi ditulis serangkai, sama seperti nonaktif. Sebelum huruf kapital, pakai tanda hubung: pro-Barat.
+---
+[compare]
+wrong: Anak2 sudah pulang semua.
+right: *Anak-anak* sudah pulang semua.
+why: Bentuk ulang ditulis dengan tanda hubung. Untuk gabungan kata, ulang unsur pertamanya saja: surat-surat kabar.
+---
+[table]
+Ringkasan ejaan
+| Tulis | Aturannya |
+| *di mana* | kata depan: pisah |
+| *ke luar* kota | kata depan: pisah |
+| *keluar* rumah | verba: sambung |
+| *apa pun* | partikel: pisah |
+| *walaupun* | penghubung: sambung |
+| *antarnegara* | terikat: sambung |
+| *nonaktif* | terikat: sambung |
+| *anak-anak* | ulang: tanda hubung |
+Sumber: EYD Edisi Kelima; KBBI VI Daring
 ---
 [end]
 Kata apa yang sering bikin kamu ragu?

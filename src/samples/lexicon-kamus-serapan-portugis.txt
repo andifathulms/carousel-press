@@ -1,7 +1,7 @@
 template: lexicon/kamus
 lang: id
 title: kata serapan dari portugis
-caption: Jendela, meja, sepatu: ternyata pinjaman dari bahasa Portugis. Sumber: KBBI VI Daring; J. Oliveira, BiblioAsia 19(1), 2023 #bahasaindonesia #kataserapan #kbbi
+caption: Jendela, meja, sepatu: ternyata pinjaman dari bahasa Portugis. Sumber: KBBI VI Daring; J. Oliveira, BiblioAsia 19(1), 2023; U. Tadmor, World Loanword Database (2009) #bahasaindonesia #kataserapan #kbbi
 ---
 [cover kicker="KATA SERAPAN"]
 Kata Sehari-hari | dari Bahasa Portugis
@@ -18,6 +18,9 @@ Dari bahasa Portugis
 | Minggu | *domingo* |
 | lemari | *armário* |
 Sumber asal kata: J. Oliveira, BiblioAsia (2023)
+---
+Datangnya lewat mana?
+Portugis menaklukkan Melaka pada 1511, lalu membangun benteng di Ternate pada 1522. Pada abad ke-17 sampai ke-18, bahasa kreol Portugis jadi bahasa pergaulan di Batavia. Dari situ banyak kata masuk ke bahasa kita.
 ---
 [word]
 pos: nomina
@@ -37,12 +40,62 @@ example: Hari *Minggu* kita ke pasar, yuk.
 origin: dari bahasa Portugis *domingo*
 note: KBBI: huruf pertamanya ditulis kapital.
 ---
+[word]
+pos: nomina
+tag: SERAPAN
+word: keju
+meaning: bahan makanan yang dibuat dari sari air susu melalui proses peragian yang dikeraskan (dikentalkan)
+example: Martabak manisnya pakai *keju*, ya.
+origin: dari bahasa Portugis *queijo*
+note: Bentuk tidak baku: kiju. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+tag: SERAPAN
+word: boneka
+meaning: tiruan anak untuk permainan; anak-anakan
+example: Adikku tidur sambil memeluk *boneka*.
+origin: dari bahasa Portugis *boneca*
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+tag: SERAPAN
+word: gereja
+meaning: rumah atau bangunan tempat beribadah umat Kristen
+example: *Gereja* itu selalu ramai saat Natal.
+origin: dari bahasa Portugis *igreja*
+note: Sumber: KBBI VI Daring
+---
+[table]
+Masih dari Portugis
+| Kata | Bentuk asli |
+| mentega | *manteiga* |
+| garpu | *garfo* |
+| kemeja | *camisa* |
+| kereta | *carreta* |
+| roda | *roda* |
+| bola | *bola* |
+| terigu | *trigo* |
+| serdadu | *soldado* |
+Sumber asal kata: U. Tadmor, World Loanword Database (2009)
+---
+Hati-hati: tidak semua dari Portugis
+Sabun sering disebut dari Portugis sabão. Menurut kajian Tadmor (2009), asalnya bahasa Arab. Sabtu masih diperdebatkan: Oliveira (2023) menyebut sábado, Tadmor menyebut bahasa Arab.
+---
 [compare]
 wrong-label: Tidak baku
 right-label: Baku
 wrong: Bajunya ada di almari.
 right: Bajunya ada di *lemari*.
 why: KBBI VI mencatat almari sebagai bentuk tidak baku dari lemari. Asalnya dari bahasa Portugis armário.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Rotinya diolesi mertega.
+right: Rotinya diolesi *mentega*.
+why: KBBI VI mencatat mertega sebagai bentuk tidak baku dari mentega. Asalnya dari bahasa Portugis manteiga.
 ---
 [end]
 Kata apa yang sering bikin kamu ragu?

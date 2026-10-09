@@ -6,7 +6,7 @@ caption: Sering salah, padahal dipakai tiap hari. Sumber: KBBI VI Daring #bahasa
 ---
 [cover kicker="KATA BAKU"]
 Kamu Masih Nulis | "Resiko"?
-4 kata yang sering salah tulis.
+16 kata yang sering salah tulis.
 ---
 [table]
 Mana yang baku?
@@ -26,12 +26,57 @@ why: KBBI mencatat bentuk bakunya "risiko".
 ---
 [word]
 pos: nomina
-tag: SERAPAN
-word: jendela
-meaning: lubang yang dapat diberi tutup dan berfungsi sebagai tempat keluar masuk udara; tingkap
-example: Buka *jendela* biar udaranya segar.
-origin: dari bahasa Portugis *janela*
-note: Sumber: KBBI VI Daring
+tag: KATA BAKU
+word: risiko
+meaning: akibat yang kurang menyenangkan (merugikan, membahayakan) dari suatu perbuatan atau tindakan
+example: Dia siap menanggung *risiko* dari keputusannya.
+note: Bentuk tidak baku: resiko. Sumber: KBBI VI Daring
+---
+[table]
+Mana yang baku? (2)
+| Baku | Tidak baku |
+| *jadwal* | jadual |
+| *sistem* | sistim |
+| *kualitas* | kwalitas |
+| *analisis* | analisa |
+| *ijazah* | ijasah |
+| *karier* | karir |
+| *aktivitas* | aktifitas |
+| *hakikat* | hakekat |
+Sumber: KBBI VI Daring
+---
+[table]
+Ini juga sering ketuker
+| Baku | Tidak baku |
+| *detail* | detil |
+| *objek* | obyek |
+| *napas* | nafas |
+| *sekadar* | sekedar |
+Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Hasil analisa ini belum lengkap.
+right: Hasil *analisis* ini belum lengkap.
+why: KBBI VI mencatat analisis sebagai bentuk baku. Analisa tercatat sebagai bentuk tidak baku.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Tarik nafas dulu, baru jawab.
+right: Tarik *napas* dulu, baru jawab.
+why: KBBI VI mencatat napas sebagai bentuk baku, nafas tidak baku.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Dia lagi fokus ngejar karir.
+right: Dia lagi fokus ngejar *karier*.
+why: KBBI VI mencatat karier sebagai bentuk baku, karir tidak baku.
+---
+Cara cek sendiri di KBBI
+Cari katanya di kbbi.kemendikdasmen.go.id. Kalau baku, di bawah judul entri ada tulisan "bentuk tidak baku: ...". Kalau tidak baku, entrinya hanya merujuk ke bentuk bakunya.
 ---
 [end]
 Kata apa yang sering bikin kamu ragu?

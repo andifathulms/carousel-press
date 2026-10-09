@@ -1,10 +1,10 @@
 template: lexicon/kamus
 lang: id
 title: kata indah di kbbi
-caption: Kata-kata indah yang benar-benar ada di KBBI. Sumber: KBBI VI Daring #bahasaindonesia #kataindah #kbbi
+caption: Kata-kata indah yang benar-benar ada di KBBI, dan yang ternyata tidak ada. Sumber: KBBI VI Daring (Oktober 2026) #bahasaindonesia #kataindah #kbbi
 ---
 [cover kicker="KATA INDAH"]
-5 Kata Indah | yang Jarang Dipakai
+11 Kata Indah | yang Jarang Dipakai
 Semuanya benar-benar tercatat di KBBI.
 ---
 [word]
@@ -41,6 +41,51 @@ word: lembayung
 meaning: warna merah bercampur ungu
 example: Langit sore berwarna *lembayung*.
 note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · klasik
+word: bentala
+meaning: bumi; tanah
+example: Hujan pertama membasahi *bentala* yang kering.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: cakrawala
+meaning: lengkung langit
+example: Pelangi melengkung di *cakrawala* selepas hujan.
+note: Arti lain: kaki langit; tepi langit; batas pemandangan; horizon. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: lazuardi
+meaning: batu permata berwarna biru kemerah-merahan
+example: Cincinnya bermata *lazuardi*.
+note: Arti kedua: warna biru muda (seperti warna langit). Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: gemintang
+meaning: susunan bintang; peta bintang; rasi
+example: Dari pantai, *gemintang* terlihat jelas malam ini.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: candramawa
+meaning: hitam bercampur putih (tentang warna bulu kucing)
+example: Kucing *candramawa* itu suka tidur di teras.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · Minangkabau
+word: rinai
+meaning: gerimis; rintik-rintik; tetes-tetes (tentang hujan)
+example: *Rinai* hujan menemani perjalanan pulang.
+note: Sumber: KBBI VI Daring
+---
+Sering dikira ada di KBBI
+Swastamita, sandyakala, anindya, dan nabastala tidak ada di KBBI VI Daring. Yang ada: sandikala (Jawa), artinya senja kala.
 ---
 [end]
 Kata indah mana yang paling kamu suka?
