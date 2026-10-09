@@ -1,43 +1,59 @@
 template: dev/paper-light
 lang: id
 title: rotasi dan libero voli
-caption: Rotasi voli berubah di 2025: tim yang servis kini bebas berdiri. Sumber: FIVB Official Volleyball Rules 2025–2028, Rule 7 & 19 #voli #bolavoli #aturanvoli
+caption: Rotasi voli berubah di 2025: tim yang servis kini bebas berdiri. Sumber: FIVB Official Volleyball Rules 2025–2028, Rules 5, 7, 12 & 19; FIVB, uji coba aturan 2026 (27 Feb 2026) #voli #bolavoli #aturanvoli
 ---
-[cover kicker="VOLI • ATURAN 7 & 19" photo=sport-voli-serve-toss]
+[cover photo=sport-voli-serve-toss kicker="VOLI • ATURAN 7 & 19"]
 Rotasi dan Libero, | Dijelaskan
-Termasuk aturan yang berubah di 2025.
+Termasuk aturan yang berubah di 2025, plus uji coba FIVB 2026.
 ---
 [photo=sport-voli-lineup]
 Enam posisi di lapangan
-Depan: posisi 4 (kiri), 3 (tengah), 2 (kanan). Belakang: posisi 5 (kiri), 6 (tengah), 1 (kanan). Pemain di posisi 1 yang melakukan servis.
+Depan: posisi 4 (kiri), 3 (tengah), 2 (kanan). Belakang: posisi 5 (kiri), 6 (tengah), 1 (kanan). Posisi 1 berada di belakang posisi 2, posisi 6 di belakang 3, dan posisi 5 di belakang 4.
 ---
 [photo=sport-voli-lineup]
+Kenapa harus rotasi?
+Urutan servis dikunci susunan awal tiap set. Setiap kali tim merebut hak servis, semua bergeser satu posisi. Jadi semua pemain kebagian servis, dan bergantian main di depan dan di belakang.
+---
+[photo=sport-voli-serve-court]
 Rotasi searah jarum jam
-Saat tim penerima merebut hak servis, semua pemainnya bergeser satu posisi searah jarum jam. Pemain di posisi 2 pindah ke posisi 1 untuk servis.
+Saat tim penerima merebut hak servis, pemainnya bergeser satu posisi searah jarum jam: pemain di posisi 2 pindah ke posisi 1 untuk servis. Selama timnya terus menang reli, pemain yang sama terus servis.
 ---
 [photo=sport-voli-serve-court]
 Berubah di 2025: tim servis bebas
-Sejak aturan FIVB 2025–2028, hanya tim penerima yang harus berada di urutan rotasi saat servis dipukul. Pemain tim yang servis boleh berdiri di posisi mana saja.
+Sejak aturan FIVB 2025–2028, hanya tim penerima yang harus berada di urutan rotasi saat servis dipukul. Pemain tim yang servis boleh berdiri di mana saja. Aturan ini disahkan Kongres Dunia FIVB 2024 di Porto.
+---
+[photo=sport-voli-lineup]
+Posisi dilihat dari kaki
+Untuk tim penerima, posisi dinilai dari kaki yang terakhir menyentuh lantai. Contoh: pemain posisi 6 sah kalau sebagian satu kakinya lebih jauh dari net daripada kaki depan pemain posisi 3. Setelah servis dipukul, semua bebas bergerak.
 ---
 [photo=sport-voli-setter]
-Posisi dilihat dari kaki
-Untuk tim penerima, posisi pemain dinilai dari kaki yang terakhir menyentuh lantai. Setelah servis dipukul, semua pemain bebas bergerak.
+Overlap: cek tetangganya
+Tim penerima dicek per pasangan. Depan–belakang: 4 di depan 5, 3 di depan 6, 2 di depan 1. Kiri–kanan: 4–3–2 dan 5–6–1 harus urut. Pasangan diagonal tidak dicek.
+---
+[photo=sport-voli-serve-court]
+Uji coba 2026: penerima boleh bergerak
+Untuk VNL 2026 dan beberapa kejuaraan, FIVB menguji aturan baru: tim penerima cukup sesuai rotasi saat peluit, lalu boleh bergerak begitu pemain servis mulai bergerak. Ini uji coba, belum masuk buku aturan resmi.
 ---
 [photo=sport-voli-net-block]
 Salah posisi, salah rotasi
-Salah posisi saat servis: lawan dapat poin dan servis. Salah urutan servis juga begitu, dan poin yang dicetak setelah kesalahan itu bisa dibatalkan.
+Tim penerima salah posisi saat servis: lawan dapat poin dan servis. Salah urutan servis juga begitu. Kalau baru ketahuan setelah reli selesai, lawan tetap hanya dapat satu poin, dan poin sesudah kesalahan bisa dibatalkan.
 ---
 [photo=sport-voli-libero-dig]
 Libero: kostum beda warna
-Tim boleh punya sampai dua libero, tapi hanya satu di lapangan. Kostumnya harus berwarna dominan berbeda dari pemain lain. Pergantian libero tidak dihitung sebagai pergantian pemain.
+Tim boleh punya sampai dua libero, tapi hanya satu di lapangan. Kostumnya harus berwarna dominan berbeda dari pemain lain. Di kompetisi senior FIVB, tim dengan lebih dari 12 pemain wajib punya dua libero.
 ---
 [photo=sport-voli-libero-dig]
+Satu reli dulu, baru ganti
+Pergantian libero tidak terbatas dan tidak dihitung sebagai pergantian pemain, tapi harus ada satu reli selesai di antara dua pergantian. Libero masuk dan keluar hanya lewat zona khusus di sisi bangku.
+---
+[photo=sport-voli-net-block]
 Yang tidak boleh dilakukan libero
-Libero hanya menggantikan pemain belakang. Ia tidak boleh servis, blok, atau menyerang bola yang seluruhnya berada di atas tinggi net.
+Libero hanya menggantikan pemain belakang. Ia tidak boleh servis, blok, atau menyerang bola yang seluruhnya di atas tinggi net, dari mana pun, termasuk dari belakang garis serang.
 ---
 [photo=sport-voli-setter]
 Umpan libero di depan
-Kalau libero mengumpan dengan jari dari daerah serang, rekannya tidak boleh menyerang bola itu di atas tinggi net. Kalau umpannya dari belakang garis serang, boleh.
+Kalau libero mengumpan dengan jari dari daerah serang, rekannya tidak boleh menyerang bola itu di atas tinggi net. Umpan bawah dari daerah serang, atau umpan dari belakang garis serang, boleh diserang.
 ---
 [end photo=sport-voli-serve-toss]
 Simpan buat main voli berikutnya.
