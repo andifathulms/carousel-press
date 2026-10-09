@@ -1,43 +1,59 @@
 template: dev/paper-light
 lang: id
 title: offside dijelaskan
-caption: Aturan yang paling sering diperdebatkan, dalam 8 slide. Sumber: IFAB Laws of the Game 2026/27, Law 11 #sepakbola #offside #aturanbola
+caption: Aturan yang paling sering diperdebatkan, dijelaskan pelan-pelan. Sumber: IFAB Laws of the Game 2026/27, Law 11 & Law 5; IFAB Circular 32 (2026); CPL (uji coba 2026); The Conversation (2021) #sepakbola #offside #aturanbola
 ---
-[cover kicker="SEPAK BOLA • PERATURAN 11" photo=sport-offside-line]
+[cover photo=sport-offside-line kicker="SEPAK BOLA • PERATURAN 11"]
 Offside, | Dijelaskan dengan Benar
-Berdiri di posisi offside saja belum tentu pelanggaran.
+Berdiri di posisi offside saja belum tentu pelanggaran. Berdasarkan Laws of the Game 2026/27.
 ---
 [photo=sport-ball-kick]
 Posisi offside bukan pelanggaran
-Peraturannya jelas: berada di posisi offside bukan pelanggaran. Yang dihukum adalah ikut terlibat dalam permainan dari posisi itu.
+Peraturannya jelas: berada di posisi offside bukan pelanggaran. Contoh: penyerang yang offside di sisi jauh tapi tidak menyentuh bola atau mengganggu lawan tidak dihukum.
 ---
 [photo=sport-corner-flag]
 Apa itu posisi offside
-Kamu ada di separuh lapangan lawan, dan bagian kepala, badan, atau kakimu lebih dekat ke garis gawang lawan daripada bola dan lawan kedua terakhir. Biasanya lawan terakhir itu kiper.
+Kamu di separuh lapangan lawan, dan bagian kepala, badan, atau kakimu lebih dekat ke garis gawang lawan daripada bola dan lawan kedua terakhir. Lawan terakhir biasanya kiper, jadi patokannya biasanya bek paling belakang.
 ---
 [photo=sport-level-pair]
 Tangan tidak dihitung
-Tangan dan lengan semua pemain diabaikan, termasuk kiper. Batas lengan ada di garis bawah ketiak, jadi bahu tetap dihitung.
+Tangan dan lengan semua pemain diabaikan, termasuk kiper. Batas lengan ada di garis bawah ketiak. Alasannya, bahu sah dipakai mencetak gol, jadi bahu juga ikut dinilai untuk offside.
 ---
 [photo=sport-level-pair]
 Sejajar berarti onside
-Sejajar dengan lawan kedua terakhir, atau dengan dua lawan terakhir, tidak termasuk posisi offside. Di sini keputusan sering ditentukan beberapa sentimeter.
+Sejajar dengan lawan kedua terakhir, atau dengan dua lawan terakhir, tidak termasuk posisi offside. Posisi dinilai saat rekan setim pertama kali menyentuh bola, dan sering ditentukan beberapa sentimeter.
 ---
 [photo=sport-linesman-flag]
 Kapan dihukum
-Hanya kalau kamu ikut terlibat saat rekan setim memainkan atau menyentuh bola: memainkan bola, mengganggu lawan, atau mendapat keuntungan dari bola pantulan.
+Hanya kalau kamu ikut terlibat saat rekan setim memainkan bola: memainkan bola, mengganggu lawan, atau mengambil keuntungan dari bola yang memantul dari tiang, mistar, wasit, atau lawan.
 ---
 [photo=sport-ball-kick]
+Mengganggu lawan itu seperti apa?
+Contohnya berdiri tepat di depan kiper sehingga menghalangi pandangannya, berebut bola dengan lawan, atau jelas mencoba menjangkau bola dekat yang memengaruhi lawan. Sekadar berada di posisi offside belum cukup.
+---
+[photo=sport-corner-flag]
 Bola dari lawan yang sengaja memainkannya
-Kalau bola datang dari lawan yang sengaja memainkannya, kamu tidak dianggap mendapat keuntungan, meski operannya meleset. Pengecualiannya penyelamatan, misalnya tepisan kiper.
+Kalau lawan sengaja memainkan bola, termasuk operan atau sapuan yang meleset, kamu tidak dianggap mendapat keuntungan. Pengecualiannya penyelamatan oleh lawan mana pun, termasuk bek yang memblok tembakan.
 ---
 [photo=sport-corner-flag]
 Tidak ada offside dari sini
-Langsung dari tendangan gawang, lemparan ke dalam, atau tendangan sudut. Tendangan bebas tidak termasuk, jadi kamu tetap bisa offside dari situ.
+Langsung dari tendangan gawang, lemparan ke dalam, atau tendangan sudut. Tendangan bebas tidak termasuk. Contoh: dari lemparan ke dalam, penyerang yang lebih maju dari semua bek sah menerima bola.
+---
+[photo=sport-linesman-flag]
+Bek keluar lapangan tetap dihitung
+Bek yang keluar lapangan tanpa izin wasit tetap dianggap berdiri di garis gawang atau garis samping. Jadi keluar lapangan tidak bisa dipakai untuk menjebak penyerang offside, dan kalau sengaja, ia dapat kartu kuning.
 ---
 [photo=sport-referee-signal]
 Hukumannya
-Tendangan bebas tidak langsung di tempat pelanggaran terjadi, bahkan kalau itu di separuh lapangan pemain sendiri.
+Tendangan bebas tidak langsung di tempat pelanggaran terjadi, bahkan kalau itu di separuh lapangan pemain sendiri. Contoh: penyerang offside berlari mundur dan menyentuh bola di separuh lapangannya; tendangan bebas diambil di situ.
+---
+[photo=sport-linesman-flag]
+SAOT dan uji coba "daylight"
+Sejak 2026/27, Law 5 resmi mengizinkan teknologi offside semi-otomatis (SAOT). Terpisah dari itu, Liga Kanada 2026 menguji offside "daylight": penyerang baru offside kalau seluruh badannya lebih maju. Ini masih uji coba, bukan aturan resmi.
+---
+[photo=sport-referee-signal]
+Kenapa offside ada?
+Aturan FA 1863 melarang penyerang berdiri di depan bola, supaya tidak ada yang menunggu di depan gawang. Pada 1925 batasnya dikurangi dari tiga lawan menjadi dua, agar gol lebih banyak.
 ---
 [end photo=sport-offside-line]
 Simpan buat debat VAR berikutnya.

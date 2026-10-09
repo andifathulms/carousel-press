@@ -1,43 +1,59 @@
 template: dev/paper-light
 lang: id
 title: handball dijelaskan
-caption: Tidak semua sentuhan tangan itu handball. Sumber: IFAB Laws of the Game 2026/27, Law 12 #sepakbola #handball #aturanbola
+caption: Tidak semua sentuhan tangan itu handball. Sumber: IFAB Laws of the Game 2026/27, Law 12; IFAB Law changes 2021/22 & 2026/27; FIFA & ESPN (Uruguay–Ghana 2010) #sepakbola #handball #aturanbola
 ---
-[cover kicker="SEPAK BOLA • PERATURAN 12" photo=sport-goalkeeper]
+[cover photo=sport-goalkeeper kicker="SEPAK BOLA • PERATURAN 12"]
 Handball, | Dijelaskan dengan Benar
-Tidak semua sentuhan tangan itu pelanggaran.
+Tidak semua sentuhan tangan itu pelanggaran. Berdasarkan Laws of the Game 2026/27.
 ---
 [photo=sport-kids-soccer]
 Tidak semua sentuhan itu pelanggaran
-Peraturannya bilang langsung: tidak setiap sentuhan tangan atau lengan dengan bola adalah pelanggaran. Wasit melihat bagaimana sentuhan itu terjadi.
+Peraturannya bilang langsung: tidak setiap sentuhan tangan atau lengan dengan bola adalah pelanggaran. Lengan yang menempel di badan tidak membuat badan lebih besar, jadi bukan pelanggaran kecuali disengaja.
 ---
 [photo=sport-hands-up]
 Di mana lengan dimulai
-Di garis bawah ketiak. Bola yang mengenai bahu, di atas garis itu, bukan handball.
+Di garis bawah ketiak. Bola yang mengenai bahu, di atas garis itu, bukan handball. Garis yang sama dipakai untuk offside.
+---
+[photo=sport-kids-soccer]
+Sengaja atau tidak sengaja?
+Sengaja: menggerakkan tangan ke arah bola. Bukan pelanggaran: bola mengenai lengan yang posisinya wajar untuk gerakanmu saat itu. Wasit menilai posisi lengan, bukan sekadar bola kena tangan.
 ---
 [photo=sport-handball-1950s]
 Pelanggaran 1: sengaja
-Sengaja menyentuh bola dengan tangan atau lengan. Contoh klasiknya: menggerakkan tangan ke arah bola.
+Sengaja menyentuh bola dengan tangan atau lengan. Contoh klasiknya: menggerakkan tangan ke arah bola. Sentuhan sengaja tetap pelanggaran meski bolanya tidak berbahaya.
 ---
 [photo=sport-handball-1950s]
 Pelanggaran 2: badan dibuat lebih besar
-Kalau posisi lenganmu tidak wajar untuk gerakan badanmu saat itu, kamu mengambil risiko. Bola kena lengan? Pelanggaran.
+Kalau posisi lenganmu tidak wajar untuk gerakan badanmu saat itu, kamu mengambil risiko. Contoh: bek merentangkan kedua lengan ke samping saat menghadang umpan silang, padahal gerakannya tidak memerlukannya.
+---
+[photo=sport-hands-up]
+Bola dari badan sendiri? Saat jatuh?
+Dulu Laws mencantumkan contoh bukan handball, seperti bola memantul dari badan sendiri atau lengan menopang badan saat jatuh. Sejak 2021/22 daftar itu dihapus. Ujiannya kini satu: wajarkah posisi lengan untuk gerakan itu?
 ---
 [photo=sport-hands-up]
 Pelanggaran 3: gol dari tangan
-Mencetak gol langsung dari tangan atau lengan, atau tepat setelah bola menyentuhnya, adalah pelanggaran. Meski tidak sengaja, dan berlaku juga untuk kiper.
+Mencetak gol langsung dari tangan atau lengan, atau tepat setelah bola menyentuhnya, adalah pelanggaran, meski tidak sengaja dan berlaku juga untuk kiper. Contoh: bola memantul ke lengan penyerang lalu langsung ia tendang masuk; golnya dianulir.
 ---
 [photo=sport-kids-soccer]
 Ketidaksengajaan rekan setim tidak dihukum
-Sejak 2021, handball tidak sengaja yang lalu menghasilkan gol rekan setim bukan lagi pelanggaran. Yang dihukum hanya tangan si pencetak gol.
+Sejak 1 Juli 2021, handball tidak sengaja hanya dihukum kalau terjadi pada si pencetak gol. Contoh: bola mengenai tangan gelandang tanpa sengaja, lalu striker mencetak gol; gol itu sah.
 ---
 [photo=sport-keeper-gloves]
 Bagaimana dengan kiper?
-Di luar kotak penaltinya, kiper punya batasan yang sama dengan pemain lain. Di dalam kotaknya sendiri, pelanggaran memegang bola dihukum tendangan bebas tidak langsung, tanpa kartu.
+Di luar kotak penaltinya, kiper punya batasan yang sama dengan pemain lain: menangkap bola di luar kotak berarti tendangan bebas langsung. Di dalam kotaknya, pelanggaran memegang bola dihukum tendangan bebas tidak langsung.
 ---
 [photo=sport-penalty-1950s]
-Hukumannya
-Tendangan bebas langsung, atau penalti di kotak sendiri. Sengaja menggagalkan gol dengan tangan berarti kartu merah, kecuali kiper di kotaknya sendiri.
+Hukuman dan kartunya
+Tendangan bebas langsung, atau penalti di kotak sendiri. Sengaja menggagalkan gol dengan tangan: kartu merah, kecuali kiper di kotaknya. Tidak sengaja di kotak sendiri lalu penalti: cukup kuning; di luar kotak tetap merah.
+---
+[photo=sport-goalkeeper]
+Baru 2026/27: gol masuk, tanpa kartu
+Kalau pemain gagal menahan bola dengan tangan dan bola tetap masuk, golnya sah dan tidak ada kartu kuning lagi. Kalau wasit memberi keuntungan setelah pelanggaran yang menggagalkan peluang emas lalu gol tercipta, pelakunya juga bebas kartu.
+---
+[photo=sport-penalty-1950s]
+Kasus terkenal: Suárez 2010
+Perempat final Piala Dunia, 2 Juli 2010: Luis Suárez menepis bola dengan tangan di garis gawang pada menit terakhir perpanjangan waktu. Kartu merah dan penalti, tapi Asamoah Gyan membentur mistar. Uruguay menang adu penalti.
 ---
 [end photo=sport-goalkeeper]
 Simpan buat debat penalti berikutnya.
