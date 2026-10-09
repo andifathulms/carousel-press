@@ -35,13 +35,13 @@ One line each. Things the specs left open, or deliberate deviations.
 - Whistle Notes decks are Indonesian (owner decision, Oct 2026); rulebook names stay English in captions.
 - `npm run review` writes each batch to disk as it arrives; holding ~2,000 photo-backed PNGs exhausted Node's heap.
 - Posting status (To post / Posted / Skipped) lives in `cp:v1:status`, not in the deck text (no new header keys). A deck made from a sample shares the sample's mark (`s:<sampleId>`); decks written from scratch use `d:<deckId>`. It stays in this browser only, like the rest of the library.
-- History and sports decks may run to 14 slides (owner wants more depth); the parser test allows only the `long-deck` hint for `sejarah-*` and `sports-*` samples and caps them at 14.
+- History, sports and language decks may run to 14 slides (owner wants more depth); the parser test allows only the `long-deck` hint for `sejarah-*`, `sports-*` and `lexicon-*` samples and caps them at 14.
 - History decks follow a "real history" rule (docs/channels.md): uncomfortable events stay in when a source stronger than Wikipedia confirms them; disputed details are marked as disputed or left out.
 - "Save to Photos" uses the Web Share API (`navigator.share` with files), shown only where `canShare` accepts PNGs (iPad/iPhone Safari, macOS Safari). It is not a network request: the OS share sheet takes the files on-device. Rendering outlasts Safari's user-gesture window, so a "ready" dialog asks for a second tap.
 - M7 lexicon: word/table/compare are laid out by one shared module (templates/lexicon/) for every family, so editorial and dev decks can use them too; the `lexicon` family reuses the editorial layout for normal slides and adds paper deco. Shrink-to-fit steps round-robin through SPEC-lexicon's priority order, like DESIGN §3.3.
 - IPA face: `@fontsource/gentium-book-plus/400.css` (latin + latin-ext + greek via unicode-range, not latin-only) because IPA needs ɔ ː ʃ and Greek θ. Every variant's font gate waits for it with an IPA sample. `ipa-glyph-missing` is checked against the bundled unicode ranges (pure), e.g. it rejects the combining U+032C in Cambridge's US /t̬/.
 - Lexicon slides: `icon=` is ignored silently; a `[table]` shows a badge only with an explicit `number=N`; lexicon and dev decks default to no auto icons.
-- New sample category "Language" for English Sehari and Kamus Kecil decks. The SPEC sample covers keep "→" verbatim (owner's spec text) although slides normally avoid Unicode arrows.
+- Sample categories "English" (English Sehari) and "Bahasa Indonesia" (Kamus Kecil) for the lexicon decks. The SPEC sample covers keep "→" verbatim (owner's spec text) although slides normally avoid Unicode arrows.
 
 ## Grammar contract: pre-extraction fixes (Oct 2026)
 

@@ -461,7 +461,7 @@ It should feel like "oh, jadi selama ini aku salah", never like a textbook or a 
 ### Deck recipe
 
 - **Templates:** `lexicon/notebook` (default). Use `deep` surface (`surface=deep`) for the cover/end if no photo.
-- **Length:** cover + 4–6 slides + end, ≤ 10 total.
+- **Length:** cover + 6–12 slides + end, up to 14 slides (past the `long-deck` hint on purpose). Each slide explains with an example; prefer depth over a bare list.
 - **Word-of-the-day deck:** cover → `[word]` → `[table]` (forms, or synonyms/opposites) → `[compare]` (common mistake with it) → `[card]` "Coba pakai: …" prompt → end.
 - **Pattern deck (verbs):** cover → 2–3 `[table]` slides grouped by pattern → `[word]` for the trickiest one → `[compare]` → end.
 - **Salah kaprah deck:** cover → 3–5 `[compare]` slides → end.
@@ -559,7 +559,7 @@ It should feel like "lho, ternyata kata ini dari bahasa Portugis?", never like a
 ### Deck recipe
 
 - **Templates:** `lexicon/kamus` (default). Use `surface=deep` for cover/end if no photo.
-- **Length:** cover + 4–6 slides + end, ≤ 10 total.
+- **Length:** cover + 6–12 slides + end, up to 14 slides (past the `long-deck` hint on purpose). Each slide explains with an example; prefer depth over a bare list.
 - **Kata hari ini deck:** cover → `[word]` (meaning, example, origin) → `[card]` the story behind the word → `[table]` related words or padanan → end.
 - **Serapan deck:** cover → `[table]` (`Kata | Dari | Bentuk asli`) → 2–3 `[word]` slides with `origin:` → end.
 - **Baku deck:** cover → `[table]` (`Baku | Tidak baku`) → 2–3 `[compare]` slides with `wrong-label: Tidak baku` / `right-label: Baku` → end.
