@@ -2,7 +2,8 @@ import { setHeaderKey } from '../core/headerEdit';
 import { slideFileName } from '../core/slug';
 import { type Warning, isBlocking } from '../core/types';
 import { exportSlidePng, exportTestImage, downloadBlob } from '../export/exportPng';
-import { exportAll } from '../export/exportZip';
+import { exportAll, renderAllPngs } from '../export/exportZip';
+import { sharePngs, toPngFiles } from '../export/sharePhotos';
 import { loadFonts } from '../fonts/loadFonts';
 import { createCanvasMeasurer } from '../layout/measure';
 import { makeCanvas } from '../render/ctx';
@@ -15,7 +16,8 @@ import {
 } from '../store/deckFile';
 import type { Controller } from './controller';
 import { decksFromSample, sampleInfo } from './libraryData';
-import { confirmDialog, exportWarningsDialog, promptDialog, toast } from './dialogs';
+import { confirmDialog, exportWarningsDialog, openModal, promptDialog, toast } from './dialogs';
+import { h } from './dom';
 
 /** Blocking warnings for the current deck, from a fresh layout pass with real fonts. */
 async function blockingWarnings(c: Controller): Promise<Warning[]> {
@@ -77,6 +79,35 @@ export async function downloadAll(c: Controller): Promise<void> {
     }, (done, total) => c.store.set({ busy: `Rendering ${done}/${total}…` }));
     downloadBlob(blob, `${s.parsed.deck.slug}.zip`);
   });
+}
+
+/**
+ * Render every slide, then hand the PNGs to the share sheet ("Save N Images"
+ * on iPad puts them in Photos). Rendering outlasts Safari's user-gesture
+ * window, so the sheet opens from a second tap in a "ready" dialog.
+ */
+export async function saveToPhotos(c: Controller): Promise<void> {
+  const s = c.store.get();
+  if (!s.parsed.deck.slides.length || !s.fontsReady) return;
+  if (!(await passGate(c))) return;
+  const rendered = await busy(c, 'Rendering…', () => renderAllPngs({
+    deck: s.parsed.deck, variant: s.variant, icons: deckIcons(s.parsed.deck, s.variant), darkness: s.darkness,
+    getPhoto: (id) => c.photos.photoInput(id),
+  }, (done, total) => c.store.set({ busy: `Rendering ${done}/${total}…` })));
+  if (!rendered) return;
+  const files = toPngFiles(rendered.files);
+  const m = openModal(`${files.length} images ready`);
+  m.body.append(h('p', {}, 'Tap Save to Photos, then choose "Save Images" in the share sheet.'));
+  const save = h('button', { type: 'button', class: 'btn primary', 'data-autofocus': true }, 'Save to Photos');
+  const cancel = h('button', { type: 'button', class: 'btn' }, 'Cancel');
+  cancel.addEventListener('click', () => m.close());
+  save.addEventListener('click', () => {
+    sharePngs(files).then((r) => {
+      m.close();
+      if (r === 'shared') toast(`Shared ${files.length} images`);
+    }, (err: unknown) => toast(err instanceof Error ? err.message : String(err), 'error'));
+  });
+  m.footer.append(cancel, save);
 }
 
 export async function downloadTestImage(c: Controller): Promise<void> {

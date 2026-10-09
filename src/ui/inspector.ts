@@ -1,5 +1,6 @@
 import type { Lang } from '../core/types';
-import { downloadAll, downloadCurrentSlide, downloadTestImage } from './actions';
+import { canSharePngs } from '../export/sharePhotos';
+import { downloadAll, downloadCurrentSlide, downloadTestImage, saveToPhotos } from './actions';
 import type { Controller } from './controller';
 import { copyText, debounce, flash, h, svg } from './dom';
 import { openGallery } from './gallery';
@@ -50,10 +51,13 @@ export function mountInspector(root: HTMLElement, c: Controller): void {
 
   const one = h('button', { type: 'button', class: 'btn' }, svg(UI_ICONS.download), 'Download slide');
   const all = h('button', { type: 'button', class: 'btn primary' }, svg(UI_ICONS.box), 'Download all (ZIP)');
+  // Only where the browser can share files (iPad/iPhone Safari, macOS Safari).
+  const photos = canSharePngs() ? h('button', { type: 'button', class: 'btn' }, svg(UI_ICONS.image), 'Save to Photos') : null;
   const test = h('button', { type: 'button', class: 'btn small ghost' }, 'Safe-zone test image');
   const hint = h('p', { class: 'hint', 'aria-live': 'polite' });
   one.addEventListener('click', () => void downloadCurrentSlide(c));
   all.addEventListener('click', () => void downloadAll(c));
+  photos?.addEventListener('click', () => void saveToPhotos(c));
   test.addEventListener('click', () => void downloadTestImage(c));
 
   root.append(
@@ -63,7 +67,7 @@ export function mountInspector(root: HTMLElement, c: Controller): void {
     group('Photo darkness', h('div', { class: 'range-row' }, dark, darkVal)),
     group('View', toggle('Safe zone', 'showSafe'), toggle('Grid', 'showGrid')),
     h('section', { class: 'group caption-group' }, h('div', { class: 'caption-head' }, h('h3', { class: 'label' }, 'Caption'), capCount, capCopy), caption),
-    h('section', { class: 'group export-group' }, one, all, hint, test),
+    h('section', { class: 'group export-group' }, one, all, ...(photos ? [photos] : []), hint, test),
   );
 
   c.store.watch((s) => s.parsed, (p) => {
@@ -86,6 +90,7 @@ export function mountInspector(root: HTMLElement, c: Controller): void {
     const blocked = !s.fontsReady || !!s.busy || n === 0;
     one.disabled = blocked;
     all.disabled = blocked;
+    if (photos) photos.disabled = blocked;
     hint.textContent = s.busy ?? (s.fontError ? `${s.fontError}. Export is disabled.` : !s.fontsReady ? 'Loading fonts…' : '');
     hint.classList.toggle('error', !!s.fontError);
   };
