@@ -89,3 +89,11 @@ All ten history decks were extended to 12–14 slides. New claims and their main
 - **Kaltim names:** Balikpapan 1942 demolition and massacre (Indische Kamparchieven), 1945 battle (Australian War Memorial), Samarinda's administrative history and Tenggarong 1844 (Sarip & Nandini 2021).
 - **Tambora:** selling children and self-enslavement, Zollinger's estimates, Bali and Lombok, slow recovery (de Jong Boers 1995).
 - **Opu Daeng Risaju:** Andi Kambo, 23 Jan 1946 uprising incl. killings of pro-NICA people, 11 months without trial (Al-Qalam 28(2) 2022; Mattingaragau 2016; Masita dkk. 2022; Republika 2014). The torturer's name is left out (spelling unverified).
+
+## Sports second pass (Oct 2026): decks grown to 14 slides
+
+Checked against the primary rulebooks: IFAB Laws of the Game 2026/27 (+ law-change documents 2020/21, 2021/22, 2025/26, 2026/27; Circular 32), ITF Rules of Tennis 2026 + Grand Slam Rule Book 2026, BWF Laws 2025 and 2027 (worldbadminton.com mirror; BWF releases on the spin serve 2023/2025), FIBA OBR 2026 + Interpretations 2026, NBA rulebook 2026-27 (Rules 4, 7, 10, 14), FIVB Rules 2025–2028 (+ 2026 trial announcement), MCC Laws 2017 Code 4th Ed. (2026) + ICC WTC 2025–27 Playing Conditions.
+
+Corrections made: offside "second-last opponent" wording and the full list of rebounds/saves; accidental handball limited to the scorer; old "ball off own body / falling" exemptions removed in 2021/22; spin-serve ban dates (May 2023, permanent April 2025); "hop" not one-foot take-off; BWF vote counted in weighted votes, not countries; tennis clock theory softened; volleyball positional fault only for the receiving team; back-pass free-kick placement and Law 12.3/12.4 numbering; NBA rulebook 2026-27; MCC 2026 replaced "pitching", not "pitch".
+
+Incidents and history: Suárez 2010 (FIFA, ESPN); offside 1863/1925 (The Conversation, 2021); Isner–Mahut 2010; Ireland–Egypt 1990 (Goal.com 2020, Irish Times 2018, framed as "often cited"); Fort Wayne 19–18 Minneapolis, 22 Nov 1950 (ESPN Classic); Susi Susanti & Alan Budikusuma, Barcelona 1992; 3×15 reactions (NST, JawaPos, FMT 2026). Left out: the year FIBA moved from 30 to 24 seconds, LBW share-of-dismissal stats, the spin serve's inventor.
