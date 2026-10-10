@@ -8,7 +8,7 @@ arab: لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّ�
 text: Orang kuat itu bukanlah yang menang dalam bergulat. Sesungguhnya orang kuat ialah siapa yang dapat menahan dirinya ketika marah.
 ref: HR. Bukhari no. 6114 dan Muslim no. 2609
 grade: Sahih
-source: Dari Abu Hurairah · Terjemahan: HadeethEnc
+source: Dari Abu Hurairah رضي الله عنه · Terjemahan: HadeethEnc
 ---
 [card]
 Renungan

@@ -8,11 +8,11 @@ arab: إِنَّ اللهَ لَا يَنْظُرُ إِلَى صُوَرِكُ�
 text: Sesungguhnya Allah tidak melihat rupa dan harta benda kalian, tetapi Allah melihat hati dan amal perbuatan kalian.
 ref: HR. Muslim no. 2564
 grade: Sahih
-source: Dari Abu Hurairah · Terjemahan: HadeethEnc
+source: Dari Abu Hurairah رضي الله عنه · Terjemahan: HadeethEnc
 ---
 [card]
 Renungan
-Penampilan dan harta tidak menjadi ukuran di sisi Allah Swt. Yang dilihat adalah hati dan amal kita.
+Penampilan dan harta tidak menjadi ukuran di sisi Allah سبحانه وتعالى. Yang dilihat adalah hati dan amal kita.
 ---
 [end]
 Semoga bermanfaat.

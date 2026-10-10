@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { parse } from '../src/core/parser';
 import { ayahMark, pipeLines, toArabicDigits } from '../src/core/ayah';
 import { isBlocking, isHard } from '../src/core/types';
-import { type TextMeasurer, fakeMeasurer } from '../src/layout/measure';
+import { type TextMeasurer, fakeMeasurer, fontString } from '../src/layout/measure';
 import { layoutSlide } from '../src/render/renderSlide';
 import { ROWS, SAFE } from '../src/render/safezone';
 import { getVariant, VARIANTS } from '../src/templates/registry';
@@ -149,5 +149,21 @@ describe('serene family', () => {
   it('no auto icons in serene', () => {
     const d = deck('[cover]\nC\n---\n[card]\nA\n---\n[end]\nE').deck;
     for (const s of d.slides) expect(layoutSlide(s, d, getVariant('serene/fajr'), fakeMeasurer, null, false).icon).toBeNull();
+  });
+});
+
+describe('honorifics (owner rule, Oct 2026)', () => {
+  const dir = new URL('../src/samples/', import.meta.url);
+  const decks = readdirSync(dir).filter((f) => /^(ayat|hadis)-.*\.txt$/.test(f));
+  it('Ayat Harian decks use Arabic honorifics, never Swt./saw./as./ra.', () => {
+    expect(decks.length).toBe(10);
+    for (const f of decks) {
+      const text = readFileSync(new URL(f, dir), 'utf8');
+      expect(text, f).not.toMatch(/\b(swt|saw|a\.s|r\.a)\b/i);
+    }
+  });
+  it('Latin faces fall back to Amiri, so Arabic honorifics never use a system font', () => {
+    expect(fontString({ family: 'Lora', weight: 500, size: 40 })).toBe('500 40px "Lora", "Amiri", Georgia, "Times New Roman", serif');
+    expect(fontString({ family: 'Amiri Quran', weight: 400, size: 40 })).not.toContain('"Amiri",');
   });
 });

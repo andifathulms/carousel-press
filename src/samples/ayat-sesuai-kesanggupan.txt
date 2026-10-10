@@ -12,8 +12,14 @@ portion: true
 mark: off
 ---
 [card]
+Tafsir
+Tidak ada yang berat dalam beragama, dan tidak perlu ada kekhawatiran tentang tanggung jawab atas bisikan-bisikan hati, sebab Allah tidak membebani seseorang melainkan sesuai dengan kesanggupannya.
+
+*Tafsir Ringkas Kemenag RI* · dikutip sebagian
+---
+[card]
 Renungan
-Beban hari ini mungkin terasa berat. Ayat ini mengingatkan kita, Allah Swt. tidak membebani seseorang melebihi kesanggupannya.
+Beban hari ini mungkin terasa berat. Ayat ini mengingatkan kita, Allah سبحانه وتعالى tidak membebani seseorang melebihi kesanggupannya.
 ---
 [end]
 Semoga bermanfaat.

@@ -8,7 +8,7 @@ arab: لَا تَحْقِرَنَّ مِنَ الْمَعْرُوفِ شَيْئ
 text: Janganlah meremehkan kebaikan sedikit pun, walaupun hanya bertemu saudaramu dengan wajah berseri-seri!
 ref: HR. Muslim no. 2626
 grade: Sahih
-source: Dari Abu Dzar · Terjemahan: HadeethEnc
+source: Dari Abu Dzar رضي الله عنه · Terjemahan: HadeethEnc
 ---
 [card]
 Renungan
