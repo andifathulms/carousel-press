@@ -128,3 +128,15 @@ Copied by script on 10 Oct 2026, never typed: Arabic from the Tanzil Uthmani tex
 - Hadith `text` is the Prophet's words inside the quotes of HadeethEnc's Indonesian text (the narrator line moved to `source:`); `arab` is the matn inside « ». Invisible U+200E marks were removed, nothing else.
 - Left out: QS. Az-Zumar [39]: 53, because its Kemenag translation carries footnote 663 ("Semua dosa bisa diampuni Allah Swt., kecuali dosa syirik"), which a single slide wouldn't show.
 - The "Renungan" cards are the account's own short reflections, kept close to the translation, not tafsir.
+
+### Tafsir cards and honorifics (Oct 2026)
+
+- Tafsir: Tafsir Ringkas Kemenag RI, the `tafsir.wajiz` field of `https://web-api.qurankemenag.net/quran-tafsir/<ayah id>` (the API behind quran.kemenag.go.id; ids 1735, 6095, 293, 160, 208, 2053, 193). Every card is a verbatim run of whole sentences, except 2:186 and 17:24, which start mid-sentence ("…"):
+  - 13:28: first sentence (the second repeats the ayah).
+  - 94:5–6: the second sentence of the 94:5 entry. The rest of the entry is about the Prophet's dakwah, and the 94:6 entry repeats the ayah.
+  - 2:286: first sentence (the part about our portion).
+  - 2:153: first two sentences.
+  - 2:201: last sentence (the doa itself is on the ayah slide).
+  - 17:24: the doa part only. The Kemenag entry has a typo ("kasih saying") and an unclosed quote earlier on, which the excerpt leaves out.
+  - 2:186: the part after "maka jawablah bahwa".
+- Honorific phrases were copied from HadeethEnc's Arabic texts: سبحانه وتعالى from the explanation of hadith 4555, رضي الله عنه from the Arabic text of 5351, عليه السلام from the Arabic title of 6222. ﷺ is the Unicode character U+FDFA.

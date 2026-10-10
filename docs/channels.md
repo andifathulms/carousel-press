@@ -627,7 +627,7 @@ It should feel like a quiet moment in a noisy feed: calm, sincere, never preachy
 | Primary action | Save / share |
 | Tone | Calm, warm, humble, hopeful |
 | Voice | A fellow learner sharing a reminder, "pengingat untuk diri sendiri dan kita semua", never a preacher or a judge |
-| Slide types | `ayah`, `hadith`, `card` (renungan), `cover` (series only), `end` |
+| Slide types | `ayah`, `hadith`, `card` (tafsir, renungan), `cover` (series only), `end` |
 
 ### Pillars
 
@@ -645,6 +645,7 @@ It should feel like a quiet moment in a noisy feed: calm, sincere, never preachy
 - **Indonesian translation:** Terjemahan Kemenag RI (quran.kemenag.go.id), quoted verbatim. Cite it in `source:` and in the caption.
 - **Hadith:** only sahih or hasan, with the book + number and a named grading authority. Prefer Bukhari/Muslim. Reliable references: HadeethEnc (hadeethenc.com, which has Indonesian translations and grading) and Sunnah.com. **No hadith that only circulates on social media, no "hadis" without takhrij, no weak or fabricated narrations, even with good messages.**
 - **Ayah portions:** quoting part of an ayah is fine, but mark it (`portion: true`) and never cut it in a way that changes the meaning.
+- **Tafsir card (owner rule, Oct 2026):** every Quran post has a `[card]` headed "Tafsir" between the ayah and the Renungan. Quote Tafsir Ringkas Kemenag RI (the `wajiz` text behind quran.kemenag.go.id) verbatim: the whole entry if it fits, otherwise whole sentences. Mark a cut inside a sentence with "…"; end the card with `*Tafsir Ringkas Kemenag RI*`, plus ` · dikutip sebagian` for an excerpt. Never paraphrase it, and pick sentences that don't change the meaning. Hadith posts have no tafsir card.
 - **Reflection ("Renungan") is not tafsir.** Keep it to 1–2 gentle sentences that stay close to the plain translation, and label the slide "Renungan". If explaining meaning, cite a tafsir (Tafsir Kemenag, Tafsir Ibnu Katsir, Tafsir Al-Muyassar) by name, and keep it short.
 
 ### What this account never does
@@ -660,13 +661,13 @@ It should feel like a quiet moment in a noisy feed: calm, sincere, never preachy
 
 - Language: Indonesian (`lang: id`), gentle and simple: `kita`, `semoga`, `mari`. Use common Indonesian Islamic terms (`ayat`, `hadis`, `doa`, `sabar`, `syukur`).
 - Write surah names the way Kemenag does (e.g. `Ar-Ra'd`, `Al-Baqarah`), formatted `QS. <Surah> [<no>]: <ayat>`.
-- Honorifics: write `Allah Swt.` and `Rasulullah saw.` / `Nabi Muhammad saw.` consistently.
+- **Honorifics in Arabic (owner rule, Oct 2026), never Swt./saw./as./ra.:** `Allah سبحانه وتعالى`, `Nabi Muhammad ﷺ` / `Rasulullah ﷺ` (the single character U+FDFA), a prophet + `عليه السلام`, a sahabah + `رضي الله عنه` (`عنها` for a woman). Join the words of a phrase with no-break spaces (U+00A0) so it never wraps mid-phrase. Copy the phrases from these lines or a source text; the app draws them in Amiri (the bundled Amiri lacks the newer one-character ligatures for the others, so they're written out). This applies to our own text; if a quoted source uses an abbreviation, prefer an excerpt without it.
 - Keep slides short. Arabic + translation is the whole message; the reflection is optional.
 
 ### Deck recipe
 
 - **Templates:** `serene/fajr` (default, morning posts), `serene/isya` (evening posts). Nothing else.
-- **Length:** 1–3 slides. A single `[ayah]` slide is a complete post. The usual shape: `[ayah]` → `[card]` "Renungan" → `[end]`. Tematik series: a `[cover]` with the series name and day ("Sabar · Hari 3").
+- **Length:** 2–4 slides. The usual shape: `[ayah]` → `[card]` "Tafsir" → `[card]` "Renungan" → `[end]`. Tematik series: a `[cover]` with the series name and day ("Sabar · Hari 3") → `[ayah]` → Tafsir → `[end]`. Two short ayat may share one tafsir card after them.
 - **Hadith posts:** `[hadith]` → optional `[card]` "Renungan" → `[end]`.
 - **Long ayat:** if the Arabic doesn't fit (`arabic-too-long`), use a shorter portion. Never split one ayah across slides.
 - **End:** `[end]` with a soft line: `Semoga bermanfaat.` + `Simpan, dan bagikan ke yang sedang butuh.`
@@ -685,6 +686,12 @@ arab: [SALIN TEKS ARAB QS. AR-RA'D 13:28 DARI TANZIL / QURAN KEMENAG]
 terjemah: [SALIN TERJEMAHAN KEMENAG RI UNTUK QS. AR-RA'D 13:28]
 ref: QS. Ar-Ra'd [13]: 28
 source: Terjemahan Kemenag RI
+---
+[card]
+Tafsir
+[SALIN TAFSIR RINGKAS KEMENAG RI UNTUK QS. AR-RA'D 13:28]
+
+*Tafsir Ringkas Kemenag RI*
 ---
 [card]
 Renungan
