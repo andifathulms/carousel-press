@@ -1,6 +1,6 @@
 # Channels: content brief for writing decks
 
-Read this before writing any deck. The owner runs seven TikTok accounts, and every deck is for exactly one of them.
+Read this before writing any deck. The owner runs eight TikTok accounts, and every deck is for exactly one of them.
 If a request names an account ("10 posts for Ruang Rasa", "deck for Whistle Notes"), use that account's section.
 If it doesn't name one, infer it from the topic and say which one you picked:
 
@@ -11,6 +11,7 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 - regional statistics, rankings, "kabupaten mana yang paling…" → **Peta Angka**
 - English vocabulary, grammar, pronunciation for Indonesians → **English Sehari**
 - Indonesian words, KBBI meanings, kata baku, kata serapan → **Kamus Kecil**
+- Quran ayat, hadith, doa, Islamic reminders → **Ayat Harian**
 
 The deck format is PRD §4. This file only says *what* to write and which template/attributes to use. It adds no new syntax.
 
@@ -23,6 +24,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
 | ✏️ English Sehari | `id` (teaches English) | Words, irregular verbs, common mistakes | `lexicon/*` | `lexicon/notebook` |
 | 📖 Kamus Kecil | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
+| 🌙 Ayat Harian | `id` (+ Arabic) | One ayah / hadith a day, calm reminders | `serene/*` | `serene/fajr` |
 
 ---
 
@@ -611,7 +613,95 @@ Tulis di komen, nanti kita bahas.
 
 ---
 
-## 8. Shared rules
+## 8. 🌙 Ayat Harian
+
+**Tagline:** *Satu ayat, satu hari. Pengingat kecil untuk hati.*
+A faceless Indonesian account sharing one Quran ayah (or one authentic hadith) a day, with its translation and a short, gentle reflection.
+It should feel like a quiet moment in a noisy feed: calm, sincere, never preachy, never sensational. The owner's intention is a good deed, so **accuracy matters more than reach**: one wrong letter, wrong translation or fake hadith undoes the purpose.
+
+| | |
+|---|---|
+| Purpose | Share Quran and Sunnah as a daily reminder |
+| Audience | Indonesian Muslims of all ages, busy people scrolling who need a pause |
+| Reader should think | "Ini pas banget buat hari ini." Then save it or send it to someone |
+| Primary action | Save / share |
+| Tone | Calm, warm, humble, hopeful |
+| Voice | A fellow learner sharing a reminder, "pengingat untuk diri sendiri dan kita semua", never a preacher or a judge |
+| Slide types | `ayah`, `hadith`, `card` (renungan), `cover` (series only), `end` |
+
+### Pillars
+
+1. **Ayat hari ini**: one short ayah (or a clearly marked portion) + Kemenag translation + one reflection line.
+2. **Hadis pilihan**: one authentic hadith (sahih/hasan) with takhrij and grading.
+3. **Doa dari Al-Qur'an**: the prayers in the Quran (e.g. "Rabbana…" duas), with when people commonly read them.
+4. **Tematik**: short series on one theme across days (sabar, syukur, orang tua, rezeki, harapan, taubat).
+5. **Kosakata Al-Qur'an**: one Quranic word, its root and meaning, shown in the ayah where it appears (pairs well with learning Arabic).
+6. **Momen**: Jumat, Ramadan, Dzulhijjah, the start of the Hijri year: a fitting ayah or hadith, no dates or rulings beyond what's verified.
+
+### Accuracy rules (non-negotiable)
+
+- **Never write Arabic text, translations or hadith from memory or generate them.** Copy them exactly from the sources below, and list the exact source URL for every ayah/hadith in the reply before the deck. If a source can't be checked, leave a `[SALIN …]` placeholder and tell the owner.
+- **Quran Arabic text:** Tanzil.net (Uthmani text; keep its attribution and don't modify the text) or the Quran Kemenag site (quran.kemenag.go.id). Use one source consistently.
+- **Indonesian translation:** Terjemahan Kemenag RI (quran.kemenag.go.id), quoted verbatim. Cite it in `source:` and in the caption.
+- **Hadith:** only sahih or hasan, with the book + number and a named grading authority. Prefer Bukhari/Muslim. Reliable references: HadeethEnc (hadeethenc.com, which has Indonesian translations and grading) and Sunnah.com. **No hadith that only circulates on social media, no "hadis" without takhrij, no weak or fabricated narrations, even with good messages.**
+- **Ayah portions:** quoting part of an ayah is fine, but mark it (`portion: true`) and never cut it in a way that changes the meaning.
+- **Reflection ("Renungan") is not tafsir.** Keep it to 1–2 gentle sentences that stay close to the plain translation, and label the slide "Renungan". If explaining meaning, cite a tafsir (Tafsir Kemenag, Tafsir Ibnu Katsir, Tafsir Al-Muyassar) by name, and keep it short.
+
+### What this account never does
+
+- No fiqh rulings or fatwas, no khilafiyah debates, no sectarian or political content, no judging groups or people.
+- No "scientific miracle", numerology, dream or viral miracle stories, and no health or cure claims.
+- No guilt or pressure framing ("share kalau kamu beriman", "dosa kalau di-skip").
+- No people or animals in images; no music recommendations in the post. Prefer text-only slides; nature photos rarely, heavily darkened.
+- No affiliate links or product promotion on this account.
+- Before posting, the owner reads every Arabic line against the source. For hadith posts, a check by someone knowledgeable (e.g. a local ustadz) is recommended.
+
+### Writing rules
+
+- Language: Indonesian (`lang: id`), gentle and simple: `kita`, `semoga`, `mari`. Use common Indonesian Islamic terms (`ayat`, `hadis`, `doa`, `sabar`, `syukur`).
+- Write surah names the way Kemenag does (e.g. `Ar-Ra'd`, `Al-Baqarah`), formatted `QS. <Surah> [<no>]: <ayat>`.
+- Honorifics: write `Allah Swt.` and `Rasulullah saw.` / `Nabi Muhammad saw.` consistently.
+- Keep slides short. Arabic + translation is the whole message; the reflection is optional.
+
+### Deck recipe
+
+- **Templates:** `serene/fajr` (default, morning posts), `serene/isya` (evening posts). Nothing else.
+- **Length:** 1–3 slides. A single `[ayah]` slide is a complete post. The usual shape: `[ayah]` → `[card]` "Renungan" → `[end]`. Tematik series: a `[cover]` with the series name and day ("Sabar · Hari 3").
+- **Hadith posts:** `[hadith]` → optional `[card]` "Renungan" → `[end]`.
+- **Long ayat:** if the Arabic doesn't fit (`arabic-too-long`), use a shorter portion. Never split one ayah across slides.
+- **End:** `[end]` with a soft line: `Semoga bermanfaat.` + `Simpan, dan bagikan ke yang sedang butuh.`
+- **Caption:** one gentle line + `Teks: <source> · Terjemahan: Kemenag RI` (or hadith `ref` + grade + source) + 2–3 hashtags (`#ayatharian`, `#pengingatdiri`, `#quran`, `#hadis`).
+- **Arabic in the app: shipped (M8, Oct 2026).** `[ayah]`, `[hadith]`, the Amiri faces and `serene/*` are built (see SPEC-ayah.md), so Arabic is posted through the app. The translation-only card fallback is no longer needed.
+- **How the shipped samples were made:** Arabic copied by script from the Tanzil Uthmani text file (tanzil.net), translations from the Kemenag API behind quran.kemenag.go.id, hadith (Indonesian text, Arabic matn, grade, book number) from HadeethEnc. Nothing was typed by hand; a portion is cut by whole words from the source line. Avoid verse 1 of a surah from the Tanzil file (it carries the basmala) and ayat whose Kemenag translation has a footnote unless the footnote is shown.
+
+```text
+template: serene/fajr
+lang: id
+title: hati yang tenang
+caption: Semoga jadi pengingat untuk kita semua. Teks: Tanzil · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+---
+[ayah]
+arab: [SALIN TEKS ARAB QS. AR-RA'D 13:28 DARI TANZIL / QURAN KEMENAG]
+terjemah: [SALIN TERJEMAHAN KEMENAG RI UNTUK QS. AR-RA'D 13:28]
+ref: QS. Ar-Ra'd [13]: 28
+source: Terjemahan Kemenag RI
+---
+[card]
+Renungan
+Saat pikiran penuh, mungkin yang kita butuhkan bukan jawaban, tapi berhenti sejenak dan mengingat-Nya.
+---
+[end]
+Semoga bermanfaat.
+Simpan, dan bagikan ke yang sedang butuh.
+```
+
+(The placeholders are intentional: the agent must fill them by copying from the sources, never from memory.)
+
+---
+
+---
+
+## 9. Shared rules
 
 - Don't let any account become a content farm: every deck needs a specific angle, not a generic list.
 - No text copied from real TikTok accounts.
@@ -619,7 +709,7 @@ Tulis di komen, nanti kita bahas.
 - Emoji are fine in text (system emoji font); arrows and bookmarks are drawn by the app, don't type them.
 - Icons available for `icon=`: alert, arrow-right, book, bookmark, bug, chat, check-circle, circle-arrow, clock, code, coffee, cpu, database, flower, folder, gift, git-branch, heart, heart-spark, home, key, leaf, lightbulb, map-pin, moon, mountain, music, plane, rocket, shield-heart, smile, star, sun, terminal, umbrella (aliases: shield, pin, branch, bulb, check, spark).
 - When asked for many posts at once, vary pillar, template and opening hook across them.
-- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, English Sehari, Kamus Kecil): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
+- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, English Sehari, Kamus Kecil, Ayat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
   - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
   - No source manifest or source list in the reply is needed for images. Just pick a fitting free image.
@@ -627,9 +717,10 @@ Tulis di komen, nanti kita bahas.
   - Images for sample decks are bundled with the app: save a downscaled JPEG to `src/samples/photos/<photo-id>.jpg` (it fills 1080×1920; wide images cropped to ≤ 2160 px wide), reference it with `photo=<photo-id>`, and set a focal point in `src/samples/photos.ts` if the subject isn't centred. Loading the sample adds it to the photo tray automatically.
 - Out of scope for this app: screen recordings, video demos. Only photo carousels.
 
-## 9. Open items
+## 10. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all seven handles, put `handle:` in every deck header.
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all eight handles, put `handle:` in every deck header.
+- **Ayah & hadith features: shipped (M8, Oct 2026).** `[ayah]`, `[hadith]`, Amiri Quran / Amiri and `serene/fajr` / `serene/isya` are built (see SPEC-ayah.md). Export is blocked with no override when a required field is missing, the Arabic doesn't fit at 48 px, or the Arabic font didn't load.
 - **Lexicon features: shipped (M7, Oct 2026).** `[word]`, `[table]`, `[compare]` and `lexicon/notebook` / `lexicon/kamus` are built (see SPEC-lexicon.md); the card fallbacks in the recipes are no longer needed. Note: KBBI VI Daring now lives at kbbi.kemendikdasmen.go.id, and its etymology labels (Por, Skt…) are only shown to logged-in users, so don't print them unless checked while logged in.
 - **Fonts vs the brand note.** The brand note says Playfair Display + DM Sans; `editorial/rose-dusk` uses Playfair + Poppins (DM Sans is on `midnight`). Tokens follow DESIGN.md, so this is accepted as-is unless the owner wants a variant change.
 - **BPS Papua fix.** No BPS-based Peta Angka decks until the NusaStats ingest fix is merged (26 new-Papua kabupaten were missing from rankings). Dukcapil and DJPK packs are fine now.
