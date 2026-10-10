@@ -107,3 +107,24 @@ Incidents and history: Suárez 2010 (FIFA, ESPN); offside 1863/1925 (The Convers
 
 - **English Sehari:** new items from Cambridge Grammar's "Common mistakes" pages (bored/boring, according to, since/for, more better, enter, surprised), Cambridge/OALD entries (taught, bought, argument, realize, learned adj., -ed adjectives), Cambridge Grammar "Do or make?" (do = process, make = product) and British Council TeachingEnglish (the throat test). Rejected: "join with" (Cambridge lists it as correct), "return back" and "I have ever been" (no source). "Do the dishes" is not US-only; the UK form is "do the washing-up".
 - **Kamus Kecil:** KBBI VI Daring for every new meaning and baku pair; U. Tadmor, World Loanword Database (2009) for the second Portuguese table and the sabun/Sabtu caveat; EYD V Penulisan Kata (Kata Depan, Partikel, Kata Turunan) for the spelling rules. Not in KBBI VI: swastamita, sandyakala, anindya, nabastala, dimana, apapun. Bendera's Portuguese origin was left out (no scholarly source found).
+
+## Ayat Harian (Oct 2026)
+
+Copied by script on 10 Oct 2026, never typed: Arabic from the Tanzil Uthmani text 1.1 (https://tanzil.net, CC BY 3.0, text unmodified), Indonesian from the Kemenag RI translation (the API behind https://quran.kemenag.go.id, e.g. `quran-ayah?surah=13&start=27&limit=1`), hadith from HadeethEnc (API `hadeeths/one/?language=id&id=…` and the hadith page for the book number). The owner should still read every Arabic line against the source before posting (channels.md §8).
+
+| Deck | Text | Source URL |
+|---|---|---|
+| ayat-hati-tenang | QS. Ar-Ra'd [13]: 28 | https://quran.kemenag.go.id/quran/per-ayat/surah/13?from=28&to=28 · https://tanzil.net/#13:28 |
+| ayat-bersama-kesulitan | QS. Asy-Syarh [94]: 5 and 6 | https://quran.kemenag.go.id/quran/per-ayat/surah/94?from=5&to=6 · https://tanzil.net/#94:5 |
+| ayat-sesuai-kesanggupan | QS. Al-Baqarah [2]: 286, first six words (penggalan, up to وُسْعَهَا) + the matching first sentence of the translation | https://quran.kemenag.go.id/quran/per-ayat/surah/2?from=286&to=286 · https://tanzil.net/#2:286 |
+| ayat-sabar-hari-1 | QS. Al-Baqarah [2]: 153 | https://quran.kemenag.go.id/quran/per-ayat/surah/2?from=153&to=153 · https://tanzil.net/#2:153 |
+| ayat-doa-dunia-akhirat | QS. Al-Baqarah [2]: 201 | https://quran.kemenag.go.id/quran/per-ayat/surah/2?from=201&to=201 · https://tanzil.net/#2:201 |
+| ayat-doa-orang-tua | QS. Al-Isra' [17]: 24 | https://quran.kemenag.go.id/quran/per-ayat/surah/17?from=24&to=24 · https://tanzil.net/#17:24 |
+| ayat-aku-dekat | QS. Al-Baqarah [2]: 186 | https://quran.kemenag.go.id/quran/per-ayat/surah/2?from=186&to=186 · https://tanzil.net/#2:186 |
+| hadis-orang-kuat | HR. Bukhari no. 6114 dan Muslim no. 2609, Sahih (Muttafaq 'alaih), from Abu Hurairah | https://hadeethenc.com/id/browse/hadith/5351 |
+| hadis-wajah-berseri | HR. Muslim no. 2626, Sahih, from Abu Dzar | https://hadeethenc.com/id/browse/hadith/5348 |
+| hadis-hati-dan-amal | HR. Muslim no. 2564, Sahih, from Abu Hurairah | https://hadeethenc.com/id/browse/hadith/4555 |
+
+- Hadith `text` is the Prophet's words inside the quotes of HadeethEnc's Indonesian text (the narrator line moved to `source:`); `arab` is the matn inside « ». Invisible U+200E marks were removed, nothing else.
+- Left out: QS. Az-Zumar [39]: 53, because its Kemenag translation carries footnote 663 ("Semua dosa bisa diampuni Allah Swt., kecuali dosa syirik"), which a single slide wouldn't show.
+- The "Renungan" cards are the account's own short reflections, kept close to the translation, not tafsir.
