@@ -4,9 +4,10 @@ import { layoutLexSlide } from '../lexicon/lexDispatch';
 import { layoutArabicSlide } from '../serene/arabicLayout';
 import { prepareCode } from '../../layout/codeFit';
 import { type CodeSpec, type StackItem, type TextSpec, fitStack } from '../../layout/stack';
-import { type Box, CONTENT_W } from '../../render/safezone';
+import { legibleMin } from '../../layout/measure';
+import { type Box, CONTENT_W, ROWS } from '../../render/safezone';
 import {
-  CHROME, type LayoutInput, type SlideLayout, ctaLabel, ctaWidth, frameFrom, layoutFooter, layoutHeader,
+  CHROME, type LayoutInput, type SlideLayout, ctaLabel, ctaWidth, centerStack, frameFrom, layoutFooter, layoutHeader,
   resolveSurface, stackBoxes, stackWarnings, withPrefix,
 } from '../common';
 
@@ -18,7 +19,8 @@ export const TYPE = {
   coverSubtitle: { weight: 400, max: 40, min: 32, step: 2, lh: 1.45, maxLines: 3 },
   cardHeadline: { weight: 700, max: 84, min: 60, step: 4, lh: 1.12, maxLines: 5, widowFix: true },
   codeHeadline: { weight: 700, max: 72, min: 56, step: 4, lh: 1.12, maxLines: 3, widowFix: true },
-  body: { weight: 400, max: 40, min: 30, step: 2, lh: 1.5, maxLines: 6 },
+  // body min 30 → 32 for phone legibility (owner, Oct 2026).
+  body: { weight: 400, max: 40, min: 32, step: 2, lh: 1.5, maxLines: 6 },
   note: { weight: 400, max: 32, min: 30, step: 2, lh: 1.45, maxLines: 3 },
   quote: { weight: 600, max: 68, min: 48, step: 4, lh: 1.2, maxLines: 7, widowFix: true },
   endHeadline: { weight: 800, max: 108, min: 76, step: 4, lh: 1.06, maxLines: 4, widowFix: true },
@@ -62,7 +64,7 @@ export function layoutDev(input: LayoutInput): SlideLayout {
   const hw = v.headlineWeight;
   const spec = (s: Spec, headline = false): TextSpec => {
     const weight = headline && hw ? hw : s.weight;
-    return { ...s, weight, family: sans, mono: { family: mono, weight: weight >= 600 ? 600 : 400 } };
+    return { ...s, min: legibleMin(s.min, sans), weight, family: sans, mono: { family: mono, weight: weight >= 600 ? 600 : 400 } };
   };
   const items: StackItem[] = [];
   const push = (it: StackItem): void => {
@@ -148,6 +150,7 @@ export function layoutDev(input: LayoutInput): SlideLayout {
   }
 
   const stack = fitStack(items, frameFrom(top), m);
+  centerStack(stack, slide.type === 'cover' ? top : ROWS.stackTopCard, onPhoto);
   const header = layoutHeader(input, sans, mono, boxes);
   const footer = layoutFooter(input, sans, mono, boxes, false);
   boxes.push(...stackBoxes(stack));

@@ -138,6 +138,14 @@ export function lexBoxes(els: readonly LexEl[]): Box[] {
   return out;
 }
 
+/** Shift every element down by `dy`. */
+export function shiftEls(els: LexEl[], dy: number): void {
+  for (const e of els) {
+    if (e.k === 'star') e.cy += dy;
+    else if ('y' in e) e.y += dy;
+  }
+}
+
 /** Rich text for a raw string drawn verbatim (no inline rules), e.g. IPA. */
 export function plainRich(text: string): Rich {
   return [[[{ text, style: 'plain' }]]];

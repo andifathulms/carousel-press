@@ -156,6 +156,29 @@ export function withPrefix(rich: Rich, prefix: string | undefined): Rich {
 }
 
 /** Content-stack frame from a top anchor. */
+/** Where every vertical gap snaps (DESIGN §2 base grid). */
+const GRID_STEP = 8;
+
+/**
+ * Centre a stack that fits in the content band [bandTop, stackLimit] (owner, Oct 2026): short
+ * slides no longer leave the lower half empty. Photo slides stay top-anchored (the photo gradient
+ * is darkest at the top), and an overflowing stack is left where it is. Returns the shift applied.
+ */
+export function centerStack(stack: StackResult, bandTop: number, onPhoto: boolean): number {
+  const first = stack.placed[0];
+  if (onPhoto || stack.overflow || !first) return 0;
+  const dy = centeredShift(first.y, stack.bottom, bandTop);
+  for (const p of stack.placed) p.y += dy;
+  stack.bottom += dy;
+  return dy;
+}
+
+/** Shift that centres a block spanning [top, bottom] in [bandTop, stackLimit], on the 8 px grid, never above bandTop. */
+export function centeredShift(top: number, bottom: number, bandTop: number): number {
+  const centred = bandTop + Math.floor((ROWS.stackLimit - bandTop - (bottom - top)) / 2 / GRID_STEP) * GRID_STEP;
+  return Math.max(bandTop, centred) - top;
+}
+
 export function frameFrom(top: number): { x: number; width: number; top: number; limit: number } {
   return { x: SAFE.left, width: CONTENT_W, top, limit: ROWS.stackLimit };
 }

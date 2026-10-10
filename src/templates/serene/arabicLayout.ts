@@ -3,10 +3,10 @@ import { ayahMark, pipeLines } from '../../core/ayah';
 import { t } from '../../core/strings';
 import type { Rich, Warning } from '../../core/types';
 import { withAlpha } from '../../core/color';
-import type { TextMeasurer } from '../../layout/measure';
+import { type TextMeasurer, legibleMin } from '../../layout/measure';
 import { type Box, CONTENT_W, ROWS, SAFE } from '../../render/safezone';
 import { type LayoutInput, type SlideLayout, layoutFooter, layoutHeader, resolveSurface } from '../common';
-import { type LexEl, lexBoxes, plainRich, trackedW, wrapBlock } from '../lexicon/lexLayout';
+import { type LexEl, lexBoxes, plainRich, shiftEls, trackedW, wrapBlock } from '../lexicon/lexLayout';
 import type { Surface } from '../types';
 
 export const AYAH_FACE = 'Amiri Quran';
@@ -21,18 +21,19 @@ export const AYAH = {
   star: { size: 56, width: 2, alpha: 0.7, gap: 48 },
   arab: { max: 76, min: 48, step: 4, lh: 2.1, baseline: 1.3, gap: 56 },
   divider: { w: 120, h: 2, alpha: 0.6, gap: 48 },
-  terjemah: { weight: 500, max: 42, min: 32, step: 2, lh: 1.5, maxLines: 7, gap: 32 },
+  // Minimums raised for phone legibility (owner, Oct 2026): terjemah/text 32 → 34, source 24 → 28, grade 24 → 26.
+  terjemah: { weight: 500, max: 42, min: 34, step: 2, lh: 1.5, maxLines: 7, gap: 32 },
   ref: { size: 30, weight: 600, lh: 1.3, gap: 10 },
-  source: { size: 24, weight: 400, lh: 1.3 },
+  source: { size: 28, weight: 400, lh: 1.3 },
 };
 
 export const HADITH = {
   pill: { size: 24, weight: 600, tracking: 3, padX: 22, h: 48, gap: 40 },
   arab: { max: 56, min: 40, step: 4, lh: 2.0, baseline: 1.25, gap: 40 },
-  text: { weight: 500, max: 44, min: 32, step: 2, lh: 1.5, maxLines: 8, gap: 32 },
+  text: { weight: 500, max: 44, min: 34, step: 2, lh: 1.5, maxLines: 8, gap: 32 },
   ref: { size: 30, weight: 600, lh: 1.3, gap: 16 },
-  grade: { size: 24, weight: 600, padX: 18, h: 46, radius: 23, gapX: 20, gap: 10 },
-  source: { size: 24, weight: 400, lh: 1.3 },
+  grade: { size: 26, weight: 600, padX: 18, h: 46, radius: 23, gapX: 20, gap: 10 },
+  source: { size: 28, weight: 400, lh: 1.3 },
 };
 
 const MARK_GAP = 0.3;
@@ -206,14 +207,6 @@ function withBody(src: string | undefined): Rich {
   return src ? pipeLines(src) : [];
 }
 
-/** Shift every element down by `dy`. */
-function shift(els: LexEl[], dy: number): void {
-  for (const e of els) {
-    if (e.k === 'star') e.cy += dy;
-    else if ('y' in e) e.y += dy;
-  }
-}
-
 export function layoutArabicSlide(input: LayoutInput): SlideLayout {
   const { slide, deck, variant: v, measurer: m } = input;
   const warnings: Warning[] = [];
@@ -222,7 +215,8 @@ export function layoutArabicSlide(input: LayoutInput): SlideLayout {
   const c: Ctx = { s: surface, m, serif: v.fonts.serif ?? v.fonts.sans, sans: v.fonts.sans, mono: v.fonts.mono, lang: deck.lang };
   const isAyah = slide.type === 'ayah';
   const f = slide.fields;
-  const spec = isAyah ? { arab: AYAH.arab, text: AYAH.terjemah } : { arab: HADITH.arab, text: HADITH.text };
+  const base = isAyah ? { arab: AYAH.arab, text: AYAH.terjemah } : { arab: HADITH.arab, text: HADITH.text };
+  const spec = { arab: base.arab, text: { ...base.text, min: legibleMin(base.text.min, c.serif) } };
   const build = isAyah ? buildAyah : buildHadith;
   const avail = AYAH.bottom - AYAH.top;
   const warn = (code: Warning['code'], message: string): void => {
@@ -254,7 +248,7 @@ export function layoutArabicSlide(input: LayoutInput): SlideLayout {
   }
   // Centre the stack vertically in the content area (calm, SPEC-ayah §4); top-anchored when it overflows.
   const top = overflow ? AYAH.top : AYAH.top + Math.max(0, Math.round((avail - b.h) / 2));
-  shift(b.els, top);
+  shiftEls(b.els, top);
 
   const header = layoutHeader(input, c.sans, c.mono, boxes);
   const footer = layoutFooter(input, c.sans, c.mono, boxes, v.family !== 'dev');

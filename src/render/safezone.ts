@@ -18,8 +18,9 @@ export const ROWS = {
   headerBaseline: 236,
   stackTopCard: 344,
   stackTopCover: 300,
-  stackLimit: 1400,
-  footerBaseline: 1472,
+  // Footer and stack limit moved up 32 px from DESIGN §2 (1472/1400) for more room above TikTok's caption (owner, Oct 2026).
+  stackLimit: 1376,
+  footerBaseline: 1440,
 };
 
 export const GRID = 8;

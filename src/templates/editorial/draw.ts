@@ -9,7 +9,7 @@ import { CONTENT_W } from '../../render/safezone';
 import { drawTracked, setFont, setShadow, truncateToWidth } from '../../render/text';
 import type { SlideLayout } from '../common';
 import { drawLex } from '../../render/lexDraw';
-import { FIXED } from './layout';
+import { FIXED, STACK } from './layout';
 
 /** Draw an editorial slide whose background (flat colour or photo) is already painted. */
 export function drawEditorial(ctx: Ctx, L: SlideLayout): void {
@@ -34,7 +34,7 @@ export function drawEditorial(ctx: Ctx, L: SlideLayout): void {
     setShadow(ctx, false);
     setFont(ctx, { family: serif, weight: q.weight, size: q.size });
     ctx.fillStyle = withAlpha(s.accent, q.alpha);
-    ctx.fillText('“', q.x, q.top + q.size * 0.72);
+    ctx.fillText('“', q.x, quoteMarkTop(L, q.top) + q.size * 0.72);
   }
 
   drawHeader(ctx, L, s.body, s.muted);
@@ -95,4 +95,9 @@ export function drawEditorial(ctx: Ctx, L: SlideLayout): void {
     }
   }
   ctx.restore();
+}
+
+/** The big quote mark keeps its DESIGN offset above the quote stack, wherever the stack was centred. */
+function quoteMarkTop(L: SlideLayout, designTop: number): number {
+  return (L.stack.placed[0]?.y ?? STACK.quoteTop) - (STACK.quoteTop - designTop);
 }

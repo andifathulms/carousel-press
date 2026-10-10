@@ -1,8 +1,9 @@
 // word/table/compare slides in any family (SPEC-lexicon §4): header, footer and the lexicon stack.
 import type { Warning } from '../../core/types';
 import type { Box } from '../../render/safezone';
-import { type LayoutInput, type SlideLayout, layoutFooter, layoutHeader, resolveSurface } from '../common';
-import { lexBoxes } from './lexLayout';
+import { type LayoutInput, type SlideLayout, centeredShift, layoutFooter, layoutHeader, resolveSurface } from '../common';
+import { lexBoxes, shiftEls } from './lexLayout';
+import { ROWS } from '../../render/safezone';
 import { type LexCtx, layoutCompare, layoutWord } from './lexSlides';
 import { layoutTable } from './lexTable';
 import { lexTokens } from './tokens';
@@ -21,6 +22,13 @@ export function layoutLexSlide(input: LayoutInput): SlideLayout {
   const lex = slide.type === 'word' ? layoutWord(c, slide.fields)
     : slide.type === 'compare' ? layoutCompare(c, slide.fields)
       : layoutTable(c, slide.table ?? { header: [], rows: [] }, slide.headlineSrc, slide.fields.note ?? '', slide.badge);
+  // Centre a fitting stack in the content band like normal slides (owner, Oct 2026); photo slides stay top-anchored.
+  const first = lex.els.find((e) => 'y' in e) as { y: number } | undefined;
+  if (!lex.overflow && !onPhoto && first) {
+    const dy = centeredShift(first.y, lex.bottom, ROWS.stackTopCard);
+    shiftEls(lex.els, dy);
+    lex.bottom += dy;
+  }
   if (lex.overflow) warnings.push({ code: 'overflow', slideIndex: slide.index, line: slide.lines[0], message: `Slide ${slide.index + 1}: text doesn't fit` });
 
   const header = layoutHeader(input, sans, mono, boxes);

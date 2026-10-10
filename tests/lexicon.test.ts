@@ -91,8 +91,8 @@ describe('layout', () => {
     const size = (i: number) => (texts[i]!.k === 'text' ? texts[i]!.size : 0);
     const [head, , , , , translation] = [0, 1, 2, 3, 4, 5].map(size);
     // Round-robin from the low-priority end (like DESIGN §3.3): translation hits its minimum, the headword keeps most of its size.
-    expect(translation).toBe(28);
-    expect(head).toBeGreaterThan(120);
+    expect(translation).toBe(30);
+    expect(head).toBeGreaterThan(104); // min 96: the headword shrinks least
     expect(L.stack.overflow).toBe(false);
   });
   it('table: shared row size, columns fill the content width', () => {

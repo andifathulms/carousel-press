@@ -1,9 +1,9 @@
 import { isEmptyRich } from '../../core/inline';
 import { prepareCode } from '../../layout/codeFit';
 import { type CodeSpec, type StackItem, type TextSpec, fitStack } from '../../layout/stack';
-import { type Box, CONTENT_W } from '../../render/safezone';
+import { type Box, CONTENT_W, ROWS } from '../../render/safezone';
 import {
-  CHROME, type LayoutInput, type SlideLayout, ctaLabel, ctaWidth, frameFrom, layoutFooter, layoutHeader,
+  CHROME, type LayoutInput, type SlideLayout, ctaLabel, ctaWidth, centerStack, frameFrom, layoutFooter, layoutHeader,
   resolveSurface, stackBoxes, stackWarnings,
 } from '../common';
 import { type Warning, isArabicType, isLexType } from '../../core/types';
@@ -18,7 +18,8 @@ export const TYPE = {
   coverHeadline: { face: 'serif', weight: 700, max: 120, min: 84, step: 4, lh: 1.06, maxLines: 5, widowFix: true },
   coverSubtitle: { face: 'sans', weight: 400, max: 40, min: 32, step: 2, lh: 1.45, maxLines: 3 },
   cardHeadline: { face: 'serif', weight: 700, max: 92, min: 64, step: 4, lh: 1.12, maxLines: 6, widowFix: true },
-  body: { face: 'sans', weight: 400, max: 42, min: 32, step: 2, lh: 1.5, maxLines: 8 },
+  // body min 32 → 34 for phone legibility (owner, Oct 2026).
+  body: { face: 'sans', weight: 400, max: 42, min: 34, step: 2, lh: 1.5, maxLines: 8 },
   note: { face: 'sans', weight: 400, max: 32, min: 30, step: 2, lh: 1.45, maxLines: 3 },
   quote: { face: 'serif', weight: 600, max: 76, min: 52, step: 4, lh: 1.18, maxLines: 7, widowFix: true },
   endHeadline: { face: 'serif', weight: 700, max: 108, min: 76, step: 4, lh: 1.08, maxLines: 4, widowFix: true },
@@ -134,6 +135,7 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
   }
 
   const stack = fitStack(items, frameFrom(top), m);
+  centerStack(stack, slide.type === 'cover' ? top : ROWS.stackTopCard, onPhoto);
   if (opts.center) {
     for (const p of stack.placed) if (p.item.kind !== 'code') p.x = SAFE.left + (CONTENT_W - p.w) / 2;
   }

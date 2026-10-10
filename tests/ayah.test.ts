@@ -104,7 +104,7 @@ describe('layout', () => {
     expect(ar.k === 'arabic' && ar.lines.join(' ')).toBe(long);
   });
   it('a long translation drops the source first, then shrinks the translation, before the Arabic', () => {
-    const d = deck(`[ayah]\narab: ${ARAB}\nterjemah: ${'kata '.repeat(70)}\nref: QS. Contoh [1]: 2\nsource: Terjemahan Kemenag RI`).deck;
+    const d = deck(`[ayah]\narab: ${ARAB}\nterjemah: ${'kata '.repeat(50)}\nref: QS. Contoh [1]: 2\nsource: Terjemahan Kemenag RI`).deck;
     const L = layoutSlide(d.slides[0]!, d, getVariant('serene/fajr'), fakeMeasurer, null, false);
     const texts = L.lex!.els.filter((e) => e.k === 'text');
     expect(texts.some((e) => e.k === 'text' && e.lines.some((l) => l.runs.some((r) => r.text.includes('Kemenag'))))).toBe(false);

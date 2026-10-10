@@ -16,6 +16,14 @@ export function isMonoFamily(family: string): boolean {
   return /mono/i.test(family);
 }
 
+/**
+ * Legibility floor for a face: monospace glyphs are ~15% wider than sans, so a mono face
+ * reads like sans at about 2 px more. Minimum sizes are written for proportional faces.
+ */
+export function legibleMin(min: number, family: string): number {
+  return isMonoFamily(family) ? min - 2 : min;
+}
+
 /** Generic fallbacks per face. The real faces are always loaded before export. */
 export function fallbackStack(family: string): string {
   if (isMonoFamily(family)) return 'ui-monospace, Menlo, Consolas, monospace';
