@@ -23,9 +23,13 @@ export function fallbackStack(family: string): string {
   return 'system-ui, -apple-system, "Segoe UI", sans-serif';
 }
 
-/** Full CSS/canvas font string, e.g. `700 92px "Playfair Display", Georgia, serif`. */
+/** Arabic inside Latin text (honorifics such as ﷺ) falls through to the bundled Amiri face (arabic subset only). */
+export const ARABIC_FALLBACK = 'Amiri';
+
+/** Full CSS/canvas font string, e.g. `700 92px "Playfair Display", "Amiri", Georgia, serif`. */
 export function fontString(f: FontSpec): string {
-  return `${f.weight} ${f.size}px "${f.family}", ${fallbackStack(f.family)}`;
+  const arabic = f.family === ARABIC_FALLBACK || f.family === 'Amiri Quran' ? '' : `"${ARABIC_FALLBACK}", `;
+  return `${f.weight} ${f.size}px "${f.family}", ${arabic}${fallbackStack(f.family)}`;
 }
 
 /** Minimal surface of a 2D context needed to measure text. */

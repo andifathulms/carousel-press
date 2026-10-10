@@ -27,8 +27,8 @@ async function main(): Promise<void> {
     await page.waitForFunction(() => typeof window.__review === 'function');
     // One template × sample per call, written to disk straight away: holding every PNG at once
     // exceeds Playwright's message limit and Node's heap.
-    const templates = (await page.evaluate(() => window.__reviewTemplates!)) as string[];
-    const samples = (await page.evaluate(() => window.__reviewSamples!)) as string[];
+    const templates = only((await page.evaluate(() => window.__reviewTemplates!)) as string[], process.env.REVIEW_TEMPLATES);
+    const samples = only((await page.evaluate(() => window.__reviewSamples!)) as string[], process.env.REVIEW_SAMPLES);
     rmSync(out, { recursive: true, force: true });
     const rows: string[] = [];
     const warnings: Record<string, Item['warnings']> = {};
@@ -57,6 +57,12 @@ async function main(): Promise<void> {
     await browser.close();
     server.httpServer.close();
   }
+}
+
+/** Optional comma-separated prefix filter, e.g. REVIEW_SAMPLES=ayat-,hadis- npm run review. */
+function only(ids: string[], filter: string | undefined): string[] {
+  const prefixes = filter?.split(',').map((x) => x.trim()).filter(Boolean) ?? [];
+  return prefixes.length ? ids.filter((id) => prefixes.some((p) => id.startsWith(p))) : ids;
 }
 
 // SAFE = { left: 96, right: 912, top: 196, bottom: 1500 } on 1080×1920, drawn as a % overlay.
