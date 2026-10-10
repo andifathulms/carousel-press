@@ -20,6 +20,13 @@ import '@fontsource/jetbrains-mono/latin-600.css';
 import '@fontsource/jetbrains-mono/latin-700.css';
 // IPA face for word slides (SPEC-lexicon §3.1): latin + latin-ext + greek via unicode-range.
 import '@fontsource/gentium-book-plus/400.css';
+// Serif 500 for ayah/hadith translations (SPEC-ayah §3).
+import '@fontsource/lora/latin-500.css';
+import '@fontsource/playfair-display/latin-500.css';
+// Arabic faces (SPEC-ayah §2): Amiri Quran for ayat, Amiri for hadith. Arabic subset only.
+import '@fontsource/amiri-quran/arabic-400.css';
+import '@fontsource/amiri/arabic-400.css';
+import { ARABIC_SAMPLE, AYAH_FACE, HADITH_FACE } from '../templates/serene/arabicLayout';
 
 import type { Variant } from '../templates/types';
 
@@ -44,8 +51,8 @@ export function facesFor(v: Variant): Face[] {
       if (!faces.some((f) => f.family === family && f.weight === weight)) faces.push({ family, weight });
     }
   };
-  if (v.family === 'editorial' || v.family === 'lexicon') {
-    add(v.fonts.serif, [600, 700]);
+  if (v.family !== 'dev') {
+    add(v.fonts.serif, [500, 600, 700]);
     add(v.fonts.sans, [400, 500, 600]);
     add(v.fonts.mono, [400, 500, 600]);
   } else {
@@ -54,6 +61,8 @@ export function facesFor(v: Variant): Face[] {
   }
   // Word slides can appear in any template, so every variant gates on the IPA face.
   faces.push({ family: 'Gentium Book Plus', weight: 400, text: IPA_SAMPLE });
+  // Ayah/hadith slides can appear in any template too.
+  faces.push({ family: AYAH_FACE, weight: 400, text: ARABIC_SAMPLE }, { family: HADITH_FACE, weight: 400, text: ARABIC_SAMPLE });
   return faces;
 }
 

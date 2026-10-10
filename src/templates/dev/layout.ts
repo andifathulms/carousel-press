@@ -1,6 +1,7 @@
 import { isEmptyRich } from '../../core/inline';
-import { type Warning, isLexType } from '../../core/types';
+import { type Warning, isArabicType, isLexType } from '../../core/types';
 import { layoutLexSlide } from '../lexicon/lexDispatch';
+import { layoutArabicSlide } from '../serene/arabicLayout';
 import { prepareCode } from '../../layout/codeFit';
 import { type CodeSpec, type StackItem, type TextSpec, fitStack } from '../../layout/stack';
 import { type Box, CONTENT_W } from '../../render/safezone';
@@ -50,6 +51,7 @@ export const STACK = {
 
 export function layoutDev(input: LayoutInput): SlideLayout {
   if (isLexType(input.slide.type)) return layoutLexSlide(input);
+  if (isArabicType(input.slide.type)) return layoutArabicSlide(input);
   const { slide, deck, variant: v, measurer: m } = input;
   const sans = v.fonts.sans;
   const mono = v.fonts.mono;

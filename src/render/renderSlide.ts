@@ -6,6 +6,7 @@ import { type TextMeasurer, createCanvasMeasurer } from '../layout/measure';
 import type { SlideLayout } from '../templates/common';
 import { getFamily } from '../templates/registry';
 import type { Variant } from '../templates/types';
+import { faceAvailable } from './fontCheck';
 import { type PhotoInput, drawPhoto } from './photo';
 import { type Box, CANVAS, CONTENT_W, ROWS, SAFE } from './safezone';
 
@@ -45,7 +46,7 @@ export function deckIcons(deck: Deck, variant: Variant): (PoolIcon | null)[] {
  * export both call this, on different canvases.
  */
 export function renderSlide(ctx: Ctx, slide: Slide, deck: Deck, variant: Variant, assets: RenderAssets): RenderResult {
-  const measurer = createCanvasMeasurer(ctx);
+  const measurer = createCanvasMeasurer(ctx, faceAvailable);
   const L = layoutSlide(slide, deck, variant, measurer, assets.icon, !!assets.photo);
 
   ctx.save();
@@ -55,7 +56,9 @@ export function renderSlide(ctx: Ctx, slide: Slide, deck: Deck, variant: Variant
   ctx.textAlign = 'left';
   ctx.fillStyle = L.onPhoto ? variant.onPhoto.tint : L.surface.bg;
   ctx.fillRect(0, 0, CANVAS.w, CANVAS.h);
-  if (assets.photo) drawPhoto(ctx, assets.photo, assets.darkness, variant.onPhoto.tint);
+  // Serene photos are always heavily darkened (SPEC-ayah §3.3).
+  const darkness = Math.max(variant.deco.minDarkness ?? 0, assets.darkness);
+  if (assets.photo) drawPhoto(ctx, assets.photo, darkness, variant.onPhoto.tint);
 
   getFamily(variant.family).draw(ctx, L);
 

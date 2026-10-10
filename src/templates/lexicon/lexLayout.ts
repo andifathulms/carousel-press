@@ -16,7 +16,18 @@ export type LexEl =
     highlight?: string;
     /** Strike through each line (compare: wrong). */
     strike?: boolean;
+    /** Centre each line in [x, x + centerW] (ayah slides). */
+    centerW?: number;
   }
+  | {
+    /** Arabic lines drawn right-to-left, verbatim. `widths` excludes the end-of-ayah mark. */
+    k: 'arabic'; x: number; y: number; w: number; lines: string[]; widths: number[]; size: number; lh: number;
+    /** First baseline below each line's top, in em (room for the marks above). */
+    baseline: number;
+    family: string; color: string; align: 'center' | 'right';
+    mark: { text: string; w: number; gap: number; color: string } | null;
+  }
+  | { k: 'star'; cx: number; cy: number; size: number; color: string; width: number }
   | { k: 'label'; x: number; y: number; text: string; font: FontSpec; color: string; tracking: number }
   | { k: 'pill'; x: number; y: number; w: number; h: number; text: string; font: FontSpec; color: string; tracking: number; padX: number }
   | { k: 'badge'; x: number; y: number; w: number; h: number; text: string; font: FontSpec; bg: string; ink: string; radius: number }
@@ -103,7 +114,15 @@ export function lexBoxes(els: readonly LexEl[]): Box[] {
     switch (e.k) {
       case 'text': {
         const w = e.lines.reduce((a, l) => Math.max(a, l.width), 0);
-        out.push({ x: e.x, y: e.y, w, h: textHeight(e.lines, e.size, e.lh), kind: 'lex-text' });
+        const x = e.centerW === undefined ? e.x : e.x + (e.centerW - w) / 2;
+        out.push({ x, y: e.y, w, h: textHeight(e.lines, e.size, e.lh), kind: 'lex-text' });
+        break;
+      }
+      case 'arabic': {
+        const full = e.widths.map((w, i) => w + (e.mark && i === e.widths.length - 1 ? e.mark.gap + e.mark.w : 0));
+        const w = Math.max(0, ...full);
+        const x = e.align === 'center' ? e.x + (e.w - w) / 2 : e.x + e.w - w;
+        out.push({ x, y: e.y, w, h: e.lines.length * e.size * e.lh, kind: 'arabic' });
         break;
       }
       case 'pill': case 'badge': case 'rect': case 'frame':

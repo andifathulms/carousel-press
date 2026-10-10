@@ -7,6 +7,7 @@ import { sharePngs, toPngFiles } from '../export/sharePhotos';
 import { loadFonts } from '../fonts/loadFonts';
 import { createCanvasMeasurer } from '../layout/measure';
 import { makeCanvas } from '../render/ctx';
+import { faceAvailable } from '../render/fontCheck';
 import { deckIcons, layoutSlide } from '../render/renderSlide';
 import { SAMPLES } from '../samples';
 import { samplePhotosIn } from '../samples/photos';
@@ -24,7 +25,7 @@ async function blockingWarnings(c: Controller): Promise<Warning[]> {
   const s = c.store.get();
   await loadFonts(s.variant);
   const { ctx } = makeCanvas(8, 8);
-  const m = createCanvasMeasurer(ctx);
+  const m = createCanvasMeasurer(ctx, faceAvailable);
   const icons = deckIcons(s.parsed.deck, s.variant);
   return [
     ...s.parsed.warnings,

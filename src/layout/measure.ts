@@ -6,9 +6,11 @@ export interface FontSpec {
 
 export interface TextMeasurer {
   width(text: string, font: FontSpec): number;
+  /** False when `family` isn't loaded for `sample` (real fonts only). Absent = assume loaded. */
+  hasFace?(family: string, sample: string): boolean;
 }
 
-const SERIF = new Set(['Playfair Display', 'Lora', 'Gentium Book Plus']);
+const SERIF = new Set(['Playfair Display', 'Lora', 'Gentium Book Plus', 'Amiri Quran', 'Amiri']);
 
 export function isMonoFamily(family: string): boolean {
   return /mono/i.test(family);
@@ -32,10 +34,11 @@ export interface MeasureContext {
   measureText(text: string): { width: number };
 }
 
-/** Canvas-backed measurer with a small cache. The context is passed in. */
-export function createCanvasMeasurer(ctx: MeasureContext): TextMeasurer {
+/** Canvas-backed measurer with a small cache. The context (and optional face check) is passed in. */
+export function createCanvasMeasurer(ctx: MeasureContext, hasFace?: (family: string, sample: string) => boolean): TextMeasurer {
   const cache = new Map<string, number>();
   return {
+    ...(hasFace ? { hasFace } : {}),
     width(text, font) {
       const fs = fontString(font);
       const key = `${fs}\u0000${text}`;
@@ -50,10 +53,13 @@ export function createCanvasMeasurer(ctx: MeasureContext): TextMeasurer {
   };
 }
 
-/** Deterministic measurer for tests: length × size × 0.52 (mono 0.6). */
+/** Combining marks (harakat, IPA diacritics) have no advance width. */
+const MARK = /\p{Mn}/u;
+
+/** Deterministic measurer for tests: length × size × 0.52 (mono 0.6), combining marks excluded. */
 export const fakeMeasurer: TextMeasurer = {
   width(text, font) {
     const k = isMonoFamily(font.family) ? 0.6 : 0.52;
-    return Array.from(text).length * font.size * k;
+    return Array.from(text).filter((ch) => !MARK.test(ch)).length * font.size * k;
   },
 };

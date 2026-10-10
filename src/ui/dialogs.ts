@@ -1,4 +1,4 @@
-import type { Warning } from '../core/types';
+import { type Warning, isHard } from '../core/types';
 import { h, svg } from './dom';
 import { UI_ICONS } from './uiIcons';
 
@@ -97,6 +97,8 @@ const REASON: Partial<Record<Warning['code'], string>> = {
   overflow: "text doesn't fit",
   'code-line-too-long': 'a code line is too long',
   'internal-error': 'the parser hit an error (please report it)',
+  'arabic-too-long': 'the Arabic text is too long for one slide',
+  'arabic-font-missing': "the Arabic font didn't load",
 };
 
 /** DESIGN §8.4: list blocking warnings; Fix jumps to the first one. */
@@ -112,12 +114,18 @@ export function exportWarningsDialog(warnings: Warning[], onJump: (w: Warning) =
     }
     m.body.append(list);
     const fix = h('button', { type: 'button', class: 'btn primary', 'data-autofocus': true }, 'Fix');
-    const anyway = h('button', { type: 'button', class: 'btn' }, 'Export anyway');
     fix.addEventListener('click', () => {
       if (warnings[0]) onJump(warnings[0]);
       result = 'fix';
       m.close();
     });
+    // Arabic text is never exported clipped, incomplete or in a fallback font (SPEC-ayah §5): no override.
+    if (warnings.some(isHard)) {
+      m.body.append(h('p', {}, 'Ayah and hadith slides must be complete and fully visible before they can be exported.'));
+      m.footer.append(fix);
+      return;
+    }
+    const anyway = h('button', { type: 'button', class: 'btn' }, 'Export anyway');
     anyway.addEventListener('click', () => { result = 'anyway'; m.close(); });
     m.footer.append(anyway, fix);
   });

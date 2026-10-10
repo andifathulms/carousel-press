@@ -41,15 +41,16 @@ export function trackedWidth(ctx: Ctx, text: string, trackingPx: number): number
   return chars.reduce((w, ch) => w + ctx.measureText(ch).width, 0) + Math.max(0, chars.length - 1) * trackingPx;
 }
 
-/** Draw wrapped rich lines with their top at `top`. */
+/** Draw wrapped rich lines with their top at `top`. With `centerW`, each line is centred in [x, x + centerW]. */
 export function drawWrapped(
-  ctx: Ctx, lines: readonly WrappedLine[], x: number, top: number, size: number, lh: number,
-  style: TextStyle, colors: TextColors,
+  ctx: Ctx, lines: readonly WrappedLine[], x0: number, top: number, size: number, lh: number,
+  style: TextStyle, colors: TextColors, centerW?: number,
 ): void {
   const ys = baselines(lines, top, size, lh);
   const mono = monoFont(style);
   lines.forEach((line, i) => {
     const y = ys[i]!;
+    const x = centerW === undefined ? x0 : x0 + (centerW - line.width) / 2;
     for (const run of line.runs) {
       if (run.style === 'code') {
         const shadow = ctx.shadowColor;

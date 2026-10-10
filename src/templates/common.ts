@@ -42,8 +42,10 @@ export interface SlideLayout {
   footer: FooterLayout;
   boxes: Box[];
   warnings: Warning[];
-  /** word/table/compare slides: positioned lexicon elements (drawn instead of the stack). */
+  /** word/table/compare/ayah/hadith slides: positioned elements (drawn instead of the stack). */
   lex?: LexLayout;
+  /** Serene: every stack item and text line is centred (SPEC-ayah §3.3). */
+  center?: boolean;
 }
 
 /** Shared header/footer/CTA metrics (DESIGN §3.1, §3.2, §3.8). */

@@ -6,8 +6,10 @@ import {
   CHROME, type LayoutInput, type SlideLayout, ctaLabel, ctaWidth, frameFrom, layoutFooter, layoutHeader,
   resolveSurface, stackBoxes, stackWarnings,
 } from '../common';
-import { type Warning, isLexType } from '../../core/types';
+import { type Warning, isArabicType, isLexType } from '../../core/types';
 import { layoutLexSlide } from '../lexicon/lexDispatch';
+import { layoutArabicSlide } from '../serene/arabicLayout';
+import { SAFE } from '../../render/safezone';
 
 type Spec = Omit<TextSpec, 'family' | 'mono'> & { face: 'serif' | 'sans' };
 
@@ -47,8 +49,9 @@ export const STACK = {
   quoteBodyGap: 32,
 };
 
-export function layoutEditorial(input: LayoutInput): SlideLayout {
+export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } = {}): SlideLayout {
   if (isLexType(input.slide.type)) return layoutLexSlide(input);
+  if (isArabicType(input.slide.type)) return layoutArabicSlide(input);
   const { slide, deck, variant: v, measurer: m } = input;
   const serif = v.fonts.serif ?? v.fonts.sans;
   const sans = v.fonts.sans;
@@ -131,6 +134,9 @@ export function layoutEditorial(input: LayoutInput): SlideLayout {
   }
 
   const stack = fitStack(items, frameFrom(top), m);
+  if (opts.center) {
+    for (const p of stack.placed) if (p.item.kind !== 'code') p.x = SAFE.left + (CONTENT_W - p.w) / 2;
+  }
   const header = layoutHeader(input, sans, mono, boxes);
   const footer = layoutFooter(input, sans, mono, boxes, true);
   boxes.push(...stackBoxes(stack));
@@ -138,5 +144,6 @@ export function layoutEditorial(input: LayoutInput): SlideLayout {
   const icon = stack.placed.some((p) => p.item.kind === 'icon') ? input.icon : null;
   return {
     slide, deck, variant: v, surface, surfaceName: name, onPhoto, stack, icon, ctaLabel: cta, header, footer, boxes, warnings,
+    ...(opts.center ? { center: true } : {}),
   };
 }

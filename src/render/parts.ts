@@ -72,13 +72,13 @@ export function drawCta(ctx: Ctx, p: Placed, label: string, s: Surface, sans: st
 }
 
 /** A placed text block in its tone colour. */
-export function drawTextBlock(ctx: Ctx, p: Placed, s: Surface, onPhoto: boolean): void {
+export function drawTextBlock(ctx: Ctx, p: Placed, s: Surface, onPhoto: boolean, center = false): void {
   if (p.item.kind !== 'text' || !p.wrap) return;
   const it = p.item;
   setShadow(ctx, onPhoto);
   drawWrapped(ctx, p.wrap.lines, p.x, p.y, p.size, it.spec.lh,
     { font: { family: it.spec.family, weight: it.spec.weight, size: p.size }, mono: it.spec.mono },
-    { text: s[it.tone], accent: s.accent, codeBg: s.inlineCodeBg, codeText: s.ink });
+    { text: s[it.tone], accent: s.accent, codeBg: s.inlineCodeBg, codeText: s.ink }, center ? p.w : undefined);
 }
 
 /** Clip everything below the stack limit when the slide overflows. */

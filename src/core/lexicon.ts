@@ -8,14 +8,14 @@ export const TABLE = { minCols: 2, maxCols: 4, maxRows: 8 };
 
 const FIELD_LINE = /^\s*([a-z][a-z-]*)\s*:\s?(.*)$/;
 
-type Warn = (code: Warning['code'], message: string, line?: number) => void;
-interface Line {
+export type Warn = (code: Warning['code'], message: string, line?: number, hard?: boolean) => void;
+export interface Line {
   text: string;
   line: number;
 }
 
 /** Read `key: value` lines. Unknown keys and non-field lines warn and are skipped. */
-function readFields(content: readonly Line[], keys: readonly string[], warn: Warn): Record<string, string> {
+export function readFields(content: readonly Line[], keys: readonly string[], warn: Warn): Record<string, string> {
   const out: Record<string, string> = {};
   for (const c of content) {
     if (c.text.trim() === '') continue;

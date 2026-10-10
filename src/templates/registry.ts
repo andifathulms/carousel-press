@@ -11,6 +11,9 @@ import { layoutDev } from './dev/layout';
 import { drawDev } from './dev/draw';
 import { LEXICON_VARIANTS } from './lexicon/variants';
 import { drawLexicon } from './lexicon/draw';
+import { SERENE_VARIANTS } from './serene/variants';
+import { layoutSerene } from './serene/layout';
+import { drawSerene } from './serene/draw';
 
 /** A family is layout code; a variant is data. */
 export interface FamilyLayout {
@@ -19,13 +22,14 @@ export interface FamilyLayout {
 }
 
 export const FAMILIES: Record<FamilyId, FamilyLayout> = {
-  editorial: { layout: layoutEditorial, draw: drawEditorial },
+  editorial: { layout: (input) => layoutEditorial(input), draw: drawEditorial },
   dev: { layout: layoutDev, draw: drawDev },
   // Normal slides use the editorial layout with lexicon tokens and fonts.
-  lexicon: { layout: layoutEditorial, draw: drawLexicon },
+  lexicon: { layout: (input) => layoutEditorial(input), draw: drawLexicon },
+  serene: { layout: layoutSerene, draw: drawSerene },
 };
 
-export const VARIANTS: readonly Variant[] = [...EDITORIAL_VARIANTS, ...DEV_VARIANTS, ...LEXICON_VARIANTS];
+export const VARIANTS: readonly Variant[] = [...EDITORIAL_VARIANTS, ...DEV_VARIANTS, ...LEXICON_VARIANTS, ...SERENE_VARIANTS];
 
 const BY_ID = new Map<string, Variant>(VARIANTS.map((v) => [v.id, v]));
 

@@ -29,7 +29,7 @@ export function drawEditorial(ctx: Ctx, L: SlideLayout): void {
     return;
   }
 
-  if (slide.type === 'quote') {
+  if (slide.type === 'quote' && !L.center) {
     const q = FIXED.quoteMark;
     setShadow(ctx, false);
     setFont(ctx, { family: serif, weight: q.weight, size: q.size });
@@ -46,7 +46,7 @@ export function drawEditorial(ctx: Ctx, L: SlideLayout): void {
     const it = p.item;
     switch (it.kind) {
       case 'text':
-        drawTextBlock(ctx, p, s, onPhoto);
+        drawTextBlock(ctx, p, s, onPhoto, L.center);
         break;
       case 'badge': {
         const b = FIXED.badge;

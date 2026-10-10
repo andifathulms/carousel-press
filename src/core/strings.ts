@@ -2,7 +2,8 @@ import type { Lang } from './types';
 
 export type StringKey =
   | 'swipe' | 'coverSwipe' | 'cta'
-  | 'compareWrong' | 'compareRight' | 'labelMeaning' | 'labelExample' | 'labelOrigin' | 'labelSay';
+  | 'compareWrong' | 'compareRight' | 'labelMeaning' | 'labelExample' | 'labelOrigin' | 'labelSay'
+  | 'portion' | 'gradeLabel' | 'hadithLabel';
 
 /** Built-in slide strings (PRD §4.7). Add a language by adding one column. */
 export const STRINGS: Record<StringKey, Record<Lang, string>> = {
@@ -16,6 +17,10 @@ export const STRINGS: Record<StringKey, Record<Lang, string>> = {
   labelExample: { id: 'Contoh', en: 'Example' },
   labelOrigin: { id: 'Asal kata', en: 'Origin' },
   labelSay: { id: 'Cara baca', en: 'Say it' },
+  // Ayah & hadith slides (SPEC-ayah §1.3)
+  portion: { id: '(penggalan)', en: '(portion)' },
+  gradeLabel: { id: 'Derajat', en: 'Grade' },
+  hadithLabel: { id: 'HADIS', en: 'HADITH' },
 };
 
 export function t(key: StringKey, lang: Lang): string {

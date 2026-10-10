@@ -1,12 +1,13 @@
 import type {
   CodeBlock, Deck, DeckHeader, Lang, ParseResult, Rich, Slide, SlideAttrs, SlideType, TemplateId, Warning,
 } from './types';
-import { DEFAULT_TEMPLATE, LANGS, SLIDE_TYPES, isLexType, isTemplateId } from './types';
+import { DEFAULT_TEMPLATE, LANGS, SLIDE_TYPES, familyOf, isArabicType, isLexType, isTemplateId } from './types';
 import { parseInline, parseRich, richToPlain } from './inline';
 import { canonicalIcon } from './iconNames';
 import { numberSlides } from './numbering';
 import { slugify } from './slug';
 import { fillCompare, fillTable, fillWord } from './lexicon';
+import { fillAyah, fillHadith } from './ayah';
 
 export interface ParseOptions {
   /** Template used when the header has none (last used). */
@@ -255,7 +256,7 @@ function parseUnsafe(text: string, opts: ParseOptions): ParseResult {
     });
   }
 
-  numberSlides(slides);
+  numberSlides(slides, { autoBadge: familyOf(template) !== 'serene' });
   if (opts.photoIds) warnings.push(...resolvePhotos(slides, opts.photoIds));
 
   const cover = slides.find((s) => s.type === 'cover') ?? slides[0];
@@ -280,8 +281,8 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[]): Slide 
   let type = null as SlideType | null;
   const attrs: SlideAttrs = {};
   const tagLine = block.start + i;
-  const warn = (code: Warning['code'], message: string, line = tagLine): void => {
-    warnings.push({ code, slideIndex: index, line, message });
+  const warn = (code: Warning['code'], message: string, line = tagLine, hard = false): void => {
+    warnings.push({ code, slideIndex: index, line, message, ...(hard ? { hard: true as const } : {}) });
   };
 
   const first = L[i]?.trim() ?? '';
@@ -312,6 +313,13 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[]): Slide 
   while (content.length && content[0]!.text.trim() === '') content.shift();
 
   const slide = makeSlide(index, finalType, attrs, block);
+  if (isArabicType(finalType)) {
+    if (finalType === 'ayah') fillAyah(slide, content, warn);
+    else fillHadith(slide, content, warn);
+    checkAttrScope(slide, warn);
+    setPhotoRef(slide);
+    return slide;
+  }
   if (isLexType(finalType)) {
     // Lexicon slides: word/compare are field lines; table has a headline line, then rows.
     if (finalType === 'word') fillWord(slide, content, warn);
@@ -396,7 +404,7 @@ function checkAttrScope(slide: Slide, warn: Warn): void {
   };
   if (a.icon !== undefined && slide.type === 'cover') drop('icon');
   // Lexicon slides ignore icon= silently (SPEC-lexicon §2).
-  if (isLexType(slide.type)) delete a.icon;
+  if (isLexType(slide.type) || isArabicType(slide.type)) delete a.icon;
   if (a.cta !== undefined && slide.type === 'cover') drop('cta');
   if (a.number !== undefined && slide.type !== 'card' && slide.type !== 'code' && slide.type !== 'table') drop('number');
   if (a.kicker !== undefined && slide.type !== 'cover') drop('kicker');

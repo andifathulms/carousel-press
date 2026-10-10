@@ -1,0 +1,18 @@
+template: serene/fajr
+lang: id
+title: hati yang tenang
+caption: Semoga jadi pengingat untuk kita semua. Teks: Tanzil · Terjemahan: Kemenag RI
+---
+[ayah]
+arab: [SALIN TEKS ARAB DARI SUMBER TERVERIFIKASI]
+terjemah: [SALIN TERJEMAHAN KEMENAG RI]
+ref: QS. Ar-Ra'd [13]: 28
+source: Terjemahan Kemenag RI
+---
+[card]
+Renungan
+Saat pikiran penuh, mungkin yang kita butuhkan bukan jawaban, tapi berhenti sejenak dan mengingat-Nya.
+---
+[end]
+Semoga hari ini lebih tenang.
+Simpan, dan bagikan ke yang sedang butuh.

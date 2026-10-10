@@ -26,12 +26,57 @@ function drawText(ctx: Ctx, e: Extract<LexEl, { k: 'text' }>, onPhoto: boolean):
   }
   setShadow(ctx, onPhoto && !e.highlight);
   drawWrapped(ctx, e.lines, e.x, e.y, e.size, e.lh, e.style,
-    { text: e.color, accent: e.highlight ? e.color : e.accent, codeBg: 'rgba(127,127,127,0.18)', codeText: e.color });
+    { text: e.color, accent: e.highlight ? e.color : e.accent, codeBg: 'rgba(127,127,127,0.18)', codeText: e.color }, e.centerW);
   if (e.strike) {
     setShadow(ctx, false);
     ctx.fillStyle = e.color;
     const ys = baselines(e.lines, e.y, e.size, e.lh);
     e.lines.forEach((line, i) => ctx.fillRect(e.x, ys[i]! - e.size * STRIKE.rise - STRIKE.w / 2, line.width, STRIKE.w));
+  }
+}
+
+/** Arabic lines, right-to-left and verbatim; the end-of-ayah mark sits left of the last line in the accent colour. */
+function drawArabic(ctx: Ctx, e: Extract<LexEl, { k: 'arabic' }>, onPhoto: boolean): void {
+  setShadow(ctx, onPhoto);
+  setFont(ctx, { family: e.family, weight: 400, size: e.size });
+  ctx.direction = 'rtl';
+  e.lines.forEach((line, i) => {
+    const last = i === e.lines.length - 1;
+    const markW = e.mark && last ? e.mark.gap + e.mark.w : 0;
+    const full = e.widths[i]! + markW;
+    const right = e.align === 'center' ? e.x + (e.w + full) / 2 : e.x + e.w;
+    const y = e.y + i * e.size * e.lh + e.size * e.baseline;
+    ctx.textAlign = 'right';
+    ctx.fillStyle = e.color;
+    ctx.fillText(line, right, y);
+    if (e.mark && last) {
+      ctx.textAlign = 'left';
+      ctx.fillStyle = e.mark.color;
+      ctx.fillText(e.mark.text, right - full, y);
+    }
+  });
+  ctx.direction = 'ltr';
+  ctx.textAlign = 'left';
+}
+
+/** Original 8-point star: two squares, one turned 45° (SPEC-ayah §4). */
+export function drawStar(ctx: Ctx, cx: number, cy: number, size: number, color: string, width: number): void {
+  setShadow(ctx, false);
+  ctx.strokeStyle = color;
+  ctx.lineWidth = width;
+  ctx.lineJoin = 'miter';
+  const r = size / 2;
+  for (const turn of [0, Math.PI / 4]) {
+    ctx.beginPath();
+    for (let k = 0; k < 4; k++) {
+      const a = turn + (k * Math.PI) / 2;
+      const px = cx + r * Math.cos(a);
+      const py = cy + r * Math.sin(a);
+      if (k === 0) ctx.moveTo(px, py);
+      else ctx.lineTo(px, py);
+    }
+    ctx.closePath();
+    ctx.stroke();
   }
 }
 
@@ -101,6 +146,12 @@ export function drawLex(ctx: Ctx, L: SlideLayout): void {
       case 'icon':
         setShadow(ctx, false);
         drawIcon(ctx, e.name, e.x, e.y, e.size, e.color);
+        break;
+      case 'arabic':
+        drawArabic(ctx, e, L.onPhoto);
+        break;
+      case 'star':
+        drawStar(ctx, e.cx, e.cy, e.size, e.color, e.width);
         break;
     }
   }

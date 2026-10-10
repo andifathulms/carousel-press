@@ -47,6 +47,10 @@ export interface Deco {
   notebook?: boolean;
   /** Lexicon: large faint glyph off the bottom-right corner. */
   cornerGlyph?: string;
+  /** Serene: thin inset frame + 8-point star ornament (SPEC-ayah §4). */
+  frame?: boolean;
+  /** Serene: photos are darkened at least this much (0–100, SPEC-ayah §3.3). */
+  minDarkness?: number;
 }
 
 /** Extra tokens for word/table/compare slides (SPEC-lexicon §3.2). Derived for other families. */

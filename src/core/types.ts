@@ -1,7 +1,7 @@
 // Core data types shared by parser, layout and renderer. Pure: no DOM.
 
-export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end' | 'word' | 'table' | 'compare';
-export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end', 'word', 'table', 'compare'];
+export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end' | 'word' | 'table' | 'compare' | 'ayah' | 'hadith';
+export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end', 'word', 'table', 'compare', 'ayah', 'hadith'];
 
 /** Lexicon slide types (SPEC-lexicon §2): structured fields instead of headline + body. */
 export type LexType = 'word' | 'table' | 'compare';
@@ -9,10 +9,16 @@ export function isLexType(t: SlideType): t is LexType {
   return t === 'word' || t === 'table' || t === 'compare';
 }
 
+/** Arabic-text slide types (SPEC-ayah §1): field lines, Arabic drawn verbatim. */
+export type ArabicType = 'ayah' | 'hadith';
+export function isArabicType(t: SlideType): t is ArabicType {
+  return t === 'ayah' || t === 'hadith';
+}
+
 export type Lang = 'id' | 'en';
 export const LANGS: readonly Lang[] = ['id', 'en'];
 
-export type FamilyId = 'editorial' | 'dev' | 'lexicon';
+export type FamilyId = 'editorial' | 'dev' | 'lexicon' | 'serene';
 
 export const TEMPLATE_IDS = [
   'editorial/rose-dusk',
@@ -23,6 +29,8 @@ export const TEMPLATE_IDS = [
   'dev/paper-light',
   'lexicon/kamus',
   'lexicon/notebook',
+  'serene/fajr',
+  'serene/isya',
 ] as const;
 export type TemplateId = (typeof TEMPLATE_IDS)[number];
 export const DEFAULT_TEMPLATE: TemplateId = 'editorial/rose-dusk';
@@ -33,6 +41,7 @@ export function isTemplateId(v: string): v is TemplateId {
 
 export function familyOf(id: TemplateId): FamilyId {
   if (id.startsWith('dev/')) return 'dev';
+  if (id.startsWith('serene/')) return 'serene';
   return id.startsWith('lexicon/') ? 'lexicon' : 'editorial';
 }
 
@@ -70,13 +79,19 @@ export type WarningCode =
   | 'table-too-many-rows'
   | 'table-too-wide'
   | 'ipa-glyph-missing'
+  | 'arabic-too-long'
+  | 'arabic-font-missing'
   | 'unknown-lang'
   | 'unknown-counter'
   | 'internal-error';
 
 export const BLOCKING_CODES: readonly WarningCode[] = [
   'overflow', 'code-line-too-long', 'table-too-many-rows', 'table-too-wide', 'ipa-glyph-missing', 'internal-error',
+  'arabic-too-long', 'arabic-font-missing',
 ];
+
+/** Blocking with no "Export anyway" (SPEC-ayah §5): Arabic is never exported clipped or in a fallback font. */
+export const HARD_CODES: readonly WarningCode[] = ['arabic-too-long', 'arabic-font-missing'];
 
 export interface Warning {
   code: WarningCode;
@@ -84,10 +99,16 @@ export interface Warning {
   /** 0-based line in the deck text (display adds 1). */
   line: number;
   message: string;
+  /** Blocks export with no override (e.g. missing-field on ayah/hadith slides). */
+  hard?: true;
 }
 
 export function isBlocking(w: Warning): boolean {
-  return BLOCKING_CODES.includes(w.code);
+  return !!w.hard || BLOCKING_CODES.includes(w.code);
+}
+
+export function isHard(w: Warning): boolean {
+  return !!w.hard || HARD_CODES.includes(w.code);
 }
 
 // ---- Deck ---------------------------------------------------------------
