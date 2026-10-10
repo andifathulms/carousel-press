@@ -1,0 +1,20 @@
+template: serene/isya
+lang: id
+title: sesuai kesanggupan
+caption: Untuk yang sedang merasa bebannya berat. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+---
+[ayah]
+arab: لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا
+terjemah: Allah tidak membebani seseorang, kecuali menurut kesanggupannya.
+ref: QS. Al-Baqarah [2]: 286
+source: Terjemahan Kemenag RI
+portion: true
+mark: off
+---
+[card]
+Renungan
+Beban hari ini mungkin terasa berat. Ayat ini mengingatkan kita, Allah Swt. tidak membebani seseorang melebihi kesanggupannya.
+---
+[end]
+Semoga bermanfaat.
+Simpan, dan bagikan ke yang sedang butuh.

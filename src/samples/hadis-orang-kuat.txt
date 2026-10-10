@@ -1,0 +1,19 @@
+template: serene/fajr
+lang: id
+title: orang kuat
+caption: Kekuatan yang tidak terlihat. HR. Bukhari no. 6114 dan Muslim no. 2609 · Sahih · Terjemahan: HadeethEnc #hadis #pengingatdiri
+---
+[hadith]
+arab: لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ
+text: Orang kuat itu bukanlah yang menang dalam bergulat. Sesungguhnya orang kuat ialah siapa yang dapat menahan dirinya ketika marah.
+ref: HR. Bukhari no. 6114 dan Muslim no. 2609
+grade: Sahih
+source: Dari Abu Hurairah · Terjemahan: HadeethEnc
+---
+[card]
+Renungan
+Saat ingin membalas, diam sejenak dan menahan diri juga sebuah kekuatan.
+---
+[end]
+Semoga bermanfaat.
+Simpan, dan bagikan ke yang sedang butuh.

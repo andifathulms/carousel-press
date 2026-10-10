@@ -1,0 +1,18 @@
+template: serene/isya
+lang: id
+title: aku dekat
+caption: Tentang doa yang kita bisikkan. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #doa #quran
+---
+[ayah]
+arab: وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ
+terjemah: Apabila hamba-hamba-Ku bertanya kepadamu (Nabi Muhammad) tentang Aku, sesungguhnya Aku dekat. Aku mengabulkan permohonan orang yang berdoa apabila dia berdoa kepada-Ku. Maka, hendaklah mereka memenuhi (perintah)-Ku dan beriman kepada-Ku agar mereka selalu berada dalam kebenaran.
+ref: QS. Al-Baqarah [2]: 186
+source: Terjemahan Kemenag RI
+---
+[card]
+Renungan
+Tidak perlu suara keras atau kata-kata indah. Allah Swt. dekat, dan mengabulkan permohonan orang yang berdoa kepada-Nya.
+---
+[end]
+Semoga bermanfaat.
+Simpan, dan bagikan ke yang sedang butuh.

@@ -1,0 +1,18 @@
+template: serene/isya
+lang: id
+title: doa untuk orang tua
+caption: Untuk ayah dan ibu, malam ini. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #doa #orangtua
+---
+[ayah]
+arab: وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا
+terjemah: Rendahkanlah dirimu terhadap keduanya dengan penuh kasih sayang dan ucapkanlah, “Wahai Tuhanku, sayangilah keduanya sebagaimana mereka berdua (menyayangiku ketika) mendidik aku pada waktu kecil.”
+ref: QS. Al-Isra' [17]: 24
+source: Terjemahan Kemenag RI
+---
+[card]
+Renungan
+Mereka mendidik kita saat kita kecil. Sekarang giliran kita mendoakan mereka.
+---
+[end]
+Semoga bermanfaat.
+Simpan, dan bagikan ke yang sedang butuh.

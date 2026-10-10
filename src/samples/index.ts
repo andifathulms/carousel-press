@@ -57,9 +57,19 @@ import lexFalseFriends from './lexicon-english-false-friends.txt?raw';
 import lexEd from './lexicon-english-ed.txt?raw';
 import lexMakeDo from './lexicon-english-make-do.txt?raw';
 import places from './editorial-places-en.txt?raw';
+import ayatHatiTenang from './ayat-hati-tenang.txt?raw';
+import ayatBersamaKesulitan from './ayat-bersama-kesulitan.txt?raw';
+import ayatSesuaiKesanggupan from './ayat-sesuai-kesanggupan.txt?raw';
+import ayatSabarHari1 from './ayat-sabar-hari-1.txt?raw';
+import ayatDoaDuniaAkhirat from './ayat-doa-dunia-akhirat.txt?raw';
+import ayatDoaOrangTua from './ayat-doa-orang-tua.txt?raw';
+import ayatAkuDekat from './ayat-aku-dekat.txt?raw';
+import hadisOrangKuat from './hadis-orang-kuat.txt?raw';
+import hadisWajahBerseri from './hadis-wajah-berseri.txt?raw';
+import hadisHatiDanAmal from './hadis-hati-dan-amal.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
-export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'travel';
+export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'travel';
 
 export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'relationships', label: 'Relationships' },
@@ -68,6 +78,7 @@ export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'sports', label: 'Sports' },
   { id: 'english', label: 'English' },
   { id: 'indonesian', label: 'Bahasa Indonesia' },
+  { id: 'ayat', label: 'Ayat & Hadis' },
   { id: 'travel', label: 'Travel' },
 ];
 
@@ -145,4 +156,15 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-kamus-padanan', name: 'Padanan kata asing (Kamus Kecil, id)', category: 'indonesian', text: lexPadanan },
   { id: 'lexicon-kamus-kata-indah', name: '5 kata indah di KBBI (Kamus Kecil, id)', category: 'indonesian', text: lexKataIndah },
   { id: 'lexicon-kamus-ejaan', name: 'Merubah atau mengubah? (Kamus Kecil, id)', category: 'indonesian', text: lexEjaan },
+  // Ayat Harian (ayat): ayah/hadith slides, text copied from Tanzil, Kemenag RI and HadeethEnc
+  { id: 'ayat-hati-tenang', name: 'Hati yang tenang (Ayat Harian, id)', category: 'ayat', text: ayatHatiTenang },
+  { id: 'ayat-bersama-kesulitan', name: 'Bersama kesulitan ada kemudahan (Ayat Harian, id)', category: 'ayat', text: ayatBersamaKesulitan },
+  { id: 'ayat-sesuai-kesanggupan', name: 'Sesuai kesanggupan (Ayat Harian, id)', category: 'ayat', text: ayatSesuaiKesanggupan },
+  { id: 'ayat-sabar-hari-1', name: 'Sabar · Hari 1 (Ayat Harian, id)', category: 'ayat', text: ayatSabarHari1 },
+  { id: 'ayat-doa-dunia-akhirat', name: 'Doa kebaikan dunia dan akhirat (Ayat Harian, id)', category: 'ayat', text: ayatDoaDuniaAkhirat },
+  { id: 'ayat-doa-orang-tua', name: 'Doa untuk orang tua (Ayat Harian, id)', category: 'ayat', text: ayatDoaOrangTua },
+  { id: 'ayat-aku-dekat', name: 'Aku dekat (Ayat Harian, id)', category: 'ayat', text: ayatAkuDekat },
+  { id: 'hadis-orang-kuat', name: 'Orang kuat (hadis) (Ayat Harian, id)', category: 'ayat', text: hadisOrangKuat },
+  { id: 'hadis-wajah-berseri', name: 'Wajah berseri (hadis) (Ayat Harian, id)', category: 'ayat', text: hadisWajahBerseri },
+  { id: 'hadis-hati-dan-amal', name: 'Hati dan amal (hadis) (Ayat Harian, id)', category: 'ayat', text: hadisHatiDanAmal },
 ];

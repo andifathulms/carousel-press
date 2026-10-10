@@ -1,0 +1,19 @@
+template: serene/isya
+lang: id
+title: hati dan amal
+caption: Yang dilihat bukan rupa dan harta. HR. Muslim no. 2564 · Sahih · Terjemahan: HadeethEnc #hadis #pengingatdiri
+---
+[hadith]
+arab: إِنَّ اللهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ
+text: Sesungguhnya Allah tidak melihat rupa dan harta benda kalian, tetapi Allah melihat hati dan amal perbuatan kalian.
+ref: HR. Muslim no. 2564
+grade: Sahih
+source: Dari Abu Hurairah · Terjemahan: HadeethEnc
+---
+[card]
+Renungan
+Penampilan dan harta tidak menjadi ukuran di sisi Allah Swt. Yang dilihat adalah hati dan amal kita.
+---
+[end]
+Semoga bermanfaat.
+Simpan, dan bagikan ke yang sedang butuh.

@@ -1,0 +1,18 @@
+template: serene/fajr
+lang: id
+title: hati yang tenang
+caption: Semoga jadi pengingat untuk kita semua. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+---
+[ayah]
+arab: ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ
+terjemah: (Yaitu) orang-orang yang beriman dan hati mereka menjadi tenteram dengan mengingat Allah. Ingatlah, bahwa hanya dengan mengingat Allah hati akan selalu tenteram.
+ref: QS. Ar-Ra'd [13]: 28
+source: Terjemahan Kemenag RI
+---
+[card]
+Renungan
+Saat pikiran penuh, mungkin yang kita butuhkan bukan jawaban, tapi berhenti sejenak dan mengingat-Nya.
+---
+[end]
+Semoga bermanfaat.
+Simpan, dan bagikan ke yang sedang butuh.

@@ -1,0 +1,20 @@
+template: serene/isya
+lang: id
+title: bersama kesulitan ada kemudahan
+caption: Disebut dua kali, berturut-turut. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+---
+[ayah]
+arab: فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا
+terjemah: Maka, sesungguhnya beserta kesulitan ada kemudahan.
+ref: QS. Asy-Syarh [94]: 5
+source: Terjemahan Kemenag RI
+---
+[ayah]
+arab: إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا
+terjemah: Sesungguhnya beserta kesulitan ada kemudahan.
+ref: QS. Asy-Syarh [94]: 6
+source: Terjemahan Kemenag RI
+---
+[end]
+Semoga bermanfaat.
+Simpan, dan bagikan ke yang sedang butuh.

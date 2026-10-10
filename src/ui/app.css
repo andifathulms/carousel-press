@@ -25,6 +25,7 @@
   --cat-travel: #B29CE0;
   --cat-english: #E0C45C;
   --cat-indonesian: #E8836F;
+  --cat-ayat: #7FB89A;
   /* Posting status in the deck library. */
   --st-todo: #E7B54A;
   --st-posted: #6FBF73;
@@ -297,6 +298,7 @@ code { font-family: var(--font-mono); font-size: 12px; }
 .cat-travel { --cat: var(--cat-travel); }
 .cat-english { --cat: var(--cat-english); }
 .cat-indonesian { --cat: var(--cat-indonesian); }
+.cat-ayat { --cat: var(--cat-ayat); }
 .cat-head { display: flex; align-items: center; gap: 8px; }
 .cat-head::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--cat); }
 .cat-tag { display: inline-block; margin-right: 6px; padding: 0 6px; border-radius: 4px; background: color-mix(in srgb, var(--cat) 18%, transparent); color: var(--cat); font: 600 10px/16px var(--font-mono); letter-spacing: 0.04em; text-transform: uppercase; vertical-align: 1px; }

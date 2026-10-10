@@ -231,10 +231,13 @@ describe('every shipped deck', () => {
       const r = parse(sample(f.slice(0, -4)), { photoIds: ['sample-dusk', ...SAMPLE_PHOTO_IDS] });
       // History, sports and language decks may run past 10 slides (owner decision): only the long-deck hint is allowed.
       const long = f.startsWith('sejarah-') || f.startsWith('sports-') || f.startsWith('lexicon-');
+      // Ayat Harian posts are 1–3 slides (channels.md §8): a single ayah can be the whole post.
+      const short = f.startsWith('ayat-') || f.startsWith('hadis-');
       const ws = long ? r.warnings.filter((w) => w.code !== 'long-deck') : r.warnings;
       expect(ws).toEqual([]);
       if (long) expect(r.deck.slides.length).toBeLessThanOrEqual(14);
-      expect(r.deck.slides.length).toBeGreaterThanOrEqual(5);
+      expect(r.deck.slides.length).toBeGreaterThanOrEqual(short ? 1 : 5);
+      if (short) expect(r.deck.slides.length).toBeLessThanOrEqual(3);
       expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);
     });
   }

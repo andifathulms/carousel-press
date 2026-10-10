@@ -1,0 +1,18 @@
+template: serene/fajr
+lang: id
+title: doa kebaikan dunia dan akhirat
+caption: Doa dari Al-Qur'an yang singkat tapi lengkap. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #doa #quran
+---
+[ayah]
+arab: وَمِنْهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْـَٔاخِرَةِ حَسَنَةً وَقِنَا عَذَابَ ٱلنَّارِ
+terjemah: Di antara mereka ada juga yang berdoa, “Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat serta lindungilah kami dari azab neraka.”
+ref: QS. Al-Baqarah [2]: 201
+source: Terjemahan Kemenag RI
+---
+[card]
+Renungan
+Doa yang singkat, tapi meminta semuanya: kebaikan di dunia, kebaikan di akhirat, dan perlindungan dari azab neraka.
+---
+[end]
+Semoga bermanfaat.
+Simpan, dan bagikan ke yang sedang butuh.
