@@ -32,8 +32,9 @@ export const SAFE = { left: 96, right: 912, top: 196, bottom: 1500 }; // content
 ```
 
 - **Header row:** baseline y = 236 (inside SAFE).
-- **Content stack:** starts at y = 344 (card) / y = 300 (cover) and must end at or before y = **1400**.
-- **Footer row:** baseline y = **1472**.
+- **Content stack:** starts at y = 344 (card) / y = 300 (cover) and must end at or before y = **1376**. A stack that fits is centred vertically in that band (snapped to the 8 px grid); photo slides and overflowing stacks stay top-anchored.
+- **Footer row:** baseline y = **1440**.
+- *Owner change, Oct 2026:* the footer and the stack limit moved up 32 px (were 1472 / 1400) to keep more distance from TikTok's caption, and stacks are centred instead of top-anchored so short slides don't leave the lower half empty. See docs/decisions.md.
 - **Base grid:** 8 px. Every vertical gap is a multiple of 8.
 - Decoration (blobs, glows, big faint glyphs) may extend anywhere, including off-canvas and into UI zones.
 
@@ -61,9 +62,9 @@ Every family uses the same skeleton. Only the drawing of each part differs.
 │ Body text body text body text        │
 │ body text                            │
 │                                      │
-│ (icon) / (code block) / (CTA)        │ ≤1400 content stack ends
+│ (icon) / (code block) / (CTA)        │ ≤1376 content stack ends
 │                                      │
-│ Geser →                        3/6   │ 1472 footer
+│ Geser →                        3/6   │ 1440 footer
 │  (caption zone: decoration only)     │
 └──────────────────────────────────────┘ 1920
 ```
@@ -73,12 +74,12 @@ Every family uses the same skeleton. Only the drawing of each part differs.
 - Right element ends at x = 912: editorial = a 2 px horizontal rule from x 832 to 912 at y 226; dev = a mono path tag `~/{slug}`, right-aligned.
 
 ### 3.2 Footer
-- Swipe hint, left-aligned at x = 96, baseline 1472. The arrow is a drawn icon (`arrow-right`, 28 px), not the "→" glyph, so it renders the same in every font.
-- Counter `i/total`, right-aligned at x = 912, baseline 1472, using tabular figures (draw with the mono or a tabular-capable face).
+- Swipe hint, left-aligned at x = 96, baseline 1440. The arrow is a drawn icon (`arrow-right`, 28 px), not the "→" glyph, so it renders the same in every font.
+- Counter `i/total`, right-aligned at x = 912, baseline 1440, using tabular figures (draw with the mono or a tabular-capable face).
 - No swipe hint on `end` slides or on slides with `cta`. The counter is always shown, unless the deck sets `counter: off`.
 
 ### 3.3 Content stack (the layout engine)
-Every slide body is a **vertical stack of blocks** placed from a top anchor with fixed gaps:
+Every slide body is a **vertical stack of blocks** placed from a top anchor with fixed gaps, then centred in the band when it fits (§2):
 
 ```ts
 type Block =
@@ -91,10 +92,10 @@ type Block =
 ```
 
 **Stack-fit algorithm** (shared by both families):
-1. Lay out every block at its **max** size. If the stack bottom ≤ 1400, done.
+1. Lay out every block at its **max** size. If the stack bottom ≤ 1376, done.
 2. If it doesn't fit, first drop the `icon` block, if any.
 3. Then step down text/code sizes one step at a time in **priority order**: `body` → `note` → `code` → `subtitle` → `headline`, round-robin, each down to its min.
-4. If everything is at min and the stack still overflows, clip at 1400 and report `overflow` (or `code-line-too-long` if the cause is code width).
+4. If everything is at min and the stack still overflows, clip at 1376 and report `overflow` (or `code-line-too-long` if the cause is code width).
 5. Each text block also has a **max lines** cap. Exceeding it at min size counts as overflow.
 
 ### 3.4 Type scale

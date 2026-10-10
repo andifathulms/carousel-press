@@ -52,7 +52,7 @@ A missing required key gives warning `missing-field`, and **export is blocked** 
 
 ## 3. Layouts (all families; `serene` is the intended look)
 
-Content stack between y = 344 and 1400, x = 96–912, **centred horizontally**.
+Content stack between y = 344 and 1376 (DESIGN §2, Oct 2026), x = 96–912, **centred horizontally**.
 
 ### 3.1 `ayah`
 

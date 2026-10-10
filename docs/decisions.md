@@ -92,3 +92,12 @@ Before `carousel-core` is extracted, the parser snapshots become the contract (d
 
 - Unclosed-fence heuristic (G1): a ``` line further down still counts as the closing fence unless a `---` followed by a tag line (slide type or known attribute) comes first. So an unclosed code fence followed only by *untagged* slides that themselves contain a bare ``` line can still merge them. Typed tags are the reliable boundary.
 - `unknown-photo` from `resolvePhotos` points at the slide's first line, not the tag line. That's the same anchor render warnings use.
+
+## Layout for TikTok (owner, Oct 2026)
+
+- Footer baseline 1472 → 1440 and stack limit 1400 → 1376, for more clearance above TikTok's caption, username and sound line. SAFE is unchanged. DESIGN.md §2/§3 updated to match.
+- Fitting stacks are centred vertically in the content band (344–1376; covers from their own top) on the 8 px grid, in every family including word/table/compare and ayah/hadith. This replaces DESIGN's pure top anchor: short slides left the lower half empty and sat under TikTok's tabs. Exceptions: photo slides stay top-anchored, because the photo gradient is darkest at the top and lightest in the middle; overflowing stacks aren't moved. Headline positions now vary a little from slide to slide; the header, footer, margins and type scale stay fixed, which is what DESIGN principle 3 requires.
+- The big quote mark keeps its DESIGN offset above the quote stack, wherever the stack ends up.
+- Phone legibility floors: editorial body min 32 → 34, dev body min 30 → 32, lexicon label 22 → 24 and translation min 28 → 30, ayah/hadith translation min 32 → 34, source lines 24 → 28, grade pill 24 → 26.
+- Not changed yet: the TikTok UI zones are still estimates. They should be calibrated from a phone screenshot of the exported test image.
+

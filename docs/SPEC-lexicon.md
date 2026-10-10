@@ -115,7 +115,7 @@ Contrast rules from DESIGN §4.4 apply, plus: `okInk` on `okBg` and `badInk` on 
 
 ## 4. Layouts (all families; tokens from the active variant)
 
-All layouts are content stacks (DESIGN §3.3) between y = 344 and 1400, x = 96–912, using stack-fit.
+All layouts are content stacks (DESIGN §3.3) between y = 344 and 1376 (DESIGN §2, Oct 2026), x = 96–912, using stack-fit.
 For families without the lexicon extra tokens, derive them: `rule` = muted at 30%, `highlight` = accent at 22%, ok/bad = fixed `#E3EEDB/#2E5A2A` and `#F6DCD8/#8E1F17` on light surfaces, or their dark counterparts `#1E3A24/#9BE3A6` and `#3E1E1C/#F5A39A` on dark surfaces.
 
 ### 4.1 `word`
