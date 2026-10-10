@@ -714,7 +714,7 @@ Simpan, dan bagikan ke yang sedang butuh.
 - No text copied from real TikTok accounts.
 - Each account keeps its own default template so feeds look distinct. Borrowing another account's template is fine occasionally, never as a habit.
 - Emoji are fine in text (system emoji font); arrows and bookmarks are drawn by the app, don't type them.
-- Icons available for `icon=`: alert, arrow-right, book, bookmark, bug, chat, check-circle, circle-arrow, clock, code, coffee, cpu, database, flower, folder, gift, git-branch, heart, heart-spark, home, key, leaf, lightbulb, map-pin, moon, mountain, music, plane, rocket, shield-heart, smile, star, sun, terminal, umbrella (aliases: shield, pin, branch, bulb, check, spark).
+- Icons available for `icon=`: alert, book, bug, chat, check-circle, clock, code, coffee, cpu, database, flower, folder, gift, git-branch, heart, heart-spark, home, key, leaf, lightbulb, map-pin, moon, mountain, music, plane, rocket, shield-heart, smile, star, sun, terminal, umbrella (aliases: shield, pin, branch, bulb, check, spark). `arrow-right`, `circle-arrow` and `bookmark` are drawn by the app (swipe hint, CTA) and can't be used in `icon=`.
 - When asked for many posts at once, vary pillar, template and opening hook across them.
 - **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, English Sehari, Kamus Kecil, Ayat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
