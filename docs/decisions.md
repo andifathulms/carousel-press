@@ -42,6 +42,7 @@ One line each. Things the specs left open, or deliberate deviations.
 - IPA face: `@fontsource/gentium-book-plus/400.css` (latin + latin-ext + greek via unicode-range, not latin-only) because IPA needs ɔ ː ʃ and Greek θ. Every variant's font gate waits for it with an IPA sample. `ipa-glyph-missing` is checked against the bundled unicode ranges (pure), e.g. it rejects the combining U+032C in Cambridge's US /t̬/.
 - Lexicon slides: `icon=` is ignored silently; a `[table]` shows a badge only with an explicit `number=N`; lexicon and dev decks default to no auto icons.
 - Sample categories "English" (English Sehari) and "Bahasa Indonesia" (Kamus Kecil) for the lexicon decks. The SPEC sample covers keep "→" verbatim (owner's spec text) although slides normally avoid Unicode arrows.
+- Deck links use the URL fragment (base64url, UTF-8, no padding, 100 KB cap) so importing stays offline and nothing reaches a server; imports always create a new deck.
 
 ## Grammar contract: pre-extraction fixes (Oct 2026)
 

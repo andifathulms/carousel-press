@@ -3,6 +3,7 @@ import { SAMPLES } from './samples';
 import { Controller } from './ui/controller';
 import { ensureSamplePhotos, loadSample } from './ui/actions';
 import { mountApp } from './ui/app';
+import { importDeckFromHash } from './ui/deckLinkImport';
 
 async function boot(): Promise<void> {
   const root = document.getElementById('app');
@@ -11,7 +12,21 @@ async function boot(): Promise<void> {
   mountApp(root, c);
   await c.init();
 
-  // Restore the last open deck; on first run open the couples sample as a new deck.
+  // A #deck= link opens as a new deck, leaving the previous one untouched.
+  // Otherwise restore the last open deck; on first run open the couples sample.
+  if (!importDeckFromHash(c)) await restoreDeck(c);
+  // Decks made from samples get their bundled photos back if the tray lost them.
+  void ensureSamplePhotos(c, c.store.get().text);
+
+  // A link pasted into an already-open tab only changes the hash.
+  window.addEventListener('hashchange', () => importDeckFromHash(c));
+  window.addEventListener('pagehide', () => c.flushSave());
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') c.flushSave();
+  });
+}
+
+async function restoreDeck(c: Controller): Promise<void> {
   const last = c.settings.currentDeckId ? c.decks.loadDeck(c.settings.currentDeckId) : null;
   if (last) c.openDeck(last.id, last.text, last.settings.darkness);
   else {
@@ -20,13 +35,6 @@ async function boot(): Promise<void> {
     if (stored) c.openDeck(stored.id, stored.text, stored.settings.darkness);
     else await loadSample(c, SAMPLES[0]!.id);
   }
-  // Decks made from samples get their bundled photos back if the tray lost them.
-  void ensureSamplePhotos(c, c.store.get().text);
-
-  window.addEventListener('pagehide', () => c.flushSave());
-  document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') c.flushSave();
-  });
 }
 
 void boot();
