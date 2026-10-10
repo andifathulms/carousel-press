@@ -87,3 +87,38 @@ History photos (Commons; credit lines are in each deck's caption):
 Sports photos (`sport-bb-`, `sport-voli-`, `sport-backpass-`, `sport-shotclock-`, `sport-kriket-`) are all CC0 or public domain (Unsplash via Commons, Nationaal Archief, US government/DVIDS, a 1908 basketball guide), so they need no credit.
 
 Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterdam-denah, rotterdam-foto-lama, rotterdam-litho-1845, tambora-peta-1855, tambora-raffles, tambora-bima-litho. Some history decks now also reuse photos from another history deck (e.g. Kutai uses nama-tenggarong-tepian, nama-balikpapan-pelabuhan, nama-samarinda-mahakam; Yupa uses kutai-mahakam).
+
+## History decks, Oct 2026 (Bulungan, Mandor, Sumatra Timur, Westerling, Puputan Badung)
+
+| Photo ID | Deck | Commons file | Author | Licence |
+|---|---|---|---|---|
+| bulungan-sungai-kayan | Bulungan | Sungai_Kayan.JPG | Ezagren | CC BY-SA 4.0 |
+| bulungan-sungai-1910 | Bulungan | Badhuisje_op_de_Boelongan_rivier,_KITLV_1401134.tiff (cropped to the photo, postcard text removed) | Unknown author (KITLV collection) | CC BY 4.0 |
+| bulungan-kasimuddin | Bulungan | Maulana_Sulthan_Mohamad_Kasimoedin,_sultan_van_Boeloengan_op_Borneo_vanaf_januari_1903_tot_aan_zijn_dood_in_oktober_1924,_KITLV_34446.tiff | Foto Elite (Den Haag) | CC BY 4.0 |
+| bulungan-malino-1946 | Bulungan | KITLV_A1223_-_Afgevaardigden_van_Oost-Borneo_tijdens_de_Malino-Conferentie_ten_noordoosten_van_Makasssar,_KITLV_403136.tiff | Netherlands Indies Government Information Service | CC BY 4.0 |
+| bulungan-peta-1849 | Bulungan | Map_of_the_Sultanate_of_Bulungan.png (cropped to the coast, legend removed, recoloured grey) | Delirium333 | CC BY 4.0 |
+| bulungan-museum | Bulungan | Museum_Kesultanan_Bulungan.JPG | Ezagren | CC BY-SA 4.0 |
+| mandor-kadriah | Mandor | Keraton_Kadriyah_Pontianak.jpg | Meidana | CC BY-SA 4.0 |
+| mandor-pontianak-udara | Mandor | Luchtopname._Borneo._Pontianak_en_de_Kapoeas_rivier,_Bestanddeelnr_505038_006.tif | Unknown (Nationaal Archief, Fotocollectie Spaarnestad) | CC0 |
+| mandor-kapuas-pontianak | Mandor | De_Kleine_Kapoeas-rivier_te_Pontianak,_Borneo,_KITLV_124745.tiff | M. Honda (presumed), KITLV 124745 | CC BY 4.0 |
+| mandor-makam-juang | Mandor | Makam_Juang_Mandor.jpg | Widita22 | CC BY-SA 4.0 |
+| mandor-hulu-kapuas | Mandor | Rivier_bij_de_Boven-Kapoeas_op_Borneo,_KITLV_152218.tiff | Anonymous (from A.W. Nieuwenhuis, In Centraal Borneo, 1900), KITLV 152218 | CC BY 4.0 |
+| mandor-hamid | Mandor | Syarif_Hamid_II_of_Pontianak.jpg | Unknown (Nationaal Archief, 10 Apr 1950) | Public domain |
+| sumtim-maimun | Sumatra Timur 1946 | Istana_Maimun_Medan.jpg | Ramada Febrian | CC BY-SA 4.0 |
+| sumtim-tembakau | Sumatra Timur 1946 | Sorteren_van_Tabak_in_fermenteerschuur_Deli_Toewa,_Bestanddeelnr_803_15.jpg | J. Willem Schut / Nationaal Archief (Fotocollectie Deli Maatschappij, 1897) | CC0 |
+| sumtim-peta | Sumatra Timur 1946 | Kaart_van_de_Oostkust_van_Sumatra,_Bestanddeelnr_853_10.jpg | Nationaal Archief (Deli Maatschappij map, undated) | CC0 |
+| sumtim-azizi | Sumatra Timur 1946 | Azizi_Mosque.jpg | Davidelit | CC BY-SA 4.0 |
+| sumtim-amir-hamzah | Sumatra Timur 1946 | Amir_Hamzah_portrait.JPG | Uncredited (from H.B. Jassin, Amir Hamzah, Radja Penjair Pudjangga Baru, 1962) | Public domain |
+| sumtim-mansur | Sumatra Timur 1946 | Negara_feestenl_toespraak_van_Wali_Negara_Tengkoe_Mansoer,_Bestanddeelnr_1601-15-1.jpg | A.J.M. Loomans / DLC, Nationaal Archief (Medan, 13 March 1948) | CC0 |
+| westerling-monumen | Westerling | Monumen_Korban_40.000_Jiwa_Sulawesi_Selatan.jpg (top cropped) | Wadaihangit | CC BY-SA 4.0 |
+| westerling-pelabuhan | Westerling | Makassar_Bedrijvigheid_in_de_haven_van_Makassar.,_Bestanddeelnr_431-1-4.jpg | Nationaal Archief / Dienst voor Legercontacten Indonesië (10 Nov 1947) | CC0 |
+| westerling-potret | Westerling | Kapitein_Westerling_verkleurd_glasnegatief,_Bestanddeelnr_903-8219.jpg | Daan Noske / Anefo, Nationaal Archief (10 Feb 1950) | CC0 |
+| westerling-parepare | Westerling | Monumen_Korban_40_Ribu_Jiwa_-_Parepare_(2023).jpg | MesinKetik | CC BY-SA 4.0 |
+| westerling-kampongwacht | Westerling | Patrouille_Kampongwacht_in_Zuid-Celebes,_Bestanddeelnr_141-2-4.jpg | Nationaal Archief / Dienst voor Legercontacten Indonesië (1947) | CC0 |
+| westerling-istana-bogor | Westerling | Istana_Kepresidenan_Bogor_(Photos_by_Apri_DAV).jpg | Apri DAV | CC BY-SA 4.0 |
+| badung-monumen | Puputan Badung | 1906_Monument_to_Puputan_Bali.JPG | GregRustFan | Public domain |
+| badung-sanur | Puputan Badung | Jukung.JPG (darkened) | Dajobimi | Public domain |
+| badung-pemecutan-1906 | Puputan Badung | KITLV_A3_-_Binnenplaats_van_de_poeri_van_het,_aan_de_westzijde_van_Denpasar_gelegen,_Pamoetjoetan_waar_op_20_september_1906_de_tweede_Balinese_zelfmoordstrijd_(poepoetan)_plaats_vond_tijdens_de_zevend,_KITLV_79085.tiff | H.M. van Weede (Commons: "Weede, H.W. van."), KITLV / Leiden University Libraries | CC BY 4.0 |
+| badung-pendaratan | Puputan Badung | Dutch_troops_landing_at_Sanur_1906.jpg (darkened) | Dutch government (unknown photographer; source: Bali Museum) | Public domain |
+| badung-alun-alun-1906 | Puputan Badung | KITLV_A3_-_Plein_aan_de_noordzijde_van_Denpasar,_plaats_van_de_eerste_Balinese_zelfmoordstrijd_(poepoetan)_op_20_september_1906,_waarin_de_vorst_van_Badoeng_en_zijn_gevolg_omkwamen_tijdens_de_zevende_,_KITLV_10178.tiff | H.M. van Weede (Commons: "Weede, H.W. van."), KITLV / Leiden University Libraries | CC BY 4.0 |
+| badung-klungkung | Puputan Badung | Kertha_Gosa_Pavilion_of_Klungkung_Palace,_Bali,_Indonesia.jpg | Ray in Manila | CC BY 2.0 |
