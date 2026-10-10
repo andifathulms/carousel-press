@@ -166,12 +166,12 @@ describe('warnings (PRD §4.8)', () => {
   });
   it('every parser warning code is reachable', () => {
     const all = new Set<WarningCode>([
-      ...codes('foo: 1\nhandle: x\ntemplate: x/y\nlang: zz\n---\n[cover photo=9]\nA', { photoIds: [] }),
+      ...codes('foo: 1\nhandle: x\ntemplate: x/y\nlang: zz\ncounter: maybe\n---\n[cover photo=9]\nA', { photoIds: [] }),
       ...codes('A\n---\n[zzz bad=1]\nB\n---\n[code]\nX\n---\n[code]\nY\n```\nz'),
       ...codes('A\n---\n[card]'),
     ]);
     for (const c of ['unknown-header-key', 'unknown-template', 'unknown-photo', 'unknown-slide-type',
-      'unknown-attr', 'code-missing-fence', 'unclosed-fence', 'missing-headline', 'unknown-lang'] as WarningCode[]) {
+      'unknown-attr', 'code-missing-fence', 'unclosed-fence', 'missing-headline', 'unknown-lang', 'unknown-counter'] as WarningCode[]) {
       expect(all.has(c)).toBe(true);
     }
   });

@@ -81,6 +81,7 @@ Siapa tahu jadi bahan obrolan kalian nanti.
 | `lang` | `id` \| `en` | `id` | Language of built-in strings (4.7). Any other value → warning `unknown-lang`, falls back to `id` |
 | `title` | text | headline of the first `cover` slide (else slide 1), `\|` read as a space | Used for file names (slugified; `carousel` when the slug is empty) and the deck library |
 | `caption` | text, one line | empty | Shown in the caption panel with a Copy button. Never drawn on slides |
+| `counter` | `on` \| `off` | `on` | `off` hides the `i/total` counter (4.6) on every slide, e.g. when another app inserts its own images between the slides. Nothing else moves. Any other value → warning `unknown-counter`, falls back to `on` |
 
 Unknown key → warning `unknown-header-key`, ignored.
 A `template` value that doesn't exist → warning `unknown-template`, falls back to the default.
@@ -139,7 +140,7 @@ A `code` slide with no fence → warning `code-missing-fence`, rendered as a car
 ### 4.6 Numbering and counters
 
 - **Badge number:** `card` and `code` slides get 1, 2, 3… in order. Slides with `number=off` are skipped and don't consume a number. `number=N` displays N, and the running counter continues as if that slide had consumed a number normally.
-- **Slide counter** `i/total` is drawn on every slide (including cover and end), where total = number of rendered slides.
+- **Slide counter** `i/total` is drawn on every slide (including cover and end), where total = number of rendered slides, unless the header sets `counter: off`.
 - **Swipe hint:** on the cover = the `coverSwipe` string; on card/code/quote = `swipe`; on end, or any slide with `cta`, = none.
 
 ### 4.7 Built-in strings
@@ -161,7 +162,7 @@ The parser and renderer return warnings as `{ code, slideIndex | null, line, mes
 | `overflow` | renderer: text doesn't fit even at the minimum size | **Yes**, unless the user confirms "Export anyway" |
 | `code-line-too-long` | renderer: a code line doesn't fit at the minimum mono size | **Yes** (same confirm) |
 | `internal-error` | parser: an unexpected exception (the deck comes back empty; message "Parser error — please report") | **Yes**, and not a text-length problem |
-| `unknown-header-key`, `unknown-template`, `unknown-lang`, `unknown-slide-type`, `unknown-attr` | parser (`unknown-attr` for `surface=` comes from the renderer) | No |
+| `unknown-header-key`, `unknown-template`, `unknown-lang`, `unknown-counter`, `unknown-slide-type`, `unknown-attr` | parser (`unknown-attr` for `surface=` comes from the renderer) | No |
 | `unknown-photo` | photo resolution against the tray | No (renders without the photo) |
 | `missing-headline` | parser | No |
 | `unclosed-fence`, `code-missing-fence` | parser | No |

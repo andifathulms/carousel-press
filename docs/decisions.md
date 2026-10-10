@@ -43,6 +43,7 @@ One line each. Things the specs left open, or deliberate deviations.
 - Lexicon slides: `icon=` is ignored silently; a `[table]` shows a badge only with an explicit `number=N`; lexicon and dev decks default to no auto icons.
 - Sample categories "English" (English Sehari) and "Bahasa Indonesia" (Kamus Kecil) for the lexicon decks. The SPEC sample covers keep "→" verbatim (owner's spec text) although slides normally avoid Unicode arrows.
 - Deck links use the URL fragment (base64url, UTF-8, no padding, 100 KB cap) so importing stays offline and nothing reaches a server; imports always create a new deck.
+- Header key `counter: on | off` (default on), for decks posted with other images between the slides (NusaStats map cards), where i/total would be wrong. Off removes only the counter text and box; nothing reflows. `Deck.counter` is present only as `false`, so decks without the key parse to exactly the same JSON (golden snapshots unchanged).
 
 ## Grammar contract: pre-extraction fixes (Oct 2026)
 

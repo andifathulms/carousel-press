@@ -71,6 +71,7 @@ export type WarningCode =
   | 'table-too-wide'
   | 'ipa-glyph-missing'
   | 'unknown-lang'
+  | 'unknown-counter'
   | 'internal-error';
 
 export const BLOCKING_CODES: readonly WarningCode[] = [
@@ -144,6 +145,7 @@ export interface DeckHeader {
   lang?: string;
   title?: string;
   caption?: string;
+  counter?: string;
 }
 
 export interface Deck {
@@ -155,6 +157,8 @@ export interface Deck {
   handle: string;
   title: string;
   caption: string;
+  /** false when the header sets `counter: off` (the i/total counter is hidden). Absent = on. */
+  counter?: false;
   slug: string;
   slides: Slide[];
 }

@@ -24,7 +24,8 @@ export interface HeaderLayout {
 
 export interface FooterLayout {
   swipe: { text: string; arrow: boolean; leadIcon: 'circle-arrow' | null; font: FontSpec; w: number } | null;
-  counter: { text: string; font: FontSpec; w: number };
+  /** null when the deck sets `counter: off`. */
+  counter: { text: string; font: FontSpec; w: number } | null;
 }
 
 export interface SlideLayout {
@@ -123,6 +124,8 @@ export function layoutFooter(input: LayoutInput, sans: string, mono: string, box
     swipe = { text: s.text, arrow: s.arrow, leadIcon, font, w };
     boxes.push({ x: SAFE.left, y: top, w, h, kind: 'swipe' });
   }
+  // `counter: off` drops only the counter; nothing else moves.
+  if (deck.counter === false) return { swipe, counter: null };
   const font: FontSpec = { family: mono, weight: 500, size: CHROME.counterSize };
   const text = `${slide.counter.i}/${slide.counter.total}`;
   const w = m.width(text, font);

@@ -17,7 +17,7 @@ export interface ParseOptions {
   photoIds?: readonly string[];
 }
 
-export const HEADER_KEYS = ['handle', 'template', 'lang', 'title', 'caption'] as const;
+export const HEADER_KEYS = ['handle', 'template', 'lang', 'title', 'caption', 'counter'] as const;
 type HeaderKey = (typeof HEADER_KEYS)[number];
 const HEADER_LINE = /^\s*([a-z]+)\s*:\s*(.*)$/;
 const TAG_LINE = /^\[[^\]]*\]$/;
@@ -229,6 +229,18 @@ function parseUnsafe(text: string, opts: ParseOptions): ParseResult {
     }
   }
 
+  let counter = true;
+  if (header.counter !== undefined) {
+    if (header.counter === 'off') counter = false;
+    else if (header.counter !== 'on') {
+      const line = lines.findIndex((l, i) => i < headerEnd && /^\s*counter\s*:/.test(l));
+      warnings.push({
+        code: 'unknown-counter', slideIndex: null, line: Math.max(0, line),
+        message: `Unknown counter "${header.counter}" (use on or off), using on`,
+      });
+    }
+  }
+
   const slides: Slide[] = [];
   for (const block of splitBlocks(lines, headerEnd + 1)) {
     if (block.lines.every((l) => l.trim() === '')) continue;
@@ -253,6 +265,7 @@ function parseUnsafe(text: string, opts: ParseOptions): ParseResult {
     header, hasHeader: headerEnd >= 0, template, lang,
     handle: header.handle ?? opts.defaultHandle ?? '',
     title, caption: header.caption ?? '',
+    ...(counter ? {} : { counter: false as const }),
     slug: slugify(title) || 'carousel',
     slides,
   };

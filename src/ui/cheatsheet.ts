@@ -2,7 +2,7 @@ import { copyText, flash, h } from './dom';
 
 /** PRD §4 in ~15 lines, with copyable examples. */
 const ROWS: [string, string][] = [
-  ['handle: @you  ·  template: dev/github-dark  ·  lang: id|en  ·  title: …  ·  caption: …', 'Header (optional), ends at the first ---'],
+  ['handle: @you  ·  template: dev/github-dark  ·  lang: id|en  ·  title: …  ·  caption: …  ·  counter: on|off', 'Header (optional), ends at the first ---'],
   ['---', 'Separates slides (not inside a [code] slide\'s ``` fence)'],
   ['[cover kicker="GIT • CHEAT SHEET"]', 'Cover: line 1 = headline, then subtitle'],
   ['Headline | second line', '| = line break, \\| = a literal pipe'],

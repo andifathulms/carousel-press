@@ -75,7 +75,7 @@ Every family uses the same skeleton. Only the drawing of each part differs.
 ### 3.2 Footer
 - Swipe hint, left-aligned at x = 96, baseline 1472. The arrow is a drawn icon (`arrow-right`, 28 px), not the "→" glyph, so it renders the same in every font.
 - Counter `i/total`, right-aligned at x = 912, baseline 1472, using tabular figures (draw with the mono or a tabular-capable face).
-- No swipe hint on `end` slides or on slides with `cta`. The counter is always shown.
+- No swipe hint on `end` slides or on slides with `cta`. The counter is always shown, unless the deck sets `counter: off`.
 
 ### 3.3 Content stack (the layout engine)
 Every slide body is a **vertical stack of blocks** placed from a top anchor with fixed gaps:

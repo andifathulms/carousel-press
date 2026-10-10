@@ -46,6 +46,7 @@ export function drawFooter(ctx: Ctx, L: SlideLayout, swipeColor: string, counter
     if (sw.arrow) drawIcon(ctx, 'arrow-right', x + CHROME.arrowGap, iconTop(CHROME.arrowSize), CHROME.arrowSize, swipeColor);
   }
   const c = L.footer.counter;
+  if (!c) return;
   setFont(ctx, c.font);
   ctx.fillStyle = counterColor;
   ctx.textAlign = 'right';

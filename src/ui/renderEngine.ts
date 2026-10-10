@@ -45,7 +45,7 @@ export class RenderEngine {
     const s = job.deck.slides[i]!;
     return String(hash(JSON.stringify(s) + job.variant.id + (s.photoId ?? '') +
       (photo ? `${photo.focalX},${photo.focalY},${photo.width}` : '') + job.darkness + job.deck.handle +
-      job.deck.lang + s.counter.total + job.deck.slug + (icon ?? '')));
+      job.deck.lang + s.counter.total + (job.deck.counter ?? true) + job.deck.slug + (icon ?? '')));
   }
 
   async render(job: RenderJob): Promise<void> {
