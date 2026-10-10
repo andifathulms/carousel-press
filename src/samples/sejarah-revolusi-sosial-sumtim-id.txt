@@ -1,0 +1,56 @@
+template: editorial/sage
+lang: id
+title: revolusi sosial sumatra timur 1946
+caption: Maret 1946, istana-istana kesultanan Melayu di Sumatra Timur diserbu, dan penyair Amir Hamzah ikut terbunuh. Sumber: Reid, The Blood of the People (via Sinuhaji, Historisme 2007, dan JOM FKIP UNRI); Said, Indonesia 15 (1973); van Langenberg, Indonesia 33 (1982); Rezani, IJHTC 10(2) 2025; Kementerian Penerangan RI, Propinsi Sumatera Utara (1953); Antara (2025, mengutip Lah Husny 1978); Setneg · Foto: Ramada Febrian, Davidelit (CC BY-SA 4.0), Nationaal Archief (CC0) via Wikimedia Commons #sejarahindonesia #sumaterautara #amirhamzah
+---
+[cover photo=sumtim-maimun]
+Saat Revolusi | Menyerbu Istana
+Para sultan Melayu tumbang, seorang penyair besar ikut terbunuh. Sumatra Timur, Maret 1946.
+---
+[number=off icon=leaf photo=sumtim-tembakau]
+Deli: kaya dari tembakau
+Para sultan memberi konsesi tanah ribuan hektare kepada pengusaha perkebunan, nyaris gratis. Kebunnya digarap kuli kontrak dari Jawa dan Tiongkok dalam kondisi yang keras. Royalti tembakau dan minyak membuat istana Deli dan Langkat kaya raya.
+---
+[number=off icon=chat photo=sumtim-tembakau]
+*1945*: dua kubu berhadapan
+Setelah proklamasi, banyak raja Melayu masih berharap Belanda kembali. Bagi kaum pergerakan, mereka elite feodal yang dekat dengan penjajah. Laskar seperti Pesindo, Napindo, dan Sabilillah bersenjata, dan Republik nyaris tak bisa mengendalikannya.
+---
+[number=off icon=alert photo=sumtim-peta]
+*3 Maret 1946*: Tanjungbalai
+Ribuan orang mengepung istana Sultan Asahan di Tanjungbalai. Dalam beberapa hari, sekitar 140 orang tewas di kota itu, kebanyakan bangsawan dan pejabat kerajaan. Di Labuhan Batu, istana Sultan Kualuh diserbu dan sultan tua itu dilaporkan tewas.
+---
+[number=off icon=shield-heart photo=sumtim-maimun]
+*Medan*: Deli dan Serdang lolos
+Istana Sultan Deli di Medan berada dekat pos Sekutu dan segera dilindungi tentara Inggris. Serdang, kesultanan yang sejak dulu paling diragukan kesetiaannya oleh Belanda, dijaga pasukan TRI dan menyerahkan kekuasaannya kepada Republik.
+---
+[number=off icon=key photo=sumtim-azizi]
+*Langkat*: harta istana dirampas
+Bangsawan Langkat ditangkapi dan harta mereka disita. Mobil Maybach milik Sultan Langkat belakangan dipakai sendiri oleh pemimpin PKI Abdul Xarim M.S. Sultannya selamat, tapi banyak kerabatnya tidak.
+---
+[number=off icon=book photo=sumtim-amir-hamzah]
+*1945*: pangeran jadi pejabat Republik
+Tengku Amir Hamzah, bangsawan Langkat, dianggap banyak orang penyair modern terbesar Indonesia. Setelah proklamasi, ia mewakili pemerintah Republik di Langkat. Kata seorang tokoh revolusi, "kesalahannya" cuma satu: ia sekaligus wakil Sultan.
+---
+[number=off icon=moon photo=sumtim-amir-hamzah]
+*20 Maret 1946*: Kuala Begumit
+Awal Maret ia ditangkap pemuda bersenjata; sumber berbeda soal tanggalnya, 3 atau 7 Maret. Pada 20 Maret 1946 ia dibunuh bersama 26 tawanan bangsawan Langkat di sebuah kebun dekat Binjai. Usianya 35 tahun.
+---
+[number=off icon=alert photo=sumtim-peta]
+*1946*: berapa korbannya?
+Tak ada angka pasti. Banyak kajian menyebut ratusan bangsawan dan kerabat raja tewas atau disingkirkan. Partai pro-kesultanan pada 1947 menuduh ribuan orang dari semua suku jadi korban pembunuhan, penculikan, dan perampokan.
+---
+[number=off icon=clock photo=sumtim-peta]
+*Maret–April 1946*: Republik bertindak
+Tentara Republik mengambil alih pemerintahan di Sumatra Timur, dan Menteri Pertahanan Amir Sjarifuddin datang meninjau. Belakangan sebagian tokoh laskar ditahan, salah satunya karena menyimpan perhiasan rampasan, tapi ada yang dilepas tanpa pernah diadili.
+---
+[number=off icon=map-pin photo=sumtim-mansur]
+*1947–1950*: Negara Sumatera Timur
+Juli 1947 Belanda menyerbu wilayah Republik. Bersama bangsawan yang selamat, mereka mendirikan Negara Sumatera Timur, dengan Dr. Tengku Mansur sebagai wali negara. Begitu Belanda mundur, negara itu runtuh pada Agustus 1950.
+---
+[number=off icon=star photo=sumtim-azizi]
+*1948–1975*: pulang ke Tanjung Pura
+Kerangka Amir Hamzah ditemukan di kuburan massal Kuala Begumit pada 1948. Tahun 1949 ia dimakamkan kembali di Masjid Azizi, Tanjung Pura. Pada 3 November 1975 negara menetapkannya sebagai Pahlawan Nasional.
+---
+[end photo=sumtim-maimun]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

@@ -31,6 +31,11 @@ import namaKotaKaltim from './sejarah-nama-kota-kaltim-id.txt?raw';
 import fortRotterdam from './sejarah-fort-rotterdam-id.txt?raw';
 import tambora from './sejarah-tambora-id.txt?raw';
 import opuDaengRisaju from './sejarah-opu-daeng-risaju-id.txt?raw';
+import sejarahBulungan from './sejarah-bulungan-id.txt?raw';
+import sejarahMandor from './sejarah-mandor-id.txt?raw';
+import sejarahSumtim from './sejarah-revolusi-sosial-sumtim-id.txt?raw';
+import sejarahWesterling from './sejarah-westerling-id.txt?raw';
+import sejarahPuputanBadung from './sejarah-puputan-badung-id.txt?raw';
 import basketTravelling from './sports-basket-travelling-id.txt?raw';
 import voliRotasi from './sports-voli-rotasi-id.txt?raw';
 import backpass from './sports-backpass-id.txt?raw';
@@ -134,6 +139,11 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sejarah-fort-rotterdam-id', name: 'Fort Rotterdam setelah 1667 (sejarah, id)', category: 'history', text: fortRotterdam },
   { id: 'sejarah-tambora-id', name: 'Tambora 1815 dari Sumbawa (sejarah, id)', category: 'history', text: tambora },
   { id: 'sejarah-opu-daeng-risaju-id', name: 'Opu Daeng Risaju (sejarah, id)', category: 'history', text: opuDaengRisaju },
+  { id: 'sejarah-bulungan-id', name: 'Tragedi Bultiken, Bulungan 1964 (sejarah, id)', category: 'history', text: sejarahBulungan },
+  { id: 'sejarah-mandor-id', name: 'Peristiwa Mandor 1944 (sejarah, id)', category: 'history', text: sejarahMandor },
+  { id: 'sejarah-revolusi-sosial-sumtim-id', name: 'Revolusi Sosial Sumatra Timur 1946 (sejarah, id)', category: 'history', text: sejarahSumtim },
+  { id: 'sejarah-westerling-id', name: 'Operasi Westerling di Sulawesi Selatan (sejarah, id)', category: 'history', text: sejarahWesterling },
+  { id: 'sejarah-puputan-badung-id', name: 'Puputan Badung 1906 (sejarah, id)', category: 'history', text: sejarahPuputanBadung },
   // Owner decks: Whistle Notes (photos bundled in ./photos)
   { id: 'sports-offside-id', name: 'Offside, dijelaskan (sports, id)', category: 'sports', text: offside },
   { id: 'sports-handball-id', name: 'Handball, dijelaskan (sports, id)', category: 'sports', text: handball },

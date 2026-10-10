@@ -1,0 +1,60 @@
+template: editorial/midnight
+lang: id
+title: operasi westerling di sulawesi selatan
+caption: Desember 1946–Februari 1947, ribuan orang di Sulawesi Selatan dieksekusi tanpa pengadilan. Berapa tepatnya masih diperdebatkan. Sumber: Abd Rahman Hamid, Paramita 26(1) 2016; Wulandari, Attoriolong 24(1) 2026; Tirto (Petrik Matanasi, 2019); Kousbroek, Hollands Maandblad 1988; AFP (2014); Al Jazeera (2013); Prakken d'Oliveira (2013); NOS (2015, 2022); DutchNews (2020); Setneg (2020); Antara (2023) · Foto: Wadaihangit, MesinKetik, Apri DAV (CC BY-SA 4.0) via Wikimedia Commons; Nationaal Archief (CC0) #sejarahindonesia #sulawesiselatan #makassar
+---
+[cover photo=westerling-monumen]
+Belanda Minta Maaf | 66 Tahun Kemudian
+Operasi Westerling di Sulawesi Selatan, Desember 1946–Februari 1947.
+---
+[number=off icon=map-pin photo=westerling-pelabuhan]
+*1946*: Sulawesi Selatan melawan
+Setelah Jepang kalah, Belanda kembali berkuasa di Makassar. Pemuda membentuk laskar seperti KRIS Muda dan GAPRI, dan pada 17 Juli 1946 di Polongbangkeng berdiri LAPRIS. Mereka menyerang pos-pos KNIL, tentara kolonial Belanda.
+---
+[number=off icon=alert photo=westerling-pelabuhan]
+Kekerasan juga dari pihak pejuang
+Laskar menyerang orang yang dianggap mata-mata Belanda dan membunuh pejabat Belanda. Controleur Polewali G.J. Monsees ditembak mati, dan pada 16 Desember 1946 Aspirant Controleur F.R. Westhoff dibunuh di Tombolo Pao, Gowa.
+---
+[number=off icon=clock photo=westerling-potret]
+*Desember 1946*: pasukan khusus tiba
+Pada 5 Desember 1946, 123 komando Depot Speciale Troepen (DST) pimpinan Raymond Westerling tiba di Makassar. Tugasnya "membersihkan" Sulawesi Selatan dari pejuang Republik. Di Batua, operasi pertamanya, 35 orang dieksekusi.
+---
+[number=off icon=alert photo=westerling-potret]
+Cara Westerling: dihukum di tempat
+Kampung dikepung, warga dikumpulkan di lapangan, laki-laki dipisahkan dari perempuan dan anak. Orang yang ditunjuk sebagai "ekstremis" atau "perampok" ditembak di depan warga, tanpa pengadilan. Belanda menyebutnya standrecht.
+---
+[number=off icon=map-pin photo=westerling-parepare]
+*Januari 1947*: sampai Parepare dan Mandar
+Operasi meluas ke Gowa, Takalar, Bulukumba, Sinjai, Parepare, hingga Mandar. Keluarga korban menyebut 208 laki-laki ditembak di Suppa, dekat Parepare, pada 28 Januari 1947. Awal Februari, eksekusi massal terjadi di Galung Lombok, Mandar.
+---
+[number=off icon=alert photo=westerling-kampongwacht]
+Bukan hanya pasukan Westerling
+Unit KNIL lain, polisi, dan penjaga kampung pro-Belanda ikut menembak. Menurut laporan resmi Belanda yang dikutip Rudy Kousbroek (1988), militer menewaskan 3.114 orang, polisi 136, dan polisi kampung 576.
+---
+[number=off icon=chat photo=westerling-parepare]
+Angka *40.000*: dari mana?
+Akhir 1947, Kahar Muzakkar melaporkan 40.000 korban kepada Soekarno. Westerling mengaku sekitar 600, penyelidikan TNI 1950-an menemukan 1.700, riset 1970 lebih dari 3.000. Studi sejarah umumnya menyebut 3.000–4.000. Angka pastinya tak diketahui.
+---
+[number=off icon=moon photo=westerling-monumen]
+*11 Desember*: hari berkabung
+Pada 11 Desember 1947, setahun setelah operasi dimulai, para korban sudah diperingati di Yogyakarta. Kini setiap 11 Desember, Hari Korban 40.000 Jiwa diperingati dengan upacara di Monumen Korban 40.000 Jiwa, Makassar.
+---
+[number=off icon=key photo=westerling-potret]
+Tak pernah diadili
+Westerling diberhentikan dari dinas pada 1948, tapi tidak pernah dituntut atas kejahatan perang. Pada 23 Januari 1950 ia memimpin pasukan APRA menyerang Bandung, lalu kabur ke Singapura.
+---
+[number=off icon=heart photo=westerling-parepare]
+*2013*: maaf untuk para janda
+Agustus 2013, digugat lewat pengacara Liesbeth Zegveld, Belanda berdamai dengan 10 janda korban, masing-masing 20.000 euro. 12 September 2013, Duta Besar Tjeerd de Zwaan meminta maaf kepada para janda di Sulawesi Selatan.
+---
+[number=off icon=shield-heart photo=westerling-istana-bogor]
+*2020*: Raja dan pengadilan
+10 Maret 2020 di Istana Bogor, Raja Willem-Alexander meminta maaf atas "kekerasan berlebihan" Belanda. 25 Maret, pengadilan Den Haag memutus ganti rugi untuk keluarga 11 korban: dari 123 euro sampai 10.000 euro bagi anak yang melihat ayahnya dieksekusi.
+---
+[number=off icon=book photo=westerling-kampongwacht]
+*2022*: bukan sekadar "ekses"
+17 Februari 2022, riset NIOD, KITLV, dan NIMH menyimpulkan Belanda memakai kekerasan ekstrem secara struktural pada 1945–1949; riset itu juga membahas kekerasan pihak Indonesia. PM Mark Rutte meminta maaf, membuang sikap resmi 1969 soal "ekses".
+---
+[end photo=westerling-monumen]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

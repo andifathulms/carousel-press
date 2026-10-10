@@ -1,0 +1,60 @@
+template: editorial/midnight
+lang: id
+title: peristiwa mandor
+caption: Sultan, dokter, pejabat, pedagang: satu generasi elite Kalimantan Barat dibunuh Jepang, dan jumlah korbannya masih diperdebatkan. Sumber: Paijens, disertasi Universiteit Leiden (2025); Firmansyah dkk., Fajar Historia 6(1) 2022; Tirto (2022); Kompas (2020); RRI Pontianak (2026); Antara Kalbar (2015); DJPb Kemenkeu (2020); Kalimantan (Kementerian Penerangan, 1953) · Foto: Meidana, Widita22 (CC BY-SA 4.0), M. Honda/KITLV, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kalimantanbarat #mandor
+---
+[cover photo=mandor-kadriah]
+Satu Generasi | Hilang di Mandor
+Sultan, dokter, pejabat, pedagang: dibunuh tentara Jepang. Kalimantan Barat, 1943–1944.
+---
+[number=off icon=alert photo=mandor-pontianak-udara]
+*1943*: Jepang mulai curiga
+Setelah menumpas kelompok bekas Gubernur Borneo B.J. Haga di Banjarmasin, Angkatan Laut Jepang curiga ada komplotan serupa di Kalbar. 23 Oktober 1943, polisi militernya (Tokkeitai) mulai menangkapi bangsawan dan kaum terpelajar.
+---
+[number=off icon=home photo=mandor-kadriah]
+*Januari 1944*: Istana Kadriah
+Sultan Pontianak Syarif Muhammad Alkadrie sudah bersumpah setia kepada Jepang pada 1942. Tapi 24 Januari 1944, keluarga Istana Kadriah ditangkap. Sultan, putra-putranya, dan kerabat laki-lakinya tak pernah kembali. Mahkota emasnya dirampas.
+---
+[number=off icon=key photo=mandor-kapuas-pontianak]
+*Mei 1944*: rapat jadi jebakan
+24 Mei 1944, tokoh-tokoh dikumpulkan di Pontianak untuk konferensi Nissinkai, bentukan Jepang sendiri. Pesertanya justru ditangkap dan divonis mati lewat sidang kilat. Sultan Sambas dan Panembahan Mempawah juga ditangkap.
+---
+[number=off icon=moon photo=mandor-makam-juang]
+*28 Juni 1944*: hutan Mandor
+Para tahanan dibawa ke hutan di Mandor, Landak, lalu dibunuh dengan pedang atau ditembak. 28 Juni dikenang sebagai hari eksekusinya, meski catatan Belanda tahun 1947 menyebut Sultan Pontianak dibunuh 24 Juni 1944.
+---
+[number=off icon=heart photo=mandor-pontianak-udara]
+Korbannya dari semua golongan
+Ada Sultan Pontianak (74 tahun) dan dua putranya, Sultan Sambas, para panembahan, dokter seperti dr. Rubini dan istrinya, pejabat, dan pedagang. Mereka Melayu, Dayak, Tionghoa, Arab, Bugis, Jawa, Batak, Minangkabau, Belanda, dan banyak lagi.
+---
+[number=off icon=book photo=mandor-kapuas-pontianak]
+*1 Juli 1944*: diumumkan di koran
+Borneo Sinbun, koran pemerintah balatentara Jepang, menulis di halaman depan: "Komplotan Besar Jang Mendoerhaka Oentoek Melawan Dai Nippon Soedah Dibongkar Sampai Ke Akar-akarnja". Di dalamnya dimuat 48 nama korban.
+---
+[number=off icon=lightbulb photo=mandor-pontianak-udara]
+Komplotan yang tak terbukti
+Menurut A.H. Böhm, pejabat Belanda di Kalimantan Barat, tak ada petunjuk Jepang sungguh percaya pada komplotan itu, dan buktinya tak muncul di pengadilan militer Pontianak. Ia menilai tujuannya menyingkirkan lapisan terdidik.
+---
+[number=off icon=alert photo=mandor-makam-juang]
+Berapa korbannya?
+Pemprov Kalbar memakai angka 21.037, dari catatan mantan perwira AL Jepang Kiyotada Takahashi. Penyelidikan intelijen Belanda (NEFIS) tahun 1946 menghitung 1.270–1.300 korban. Ada pula yang menyebut 50.000. Angka pastinya tak pernah diketahui.
+---
+[number=off icon=mountain photo=mandor-hulu-kapuas]
+*1945*: perlawanan dari pedalaman
+Pembantaian itu membuat banyak kelompok berbalik melawan Jepang. Pertengahan 1945, orang Dayak Desa di sekitar Meliau, Sanggau, mengangkat senjata, dikenal sebagai Perang Majang Desa. Setelah Jepang menyerah, banyak serdadunya dibunuh di desa-desa.
+---
+[number=off icon=star photo=mandor-hamid]
+*Oktober 1945*: sultan yang selamat
+Syarif Hamid, putra Sultan, lolos karena sedang jadi tawanan perang Jepang di Jawa sebagai perwira KNIL. Ia tiga kali menolak tawaran Jepang untuk naik takhta. Oktober 1945 ia dilantik sebagai Sultan Hamid II, kelak perancang lambang Garuda Pancasila.
+---
+[number=off icon=check-circle photo=mandor-kapuas-pontianak]
+*1947*: diadili di Pontianak
+Makam-makam massal ditemukan di sekitar Mandor dan Sungai Durian. Akhir 1947, pengadilan militer di Pontianak mengadili perwira AL Jepang. Laksamana Daigo Tadashige dieksekusi di Pontianak pada 6 Desember 1947.
+---
+[number=off icon=clock photo=mandor-makam-juang]
+*28 Juni*: Kalbar berkabung
+Sejak 1973 Pemprov Kalbar berziarah ke Mandor. Perda Kalbar No. 5 Tahun 2007 menetapkan 28 Juni sebagai Hari Berkabung Daerah dan Makam Juang Mandor sebagai Monumen Daerah. Hari itu, bendera dikibarkan setengah tiang.
+---
+[end photo=mandor-kadriah]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.

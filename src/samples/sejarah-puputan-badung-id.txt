@@ -1,0 +1,60 @@
+template: editorial/sage
+lang: id
+title: puputan badung 1906
+caption: Berbaju putih dan membawa keris, raja Badung dan ratusan pengikutnya berjalan ke arah senapan Belanda. Sumber: Helen Creese, "A Puputan Tale", Indonesia 82 (2006), mengutip H.M. van Weede (1908), catatan harian I Gusti Putu Djlantik (1906) & Schulte Nordholt (1996); Inna Mirawati, Citra Lekha 17(1) 2013; Australian Museum (2014); Setkab RI (2015); Antara Bali (2025); The Jakarta Post (2011) · Foto: H.M. van Weede, KITLV/Leiden University Libraries (CC BY 4.0), Ray in Manila (CC BY 2.0) via Wikimedia Commons #sejarahindonesia #bali #puputan #denpasar
+---
+[cover photo=badung-monumen]
+Berbaju Putih, Mereka | Maju ke Arah Senapan
+Puputan Badung. Denpasar, Bali, 20 September 1906.
+---
+[number=off icon=book photo=badung-sanur]
+Bali, abad ke-19: tawan karang
+Adat Bali mengenal tawan karang, hak atas kapal yang karam di karang pesisir beserta isinya. Perjanjian Badung dengan Belanda tahun 1849 sampai punya pasal khusus soal kapal karam. Sejak pertengahan abad ke-19, adat ini terus jadi sumber sengketa.
+---
+[number=off icon=alert photo=badung-sanur]
+*1903*: api kremasi di Tabanan
+Sejak Politik Etis 1901, Belanda ingin menghapus adat yang dianggapnya kejam, seperti pembakaran janda (masatia). 25 Oktober 1903, dua perempuan tewas di api kremasi Raja Tabanan, meski Belanda menentang keras. Larangannya masuk perjanjian 1905.
+---
+[number=off icon=alert photo=badung-sanur]
+*1904*: Sri Kumala kandas di Sanur
+27 Mei 1904, sekunar milik Kwee Tek Tjiang, saudagar Tionghoa dari Banjarmasin, kandas di Sanur. Ia menuntut ganti rugi 3.000 ringgit (7.500 gulden) atas barang yang katanya dijarah. Menurut versi Badung, warga Sanur bersumpah di pura tak menjarah.
+---
+[number=off icon=map-pin photo=badung-pendaratan]
+*1906*: pasukan mendarat di Sanur
+Raja Badung, I Gusti Ngurah Made Agung, menolak membayar. Belanda memblokade pantai, ultimatum Juli 1906 ditolak. 14 September 1906 (sebagian sumber: 15 September) pasukan Belanda mendarat di Sanur, lalu bertempur di Panjer dua hari kemudian.
+---
+[number=off icon=moon photo=badung-alun-alun-1906]
+Malam terakhir di Puri Denpasar
+Raja mengkremasi jenazah kakaknya, raja sebelumnya, dengan upacara sangat sederhana. Mahkota emas ikut dilempar ke api. Menurut kisah keluarga puri, seorang perempuan, Ida Ayu Supat, menceburkan diri ke api itu, padahal masatia sudah dilarang sejak 1905.
+---
+[number=off icon=sun photo=badung-alun-alun-1906]
+*20 September 1906*: barisan putih
+Pagi itu raja, keluarga, pendeta, dan ratusan pengikut, laki-laki, perempuan, dan anak-anak, keluar dari puri. Semua berpakaian putih dan membawa keris. Mereka berjalan langsung ke arah pasukan Belanda.
+---
+[number=off icon=alert photo=badung-alun-alun-1906]
+Denpasar: senapan dan meriam
+Pasukan Belanda menembak dengan senapan dan meriam, dan raja gugur di jalan dekat puri. Saksi Belanda, H.M. van Weede, mencatat para perempuan melempar koin emas ke arah tentara. Yang tidak tertembak menikam diri sendiri.
+---
+[number=off icon=clock photo=badung-pemecutan-1906]
+Sore harinya: Puri Pemecutan
+Pasukan lalu bergerak ke Puri Pemecutan, rumah cabang kedua keluarga raja Badung, yang rajanya sudah tua dan sakit. Di sana puputan terulang. Menurut kisah keluarga puri, putri raja dan banyak perempuan lain lebih dulu mati di dalam puri.
+---
+[number=off icon=book photo=badung-pemecutan-1906]
+Berapa yang tewas? Sumber tak sepakat
+Angka resmi: 400 orang. Juru bahasa Bali yang ikut pasukan, I Gusti Putu Djlantik, mencatat sekitar 800 jenazah di Puri Denpasar dan 300 di Pemecutan. Syair Bali Bhuwanawinasa malah menyebut 3.600 korban.
+---
+[number=off icon=chat photo=badung-pendaratan]
+*1906*: pembaca Belanda terkejut
+Koran Belanda dan Hindia memberitakannya, dan pembacanya terguncang, terutama karena perempuan dan anak-anak ikut tewas. Majalah Prancis Le Petit Journal (14 Oktober 1906) memuat ilustrasinya, yang menurut sejarawan Helen Creese sepenuhnya rekaan.
+---
+[number=off icon=mountain photo=badung-klungkung]
+*1906–1908*: Bali jatuh seluruhnya
+27 September 1906 Belanda masuk Tabanan. Rajanya menyerah, lalu bunuh diri bersama putranya dalam tahanan saat akan dibuang ke Lombok. 28 April 1908, Raja Klungkung dan para pengikutnya menyusul lewat puputan. Seluruh Bali pun dikuasai Belanda.
+---
+[number=off icon=star photo=badung-monumen]
+Denpasar hari ini
+Di Lapangan Puputan Badung berdiri patung pria, perempuan, dan anak yang membawa tombak dan keris. Monumennya dipugar dan diresmikan ulang 14 November 2025. Sejak 2015, I Gusti Ngurah Made Agung bergelar Pahlawan Nasional (Keppres 116/TK/2015).
+---
+[end photo=badung-monumen]
+Di daerahmu ada cerita kayak gini?
+Tulis di komen, siapa tahu jadi postingan berikutnya.
