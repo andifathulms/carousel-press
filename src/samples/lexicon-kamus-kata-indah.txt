@@ -1,11 +1,14 @@
 template: lexicon/kamus
 lang: id
 title: kata indah di kbbi
-caption: Kata-kata indah yang benar-benar ada di KBBI, dan yang ternyata tidak ada. Sumber: KBBI VI Daring (Oktober 2026) #bahasaindonesia #kataindah #kbbi
+caption: Swastamita, nabastala, anindya: sering dikira ada di KBBI, padahal tidak tercatat di KBBI VI Daring. Sumber: KBBI VI Daring (Oktober 2026) #bahasaindonesia #kataindah #kbbi
 ---
 [cover kicker="KATA INDAH"]
-11 Kata Indah | yang Jarang Dipakai
-Semuanya benar-benar tercatat di KBBI.
+Swastamita Ternyata | Tidak Ada di KBBI
+Tapi 8 kata indah ini benar-benar tercatat.
+---
+Sering dikira ada di KBBI
+Swastamita, sandyakala, anindya, dan nabastala tidak ada di KBBI VI Daring. Yang ada: sandikala (Jawa), artinya senja kala. Geser untuk kata yang benar-benar tercatat.
 ---
 [word]
 pos: nomina
@@ -51,24 +54,10 @@ note: Sumber: KBBI VI Daring
 ---
 [word]
 pos: nomina
-word: cakrawala
-meaning: lengkung langit
-example: Pelangi melengkung di *cakrawala* selepas hujan.
-note: Arti lain: kaki langit; tepi langit; batas pemandangan; horizon. Sumber: KBBI VI Daring
----
-[word]
-pos: nomina
 word: lazuardi
 meaning: batu permata berwarna biru kemerah-merahan
 example: Cincinnya bermata *lazuardi*.
 note: Arti kedua: warna biru muda (seperti warna langit). Sumber: KBBI VI Daring
----
-[word]
-pos: nomina
-word: gemintang
-meaning: susunan bintang; peta bintang; rasi
-example: Dari pantai, *gemintang* terlihat jelas malam ini.
-note: Sumber: KBBI VI Daring
 ---
 [word]
 pos: adjektiva
@@ -76,16 +65,6 @@ word: candramawa
 meaning: hitam bercampur putih (tentang warna bulu kucing)
 example: Kucing *candramawa* itu suka tidur di teras.
 note: Sumber: KBBI VI Daring
----
-[word]
-pos: nomina · Minangkabau
-word: rinai
-meaning: gerimis; rintik-rintik; tetes-tetes (tentang hujan)
-example: *Rinai* hujan menemani perjalanan pulang.
-note: Sumber: KBBI VI Daring
----
-Sering dikira ada di KBBI
-Swastamita, sandyakala, anindya, dan nabastala tidak ada di KBBI VI Daring. Yang ada: sandikala (Jawa), artinya senja kala.
 ---
 [end]
 Kata indah mana yang paling kamu suka?

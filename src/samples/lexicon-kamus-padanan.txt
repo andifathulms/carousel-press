@@ -1,11 +1,15 @@
 template: lexicon/kamus
 lang: id
 title: padanan kata asing
-caption: Download, upload, online: padanannya sudah ada di KBBI. Sumber: KBBI VI Daring; PASTI, Badan Bahasa #bahasaindonesia #padanankata #kbbi
+caption: Surel ternyata belum tercatat di KBBI VI, dan entri email di sana berarti lapisan email, seperti email gigi. Sumber: KBBI VI Daring; PASTI, Badan Bahasa #bahasaindonesia #padanankata #kbbi
 ---
 [cover kicker="PADANAN KATA"]
-Download, Upload, Online: | Bahasa Indonesianya Apa?
-Padanannya sudah tercatat di KBBI.
+Cek KBBI: "Email" | Bukan Surat Elektronik
+Padanan yang tercatat: pos-el. Ini 15 padanan kata asing lainnya.
+---
+Email: pakai pos-el
+"Surel" sering dipakai, tapi belum tercatat di KBBI VI. Yang tercatat: surat elektronik dan pos-el.
+Entri "email" di KBBI justru berarti lapisan email, seperti email gigi.
 ---
 [table]
 Padanannya
@@ -21,20 +25,6 @@ Padanannya
 Sumber: KBBI VI Daring
 ---
 [word]
-pos: adjektiva · akronim
-word: daring
-meaning: dalam jaringan, terhubung melalui jejaring komputer, internet, dan sebagainya
-example: Kelasnya hari ini *daring*, jadi bisa ikut dari rumah.
-note: Lawannya: luring, luar jaringan. Sumber: KBBI VI Daring
----
-[word]
-pos: nomina
-word: gawai
-meaning: peranti elektronik atau mekanik dengan fungsi praktis; gadget; acang
-example: Simpan dulu *gawai* saat makan bareng.
-note: Sumber: KBBI VI Daring
----
-[word]
 pos: verba · komputer
 word: mengunduh
 meaning: menyalin berkas dari layanan informasi daring atau dari komputer lain ke komputer yang digunakan
@@ -48,12 +38,12 @@ meaning: memberi berkas ke layanan informasi daring atau ke komputer lain dari k
 example: Jangan lupa *mengunggah* tugasnya sebelum jam sembilan.
 note: Hasilnya disebut unggahan. Sumber: KBBI VI Daring
 ---
-[compare]
-wrong-label: Campur aduk
-right-label: Padanan KBBI
-wrong: Aku download file-nya dulu.
-right: Aku *mengunduh* berkasnya dulu.
-why: Di KBBI VI, berkas (komputer) berarti kumpulan data yang dapat diberi nama berbeda dan disimpan pada tempat penyimpanan sekunder dalam komputer.
+[word]
+pos: adjektiva · akronim
+word: daring
+meaning: dalam jaringan, terhubung melalui jejaring komputer, internet, dan sebagainya
+example: Kelasnya hari ini *daring*, jadi bisa ikut dari rumah.
+note: Lawannya: luring, luar jaringan. Sumber: KBBI VI Daring
 ---
 [word]
 pos: nomina · akronim
@@ -61,13 +51,6 @@ word: tagar
 meaning: tanda pagar, digunakan sebagai tanda untuk merujuk pada topik sebuah kiriman status dalam media jejaring sosial
 example: Pakai *tagar* yang sama biar gampang dicari.
 note: Tagar juga punya arti lain: (bunyi) guruh atau guntur. Sumber: KBBI VI Daring
----
-[word]
-pos: nomina · komputer
-word: tetikus
-meaning: peranti periferal pada komputer yang menyerupai tikus, gunanya, antara lain, untuk mengendalikan kursor
-example: *Tetikusnya* nggak jalan, coba ganti baterainya.
-note: Tercatat di bawah kata tikus. Sumber: KBBI VI Daring
 ---
 [table]
 Padanan lainnya
@@ -80,10 +63,6 @@ Padanan lainnya
 | post | *unggahan* |
 | hyperlink | *pranala* |
 Sumber: KBBI VI Daring
----
-Email: pakai pos-el
-"Surel" sering dipakai, tapi belum tercatat di KBBI VI. Yang tercatat: surat elektronik dan pos-el.
-Entri "email" di KBBI justru berarti lapisan email, seperti email gigi.
 ---
 Cari padanan sendiri di PASTI
 Badan Bahasa punya aplikasi PASTI (Padanan Istilah) di pasti.kemendikdasmen.go.id, berisi lebih dari 170 ribu istilah dari 59 bidang. Ketik istilah asingnya untuk melihat padanan Indonesianya.

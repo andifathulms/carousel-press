@@ -1,11 +1,11 @@
 template: lexicon/notebook
 lang: id
 title: cara baca akhiran ed
-caption: Walked, played, wanted: bunyi -ed ternyata ada tiga. Sumber aturan: Cambridge Grammar; British Council TeachingEnglish; IPA: Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #pronunciation
+caption: Walked itu dibaca satu ketukan, bukan wal-ked. Sumber aturan: Cambridge Grammar; British Council TeachingEnglish; IPA: Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #pronunciation
 ---
 [cover kicker="PRONUNCIATION"]
-Walked, Played, Wanted: | Bunyi -ed Ada Tiga
-Dan cuma satu yang menambah suku kata.
+Walked Itu Satu Ketukan, | Bukan Wal-ked
+Bunyi -ed ada tiga, dan cuma satu yang menambah suku kata.
 ---
 [table]
 Tiga bunyi *-ed*
@@ -14,12 +14,8 @@ Tiga bunyi *-ed*
 | d | play*ed*, clean*ed*, call*ed* |
 | id | want*ed*, need*ed*, decid*ed* |
 ---
-Cara cepat mengingatnya
-Kata dasarnya berakhir bunyi t atau d? Tambah satu suku kata: "id".
-Selain itu, -ed tidak menambah suku kata. Walked dibaca satu ketukan, bukan wal-ked.
----
-Tes leher: bersuara atau tidak?
-Taruh tangan di leher, ucapkan p lalu b. Bergetar berarti bersuara: -ed dibaca d. Tidak bergetar (p, k, f, s, sh, ch): -ed dibaca t.
+Cara cepat menentukannya
+Kata dasarnya berakhir bunyi t atau d? -ed dibaca "id", tambah satu suku kata. Selain itu, taruh tangan di leher: bunyi terakhir bergetar (seperti b) berarti d; tidak bergetar (p, k, f, s, sh, ch) berarti t.
 ---
 [word]
 pos: verb · V2/V3 of walk
@@ -31,15 +27,6 @@ example: I *walked* to school this morning.
 translation: Tadi pagi aku jalan kaki ke sekolah.
 ---
 [word]
-pos: verb · V2/V3 of play
-word: played
-ipa: /pleɪd/ (UK & US)
-say: "pleid", satu suku kata
-meaning: bermain
-example: We *played* football after class.
-translation: Kami main bola sepulang kelas.
----
-[word]
 pos: verb · V2/V3 of want
 word: wanted
 ipa: /ˈwɒntɪd/ (UK) · /ˈwɑːntɪd/ (US)
@@ -47,13 +34,6 @@ say: "WON-tid", dua suku kata
 meaning: ingin; mau
 example: She *wanted* to quit.
 translation: Dia pengin berhenti.
----
-[compare]
-wrong-label: Jangan
-right-label: Begini
-wrong: walk-ed (dua ketukan)
-right: *walkt* (satu ketukan)
-why: Bunyi k tidak bersuara, jadi -ed dibaca t dan menyatu dengan suku kata sebelumnya.
 ---
 [table]
 Pengecualian: kata sifat *-ed*

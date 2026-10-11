@@ -2,27 +2,23 @@ handle: @englishsehari
 template: lexicon/notebook
 lang: id
 title: verb pola ought
-caption: Think jadi thought, buy jadi bought. Ini polanya 👇 Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar #belajarbahasainggris #irregularverbs #englishsehari
+caption: Brought dan bought cuma beda satu huruf r, tapi yang satu membawa, yang satu membeli. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar #belajarbahasainggris #irregularverbs #englishsehari
 ---
 [cover kicker="IRREGULAR VERBS"]
-Think Jadi Thought? | Ini Polanya
-7 kata kerja yang V2-nya berakhiran -ought / -aught.
+Thinked? Buyed? | Bukan Begitu
+7 kata kerja yang V2-nya berakhiran -ought / -aught, dan bunyinya sama.
 ---
 [table]
-Pola *-ought*
+Pola *-ought* dan *-aught*
 | V1 | V2 / V3 | Arti |
 | think | th*ought* | berpikir |
 | bring | br*ought* | membawa |
 | buy | b*ought* | membeli |
 | fight | f*ought* | bertarung |
 | seek | s*ought* | mencari |
-Seek lebih formal; sehari-hari biasanya look for.
----
-[table]
-Pola *-aught*
-| V1 | V2 / V3 | Arti |
 | teach | t*aught* | mengajar |
 | catch | c*aught* | menangkap |
+Seek lebih formal; sehari-hari biasanya look for.
 ---
 Ejaan beda, bunyi sama
 -ought dan -aught dibaca persis sama: thought, bought, taught, caught berakhir dengan bunyi "ot" panjang. Huruf gh-nya tidak dibaca.
@@ -66,12 +62,6 @@ right-label: Tepat
 wrong: I brought a new phone yesterday.
 right: I *bought* a new phone yesterday.
 why: Maksudnya membeli? Pakai bought, dari buy. Brought dari bring, artinya membawa. Beda satu huruf r, artinya beda jauh.
----
-Kuis: V2 dari *bring*?
-Jawab di kepala dulu, lalu geser. Petunjuk: polanya sama dengan think jadi thought.
----
-Jawaban: *brought*
-Bring, brought, brought. Contoh: I brought snacks for everyone. Aku bawa camilan buat semua.
 ---
 [end]
 Simpan dulu ✏️

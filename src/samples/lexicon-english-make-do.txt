@@ -1,11 +1,11 @@
 template: lexicon/notebook
 lang: id
 title: make atau do
-caption: Make a mistake, tapi do your best. Sumber: Cambridge Dictionary; Cambridge Grammar ("Do or make?"); Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #collocation
+caption: Yang benar made a mistake, tapi do me a favour, dan ini nggak bisa ditukar. Sumber: Cambridge Dictionary; Cambridge Grammar ("Do or make?"); Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #collocation
 ---
 [cover kicker="MAKE VS DO"]
-Make atau Do? | Ini Pasangannya
-Keduanya bisa diartikan "membuat", tapi tidak bisa ditukar.
+"I Did a Mistake"? | Harusnya Made
+Make dan do sama-sama bisa berarti "membuat", tapi pasangannya beda.
 ---
 Ada pegangan umum
 Menurut Cambridge Grammar: do fokus pada proses atau aktivitas, make lebih ke hasil atau produk. Tapi banyak frasa tetap harus dihafal sebagai satu paket.
@@ -17,12 +17,6 @@ Pakai *make*
 | make a decision | mengambil keputusan |
 | make money | cari uang |
 | make a cake | bikin kue |
----
-[table]
-Pakai *make* (lagi)
-| Frasa | Artinya |
-| make a phone call | menelepon |
-| make an effort | berusaha |
 | make friends | cari teman |
 | make a noise | bikin berisik |
 | make the bed | merapikan tempat tidur |
@@ -36,16 +30,10 @@ Pakai *do*
 | do your best | berusaha sebaik mungkin |
 | do someone a favour | menolong seseorang |
 | do the dishes | mencuci piring |
-Versi khas Inggris untuk do the dishes: do the washing-up.
----
-[table]
-Pakai *do* (lagi)
-| Frasa | Artinya |
-| do the shopping | belanja kebutuhan |
-| do exercise | berolahraga |
 | do the laundry | mencuci pakaian |
 | do damage | menimbulkan kerusakan |
 | do research | melakukan riset |
+Versi khas Inggris untuk do the dishes: do the washing-up.
 ---
 [compare]
 wrong: I did a mistake.

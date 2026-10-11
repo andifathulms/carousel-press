@@ -1,55 +1,18 @@
 template: lexicon/notebook
 lang: id
-title: false friends inggris indonesia
-caption: Mirip bahasa Indonesia, tapi artinya lain. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar; KBBI VI Daring #belajarbahasainggris #englishsehari #falsefriends
+title: kata inggris yang menipu
+caption: Kerja di shoe fabric? Itu artinya kain sepatu, bukan pabrik sepatu. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar; KBBI VI Daring #belajarbahasainggris #englishsehari #falsefriends #vocabulary
 ---
 [cover kicker="FALSE FRIENDS"]
-Mirip Bahasa Indonesia, | Artinya Beda
-Delapan kata yang sering bikin salah paham.
----
-[table]
-Kata Inggris dan artinya
-| Inggris | Artinya |
-| actual | sesungguhnya |
-| *current* | aktual, terbaru |
-| sympathetic | pengertian, peduli |
-| *likeable* | simpatik |
-| sensible | masuk akal, bijak |
-| *sensitive* | sensitif, peka |
-Yang ditandai: padanan yang sebenarnya kita maksud.
----
-[word]
-pos: adjective
-word: actual
-ipa: /ˈæk.tʃu.əl/ (UK & US)
-say: "EK-chu-el"
-meaning: benar-benar ada; sesungguhnya
-example: The *actual* price was higher than the ad.
-translation: Harga sebenarnya lebih mahal dari iklannya.
+Fabric Itu Kain, | Bukan Pabrik
+9 kata Inggris yang terdengar akrab, tapi artinya lain dari bahasa kita.
 ---
 [compare]
-wrong-label: Salah arti
-right-label: Tepat
-wrong: Let's talk about actual issues.
-right: Let's talk about *current* issues.
-why: Aktual yang artinya hangat atau terbaru dalam bahasa Inggris: current atau latest.
----
-[word]
-pos: adjective
-word: sympathetic
-ipa: /ˌsɪm.pəˈθet.ɪk/ (UK)
-say: "sim-pe-TE-tik"
-meaning: peduli dan ikut merasakan kesusahan orang lain; pengertian
-example: She was very *sympathetic* when my dad was sick.
-translation: Dia sangat pengertian waktu ayahku sakit.
-note: Simpatik (menarik hati) dalam bahasa Inggris: likeable atau pleasant.
----
-[compare]
-wrong-label: Salah arti
-right-label: Tepat
-wrong: He's very sensible, he cries at sad films.
-right: He's very *sensitive*, he cries at sad films.
-why: Sensitif itu sensitive. Sensible artinya masuk akal atau bijak: that's a sensible idea.
+wrong-label: Keliru
+right-label: Maksudnya
+wrong: My dad works in a fabric near Bekasi.
+right: My dad works in a *factory* near Bekasi.
+why: Pabrik dalam bahasa Inggris: factory. Fabric berarti kain, misalnya cotton fabric (kain katun).
 ---
 [word]
 pos: noun
@@ -57,16 +20,50 @@ word: argument
 ipa: /ˈɑːɡ.jə.mənt/ (UK) · /ˈɑːrɡ.jə.mənt/ (US)
 say: "AA-gyu-ment"
 meaning: pertengkaran, adu mulut; juga alasan untuk mendukung pendapat
-example: I had a big *argument* with my brother.
-translation: Aku bertengkar hebat sama kakakku.
-note: Di KBBI, argumen artinya alasan; tidak ada arti bertengkar.
+example: We had an *argument* about money.
+translation: Kami bertengkar soal uang.
+note: Bandingkan KBBI: argumen berarti alasan, dan arti bertengkar tidak ada di sana.
 ---
 [compare]
-wrong-label: Salah arti
-right-label: Tepat
-wrong: My uncle works in a shoe fabric.
-right: My uncle works in a shoe *factory*.
-why: Pabrik itu factory. Fabric artinya kain: cotton fabric = kain katun.
+wrong-label: Keliru
+right-label: Maksudnya
+wrong: This motorbike is very economic.
+right: This motorbike is very *economical*.
+why: Mau bilang ekonomis atau hemat? Pakai economical. Economic dipakai untuk urusan ekonomi, seperti economic growth.
+---
+[word]
+pos: adjective
+word: sympathetic
+ipa: /ˌsɪm.pəˈθet.ɪk/ (UK)
+say: "sim-pe-TE-tik"
+meaning: peduli dan ikut merasakan kesusahan orang lain; pengertian
+example: My boss was really *sympathetic* when I was sick.
+translation: Bosku pengertian banget waktu aku sakit.
+note: Simpatik dalam arti menarik hati? Bahasa Inggrisnya likeable atau pleasant.
+---
+[compare]
+wrong-label: Keliru
+right-label: Maksudnya
+wrong: My sister is so sensible, she cries at every sad film.
+right: My sister is so *sensitive*, she cries at every sad film.
+why: Sensitif = sensitive. Sensible justru berarti masuk akal atau bijak, seperti a sensible idea.
+---
+[compare]
+wrong-label: Keliru
+right-label: Maksudnya
+wrong: I'll send the documents by expedition.
+right: I'll send the documents by *courier*.
+why: Jasa kirim paket alias ekspedisi itu courier. Expedition adalah perjalanan terencana, misalnya menjelajahi daerah yang belum dikenal.
+---
+[word]
+pos: adjective
+word: actual
+ipa: /ˈæk.tʃu.əl/ (UK & US)
+say: "EK-chu-el"
+meaning: benar-benar ada; sesungguhnya
+example: The *actual* cost was higher than the quote.
+translation: Biaya sebenarnya lebih mahal dari penawarannya.
+note: Aktual dalam arti hangat atau terbaru? Pakai current atau latest: current issues.
 ---
 [word]
 pos: verb
@@ -74,31 +71,17 @@ word: realize
 ipa: /ˈrɪə.laɪz/ (UK) · /ˈriː.ə.laɪz/ (US)
 say: "RI-e-laiz"
 meaning: menyadari; juga mewujudkan (impian, rencana)
-example: I didn't *realize* it was so late.
-translation: Aku nggak sadar ternyata sudah selarut ini.
-note: Realisasi di KBBI artinya perwujudan. Ejaan UK: realise.
+example: I didn't *realize* the shop was already closed.
+translation: Aku nggak sadar tokonya ternyata sudah tutup.
+note: Di KBBI, realisasi berarti perwujudan. Ejaan UK: realise.
 ---
 [compare]
-wrong-label: Salah arti
-right-label: Tepat
-wrong: This car is very economic.
-right: This car is very *economical*.
-why: Ekonomis (hemat) itu economical. Economic artinya berhubungan dengan ekonomi: economic growth.
----
-[compare]
-wrong-label: Salah arti
-right-label: Tepat
-wrong: I sent the package by expedition.
-right: I sent the package by *courier*.
-why: Jasa ekspedisi (kirim paket) itu courier. Expedition artinya perjalanan terencana, misalnya menjelajah daerah yang belum dikenal.
----
-[compare]
-wrong-label: Salah arti
-right-label: Tepat
-wrong: He's very consequent. He always keeps his word.
-right: He's very *consistent*. He always keeps his word.
-why: Konsekuen (teguh pada ucapan dan keputusan) lebih dekat ke consistent. Consequent artinya terjadi sebagai akibat dari sesuatu.
+wrong-label: Keliru
+right-label: Maksudnya
+wrong: My friend is very consequent. She never breaks a promise.
+right: My friend is very *consistent*. She never breaks a promise.
+why: Consequent berarti terjadi sebagai akibat dari sesuatu. Untuk konsekuen (teguh pada ucapan dan keputusan), yang lebih dekat: consistent.
 ---
 [end]
-Simpan dulu ✏️
-Coba bikin satu kalimat yang benar di komen.
+Simpan dulu, biar nggak ketuker ✏️
+Kata mana yang dulu kamu kira artinya sama? Tulis di komen.
