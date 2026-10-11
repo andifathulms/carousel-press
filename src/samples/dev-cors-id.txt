@@ -1,11 +1,11 @@
 template: dev/github-dark
 lang: id
 title: akhirnya paham cors
-caption: Error merah yang dulu bikin aku panik, sekarang aku paham kenapa muncul. #webdev #javascript #belajarcoding
+caption: Ternyata bukan server-nya yang rusak: browser yang nahan response-nya. #webdev #javascript #belajarcoding
 ---
 [cover kicker="BELAJAR • WEB"]
-Akhirnya Aku Paham | CORS
-Error merah di console yang dulu bikin aku panik.
+Jalan di Postman, | Gagal di Browser?
+Akhirnya aku paham CORS, error merah yang dulu bikin aku panik.
 ---
 [code]
 Errornya kayak gini

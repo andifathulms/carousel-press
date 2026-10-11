@@ -1,11 +1,11 @@
 template: editorial/rose-dusk
 lang: id
 title: 5 pertanyaan buat sahabat
-caption: Kirim ke sahabatmu, terus bandingin jawaban kalian 🤍 #sahabat #pertanyaan #deeptalk
+caption: Kirim ke sahabatmu: siapa tahu kalian ingat momen yang beda 🤍 #sahabat #pertanyaan #deeptalk
 ---
 [cover photo=1]
-5 Pertanyaan | Buat Sahabatmu
-Jawab jujur. Nggak ada yang salah.
+Kapan Kamu Tahu | Kita Bakal Dekat?
+5 pertanyaan buat sahabatmu. Jawab jujur, nggak ada yang salah.
 ---
 [icon=smile]
 Kapan pertama kali kamu ngerasa kita bakal jadi dekat?

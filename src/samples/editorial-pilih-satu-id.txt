@@ -1,11 +1,11 @@
 template: editorial/rose-dusk
 lang: id
 title: pilih satu versi pasangan
-caption: Jawab di komentar, terus suruh pasanganmu jawab juga 😆 #pilihsatu #pasangan #thisorthat
+caption: Jawab di komentar, terus cek: pasanganmu pilih yang sama nggak? 😆 #pilihsatu #pasangan #thisorthat
 ---
 [cover photo=1]
-Pilih Satu | Versi Pacaran
-Jawab cepat, jangan kelamaan mikir.
+Kafe Ramai, atau | Masak Berdua di Rumah?
+Pilih satu, versi pacaran. Jawab cepat, jangan kelamaan mikir.
 ---
 [icon=coffee]
 Ngedate di kafe ramai, atau masak berdua di rumah?

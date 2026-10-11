@@ -1,11 +1,11 @@
 template: editorial/rose-dusk
 lang: id
 title: pilih satu versi sahabat
-caption: Jawab di komentar, terus tag sahabatmu 😆 #pilihsatu #sahabat #thisorthat
+caption: Jawab di komentar, terus tag sahabat yang hobi kirim voice note panjang 😆 #pilihsatu #sahabat #thisorthat
 ---
 [cover photo=1]
-Pilih Satu | Versi Sahabat
-Jawab cepat, terus tag sahabatmu.
+Chat Panjang, atau | Voice Note 10 Menit?
+Pilih satu, versi sahabat. Jawab cepat, terus tag dia.
 ---
 [icon=chat]
 Curhat lewat chat panjang, atau voice note 10 menit?

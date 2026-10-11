@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: 5 obrolan soal uang
-caption: Canggung di awal, tapi bikin lebih tenang ke depannya 🌿 #pasangan #keuangan #deeptalk
+caption: Cara kita ngatur uang sekarang sering kebawa dari rumah dulu 🌿 #pasangan #keuangan #deeptalk
 ---
 [cover photo=1]
-5 Obrolan Soal Uang | yang Sering Dihindari Pasangan
-Nggak harus serius. Yang penting jujur.
+Dulu di Rumahmu, | Uang Dibahas atau Dihindari?
+5 obrolan soal uang buat kalian berdua. Yang penting jujur.
 ---
 [icon=home]
 Waktu kecil, gimana keluargamu ngomongin soal uang?

@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: 5 pertanyaan buat orang tua
-caption: Tanyain pas makan malam nanti. Ceritanya sering nggak terduga 🌿 #keluarga #orangtua #deeptalk
+caption: Mereka juga pernah seumuran kamu, dengan mimpi yang mungkin belum pernah kamu dengar. Ceritanya sering nggak terduga 🌿 #keluarga #orangtua #deeptalk
 ---
 [cover photo=1]
-5 Pertanyaan | yang Jarang Kita Tanyain ke Orang Tua
-Mereka juga pernah seumuran kita.
+Waktu Seumuranmu, | Orang Tuamu Lagi Ngejar Apa?
+5 pertanyaan yang jarang kita tanyain ke mereka.
 ---
 [icon=book]
 Waktu seumuranku, Ayah atau Ibu lagi sibuk ngejar apa?

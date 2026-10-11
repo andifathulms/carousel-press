@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: 5 pertanyaan tentang mimpi kalian
-caption: Ngobrolin masa depan, pelan-pelan aja 🌿 #pasangan #pertanyaanpasangan #deeptalk
+caption: Bayangin dari bangun tidur, terus bandingin versi kalian 🌿 #pasangan #pertanyaanpasangan #deeptalk
 ---
 [cover photo=1]
-5 Pertanyaan | Tentang Mimpi Kalian Berdua
-Ngobrolin masa depan, pelan-pelan.
+Hari Minggu Kalian, | 5 Tahun dari Sekarang
+Dan 4 pertanyaan lain soal mimpi berdua. Pelan-pelan aja.
 ---
 [icon=home]
 Rumah impianmu kayak gimana?

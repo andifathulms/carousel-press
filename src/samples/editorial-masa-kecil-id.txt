@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: 5 pertanyaan masa kecil
-caption: Kenal lebih dalam, mulai dari cerita waktu kecil 🌿 #pertanyaanpasangan #deeptalk
+caption: Kalian mungkin udah kenal lama, tapi belum pernah ketemu versi kecilnya 🌿 #pertanyaanpasangan #deeptalk
 ---
 [cover]
-5 Pertanyaan tentang Masa Kecil | yang Jarang Ditanyain
-Kenal lebih dalam, mulai dari dulu.
+Kamu Udah Kenal | Dia Waktu Umur 10?
+5 pertanyaan masa kecil yang jarang ditanyain.
 ---
 [icon=book]
 Dulu waktu kecil, kamu pengen jadi apa?

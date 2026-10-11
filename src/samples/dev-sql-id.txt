@@ -1,11 +1,11 @@
 template: dev/paper-light
 lang: id
 title: 6 query sql
-caption: Query yang paling sering dipakai, dalam satu carousel. #sql #database #belajarcoding
+caption: WHERE nyaring baris, HAVING nyaring hasil GROUP BY, dan dua-duanya sering ketuker. #sql #database #belajarcoding
 ---
 [cover kicker="SQL • CHEAT SHEET"]
-6 Query SQL | yang Wajib Kamu Kuasai
-Cukup ini dulu buat kerja harian.
+WHERE atau HAVING? | Ini Bedanya
+Plus 5 query SQL lain yang cukup buat kerja harian.
 ---
 [code]
 Ambil data dengan filter

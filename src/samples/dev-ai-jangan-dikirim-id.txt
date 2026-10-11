@@ -1,11 +1,11 @@
 template: dev/github-dark
 lang: id
 title: 5 hal jangan ditempel ke ai
-caption: AI bantu ngoding, tapi data tetap harus dijaga. #ai #keamanan #belajarcoding
+caption: Satu copy-paste log server bisa ikut bawa token dan data user. #ai #keamanan #belajarcoding
 ---
 [cover kicker="AI • KEAMANAN"]
-5 Hal yang Jangan | Kamu Tempel ke AI
-Biar ngoding pakai AI tetap aman.
+Isi `.env` Kamu | Jangan Masuk Chat AI
+Dan 4 hal lain yang perlu disamarkan atau dicek dulu.
 ---
 API key dan password
 Jangan tempel isi `.env`, token, atau kunci API ke chat AI.

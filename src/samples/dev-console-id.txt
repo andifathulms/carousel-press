@@ -1,11 +1,11 @@
 template: dev/github-dark
 lang: id
 title: 5 trik console javascript
-caption: Debugging nggak harus console.log doang. #javascript #debugging #belajarcoding
+caption: console.log({ total }) langsung nunjukin nama variabelnya, bukan cuma angkanya. #javascript #debugging #belajarcoding
 ---
 [cover kicker="JAVASCRIPT • DEBUGGING"]
-5 Trik `console` | Selain console.log
-Debugging jadi lebih rapi dan cepat.
+Array Jadi Tabel | Cukup Satu Baris
+Pakai console.table(), plus 4 trik console lain selain console.log.
 ---
 [code]
 Tampilkan array sebagai tabel

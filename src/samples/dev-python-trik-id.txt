@@ -1,11 +1,11 @@
 template: dev/github-dark
 lang: id
 title: 6 trik python
-caption: Trik kecil yang bikin kode Python lebih rapi. #python #belajarcoding #programmer
+caption: Di Python, tukar dua variabel cukup satu baris: a, b = b, a. #python #belajarcoding #programmer
 ---
 [cover kicker="PYTHON • TIPS"]
-6 Trik Python | yang Bikin Kode Lebih Rapi
-Kecil, tapi kepakai tiap hari.
+Tukar Dua Variabel | Tanpa Variabel Ketiga
+Plus 5 trik Python kecil yang kepakai tiap hari.
 ---
 [code]
 f-string

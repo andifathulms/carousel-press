@@ -1,11 +1,11 @@
 template: editorial/midnight
 lang: id
 title: 5 pertanyaan buat diri sendiri
-caption: Nggak perlu dijawab sekarang. Simpan buat malam yang tenang 🌙 #refleksidiri #selfreflection
+caption: Kadang yang muncul pas lampu udah mati itu yang paling jujur. Simpan buat malam yang tenang 🌙 #refleksidiri #selfreflection
 ---
 [cover photo=1]
-5 Pertanyaan | Buat Dirimu Sendiri
-Jawab pelan-pelan. Nggak ada yang nilai.
+Yang Kamu Pikirin | Sebelum Tidur Itu Apa?
+5 pertanyaan buat dirimu sendiri. Jawab pelan-pelan, nggak ada yang nilai.
 ---
 [icon=moon]
 Apa yang akhir-akhir ini paling sering kamu pikirin sebelum tidur?

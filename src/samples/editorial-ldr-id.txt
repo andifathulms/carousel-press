@@ -1,11 +1,11 @@
 template: editorial/midnight
 lang: id
 title: 5 pertanyaan buat yang ldr
-caption: Jarak boleh jauh, obrolan jangan 🌙 Tanya malam ini ya. #ldr #pertanyaanpasangan
+caption: Siapa tahu jam kangen kalian ternyata sama 🌙 Tanya malam ini ya. #ldr #pertanyaanpasangan
 ---
 [cover photo=1]
-5 Pertanyaan | Buat Kalian yang LDR
-Jarak boleh jauh. Obrolan jangan.
+Jam Berapa Dia | Paling Kangen Kamu?
+Dan 4 pertanyaan lain buat kalian yang LDR.
 ---
 [icon=plane]
 Momen apa yang paling pengen kamu ulang dari pertemuan terakhir kita?

@@ -1,11 +1,11 @@
 template: editorial/midnight
 lang: id
 title: 5 pertanyaan sebelum tahun berganti
-caption: Masih ada waktu buat jujur sama diri sendiri 🌙 Simpan buat malam yang tenang. #refleksidiri #akhirtahun
+caption: Sebelum sibuk bikin resolusi, coba lihat dulu tahun yang hampir lewat 🌙 Simpan buat malam yang tenang. #refleksidiri #akhirtahun
 ---
 [cover photo=1]
-5 Pertanyaan | Sebelum Tahun Ini Selesai
-Masih ada waktu buat jujur sama diri sendiri.
+Kalender Tinggal | Beberapa Lembar Lagi
+5 pertanyaan buat nutup tahun ini dengan jujur, bukan buru-buru.
 ---
 [icon=star]
 Apa hal yang paling kamu banggakan dari dirimu tahun ini?

@@ -1,11 +1,11 @@
 template: dev/github-dark
 lang: id
 title: 7 shortcut vs code
-caption: Hafalin pelan-pelan, satu per hari juga cukup. #vscode #programmer #produktif
+caption: Ctrl + D, tekan berulang, dan semua kata yang sama ikut keedit. #vscode #programmer #produktif
 ---
 [cover kicker="VS CODE • SHORTCUT"]
-7 Shortcut VS Code | yang Bikin Ngoding Lebih Cepat
-Lepas mouse, tangan tetap di keyboard.
+Edit Kata yang Sama | di Banyak Tempat Sekaligus
+Ctrl + D, plus 6 shortcut VS Code lain. Lepas mouse.
 ---
 [code]
 Buka file tanpa nyari di folder

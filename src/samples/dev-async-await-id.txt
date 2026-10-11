@@ -1,11 +1,11 @@
 template: dev/github-dark
 lang: id
 title: akhirnya paham async await
-caption: Butuh waktu lama buat aku paham ini. Semoga kamu lebih cepat. #javascript #asyncawait #belajarcoding
+caption: Yang bikin aku lama bingung: await nggak bikin JavaScript berhenti. Semoga kamu lebih cepat. #javascript #asyncawait #belajarcoding
 ---
 [cover kicker="BELAJAR • JAVASCRIPT"]
-Akhirnya Aku Paham | `async/await`
-Catatan dari yang tadinya bingung.
+Kenapa Isinya | Malah `<pending>`?
+Catatanku sampai akhirnya paham async/await.
 ---
 [code]
 Dulu aku kira ini jalan berurutan

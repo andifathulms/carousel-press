@@ -1,11 +1,11 @@
 template: dev/terminal
 lang: id
 title: 6 cara undo di git
-caption: Salah commit itu biasa. Yang penting tahu cara balikinnya. #git #github #belajarcoding
+caption: Bahkan commit yang kelihatan hilang biasanya masih tercatat di git reflog. Yang penting tahu cara balikinnya. #git #github #belajarcoding
 ---
 [cover kicker="GIT • UNDO"]
-Salah di Git? | Ini 6 Cara Undo-nya
-Tenang, hampir semuanya bisa dibalikin.
+Salah Commit? | Hampir Semua Bisa Dibalikin
+6 cara undo di Git, dari typo sampai commit yang "hilang".
 ---
 [code]
 Typo di pesan commit terakhir

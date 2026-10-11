@@ -1,11 +1,11 @@
 template: dev/terminal
 lang: id
 title: 5 cli tools
-caption: Tool terminal kecil yang bikin kerja harian lebih cepat. #terminal #linux #belajarcoding
+caption: Cari teks, cari file, baca JSON: semuanya lebih cepat dari terminal. #terminal #linux #belajarcoding
 ---
 [cover kicker="TERMINAL • TOOLS"]
-5 CLI Tools | yang Bikin Terminal Lebih Enak
-Kecil, cepat, dan gratis.
+Ganti `cat` Jadi `bat`, | `grep` Jadi `rg`
+5 tool kecil dan gratis yang bikin terminal lebih enak.
 ---
 [code]
 ripgrep: cari teks super cepat

@@ -1,11 +1,11 @@
 template: dev/github-dark
 lang: id
 title: 8 status code http
-caption: Biar nggak bingung lagi pas lihat angka di tab Network. #webdev #api #belajarcoding
+caption: 401 artinya server belum tahu siapa kamu, 403 artinya tahu tapi nggak ngizinin. #webdev #api #belajarcoding
 ---
 [cover kicker="HTTP • STATUS CODE"]
-8 Status Code HTTP | yang Wajib Kamu Kenal
-Angka kecil di balik setiap response.
+`401` dan `403` | Itu Beda
+8 status code HTTP yang paling sering muncul di tab Network.
 ---
 `200` OK
 Request berhasil, dan server mengirim datanya.

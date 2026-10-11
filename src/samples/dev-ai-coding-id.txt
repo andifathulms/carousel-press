@@ -1,11 +1,11 @@
 template: dev/github-dark
 lang: id
 title: 5 cara pakai ai buat coding
-caption: Bukan buat gantiin mikir, tapi buat bantu mikir. #ai #belajarcoding #programmer
+caption: Yang paling hemat waktu buatku ternyata bukan nulis fitur, tapi bikin test. #ai #belajarcoding #programmer
 ---
 [cover kicker="AI • WORKFLOW"]
-5 Cara Pakai AI | yang Beneran Bantu Coding
-Yang aku pakai hampir tiap hari.
+AI Bisa Salah | dengan Sangat Yakin
+5 cara aku pakai AI buat coding, termasuk cara ngecek hasilnya.
 ---
 [code]
 Minta jelasin error, bukan cuma fix

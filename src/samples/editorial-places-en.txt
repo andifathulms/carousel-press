@@ -2,11 +2,11 @@ handle: @namaakun
 template: editorial/midnight
 lang: en
 title: quiet places at dusk
-caption: Save this for your next slow evening 🌙 #slowtravel #dusk
+caption: No signal, a warm drink, or a pier going quiet: pick one for tonight 🌙 #slowtravel #dusk
 ---
 [cover photo=sample-dusk kicker="SLOW EVENINGS"]
-Quiet Places | to Watch the Day End
-Three spots that ask nothing of you.
+The Hour Before | the Lights Come On
+Three quiet spots to watch it: a hill, a terrace, a pier.
 ---
 [icon=sun]
 A hill with *no* signal

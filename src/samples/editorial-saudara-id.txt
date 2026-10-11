@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: 5 pertanyaan buat saudara kandung
-caption: Kirim ke kakak atau adikmu, terus tanya satu-satu 🌿 #keluarga #saudara #deeptalk
+caption: Kirim ke kakak atau adikmu: bisa jadi dia ingat hal yang kamu sudah lupa 🌿 #keluarga #saudara #deeptalk
 ---
 [cover photo=1]
-5 Pertanyaan | Buat Kakak atau Adikmu
-Dulu sering berantem, sekarang saling cari.
+Kebiasaanku yang Dulu | Bikin Kamu Kesal?
+5 pertanyaan buat kakak atau adikmu. Dulu berantem, sekarang saling cari.
 ---
 [icon=home]
 Kenangan masa kecil kita yang paling kamu ingat?
