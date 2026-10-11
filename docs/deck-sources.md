@@ -454,3 +454,43 @@ Setkab and the National Hero list use **I Gusti Ngurah Made Agung**. Creese call
 - **Gianyar/Karangasem accepting Dutch terms, slavery as a Dutch demand, Teeuwen's claims about royal "tyranny" and opium.** These come only from the amateur, colonial-biased source.
 - **Crown prince (aged 9).** He fled during the puputan, was exiled to Lombok, and became regent of Badung in 1929 (Creese). Cut for space.
 - The famous photos of bodies (Tropenmuseum 60015988, KITLV 11351, KITLV 79611, KITLV 86281) and the *Le Petit Journal* illustration were **not used**. KITLV 35091 ("op weg naar Denpasar") was rejected because a body is visible in the field.
+
+## Filsafat Harian (Oct 2026)
+
+Checked 11 Oct 2026 against primary texts (Project Gutenberg / Wikisource, public-domain translations) and the Stanford Encyclopedia of Philosophy. Direct quotes are Indonesian free translations of a named English translation, labelled "terj. bebas" on the slide. Everything else is paraphrased.
+
+### filsafat-epikuros-keinginan-id
+- Epikuros, *Letter to Menoeceus*, tr. R.D. Hicks (Wikisource "Letter to Menoeceus"):
+  - 127: "of desires some are natural, others are groundless; and of the natural some are necessary as well as natural, and some natural only".
+  - 131: "we do not mean the pleasures of the prodigal or the pleasures of sensuality… By pleasure we mean the absence of pain in the body and of trouble in the soul".
+  - 130–131: "bread and water confer the highest possible pleasure when they are brought to hungry lips".
+- SEP "Epicurus" (rev. 2022): dates 341–270 BCE; the goal is the absence of physical pain and mental disturbance; the three kinds of desire (LM 127), with immortality as the example of an empty desire.
+- SEP "Stoicism": pleasure belongs with things that are "neither good nor bad"; only virtue is good (counterpoint slide).
+- The "keep it in the cart a day" practice is the deck's own suggestion, not Epicurus.
+
+### filsafat-wu-wei-id
+- *Tao Teh King*, tr. James Legge (Gutenberg #216):
+  - ch. 37: "The Tao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do" (the quote slide).
+  - ch. 48: "He diminishes it and again diminishes it, till he arrives at doing nothing (on purpose). Having arrived at this point of non-action, there is nothing which he does not do".
+- SEP "Laozi":
+  - "Wuwei does not mean total inaction"; translations include "non-coercive action" and "effortless action".
+  - Laozi's identity is debated, and the text is composite, consolidated during the 4th c. BCE and stable by the mid-3rd c. BCE.
+  - Interpreters read it as spiritual, or as ethics and political philosophy.
+- The bicycle example is the deck's own illustration.
+
+### filsafat-jujur-atau-baik-id
+- SEP "Kant's Moral Philosophy": the maxim of lying whenever it gets you what you want contradicts itself once universalised; there is a perfect duty not to make lying promises. Kant's 1797 essay (the murderer at the door) isn't cited, because no accessible full text was checked.
+- J.S. Mill, *Utilitarianism* (1861) ch. 2 (Gutenberg #11224): veracity is "one of the most useful" things. Its exceptions: "the withholding of some fact (as of information from a male-factor, or of bad news from a person dangerously ill)".
+- SEP "Aristotle's Ethics": ethical virtue is complete only with practical wisdom (*phronêsis*), and feelings are to be experienced "in the right way at the right times".
+
+### filsafat-stoik-bukan-mati-rasa-id
+- SEP "Stoicism":
+  - The four passions rest on a "cognitive mistake" about what is good or bad.
+  - The sage's "good feelings" (*eupatheiai*, Diogenes Laertius) refute "the caricature of the Sage as an unfeeling robot".
+  - "Pre-emotions" (*propatheiai*, Gellius) are felt even by the sage, because they occur without assent.
+- SEP "Aristotle's Ethics": unlike the Stoics, who held anger and fear "always inappropriate", Aristotle thought they should be felt "in the right way at the right times".
+
+### filsafat-konfusius-tahu-id
+- *Confucian Analects*, tr. James Legge (Gutenberg #4094), II.17: "Yu, shall I teach you what knowledge is? When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it;—this is knowledge". Yu = Zilu.
+- Plato, *Apology* 21d, tr. Benjamin Jowett (Gutenberg #1656): "he knows nothing, and thinks that he knows; I neither know nor think that I know".
+- SEP "Confucius": traditional dates 551–479 BCE.

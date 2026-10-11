@@ -101,3 +101,10 @@ Before `carousel-core` is extracted, the parser snapshots become the contract (d
 - Phone legibility floors: editorial body min 32 → 34, dev body min 30 → 32, lexicon label 22 → 24 and translation min 28 → 30, ayah/hadith translation min 32 → 34, source lines 24 → 28, grade pill 24 → 26.
 - Not changed yet: the TikTok UI zones are still estimates. They should be calibrated from a phone screenshot of the exported test image.
 
+## Filsafat Harian (Oct 2026)
+
+- `editorial/stone` uses the brief's surface tokens verbatim. Its photo tint, photo accent and code panel (not in the brief) follow the stone palette. All pairs pass contrast.test.ts.
+- Library category "Filsafat" (`philosophy`), accent #E39A7A (the stone accent).
+- Direct quotes in Indonesian are free translations of a named public-domain English translation, attributed as "(terj. bebas dari <translator>)" or "(terj. bebas, <translator>)" when space is tight. That meets the brief's "named translation" rule without inventing an Indonesian edition.
+- `[quote icon=none]` on quote slides: editorial's automatic icon pool otherwise put an unrelated icon (a gift) under a philosopher's words.
+
