@@ -293,7 +293,7 @@ Every slide has a photo (4–6 distinct photos per deck, each used on at most 2�
 ### Deck recipe
 
 - **Templates:** `dev/paper-light` (default: light, clean Inter, blue accent; reads like a rulebook), `dev/github-dark` for variety. No `code` slides.
-- **Length:** cover + 4–6 cards + end, ≤ 10 total.
+- **Length (owner, Oct 2026):** 8–14 slides. Explain the rule as completely as it needs in as few slides as possible: no padding and no off-topic slides just to reach 14. Merge beats that belong together; go up to 14 only when the rule really needs it.
 - **Cover:** `[cover photo=<id> kicker="SEPAK BOLA • PERATURAN 11"]` style kicker (SPORT • RULE in caps), headline as the question or "X, Dijelaskan dengan Benar" with a `|` break.
 - **Cards:** build up in order: objective → basic rule → the tricky part → exceptions → why it exists. Badge numbers on.
 - **End:** `[end photo=<id>]` with a save line + `Mau dibahas aturan apa lagi? Tulis di komen.`
@@ -465,7 +465,7 @@ It should feel like "oh, jadi selama ini aku salah", never like a textbook or a 
 ### Deck recipe
 
 - **Templates:** `lexicon/notebook` (default). Use `deep` surface (`surface=deep`) for the cover/end if no photo.
-- **Length:** cover + 6–12 slides + end, up to 14 slides (past the `long-deck` hint on purpose). Each slide explains with an example; prefer depth over a bare list.
+- **Length (owner, Oct 2026):** 8–14 slides. Compact: every slide teaches something with an example, nothing is there just to fill space. Go up to 14 only when the topic needs it.
 - **Word-of-the-day deck:** cover → `[word]` → `[table]` (forms, or synonyms/opposites) → `[compare]` (common mistake with it) → `[card]` "Coba pakai: …" prompt → end.
 - **Pattern deck (verbs):** cover → 2–3 `[table]` slides grouped by pattern → `[word]` for the trickiest one → `[compare]` → end.
 - **Salah kaprah deck:** cover → 3–5 `[compare]` slides → end.
@@ -563,7 +563,7 @@ It should feel like "lho, ternyata kata ini dari bahasa Portugis?", never like a
 ### Deck recipe
 
 - **Templates:** `lexicon/kamus` (default). Use `surface=deep` for cover/end if no photo.
-- **Length:** cover + 6–12 slides + end, up to 14 slides (past the `long-deck` hint on purpose). Each slide explains with an example; prefer depth over a bare list.
+- **Length (owner, Oct 2026):** 8–14 slides. Compact: every slide teaches something with an example, nothing is there just to fill space. Go up to 14 only when the topic needs it.
 - **Kata hari ini deck:** cover → `[word]` (meaning, example, origin) → `[card]` the story behind the word → `[table]` related words or padanan → end.
 - **Serapan deck:** cover → `[table]` (`Kata | Dari | Bentuk asli`) → 2–3 `[word]` slides with `origin:` → end.
 - **Baku deck:** cover → `[table]` (`Baku | Tidak baku`) → 2–3 `[compare]` slides with `wrong-label: Tidak baku` / `right-label: Baku` → end.
@@ -812,6 +812,8 @@ Tulis di komen.
 - Emoji are fine in text (system emoji font); arrows and bookmarks are drawn by the app, don't type them.
 - Icons available for `icon=`: alert, book, bug, chat, check-circle, clock, code, coffee, cpu, database, flower, folder, gift, git-branch, heart, heart-spark, home, key, leaf, lightbulb, map-pin, moon, mountain, music, plane, rocket, shield-heart, smile, star, sun, terminal, umbrella (aliases: shield, pin, branch, bulb, check, spark). `arrow-right`, `circle-arrow` and `bookmark` are drawn by the app (swipe hint, CTA) and can't be used in `icon=`.
 - When asked for many posts at once, vary pillar, template and opening hook across them.
+- **Hooks (owner, Oct 2026):** the cover is the hook. Make it concrete and specific (a number, a name, a surprising true fact, a situation the viewer recognises), not a topic label. The caption's first line adds to the hook instead of summarising the deck. The hook must still be true and backed by the deck: no clickbait, and keep each account's tone (Ayat Harian stays calm; Ruang Rasa stays gentle).
+- **Re-uploading a deleted post:** rewrite the cover, caption, title and the wording of every slide, and change the order where it still reads well, so it isn't flagged as the same content. Keep the facts, sources and photos (photo choice and order may change).
 - **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, English Sehari, Kamus Kecil, Ayat Harian, Filsafat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
   - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
