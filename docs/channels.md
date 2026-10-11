@@ -1,6 +1,6 @@
 # Channels: content brief for writing decks
 
-Read this before writing any deck. The owner runs eight TikTok accounts, and every deck is for exactly one of them.
+Read this before writing any deck. The owner runs nine TikTok accounts, and every deck is for exactly one of them.
 If a request names an account ("10 posts for Ruang Rasa", "deck for Whistle Notes"), use that account's section.
 If it doesn't name one, infer it from the topic and say which one you picked:
 
@@ -12,6 +12,7 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 - English vocabulary, grammar, pronunciation for Indonesians → **English Sehari**
 - Indonesian words, KBBI meanings, kata baku, kata serapan → **Kamus Kecil**
 - Quran ayat, hadith, doa, Islamic reminders → **Ayat Harian**
+- philosophy ideas applied to everyday life, thinkers, dilemmas → **Filsafat Harian**
 
 The deck format is PRD §4. This file only says *what* to write and which template/attributes to use. It adds no new syntax.
 
@@ -25,6 +26,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | ✏️ English Sehari | `id` (teaches English) | Words, irregular verbs, common mistakes | `lexicon/*` | `lexicon/notebook` |
 | 📖 Kamus Kecil | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
 | 🌙 Ayat Harian | `id` (+ Arabic) | One ayah / hadith a day, calm reminders | `serene/*` | `serene/fajr` |
+| 🏛️ Filsafat Harian | `id` | One philosophical idea applied to daily life | `editorial/*` | `editorial/stone` |
 
 ---
 
@@ -708,7 +710,101 @@ Simpan, dan bagikan ke yang sedang butuh.
 
 ---
 
-## 9. Shared rules
+## 9. 🏛️ Filsafat Harian
+
+**Tagline:** *Pikiran besar, untuk hari-hari biasa.*
+A faceless Indonesian account that takes one philosophical idea (Western, Islamic, Chinese, Indian, Javanese/Nusantara or modern Indonesian) and applies it to an ordinary situation: traffic, work, family, comparing yourself on social media, overthinking at night.
+It should feel like "oh, there's a name for what I feel, and someone thought about it 2,000 years ago", never like a lecture, a motivational quote page or a debate club.
+
+| | |
+|---|---|
+| Purpose | Make philosophy useful and approachable |
+| Audience | Indonesian students and young adults, readers, people who liked books like *Filosofi Teras* |
+| Reader should think | "This changes how I'll see today." Then save it or send it to a friend |
+| Primary action | Save / share / comment ("setuju atau nggak?") |
+| Tone | Thoughtful, clear, curious, a little warm humour; never smug |
+| Voice | A friend who reads philosophy and explains it over coffee: "coba lihat dari sudut ini" |
+| Slide types | `cover`, `card`, `quote`, `compare`, `end` |
+
+### Pillars
+
+1. **Filsafat untuk masalah sehari-hari**: one everyday situation, one idea that helps (e.g. the Stoic dichotomy of control for things you can't change).
+2. **Satu konsep, satu kata**: one term explained simply (amor fati, wu wei, eudaimonia, ataraxia, zuhud as discussed by Muslim thinkers, *nrimo ing pandum*…).
+3. **Filsuf dalam 5 slide**: who they were, their key idea, the context, one takeaway, one common misunderstanding.
+4. **Dilema**: a moral dilemma with Indonesian everyday framing (honest vs kind, loyalty vs fairness). Present the positions, don't decide for the viewer.
+5. **Salah paham populer**: what an idea really says vs how social media uses it (Stoicism ≠ suppressing emotions; "cogito" isn't a self-help slogan).
+6. **Kearifan Nusantara & pemikir Indonesia**: Javanese, Bugis and Minang sayings as ethical ideas; thinkers like Ki Hajar Dewantara, Driyarkara, Hamka (*Tasawuf Modern*) and Franz Magnis-Suseno (*Etika Jawa*).
+7. **Dari Timur**: Confucius, Laozi/Zhuangzi, Al-Ghazali, Ibn Sina, Ibn Rushd, Al-Farabi, the Buddha's teachings as philosophy (describe, don't preach).
+
+### Accuracy rules (non-negotiable)
+
+- **Quotes are the biggest risk.** Philosophy is full of fake or misattributed quotes. Use a direct quote only with the primary text and location (work + book/section, e.g. *Enchiridion* 1, *Meditations* 4.3) and a named translation. Otherwise paraphrase it as an idea and say so ("gagasannya, disarikan").
+- List sources in the reply before the deck: primary texts, Stanford Encyclopedia of Philosophy (plato.stanford.edu), Internet Encyclopedia of Philosophy, or reputable books. Not quote sites or Pinterest.
+- Name the school and era when it matters ("Stoa, abad ke-1–2 M"). Don't flatten different thinkers into one "philosophy says".
+- When scholars disagree about what someone meant, say so briefly.
+
+### Sensitivity rules
+
+- **Religion:** present philosophy as a way of thinking, never as attacking or replacing faith. No "God is dead" style provocation for views. Present religious thinkers respectfully and accurately.
+- **Politics:** no current politics, parties or figures. Historically controversial thinkers (e.g. Marx, Tan Malaka) only when the owner explicitly asks, presented neutrally and historically.
+- **Mental health:** overthinking, loneliness and sadness are fair themes, but present ideas as perspectives, not treatment. When a deck touches heavy feelings, the caption adds: "Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya."
+- No hustle-culture or "alpha" framing, no manipulation tactics dressed as philosophy (e.g. misused Machiavelli).
+
+### Writing rules
+
+- Language: Indonesian (`lang: id`), relaxed and clear: `kamu`, `kita`. Technical terms appear once in italics-style accent (`*amor fati*`) with a plain explanation right after.
+- One idea per deck. Start from the situation, not the thinker ("Pernah kesal karena macet?", not "Epiktetos adalah…").
+- Always include a **counterpoint or limit** slide: what the idea doesn't solve or who disagreed. That's what makes it philosophy rather than self-help.
+- End with a question that invites a real answer, not "setuju?" alone.
+
+### Deck recipe
+
+- **Templates:** `editorial/stone` (default), `editorial/midnight` for night/overthinking themes.
+- **Length:** cover + 4–6 slides + end, ≤ 10 total.
+- **Everyday-problem deck:** cover (the situation as a question) → `[card]` the situation → `[card]` the idea (who, when) → `[quote]` (verified only) or `[card]` paraphrase → `[card]` how to try it today (one small practice) → `[card]` counterpoint/limit → `[end]` question.
+- **Concept deck:** cover (the term) → meaning → origin → everyday example → common misunderstanding (`[compare]`, with `wrong-label`/`right-label` set to e.g. "Kata medsos"/"Kata filsufnya": `wrong` = the misuse, `right` = the actual idea) → end.
+- **Dilemma deck:** cover (the dilemma) → the situation → position A → position B → what each philosopher would weigh → `[end]` "Kamu pilih yang mana, dan kenapa?"
+- Use `number=off` on narrative cards; numbers only for list decks.
+- **Caption:** one line + `Sumber:` (primary text / SEP) + 2–4 hashtags (`#filsafat`, `#filsafatharian`, `#stoikisme`, `#refleksidiri`…).
+
+```text
+template: editorial/stone
+lang: id
+title: yang bisa dan nggak bisa dikendalikan
+caption: Ide umur 2.000 tahun yang masih relevan buat macet hari ini. Sumber: Epiktetos, Enchiridion 1 · SEP "Epictetus" #filsafat #stoikisme #filsafatharian
+---
+[cover]
+Kesal Karena Macet? | Coba Cara Pikir Ini
+Ide Epiktetos, filsuf Stoa abad ke-1–2 M.
+---
+[number=off icon=clock]
+Situasinya
+Jalanan macet, kamu telat, dan emosi naik. Padahal marah nggak bikin mobil di depan bergerak.
+---
+[number=off icon=book]
+Idenya
+Epiktetos membagi hidup jadi dua: yang ada dalam kendali kita, dan yang tidak.
+---
+[number=off icon=key]
+Gagasannya, disarikan
+Penilaian, pilihan, dan tindakan kita ada dalam kendali kita. Tubuh, reputasi, harta, dan keadaan di luar diri tidak sepenuhnya.
+---
+[number=off icon=lightbulb]
+Coba hari ini
+Saat kesal, tanya: bagian mana yang bisa aku ubah? Fokus ke situ, misalnya berangkat lebih awal besok.
+---
+[number=off icon=alert]
+Tapi…
+Ini bukan alasan pasrah pada ketidakadilan. Kritikus Stoa bilang garis "bisa" dan "tidak bisa" sering lebih kabur dari kelihatannya.
+---
+[end]
+Hal apa yang paling sering bikin kamu kesal, padahal di luar kendalimu?
+Tulis di komen.
+```
+
+---
+
+## 10. Shared rules
 
 - Don't let any account become a content farm: every deck needs a specific angle, not a generic list.
 - No text copied from real TikTok accounts.
@@ -716,7 +812,7 @@ Simpan, dan bagikan ke yang sedang butuh.
 - Emoji are fine in text (system emoji font); arrows and bookmarks are drawn by the app, don't type them.
 - Icons available for `icon=`: alert, book, bug, chat, check-circle, clock, code, coffee, cpu, database, flower, folder, gift, git-branch, heart, heart-spark, home, key, leaf, lightbulb, map-pin, moon, mountain, music, plane, rocket, shield-heart, smile, star, sun, terminal, umbrella (aliases: shield, pin, branch, bulb, check, spark). `arrow-right`, `circle-arrow` and `bookmark` are drawn by the app (swipe hint, CTA) and can't be used in `icon=`.
 - When asked for many posts at once, vary pillar, template and opening hook across them.
-- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, English Sehari, Kamus Kecil, Ayat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
+- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, English Sehari, Kamus Kecil, Ayat Harian, Filsafat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
   - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
   - No source manifest or source list in the reply is needed for images. Just pick a fitting free image.
@@ -724,9 +820,16 @@ Simpan, dan bagikan ke yang sedang butuh.
   - Images for sample decks are bundled with the app: save a downscaled JPEG to `src/samples/photos/<photo-id>.jpg` (it fills 1080×1920; wide images cropped to ≤ 2160 px wide), reference it with `photo=<photo-id>`, and set a focal point in `src/samples/photos.ts` if the subject isn't centred. Loading the sample adds it to the photo tray automatically.
 - Out of scope for this app: screen recordings, video demos. Only photo carousels.
 
-## 10. Open items
+## 11. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all eight handles, put `handle:` in every deck header.
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all nine handles, put `handle:` in every deck header.
+- **`editorial/stone` variant (Filsafat Harian): shipped (Oct 2026).** A tokens-only variant in the editorial family: warm stone, charcoal, terracotta. Blobs on. Serif `Playfair Display`, sans `DM Sans`. Rotation `['stone', 'stone', 'slate']`. Tokens (contrast-checked):
+
+  | Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |
+  |---|---|---|---|---|---|---|---|---|---|---|
+  | stone | #EDEAE4 | #1E1E1C | #3C3B37 | #6C6A64 | #9A4B2F | #2B2A27 | #EDEAE4 | #E2DED6 | #9A4B2F | #E2DED6 |
+  | slate | #2B2A27 | #EDEAE4 | #D2CEC6 | #A19D94 | #E39A7A | #E39A7A | #2B2A27 | #35332F | #E39A7A | #3A3834 |
+  | deep | #1B1A18 | #EDEAE4 | #CFCBC3 | #9C988F | #E39A7A | #E39A7A | #1B1A18 | #262522 | #E39A7A | #2A2926 |
 - **Ayah & hadith features: shipped (M8, Oct 2026).** `[ayah]`, `[hadith]`, Amiri Quran / Amiri and `serene/fajr` / `serene/isya` are built (see SPEC-ayah.md). Export is blocked with no override when a required field is missing, the Arabic doesn't fit at 48 px, or the Arabic font didn't load.
 - **Lexicon features: shipped (M7, Oct 2026).** `[word]`, `[table]`, `[compare]` and `lexicon/notebook` / `lexicon/kamus` are built (see SPEC-lexicon.md); the card fallbacks in the recipes are no longer needed. Note: KBBI VI Daring now lives at kbbi.kemendikdasmen.go.id, and its etymology labels (Por, Skt…) are only shown to logged-in users, so don't print them unless checked while logged in.
 - **Fonts vs the brand note.** The brand note says Playfair Display + DM Sans; `editorial/rose-dusk` uses Playfair + Poppins (DM Sans is on `midnight`). Tokens follow DESIGN.md, so this is accepted as-is unless the owner wants a variant change.
