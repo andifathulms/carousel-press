@@ -24,6 +24,7 @@ export const TEMPLATE_IDS = [
   'editorial/rose-dusk',
   'editorial/sage',
   'editorial/midnight',
+  'editorial/stone',
   'dev/github-dark',
   'dev/terminal',
   'dev/paper-light',

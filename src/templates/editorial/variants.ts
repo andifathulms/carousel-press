@@ -78,4 +78,26 @@ export const midnight: Variant = {
   swatches: ['#E0A060', '#1B2333', '#2B2236', '#F3E9D7'],
 };
 
-export const EDITORIAL_VARIANTS: readonly Variant[] = [roseDusk, sage, midnight];
+/** Filsafat Harian (docs/channels.md §11): warm stone, charcoal, terracotta. Surface tokens verbatim from the brief. */
+export const stone: Variant = {
+  id: 'editorial/stone',
+  name: 'Stone',
+  family: 'editorial',
+  fonts: { serif: 'Playfair Display', sans: 'DM Sans', mono: 'JetBrains Mono' },
+  surfaces: {
+    stone: S('#EDEAE4', '#1E1E1C', '#3C3B37', '#6C6A64', '#9A4B2F', '#2B2A27', '#EDEAE4', '#E2DED6', '#9A4B2F', '#E2DED6'),
+    slate: S('#2B2A27', '#EDEAE4', '#D2CEC6', '#A19D94', '#E39A7A', '#E39A7A', '#2B2A27', '#35332F', '#E39A7A', '#3A3834'),
+    deep: S('#1B1A18', '#EDEAE4', '#CFCBC3', '#9C988F', '#E39A7A', '#E39A7A', '#1B1A18', '#262522', '#E39A7A', '#2A2926'),
+  },
+  rotation: ['stone', 'stone', 'slate'],
+  // Not in the brief: photo and code tokens follow midnight/sage, in the stone palette.
+  onPhoto: { ...onPhotoBase, accent: '#F0B597', badgeBg: '#E39A7A', badgeInk: '#1B1A18', tint: '#100F0E' },
+  code: {
+    ...roseCode, panel: '#2B2A27', border: '#2B2A27', text: '#EDEAE4', prompt: '#E39A7A',
+    subcommand: '#D9C7B0', flag: '#F0B597', string: '#C9D3B0', comment: '#A19D94', dots: null,
+  },
+  deco: { blobs: true, dotGrid: false, scanlines: false, glow: false, bigGlyph: null },
+  swatches: ['#EDEAE4', '#9A4B2F', '#2B2A27', '#E39A7A'],
+};
+
+export const EDITORIAL_VARIANTS: readonly Variant[] = [roseDusk, sage, midnight, stone];
