@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: sultan syarif kasim ii
-caption: Sultan Siak yang memilih Republik, lalu hidup dari tunjangan kecil. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Siti Zaqiah, skripsi UIN Syarif Hidayatullah (2024, mengutip arsip ANRI & Delpher); Historia.id (2024); Wilaela, Sosial Budaya (UIN Suska); Museum Nasional; Setneg · Foto: Taufik Hadris, DinaMardiati, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #siak #riau
+caption: Ia sultan terakhir Siak, dan singgasana emasnya pun dilaporkan dicuri pada 1967. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Siti Zaqiah, skripsi UIN Syarif Hidayatullah (2024, mengutip arsip ANRI & Delpher); Historia.id (2024); Wilaela, Sosial Budaya (UIN Suska); Museum Nasional; Setneg · Foto: Taufik Hadris, DinaMardiati, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #siak #riau
 ---
 [cover photo=istana-siak]
-Sultan Ini Memilih | Bergabung dengan Republik
-Sultan Syarif Kasim II, Siak Sri Indrapura, Riau.
+Mahkota Emas 1,8 Kg, | Tunjangan Rp1.000
+Sultan Syarif Kasim II menyatakan Siak setia kepada Republik lewat satu telegram, lalu hidup dari tunjangan negara.
 ---
 [number=off icon=star photo=siak-sultan-1926]
 *1915*: sultan di usia 21

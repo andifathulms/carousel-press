@@ -1,11 +1,11 @@
 template: editorial/midnight
 lang: id
 title: peristiwa mandor
-caption: Sultan, dokter, pejabat, pedagang: satu generasi elite Kalimantan Barat dibunuh Jepang, dan jumlah korbannya masih diperdebatkan. Sumber: Paijens, disertasi Universiteit Leiden (2025); Firmansyah dkk., Fajar Historia 6(1) 2022; Tirto (2022); Kompas (2020); RRI Pontianak (2026); Antara Kalbar (2015); DJPb Kemenkeu (2020); Kalimantan (Kementerian Penerangan, 1953) · Foto: Meidana, Widita22 (CC BY-SA 4.0), M. Honda/KITLV, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kalimantanbarat #mandor
+caption: Sultan Pontianak sudah bersumpah setia kepada Jepang, tapi ia dan putra-putranya tak pernah kembali. Sumber: Paijens, disertasi Universiteit Leiden (2025); Firmansyah dkk., Fajar Historia 6(1) 2022; Tirto (2022); Kompas (2020); RRI Pontianak (2026); Antara Kalbar (2015); DJPb Kemenkeu (2020); Kalimantan (Kementerian Penerangan, 1953) · Foto: Meidana, Widita22 (CC BY-SA 4.0), M. Honda/KITLV, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kalimantanbarat #mandor
 ---
 [cover photo=mandor-kadriah]
-Satu Generasi | Hilang di Mandor
-Sultan, dokter, pejabat, pedagang: dibunuh tentara Jepang. Kalimantan Barat, 1943–1944.
+Diundang Rapat, | Lalu Dihukum Mati
+Mei 1944, konferensi bentukan Jepang di Pontianak jadi jebakan. Sultan, dokter, dan pedagang dibunuh di hutan Mandor.
 ---
 [number=off icon=alert photo=mandor-pontianak-udara]
 *1943*: Jepang mulai curiga

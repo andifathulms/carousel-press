@@ -1,11 +1,11 @@
 template: editorial/midnight
 lang: id
 title: perjanjian bongaya
-caption: Satu perjanjian yang mengubah Makassar, dan kekerasan di kedua sisi. Sumber: Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud, 1975) termasuk teks perjanjian; Andaya, The Heritage of Arung Palakka (1981); Palallo, Attoriolong 18(1) 2020; Atlas of Mutual Heritage (Nationaal Archief); Setneg · Gambar: Romeyn de Hooge / Nationaal Archief (domain publik), Rijksmuseum (CC0); Foto: Herusutimbul, Torbenbrinker (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #makassar #sulawesiselatan
+caption: Ditandatangani setelah setahun perang, tapi dua tahun kemudian Somba Opu tetap jatuh. Sumber: Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud, 1975) termasuk teks perjanjian; Andaya, The Heritage of Arung Palakka (1981); Palallo, Attoriolong 18(1) 2020; Atlas of Mutual Heritage (Nationaal Archief); Setneg · Gambar: Romeyn de Hooge / Nationaal Archief (domain publik), Rijksmuseum (CC0); Foto: Herusutimbul, Torbenbrinker (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #makassar #sulawesiselatan
 ---
 [cover photo=penaklukan-makassar]
-Satu Perjanjian | yang Mengubah Makassar
-Perjanjian Bongaya, 18 November 1667.
+250.000 Ringgit | dan 1.000 Budak
+Itu sebagian yang wajib diserahkan Gowa lewat Perjanjian Bongaya. Makassar, 18 November 1667.
 ---
 [number=off icon=home photo=makassar-fort-rotterdam]
 Benteng milik Gowa

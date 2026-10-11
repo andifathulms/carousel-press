@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: prasasti yupa
-caption: Tujuh tiang batu dari Muara Kaman: apa isinya, siapa yang membawanya, dan apa yang masih diperdebatkan. Sumber: Vogel, BKI 74 (1918); Kern (1880–1882); Notulen Bataviaasch Genootschap (1879–1880); Chhabra, Expansion of Indo-Aryan Culture During Pallava Rule (1965); Sarip, Yupa: Historical Studies Journal 4(2) 2020; Kasnowihardjo, Berkala Arkeologi 26(1) 2006; Museum Nasional (2023); kaltimkece.id · Foto: Photo Dharma (CC BY 2.0), Ezagren, Muhammad Syarif. S (CC BY-SA 4.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons; I. van Kinsbergen (domain publik) #sejarahindonesia #prasasti #kalimantantimur
+caption: Angka 20.000 ada di buku pelajaran, tapi Kern dan Vogel membacanya 1.020. Sumber: Vogel, BKI 74 (1918); Kern (1880–1882); Notulen Bataviaasch Genootschap (1879–1880); Chhabra, Expansion of Indo-Aryan Culture During Pallava Rule (1965); Sarip, Yupa: Historical Studies Journal 4(2) 2020; Kasnowihardjo, Berkala Arkeologi 26(1) 2006; Museum Nasional (2023); kaltimkece.id · Foto: Photo Dharma (CC BY 2.0), Ezagren, Muhammad Syarif. S (CC BY-SA 4.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons; I. van Kinsbergen (domain publik) #sejarahindonesia #prasasti #kalimantantimur
 ---
 [cover photo=yupa-mulawarman]
-Bukti Tertulis Tertua | di Nusantara
-Tujuh tiang batu dari Muara Kaman, Kalimantan Timur.
+20.000 Sapi, atau | Cuma 1.020?
+Ahli masih beda membaca yupa, bukti tertulis tertua yang diketahui di Nusantara. Muara Kaman, Kalimantan Timur.
 ---
 [number=off icon=book photo=yupa-aksara]
 Tujuh tiang batu bernama yupa

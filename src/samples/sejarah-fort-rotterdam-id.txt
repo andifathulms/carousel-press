@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: fort rotterdam setelah 1667
-caption: Dari benteng Gowa, pusat kuasa VOC, penjara Diponegoro, sampai museum. Sumber: Sagimun M.D. (Depdikbud, 1975) mengutip Keyzer (1862); tesis Universitas Hasanuddin; jurnal UNM; Kompas TV mengutip Peter Carey, Takdir; Carey (2008) tentang Babad Diponegoro; Disbudpar Sulsel · Foto: Sanko, Heandra (CC BY-SA 3.0), Oceanmuse (CC BY 4.0) via Wikimedia Commons; Rijksmuseum (CC0); litografi C.W.M. van de Velde (domain publik) #sejarahindonesia #makassar #fortrotterdam
+caption: Ditangkap saat berunding di hari Lebaran, Diponegoro menghabiskan sisa hidupnya di Makassar. Sumber: Sagimun M.D. (Depdikbud, 1975) mengutip Keyzer (1862); tesis Universitas Hasanuddin; jurnal UNM; Kompas TV mengutip Peter Carey, Takdir; Carey (2008) tentang Babad Diponegoro; Disbudpar Sulsel · Foto: Sanko, Heandra (CC BY-SA 3.0), Oceanmuse (CC BY 4.0) via Wikimedia Commons; Rijksmuseum (CC0); litografi C.W.M. van de Velde (domain publik) #sejarahindonesia #makassar #fortrotterdam
 ---
 [cover photo=rotterdam-litho-1845]
-Benteng Ini Pernah | Jadi Penjara Diponegoro
-Fort Rotterdam, Makassar, setelah 1667.
+Lebih dari 20 Tahun | Diponegoro Dikurung di Sini
+Ia tiba 11 Juli 1833 dan wafat di Makassar. Fort Rotterdam, bekas benteng Gowa.
 ---
 [number=off icon=home photo=rotterdam-foto-lama]
 Dari Gowa ke VOC

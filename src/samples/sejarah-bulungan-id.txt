@@ -1,59 +1,59 @@
 template: editorial/sage
 lang: id
-title: tragedi bultiken bulungan
-caption: Kesultanan yang memilih Indonesia, lalu istananya dibakar dan bangsawannya dibunuh tentara pada 1964. Sumber: Magenda, East Kalimantan (1991) via Bond, tesis Univ. Melbourne (2020); Sellato, Archipel 89 (2015); Rahmadi, Islam Kawasan Kalimantan (UIN Antasari, 2020); Mentari & Wisnu, Avatara 5(1) 2017; UU No. 27/1959; Tirto (2017); detik.com (2026); Liputan6 (2017) · Foto: Ezagren (CC BY-SA 4.0), KITLV/Leiden University Libraries (CC BY 4.0), Delirium333 (CC BY 4.0, diolah) via Wikimedia Commons #sejarahindonesia #bulungan #kalimantanutara #sejarahlokal
+title: subuh 3 juli 1964 di tanjung palas
+caption: Malam itu dua perwira bertamu dengan ramah ke istana; beberapa minggu kemudian istananya tinggal abu dan puluhan orang tewas, sebagian dibuang ke laut. Sumber: Magenda, East Kalimantan (1991) via Bond, tesis Univ. Melbourne (2020); Sellato, Archipel 89 (2015); Rahmadi, Islam Kawasan Kalimantan (UIN Antasari, 2020); Mentari & Wisnu, Avatara 5(1) 2017; UU No. 27/1959; Tirto (2017); detik.com (2026); Liputan6 (2017) · Foto: Ezagren (CC BY-SA 4.0), KITLV/Leiden University Libraries (CC BY 4.0), Delirium333 (CC BY 4.0, diolah) via Wikimedia Commons #sejarahindonesia #bulungan #kalimantanutara #sejarahlokal
 ---
 [cover photo=bulungan-sungai-kayan]
-Istana Dibakar, | Bangsawan Dibunuh
-Oleh tentara Indonesia, dengan tuduhan makar. Tanjung Palas, Bulungan, Kalimantan Utara, 1964.
----
-[number=off icon=home photo=bulungan-sungai-1910]
-Berawal dari bambu dan telur
-Menurut cerita rakyat, leluhur Bulungan lahir dari bambu dan telur yang ditemukan Kuwanyi, pemimpin suku Kayan. Kesultanannya dihitung berdiri 1731 di bawah Wira Amir. Istananya di Tanjung Palas, di tepi Sungai Kayan.
----
-[number=off icon=map-pin photo=bulungan-kasimuddin]
-*1834*: tunduk pada Belanda
-27 September 1834 Bulungan mengakui Belanda sebagai penguasa, disusul kontrak politik 1850. Awal 1900-an minyak ditemukan di Tarakan, kesultanan makin kaya. Perlawanan atas pajak Belanda dipadamkan: 1909, panglima Wanpai Luhung dibuang ke Nusakambangan.
----
-[number=off icon=check-circle photo=bulungan-malino-1946]
-*1949*: memilih Indonesia
-Sultan Maulana Muhammad Djalaluddin sempat bermain dua kaki, termasuk mengirim utusan ke Konferensi Malino bentukan Belanda (1946). Lewat Konvensi Malinau, 7 Agustus 1949, Bulungan memilih Indonesia. 17 Agustus 1949, Merah Putih berkibar di halaman istana.
----
-[number=off icon=book photo=bulungan-malino-1946]
-*1959*: jadi kabupaten biasa
-Sejak 1950 Bulungan menjadi swapraja, daerah istimewa setingkat kabupaten. Sultan Djalaluddin wafat 1958, sultan terakhir yang bertakhta. UU No. 27/1959 lalu menjadikannya Daerah Tingkat II biasa yang berpusat di Tanjung Selor.
----
-[number=off icon=alert photo=bulungan-peta-1849]
-*April 1964*: dituduh makar
-Saat Konfrontasi dengan Malaysia, Pangdam Mulawarman Brigjen Soehario mengaku menemukan dokumen bahwa bangsawan Bulungan hendak bergabung dengan Sabah, juga senjata. Menurut Burhan Magenda, 24 April 1964 ia memerintahkan mereka ditangkap.
----
-[number=off icon=alert photo=bulungan-sungai-kayan]
-*Juli 1964*: istana dikepung
-Malam 2 Juli, dua perwira masih bertamu ke istana dengan ramah. Subuh 3 Juli, pasukan Brawijaya 517 mengepung istana. Seorang tokoh adat yang membantah tuduhan makar ditembak mati di tempat. Penangkapan dan penculikan berlangsung tiga hari.
----
-[number=off icon=alert photo=bulungan-peta-1849]
-*1964*: dibawa ke laut
-Tahanan dipisah: laki-laki di satu perahu, perempuan dan anak di perahu lain. Menurut Magenda, di perairan Tarakan sekitar 30 orang ditembak pengawal dari Kodim Bulungan, jasadnya dibuang ke laut. Dari keluarga inti sultan, hanya dua putra lolos ke Sabah.
+Malamnya Bertamu, | Subuhnya Mengepung
+Tentara Indonesia di istana Kesultanan Bulungan, Tanjung Palas, Juli 1964. Tuduhannya makar, dan tak pernah dibuktikan.
 ---
 [number=off icon=alert photo=bulungan-sungai-1910]
-*Juli 1964*: istana dibakar
-Istana ditutup paksa dan dijarah, lalu dibakar bersama arsip dan naskah kesultanan. Warga disuruh ikut membantu. Tanggalnya berbeda antarsumber: 18 Juli 1964 menurut sebagian, 23–24 Juli menurut yang lain.
+*3 Juli 1964*: subuh di Tanjung Palas
+Malam sebelumnya, dua perwira datang dan bertamu dengan ramah. Menjelang subuh, pasukan Brawijaya 517 sudah mengepung istana. Seorang tokoh adat yang menyangkal tuduhan makar langsung ditembak mati. Selama tiga hari, orang ditangkap dan diculik.
+---
+[number=off icon=home photo=bulungan-sungai-kayan]
+*1731*: kesultanan di Sungai Kayan
+Cerita rakyat mengisahkan Kuwanyi, pemimpin suku Kayan, menemukan bambu dan telur yang menjadi asal leluhur Bulungan. Kesultanannya dihitung berdiri sejak 1731, di bawah Wira Amir, dengan istana di Tanjung Palas, di tepi Sungai Kayan.
+---
+[number=off icon=map-pin photo=bulungan-kasimuddin]
+*1834*: di bawah kuasa Belanda
+27 September 1834 Bulungan menerima Belanda sebagai penguasa; kontrak politik menyusul 1850. Minyak Tarakan, ditemukan awal 1900-an, menambah kekayaan istana. Penolak pajak ditumpas: 1909, panglima Wanpai Luhung dibuang ke Nusakambangan.
+---
+[number=off icon=check-circle photo=bulungan-malino-1946]
+*1949*: Merah Putih di istana
+Sultan Maulana Muhammad Djalaluddin sempat bermain di dua sisi, misalnya mengutus wakil ke Konferensi Malino buatan Belanda (1946). Lewat Konvensi Malinau, 7 Agustus 1949, Bulungan memilih Indonesia; sepuluh hari kemudian Merah Putih berkibar di istana.
+---
+[number=off icon=book photo=bulungan-peta-1849]
+*1959*: tak lagi istimewa
+Mulai 1950 Bulungan berstatus swapraja, daerah istimewa setingkat kabupaten. Sultan terakhir yang bertakhta, Djalaluddin, wafat pada 1958. Setahun kemudian UU No. 27/1959 mengubahnya menjadi Daerah Tingkat II biasa, berpusat di Tanjung Selor.
+---
+[number=off icon=alert photo=bulungan-malino-1946]
+*April 1964*: tuduhan dari Pangdam
+Di tengah Konfrontasi dengan Malaysia, Pangdam Mulawarman Brigjen Soehario mengaku menemukan senjata dan dokumen: bangsawan Bulungan disebut hendak bergabung dengan Sabah. Burhan Magenda mencatat, pada 24 April 1964 Soehario memerintahkan mereka ditangkap.
+---
+[number=off icon=alert photo=bulungan-peta-1849]
+*1964*, perairan Tarakan: dua perahu
+Para tahanan dibagi dua: laki-laki di satu perahu, perempuan dan anak-anak di perahu lain. Magenda menulis, sekitar 30 orang ditembak pengawal dari Kodim Bulungan lalu dibuang ke laut. Dari keluarga inti sultan, cuma dua putra yang lolos ke Sabah.
+---
+[number=off icon=alert photo=bulungan-sungai-1910]
+*Juli 1964*: istana jadi abu
+Istana ditutup paksa dan dijarah, lalu dibakar, termasuk arsip dan naskah kesultanan. Warga diperintahkan ikut membantu. Soal tanggalnya, sumber tak sepakat: ada yang menyebut 18 Juli 1964, ada yang menyebut 23–24 Juli.
 ---
 [number=off icon=chat photo=bulungan-peta-1849]
-Berapa korbannya?
-Tak ada angka pasti. Magenda menyebut sekitar 30 orang. Koran Kaltim (2013): 87 korban, 37 tewas. Seorang saksi: sedikitnya 58. Bangsawan yang selamat menyebut puluhan bangsawan dan ratusan warga biasa. Desakan penyelidikan resmi nyaris tak ditanggapi.
+Korbannya: tak pernah pasti
+Magenda: sekitar 30 orang. Koran Kaltim (2013): 87 korban, 37 tewas. Seorang saksi: paling sedikit 58. Bangsawan yang selamat: puluhan bangsawan dan ratusan rakyat biasa. Tuntutan penyelidikan resmi hampir tak digubris.
 ---
-[number=off icon=lightbulb photo=bulungan-sungai-1910]
-Makar atau fitnah?
-Gerakan yang dituduhkan disebut "Bultiken": Bulungan, Tidung, Kenyah. Tuduhannya tak pernah dibuktikan. Tapi catatan bangsawan yang selamat, dikutip peneliti Nathan Bond (2020), menyebut ada kontak dengan intelijen Malaysia sejak 1963.
+[number=off icon=lightbulb photo=bulungan-museum]
+Bultiken: makar atau fitnah?
+Nama gerakan yang dituduhkan, "Bultiken", berasal dari Bulungan, Tidung, Kenyah. Tuduhan itu tak pernah terbukti. Di sisi lain, peneliti Nathan Bond (2020) mengutip catatan bangsawan yang selamat tentang kontak dengan intelijen Malaysia sejak 1963.
 ---
-[number=off icon=moon photo=bulungan-museum]
-Mengungsi ke Malaysia
-Banyak kerabat kesultanan lari ke Malaysia, sebagian jadi warganya. Bangsawan yang lolos tadi, pada 1965, membawa 35 pemimpin Bulungan, Tidung, dan Kenyah untuk dilatih gerilya oleh Inggris dan Malaysia. Ahli waris takhta tinggal di Tawau lebih dari 50 tahun.
+[number=off icon=moon photo=bulungan-sungai-1910]
+*1965*: lari ke seberang perbatasan
+Banyak kerabat kesultanan menyeberang ke Malaysia. 1965, seorang bangsawan yang lolos membawa 35 pemimpin Bulungan, Tidung, dan Kenyah untuk dilatih gerilya oleh Inggris dan Malaysia. Pewaris takhta tinggal di Tawau lebih dari 50 tahun.
 ---
 [number=off icon=star photo=bulungan-museum]
-Tanjung Palas, hari ini
-Istana yang berdiri sekarang adalah replika yang dijadikan museum, dibangun sekitar 1998–2000. Isinya sisa yang selamat dari penjarahan. Adatnya dijaga Lembaga Adat Kesultanan Bulungan. Korban yang dibuang ke laut tak pernah punya makam.
+Tanjung Palas kini: istana replika
+Istana yang berdiri sekarang dibangun ulang sekitar 1998–2000 dan dijadikan museum, berisi barang yang lolos dari penjarahan. Lembaga Adat Kesultanan Bulungan menjaga adatnya. Mereka yang dibuang ke laut pada 1964 tak pernah punya makam.
 ---
 [end photo=bulungan-sungai-kayan]
 Di daerahmu ada cerita kayak gini?

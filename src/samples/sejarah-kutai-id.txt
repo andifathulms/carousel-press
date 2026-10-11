@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: kesultanan kutai pernah dihapus
-caption: Kesultanan tua yang dihapus, sultannya ditahan, pusakanya dibakar, lalu punya sultan lagi. Sumber: Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020; Sarip, Yupa 4(2) 2020; kaltimkece.id & sejarahkaltim.com (Muhammad Sarip); Tirto (2017); detik.com (2024) · Foto: Sri Wahyuni Nur Indah Sari, Gunawan Kartapranata, Fauzan Noviatmoko (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kutai #kalimantantimur
+caption: Dulu kaya dari royalti minyak, Sultan Parikesit menghabiskan masa tuanya dengan tunjangan kecil dari negara. Sumber: Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020; Sarip, Yupa 4(2) 2020; kaltimkece.id & sejarahkaltim.com (Muhammad Sarip); Tirto (2017); detik.com (2024) · Foto: Sri Wahyuni Nur Indah Sari, Gunawan Kartapranata, Fauzan Noviatmoko (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kutai #kalimantantimur
 ---
 [cover photo=kutai-kedaton]
-Kesultanan Ini Pernah | Dihapus Negara
-Lalu sultannya ditahan dan pusakanya dibakar. Kutai Kartanegara, Kalimantan Timur.
+Payung Sultan Kutai | Dibakar di Depan Warga
+21 Mei 1965, Samarinda. Sejak Agustus 1964, sultannya ditahan tentara tanpa diadili.
 ---
 [number=off icon=home photo=kutai-mahakam]
 Berawal di tepi Mahakam

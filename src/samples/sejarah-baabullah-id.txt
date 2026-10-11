@@ -1,11 +1,11 @@
 template: editorial/midnight
 lang: id
 title: sultan baabullah ternate
-caption: Pembunuhan di gerbang benteng, lima tahun pengepungan, dan harga dari sebuah kejayaan. Sumber: Argensola, Conquista de las Molucas (1609); The World Encompassed (1628) & Hakluyt; Leirissa, Review of Culture 19 (2006); Hanna & Des Alwi (1990); Mostert, CAPASIA (2026); Campo López, Revista de Indias (2017); Setneg (2020) · Foto: Ana Ainina (CC BY 4.0, CC BY-SA 4.0), Fabio Achilli (CC BY 2.0) via Wikimedia Commons; Rijksmuseum (CC0) #sejarahindonesia #ternate #malukuutara
+caption: Diundang masuk benteng, lalu ditikam di dalamnya: pembunuhan Sultan Khairun memicu pengepungan lima tahun. Sumber: Argensola, Conquista de las Molucas (1609); The World Encompassed (1628) & Hakluyt; Leirissa, Review of Culture 19 (2006); Hanna & Des Alwi (1990); Mostert, CAPASIA (2026); Campo López, Revista de Indias (2017); Setneg (2020) · Foto: Ana Ainina (CC BY 4.0, CC BY-SA 4.0), Fabio Achilli (CC BY 2.0) via Wikimedia Commons; Rijksmuseum (CC0) #sejarahindonesia #ternate #malukuutara
 ---
 [cover photo=benteng-kastela]
-Sultan yang Mengusir | Portugis dari Ternate
-Sultan Baabullah, Maluku Utara, abad ke-16.
+Ayahnya Dibunuh | di Benteng Portugis
+Putranya, Baabullah, membalas: benteng itu dikepung sampai Portugis angkat kaki. Ternate, 1570–1575.
 ---
 [number=off icon=home photo=ternate-gamalama]
 Benteng di pulau cengkih

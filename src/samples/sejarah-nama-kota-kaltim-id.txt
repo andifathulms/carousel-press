@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: asal-usul nama kota kaltim
-caption: Mana yang tercatat, mana yang cerita rakyat, dan apa yang membentuk kota-kota ini. Sumber: Pemkot Balikpapan; Sarip & Nandini, Yupa 5(2) 2021; Sheilla & Sarip, Jurnal Riset Inossa 6(2) 2024; Perda Kabupaten Kutai No. 2/1997; Rifani, Jurnal Mahakam 1(1) 2012; Indische Kamparchieven; Australian War Memorial; Tirto (2017) · Foto: KITLV/Leiden University Libraries (CC BY 4.0), Sri Wahyuni Nur Indah Sari (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0) via Wikimedia Commons; Unsplash, consigliere ivan (CC0) #sejarahindonesia #balikpapan #samarinda
+caption: Hari jadi Samarinda pun dihitung dari Perjanjian Bongaya, dan sampai kini masih diperdebatkan. Sumber: Pemkot Balikpapan; Sarip & Nandini, Yupa 5(2) 2021; Sheilla & Sarip, Jurnal Riset Inossa 6(2) 2024; Perda Kabupaten Kutai No. 2/1997; Rifani, Jurnal Mahakam 1(1) 2012; Indische Kamparchieven; Australian War Memorial; Tirto (2017) · Foto: KITLV/Leiden University Libraries (CC BY 4.0), Sri Wahyuni Nur Indah Sari (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0) via Wikimedia Commons; Unsplash, consigliere ivan (CC0) #sejarahindonesia #balikpapan #samarinda
 ---
 [cover photo=nama-papan]
-Asal-usul Nama | Balikpapan, Samarinda, Tenggarong
-Mana yang tercatat, mana yang cerita rakyat.
+Ulang Tahun Balikpapan | Diambil dari Sumur Minyak
+10 Februari 1897, sumur Mathilda dibor. Plus Samarinda dan Tenggarong: mana tercatat, mana cerita rakyat?
 ---
 [icon=gift photo=nama-balikpapan-pelabuhan]
 Balikpapan: lahir dari minyak

@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: revolusi sosial sumatra timur 1946
-caption: Maret 1946, istana-istana kesultanan Melayu di Sumatra Timur diserbu, dan penyair Amir Hamzah ikut terbunuh. Sumber: Reid, The Blood of the People (via Sinuhaji, Historisme 2007, dan JOM FKIP UNRI); Said, Indonesia 15 (1973); van Langenberg, Indonesia 33 (1982); Rezani, IJHTC 10(2) 2025; Kementerian Penerangan RI, Propinsi Sumatera Utara (1953); Antara (2025, mengutip Lah Husny 1978); Setneg · Foto: Ramada Febrian, Davidelit (CC BY-SA 4.0), Nationaal Archief (CC0) via Wikimedia Commons #sejarahindonesia #sumaterautara #amirhamzah
+caption: Di Tanjungbalai saja sekitar 140 orang tewas dalam beberapa hari, dan kerangka Amir Hamzah baru ditemukan dua tahun kemudian. Sumber: Reid, The Blood of the People (via Sinuhaji, Historisme 2007, dan JOM FKIP UNRI); Said, Indonesia 15 (1973); van Langenberg, Indonesia 33 (1982); Rezani, IJHTC 10(2) 2025; Kementerian Penerangan RI, Propinsi Sumatera Utara (1953); Antara (2025, mengutip Lah Husny 1978); Setneg · Foto: Ramada Febrian, Davidelit (CC BY-SA 4.0), Nationaal Archief (CC0) via Wikimedia Commons #sejarahindonesia #sumaterautara #amirhamzah
 ---
 [cover photo=sumtim-maimun]
-Saat Revolusi | Menyerbu Istana
-Para sultan Melayu tumbang, seorang penyair besar ikut terbunuh. Sumatra Timur, Maret 1946.
+Amir Hamzah Dibunuh | di Usia 35 Tahun
+Ia wakil Republik di Langkat, tapi juga bangsawan. Revolusi Sosial Sumatra Timur, Maret 1946.
 ---
 [number=off icon=leaf photo=sumtim-tembakau]
 Deli: kaya dari tembakau

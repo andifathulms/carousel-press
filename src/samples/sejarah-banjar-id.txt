@@ -1,11 +1,11 @@
 template: editorial/midnight
 lang: id
 title: kesultanan banjar dihapus
-caption: Sengketa takhta, batu bara, dan perang 46 tahun, dengan kekerasan di kedua sisi. Sumber: Norpikriadi, Naditira Widya 8(2) 2014; Kalimantan (Kementerian Penerangan, 1953); Tirto (2021) mengutip Idwar Saleh & Helius Sjamsuddin; Amerta (BRIN); RCE, basis data kapal karam (Onrust); De Gids (1860); Setneg #sejarahindonesia #banjar #kalimantanselatan
+caption: Belanda menghapus kesultanannya, tapi putra Antasari masih melawan sampai gugur pada 1905. Sumber: Norpikriadi, Naditira Widya 8(2) 2014; Kalimantan (Kementerian Penerangan, 1953); Tirto (2021) mengutip Idwar Saleh & Helius Sjamsuddin; Amerta (BRIN); RCE, basis data kapal karam (Onrust); De Gids (1860); Setneg #sejarahindonesia #banjar #kalimantanselatan
 ---
 [cover photo=banjar-perang-tongka]
-Kesultanan Ini Dihapus | dengan Satu Proklamasi
-Kesultanan Banjar, Kalimantan Selatan, 1859–1905.
+Dihapus 1860, | Melawan sampai 1905
+Kesultanannya sudah tiada, perangnya jalan terus 45 tahun. Kesultanan Banjar, Kalimantan Selatan.
 ---
 [number=off icon=key photo=banjar-pengaron]
 Akar perang: takhta dan batu bara

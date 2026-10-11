@@ -1,11 +1,11 @@
 template: editorial/sage
 lang: id
 title: opu daeng risaju
-caption: Bangsawan Luwu yang memilih kehilangan gelarnya. Sumber: Kemdikbud, Sejarah Indonesia Kelas XII (2018), hlm. 42–44; Amir & Azis, Al-Qalam 28(2) 2022; Mattingaragau, Andi Djemma Pahlawan Nasional (2016); Masita dkk., JPDSH 1(5) 2022; Republika (2014); Setneg · Foto: Midori (CC BY 3.0), Jorge Franganillo (CC BY 2.0), KITLV/Leiden University Libraries (CC BY 4.0; rapat Sarekat Islam di Blitar) via Wikimedia Commons; Silentwinner (CC0) #sejarahindonesia #luwu #sulawesiselatan
+caption: Belakangan ia ditahan 11 bulan tanpa pengadilan, dan tembakan senapan di dekat telinganya membuatnya tuli. Sumber: Kemdikbud, Sejarah Indonesia Kelas XII (2018), hlm. 42–44; Amir & Azis, Al-Qalam 28(2) 2022; Mattingaragau, Andi Djemma Pahlawan Nasional (2016); Masita dkk., JPDSH 1(5) 2022; Republika (2014); Setneg · Foto: Midori (CC BY 3.0), Jorge Franganillo (CC BY 2.0), KITLV/Leiden University Libraries (CC BY 4.0; rapat Sarekat Islam di Blitar) via Wikimedia Commons; Silentwinner (CC0) #sejarahindonesia #luwu #sulawesiselatan
 ---
 [cover photo=risaju-istana-luwu]
-Bangsawan yang Rela | Kehilangan Gelarnya
-Opu Daeng Risaju, Luwu, Sulawesi Selatan.
+Dipenjara, Diceraikan, | Gelarnya Dicabut
+Karena menolak keluar dari PSII. Opu Daeng Risaju, bangsawan Luwu, 1934.
 ---
 [number=off icon=home photo=risaju-palopo]
 Lahir di Palopo, 1880
