@@ -1,11 +1,11 @@
 template: dev/paper-light
 lang: id
 title: lbw kriket dijelaskan
-caption: Aturan kriket yang paling sering bikin bingung. Sumber: MCC Laws of Cricket, 2017 Code 4th Edition (2026), Laws 5, 20, 21, 31 & 36, Appendix A; DRS: ICC WTC 2025–27 Playing Conditions, App. D; Wisden (2024) #kriket #cricket #aturankriket
+caption: Bola kena kaki belum tentu out: yang mendarat di luar stump sisi leg tidak pernah LBW. Sumber: MCC Laws of Cricket, 2017 Code 4th Edition (2026), Laws 5, 20, 21, 31 & 36, Appendix A; DRS: ICC WTC 2025–27 Playing Conditions, App. D; Wisden (2024) #kriket #cricket #aturankriket
 ---
 [cover photo=sport-kriket-sunset kicker="KRIKET • LAW 36"]
-LBW, | Aturan Kriket yang Bikin Bingung
-Dijelaskan untuk yang baru nonton kriket.
+LBW: 5 Syarat yang | Harus Terpenuhi Semua
+Satu saja gagal, pemukul aman. Dan tanpa appeal dari lawan, tidak ada out.
 ---
 [photo=sport-kriket-pads]
 Apa itu LBW
@@ -41,15 +41,7 @@ Sisi off ditentukan posisi pemukul saat bowler mulai berlari. Untuk pemukul kida
 ---
 [photo=sport-kriket-umpire]
 Umpire's call di DRS
-Di laga internasional, keputusan wasit lapangan tetap berlaku kalau teknologi menunjukkan keputusan tipis. Ini aturan ICC, bukan Laws MCC. Di Test, tiap tim punya 3 review gagal per inning, dan review LBW yang berakhir umpire's call tidak dihitung gagal.
----
-[photo=sport-kriket-ball]
-Cara kerja umpire's call
-Hawk-Eye memeriksa tiga hal: tempat bola mendarat, titik benturan, dan apakah bola kena wicket. Kalau pusat bola di luar zona tapi sebagian bola masih di dalam, hasilnya umpire's call.
----
-[photo=sport-kriket-stumps-keeper]
-Kena terlalu jauh dari stump
-Di DRS, kalau benturan 3 meter atau lebih dari stump, keputusan not out tetap berlaku walau Hawk-Eye bilang bola kena. Antara 2,5 dan 3 meter juga begitu, kalau jarak pantulan ke benturan kurang dari 40 cm.
+Aturan ICC untuk laga internasional, bukan Laws MCC. Hawk-Eye memeriksa tempat bola mendarat, titik benturan, dan apakah bola kena wicket. Kalau pusat bola di luar zona tapi sebagian masih di dalam, keputusan wasit lapangan tetap berlaku.
 ---
 [photo=sport-kriket-umpire]
 Sejak 1774

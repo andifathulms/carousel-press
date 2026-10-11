@@ -1,23 +1,19 @@
 template: dev/paper-light
 lang: id
 title: rotasi dan libero voli
-caption: Rotasi voli berubah di 2025: tim yang servis kini bebas berdiri. Sumber: FIVB Official Volleyball Rules 2025–2028, Rules 5, 7, 12 & 19; FIVB, uji coba aturan 2026 (27 Feb 2026) #voli #bolavoli #aturanvoli
+caption: Disahkan di Porto 2024, berlaku sejak 2025: kini hanya tim penerima yang dicek rotasinya saat servis. Sumber: FIVB Official Volleyball Rules 2025–2028, Rules 5, 7, 12 & 19; FIVB, uji coba aturan 2026 (27 Feb 2026) #voli #bolavoli #aturanvoli
 ---
 [cover photo=sport-voli-serve-toss kicker="VOLI • ATURAN 7 & 19"]
-Rotasi dan Libero, | Dijelaskan
-Termasuk aturan yang berubah di 2025, plus uji coba FIVB 2026.
+Tim yang Servis Kini | Bebas Berdiri di Mana Saja
+Sejak 2025, hanya tim penerima yang wajib urut rotasi. Plus aturan libero dan uji coba FIVB 2026.
 ---
 [photo=sport-voli-lineup]
 Enam posisi di lapangan
 Depan: posisi 4 (kiri), 3 (tengah), 2 (kanan). Belakang: posisi 5 (kiri), 6 (tengah), 1 (kanan). Posisi 1 berada di belakang posisi 2, posisi 6 di belakang 3, dan posisi 5 di belakang 4.
 ---
 [photo=sport-voli-lineup]
-Kenapa harus rotasi?
-Urutan servis dikunci susunan awal tiap set. Setiap kali tim merebut hak servis, semua bergeser satu posisi. Jadi semua pemain kebagian servis, dan bergantian main di depan dan di belakang.
----
-[photo=sport-voli-serve-court]
 Rotasi searah jarum jam
-Saat tim penerima merebut hak servis, pemainnya bergeser satu posisi searah jarum jam: pemain di posisi 2 pindah ke posisi 1 untuk servis. Selama timnya terus menang reli, pemain yang sama terus servis.
+Urutan servis dikunci susunan awal tiap set. Saat merebut hak servis, semua bergeser satu posisi searah jarum jam: pemain di posisi 2 pindah ke posisi 1 untuk servis. Selama tim terus menang reli, pemain yang sama terus servis.
 ---
 [photo=sport-voli-serve-court]
 Berubah di 2025: tim servis bebas
@@ -40,12 +36,8 @@ Salah posisi, salah rotasi
 Tim penerima salah posisi saat servis: lawan dapat poin dan servis. Salah urutan servis juga begitu. Kalau baru ketahuan setelah reli selesai, lawan tetap hanya dapat satu poin, dan poin sesudah kesalahan bisa dibatalkan.
 ---
 [photo=sport-voli-libero-dig]
-Libero: kostum beda warna
-Tim boleh punya sampai dua libero, tapi hanya satu di lapangan. Kostumnya harus berwarna dominan berbeda dari pemain lain. Di kompetisi senior FIVB, tim dengan lebih dari 12 pemain wajib punya dua libero.
----
-[photo=sport-voli-libero-dig]
-Satu reli dulu, baru ganti
-Pergantian libero tidak terbatas dan tidak dihitung sebagai pergantian pemain, tapi harus ada satu reli selesai di antara dua pergantian. Libero masuk dan keluar hanya lewat zona khusus di sisi bangku.
+Libero: beda warna, ganti bebas
+Tim boleh punya sampai dua libero, tapi hanya satu di lapangan, dengan kostum dominan berbeda warna. Pergantiannya tidak terbatas dan tidak dihitung, asal ada satu reli selesai di antaranya, lewat zona khusus di sisi bangku.
 ---
 [photo=sport-voli-net-block]
 Yang tidak boleh dilakukan libero

@@ -1,19 +1,15 @@
 template: dev/paper-light
 lang: id
 title: skor bulu tangkis berubah
-caption: Bulu tangkis ganti dari 21 ke 15 poin mulai 4 Jan 2027. Sumber: BWF Laws of Badminton (2025), Laws 7, 8, 10, 11 & 16; Laws 2027 disahkan 25 Apr 2026, berlaku 4 Jan 2027; NST, USA Badminton, JawaPos, FMT (2026); Badminton Asia (2018); Scroll (2021) #bulutangkis #badminton #bwf
+caption: Gim terpanjang tidak lagi 30-29, tapi 21-20, dan 43 suara sempat menolaknya. Sumber: BWF Laws of Badminton (2025), Laws 7, 8, 10, 11 & 16; Laws 2027 disahkan 25 Apr 2026, berlaku 4 Jan 2027; NST, USA Badminton, JawaPos, FMT (2026); Badminton Asia (2018); Scroll (2021) #bulutangkis #badminton #bwf
 ---
 [cover photo=sport-badminton-racket kicker="BULU TANGKIS • LAW 7"]
-Skor Bulu Tangkis | Akan Berubah
-Cara kerjanya sekarang, dan apa yang berubah Januari 2027.
+Bulu Tangkis Pindah | dari 21 ke 15 Poin
+Mulai 4 Januari 2027. Disetujui 198 lawan 43 suara, dan jeda bergeser ke poin 8.
 ---
 [photo=sport-badminton-net-talk]
-Menang dua gim
-Satu pertandingan dimainkan best of three: yang lebih dulu menang dua gim. Pemenang gim servis lebih dulu di gim berikutnya, dan pemain pindah sisi setelah tiap gim. Bagian ini tidak berubah.
----
-[photo=sport-badminton-smash]
-Setiap reli jadi poin
-Menang reli, dapat poin, siapa pun yang servis, dan pemenang reli servis berikutnya. Di tunggal, server servis dari kanan saat skornya genap (termasuk 0) dan dari kiri saat ganjil.
+Menang dua gim, setiap reli jadi poin
+Best of three: yang lebih dulu menang dua gim, dan pemain pindah sisi setelah tiap gim. Bagian ini tidak berubah. Menang reli, dapat poin, siapa pun yang servis, dan pemenang reli servis berikutnya.
 ---
 [photo=sport-badminton-rackets]
 Sekarang: sampai 21
@@ -22,14 +18,6 @@ Di 20-20 harus unggul dua poin, dan di 29-29 siapa pun yang mencetak poin ke-30 
 [photo=sport-badminton-break]
 Jeda dan pindah tempat
 Ada jeda maksimal 60 detik saat skor tertinggi mencapai 11, dan maksimal 120 detik antargim. Di gim ketiga, pemain pindah tempat di poin 11.
----
-[photo=sport-badminton-smash]
-Ganda: siapa yang servis?
-Kalau tim yang servis menang reli, server yang sama servis lagi dari kotak sebelah. Kalau tim penerima menang, servis pindah ke mereka, oleh pemain di kotak sesuai skor tim itu: kanan genap, kiri ganjil.
----
-[photo=sport-badminton-net-talk]
-Ganda: kapan pindah kotak?
-Pemain hanya bertukar kotak saat timnya sedang servis dan menang poin. Saat menerima, posisi tetap. Penerima adalah pemain yang diagonal dari server; setelah servis dikembalikan, siapa pun boleh memukul.
 ---
 [photo=sport-badminton-rackets]
 Mulai 4 Januari 2027: sampai 15

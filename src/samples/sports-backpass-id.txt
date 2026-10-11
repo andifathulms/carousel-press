@@ -1,11 +1,11 @@
 template: dev/paper-light
 lang: id
 title: aturan backpass
-caption: Kenapa kiper tidak boleh menangkap backpass. Sumber: IFAB Laws of the Game 2026/27, Law 12.2–12.4, 13.2, 15 & 16; IFAB Laws of the Game 1992-93; IFAB (2025, 2026); Goal.com (2020) & Irish Times (2018) #sepakbola #backpass #aturanbola
+caption: Satu laga 0-0 di Piala Dunia 1990 sering disebut sebagai alasan kiper tak boleh lagi menangkap backpass. Sumber: IFAB Laws of the Game 2026/27, Law 12.2–12.4, 13.2, 15 & 16; IFAB Laws of the Game 1992-93; IFAB (2025, 2026); Goal.com (2020) & Irish Times (2018) #sepakbola #backpass #aturanbola
 ---
 [cover photo=sport-backpass-keeper-dusk kicker="SEPAK BOLA • PERATURAN 12"]
-Kenapa Kiper Tidak Boleh | Menangkap Backpass
-Aturan yang lahir pada 1992, kini ditemani aturan delapan detik.
+Sekitar 6 Menit Bola | di Tangan Kiper
+Irlandia vs Mesir 1990 sering disebut pemicu aturan backpass. Kini kiper juga dibatasi delapan detik.
 ---
 [photo=sport-backpass-keeper-hands]
 Aturannya
@@ -31,13 +31,9 @@ Tendangan bebas tidak langsung, tanpa kartu untuk kiper. Kalau terjadi di kotak 
 Irlandia vs Mesir, 1990
 Di Piala Dunia 1990, Irlandia vs Mesir berakhir 0-0. Kiper Packie Bonner disebut memegang bola total sekitar enam menit sepanjang laga. Laga ini sering dikutip sebagai salah satu pemicu aturan backpass.
 ---
-[photo=sport-backpass-ball-feet]
-Lahir pada 1992
-IFAB mengesahkannya pada 30 Mei 1992 untuk memberantas buang-buang waktu. Piala Dunia 1990, yang penuh backpass dan mengulur waktu, sering disebut sebagai pemicunya.
----
 [photo=sport-backpass-catch-1970s]
-Euro 1992 masih boleh
-Euro 1992 jadi turnamen besar terakhir tanpa aturan ini. Olimpiade Barcelona 1992 termasuk yang pertama memakainya.
+Lahir pada 1992
+IFAB mengesahkannya pada 30 Mei 1992 untuk memberantas buang-buang waktu. Euro 1992 jadi turnamen besar terakhir tanpa aturan ini; Olimpiade Barcelona 1992 termasuk yang pertama memakainya.
 ---
 [photo=sport-backpass-ball-feet]
 Kiper harus pintar kaki
@@ -46,14 +42,6 @@ Karena tak bisa lagi asal menangkap umpan rekan, kiper dipaksa terampil mengoper
 [photo=sport-backpass-keeper-hands]
 Aturan delapan detik
 Sejak 2025/26, kiper yang memegang bola lebih dari delapan detik dihukum sepak pojok untuk lawan. Wasit menghitung mundur lima detik terakhir dengan tangan terangkat, dan memantulkan bola ke tanah tidak mereset hitungan.
----
-[photo=sport-backpass-goal-fog]
-2019: tendangan gawang lebih cepat
-Sejak Laws 2019/20, bola tendangan gawang sudah hidup begitu ditendang dan jelas bergerak, tak perlu keluar kotak penalti dulu. Lawan tetap harus di luar kotak penalti sampai bola hidup.
----
-[photo=sport-backpass-throw-in]
-Baru 2026/27: hitung mundur lima detik
-Sejak 1 Juli 2026, wasit boleh menghitung mundur lima detik untuk tendangan gawang dan lemparan ke dalam yang diulur. Telat? Tendangan gawang jadi sepak pojok lawan, lemparan ke dalam pindah ke lawan.
 ---
 [end photo=sport-backpass-keeper-dusk]
 Simpan buat debat bola berikutnya.

@@ -1,11 +1,11 @@
 template: dev/paper-light
 lang: id
 title: travelling basket dijelaskan
-caption: Kenapa langkah itu sah, dan kapan jadi travelling. Sumber: FIBA Official Basketball Rules 2026 (berlaku 1 Okt 2026), Art. 22.2, 24 & 25; FIBA Interpretations 2026; NBA Rulebook 2026-27, Rule 4 Sec. III, Rule 10 Sec. XIII & Rule 14 #basket #basketball #aturanbasket
+caption: Eurostep zig-zag itu sah, tapi lompat dari kaki kiri lalu mendarat lagi di kaki kiri tidak. Sumber: FIBA Official Basketball Rules 2026 (berlaku 1 Okt 2026), Art. 22.2, 24 & 25; FIBA Interpretations 2026; NBA Rulebook 2026-27, Rule 4 Sec. III, Rule 10 Sec. XIII & Rule 14 #basket #basketball #aturanbasket
 ---
 [cover photo=sport-bb-cover-shot kicker="BASKET • FIBA ART. 25"]
-Travelling, | Dijelaskan dengan Benar
-Kenapa langkah itu sah, dan kapan jadi pelanggaran.
+Tiga Langkah Saat Layup | Belum Tentu Travelling
+Langkah saat menangkap bola dihitung nol, baru setelah itu dua langkah. Begini aturan FIBA, dan bedanya dengan NBA.
 ---
 [photo=sport-bb-dribble]
 Apa itu travelling
@@ -28,12 +28,8 @@ Gather step: langkah nol
 Langkah pertama dihitung saat kaki menyentuh lantai setelah bola dikuasai. Contoh: tangkap bola saat kaki kanan menapak (nol), lalu kiri (satu), kanan (dua). FIBA memakai cara hitung ini sejak 2017.
 ---
 [photo=sport-bb-layup]
-Mitos langkah ketiga
-Yang terlihat seperti tiga langkah biasanya gather step plus dua langkah, dan itu sah. Arah langkahnya pun bebas. Langkah ketiga setelah bola dikuasai tetap travelling.
----
-[photo=sport-bb-dribble]
-Eurostep itu sah
-Eurostep hanya dua langkah setelah gather, satu ke kiri dan satu ke kanan. Aturan menghitung langkah "ke arah mana pun", jadi zig-zag tidak masalah. Yang dihitung jumlah langkah, bukan arahnya.
+Mitos langkah ketiga, dan eurostep
+Yang terlihat seperti tiga langkah biasanya gather step plus dua langkah, dan itu sah. Eurostep juga: dua langkah setelah gather, satu ke kiri, satu ke kanan. Yang dihitung jumlah langkah, bukan arahnya; langkah ketiga tetap travelling.
 ---
 [photo=sport-bb-feet-court]
 Jump stop: mendarat dua kaki
@@ -46,10 +42,6 @@ Setelah berhenti dribel atau menguasai bola, kamu tidak boleh menyentuh lantai b
 [photo=sport-bb-gather-archive]
 Jatuh bawa bola? Sah
 Jatuh lalu tergelincir karena momentum sambil memegang bola itu sah, begitu juga menangkap bola sambil berbaring. Travelling terjadi kalau kamu berguling atau mencoba berdiri sambil memegang bola.
----
-[photo=sport-bb-dribble]
-Carrying beda pasal
-Carrying atau palming adalah pelanggaran dribel: tangan di bawah bola, membawa atau menahannya, lalu lanjut dribel. Travelling soal kaki. Hukumannya sama: bola untuk lawan.
 ---
 [photo=sport-bb-layup]
 NBA: aturannya mirip

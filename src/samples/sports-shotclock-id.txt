@@ -1,11 +1,11 @@
 template: dev/paper-light
 lang: id
 title: kenapa shot clock 24 detik
-caption: Aturan yang lahir dari skor 19–18. Sumber: FIBA Official Basketball Rules 2026, Art. 9, 22, 28, 29 & 51; NBA Official Playing Rules 2026-27, Rule 7; NBA.com, review musim 1954-55; ESPN Classic; FIBA (2018) #basket #basketball #shotclock
+caption: Tanpa shot clock, satu laga NBA tahun 1950 berakhir 19–18. Sumber: FIBA Official Basketball Rules 2026, Art. 9, 22, 28, 29 & 51; NBA Official Playing Rules 2026-27, Rule 7; NBA.com, review musim 1954-55; ESPN Classic; FIBA (2018) #basket #basketball #shotclock
 ---
 [cover photo=sport-shotclock-backboard kicker="BASKET • FIBA ART. 29"]
-Kenapa Shot Clock | 24 Detik?
-Aturan yang lahir dari skor 19–18.
+Skor 19–18 dan Asal | Shot Clock 24 Detik
+2.880 detik dibagi sekitar 120 tembakan: begitu angka 24 muncul. Plus cara kerjanya sekarang.
 ---
 [photo=sport-shotclock-stopwatch-coach]
 Tembak dalam 24 detik
@@ -17,7 +17,7 @@ Kalau shot clock berbunyi saat bola di udara dan bola tidak menyentuh ring, itu 
 ---
 [photo=sport-shotclock-jump-shot]
 Reset ke 24 atau 14
-Setelah bola menyentuh ring: 24 detik kalau lawan yang menguasai bola, 14 detik kalau tim yang sama merebutnya kembali. Contoh: tembakan meleset, center tim sendiri merebut rebound, shot clock jadi 14.
+Setelah bola menyentuh ring: 24 detik kalau lawan yang menguasai bola, 14 detik kalau tim yang sama merebutnya kembali. NBA ikut memakai reset 14 detik setelah rebound serang mulai 2018–19, setelah WNBA lebih dulu.
 ---
 [photo=sport-shotclock-stopwatch]
 14 detik di daerah serang
@@ -35,10 +35,6 @@ Pelanggaran shot clock berarti bola pindah ke lawan. Di FIBA, lewat lemparan ke 
 Shot clock dimatikan
 Kalau ada penguasaan bola baru dan sisa waktu kuarter kurang dari 14 detik, FIBA mematikan shot clock. NBA mematikannya saat sisa waktu 24 detik atau kurang.
 ---
-[photo=sport-shotclock-backboard]
-Lampu kuning di papan
-Papan pantul level atas punya lampu LED: merah di keliling papan untuk akhir kuarter, kuning di tepi atas untuk shot clock. Di FIBA, lampu lebih menentukan daripada bunyi buzzer.
----
 [photo=sport-shotclock-archive-layup]
 Masalahnya: mengulur waktu
 Tanpa shot clock, tim yang unggul bisa menahan bola selama mungkin. Pada 22 November 1950 di Minneapolis, Fort Wayne Pistons mengalahkan Minneapolis Lakers 19–18, skor terendah dalam sejarah NBA.
@@ -47,14 +43,10 @@ Tanpa shot clock, tim yang unggul bisa menahan bola selama mungkin. Pada 22 Nove
 Lahir di Syracuse, 1954
 Pemilik Syracuse Nationals, Danny Biasone, dan manajernya, Leo Ferris, mengusulkan shot clock. NBA memakainya mulai 1954–55, rata-rata skor naik dari 79,5 ke 93,1, dan Syracuse juara di musim itu.
 ---
-[photo=sport-shotclock-stopwatch]
-Kenapa 24?
-48 menit sama dengan 2.880 detik. Dibagi sekitar 120 tembakan per pertandingan untuk dua tim, kira-kira 60 per tim, hasilnya 24 detik per serangan.
----
 [photo=sport-shotclock-hoop-sunset]
-FIBA dulu 30 detik
-FIBA lama memakai shot clock 30 detik sebelum beralih ke 24. NBA ikut memakai reset 14 detik setelah rebound serang mulai musim 2018–19, setelah WNBA lebih dulu memakainya.
+Kenapa 24?
+48 menit sama dengan 2.880 detik. Dibagi sekitar 120 tembakan per pertandingan untuk dua tim, kira-kira 60 per tim, hasilnya 24 detik per serangan. FIBA lama memakai 30 detik sebelum beralih ke 24.
 ---
-[end photo=sport-shotclock-hoop-sunset]
+[end photo=sport-shotclock-backboard]
 Simpan buat nonton basket berikutnya.
 Mau dibahas aturan apa lagi? Tulis di komen.

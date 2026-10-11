@@ -1,11 +1,11 @@
 template: dev/paper-light
 lang: id
 title: hitungan skor tenis
-caption: 15, 30, 40, dan tidak ada yang tahu pasti kenapa. Sumber: ITF Rules of Tennis 2026, Rules 5–7, 10, 14–15, 22 & Appendix VI; Grand Slam Rule Book 2026, Art. L; Tennis.com (2022); catatan Wimbledon 2010 #tenis #aturantenis #olahraga
+caption: Satu laga Wimbledon pernah berlangsung 11 jam 5 menit, dan tiap gimnya tetap dihitung 15, 30, 40. Sumber: ITF Rules of Tennis 2026, Rules 5–7, 10, 14–15, 22 & Appendix VI; Grand Slam Rule Book 2026, Art. L; Tennis.com (2022); catatan Wimbledon 2010 #tenis #aturantenis #olahraga
 ---
 [cover photo=sport-tennis-ball kicker="TENIS • ATURAN 5–7"]
-Kenapa Tenis Menghitung | 15, 30, 40
-Dan apa yang terjadi saat deuce.
+Dulu Skor Tenis | Disebut 45, Bukan 40
+Catatan sekitar 1435 menulis "quarante cinq". Begini cara kerja 15, 30, 40, dan kenapa asalnya tak pasti.
 ---
 [photo=sport-tennis-scorecards]
 Poin dalam satu gim
@@ -31,21 +31,9 @@ Pemain yang gilirannya servis memukul poin pertama, dari sisi kanan. Lalu lawan 
 No-Ad: satu poin penentu
 Di format No-Ad, saat deuce langsung dimainkan satu poin penentu, dan penerima memilih menerima dari kanan atau kiri. Di ganda campuran, poin itu diterima pemain yang jenis kelaminnya sama dengan server.
 ---
-[photo=sport-tennis-ball]
-Servis kena net: let
-Servis yang menyentuh net lalu masuk adalah let: diulang, tapi tidak menghapus fault sebelumnya. Di format dengan aturan No-Let, bola itu langsung dimainkan.
----
-[photo=sport-tennis-swing]
-Urutan servis di ganda
-Di awal set, tiap tim memilih siapa yang servis duluan, lalu urutannya tetap sampai set selesai: A1, B1, A2, B2. Setelah servis dikembalikan, siapa pun boleh memukul.
----
-[photo=sport-tennis-scorecards]
-Set penentuan di Grand Slam
-Sejak 2022, keempat Grand Slam memakai tie-break sampai 10 poin di skor 6-6 set penentuan. Saat diumumkan statusnya uji coba; kini tertulis di Grand Slam Rule Book 2026.
----
 [photo=sport-tennis-court-lines]
-Laga 11 jam
-Wimbledon 2010: John Isner mengalahkan Nicolas Mahut 70-68 di set kelima, total 11 jam 5 menit dalam tiga hari. Laga maraton seperti ini mendorong Grand Slam memasang tie-break di set penentuan.
+Laga 11 jam, lalu tie-break 10 poin
+Wimbledon 2010: John Isner mengalahkan Nicolas Mahut 70-68 di set kelima, total 11 jam 5 menit dalam tiga hari. Sejak 2022, keempat Grand Slam memakai tie-break sampai 10 poin di skor 6-6 set penentuan.
 ---
 [photo=sport-jeu-de-paume]
 Jadi kenapa 15, 30, 40?
