@@ -62,6 +62,11 @@ import lexFalseFriends from './lexicon-english-false-friends.txt?raw';
 import lexEd from './lexicon-english-ed.txt?raw';
 import lexMakeDo from './lexicon-english-make-do.txt?raw';
 import places from './editorial-places-en.txt?raw';
+import filsafatEpikuros from './filsafat-epikuros-keinginan-id.txt?raw';
+import filsafatWuWei from './filsafat-wu-wei-id.txt?raw';
+import filsafatJujur from './filsafat-jujur-atau-baik-id.txt?raw';
+import filsafatStoik from './filsafat-stoik-bukan-mati-rasa-id.txt?raw';
+import filsafatKonfusius from './filsafat-konfusius-tahu-id.txt?raw';
 import ayatHatiTenang from './ayat-hati-tenang.txt?raw';
 import ayatBersamaKesulitan from './ayat-bersama-kesulitan.txt?raw';
 import ayatSesuaiKesanggupan from './ayat-sesuai-kesanggupan.txt?raw';
@@ -74,7 +79,7 @@ import hadisWajahBerseri from './hadis-wajah-berseri.txt?raw';
 import hadisHatiDanAmal from './hadis-hati-dan-amal.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
-export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'travel';
+export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'philosophy' | 'travel';
 
 export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'relationships', label: 'Relationships' },
@@ -84,6 +89,7 @@ export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'english', label: 'English' },
   { id: 'indonesian', label: 'Bahasa Indonesia' },
   { id: 'ayat', label: 'Ayat & Hadis' },
+  { id: 'philosophy', label: 'Filsafat' },
   { id: 'travel', label: 'Travel' },
 ];
 
@@ -177,4 +183,10 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'hadis-orang-kuat', name: 'Orang kuat (hadis) (Ayat Harian, id)', category: 'ayat', text: hadisOrangKuat },
   { id: 'hadis-wajah-berseri', name: 'Wajah berseri (hadis) (Ayat Harian, id)', category: 'ayat', text: hadisWajahBerseri },
   { id: 'hadis-hati-dan-amal', name: 'Hati dan amal (hadis) (Ayat Harian, id)', category: 'ayat', text: hadisHatiDanAmal },
+  // Filsafat Harian (philosophy)
+  { id: 'filsafat-epikuros-keinginan-id', name: 'Checkout tengah malam: Epikuros (Filsafat Harian, id)', category: 'philosophy', text: filsafatEpikuros },
+  { id: 'filsafat-wu-wei-id', name: 'Wu wei bukan berarti malas (Filsafat Harian, id)', category: 'philosophy', text: filsafatWuWei },
+  { id: 'filsafat-jujur-atau-baik-id', name: 'Jujur atau menjaga perasaan? (dilema) (Filsafat Harian, id)', category: 'philosophy', text: filsafatJujur },
+  { id: 'filsafat-stoik-bukan-mati-rasa-id', name: 'Stoik bukan mati rasa (Filsafat Harian, id)', category: 'philosophy', text: filsafatStoik },
+  { id: 'filsafat-konfusius-tahu-id', name: 'Berani bilang nggak tahu: Konfusius (Filsafat Harian, id)', category: 'philosophy', text: filsafatKonfusius },
 ];

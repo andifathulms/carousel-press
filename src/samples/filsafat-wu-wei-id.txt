@@ -1,0 +1,40 @@
+template: editorial/stone
+lang: id
+title: wu wei
+caption: Satu kata dari teks Tiongkok kuno yang sering disalahpahami. Sumber: Laozi (Daodejing) bab 37 & 48 (terj. James Legge) · SEP "Laozi" #filsafat #filsafatharian #wuwei #taoisme
+---
+[cover]
+*Wu Wei*: | Bukan Berarti Malas
+Satu konsep dari teks Laozi (Daodejing).
+---
+[number=off icon=book]
+Artinya
+*Wu wei* sering diterjemahkan "tanpa tindakan". Tapi maksudnya bukan diam total. Penerjemah lain memakai "tindakan tanpa paksaan" atau "tindakan tanpa susah payah".
+---
+[number=off icon=map-pin]
+Asalnya
+Konsep ini datang dari Laozi atau Daodejing, teks Tiongkok kuno. Siapa Laozi masih diperdebatkan. Banyak sarjana menilai teksnya disusun bertahap dan baru utuh sekitar abad ke-4–3 SM.
+---
+[quote icon=none]
+Dao, dalam jalannya yang biasa, tidak berbuat apa pun demi berbuat, dan karena itu tak ada yang tidak terlaksana.
+— Laozi, bab 37 (terj. bebas dari James Legge)
+---
+[number=off icon=leaf]
+Contoh sehari-hari
+Belajar naik sepeda: makin tegang dan ngotot, makin oleng. Begitu rileks dan ikut keseimbangan, sepedanya malah jalan. Bukan karena berhenti berusaha, tapi karena berhenti memaksa.
+---
+[compare]
+headline: Yang sering salah dipahami
+wrong-label: Kata medsos
+wrong: *Wu wei* = rebahan, nggak usah usaha.
+right-label: Kata teksnya
+right: Bertindak tanpa memaksa dan tanpa ambisi yang dibuat-buat.
+why: Bab 48: orang yang mengikuti Dao terus mengurangi tindakan yang dipaksakan, dan justru semuanya terlaksana.
+---
+[number=off icon=alert]
+Tapi…
+Para penafsir sendiri berbeda. Ada yang membaca *wu wei* sebagai ajaran spiritual, ada yang membacanya sebagai nasihat etika dan politik, termasuk untuk cara penguasa memerintah.
+---
+[end]
+Apa yang selama ini kamu paksakan, padahal bisa dilepas?
+Tulis di komen.
