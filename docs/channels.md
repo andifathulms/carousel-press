@@ -877,6 +877,25 @@ Tulis di komen.
 
 ## 10. Shared rules
 
+### Standards from the Oct 2026 account reviews (every account, every new deck)
+
+Four accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
+
+1. **The cover is the hook, and the subtitle says what the viewer gets.** A specific, true scene, fact or question, not a topic label. Never "N pertanyaan buat…"-style homework, never a finger-pointing "Kamu masih…".
+2. **Never repeat the cover line as a card.** Card 1 is the strongest payoff.
+3. **Every slide pays off now:** a line to send, a verdict to check, a word to use, a mistake to stop, something the viewer recognises. No slide that is only setup or filler.
+4. **Comment asks take one tap:** a letter, a number, a word, a tag. Not a private paragraph in public.
+5. **The end line is specific to the post** (or the deck type) and is never the same on two consecutive posts. The CTA label names the action (`cta="Kirim ke dia"`), not a generic "Simpan • Bagikan".
+6. **Search words:** put the phrase people type ("ayat penenang hati", "kata indah bahasa indonesia") in the cover kicker or subtitle and in the caption's first line; hashtags that match searches beat huge generic ones.
+7. **Series beat one-offs:** when a format works, number it in the kicker ("KATA INDAH #2", "POJOK BULU TANGKIS #3") and post the next one within the week.
+8. **One look per account:** each account has its own template family (Ruang Rasa `editorial/ruang-*`, Whistle Notes `sport/*`, Ayat Harian `serene/*`, Kamus Kecil `lexicon/kamus`…). Text-first; photos only when they add something.
+9. **Formats rotate:** never the same format twice in a row on one account.
+10. **Before shipping, render it and look:** zero warnings, no word broken mid-word (reword with shorter words), every claim backed by the account's sources.
+
+When asked for "N posts" for an account: read its section, pick formats from its "Formats" list (rotating), apply the standards above, and say which format each deck uses.
+
+### General rules
+
 - Don't let any account become a content farm: every deck needs a specific angle, not a generic list.
 - No text copied from real TikTok accounts.
 - Each account keeps its own default template so feeds look distinct. Borrowing another account's template is fine occasionally, never as a habit.
