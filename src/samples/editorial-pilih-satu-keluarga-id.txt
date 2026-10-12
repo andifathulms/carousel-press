@@ -1,0 +1,32 @@
+template: editorial/sage
+lang: id
+title: pilih satu versi keluarga
+caption: Jawab di komentar, terus kirim ke grup keluarga. Siapa yang paling beda sendiri? 😆 #pilihsatu #keluarga #thisorthat
+---
+[cover photo=1]
+Masakan Rumah, atau | Mi Instan Tengah Malam?
+Pilih satu, versi keluarga. Jawab cepat, terus kirim ke grup keluarga.
+---
+[icon=coffee]
+Sarapan bareng di meja makan, atau makan masing-masing sambil nonton TV?
+Tulis jawabanmu di komentar.
+---
+[icon=plane]
+Mudik naik mobil rame-rame, atau naik kereta biar santai?
+Biasanya siapa yang paling ribet packing?
+---
+[icon=chat]
+Grup chat keluarga yang rame tiap pagi, atau yang sepi tapi sekali bunyi heboh?
+Grup keluargamu yang mana?
+---
+[icon=home]
+Kumpul keluarga besar, atau quality time sama keluarga inti aja?
+Nggak ada jawaban yang salah.
+---
+[icon=music]
+Karaoke keluarga di ruang tamu, atau nonton film bareng?
+Siapa yang paling susah lepas mic?
+---
+[end]
+Simpan dulu 🤍
+Kirim ke keluargamu, lihat siapa yang jawabannya beda sendiri.

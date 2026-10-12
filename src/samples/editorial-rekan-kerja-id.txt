@@ -1,0 +1,32 @@
+template: editorial/rose-dusk
+lang: id
+title: 6 pertanyaan buat rekan kerja
+caption: Udah setahun duduk sebelahan, tapi belum tahu dia pengen jadi apa waktu kecil? ☕ Coba tanya pas makan siang. #rekankerja #kantor #pertanyaan
+---
+[cover photo=1]
+Satu Meja Tiap Hari, | Tapi Udah Kenal Belum?
+6 pertanyaan buat rekan kerja yang klop sama kamu. Pas buat jam makan siang.
+---
+[icon=smile]
+Waktu kecil, kamu pengen kerja jadi apa?
+Kadang jawabannya nyambung banget sama sekarang.
+---
+[icon=coffee]
+Minuman andalanmu buat hari yang padat?
+Biar lain kali aku bisa beliin pas kamu lagi lembur.
+---
+[icon=star]
+Kerjaan apa di sini yang diam-diam paling kamu banggain?
+Yang mungkin nggak sempat dilihat orang lain.
+---
+[icon=lightbulb]
+Hal apa yang paling banyak kamu pelajari sejak kerja di sini?
+Soal kerjaan, soal orang, atau soal diri sendiri.
+---
+[icon=sun]
+Di luar jam kantor, kamu paling semangat ngapain?
+Hobi, proyek kecil, atau sekadar tidur siang.
+---
+[cta icon=chat]
+Gimana caranya aku bisa bantu kamu pas lagi kewalahan?
+Kerja bareng jadi lebih ringan kalau kita saling tahu.

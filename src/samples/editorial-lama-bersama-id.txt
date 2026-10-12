@@ -1,0 +1,32 @@
+template: editorial/midnight
+lang: id
+title: 6 pertanyaan buat yang udah lama bareng
+caption: Udah hafal pesanan kopinya, tapi mimpinya yang sekarang masih sama kayak dulu nggak? 🌙 Tanya malam ini. #pasangan #pertanyaanpasangan #deeptalk
+---
+[cover photo=1]
+Kapan Terakhir Kamu | Nanya Mimpinya?
+6 pertanyaan buat kalian yang udah lama bareng.
+---
+[icon=star]
+Hal apa tentang aku yang dulu bikin kamu tertarik, dan masih ada sampai sekarang?
+Kadang kita lupa bilang yang ini.
+---
+[icon=leaf]
+Menurutmu, bagian dirimu yang paling berubah sejak kita bareng?
+Dengerin versinya, bukan versimu.
+---
+[icon=lightbulb]
+Ada hobi atau minat baru yang belum sempat kamu ceritain ke aku?
+Yang kecil juga boleh.
+---
+[icon=map-pin]
+Tempat pertama kita yang pengen kamu datengin lagi?
+Kalau bisa, rencanain bulan ini.
+---
+[icon=moon]
+Kebiasaan kecil kita yang paling bikin kamu ngerasa di rumah?
+Biar kita jaga baik-baik.
+---
+[cta icon=heart]
+Mimpi apa yang pengen kamu kejar lima tahun ke depan, dan gimana aku bisa nemenin?
+Tanya pelan-pelan. Jawabannya bisa beda dari yang kamu kira.

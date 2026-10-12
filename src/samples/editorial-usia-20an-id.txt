@@ -1,0 +1,32 @@
+template: editorial/midnight
+lang: id
+title: 6 pertanyaan buat diri di usia 20an
+caption: Buat kamu yang lagi ngerasa semua orang udah lebih jauh 🌙 Jawab pelan-pelan, nggak harus malam ini. #refleksidiri #quarterlife #usia20an
+---
+[cover photo=1]
+Ngerasa Ketinggalan | Pas Scroll Story Teman?
+6 pertanyaan buat dirimu di usia 20an. Jawab pelan-pelan aja.
+---
+[icon=star]
+Hal apa yang bisa kamu lakuin sekarang, tapi lima tahun lalu belum?
+Sering kita lupa ngitung yang udah jauh dilewatin.
+---
+[icon=moon]
+Kekhawatiran apa yang paling sering mampir sebelum tidur?
+Ditulis aja dulu. Kadang jadi lebih kecil di kertas.
+---
+[icon=leaf]
+Kebiasaan kecil apa yang bikin harimu terasa lebih waras?
+Jalan sore, masak sendiri, atau matiin notifikasi.
+---
+[icon=chat]
+Kalau sahabatmu ngerasain hal yang sama, apa yang bakal kamu bilang ke dia?
+Coba bilang hal yang sama ke dirimu sendiri.
+---
+[icon=map-pin]
+Kamu pengen umur 30-mu diisi sama hal apa?
+Bukan target. Cukup gambaran yang bikin kamu senyum.
+---
+[cta icon=heart]
+Satu hal tentang dirimu yang pengen kamu jaga, apa pun yang berubah nanti?
+Simpan jawabannya. Buka lagi waktu lagi ragu.
