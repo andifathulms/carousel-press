@@ -21,7 +21,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 🌿 Ruang Rasa | `id` | Lines to send, conversation starters | `editorial/ruang-*` | one per pillar (see §1) |
 | 💻 Fathul Learn Coding | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
 | 📜 Catatan Kaki Sejarah | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
-| 🏟️ Whistle Notes | `id` | One sports rule per post | `dev/*` (clean sans) | `dev/paper-light` |
+| 🏟️ Whistle Notes | `id` | Sports rules as verdict quizzes | `sport/*` | `sport/papan` (football), `sport/lapangan` (indoor) |
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
 | ✏️ English Sehari | `id` (teaches English) | Words, irregular verbs, common mistakes | `lexicon/*` | `lexicon/notebook` |
 | 📖 Kamus Kecil | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
@@ -267,27 +267,42 @@ Tulis di komen, siapa tahu jadi postingan berikutnya.
 
 ## 4. 🏟️ Whistle Notes
 
-**Tagline:** *One rule. Explained properly.*
-A faceless Indonesian account that explains sports rules one piece at a time: the objective of a sport, one rule, one tricky case, or the incident that changed a rule.
+**Tagline:** *Kamu wasitnya.*
+A faceless Indonesian account that settles match arguments: one rule, shown on a drawn pitch or court, with the viewer making the call before the answer.
 It should feel like "oh, so THAT's why the referee did that", never like reading a rulebook.
+
+**Direction (owner, Oct 2026 review).** The old decks were lectures: 11–12 slides of paragraphs over stock photos, in the coding account's template. Now the account is a game: show the situation, ask for a verdict, reveal it on the next swipe. Rules about positions are drawn, not described.
 
 | | |
 |---|---|
-| Purpose | Make sports rules click |
+| Purpose | Let fans make the call, then show the rule |
 | Audience | Indonesian casual fans, new viewers of a sport, people who argue about referee calls |
-| Reader should think | "Saving this for the next match argument." |
-| Primary action | Save / share / comment ("do X next") |
+| Reader should think | "I got 2 out of 3. Sending this to the friend who was wrong." |
+| Primary action | Comment (a verdict or a score), then share / save |
 | Tone | Clear, confident, a little playful, never smug |
 | Voice | The friend who actually read the rulebook |
-| Slide types | `cover`, `card`, `quote` (rarely), `end` |
+| Slide types | `cover`, `card` (with `verdict=`), `diagram`, `end` |
 
-### Pillars
+### Sports and templates
 
-1. **One rule explained**: offside, handball, tennis scoring, badminton service, LBW, travelling, volleyball rotation…
-2. **How to play in 6 slides**: the objective and the 4–5 rules a new viewer needs (one sport per post, never "all the rules").
-3. **Tricky cases / myths**: "Is it offside if…?", common misconceptions, edge cases from the rulebook.
-4. **Why the rule exists**: the incident or problem that created or changed a rule (with dates and sources).
-5. **Pojok bulu tangkis**: a recurring series on badminton rules and scoring (Indonesia's favourite sport).
+| Sport | Template | Weight |
+|---|---|---|
+| Sepak bola, futsal | `sport/papan` | ~40% |
+| Bulu tangkis (Pojok Bulu Tangkis series) | `sport/lapangan` | ~25% (15-point countdown to 4 Jan 2027) |
+| Voli | `sport/lapangan` | ~15% |
+| Basket | `sport/lapangan` | ~10% |
+| MotoGP and others | `sport/papan` | ~10% (MotoGP: FIM Grand Prix regulations as the rulebook) |
+| Myth-vs-rule posts, any sport | `sport/kapur` | as a format |
+
+Cricket and tennis: no new decks for now (low Indonesian interest); the existing two stay as samples.
+
+### Formats
+
+1. **Kamu Wasitnya** (main format): cover + 3 × (situation, verdict) + optional bonus + end = 8–9 slides. The situation is a `[diagram]` when it's about positions, else a `[number=off]` card; its body ends with the question ("Sah atau offside? Jawab dulu, baru geser."). The verdict is `[verdict="SAH" tone=ok]` (or `warn` / `bad`), headline = the rule in one line, body = one or two sentences + the law number on its own line. Order: an easy one, a myth, a hard one.
+2. **Mitos vs Aturan** (`sport/kapur`): each card `[verdict="Mitos" tone=bad]`, headline = the myth in quotes, body starts "Aturannya:" with the key words in `*accent*`.
+3. **Habis Pertandingan**: one contested call from a real match within 24–48 hours: what happened (diagram), what the law says, the verdict. Real match, date and minute; describe the call, don't blame the referee; full sources in the pinned comment.
+4. **Pojok Bulu Tangkis #N**: numbered series, quiz format, scorelines in the headline (`Skor 15–14. | *Gimnya udah selesai?*`).
+5. **Satu Aturan, Satu Diagram**: explainer for rules too complex for a quiz (volleyball rotation): every slide about a position has a diagram; text ≤ 20 words.
 
 ### Accuracy rules (non-negotiable)
 
@@ -298,42 +313,55 @@ It should feel like "oh, so THAT's why the referee did that", never like reading
 
 ### Images
 
-Every slide has a photo (4–6 distinct photos per deck, each used on at most 2–3 slides): equipment, lines, nets, courts, or players who aren't the point of the photo (silhouettes, archive shots). Follow the image policy in Shared rules. No agency/league match photos, no club or league logos or kits, no brand logos as the subject. Pitch/court diagrams come later with the `figure` slide (see Open items).
+No photos by default: the drawn diagrams and the board colours are the look, and they need no licence. Diagram syntax is PRD §4.9 (fields: football, futsal, badminton, volleyball, basketball, tennis). If a cover photo really adds something (an archive shot for a history incident), it follows the image policy in Shared rules; never league/agency match photos, logos or kits.
 
 ### Writing rules
 
-- Language: Indonesian (`lang: id`), plain words, short sentences. Keep terms Indonesian fans actually use (`offside`, `handball`, `deuce`, `tie-break`, `reli`, `kok`, `fault`) and explain any term the first time (e.g. "lawan kedua terakhir").
+- Language: Indonesian (`lang: id`), plain words, short sentences. Keep terms fans actually use (`offside`, `handball`, `deuce`, `tie-break`, `reli`, `kok`, `fault`, `travelling`) and explain any term the first time.
 - Rule names follow common Indonesian usage: tendangan bebas (tidak) langsung, tendangan gawang, lemparan ke dalam, tendangan sudut, kartu merah; bulu tangkis: gim, servis, petak servis.
-- One idea per slide. Headline = the point; body ≤ 40 words (2–3 short sentences).
-- Use numbers and positions concretely ("both feet", "behind the service line"), not vague words.
-- Light humour is fine ("Simpan buat debat VAR berikutnya"). Don't mock players, referees or fans.
+- ≤ 20 words a slide (verdict body: ≤ 2 sentences + the law number). Headlines are drawn in capitals, so write them in sentence case with one `*accent*` phrase.
+- Use numbers and positions concretely ("1,15 meter", "posisi 6 lebih dekat ke net"), not vague words.
+- Light humour is fine ("Tag teman yang tadi teriak 'itu offside!'"). Don't mock players, referees or fans.
 
 ### Deck recipe
 
-- **Templates:** `dev/paper-light` (default: light, clean Inter, blue accent; reads like a rulebook), `dev/github-dark` for variety. No `code` slides.
-- **Length (owner, Oct 2026):** 8–14 slides. Explain the rule as completely as it needs in as few slides as possible: no padding and no off-topic slides just to reach 14. Merge beats that belong together; go up to 14 only when the rule really needs it.
-- **Cover:** `[cover photo=<id> kicker="SEPAK BOLA • PERATURAN 11"]` style kicker (SPORT • RULE in caps), headline as the question or "X, Dijelaskan dengan Benar" with a `|` break.
-- **Cards:** build up in order: objective → basic rule → the tricky part → exceptions → why it exists. Badge numbers on.
-- **End:** `[end photo=<id>]` with a save line + `Mau dibahas aturan apa lagi? Tulis di komen.`
-- **Caption:** one line + `Sumber: <rulebook, law number, edition>` (rulebook names stay in English) + 2–4 hashtags (`#sepakbola`, `#offside`, `#aturanbola`, `#bulutangkis`…).
+- **Template:** `sport/papan` for football, `sport/lapangan` for indoor sports, `sport/kapur` for myth posts.
+- **Length (owner, Oct 2026):** 6–10 slides.
+- **Cover:** `[cover kicker="SEPAK BOLA • LAW 11 • KAMU WASITNYA"]` (SPORT • LAW • FORMAT), headline = the counter-intuitive fact or the challenge, subtitle = how to play ("Tebak dulu, baru geser.").
+- **End:** `[end cta="Simpan buat debat VAR"]`, headline = the score ask ("Skor kamu *berapa dari 3?*"), body = "Komen angkanya." + a tag line.
+- **Caption:** the first line pushes the hook further; then `Sumber: <rulebook, law number, edition>` (rulebook names stay in English) + 2–4 hashtags. The full source list goes in a pinned comment.
+- **Posting:** match days for football and badminton; a punchy trending sound; reply to wrong verdicts with the law number, kindly.
 
 ```text
-template: dev/paper-light
+template: sport/papan
 lang: id
-title: offside dijelaskan
-caption: Aturan yang paling sering diperdebatkan. Sumber: IFAB Laws of the Game 2026/27, Law 11 #sepakbola #offside #aturanbola
+title: kamu wasitnya offside
+caption: Tiga situasi, satu bendera. Tebak dulu sebelum geser, terus komen skormu. Sumber: IFAB Laws of the Game 2026/27, Law 11 #sepakbola #offside
 ---
-[cover photo=sport-offside-line kicker="SEPAK BOLA • PERATURAN 11"]
-Offside, | Dijelaskan dengan Benar
-Berdiri di posisi offside saja belum tentu pelanggaran.
+[cover kicker="SEPAK BOLA • LAW 11 • KAMU WASITNYA"]
+3 situasi. | Kamu *wasitnya.*
+Tebak dulu, baru geser. Skor kamu berapa dari 3?
 ---
-[photo=sport-ball-kick]
-Posisi offside bukan pelanggaran
-Peraturannya jelas: berada di posisi offside bukan pelanggaran. Yang dihukum adalah ikut terlibat dalam permainan dari posisi itu.
+[diagram number=off]
+Sejajar bek kedua terakhir saat dioper.
+Sah atau offside? Jawab dulu, baru geser.
+```football
+line 30 garis offside
+gk 50,4
+def 34,30
+att 72,30
+att 40,62
+pass 40,62 -> 72,30
+```
 ---
-[end photo=sport-offside-line]
-Simpan buat debat VAR berikutnya.
-Mau dibahas aturan apa lagi? Tulis di komen.
+[verdict="Sah" tone=ok]
+Sejajar itu *onside.*
+Offside kalau lebih dekat ke garis gawang daripada bola dan lawan kedua terakhir.
+Law 11.1
+---
+[end cta="Simpan buat debat VAR"]
+Skor kamu *berapa dari 3?*
+Komen angkanya.
 ```
 
 (Short excerpt; the full deck is `src/samples/sports-offside-id.txt`.)
@@ -855,5 +883,5 @@ Tulis di komen.
 - **Ruang Rasa templates: shipped (Oct 2026).** Ruang Rasa moved off `rose-dusk`/`sage`/`midnight` to `editorial/ruang-*` (Fraunces + Instrument Sans). Still proposed, needs a PRD change: `kicker` on cards, a chat-bubble line, an options list with letter discs, a "kirim ke" tag.
 - **BPS Papua fix.** No BPS-based Peta Angka decks until the NusaStats ingest fix is merged (26 new-Papua kabupaten were missing from rankings). Dukcapil and DJPK packs are fine now.
 - **`chart` slide.** Add `[chart data=<pack-id> kind=bar top=N]` to Carousel Press: paste a `carousel-data/1` pack into a Data tab, rendered as a bar chart in template colours. Until then, rankings are one card per region.
-- **`figure` slide + `credit=`.** A slide that shows an image uncropped in a frame (maps, court/pitch diagrams, charts) without the dark photo overlay, plus a `credit="…"` line on photo slides. Needed by Catatan Kaki Sejarah, Whistle Notes and Peta Angka.
+- **`figure` slide + `credit=`.** A slide that shows an image uncropped in a frame (maps, charts) without the dark photo overlay, plus a `credit="…"` line on photo slides. Needed by Catatan Kaki Sejarah and Peta Angka. Courts and pitches are covered by `[diagram]` (shipped Oct 2026).
 - **`editorial/archive` variant.** Sepia paper, dark brown ink, serif, a small year/place label, so Catatan Kaki Sejarah stops borrowing `sage`.
