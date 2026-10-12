@@ -18,7 +18,12 @@ export function isArabicType(t: SlideType): t is ArabicType {
 export type Lang = 'id' | 'en';
 export const LANGS: readonly Lang[] = ['id', 'en'];
 
-export type FamilyId = 'editorial' | 'dev' | 'lexicon' | 'serene';
+export type FamilyId = 'editorial' | 'dev' | 'lexicon' | 'serene' | 'sport';
+
+/** Families built on the dev layout (one sans, no blobs, icons off by default). */
+export function isDevLike(f: FamilyId): boolean {
+  return f === 'dev' || f === 'sport';
+}
 
 export const TEMPLATE_IDS = [
   'editorial/rose-dusk',
@@ -32,6 +37,9 @@ export const TEMPLATE_IDS = [
   'dev/github-dark',
   'dev/terminal',
   'dev/paper-light',
+  'sport/papan',
+  'sport/lapangan',
+  'sport/kapur',
   'lexicon/kamus',
   'lexicon/notebook',
   'serene/fajr',
@@ -46,6 +54,7 @@ export function isTemplateId(v: string): v is TemplateId {
 
 export function familyOf(id: TemplateId): FamilyId {
   if (id.startsWith('dev/')) return 'dev';
+  if (id.startsWith('sport/')) return 'sport';
   if (id.startsWith('serene/')) return 'serene';
   return id.startsWith('lexicon/') ? 'lexicon' : 'editorial';
 }

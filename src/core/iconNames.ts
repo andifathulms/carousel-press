@@ -1,4 +1,4 @@
-import type { FamilyId, Slide } from './types';
+import { type FamilyId, type Slide, isDevLike } from './types';
 import { hash } from './hash';
 
 /** Editorial auto pool, in DESIGN §7 order. */
@@ -44,7 +44,7 @@ export function canonicalIcon(name: string): PoolIcon | null {
 }
 
 export function poolFor(family: FamilyId): readonly PoolIcon[] {
-  return family === 'dev' ? DEV_ICONS : EDITORIAL_ICONS;
+  return isDevLike(family) ? DEV_ICONS : EDITORIAL_ICONS;
 }
 
 /**

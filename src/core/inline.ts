@@ -124,3 +124,8 @@ export function richToPlain(rich: Rich): string {
 export function isEmptyRich(rich: Rich): boolean {
   return rich.every((p) => p.every((l) => l.every((r) => r.text.trim() === '')));
 }
+
+/** Capitals for display headlines (sport family). Inline code keeps its case. */
+export function upperRich(rich: Rich): Rich {
+  return rich.map((p) => p.map((l) => l.map((r) => (r.style === 'code' ? r : { ...r, text: r.text.toUpperCase() }))));
+}

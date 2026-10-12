@@ -12,6 +12,7 @@ import { drawDev } from './dev/draw';
 import { LEXICON_VARIANTS } from './lexicon/variants';
 import { drawLexicon } from './lexicon/draw';
 import { SERENE_VARIANTS } from './serene/variants';
+import { SPORT_VARIANTS } from './sport/variants';
 import { layoutSerene } from './serene/layout';
 import { drawSerene } from './serene/draw';
 
@@ -27,9 +28,11 @@ export const FAMILIES: Record<FamilyId, FamilyLayout> = {
   // Normal slides use the editorial layout with lexicon tokens and fonts.
   lexicon: { layout: (input) => layoutEditorial(input), draw: drawLexicon },
   serene: { layout: layoutSerene, draw: drawSerene },
+  // Sport reuses the dev layout: display face + capitals for headlines, no terminal path.
+  sport: { layout: layoutDev, draw: drawDev },
 };
 
-export const VARIANTS: readonly Variant[] = [...EDITORIAL_VARIANTS, ...DEV_VARIANTS, ...LEXICON_VARIANTS, ...SERENE_VARIANTS];
+export const VARIANTS: readonly Variant[] = [...EDITORIAL_VARIANTS, ...DEV_VARIANTS, ...LEXICON_VARIANTS, ...SERENE_VARIANTS, ...SPORT_VARIANTS];
 
 const BY_ID = new Map<string, Variant>(VARIANTS.map((v) => [v.id, v]));
 

@@ -12,6 +12,7 @@ const GROUPS: { label: string; family: Variant['family'] }[] = [
   { label: 'Dev', family: 'dev' },
   { label: 'Lexicon', family: 'lexicon' },
   { label: 'Serene', family: 'serene' },
+  { label: 'Sport', family: 'sport' },
 ];
 
 /** Dropdown grouped by family; each option shows 4 swatches + the variant name. */

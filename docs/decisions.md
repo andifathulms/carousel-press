@@ -118,3 +118,9 @@ Before `carousel-core` is extracted, the parser snapshots become the contract (d
 - All Ruang Rasa sample decks were rewritten into the new formats (channels.md §1), plus a new `editorial-artinya-sayang-id`. `editorial-couples-id` is unchanged: it's PRD §8.1 verbatim and pinned by the golden parser snapshot.
 - Pertanyaan Malam decks are 3 slides; `parser.test.ts` allows that for decks whose cover kicker starts with `PERTANYAAN MALAM`. The answer slide in `editorial-refleksi-diri-id` is a draft for the owner to replace with their own.
 - A/B cards put a non-breaking space after `*A.*` / `*B.*` (wrap only splits on ASCII spaces), so a letter never ends a line.
+
+## Whistle Notes rework (Oct 2026)
+
+- New `sport` family (`sport/papan`, `sport/lapangan`, `sport/kapur`) on the dev layout: display face in the `serif` slot, capitals (`headlineUpper`), a larger headline scale (`SPORT_TYPE`), no terminal path in the header. `isDevLike()` covers the places that treated `dev` specially (icons off, footer style).
+- New runtime deps `@fontsource/barlow` and `@fontsource/barlow-condensed` (latin): broadcast-style condensed capitals for headlines.
+- `Variant.semantic` (ok/warn/bad) for verdict stamps and diagram marks; contrast.test.ts checks them at 3:1 on every surface.

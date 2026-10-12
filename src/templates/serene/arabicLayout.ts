@@ -1,7 +1,7 @@
 // ayah / hadith slides in any family (SPEC-ayah §2–3). Pure given a measurer. Arabic is never clipped or split inside a word.
 import { ayahMark, pipeLines } from '../../core/ayah';
 import { t } from '../../core/strings';
-import type { Rich, Warning } from '../../core/types';
+import { type Rich, type Warning, isDevLike } from '../../core/types';
 import { withAlpha } from '../../core/color';
 import { type TextMeasurer, legibleMin } from '../../layout/measure';
 import { type Box, CONTENT_W, ROWS, SAFE } from '../../render/safezone';
@@ -251,7 +251,7 @@ export function layoutArabicSlide(input: LayoutInput): SlideLayout {
   shiftEls(b.els, top);
 
   const header = layoutHeader(input, c.sans, c.mono, boxes);
-  const footer = layoutFooter(input, c.sans, c.mono, boxes, v.family !== 'dev');
+  const footer = layoutFooter(input, c.sans, c.mono, boxes, !isDevLike(v.family));
   boxes.push(...lexBoxes(b.els));
   return {
     slide, deck, variant: v, surface, surfaceName: name, onPhoto,

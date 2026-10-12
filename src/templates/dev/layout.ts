@@ -1,4 +1,4 @@
-import { isEmptyRich } from '../../core/inline';
+import { isEmptyRich, upperRich } from '../../core/inline';
 import { type Warning, isArabicType, isLexType } from '../../core/types';
 import { layoutLexSlide } from '../lexicon/lexDispatch';
 import { layoutArabicSlide } from '../serene/arabicLayout';
@@ -24,6 +24,14 @@ export const TYPE = {
   note: { weight: 400, max: 32, min: 30, step: 2, lh: 1.45, maxLines: 3 },
   quote: { weight: 600, max: 68, min: 48, step: 4, lh: 1.2, maxLines: 7, widowFix: true },
   endHeadline: { weight: 800, max: 108, min: 76, step: 4, lh: 1.06, maxLines: 4, widowFix: true },
+} satisfies Record<string, Spec>;
+
+/** Sport headlines: Barlow Condensed capitals are ~25% narrower, so they run larger (DESIGN §6.6). */
+export const SPORT_TYPE = {
+  coverHeadline: { ...TYPE.coverHeadline, max: 136, min: 92 },
+  cardHeadline: { ...TYPE.cardHeadline, max: 104, min: 72, lh: 1.02, maxLines: 6 },
+  codeHeadline: { ...TYPE.codeHeadline, max: 88, min: 64, lh: 1.02 },
+  endHeadline: { ...TYPE.endHeadline, max: 128, min: 88, lh: 1.0 },
 } satisfies Record<string, Spec>;
 
 export const FIXED = {
@@ -62,9 +70,12 @@ export function layoutDev(input: LayoutInput): SlideLayout {
   const { surface, name, onPhoto } = resolveSurface(v, slide, input.hasPhoto, warnings);
 
   const hw = v.headlineWeight;
+  // Sport: headlines in the display face (fonts.serif slot), body stays in the sans.
+  const display = v.family === 'sport' ? v.fonts.serif ?? sans : sans;
   const spec = (s: Spec, headline = false): TextSpec => {
     const weight = headline && hw ? hw : s.weight;
-    return { ...s, min: legibleMin(s.min, sans), weight, family: sans, mono: { family: mono, weight: weight >= 600 ? 600 : 400 } };
+    const family = headline ? display : sans;
+    return { ...s, min: legibleMin(s.min, family), weight, family, mono: { family: mono, weight: weight >= 600 ? 600 : 400 } };
   };
   const items: StackItem[] = [];
   const push = (it: StackItem): void => {
@@ -84,7 +95,9 @@ export function layoutDev(input: LayoutInput): SlideLayout {
     const w = m.width(label, { family: mono, weight: n.weight, size: n.size }) + n.bar.gap + n.bar.w;
     push({ kind: 'number', h: n.h, w, gap, label });
   };
-  const prefixed = (rich: typeof slide.headline): typeof slide.headline => withPrefix(rich, v.headlinePrefix);
+  const T = v.family === 'sport' ? { ...TYPE, ...SPORT_TYPE } : TYPE;
+  const prefixed = (rich: typeof slide.headline): typeof slide.headline =>
+    withPrefix(v.headlineUpper ? upperRich(rich) : rich, v.headlinePrefix);
   let top: number = STACK.cardTop;
 
   switch (slide.type) {
@@ -97,13 +110,13 @@ export function layoutDev(input: LayoutInput): SlideLayout {
           k.tracking * Math.max(0, Array.from(label).length - 1) + k.padX * 2;
         push({ kind: 'kicker', h: k.size + k.padY * 2, w: Math.min(w, CONTENT_W), gap: 0, label });
       }
-      push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(TYPE.coverHeadline, true), gap: STACK.gap, tone: 'ink' });
+      push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(T.coverHeadline, true), gap: STACK.gap, tone: 'ink' });
       if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'subtitle', rich: slide.body, spec: spec(TYPE.coverSubtitle), gap: STACK.gap, tone: 'muted' });
       break;
     }
     case 'card': {
       numberItem(0);
-      push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(TYPE.cardHeadline, true), gap: STACK.gap, tone: 'ink' });
+      push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(T.cardHeadline, true), gap: STACK.gap, tone: 'ink' });
       if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.gap, tone: 'body' });
       pushIcon();
       pushCta(CHROME.cta.gapBefore);
@@ -111,7 +124,7 @@ export function layoutDev(input: LayoutInput): SlideLayout {
     }
     case 'code': {
       numberItem(0);
-      push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(TYPE.codeHeadline, true), gap: STACK.codeNumberGap, tone: 'ink' });
+      push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(T.codeHeadline, true), gap: STACK.codeNumberGap, tone: 'ink' });
       if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.codeBodyGap, tone: 'muted' });
       if (slide.code) {
         const c = FIXED.code;
@@ -141,7 +154,7 @@ export function layoutDev(input: LayoutInput): SlideLayout {
     }
     case 'end': {
       top = STACK.endTop;
-      push({ kind: 'text', role: 'headline', rich: slide.headline, spec: spec(TYPE.endHeadline, true), gap: 0, tone: 'ink' });
+      push({ kind: 'text', role: 'headline', rich: v.headlineUpper ? upperRich(slide.headline) : slide.headline, spec: spec(T.endHeadline, true), gap: 0, tone: 'ink' });
       if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.gap, tone: 'muted' });
       pushIcon();
       pushCta(STACK.endCtaGap);

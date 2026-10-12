@@ -30,6 +30,13 @@ import '@fontsource/fraunces/latin-700.css';
 import '@fontsource/instrument-sans/latin-400.css';
 import '@fontsource/instrument-sans/latin-500.css';
 import '@fontsource/instrument-sans/latin-600.css';
+// Sport family (Whistle Notes): Barlow body, Barlow Condensed headlines.
+import '@fontsource/barlow/latin-400.css';
+import '@fontsource/barlow/latin-500.css';
+import '@fontsource/barlow/latin-600.css';
+import '@fontsource/barlow/latin-700.css';
+import '@fontsource/barlow-condensed/latin-700.css';
+import '@fontsource/barlow-condensed/latin-800.css';
 // Arabic faces (SPEC-ayah §2): Amiri Quran for ayat, Amiri for hadith. Arabic subset only.
 import '@fontsource/amiri-quran/arabic-400.css';
 import '@fontsource/amiri/arabic-400.css';
@@ -58,7 +65,11 @@ export function facesFor(v: Variant): Face[] {
       if (!faces.some((f) => f.family === family && f.weight === weight)) faces.push({ family, weight });
     }
   };
-  if (v.family !== 'dev') {
+  if (v.family === 'sport') {
+    add(v.fonts.serif, [700, v.headlineWeight ?? 800]);
+    add(v.fonts.sans, [400, 500, 600, 700]);
+    add(v.fonts.mono, [400, 500, 600, 700]);
+  } else if (v.family !== 'dev') {
     add(v.fonts.serif, [500, 600, 700]);
     add(v.fonts.sans, [400, 500, 600]);
     add(v.fonts.mono, [400, 500, 600]);

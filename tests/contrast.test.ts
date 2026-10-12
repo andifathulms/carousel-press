@@ -31,6 +31,8 @@ describe('contrast (DESIGN §4.4)', () => {
         need('body/blob', contrast(s.body, s.blob), 4.5);
         need('badgeInk/badgeBg', contrast(s.badgeInk, s.badgeBg), 3);
         need('muted/bg', contrast(s.muted, s.bg), 3);
+        // Verdict stamps and diagram marks are large and bold: 3:1 like badges.
+        if (v.semantic) for (const [k, c] of Object.entries(v.semantic)) need(`semantic.${k}/bg`, contrast(c, s.bg), 3);
         expect(fails).toEqual([]);
       });
     }

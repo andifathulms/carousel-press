@@ -79,6 +79,10 @@ export interface Variant {
   /** Headline weight override (dev/terminal; editorial/ruang-* softens serif 700 headlines) and an accent prefix on cover/card headlines. */
   headlineWeight?: number;
   headlinePrefix?: string;
+  /** Sport: headlines (cover, card, end) are drawn in capitals. */
+  headlineUpper?: boolean;
+  /** Verdict and diagram colours (ok / warn / bad). Families without them derive from the surface. */
+  semantic?: { ok: string; warn: string; bad: string };
   /** Lexicon family only; other families derive these (templates/lexicon/tokens.ts). */
   lex?: LexTokens;
 }
