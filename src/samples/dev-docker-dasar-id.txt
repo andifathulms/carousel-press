@@ -1,0 +1,63 @@
+template: dev/terminal
+lang: id
+title: docker dasar
+caption: Container dihapus, file di dalamnya ikut hilang. Kecuali kamu pakai volume. #docker #devops #belajarcoding
+---
+[cover kicker="DOCKER • DASAR"]
+Container Dihapus, | File di Dalamnya Ikut Hilang
+Makanya ada volume. Image, container, volume, dan perintah Docker yang beneran kepakai.
+---
+[icon=folder]
+Image: cetakannya
+Paket berisi aplikasi dan semua yang dibutuhkan untuk jalan. Image bersifat read-only, tidak berubah saat dipakai.
+---
+[icon=cpu]
+Container: image yang sedang jalan
+Satu image bisa jadi banyak container. Perubahan di dalam container hilang saat container-nya dihapus.
+---
+[code]
+Volume: data yang awet
+Disimpan di luar container. Container dihapus, isi volume tetap ada.
+```bash
+docker volume create data
+docker run -v data:/app/data myapp
+```
+---
+[code]
+Dockerfile: resep image
+Salin package.json dulu, biar hasil `npm ci` bisa dipakai ulang dari cache.
+```dockerfile
+FROM node:22-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+CMD ["node", "server.js"]
+```
+---
+[code]
+Build lalu jalankan
+`-t` memberi nama image, `-p` menghubungkan port laptop ke port container.
+```bash
+docker build -t myapp .
+docker run -d --name web \
+  -p 3000:3000 myapp
+```
+Buka localhost:3000.
+---
+[code]
+Perintah harian
+Lihat container, ikuti log, hentikan, lalu hapus.
+```bash
+docker ps
+docker logs -f web
+docker stop web
+docker rm web
+```
+`docker rm` tidak menghapus image dan named volume.
+---
+[end]
+Simpan dulu ⭐
+Nanti pas pertama kali pakai Docker, buka lagi.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

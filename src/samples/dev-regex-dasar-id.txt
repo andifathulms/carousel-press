@@ -1,0 +1,71 @@
+template: dev/terminal
+lang: id
+title: 6 pola regex dasar
+caption: Satu baris regex bisa cek format nomor HP 08xx, +62, atau 62. Tesnya ada di slide terakhir. #regex #javascript #belajarcoding
+---
+[cover kicker="REGEX • CHEAT SHEET"]
+Cek Format Nomor HP | Cukup Satu Regex
+6 pola regex dasar yang beneran kepakai, lengkap dengan contoh tesnya.
+---
+[code]
+`\d`: satu angka
+Sama dengan 0 sampai 9. Tambah `+` untuk satu angka atau lebih.
+```js
+/\d+/.test("kamar 12"); // true
+"a1b22".match(/\d+/g);
+// ["1", "22"]
+```
+---
+[code]
+`\w`: huruf, angka, underscore
+Spasi, strip, dan huruf beraksen tidak termasuk.
+```js
+/^\w+$/.test("user_01"); // true
+/^\w+$/.test("user-01"); // false
+```
+---
+[code]
+`^` dan `$`: awal dan akhir
+Tanpa keduanya, regex cocok di bagian mana pun dari teks.
+```js
+/\d{4}/.test("ab12345");   // true
+/^\d{4}$/.test("ab12345"); // false
+/^\d{4}$/.test("2026");    // true
+```
+---
+[code]
+Quantifier: berapa kali?
+`+` satu atau lebih, `?` boleh ada boleh tidak, `{2,3}` dua sampai tiga kali.
+```js
+/^ha+$/.test("haaa");      // true
+/^colou?r$/.test("color"); // true
+/^\d{2,3}$/.test("1234");  // false
+```
+---
+[code]
+Group `( )`: ambil bagiannya
+Hasil tiap kurung bisa diambil dari array hasil match.
+```js
+const m = "2026-10-12".match(
+  /(\d{4})-(\d{2})-(\d{2})/
+);
+m[1]; // "2026"
+m[2]; // "10"
+```
+---
+[code]
+Contoh nyata: nomor HP
+Diawali 0, 62, atau +62, lalu 8 dan 8 sampai 11 angka.
+```js
+const hp = /^(\+62|62|0)8\d{8,11}$/;
+hp.test("081234567890");   // true
+hp.test("+6281234567890"); // true
+hp.test("0812-3456");      // false
+```
+Cuma cek format. Hapus spasi dan strip dulu sebelum dites.
+---
+[end]
+Simpan dulu ⭐
+Nanti pas validasi form, contek dari sini.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

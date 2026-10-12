@@ -1,0 +1,56 @@
+template: dev/github-dark
+lang: id
+title: localstorage vs cookie
+caption: Script jahat yang lolos lewat XSS bisa baca isi localStorage, termasuk token login. #webdev #javascript #belajarcoding
+---
+[cover kicker="BROWSER • STORAGE"]
+Token Login di `localStorage`? | Script di Halamanmu Bisa Baca
+Beda localStorage, sessionStorage, dan cookie, plus tempat yang lebih aman buat sesi login.
+---
+[code]
+`localStorage`: tetap ada
+Browser ditutup pun datanya masih ada. Hilang kalau dihapus lewat kode atau data situs dibersihkan.
+```js
+localStorage.setItem("theme", "dark");
+localStorage.getItem("theme");
+// "dark"
+```
+---
+[code]
+`sessionStorage`: per tab
+Tahan reload, tapi tiap tab punya isinya sendiri. Tab ditutup, datanya hilang.
+```js
+sessionStorage.setItem("step", "2");
+sessionStorage.getItem("step");
+// "2"
+```
+---
+Cookie: ikut terkirim ke server
+Browser otomatis menempelkan cookie di request ke domain-nya. Masa berlakunya diatur lewat `Expires` atau `Max-Age`.
+---
+Ukurannya beda jauh
+localStorage dan sessionStorage: sekitar 5 MB per origin, tergantung browser. Cookie: sekitar 4 KB per cookie. Jangan simpan data besar di cookie.
+---
+Semuanya bisa dibaca JavaScript
+Kalau ada script jahat masuk lewat XSS, isi localStorage bisa dicuri. Cookie biasa juga bisa dibaca lewat `document.cookie`.
+---
+[code]
+Sesi login: cookie `HttpOnly`
+Cookie HttpOnly tidak bisa dibaca JavaScript, jadi lebih susah dicuri lewat XSS. Dipasang dari server.
+```js
+res.cookie("sid", sessionId, {
+  httpOnly: true,
+  secure: true,
+  sameSite: "lax",
+});
+```
+Contoh di Express.
+---
+Jadi, pakai yang mana?
+Tema dan bahasa: localStorage. Isian form sementara: sessionStorage. Sesi login: cookie HttpOnly dari server.
+---
+[end]
+Simpan dulu ⭐
+Nanti pas bingung nyimpen token, balik ke sini.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
