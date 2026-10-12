@@ -82,6 +82,7 @@ import edUsia20an from './editorial-usia-20an-id.txt?raw';
 import edKakekNenek from './editorial-kakek-nenek-id.txt?raw';
 import edLamaBersama from './editorial-lama-bersama-id.txt?raw';
 import edPilihSatuKeluarga from './editorial-pilih-satu-keluarga-id.txt?raw';
+import edArtinyaSayang from './editorial-artinya-sayang-id.txt?raw';
 import filsafatEpikuros from './filsafat-epikuros-keinginan-id.txt?raw';
 import filsafatWuWei from './filsafat-wu-wei-id.txt?raw';
 import filsafatJujur from './filsafat-jujur-atau-baik-id.txt?raw';
@@ -125,20 +126,20 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-git-id', name: '7 perintah git (dev, id)', category: 'dev', text: git },
   { id: 'editorial-places-en', name: 'Quiet places at dusk (editorial, en)', category: 'travel', text: places },
   // Owner decks: couples questions
-  { id: 'editorial-masa-kecil-id', name: '5 pertanyaan masa kecil (editorial, id)', category: 'relationships', text: masaKecil },
-  { id: 'editorial-ldr-id', name: '5 pertanyaan buat yang LDR (editorial, id)', category: 'relationships', text: ldr },
-  { id: 'editorial-sebelum-menikah-id', name: '5 pertanyaan sebelum melangkah (editorial, id)', category: 'relationships', text: sebelumMenikah },
+  { id: 'editorial-masa-kecil-id', name: 'Ruang Rasa · kenalan lagi: masa kecil (kunyit)', category: 'relationships', text: masaKecil },
+  { id: 'editorial-ldr-id', name: 'Ruang Rasa · kalimat buat yang LDR (bata)', category: 'relationships', text: ldr },
+  { id: 'editorial-sebelum-menikah-id', name: 'Ruang Rasa · habis marahan, kamu yang mana? (bata)', category: 'relationships', text: sebelumMenikah },
   // Owner decks: Ruang Rasa (friendship, family, self-reflection, interactive, money talk)
-  { id: 'editorial-sahabat-id', name: '5 pertanyaan buat sahabat (editorial, id)', category: 'relationships', text: sahabat },
-  { id: 'editorial-orang-tua-id', name: '5 pertanyaan buat orang tua (editorial, id)', category: 'relationships', text: orangTua },
-  { id: 'editorial-refleksi-diri-id', name: '5 pertanyaan buat diri sendiri (editorial, id)', category: 'relationships', text: refleksiDiri },
-  { id: 'editorial-pilih-satu-id', name: 'Pilih satu: versi pacaran (editorial, id)', category: 'relationships', text: pilihSatu },
-  { id: 'editorial-soal-uang-id', name: '5 obrolan soal uang (editorial, id)', category: 'relationships', text: soalUang },
-  { id: 'editorial-saudara-id', name: '5 pertanyaan buat saudara kandung (editorial, id)', category: 'relationships', text: saudara },
-  { id: 'editorial-teman-lama-id', name: '5 pertanyaan buat teman lama (editorial, id)', category: 'relationships', text: temanLama },
-  { id: 'editorial-akhir-tahun-id', name: '5 pertanyaan sebelum tahun berganti (editorial, id)', category: 'relationships', text: akhirTahun },
-  { id: 'editorial-pilih-satu-sahabat-id', name: 'Pilih satu: versi sahabat (editorial, id)', category: 'relationships', text: pilihSatuSahabat },
-  { id: 'editorial-mimpi-bareng-id', name: '5 pertanyaan tentang mimpi kalian (editorial, id)', category: 'relationships', text: mimpiBareng },
+  { id: 'editorial-sahabat-id', name: 'Ruang Rasa · kalimat buat sahabat (kunyit)', category: 'relationships', text: sahabat },
+  { id: 'editorial-orang-tua-id', name: 'Ruang Rasa · artinya kalimat orang rumah (daun)', category: 'relationships', text: orangTua },
+  { id: 'editorial-refleksi-diri-id', name: 'Ruang Rasa · Pertanyaan Malam #1 (malam)', category: 'relationships', text: refleksiDiri },
+  { id: 'editorial-pilih-satu-id', name: 'Ruang Rasa · pilih satu: versi pacaran (bata)', category: 'relationships', text: pilihSatu },
+  { id: 'editorial-soal-uang-id', name: 'Ruang Rasa · gajian, kamu yang mana? (bata)', category: 'relationships', text: soalUang },
+  { id: 'editorial-saudara-id', name: 'Ruang Rasa · kalimat buat kakak atau adik (daun)', category: 'relationships', text: saudara },
+  { id: 'editorial-teman-lama-id', name: 'Ruang Rasa · pembuka obrolan teman lama (kunyit)', category: 'relationships', text: temanLama },
+  { id: 'editorial-akhir-tahun-id', name: 'Ruang Rasa · sebelum tahun berganti (malam)', category: 'relationships', text: akhirTahun },
+  { id: 'editorial-pilih-satu-sahabat-id', name: 'Ruang Rasa · pilih satu: versi sahabat (kunyit)', category: 'relationships', text: pilihSatuSahabat },
+  { id: 'editorial-mimpi-bareng-id', name: 'Ruang Rasa · hari Minggu lima tahun lagi (bata)', category: 'relationships', text: mimpiBareng },
   // Owner decks: dev cheat sheets (end slide carries the portfolio line)
   { id: 'dev-linux-id', name: '7 perintah Linux (dev, id)', category: 'dev', text: linux },
   { id: 'dev-sql-id', name: '6 query SQL (dev, id)', category: 'dev', text: sql },
@@ -225,9 +226,10 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-regex-dasar-id', name: 'Regex dasar (dev, id)', category: 'dev', text: devRegex },
   { id: 'dev-docker-dasar-id', name: 'Docker dasar (dev, id)', category: 'dev', text: devDocker },
   { id: 'dev-debounce-throttle-id', name: 'Debounce vs throttle (dev, id)', category: 'dev', text: devDebounce },
-  { id: 'editorial-rekan-kerja-id', name: 'Pertanyaan buat rekan kerja (editorial, id)', category: 'relationships', text: edRekanKerja },
-  { id: 'editorial-usia-20an-id', name: 'Pertanyaan di usia 20-an (editorial, id)', category: 'relationships', text: edUsia20an },
-  { id: 'editorial-kakek-nenek-id', name: 'Pertanyaan buat kakek nenek (editorial, id)', category: 'relationships', text: edKakekNenek },
-  { id: 'editorial-lama-bersama-id', name: 'Pertanyaan buat yang lama bersama (editorial, id)', category: 'relationships', text: edLamaBersama },
-  { id: 'editorial-pilih-satu-keluarga-id', name: 'Pilih satu versi keluarga (editorial, id)', category: 'relationships', text: edPilihSatuKeluarga },
+  { id: 'editorial-rekan-kerja-id', name: 'Ruang Rasa · kalimat buat rekan kerja (kunyit)', category: 'relationships', text: edRekanKerja },
+  { id: 'editorial-usia-20an-id', name: 'Ruang Rasa · hal kecil umur 20an (malam)', category: 'relationships', text: edUsia20an },
+  { id: 'editorial-kakek-nenek-id', name: 'Ruang Rasa · pertanyaan buat kakek nenek (daun)', category: 'relationships', text: edKakekNenek },
+  { id: 'editorial-lama-bersama-id', name: 'Ruang Rasa · kalimat buat yang udah lama bareng (bata)', category: 'relationships', text: edLamaBersama },
+  { id: 'editorial-pilih-satu-keluarga-id', name: 'Ruang Rasa · pilih satu: versi keluarga (daun)', category: 'relationships', text: edPilihSatuKeluarga },
+  { id: 'editorial-artinya-sayang-id', name: 'Ruang Rasa · artinya kalimat sayang (bata)', category: 'relationships', text: edArtinyaSayang },
 ];

@@ -1,28 +1,32 @@
-template: editorial/rose-dusk
+template: editorial/ruang-kunyit
 lang: id
-title: 5 pertanyaan buat teman lama
-caption: Kirim ini sebagai pembuka, biar nggak cuma "apa kabar" terus hilang lagi 🤍 #sahabat #temanlama #deeptalk
+title: pembuka obrolan buat teman lama
+caption: Yang paling susah itu chat pertama setelah lama nggak ngobrol. Ini 5 kalimat pembuka, tinggal kirim 🤍 Kamu kepikiran siapa? #temanlama #sahabat #deeptalk
 ---
-[cover photo=1]
-Chat Terakhir Kalian | Udah Berapa Lama?
-5 pertanyaan buat teman lama. Mulai dari "apa kabar" yang beneran.
+[cover kicker="RUANG RASA · TEMAN LAMA"]
+Kita nggak pernah berantem. | Cuma *pelan-pelan* jarang chat.
+5 kalimat pembuka, biar nggak berhenti di "apa kabar".
 ---
-[icon=chat]
-Apa yang paling berubah dari hidupmu sejak terakhir kita ngobrol?
-Ceritain versi panjangnya.
+[number=off icon=none]
+Tadi aku lewat tempat kita dulu, *langsung keinget kamu.*
+Ganti tempatnya. Kirim apa adanya, nggak usah dirapihin.
 ---
-[icon=smile]
-Momen kita yang paling sering kamu ingat?
-Yang konyol juga dihitung.
+[number=off icon=none]
+Lagu apa yang lagi kamu puter terus? *Aku butuh rekomendasi.*
+Mulai dari yang ringan. Yang berat nanti nyusul sendiri.
 ---
-[icon=coffee]
-Hal baru apa yang lagi kamu suka akhir-akhir ini?
-Lagu, tempat, hobi, apa aja.
+[number=off icon=none]
+Aku masih suka *ketawa sendiri* kalau inget waktu kita ____.
+Isi titiknya. Kenangan bareng bikin dia nggak perlu mikir mau bales apa.
 ---
-[icon=mountain]
-Hal berat apa yang udah berhasil kamu lewatin?
-Kalau mau cerita, aku dengerin.
+[number=off icon=none]
+Hidupmu sekarang lagi sibuk apa? *Ceritain versi panjangnya,* aku ada waktu.
+"Aku ada waktu" itu bagian terpentingnya.
 ---
-[cta icon=star]
-Kapan kita ketemu lagi?
-Tentuin tanggalnya sekarang, biar nggak cuma wacana.
+[number=off icon=none]
+Bulan ini kamu kosong kapan? *Aku traktir kopi.*
+Kasih tanggal. "Kapan-kapan" itu nggak pernah datang.
+---
+[end cta="Kirim ke dia"]
+Kamu kepikiran *siapa* dari tadi?
+Tag dia di komentar. Nggak usah nulis apa-apa.

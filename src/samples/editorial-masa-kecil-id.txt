@@ -1,28 +1,32 @@
-template: editorial/sage
+template: editorial/ruang-kunyit
 lang: id
-title: 5 pertanyaan masa kecil
-caption: Kalian mungkin udah kenal lama, tapi belum pernah ketemu versi kecilnya 🌿 #pertanyaanpasangan #deeptalk
+title: pertanyaan masa kecil
+caption: Kalian mungkin udah kenal lama, tapi belum pernah ketemu versi kecilnya. Tanya pas lagi santai ✨ Kamu dulu pengen jadi apa? #deeptalk #sahabat #masakecil
 ---
-[cover]
-Kamu Udah Kenal | Dia Waktu Umur 10?
-5 pertanyaan masa kecil yang jarang ditanyain.
+[cover kicker="RUANG RASA · KENALAN LAGI"]
+Kamu udah kenal dia, *tapi waktu umur 10 dia kayak gimana?*
+5 pertanyaan masa kecil. Jawab gantian, kamu juga ikut jawab.
 ---
-[icon=book]
-Dulu waktu kecil, kamu pengen jadi apa?
-Terus kenapa akhirnya berubah, atau malah nggak berubah sama sekali?
+[number=off icon=none]
+Dulu pengen jadi apa? *Kenapa berubah?*
+Atau malah nggak berubah sama sekali.
 ---
-[icon=home]
-Kebiasaan di rumahmu dulu yang masih kamu bawa sampai sekarang?
-Yang kecil juga boleh. Cara sarapan, cara beres-beres, cara pamitan.
+[number=off icon=none]
+Jajanan SD apa yang *masih kamu cari* sampai sekarang?
+Kalau ketemu penjualnya, beliin satu buat dia.
 ---
-[icon=music]
-Lagu apa yang langsung bikin kamu inget masa kecil?
-Putar bareng, terus ceritain kenangan di baliknya.
+[number=off icon=none]
+Kebiasaan di rumahmu dulu yang *masih kebawa* sampai sekarang?
+Cara sarapan, cara beres-beres, cara pamitan.
 ---
-[icon=umbrella]
-Siapa yang paling bikin kamu merasa aman waktu kecil?
+[number=off icon=none]
+Siapa yang paling bikin kamu *merasa aman* waktu kecil?
 Kadang jawabannya bukan orang yang kita kira.
 ---
-[cta icon=star]
-Kalau bisa ngomong ke dirimu yang umur 10 tahun, mau bilang apa?
-Jawab gantian. Dengerin sampai selesai, jangan dipotong.
+[number=off icon=none]
+Kalau bisa ngomong ke dirimu yang umur 10, *mau bilang apa?*
+Dengerin sampai selesai, jangan dipotong.
+---
+[end cta="Kirim ke dia"]
+Kamu dulu *pengen jadi apa?*
+Jawab di komentar. Satu kata aja.

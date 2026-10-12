@@ -1,28 +1,27 @@
-template: editorial/sage
+template: editorial/ruang-daun
 lang: id
-title: 5 pertanyaan buat orang tua
-caption: Mereka juga pernah seumuran kamu, dengan mimpi yang mungkin belum pernah kamu dengar. Ceritanya sering nggak terduga 🌿 #keluarga #orangtua #deeptalk
+title: artinya kalimat orang rumah
+caption: Orang rumah mungkin jarang bilang "sayang", tapi bilang ini hampir tiap hari 🌿 Nomor berapa yang paling sering kamu dengar? #keluarga #orangtua #rumah
 ---
-[cover photo=1]
-Waktu Seumuranmu, | Orang Tuamu Lagi Ngejar Apa?
-5 pertanyaan yang jarang kita tanyain ke mereka.
+[cover kicker="RUANG RASA · RUMAH"]
+Orang rumah jarang bilang "sayang". *Tapi pasti pernah bilang ini.*
+5 kalimat yang artinya lebih panjang dari kedengarannya.
 ---
-[icon=book]
-Waktu seumuranku, Ayah atau Ibu lagi sibuk ngejar apa?
-Mimpinya, kerjaannya, atau cintanya.
+[number=off icon=none]
+"Udah makan belum?" | *Artinya: aku kepikiran kamu dari tadi.*
 ---
-[icon=home]
-Gimana rasanya pertama kali jadi orang tua?
-Yang takut, yang bingung, yang bahagia.
+[number=off icon=none]
+"Kabarin kalau udah sampai." | *Artinya: nggak bakal tidur sebelum ada kabar.*
 ---
-[icon=music]
-Lagu apa yang paling kalian dengerin waktu muda?
-Putar bareng. Biasanya ceritanya ikut keluar.
+[number=off icon=none]
+"Bawa ini aja, di sana belum tentu ada." | *Artinya: nggak bisa ikut jagain, jadi ini gantinya.*
 ---
-[icon=lightbulb]
-Keputusan apa yang dulu berat banget, tapi sekarang disyukuri?
-Dengerin sampai selesai, jangan buru-buru nanggepin.
+[number=off icon=none]
+"Pulangnya kapan?" | *Artinya: rumah sepi kalau kamu nggak ada.*
 ---
-[cta icon=heart]
-Ada hal yang dari dulu pengen kalian ceritain ke aku?
-Kadang mereka cuma nunggu ditanya.
+[number=off icon=none]
+"Nggak usah, uangnya simpan aja." | *Artinya: kamu lebih penting buat dipikirin.*
+---
+[end cta="Telepon mereka"]
+Kalimat *nomor berapa* yang paling sering kamu dengar?
+Komen angkanya. Habis itu, telepon mereka sebentar.

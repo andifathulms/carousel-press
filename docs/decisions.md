@@ -115,3 +115,6 @@ Before `carousel-core` is extracted, the parser snapshots become the contract (d
 - New runtime deps `@fontsource/fraunces` and `@fontsource/instrument-sans` (latin, 500–700 / 400–600): a softer serif and a plain sans make the slides read like a note, not a magazine headline. Same @fontsource setup as the other faces.
 - `Variant.headlineWeight` now applies to the editorial family too: it replaces the 700 serif headline weight (cover, card, end). Only the ruang variants set it (500). Quote weight (600) is unchanged.
 - Kunyit's `blob` equals its `bg` (no blobs), so `ink/blob` is tested against the background.
+- All Ruang Rasa sample decks were rewritten into the new formats (channels.md §1), plus a new `editorial-artinya-sayang-id`. `editorial-couples-id` is unchanged: it's PRD §8.1 verbatim and pinned by the golden parser snapshot.
+- Pertanyaan Malam decks are 3 slides; `parser.test.ts` allows that for decks whose cover kicker starts with `PERTANYAAN MALAM`. The answer slide in `editorial-refleksi-diri-id` is a draft for the owner to replace with their own.
+- A/B cards put a non-breaking space after `*A.*` / `*B.*` (wrap only splits on ASCII spaces), so a letter never ends a line.

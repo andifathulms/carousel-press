@@ -1,28 +1,35 @@
-template: editorial/sage
+template: editorial/ruang-bata
 lang: id
-title: 5 obrolan soal uang
-caption: Cara kita ngatur uang sekarang sering kebawa dari rumah dulu 🌿 #pasangan #keuangan #deeptalk
+title: gajian, kamu yang mana
+caption: Cara kita ngatur uang sering kebawa dari rumah dulu. Nggak ada huruf yang salah, yang penting saling tahu 🤍 Kamu huruf apa? #pasangan #keuangan #deeptalk
 ---
-[cover photo=1]
-Dulu di Rumahmu, | Uang Dibahas atau Dihindari?
-5 obrolan soal uang buat kalian berdua. Yang penting jujur.
+[cover kicker="RUANG RASA · BERDUA"]
+Gajian masuk, *kamu biasanya yang mana?*
+Pilih satu huruf, terus tanya pasanganmu.
 ---
-[icon=home]
-Waktu kecil, gimana keluargamu ngomongin soal uang?
-Cara kita sekarang sering kebawa dari situ.
+[number=off icon=none]
+Pilih yang *paling kamu banget.*
+A. Langsung pindahin ke tabungan.
+B. Bayar-bayar dulu, sisanya baru mikir.
+C. Self reward dulu, kan udah kerja keras.
+D. Nggak dicek. Takut lihat angkanya.
 ---
-[icon=coffee]
-Pengeluaran kecil apa yang bikin kamu bahagia dan nggak mau dikurangin?
-Biar nggak saling ngehakimin nanti.
+[number=off icon=none]
+Dulu di rumahmu, *uang dibahas atau dihindari?*
+Huruf kita sekarang sering kebawa dari situ.
 ---
-[icon=key]
-Kamu tipe yang lebih tenang kalau nabung, atau kalau punya pengalaman?
-Dua-duanya masuk akal. Yang penting saling ngerti.
+[number=off icon=none]
+Kamu A, dia C: *yang satu tenang karena nabung, yang satu karena menikmati.*
+Dua-duanya masuk akal. Coba sepakati porsinya.
 ---
-[icon=umbrella]
-Kalau ada kondisi darurat, kamu biasanya cerita atau beresin sendiri dulu?
-Biar tahu harus gimana kalau itu terjadi.
+[number=off icon=none]
+Ada yang D? *Nggak usah malu.*
+Mulai dari cek bareng sebulan sekali. Sambil ngemil.
 ---
-[cta icon=star]
-Satu hal yang pengen kita wujudin bareng beberapa tahun lagi?
-Tulis berdua. Mulai dari yang paling dekat.
+[number=off icon=none]
+Pengeluaran kecil apa yang *nggak mau kamu kurangin?*
+Biar nanti nggak saling ngehakimin.
+---
+[end cta="Kirim ke dia"]
+Kamu huruf apa? *Dia huruf apa?*
+Komen dua huruf. Contoh: A-C.

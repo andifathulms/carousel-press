@@ -1,32 +1,32 @@
-template: editorial/rose-dusk
+template: editorial/ruang-bata
 lang: id
-title: pilih satu versi pasangan
-caption: Jawab di komentar, terus cek: pasanganmu pilih yang sama nggak? 😆 #pilihsatu #pasangan #thisorthat
+title: pilih satu versi pacaran
+caption: Jawab A atau B tiap slide, komen urutannya, terus suruh pasanganmu jawab juga. Berapa yang sama? 😆 #pilihsatu #pasangan #thisorthat
 ---
-[cover photo=1]
-Kafe Ramai, atau | Masak Berdua di Rumah?
-Pilih satu, versi pacaran. Jawab cepat, jangan kelamaan mikir.
+[cover kicker="RUANG RASA · PILIH SATU"]
+Jawab cepat, *terus bandingin sama dia.*
+5 pilihan versi pacaran. Ingat jawabanmu, contoh: ABBAB.
 ---
-[icon=coffee]
-Ngedate di kafe ramai, atau masak berdua di rumah?
-Tulis jawabanmu di komentar.
+[number=off icon=none]
+*A.* Kafe yang ramai | *B.* Masak berdua di rumah
+Date paling enak?
 ---
-[icon=chat]
-Chat seharian, atau telepon satu jam sebelum tidur?
-Mana yang lebih bikin kamu ngerasa dekat?
+[number=off icon=none]
+*A.* Chat sampai ketiduran | *B.* Telepon satu jam
+Sebelum tidur?
 ---
-[icon=plane]
-Liburan direncanain detail, atau berangkat spontan?
-Jujur, biasanya siapa yang nyusun itinerary?
+[number=off icon=none]
+*A.* Direncanain detail | *B.* Berangkat spontan
+Liburan?
 ---
-[icon=gift]
-Kado yang dipilih sendiri, atau kado yang kamu minta?
-Nggak ada jawaban yang salah.
+[number=off icon=none]
+*A.* Kejutan, dipilihin | *B.* Yang emang aku minta
+Kado?
 ---
-[icon=sun]
-Kenalan sama keluarganya duluan, atau sama teman-temannya?
-Yang mana yang lebih bikin deg-degan?
+[number=off icon=none]
+*A.* Keluarganya | *B.* Teman dekatnya
+Lebih deg-degan ketemu?
 ---
-[end]
-Simpan dulu 🤍
-Kirim ke pasanganmu, lihat jawabannya sama atau beda.
+[end cta="Kirim ke pasanganmu"]
+Komen urutanmu. *Contoh: ABBAB.*
+Terus minta dia jawab. Kalau sama semua, simpan screenshot-nya.

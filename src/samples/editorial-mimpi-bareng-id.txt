@@ -1,28 +1,32 @@
-template: editorial/sage
+template: editorial/ruang-bata
 lang: id
-title: 5 pertanyaan tentang mimpi kalian
-caption: Bayangin dari bangun tidur, terus bandingin versi kalian 🌿 #pasangan #pertanyaanpasangan #deeptalk
+title: pertanyaan soal mimpi berdua
+caption: Bayangin dari bangun tidur, terus bandingin versi kalian. Biasanya ada yang bikin kaget 🤍 Hari Minggu idealmu apa? #pasangan #pertanyaanpasangan #deeptalk
 ---
-[cover photo=1]
-Hari Minggu Kalian, | 5 Tahun dari Sekarang
-Dan 4 pertanyaan lain soal mimpi berdua. Pelan-pelan aja.
+[cover kicker="RUANG RASA · BERDUA"]
+Kalian pernah bayangin *hari Minggu yang sama,* lima tahun lagi?
+5 pertanyaan buat dijawab gantian. Yang pertama paling seru.
 ---
-[icon=home]
-Rumah impianmu kayak gimana?
-Bukan soal besar, tapi suasananya.
+[number=off icon=none]
+Minggu pagi lima tahun lagi: *bangun jam berapa, sarapan apa, ngapain?*
+Jawab detail, terus bandingin versi kalian.
 ---
-[icon=plane]
-Tempat mana yang pengen kita kunjungi berdua suatu hari?
-Tulis daftarnya, mulai dari satu.
+[number=off icon=none]
+Rumah impianmu *suasananya* kayak gimana?
+Bukan soal besar. Ramai, sepi, banyak tanaman?
 ---
-[icon=lightbulb]
-Mimpi apa yang belum pernah kamu ceritain ke siapa pun?
-Aku pengen tahu, kalau kamu mau cerita.
+[number=off icon=none]
+Satu tempat yang *pengen kita datengin berdua,* suatu hari?
+Tulis di catatan bersama. Mulai dari satu.
 ---
-[icon=clock]
-Lima tahun lagi, hari Minggu kita kayak gimana?
-Bayangin dari bangun tidur.
+[number=off icon=none]
+Mimpi apa yang *belum pernah kamu ceritain* ke siapa pun?
+Kalau dia belum mau cerita, nggak apa-apa. Tanya lagi lain kali.
 ---
-[cta icon=heart]
-Satu langkah kecil apa yang bisa kita mulai bulan ini?
-Mimpi besar dimulai dari yang kecil.
+[number=off icon=none]
+Langkah kecil apa yang *bisa kita mulai bulan ini?*
+Mimpi besar mulainya dari yang kecil.
+---
+[end cta="Kirim ke dia"]
+Hari Minggu idealmu, *satu kata?*
+Komen. Rebahan juga jawaban yang sah.

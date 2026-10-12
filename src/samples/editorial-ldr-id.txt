@@ -1,28 +1,32 @@
-template: editorial/midnight
+template: editorial/ruang-bata
 lang: id
-title: 5 pertanyaan buat yang ldr
-caption: Siapa tahu jam kangen kalian ternyata sama 🌙 Tanya malam ini ya. #ldr #pertanyaanpasangan
+title: kalimat buat yang ldr
+caption: Jarak bikin kita lebih sering nanya "udah makan?" daripada bilang yang sebenarnya. Ini 5 kalimat buat malam ini 🌙 Kalian beda berapa jam? #ldr #pasangan #longdistance
 ---
-[cover photo=1]
-Jam Berapa Dia | Paling Kangen Kamu?
-Dan 4 pertanyaan lain buat kalian yang LDR.
+[cover kicker="RUANG RASA · LDR"]
+Yang susah dari LDR: *bilang kangen tanpa bikin berat.*
+5 kalimat buat dikirim malam ini. Ringan, tapi sampai.
 ---
-[icon=plane]
-Momen apa yang paling pengen kamu ulang dari pertemuan terakhir kita?
-Biar pertemuan berikutnya makin kerasa.
+[number=off icon=none]
+Tadi aku makan *menu kesukaanmu.* Rasanya kurang satu orang.
+Ganti menunya. Detail kecil bikin kerasa dekat.
 ---
-[icon=moon]
-Jam berapa biasanya kamu paling kangen aku?
-Siapa tahu jawabannya sama.
+[number=off icon=none]
+Nggak usah bales cepet. *Aku cuma pengen kamu tahu aku kepikiran.*
+Buat hari-hari dia lagi sibuk.
 ---
-[icon=chat]
-Cara aku nunjukin sayang yang paling kerasa buat kamu, walau dari jauh?
-Chat, telepon, atau kiriman kecil. Mana yang paling sampai?
+[number=off icon=none]
+Aku udah hitung: *tinggal ___ hari lagi* kita ketemu.
+Isi angkanya. Hitungan mundur bikin jarak kerasa ada ujungnya.
 ---
-[icon=map-pin]
-Kalau nanti udah satu kota, tempat pertama yang mau kita datengin?
-Tulis sekarang, simpan buat nanti.
+[number=off icon=none]
+Nanti pas ketemu, *aku mau ngajak kamu ke ____.*
+Isi tempatnya. Rencana kecil itu pegangan.
 ---
-[cta icon=heart photo=1]
-Satu hal yang bikin kamu yakin kita bisa lewatin jarak ini?
-Kirim jawabannya malam ini.
+[number=off icon=none]
+Makasih udah *tetap milih aku,* walau ribet.
+Yang ini simpan buat malam yang paling berat.
+---
+[end cta="Kirim ke dia"]
+Kalian *beda berapa jam?*
+Komen angkanya. 0 juga boleh, beda kota tetap dihitung.

@@ -1,28 +1,35 @@
-template: editorial/rose-dusk
+template: editorial/ruang-bata
 lang: id
-title: 5 pertanyaan sebelum melangkah
-caption: Lebih enak dibahas sekarang, pas lagi tenang, daripada pas lagi marahan 🤍 #pertanyaanpasangan #menujuhalal
+title: kalau marahan, kamu yang mana
+caption: Dua orang yang saling sayang bisa punya cara marahan yang beda banget. Lebih enak tahu sekarang, pas lagi tenang 🤍 Kamu huruf apa? #pasangan #sebelummenikah #pertanyaanpasangan
 ---
-[cover]
-Kalau Kita Marahan, | Kamu Butuh Apa?
-5 pertanyaan sebelum melangkah lebih jauh. Bukan buat nguji.
+[cover kicker="RUANG RASA · BERDUA"]
+Habis marahan, *kamu biasanya yang mana?*
+Pilih satu huruf. Terus tanya dia, dia yang mana.
 ---
-[icon=key]
-Menurutmu, uang di rumah tangga sebaiknya diatur gimana?
-Nggak ada jawaban yang paling benar. Yang penting sama-sama jelas.
+[number=off icon=none]
+Pilih yang *paling kamu banget.*
+A. Diem dulu. Butuh ruang.
+B. Pengen beresin malam itu juga.
+C. Pura-pura biasa aja, padahal belum.
+D. Ngajak makan. Itu caraku minta maaf.
 ---
-[icon=shield]
-Kalau kita lagi marahan, kamu butuh apa dari aku?
-Dikasih ruang dulu, atau langsung diobrolin?
+[number=off icon=none]
+Kamu A, dia B: *yang satu butuh jeda, yang satu butuh kepastian.*
+Coba sepakati: "Kita bahas lagi jam 9, ya." Jedanya ada, kepastiannya juga.
 ---
-[icon=coffee]
-Hari Minggu yang ideal versi kamu kayak gimana?
-Hal kecil kayak gini sering jadi sumber beda pendapat.
+[number=off icon=none]
+Ada yang C? *"Biasa aja" itu sering belum selesai.*
+Tanya pelan: "Beneran udah, atau mau dibahas nanti?"
 ---
-[icon=flower]
-Ada mimpi pribadimu yang tetap pengen kamu kejar nanti?
-Biar kita bisa saling dukung dari sekarang.
+[number=off icon=none]
+Ada yang D? *Itu juga cara minta maaf.*
+Yang satunya mungkin butuh kalimatnya juga. Dua-duanya boleh.
 ---
-[cta icon=leaf]
-Apa yang bikin kamu merasa dihargai dalam hubungan?
-Jawab jujur. Bahas pelan-pelan, nggak harus selesai malam ini.
+[number=off icon=none]
+Hurufnya sama? *Sepakati siapa yang mulai duluan.*
+Lebih gampang disepakati sekarang, pas lagi nggak marahan.
+---
+[end cta="Kirim ke dia"]
+Kamu huruf apa? *Dia huruf apa?*
+Komen dua huruf. Contoh: A-B.

@@ -1,32 +1,32 @@
-template: editorial/midnight
+template: editorial/ruang-bata
 lang: id
-title: 6 pertanyaan buat yang udah lama bareng
-caption: Udah hafal pesanan kopinya, tapi mimpinya yang sekarang masih sama kayak dulu nggak? 🌙 Tanya malam ini. #pasangan #pertanyaanpasangan #deeptalk
+title: kalimat buat yang udah lama bareng
+caption: Makin lama bareng, makin jarang bilang yang dulu sering diucapin. Kirim satu malam ini 🤍 Udah berapa tahun? #pasangan #longterm #deeptalk
 ---
-[cover photo=1]
-Kapan Terakhir Kamu | Nanya Mimpinya?
-6 pertanyaan buat kalian yang udah lama bareng.
+[cover kicker="RUANG RASA · UDAH LAMA BARENG"]
+Udah hafal pesanan kopinya. *Kapan terakhir bilang kenapa kamu milih dia?*
+5 kalimat yang makin jarang diucapin, padahal makin perlu.
 ---
-[icon=star]
-Hal apa tentang aku yang dulu bikin kamu tertarik, dan masih ada sampai sekarang?
-Kadang kita lupa bilang yang ini.
+[number=off icon=none]
+Aku masih suka *cara kamu ketawa* pas nonton yang nggak lucu.
+Ganti dengan kebiasaan kecilnya. Makin spesifik, makin kena.
 ---
-[icon=leaf]
-Menurutmu, bagian dirimu yang paling berubah sejak kita bareng?
-Dengerin versinya, bukan versimu.
+[number=off icon=none]
+Makasih udah *ngurusin hal-hal yang nggak kelihatan.*
+Bayar tagihan, inget ulang tahun keluarga, beli galon.
 ---
-[icon=lightbulb]
-Ada hobi atau minat baru yang belum sempat kamu ceritain ke aku?
-Yang kecil juga boleh.
+[number=off icon=none]
+Kamu yang sekarang *lebih keren* dari waktu kita baru kenal.
+Orang berubah. Bilang kalau perubahannya kamu suka.
 ---
-[icon=map-pin]
-Tempat pertama kita yang pengen kamu datengin lagi?
-Kalau bisa, rencanain bulan ini.
+[number=off icon=none]
+Kapan-kapan kita *ke tempat pertama kita lagi,* yuk.
+Lebih bagus lagi: kasih tanggalnya.
 ---
-[icon=moon]
-Kebiasaan kecil kita yang paling bikin kamu ngerasa di rumah?
-Biar kita jaga baik-baik.
+[number=off icon=none]
+Aku *masih milih kamu.* Hari ini juga.
+Pendek. Simpan buat hari yang biasa aja.
 ---
-[cta icon=heart]
-Mimpi apa yang pengen kamu kejar lima tahun ke depan, dan gimana aku bisa nemenin?
-Tanya pelan-pelan. Jawabannya bisa beda dari yang kamu kira.
+[end cta="Kirim ke dia"]
+Kalian udah bareng *berapa tahun?*
+Komen angkanya. Yang baru setahun juga dihitung.

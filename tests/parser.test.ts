@@ -233,12 +233,14 @@ describe('every shipped deck', () => {
       const long = f.startsWith('sejarah-') || f.startsWith('sports-') || f.startsWith('lexicon-');
       // Ayat Harian posts are short (channels.md §8): up to 4 slides with a tafsir card, 3 for hadith.
       const short = f.startsWith('ayat-') || f.startsWith('hadis-');
+      // Ruang Rasa's Pertanyaan Malam series is 3 slides (channels.md §1).
+      const malam = /kicker="PERTANYAAN MALAM/.test(sample(f.slice(0, -4)));
       const ws = long ? r.warnings.filter((w) => w.code !== 'long-deck') : r.warnings;
       expect(ws).toEqual([]);
       if (long) expect(r.deck.slides.length).toBeLessThanOrEqual(14);
       // Sports and language decks: 8–14 slides, compact (owner, Oct 2026).
       if (f.startsWith('sports-') || f.startsWith('lexicon-')) expect(r.deck.slides.length).toBeGreaterThanOrEqual(8);
-      expect(r.deck.slides.length).toBeGreaterThanOrEqual(short ? 1 : 5);
+      expect(r.deck.slides.length).toBeGreaterThanOrEqual(short ? 1 : malam ? 3 : 5);
       if (short) expect(r.deck.slides.length).toBeLessThanOrEqual(f.startsWith('ayat-') ? 4 : 3);
       expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);
     });

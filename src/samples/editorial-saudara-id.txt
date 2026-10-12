@@ -1,28 +1,32 @@
-template: editorial/sage
+template: editorial/ruang-daun
 lang: id
-title: 5 pertanyaan buat saudara kandung
-caption: Kirim ke kakak atau adikmu: bisa jadi dia ingat hal yang kamu sudah lupa 🌿 #keluarga #saudara #deeptalk
+title: kalimat buat kakak atau adik
+caption: Dulu rebutan remote, sekarang saling cari pas ada apa-apa 🌿 Kirim satu ke kakak atau adikmu malam ini. Kamu anak ke berapa? #keluarga #saudara #siblings
 ---
-[cover photo=1]
-Kebiasaanku yang Dulu | Bikin Kamu Kesal?
-5 pertanyaan buat kakak atau adikmu. Dulu berantem, sekarang saling cari.
+[cover kicker="RUANG RASA · RUMAH"]
+Dulu berantem tiap hari. *Sekarang malah kangen ribut-ributnya.*
+5 kalimat buat kakak atau adikmu. Pilih satu, kirim lewat japri.
 ---
-[icon=home]
-Kenangan masa kecil kita yang paling kamu ingat?
-Bisa jadi kamu ingat hal yang aku sudah lupa.
+[number=off icon=none]
+Maaf ya dulu *sering ngadu.* Sekarang aku ngerti rasanya jadi kamu.
+Kenangan konyol bikin minta maaf nggak kerasa berat.
 ---
-[icon=smile]
-Kebiasaanku waktu kecil yang dulu bikin kamu kesal banget?
-Sekarang boleh diketawain bareng.
+[number=off icon=none]
+Aku masih inget waktu kamu *belain aku,* walau kamu juga lagi dimarahin.
+Kenangan kecil biasanya diingat dua-duanya.
 ---
-[icon=shield-heart]
-Kapan kamu ngerasa aku ada di pihakmu?
-Kadang hal kecil itu yang paling diingat.
+[number=off icon=none]
+Kamu orang yang *paling ngerti rumah kita,* tanpa perlu dijelasin.
+Yang ini cuma saudara yang bisa.
 ---
-[icon=chat]
-Apa yang pengen kamu ceritain ke aku, tapi belum sempat?
-Nggak harus sekarang. Aku dengerin kapan pun.
+[number=off icon=none]
+Kapan-kapan kita *pergi berdua* yuk, kayak dulu.
+Tanpa pasangan, tanpa anak, tanpa grup keluarga.
 ---
-[cta icon=heart]
-Kalau kita bisa liburan berdua, mau ke mana?
-Siapa tahu bisa diwujudin tahun depan.
+[number=off icon=none]
+Aku bangga sama kamu. *Jarang bilang, tapi beneran.*
+Pendek, canggung, dan pasti diingat.
+---
+[end cta="Kirim ke saudaramu"]
+Kamu *anak ke berapa?*
+Komen angkanya. Terus tag saudaramu.

@@ -1,28 +1,32 @@
-template: editorial/rose-dusk
+template: editorial/ruang-kunyit
 lang: id
-title: 5 pertanyaan buat sahabat
-caption: Kirim ke sahabatmu: siapa tahu kalian ingat momen yang beda 🤍 #sahabat #pertanyaan #deeptalk
+title: kalimat buat sahabat
+caption: Sahabat jarang dibilangin makasih, karena dianggap udah ngerti. Pilih satu, kirim malam ini 🤍 Kamu kirim yang nomor berapa? #sahabat #bestfriend #deeptalk
 ---
-[cover photo=1]
-Kapan Kamu Tahu | Kita Bakal Dekat?
-5 pertanyaan buat sahabatmu. Jawab jujur, nggak ada yang salah.
+[cover kicker="RUANG RASA · SAHABAT"]
+Sahabatmu tahu kamu sayang. *Tapi kapan terakhir kamu bilang?*
+5 kalimat yang bisa langsung kamu kirim. Pilih satu aja dulu.
 ---
-[icon=smile]
-Kapan pertama kali kamu ngerasa kita bakal jadi dekat?
-Coba ingat-ingat momennya. Kadang sepele banget.
+[number=off icon=none]
+Aku nggak tahu tahun kemarin bakal gimana *kalau nggak ada kamu.*
+Sebut tahunnya kalau mau. Biar dia tahu kamu ingat.
 ---
-[icon=chat]
-Obrolan kita yang paling kamu ingat sampai sekarang?
-Yang lucu, yang serius, atau yang sampai subuh.
+[number=off icon=none]
+Makasih udah *nggak pernah bikin aku ngerasa ribet,* walau aku sering ribet.
+Buat sahabat yang tetap bales, walau jam 2 pagi.
 ---
-[icon=shield-heart]
-Kapan aku paling ada buat kamu, walau mungkin aku nggak sadar?
-Biar aku tahu apa yang berarti buatmu.
+[number=off icon=none]
+Aku inget kamu pas *lihat ini,* terus ketawa sendiri.
+Kirim bareng fotonya. Nggak perlu konteks.
 ---
-[icon=gift]
-Hal kecil dariku yang diam-diam kamu syukuri?
-Nggak harus besar. Yang kecil justru sering paling kena.
+[number=off icon=none]
+Kalau lagi capek, *bilang aja.* Nggak harus cerita, aku temenin diem juga bisa.
+Kadang yang dibutuhin bukan solusi.
 ---
-[cta icon=star]
-Sepuluh tahun lagi, kamu bayangin kita lagi ngapain?
-Tulis jawabannya, simpan, buka lagi nanti.
+[number=off icon=none]
+Kita udah temenan *berapa tahun* ya? Rasanya baru kemarin kamu nyebelin.
+Sedikit ledekan bikin yang manis nggak kerasa canggung.
+---
+[end cta="Kirim ke sahabatmu"]
+Kamu kirim *kalimat yang ke berapa?*
+Komen angkanya, 1 sampai 5. Sahabatmu nggak perlu tahu kamu baca ini dulu.

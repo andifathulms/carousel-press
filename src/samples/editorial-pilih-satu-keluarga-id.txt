@@ -1,32 +1,32 @@
-template: editorial/sage
+template: editorial/ruang-daun
 lang: id
 title: pilih satu versi keluarga
-caption: Jawab di komentar, terus kirim ke grup keluarga. Siapa yang paling beda sendiri? 😆 #pilihsatu #keluarga #thisorthat
+caption: Jawab A atau B tiap slide, komen urutannya, terus kirim ke grup keluarga. Siapa yang beda sendiri? 😆 #pilihsatu #keluarga #thisorthat
 ---
-[cover photo=1]
-Masakan Rumah, atau | Mi Instan Tengah Malam?
-Pilih satu, versi keluarga. Jawab cepat, terus kirim ke grup keluarga.
+[cover kicker="RUANG RASA · PILIH SATU"]
+Kirim ke grup keluarga. *Siapa yang jawabannya beda sendiri?*
+5 pilihan versi keluarga. Ingat jawabanmu, contoh: ABBAB.
 ---
-[icon=coffee]
-Sarapan bareng di meja makan, atau makan masing-masing sambil nonton TV?
-Tulis jawabanmu di komentar.
+[number=off icon=none]
+*A.* Bareng di meja makan | *B.* Masing-masing sambil nonton TV
+Makan malam?
 ---
-[icon=plane]
-Mudik naik mobil rame-rame, atau naik kereta biar santai?
-Biasanya siapa yang paling ribet packing?
+[number=off icon=none]
+*A.* Mobil rame-rame | *B.* Kereta biar santai
+Pulang kampung naik?
 ---
-[icon=chat]
-Grup chat keluarga yang rame tiap pagi, atau yang sepi tapi sekali bunyi heboh?
-Grup keluargamu yang mana?
+[number=off icon=none]
+*A.* Rame tiap pagi | *B.* Sepi, tapi sekali bunyi heboh
+Grup chat keluargamu?
 ---
-[icon=home]
-Kumpul keluarga besar, atau quality time sama keluarga inti aja?
-Nggak ada jawaban yang salah.
+[number=off icon=none]
+*A.* Keluarga besar sekalian | *B.* Keluarga inti aja
+Kumpul keluarga?
 ---
-[icon=music]
-Karaoke keluarga di ruang tamu, atau nonton film bareng?
-Siapa yang paling susah lepas mic?
+[number=off icon=none]
+*A.* Karaoke di ruang tamu | *B.* Nonton film bareng
+Hiburan di rumah?
 ---
-[end]
-Simpan dulu 🤍
-Kirim ke keluargamu, lihat siapa yang jawabannya beda sendiri.
+[end cta="Kirim ke grup keluarga"]
+Komen urutanmu. *Contoh: ABBAB.*
+Terus kirim ke grup. Lihat siapa yang beda sendiri.

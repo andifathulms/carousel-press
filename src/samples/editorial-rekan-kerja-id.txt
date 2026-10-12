@@ -1,32 +1,32 @@
-template: editorial/rose-dusk
+template: editorial/ruang-kunyit
 lang: id
-title: 6 pertanyaan buat rekan kerja
-caption: Udah setahun duduk sebelahan, tapi belum tahu dia pengen jadi apa waktu kecil? ☕ Coba tanya pas makan siang. #rekankerja #kantor #pertanyaan
+title: kalimat buat rekan kerja
+caption: Kerja bareng tiap hari, tapi jarang ada yang bilang ini. Kirim satu besok pagi ☕ Kepikiran siapa? #rekankerja #kantor #kerja
 ---
-[cover photo=1]
-Satu Meja Tiap Hari, | Tapi Udah Kenal Belum?
-6 pertanyaan buat rekan kerja yang klop sama kamu. Pas buat jam makan siang.
+[cover kicker="RUANG RASA · REKAN KERJA"]
+Satu meja tiap hari, *tapi jarang ada yang bilang makasih.*
+5 kalimat buat rekan kerja yang bikin harimu lebih ringan.
 ---
-[icon=smile]
-Waktu kecil, kamu pengen kerja jadi apa?
-Kadang jawabannya nyambung banget sama sekarang.
+[number=off icon=none]
+Makasih ya yang kemarin. *Aku tahu itu bukan tugasmu.*
+Sebut kerjaannya. Biar kerasa tulus, bukan basa-basi.
 ---
-[icon=coffee]
-Minuman andalanmu buat hari yang padat?
-Biar lain kali aku bisa beliin pas kamu lagi lembur.
+[number=off icon=none]
+Presentasimu tadi *rapi banget.* Aku catat caranya.
+Bilang juga di depan tim. Lebih kena.
 ---
-[icon=star]
-Kerjaan apa di sini yang diam-diam paling kamu banggain?
-Yang mungkin nggak sempat dilihat orang lain.
+[number=off icon=none]
+Lagi banyak kerjaan? *Ada yang bisa aku pegang?*
+Tawaran kecil sering lebih berarti dari kelihatannya.
 ---
-[icon=lightbulb]
-Hal apa yang paling banyak kamu pelajari sejak kerja di sini?
-Soal kerjaan, soal orang, atau soal diri sendiri.
+[number=off icon=none]
+Hari ini berat ya. *Ngopi bentar yuk,* aku traktir.
+Nggak harus bahas kerjaan.
 ---
-[icon=sun]
-Di luar jam kantor, kamu paling semangat ngapain?
-Hobi, proyek kecil, atau sekadar tidur siang.
+[number=off icon=none]
+Seneng deh *satu tim sama kamu.*
+Pendek, jarang diucapin. Pas buat hari Jumat.
 ---
-[cta icon=chat]
-Gimana caranya aku bisa bantu kamu pas lagi kewalahan?
-Kerja bareng jadi lebih ringan kalau kita saling tahu.
+[end cta="Kirim ke rekan kerja"]
+Kepikiran *siapa* di kantor?
+Tag dia. Biar dia tahu ada yang merhatiin.

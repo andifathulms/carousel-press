@@ -1,28 +1,16 @@
-template: editorial/midnight
+template: editorial/ruang-malam
 lang: id
-title: 5 pertanyaan buat diri sendiri
-caption: Kadang yang muncul pas lampu udah mati itu yang paling jujur. Simpan buat malam yang tenang 🌙 #refleksidiri #selfreflection
+title: pertanyaan malam 1
+caption: Pertanyaan malam #1. Nggak usah panjang, satu kata juga boleh 🌙 Besok, pertanyaan #2. #refleksidiri #pertanyaanmalam #deeptalk
 ---
-[cover photo=1]
-Yang Kamu Pikirin | Sebelum Tidur Itu Apa?
-5 pertanyaan buat dirimu sendiri. Jawab pelan-pelan, nggak ada yang nilai.
+[cover kicker="PERTANYAAN MALAM · #1"]
+Apa yang *paling sering kamu pikirin* sebelum tidur akhir-akhir ini?
+Jawab dalam hati dulu. Habis itu geser.
 ---
-[icon=moon]
-Apa yang akhir-akhir ini paling sering kamu pikirin sebelum tidur?
-Kadang itu tanda ada yang belum selesai.
+[quote icon=none]
+Aku: chat yang udah aku ketik, tapi nggak pernah aku kirim.
+— admin Ruang Rasa
 ---
-[icon=leaf]
-Kebiasaan kecil apa yang bikin harimu terasa lebih baik?
-Udah berapa lama kamu nggak ngelakuinnya?
----
-[icon=mountain]
-Hal apa yang dulu kamu takutin, tapi sekarang udah bisa kamu hadapi?
-Kamu tumbuh lebih banyak dari yang kamu kira.
----
-[icon=clock]
-Kalau setahun lagi hidupmu sama persis kayak sekarang, kamu lega atau gelisah?
-Jawabannya nunjukin apa yang sebenarnya kamu mau.
----
-[cta icon=heart-spark]
-Kalimat apa yang paling pengen kamu dengar hari ini?
-Coba bilang ke dirimu sendiri dulu.
+[end cta="Jawab di komentar"]
+*Giliranmu.*
+Nggak usah panjang. Satu kata juga boleh. Besok, pertanyaan #2.

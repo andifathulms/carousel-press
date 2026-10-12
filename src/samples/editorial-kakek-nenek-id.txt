@@ -1,32 +1,32 @@
-template: editorial/sage
+template: editorial/ruang-daun
 lang: id
-title: 6 pertanyaan buat kakek nenek
+title: pertanyaan buat kakek nenek
 caption: Pernah tanya mereka dulu ketemu di mana? Jawabannya sering lebih seru dari film 🌿 Rekam ceritanya kalau boleh. #keluarga #kakeknenek #cerita
 ---
-[cover photo=1]
-Kakek Nenekmu Dulu | Ketemu di Mana?
-6 pertanyaan buat mereka, sebelum ceritanya cuma tinggal kenangan.
+[cover kicker="RUANG RASA · RUMAH"]
+Kakek nenekmu dulu *ketemu di mana?*
+5 pertanyaan buat kumpul keluarga berikutnya, sebelum ceritanya cuma tinggal kenangan.
 ---
-[icon=home]
-Rumah masa kecil Kakek atau Nenek dulu kayak gimana?
+[number=off icon=none]
+Dulu yang *deketin duluan* siapa?
+Biasanya yang satu jawab, yang satu protes.
+---
+[number=off icon=none]
+Rumah masa kecil Kakek atau Nenek *kayak gimana?*
 Minta diceritain sampai ke bau dapurnya.
 ---
-[icon=heart]
-Gimana dulu pertama kali Kakek dan Nenek ketemu?
-Siapa yang deketin duluan?
----
-[icon=coffee]
-Masakan apa yang paling bikin kangen dari masa kecil?
+[number=off icon=none]
+Masakan apa yang *paling bikin kangen* dari dulu?
 Sekalian minta resepnya. Tulis di buku.
 ---
-[icon=music]
-Lagu apa yang dulu sering diputar di radio waktu muda?
+[number=off icon=none]
+Lagu apa yang dulu *sering diputar di radio?*
 Cari lagunya, dengerin bareng.
 ---
-[icon=book]
-Waktu muda, pernah ngalamin kejadian apa yang nggak akan pernah dilupain?
-Dengerin sampai habis, walau ceritanya pernah kamu dengar.
----
-[cta icon=gift]
-Nasihat apa yang paling pengen Kakek atau Nenek wariskan ke cucu-cucunya?
+[number=off icon=none]
+Nasihat apa yang *pengen diwariskan* ke cucu-cucu?
 Rekam suaranya kalau boleh. Nanti kamu pasti bersyukur.
+---
+[end cta="Kirim ke grup keluarga"]
+Udah tahu jawabannya? *Komen satu kata.*
+Pasar, sekolah, kantor, atau dikenalin?

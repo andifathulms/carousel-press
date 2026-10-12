@@ -1,32 +1,32 @@
-template: editorial/rose-dusk
+template: editorial/ruang-kunyit
 lang: id
 title: pilih satu versi sahabat
-caption: Jawab di komentar, terus tag sahabat yang hobi kirim voice note panjang 😆 #pilihsatu #sahabat #thisorthat
+caption: Jawab A atau B di tiap slide, terus komen urutannya. Kalau jawaban sahabatmu sama persis, kalian kembar 😆 #pilihsatu #sahabat #thisorthat
 ---
-[cover photo=1]
-Chat Panjang, atau | Voice Note 10 Menit?
-Pilih satu, versi sahabat. Jawab cepat, terus tag dia.
+[cover kicker="RUANG RASA · PILIH SATU"]
+Jawab cepat, *terus bandingin sama sahabatmu.*
+5 pilihan versi sahabat. Ingat jawabanmu, contoh: ABBAB.
 ---
-[icon=chat]
-Curhat lewat chat panjang, atau voice note 10 menit?
-Tulis jawabanmu di komentar.
+[number=off icon=none]
+*A.* Chat panjang | *B.* Voice note 10 menit
+Curhat paling enak lewat?
 ---
-[icon=coffee]
-Nongkrong di kafe, atau rebahan di rumah salah satu?
-Jujur, mana yang lebih sering kejadian?
+[number=off icon=none]
+*A.* Nongkrong di kafe | *B.* Rebahan di rumah salah satu
+Kalau ketemu, biasanya?
 ---
-[icon=plane]
-Liburan bareng yang serba direncanain, atau dadakan?
-Biasanya siapa yang bikin rencana?
+[number=off icon=none]
+*A.* Itinerary per jam | *B.* Berangkat dulu, mikir nanti
+Liburan bareng itu?
 ---
-[icon=gift]
-Kado ulang tahun yang lucu, atau yang berguna?
-Nggak ada jawaban yang salah.
+[number=off icon=none]
+*A.* Yang lucu, buat ketawa | *B.* Yang berguna, buat dipakai
+Kado ulang tahun yang paling kena?
 ---
-[icon=music]
-Karaoke bareng, atau nonton konser bareng?
-Mana yang lebih kalian banget?
+[number=off icon=none]
+*A.* Langsung samperin | *B.* Kirim makanan, terus nanya kabar
+Kalau salah satu lagi sedih?
 ---
-[end]
-Simpan dulu 🤍
-Kirim ke sahabatmu, lihat jawabannya sama atau beda.
+[end cta="Kirim ke sahabatmu"]
+Komen urutanmu. *Contoh: ABBAB.*
+Terus tag sahabatmu. Lihat berapa yang sama.

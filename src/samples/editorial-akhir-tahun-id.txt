@@ -1,28 +1,32 @@
-template: editorial/midnight
+template: editorial/ruang-malam
 lang: id
-title: 5 pertanyaan sebelum tahun berganti
-caption: Sebelum sibuk bikin resolusi, coba lihat dulu tahun yang hampir lewat 🌙 Simpan buat malam yang tenang. #refleksidiri #akhirtahun
+title: pertanyaan sebelum tahun berganti
+caption: Sebelum sibuk bikin resolusi, lihat dulu tahun yang hampir lewat 🌙 Simpan buat malam yang tenang. Tahun ini dalam satu kata? #refleksidiri #akhirtahun
 ---
-[cover photo=1]
-Kalender Tinggal | Beberapa Lembar Lagi
-5 pertanyaan buat nutup tahun ini dengan jujur, bukan buru-buru.
+[cover kicker="RUANG RASA · AKHIR TAHUN"]
+Kalender tinggal beberapa lembar. *Tahun ini sebenarnya kamu ngapain aja?*
+5 pertanyaan buat nutup tahun dengan jujur. Simpan buat malam terakhir.
 ---
-[icon=star]
-Apa hal yang paling kamu banggakan dari dirimu tahun ini?
+[number=off icon=none]
+Hal apa yang paling *kamu banggain* dari dirimu tahun ini?
 Sekecil apa pun, tetap dihitung.
 ---
-[icon=moon]
-Apa yang ternyata nggak sesuai rencana, dan apa yang kamu pelajari dari situ?
+[number=off icon=none]
+Apa yang *nggak sesuai rencana,* dan apa yang kamu dapat dari situ?
 Rencana berubah itu wajar.
 ---
-[icon=heart]
-Siapa yang paling banyak nemenin kamu tahun ini?
-Mungkin dia perlu tahu itu.
+[number=off icon=none]
+Siapa yang paling banyak *nemenin kamu* tahun ini?
+Mungkin dia perlu tahu. Kirim ini ke dia.
 ---
-[icon=leaf]
-Kebiasaan apa yang pengen kamu tinggalin di tahun ini?
-Nggak perlu semuanya. Satu dulu cukup.
+[number=off icon=none]
+Kebiasaan apa yang pengen kamu *tinggal di tahun ini?*
+Satu dulu cukup.
 ---
-[cta icon=sun]
-Satu hal apa yang pengen kamu mulai sebelum tahun berganti?
-Tulis sekarang. Mulai minggu ini.
+[number=off icon=none]
+Satu hal apa yang pengen kamu *mulai minggu ini,* bukan tahun depan?
+Tulis sekarang.
+---
+[end cta="Simpan buat nanti"]
+Tahun ini dalam *satu kata?*
+Komen. Kita baca lagi bareng di akhir Desember.
