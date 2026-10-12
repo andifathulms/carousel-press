@@ -1,7 +1,11 @@
 template: serene/fajr
 lang: id
 title: hati yang tenang
-caption: Semoga jadi pengingat untuk kita semua. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+caption: Ayat penenang hati, untuk pikiran yang sedang penuh. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #ayatpenenanghati #pengingatdiri
+---
+[cover kicker="AYAT PENENANG HATI"]
+Saat pikiran penuh dan *hati belum tenang.*
+Satu ayat untuk pagi ini · QS. Ar-Ra'd [13]: 28
 ---
 [ayah]
 arab: ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ
@@ -9,16 +13,13 @@ terjemah: (Yaitu) orang-orang yang beriman dan hati mereka menjadi tenteram deng
 ref: QS. Ar-Ra'd [13]: 28
 source: Terjemahan Kemenag RI
 ---
-[card]
-Tafsir
+[quote kicker="Tafsir" icon=none]
 Mereka yang mendapat petunjuk adalah orang-orang yang beriman kepada Allah dan rasul-Nya, dan hati mereka menjadi tenang dan tenteram dengan banyak mengingat Allah.
-
-*Tafsir Ringkas Kemenag RI* · dikutip sebagian
+— Tafsir Ringkas Kemenag RI · dikutip sebagian
 ---
-[card]
-Renungan
+[card kicker="Renungan"]
 Saat pikiran penuh, mungkin yang kita butuhkan bukan jawaban, tapi berhenti sejenak dan mengingat-Nya.
 ---
-[end]
-Semoga bermanfaat.
-Simpan, dan bagikan ke yang sedang butuh.
+[end cta="Simpan"]
+Ayat mana yang paling *menenangkan hatimu?*
+Tulis di komentar. Kita saling mengingatkan.

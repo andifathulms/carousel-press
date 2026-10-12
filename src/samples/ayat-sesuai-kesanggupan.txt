@@ -1,7 +1,11 @@
 template: serene/isya
 lang: id
 title: sesuai kesanggupan
-caption: Untuk yang sedang merasa bebannya berat. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+caption: Ayat tentang beban hidup, untuk yang sedang merasa berat. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+---
+[cover kicker="AYAT TENTANG BEBAN HIDUP"]
+Untuk kamu yang merasa bebannya *terlalu berat* hari ini.
+Satu ayat untuk malam ini · QS. Al-Baqarah [2]: 286
 ---
 [ayah]
 arab: لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا
@@ -11,16 +15,13 @@ source: Terjemahan Kemenag RI
 portion: true
 mark: off
 ---
-[card]
-Tafsir
+[quote kicker="Tafsir" icon=none]
 Tidak ada yang berat dalam beragama, dan tidak perlu ada kekhawatiran tentang tanggung jawab atas bisikan-bisikan hati, sebab Allah tidak membebani seseorang melainkan sesuai dengan kesanggupannya.
-
-*Tafsir Ringkas Kemenag RI* · dikutip sebagian
+— Tafsir Ringkas Kemenag RI · dikutip sebagian
 ---
-[card]
-Renungan
+[card kicker="Renungan"]
 Beban hari ini mungkin terasa berat. Ayat ini mengingatkan kita, Allah سبحانه وتعالى tidak membebani seseorang melebihi kesanggupannya.
 ---
-[end]
-Semoga bermanfaat.
-Simpan, dan bagikan ke yang sedang butuh.
+[end cta="Kirim"]
+Kirim ke satu orang yang *sedang merasa berat.*
+Kadang satu ayat cukup untuk menemani.

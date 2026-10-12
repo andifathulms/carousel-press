@@ -231,7 +231,7 @@ describe('every shipped deck', () => {
       const r = parse(sample(f.slice(0, -4)), { photoIds: ['sample-dusk', ...SAMPLE_PHOTO_IDS] });
       // History, sports and language decks may run past 10 slides (owner decision): only the long-deck hint is allowed.
       const long = f.startsWith('sejarah-') || f.startsWith('sports-') || f.startsWith('lexicon-');
-      // Ayat Harian posts are short (channels.md §8): up to 4 slides with a tafsir card, 3 for hadith.
+      // Ayat Harian posts are short (channels.md §8).
       const short = f.startsWith('ayat-') || f.startsWith('hadis-');
       // Ruang Rasa's Pertanyaan Malam series is 3 slides (channels.md §1).
       const malam = /kicker="PERTANYAAN MALAM/.test(sample(f.slice(0, -4)));
@@ -246,7 +246,8 @@ describe('every shipped deck', () => {
         expect(r.deck.slides.length).toBeLessThanOrEqual(10);
       }
       expect(r.deck.slides.length).toBeGreaterThanOrEqual(short ? 1 : malam ? 3 : 5);
-      if (short) expect(r.deck.slides.length).toBeLessThanOrEqual(f.startsWith('ayat-') ? 4 : 3);
+      // With the context cover (owner, Oct 2026): up to 5 slides for ayat, 4 for hadith.
+      if (short) expect(r.deck.slides.length).toBeLessThanOrEqual(f.startsWith('ayat-') ? 5 : 4);
       expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);
     });
   }

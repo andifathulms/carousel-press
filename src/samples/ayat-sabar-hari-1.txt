@@ -1,9 +1,9 @@
 template: serene/fajr
 lang: id
 title: sabar hari 1
-caption: Seri Sabar, hari pertama. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #sabar #quran
+caption: Ayat tentang sabar, Seri Sabar hari pertama. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #ayattentangsabar #sabar
 ---
-[cover]
+[cover kicker="AYAT TENTANG SABAR · SERI"]
 Sabar · Hari 1
 Satu ayat tentang sabar untuk memulai hari.
 ---
@@ -13,12 +13,10 @@ terjemah: Wahai orang-orang yang beriman, mohonlah pertolongan (kepada Allah) de
 ref: QS. Al-Baqarah [2]: 153
 source: Terjemahan Kemenag RI
 ---
-[card]
-Tafsir
+[quote kicker="Tafsir" icon=none]
 Tidak saja melimpahkan nikmat-Nya, Allah juga menimpakan berbagai cobaan kepada orang yang beriman. Karena itu, Allah meminta mereka bersabar dan terus melaksanakan salat.
-
-*Tafsir Ringkas Kemenag RI* · dikutip sebagian
+— Tafsir Ringkas Kemenag RI · dikutip sebagian
 ---
-[end]
-Semoga bermanfaat.
-Simpan, dan bagikan ke yang sedang butuh.
+[end cta="Simpan"]
+Besok, *Sabar · Hari 2.*
+Simpan, supaya kita lanjut bersama.

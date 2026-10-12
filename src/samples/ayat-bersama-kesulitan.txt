@@ -1,7 +1,11 @@
 template: serene/isya
 lang: id
 title: bersama kesulitan ada kemudahan
-caption: Disebut dua kali, berturut-turut. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+caption: Ayat tentang kesulitan dan kemudahan: disebut dua kali, berturut-turut. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+---
+[cover kicker="AYAT TENTANG KESULITAN DAN KEMUDAHAN"]
+Satu kalimat, *disebut dua kali.*
+Dua ayat untuk malam ini · QS. Asy-Syarh [94]: 5–6
 ---
 [ayah]
 arab: فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا
@@ -15,12 +19,10 @@ terjemah: Sesungguhnya beserta kesulitan ada kemudahan.
 ref: QS. Asy-Syarh [94]: 6
 source: Terjemahan Kemenag RI
 ---
-[card]
-Tafsir
+[quote kicker="Tafsir" icon=none]
 Maka tetaplah optimis dan berharap pada pertolongan Tuhanmu karena sesungguhnya beserta kesulitan apa pun pasti ada kemudahan yang menyertainya.
-
-*Tafsir Ringkas Kemenag RI* · dikutip sebagian
+— Tafsir Ringkas Kemenag RI · dikutip sebagian
 ---
-[end]
-Semoga bermanfaat.
-Simpan, dan bagikan ke yang sedang butuh.
+[end cta="Kirim"]
+Kirim ke satu orang yang *sedang di masa sulit.*
+Kadang satu ayat cukup untuk menemani.

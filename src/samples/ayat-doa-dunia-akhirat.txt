@@ -1,7 +1,11 @@
 template: serene/fajr
 lang: id
 title: doa kebaikan dunia dan akhirat
-caption: Doa dari Al-Qur'an yang singkat tapi lengkap. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #doa #quran
+caption: Doa dari Al-Qur'an #1: doa kebaikan dunia dan akhirat, singkat tapi lengkap. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #doaharian #doa
+---
+[cover kicker="DOA DARI AL-QUR'AN · #1"]
+Doa singkat yang *meminta semuanya.*
+Kebaikan di dunia dan di akhirat · QS. Al-Baqarah [2]: 201
 ---
 [ayah]
 arab: وَمِنْهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْـَٔاخِرَةِ حَسَنَةً وَقِنَا عَذَابَ ٱلنَّارِ
@@ -9,16 +13,13 @@ terjemah: Di antara mereka ada juga yang berdoa, “Ya Tuhan kami, berilah kami 
 ref: QS. Al-Baqarah [2]: 201
 source: Terjemahan Kemenag RI
 ---
-[card]
-Tafsir
+[quote kicker="Tafsir" icon=none]
 Dengan doa ini, orang-orang beriman yang berilmu dan beramal saleh hidupnya menjadi seimbang lahir batin, dunia akhirat.
-
-*Tafsir Ringkas Kemenag RI* · dikutip sebagian
+— Tafsir Ringkas Kemenag RI · dikutip sebagian
 ---
-[card]
-Renungan
+[card kicker="Renungan"]
 Doa yang singkat, tapi meminta semuanya: kebaikan di dunia, kebaikan di akhirat, dan perlindungan dari azab neraka.
 ---
-[end]
-Semoga bermanfaat.
-Simpan, dan bagikan ke yang sedang butuh.
+[end cta="Kirim"]
+Untuk siapa doa ini *kamu kirim pagi ini?*
+Doa yang singkat, untuk dibaca bersama.

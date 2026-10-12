@@ -1,7 +1,11 @@
 template: serene/isya
 lang: id
 title: aku dekat
-caption: Tentang doa yang kita bisikkan. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #doa #quran
+caption: Ayat tentang doa, untuk doa yang cuma kita bisikkan. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #ayattentangdoa #doa
+---
+[cover kicker="AYAT TENTANG DOA"]
+Untuk doa yang *cuma kamu bisikkan.*
+Satu ayat untuk malam ini · QS. Al-Baqarah [2]: 186
 ---
 [ayah]
 arab: وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ
@@ -9,16 +13,13 @@ terjemah: Apabila hamba-hamba-Ku bertanya kepadamu (Nabi Muhammad) tentang Aku, 
 ref: QS. Al-Baqarah [2]: 186
 source: Terjemahan Kemenag RI
 ---
-[card]
-Tafsir
+[quote kicker="Tafsir" icon=none]
 …sesungguhnya Aku sangat dekat dengan manusia. Aku kabulkan permohonan orang yang berdoa dengan ikhlas apabila dia berdoa kepada-Ku dengan tidak menyekutukan-Ku.
-
-*Tafsir Ringkas Kemenag RI* · dikutip sebagian
+— Tafsir Ringkas Kemenag RI · dikutip sebagian
 ---
-[card]
-Renungan
+[card kicker="Renungan"]
 Tidak perlu suara keras atau kata-kata indah. Allah سبحانه وتعالى dekat, dan mengabulkan permohonan orang yang berdoa kepada-Nya.
 ---
-[end]
-Semoga bermanfaat.
-Simpan, dan bagikan ke yang sedang butuh.
+[end cta="Simpan"]
+Doa apa yang *sedang kamu tunggu?*
+Simpan ayat ini. Bacalah lagi saat doamu terasa lama.

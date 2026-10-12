@@ -1,7 +1,11 @@
 template: serene/fajr
 lang: id
 title: orang kuat
-caption: Kekuatan yang tidak terlihat. HR. Bukhari no. 6114 dan Muslim no. 2609 · Sahih · Terjemahan: HadeethEnc #hadis #pengingatdiri
+caption: Hadis tentang menahan marah: kekuatan yang tidak terlihat. HR. Bukhari no. 6114 dan Muslim no. 2609 · Sahih · Terjemahan: HadeethEnc #hadis #pengingatdiri #hadissahih
+---
+[cover kicker="HADIS TENTANG MENAHAN MARAH"]
+Siapa sebenarnya *orang yang kuat?*
+Satu hadis sahih · HR. Bukhari dan Muslim
 ---
 [hadith]
 arab: لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ
@@ -10,10 +14,9 @@ ref: HR. Bukhari no. 6114 dan Muslim no. 2609
 grade: Sahih
 source: Dari Abu Hurairah رضي الله عنه · Terjemahan: HadeethEnc
 ---
-[card]
-Renungan
+[card kicker="Renungan"]
 Saat ingin membalas, diam sejenak dan menahan diri juga sebuah kekuatan.
 ---
-[end]
-Semoga bermanfaat.
-Simpan, dan bagikan ke yang sedang butuh.
+[end cta="Simpan"]
+Hari ini, *tahan satu kemarahan.*
+Simpan untuk saat emosi datang.

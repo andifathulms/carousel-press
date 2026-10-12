@@ -1,7 +1,11 @@
 template: serene/isya
 lang: id
 title: hati dan amal
-caption: Yang dilihat bukan rupa dan harta. HR. Muslim no. 2564 · Sahih · Terjemahan: HadeethEnc #hadis #pengingatdiri
+caption: Hadis tentang hati: yang dilihat bukan rupa dan harta. HR. Muslim no. 2564 · Sahih · Terjemahan: HadeethEnc #hadis #pengingatdiri #hadissahih
+---
+[cover kicker="HADIS TENTANG HATI"]
+Yang dilihat *bukan rupa dan harta.*
+Satu hadis sahih · HR. Muslim no. 2564
 ---
 [hadith]
 arab: إِنَّ اللهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ
@@ -10,10 +14,9 @@ ref: HR. Muslim no. 2564
 grade: Sahih
 source: Dari Abu Hurairah رضي الله عنه · Terjemahan: HadeethEnc
 ---
-[card]
-Renungan
+[card kicker="Renungan"]
 Penampilan dan harta tidak menjadi ukuran di sisi Allah سبحانه وتعالى. Yang dilihat adalah hati dan amal kita.
 ---
-[end]
-Semoga bermanfaat.
-Simpan, dan bagikan ke yang sedang butuh.
+[end cta="Kirim"]
+Kirim ke yang sedang *merasa kurang.*
+Hati dan amal yang baik lebih berharga dari rupa dan harta.
