@@ -272,6 +272,19 @@ onPhoto: accent `#F2C58F`, badgeBg `#E0A060`, badgeInk `#141A26`, tint `#0B0F18`
 code: panel `#0F1520`, border `#2A3448`, text `#F3E9D7`, prompt `#E0A060`, subcommand `#9CC3E6`, flag `#E8B378`, string `#B8D8A8`, comment `#7F8A99`, dots `null`.
 deco: blobs ✔.
 
+**`editorial/ruang-kunyit`, `ruang-bata`, `ruang-daun`, `ruang-malam`**: Ruang Rasa, one colour per pillar (sahabat, berdua, rumah, diri sendiri). Each has one surface used on every slide: `deep` repeats it, so the cover and end match the cards. No blobs. Serif headlines drop from 700 to 500 (`headlineWeight: 500`).
+fonts: serif `Fraunces`, sans `Instrument Sans`, mono `JetBrains Mono` · rotation `[<key>]`
+
+| Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |
+|---|---|---|---|---|---|---|---|---|---|---|
+| kunyit | #F2C14E | #241A0C | #3B2C14 | #6E5524 | #8A2F14 | #241A0C | #F2C14E | #F2C14E | #8A2F14 | #E5B23F |
+| bata | #5E1F1C | #FBE9DF | #F0D4C8 | #D4A597 | #FFB08F | #FFB08F | #3A1210 | #5E1F1C | #FFB08F | #73302C |
+| daun | #2D4632 | #F1EBDD | #D9DECB | #A9B79E | #EBC872 | #EBC872 | #1E2B20 | #2D4632 | #EBC872 | #3A563F |
+| malam | #131621 | #EDE6DA | #CFC8BC | #8F8A84 | #F4B860 | #F4B860 | #131621 | #131621 | #F4B860 | #22263A |
+
+onPhoto: as rose-dusk, with accent and badgeBg set to the pillar accent (kunyit #FFD877), badgeInk `#1B1A19`, plus a dark tint per pillar. code: rose-dusk tokens on a dark pillar panel.
+deco: none.
+
 ### 5.2 Cover (editorial)
 - Background: the photo (3.6) or the `deep` surface + blobs.
 - Stack from y = 300: [kicker (if any) → gap 32] → **cover headline** → gap 40 → **subtitle**.

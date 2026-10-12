@@ -100,4 +100,42 @@ export const stone: Variant = {
   swatches: ['#EDEAE4', '#9A4B2F', '#2B2A27', '#E39A7A'],
 };
 
-export const EDITORIAL_VARIANTS: readonly Variant[] = [roseDusk, sage, midnight, stone];
+/**
+ * Ruang Rasa (docs/channels.md §1): one colour per pillar, the same surface on every
+ * slide (covers and ends use `deep`, so `deep` repeats the main surface). No blobs,
+ * Fraunces headlines at 500. Tokens from the Oct 2026 account review; contrast-checked.
+ */
+const ruang = (
+  key: string, name: string, s: Surface, photoAccent: string, tint: string, panel: string, swatches: Variant['swatches'],
+): Variant => ({
+  id: `editorial/ruang-${key}` as Variant['id'],
+  name: `Ruang ${name}`,
+  family: 'editorial',
+  fonts: { serif: 'Fraunces', sans: 'Instrument Sans', mono: 'JetBrains Mono' },
+  surfaces: { [key]: s, deep: s },
+  rotation: [key],
+  onPhoto: { ...onPhotoBase, accent: photoAccent, badgeBg: photoAccent, badgeInk: '#1B1A19', tint },
+  code: { ...roseCode, panel, border: panel },
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null },
+  swatches,
+  headlineWeight: 500,
+});
+
+/** Sahabat, teman lama. */
+export const ruangKunyit = ruang('kunyit', 'Kunyit',
+  S('#F2C14E', '#241A0C', '#3B2C14', '#6E5524', '#8A2F14', '#241A0C', '#F2C14E', '#F2C14E', '#8A2F14', '#E5B23F'),
+  '#FFD877', '#1A1206', '#241A0C', ['#F2C14E', '#241A0C', '#8A2F14', '#FFF1C9']);
+/** Berdua: pasangan, LDR, sebelum menikah. */
+export const ruangBata = ruang('bata', 'Bata',
+  S('#5E1F1C', '#FBE9DF', '#F0D4C8', '#D4A597', '#FFB08F', '#FFB08F', '#3A1210', '#5E1F1C', '#FFB08F', '#73302C'),
+  '#FFB08F', '#1A0807', '#3A1210', ['#5E1F1C', '#FBE9DF', '#FFB08F', '#3A1210']);
+/** Rumah: orang tua, saudara, kakek nenek. */
+export const ruangDaun = ruang('daun', 'Daun',
+  S('#2D4632', '#F1EBDD', '#D9DECB', '#A9B79E', '#EBC872', '#EBC872', '#1E2B20', '#2D4632', '#EBC872', '#3A563F'),
+  '#EBC872', '#0E160F', '#1E2B20', ['#2D4632', '#F1EBDD', '#EBC872', '#1E2B20']);
+/** Diri sendiri: refleksi, Pertanyaan Malam. */
+export const ruangMalam = ruang('malam', 'Malam',
+  S('#131621', '#EDE6DA', '#CFC8BC', '#8F8A84', '#F4B860', '#F4B860', '#131621', '#131621', '#F4B860', '#22263A'),
+  '#F4B860', '#07080D', '#0B0D14', ['#131621', '#EDE6DA', '#F4B860', '#22263A']);
+
+export const EDITORIAL_VARIANTS: readonly Variant[] = [roseDusk, sage, midnight, stone, ruangKunyit, ruangBata, ruangDaun, ruangMalam];

@@ -61,9 +61,11 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
   const boxes: Box[] = [];
   const { surface, name, onPhoto } = resolveSurface(v, slide, input.hasPhoto, warnings);
 
-  const spec = (s: Spec): TextSpec => ({
-    ...s, family: s.face === 'serif' ? serif : sans, mono: { family: mono, weight: s.weight >= 600 ? 600 : 400 },
-  });
+  // A variant may soften the 700 serif headlines (Ruang Rasa: Fraunces 500).
+  const spec = (s: Spec): TextSpec => {
+    const weight = s.face === 'serif' && s.weight === 700 && v.headlineWeight ? v.headlineWeight : s.weight;
+    return { ...s, weight, family: s.face === 'serif' ? serif : sans, mono: { family: mono, weight: weight >= 600 ? 600 : 400 } };
+  };
   const items: StackItem[] = [];
   const push = (it: StackItem): void => {
     items.push({ ...it, gap: items.length ? it.gap : 0 } as StackItem);

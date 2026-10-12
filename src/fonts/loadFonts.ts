@@ -23,6 +23,13 @@ import '@fontsource/gentium-book-plus/400.css';
 // Serif 500 for ayah/hadith translations (SPEC-ayah §3).
 import '@fontsource/lora/latin-500.css';
 import '@fontsource/playfair-display/latin-500.css';
+// Ruang Rasa variants (editorial/ruang-*): Fraunces + Instrument Sans.
+import '@fontsource/fraunces/latin-500.css';
+import '@fontsource/fraunces/latin-600.css';
+import '@fontsource/fraunces/latin-700.css';
+import '@fontsource/instrument-sans/latin-400.css';
+import '@fontsource/instrument-sans/latin-500.css';
+import '@fontsource/instrument-sans/latin-600.css';
 // Arabic faces (SPEC-ayah §2): Amiri Quran for ayat, Amiri for hadith. Arabic subset only.
 import '@fontsource/amiri-quran/arabic-400.css';
 import '@fontsource/amiri/arabic-400.css';

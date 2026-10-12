@@ -108,3 +108,10 @@ Before `carousel-core` is extracted, the parser snapshots become the contract (d
 - Direct quotes in Indonesian are free translations of a named public-domain English translation, attributed as "(terj. bebas dari <translator>)" or "(terj. bebas, <translator>)" when space is tight. That meets the brief's "named translation" rule without inventing an Indonesian edition.
 - `[quote icon=none]` on quote slides: editorial's automatic icon pool otherwise put an unrelated icon (a gift) under a philosopher's words.
 
+
+## Ruang Rasa rework (Oct 2026)
+
+- Four tokens-only variants `editorial/ruang-{kunyit,bata,daun,malam}`, one per pillar, from the Oct 2026 account review. Each has a single surface (`deep` repeats it), so a whole deck is one colour. No blobs.
+- New runtime deps `@fontsource/fraunces` and `@fontsource/instrument-sans` (latin, 500–700 / 400–600): a softer serif and a plain sans make the slides read like a note, not a magazine headline. Same @fontsource setup as the other faces.
+- `Variant.headlineWeight` now applies to the editorial family too: it replaces the 700 serif headline weight (cover, card, end). Only the ruang variants set it (500). Quote weight (600) is unchanged.
+- Kunyit's `blob` equals its `bg` (no blobs), so `ink/blob` is tested against the background.

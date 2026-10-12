@@ -76,7 +76,7 @@ export interface Variant {
   code: CodeTheme;
   deco: Deco;
   swatches: [string, string, string, string];
-  /** Dev/terminal: headline weight override and an accent prefix on cover/card headlines. */
+  /** Headline weight override (dev/terminal; editorial/ruang-* softens serif 700 headlines) and an accent prefix on cover/card headlines. */
   headlineWeight?: number;
   headlinePrefix?: string;
   /** Lexicon family only; other families derive these (templates/lexicon/tokens.ts). */

@@ -10,7 +10,7 @@ export interface TextMeasurer {
   hasFace?(family: string, sample: string): boolean;
 }
 
-const SERIF = new Set(['Playfair Display', 'Lora', 'Gentium Book Plus', 'Amiri Quran', 'Amiri']);
+const SERIF = new Set(['Playfair Display', 'Lora', 'Fraunces', 'Gentium Book Plus', 'Amiri Quran', 'Amiri']);
 
 export function isMonoFamily(family: string): boolean {
   return /mono/i.test(family);
