@@ -109,7 +109,7 @@ The first non-empty line of a block may be a tag:
 | `surface` | all | surface name from the variant \| `auto` | Overrides the background rotation for this slide. Checked against the variant at layout time, so an unknown name warns `unknown-attr` under that template only |
 | `cta` | card, code, quote, end | flag, or `"custom text"` | Adds the CTA button below the body/icon, so the last question can double as the end slide. Custom text replaces the button label. On `end` (which always has the button) it only sets the label |
 | `number` | card, code | `off` \| integer (digits) | `off` hides the badge. An integer forces this badge's number without changing the running count. Anything else → `unknown-attr` |
-| `kicker` | cover | text | Small label above the cover title, e.g. `"GIT • CHEAT SHEET"` |
+| `kicker` | cover, card, quote | text | Small label above the title, e.g. `"GIT • CHEAT SHEET"`. On a card it replaces the badge; on a quote it sits above the quote (e.g. `kicker="Tafsir"`) |
 | `verdict` | card, diagram | text | A stamp above the headline, e.g. `verdict="SAH"` (drawn in capitals). It replaces the badge on that slide (DESIGN §6.7) |
 | `tone` | card, diagram | `ok` \| `warn` \| `bad` | Colour of the verdict stamp. Default `ok`. Anything else → `unknown-attr` |
 

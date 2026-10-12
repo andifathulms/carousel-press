@@ -74,7 +74,7 @@ Stack-fit priority when it overflows: source → terjemah size. **Arabic size st
 5. **source**: `sans` 400 24, `muted`
 
 ### 3.3 Other types in `serene`
-- **cover/card/quote/end** use the editorial layouts but **centred**, with no blobs and no numbered badges by default (`number=off` implied). `card` is meant for "Renungan" (reflection) slides.
+- **cover/card/quote/end** use the editorial layouts but **centred**, with no blobs and no numbered badges by default (`number=off` implied). `card` is meant for "Renungan" (reflection) slides: `[card kicker="Renungan"]` with the reflection as the headline. The Tafsir slide is `[quote kicker="Tafsir" icon=none]` with the quote and `— Tafsir Ringkas Kemenag RI` as the attribution (Oct 2026). Serene draws no big quote mark.
 - No auto icons. Icons are allowed only if explicitly set (`moon`, `star`, `leaf`, `sun`, `book`).
 - Photos: allowed but discouraged. If used, the overlay darkness is at least 70, and the photo must have no people or animals (content rule; the app can't check it).
 

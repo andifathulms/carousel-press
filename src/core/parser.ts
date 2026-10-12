@@ -418,7 +418,7 @@ function checkAttrScope(slide: Slide, warn: Warn): void {
   if (isLexType(slide.type) || isArabicType(slide.type)) delete a.icon;
   if (a.cta !== undefined && slide.type === 'cover') drop('cta');
   if (a.number !== undefined && slide.type !== 'card' && slide.type !== 'code' && slide.type !== 'diagram' && slide.type !== 'table') drop('number');
-  if (a.kicker !== undefined && slide.type !== 'cover') drop('kicker');
+  if (a.kicker !== undefined && slide.type !== 'cover' && slide.type !== 'card' && slide.type !== 'quote') drop('kicker');
   if (a.verdict !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('verdict');
   if (a.tone !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('tone');
 }

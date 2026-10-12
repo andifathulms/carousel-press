@@ -89,13 +89,17 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
     case 'card':
     case 'code':
     case 'diagram': {
-      const verdict = verdictItem(slide, v, m, 0);
+      // A card kicker is a small label above the headline; it replaces the badge (PRD §4.3).
+      const kicker = slide.attrs.kicker;
+      if (kicker) push({ kind: 'kicker', h: FIXED.kicker.h, w: 0, gap: 0, label: kicker.toUpperCase() });
+      const verdict = verdictItem(slide, v, m, kicker ? STACK.kickerGap : 0);
       if (verdict) push(verdict);
+      else if (kicker) top = STACK.cardTopNoBadge;
       else if (slide.badge !== null) push({ kind: 'badge', h: FIXED.badge.d, w: FIXED.badge.d, gap: 0, label: String(slide.badge) });
       else top = STACK.cardTopNoBadge;
       const d = diagramItem(slide, STACK.cardGap);
       if (d) push(d);
-      push({ kind: 'text', role: 'headline', rich: slide.headline, spec: spec(TYPE.cardHeadline), gap: STACK.cardGap, tone: 'ink' });
+      push({ kind: 'text', role: 'headline', rich: slide.headline, spec: spec(TYPE.cardHeadline), gap: kicker && !verdict ? STACK.kickerGap : STACK.cardGap, tone: 'ink' });
       if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.cardGap, tone: 'body' });
       if (slide.type === 'code' && slide.code) {
         const c = FIXED.code;
@@ -114,7 +118,8 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
     }
     case 'quote': {
       top = STACK.quoteTop;
-      push({ kind: 'text', role: 'quote', rich: slide.headline, spec: spec(TYPE.quote), gap: 0, tone: 'ink' });
+      if (slide.attrs.kicker) push({ kind: 'kicker', h: FIXED.kicker.h, w: 0, gap: 0, label: slide.attrs.kicker.toUpperCase() });
+      push({ kind: 'text', role: 'quote', rich: slide.headline, spec: spec(TYPE.quote), gap: STACK.kickerGap, tone: 'ink' });
       if (slide.attribution) {
         const a = FIXED.attribution;
         push({ kind: 'attribution', h: a.size * a.lh, w: 0, gap: STACK.attributionGap, label: `— ${slide.attribution}` });

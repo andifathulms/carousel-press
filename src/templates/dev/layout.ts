@@ -97,6 +97,15 @@ export function layoutDev(input: LayoutInput): SlideLayout {
     push({ kind: 'number', h: n.h, w, gap, label });
   };
   const T = v.family === 'sport' ? { ...TYPE, ...SPORT_TYPE } : TYPE;
+  const kickerItem = (): boolean => {
+    if (!slide.attrs.kicker) return false;
+    const k = FIXED.kicker;
+    const label = slide.attrs.kicker.toUpperCase();
+    const w = m.width(label, { family: mono, weight: k.weight, size: k.size }) +
+      k.tracking * Math.max(0, Array.from(label).length - 1) + k.padX * 2;
+    push({ kind: 'kicker', h: k.size + k.padY * 2, w: Math.min(w, CONTENT_W), gap: 0, label });
+    return true;
+  };
   const prefixed = (rich: typeof slide.headline): typeof slide.headline =>
     withPrefix(v.headlineUpper ? upperRich(rich) : rich, v.headlinePrefix);
   let top: number = STACK.cardTop;
@@ -104,21 +113,17 @@ export function layoutDev(input: LayoutInput): SlideLayout {
   switch (slide.type) {
     case 'cover': {
       top = STACK.coverTop;
-      if (slide.attrs.kicker) {
-        const k = FIXED.kicker;
-        const label = slide.attrs.kicker.toUpperCase();
-        const w = m.width(label, { family: mono, weight: k.weight, size: k.size }) +
-          k.tracking * Math.max(0, Array.from(label).length - 1) + k.padX * 2;
-        push({ kind: 'kicker', h: k.size + k.padY * 2, w: Math.min(w, CONTENT_W), gap: 0, label });
-      }
+      kickerItem();
       push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(T.coverHeadline, true), gap: STACK.gap, tone: 'ink' });
       if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'subtitle', rich: slide.body, spec: spec(TYPE.coverSubtitle), gap: STACK.gap, tone: 'muted' });
       break;
     }
     case 'card': {
-      const verdict = verdictItem(slide, v, m, 0);
+      // A card kicker replaces the number (PRD §4.3).
+      const kicked = kickerItem();
+      const verdict = verdictItem(slide, v, m, STACK.gap);
       if (verdict) push(verdict);
-      else numberItem(0);
+      else if (!kicked) numberItem(0);
       push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(T.cardHeadline, true), gap: STACK.gap, tone: 'ink' });
       if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.gap, tone: 'body' });
       pushIcon();
@@ -155,7 +160,8 @@ export function layoutDev(input: LayoutInput): SlideLayout {
     }
     case 'quote': {
       top = STACK.quoteTop;
-      push({ kind: 'text', role: 'quote', rich: slide.headline, spec: spec(TYPE.quote), gap: 0, tone: 'ink' });
+      kickerItem();
+      push({ kind: 'text', role: 'quote', rich: slide.headline, spec: spec(TYPE.quote), gap: STACK.gap, tone: 'ink' });
       if (slide.attribution) {
         const a = FIXED.attribution;
         const label = `— ${slide.attribution}`;
