@@ -1,0 +1,73 @@
+template: lexicon/notebook
+lang: id
+title: since vs for
+caption: Since 2020 itu benar, yang salah justru kata kerjanya. Sumber: Cambridge Grammar (For or since?, Since, Present perfect simple, Ago); Cambridge Dictionary #belajarbahasainggris #englishsehari #grammar
+---
+[cover kicker="GRAMMAR"]
+"I Live Here Since 2020" | Belum Tepat
+Since-nya sudah benar. Yang perlu diganti kata kerjanya, plus kapan pakai for.
+---
+[compare]
+wrong: I live here since 2020.
+right: I *have lived* here since 2020.
+why: Mulai di masa lalu dan masih berlangsung sampai sekarang? Pakai present perfect: have/has + V3. Bentuk pendeknya: I've lived.
+---
+[table]
+Since atau *for*?
+| Since: sejak | For: selama |
+| since 2020 | for six years |
+| since Monday | for three days |
+| since 8 a.m. | for two hours |
+| since I was a kid | for ages |
+Since + titik awal (kapan mulainya). For + lamanya (berapa lama).
+---
+[compare]
+wrong: We've been waiting since two hours.
+right: We've been waiting *for* two hours.
+why: Two hours itu lamanya, bukan titik awal. Since tidak dipakai dengan jangka waktu.
+---
+[compare]
+wrong: How long do you work here?
+right: How long *have you worked* here?
+why: Menanyakan lamanya sesuatu yang masih berlangsung? Pakai How long + present perfect. Jawabnya: For two years, atau Since 2024.
+---
+For juga untuk masa lalu
+For tidak harus dengan present perfect. I *lived* in Bandung *for* four years artinya dulu pernah tinggal empat tahun, dan sekarang sudah pindah. Since tidak bisa dipakai di sini.
+---
+Since + kalimat
+Setelah since boleh langsung kalimat dengan past simple: I've worked here *since I graduated*. She hasn't called *since she moved* to Surabaya.
+---
+[compare]
+wrong: I've been learning English from I was in junior high.
+right: I've been learning English *since* I was in junior high.
+why: Kalau yang menyusul berupa kalimat (subjek + kata kerja) yang menunjuk titik awal, pakai since, bukan from.
+---
+[compare]
+wrong: I have met him three years ago.
+right: I *met* him three years ago.
+why: Ago dipakai dengan past simple, bukan present perfect. Mau pakai present perfect? I've known him for three years.
+---
+[word]
+pos: preposition · conjunction · adverb
+word: since
+ipa: /sɪns/ (UK & US)
+say: "sins"
+meaning: sejak; juga karena
+example: *Since* it's raining, let's order food.
+translation: Karena hujan, kita pesan makanan aja.
+note: Arti karena ini sering muncul di email kerja dan tulisan.
+---
+Kuis: since atau for?
+1. I've had this phone ___ 2022. | 2. She's been sick ___ a week. | 3. We haven't met ___ graduation. | 4. They've been married ___ ten years. | Jawab dulu, lalu geser.
+---
+[table]
+Jawabannya
+| No. | Jawaban | Kenapa |
+| 1 | *since* | 2022 = titik awal |
+| 2 | *for* | a week = lamanya |
+| 3 | *since* | graduation = titik awal |
+| 4 | *for* | ten years = lamanya |
+---
+[end]
+Simpan dulu ✏️
+Sudah berapa lama kamu belajar bahasa Inggris? Jawab pakai for atau since di komen.

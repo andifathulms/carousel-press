@@ -1,0 +1,86 @@
+template: lexicon/notebook
+lang: id
+title: phrasal verb kantor dan kampus
+caption: Bos bilang "I'll look into it"? Itu artinya mau dicek, bukan cuma dilihat. Sumber: Cambridge Dictionary; Cambridge Grammar (Phrasal verbs) #belajarbahasainggris #englishsehari #phrasalverbs
+---
+[cover kicker="PHRASAL VERBS"]
+"I'll Look Into It" | Artinya Mau Dicek
+Bukan "aku lihat ke dalamnya". Ini 10 phrasal verb yang sering muncul di kantor dan kampus.
+---
+[table]
+Di kantor
+| Phrasal verb | Arti |
+| look into | menyelidiki, mengecek |
+| follow up | menindaklanjuti |
+| set up | mengatur (rapat); mendirikan |
+| put off | menunda |
+| come up with | menemukan (ide, rencana) |
+---
+[table]
+Di kampus dan sekolah
+| Phrasal verb | Arti |
+| figure out | memahami |
+| hand in | mengumpulkan |
+| fill in / fill out | mengisi (formulir) |
+| go over | memeriksa teliti |
+| run out of | kehabisan |
+---
+[word]
+pos: phrasal verb · informal
+word: figure out
+say: "FI-ge aut"
+meaning: akhirnya paham, atau menemukan jawaban setelah dipikir-pikir
+example: I can't *figure out* why my code isn't working.
+translation: Aku belum nemu kenapa kodeku nggak jalan.
+---
+[word]
+pos: phrasal verb
+word: run out of
+meaning: kehabisan
+example: The printer has *run out of* paper.
+translation: Kertas printernya habis.
+note: Kalau barangnya jadi subjek, tanpa of: The paper has run out.
+---
+[word]
+pos: phrasal verb
+word: follow up
+meaning: menindaklanjuti; mencari tahu lebih lanjut
+example: Thanks for the report. I'll *follow it up* tomorrow.
+translation: Makasih laporannya. Besok aku tindak lanjuti.
+note: Gaya US: follow up on something. Kata bendanya: a follow-up (tindak lanjut).
+---
+[word]
+pos: phrasal verb
+word: come up with
+meaning: memikirkan atau menemukan ide, rencana, atau solusi
+example: Rina *came up with* a great idea for the event.
+translation: Rina punya ide keren buat acaranya.
+---
+[compare]
+wrong: The form is ready. Please fill in it.
+right: The form is ready. Please *fill it in*.
+why: Kalau objeknya kata ganti (it, them, him), taruh di tengah. Sama seperti hand it in, set it up, figure it out.
+---
+[compare]
+wrong: The client complained. We'll look it into.
+right: The client complained. We'll *look into it*.
+why: Look into nggak bisa dipisah. Objeknya selalu di belakang, termasuk it.
+---
+[compare]
+wrong: I keep putting off to call the bank.
+right: I keep *putting off calling* the bank.
+why: Setelah put off, kata kerjanya pakai -ing: put off going, put off doing.
+---
+Coba ganti pakai phrasal verb
+1. We need to *delay* the meeting. | 2. Please *submit* your report by Friday. | 3. I finally *understood* the problem. | Jawab dulu, lalu geser.
+---
+[table]
+Jawabannya
+| No. | Jawaban |
+| 1 | *put off* the meeting |
+| 2 | *hand in* your report |
+| 3 | *figured out* the problem |
+---
+[end]
+Simpan dulu ✏️
+Bikin satu kalimat pakai come up with di komen.

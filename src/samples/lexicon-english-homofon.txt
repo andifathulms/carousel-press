@@ -1,0 +1,83 @@
+template: lexicon/notebook
+lang: id
+title: homofon yang ketuker
+caption: Beda satu apostrof dan satu huruf e, artinya berubah total. Sumber IPA: Oxford Learner's Dictionaries; arti: Cambridge Dictionary #belajarbahasainggris #englishsehari #grammar
+---
+[cover kicker="SALAH TULIS"]
+Nulis "Your Welcome"? | Harusnya "You're"
+Yang dimaksud you're welcome. Ini 5 pasangan kata yang bunyinya mirip dan sering ketuker di chat.
+---
+[compare]
+wrong: Your welcome, bro!
+right: *You're* welcome, bro!
+why: You're = you are. Your = milikmu: your bag, your idea. Tes cepat: bisa diganti you are? Tulis you're.
+---
+[word]
+pos: short form of you are
+word: you're
+ipa: /jʊə(r)/ · /jɔː(r)/ (UK) · /jʊr/ (US)
+say: "yur" atau "yor"
+meaning: kamu (itu/sedang)
+example: *You're* doing great.
+translation: Kamu hebat kok.
+note: Di US, your dan you're dibaca sama persis. Di UK juga sering sama.
+---
+[compare]
+wrong: My phone is old. It's battery dies fast.
+right: My phone is old. *Its* battery dies fast.
+why: Its (tanpa apostrof) = miliknya, untuk benda atau hewan. It's = it is atau it has.
+---
+[word]
+pos: short form of it is / it has
+word: it's
+ipa: /ɪts/ (UK & US)
+say: "its"
+meaning: itu (adalah); itu sudah
+example: *It's* been a long day.
+translation: Hari ini panjang banget.
+note: Its dibaca persis sama. Bedanya cuma di tulisan.
+---
+[table]
+Their, there, *they're*
+| Kata | Arti | Contoh |
+| their | milik mereka | *their* house |
+| there | di sana; ada | over *there* |
+| they're | they are | *they're* late |
+Ketiganya dibaca sama: "dheer". Bedanya cuma di tulisan.
+---
+[compare]
+wrong: Their going to be late.
+right: *They're* going to be late.
+why: Bisa diganti they are? Tulis they're. Kalau maksudnya milik mereka: their car.
+---
+[compare]
+wrong: My brother is taller then me.
+right: My brother is taller *than* me.
+why: Than untuk membandingkan (daripada). Then artinya lalu, kemudian, atau saat itu: We ate, then we left.
+---
+[word]
+pos: preposition · conjunction
+word: than
+ipa: /ðən/ · /ðæn/ (strong form) · UK & US
+say: "dhen" dengan e lemah
+meaning: daripada
+example: Jakarta is busier *than* Bandung.
+translation: Jakarta lebih ramai daripada Bandung.
+note: Then dibaca beda: e-nya jelas. Jadi bukan homofon, cuma ejaannya mirip.
+---
+[table]
+To, *too*, two
+| Kata | Arti | Contoh |
+| to | ke; untuk | go *to* work |
+| too | juga; terlalu | *too* spicy |
+| two | dua | *two* coffees |
+Too dan two dibaca sama, "tuu". To biasanya lebih pendek, kecuali ditekan.
+---
+[compare]
+wrong: This sambal is to spicy for me.
+right: This sambal is *too* spicy for me.
+why: Terlalu = too, dengan dua o. Me too (aku juga) juga pakai too.
+---
+[end]
+Simpan dulu, biar nggak salah ketik ✏️
+Tulis satu kalimat pakai their, there, dan they're di komen.

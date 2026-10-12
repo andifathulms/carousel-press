@@ -1,0 +1,73 @@
+template: lexicon/notebook
+lang: id
+title: inggris uk vs us
+caption: Minta biscuit di Amerika, yang datang bisa roti kecil, bukan biskuit. Sumber: Cambridge Dictionary (label UK/US) #belajarbahasainggris #englishsehari #vocabulary
+---
+[cover kicker="UK vs US"]
+Di London, Pants Itu | Celana Dalam
+Di Amerika, pants itu celana panjang. Ini kata sehari-hari yang beda antara Inggris (UK) dan Amerika (US).
+---
+[word]
+pos: noun · beda arti UK/US
+word: pants
+ipa: /pænts/ (UK & US)
+say: "pents"
+meaning: UK: celana dalam | US: celana panjang
+example: I spilled coffee on my *pants*.
+translation: (US) Celanaku ketumpahan kopi.
+note: Celana panjang versi UK: trousers.
+---
+[table]
+Di rumah dan gedung
+| UK | US | Arti |
+| flat | apartment | apartemen |
+| lift | elevator | lift |
+| rubbish | trash, garbage | sampah |
+| mobile phone | cell phone | HP |
+---
+[table]
+Soal makanan
+| UK | US | Arti |
+| biscuit | cookie | biskuit |
+| chips | French fries | kentang goreng |
+| crisps | chips | keripik kentang |
+Hati-hati: chips di UK dan di US itu beda makanan.
+---
+[word]
+pos: noun · beda arti UK/US
+word: biscuit
+ipa: /ˈbɪs.kɪt/ (UK & US)
+say: "BIS-kit"
+meaning: UK: biskuit | US: roti kecil bundar
+example: Would you like a *biscuit* with your tea?
+translation: (UK) Mau biskuit buat teman minum teh?
+note: Biskuit manis versi US: cookie.
+---
+[table]
+Liburan dan jalan-jalan
+| UK | US | Arti |
+| holiday | vacation | liburan |
+| queue | line | antrean |
+| petrol | gas | bensin |
+| jump the queue | cut in line | nyerobot |
+---
+Antre: queue atau line?
+UK: We had to *queue* for an hour. | US: We had to *wait in line* for an hour. | Dua-duanya artinya kami harus antre sejam.
+---
+[table]
+Ejaan juga beda
+| UK | US |
+| col*our* | col*or* |
+| cent*re* | cent*er* |
+| program*me* | program |
+| trave*ll*ed | trave*l*ed |
+| reali*s*e | reali*z*e |
+| organi*s*e | organi*z*e |
+Program komputer ditulis program di UK juga. Di UK, -ize juga dipakai, tapi biasanya -ise.
+---
+Pilih satu gaya, lalu konsisten
+Dua-duanya benar. Di satu tulisan (CV, email, skripsi), pakai satu gaya saja: colour + realise, atau color + realize. Jangan dicampur.
+---
+[end]
+Simpan dulu ✏️
+Kamu lebih sering pakai versi UK atau US? Tulis di komen.

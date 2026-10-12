@@ -1,0 +1,107 @@
+template: lexicon/notebook
+lang: id
+title: huruf diam bahasa inggris
+caption: Wednesday cuma dua suku kata: "wenz-dei". Huruf d pertamanya nggak pernah dibaca. Sumber IPA: Cambridge Dictionary #belajarbahasainggris #englishsehari #pronunciation
+---
+[cover kicker="PRONUNCIATION"]
+Knife Dibaca "Naif", | K-nya Diam
+Ini 26 kata sehari-hari yang punya huruf tak terbaca, dari knife sampai Wednesday.
+---
+[table]
+K dan W diam di awal kata
+| Kata | Dibaca | Arti |
+| *k*nife | "naif" | pisau |
+| *k*now | "nou" | tahu |
+| *k*nee | "nii" | lutut |
+| *w*rite | "rait" | menulis |
+Kn- dan wr- di awal kata: k dan w-nya nggak dibaca.
+---
+[word]
+pos: noun · plural knives
+word: knife
+ipa: /naɪf/ (UK & US)
+say: "naif", tanpa bunyi k
+meaning: pisau
+example: Can you pass me the *knife*?
+translation: Tolong ambilkan pisaunya, dong.
+note: Jamaknya knives, dan k-nya tetap diam.
+---
+[table]
+B yang diam
+| Kata | Dibaca | Arti |
+| thum*b* | "tham" | jempol |
+| clim*b* | "klaim" | memanjat |
+| com*b* | "koum" | sisir |
+| de*b*t | "det" | utang |
+| dou*b*t | "daut" | ragu |
+Setelah m di akhir kata, dan sebelum t di debt dan doubt, b-nya diam.
+---
+[word]
+pos: noun
+word: debt
+ipa: /det/ (UK & US)
+say: "det", tanpa bunyi b
+meaning: utang
+example: I finally paid off my *debt*.
+translation: Akhirnya utangku lunas.
+---
+[table]
+T, S, dan C yang diam
+| Kata | Dibaca | Arti |
+| lis*t*en | "LI-sen" | mendengarkan |
+| cas*t*le | "KAA-sel" (UK) | kastil |
+| whis*t*le | "WI-sel" | peluit |
+| i*s*land | "AI-lend" | pulau |
+| mus*c*le | "MA-sel" | otot |
+---
+[word]
+pos: noun
+word: island
+ipa: /ˈaɪ.lənd/ (UK & US)
+say: "AI-lend", s-nya diam
+meaning: pulau
+example: Lombok is my favourite *island*.
+translation: Lombok pulau favoritku.
+---
+[table]
+H dan L yang diam
+| Kata | Dibaca | Arti |
+| *h*onest | "O-nist" | jujur |
+| *h*our | "AW-e" | jam |
+| ha*l*f | "haaf" (UK) | setengah |
+| ca*l*m | "kaam" | tenang |
+| wa*l*k | "wook" | berjalan kaki |
+| cou*l*d | "kud" | bisa (lampau can) |
+---
+[word]
+pos: adjective
+word: honest
+ipa: /ˈɒn.ɪst/ (UK) · /ˈɑː.nɪst/ (US)
+say: "O-nist", tanpa bunyi h
+meaning: jujur
+example: To be *honest*, I forgot.
+translation: Jujur, aku lupa.
+note: Karena bunyi awalnya vokal, artikelnya an: an honest answer. Sama dengan an hour.
+---
+[table]
+P dan G yang diam
+| Kata | Dibaca | Arti |
+| *p*sychology | "sai-KO-le-ji" | psikologi |
+| recei*p*t | "ri-SIIT" | struk |
+| si*g*n | "sain" | tanda |
+| forei*g*n | "FO-ren" | asing |
+| desi*g*n | "di-ZAIN" | desain |
+---
+[word]
+pos: noun
+word: Wednesday
+ipa: /ˈwenz.deɪ/ (UK & US)
+say: "WENZ-dei", dua suku kata
+meaning: hari Rabu
+example: See you on *Wednesday*!
+translation: Sampai ketemu hari Rabu!
+note: Huruf d pertama dan e kedua nggak dibaca. Bukan "wed-nes-dei".
+---
+[end]
+Simpan dulu ✏️
+Kata mana yang selama ini kamu baca lengkap? Tulis di komen.
