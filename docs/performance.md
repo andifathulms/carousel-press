@@ -18,6 +18,20 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 - Long decks are fine when every slide pays off (post 3 had 15).
 - Next: Kata Indah as a numbered series; re-upload posts 1–2 with the rewritten covers already in the samples; test whether serapan trivia can travel with a better hook.
 
+## Kosakata Inggris (`lexicon/notebook`, @kosakata_inggris)
+
+| Post | Cover as posted | Slides | Views |
+|---|---|---|---|
+| 1 | 11 kalimat Inggris yang sering salah | 13 | 625 |
+| 2 | Think jadi thought? Ini polanya | 12 | 376 |
+| 3 | "I did a mistake"? Harusnya made | 10 | 712 |
+| 4 | Walked itu satu ketukan, bukan wal-ked | 10 | 699 |
+
+- 152 likes in total (6% per view), 4 followers (Oct 2026).
+- Covers naming one concrete mistake beat the pattern lesson; no breakout yet.
+- Low follows: the bio promised a daily word, the posts were long grammar decks, and nothing said "come back tomorrow". Changes made: Kata hari ini #N daily series, payoff first (slide 2 = the strongest example), A/B quizzes with one-letter end asks.
+- Track: follows per post first, then 24-hour views and saves per 1,000 views.
+
 ## Ayat Harian (`serene/*`)
 
 - First post: 250 views, 30 likes after 20 hours (12% likes per view).
@@ -40,4 +54,4 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 
 ## Review pages (owner's private links)
 
-The full reviews with mockups were published as private claude.ai artifacts in the Oct 2026 session (Ruang Rasa Rework, Whistle Notes Rework, Ayat Harian Review, Kamus Kecil Review). The standards they set are already in `docs/channels.md`; the pages are for the owner's reference.
+The full reviews with mockups were published as private claude.ai artifacts in the Oct 2026 session (Ruang Rasa Rework, Whistle Notes Rework, Ayat Harian Review, Kamus Kecil Review, Kosakata Inggris Review). The standards they set are already in `docs/channels.md`; the pages are for the owner's reference.

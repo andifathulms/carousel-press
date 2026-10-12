@@ -1,6 +1,6 @@
 # Carousel Press: Lexicon addendum (word / table / compare slides)
 
-> Addendum to PRD.md and DESIGN.md. Adds three slide types and one template family for the language-learning accounts (English Sehari, Kamus Kecil).
+> Addendum to PRD.md and DESIGN.md. Adds three slide types and one template family for the language-learning accounts (Kosakata Inggris, Kamus Kecil).
 > Same rules as the main spec: the parser never throws, there is one render path, layouts use stack-fit, everything stays inside SAFE, and contrast is tested.
 > Where this file and the main spec conflict on these features, this file wins.
 
@@ -99,7 +99,7 @@ rotation `['paper', 'paper-alt']` · swatches `#F6F1E7 #B3261E #1E1B18 #E8DFCC`
 Extra tokens: `rule: #DCCFB8` (divider lines), `highlight: #F3D9A4` (marker behind `*word*` in examples), `okBg: #E3EEDB`, `okInk: #2E5A2A`, `badBg: #F6DCD8`, `badInk: #8E1F17`.
 Deco: a thin double rule under the header (2 px + 1 px, `rule`). (The faint `“` corner glyph was removed in the Oct 2026 review: a quotation mark means nothing on a dictionary slide.)
 
-**`lexicon/notebook`**: English Sehari. Lined school notebook with blue pen and yellow marker.
+**`lexicon/notebook`**: Kosakata Inggris. Lined school notebook with blue pen and yellow marker.
 rotation `['page']` · swatches `#FBFBF7 #2F5BD3 #1B2430 #FFE58A`
 
 | Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |

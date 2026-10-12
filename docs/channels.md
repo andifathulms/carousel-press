@@ -9,7 +9,7 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 - Indonesian history, kingdoms, local events, place-name origins → **Catatan Kaki Sejarah**
 - sports rules, how a sport works, rule incidents → **Whistle Notes**
 - regional statistics, rankings, "kabupaten mana yang paling…" → **Peta Angka**
-- English vocabulary, grammar, pronunciation for Indonesians → **English Sehari**
+- English vocabulary, grammar, pronunciation for Indonesians → **Kosakata Inggris**
 - Indonesian words, KBBI meanings, kata baku, kata serapan → **Kamus Kecil**
 - Quran ayat, hadith, doa, Islamic reminders → **Ayat Harian**
 - philosophy ideas applied to everyday life, thinkers, dilemmas → **Filsafat Harian**
@@ -23,7 +23,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 📜 Catatan Kaki Sejarah | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
 | 🏟️ Whistle Notes | `id` | Sports rules as verdict quizzes | `sport/*` | `sport/papan` (football), `sport/lapangan` (indoor) |
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
-| ✏️ English Sehari | `id` (teaches English) | Words, irregular verbs, common mistakes | `lexicon/*` | `lexicon/notebook` |
+| ✏️ Kosakata Inggris (@kosakata_inggris) | `id` (teaches English) | Daily words, common mistakes, A/B quizzes | `lexicon/*` | `lexicon/notebook` |
 | 📖 Kamus Kecil | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
 | 🌙 Ayat Harian | `id` (+ Arabic) | One ayah / hadith a day, calm reminders | `serene/*` | `serene/fajr` |
 | 🏛️ Filsafat Harian | `id` | One philosophical idea applied to daily life | `editorial/*` | `editorial/stone` |
@@ -466,11 +466,31 @@ Tulis di komen, nanti kami cek datanya.
 
 ---
 
-## 6. ✏️ English Sehari
+## 6. ✏️ Kosakata Inggris
 
+**Account:** Kosakata Inggris, `@kosakata_inggris` (put `handle: @kosakata_inggris` in every deck header). Earlier docs called it "English Sehari".
 **Tagline:** *Satu hari, satu hal kecil tentang bahasa Inggris.*
+**Bio (owner to set):** "📖 Kata hari ini, tiap hari. Plus salah kaprah bahasa Inggris yang sering kita pakai. Simpan, pakai!"
 A faceless account that teaches English to Indonesians, one small, useful thing per post: a word, a verb pattern, a common mistake, a pronunciation trap.
 It should feel like "oh, jadi selama ini aku salah", never like a textbook or a test.
+
+**What works (owner data, Oct 2026).** Views of the first four posts: "11 kalimat Inggris yang sering salah" 625 · "Think jadi thought? Ini polanya" 376 · "'I did a mistake'? Harusnya made" 712 · "Walked itu satu ketukan" 699. 152 likes in total (6% per view) but only 4 followers. Covers naming one concrete mistake beat the pattern lesson. The low follow rate comes from a profile that promised a daily word while the posts were long grammar decks, and from nothing that says "come back tomorrow".
+
+### Formats (in order)
+
+1. **Kata hari ini #N** (daily, 4 slides): cover with the word big and a one-line hook (kicker `KATA HARI INI · #N`) → `[word]` (IPA + meaning from Cambridge/Oxford) → a one-line situation or mini quiz `[card]` → end "Besok: Kata hari ini #N+1." with `cta="Follow"`. This delivers the bio's promise.
+2. **Salah kaprah with an A/B quiz**: cover names one concrete mistake taken literally ("Bilang 'I'm boring'? Artinya kamu yang bikin bosan.") → slide 2 a `[card]` "Mana yang benar?" with `A. …` / `B. …` body lines and "Jawab A atau B dulu, baru geser." → the `[compare]` reveal → more compares → end "Kamu tadi jawab *A atau B?*".
+3. **Everyday-life shock**: UK vs US, false friends, chat typos, work phrases ("pants itu celana dalam", "fabric itu kain").
+4. **Pronunciation**: one trap per deck (-ed, silent letters), with `say:` respelling and IPA.
+5. **Patterns** (irregular verbs, make vs do): only with a mistake-hook cover ("Thinked? Buyed? Bukan begitu."), and never the rule first.
+
+### Slide order and endings
+
+- **Payoff first:** slide 2 is always the strongest example (a wrong-vs-right `[compare]` or the A/B quiz), never the rule. The rule or table comes after two or three examples, or as a recap near the end.
+- **One-tap comment asks:** "A atau B?", "UK atau US?", "kata mana yang dulu kamu baca lengkap?". Don't ask learners to write a whole English sentence in public.
+- **End lines** are specific to the deck and never the same on consecutive posts; the CTA names the action (`cta="Simpan"`, `cta="Follow"`).
+- **Search words** in the caption's first line ("Kesalahan bahasa Inggris yang sering dipakai orang Indonesia."), hashtags `#belajarbahasainggris`, `#kosakatainggris` + one topic tag.
+- **Rhythm:** Kata hari ini daily, plus 2–3 bigger decks a week; when one breaks out, make its type a numbered series within the week.
 
 | | |
 |---|---|
@@ -514,20 +534,21 @@ It should feel like "oh, jadi selama ini aku salah", never like a textbook or a 
 - **Length (owner, Oct 2026):** 8–14 slides. Compact: every slide teaches something with an example, nothing is there just to fill space. Go up to 14 only when the topic needs it.
 - **Word-of-the-day deck:** cover → `[word]` → `[table]` (forms, or synonyms/opposites) → `[compare]` (common mistake with it) → `[card]` "Coba pakai: …" prompt → end.
 - **Pattern deck (verbs):** cover → 2–3 `[table]` slides grouped by pattern → `[word]` for the trickiest one → `[compare]` → end.
-- **Salah kaprah deck:** cover → 3–5 `[compare]` slides → end.
+- **Salah kaprah deck:** cover → A/B quiz `[card]` → its `[compare]` reveal → 2–4 more `[compare]` → end.
 - **Quiz deck:** cover → `[card]` question + "Jawaban di slide berikutnya" → `[compare]` or `[card]` answer → … → end.
-- **End:** `[end]` with `Simpan dulu ✏️` + a reply prompt (`Coba bikin kalimat pakai kata ini di komen`).
+- **End:** `[end cta="…"]` with a deck-specific line and a one-tap ask (see "Slide order and endings").
 - **Caption:** one line + dictionary source if IPA/definitions are used + 2–4 hashtags (`#belajarbahasainggris`, `#englishsehari`, `#irregularverbs`, `#vocabulary`…).
 - **Fallback until the lexicon features ship** (see Open items): `[word]` → `[card]` with headline = word and body lines `IPA · arti · contoh`; `[table]` → `[card]` with one row per body line (`think → thought`); `[compare]` → `[card]` with `✘ …` / `✔ …` body lines.
 
 ```text
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: verb pola ought
 caption: Think jadi thought, buy jadi bought. Ini polanya 👇 Sumber IPA: Cambridge Dictionary #belajarbahasainggris #irregularverbs
 ---
 [cover kicker="IRREGULAR VERBS"]
-Think → Thought? | Ini Polanya
+Thinked? Buyed? | Bukan Begitu
 6 kata kerja yang V2-nya berakhiran -ought / -aught.
 ---
 [table]
@@ -558,9 +579,9 @@ wrong: Yesterday I thinked about it.
 right: Yesterday I *thought* about it.
 why: Think tidak pakai -ed. Bentuk lampaunya thought.
 ---
-[end]
-Simpan dulu ✏️
-Coba bikin kalimat pakai "brought" di komen.
+[end cta="Simpan"]
+Kamu dulu nulis *thinked* juga?
+Jawab "iya" atau "nggak" di komen.
 ```
 
 ---
@@ -633,7 +654,7 @@ It should feel like "lho, ternyata kata ini dari bahasa Portugis?", never like a
 - **Kata Indah deck:** cover (kicker `KATA INDAH #N · KBBI VI`) → optional myth card → `[word]` × 6–8 → recap `[table]` → end. Up to 8 words, so the recap fits one table.
 - **End:** `[end cta="…"]` with the deck-type line from "Covers and endings".
 - **Caption:** one line + `Sumber: KBBI VI Daring` (+ other sources) + 2–4 hashtags (`#bahasaindonesia`, `#kbbi`, `#katabaku`, `#kataserapan`…).
-- **Fallback until the lexicon features ship:** same as English Sehari.
+- **Fallback until the lexicon features ship:** same as Kosakata Inggris.
 
 ```text
 template: lexicon/kamus
@@ -879,7 +900,7 @@ Tulis di komen.
 
 ### Standards from the Oct 2026 account reviews (every account, every new deck)
 
-Four accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
+Five accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil, Kosakata Inggris). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
 
 1. **The cover is the hook, and the subtitle says what the viewer gets.** A specific, true scene, fact or question, not a topic label. Never "N pertanyaan buat…"-style homework, never a finger-pointing "Kamu masih…".
 2. **Never repeat the cover line as a card.** Card 1 is the strongest payoff.
@@ -904,7 +925,7 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - When asked for many posts at once, vary pillar, template and opening hook across them.
 - **Hooks (owner, Oct 2026):** the cover is the hook. Make it concrete and specific (a number, a name, a surprising true fact, a situation the viewer recognises), not a topic label. The caption's first line adds to the hook instead of summarising the deck. The hook must still be true and backed by the deck: no clickbait, and keep each account's tone (Ayat Harian stays calm; Ruang Rasa stays gentle).
 - **Re-uploading a deleted post:** rewrite the cover, caption, title and the wording of every slide, and change the order where it still reads well, so it isn't flagged as the same content. Keep the facts, sources and photos (photo choice and order may change).
-- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, English Sehari, Kamus Kecil, Ayat Harian, Filsafat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
+- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, Kosakata Inggris, Kamus Kecil, Ayat Harian, Filsafat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
   - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
   - No source manifest or source list in the reply is needed for images. Just pick a fitting free image.
