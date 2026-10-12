@@ -1,11 +1,27 @@
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: make atau do
-caption: Yang benar made a mistake, tapi do me a favour, dan ini nggak bisa ditukar. Sumber: Cambridge Dictionary; Cambridge Grammar ("Do or make?"); Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #collocation
+caption: Yang benar made a mistake, tapi do me a favour, dan ini nggak bisa ditukar. Sumber: Cambridge Dictionary; Cambridge Grammar ("Do or make?"); Oxford Learner's Dictionaries #belajarbahasainggris #kosakatainggris #collocation
 ---
 [cover kicker="MAKE VS DO"]
 "I Did a Mistake"? | Harusnya Made
 Make dan do sama-sama bisa berarti "membuat", tapi pasangannya beda.
+---
+[compare]
+wrong: I did a mistake.
+right: I *made* a mistake.
+why: Mistake berpasangan dengan make.
+---
+[compare]
+wrong: Can you make me a favour?
+right: Can you *do* me a favour?
+why: Favour berpasangan dengan do: do me a favour. Ejaan Amerika: favor.
+---
+[compare]
+wrong: We made a research about plastic waste.
+right: We *did research* on plastic waste.
+why: Research berpasangan dengan do (atau carry out). Research juga tidak bisa dihitung, jadi tanpa a.
 ---
 Ada pegangan umum
 Menurut Cambridge Grammar: do fokus pada proses atau aktivitas, make lebih ke hasil atau produk. Tapi banyak frasa tetap harus dihafal sebagai satu paket.
@@ -35,21 +51,6 @@ Pakai *do*
 | do research | melakukan riset |
 Versi khas Inggris untuk do the dishes: do the washing-up.
 ---
-[compare]
-wrong: I did a mistake.
-right: I *made* a mistake.
-why: Mistake berpasangan dengan make.
----
-[compare]
-wrong: Can you make me a favour?
-right: Can you *do* me a favour?
-why: Favour berpasangan dengan do: do me a favour. Ejaan Amerika: favor.
----
-[compare]
-wrong: We made a research about plastic waste.
-right: We *did research* on plastic waste.
-why: Research berpasangan dengan do (atau carry out). Research juga tidak bisa dihitung, jadi tanpa a.
----
 Kuis: make atau do?
 ___ the shopping, ___ a phone call, ___ an effort, ___ exercise. Jawab di kepala atau di komen, lalu geser.
 ---
@@ -61,6 +62,6 @@ Jawabannya
 | an effort | *make* |
 | exercise | *do* |
 ---
-[end]
-Simpan dulu ✏️
-Coba bikin satu kalimat yang benar di komen.
+[end cta="Simpan"]
+Kuisnya kamu *benar berapa?*
+Komen angkanya, dari 4.

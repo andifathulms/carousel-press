@@ -1,7 +1,8 @@
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: inggris uk vs us
-caption: Minta biscuit di Amerika, yang datang bisa roti kecil, bukan biskuit. Sumber: Cambridge Dictionary (label UK/US) #belajarbahasainggris #englishsehari #vocabulary
+caption: Minta biscuit di Amerika, yang datang bisa roti kecil, bukan biskuit. Sumber: Cambridge Dictionary (label UK/US) #belajarbahasainggris #kosakatainggris #vocabulary
 ---
 [cover kicker="UK vs US"]
 Di London, Pants Itu | Celana Dalam
@@ -68,6 +69,6 @@ Program komputer ditulis program di UK juga. Di UK, -ize juga dipakai, tapi bias
 Pilih satu gaya, lalu konsisten
 Dua-duanya benar. Di satu tulisan (CV, email, skripsi), pakai satu gaya saja: colour + realise, atau color + realize. Jangan dicampur.
 ---
-[end]
-Simpan dulu ✏️
-Kamu lebih sering pakai versi UK atau US? Tulis di komen.
+[end cta="Simpan"]
+Kamu tim *UK atau US?*
+Satu kata di komen.

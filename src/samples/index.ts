@@ -71,6 +71,7 @@ import lexSinceFor from './lexicon-english-since-for.txt?raw';
 import lexHomofon from './lexicon-english-homofon.txt?raw';
 import lexSilent from './lexicon-english-silent-letters.txt?raw';
 import lexUkUs from './lexicon-english-uk-us.txt?raw';
+import lexKataHariIni1 from './lexicon-english-kata-hari-ini-1.txt?raw';
 import lexPhrasal from './lexicon-english-phrasal-kerja.txt?raw';
 import devHttpMethods from './dev-http-methods-id.txt?raw';
 import devStorage from './dev-storage-browser-id.txt?raw';
@@ -221,6 +222,7 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-english-silent-letters', name: 'Huruf yang tidak dibaca (Kosakata Inggris, id)', category: 'english', text: lexSilent },
   { id: 'lexicon-english-uk-us', name: 'British vs American (Kosakata Inggris, id)', category: 'english', text: lexUkUs },
   { id: 'lexicon-english-phrasal-kerja', name: 'Phrasal verb kerja dan kampus (Kosakata Inggris, id)', category: 'english', text: lexPhrasal },
+  { id: 'lexicon-english-kata-hari-ini-1', name: 'Kata hari ini #1: pants (Kosakata Inggris, id)', category: 'english', text: lexKataHariIni1 },
   { id: 'dev-http-methods-id', name: 'PUT vs PATCH (dev, id)', category: 'dev', text: devHttpMethods },
   { id: 'dev-storage-browser-id', name: 'localStorage vs cookie (dev, id)', category: 'dev', text: devStorage },
   { id: 'dev-regex-dasar-id', name: 'Regex dasar (dev, id)', category: 'dev', text: devRegex },

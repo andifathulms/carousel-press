@@ -235,17 +235,19 @@ describe('every shipped deck', () => {
       const short = f.startsWith('ayat-') || f.startsWith('hadis-');
       // Ruang Rasa's Pertanyaan Malam series is 3 slides (channels.md §1).
       const malam = /kicker="PERTANYAAN MALAM/.test(sample(f.slice(0, -4)));
+      // Kosakata Inggris' daily "Kata hari ini #N" is 4 slides (channels.md §6).
+      const daily = /kicker="KATA HARI INI/.test(sample(f.slice(0, -4)));
       const ws = long ? r.warnings.filter((w) => w.code !== 'long-deck') : r.warnings;
       expect(ws).toEqual([]);
       if (long) expect(r.deck.slides.length).toBeLessThanOrEqual(14);
       // Language decks: 8–14 slides, compact (owner, Oct 2026).
-      if (f.startsWith('lexicon-')) expect(r.deck.slides.length).toBeGreaterThanOrEqual(8);
+      if (f.startsWith('lexicon-')) expect(r.deck.slides.length).toBeGreaterThanOrEqual(daily ? 4 : 8);
       // Whistle Notes rework (owner, Oct 2026): 6–10 slides.
       if (f.startsWith('sports-')) {
         expect(r.deck.slides.length).toBeGreaterThanOrEqual(6);
         expect(r.deck.slides.length).toBeLessThanOrEqual(10);
       }
-      expect(r.deck.slides.length).toBeGreaterThanOrEqual(short ? 1 : malam ? 3 : 5);
+      expect(r.deck.slides.length).toBeGreaterThanOrEqual(short ? 1 : malam ? 3 : daily ? 4 : 5);
       // With the context cover (owner, Oct 2026): up to 5 slides for ayat, 4 for hadith.
       if (short) expect(r.deck.slides.length).toBeLessThanOrEqual(f.startsWith('ayat-') ? 5 : 4);
       expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);

@@ -537,7 +537,7 @@ It should feel like "oh, jadi selama ini aku salah", never like a textbook or a 
 - **Salah kaprah deck:** cover → A/B quiz `[card]` → its `[compare]` reveal → 2–4 more `[compare]` → end.
 - **Quiz deck:** cover → `[card]` question + "Jawaban di slide berikutnya" → `[compare]` or `[card]` answer → … → end.
 - **End:** `[end cta="…"]` with a deck-specific line and a one-tap ask (see "Slide order and endings").
-- **Caption:** one line + dictionary source if IPA/definitions are used + 2–4 hashtags (`#belajarbahasainggris`, `#englishsehari`, `#irregularverbs`, `#vocabulary`…).
+- **Caption:** one line + dictionary source if IPA/definitions are used + 2–4 hashtags (`#belajarbahasainggris`, `#kosakatainggris`, `#irregularverbs`, `#vocabulary`…).
 - **Fallback until the lexicon features ship** (see Open items): `[word]` → `[card]` with headline = word and body lines `IPA · arti · contoh`; `[table]` → `[card]` with one row per body line (`think → thought`); `[compare]` → `[card]` with `✘ …` / `✔ …` body lines.
 
 ```text

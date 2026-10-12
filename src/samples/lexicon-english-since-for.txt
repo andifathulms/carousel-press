@@ -1,7 +1,8 @@
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: since vs for
-caption: Since 2020 itu benar, yang salah justru kata kerjanya. Sumber: Cambridge Grammar (For or since?, Since, Present perfect simple, Ago); Cambridge Dictionary #belajarbahasainggris #englishsehari #grammar
+caption: Since 2020 itu benar, yang salah justru kata kerjanya. Sumber: Cambridge Grammar (For or since?, Since, Present perfect simple, Ago); Cambridge Dictionary #belajarbahasainggris #kosakatainggris #grammar
 ---
 [cover kicker="GRAMMAR"]
 "I Live Here Since 2020" | Belum Tepat
@@ -68,6 +69,6 @@ Jawabannya
 | 3 | *since* | graduation = titik awal |
 | 4 | *for* | ten years = lamanya |
 ---
-[end]
-Simpan dulu ✏️
-Sudah berapa lama kamu belajar bahasa Inggris? Jawab pakai for atau since di komen.
+[end cta="Simpan"]
+Sudah berapa lama *kamu belajar bahasa Inggris?*
+Jawab pakai for, misalnya: for two years.

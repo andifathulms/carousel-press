@@ -1,21 +1,12 @@
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: cara baca akhiran ed
-caption: Walked itu dibaca satu ketukan, bukan wal-ked. Sumber aturan: Cambridge Grammar; British Council TeachingEnglish; IPA: Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #pronunciation
+caption: Walked itu dibaca satu ketukan, bukan wal-ked. Sumber aturan: Cambridge Grammar; British Council TeachingEnglish; IPA: Oxford Learner's Dictionaries #belajarbahasainggris #kosakatainggris #pronunciation
 ---
 [cover kicker="PRONUNCIATION"]
 Walked Itu Satu Ketukan, | Bukan Wal-ked
 Bunyi -ed ada tiga, dan cuma satu yang menambah suku kata.
----
-[table]
-Tiga bunyi *-ed*
-| Bunyi | Contoh |
-| t | walk*ed*, stopp*ed*, laugh*ed* |
-| d | play*ed*, clean*ed*, call*ed* |
-| id | want*ed*, need*ed*, decid*ed* |
----
-Cara cepat menentukannya
-Kata dasarnya berakhir bunyi t atau d? -ed dibaca "id", tambah satu suku kata. Selain itu, taruh tangan di leher: bunyi terakhir bergetar (seperti b) berarti d; tidak bergetar (p, k, f, s, sh, ch) berarti t.
 ---
 [word]
 pos: verb · V2/V3 of walk
@@ -34,6 +25,16 @@ say: "WON-tid", dua suku kata
 meaning: ingin; mau
 example: She *wanted* to quit.
 translation: Dia pengin berhenti.
+---
+[table]
+Tiga bunyi *-ed*
+| Bunyi | Contoh |
+| t | walk*ed*, stopp*ed*, laugh*ed* |
+| d | play*ed*, clean*ed*, call*ed* |
+| id | want*ed*, need*ed*, decid*ed* |
+---
+Cara cepat menentukannya
+Kata dasarnya berakhir bunyi t atau d? -ed dibaca "id", tambah satu suku kata. Selain itu, taruh tangan di leher: bunyi terakhir bergetar (seperti b) berarti d; tidak bergetar (p, k, f, s, sh, ch) berarti t.
 ---
 [table]
 Pengecualian: kata sifat *-ed*
@@ -64,6 +65,6 @@ Jawabannya
 | need*ed* | id |
 | clean*ed* | d |
 ---
-[end]
-Simpan dulu ✏️
-Coba bikin satu kalimat yang benar di komen.
+[end cta="Simpan"]
+Kamu dulu baca *wal-ked* juga?
+Jawab "iya" atau "nggak" di komen.

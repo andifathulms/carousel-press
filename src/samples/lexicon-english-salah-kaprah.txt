@@ -1,11 +1,17 @@
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: salah kaprah bahasa inggris
-caption: Mau bilang bosan, malah ngaku membosankan. Ini 8 kalimat yang sering kepleset, plus versi benarnya. Sumber: Cambridge Grammar (Common mistakes); Oxford Learner's Dictionaries #belajarbahasainggris #englishsehari #grammar
+caption: Mau bilang bosan, malah ngaku membosankan. Ini 8 kalimat yang sering kepleset, plus versi benarnya. Sumber: Cambridge Grammar (Common mistakes); Oxford Learner's Dictionaries #belajarbahasainggris #kosakatainggris #grammar
 ---
 [cover kicker="SALAH KAPRAH"]
 Bilang "I'm Boring"? | Artinya Kamu yang Bikin Bosan
 Itu satu dari 8 kalimat Inggris yang sering keliru. Santai, ini wajar.
+---
+[card kicker="Mana yang benar?" number=off]
+*A.* I'm boring. | *B.* I'm bored.
+Kamu bosan di rumah, terus ngajak teman keluar. Bilang yang mana?
+Jawab A atau B dulu, baru geser.
 ---
 [compare]
 wrong: I'm boring. Let's go out.
@@ -47,6 +53,6 @@ wrong: I've lived here since two years.
 right: I've lived here *for* two years.
 why: For untuk lamanya waktu: for two years. Since untuk titik awal: since 2022, since Monday.
 ---
-[end]
-Simpan dulu ✏️
-Coba bikin satu kalimat yang benar di komen.
+[end cta="Simpan"]
+Kamu tadi jawab *A atau B?*
+Komen satu huruf. Salah itu bagian dari belajar.

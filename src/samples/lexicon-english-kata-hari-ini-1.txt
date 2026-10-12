@@ -1,0 +1,27 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: kata hari ini 1 pants
+caption: Kata hari ini #1: pants, yang artinya beda jauh di London dan di Amerika. Sumber IPA: Cambridge Dictionary #belajarbahasainggris #kosakatainggris #ukvsus
+---
+[cover kicker="KATA HARI INI · #1"]
+Pants | *Di London artinya lain.*
+Satu kata Inggris tiap hari. Hari ini yang bisa bikin malu.
+---
+[card kicker="Coba tebak" number=off]
+Di London kamu bilang "nice pants!" ke teman. *Dia dengar apa?*
+Tebak dulu, baru geser.
+---
+[word]
+pos: noun · beda arti UK/US
+word: pants
+ipa: /pænts/ (UK & US)
+say: "pents"
+meaning: UK: celana dalam | US: celana panjang
+example: I spilled coffee on my *pants*.
+translation: (US) Celanaku ketumpahan kopi.
+note: Celana panjang versi UK: trousers.
+---
+[end cta="Follow"]
+Besok: *Kata hari ini #2.*
+Follow biar nggak ketinggalan.

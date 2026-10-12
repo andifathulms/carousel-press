@@ -1,7 +1,8 @@
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: homofon yang ketuker
-caption: Beda satu apostrof dan satu huruf e, artinya berubah total. Sumber IPA: Oxford Learner's Dictionaries; arti: Cambridge Dictionary #belajarbahasainggris #englishsehari #grammar
+caption: Beda satu apostrof dan satu huruf e, artinya berubah total. Sumber IPA: Oxford Learner's Dictionaries; arti: Cambridge Dictionary #belajarbahasainggris #kosakatainggris #grammar
 ---
 [cover kicker="SALAH TULIS"]
 Nulis "Your Welcome"? | Harusnya "You're"
@@ -78,6 +79,6 @@ wrong: This sambal is to spicy for me.
 right: This sambal is *too* spicy for me.
 why: Terlalu = too, dengan dua o. Me too (aku juga) juga pakai too.
 ---
-[end]
-Simpan dulu, biar nggak salah ketik ✏️
-Tulis satu kalimat pakai their, there, dan they're di komen.
+[end cta="Simpan"]
+Kamu paling sering ketuker *yang mana?*
+Your/you're, its/it's, atau their/there? Satu kata aja.

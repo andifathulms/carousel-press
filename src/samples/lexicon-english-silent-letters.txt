@@ -1,20 +1,12 @@
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: huruf diam bahasa inggris
-caption: Wednesday cuma dua suku kata: "wenz-dei". Huruf d pertamanya nggak pernah dibaca. Sumber IPA: Cambridge Dictionary #belajarbahasainggris #englishsehari #pronunciation
+caption: Wednesday cuma dua suku kata: "wenz-dei". Huruf d pertamanya nggak pernah dibaca. Sumber IPA: Cambridge Dictionary #belajarbahasainggris #kosakatainggris #pronunciation
 ---
 [cover kicker="PRONUNCIATION"]
 Knife Dibaca "Naif", | K-nya Diam
 Ini 26 kata sehari-hari yang punya huruf tak terbaca, dari knife sampai Wednesday.
----
-[table]
-K dan W diam di awal kata
-| Kata | Dibaca | Arti |
-| *k*nife | "naif" | pisau |
-| *k*now | "nou" | tahu |
-| *k*nee | "nii" | lutut |
-| *w*rite | "rait" | menulis |
-Kn- dan wr- di awal kata: k dan w-nya nggak dibaca.
 ---
 [word]
 pos: noun · plural knives
@@ -25,6 +17,15 @@ meaning: pisau
 example: Can you pass me the *knife*?
 translation: Tolong ambilkan pisaunya, dong.
 note: Jamaknya knives, dan k-nya tetap diam.
+---
+[table]
+K dan W diam di awal kata
+| Kata | Dibaca | Arti |
+| *k*nife | "naif" | pisau |
+| *k*now | "nou" | tahu |
+| *k*nee | "nii" | lutut |
+| *w*rite | "rait" | menulis |
+Kn- dan wr- di awal kata: k dan w-nya nggak dibaca.
 ---
 [table]
 B yang diam
@@ -102,6 +103,6 @@ example: See you on *Wednesday*!
 translation: Sampai ketemu hari Rabu!
 note: Huruf d pertama dan e kedua nggak dibaca. Bukan "wed-nes-dei".
 ---
-[end]
-Simpan dulu ✏️
-Kata mana yang selama ini kamu baca lengkap? Tulis di komen.
+[end cta="Simpan"]
+Kata mana yang selama ini *kamu baca lengkap?*
+Satu kata aja di komen.

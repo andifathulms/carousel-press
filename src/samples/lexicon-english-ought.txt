@@ -1,12 +1,17 @@
-handle: @englishsehari
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: verb pola ought
-caption: Brought dan bought cuma beda satu huruf r, tapi yang satu membawa, yang satu membeli. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar #belajarbahasainggris #irregularverbs #englishsehari
+caption: Brought dan bought cuma beda satu huruf r, tapi yang satu membawa, yang satu membeli. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar #belajarbahasainggris #irregularverbs #kosakatainggris
 ---
 [cover kicker="IRREGULAR VERBS"]
 Thinked? Buyed? | Bukan Begitu
 7 kata kerja yang V2-nya berakhiran -ought / -aught, dan bunyinya sama.
+---
+[compare]
+wrong: Yesterday I thinked about it.
+right: Yesterday I *thought* about it.
+why: Think tidak pakai -ed. Begitu juga bukan buyed, teached, catched: yang benar bought, taught, caught.
 ---
 [table]
 Pola *-ought* dan *-aught*
@@ -52,17 +57,12 @@ example: I *bought* this shirt online.
 translation: Kemeja ini aku beli online.
 ---
 [compare]
-wrong: Yesterday I thinked about it.
-right: Yesterday I *thought* about it.
-why: Think tidak pakai -ed. Begitu juga bukan buyed, teached, catched: yang benar bought, taught, caught.
----
-[compare]
 wrong-label: Salah arti
 right-label: Tepat
 wrong: I brought a new phone yesterday.
 right: I *bought* a new phone yesterday.
 why: Maksudnya membeli? Pakai bought, dari buy. Brought dari bring, artinya membawa. Beda satu huruf r, artinya beda jauh.
 ---
-[end]
-Simpan dulu ✏️
-Coba bikin kalimat pakai "brought" di komen.
+[end cta="Simpan"]
+Kamu dulu nulis *thinked* juga?
+Jawab "iya" atau "nggak" di komen.

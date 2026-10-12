@@ -1,7 +1,8 @@
+handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
 title: kata inggris yang menipu
-caption: Kerja di shoe fabric? Itu artinya kain sepatu, bukan pabrik sepatu. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar; KBBI VI Daring #belajarbahasainggris #englishsehari #falsefriends #vocabulary
+caption: Kerja di shoe fabric? Itu artinya kain sepatu, bukan pabrik sepatu. Sumber: Cambridge Dictionary; Oxford Learner's Dictionaries; Cambridge Grammar; KBBI VI Daring #belajarbahasainggris #kosakatainggris #falsefriends #vocabulary
 ---
 [cover kicker="FALSE FRIENDS"]
 Fabric Itu Kain, | Bukan Pabrik
@@ -82,6 +83,6 @@ wrong: My friend is very consequent. She never breaks a promise.
 right: My friend is very *consistent*. She never breaks a promise.
 why: Consequent berarti terjadi sebagai akibat dari sesuatu. Untuk konsekuen (teguh pada ucapan dan keputusan), yang lebih dekat: consistent.
 ---
-[end]
-Simpan dulu, biar nggak ketuker ✏️
-Kata mana yang dulu kamu kira artinya sama? Tulis di komen.
+[end cta="Simpan"]
+Kata mana yang dulu *kamu kira sama?*
+Satu kata aja di komen.
