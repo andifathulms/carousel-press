@@ -26,7 +26,8 @@ export interface LexCtx {
 export const WORD = {
   top: ROWS.stackTopCard,
   pill: { size: 26, weight: 600, tracking: 2, padX: 22, padY: 12, border: 2, gap: 28 },
-  head: { max: 168, min: 96, step: 8, lh: 1.0, maxLines: 2, gap: 20 },
+  // descent: room for descenders (p, j, g) below the lh 1.0 headword box, so the next line never touches them.
+  head: { max: 168, min: 96, step: 8, lh: 1.0, maxLines: 2, gap: 20, descent: 0.12 },
   tag: { size: 24, weight: 600, padX: 16, padY: 8, radius: 10, gap: 20 },
   ipa: { max: 46, min: 34, step: 2, lh: 1.3, gap: 10 },
   say: { max: 32, min: 28, step: 2, lh: 1.3, gap: 40 },
@@ -47,7 +48,8 @@ export const COMPARE = {
   headline: { max: 72, min: 56, step: 4, lh: 1.12, maxLines: 2, gap: 40 },
   box: { pad: 32, radius: 24, icon: 44, iconGap: 16, gapBetween: 28, rowGap: 16 },
   label: { size: 26, weight: 600, tracking: 2 },
-  text: { max: 52, min: 36, step: 4, lh: 1.25, maxLines: 3 },
+  // The sentence is the payoff, so it runs large (Oct 2026 review: 52 → 64).
+  text: { max: 64, min: 40, step: 4, lh: 1.22, maxLines: 3 },
   why: { max: 38, min: 30, step: 2, lh: 1.5, maxLines: 4, gap: 48 },
   strike: 3,
   priority: ['why', 'text', 'headline'],
@@ -99,7 +101,7 @@ export function layoutWord(c: LexCtx, f: Record<string, string>): LexLayout {
     // A headword never breaks mid-word while it can still shrink.
     if (head.lines.length > W.head.maxLines || (head.charBroken && hs > W.head.min)) over = 'head';
     els.push({ k: 'text', x, y, lines: head.lines, size: hs, lh: W.head.lh, style: style(c.serif, 700, hs, mono), color: c.s.ink, accent: c.s.accent });
-    let headBottom = y + head.h;
+    let headBottom = y + head.h + Math.round(hs * W.head.descent);
     if (f.tag) {
       const tg = W.tag;
       const font: FontSpec = { family: c.sans, weight: tg.weight, size: tg.size };

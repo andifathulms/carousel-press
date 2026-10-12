@@ -8,7 +8,7 @@ import { drawEditorial } from '../editorial/draw';
 /** Lexicon decoration (SPEC-lexicon §3.2). Decorative only: nothing here carries meaning. */
 export const LEX_DECO = {
   doubleRule: { y: 268, thick: 2, thin: 1, gap: 6 },
-  notebook: { from: SAFE.top, to: SAFE.bottom, every: 64, h: 2, marginX: 72, marginW: 3 },
+  notebook: { from: SAFE.top, to: SAFE.bottom, every: 64, h: 2, marginX: 72, marginW: 3, alpha: 0.55 },
   cornerGlyph: { size: 900, alpha: 0.04, x: 640, baseline: 2240 },
 };
 
@@ -20,7 +20,8 @@ function drawDeco(ctx: Ctx, L: SlideLayout): void {
   const paper = L.surfaceName !== 'deep';
   if (v.deco.notebook && paper) {
     const n = LEX_DECO.notebook;
-    ctx.fillStyle = rule;
+    // Full-page ruled lines, drawn fainter than the table rules so text on top stays calm (Oct 2026 review).
+    ctx.fillStyle = withAlpha(rule, n.alpha);
     for (let y = n.from; y <= n.to; y += n.every) ctx.fillRect(0, y, CANVAS.w, n.h);
     if (v.lex?.margin) {
       ctx.fillStyle = v.lex.margin;

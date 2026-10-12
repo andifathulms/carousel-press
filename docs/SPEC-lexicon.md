@@ -97,7 +97,7 @@ rotation `['paper', 'paper-alt']` · swatches `#F6F1E7 #B3261E #1E1B18 #E8DFCC`
 | deep | #2A211C | #F6F1E7 | #E1D8C8 | #B3A894 | #F08A7E | #F08A7E | #2A211C | #2A211C | #F08A7E | #3A2F28 |
 
 Extra tokens: `rule: #DCCFB8` (divider lines), `highlight: #F3D9A4` (marker behind `*word*` in examples), `okBg: #E3EEDB`, `okInk: #2E5A2A`, `badBg: #F6DCD8`, `badInk: #8E1F17`.
-Deco: a thin double rule under the header (2 px + 1 px, `rule`), and a large faint `“` page-number-style glyph off the bottom-right at 4%.
+Deco: a thin double rule under the header (2 px + 1 px, `rule`). (The faint `“` corner glyph was removed in the Oct 2026 review: a quotation mark means nothing on a dictionary slide.)
 
 **`lexicon/notebook`**: English Sehari. Lined school notebook with blue pen and yellow marker.
 rotation `['page']` · swatches `#FBFBF7 #2F5BD3 #1B2430 #FFE58A`
@@ -107,7 +107,7 @@ rotation `['page']` · swatches `#FBFBF7 #2F5BD3 #1B2430 #FFE58A`
 | page | #FBFBF7 | #1B2430 | #364152 | #677184 | #2448B8 | #2F5BD3 | #FFFFFF | #FBFBF7 | #2F5BD3 | #EEF1F8 |
 | deep | #1D2A44 | #F4F6FB | #D5DBE8 | #A3AEC4 | #9DB6FF | #FFE58A | #1D2A44 | #1D2A44 | #FFE58A | #2A3A5C |
 
-Extra tokens: `rule: #DCE4F2` (horizontal notebook lines every 64 px, 2 px, from y=196 to 1500), `margin: #E7877D` (vertical margin line, 3 px, at x=72), `highlight: #FFE58A`, `okBg: #DFF1E2`, `okInk: #1F6B33`, `badBg: #FBE0DD`, `badInk: #A3261C`.
+Extra tokens: `rule: #DCE4F2` (horizontal notebook lines every 64 px, 2 px, from y=196 to 1500, drawn at 55% so text on top stays calm), `margin: #E7877D` (vertical margin line, 3 px, at x=72), `highlight: #FFE58A`, `okBg: #DFF1E2`, `okInk: #1F6B33`, `badBg: #FBE0DD`, `badInk: #A3261C`.
 
 Contrast rules from DESIGN §4.4 apply, plus: `okInk` on `okBg` and `badInk` on `badBg` ≥ 4.5:1, and `ink` on `highlight` ≥ 4.5:1.
 
@@ -123,7 +123,7 @@ For families without the lexicon extra tokens, derive them: `rule` = muted at 30
 Stack from y = 344:
 
 1. **pos pill** (if `pos`): `sans` 600 26 px uppercase, tracking +2, `accent` text, 2 px `accent` border, radius 999, padding 12×22. → gap 28
-2. **headword**: `serif` 700, 168 → 96 px (step 8), lh 1.0, max 2 lines, `ink`. If `tag`: a badge pill (`badgeBg`/`badgeInk`, `sans` 600 24 px, padding 8×16, radius 10) aligned to the headword's first-line cap height, 20 px to the right of the word (or on the next line if it doesn't fit). → gap 20
+2. **headword**: `serif` 700, 168 → 96 px (step 8), lh 1.0, max 2 lines, `ink`, plus 0.12 × size of descender room below the box (so p/j/g never touch the next line). If `tag`: a badge pill (`badgeBg`/`badgeInk`, `sans` 600 24 px, padding 8×16, radius 10) aligned to the headword's first-line cap height, 20 px to the right of the word (or on the next line if it doesn't fit). → gap 20
 3. **ipa** (if any): IPA face 46 → 34 px, `body`. → gap 10
 4. **say** (if any): small label `labelSay` (`sans` 600 22 px uppercase, `muted`) + 12 px gap + the text in `sans` 400 32 → 28 px, `muted`, on one line if it fits. → gap 40
 5. **divider**: 2 px `rule`, full width. → gap 40
@@ -149,7 +149,7 @@ Stack-fit priority when it overflows: note → translation → say → example �
 
 - Stack from y = 344: [**headline** if any, `serif` 700 72 → 56, max 2 lines → gap 40] → **wrong box** → gap 28 → **right box** → gap 48 → **why**.
 - Box: width 816, radius 24, padding 32. Wrong: fill `badBg`; right: fill `okBg`.
-- Inside a box: an icon (`x-circle` / `check-circle`, 44 px, `badInk` / `okInk`) + 16 px gap + the label (`sans` 600 26 px uppercase, tracking +2, same ink) on the first row; then the text (`serif` 600 52 → 36, lh 1.25, max 3 lines). Wrong text is `badInk` with a 3 px strike-through line through each line's middle; right text is `okInk`, and `*accent*` = `ink` on `highlight`.
+- Inside a box: an icon (`x-circle` / `check-circle`, 44 px, `badInk` / `okInk`) + 16 px gap + the label (`sans` 600 26 px uppercase, tracking +2, same ink) on the first row; then the text (`serif` 600 64 → 40, lh 1.22, max 3 lines; raised from 52 in Oct 2026: the sentence is the payoff). Wrong text is `badInk` with a 3 px strike-through line through each line's middle; right text is `okInk`, and `*accent*` = `ink` on `highlight`.
 - **why**: `sans` 400 38 → 30, lh 1.5, `body`, max 4 lines.
 - Add the icon `x-circle` to the icon set (original path, same style rules as DESIGN §7).
 

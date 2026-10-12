@@ -32,7 +32,7 @@ export const kamus: Variant = {
   rotation: ['paper', 'paper-alt'],
   onPhoto: { ...onPhotoBase, accent: '#F5B3AA', badgeBg: '#F08A7E', badgeInk: '#2A211C', tint: '#1A1410' },
   code: paperCode,
-  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, doubleRule: true, cornerGlyph: '“' },
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, doubleRule: true },
   swatches: ['#F6F1E7', '#B3261E', '#1E1B18', '#E8DFCC'],
   lex: { rule: '#DCCFB8', highlight: '#F3D9A4', okBg: '#E3EEDB', okInk: '#2E5A2A', badBg: '#F6DCD8', badInk: '#8E1F17' },
 };
