@@ -494,3 +494,169 @@ Checked 11 Oct 2026 against primary texts (Project Gutenberg / Wikisource, publi
 - *Confucian Analects*, tr. James Legge (Gutenberg #4094), II.17: "Yu, shall I teach you what knowledge is? When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it;—this is knowledge". Yu = Zilu.
 - Plato, *Apology* 21d, tr. Benjamin Jowett (Gutenberg #1656): "he knows nothing, and thinks that he knows; I neither know nor think that I know".
 - SEP "Confucius": traditional dates 551–479 BCE.
+
+## October 2026 batch: Kamus Kecil, English Sehari, dev
+
+Written by one agent per account and reviewed before merge. Edits at review: "Opor Lebaran" was dropped from the family Ruang Rasa cover (assumed religion); the storage deck's cover says "Script di Halamanmu" (only scripts on the same page can read localStorage, not any JavaScript); long cover words and wide table cells were shortened to fit every template.
+
+### Kamus Kecil
+
+
+KBBI = KBBI VI Daring, https://kbbi.kemendikdasmen.go.id/entri/<kata> (version 6.1.0.0), fetched entry by entry.
+EYD V = https://ejaan.kemendikdasmen.go.id/eyd/... (web edition of EYD Edisi Kelima; intro page confirms "EYD Edisi V").
+
+#### 1. lexicon-kamus-salah-arti.txt (11 slides)
+- KBBI /entri/acuh: v "peduli; mengindahkan". /entri/mengacuhkan: "memedulikan; mengindahkan". /entri/acuh tak acuh: "tidak menaruh perhatian; tidak mau tahu". /entri/cuek: a cak "masa bodoh; tidak acuh".
+- KBBI /entri/bergeming: v "tidak bergerak sedikit juga; diam saja".
+- KBBI /entri/absen: v "tidak masuk (sekolah, kerja, dan sebagainya); tidak hadir". /entri/absensi: n "ketidakhadiran". /entri/presensi: n "kehadiran".
+- KBBI /entri/sangsi: a "bimbang; ragu-ragu"; sangsi 2 → sanksi. /entri/sanksi: "bentuk tidak baku: sangsi".
+- KBBI /entri/dirgahayu: a "berumur panjang (biasanya ditujukan kepada negara atau organisasi yang sedang memperingati hari jadinya)". "Dirgahayu HUT RI berlebihan" follows from that meaning; also matches Kemendikbud guidance reported by RRI / Bisnis.com / Metro TV (secondary).
+- KBBI /entri/canggih: first sense a ark "banyak cakap; bawel; cerewet"; later sense Tek "kehilangan kesederhanaan yang asli (seperti sangat modern, rumit...)".
+- Left out: nisbi (KBBI: "relatif; tidak mutlak") – no well-documented specific wrong meaning found, so not presented as "salah arti". nyinyir – original "cerewet", but KBBI now also lists Jk "suka mengkritik atau berkomentar sinis", so not a wrong usage. Dirgahayu number-placement rule ("Dirgahayu RI ke-80" salah) – only from secondary news reports, left out.
+
+#### 2. lexicon-kamus-luluh-ktsp.txt (10 slides)
+- KBBI baku/tidak baku labels: memesona (tb: mempesona), memengaruhi (tb: mempengaruhi), mengonsumsi (tb: mengkonsumsi), menerjemahkan (tb: menterjemahkan), menyukseskan (tb: mensukseskan), memopulerkan (tb: mempopulerkan), memercayai (tb: mempercayai), perajin (tb: pengrajin), pengonsumsi (entry exists).
+- KBBI plain forms: mengirim, menulis, menyapu (rule illustration); perawat, perusak (peN- + r → pe-).
+- Unchanged clusters, all KBBI entries: memproduksi, memprotes, mengkritik, mensyukuri, mentraktir (tb: menraktir), mentransfer (tb: menransfer). Also checked menstabilkan, memprakarsai (dropped stabil row for space).
+- KBBI /entri/mempunyai: entry exists; /entri/memunyai: "Entri tidak ditemukan".
+- KBBI /entri/memperhatikan (tb: memerhatikan); /entri/mentertawakan (tb: menertawakan); pemerhati = "orang yang memperhatikan". Explanation (p/t belong to per-/ter-, root hati/tawa) is standard morphology, consistent with KBBI's root display "hati » mem.per.ha.ti.kan", "tawa » men.ter.ta.wa.kan".
+- The k/t/s/p rule itself is not spelled out in EYD V (Kata Turunan only covers writing affixes serangkai); the deck states it as the pattern KBBI shows, not as an EYD rule. Cluster slide is phrased as an observation ("diawali dua konsonan, tetap utuh"), not a formal rule.
+- Left out: mengklaim (KBBI redirects to mengeklaim – different rule), menyosialisasikan (word too long).
+
+#### 3. lexicon-kamus-huruf-kapital.txt (10 slides)
+EYD V, Penggunaan Huruf › F. Huruf Kapital (https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/huruf-kapital/):
+- Butir 19 (asal daerah: soto Banjar, batik Cirebon) and 18 (nama jenis: jeruk bali, petai cina).
+- Butir 13 (hari Jumat, bulan Agustus, hari Lebaran – "hari/bulan" lowercase in all examples).
+- Butir 23 + Catatan b (sapaan/pengacuan: "Kapan Bapak berangkat?" tanya Hasan; Besok Paman akan datang) and Catatan c (bapak dan ibu kita → nonkapital). Catatan a: Anda always capital.
+- Butir 16–17 (Danau Toba vs berenang di danau).
+- Butir 11 (bahasa Tolaki, suku Dani: only the name capitalised).
+- Butir 3 (15 watt, mesin diesel, ikan mujair) + butir 2 (James Watt, Rudolf Diesel).
+
+#### 4. lexicon-kamus-tanda-koma.txt (10 slides)
+EYD V, Penggunaan Tanda Baca › B. Tanda Koma (https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-koma/):
+- Butir 3 (anak kalimat di depan → koma) and 4 (induk kalimat di depan → tanpa koma; "Dia mempunyai banyak teman karena baik hati").
+- Butir 2 (tetapi, melainkan, sedangkan).
+- Butir 5 (oleh karena itu, jadi, dengan demikian, meskipun demikian).
+- Butir 6 (sapaan: "Siapa namamu, Dik?"). "Ayo makan, Nenek" is the deck's own illustration; Nenek capitalised per Huruf Kapital butir 23.
+- Butir 9 (tempat dan tanggal; Sofifi, Maluku Utara).
+- Butir 11 + Catatan a (Siti Khadijah, M.A. vs Siti Khadijah M.A. = Mas Agung).
+- Table also uses butir 8 (no comma after petikan ending in ? or !) and butir 12 (12,5 kg).
+- Left out: "no comma before bahwa" – EYD V has no explicit rule for bahwa; only butir 4 in general. Not stated to avoid inventing a rule.
+
+#### 5. lexicon-kamus-jam-pukul.txt (9 slides)
+- KBBI /entri/jam: n "alat untuk mengukur waktu"; n "waktu yang lamanya 1/24 hari (dari sehari semalam) sama dengan 60 menit atau 3.600 detik"; n cak "pukul" (ia bangun jam lima pagi); n cak "waktu; saat". → "jam 9" for clock time is labelled cakapan, hence cover wording "ragam cakapan" (not "salah" / "tidak baku").
+- KBBI /entri/pukul: pukul 2 n "saat yang menyatakan satuan waktu tertentu".
+- EYD V Tanda Titik butir 7: pukul 01.35.20; 01.35.20 jam = 1 jam, 35 menit, 20 detik. Tanda Titik Dua butir 6: titik dua "dapat digunakan": pukul 01:35:20. Tanda Koma butir 12: koma for decimals (12,5 m).
+- KBBI: dini hari "pagi-pagi benar (pukul 03.00–05.00)"; pagi "waktu setelah matahari terbit hingga menjelang siang hari"; siang "waktu antara pagi dengan petang (kira-kira pukul 11.00–14.00)"; petang "waktu sesudah tengah hari (kira-kira dari pukul tiga sampai matahari terbenam); sore"; sore "petang"; malam "waktu setelah matahari terbenam hingga matahari terbit".
+- KBBI /entri/jam karet: ki "waktu tidak tepat, terlambat dari waktu yang telah ditentukan (dalam rapat, pertemuan, dan sebagainya)". pos written as "kiasan" (KBBI gives only the ki label, no word class).
+- Left out: WIB formatting, "setengah tujuh" = 06.30 (not verified in KBBI/EYD).
+
+### English Sehari
+
+
+All pages fetched directly (HTML) from Cambridge Dictionary and Oxford Learner's Dictionaries. Cambridge IPA was copied character for character from its headword pronunciation spans; where Cambridge marks a linking r as superscript, Oxford's form with (r) was used instead.
+
+#### 1. lexicon-english-since-for.txt
+- https://dictionary.cambridge.org/grammar/british-grammar/for-or-since — for + period, since + point in time; "since hours" is wrong; for with completed past ("He lived in Oxford for 3 years and then he moved").
+- https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-simple-i-have-worked — present perfect + for/since for a situation still going on; "How long have you worked there? Since 21 August".
+- https://dictionary.cambridge.org/grammar/british-grammar/since — since + clause (past simple after since, present perfect in main clause); "since, not from, with a clause referring back to a point in time"; since = reason; "since four hours" is a typical error.
+- https://dictionary.cambridge.org/grammar/british-grammar/ago — ago goes with past simple, not present perfect.
+- https://dictionary.cambridge.org/dictionary/english/since — IPA /sɪns/ (UK & US).
+- Left out: "since three years ago" (no source says it's wrong, so I didn't call it an error); "from 2019" with present perfect (Cambridge shows "from the age of three" as acceptable, so only the clause case is treated as an error).
+
+#### 2. lexicon-english-homofon.txt
+- Oxford Learner's Dictionaries IPA:
+  - https://www.oxfordlearnersdictionaries.com/definition/english/its — /ɪts/
+  - https://www.oxfordlearnersdictionaries.com/definition/english/it-s — /ɪts/ (short form of it is / it has)
+  - https://www.oxfordlearnersdictionaries.com/definition/english/your — strong /jɔː(r)/ UK, /jʊr/ US
+  - https://www.oxfordlearnersdictionaries.com/definition/english/you-re — /jʊə(r)/, /jɔː(r)/ UK; /jʊr/ US. Supports "same in US, often the same in UK".
+  - https://www.oxfordlearnersdictionaries.com/definition/english/their, /there_1, /they-re — all /ðeə(r)/ UK, /ðer/ US.
+  - https://www.oxfordlearnersdictionaries.com/definition/english/then — /ðen/
+  - https://www.oxfordlearnersdictionaries.com/definition/english/than — /ðən/, strong form /ðæn/. So then/than are NOT true homophones; the deck says so.
+  - https://www.oxfordlearnersdictionaries.com/definition/english/to_1 — /tə/, before vowels /tu/, strong /tuː/; /too and /two — /tuː/. Supports "too and two sound the same; to is usually shorter unless stressed".
+- Meanings (its = possessive, it's = it is/it has, etc.) are standard learner-dictionary definitions from the same pages.
+- Left out: I made no claim that then/than merge in fast speech, because Oxford doesn't list a weak form of "then".
+
+#### 3. lexicon-english-silent-letters.txt
+- Cambridge Dictionary IPA (https://dictionary.cambridge.org/dictionary/english/<word>):
+  knife /naɪf/; know /nəʊ/ UK, /noʊ/ US; knee /niː/; write /raɪt/; thumb /θʌm/; climb /klaɪm/; comb /kəʊm/, /koʊm/; debt /det/; doubt /daʊt/; listen /ˈlɪs.ən/; castle /ˈkɑː.səl/ UK, /ˈkæs.əl/ US; whistle /ˈwɪs.əl/; island /ˈaɪ.lənd/; muscle /ˈmʌs.əl/; honest /ˈɒn.ɪst/ UK, /ˈɑː.nɪst/ US; hour (UK /aʊə/ + linking r, US /aʊr/); half /hɑːf/ UK, /hæf/ US; calm /kɑːm/; walk /wɔːk/ UK, /wɑːk/ US; could /kʊd/; psychology /saɪˈkɒl.ə.dʒi/ UK, /saɪˈkɑː.lə.dʒi/ US; receipt /rɪˈsiːt/; sign /saɪn/; foreign /ˈfɒr.ən/ UK, /ˈfɔːr.ən/ US; design /dɪˈzaɪn/; Wednesday /ˈwenz.deɪ/.
+- The IPA appears only in [word] ipa fields (knife, debt, island, honest, Wednesday). Tables use Indonesian respellings, because table cells don't use the IPA font.
+- Left out: often (Cambridge US gives the t as optional), answer (Cambridge UK uses a superscript r); salmon was never added.
+
+#### 4. lexicon-english-uk-us.txt
+- Cambridge Dictionary region labels:
+  - pants: UK = underwear; US (UK trousers) = trousers. IPA /pænts/. https://dictionary.cambridge.org/dictionary/english/pants ; trousers: mainly UK (US usually pants)
+  - flat: UK (US apartment); apartment: mainly US
+  - lift: UK (US elevator)
+  - rubbish: UK (US garbage, trash)
+  - mobile phone: mainly UK (US usually cell phone); cell phone: mainly US
+  - biscuit: UK (US cookie); US sense = "a type of bread usually baked in small, round pieces". IPA /ˈbɪs.kɪt/
+  - chip: UK (US French fry); crisp: UK (US chip, potato chip)
+  - holiday: UK (US vacation); vacation: US (UK holiday)
+  - queue: mainly UK (US usually line); queue verb mainly UK (US usually line, line up); line: US (UK queue), "wait in line"; cut in line: US (UK jump the queue)
+  - petrol: UK (US gas)
+  - colour: UK (US color); centre: UK (US center); programme: UK (US program); program (computer) = the spelling in all varieties; travel: -ll- or US usually -l-; realize/organize: (UK usually realise/organise)
+- The "pick one style and stick to it" card is writing advice, not a dictionary claim.
+
+#### 5. lexicon-english-phrasal-kerja.txt
+- Cambridge Dictionary phrasal-verb entries:
+  - figure out (informal, B2): https://dictionary.cambridge.org/dictionary/english/figure-out — "finally understand ... or find the solution to a problem"
+  - run out (of): https://dictionary.cambridge.org/dictionary/english/run-out — "I've run out of milk", "The milk has run out"
+  - look into something: https://dictionary.cambridge.org/dictionary/english/look-into — "examine the facts about a problem or situation"
+  - follow something up (US also follow up on something), follow-up noun: https://dictionary.cambridge.org/dictionary/english/follow-up
+  - set something up: https://dictionary.cambridge.org/dictionary/english/set-up — establish a company/system; arrange a meeting
+  - come up with something: https://dictionary.cambridge.org/dictionary/english/come-up-with — suggest or think of an idea or plan
+  - put something off [+ -ing]: https://dictionary.cambridge.org/dictionary/english/put-off — delay; "I can't put off going to the dentist"
+  - hand something in: https://dictionary.cambridge.org/dictionary/english/hand-in
+  - fill something in (also fill something out): https://dictionary.cambridge.org/dictionary/english/fill-in
+  - go over something (EXAMINE): https://dictionary.cambridge.org/dictionary/english/go-over — "examine or look at something carefully"
+- https://dictionary.cambridge.org/grammar/british-grammar/phrasal-verbs — a personal-pronoun object goes before the particle ("hand them out", not "hand out them").
+- Left out: catch up (on). Its Cambridge entry mainly covers the "reach someone ahead" sense, so I didn't use it for work. I gave no IPA for the phrasal verbs (Cambridge only gives IPA for the base verb); only a respelling is shown for figure out.
+
+### Fathul Learn Coding
+
+
+#### dev-http-methods-id.txt
+- https://www.rfc-editor.org/rfc/rfc9110.html#name-safe-methods (GET is safe)
+- https://www.rfc-editor.org/rfc/rfc9110.html#name-idempotent-methods ("PUT, DELETE, and safe request methods are idempotent"; clients can retry idempotent requests automatically and should not retry non-idempotent ones automatically)
+- https://www.rfc-editor.org/rfc/rfc9110.html#name-put (PUT replaces the target resource's state with the enclosed representation)
+- https://www.rfc-editor.org/rfc/rfc5789 (PATCH, partial modification, not necessarily idempotent)
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods (GET/POST/PUT/PATCH/DELETE)
+- https://developer.mozilla.org/en-US/docs/Glossary/Idempotent
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/201 and .../204
+
+#### dev-storage-browser-id.txt
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage (no expiry, per origin)
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage (survives reloads, partitioned by origin and tab, cleared when the tab closes)
+- https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria ("5 MiB of local storage, and 5 MiB of session storage per origin")
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies (sent with requests, Expires/Max-Age, HttpOnly not readable via document.cookie, XSS mitigation)
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie
+- RFC 6265 §6.1 (browsers should support at least 4096 bytes per cookie): https://www.rfc-editor.org/rfc/rfc6265#section-6.1
+- https://expressjs.com/en/api.html#res.cookie (httpOnly, secure, sameSite options)
+
+#### dev-regex-dasar-id.txt
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Character_classes (\d = [0-9], \w = [A-Za-z0-9_])
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Assertions (^, $)
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Quantifiers (+, ?, {n,m})
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Groups_and_backreferences
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
+- All examples executed in Node; outputs match the comments.
+
+#### dev-docker-dasar-id.txt
+- https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/ (images are immutable, layered)
+- https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/
+- https://docs.docker.com/engine/storage/ (writable container layer is lost when the container is removed)
+- https://docs.docker.com/engine/storage/volumes/ (volumes persist beyond the container lifecycle)
+- https://docs.docker.com/reference/dockerfile/ (FROM, WORKDIR, COPY, RUN, CMD)
+- https://docs.docker.com/build/cache/ (layer cache; copy package files before source)
+- https://docs.docker.com/reference/cli/docker/container/run/ (-d, --name, -p, -v)
+- https://docs.docker.com/reference/cli/docker/container/rm/ (-v removes anonymous volumes only; named volumes and images stay)
+- https://docs.docker.com/reference/cli/docker/container/logs/ (-f)
+
+#### dev-debounce-throttle-id.txt
+- https://developer.mozilla.org/en-US/docs/Glossary/Debounce
+- https://developer.mozilla.org/en-US/docs/Glossary/Throttle
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout (extra args passed to the callback)
+- https://developer.mozilla.org/en-US/docs/Web/API/Element/input_event
+- https://lodash.com/docs/#debounce and https://lodash.com/docs/#throttle
+- debounce/throttle code executed in Node: 6 rapid calls -> 1 debounced call with "laptop"; 1000 rapid throttle calls -> 1 call.

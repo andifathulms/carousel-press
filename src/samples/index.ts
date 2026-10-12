@@ -62,6 +62,26 @@ import lexFalseFriends from './lexicon-english-false-friends.txt?raw';
 import lexEd from './lexicon-english-ed.txt?raw';
 import lexMakeDo from './lexicon-english-make-do.txt?raw';
 import places from './editorial-places-en.txt?raw';
+import lexKamusSalahArti from './lexicon-kamus-salah-arti.txt?raw';
+import lexKamusLuluh from './lexicon-kamus-luluh-ktsp.txt?raw';
+import lexKamusKapital from './lexicon-kamus-huruf-kapital.txt?raw';
+import lexKamusKoma from './lexicon-kamus-tanda-koma.txt?raw';
+import lexKamusJamPukul from './lexicon-kamus-jam-pukul.txt?raw';
+import lexSinceFor from './lexicon-english-since-for.txt?raw';
+import lexHomofon from './lexicon-english-homofon.txt?raw';
+import lexSilent from './lexicon-english-silent-letters.txt?raw';
+import lexUkUs from './lexicon-english-uk-us.txt?raw';
+import lexPhrasal from './lexicon-english-phrasal-kerja.txt?raw';
+import devHttpMethods from './dev-http-methods-id.txt?raw';
+import devStorage from './dev-storage-browser-id.txt?raw';
+import devRegex from './dev-regex-dasar-id.txt?raw';
+import devDocker from './dev-docker-dasar-id.txt?raw';
+import devDebounce from './dev-debounce-throttle-id.txt?raw';
+import edRekanKerja from './editorial-rekan-kerja-id.txt?raw';
+import edUsia20an from './editorial-usia-20an-id.txt?raw';
+import edKakekNenek from './editorial-kakek-nenek-id.txt?raw';
+import edLamaBersama from './editorial-lama-bersama-id.txt?raw';
+import edPilihSatuKeluarga from './editorial-pilih-satu-keluarga-id.txt?raw';
 import filsafatEpikuros from './filsafat-epikuros-keinginan-id.txt?raw';
 import filsafatWuWei from './filsafat-wu-wei-id.txt?raw';
 import filsafatJujur from './filsafat-jujur-atau-baik-id.txt?raw';
@@ -189,4 +209,25 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'filsafat-jujur-atau-baik-id', name: 'Jujur atau menjaga perasaan? (dilema) (Filsafat Harian, id)', category: 'philosophy', text: filsafatJujur },
   { id: 'filsafat-stoik-bukan-mati-rasa-id', name: 'Stoik bukan mati rasa (Filsafat Harian, id)', category: 'philosophy', text: filsafatStoik },
   { id: 'filsafat-konfusius-tahu-id', name: 'Berani bilang nggak tahu: Konfusius (Filsafat Harian, id)', category: 'philosophy', text: filsafatKonfusius },
+  // October 2026 batch: 5 each for Kamus Kecil, English Sehari, dev, Ruang Rasa
+  { id: 'lexicon-kamus-salah-arti', name: 'Acuh itu peduli (Kamus Kecil, id)', category: 'indonesian', text: lexKamusSalahArti },
+  { id: 'lexicon-kamus-luluh-ktsp', name: 'Memesona, bukan mempesona (Kamus Kecil, id)', category: 'indonesian', text: lexKamusLuluh },
+  { id: 'lexicon-kamus-huruf-kapital', name: 'Huruf kapital EYD V (Kamus Kecil, id)', category: 'indonesian', text: lexKamusKapital },
+  { id: 'lexicon-kamus-tanda-koma', name: 'Tanda koma EYD V (Kamus Kecil, id)', category: 'indonesian', text: lexKamusKoma },
+  { id: 'lexicon-kamus-jam-pukul', name: 'Jam atau pukul (Kamus Kecil, id)', category: 'indonesian', text: lexKamusJamPukul },
+  { id: 'lexicon-english-since-for', name: 'Since atau for (English Sehari, id)', category: 'english', text: lexSinceFor },
+  { id: 'lexicon-english-homofon', name: 'Homofon: your, its, their (English Sehari, id)', category: 'english', text: lexHomofon },
+  { id: 'lexicon-english-silent-letters', name: 'Huruf yang tidak dibaca (English Sehari, id)', category: 'english', text: lexSilent },
+  { id: 'lexicon-english-uk-us', name: 'British vs American (English Sehari, id)', category: 'english', text: lexUkUs },
+  { id: 'lexicon-english-phrasal-kerja', name: 'Phrasal verb kerja dan kampus (English Sehari, id)', category: 'english', text: lexPhrasal },
+  { id: 'dev-http-methods-id', name: 'PUT vs PATCH (dev, id)', category: 'dev', text: devHttpMethods },
+  { id: 'dev-storage-browser-id', name: 'localStorage vs cookie (dev, id)', category: 'dev', text: devStorage },
+  { id: 'dev-regex-dasar-id', name: 'Regex dasar (dev, id)', category: 'dev', text: devRegex },
+  { id: 'dev-docker-dasar-id', name: 'Docker dasar (dev, id)', category: 'dev', text: devDocker },
+  { id: 'dev-debounce-throttle-id', name: 'Debounce vs throttle (dev, id)', category: 'dev', text: devDebounce },
+  { id: 'editorial-rekan-kerja-id', name: 'Pertanyaan buat rekan kerja (editorial, id)', category: 'relationships', text: edRekanKerja },
+  { id: 'editorial-usia-20an-id', name: 'Pertanyaan di usia 20-an (editorial, id)', category: 'relationships', text: edUsia20an },
+  { id: 'editorial-kakek-nenek-id', name: 'Pertanyaan buat kakek nenek (editorial, id)', category: 'relationships', text: edKakekNenek },
+  { id: 'editorial-lama-bersama-id', name: 'Pertanyaan buat yang lama bersama (editorial, id)', category: 'relationships', text: edLamaBersama },
+  { id: 'editorial-pilih-satu-keluarga-id', name: 'Pilih satu versi keluarga (editorial, id)', category: 'relationships', text: edPilihSatuKeluarga },
 ];
