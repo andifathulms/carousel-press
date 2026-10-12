@@ -1,0 +1,73 @@
+template: lexicon/kamus
+lang: id
+title: kata yang artinya terbalik
+caption: "Dia acuh banget" ternyata berarti dia peduli banget. Sumber: KBBI VI Daring #bahasaindonesia #kbbi #katabaku
+---
+[cover kicker="SALAH ARTI"]
+Acuh Itu Peduli, | Bukan Cuek
+Plus 4 kata lain yang artinya sering terbalik.
+---
+[word]
+pos: verba
+word: acuh
+meaning: peduli; mengindahkan
+example: Untung masih ada yang *acuh* sama nasib kucing liar itu.
+note: Bentuk turunannya, mengacuhkan, berarti memedulikan. Sumber: KBBI VI Daring
+---
+[compare]
+wrong: Dia acuh banget, chat-ku cuma dibaca.
+right: Dia *cuek* banget, chat-ku cuma dibaca.
+why: Acuh justru berarti peduli. Untuk sikap masa bodoh, KBBI mencatat cuek (cakapan) atau acuh tak acuh.
+---
+[word]
+pos: verba
+word: bergeming
+meaning: tidak bergerak sedikit juga; diam saja
+example: Dipanggil berkali-kali, dia tetap *bergeming*.
+note: Sumber: KBBI VI Daring
+---
+[compare]
+wrong: Didorong lima orang, mobil itu tidak bergeming.
+right: Didorong lima orang, mobil itu *bergeming*.
+why: Bergeming sudah berarti diam. "Tidak bergeming" malah berarti mobilnya bergerak.
+---
+[compare]
+wrong: Jangan lupa absen sebelum masuk kelas.
+right: Jangan lupa isi *presensi* sebelum masuk kelas.
+why: Absen berarti tidak hadir. Presensi berarti kehadiran, sedangkan absensi justru ketidakhadiran.
+---
+[compare]
+wrong: Pelanggar aturan akan dikenai sangsi.
+right: Pelanggar aturan akan dikenai *sanksi*.
+why: Sangsi berarti bimbang, ragu-ragu. Untuk arti hukuman, sangsi tercatat sebagai bentuk tidak baku dari sanksi.
+---
+[word]
+pos: adjektiva
+word: dirgahayu
+meaning: berumur panjang (biasanya ditujukan kepada negara atau organisasi yang sedang memperingati hari jadinya)
+example: *Dirgahayu* Republik Indonesia!
+note: Jadi "Dirgahayu HUT RI" berlebihan; cukup "Dirgahayu RI". Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+tag: BONUS
+word: canggih
+meaning: banyak cakap; bawel; cerewet
+example: Dalam arti lama, orang yang *canggih* itu orang yang cerewet.
+note: Arti pertama di KBBI, berlabel arkais. Sumber: KBBI VI Daring
+---
+[table]
+Arti menurut KBBI
+| Kata | Artinya |
+| *acuh* | peduli |
+| *bergeming* | diam saja |
+| *absen* | tidak hadir |
+| *absensi* | ketidakhadiran |
+| *presensi* | kehadiran |
+| *sangsi* | ragu-ragu |
+| *dirgahayu* | berumur panjang |
+Sumber: KBBI VI Daring
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.

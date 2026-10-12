@@ -1,0 +1,58 @@
+template: lexicon/kamus
+lang: id
+title: tanda koma eyd v
+caption: Kalimatnya sama, urutannya dibalik, komanya harus hilang. Sumber: EYD Edisi V (Tanda Koma) #bahasaindonesia #eyd #tandabaca
+---
+[cover kicker="TANDA KOMA"]
+Kalimatnya Dibalik, | Komanya Hilang
+"Kalau diundang, saya datang." Dibalik: tanpa koma. Ini 7 aturan koma EYD V.
+---
+[compare]
+wrong: Kalau diundang saya akan datang.
+right: *Kalau diundang,* saya akan datang.
+why: Anak kalimat yang mendahului induk kalimat dipisahkan dengan koma.
+---
+[compare]
+wrong: Saya akan datang, kalau diundang.
+right: Saya akan datang *kalau diundang*.
+why: Kalau induk kalimatnya di depan, koma tidak dipakai. Sama: Dia punya banyak teman karena baik hati.
+---
+[compare]
+wrong: Aku mau ikut tetapi uangnya belum cukup.
+right: Aku mau ikut*, tetapi* uangnya belum cukup.
+why: Pakai koma sebelum tetapi, melainkan, dan sedangkan dalam kalimat majemuk pertentangan.
+---
+[compare]
+wrong: Hujan deras. Oleh karena itu kami menunda rapat.
+right: Hujan deras. *Oleh karena itu,* kami menunda rapat.
+why: Koma dipakai di belakang penghubung antarkalimat: oleh karena itu, jadi, dengan demikian, meskipun demikian.
+---
+[compare]
+wrong: Ayo makan Nenek!
+right: Ayo makan*, Nenek*!
+why: Sapaan dipisahkan dengan koma, seperti "Siapa namamu, Dik?". Tanpa koma, neneknya ikut dimakan.
+---
+[compare]
+wrong: Bandung 10 Mei 2026
+right: *Bandung,* 10 Mei 2026
+why: Koma dipakai di antara tempat dan tanggal, juga di antara bagian alamat: Sofifi, Maluku Utara.
+---
+[compare]
+wrong: Siti Khadijah M.A.
+right: Siti Khadijah*, M.A.*
+why: Koma membedakan gelar dari nama. Tanpa koma, M.A. bisa dibaca sebagai nama: Siti Khadijah Mas Agung.
+---
+[table]
+Pakai koma atau tidak?
+| Contoh | Koma? |
+| Kalau diundang, saya datang. | *ya* |
+| Saya datang kalau diundang. | *tidak* |
+| Saya mau, tetapi ... | *ya* |
+| Jadi, dia berhasil. | *ya* |
+| "Di mana?" tanya Ibu. | *tidak* |
+| 12,5 kg | *ya* |
+Sumber: EYD Edisi V, Tanda Koma
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.

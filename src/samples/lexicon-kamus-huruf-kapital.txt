@@ -1,0 +1,60 @@
+template: lexicon/kamus
+lang: id
+title: huruf kapital eyd v
+caption: Soto Banjar pakai kapital, jeruk bali tidak. Dua-duanya nama tempat, aturannya beda. Sumber: EYD Edisi V (Huruf Kapital) #bahasaindonesia #eyd #ejaan
+---
+[cover kicker="HURUF KAPITAL"]
+Soto Banjar, | Tapi Jeruk bali
+Dua nama tempat, beda aturan kapital. Ini 7 aturan dari EYD V.
+---
+[compare]
+wrong: Kami beli Soto Banjar dan Jeruk Bali.
+right: Kami beli soto *Banjar* dan jeruk *bali*.
+why: Nama tempat yang menyatakan asal daerah ditulis kapital: soto Banjar, batik Cirebon. Yang sudah jadi nama jenis ditulis kecil: jeruk bali, petai cina.
+---
+[compare]
+wrong: Rapatnya Hari senin, Bulan agustus.
+right: Rapatnya hari *Senin*, bulan *Agustus*.
+why: Nama hari, bulan, dan hari raya ditulis kapital. Kata hari dan bulan di depannya tidak: hari Jumat, hari Lebaran.
+---
+[compare]
+wrong: "Kapan bapak berangkat?" tanya Hasan.
+right: "Kapan *Bapak* berangkat?" tanya Hasan.
+why: Kata kekerabatan seperti bapak, ibu, kakak, dan adik ditulis kapital kalau dipakai sebagai sapaan atau pengacuan, misalnya: Besok Paman datang.
+---
+[compare]
+wrong: Kita harus menghormati Bapak dan Ibu kita.
+right: Kita harus menghormati *bapak* dan *ibu* kita.
+why: Kalau diikuti kata kepemilikan (kita, saya, -mu), istilah kekerabatan ditulis kecil.
+---
+[compare]
+wrong: Kami berenang di Danau, lalu ke danau Toba.
+right: Kami berenang di *danau*, lalu ke *Danau Toba*.
+why: Unsur geografi seperti danau, sungai, dan gunung ditulis kapital hanya kalau diikuti nama diri.
+---
+[compare]
+wrong: Aku belajar Bahasa Inggris. Sudahkah anda?
+right: Aku belajar *bahasa Inggris*. Sudahkah *Anda*?
+why: Kapital hanya pada nama bahasanya: bahasa Inggris, suku Dani. Kata Anda selalu ditulis kapital.
+---
+[compare]
+wrong: Pasang lampu 15 Watt di dekat Mesin Diesel.
+right: Pasang lampu 15 *watt* di dekat mesin *diesel*.
+why: Nama orang (James Watt, Rudolf Diesel) yang dipakai sebagai satuan atau nama jenis ditulis kecil.
+---
+[table]
+Kapital atau kecil?
+| Benar | Kenapa |
+| soto *Banjar* | asal daerah |
+| jeruk *bali* | nama jenis |
+| hari *Senin* | nama hari |
+| *Danau Toba* | ada nama diri |
+| *Bapak* (sapaan) | sapaan |
+| *bapak* kita | ada kata milik |
+| bahasa *Inggris* | nama bahasa |
+| 15 *watt* | satuan ukuran |
+Sumber: EYD Edisi V, Huruf Kapital
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.

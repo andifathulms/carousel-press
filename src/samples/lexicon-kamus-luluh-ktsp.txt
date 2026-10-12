@@ -1,0 +1,68 @@
+template: lexicon/kamus
+lang: id
+title: memesona bukan mempesona
+caption: Mempesona, mempengaruhi, mengkonsumsi: di KBBI VI ketiganya tercatat tidak baku. Sumber: KBBI VI Daring #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="IMBUHAN"]
+Mempesona atau | Memesona?
+Yang baku memesona. Ini aturan k, t, s, p dan 3 jebakannya.
+---
+Aturan k, t, s, p
+Kalau kata dasarnya diawali k, t, s, atau p, huruf itu luluh saat bertemu awalan meN- atau peN-.
+kirim jadi mengirim, tulis jadi menulis, sapu jadi menyapu, pesona jadi memesona.
+---
+[table]
+Yang luluh
+| Baku | Tidak baku |
+| *memesona* | mempesona |
+| *memengaruhi* | mempengaruhi |
+| *mengonsumsi* | mengkonsumsi |
+| *menerjemahkan* | menterjemahkan |
+| *menyukseskan* | mensukseskan |
+| *memopulerkan* | mempopulerkan |
+| *memercayai* | mempercayai |
+Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Cuaca bisa mempengaruhi suasana hati.
+right: Cuaca bisa *memengaruhi* suasana hati.
+why: Kata dasarnya pengaruh, berawal p. Jadi p luluh: memengaruhi.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Kurangi mengkonsumsi gula.
+right: Kurangi *mengonsumsi* gula.
+why: Konsumsi berawal k, jadi k luluh. Orangnya pun disebut pengonsumsi.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Para pengrajin rotan kebanjiran pesanan.
+right: Para *perajin* rotan kebanjiran pesanan.
+why: Kata dasarnya rajin. Awalan peN- bertemu r menjadi pe-, seperti perawat dan perusak. KBBI VI menandai pengrajin tidak baku.
+---
+[table]
+Jebakan 1: tetap utuh
+| Kata dasar | Baku |
+| produksi | *memproduksi* |
+| protes | *memprotes* |
+| kritik | *mengkritik* |
+| syukur | *mensyukuri* |
+| traktir | *mentraktir* |
+| transfer | *mentransfer* |
+Diawali dua konsonan, tetap utuh. Menraktir malah tidak baku. Sumber: KBBI VI Daring
+---
+Jebakan 2: mempunyai
+Punya berawal p, tapi KBBI VI mencatat *mempunyai*. Bentuk memunyai tidak tercatat sama sekali.
+Contoh: Kota ini *mempunyai* lima taman.
+---
+Jebakan 3: per- dan ter-
+*Memperhatikan* dan *mentertawakan* itu baku. Huruf p dan t di situ milik awalan per- dan ter-, bukan kata dasarnya (hati, tawa).
+Bandingkan memercayai: p di situ milik kata dasar percaya, jadi luluh. KBBI VI menandai memerhatikan dan menertawakan tidak baku.
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.

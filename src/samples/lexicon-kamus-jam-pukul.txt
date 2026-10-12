@@ -1,0 +1,60 @@
+template: lexicon/kamus
+lang: id
+title: jam atau pukul
+caption: Rapat dua jam yang mulai pukul sembilan: dua kata, dua arti. Sumber: KBBI VI Daring; EYD Edisi V (Tanda Titik, Tanda Titik Dua) #bahasaindonesia #kbbi #eyd
+---
+[cover kicker="JAM ATAU PUKUL"]
+"Rapat Jam 9" | Itu Ragam Cakapan
+Di tulisan resmi: pukul 09.00. Jam itu lamanya, pukul itu saatnya.
+---
+[word]
+pos: nomina
+word: jam
+meaning: waktu yang lamanya 1/24 hari, sama dengan 60 menit atau 3.600 detik
+example: Rapatnya berlangsung dua *jam*.
+note: Jam dengan arti pukul ditandai cak (cakapan). Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: pukul
+meaning: saat yang menyatakan satuan waktu tertentu
+example: Rapat dimulai *pukul* 09.00.
+note: Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Kami berangkat jam 07.00 dan menyetir tiga jam.
+right: Kami berangkat *pukul* 07.00 dan menyetir tiga *jam*.
+why: Pukul untuk saat, jam untuk lama waktu. Dalam tulisan resmi, pakai keduanya sesuai artinya.
+---
+[compare]
+wrong: Acara dimulai pukul 10,30.
+right: Acara dimulai pukul *10.30*.
+why: Angka jam dan menit dipisah titik. Koma dipakai untuk desimal, seperti 12,5 kg.
+---
+Titik dua juga boleh
+EYD V: angka jam, menit, dan detik dipisah titik, misalnya pukul 01.35.20. Titik dua juga dapat dipakai: pukul 01:35:20.
+Untuk lama waktu pun sama: 01.35.20 jam berarti 1 jam, 35 menit, 20 detik.
+---
+[table]
+Siang itu pukul berapa?
+| Kata | Menurut KBBI |
+| *dini hari* | 03.00–05.00 |
+| *pagi* | terbit sampai menjelang siang |
+| *siang* | kira-kira 11.00–14.00 |
+| *petang* | kira-kira 15.00 sampai terbenam |
+| *sore* | sama dengan petang |
+| *malam* | terbenam sampai terbit |
+Sumber: KBBI VI Daring
+---
+[word]
+pos: kiasan
+word: jam karet
+meaning: waktu tidak tepat, terlambat dari waktu yang telah ditentukan (dalam rapat, pertemuan, dan sebagainya)
+example: Undangannya pukul 19.00, tapi gara-gara *jam karet*, acaranya mulai pukul 20.00.
+note: Sumber: KBBI VI Daring
+---
+[end]
+Kata apa yang sering bikin kamu ragu?
+Tulis di komen, nanti kita bahas.
