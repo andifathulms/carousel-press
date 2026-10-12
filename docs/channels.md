@@ -18,7 +18,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 
 | Account | Language | What it posts | Template family | Default template |
 |---|---|---|---|---|
-| 🌿 Ruang Rasa | `id` | Conversation questions | `editorial/*` | `editorial/rose-dusk` |
+| 🌿 Ruang Rasa | `id` | Lines to send, conversation starters | `editorial/ruang-*` | one per pillar (see §1) |
 | 💻 Fathul Learn Coding | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
 | 📜 Catatan Kaki Sejarah | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
 | 🏟️ Whistle Notes | `id` | One sports rule per post | `dev/*` (clean sans) | `dev/paper-light` |
@@ -32,64 +32,82 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 
 ## 1. 🌿 Ruang Rasa
 
-**Tagline:** *Pertanyaan kecil. Cerita yang lebih dalam.*
-A faceless Indonesian account about meaningful conversations, relationships and self-reflection.
-It should feel like "someone gave me a good question to think about", never "someone is telling me how to live my life".
+**Tagline:** *Buat kamu yang susah ngomong duluan.*
+A faceless Indonesian account about relationships, friendship, family and self-reflection.
+Ruang Rasa writes the words that are hard to say, so the viewer only has to send them. It should feel like "this is exactly what I wanted to tell them", never "someone is telling me how to live my life".
+
+**Direction (owner, Oct 2026 review).** The old decks were question lists: every slide was homework for later, with someone who wasn't there, and the account looked like an info account (badges, icons, three backgrounds per deck, the same dusk cover). Now every slide gives the viewer something right away: a line to send, a choice to make, or something they recognise. Comments ask for one tap, not a paragraph.
 
 | | |
 |---|---|
-| Purpose | Start conversations |
+| Purpose | Give people the words to start a conversation |
 | Audience | Indonesian young adults |
 | Reader should think | "I want to send this to someone." |
-| Primary action | Share / save |
-| Tone | Warm, intimate, relatable, thoughtful |
-| Voice | Anonymous companion |
+| Primary action | Share (send the post or a screenshot), then comment |
+| Tone | Warm, intimate, relatable, gently funny |
+| Voice | Anonymous companion; the viewer is the one speaking on "send" cards |
 | Slide types | `cover`, `card`, `quote`, `end` |
 
-### Pillars
+### Pillars and templates
 
-1. **Couple / relationship**: questions for your partner, before marriage, LDR, things couples should talk about, relationship dilemmas.
-2. **Friendship**: questions for your best friend, "how well do you know your friend?", friendship dilemmas, shared memories.
-3. **Family**: questions for parents, for siblings, Indonesian family situations.
-4. **Self-reflection**: questions to ask yourself, life decisions, personal growth, "kalau kamu bisa…".
-5. **Interactive / fun**: would you rather, this or that, pilih satu, "what would you do?", simple personality/result cards.
+Each pillar has its own colour, the same on every slide of the deck, so the feed is colour-coded.
+
+| Pillar | Template | Weight |
+|---|---|---|
+| **Rumah**: orang tua, saudara, kakek nenek, grup keluarga | `editorial/ruang-daun` | ~30% |
+| **Sahabat**: sahabat, teman lama, rekan kerja | `editorial/ruang-kunyit` | ~25% |
+| **Berdua**: pasangan, LDR, sebelum menikah, uang | `editorial/ruang-bata` | ~25% (specific angles only, it's the most crowded) |
+| **Diri sendiri**: refleksi, usia 20an, Pertanyaan Malam | `editorial/ruang-malam` | ~20% |
+
+### Formats (rotate; never the same format twice in a row)
+
+1. **Kirim ini**: every card is a message the viewer can forward as is. Headline = the line (from the viewer's point of view), body = one tip that makes it easier to use ("Ganti tempatnya."). End asks for a tag or the line's number.
+2. **Kamu yang mana?**: one familiar situation. Card 1 lists options as body lines `A. …` to `D. …`. Next cards: "Kalau kamu A, dia B: …", gentle and practical. No diagnosis and no "right" letter. End: "Komen dua huruf. Contoh: A-B."
+3. **Pilih satu (A/B)**: each card is a short question with `A. …` / `B. …` body lines. End: "Komen urutanmu. Contoh: ABBAB." The viewer then asks their person and compares.
+4. **Artinya…**: everyday phrases and what they mean. Headline = the phrase in quotes, body = `Artinya: *…*`. End: "Kalimat nomor berapa yang paling sering kamu dengar?"
+5. **Kamu juga?**: small situations the viewer recognises (headline), plus one kind line (body). End asks for a number.
+6. **Pertanyaan Malam #N**: a numbered series, 3 slides: the question (cover with kicker `PERTANYAAN MALAM · #N`), the account's own short answer (`[quote icon=none]`, attribution `— admin Ruang Rasa`), then `[end]` "Giliranmu." **The owner writes the answer slide personally**; the sample deck's answer is a draft to replace.
+7. **Pertanyaan** (the old question list): at most 1 post in 5, only with a strong, specific cover.
 
 ### Writing rules
 
 - Language: Indonesian (`lang: id`), casual and warm: `kamu` / `aku` / `kita`, never `Anda`. Light slang is fine (`nggak`, `bikin`, `banget`), don't overdo it.
-- One question or idea per card. The headline is the question; the body is one short line that adds warmth or context.
-- Questions should be open (not yes/no) and specific enough to start a real answer ("Momen apa…", "Hal kecil apa…").
-- Inclusive by default: don't assume gender, marriage, religion or that every relationship works the same way.
-- Avoid: generic motivational quotes, cheesy romance, pop/fake psychology ("tanda dia toxic"), manipulative advice, telling people what a relationship "should" be.
-- Before shipping, ask of each card: would someone screenshot this and send it to a specific person?
+- Sentence case everywhere. One `*accent*` phrase per headline, on the words that carry the feeling.
+- Make the point of view clear. On "send" cards the viewer is "aku". On other cards, talk to the viewer about themselves. Don't write "-ku" lines that read as the account talking to the viewer.
+- The cover makes a promise; card 1 is the strongest payoff. **Never repeat the cover line as a card.**
+- Covers: a scene the viewer knows, a phrase everyone has heard, or a pick-a-side question. ≤ 12 words. The subtitle says what the viewer gets ("5 kalimat pembuka…"), never "N pertanyaan buat…".
+- Comment asks are one tap: a letter, a number, an emoji, a tag, or "satu kata".
+- Inclusive by default: don't assume gender, marriage, religion, two parents or a warm home ("orang rumah" over "orang tua" in captions when it fits).
+- Avoid: generic motivational quotes, cheesy romance, pop/fake psychology ("tanda dia toxic"), manipulative advice, hidden-answer hooks, telling people what a relationship "should" be.
+- Before shipping, ask of each card: would someone send this exact slide to a specific person?
 
 ### Deck recipe
 
-- **Templates:** `editorial/rose-dusk` (default: cream, dusty rose, deep green), `editorial/sage` (nostalgia, family, calm), `editorial/midnight` (night-time, longing, LDR). Rotate between them so the feed doesn't look identical.
-- **Length:** cover + 5–7 cards + end. Stay ≤ 10 slides (`long-deck` warning above that).
-- **Cover:** `[cover photo=1]`, headline with a number and a `|` break, subtitle as a low-pressure invitation.
-- **Cards:** pick a fitting `icon=` per card (see the list in Shared rules) or leave `auto`. Don't type `01`, `02`: badge numbers are drawn automatically.
-- **Interactive pillar:** "A atau B?" goes in the headline, the body nudges people to answer in the comments. No hidden answers, since a carousel can't hide them.
-- **End:** `[end]` with a save/share line, e.g. `Simpan dulu 🤍` + `Buat bahan obrolan nanti.` Or end on the last question with `[cta]`.
-- **Caption:** one line, warm, invites a reply, plus 2–4 hashtags (`#pertanyaanpasangan`, `#sahabat`, `#refleksidiri`…).
+- **Template:** the pillar's `editorial/ruang-*` variant. No photo by default: the cover is the pillar colour. If you use a photo, use a real candid one (hands, a table, a window), different on every post, never the sample dusk.
+- **Cover:** `[cover kicker="RUANG RASA · <PILLAR OR TOPIC>"]`, headline with one `*accent*`, subtitle.
+- **Cards:** `[number=off icon=none]` on every card. Badges and icons read as a listicle.
+- **End:** `[end cta="<the action>"]` (e.g. `Kirim ke dia`, `Kirim ke grup keluarga`), headline = the one-tap ask, body = how to answer. Not "Simpan • Bagikan".
+- **Length:** cover + 4–6 cards + end (Pertanyaan Malam: 3 slides). Stay ≤ 10 slides.
+- **Caption:** the first line pushes the hook further, the last line repeats the comment ask, plus 2–4 hashtags.
+- **Posting:** a soft trending sound on every carousel (chosen in TikTok), a pinned comment with the account's own answer within 10 minutes, and replies to the first comments in the first hour.
 
 ```text
-template: editorial/rose-dusk
+template: editorial/ruang-kunyit
 lang: id
-title: 5 pertanyaan buat sahabat
-caption: Kirim ke sahabatmu, terus bandingin jawabannya 🤍 #sahabat #pertanyaan
+title: pembuka obrolan buat teman lama
+caption: Yang paling susah itu chat pertama setelah lama nggak ngobrol. Ini 5 kalimat pembuka, tinggal kirim 🤍 Kamu kepikiran siapa? #temanlama #sahabat
 ---
-[cover photo=1]
-5 Pertanyaan | Buat Sahabatmu
-Jawab jujur. Nggak ada yang salah.
+[cover kicker="RUANG RASA · TEMAN LAMA"]
+Kita nggak pernah berantem. | Cuma *pelan-pelan* jarang chat.
+5 kalimat pembuka, biar nggak berhenti di "apa kabar".
 ---
-[icon=smile]
-Kapan pertama kali kamu ngerasa kita bakal jadi dekat?
-Coba ingat-ingat momennya.
+[number=off icon=none]
+Tadi aku lewat tempat kita dulu, *langsung keinget kamu.*
+Ganti tempatnya. Kirim apa adanya, nggak usah dirapihin.
 ---
-[end]
-Simpan dulu 🤍
-Buat bahan obrolan nanti.
+[end cta="Kirim ke dia"]
+Kamu kepikiran *siapa* dari tadi?
+Tag dia di komentar. Nggak usah nulis apa-apa.
 ```
 
 ---
