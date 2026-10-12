@@ -238,8 +238,13 @@ describe('every shipped deck', () => {
       const ws = long ? r.warnings.filter((w) => w.code !== 'long-deck') : r.warnings;
       expect(ws).toEqual([]);
       if (long) expect(r.deck.slides.length).toBeLessThanOrEqual(14);
-      // Sports and language decks: 8–14 slides, compact (owner, Oct 2026).
-      if (f.startsWith('sports-') || f.startsWith('lexicon-')) expect(r.deck.slides.length).toBeGreaterThanOrEqual(8);
+      // Language decks: 8–14 slides, compact (owner, Oct 2026).
+      if (f.startsWith('lexicon-')) expect(r.deck.slides.length).toBeGreaterThanOrEqual(8);
+      // Whistle Notes rework (owner, Oct 2026): 6–10 slides.
+      if (f.startsWith('sports-')) {
+        expect(r.deck.slides.length).toBeGreaterThanOrEqual(6);
+        expect(r.deck.slides.length).toBeLessThanOrEqual(10);
+      }
       expect(r.deck.slides.length).toBeGreaterThanOrEqual(short ? 1 : malam ? 3 : 5);
       if (short) expect(r.deck.slides.length).toBeLessThanOrEqual(f.startsWith('ayat-') ? 4 : 3);
       expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);

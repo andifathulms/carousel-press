@@ -1,48 +1,73 @@
-template: dev/paper-light
+template: sport/papan
 lang: id
-title: offside dijelaskan
-caption: Tangan tidak dihitung, bahu dihitung, dan dari lemparan ke dalam tidak ada offside sama sekali. Sumber: IFAB Laws of the Game 2026/27, Law 11; The Conversation (2021) #sepakbola #offside #aturanbola
+title: kamu wasitnya offside
+caption: Tiga situasi, satu bendera. Tebak dulu sebelum geser, terus komen skormu. Sumber: IFAB Laws of the Game 2026/27, Law 11 #sepakbola #offside #aturanbola
 ---
-[cover photo=sport-offside-line kicker="SEPAK BOLA • PERATURAN 11"]
-Bahu Bisa Bikin Offside, | Tangan Tidak
-Dan berdiri di posisi offside saja belum tentu pelanggaran. Berdasarkan Laws of the Game 2026/27.
+[cover kicker="SEPAK BOLA • LAW 11 • KAMU WASITNYA"]
+3 situasi. | Kamu *wasitnya.*
+Tebak dulu, baru geser. Skor kamu berapa dari 3?
 ---
-[photo=sport-corner-flag]
-Apa itu posisi offside
-Kamu di separuh lapangan lawan, dan bagian kepala, badan, atau kakimu lebih dekat ke garis gawang lawan daripada bola dan lawan kedua terakhir. Lawan terakhir biasanya kiper, jadi patokannya biasanya bek paling belakang.
+[diagram number=off]
+Sejajar bek kedua terakhir saat dioper.
+Sah atau offside? Jawab dulu, baru geser.
+```football
+line 30 garis offside
+gk 50,4
+def 34,30
+def 70,52
+att 72,30
+att 40,62
+ball 43,59
+pass 40,62 -> 72,30
+```
 ---
-[photo=sport-level-pair]
-Tangan tidak dihitung, sejajar itu onside
-Tangan dan lengan semua pemain diabaikan, termasuk kiper; batasnya garis bawah ketiak. Bahu sah untuk mencetak gol, jadi ikut dinilai. Sejajar dengan lawan kedua terakhir bukan offside. Posisi dinilai saat rekan setim pertama kali menyentuh bola.
+[verdict="Sah" tone=ok]
+Sejajar itu *onside.*
+Offside kalau lebih dekat ke garis gawang daripada bola dan lawan kedua terakhir. Sejajar tidak dihitung lebih dekat.
+Law 11.1
 ---
-[photo=sport-ball-kick]
-Posisi offside bukan pelanggaran
-Yang dihukum adalah ikut terlibat saat rekan setim memainkan bola: memainkan bola, mengganggu lawan, atau mengambil keuntungan dari bola yang memantul dari tiang, mistar, wasit, atau lawan.
+[diagram number=off]
+Jauh di depan semua bek, terima langsung dari lemparan ke dalam.
+Sah atau offside?
+```football
+line 36 garis offside
+gk 50,4
+def 38,36
+def 62,40
+att 76,14
+att 96,58 lemparan
+pass 96,58 -> 76,14
+```
 ---
-[photo=sport-ball-kick]
-Mengganggu lawan itu seperti apa?
-Contohnya berdiri tepat di depan kiper sehingga menghalangi pandangannya, berebut bola dengan lawan, atau jelas mencoba menjangkau bola dekat yang memengaruhi lawan. Sekadar berada di posisi offside belum cukup.
+[verdict="Sah" tone=ok]
+Lemparan ke dalam: *nggak ada offside.*
+Sama untuk tendangan gawang dan tendangan sudut, kalau bolanya diterima langsung. Tendangan bebas tetap bisa offside.
+Law 11.3
 ---
-[photo=sport-corner-flag]
-Bola dari lawan yang sengaja memainkannya
-Kalau lawan sengaja memainkan bola, termasuk operan atau sapuan yang meleset, kamu tidak dianggap mendapat keuntungan. Pengecualiannya penyelamatan oleh lawan mana pun, termasuk bek yang memblok tembakan.
+[diagram number=off]
+Gol. Rekannya berdiri di depan kiper, di posisi offside, dan nggak nyentuh bola.
+Sah atau offside?
+```football
+line 30 garis offside
+gk 50,4
+def 34,30
+def 66,34
+att 50,13 nggak nyentuh bola
+att 36,50
+ball 39,47
+move 36,50 -> 55,0
+```
 ---
-[photo=sport-corner-flag]
-Tidak ada offside dari sini
-Langsung dari tendangan gawang, lemparan ke dalam, atau tendangan sudut. Tendangan bebas tidak termasuk. Contoh: dari lemparan ke dalam, penyerang yang lebih maju dari semua bek sah menerima bola.
+[verdict="Offside" tone=warn]
+Nggak nyentuh bola, *tetap offside.*
+Jelas menghalangi pandangan kiper termasuk mengganggu lawan. Golnya dianulir, lalu tendangan bebas tidak langsung.
+Law 11.2 & 11.4
 ---
-[photo=sport-linesman-flag]
-Bek keluar lapangan tetap dihitung
-Bek yang keluar lapangan tanpa izin wasit tetap dianggap berdiri di garis gawang atau garis samping. Jadi keluar lapangan tidak bisa dipakai untuk menjebak penyerang offside, dan kalau sengaja, ia dapat kartu kuning.
+[verdict="Bonus" tone=warn]
+Bahu dihitung. *Tangan nggak.*
+Lengan semua pemain, termasuk kiper, nggak dihitung buat offside. Batasnya garis bawah ketiak, jadi bahu ikut dinilai.
+Law 11.1
 ---
-[photo=sport-referee-signal]
-Hukumannya
-Tendangan bebas tidak langsung di tempat pelanggaran terjadi, bahkan kalau itu di separuh lapangan pemain sendiri. Contoh: penyerang offside berlari mundur dan menyentuh bola di separuh lapangannya; tendangan bebas diambil di situ.
----
-[photo=sport-referee-signal]
-Kenapa offside ada?
-Aturan FA 1863 melarang penyerang berdiri di depan bola, supaya tidak ada yang menunggu di depan gawang. Pada 1925 batasnya dikurangi dari tiga lawan menjadi dua, agar gol lebih banyak.
----
-[end photo=sport-offside-line]
-Simpan buat debat VAR berikutnya.
-Mau dibahas aturan apa lagi? Tulis di komen.
+[end cta="Simpan buat debat VAR"]
+Skor kamu *berapa dari 3?*
+Komen angkanya. Terus tag teman yang tadi teriak "itu offside!"

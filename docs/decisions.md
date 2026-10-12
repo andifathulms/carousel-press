@@ -128,3 +128,6 @@ Before `carousel-core` is extracted, the parser snapshots become the contract (d
 - `[score]` from the Whistle Notes review was not built: a card headline like `15–14` in the display face does the job.
 - Diagram fields use official half-field dimensions (IFAB, FIFA futsal, BWF, FIVB, FIBA, ITF). Basketball's three-point line uses the FIBA 6.75 m arc with 0.9 m corner lines.
 - Verdict stamps use the card-headline face and weight, so they never need an extra font file.
+- All 10 sports decks rewritten into the Whistle Notes formats (Kamu Wasitnya, Mitos vs Aturan, Pojok Bulu Tangkis, Satu Aturan Satu Diagram). Facts are a subset of what the previous decks stated and sourced; docs/deck-sources.md still applies.
+- Sports decks are 6–10 slides (owner-approved Oct 2026 review); `parser.test.ts` enforces it.
+- Sports decks have no photos (diagrams carry the visuals), so the 58 `sport-*` photos (~17 MB) were removed from `src/samples/photos`, `photos.ts` and photo-credits.md. They are in git history before this commit if a cover photo is wanted later.

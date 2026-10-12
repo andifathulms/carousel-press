@@ -12,8 +12,6 @@ export interface SamplePhoto {
 
 /** Focal points for the cover crop (0–1). Photos not listed here use the centre. */
 const FOCAL: Record<string, [number, number]> = {
-  'sport-offside-line': [0, 0.5],
-  'sport-goalkeeper': [0.62, 0.5],
 };
 
 export const SAMPLE_PHOTOS: readonly SamplePhoto[] = Object.entries(URLS).map(([path, url]) => {

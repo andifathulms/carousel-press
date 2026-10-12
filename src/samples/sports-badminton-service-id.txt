@@ -1,48 +1,51 @@
-template: dev/paper-light
+template: sport/lapangan
 lang: id
-title: servis bulu tangkis
-caption: Dulu patokannya pinggang pemain, sekarang angka pasti: 1,15 meter. Sumber: BWF Laws of Badminton (2025, sama di versi 2027), Laws 9–11, 13, 14 & 17; BWF memorandum 18 Des 2018; BWF (larangan spin serve 2023, permanen 2025); Scroll.in & ESPN #bulutangkis #badminton #servis
+title: pojok bulu tangkis servis
+caption: Servis sah atau fault? Tinggi pukulan dan petaknya diatur sampai sentimeter. Tebak dulu, baru geser. Sumber: BWF Laws of Badminton 2025 (sama di versi 2027), Law 9–11 #bulutangkis #badminton #servis
 ---
-[cover photo=sport-badminton-serve kicker="BULU TANGKIS • LAW 9"]
-Pukul Servis di Atas | 1,15 m? Itu Fault
-Plus servis berputar yang viral lalu dilarang. Law 9 sama di versi 2025 dan 2027.
+[cover kicker="POJOK BULU TANGKIS • #2 • LAW 9"]
+Servis kamu sah, | *atau fault?*
+4 situasi. Tebak dulu, baru geser, terus komen skormu.
 ---
-[photo=sport-badminton-low-hit]
-Pukul di bawah 1,15 m
-Seluruh kok harus berada di bawah 1,15 meter dari permukaan lapangan saat raket mengenainya. Sebagai gambaran, pita net di tengah setinggi 1,524 m, jadi titik pukul servis minimal sekitar 37 cm di bawah pita net.
+[number=off]
+Kok dipukul setinggi 1,2 meter dari lantai.
+Sah atau fault? Jawab dulu, baru geser.
 ---
-[photo=sport-badminton-low-hit]
-Tinggi tetap sejak 2018
-Dulu hakim servis membandingkan tinggi pukulan dengan pinggang pemain, dan batang raket wajib mengarah ke bawah. Karena sering dikeluhkan tidak konsisten, BWF menguji tinggi tetap mulai Maret 2018 dan menjadikannya permanen tahun itu juga.
+[verdict="Fault" tone=bad]
+Batasnya *1,15 meter.*
+Seluruh kok harus di bawah 1,15 m saat kena raket. Tinggi pasti ini dipakai sejak 2018, menggantikan patokan pinggang yang sering dikeluhkan.
+Law 9.1
 ---
-[photo=sport-shuttlecock]
-Pangkal kok dulu, tanpa putaran
-Raket harus mengenai pangkal kok lebih dulu, bukan bulunya. Servis berputar yang viral di Polish Open, Maret 2023, nyaris tak bisa dikembalikan; BWF melarangnya sejak Mei 2023, dan permanen sejak April 2025.
+[diagram number=off]
+Tunggal, skormu 7. Kamu servis dari petak mana?
+Kanan atau kiri?
+```badminton
+zone 7.5,30 50,100
+player 28,70 S
+label 10,24 petak kiri
+```
 ---
-[photo=sport-badminton-feet]
-Kaki tetap menapak
-Pemain yang servis dan penerima sama-sama menjaga sebagian kedua kakinya tetap di lantai, tidak bergerak, sampai servis dipukul. Mengangkat kaki tepat setelah kok terpukul tidak apa-apa, karena servis selesai saat kok terkena raket.
+[verdict="Kiri" tone=ok]
+Ganjil dari kiri, *genap dari kanan.*
+Skor nol atau genap: servis dari petak kanan. Ganjil: dari kiri. Kok yang jatuh di garis dihitung masuk.
+Law 10
 ---
-[photo=sport-badminton-feet]
-Raket terus bergerak maju
-Servis dimulai pada gerakan maju pertama kepala raket, lalu raket harus terus bergerak ke depan. Jeda setelah ayunan ke belakang dihitung penundaan, dan gerakan maju, mundur, lalu maju lagi untuk mengecoh juga fault.
+[number=off]
+Kamu servis saat lawan belum siap, dan dia nggak mencoba mengembalikan.
+Poin buat kamu?
 ---
-[photo=sport-badminton-serve]
-Penerima belum siap? Let
-Kalau servis dipukul sebelum penerima siap dan ia tidak mencoba mengembalikan, servis diulang: let. Kalau ia mencoba mengembalikan, ia dianggap siap. Let juga terjadi kalau keduanya fault. Skor tidak berubah.
+[verdict="Let" tone=warn]
+Servis *diulang.*
+Kalau penerima belum siap dan nggak mencoba mengembalikan, itu let dan skor nggak berubah. Kalau dia mencoba mengembalikan, dia dianggap siap.
 ---
-[photo=sport-badminton-court]
-Siapa yang memanggil fault?
-Hakim servis memanggil fault pemain yang servis. Penundaan servis dan kesalahan penerima dipanggil wasit. Kok servis yang tersangkut di net juga fault.
+[number=off]
+Servis berputar yang viral di Polish Open 2023, bulu kok yang dipukul duluan.
+Sah atau fault?
 ---
-[photo=sport-badminton-court]
-Petak diagonal, kanan atau kiri
-Pemain yang servis dan penerima berdiri di petak yang berseberangan diagonal, tanpa menyentuh garis; kok yang jatuh di garis masuk. Di tunggal, servis dari kanan saat skormu nol atau genap, dari kiri saat ganjil.
+[verdict="Fault" tone=bad]
+Pangkal kok *dulu, tanpa putaran.*
+Raket harus mengenai pangkal kok lebih dulu. Servis berputar dilarang BWF sejak Mei 2023, dan permanen sejak April 2025.
 ---
-[photo=sport-badminton-low-hit]
-Servis di ganda: siapa menerima?
-Di ganda, sisi yang servis memakai petak kanan saat skornya genap dan kiri saat ganjil. Penerimanya pemain di petak diagonal. Pasangan hanya bertukar petak saat menang poin dari servisnya sendiri.
----
-[end photo=sport-badminton-serve]
-Simpan buat main berikutnya.
-Mau dibahas aturan apa lagi? Tulis di komen.
+[end cta="Simpan buat main nanti"]
+Skor kamu *berapa dari 4?*
+Komen angkanya. Tag partner ganda yang servisnya sering dipanggil fault.

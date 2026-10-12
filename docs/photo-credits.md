@@ -10,15 +10,10 @@ Loading a sample adds the photos it uses to the photo tray. CC BY / BY-SA credit
 | istana-siak | sejarah-syarif-kasim-id | Istana_Siak_(2).jpg | Taufik Hadris | CC BY 4.0 |
 | benteng-kastela | sejarah-baabullah-id | Benteng_Kastela_di_Kastela,_Ternate_12.jpg | Ana Ainina | CC BY 4.0 |
 | penaklukan-makassar | sejarah-bongaya-id | AMH-6157-NA_The_conquest_of_Macassar_by_Speelman_from_1666_to_1669.jpg | Romeyn de Hooge / Nationaal Archief | Public domain |
-| sport-offside-line | sports-offside-id | White_soccer_line_(Unsplash).jpg | Unsplash | CC0 |
-| sport-goalkeeper | sports-handball-id | Silhouette_goalkeeper_catching_the_ball_(Unsplash).jpg | Unsplash | CC0 |
-| sport-tennis-ball | sports-tennis-scoring-id | Tennis_ball_closeup.jpg | | CC0 |
-| sport-badminton-racket | sports-badminton-scoring-id | Badminton-1428046.jpg | | CC0 |
-| sport-badminton-serve | sports-badminton-service-id | Ruud_van_Ginneken_in_aktie_badminton,_Bestanddeelnr_921-2197.jpg | Nationaal Archief | CC0 |
 
 ## Card photos
 
-Every slide of the history and sports decks has a photo. Commons file names below; credit lines for CC BY / BY-SA are in each deck's caption.
+Every slide of the history decks has a photo (sports decks use drawn diagrams since Oct 2026, no photos). Commons file names below; credit lines for CC BY / BY-SA are in each deck's caption.
 
 | Photo ID | Deck | Commons file | Author | Licence |
 |---|---|---|---|---|
@@ -48,29 +43,6 @@ Every slide of the history and sports decks has a photo. Commons file names belo
 
 Sports card photos are all CC0 or public domain (Commons; Nationaal Archief, Unsplash, Pexels, Paris Musées), so they need no credit:
 
-- `sport-ball-kick`: Pexels-pixabay-50713.jpg
-- `sport-corner-flag`: Corner_flag_at_Brastad_arena.jpg
-- `sport-level-pair`: Girls_at_association_football_goals.jpg
-- `sport-linesman-flag`: Blauw-Wit_tegen_HDVS_grensrechter_in_regenjas,_Bestanddeelnr_904-3929.jpg
-- `sport-referee-signal`: Scheidsrechter_Van_der_Veer,_..._Bestanddeelnr_919-6300.jpg
-- `sport-kids-soccer`: Girls_Playing_Outside.jpg (darkened)
-- `sport-hands-up`: Ajax-Volendam_2-0_..._Bestanddeelnr_921-7417.jpg
-- `sport-handball-1950s`: Zeeburgia_tegen_Volewijckers_(1-3)._Hands,_Bestanddeelnr_902-5879.jpg
-- `sport-keeper-gloves`: Football_Gloves_Cone1.jpg (PD)
-- `sport-penalty-1950s`: Blauw-Wit_tegen_EDO_3-0._..._Bestanddeelnr_904-2559.jpg
-- `sport-tennis-scorecards`: Tennis_courts_and_scorecards.jpg (darkened)
-- `sport-tennis-swing`: Swing_(Unsplash).jpg
-- `sport-tennis-court-lines`: Gaithersburg_tennis_court_(Unsplash).jpg
-- `sport-jeu-de-paume`: Ancien_jeu_de_paume_du_Comte_d'Artois,_..._G.24965.jpg (Paris Musées)
-- `sport-ballhaus-1606`: Chr_Neyffer_L_Ditzinger_Collegium_Illustre_Radierung_1606_Inv.1087.jpg (PD)
-- `sport-badminton-net-talk`: Badminton,_Bestanddeelnr_920-2340.jpg
-- `sport-badminton-smash`: Internationale_badmintonkampioenschappen_te_Haarlem,_..._917-4263.jpg
-- `sport-badminton-rackets`: Badminton-gef8652e4a_1920.jpg
-- `sport-badminton-break`: Badminton,_spelers_in_het_zonnetje,_Bestanddeelnr_920-2341.jpg
-- `sport-badminton-low-hit`: Badminton,_Huub_van_Ginniken_in_aktie,_Bestanddeelnr_920-2339.jpg
-- `sport-shuttlecock`: Shuttlecock.jpg (PD)
-- `sport-badminton-feet`: J._van_Beusekom_in_aktie_badminton,_Bestanddeelnr_921-2194.jpg
-- `sport-badminton-court`: Badminton_court.jpg
 
 ## Second batch (Oct 2026)
 
@@ -84,7 +56,6 @@ History photos (Commons; credit lines are in each deck's caption):
 | tambora- | sejarah-tambora-id | NASA (PD); Zollinger 1855 map, Raffles engraving (PD); Rijksmuseum (CC0); Felix Dance (CC BY 2.0); Georesearch Volcanedo, Budi Wasisto (CC BY-SA 4.0); Tisquesusa (CC BY 4.0) |
 | risaju- | sejarah-opu-daeng-risaju-id | Silentwinner (CC0); Midori (CC BY 3.0); Jorge Franganillo (CC BY 2.0); KITLV (CC BY 4.0). No freely licensed portrait of Opu Daeng Risaju exists; the Sarekat Islam photo is a meeting in Blitar (Java). |
 
-Sports photos (`sport-bb-`, `sport-voli-`, `sport-backpass-`, `sport-shotclock-`, `sport-kriket-`) are all CC0 or public domain (Unsplash via Commons, Nationaal Archief, US government/DVIDS, a 1908 basketball guide), so they need no credit.
 
 Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterdam-denah, rotterdam-foto-lama, rotterdam-litho-1845, tambora-peta-1855, tambora-raffles, tambora-bima-litho. Some history decks now also reuse photos from another history deck (e.g. Kutai uses nama-tenggarong-tepian, nama-balikpapan-pelabuhan, nama-samarinda-mahakam; Yupa uses kutai-mahakam).
 

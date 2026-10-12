@@ -1,52 +1,53 @@
-template: dev/paper-light
+template: sport/lapangan
 lang: id
-title: travelling basket dijelaskan
-caption: Eurostep zig-zag itu sah, tapi lompat dari kaki kiri lalu mendarat lagi di kaki kiri tidak. Sumber: FIBA Official Basketball Rules 2026 (berlaku 1 Okt 2026), Art. 22.2, 24 & 25; FIBA Interpretations 2026; NBA Rulebook 2026-27, Rule 4 Sec. III, Rule 10 Sec. XIII & Rule 14 #basket #basketball #aturanbasket
+title: travelling basket kamu wasitnya
+caption: Kelihatannya tiga langkah, tapi sah. Lompat dari kaki kiri lalu mendarat kaki kiri, travelling. Tebak dulu sebelum geser. Sumber: FIBA Official Basketball Rules 2026, Art. 25 #basket #basketball #aturanbasket
 ---
-[cover photo=sport-bb-cover-shot kicker="BASKET • FIBA ART. 25"]
-Tiga Langkah Saat Layup | Belum Tentu Travelling
-Langkah saat menangkap bola dihitung nol, baru setelah itu dua langkah. Begini aturan FIBA, dan bedanya dengan NBA.
+[cover kicker="BASKET • FIBA ART. 25 • KAMU WASITNYA"]
+Tiga langkah saat layup. | *Travelling atau sah?*
+4 situasi menurut aturan FIBA. Tebak dulu, baru geser.
 ---
-[photo=sport-bb-dribble]
-Apa itu travelling
-Gerakan kaki yang melewati batas aturan saat memegang bola hidup di lapangan. Hukumannya: bola untuk lawan, lewat lemparan ke dalam dari titik terdekat pelanggaran, kecuali tepat di belakang papan.
+[diagram number=off]
+Tangkap bola saat kaki kanan menapak, lalu kiri, kanan, terus layup.
+Travelling atau sah?
+```basketball
+player 30,82 0
+player 38,64 1
+player 45,47 2
+move 45,47 -> 50,14
+label 6,96 0 = langkah saat menangkap bola
+```
 ---
-[photo=sport-bb-pivot-1908]
-Kaki poros
-Saat memegang bola, kamu boleh melangkah berkali-kali ke segala arah dengan satu kaki, selama kaki poros tetap menempel. Contoh: poros kaki kiri, kaki kanan boleh menapak berkali-kali; menggeser kaki kiri berarti travelling.
+[verdict="Sah" tone=ok]
+Langkah saat menangkap *dihitung nol.*
+Gather step dulu, baru dua langkah. Yang kelihatan seperti tiga langkah biasanya ini, dan sah. FIBA menghitung begini sejak 2017.
+Art. 25.2
 ---
-[photo=sport-bb-feet-court]
-Menangkap bola sambil diam
-Begitu satu kaki diangkat, kaki yang lain jadi kaki poros. Mau dribel? Bola harus lepas sebelum kaki poros terangkat. Untuk mengoper atau menembak, kamu boleh melompat dari kaki poros asal bola lepas sebelum mendarat.
+[number=off]
+Setelah gather, satu langkah ke kiri, satu ke kanan: eurostep.
+Travelling atau sah?
 ---
-[photo=sport-bb-layup]
-Menangkap bola sambil bergerak
-Kamu boleh dua langkah untuk berhenti, mengoper, atau menembak. Kalau mau dribel, bola harus lepas sebelum langkah kedua. Langkah kedua terjadi saat kaki lainnya menapak, atau saat kedua kaki mendarat bersamaan.
+[verdict="Sah" tone=ok]
+Yang dihitung *jumlah langkah,* bukan arahnya.
+Dua langkah setelah gather, ke mana pun arahnya, tetap sah. Langkah ketiga baru travelling.
 ---
-[photo=sport-bb-gather-archive]
-Gather step: langkah nol
-Langkah pertama dihitung saat kaki menyentuh lantai setelah bola dikuasai. Contoh: tangkap bola saat kaki kanan menapak (nol), lalu kiri (satu), kanan (dua). FIBA memakai cara hitung ini sejak 2017.
+[number=off]
+Berhenti dribel, lompat dari kaki kiri, lalu mendarat lagi di kaki kiri.
+Travelling atau sah?
 ---
-[photo=sport-bb-layup]
-Mitos langkah ketiga, dan eurostep
-Yang terlihat seperti tiga langkah biasanya gather step plus dua langkah, dan itu sah. Eurostep juga: dua langkah setelah gather, satu ke kiri, satu ke kanan. Yang dihitung jumlah langkah, bukan arahnya; langkah ketiga tetap travelling.
+[verdict="Travelling" tone=bad]
+Nggak boleh *hop.*
+Setelah berhenti dribel, kamu nggak boleh menyentuh lantai berturut-turut dengan kaki yang sama.
+Art. 25.2
 ---
-[photo=sport-bb-feet-court]
-Jump stop: mendarat dua kaki
-Berhenti di langkah pertama dengan dua kaki mendarat bersamaan? Kamu boleh pivot dengan kaki mana saja. Tapi kalau melompat dari satu kaki lalu mendarat dua kaki di langkah kedua, kamu tidak boleh pivot.
+[number=off]
+Jatuh, lalu tergelincir karena momentum sambil memegang bola.
+Travelling atau sah?
 ---
-[photo=sport-bb-feet-court]
-Tidak boleh "hop"
-Setelah berhenti dribel atau menguasai bola, kamu tidak boleh menyentuh lantai berturut-turut dengan kaki yang sama. Contoh: lompat dari kaki kiri lalu mendarat lagi di kaki kiri berarti travelling.
+[verdict="Sah" tone=ok]
+Tergelincir *sah,* berguling nggak.
+Travelling baru terjadi kalau kamu berguling atau mencoba berdiri sambil memegang bola.
 ---
-[photo=sport-bb-gather-archive]
-Jatuh bawa bola? Sah
-Jatuh lalu tergelincir karena momentum sambil memegang bola itu sah, begitu juga menangkap bola sambil berbaring. Travelling terjadi kalau kamu berguling atau mencoba berdiri sambil memegang bola.
----
-[photo=sport-bb-layup]
-NBA: aturannya mirip
-NBA juga membolehkan dua langkah setelah gather, yaitu saat pemain cukup menguasai bola untuk memegang, mengoper, atau menembak; definisinya ditulis sejak 2019. Di FIBA maupun NBA, travelling tidak bisa di-challenge pelatih.
----
-[end photo=sport-bb-cover-shot]
-Simpan buat main basket berikutnya.
-Mau dibahas aturan apa lagi? Tulis di komen.
+[end cta="Simpan buat main basket"]
+Skor kamu *berapa dari 4?*
+Komen angkanya. Tag teman yang selalu teriak "travel!" tiap ada eurostep.

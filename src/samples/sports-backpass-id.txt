@@ -1,48 +1,32 @@
-template: dev/paper-light
+template: sport/kapur
 lang: id
-title: aturan backpass
-caption: Satu laga 0-0 di Piala Dunia 1990 sering disebut sebagai alasan kiper tak boleh lagi menangkap backpass. Sumber: IFAB Laws of the Game 2026/27, Law 12.2–12.4, 13.2, 15 & 16; IFAB Laws of the Game 1992-93; IFAB (2025, 2026); Goal.com (2020) & Irish Times (2018) #sepakbola #backpass #aturanbola
+title: mitos aturan backpass
+caption: Kiper boleh nangkap sundulan rekan, tapi nggak boleh nangkap operan kaki ke samping. Ini 4 mitos backpass. Sumber: IFAB Laws of the Game 2026/27, Law 12.2–12.4 #sepakbola #backpass #aturanbola
 ---
-[cover photo=sport-backpass-keeper-dusk kicker="SEPAK BOLA • PERATURAN 12"]
-Sekitar 6 Menit Bola | di Tangan Kiper
-Irlandia vs Mesir 1990 sering disebut pemicu aturan backpass. Kini kiper juga dibatasi delapan detik.
+[cover kicker="SEPAK BOLA • LAW 12 • MITOS VS ATURAN"]
+4 mitos backpass | yang *masih dipercaya.*
+Termasuk aturan 8 detik buat kiper, yang baru berlaku sejak 2025/26.
 ---
-[photo=sport-backpass-keeper-hands]
-Aturannya
-Kiper di kotak penaltinya tidak boleh menyentuh bola dengan tangan kalau bola itu sengaja ditendang rekan setim kepadanya. Umpan yang meleset pun tetap dihitung.
+[verdict="Mitos" tone=bad]
+"Kiper nggak boleh pegang bola dari rekan."
+Aturannya: yang dilarang cuma bola yang *sengaja ditendang* rekan, atau langsung dari lemparan ke dalam. Sundulan, dada, dan lutut boleh ditangkap.
 ---
-[photo=sport-backpass-throw-in]
-Juga dari lemparan ke dalam
-Bola yang datang langsung dari lemparan ke dalam rekan setim juga tidak boleh dipegang kiper. Bagian ini ditambahkan belakangan, sekitar 1997.
+[verdict="Mitos" tone=bad]
+"Yang dilarang cuma operan ke belakang."
+Aturannya: arah bola *nggak penting.* Operan kaki ke depan atau ke samping ke kiper juga terlarang. Umpan yang meleset pun tetap dihitung.
 ---
-[photo=sport-backpass-ball-feet]
-Harus ditendang, dan disengaja
-Sundulan, dada, atau lutut ke kiper boleh ditangkap, begitu juga bola yang tidak sengaja mengenai kaki rekan. Arah bola tidak penting: operan dengan kaki ke depan atau ke samping ke kiper juga terlarang.
+[verdict="Mitos" tone=bad]
+"Cungkil lalu sundul ke kiper, aman."
+Aturannya: itu akal-akalan, *tetap dihukum.* Tendangan bebas tidak langsung, plus kartu kuning buat pemain yang memulai triknya.
 ---
-[photo=sport-backpass-catch-1970s]
-Akal-akalan dihukum
-Sengaja mencungkil bola lalu menyundulnya ke kiper untuk mengakali aturan tetap pelanggaran, meski kiper tidak memegang bolanya. Kartu kuning untuk pemain yang memulai trik; kiper ikut dikartu kalau dia pemrakarsanya.
+[verdict="Mitos" tone=bad]
+"Kiper boleh pegang bola selama dia mau."
+Aturannya: sejak 2025/26, lebih dari *8 detik* berarti sepak pojok untuk lawan. Wasit menghitung mundur lima detik terakhir dengan tangan.
 ---
-[photo=sport-backpass-goal-fog]
-Hukumannya
-Tendangan bebas tidak langsung, tanpa kartu untuk kiper. Kalau terjadi di kotak kecil, bola ditaruh di garis kotak kecil terdekat, dan pemain bertahan boleh berdiri di garis gawang di antara kedua tiang.
+[number=off]
+Kenapa aturannya ada?
+Irlandia vs Mesir di Piala Dunia 1990 berakhir 0-0, dan kiper Packie Bonner disebut memegang bola total sekitar enam menit. Laga ini sering dikutip sebagai pemicunya. IFAB mengesahkan aturan backpass pada 30 Mei 1992.
 ---
-[photo=sport-backpass-catch-1970s]
-Irlandia vs Mesir, 1990
-Di Piala Dunia 1990, Irlandia vs Mesir berakhir 0-0. Kiper Packie Bonner disebut memegang bola total sekitar enam menit sepanjang laga. Laga ini sering dikutip sebagai salah satu pemicu aturan backpass.
----
-[photo=sport-backpass-catch-1970s]
-Lahir pada 1992
-IFAB mengesahkannya pada 30 Mei 1992 untuk memberantas buang-buang waktu. Euro 1992 jadi turnamen besar terakhir tanpa aturan ini; Olimpiade Barcelona 1992 termasuk yang pertama memakainya.
----
-[photo=sport-backpass-ball-feet]
-Kiper harus pintar kaki
-Karena tak bisa lagi asal menangkap umpan rekan, kiper dipaksa terampil mengoper dengan kaki. Aturan 1992 sering disebut sebagai awal lahirnya "sweeper-keeper", kiper yang ikut membangun serangan.
----
-[photo=sport-backpass-keeper-hands]
-Aturan delapan detik
-Sejak 2025/26, kiper yang memegang bola lebih dari delapan detik dihukum sepak pojok untuk lawan. Wasit menghitung mundur lima detik terakhir dengan tangan terangkat, dan memantulkan bola ke tanah tidak mereset hitungan.
----
-[end photo=sport-backpass-keeper-dusk]
-Simpan buat debat bola berikutnya.
-Mau dibahas aturan apa lagi? Tulis di komen.
+[end cta="Kirim ke teman"]
+Mitos *nomor berapa* yang dulu kamu percaya?
+Komen angkanya. Kirim ke teman yang masih protes tiap kiper dihukum.

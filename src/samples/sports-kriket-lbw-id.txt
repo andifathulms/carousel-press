@@ -1,52 +1,28 @@
-template: dev/paper-light
+template: sport/kapur
 lang: id
-title: lbw kriket dijelaskan
-caption: Bola kena kaki belum tentu out: yang mendarat di luar stump sisi leg tidak pernah LBW. Sumber: MCC Laws of Cricket, 2017 Code 4th Edition (2026), Laws 5, 20, 21, 31 & 36, Appendix A; DRS: ICC WTC 2025–27 Playing Conditions, App. D; Wisden (2024) #kriket #cricket #aturankriket
+title: mitos lbw kriket
+caption: Bola kena kaki belum tentu out. Ini 4 mitos LBW, dan 5 syarat yang harus terpenuhi semua. Sumber: MCC Laws of Cricket, 2017 Code 4th Edition (2026), Law 36 #kriket #cricket #aturankriket
 ---
-[cover photo=sport-kriket-sunset kicker="KRIKET • LAW 36"]
-LBW: 5 Syarat yang | Harus Terpenuhi Semua
-Satu saja gagal, pemukul aman. Dan tanpa appeal dari lawan, tidak ada out.
+[cover kicker="KRIKET • LAW 36 • MITOS VS ATURAN"]
+Bola kena kaki, | *belum tentu out.*
+4 mitos soal LBW. Satu syarat saja gagal, pemukul aman.
 ---
-[photo=sport-kriket-pads]
-Apa itu LBW
-Leg before wicket: pemukul out karena bola yang mengarah ke wicket terhalang badannya, biasanya kaki. "Badan" termasuk helm dan pelindung lain. Kelima syarat berikut harus terpenuhi semua.
+[verdict="Mitos" tone=bad]
+"Kena kaki di depan wicket, langsung out."
+Aturannya: *5 syarat* harus terpenuhi semua. Bukan no ball, tempat mendarat, nggak kena bat dulu, titik benturan, dan bola akan kena wicket.
 ---
-[photo=sport-kriket-umpire]
-Tanpa appeal, tidak ada out
-Wasit tidak boleh menyatakan pemukul out kalau tim lawan tidak mengajukan appeal, biasanya teriakan "How's that?". Appeal harus diajukan sebelum bowler mulai berlari untuk bola berikutnya.
+[verdict="Mitos" tone=bad]
+"Wasit bisa langsung angkat jari."
+Aturannya: tanpa *appeal* dari lawan, biasanya teriakan "How's that?", nggak ada out.
 ---
-[photo=sport-kriket-bowler]
-Syarat 1: bukan no ball
-Kalau lemparannya no ball, pemukul tidak bisa out LBW. Contoh: kaki depan bowler mendarat melewati garis popping crease, wasit memanggil no ball, dan pemukul aman.
+[verdict="Mitos" tone=bad]
+"Bola yang mendarat di sisi leg juga bisa LBW."
+Aturannya: bola yang mendarat di luar stump sisi leg *nggak pernah* LBW.
 ---
-[photo=sport-kriket-ball]
-Syarat 2: tempat bola mendarat
-Bola harus mendarat segaris antara wicket dan wicket, atau di sisi off, yaitu sisi yang dihadapi pemukul. Bola yang mendarat di luar stump sisi leg tidak pernah LBW. Kalau bola mengenai badan tanpa memantul, syarat ini dilewati.
+[verdict="Mitos" tone=bad]
+"Pemukul kidal, aturannya sama persis."
+Aturannya: sisi off dan leg *tertukar* untuk pemukul kidal, dihitung dari posisinya saat bowler mulai berlari.
 ---
-[photo=sport-kriket-pads]
-Syarat 3: tidak kena bat dulu
-Kalau bola menyentuh bat sebelum mengenai badan, bukan LBW; mengenai bat dan pad bersamaan dianggap kena bat dulu. Sarung tangan yang sedang memegang bat dihitung sebagai bat.
----
-[photo=sport-kriket-stumps-keeper]
-Syarat 4: titik benturan
-Benturan harus segaris antara wicket dan wicket, meski di atas tinggi bails. Kalau pemukul tidak sungguh-sungguh mencoba memukul, benturan di luar stump off juga dihitung; kalau mencoba memukul, hasilnya not out.
----
-[photo=sport-kriket-stumps-keeper]
-Syarat 5: bola akan kena wicket
-Seandainya tidak terhalang badan, bola harus akan mengenai wicket. Wasit harus membayangkan lintasan bola berlanjut seperti sebelum benturan. Ini yang paling sering diperdebatkan.
----
-[photo=sport-kriket-bowler]
-Kidal dan switch hit
-Sisi off ditentukan posisi pemukul saat bowler mulai berlari. Untuk pemukul kidal, off dan leg tertukar. Kalau pemukul berganti posisi setelah itu, misalnya switch hit, patokannya tetap posisi awal.
----
-[photo=sport-kriket-umpire]
-Umpire's call di DRS
-Aturan ICC untuk laga internasional, bukan Laws MCC. Hawk-Eye memeriksa tempat bola mendarat, titik benturan, dan apakah bola kena wicket. Kalau pusat bola di luar zona tapi sebagian masih di dalam, keputusan wasit lapangan tetap berlaku.
----
-[photo=sport-kriket-umpire]
-Sejak 1774
-LBW masuk Laws of Cricket pada 25 Februari 1774, awalnya dengan syarat pemukul "bermaksud" menghalangi bola; unsur niat itu kemudian dihapus. Edisi 2026 mengganti istilah "pitching" dengan "landing" untuk tempat bola mendarat.
----
-[end photo=sport-kriket-sunset]
-Simpan buat nonton kriket berikutnya.
-Mau dibahas aturan apa lagi? Tulis di komen.
+[end cta="Kirim ke teman"]
+Mitos *nomor berapa* yang kamu kira benar?
+Komen angkanya.
