@@ -53,6 +53,6 @@ Pakai koma atau tidak?
 | 12,5 kg | *ya* |
 Sumber: EYD Edisi V, Tanda Koma
 ---
-[end]
-Kata apa yang sering bikin kamu ragu?
-Tulis di komen, nanti kita bahas.
+[end cta="Simpan"]
+Tag teman yang *paling sering salah soal ini.*
+Atau tulis kalimat yang bikin kamu ragu soal koma.

@@ -1,9 +1,9 @@
 template: lexicon/kamus
 lang: id
 title: kata indah di kbbi
-caption: Swastamita, nabastala, anindya: sering dikira ada di KBBI, padahal tidak tercatat di KBBI VI Daring. Sumber: KBBI VI Daring (Oktober 2026) #bahasaindonesia #kataindah #kbbi
+caption: Kata indah bahasa Indonesia yang beneran ada di KBBI. Swastamita, nabastala, anindya: sering dikira ada di KBBI, padahal tidak tercatat di KBBI VI Daring. Sumber: KBBI VI Daring (Oktober 2026) #bahasaindonesia #kataindah #kbbi
 ---
-[cover kicker="KATA INDAH"]
+[cover kicker="KATA INDAH #2 · KBBI VI"]
 Swastamita Ternyata | Tidak Ada di KBBI
 Tapi 8 kata indah ini benar-benar tercatat.
 ---
@@ -66,6 +66,19 @@ meaning: hitam bercampur putih (tentang warna bulu kucing)
 example: Kucing *candramawa* itu suka tidur di teras.
 note: Sumber: KBBI VI Daring
 ---
-[end]
-Kata indah mana yang paling kamu suka?
-Tulis di komen, nanti kita bahas.
+[table]
+Simpan buat caption
+| Kata | Kelas |
+| *renjana* | nomina |
+| *lindap* | adjektiva |
+| *nirmala* | adjektiva |
+| *baskara* | nomina |
+| *lembayung* | nomina |
+| *bentala* | nomina |
+| *lazuardi* | nomina |
+| *candramawa* | adjektiva |
+Semua tercatat di KBBI VI Daring
+---
+[end cta="Simpan"]
+Pakai satu kata tadi *dalam satu kalimat.*
+Tulis di komentar. Kata favoritmu yang mana?

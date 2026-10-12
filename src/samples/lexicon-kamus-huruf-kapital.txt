@@ -55,6 +55,6 @@ Kapital atau kecil?
 | 15 *watt* | satuan ukuran |
 Sumber: EYD Edisi V, Huruf Kapital
 ---
-[end]
-Kata apa yang sering bikin kamu ragu?
-Tulis di komen, nanti kita bahas.
+[end cta="Simpan"]
+Tag teman yang *paling sering salah soal ini.*
+Atau tulis contoh kapital yang bikin kamu ragu.

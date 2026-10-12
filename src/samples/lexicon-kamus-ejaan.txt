@@ -60,6 +60,6 @@ wrong: Anak2 sudah pulang semua.
 right: *Anak-anak* sudah pulang semua.
 why: Bentuk ulang ditulis dengan tanda hubung. Untuk gabungan kata, ulang unsur pertamanya saja: surat-surat kabar.
 ---
-[end]
-Kata apa yang sering bikin kamu ragu?
-Tulis di komen, nanti kita bahas.
+[end cta="Simpan"]
+Tulisan mana yang *paling sering kamu lihat?*
+Tulis di komen, atau tag temannya.

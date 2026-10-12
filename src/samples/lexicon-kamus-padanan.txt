@@ -67,6 +67,6 @@ Sumber: KBBI VI Daring
 Cari padanan sendiri di PASTI
 Badan Bahasa punya aplikasi PASTI (Padanan Istilah) di pasti.kemendikdasmen.go.id, berisi lebih dari 170 ribu istilah dari 59 bidang. Ketik istilah asingnya untuk melihat padanan Indonesianya.
 ---
-[end]
-Kata apa yang sering bikin kamu ragu?
-Tulis di komen, nanti kita bahas.
+[end cta="Simpan"]
+Padanan mana yang *mau kamu pakai?*
+Tulis di komen.

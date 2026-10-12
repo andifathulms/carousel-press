@@ -70,6 +70,6 @@ wrong: Rotinya diolesi mertega.
 right: Rotinya diolesi *mentega*.
 why: KBBI VI mencatat mertega sebagai bentuk tidak baku dari mentega. Asalnya dari bahasa Portugis manteiga.
 ---
-[end]
-Kata apa yang sering bikin kamu ragu?
-Tulis di komen, nanti kita bahas.
+[end cta="Simpan"]
+Tebak: kata mana lagi *yang dari Portugis?*
+Tulis tebakanmu di komen.

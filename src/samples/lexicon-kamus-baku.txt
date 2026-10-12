@@ -66,6 +66,6 @@ note: Bentuk tidak baku: resiko. Sumber: KBBI VI Daring
 Cara cek sendiri di KBBI
 Cari katanya di kbbi.kemendikdasmen.go.id. Kalau baku, di bawah judul entri ada tulisan "bentuk tidak baku: ...". Kalau tidak baku, entrinya hanya merujuk ke bentuk bakunya.
 ---
-[end]
-Kata apa yang sering bikin kamu ragu?
-Tulis di komen, nanti kita bahas.
+[end cta="Simpan"]
+Kesalahan mana yang *paling bikin gatal?*
+Tulis di komen.

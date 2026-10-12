@@ -55,6 +55,6 @@ meaning: waktu tidak tepat, terlambat dari waktu yang telah ditentukan (dalam ra
 example: Undangannya pukul 19.00, tapi gara-gara *jam karet*, acaranya mulai pukul 20.00.
 note: Sumber: KBBI VI Daring
 ---
-[end]
-Kata apa yang sering bikin kamu ragu?
-Tulis di komen, nanti kita bahas.
+[end cta="Simpan"]
+Kamu biasa nulis *jam atau pukul?*
+Jujur aja di komen.
