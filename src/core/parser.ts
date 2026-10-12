@@ -1,5 +1,5 @@
 import type {
-  CodeBlock, Deck, DeckHeader, Lang, ParseResult, Rich, Slide, SlideAttrs, SlideType, TemplateId, Warning,
+  CodeBlock, Deck, DeckHeader, Lang, ParseResult, Rich, Slide, SlideAttrs, SlideType, TemplateId, VerdictTone, Warning,
 } from './types';
 import { DEFAULT_TEMPLATE, LANGS, SLIDE_TYPES, familyOf, isArabicType, isLexType, isTemplateId } from './types';
 import { parseInline, parseRich, richToPlain } from './inline';
@@ -8,6 +8,7 @@ import { numberSlides } from './numbering';
 import { slugify } from './slug';
 import { fillCompare, fillTable, fillWord } from './lexicon';
 import { fillAyah, fillHadith } from './ayah';
+import { parseDiagram } from './diagram';
 
 export interface ParseOptions {
   /** Template used when the header has none (last used). */
@@ -24,7 +25,8 @@ const HEADER_LINE = /^\s*([a-z]+)\s*:\s*(.*)$/;
 const TAG_LINE = /^\[[^\]]*\]$/;
 const FENCE = /^\s*```/;
 const FENCE_CLOSE = /^\s*```\s*$/;
-const KNOWN_ATTRS = ['photo', 'icon', 'surface', 'cta', 'number', 'kicker'] as const;
+const KNOWN_ATTRS = ['photo', 'icon', 'surface', 'cta', 'number', 'kicker', 'verdict', 'tone'] as const;
+const TONES = ['ok', 'warn', 'bad'] as const;
 const LONG_DECK = 10;
 
 /** Split text into lines: accepts \n and \r\n. */
@@ -93,7 +95,7 @@ function splitBlocks(lines: readonly string[], from: number): RawBlock[] {
     if (!seen && raw.trim() !== '') {
       seen = true;
       const head = tagHead(raw);
-      code = head?.key === 'code' && head.value === true;
+      code = (head?.key === 'code' || head?.key === 'diagram') && head.value === true;
     }
     if (code && fence === 'before' && FENCE.test(raw)) fence = fenceCloses(lines, i) ? 'open' : 'after';
     else if (fence === 'open' && FENCE_CLOSE.test(raw)) fence = 'after';
@@ -338,7 +340,7 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[]): Slide 
   }
   const head = content.shift();
   // On a code slide a fence can't be the headline; elsewhere ``` is literal text.
-  if (!head || (finalType === 'code' && FENCE.test(head.text))) {
+  if (!head || ((finalType === 'code' || finalType === 'diagram') && FENCE.test(head.text))) {
     warn('missing-headline', 'This slide has no headline');
     if (head) content.unshift(head);
   } else {
@@ -347,6 +349,7 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[]): Slide 
   }
 
   if (finalType === 'code') fillCode(slide, content, warn);
+  else if (finalType === 'diagram') fillDiagram(slide, content, warn);
   else if (finalType === 'quote') fillQuote(slide, content);
   else slide.body = parseRich(content.map((c) => c.text));
 
@@ -357,7 +360,7 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[]): Slide 
 
 function makeSlide(index: number, type: SlideType, attrs: SlideAttrs, block: RawBlock): Slide {
   return {
-    index, type, attrs, headlineSrc: '', headline: [], body: [], note: [], attribution: null, code: null, fields: {}, table: null,
+    index, type, attrs, headlineSrc: '', headline: [], body: [], note: [], attribution: null, code: null, fields: {}, table: null, diagram: null,
     photoId: null, lines: [block.start, Math.max(block.start, block.end)],
     badge: null, counter: { i: index + 1, total: 0 }, swipe: null, showCta: false, contentIndex: -1,
   };
@@ -392,6 +395,14 @@ function applyAttr(tok: TagToken, attrs: SlideAttrs, warn: Warn): void {
     case 'photo': attrs.photo = value; break;
     case 'surface': attrs.surface = value; break;
     case 'kicker': attrs.kicker = value; break;
+    case 'verdict':
+      if (value.trim()) attrs.verdict = value.trim();
+      else warn('unknown-attr', 'verdict needs a label, e.g. verdict="SAH"');
+      break;
+    case 'tone':
+      if ((TONES as readonly string[]).includes(value)) attrs.tone = value as VerdictTone;
+      else warn('unknown-attr', `tone must be ok, warn or bad, got "${value}"`);
+      break;
   }
 }
 
@@ -406,8 +417,10 @@ function checkAttrScope(slide: Slide, warn: Warn): void {
   // Lexicon slides ignore icon= silently (SPEC-lexicon §2).
   if (isLexType(slide.type) || isArabicType(slide.type)) delete a.icon;
   if (a.cta !== undefined && slide.type === 'cover') drop('cta');
-  if (a.number !== undefined && slide.type !== 'card' && slide.type !== 'code' && slide.type !== 'table') drop('number');
+  if (a.number !== undefined && slide.type !== 'card' && slide.type !== 'code' && slide.type !== 'diagram' && slide.type !== 'table') drop('number');
   if (a.kicker !== undefined && slide.type !== 'cover') drop('kicker');
+  if (a.verdict !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('verdict');
+  if (a.tone !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('tone');
 }
 
 const TRAY_INDEX = /^\d+$/;
@@ -465,6 +478,28 @@ function fillCode(slide: Slide, content: { text: string; line: number }[], warn:
   const code: CodeBlock = { text: codeLines.map(expandTabs).join('\n'), lang };
   slide.code = code;
   slide.note = parseRich(after);
+}
+
+/** `[diagram]`: like code, with the fence language naming the field and the fence holding marks. */
+function fillDiagram(slide: Slide, content: { text: string; line: number }[], warn: Warn): void {
+  const fenceAt = content.findIndex((c) => FENCE.test(c.text));
+  if (fenceAt < 0) {
+    warn('diagram-missing', 'Diagram slide without a ``` fence, rendered as a card');
+    slide.type = 'card';
+    slide.body = parseRich(content.map((c) => c.text));
+    return;
+  }
+  slide.body = parseRich(content.slice(0, fenceAt).map((c) => c.text));
+  const open = content[fenceAt]!;
+  const lang = open.text.trim().slice(3).trim().toLowerCase();
+  const rest = content.slice(fenceAt + 1);
+  const closeAt = rest.findIndex((c) => FENCE_CLOSE.test(c.text));
+  const inner = closeAt < 0 ? rest : rest.slice(0, closeAt);
+  if (closeAt < 0) warn('unclosed-fence', 'Diagram fence is never closed', open.line);
+  const { diagram, issues } = parseDiagram(lang, inner.map((c) => c.text));
+  for (const i of issues) warn('diagram-line', i.message, i.offset < 0 ? open.line : inner[i.offset]!.line);
+  slide.diagram = diagram;
+  slide.note = parseRich(closeAt < 0 ? [] : rest.slice(closeAt + 1).map((c) => c.text));
 }
 
 const ATTRIBUTION = /^(—|--|-)\s+(.*)$/;

@@ -32,7 +32,7 @@ export interface CodeSpec {
   titleBar: number;
 }
 
-export type FixedKind = 'badge' | 'number' | 'icon' | 'cta' | 'kicker' | 'attribution';
+export type FixedKind = 'badge' | 'number' | 'icon' | 'cta' | 'kicker' | 'attribution' | 'verdict' | 'diagram';
 
 /** Colour role a renderer uses for a text block. */
 export type Tone = 'ink' | 'body' | 'muted';

@@ -6,6 +6,7 @@ import { clipToStack, drawCta, drawFooter, drawHeader, drawTextBlock } from '../
 import { CONTENT_W } from '../../render/safezone';
 import { drawTracked, setFont, setShadow, truncateToWidth } from '../../render/text';
 import type { SlideLayout } from '../common';
+import { drawStampItem } from '../stampsDraw';
 import { drawLex } from '../../render/lexDraw';
 import { FIXED, STACK } from './layout';
 
@@ -95,6 +96,10 @@ export function drawDev(ctx: Ctx, L: SlideLayout): void {
         drawCta(ctx, p, it.label ?? '', s, sans);
         break;
       case 'badge':
+        break;
+      case 'verdict':
+      case 'diagram':
+        drawStampItem(ctx, p, L);
         break;
     }
   }

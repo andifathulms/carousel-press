@@ -1,7 +1,8 @@
 // Core data types shared by parser, layout and renderer. Pure: no DOM.
+import type { Diagram } from './diagram';
 
-export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end' | 'word' | 'table' | 'compare' | 'ayah' | 'hadith';
-export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end', 'word', 'table', 'compare', 'ayah', 'hadith'];
+export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end' | 'word' | 'table' | 'compare' | 'ayah' | 'hadith' | 'diagram';
+export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end', 'word', 'table', 'compare', 'ayah', 'hadith', 'diagram'];
 
 /** Lexicon slide types (SPEC-lexicon §2): structured fields instead of headline + body. */
 export type LexType = 'word' | 'table' | 'compare';
@@ -97,6 +98,8 @@ export type WarningCode =
   | 'arabic-font-missing'
   | 'unknown-lang'
   | 'unknown-counter'
+  | 'diagram-line'
+  | 'diagram-missing'
   | 'internal-error';
 
 export const BLOCKING_CODES: readonly WarningCode[] = [
@@ -133,7 +136,12 @@ export interface SlideAttrs {
   cta?: true | string;
   number?: 'off' | number;
   kicker?: string;
+  /** Card/diagram stamp label, e.g. "SAH" (PRD §4.3). */
+  verdict?: string;
+  tone?: VerdictTone;
 }
+
+export type VerdictTone = 'ok' | 'warn' | 'bad';
 
 export interface CodeBlock {
   text: string;
@@ -161,6 +169,8 @@ export interface Slide {
   /** `[word]` / `[compare]` field values (raw source), keyed by field name. */
   fields: Record<string, string>;
   table: TableData | null;
+  /** `[diagram]` field and marks (PRD §4.9). */
+  diagram: Diagram | null;
   /** Resolved photo id (after tray lookup) or null. */
   photoId: string | null;
   /** [startLine, endLine] inclusive, 0-based, in the deck text. */

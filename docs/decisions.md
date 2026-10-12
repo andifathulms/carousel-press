@@ -124,3 +124,7 @@ Before `carousel-core` is extracted, the parser snapshots become the contract (d
 - New `sport` family (`sport/papan`, `sport/lapangan`, `sport/kapur`) on the dev layout: display face in the `serif` slot, capitals (`headlineUpper`), a larger headline scale (`SPORT_TYPE`), no terminal path in the header. `isDevLike()` covers the places that treated `dev` specially (icons off, footer style).
 - New runtime deps `@fontsource/barlow` and `@fontsource/barlow-condensed` (latin): broadcast-style condensed capitals for headlines.
 - `Variant.semantic` (ok/warn/bad) for verdict stamps and diagram marks; contrast.test.ts checks them at 3:1 on every surface.
+- `[diagram]` slide (PRD §4.9) and `verdict=` / `tone=` attributes (PRD §4.3), owner-approved Oct 2026. Diagrams reuse the code-slide shape (headline, body, fence, note); the fence language names the field. This replaces the open `figure` item for courts and pitches: drawn by the app, so no image licence is needed.
+- `[score]` from the Whistle Notes review was not built: a card headline like `15–14` in the display face does the job.
+- Diagram fields use official half-field dimensions (IFAB, FIFA futsal, BWF, FIVB, FIBA, ITF). Basketball's three-point line uses the FIBA 6.75 m arc with 0.9 m corner lines.
+- Verdict stamps use the card-headline face and weight, so they never need an extra font file.

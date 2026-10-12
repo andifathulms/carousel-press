@@ -2,6 +2,7 @@ import { isEmptyRich, upperRich } from '../../core/inline';
 import { type Warning, isArabicType, isLexType } from '../../core/types';
 import { layoutLexSlide } from '../lexicon/lexDispatch';
 import { layoutArabicSlide } from '../serene/arabicLayout';
+import { diagramItem, verdictItem } from '../stamps';
 import { prepareCode } from '../../layout/codeFit';
 import { type CodeSpec, type StackItem, type TextSpec, fitStack } from '../../layout/stack';
 import { legibleMin } from '../../layout/measure';
@@ -115,7 +116,9 @@ export function layoutDev(input: LayoutInput): SlideLayout {
       break;
     }
     case 'card': {
-      numberItem(0);
+      const verdict = verdictItem(slide, v, m, 0);
+      if (verdict) push(verdict);
+      else numberItem(0);
       push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(T.cardHeadline, true), gap: STACK.gap, tone: 'ink' });
       if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.gap, tone: 'body' });
       pushIcon();
@@ -134,6 +137,18 @@ export function layoutDev(input: LayoutInput): SlideLayout {
         };
         push({ kind: 'code', lines: prepareCode(slide.code.text, slide.code.lang), lang: slide.code.lang, spec: codeSpec, gap: STACK.codeGap });
       }
+      if (!isEmptyRich(slide.note)) push({ kind: 'text', role: 'note', rich: slide.note, spec: spec(TYPE.note), gap: STACK.noteGap, tone: 'muted' });
+      pushCta(CHROME.cta.gapBefore);
+      break;
+    }
+    case 'diagram': {
+      const verdict = verdictItem(slide, v, m, 0);
+      if (verdict) push(verdict);
+      else numberItem(0);
+      const d = diagramItem(slide, STACK.codeNumberGap);
+      if (d) push(d);
+      push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(T.codeHeadline, true), gap: STACK.codeGap, tone: 'ink' });
+      if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.codeBodyGap, tone: 'body' });
       if (!isEmptyRich(slide.note)) push({ kind: 'text', role: 'note', rich: slide.note, spec: spec(TYPE.note), gap: STACK.noteGap, tone: 'muted' });
       pushCta(CHROME.cta.gapBefore);
       break;

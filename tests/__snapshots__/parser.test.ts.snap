@@ -37,6 +37,7 @@ exports[`golden samples > dev-git-id 1`] = `
           "i": 1,
           "total": 9,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -90,6 +91,7 @@ exports[`golden samples > dev-git-id 1`] = `
           "i": 2,
           "total": 9,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -137,6 +139,7 @@ exports[`golden samples > dev-git-id 1`] = `
           "i": 3,
           "total": 9,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -194,6 +197,7 @@ git commit --amend",
           "i": 4,
           "total": 9,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -251,6 +255,7 @@ git stash pop",
           "i": 5,
           "total": 9,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -298,6 +303,7 @@ git stash pop",
           "i": 6,
           "total": 9,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -345,6 +351,7 @@ git stash pop",
           "i": 7,
           "total": 9,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -392,6 +399,7 @@ git stash pop",
           "i": 8,
           "total": 9,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -445,6 +453,7 @@ git stash pop",
           "i": 9,
           "total": 9,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -515,6 +524,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 1,
           "total": 6,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -567,6 +577,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 2,
           "total": 6,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -613,6 +624,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 3,
           "total": 6,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -659,6 +671,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 4,
           "total": 6,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -705,6 +718,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 5,
           "total": 6,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [
@@ -753,6 +767,7 @@ exports[`golden samples > editorial-couples-id 1`] = `
           "i": 6,
           "total": 6,
         },
+        "diagram": null,
         "fields": {},
         "headline": [
           [

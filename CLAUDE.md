@@ -56,7 +56,8 @@ carousel-press/
 │  │  ├─ strings.ts            # id/en built-in strings (PRD §4.7)
 │  │  ├─ slug.ts               # slugify for titles + photo IDs
 │  │  ├─ hash.ts               # string hash + mulberry32 PRNG
-│  │  └─ headerEdit.ts         # rewrite/insert `template:` etc. in the text
+│  │  ├─ headerEdit.ts         # rewrite/insert `template:` etc. in the text
+│  │  └─ diagram.ts            # `[diagram]` notation → field + marks (PRD §4.9)
 │  ├─ layout/                  # PURE given a TextMeasurer
 │  │  ├─ measure.ts            # TextMeasurer interface + canvas impl
 │  │  ├─ wrap.ts               # greedy wrap, char-break, widow fix, rich runs
@@ -72,6 +73,7 @@ carousel-press/
 │  │  ├─ codeBlock.ts          # panel, dots, highlighted lines
 │  │  ├─ highlight/            # bash.ts (P0), js.ts, py.ts, sql.ts (P1) → Token[]
 │  │  ├─ icons.ts              # original 24×24 path strings + drawIcon()
+│  │  ├─ diagram.ts            # half fields (official dimensions) + diagram marks
 │  │  ├─ overlay.ts            # safe-zone overlay + test image (preview/export only)
 │  │  └─ samplePhoto.ts        # generates sample-dusk (DESIGN §5.7)
 │  ├─ templates/
@@ -79,7 +81,10 @@ carousel-press/
 │  │  ├─ editorial/layout.ts   # builds Block stacks + draws editorial parts
 │  │  ├─ editorial/variants.ts # rose-dusk, sage, midnight (DESIGN §5.1 tokens verbatim)
 │  │  ├─ dev/layout.ts
-│  │  └─ dev/variants.ts       # github-dark, terminal, paper-light (DESIGN §6.1)
+│  │  ├─ dev/variants.ts       # github-dark, terminal, paper-light (DESIGN §6.1)
+│  │  ├─ sport/variants.ts     # papan, lapangan, kapur on the dev layout (DESIGN §6.6)
+│  │  ├─ stamps.ts             # verdict stamp + diagram panel stack items (DESIGN §6.7)
+│  │  └─ stampsDraw.ts         # draws them for every family
 │  ├─ fonts/
 │  │  └─ loadFonts.ts          # imports @fontsource CSS, awaits faces per variant
 │  ├─ store/
@@ -158,6 +163,7 @@ Keep files under ~300 lines. Use named exports only. No default exports, no clas
 | `focal.test.ts` | cover crop keeps the focal point in frame and the image always covers the canvas |
 | `slug.test.ts` | Indonesian titles, emoji, length cap, photo ID collisions |
 | `headerEdit.test.ts` | rewrite an existing key, insert a missing key, insert a header when absent |
+| `diagram.test.ts` | every diagram mark, bad lines skipped and reported on their line, unknown field, fuzz (no throws), `[diagram]` field mapping, `verdict=`/`tone=` |
 
 The layout functions must return block boxes (`{ x, y, w, h, kind }[]`) alongside drawing, so `safezone.test.ts` can check them without pixels.
 

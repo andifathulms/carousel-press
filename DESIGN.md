@@ -383,6 +383,38 @@ deco: dotGrid ✔ (`#000000` at 6%), bigGlyph `"{ }"`.
 
 ---
 
+### 6.6 Sport family (Whistle Notes)
+
+The `sport` family reuses the dev layouts (§6.2–6.3) with three changes: headlines use the display face (the variant's `serif` slot) in capitals at weight 800, the header has no terminal path (the editorial rule is drawn instead), and the headline scale is larger because condensed capitals are ~25% narrower:
+
+| Role | max | min | lh |
+|---|---|---|---|
+| cover headline | 136 | 92 | 1.05 |
+| card headline | 104 | 72 | 1.02 |
+| code/diagram headline | 88 | 64 | 1.02 |
+| end headline | 128 | 88 | 1.0 |
+
+fonts: display `Barlow Condensed` (700, 800), sans `Barlow`, mono `JetBrains Mono` · one surface per variant (`deep` for cover/end) · no deco.
+
+| Variant | Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg (diagram turf) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `sport/papan` | papan | #0F3324 | #F4F1E8 | #CFE0D3 | #8FB09A | #F5C518 | #F5C518 | #0F3324 | #0F3324 | #F5C518 | #15452F |
+| | deep | #0B2A1D | #F4F1E8 | #CFE0D3 | #8FB09A | #F5C518 | #F5C518 | #0B2A1D | #0B2A1D | #F5C518 | #123C29 |
+| `sport/lapangan` | lapangan | #14284A | #F4F1E8 | #D2DBEA | #93A3C2 | #F5C518 | #F5C518 | #14284A | #14284A | #F5C518 | #1C3766 |
+| | deep | #0F1F3A | #F4F1E8 | #D2DBEA | #93A3C2 | #F5C518 | #F5C518 | #0F1F3A | #0F1F3A | #F5C518 | #18305A |
+| `sport/kapur` | kapur | #EFECE3 | #141714 | #3A3F3B | #6F726C | #8A5A00 | #141714 | #EFECE3 | #EFECE3 | #8A5A00 | #E2DED2 |
+| | deep | #E6E2D7 | #141714 | #3A3F3B | #6A6D67 | #8A5A00 | #141714 | #E6E2D7 | #E6E2D7 | #8A5A00 | #D8D3C5 |
+
+semantic (verdict stamps, defender marks; ≥ 3:1 on every surface): papan and lapangan ok `#3DDC84`, warn `#F5C518`, bad `#FF6B63`; kapur ok `#1E7A43`, warn `#8A5A00`, bad `#B3261E`.
+onPhoto: as github-dark with accent/badgeBg `#F5C518`; tint papan `#06140D`, lapangan `#070E1C`, kapur `#0B0C0B`. code: github-dark tokens.
+
+### 6.7 Verdict stamp and diagram (all families)
+
+**Verdict** (`verdict="SAH" tone=ok|warn|bad` on card and diagram slides): an outlined stamp above the headline. Label in capitals, the card-headline face and weight, 88 px; border 8 px, radius 14, padding 14 × 28; colour = `semantic[tone]`, or (no semantic tokens) `accent` for ok/warn and `ink` for bad. It replaces the badge/number on that slide.
+
+**Diagram** (`[diagram]` slide, PRD §4.9): a 816 × 520 panel (full content width) at the top of the stack, radius 24, filled with `inlineCodeBg`. The field is drawn inside with 24 px padding, aspect-correct and centred, net/goal at the top, lines `ink` at 55% alpha, 3 px (the goal or net 8 px).
+Marks: player discs r 26 (att = `accent`, def = `semantic.bad` or `badgeBg`, player = `ink` with its label in `bg`, 30 px display face), ball r 12 `ink` with a `bg` ring, offside line dashed 14/10 `accent` 4 px, pass = dashed arrow `ink` 4 px, move = solid arrow, zone = `accent` at 22% alpha, labels 28 px sans 600 `ink`. Every mark is clamped inside the panel.
+
 ## 7. Icons
 
 - Author **original** line icons on a 24×24 grid as SVG path strings, and render them with `new Path2D(d)` scaled into the target box.

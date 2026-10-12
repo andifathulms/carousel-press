@@ -94,7 +94,7 @@ The first non-empty line of a block may be a tag:
 [type attr=value attr="value with spaces" flag]
 ```
 
-- `type` ∈ `cover | card | code | quote | end` (plus the lexicon types in `docs/SPEC-lexicon.md`), and it's **optional**. The first token is the type only if it is a bare word (no `=`) matching a known type. Otherwise every token is an attribute or flag, and the type is the default. So `[icon=heart]` and `[cta icon=leaf]` are valid card tags.
+- `type` ∈ `cover | card | code | quote | end | diagram` (plus the lexicon types in `docs/SPEC-lexicon.md`), and it's **optional**. The first token is the type only if it is a bare word (no `=`) matching a known type. Otherwise every token is an attribute or flag, and the type is the default. So `[icon=heart]` and `[cta icon=leaf]` are valid card tags.
 - A line counts as a tag line only if the whole trimmed line matches `^\[[^\]]*\]$`.
 - If there is no tag, or the tag has no type: block 1 → `cover`, any other block → `card`.
 - A first bare token that is neither a known type nor a known flag (`cta`) → warning `unknown-slide-type`, rendered as `card`. The token itself is ignored; the remaining tokens still apply.
@@ -110,6 +110,8 @@ The first non-empty line of a block may be a tag:
 | `cta` | card, code, quote, end | flag, or `"custom text"` | Adds the CTA button below the body/icon, so the last question can double as the end slide. Custom text replaces the button label. On `end` (which always has the button) it only sets the label |
 | `number` | card, code | `off` \| integer (digits) | `off` hides the badge. An integer forces this badge's number without changing the running count. Anything else → `unknown-attr` |
 | `kicker` | cover | text | Small label above the cover title, e.g. `"GIT • CHEAT SHEET"` |
+| `verdict` | card, diagram | text | A stamp above the headline, e.g. `verdict="SAH"` (drawn in capitals). It replaces the badge on that slide (DESIGN §6.7) |
+| `tone` | card, diagram | `ok` \| `warn` \| `bad` | Colour of the verdict stamp. Default `ok`. Anything else → `unknown-attr` |
 
 Unknown attribute → warning `unknown-attr`, ignored.
 
@@ -124,6 +126,7 @@ After the tag line is removed, the remaining lines map to fields:
 | `code` | **headline** (if the first line is already the fence → `missing-headline`) | **body** lines until the first code fence; the fenced **code**; any lines after the closing fence become the **note** (small, muted) |
 | `quote` | **quote text** | if the first non-empty line after it starts with `— `, `-- ` or `- `, it becomes the **attribution** (marker stripped); every other line, dashes included, is **body** |
 | `end` | **headline** | **body**; the CTA button is always drawn |
+| `diagram` | **headline** (a fence on line 1 → `missing-headline`) | **body** lines until the first fence; the fenced **diagram** (the fence language names the field, see §4.9); lines after the closing fence become the **note** |
 
 **Code fences** use triple backticks with an optional language: ` ```bash `, ` ```js `, ` ```py `, ` ```sql `, or plain ` ``` `. Content between the fences is kept verbatim: no trimming, no `|` processing, tabs expanded to 2 spaces. A fence that is never closed → warning `unclosed-fence`, and the code runs to the end of the block. The closing fence is a line that is exactly ```` ``` ````. Trailing blank code lines are dropped. The language is lowercased: `bash`/`sh`/`shell`/`zsh` get the prompt and highlighting; `js`/`ts`/`javascript`/`typescript`/`jsx`/`tsx`, `py`/`python` and `sql` are highlighted; any other language renders as plain code with no warning.
 
@@ -166,9 +169,47 @@ The parser and renderer return warnings as `{ code, slideIndex | null, line, mes
 | `unknown-photo` | photo resolution against the tray | No (renders without the photo) |
 | `missing-headline` | parser | No |
 | `unclosed-fence`, `code-missing-fence` | parser | No |
+| `diagram-missing` | parser: a `[diagram]` slide without a fence (rendered as a card) | No |
+| `diagram-line` | parser: a diagram line that isn't a valid mark, or an unknown field (skipped / football used) | No |
 | `long-deck` | parser: more than 10 slides | No (style hint only) |
 | `long-word` | renderer: a word was too wide and was broken between characters | No |
 | `photo-low-res` | photo store (not the parser): photo shorter than 1280px on its short side | No |
+
+### 4.9 Diagram slides
+
+A `[diagram]` slide draws a half field from a short list of marks, so rules about positions can be shown instead of described. The field is drawn by the app (no image needed) with the goal, net or baseline at the top.
+
+````text
+[diagram]
+Sejajar bek kedua terakhir saat dioper.
+Sah atau offside?
+```football
+line 30 garis offside
+def 36,30
+gk 50,5
+att 70,30
+att 42,56
+ball 45,54
+pass 42,56 -> 70,30
+```
+````
+
+- Fields: `football`, `futsal`, `badminton`, `volleyball`, `basketball`, `tennis` (half field, official dimensions). Unknown → `diagram-line` and `football`.
+- Positions are `x,y` in percent of the half field: x from left to right, y from the top line (goal/net/baseline, 0) to halfway or the back line (100). Values outside 0–100 → `diagram-line`, mark skipped.
+- One mark per line; `#` starts a comment; blank lines are ignored. Separators (`---`) inside a closed diagram fence don't split slides.
+
+| Mark | Syntax | Drawn as |
+|---|---|---|
+| attacker | `att x,y [label]` | accent disc, optional label beside it |
+| defender | `def x,y [label]`, `gk x,y [label]` | `bad`-tone disc |
+| player | `player x,y L` (1–3 characters) | ink disc with the label inside (e.g. volleyball positions) |
+| ball | `ball x,y` | small ink disc |
+| line | `line y [label]` | dashed accent line across the field (e.g. the offside line) |
+| pass / move | `pass x,y x,y` · `move x,y x,y` (an optional `->` between) | dashed / solid arrow |
+| zone | `zone x,y x,y` | translucent accent rectangle (e.g. a service court) |
+| label | `label x,y text` | small text |
+
+Labels are cut at 24 characters. The parser never throws on diagram text.
 
 ---
 
@@ -190,7 +231,7 @@ Priorities: **P0** = required for V1, **P1** = V1 if time allows (planned in the
 - **Acceptance:** the preview and the exported PNG are pixel-identical (same render function, different output canvas).
 
 ### F3. Template system (P0)
-- **2 families × 3 variants** (all defined in DESIGN.md §4–6):
+- **Families** (all defined in DESIGN.md §4–6): editorial, dev, lexicon, serene and sport (`sport/papan`, `sport/lapangan`, `sport/kapur`, Oct 2026). The original V1 set:
   - `editorial/rose-dusk`, `editorial/sage`, `editorial/midnight`
   - `dev/github-dark`, `dev/terminal`, `dev/paper-light`
 - A family is layout code. A variant is a data object (colours, fonts, surface rotation, decoration switches). Adding a variant must not require touching layout code.
