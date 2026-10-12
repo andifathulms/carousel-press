@@ -667,6 +667,8 @@ Tulis di komen, nanti kita bahas.
 A faceless Indonesian account sharing one Quran ayah (or one authentic hadith) a day, with its translation and a short, gentle reflection.
 It should feel like a quiet moment in a noisy feed: calm, sincere, never preachy, never sensational. The owner's intention is a good deed, so **accuracy matters more than reach**: one wrong letter, wrong translation or fake hadith undoes the purpose.
 
+**Direction (owner, Oct 2026 review).** Engagement is strong (an early post had a 12% like rate); reach is what's missing. Each post now opens with a calm cover that says who the ayah is for and carries the phrase people search for ("Ayat penenang hati"). The ayah follows unchanged. Tafsir and Renungan labels are small so the words lead, and each post ends with one line specific to it. None of this touches the accuracy rules.
+
 | | |
 |---|---|
 | Purpose | Share Quran and Sunnah as a daily reminder |
@@ -675,7 +677,7 @@ It should feel like a quiet moment in a noisy feed: calm, sincere, never preachy
 | Primary action | Save / share |
 | Tone | Calm, warm, humble, hopeful |
 | Voice | A fellow learner sharing a reminder, "pengingat untuk diri sendiri dan kita semua", never a preacher or a judge |
-| Slide types | `ayah`, `hadith`, `card` (tafsir, renungan), `cover` (series only), `end` |
+| Slide types | `cover` (every post), `ayah`, `hadith`, `quote` (tafsir), `card` (renungan), `end` |
 
 ### Pillars
 
@@ -693,14 +695,15 @@ It should feel like a quiet moment in a noisy feed: calm, sincere, never preachy
 - **Indonesian translation:** Terjemahan Kemenag RI (quran.kemenag.go.id), quoted verbatim. Cite it in `source:` and in the caption.
 - **Hadith:** only sahih or hasan, with the book + number and a named grading authority. Prefer Bukhari/Muslim. Reliable references: HadeethEnc (hadeethenc.com, which has Indonesian translations and grading) and Sunnah.com. **No hadith that only circulates on social media, no "hadis" without takhrij, no weak or fabricated narrations, even with good messages.**
 - **Ayah portions:** quoting part of an ayah is fine, but mark it (`portion: true`) and never cut it in a way that changes the meaning.
-- **Tafsir card (owner rule, Oct 2026):** every Quran post has a `[card]` headed "Tafsir" between the ayah and the Renungan. Quote Tafsir Ringkas Kemenag RI (the `wajiz` text behind quran.kemenag.go.id) verbatim: the whole entry if it fits, otherwise whole sentences. Mark a cut inside a sentence with "…"; end the card with `*Tafsir Ringkas Kemenag RI*`, plus ` · dikutip sebagian` for an excerpt. Never paraphrase it, and pick sentences that don't change the meaning. Hadith posts have no tafsir card.
-- **Reflection ("Renungan") is not tafsir.** Keep it to 1–2 gentle sentences that stay close to the plain translation, and label the slide "Renungan". If explaining meaning, cite a tafsir (Tafsir Kemenag, Tafsir Ibnu Katsir, Tafsir Al-Muyassar) by name, and keep it short.
+- **Tafsir slide (owner rule, Oct 2026):** every Quran post has a Tafsir slide between the ayah and the Renungan: `[quote kicker="Tafsir" icon=none]`, the quote on the first line, then `— Tafsir Ringkas Kemenag RI` (plus ` · dikutip sebagian` for an excerpt) as the attribution. Quote Tafsir Ringkas Kemenag RI (the `wajiz` text behind quran.kemenag.go.id) verbatim: the whole entry if it fits, otherwise whole sentences. Mark a cut inside a sentence with "…". Never paraphrase it, and pick sentences that don't change the meaning. Hadith posts have no tafsir slide.
+- **Reflection ("Renungan") is not tafsir.** Keep it to 1–2 gentle sentences that stay close to the plain translation, on `[card kicker="Renungan"]` with the reflection as the headline. If explaining meaning, cite a tafsir (Tafsir Kemenag, Tafsir Ibnu Katsir, Tafsir Al-Muyassar) by name, and keep it short.
 
 ### What this account never does
 
 - No fiqh rulings or fatwas, no khilafiyah debates, no sectarian or political content, no judging groups or people.
 - No "scientific miracle", numerology, dream or viral miracle stories, and no health or cure claims.
-- No guilt or pressure framing ("share kalau kamu beriman", "dosa kalau di-skip").
+- No guilt or pressure framing ("share kalau kamu beriman", "dosa kalau di-skip"), and no engagement bait ("ketik aamiin", "jangan di-skip").
+- No promise framing on covers or end slides ("ayat ini bikin rezeki lancar", "pasti dikabulkan").
 - No people or animals in images; no music recommendations in the post. Prefer text-only slides; nature photos rarely, heavily darkened.
 - No affiliate links or product promotion on this account.
 - Before posting, the owner reads every Arabic line against the source. For hadith posts, a check by someone knowledgeable (e.g. a local ustadz) is recommended.
@@ -715,19 +718,26 @@ It should feel like a quiet moment in a noisy feed: calm, sincere, never preachy
 ### Deck recipe
 
 - **Templates:** `serene/fajr` (default, morning posts), `serene/isya` (evening posts). Nothing else.
-- **Length:** 2–4 slides. The usual shape: `[ayah]` → `[card]` "Tafsir" → `[card]` "Renungan" → `[end]`. Tematik series: a `[cover]` with the series name and day ("Sabar · Hari 3") → `[ayah]` → Tafsir → `[end]`. Two short ayat may share one tafsir card after them.
-- **Hadith posts:** `[hadith]` → optional `[card]` "Renungan" → `[end]`.
+- **Length:** Quran posts 4–5 slides: `[cover]` → `[ayah]` → Tafsir (`[quote kicker="Tafsir"]`) → optional Renungan (`[card kicker="Renungan"]`) → `[end]`. Two short ayat may share one tafsir slide after them.
+- **Hadith posts:** `[cover]` → `[hadith]` → optional Renungan → `[end]` (3–4 slides).
+- **Cover (every post):** `[cover kicker="<SEARCH PHRASE>"]`. The kicker is what people type ("AYAT PENENANG HATI", "DOA UNTUK ORANG TUA", "HADIS TENTANG MENAHAN MARAH"). The headline says who or what moment the ayah is for, in our own words, with one `*accent*` ("Untuk kamu yang merasa bebannya *terlalu berat* hari ini."). The subtitle names the reference ("Satu ayat untuk malam ini · QS. Al-Baqarah [2]: 286"). Calm and true to the ayah: no promises, no urgency. Series covers keep the series name and day ("Sabar · Hari 1").
 - **Long ayat:** if the Arabic doesn't fit (`arabic-too-long`), use a shorter portion. Never split one ayah across slides.
-- **End:** `[end]` with a soft line: `Semoga bermanfaat.` + `Simpan, dan bagikan ke yang sedang butuh.`
-- **Caption:** one gentle line + `Teks: <source> · Terjemahan: Kemenag RI` (or hadith `ref` + grade + source) + 2–3 hashtags (`#ayatharian`, `#pengingatdiri`, `#quran`, `#hadis`).
-- **Arabic in the app: shipped (M8, Oct 2026).** `[ayah]`, `[hadith]`, the Amiri faces and `serene/*` are built (see SPEC-ayah.md), so Arabic is posted through the app. The translation-only card fallback is no longer needed.
-- **How the shipped samples were made:** Arabic copied by script from the Tanzil Uthmani text file (tanzil.net), translations from the Kemenag API behind quran.kemenag.go.id, hadith (Indonesian text, Arabic matn, grade, book number) from HadeethEnc. Nothing was typed by hand; a portion is cut by whole words from the source line. Avoid verse 1 of a surah from the Tanzil file (it carries the basmala) and ayat whose Kemenag translation has a footnote unless the footnote is shown.
+- **End:** one line specific to the post, plus a soft action: `[end cta="Kirim"]` + "Kirim ke satu orang yang *sedang merasa berat.*" / "Untuk siapa doa ini *kamu kirim pagi ini?*" / "Ayat mana yang paling *menenangkan hatimu?*" + a short second line. Don't reuse the same end slide on consecutive posts.
+- **Caption:** the first line = the search phrase + who it's for ("Ayat penenang hati, untuk pikiran yang sedang penuh."), then `Teks Arab: <source> · Terjemahan: Kemenag RI` (or hadith `ref` + grade + source), then 3 hashtags: `#ayatharian` or `#hadis`, one that matches a search (`#ayatpenenanghati`, `#doauntukorangtua`, `#ayattentangsabar`), and `#pengingatdiri`.
+- **Rhythm:** one post a day at a fixed time (fajr after Subuh, isya after Isya; test 05:30 and 20:00 WIB), alternating ayah and hadith days, a Jumat post weekly, and numbered series ("Doa dari Al-Qur'an #N", 7-day themes).
+- **Sound:** a murottal of the same ayah from TikTok's library, or none. No music.
+- **Arabic in the app: shipped (M8, Oct 2026).** `[ayah]`, `[hadith]`, the Amiri faces and `serene/*` are built (see SPEC-ayah.md), so Arabic is posted through the app.
+- **How the shipped samples were made:** Arabic copied by script from the Tanzil Uthmani text file (tanzil.net), translations from the Kemenag API behind quran.kemenag.go.id, hadith (Indonesian text, Arabic matn, grade, book number) from HadeethEnc. Nothing was typed by hand; a portion is cut by whole words from the source line. Avoid verse 1 of a surah from the Tanzil file (it carries the basmala) and ayat whose Kemenag translation has a footnote unless the footnote is shown. The Oct 2026 restructure moved these lines by script and checked them byte for byte.
 
 ```text
 template: serene/fajr
 lang: id
 title: hati yang tenang
-caption: Semoga jadi pengingat untuk kita semua. Teks: Tanzil · Terjemahan: Kemenag RI #ayatharian #pengingatdiri #quran
+caption: Ayat penenang hati, untuk pikiran yang sedang penuh. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #ayatpenenanghati #pengingatdiri
+---
+[cover kicker="AYAT PENENANG HATI"]
+Saat pikiran penuh dan *hati belum tenang.*
+Satu ayat untuk pagi ini · QS. Ar-Ra'd [13]: 28
 ---
 [ayah]
 arab: [SALIN TEKS ARAB QS. AR-RA'D 13:28 DARI TANZIL / QURAN KEMENAG]
@@ -735,19 +745,16 @@ terjemah: [SALIN TERJEMAHAN KEMENAG RI UNTUK QS. AR-RA'D 13:28]
 ref: QS. Ar-Ra'd [13]: 28
 source: Terjemahan Kemenag RI
 ---
-[card]
-Tafsir
+[quote kicker="Tafsir" icon=none]
 [SALIN TAFSIR RINGKAS KEMENAG RI UNTUK QS. AR-RA'D 13:28]
-
-*Tafsir Ringkas Kemenag RI*
+— Tafsir Ringkas Kemenag RI
 ---
-[card]
-Renungan
+[card kicker="Renungan"]
 Saat pikiran penuh, mungkin yang kita butuhkan bukan jawaban, tapi berhenti sejenak dan mengingat-Nya.
 ---
-[end]
-Semoga bermanfaat.
-Simpan, dan bagikan ke yang sedang butuh.
+[end cta="Simpan"]
+Ayat mana yang paling *menenangkan hatimu?*
+Tulis di komentar. Kita saling mengingatkan.
 ```
 
 (The placeholders are intentional: the agent must fill them by copying from the sources, never from memory.)
