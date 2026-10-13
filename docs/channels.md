@@ -821,6 +821,23 @@ Tulis di komentar. Kita saling mengingatkan.
 A faceless Indonesian account that takes one philosophical idea (Western, Islamic, Chinese, Indian, Javanese/Nusantara or modern Indonesian) and applies it to an ordinary situation: traffic, work, family, comparing yourself on social media, overthinking at night.
 It should feel like "oh, there's a name for what I feel, and someone thought about it 2,000 years ago", never like a lecture, a motivational quote page or a debate club.
 
+**Direction (Oct 2026 review, no view numbers yet).** The thinking is right (verified quotes, situation first, a counterpoint every time); the form read like lecture notes: every deck used the same Situasinya → Idenya → Coba hari ini → Tapi… skeleton, the biggest text was a label, and only some decks had a line worth screenshotting. Now: labels are small kickers and the thought is the headline, every deck lands one big line, comment asks take one tap, and four formats rotate.
+
+### Formats (rotate; never the same format twice in a row)
+
+1. **Ada namanya #N** (shares): a feeling everyone knows, then its name (*ataraxia*, *amor fati*, *memento mori*…), who named it, how to use it, its limit.
+2. **Kamu pilih mana?** (comments): the dilemma as A/B in a card headline (`*A.* Tetap jujur. | *B.* Jaga perasaan.`), the situation as the body, then what each thinker weighs (kicker = the thinker), never deciding for the viewer. End: "Kamu A atau B? Komen satu huruf, plus satu kata alasannya."
+3. **Salah kaprah filsafat #N** (saves): "kata medsos" vs "kata filsufnya" `[compare]` slides (Stoik ≠ mati rasa, Epikurean ≠ foya-foya, *wu wei* ≠ malas).
+4. **Satu kalimat** (screenshots): one verified quote (work + section + named translation) or the idea in one sentence labelled "gagasannya, disarikan", then how to use it today, then its limit.
+
+### Slide rules
+
+- **Labels are kickers, thoughts are headlines:** `[card kicker="Situasinya" number=off icon=none]` with the situation as one sentence ("Barangnya datang. *Senangnya cuma sebentar.*") and at most one short body line. Same for "Ide <thinker> · <era>", "Coba hari ini", "Tapi…".
+- **Every deck lands one big line:** a `[quote icon=none]` slide (verified only) or a card whose headline is the idea in one sentence with "Gagasannya, disarikan" as the kicker.
+- **Cover:** the situation as a question; the subtitle says what changes for the viewer ("Cara bedain mau dan butuh, dari 2.300 tahun lalu"), not the thinker's dates. Kicker: `FILSAFAT HARIAN · <THINKER>` or the series (`SALAH KAPRAH FILSAFAT · #2`).
+- **No icons on cards** (`icon=none`): the type carries the look.
+- **End:** a one-tap ask (one letter, one word) with `cta="Simpan"`; never "Tulis di komen" alone.
+
 | | |
 |---|---|
 | Purpose | Make philosophy useful and approachable |
@@ -866,45 +883,42 @@ It should feel like "oh, there's a name for what I feel, and someone thought abo
 
 - **Templates:** `editorial/stone` (default), `editorial/midnight` for night/overthinking themes.
 - **Length:** cover + 4–6 slides + end, ≤ 10 total.
-- **Everyday-problem deck:** cover (the situation as a question) → `[card]` the situation → `[card]` the idea (who, when) → `[quote]` (verified only) or `[card]` paraphrase → `[card]` how to try it today (one small practice) → `[card]` counterpoint/limit → `[end]` question.
+- **Everyday-problem deck:** cover (the situation as a question) → situation card (kicker "Situasinya") → idea card (kicker "Ide <thinker> · <era>") → the big line (`[quote]` verified, or "Gagasannya, disarikan") → "Coba hari ini" → "Tapi…" (counterpoint/limit) → `[end]` one-tap ask. Vary the order between decks.
 - **Concept deck:** cover (the term) → meaning → origin → everyday example → common misunderstanding (`[compare]`, with `wrong-label`/`right-label` set to e.g. "Kata medsos"/"Kata filsufnya": `wrong` = the misuse, `right` = the actual idea) → end.
-- **Dilemma deck:** cover (the dilemma) → the situation → position A → position B → what each philosopher would weigh → `[end]` "Kamu pilih yang mana, dan kenapa?"
-- Use `number=off` on narrative cards; numbers only for list decks.
+- **Dilemma deck:** cover (the dilemma) → A/B card (choice as headline, situation as body) → position A (kicker = thinker) → position B → the middle way → `[end]` "Kamu A atau B? Komen satu huruf, plus satu kata alasannya."
+- Use `number=off icon=none` on narrative cards; numbers only for list decks.
 - **Caption:** one line + `Sumber:` (primary text / SEP) + 2–4 hashtags (`#filsafat`, `#filsafatharian`, `#stoikisme`, `#refleksidiri`…).
 
 ```text
 template: editorial/stone
 lang: id
 title: yang bisa dan nggak bisa dikendalikan
-caption: Ide umur 2.000 tahun yang masih relevan buat macet hari ini. Sumber: Epiktetos, Enchiridion 1 · SEP "Epictetus" #filsafat #stoikisme #filsafatharian
+caption: Ide umur 2.000 tahun buat macet hari ini. Sumber: Epiktetos, Enchiridion 1 · SEP "Epictetus" #filsafat #stoikisme #filsafatharian
 ---
-[cover]
-Kesal Karena Macet? | Coba Cara Pikir Ini
-Ide Epiktetos, filsuf Stoa abad ke-1–2 M.
+[cover kicker="FILSAFAT HARIAN · EPIKTETOS"]
+Kesal Karena Macet? | Marahnya Nggak Bikin Jalan
+Cara misahin yang bisa dan nggak bisa kamu ubah.
 ---
-[number=off icon=clock]
-Situasinya
-Jalanan macet, kamu telat, dan emosi naik. Padahal marah nggak bikin mobil di depan bergerak.
+[card kicker="Situasinya" number=off icon=none]
+Jalanan macet, kamu telat. *Marah nggak bikin mobil di depan bergerak.*
 ---
-[number=off icon=book]
-Idenya
-Epiktetos membagi hidup jadi dua: yang ada dalam kendali kita, dan yang tidak.
+[card kicker="Ide Epiktetos · Stoa, abad ke-1–2 M" number=off icon=none]
+Hidup terbagi dua: *yang dalam kendalimu, dan yang tidak.*
 ---
-[number=off icon=key]
-Gagasannya, disarikan
-Penilaian, pilihan, dan tindakan kita ada dalam kendali kita. Tubuh, reputasi, harta, dan keadaan di luar diri tidak sepenuhnya.
+[card kicker="Gagasannya, disarikan" number=off icon=none]
+Penilaian dan tindakanmu milikmu. *Jalanan, orang lain, dan cuaca bukan.*
 ---
-[number=off icon=lightbulb]
-Coba hari ini
-Saat kesal, tanya: bagian mana yang bisa aku ubah? Fokus ke situ, misalnya berangkat lebih awal besok.
+[card kicker="Coba hari ini" number=off icon=none]
+Saat kesal, tanya: *bagian mana yang bisa aku ubah?*
+Misalnya: berangkat lebih awal besok.
 ---
-[number=off icon=alert]
-Tapi…
-Ini bukan alasan pasrah pada ketidakadilan. Kritikus Stoa bilang garis "bisa" dan "tidak bisa" sering lebih kabur dari kelihatannya.
+[card kicker="Tapi…" number=off icon=none]
+Ini *bukan alasan pasrah* pada ketidakadilan.
+Garis "bisa" dan "tidak bisa" sering lebih kabur dari kelihatannya.
 ---
-[end]
-Hal apa yang paling sering bikin kamu kesal, padahal di luar kendalimu?
-Tulis di komen.
+[end cta="Simpan"]
+Hal di luar kendalimu yang *paling bikin kesal?*
+Satu kata aja di komen.
 ```
 
 ---
@@ -913,7 +927,7 @@ Tulis di komen.
 
 ### Standards from the Oct 2026 account reviews (every account, every new deck)
 
-Six accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil, Kosakata Inggris, Fathul Learn Coding). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
+Seven accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil, Kosakata Inggris, Fathul Learn Coding, Filsafat Harian). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
 
 1. **The cover is the hook, and the subtitle says what the viewer gets.** A specific, true scene, fact or question, not a topic label. Never "N pertanyaan buat…"-style homework, never a finger-pointing "Kamu masih…".
 2. **Never repeat the cover line as a card.** Card 1 is the strongest payoff.

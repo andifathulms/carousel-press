@@ -23,6 +23,13 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 - Changes made: terminal as default, numbered series (Git Rescue, Tebak Output, Terminal Harian, Catatan Fathul), recap slides, one-tap ends with a follow reason, portfolio line on ~1 in 3 posts, bigger short code, topic header path, no code ligatures.
 - Track: follows per post first (now ~1 per 540 views), then saves per 1,000 views.
 
+## Filsafat Harian (`editorial/stone`)
+
+- No view numbers shared yet (Oct 2026). Review was design and content judgement.
+- Diagnosis: same five-step skeleton on every deck, labels as headlines, a screenshot line in only some decks, confession-style comment asks, icons and blobs as decoration.
+- Changes made: kicker labels with thought headlines, one big line per deck, four rotating formats (Ada namanya, Kamu pilih mana?, Salah kaprah filsafat, Satu kalimat), one-tap ends, stone without blobs.
+- Track when numbers come in: shares (Ada namanya), comments (dilemmas), saves (salah kaprah, satu kalimat), follows per post.
+
 ## Kamus Kecil (`lexicon/kamus`)
 
 | Post | Cover as posted | Slides | Views (likes) |
@@ -73,4 +80,4 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 
 ## Review pages (owner's private links)
 
-The full reviews with mockups were published as private claude.ai artifacts in the Oct 2026 session (Ruang Rasa Rework, Whistle Notes Rework, Ayat Harian Review, Kamus Kecil Review, Kosakata Inggris Review, Fathul Learn Coding Review). The standards they set are already in `docs/channels.md`; the pages are for the owner's reference.
+The full reviews with mockups were published as private claude.ai artifacts in the Oct 2026 session (Ruang Rasa Rework, Whistle Notes Rework, Ayat Harian Review, Kamus Kecil Review, Kosakata Inggris Review, Fathul Learn Coding Review, Filsafat Harian Review). The standards they set are already in `docs/channels.md`; the pages are for the owner's reference.
