@@ -1,0 +1,22 @@
+{
+  "name": "carousel-core",
+  "version": "1.0.0",
+  "description": "Plain-text decks to 1080×1920 carousel PNGs, rendered in the browser (Canvas 2D). The engine behind Carousel Press.",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/types/src/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/types/src/index.d.ts", "import": "./dist/index.js" },
+    "./parse": { "types": "./dist/types/src/parse.d.ts", "import": "./dist/parse.js" },
+    "./zip": { "types": "./dist/types/src/zip.d.ts", "import": "./dist/zip.js" },
+    "./browser.js": { "types": "./dist/types/src/browser.d.ts", "import": "./dist/browser.js" },
+    "./fonts/*": "./fonts/*",
+    "./package.json": "./package.json"
+  },
+  "files": ["dist", "fonts", "README.md", "CHANGELOG.md"],
+  "dependencies": {
+    "jszip": "^3.10.2"
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/andifathulms/carousel-press.git", "directory": "packages/carousel-core" }
+}
