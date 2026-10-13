@@ -118,6 +118,18 @@ Tag dia di komentar. Nggak usah nulis apa-apa.
 Profile line: `💻 Coding • 🤖 AI • 🛠️ Dev Tools`.
 Voice is "I found this useful, here's how it works", not "I'm the expert, listen to me".
 
+**What works (owner data, Oct 2026).** Nine posts, ~16,900 views, 1,330 likes (7.9%), but only 31 followers (≈ 1 per 540 views). Best: "7 perintah Linux yang sering kepakai" 3,401 and "Salah di Git? Ini 6 cara undo-nya" 2,975, both in `dev/terminal` and both rescue/daily-use topics. The six GitHub-dark posts averaged ~1,500. People save the tips but don't follow Fathul: every post is a one-off list, and no post shows the learning-in-public voice.
+
+**Bio (owner to set):** "💻 Git, terminal & AI buat developer, tiap minggu. / 🛟 Git Rescue · ⌨️ Terminal Harian · 🧠 Tebak Output / Belajar bareng, bukan menggurui. Porto di komen yang di-pin." (A bio link usually needs ~1,000 followers; until then the portfolio goes in a pinned comment.)
+
+### Series (number every one in the kicker: `GIT RESCUE • #N`)
+
+1. **Git Rescue #N**: one panic, one fix ("Commit ke branch yang salah?"). Every command run in a scratch repo before posting. A recap slide with all commands, a `reset --hard` warning where it applies.
+2. **Tebak Output #N**: 3 short snippets (JS, Python, shell). Question slide: `[code]` with the options as body lines; answer slide: "Jawaban: X", the real output as a comment, one-line why. **Every output is run (Node, Python, a real shell) before posting.** Keep code lines ≤ 24 characters so they stay large.
+3. **Terminal Harian #N**: one command a day-to-day dev actually uses, with a realistic example.
+4. **Catatan Fathul #N** (weekly): first person, a true bug, mistake or "akhirnya aku paham…". Only real stories; the owner writes them.
+5. **AI for devs**: problem-first workflows ("AI-nya ngarang fungsi yang nggak ada"), never news or hype.
+
 | | |
 |---|---|
 | Purpose | Teach/share useful things |
@@ -147,15 +159,16 @@ Voice is "I found this useful, here's how it works", not "I'm the expert, listen
 
 ### Deck recipe
 
-- **Templates:** `dev/github-dark` (default: near-black + green, closest to the brand), `dev/terminal` (Linux/CLI topics). Don't use `dev/paper-light` here: it's Whistle Notes' look.
+- **Templates (2-week test, Oct 2026):** `dev/terminal` is the default (Git, shell, AI, tools, concepts). `dev/github-dark` only for JS/Python/SQL code-heavy decks, where colour highlighting helps. Never `dev/paper-light` (that was Whistle Notes' old look). After the test, keep whichever look wins on views and follows.
 - **Length:** cover + 4–7 slides + end, ≤ 10 total.
-- **Cover:** `[cover kicker="GIT • CHEAT SHEET"]` style kicker (TOPIC • FORMAT in caps), headline with a number and `|` break.
+- **Cover:** `[cover kicker="GIT RESCUE • #2"]` or `[cover kicker="GIT • CHEAT SHEET"]` (TOPIC • FORMAT in caps; the first segment becomes the header path, `~/git`). Headline: the problem the viewer has ("Port 3000 udah dipakai?"), better than "N perintah…".
 - **Slides:** `[code]` with a fenced block in `bash`, `js`, `py` or `sql` for commands/snippets; plain cards for concepts. Inline `` `code` `` in headlines is fine. Keep code lines short (no wrapping; long lines get shrunk then clipped with `code-line-too-long`).
-- **End:** `[end]`, save line, then the portfolio sign-off as the last body line (see decisions.md):
+- **Recap slide** on cheat-sheet decks: `[code number=off]` "Simpan ini" with every command in one block, before the end.
+- **End (owner, Oct 2026):** a one-tap ask and a reason to follow, never "Simpan dulu" boilerplate: `[end cta="Follow"]` for series ("Pernah *panik* gara-gara Git?" + "Komen 🙋 kalau pernah. Git Rescue #3 minggu depan."), `cta="Simpan"` otherwise. The portfolio sign-off stays on about 1 in 3 posts, as the last body line:
   ```text
-  [end]
-  Simpan dulu ⭐
-  Nanti pas lupa, balik lagi ke sini.
+  [end cta="Simpan"]
+  Shortcut mana yang *paling ngebantu?*
+  Satu shortcut di komen.
 
   Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
   ```
@@ -900,7 +913,7 @@ Tulis di komen.
 
 ### Standards from the Oct 2026 account reviews (every account, every new deck)
 
-Five accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil, Kosakata Inggris). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
+Six accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil, Kosakata Inggris, Fathul Learn Coding). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
 
 1. **The cover is the hook, and the subtitle says what the viewer gets.** A specific, true scene, fact or question, not a topic label. Never "N pertanyaan buat…"-style homework, never a finger-pointing "Kamu masih…".
 2. **Never repeat the cover line as a card.** Card 1 is the strongest payoff.

@@ -4,6 +4,25 @@ What the owner has shared about real posts, and what we concluded. Read this wit
 
 Numbers are views (likes) unless noted. Small samples: treat conclusions as hypotheses to keep testing.
 
+## Fathul Learn Coding (`dev/*`)
+
+| Cover as posted | Look | Views |
+|---|---|---|
+| 7 perintah Linux yang sering kepakai | terminal | 3,401 |
+| Salah di Git? Ini 6 cara undo-nya | terminal | 2,975 |
+| 7 shortcut VS Code | github-dark | 1,810 |
+| Isi .env kamu jangan masuk chat AI | github-dark | 1,560 |
+| 6 trik Python yang bikin kode lebih rapi | github-dark | 1,548 |
+| 8 status code HTTP yang wajib kamu kenal | github-dark | 1,468 |
+| 5 CLI tools yang bikin terminal lebih enak | terminal | 1,436 |
+| 7 perintah Git yang wajib kamu tahu (first post) | github-dark | 1,407 |
+| 5 trik console selain console.log | github-dark | 1,254 |
+
+- 1,330 likes (7.9% per view), 31 followers (Oct 2026).
+- Terminal covers averaged ~2,600 vs ~1,500 for GitHub-dark, but the top two are also rescue/daily-use topics, and the terminal "CLI tools" list was average. Look and topic are confounded; the 2-week test posts the same topic type in both looks.
+- Changes made: terminal as default, numbered series (Git Rescue, Tebak Output, Terminal Harian, Catatan Fathul), recap slides, one-tap ends with a follow reason, portfolio line on ~1 in 3 posts, bigger short code, topic header path, no code ligatures.
+- Track: follows per post first (now ~1 per 540 views), then saves per 1,000 views.
+
 ## Kamus Kecil (`lexicon/kamus`)
 
 | Post | Cover as posted | Slides | Views (likes) |
@@ -54,4 +73,4 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 
 ## Review pages (owner's private links)
 
-The full reviews with mockups were published as private claude.ai artifacts in the Oct 2026 session (Ruang Rasa Rework, Whistle Notes Rework, Ayat Harian Review, Kamus Kecil Review, Kosakata Inggris Review). The standards they set are already in `docs/channels.md`; the pages are for the owner's reference.
+The full reviews with mockups were published as private claude.ai artifacts in the Oct 2026 session (Ruang Rasa Rework, Whistle Notes Rework, Ayat Harian Review, Kamus Kecil Review, Kosakata Inggris Review, Fathul Learn Coding Review). The standards they set are already in `docs/channels.md`; the pages are for the owner's reference.
