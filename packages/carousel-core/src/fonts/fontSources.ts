@@ -55,8 +55,10 @@ export function configureFonts(config: FontConfig): void {
 
 /** Default: the fonts/ directory next to the built module (dist/ → ../fonts/). */
 function defaultBase(): string {
-  const here = import.meta.url; // kept in a variable so bundlers don't try to bundle a directory
-  return new URL('../fonts/', here).href;
+  // String math, not new URL('../fonts/', import.meta.url): bundlers (Vite, webpack,
+  // Turbopack) read that form as an asset import and fail on a directory.
+  const dir = String(import.meta.url).replace(/[^/]*$/, '');
+  return new URL(`${dir}../fonts/`).href;
 }
 
 function bundledUrl(file: string): string {
