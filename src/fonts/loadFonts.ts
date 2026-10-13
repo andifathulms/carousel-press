@@ -43,6 +43,7 @@ import '@fontsource/amiri/arabic-400.css';
 import { ARABIC_SAMPLE, AYAH_FACE, HADITH_FACE } from '../templates/serene/arabicLayout';
 
 import type { Variant } from '../templates/types';
+import { traitsOf } from '../templates/traits';
 
 export interface Face {
   family: string;
@@ -65,18 +66,10 @@ export function facesFor(v: Variant): Face[] {
       if (!faces.some((f) => f.family === family && f.weight === weight)) faces.push({ family, weight });
     }
   };
-  if (v.family === 'sport') {
-    add(v.fonts.serif, [700, v.headlineWeight ?? 800]);
-    add(v.fonts.sans, [400, 500, 600, 700]);
-    add(v.fonts.mono, [400, 500, 600, 700]);
-  } else if (v.family !== 'dev') {
-    add(v.fonts.serif, [500, 600, 700]);
-    add(v.fonts.sans, [400, 500, 600]);
-    add(v.fonts.mono, [400, 500, 600]);
-  } else {
-    add(v.fonts.sans, [400, 500, 600, 700, v.headlineWeight ?? 800]);
-    add(v.fonts.mono, [400, 500, 600, 700]);
-  }
+  const w = traitsOf(v).weights(v);
+  if (w.serif) add(v.fonts.serif, w.serif);
+  add(v.fonts.sans, w.sans);
+  add(v.fonts.mono, w.mono);
   // Word slides can appear in any template, so every variant gates on the IPA face.
   faces.push({ family: 'Gentium Book Plus', weight: 400, text: IPA_SAMPLE });
   // Ayah/hadith slides can appear in any template too.

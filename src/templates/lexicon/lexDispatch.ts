@@ -1,5 +1,6 @@
 // word/table/compare slides in any family (SPEC-lexicon §4): header, footer and the lexicon stack.
-import { type Warning, isDevLike } from '../../core/types';
+import { traitsOf } from '../traits';
+import type { Warning } from '../../core/types';
 import type { Box } from '../../render/safezone';
 import { type LayoutInput, type SlideLayout, centeredShift, layoutFooter, layoutHeader, resolveSurface } from '../common';
 import { lexBoxes, shiftEls } from './lexLayout';
@@ -32,7 +33,7 @@ export function layoutLexSlide(input: LayoutInput): SlideLayout {
   if (lex.overflow) warnings.push({ code: 'overflow', slideIndex: slide.index, line: slide.lines[0], message: `Slide ${slide.index + 1}: text doesn't fit` });
 
   const header = layoutHeader(input, sans, mono, boxes);
-  const footer = layoutFooter(input, sans, mono, boxes, !isDevLike(v.family));
+  const footer = layoutFooter(input, sans, mono, boxes, traitsOf(v).coverSwipeIcon);
   boxes.push(...lexBoxes(lex.els));
   return {
     slide, deck, variant: v, surface, surfaceName: name, onPhoto,

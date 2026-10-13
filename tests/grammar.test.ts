@@ -9,6 +9,7 @@ import { isBlocking, type Warning } from '../src/core/types';
 import { fakeMeasurer } from '../src/layout/measure';
 import { layoutSlide } from '../src/render/renderSlide';
 import { getVariant } from '../src/templates/registry';
+import { FAMILY_TRAITS } from '../src/templates/traits';
 
 const codes = (text: string, opts = {}) => parse(text, opts).warnings.map((w) => w.code);
 const types = (text: string) => parse(text).deck.slides.map((s) => s.type);
@@ -194,11 +195,11 @@ describe('PRD updated to match the code (G6–G25, except G9, G12, G17: code fix
 
   it('G22: auto icons skip covers and end slides and never repeat back to back', () => {
     const { deck } = parse('C\n---\nA\n---\nB\n---\nD\n---\n[end]\nE');
-    const icons = resolveIcons(deck.slides, deck.slug, 'editorial');
+    const icons = resolveIcons(deck.slides, deck.slug, FAMILY_TRAITS.editorial.icons);
     expect(icons[0]).toBeNull();
     expect(icons[4]).toBeNull();
     for (let i = 2; i < 4; i++) expect(icons[i]).not.toBe(icons[i - 1]);
-    expect(resolveIcons(deck.slides, deck.slug, 'dev').every((x) => x === null)).toBe(true);
+    expect(resolveIcons(deck.slides, deck.slug, FAMILY_TRAITS.dev.icons).every((x) => x === null)).toBe(true);
   });
 
   it('G23: a trailing → in built-in strings is split off and drawn as an icon', () => {

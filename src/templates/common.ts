@@ -6,6 +6,7 @@ import type { FontSpec, TextMeasurer } from '../layout/measure';
 import type { StackResult } from '../layout/stack';
 import { type Box, CONTENT_W, ROWS, SAFE } from '../render/safezone';
 import type { Surface, Variant } from './types';
+import { traitsOf } from './traits';
 import type { LexLayout } from './lexicon/lexLayout';
 
 export interface LayoutInput {
@@ -110,7 +111,7 @@ export function layoutHeader(input: LayoutInput, sans: string, mono: string, box
   const top = ROWS.headerBaseline - CHROME.handleSize;
   if (handle) boxes.push({ x: SAFE.left, y: top, w: m.width(handle, handleFont), h: CHROME.handleSize * 1.25, kind: 'handle' });
 
-  if (input.variant.family === 'dev') {
+  if (traitsOf(input.variant).headerRight === 'path') {
     const font: FontSpec = { family: mono, weight: 500, size: CHROME.pathSize };
     const text = truncate(`~/${headerTopic(input.deck)}`, CHROME.pathMax, font, m);
     const w = m.width(text, font);

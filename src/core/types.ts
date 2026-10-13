@@ -21,10 +21,6 @@ export const LANGS: readonly Lang[] = ['id', 'en'];
 
 export type FamilyId = 'editorial' | 'dev' | 'lexicon' | 'serene' | 'sport';
 
-/** Families built on the dev layout (one sans, no blobs, icons off by default). */
-export function isDevLike(f: FamilyId): boolean {
-  return f === 'dev' || f === 'sport';
-}
 
 /** Templates shipped with the package. Hosts add more with registerVariant(). */
 export const BUILTIN_TEMPLATE_IDS = [

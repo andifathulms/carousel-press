@@ -1,4 +1,4 @@
-import { type FamilyId, type Slide, isDevLike } from './types';
+import type { Slide } from './types';
 import { hash } from './hash';
 
 /** Editorial auto pool, in DESIGN §7 order. */
@@ -43,24 +43,25 @@ export function canonicalIcon(name: string): PoolIcon | null {
   return ICON_ALIASES[n] ?? null;
 }
 
-export function poolFor(family: FamilyId): readonly PoolIcon[] {
-  return isDevLike(family) ? DEV_ICONS : EDITORIAL_ICONS;
+/** A family's icons: the auto pool and what a slide without `icon=` gets. */
+export interface IconPolicy {
+  pool: readonly PoolIcon[];
+  fallback: 'auto' | 'none';
 }
 
 /**
- * Resolve each slide's icon for a family. `auto` picks from the pool with
- * index = hash(slug + ':' + slideIndex) mod len, avoiding a repeat of the
- * previous slide's icon. Cover slides never carry an icon.
+ * Resolve each slide's icon under a family's policy. `auto` picks from the
+ * pool with index = hash(slug + ':' + slideIndex) mod len, avoiding a repeat
+ * of the previous slide's icon. Cover slides never carry an icon.
  */
-export function resolveIcons(slides: readonly Slide[], slug: string, family: FamilyId): (PoolIcon | null)[] {
-  const pool = poolFor(family);
+export function resolveIcons(slides: readonly Slide[], slug: string, policy: IconPolicy): (PoolIcon | null)[] {
+  const { pool } = policy;
   const out: (PoolIcon | null)[] = [];
   let prev: PoolIcon | null = null;
   for (const s of slides) {
     let icon: PoolIcon | null = null;
     if (s.type !== 'cover') {
-      // Dev and lexicon decks are icon-free unless a slide asks for one.
-      const raw = s.attrs.icon ?? (family === 'editorial' ? 'auto' : 'none');
+      const raw = s.attrs.icon ?? policy.fallback;
       if (raw === 'auto') {
         // End slides have a CTA as their closing element; auto icons stay off.
         if (s.type !== 'end') {

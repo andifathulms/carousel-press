@@ -6,6 +6,7 @@ import { type TextMeasurer, createCanvasMeasurer } from '../layout/measure';
 import type { SlideLayout } from '../templates/common';
 import { getFamily } from '../templates/registry';
 import type { Variant } from '../templates/types';
+import { traitsOf } from '../templates/traits';
 import { faceAvailable } from './fontCheck';
 import { type PhotoInput, drawPhoto } from './photo';
 import { type Box, CANVAS, CONTENT_W, ROWS, SAFE } from './safezone';
@@ -38,7 +39,7 @@ export function layoutSlide(
 
 /** Icons for every slide of a deck under a variant's family. */
 export function deckIcons(deck: Deck, variant: Variant): (PoolIcon | null)[] {
-  return resolveIcons(deck.slides, deck.slug, variant.family);
+  return resolveIcons(deck.slides, deck.slug, traitsOf(variant).icons);
 }
 
 /**

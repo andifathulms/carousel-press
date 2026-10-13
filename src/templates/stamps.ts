@@ -1,4 +1,5 @@
 // Verdict stamp and diagram panel (DESIGN §6.7): fixed stack items shared by every family.
+import { displayFamily } from './traits';
 import type { Slide, VerdictTone } from '../core/types';
 import type { FontSpec, TextMeasurer } from '../layout/measure';
 import type { StackItem } from '../layout/stack';
@@ -20,8 +21,7 @@ export const DIAGRAM = {
 
 /** The stamp's font: the variant's card-headline face and weight, so it is always loaded. */
 export function verdictFont(v: Variant): FontSpec {
-  const display = v.family === 'dev' ? v.fonts.sans : v.fonts.serif ?? v.fonts.sans;
-  return { family: display, weight: v.headlineWeight ?? 700, size: VERDICT.size };
+  return { family: displayFamily(v), weight: v.headlineWeight ?? 700, size: VERDICT.size };
 }
 
 export function verdictItem(slide: Slide, v: Variant, m: TextMeasurer, gap: number): StackItem | null {
