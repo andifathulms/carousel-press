@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: opu daeng risaju
@@ -48,5 +49,5 @@ Sejak 1949 ia tinggal bersama putranya di Parepare. Ia wafat pada 1964 dan dimak
 Usulan gelarnya dibahas dalam seminar nasional di Makassar pada Juni 2006, 42 tahun setelah ia wafat. Keppres No. 085/TK/2006 terbit pada 3 November 2006.
 ---
 [end photo=risaju-istana-luwu]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Kamu pernah dengar *nama Opu Daeng Risaju?*
+Jawab 'pernah' atau 'baru tahu'.

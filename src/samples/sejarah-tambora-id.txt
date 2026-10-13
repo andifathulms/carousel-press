@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: tambora 1815 dari sumbawa
@@ -56,5 +57,5 @@ Tim University of Rhode Island dan Direktorat Vulkanologi Indonesia menggali sis
 Dua abad setelah letusan, Taman Nasional Gunung Tambora diresmikan di Doro Ncanga, Dompu. Di belahan bumi lain, 1816 dikenal sebagai "tahun tanpa musim panas".
 ---
 [end photo=tambora-kaldera]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Pernah dengar *Kerajaan Pekat dan Tambora?*
+Jawab 'pernah' atau 'baru tahu'.

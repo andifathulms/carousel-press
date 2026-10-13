@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: puputan badung 1906
@@ -56,5 +57,5 @@ Denpasar hari ini
 Di Lapangan Puputan Badung berdiri patung pria, perempuan, dan anak yang membawa tombak dan keris. Monumennya dipugar dan diresmikan ulang 14 November 2025. Sejak 2015, I Gusti Ngurah Made Agung bergelar Pahlawan Nasional (Keppres 116/TK/2015).
 ---
 [end photo=badung-monumen]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Puputan Badung *pernah diajarkan di sekolahmu?*
+Jawab 'pernah' atau 'belum'.

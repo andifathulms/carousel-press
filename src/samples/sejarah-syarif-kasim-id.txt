@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: sultan syarif kasim ii
@@ -56,5 +57,5 @@ Mahkota aslinya, emas seberat 1,8 kg bertatah berlian dan rubi, disimpan di Muse
 Gelar itu diberikan lewat Keppres No. 109/TK/1998 tanggal 6 November 1998. Namanya kini dipakai bandara di Pekanbaru.
 ---
 [end photo=istana-siak]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Kamu baru tahu *soal Sultan Siak ini?*
+Komen 🙋 kalau baru tahu.

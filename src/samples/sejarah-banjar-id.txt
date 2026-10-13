@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: kesultanan banjar dihapus
@@ -56,5 +57,5 @@ Antasari ditetapkan sebagai Pahlawan Nasional lewat Keppres No. 06/TK/1968. Sepu
 Keraton Banjar dibentuk kembali pada 2010 sebagai lembaga adat dan budaya, tanpa kekuasaan politik.
 ---
 [end photo=banjar-masjid-suriansyah]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Perang 45 tahun ini *pernah diajarkan di sekolahmu?*
+Jawab 'pernah' atau 'belum'.

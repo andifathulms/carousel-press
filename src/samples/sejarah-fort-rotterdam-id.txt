@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: fort rotterdam setelah 1667
@@ -52,5 +53,5 @@ Hari ini
 Fort Rotterdam ditetapkan sebagai cagar budaya peringkat nasional pada 2014. Benteng ini buka setiap hari untuk umum.
 ---
 [end photo=rotterdam-litho-1845]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Kamu pernah ke *Fort Rotterdam?*
+Jawab 'pernah' atau 'belum'.

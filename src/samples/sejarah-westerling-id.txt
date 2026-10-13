@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: operasi westerling di sulawesi selatan
@@ -56,5 +57,5 @@ Agustus 2013, digugat lewat pengacara Liesbeth Zegveld, Belanda berdamai dengan 
 17 Februari 2022, riset NIOD, KITLV, dan NIMH menyimpulkan Belanda memakai kekerasan ekstrem secara struktural pada 1945–1949; riset itu juga membahas kekerasan pihak Indonesia. PM Mark Rutte meminta maaf, membuang sikap resmi 1969 soal "ekses".
 ---
 [end photo=westerling-monumen]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Menurutmu permintaan maaf itu *cukup?*
+Jawab 'cukup' atau 'belum'.

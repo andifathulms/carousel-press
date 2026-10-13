@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: perjanjian bongaya
@@ -7,9 +8,9 @@ caption: Ditandatangani setelah setahun perang, tapi dua tahun kemudian Somba Op
 250.000 Ringgit | dan 1.000 Budak
 Itu sebagian yang wajib diserahkan Gowa lewat Perjanjian Bongaya. Makassar, 18 November 1667.
 ---
-[number=off icon=home photo=makassar-fort-rotterdam]
-Benteng milik Gowa
-Benteng Ujung Pandang dibangun Kerajaan Gowa-Tallo di tepi pantai Makassar; tahun berdirinya masih diperdebatkan. Setelah 1667 benteng ini diserahkan ke VOC, dibangun ulang, dan dinamai Rotterdam, kota kelahiran Speelman.
+[number=off icon=mountain photo=makassar-somba-opu]
+Lebih dari 50 tahun melawan
+Bentrokan Makassar dan VOC sudah dimulai pada 1616, saat VOC menyandera bangsawan Makassar dan 15 pelaut Belanda terbunuh. Tahun 1659 Hasanuddin menuntut VOC berhenti menyerang daerah bawahannya dan mengakui monopoli rempahnya melanggar hukum Tuhan.
 ---
 [number=off icon=alert photo=penaklukan-makassar]
 *1660*: VOC sudah menyerang
@@ -28,20 +29,20 @@ Pada 24 November 1666 Cornelis Speelman berangkat dari Batavia dengan sekitar 1.
 Armada Gowa runtuh setelah sekitar 5.000 orang Bugis di dalamnya berbalik ke Arung Palakka. Sekitar 5.500 orang Makassar ditawan. Ratusan dijual sebagai budak, ribuan dibuang ke pulau kecil dan banyak yang mati kelaparan.
 ---
 [number=off icon=book photo=makassar-speelman]
-*18 November 1667*: ditandatangani
-Setelah setahun perang, Sultan Hasanuddin dan Speelman menandatangani perjanjian di Bungaya. Karaeng Tallo baru menandatanganinya pada 9 Maret 1668.
----
-[number=off icon=key photo=makassar-fort-rotterdam]
-Isinya berat untuk Gowa
-VOC mendapat monopoli dagang, orang Portugis dan Inggris diusir, dan benteng Gowa dibongkar kecuali Somba Opu. Gowa juga wajib membayar 250.000 ringgit dalam lima tahun dan menyerahkan 1.000 budak.
+*18 November 1667*: isinya berat
+Setelah setahun perang, Hasanuddin dan Speelman menandatangani perjanjian di Bungaya. VOC mendapat monopoli dagang, orang Portugis dan Inggris diusir, benteng Gowa dibongkar kecuali Somba Opu, dan Gowa wajib membayar 250.000 ringgit serta menyerahkan 1.000 budak.
 ---
 [number=off icon=clock photo=makassar-somba-opu]
-*1668*: perang pecah lagi
-Pada 12 April 1668 pertempuran kembali terjadi. Speelman memblokade pantai dan menyuruh pasukan Bugis merampas padi dan ternak di pedalaman Gowa, supaya Gowa kelaparan.
+*1668*: perjanjian dibatalkan
+Hasanuddin membatalkan perjanjian itu dalam hitungan bulan. Pada 12 April 1668 perang pecah lagi. Speelman memblokade pantai dan menyuruh pasukan Bugis merampas padi dan ternak di pedalaman, supaya Gowa kelaparan.
 ---
-[number=off icon=mountain photo=makassar-somba-opu]
-*24 Juni 1669*: Somba Opu jatuh
-Tembok Somba Opu dijebol ranjau. Para pembela meledakkan meriam keramat Anak Makassar agar tidak dirampas. VOC lalu meratakan benteng itu. Hasanuddin turun takhta pada 1669 dan wafat pada 12 Juni 1670.
+[number=off icon=alert photo=penaklukan-makassar]
+Somba Opu tak tertembus
+Hasanuddin memagari pesisir Makassar dengan tembok bata hampir 11 kilometer. VOC sampai kehabisan amunisi tanpa bisa menjebol Somba Opu. Pengepungan berlangsung sekitar dua setengah tahun, dan wabah membuat VOC sempat hanya punya 250 prajurit Eropa yang sanggup bertempur.
+---
+[number=off icon=mountain photo=makassar-fort-rotterdam]
+*Juni 1669*: Somba Opu jatuh
+Tembok Somba Opu akhirnya dijebol lewat galian ranjau. Para pembela meledakkan meriam keramat Anak Makassar agar tidak dirampas, lalu VOC meratakan benteng itu. Benteng Ujung Pandang milik Gowa dibangun ulang VOC dan dinamai Fort Rotterdam. Hasanuddin turun takhta pada 1669 dan wafat pada 12 Juni 1670.
 ---
 [number=off icon=chat photo=makassar-fort-rotterdam]
 Pahlawan atau pengkhianat?
@@ -56,5 +57,5 @@ Sebagian bangsawan dan prajurit Makassar menolak Perjanjian Bongaya. Mereka berl
 Julukan ini sering disebut berasal dari Belanda, tapi belum ada sumber sezaman yang memastikannya; dulu sebutan itu dipakai untuk orang Makassar umumnya. Hasanuddin dianugerahi gelar Pahlawan Nasional pada 1973.
 ---
 [end photo=makassar-hasanuddin]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Arung Palakka: *pahlawan atau pengkhianat?*
+Komen satu kata. Dua-duanya punya alasan.

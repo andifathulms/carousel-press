@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: revolusi sosial sumatra timur 1946
@@ -52,5 +53,5 @@ Juli 1947 Belanda menyerbu wilayah Republik. Bersama bangsawan yang selamat, mer
 Kerangka Amir Hamzah ditemukan di kuburan massal Kuala Begumit pada 1948. Tahun 1949 ia dimakamkan kembali di Masjid Azizi, Tanjung Pura. Pada 3 November 1975 negara menetapkannya sebagai Pahlawan Nasional.
 ---
 [end photo=sumtim-maimun]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Kamu kenal Amir Hamzah *dari pelajaran sastra?*
+Jawab 'kenal' atau 'baru tahu'. Akhir hidupnya jarang diceritakan.

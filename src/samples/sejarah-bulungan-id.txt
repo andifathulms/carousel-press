@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: subuh 3 juli 1964 di tanjung palas
@@ -56,5 +57,5 @@ Tanjung Palas kini: istana replika
 Istana yang berdiri sekarang dibangun ulang sekitar 1998–2000 dan dijadikan museum, berisi barang yang lolos dari penjarahan. Lembaga Adat Kesultanan Bulungan menjaga adatnya. Mereka yang dibuang ke laut pada 1964 tak pernah punya makam.
 ---
 [end photo=bulungan-sungai-kayan]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Pernah dengar *Tragedi Bultiken* sebelumnya?
+Jawab 'pernah' atau 'baru tahu'.

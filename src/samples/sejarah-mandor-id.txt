@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: peristiwa mandor
@@ -56,5 +57,5 @@ Makam-makam massal ditemukan di sekitar Mandor dan Sungai Durian. Akhir 1947, pe
 Sejak 1973 Pemprov Kalbar berziarah ke Mandor. Perda Kalbar No. 5 Tahun 2007 menetapkan 28 Juni sebagai Hari Berkabung Daerah dan Makam Juang Mandor sebagai Monumen Daerah. Hari itu, bendera dikibarkan setengah tiang.
 ---
 [end photo=mandor-kadriah]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Peristiwa Mandor *pernah diajarkan di sekolahmu?*
+Jawab 'pernah' atau 'belum'.

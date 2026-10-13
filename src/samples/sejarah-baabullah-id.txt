@@ -1,3 +1,4 @@
+handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: sultan baabullah ternate
@@ -56,5 +57,5 @@ Pada 1606 Spanyol merebut Ternate; Sultan Said dibawa ke Manila dan wafat di pen
 Lewat Keppres No. 117/TK/2020, Baabullah ditetapkan sebagai Pahlawan Nasional. Gelarnya diserahkan pada 10 November 2020.
 ---
 [end photo=benteng-kastela]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+Kamu pernah dengar *nama Baabullah?*
+Jawab 'pernah' atau 'baru tahu'.
