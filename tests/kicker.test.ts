@@ -29,3 +29,16 @@ describe('kicker', () => {
     }
   });
 });
+
+describe('fillUnjoined', () => {
+  it('draws code with joinable pairs one character at a time, plain text in one call', async () => {
+    const { fillUnjoined } = await import('../src/render/text');
+    const calls: string[] = [];
+    const ctx = { fillText: (t: string) => { calls.push(t); }, measureText: () => ({ width: 10 }) as TextMetrics };
+    fillUnjoined(ctx, 'a === b', 0, 0);
+    expect(calls).toEqual(['a', ' ', '=', '=', '=', ' ', 'b']);
+    calls.length = 0;
+    fillUnjoined(ctx, 'a = b', 0, 0);
+    expect(calls).toEqual(['a = b']);
+  });
+});

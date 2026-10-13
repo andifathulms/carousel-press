@@ -1,5 +1,5 @@
 import type { Ctx } from './ctx';
-import { type FontSpec, fontString } from '../layout/measure';
+import { type FontSpec, fontString, isMonoFamily } from '../layout/measure';
 import { PILL, type TextStyle, type WrappedLine, baselines, monoFont } from '../layout/wrap';
 
 export interface TextColors {
@@ -41,6 +41,25 @@ export function trackedWidth(ctx: Ctx, text: string, trackingPx: number): number
   return chars.reduce((w, ch) => w + ctx.measureText(ch).width, 0) + Math.max(0, chars.length - 1) * trackingPx;
 }
 
+const JOINABLE = /[=!<>\-|&+*:./\\~^%#?@$_]{2}/;
+
+/**
+ * Code fonts (JetBrains Mono) join `===`, `=>`, `!=` into single glyphs, which beginners misread,
+ * and canvas has no switch to turn ligatures off. Text with a joinable pair is drawn one character
+ * at a time, so every character stays visible (Oct 2026 review).
+ */
+export function fillUnjoined(ctx: Pick<Ctx, 'fillText' | 'measureText'>, text: string, x: number, y: number): void {
+  if (!JOINABLE.test(text)) {
+    ctx.fillText(text, x, y);
+    return;
+  }
+  let cx = x;
+  for (const ch of Array.from(text)) {
+    ctx.fillText(ch, cx, y);
+    cx += ctx.measureText(ch).width;
+  }
+}
+
 /** Draw wrapped rich lines with their top at `top`. With `centerW`, each line is centred in [x, x + centerW]. */
 export function drawWrapped(
   ctx: Ctx, lines: readonly WrappedLine[], x0: number, top: number, size: number, lh: number,
@@ -65,12 +84,13 @@ export function drawWrapped(
         ctx.shadowColor = shadow;
         setFont(ctx, mono);
         ctx.fillStyle = colors.codeText;
-        ctx.fillText(run.text, x + run.x + PILL.padX, y);
+        fillUnjoined(ctx, run.text, x + run.x + PILL.padX, y);
         continue;
       }
       setFont(ctx, style.font);
       ctx.fillStyle = run.style === 'accent' ? colors.accent : colors.text;
-      ctx.fillText(run.text, x + run.x, y);
+      if (isMonoFamily(style.font.family)) fillUnjoined(ctx, run.text, x + run.x, y);
+      else ctx.fillText(run.text, x + run.x, y);
     }
   });
 }

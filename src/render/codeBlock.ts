@@ -4,7 +4,7 @@ import type { Placed } from '../layout/stack';
 import { withAlpha } from '../core/color';
 import { highlightLine } from './highlight';
 import type { TokenKind } from './highlight';
-import { setFont } from './text';
+import { fillUnjoined, setFont } from './text';
 
 /** DESIGN §6.4 panel details shared by both families. */
 export const CODE_CHROME = {
@@ -74,7 +74,7 @@ export function drawCodeBlock(ctx: Ctx, p: Placed, theme: CodeTheme, mono: strin
       const weight = tok.kind === 'command' ? 600 : spec.weight;
       setFont(ctx, { family: mono, weight, size });
       ctx.fillStyle = theme[TOKEN_COLOR[tok.kind]] as string;
-      ctx.fillText(tok.text, cx, baseline);
+      fillUnjoined(ctx, tok.text, cx, baseline);
       cx += ctx.measureText(tok.text).width;
     }
   });
