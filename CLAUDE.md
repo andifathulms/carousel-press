@@ -41,6 +41,8 @@ npm run review      # build, then render all samples × templates to review/ (se
 
 ## 3. Project structure
 
+> **Since carousel-core (Oct 2026):** `core/`, `layout/`, `render/`, `templates/`, `fonts/` and `export/` below live in `packages/carousel-core/src/` (font files in `packages/carousel-core/fonts/`). The app imports them as `carousel-core/src/...`. See `docs/PORTING.md` §1.
+
 ```
 carousel-press/
 ├─ index.html
