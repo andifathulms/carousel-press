@@ -1,5 +1,5 @@
 import type { TemplateId } from '../core/types';
-import { VARIANTS } from '../templates/registry';
+import { listVariants } from '../templates/registry';
 import type { Variant } from '../templates/types';
 import { h, svg } from './dom';
 import { UI_ICONS } from './uiIcons';
@@ -17,7 +17,7 @@ const GROUPS: { label: string; family: Variant['family'] }[] = [
 
 /** Dropdown grouped by family; each option shows 4 swatches + the variant name. */
 export function createTemplatePicker(onPick: (id: TemplateId) => void): { el: HTMLElement; set(id: TemplateId): void } {
-  let current: TemplateId = VARIANTS[0]!.id;
+  let current: TemplateId = listVariants()[0]!.id;
   const label = h('span', { class: 'picker-label' });
   const button = h('button', {
     type: 'button', class: 'picker-button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'aria-label': 'Template',
@@ -27,7 +27,7 @@ export function createTemplatePicker(onPick: (id: TemplateId) => void): { el: HT
   for (const g of GROUPS) {
     const groupId = `grp-${g.family}`;
     const group = h('div', { role: 'group', 'aria-labelledby': groupId }, h('div', { class: 'picker-group', id: groupId }, g.label));
-    for (const v of VARIANTS.filter((x) => x.family === g.family)) {
+    for (const v of listVariants().filter((x) => x.family === g.family)) {
       const el = h('div', { role: 'option', class: 'picker-option', id: `opt-${v.id.replace('/', '-')}`, 'aria-selected': 'false' },
         swatches(v), h('span', {}, v.name), h('span', { class: 'picker-id' }, v.id));
       el.addEventListener('click', () => choose(v.id));
@@ -86,7 +86,7 @@ export function createTemplatePicker(onPick: (id: TemplateId) => void): { el: HT
 
   const set = (id: TemplateId): void => {
     current = id;
-    const v = VARIANTS.find((x) => x.id === id)!;
+    const v = listVariants().find((x) => x.id === id)!;
     label.replaceChildren(swatches(v), h('span', {}, v.id));
     for (const o of options) o.el.setAttribute('aria-selected', String(o.id === id));
   };

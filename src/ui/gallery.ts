@@ -2,7 +2,7 @@ import { loadAllFonts } from '../fonts/loadFonts';
 import { makeCanvas } from '../render/ctx';
 import { deckIcons, renderSlide } from '../render/renderSlide';
 import { CANVAS } from '../render/safezone';
-import { VARIANTS } from '../templates/registry';
+import { listVariants } from '../templates/registry';
 import type { Controller } from './controller';
 import { openModal, toast } from './dialogs';
 import { h } from './dom';
@@ -21,7 +21,7 @@ export async function openGallery(c: Controller): Promise<void> {
     return;
   }
 
-  const cells = VARIANTS.map((v) => {
+  const cells = listVariants().map((v) => {
     const canvases = picks.map(() => h('canvas', { class: 'gallery-canvas', 'aria-hidden': 'true' }));
     const btn = h('button', { type: 'button', class: `gallery-cell${v.id === s.variant.id ? ' current' : ''}`, 'aria-label': `Use ${v.name}` },
       h('div', { class: 'gallery-pair' }, ...canvases), h('span', { class: 'gallery-name' }, v.name, h('small', {}, v.id)));
@@ -34,7 +34,7 @@ export async function openGallery(c: Controller): Promise<void> {
   });
 
   try {
-    await loadAllFonts(VARIANTS);
+    await loadAllFonts(listVariants());
   } catch (err) {
     toast(err instanceof Error ? err.message : String(err), 'error');
     return;

@@ -5,7 +5,7 @@ import { loadFonts } from '../fonts/loadFonts';
 import { SAMPLE_DUSK, generateSampleDusk } from '../render/samplePhoto';
 import { type AppSettings, DeckStore, type PostState, newDeckId } from '../store/deckStore';
 import { PHOTO, PhotoStore } from '../store/photoStore';
-import { getVariant } from '../templates/registry';
+import { getVariant, templateFamily } from '../templates/registry';
 import type { AppState } from './appState';
 import { debounce } from './dom';
 import { RenderEngine } from './renderEngine';
@@ -91,6 +91,7 @@ export class Controller {
       defaultTemplate: this.settings.lastTemplate ?? DEFAULT_TEMPLATE,
       defaultHandle: this.settings.handle,
       photoIds: this.photos.ids(),
+      templateFamily,
     });
     for (const s of r.deck.slides) {
       const p = s.photoId ? this.photos.get(s.photoId) : null;

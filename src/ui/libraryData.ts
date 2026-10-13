@@ -1,8 +1,7 @@
 import { parse } from '../core/parser';
-import { isBuiltinTemplateId } from '../core/types';
 import type { Sample, SampleCategory } from '../samples';
 import type { DeckIndexEntry, PostMark, PostMarks } from '../store/deckStore';
-import { getVariant } from '../templates/registry';
+import { getVariant, hasVariant } from '../templates/registry';
 
 // Library helpers without DOM: sample metadata, sample ↔ deck matching, filtering.
 
@@ -28,7 +27,7 @@ export function familyOf(template: string): Family {
 }
 
 export function variantName(template: string): string {
-  return isBuiltinTemplateId(template) ? getVariant(template).name : template;
+  return hasVariant(template) ? getVariant(template).name : template;
 }
 
 /** "5 pertanyaan kecil (editorial, id)" → "5 pertanyaan kecil". */
