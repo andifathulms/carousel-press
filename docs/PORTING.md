@@ -352,3 +352,4 @@ For the image check, `REVIEW_HASH=<file> npm run review` renders every sample ×
 Beyond the per-step hashes:
 - **Package vs app:** `npm run core:smoke` (`browser.js`, fonts served as static files under a sub-path) renders `dev-git-id` × `dev/github-dark` byte-identical to the baseline review render. It also checks a 3-slide host-variant deck, the ZIP (`{slug}_NN.png`, 1080×1920), and the contrast and missing-font errors.
 - **App export:** the built app, served from `/carousel-press/`, downloads a ZIP of three 1080×1920 PNGs through the same `renderDeck`/`exportZip`.
+- **Install:** `npm i "github:andifathulms/carousel-press#core-v1.0.0"` works in an empty project (`carousel-core/parse` runs in Node). A Next.js 16 app with `basePath: '/nusastats'` and `output: 'export'`, set up exactly as in §4.3, builds with the package's types. Served from `/nusastats/`, it loads the fonts from `/nusastats/carousel-core/fonts/` and downloads a ZIP of three 1080×1920 PNGs.
