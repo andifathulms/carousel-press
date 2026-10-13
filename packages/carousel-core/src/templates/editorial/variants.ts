@@ -96,7 +96,8 @@ export const stone: Variant = {
     ...roseCode, panel: '#2B2A27', border: '#2B2A27', text: '#EDEAE4', prompt: '#E39A7A',
     subcommand: '#D9C7B0', flag: '#F0B597', string: '#C9D3B0', comment: '#A19D94', dots: null,
   },
-  deco: { blobs: true, dotGrid: false, scanlines: false, glow: false, bigGlyph: null },
+  // No blobs since the Oct 2026 review: generic decoration; the type carries the look.
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null },
   swatches: ['#EDEAE4', '#9A4B2F', '#2B2A27', '#E39A7A'],
 };
 

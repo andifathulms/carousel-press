@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- `editorial/stone`: blobs off (Filsafat Harian review). Visual change only; tokens unchanged.
+
 ## 1.0.0 (2026-10-13)
 
 First release, extracted from Carousel Press.
