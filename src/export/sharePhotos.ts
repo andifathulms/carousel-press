@@ -1,4 +1,8 @@
-import type { SlideFile } from './exportZip';
+/** A named PNG for the share sheet. */
+export interface SlideFile {
+  name: string;
+  blob: Blob;
+}
 
 /** The slice of `navigator` the share sheet needs; injectable for tests. */
 export interface ShareNavigator {

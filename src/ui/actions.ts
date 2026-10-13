@@ -1,14 +1,12 @@
 import { setHeaderKey } from '../core/headerEdit';
 import { slideFileName } from '../core/slug';
 import { type Warning, isBlocking } from '../core/types';
+import { layoutWarnings, renderDeck } from '../api/deck';
+import { exportZip, slideFileNames } from '../api/zip';
 import { exportSlidePng, exportTestImage, downloadBlob } from '../export/exportPng';
-import { exportAll, renderAllPngs } from '../export/exportZip';
 import { sharePngs, toPngFiles } from '../export/sharePhotos';
 import { loadFonts } from '../fonts/loadFonts';
-import { createCanvasMeasurer } from '../layout/measure';
-import { makeCanvas } from '../render/ctx';
-import { faceAvailable } from '../render/fontCheck';
-import { deckIcons, layoutSlide } from '../render/renderSlide';
+import { deckIcons } from '../render/renderSlide';
 import { SAMPLES } from '../samples';
 import { samplePhotosIn } from '../samples/photos';
 import {
@@ -24,15 +22,9 @@ import { h } from './dom';
 async function blockingWarnings(c: Controller): Promise<Warning[]> {
   const s = c.store.get();
   await loadFonts(s.variant);
-  const { ctx } = makeCanvas(8, 8);
-  const m = createCanvasMeasurer(ctx, faceAvailable);
-  const icons = deckIcons(s.parsed.deck, s.variant);
-  return [
-    ...s.parsed.warnings,
-    ...s.parsed.deck.slides.flatMap((slide, i) =>
-      layoutSlide(slide, s.parsed.deck, s.variant, m, icons[i] ?? null, !!(slide.photoId && c.photos.get(slide.photoId))).warnings,
-    ),
-  ].filter(isBlocking);
+  const { slides } = s.parsed.deck;
+  const hasPhoto = (i: number): boolean => !!(slides[i]?.photoId && c.photos.get(slides[i]!.photoId!));
+  return [...s.parsed.warnings, ...layoutWarnings(s.parsed.deck, s.variant, hasPhoto)].filter(isBlocking);
 }
 
 async function passGate(c: Controller, onlySlide?: number): Promise<boolean> {
@@ -73,16 +65,22 @@ export async function downloadCurrentSlide(c: Controller): Promise<void> {
   });
 }
 
+/** Every slide as PNG through the package's renderDeck (the user already passed the export gate). */
+function renderAllSlides(c: Controller): Promise<Blob[]> {
+  const s = c.store.get();
+  return renderDeck(s.parsed.deck, {
+    template: s.variant.id, darkness: s.darkness, photos: (id) => c.photos.photoInput(id), onBlocking: 'render',
+    onProgress: (done, total) => c.store.set({ busy: `Rendering ${done}/${total}…` }),
+  });
+}
+
 export async function downloadAll(c: Controller): Promise<void> {
   const s = c.store.get();
   if (!s.parsed.deck.slides.length || !s.fontsReady) return;
   if (!(await passGate(c))) return;
   await busy(c, 'Building ZIP…', async () => {
-    const { blob } = await exportAll({
-      deck: s.parsed.deck, variant: s.variant, icons: deckIcons(s.parsed.deck, s.variant), darkness: s.darkness,
-      getPhoto: (id) => c.photos.photoInput(id),
-    }, (done, total) => c.store.set({ busy: `Rendering ${done}/${total}…` }));
-    downloadBlob(blob, `${s.parsed.deck.slug}.zip`);
+    const blobs = await renderAllSlides(c);
+    downloadBlob(await exportZip(blobs, s.parsed.deck.slug), `${s.parsed.deck.slug}.zip`);
   });
 }
 
@@ -95,12 +93,10 @@ export async function saveToPhotos(c: Controller): Promise<void> {
   const s = c.store.get();
   if (!s.parsed.deck.slides.length || !s.fontsReady) return;
   if (!(await passGate(c))) return;
-  const rendered = await busy(c, 'Rendering…', () => renderAllPngs({
-    deck: s.parsed.deck, variant: s.variant, icons: deckIcons(s.parsed.deck, s.variant), darkness: s.darkness,
-    getPhoto: (id) => c.photos.photoInput(id),
-  }, (done, total) => c.store.set({ busy: `Rendering ${done}/${total}…` })));
-  if (!rendered) return;
-  const files = toPngFiles(rendered.files);
+  const blobs = await busy(c, 'Rendering…', () => renderAllSlides(c));
+  if (!blobs) return;
+  const names = slideFileNames(blobs.length, s.parsed.deck.slug);
+  const files = toPngFiles(blobs.map((blob, i) => ({ name: names[i]!, blob })));
   const m = openModal(`${files.length} images ready`);
   m.body.append(h('p', {}, 'Tap Save to Photos, then choose "Save Images" in the share sheet.'));
   const save = h('button', { type: 'button', class: 'btn primary', 'data-autofocus': true }, 'Save to Photos');
