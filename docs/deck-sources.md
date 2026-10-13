@@ -35,6 +35,8 @@ Photo licences are in [photo-credits.md](photo-credits.md).
 - Atlas of Mutual Heritage (Nationaal Archief/RCE): Fort Ujung Pandang built 1630s, renamed Fort Rotterdam
 - Treaty terms (monopoly, other Europeans out, forts razed except Somba Opu): Bassett 1958 and Ormrod & Rommelse 2020, cited via Wikipedia (medium confidence)
 - Disputed: "Ayam Jantan dari Timur" as a Dutch title, no contemporary source; the number of articles in the treaty (24, 29 or ~30) is left out.
+- Added Oct 2026 at the owner's request, from Wikipedia "Hasanuddin of Gowa" (en, read 13 Oct 2026; it cites Andaya 1981, Stapel, Van Dam van Isselt 1906): conflict from 1616 (VOC hostage-taking, 15 Dutch sailors killed); 27 Apr 1659 demand that the VOC stop attacking Gowa's vassals and admit its spice monopoly broke God's laws; a coastal brick wall of nearly 11 km; the VOC exhausted its ammunition without breaching Somba Opu; a siege of about two and a half years, with disease leaving at one point only 250 European soldiers fit; Hasanuddin abrogated the treaty within months. Medium confidence (Wikipedia, owner-chosen); the brief normally treats Wikipedia as a lead only.
+- Date conflict: Somba Opu's fall is 24 Jun 1669 in Sagimun but 12 Jun 1669 in Wikipedia's text, so the slide says "Juni 1669". Wikipedia's ~10,000 Bugis troops vs the deck's ~8,000 (Andaya): the deck keeps 8,000.
 
 ## Whistle Notes
 

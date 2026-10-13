@@ -4,6 +4,20 @@ What the owner has shared about real posts, and what we concluded. Read this wit
 
 Numbers are views (likes) unless noted. Small samples: treat conclusions as hypotheses to keep testing.
 
+## Sejarah Nusantara (`editorial/*` with photo cards, @sejarah.nusantara.id)
+
+| Cover as posted | Views |
+|---|---|
+| Kesultanan ini pernah dihapus negara | 29.1K |
+| Dipenjara, diceraikan, gelarnya dicabut (Opu Daeng Risaju) | 7,265 |
+| Bukti tertulis tertua di Nusantara (Yupa) | 5,390 |
+| Malamnya bertamu, subuhnya mengepung (Bultiken, re-upload) | 150 |
+
+- 137 followers, 2,462 likes (Oct 2026). One of the owner's best accounts.
+- What travels: history people weren't taught (an abolished sultanate, a jailed heroine, the oldest inscription), told plainly with sources. Owner: keep the photo cards, tell it as it happened.
+- The 150-view post is likely a re-upload penalty and/or limited reach for military-violence content, not audience rejection.
+- Changes made: deck-specific one-tap end asks, handle in every deck, Bongaya expanded with the Makassarese resistance.
+
 ## Fathul Learn Coding (`dev/*`)
 
 | Cover as posted | Look | Views |

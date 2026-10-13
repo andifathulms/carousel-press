@@ -6,7 +6,7 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 
 - relationships, friendship, family, feelings, self-reflection → **Ruang Rasa**
 - code, AI for developers, dev tools → **Fathul Learn Coding**
-- Indonesian history, kingdoms, local events, place-name origins → **Catatan Kaki Sejarah**
+- Indonesian history, kingdoms, local events, place-name origins → **Sejarah Nusantara**
 - sports rules, how a sport works, rule incidents → **Whistle Notes**
 - regional statistics, rankings, "kabupaten mana yang paling…" → **Peta Angka**
 - English vocabulary, grammar, pronunciation for Indonesians → **Kosakata Inggris**
@@ -20,7 +20,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 |---|---|---|---|---|
 | 🌿 Ruang Rasa | `id` | Lines to send, conversation starters | `editorial/ruang-*` | one per pillar (see §1) |
 | 💻 Fathul Learn Coding | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
-| 📜 Catatan Kaki Sejarah | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
+| 📜 Sejarah Nusantara (@sejarah.nusantara.id) | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
 | 🏟️ Whistle Notes | `id` | Sports rules as verdict quizzes | `sport/*` | `sport/papan` (football), `sport/lapangan` (indoor) |
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
 | ✏️ Kosakata Inggris (@kosakata_inggris) | `id` (teaches English) | Daily words, common mistakes, A/B quizzes | `lexicon/*` | `lexicon/notebook` |
@@ -176,9 +176,13 @@ Voice is "I found this useful, here's how it works", not "I'm the expert, listen
 
 ---
 
-## 3. 📜 Catatan Kaki Sejarah
+## 3. 📜 Sejarah Nusantara
 
+**Account:** Sejarah Nusantara, `@sejarah.nusantara.id` (put `handle: @sejarah.nusantara.id` in every deck header). Earlier docs called it "Catatan Kaki Sejarah".
 **Tagline:** *Yang nggak sempat masuk buku pelajaran.*
+
+**What works (owner data, Oct 2026).** One of the best-performing accounts: "Kesultanan ini pernah dihapus negara" **29.1K** views · "Dipenjara, diceraikan, gelarnya dicabut" (Opu Daeng Risaju) 7.3K · "Bukti tertulis tertua di Nusantara" (Yupa) 5.4K · "Malamnya bertamu, subuhnya mengepung" (Bultiken, a re-upload) 150. People share history they weren't taught. Keep the photo cards. Tell it as it happened, uncomfortable parts included, with sources and without adjectives: the facts carry the weight. The 150-view post was most likely held back as a re-upload or as sensitive military content, not rejected by viewers; for those topics use the sources' own words on the cover, no images of victims, sources in a pinned comment, and rewrite fully when re-uploading.
+- **End slides:** a one-tap ask specific to the deck, never the generic "Di daerahmu ada cerita kayak gini?": "Pernah diajarkan di sekolahmu?", "Pernah dengar namanya?", or a real debate ("Arung Palakka: pahlawan atau pengkhianat?").
 A faceless Indonesian account telling lesser-known stories from Indonesian history, one place or event at a time: kingdoms, local events, place-name origins, objects and people the textbook skipped.
 It should feel like "wait, this happened here?", never like a lecture or a political opinion.
 
@@ -927,7 +931,7 @@ Satu kata aja di komen.
 
 ### Standards from the Oct 2026 account reviews (every account, every new deck)
 
-Seven accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil, Kosakata Inggris, Fathul Learn Coding, Filsafat Harian). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
+Eight accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil, Kosakata Inggris, Fathul Learn Coding, Filsafat Harian, Sejarah Nusantara). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
 
 1. **The cover is the hook, and the subtitle says what the viewer gets.** A specific, true scene, fact or question, not a topic label. Never "N pertanyaan buat…"-style homework, never a finger-pointing "Kamu masih…".
 2. **Never repeat the cover line as a card.** Card 1 is the strongest payoff.
@@ -952,7 +956,7 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - When asked for many posts at once, vary pillar, template and opening hook across them.
 - **Hooks (owner, Oct 2026):** the cover is the hook. Make it concrete and specific (a number, a name, a surprising true fact, a situation the viewer recognises), not a topic label. The caption's first line adds to the hook instead of summarising the deck. The hook must still be true and backed by the deck: no clickbait, and keep each account's tone (Ayat Harian stays calm; Ruang Rasa stays gentle).
 - **Re-uploading a deleted post:** rewrite the cover, caption, title and the wording of every slide, and change the order where it still reads well, so it isn't flagged as the same content. Keep the facts, sources and photos (photo choice and order may change).
-- **Fact accounts** (Catatan Kaki Sejarah, Whistle Notes, Peta Angka, Kosakata Inggris, Kamus Kecil, Ayat Harian, Filsafat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
+- **Fact accounts** (Sejarah Nusantara, Whistle Notes, Peta Angka, Kosakata Inggris, Kamus Kecil, Ayat Harian, Filsafat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
   - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
   - No source manifest or source list in the reply is needed for images. Just pick a fitting free image.
@@ -975,5 +979,5 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - **Ruang Rasa templates: shipped (Oct 2026).** Ruang Rasa moved off `rose-dusk`/`sage`/`midnight` to `editorial/ruang-*` (Fraunces + Instrument Sans). Still proposed, needs a PRD change: `kicker` on cards, a chat-bubble line, an options list with letter discs, a "kirim ke" tag.
 - **BPS Papua fix.** No BPS-based Peta Angka decks until the NusaStats ingest fix is merged (26 new-Papua kabupaten were missing from rankings). Dukcapil and DJPK packs are fine now.
 - **`chart` slide.** Add `[chart data=<pack-id> kind=bar top=N]` to Carousel Press: paste a `carousel-data/1` pack into a Data tab, rendered as a bar chart in template colours. Until then, rankings are one card per region.
-- **`figure` slide + `credit=`.** A slide that shows an image uncropped in a frame (maps, charts) without the dark photo overlay, plus a `credit="…"` line on photo slides. Needed by Catatan Kaki Sejarah and Peta Angka. Courts and pitches are covered by `[diagram]` (shipped Oct 2026).
-- **`editorial/archive` variant.** Sepia paper, dark brown ink, serif, a small year/place label, so Catatan Kaki Sejarah stops borrowing `sage`.
+- **`figure` slide + `credit=`.** A slide that shows an image uncropped in a frame (maps, charts) without the dark photo overlay, plus a `credit="…"` line on photo slides. Needed by Sejarah Nusantara and Peta Angka. Courts and pitches are covered by `[diagram]` (shipped Oct 2026).
+- **`editorial/archive` variant.** Sepia paper, dark brown ink, serif, a small year/place label, so Sejarah Nusantara stops borrowing `sage`.
