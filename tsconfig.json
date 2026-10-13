@@ -36,6 +36,7 @@
     "scripts",
     "packages/carousel-core/src",
     "packages/carousel-core/scripts",
-    "vite.config.ts"
+    "vite.config.ts",
+    "packages/carousel-core/*.ts"
   ]
 }

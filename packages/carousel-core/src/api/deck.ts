@@ -1,5 +1,6 @@
 // Public deck API: parse with the registry, check, and render a whole deck to PNGs.
-import { type ParseOptions, parse } from '../core/parser';
+import type { ParseOptions } from '../core/parser';
+import { parseDeck } from './parse';
 import { type Deck, type ParseResult, type Warning, isBlocking } from '../core/types';
 import { exportSlidePng } from '../export/exportPng';
 import { loadFonts as loadVariantFonts } from '../fonts/loadFonts';
@@ -8,13 +9,10 @@ import { faceAvailable } from '../render/fontCheck';
 import type { PhotoInput } from '../render/photo';
 import { deckIcons, layoutSlide } from '../render/renderSlide';
 import { createCanvasMeasurer } from '../layout/measure';
-import { getVariant, templateFamily } from '../templates/registry';
+import { getVariant } from '../templates/registry';
 import type { Variant } from '../templates/types';
 
-/** Parse deck text. Templates registered with registerVariant() are accepted. Never throws. */
-export function parseDeck(text: string, opts: Omit<ParseOptions, 'templateFamily'> = {}): ParseResult {
-  return parse(text, { ...opts, templateFamily });
-}
+export { parseDeck } from './parse';
 
 /** Wait for every face a variant (by id, or the variant itself) draws with. Rejects after 8 s. */
 export function loadFonts(variant: string | Variant): Promise<void> {

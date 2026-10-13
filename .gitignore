@@ -6,3 +6,5 @@ node_modules/
 *.log
 .vite/
 coverage/
+/packages/carousel-core/dist/
+/packages/carousel-core/dist-smoke-*.png
