@@ -1,3 +1,4 @@
+import { slugify } from '../core/slug';
 import type { Deck, Rich, Slide, Warning } from '../core/types';
 import type { PoolIcon } from '../core/iconNames';
 import { splitArrow, t } from '../core/strings';
@@ -55,6 +56,7 @@ export const CHROME = {
   handleMax: 480,
   pathSize: 26,
   pathMax: 300,
+  pathTopicMax: 16,
   rule: { x1: 832, x2: 912, y: 226, h: 2 },
   footerSize: 30,
   counterSize: 28,
@@ -91,6 +93,16 @@ export function truncate(text: string, maxWidth: number, font: FontSpec, m: Text
   return chars.join('') + '…';
 }
 
+/**
+ * Dev header path: the topic from the cover kicker ("GIT • UNDO" → "git"), so it reads like a real
+ * folder and is never cut off. Falls back to the deck slug (Oct 2026 review).
+ */
+export function headerTopic(deck: Deck): string {
+  const kicker = deck.slides.find((s) => s.type === 'cover')?.attrs.kicker;
+  const topic = kicker ? slugify(kicker.split(/[•·|]/)[0] ?? '', CHROME.pathTopicMax) : '';
+  return topic || deck.slug;
+}
+
 export function layoutHeader(input: LayoutInput, sans: string, mono: string, boxes: Box[]): HeaderLayout {
   const m = input.measurer;
   const handleFont: FontSpec = { family: sans, weight: CHROME.handleWeight, size: CHROME.handleSize };
@@ -100,7 +112,7 @@ export function layoutHeader(input: LayoutInput, sans: string, mono: string, box
 
   if (input.variant.family === 'dev') {
     const font: FontSpec = { family: mono, weight: 500, size: CHROME.pathSize };
-    const text = truncate(`~/${input.deck.slug}`, CHROME.pathMax, font, m);
+    const text = truncate(`~/${headerTopic(input.deck)}`, CHROME.pathMax, font, m);
     const w = m.width(text, font);
     boxes.push({ x: SAFE.right - w, y: ROWS.headerBaseline - CHROME.pathSize, w, h: CHROME.pathSize * 1.25, kind: 'path' });
     return { handle, handleFont, right: { kind: 'path', text, font } };

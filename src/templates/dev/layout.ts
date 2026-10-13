@@ -40,7 +40,8 @@ export const FIXED = {
   kicker: { size: 26, weight: 600, tracking: 2, padY: 14, padX: 22, border: 2, radius: 12 },
   attribution: { size: 30, weight: 500, lh: 1.3 },
   icon: 112,
-  code: { max: 44, min: 28, step: 2, lh: 1.55, maxLines: 14, padX: 36, padY: 32, titleBar: 64, radius: 24 },
+  // Short blocks are the payoff: up to 56 px when the block has ≤ shortLines lines (Oct 2026 review).
+  code: { max: 44, maxShort: 56, shortLines: 4, min: 28, step: 2, lh: 1.55, maxLines: 14, padX: 36, padY: 32, titleBar: 64, radius: 24 },
   quoteMark: { size: 200, weight: 700, x: 90, top: 330 },
 };
 
@@ -136,11 +137,12 @@ export function layoutDev(input: LayoutInput): SlideLayout {
       if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.codeBodyGap, tone: 'muted' });
       if (slide.code) {
         const c = FIXED.code;
+        const lines = prepareCode(slide.code.text, slide.code.lang);
         const codeSpec: CodeSpec = {
-          family: mono, weight: 400, max: c.max, min: c.min, step: c.step, lh: c.lh, maxLines: c.maxLines,
+          family: mono, weight: 400, max: lines.length <= c.shortLines ? c.maxShort : c.max, min: c.min, step: c.step, lh: c.lh, maxLines: c.maxLines,
           padX: c.padX, padTop: c.padY, padBottom: c.padY, titleBar: v.code.dots ? c.titleBar : 0,
         };
-        push({ kind: 'code', lines: prepareCode(slide.code.text, slide.code.lang), lang: slide.code.lang, spec: codeSpec, gap: STACK.codeGap });
+        push({ kind: 'code', lines, lang: slide.code.lang, spec: codeSpec, gap: STACK.codeGap });
       }
       if (!isEmptyRich(slide.note)) push({ kind: 'text', role: 'note', rich: slide.note, spec: spec(TYPE.note), gap: STACK.noteGap, tone: 'muted' });
       pushCta(CHROME.cta.gapBefore);

@@ -359,7 +359,8 @@ deco: dotGrid ✔ (`#000000` at 6%), bigGlyph `"{ }"`.
 
 ### 6.2 Header and number (dev)
 - Handle: `sans` 500 30 px, `body` colour.
-- Right: path tag `~/{slug}` in `mono` 500 26 px, `muted`, right-aligned at 912. Truncate the slug with "…" to a 300 px width.
+- Right: path tag `~/{topic}` in `mono` 500 26 px, `muted`, right-aligned at 912. The topic is the cover kicker's first segment, slugified, ≤ 16 characters (`GIT • UNDO` → `~/git`), so it reads like a real folder and isn't cut off; without a kicker it falls back to the slug, truncated with "…" to 300 px (Oct 2026 review).
+- Code blocks with ≤ 4 lines run up to 56 px (longer blocks keep the 44 px max): the code is the payoff.
 - Number: `"01"`, `"02"` (zero-padded) in `mono` 600 44 px, `accent`, followed by a 48×4 px accent bar 20 px to the right, vertically centred. This replaces the editorial circle badge.
 
 ### 6.3 Layouts (dev)
