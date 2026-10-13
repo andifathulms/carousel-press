@@ -1,7 +1,7 @@
 import type {
-  CodeBlock, Deck, DeckHeader, Lang, ParseResult, Rich, Slide, SlideAttrs, SlideType, TemplateId, VerdictTone, Warning,
+  CodeBlock, Deck, DeckHeader, FamilyId, Lang, ParseResult, Rich, Slide, SlideAttrs, SlideType, TemplateId, VerdictTone, Warning,
 } from './types';
-import { DEFAULT_TEMPLATE, LANGS, SLIDE_TYPES, familyOf, isArabicType, isLexType, isTemplateId } from './types';
+import { DEFAULT_TEMPLATE, LANGS, SLIDE_TYPES, builtinFamilyOf, isArabicType, isLexType } from './types';
 import { parseInline, parseRich, richToPlain } from './inline';
 import { canonicalIcon } from './iconNames';
 import { numberSlides } from './numbering';
@@ -17,6 +17,11 @@ export interface ParseOptions {
   defaultHandle?: string;
   /** Photo IDs in tray order. When given, `photo=` is resolved and checked (see resolvePhotos). */
   photoIds?: readonly string[];
+  /**
+   * Family of every template the host accepts, undefined for unknown ids.
+   * Default: the built-in templates only. The package's parseDeck passes the registry.
+   */
+  templateFamily?: (id: string) => FamilyId | undefined;
 }
 
 export const HEADER_KEYS = ['handle', 'template', 'lang', 'title', 'caption', 'counter'] as const;
@@ -209,9 +214,10 @@ function parseUnsafe(text: string, opts: ParseOptions): ParseResult {
     }
   }
 
+  const familyOf = opts.templateFamily ?? builtinFamilyOf;
   let template: TemplateId = opts.defaultTemplate ?? DEFAULT_TEMPLATE;
   if (header.template !== undefined) {
-    if (isTemplateId(header.template)) template = header.template;
+    if (familyOf(header.template)) template = header.template;
     else {
       const line = lines.findIndex((l, i) => i < headerEnd && /^\s*template\s*:/.test(l));
       warnings.push({

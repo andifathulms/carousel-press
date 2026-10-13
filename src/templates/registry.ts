@@ -1,5 +1,5 @@
 import type { FamilyId, TemplateId } from '../core/types';
-import { TEMPLATE_IDS } from '../core/types';
+import { BUILTIN_TEMPLATE_IDS } from '../core/types';
 import type { Ctx } from '../render/ctx';
 import type { LayoutInput, SlideLayout } from './common';
 import type { Variant } from './types';
@@ -47,5 +47,5 @@ export function getFamily(family: FamilyId): FamilyLayout {
 }
 
 export function allTemplateIds(): readonly TemplateId[] {
-  return TEMPLATE_IDS;
+  return BUILTIN_TEMPLATE_IDS;
 }

@@ -1,5 +1,5 @@
 import { parse } from '../core/parser';
-import { isTemplateId } from '../core/types';
+import { isBuiltinTemplateId } from '../core/types';
 import type { Sample, SampleCategory } from '../samples';
 import type { DeckIndexEntry, PostMark, PostMarks } from '../store/deckStore';
 import { getVariant } from '../templates/registry';
@@ -28,7 +28,7 @@ export function familyOf(template: string): Family {
 }
 
 export function variantName(template: string): string {
-  return isTemplateId(template) ? getVariant(template).name : template;
+  return isBuiltinTemplateId(template) ? getVariant(template).name : template;
 }
 
 /** "5 pertanyaan kecil (editorial, id)" → "5 pertanyaan kecil". */

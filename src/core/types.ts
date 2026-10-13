@@ -26,7 +26,8 @@ export function isDevLike(f: FamilyId): boolean {
   return f === 'dev' || f === 'sport';
 }
 
-export const TEMPLATE_IDS = [
+/** Templates shipped with the package. Hosts add more with registerVariant(). */
+export const BUILTIN_TEMPLATE_IDS = [
   'editorial/rose-dusk',
   'editorial/sage',
   'editorial/midnight',
@@ -46,14 +47,18 @@ export const TEMPLATE_IDS = [
   'serene/fajr',
   'serene/isya',
 ] as const;
-export type TemplateId = (typeof TEMPLATE_IDS)[number];
-export const DEFAULT_TEMPLATE: TemplateId = 'editorial/rose-dusk';
+export type BuiltinTemplateId = (typeof BUILTIN_TEMPLATE_IDS)[number];
+/** `family/name`: a built-in id or one a host registered. */
+export type TemplateId = string;
+export const DEFAULT_TEMPLATE: BuiltinTemplateId = 'editorial/rose-dusk';
 
-export function isTemplateId(v: string): v is TemplateId {
-  return (TEMPLATE_IDS as readonly string[]).includes(v);
+export function isBuiltinTemplateId(v: string): v is BuiltinTemplateId {
+  return (BUILTIN_TEMPLATE_IDS as readonly string[]).includes(v);
 }
 
-export function familyOf(id: TemplateId): FamilyId {
+/** Family of a built-in template id, or undefined for any other id. */
+export function builtinFamilyOf(id: string): FamilyId | undefined {
+  if (!isBuiltinTemplateId(id)) return undefined;
   if (id.startsWith('dev/')) return 'dev';
   if (id.startsWith('sport/')) return 'sport';
   if (id.startsWith('serene/')) return 'serene';

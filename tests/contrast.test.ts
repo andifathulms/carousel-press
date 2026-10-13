@@ -1,13 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import { contrast } from '../src/core/color';
 import { VARIANTS } from '../src/templates/registry';
-import { TEMPLATE_IDS } from '../src/core/types';
+import { BUILTIN_TEMPLATE_IDS } from '../src/core/types';
 
 const CODE_TOKENS = ['text', 'prompt', 'command', 'subcommand', 'flag', 'string', 'number', 'keyword', 'fn', 'punct'] as const;
 
 describe('registry', () => {
   it('has a variant for every template id', () => {
-    expect(VARIANTS.map((v) => v.id).sort()).toEqual([...TEMPLATE_IDS].sort());
+    expect(VARIANTS.map((v) => v.id).sort()).toEqual([...BUILTIN_TEMPLATE_IDS].sort());
   });
   it('every variant has a deep surface and valid rotation', () => {
     for (const v of VARIANTS) {
