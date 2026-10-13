@@ -1,5 +1,5 @@
-import { uniqueId } from '../core/slug';
-import { parse, splitLines, tokenizeTag } from '../core/parser';
+import { uniqueId } from 'carousel-core/src/core/slug';
+import { parse, splitLines, tokenizeTag } from 'carousel-core/src/core/parser';
 import type { DeckSettings } from './deckStore';
 import { DEFAULT_DECK_SETTINGS } from './deckStore';
 

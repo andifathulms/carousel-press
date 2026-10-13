@@ -1,5 +1,5 @@
-import { between, mulberry32 } from '../core/hash';
-import { makeCanvas } from './ctx';
+import { between, mulberry32 } from 'carousel-core/src/core/hash';
+import { makeCanvas } from 'carousel-core/src/render/ctx';
 
 /** DESIGN §5.7: generated sample photo, no third-party assets. */
 export const SAMPLE_DUSK = {

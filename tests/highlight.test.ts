@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { tokenizeBash } from '../src/render/highlight/bash';
-import { tokenizeJs } from '../src/render/highlight/js';
-import { tokenizePy } from '../src/render/highlight/py';
-import { tokenizeSql } from '../src/render/highlight/sql';
-import { highlightLine } from '../src/render/highlight';
-import { prepareCode } from '../src/layout/codeFit';
+import { tokenizeBash } from 'carousel-core/src/render/highlight/bash';
+import { tokenizeJs } from 'carousel-core/src/render/highlight/js';
+import { tokenizePy } from 'carousel-core/src/render/highlight/py';
+import { tokenizeSql } from 'carousel-core/src/render/highlight/sql';
+import { highlightLine } from 'carousel-core/src/render/highlight';
+import { prepareCode } from 'carousel-core/src/layout/codeFit';
 
 const kinds = (ts: { text: string; kind: string }[]) => ts.filter((t) => t.text.trim()).map((t) => `${t.kind}:${t.text.trim()}`);
 

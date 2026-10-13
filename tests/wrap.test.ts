@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { fakeMeasurer as m } from '../src/layout/measure';
-import { baselines, textHeight, wrapRich } from '../src/layout/wrap';
-import { parseInline, parseRich } from '../src/core/inline';
+import { fakeMeasurer as m } from 'carousel-core/src/layout/measure';
+import { baselines, textHeight, wrapRich } from 'carousel-core/src/layout/wrap';
+import { parseInline, parseRich } from 'carousel-core/src/core/inline';
 
 const style = (size = 10) => ({
   font: { family: 'Poppins', weight: 400, size },

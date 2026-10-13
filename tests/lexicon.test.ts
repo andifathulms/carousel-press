@@ -1,14 +1,14 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync, readdirSync } from 'node:fs';
-import { parse } from '../src/core/parser';
-import { IPA_RANGES, splitRow, uncoveredIpa } from '../src/core/lexicon';
-import { contrast } from '../src/core/color';
-import { fakeMeasurer } from '../src/layout/measure';
-import { layoutSlide } from '../src/render/renderSlide';
-import { ROWS } from '../src/render/safezone';
-import { getVariant, VARIANTS } from '../src/templates/registry';
-import { kamus, notebook } from '../src/templates/lexicon/variants';
-import { lexTokens } from '../src/templates/lexicon/tokens';
+import { parse } from 'carousel-core/src/core/parser';
+import { IPA_RANGES, splitRow, uncoveredIpa } from 'carousel-core/src/core/lexicon';
+import { contrast } from 'carousel-core/src/core/color';
+import { fakeMeasurer } from 'carousel-core/src/layout/measure';
+import { layoutSlide } from 'carousel-core/src/render/renderSlide';
+import { ROWS } from 'carousel-core/src/render/safezone';
+import { getVariant, VARIANTS } from 'carousel-core/src/templates/registry';
+import { kamus, notebook } from 'carousel-core/src/templates/lexicon/variants';
+import { lexTokens } from 'carousel-core/src/templates/lexicon/tokens';
 
 const deck = (body: string, template = 'lexicon/notebook') => parse(`template: ${template}\nlang: id\n---\n[cover]\nCover\n---\n${body}`);
 const slide = (body: string) => {

@@ -1,7 +1,7 @@
 // Host templates: ids outside the built-in list (PORTING §2.3).
 import { describe, expect, it } from 'vitest';
-import { parse } from '../src/core/parser';
-import type { FamilyId } from '../src/core/types';
+import { parse } from 'carousel-core/src/core/parser';
+import type { FamilyId } from 'carousel-core/src/core/types';
 
 const hostFamily = (id: string): FamilyId | undefined =>
   ({ 'nusastats/pitch': 'dev', 'nusastats/doa': 'serene' } as Record<string, FamilyId>)[id];
@@ -20,9 +20,9 @@ describe('parser: template ids', () => {
   });
 });
 
-import { BUILTIN_TEMPLATE_IDS } from '../src/core/types';
-import { VariantError, getVariant, hasVariant, listVariants, registerVariant, templateFamily } from '../src/templates/registry';
-import type { Variant } from '../src/templates/types';
+import { BUILTIN_TEMPLATE_IDS } from 'carousel-core/src/core/types';
+import { VariantError, getVariant, hasVariant, listVariants, registerVariant, templateFamily } from 'carousel-core/src/templates/registry';
+import type { Variant } from 'carousel-core/src/templates/types';
 
 const host = (id: string, from: string, patch: Partial<Variant> = {}): Variant => ({ ...getVariant(from), id, name: id, ...patch });
 

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { parseInline, parseRich, richToPlain } from '../src/core/inline';
+import { parseInline, parseRich, richToPlain } from 'carousel-core/src/core/inline';
 
 describe('parseInline', () => {
   it('splits on pipes and trims around them', () => {

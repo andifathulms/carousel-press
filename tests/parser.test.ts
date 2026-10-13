@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync, readdirSync } from 'node:fs';
-import { parse, tokenizeTag } from '../src/core/parser';
+import { parse, tokenizeTag } from 'carousel-core/src/core/parser';
 import { SAMPLE_PHOTO_IDS } from '../src/samples/photos';
-import { mulberry32 } from '../src/core/hash';
-import type { WarningCode } from '../src/core/types';
+import { mulberry32 } from 'carousel-core/src/core/hash';
+import type { WarningCode } from 'carousel-core/src/core/types';
 
 const sample = (name: string) => readFileSync(new URL(`../src/samples/${name}.txt`, import.meta.url), 'utf8');
 const codes = (text: string, opts = {}) => parse(text, opts).warnings.map((w) => w.code);

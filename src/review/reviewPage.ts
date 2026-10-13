@@ -1,14 +1,14 @@
 // Dev-only page used by `npm run review`. Not linked from the app UI.
 import '../slideFonts';
-import { parse } from '../core/parser';
-import type { TemplateId, Warning } from '../core/types';
-import { loadAllFonts } from '../fonts/loadFonts';
-import { makeCanvas } from '../render/ctx';
-import type { PhotoInput } from '../render/photo';
-import { deckIcons, renderSlide } from '../render/renderSlide';
-import { CANVAS } from '../render/safezone';
-import { SAMPLE_DUSK, generateSampleDusk } from '../render/samplePhoto';
-import { VARIANTS } from '../templates/registry';
+import { parse } from 'carousel-core/src/core/parser';
+import type { TemplateId, Warning } from 'carousel-core/src/core/types';
+import { loadAllFonts } from 'carousel-core/src/fonts/loadFonts';
+import { makeCanvas } from 'carousel-core/src/render/ctx';
+import type { PhotoInput } from 'carousel-core/src/render/photo';
+import { deckIcons, renderSlide } from 'carousel-core/src/render/renderSlide';
+import { CANVAS } from 'carousel-core/src/render/safezone';
+import { SAMPLE_DUSK, generateSampleDusk } from '../samples/samplePhoto';
+import { VARIANTS } from 'carousel-core/src/templates/registry';
 import { SAMPLES } from '../samples';
 import { SAMPLE_PHOTOS } from '../samples/photos';
 

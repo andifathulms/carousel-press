@@ -1,7 +1,7 @@
-import { parse } from '../core/parser';
+import { parse } from 'carousel-core/src/core/parser';
 import type { Sample, SampleCategory } from '../samples';
 import type { DeckIndexEntry, PostMark, PostMarks } from '../store/deckStore';
-import { getVariant, hasVariant } from '../templates/registry';
+import { getVariant, hasVariant } from 'carousel-core/src/templates/registry';
 
 // Library helpers without DOM: sample metadata, sample ↔ deck matching, filtering.
 

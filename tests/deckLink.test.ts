@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import {
   DECK_LINK_MAX_BYTES, base64urlDecode, base64urlEncode, decodeDeckLink, deckLinkParam, encodeDeckLink,
-} from '../src/core/deckLink';
-import { mulberry32 } from '../src/core/hash';
-import { parse } from '../src/core/parser';
+} from 'carousel-core/src/core/deckLink';
+import { mulberry32 } from 'carousel-core/src/core/hash';
+import { parse } from 'carousel-core/src/core/parser';
 import { deckLinkError } from '../src/ui/deckLinkImport';
 
 const BASE = 'https://andifathulms.github.io/carousel-press/';

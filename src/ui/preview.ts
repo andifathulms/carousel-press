@@ -1,8 +1,8 @@
-import { isBlocking } from '../core/types';
-import type { Ctx } from '../render/ctx';
-import { drawBaselineGrid, drawSafeOverlay } from '../render/overlay';
-import { OVERFLOW_OUTLINE } from '../render/renderSlide';
-import { CANVAS, CONTENT_W, ROWS, SAFE } from '../render/safezone';
+import { isBlocking } from 'carousel-core/src/core/types';
+import type { Ctx } from 'carousel-core/src/render/ctx';
+import { drawBaselineGrid, drawSafeOverlay } from 'carousel-core/src/render/overlay';
+import { OVERFLOW_OUTLINE } from 'carousel-core/src/render/renderSlide';
+import { CANVAS, CONTENT_W, ROWS, SAFE } from 'carousel-core/src/render/safezone';
 import { slideWarnings } from './appState';
 import type { Controller } from './controller';
 import { h, svg } from './dom';

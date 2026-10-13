@@ -1,15 +1,15 @@
 // Pre-extraction grammar contract: one regression test per row of the
 // "Grammar contract" table in docs/decisions.md (G1–G25).
 import { describe, expect, it } from 'vitest';
-import { parse, resolvePhotos, tokenizeTag } from '../src/core/parser';
-import { parseInline } from '../src/core/inline';
-import { resolveIcons } from '../src/core/iconNames';
-import { splitArrow } from '../src/core/strings';
-import { isBlocking, type Warning } from '../src/core/types';
-import { fakeMeasurer } from '../src/layout/measure';
-import { layoutSlide } from '../src/render/renderSlide';
-import { getVariant } from '../src/templates/registry';
-import { FAMILY_TRAITS } from '../src/templates/traits';
+import { parse, resolvePhotos, tokenizeTag } from 'carousel-core/src/core/parser';
+import { parseInline } from 'carousel-core/src/core/inline';
+import { resolveIcons } from 'carousel-core/src/core/iconNames';
+import { splitArrow } from 'carousel-core/src/core/strings';
+import { isBlocking, type Warning } from 'carousel-core/src/core/types';
+import { fakeMeasurer } from 'carousel-core/src/layout/measure';
+import { layoutSlide } from 'carousel-core/src/render/renderSlide';
+import { getVariant } from 'carousel-core/src/templates/registry';
+import { FAMILY_TRAITS } from 'carousel-core/src/templates/traits';
 
 const codes = (text: string, opts = {}) => parse(text, opts).warnings.map((w) => w.code);
 const types = (text: string) => parse(text).deck.slides.map((s) => s.type);

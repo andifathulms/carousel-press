@@ -1,10 +1,10 @@
-import { hash } from '../core/hash';
-import type { Deck, Warning } from '../core/types';
-import { makeCanvas } from '../render/ctx';
-import type { PhotoInput } from '../render/photo';
-import { deckIcons, renderSlide } from '../render/renderSlide';
-import { CANVAS } from '../render/safezone';
-import type { Variant } from '../templates/types';
+import { hash } from 'carousel-core/src/core/hash';
+import type { Deck, Warning } from 'carousel-core/src/core/types';
+import { makeCanvas } from 'carousel-core/src/render/ctx';
+import type { PhotoInput } from 'carousel-core/src/render/photo';
+import { deckIcons, renderSlide } from 'carousel-core/src/render/renderSlide';
+import { CANVAS } from 'carousel-core/src/render/safezone';
+import type { Variant } from 'carousel-core/src/templates/types';
 
 export interface CachedSlide {
   key: string;

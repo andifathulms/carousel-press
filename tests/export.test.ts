@@ -8,7 +8,7 @@ let releaseFonts: () => void = () => {};
 let charWidth = 10;
 const drawn: { photo: unknown; icon: unknown; darkness: number }[] = [];
 
-vi.mock('../src/fonts/loadFonts', () => ({
+vi.mock('carousel-core/src/fonts/loadFonts', () => ({
   loadFonts: vi.fn(() => {
     events.push('fonts:requested');
     return new Promise<void>((res) => {
@@ -19,17 +19,17 @@ vi.mock('../src/fonts/loadFonts', () => ({
     });
   }),
 }));
-vi.mock('../src/export/exportPng', () => ({
+vi.mock('carousel-core/src/export/exportPng', () => ({
   exportSlidePng: vi.fn(async (_s: unknown, _d: unknown, _v: unknown, a: { photo: unknown; icon: unknown; darkness: number }) => {
     events.push('draw');
     drawn.push(a);
     return { blob: new Blob(['png']), warnings: [] };
   }),
 }));
-vi.mock('../src/render/ctx', () => ({
+vi.mock('carousel-core/src/render/ctx', () => ({
   makeCanvas: () => ({ canvas: {}, ctx: { font: '', measureText: (t: string) => ({ width: Array.from(t).length * charWidth }) } }),
 }));
-vi.mock('../src/render/fontCheck', () => ({ faceAvailable: () => true }));
+vi.mock('carousel-core/src/render/fontCheck', () => ({ faceAvailable: () => true }));
 
 beforeEach(() => {
   events.length = 0;
@@ -41,7 +41,7 @@ const auto = () => setTimeout(() => releaseFonts(), 5);
 
 describe('renderDeck (PRD F7)', () => {
   it('resolves the font gate before drawing anything, then draws every slide in order', async () => {
-    const { renderDeck } = await import('../src/api/deck');
+    const { renderDeck } = await import('carousel-core/src/api/deck');
     const done = renderDeck('A\n---\nB\n---\n[end]\nC');
     await new Promise((r) => setTimeout(r, 20));
     expect(events).toEqual(['fonts:requested']);
@@ -53,14 +53,14 @@ describe('renderDeck (PRD F7)', () => {
   });
 
   it('chooses icons itself (editorial auto icons on cards, none on cover/end)', async () => {
-    const { renderDeck } = await import('../src/api/deck');
+    const { renderDeck } = await import('carousel-core/src/api/deck');
     auto();
     await renderDeck('C\n---\nA\n---\nB\n---\n[end]\nE');
     expect(drawn.map((d) => d.icon === null)).toEqual([true, false, false, true]);
   });
 
   it('throws BlockingWarningsError before drawing when text overflows; render anyway on request', async () => {
-    const { renderDeck, BlockingWarningsError } = await import('../src/api/deck');
+    const { renderDeck, BlockingWarningsError } = await import('carousel-core/src/api/deck');
     charWidth = 400;
     const long = `Judul\n---\n${'kata '.repeat(60)}\n${'panjang '.repeat(80)}`;
     auto();
@@ -73,7 +73,7 @@ describe('renderDeck (PRD F7)', () => {
   });
 
   it('uses a photo record as the tray for photo=N and passes darkness through', async () => {
-    const { renderDeck } = await import('../src/api/deck');
+    const { renderDeck } = await import('carousel-core/src/api/deck');
     const dusk = { image: {} as ImageBitmap, width: 10, height: 10, focalX: 0.5, focalY: 0.5 };
     auto();
     let seen: string[] = [];
@@ -87,8 +87,8 @@ describe('renderDeck (PRD F7)', () => {
   });
 
   it('renders registered host templates', async () => {
-    const { renderDeck } = await import('../src/api/deck');
-    const { registerVariant, getVariant } = await import('../src/templates/registry');
+    const { renderDeck } = await import('carousel-core/src/api/deck');
+    const { registerVariant, getVariant } = await import('carousel-core/src/templates/registry');
     registerVariant({ ...getVariant('sport/papan'), id: 'nusastats/papan', name: 'NusaStats Papan' });
     auto();
     let template = '';
@@ -99,7 +99,7 @@ describe('renderDeck (PRD F7)', () => {
 
 describe('exportZip', () => {
   it('names files {slug}_NN.png in order, STORE-compressed', async () => {
-    const { exportZip } = await import('../src/api/zip');
+    const { exportZip } = await import('carousel-core/src/api/zip');
     const zip = await JSZip.loadAsync(await exportZip([new Blob(['a']), new Blob(['b'])], 'Rata-rata Lama Sekolah'));
     expect(Object.keys(zip.files)).toEqual(['rata-rata-lama-sekolah_01.png', 'rata-rata-lama-sekolah_02.png']);
     expect(await zip.file('rata-rata-lama-sekolah_02.png')!.async('string')).toBe('b');

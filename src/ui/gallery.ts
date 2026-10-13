@@ -1,8 +1,8 @@
-import { loadAllFonts } from '../fonts/loadFonts';
-import { makeCanvas } from '../render/ctx';
-import { deckIcons, renderSlide } from '../render/renderSlide';
-import { CANVAS } from '../render/safezone';
-import { listVariants } from '../templates/registry';
+import { loadAllFonts } from 'carousel-core/src/fonts/loadFonts';
+import { makeCanvas } from 'carousel-core/src/render/ctx';
+import { deckIcons, renderSlide } from 'carousel-core/src/render/renderSlide';
+import { CANVAS } from 'carousel-core/src/render/safezone';
+import { listVariants } from 'carousel-core/src/templates/registry';
 import type { Controller } from './controller';
 import { openModal, toast } from './dialogs';
 import { h } from './dom';

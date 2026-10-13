@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { coverCrop, photoOverlay } from '../src/render/photo';
+import { coverCrop, photoOverlay } from 'carousel-core/src/render/photo';
 
 const W = 1080, H = 1920;
 const covers = (r: { dx: number; dy: number; dw: number; dh: number }) =>

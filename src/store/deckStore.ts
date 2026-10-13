@@ -1,4 +1,4 @@
-import type { TemplateId } from '../core/types';
+import type { TemplateId } from 'carousel-core/src/core/types';
 
 /** Settings that aren't part of the deck text. */
 export interface DeckSettings {

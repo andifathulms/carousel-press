@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { photoIdFromName, slideFileName, slugify, uniqueId } from '../src/core/slug';
+import { photoIdFromName, slideFileName, slugify, uniqueId } from 'carousel-core/src/core/slug';
 
 describe('slugify', () => {
   it('handles Indonesian titles', () => {

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { fakeMeasurer as m } from '../src/layout/measure';
-import { fitCodeWidth, lineText, prepareCode } from '../src/layout/codeFit';
+import { fakeMeasurer as m } from 'carousel-core/src/layout/measure';
+import { fitCodeWidth, lineText, prepareCode } from 'carousel-core/src/layout/codeFit';
 
 const sizes = { max: 44, min: 28, step: 2 };
 

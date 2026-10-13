@@ -1,4 +1,4 @@
-import { type Warning, isHard } from '../core/types';
+import { type Warning, isHard } from 'carousel-core/src/core/types';
 import { h, svg } from './dom';
 import { UI_ICONS } from './uiIcons';
 

@@ -1,12 +1,12 @@
-import { setHeaderKey } from '../core/headerEdit';
-import { slideFileName } from '../core/slug';
-import { type Warning, isBlocking } from '../core/types';
-import { layoutWarnings, renderDeck } from '../api/deck';
-import { exportZip, slideFileNames } from '../api/zip';
-import { exportSlidePng, exportTestImage, downloadBlob } from '../export/exportPng';
-import { sharePngs, toPngFiles } from '../export/sharePhotos';
-import { loadFonts } from '../fonts/loadFonts';
-import { deckIcons } from '../render/renderSlide';
+import { setHeaderKey } from 'carousel-core/src/core/headerEdit';
+import { slideFileName } from 'carousel-core/src/core/slug';
+import { type Warning, isBlocking } from 'carousel-core/src/core/types';
+import { layoutWarnings, renderDeck } from 'carousel-core/src/api/deck';
+import { exportZip, slideFileNames } from 'carousel-core/src/api/zip';
+import { exportSlidePng, exportTestImage, downloadBlob } from 'carousel-core/src/export/exportPng';
+import { sharePngs, toPngFiles } from './sharePhotos';
+import { loadFonts } from 'carousel-core/src/fonts/loadFonts';
+import { deckIcons } from 'carousel-core/src/render/renderSlide';
 import { SAMPLES } from '../samples';
 import { samplePhotosIn } from '../samples/photos';
 import {

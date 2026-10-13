@@ -1,13 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync, readdirSync } from 'node:fs';
-import { parse } from '../src/core/parser';
-import { ayahMark, pipeLines, toArabicDigits } from '../src/core/ayah';
-import { isBlocking, isHard } from '../src/core/types';
-import { type TextMeasurer, fakeMeasurer, fontString } from '../src/layout/measure';
-import { layoutSlide } from '../src/render/renderSlide';
-import { ROWS, SAFE } from '../src/render/safezone';
-import { getVariant, VARIANTS } from '../src/templates/registry';
-import { wrapArabic } from '../src/templates/serene/arabicLayout';
+import { parse } from 'carousel-core/src/core/parser';
+import { ayahMark, pipeLines, toArabicDigits } from 'carousel-core/src/core/ayah';
+import { isBlocking, isHard } from 'carousel-core/src/core/types';
+import { type TextMeasurer, fakeMeasurer, fontString } from 'carousel-core/src/layout/measure';
+import { layoutSlide } from 'carousel-core/src/render/renderSlide';
+import { ROWS, SAFE } from 'carousel-core/src/render/safezone';
+import { getVariant, VARIANTS } from 'carousel-core/src/templates/registry';
+import { wrapArabic } from 'carousel-core/src/templates/serene/arabicLayout';
 
 // Test strings are built from code points (never typed Arabic): letters, harakat, tatweel U+0640, end-of-ayah U+06DD.
 const cp = (...xs: number[]): string => String.fromCodePoint(...xs);

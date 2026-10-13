@@ -1,9 +1,9 @@
 // `kicker=` on cover, card and quote (PRD §4.3).
 import { describe, expect, it } from 'vitest';
-import { parse } from '../src/core/parser';
-import { fakeMeasurer } from '../src/layout/measure';
-import { deckIcons, layoutSlide } from '../src/render/renderSlide';
-import { VARIANTS } from '../src/templates/registry';
+import { parse } from 'carousel-core/src/core/parser';
+import { fakeMeasurer } from 'carousel-core/src/layout/measure';
+import { deckIcons, layoutSlide } from 'carousel-core/src/render/renderSlide';
+import { VARIANTS } from 'carousel-core/src/templates/registry';
 
 const text = '---\n[cover kicker="Ayat"]\nHook\n---\n[card kicker="Renungan"]\nA reflection.\n---\n[quote kicker="Tafsir" icon=none]\nA quote.\n— Tafsir Ringkas Kemenag RI\n---\n[end]\nBye';
 
@@ -32,7 +32,7 @@ describe('kicker', () => {
 
 describe('fillUnjoined', () => {
   it('draws code with joinable pairs one character at a time, plain text in one call', async () => {
-    const { fillUnjoined } = await import('../src/render/text');
+    const { fillUnjoined } = await import('carousel-core/src/render/text');
     const calls: string[] = [];
     const ctx = { fillText: (t: string) => { calls.push(t); }, measureText: () => ({ width: 10 }) as TextMetrics };
     fillUnjoined(ctx, 'a === b', 0, 0);

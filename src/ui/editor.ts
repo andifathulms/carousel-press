@@ -1,4 +1,4 @@
-import { isBlocking } from '../core/types';
+import { isBlocking } from 'carousel-core/src/core/types';
 import { allWarnings } from './appState';
 import type { Controller } from './controller';
 import { debounce, h, svg } from './dom';

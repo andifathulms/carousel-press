@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { parseDiagram } from '../src/core/diagram';
-import { parse } from '../src/core/parser';
-import { mulberry32 } from '../src/core/hash';
+import { parseDiagram } from 'carousel-core/src/core/diagram';
+import { parse } from 'carousel-core/src/core/parser';
+import { mulberry32 } from 'carousel-core/src/core/hash';
 
 describe('diagram notation', () => {
   it('parses every mark', () => {

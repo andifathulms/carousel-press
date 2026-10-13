@@ -1,11 +1,11 @@
-import { setHeaderKey } from '../core/headerEdit';
-import { parse } from '../core/parser';
-import { DEFAULT_TEMPLATE, type Lang, type ParseResult, type TemplateId } from '../core/types';
-import { loadFonts } from '../fonts/loadFonts';
-import { SAMPLE_DUSK, generateSampleDusk } from '../render/samplePhoto';
+import { setHeaderKey } from 'carousel-core/src/core/headerEdit';
+import { parse } from 'carousel-core/src/core/parser';
+import { DEFAULT_TEMPLATE, type Lang, type ParseResult, type TemplateId } from 'carousel-core/src/core/types';
+import { loadFonts } from 'carousel-core/src/fonts/loadFonts';
+import { SAMPLE_DUSK, generateSampleDusk } from '../samples/samplePhoto';
 import { type AppSettings, DeckStore, type PostState, newDeckId } from '../store/deckStore';
 import { PHOTO, PhotoStore } from '../store/photoStore';
-import { getVariant, templateFamily } from '../templates/registry';
+import { getVariant, templateFamily } from 'carousel-core/src/templates/registry';
 import type { AppState } from './appState';
 import { debounce } from './dom';
 import { RenderEngine } from './renderEngine';

@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { parse } from '../src/core/parser';
-import { fakeMeasurer } from '../src/layout/measure';
-import { layoutSlide } from '../src/render/renderSlide';
-import { ROWS } from '../src/render/safezone';
-import { getVariant } from '../src/templates/registry';
+import { parse } from 'carousel-core/src/core/parser';
+import { fakeMeasurer } from 'carousel-core/src/layout/measure';
+import { layoutSlide } from 'carousel-core/src/render/renderSlide';
+import { ROWS } from 'carousel-core/src/render/safezone';
+import { getVariant } from 'carousel-core/src/templates/registry';
 
 // Vertical placement (owner, Oct 2026): fitting stacks are centred in the content band; photo slides stay top-anchored.
 const deck = (template: string) => parse(`template: ${template}\nlang: id\n---\n[cover]\nJudul\n---\n[card]\nSatu hal kecil\nBadan teks pendek.\n---\n[quote]\nKutipan singkat.\n---\n[word]\nword: thought\nmeaning: berpikir\n---\n[end]\nSelesai`).deck;

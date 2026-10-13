@@ -1,5 +1,5 @@
-import type { Lang } from '../core/types';
-import { canSharePngs } from '../export/sharePhotos';
+import type { Lang } from 'carousel-core/src/core/types';
+import { canSharePngs } from './sharePhotos';
 import { downloadAll, downloadCurrentSlide, downloadTestImage, saveToPhotos } from './actions';
 import type { Controller } from './controller';
 import { copyText, debounce, flash, h, svg } from './dom';

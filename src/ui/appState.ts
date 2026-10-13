@@ -1,7 +1,7 @@
-import type { ParseResult, Warning } from '../core/types';
+import type { ParseResult, Warning } from 'carousel-core/src/core/types';
 import type { DeckIndexEntry, PostMarks } from '../store/deckStore';
 import type { PhotoMeta } from '../store/photoStore';
-import type { Variant } from '../templates/types';
+import type { Variant } from 'carousel-core/src/templates/types';
 
 export type MobileTab = 'write' | 'photos' | 'preview' | 'export';
 

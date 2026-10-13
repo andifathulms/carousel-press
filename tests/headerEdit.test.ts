@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { getHeaderKey, setHeaderKey } from '../src/core/headerEdit';
+import { getHeaderKey, setHeaderKey } from 'carousel-core/src/core/headerEdit';
 
 describe('setHeaderKey', () => {
   it('rewrites an existing key in place', () => {

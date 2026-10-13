@@ -1,7 +1,7 @@
 import { createStore, del, entries, set } from 'idb-keyval';
-import { photoIdFromName } from '../core/slug';
-import { makeCanvas } from '../render/ctx';
-import type { PhotoInput } from '../render/photo';
+import { photoIdFromName } from 'carousel-core/src/core/slug';
+import { makeCanvas } from 'carousel-core/src/render/ctx';
+import type { PhotoInput } from 'carousel-core/src/render/photo';
 
 export interface PhotoMeta {
   id: string;

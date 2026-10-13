@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { canSharePngs, sharePngs, toPngFiles } from '../src/export/sharePhotos';
+import { canSharePngs, sharePngs, toPngFiles } from '../src/ui/sharePhotos';
 
 const files = toPngFiles([{ name: 'deck_01.png', blob: new Blob(['a']) }, { name: 'deck_02.png', blob: new Blob(['b']) }]);
 

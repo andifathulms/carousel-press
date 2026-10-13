@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { fakeMeasurer as m } from '../src/layout/measure';
-import { type StackItem, type TextSpec, fitStack } from '../src/layout/stack';
-import { parseInline, parseRich } from '../src/core/inline';
+import { fakeMeasurer as m } from 'carousel-core/src/layout/measure';
+import { type StackItem, type TextSpec, fitStack } from 'carousel-core/src/layout/stack';
+import { parseInline, parseRich } from 'carousel-core/src/core/inline';
 
 const mono = { family: 'JetBrains Mono', weight: 400 };
 const headline: TextSpec = { family: 'Playfair Display', weight: 700, max: 92, min: 64, step: 4, lh: 1.12, maxLines: 6, widowFix: true, mono };

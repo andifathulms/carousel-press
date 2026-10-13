@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync, readdirSync } from 'node:fs';
-import { parse } from '../src/core/parser';
+import { parse } from 'carousel-core/src/core/parser';
 import { SAMPLE_PHOTO_IDS } from '../src/samples/photos';
-import { fakeMeasurer } from '../src/layout/measure';
-import { deckIcons, layoutSlide } from '../src/render/renderSlide';
-import { SAFE, insideSafe } from '../src/render/safezone';
-import { VARIANTS } from '../src/templates/registry';
+import { fakeMeasurer } from 'carousel-core/src/layout/measure';
+import { deckIcons, layoutSlide } from 'carousel-core/src/render/renderSlide';
+import { SAFE, insideSafe } from 'carousel-core/src/render/safezone';
+import { VARIANTS } from 'carousel-core/src/templates/registry';
 
 const SAMPLES = readdirSync(new URL('../src/samples/', import.meta.url)).filter((f) => f.endsWith('.txt')).map((f) => f.slice(0, -4));
 const text = (n: string) => readFileSync(new URL(`../src/samples/${n}.txt`, import.meta.url), 'utf8');

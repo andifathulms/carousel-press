@@ -10,8 +10,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "review": "REVIEW=1 vite build --outDir dist-review && tsx scripts/review.ts",
-    "fonts:sync": "tsx scripts/sync-fonts.ts",
-    "fonts:check": "tsx scripts/sync-fonts.ts --check"
+    "fonts:sync": "tsx packages/carousel-core/scripts/sync-fonts.ts",
+    "fonts:check": "tsx packages/carousel-core/scripts/sync-fonts.ts --check"
   },
   "dependencies": {
     "@fontsource/amiri": "^5.3.0",

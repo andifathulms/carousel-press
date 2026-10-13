@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { parse } from '../src/core/parser';
+import { parse } from 'carousel-core/src/core/parser';
 
 const deck = (body: string) => parse(`template: dev/github-dark\n---\n${body}`).deck;
 

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { VARIANTS, checkVariant } from '../src/templates/registry';
-import { BUILTIN_TEMPLATE_IDS } from '../src/core/types';
+import { VARIANTS, checkVariant } from 'carousel-core/src/templates/registry';
+import { BUILTIN_TEMPLATE_IDS } from 'carousel-core/src/core/types';
 
 describe('registry', () => {
   it('has a variant for every template id', () => {

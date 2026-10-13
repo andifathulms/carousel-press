@@ -1,7 +1,7 @@
 // Font gate without CSS: manifest, FontFace registration, host faces, errors.
 import { readFileSync } from 'node:fs';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { buildManifest } from '../scripts/sync-fonts';
+import { buildManifest } from '../packages/carousel-core/scripts/sync-fonts';
 
 interface FakeFace { family: string; source: string; descriptors: Record<string, string> }
 let added: FakeFace[];
@@ -29,17 +29,17 @@ afterEach(() => {
 });
 
 const fresh = async () => {
-  const fonts = await import('../src/fonts/loadFonts');
-  const { getVariant } = await import('../src/templates/registry');
+  const fonts = await import('carousel-core/src/fonts/loadFonts');
+  const { getVariant } = await import('carousel-core/src/templates/registry');
   return { ...fonts, getVariant };
 };
 
 describe('manifest', () => {
   it('matches what npm run fonts:sync would write from @fontsource', () => {
     const { manifest, copies, licences } = buildManifest();
-    expect(JSON.parse(readFileSync(new URL('../fonts/manifest.json', import.meta.url), 'utf8'))).toEqual(manifest);
+    expect(JSON.parse(readFileSync(new URL('../packages/carousel-core/fonts/manifest.json', import.meta.url), 'utf8'))).toEqual(manifest);
     for (const [from, to] of [...copies, ...licences]) {
-      expect(readFileSync(new URL(`../fonts/${to}`, import.meta.url)).equals(readFileSync(from)), to).toBe(true);
+      expect(readFileSync(new URL(`../packages/carousel-core/fonts/${to}`, import.meta.url)).equals(readFileSync(from)), to).toBe(true);
     }
   });
 });

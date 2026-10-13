@@ -1,4 +1,4 @@
-import { decodeDeckLink, deckLinkParam } from '../core/deckLink';
+import { decodeDeckLink, deckLinkParam } from 'carousel-core/src/core/deckLink';
 import type { Controller } from './controller';
 import { toast } from './dialogs';
 

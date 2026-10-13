@@ -1,6 +1,6 @@
-import type { TemplateId } from '../core/types';
-import { listVariants } from '../templates/registry';
-import type { Variant } from '../templates/types';
+import type { TemplateId } from 'carousel-core/src/core/types';
+import { listVariants } from 'carousel-core/src/templates/registry';
+import type { Variant } from 'carousel-core/src/templates/types';
 import { h, svg } from './dom';
 import { UI_ICONS } from './uiIcons';
 

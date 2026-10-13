@@ -3,6 +3,7 @@
 // API (no CSS imports, no bundler needed). `--check` only verifies that
 // fonts/ matches what this script would write (used by tests and CI).
 import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { createRequire } from 'node:module';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -37,9 +38,12 @@ export interface FontManifest {
   faces: ManifestFace[];
 }
 
+/** The package root (packages/carousel-core). */
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = resolve(root, process.env.FONTS_OUT ?? 'fonts');
-const FONTSOURCE = join(root, 'node_modules/@fontsource');
+const require = createRequire(import.meta.url);
+/** node_modules/@fontsource, wherever npm hoisted it. */
+const FONTSOURCE = resolve(dirname(require.resolve('@fontsource/inter/package.json')), '..');
 
 /** Parse the @font-face blocks of one fontsource stylesheet. */
 export function parseFontFaces(css: string): (ManifestFace & { source: string })[] {

@@ -1,12 +1,12 @@
 // `counter: on | off` header key: parser behaviour and layout stability.
 import { describe, expect, it } from 'vitest';
 import { readFileSync, readdirSync } from 'node:fs';
-import { setHeaderKey } from '../src/core/headerEdit';
-import { parse } from '../src/core/parser';
-import { isBlocking } from '../src/core/types';
-import { fakeMeasurer } from '../src/layout/measure';
-import { deckIcons, layoutSlide } from '../src/render/renderSlide';
-import { VARIANTS } from '../src/templates/registry';
+import { setHeaderKey } from 'carousel-core/src/core/headerEdit';
+import { parse } from 'carousel-core/src/core/parser';
+import { isBlocking } from 'carousel-core/src/core/types';
+import { fakeMeasurer } from 'carousel-core/src/layout/measure';
+import { deckIcons, layoutSlide } from 'carousel-core/src/render/renderSlide';
+import { VARIANTS } from 'carousel-core/src/templates/registry';
 
 const SAMPLES = readdirSync(new URL('../src/samples/', import.meta.url)).filter((f) => f.endsWith('.txt'));
 const text = (f: string) => readFileSync(new URL(`../src/samples/${f}`, import.meta.url), 'utf8');

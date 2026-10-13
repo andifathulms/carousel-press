@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { DEV_ICONS, EDITORIAL_ICONS, ICON_ALIASES } from '../src/core/iconNames';
+import { DEV_ICONS, EDITORIAL_ICONS, ICON_ALIASES } from 'carousel-core/src/core/iconNames';
 
 // docs/channels.md is what deck writers (people and agents) read: its icon list must match the app.
 describe('channels.md', () => {
