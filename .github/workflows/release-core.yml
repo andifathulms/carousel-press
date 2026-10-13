@@ -1,0 +1,32 @@
+name: Release carousel-core
+
+# Builds packages/carousel-core and publishes it to the core-dist branch as
+# tag core-v<version> (version from packages/carousel-core/package.json).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run test
+      - run: npm run fonts:check
+      - run: npm run core:build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run core:smoke
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          packages/carousel-core/scripts/release.sh

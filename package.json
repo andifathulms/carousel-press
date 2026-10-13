@@ -13,7 +13,8 @@
     "fonts:sync": "tsx packages/carousel-core/scripts/sync-fonts.ts",
     "fonts:check": "tsx packages/carousel-core/scripts/sync-fonts.ts --check",
     "core:build": "vite build --config packages/carousel-core/vite.config.ts && vite build --config packages/carousel-core/vite.browser.config.ts && tsc -p packages/carousel-core/tsconfig.build.json",
-    "core:smoke": "tsx packages/carousel-core/scripts/smoke.ts"
+    "core:smoke": "tsx packages/carousel-core/scripts/smoke.ts",
+    "core:release": "bash packages/carousel-core/scripts/release.sh"
   },
   "dependencies": {
     "@fontsource/amiri": "^5.3.0",
