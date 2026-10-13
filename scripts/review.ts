@@ -1,4 +1,7 @@
 // npm run review: build with review.html, render every sample × template, write PNGs + contact sheet.
+// REVIEW_HASH=<file> writes only `sha1  ./<template>/<file>.png` lines (shasum format, sorted)
+// instead of ~8 GB of PNGs: the parity check used during refactors.
+import { createHash } from 'node:crypto';
 import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -29,7 +32,9 @@ async function main(): Promise<void> {
     // exceeds Playwright's message limit and Node's heap.
     const templates = only((await page.evaluate(() => window.__reviewTemplates!)) as string[], process.env.REVIEW_TEMPLATES);
     const samples = only((await page.evaluate(() => window.__reviewSamples!)) as string[], process.env.REVIEW_SAMPLES);
-    rmSync(out, { recursive: true, force: true });
+    const hashOut = process.env.REVIEW_HASH;
+    const hashes: string[] = [];
+    if (!hashOut) rmSync(out, { recursive: true, force: true });
     const rows: string[] = [];
     const warnings: Record<string, Item['warnings']> = {};
     let count = 0;
@@ -37,17 +42,30 @@ async function main(): Promise<void> {
       for (const smp of samples) {
         const batch = (await page.evaluate(([id, sid]) => window.__review!(id as never, sid), [t, smp] as const)) as Item[];
         for (const it of batch) {
+          const file = `${it.sample}_${String(it.index + 1).padStart(2, '0')}.png`;
+          const rel = `${it.template}/${file}`;
+          const png = Buffer.from(it.dataUrl.split(',')[1]!, 'base64');
+          if (hashOut) {
+            hashes.push(`${createHash('sha1').update(png).digest('hex')}  ./${rel}`);
+            if (it.warnings.length) warnings[rel] = it.warnings;
+            count++;
+            continue;
+          }
           const dir = join(out, it.template);
           mkdirSync(dir, { recursive: true });
-          const file = `${it.sample}_${String(it.index + 1).padStart(2, '0')}.png`;
-          writeFileSync(join(dir, file), Buffer.from(it.dataUrl.split(',')[1]!, 'base64'));
-          const rel = `${it.template}/${file}`;
+          writeFileSync(join(dir, file), png);
           if (it.warnings.length) warnings[rel] = it.warnings;
           const badge = it.warnings.length ? `<b class="w">${it.warnings.map((w) => w.code).join(', ')}</b>` : '';
           rows.push(`<figure data-t="${it.template}"><div class="f"><img src="${rel}"><i></i></div><figcaption>${rel}${badge}</figcaption></figure>`);
           count++;
         }
       }
+    }
+    if (hashOut) {
+      writeFileSync(hashOut, `${hashes.sort((a, b) => a.slice(42).localeCompare(b.slice(42))).join('\n')}\n`);
+      console.log(`review: ${count} slide hashes → ${hashOut}`);
+      console.log(`review: ${Object.keys(warnings).length} slides with warnings`);
+      return;
     }
     writeFileSync(join(out, 'warnings.json'), JSON.stringify(warnings, null, 2));
     writeFileSync(join(out, 'index.html'), sheet(rows));
