@@ -1,49 +1,12 @@
-// Bundled faces (latin subset only). Vite turns these into hashed woff2 assets.
-import '@fontsource/playfair-display/latin-600.css';
-import '@fontsource/playfair-display/latin-700.css';
-import '@fontsource/lora/latin-600.css';
-import '@fontsource/lora/latin-700.css';
-import '@fontsource/poppins/latin-400.css';
-import '@fontsource/poppins/latin-500.css';
-import '@fontsource/poppins/latin-600.css';
-import '@fontsource/dm-sans/latin-400.css';
-import '@fontsource/dm-sans/latin-500.css';
-import '@fontsource/dm-sans/latin-600.css';
-import '@fontsource/inter/latin-400.css';
-import '@fontsource/inter/latin-500.css';
-import '@fontsource/inter/latin-600.css';
-import '@fontsource/inter/latin-700.css';
-import '@fontsource/inter/latin-800.css';
-import '@fontsource/jetbrains-mono/latin-400.css';
-import '@fontsource/jetbrains-mono/latin-500.css';
-import '@fontsource/jetbrains-mono/latin-600.css';
-import '@fontsource/jetbrains-mono/latin-700.css';
-// IPA face for word slides (SPEC-lexicon §3.1): latin + latin-ext + greek via unicode-range.
-import '@fontsource/gentium-book-plus/400.css';
-// Serif 500 for ayah/hadith translations (SPEC-ayah §3).
-import '@fontsource/lora/latin-500.css';
-import '@fontsource/playfair-display/latin-500.css';
-// Ruang Rasa variants (editorial/ruang-*): Fraunces + Instrument Sans.
-import '@fontsource/fraunces/latin-500.css';
-import '@fontsource/fraunces/latin-600.css';
-import '@fontsource/fraunces/latin-700.css';
-import '@fontsource/instrument-sans/latin-400.css';
-import '@fontsource/instrument-sans/latin-500.css';
-import '@fontsource/instrument-sans/latin-600.css';
-// Sport family (Whistle Notes): Barlow body, Barlow Condensed headlines.
-import '@fontsource/barlow/latin-400.css';
-import '@fontsource/barlow/latin-500.css';
-import '@fontsource/barlow/latin-600.css';
-import '@fontsource/barlow/latin-700.css';
-import '@fontsource/barlow-condensed/latin-700.css';
-import '@fontsource/barlow-condensed/latin-800.css';
-// Arabic faces (SPEC-ayah §2): Amiri Quran for ayat, Amiri for hadith. Arabic subset only.
-import '@fontsource/amiri-quran/arabic-400.css';
-import '@fontsource/amiri/arabic-400.css';
+// The font gate: rendering waits until every face a variant draws with is
+// loaded, and never falls back to system fonts. Faces come from fontSources.ts.
 import { ARABIC_SAMPLE, AYAH_FACE, HADITH_FACE } from '../templates/serene/arabicLayout';
 
 import type { Variant } from '../templates/types';
 import { traitsOf } from '../templates/traits';
+import { registerFace } from './fontSources';
+
+export { configureFonts, type FontConfig, type FontFaceSource } from './fontSources';
 
 export interface Face {
   family: string;
@@ -81,12 +44,13 @@ const loaded = new Map<string, Promise<void>>();
 
 /**
  * Resolve once document.fonts.load() succeeded for every face the variant
- * uses. Rejects after FONT_TIMEOUT_MS. Never resolve with fallback fonts.
+ * uses. Rejects with the faces still missing after FONT_TIMEOUT_MS, or as soon
+ * as a face fails. Never resolves with fallback fonts.
  */
 export function loadFonts(v: Variant, timeoutMs = FONT_TIMEOUT_MS): Promise<void> {
   const hit = loaded.get(v.id);
   if (hit) return hit;
-  const p = withTimeout(loadFaces(facesFor(v)), timeoutMs, `Fonts for ${v.name} didn't load in ${timeoutMs / 1000}s`);
+  const p = loadFaces(facesFor(v), timeoutMs, `"${v.name}"`);
   loaded.set(v.id, p);
   p.catch(() => loaded.delete(v.id));
   return p;
@@ -97,18 +61,35 @@ export async function loadAllFonts(variants: readonly Variant[]): Promise<void> 
   await Promise.all(variants.map((v) => loadFonts(v)));
 }
 
-async function loadFaces(faces: Face[]): Promise<void> {
-  await Promise.all(faces.map(async (f) => {
-    const spec = `${f.weight} 40px "${f.family}"`;
-    const res = await document.fonts.load(spec, f.text ?? 'Aa09•—');
-    if (!res.length || !document.fonts.check(spec, f.text ?? 'Aa')) throw new Error(`Font face missing: ${spec}`);
-  }));
-  await document.fonts.ready;
+/** Load one face outside any variant (safe-zone overlay and test image). */
+export function loadFace(family: string, weight: number, text?: string, timeoutMs = FONT_TIMEOUT_MS): Promise<void> {
+  return loadFaces([{ family, weight, ...(text ? { text } : {}) }], timeoutMs, `${weight} "${family}"`);
 }
 
-function withTimeout<T>(p: Promise<T>, ms: number, msg: string): Promise<T> {
+const specOf = (f: Face): string => `${f.weight} 40px "${f.family}"`;
+
+async function loadFaces(faces: Face[], timeoutMs: number, label: string): Promise<void> {
+  const pending = new Set(faces.map(specOf));
+  const all = Promise.all(faces.map(async (f) => {
+    const spec = specOf(f);
+    let urls: string[] = [];
+    try {
+      urls = registerFace(f.family, f.weight);
+      const res = await document.fonts.load(spec, f.text ?? 'Aa09•—');
+      if (!res.length || !document.fonts.check(spec, f.text ?? 'Aa')) throw new Error('not available after loading');
+    } catch (err) {
+      const from = urls.length ? ` from ${urls.join(', ')}` : ' (no font file: add it with configureFonts({ faces }))';
+      throw new Error(`carousel-core: font ${f.weight} "${f.family}" failed to load${from}: ${err instanceof Error ? err.message : String(err)}`);
+    }
+    pending.delete(spec);
+  })).then(() => document.fonts.ready).then(() => undefined);
+  return withTimeout(all, timeoutMs, () =>
+    `carousel-core: fonts for ${label} didn't load within ${timeoutMs / 1000} s; still waiting for ${[...pending].map((x) => x.replace(' 40px', '')).join(', ')}`);
+}
+
+function withTimeout<T>(p: Promise<T>, ms: number, msg: () => string): Promise<T> {
   return new Promise<T>((resolve, reject) => {
-    const t = setTimeout(() => reject(new Error(msg)), ms);
+    const t = setTimeout(() => reject(new Error(msg())), ms);
     p.then((v) => { clearTimeout(t); resolve(v); }, (e) => { clearTimeout(t); reject(e); });
   });
 }

@@ -4,7 +4,7 @@ import { type RenderAssets, renderSlide } from '../render/renderSlide';
 import { CANVAS } from '../render/safezone';
 import { drawTestImage } from '../render/overlay';
 import type { Variant } from '../templates/types';
-import { loadFonts } from '../fonts/loadFonts';
+import { loadFace, loadFonts } from '../fonts/loadFonts';
 
 export async function canvasToPng(canvas: OffscreenCanvas | HTMLCanvasElement): Promise<Blob> {
   if ('convertToBlob' in canvas) return canvas.convertToBlob({ type: 'image/png' });
@@ -27,8 +27,7 @@ export async function exportSlidePng(
 /** The safe-zone test image as a PNG. */
 export async function exportTestImage(variant: Variant): Promise<Blob> {
   await loadFonts(variant);
-  await document.fonts.load('600 30px "Inter"');
-  await document.fonts.load('500 20px "JetBrains Mono"');
+  await Promise.all([loadFace('Inter', 600), loadFace('Inter', 400), loadFace('JetBrains Mono', 500)]);
   const { canvas, ctx } = makeCanvas(CANVAS.w, CANVAS.h);
   drawTestImage(ctx as Ctx);
   return canvasToPng(canvas);

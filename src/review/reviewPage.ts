@@ -1,4 +1,5 @@
 // Dev-only page used by `npm run review`. Not linked from the app UI.
+import '../slideFonts';
 import { parse } from '../core/parser';
 import type { TemplateId, Warning } from '../core/types';
 import { loadAllFonts } from '../fonts/loadFonts';
