@@ -3,13 +3,9 @@ lang: id
 title: stoik bukan mati rasa
 caption: Stoik bukan berarti nggak boleh sedih. Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya. Sumber: SEP "Stoicism" (bagian emosi, mengutip Diogenes Laertius & Gellius) · SEP "Aristotle's Ethics" #filsafat #filsafatharian #stoikisme
 ---
-[cover]
+[cover kicker="SALAH KAPRAH FILSAFAT · #1"]
 Stoik Itu | Nggak Boleh Sedih?
-Salah paham populer tentang filsafat Stoa.
----
-[number=off icon=chat]
-Situasinya
-Di medsos, "stoik" sering dipakai untuk orang yang dingin: nggak nangis, nggak marah, nggak peduli. Seolah punya perasaan itu kelemahan.
+Yang sebenarnya diajarkan para Stoa soal perasaan.
 ---
 [compare]
 headline: Yang sering salah dipahami
@@ -19,18 +15,18 @@ right-label: Kata para Stoa
 right: Yang dilawan adalah emosi yang lahir dari penilaian keliru.
 why: Bagi Stoa (abad ke-3 SM sampai ke-2 M), takut atau marah muncul karena kita keliru menilai sesuatu sebagai baik atau buruk.
 ---
-[number=off icon=heart]
-Orang bijak pun merasa
-Para Stoa mengenal "perasaan baik" (*eupatheiai*) seperti sukacita yang tepat. Ada juga "pra-emosi" (*propatheiai*): reaksi spontan seperti kaget, yang dialami bahkan oleh orang paling bijak.
+[card kicker="Orang bijak pun merasa" number=off icon=none]
+Ada *"perasaan baik"* dan *"pra-emosi".*
+Sukacita yang tepat (*eupatheiai*), dan reaksi spontan seperti kaget (*propatheiai*), yang dialami bahkan oleh orang paling bijak.
 ---
-[number=off icon=lightbulb]
-Coba hari ini
-Saat emosi datang, jangan buru-buru menekannya. Tanya: penilaian apa yang ada di balik rasa ini? Apakah penilaian itu benar?
+[card kicker="Coba hari ini" number=off icon=none]
+Jangan buru-buru menekannya. *Tanya penilaian di baliknya.*
+Apakah penilaian itu benar?
 ---
-[number=off icon=alert]
-Tapi…
-Aristoteles tidak sepakat dengan Stoa. Baginya marah dan takut kadang memang tepat, asal dirasakan dengan cara dan pada waktu yang benar. Stoa justru menilai emosi seperti itu selalu keliru.
+[card kicker="Tapi…" number=off icon=none]
+Aristoteles: marah dan takut *kadang memang tepat.*
+Asal dirasakan dengan cara dan pada waktu yang benar. Stoa justru menilai emosi seperti itu selalu keliru.
 ---
-[end]
-Emosi apa yang paling sering kamu pendam, dan kenapa?
-Tulis di komen.
+[end cta="Simpan"]
+Selama ini kamu kira stoik itu *mati rasa?*
+Jawab "iya" atau "nggak" di komen.

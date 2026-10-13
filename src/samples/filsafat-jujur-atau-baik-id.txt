@@ -3,26 +3,26 @@ lang: id
 title: jujur atau menjaga perasaan
 caption: Dilema kecil yang hampir semua orang pernah alami. Sumber: SEP "Kant's Moral Philosophy" · J.S. Mill, Utilitarianism (1861) bab 2 · SEP "Aristotle's Ethics" #filsafat #filsafatharian #etika #dilema
 ---
-[cover]
+[cover kicker="KAMU PILIH MANA? · #1"]
 Jujur atau | Menjaga Perasaan?
-Dilema kecil yang dihadapi hampir semua orang.
+Dilema kecil yang hampir semua orang pernah alami.
 ---
-[number=off icon=chat]
-Situasinya
-Temanmu baru buka usaha kue dan minta pendapat. Jujur saja, rasanya kurang enak. Dia kelihatan sangat berharap. Kamu bilang apa?
+[card kicker="Kamu pilih mana?" number=off icon=none]
+*A.* Tetap jujur. | *B.* Jaga perasaan.
+Temanmu baru buka usaha kue dan minta pendapat. Rasanya kurang enak, dan dia kelihatan sangat berharap.
 ---
-[number=off icon=check-circle]
-Posisi A: tetap jujur
-Immanuel Kant (1724–1804) menguji tindakan dengan pertanyaan: bisakah aturannya berlaku untuk semua orang? Kalau semua boleh bohong saat menguntungkan, kata-kata kehilangan artinya. Bohong pun sulit dibenarkan.
+[card kicker="Posisi A · Immanuel Kant (1724–1804)" number=off icon=none]
+Kalau semua boleh bohong, *kata-kata kehilangan artinya.*
+Kant menguji tindakan dengan pertanyaan: bisakah aturannya berlaku untuk semua orang? Bohong pun sulit dibenarkan.
 ---
-[number=off icon=heart]
-Posisi B: lihat akibatnya
-John Stuart Mill (1806–1873) menilai tindakan dari akibatnya bagi kebahagiaan. Tapi baginya kejujuran aturan yang sangat berguna, karena kepercayaan bergantung padanya. Pengecualiannya sempit, misalnya menahan kabar buruk dari orang yang sakit parah.
+[card kicker="Posisi B · John Stuart Mill (1806–1873)" number=off icon=none]
+Nilai tindakan *dari akibatnya.*
+Tapi bagi Mill kejujuran aturan yang sangat berguna, karena kepercayaan bergantung padanya. Pengecualiannya sempit.
 ---
-[number=off icon=lightbulb]
-Jalan tengah?
-Aristoteles (384–322 SM) tidak memberi rumus. Baginya kebajikan butuh kebijaksanaan praktis (*phronesis*): tahu cara, waktu, dan takaran yang tepat. Jujur soal rasanya, tapi dengan cara yang membantu temanmu memperbaiki?
+[card kicker="Jalan tengah · Aristoteles (384–322 SM)" number=off icon=none]
+Tahu *cara, waktu, dan takaran* yang tepat.
+Kebajikan butuh kebijaksanaan praktis (*phronesis*). Jujur soal rasanya, tapi dengan cara yang membantu temanmu memperbaiki?
 ---
-[end]
-Kamu pilih yang mana, dan kenapa?
-Tulis di komen.
+[end cta="Simpan"]
+Kamu *A atau B?*
+Komen satu huruf, plus satu kata alasannya.

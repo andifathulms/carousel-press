@@ -3,21 +3,21 @@ lang: id
 title: checkout tengah malam
 caption: Sebelum checkout, coba pakai cara pikir umur 2.300 tahun ini. Sumber: Epikuros, Surat kepada Menoikeus 127–131 (terj. R.D. Hicks) · SEP "Epicurus" · SEP "Stoicism" #filsafat #filsafatharian #epikuros
 ---
-[cover]
-Checkout Tengah Malam? | Coba Cara Pikir Ini
-Ide Epikuros, filsuf Yunani (341–270 SM).
+[cover kicker="FILSAFAT HARIAN · EPIKUROS"]
+Checkout Tengah Malam, | Lalu Menyesal?
+Cara bedain mau dan butuh, dari 2.300 tahun lalu.
 ---
-[number=off icon=clock]
-Situasinya
-Lagi scroll, lihat diskon, langsung checkout. Barangnya datang, senangnya cuma sebentar. Lalu muncul keinginan berikutnya, dan berikutnya lagi.
+[card kicker="Situasinya" number=off icon=none]
+Barangnya datang. *Senangnya cuma sebentar.*
+Lalu muncul keinginan berikutnya, dan berikutnya lagi.
 ---
-[number=off icon=book]
-Idenya
-Bagi Epikuros, hidup yang baik adalah hidup yang bebas dari rasa sakit di tubuh dan gelisah di pikiran (*ataraxia*). Langkah pertamanya: kenali dulu jenis keinginanmu.
+[card kicker="Ide Epikuros · Yunani, 341–270 SM" number=off icon=none]
+Kenali dulu *jenis keinginanmu.*
+Hidup yang baik menurutnya: bebas dari sakit di tubuh dan gelisah di pikiran (*ataraxia*).
 ---
-[number=off icon=key]
-Tiga jenis keinginan
-Gagasannya, disarikan: ada yang alami dan perlu, seperti makan dan tempat berteduh. Ada yang alami tapi tidak perlu, seperti makanan mewah. Ada yang kosong, tanpa batas alami, seperti ingin hidup abadi.
+[card kicker="Gagasannya, disarikan" number=off icon=none]
+Ada yang *perlu,* ada yang *sekadar enak,* ada yang *kosong.*
+Perlu: makan dan tempat berteduh. Sekadar enak: makanan mewah. Kosong: tanpa batas alami, seperti ingin hidup abadi.
 ---
 [compare]
 headline: Epikurean = foya-foya?
@@ -27,14 +27,14 @@ right-label: Kata Epikuros
 right: Yang ia maksud dengan kenikmatan adalah tidak sakit dan tidak gelisah.
 why: Dalam suratnya ia sendiri membantah anggapan itu, dan menulis bahwa roti dan air terasa paling nikmat bagi orang yang lapar.
 ---
-[number=off icon=lightbulb]
-Coba hari ini
-Sebelum bayar, tanya: ini keinginan yang perlu, sekadar enak, atau kosong? Kalau masih ragu, biarkan dulu di keranjang sehari. Sering kali keinginannya hilang sendiri.
+[card kicker="Coba hari ini" number=off icon=none]
+Biarkan dulu *sehari di keranjang.*
+Tanya: ini perlu, sekadar enak, atau kosong? Sering kali keinginannya hilang sendiri.
 ---
-[number=off icon=alert]
-Tapi…
-Kaum Stoa menolak kenikmatan sebagai tujuan hidup: bagi mereka hanya kebajikan yang baik. Dan hari ini garis "perlu" dan "tidak perlu" tak selalu jelas. Ponsel, misalnya.
+[card kicker="Tapi…" number=off icon=none]
+Kaum Stoa *menolak kenikmatan* sebagai tujuan hidup.
+Bagi mereka hanya kebajikan yang baik. Dan hari ini garis "perlu" tak selalu jelas. Ponsel, misalnya.
 ---
-[end]
-Barang apa yang sering kamu beli, padahal nggak perlu?
-Tulis di komen.
+[end cta="Simpan"]
+Perlu, sekadar enak, *atau kosong?*
+Komen satu kata: barang terakhir yang kamu beli masuk yang mana?
