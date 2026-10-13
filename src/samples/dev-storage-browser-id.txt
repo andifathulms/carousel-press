@@ -49,8 +49,8 @@ Contoh di Express.
 Jadi, pakai yang mana?
 Tema dan bahasa: localStorage. Isian form sementara: sessionStorage. Sesi login: cookie HttpOnly dari server.
 ---
-[end]
-Simpan dulu ⭐
-Nanti pas bingung nyimpen token, balik ke sini.
+[end cta="Simpan"]
+Token login kamu disimpan *di mana?*
+localStorage, sessionStorage, atau cookie? Satu kata.
 
 Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

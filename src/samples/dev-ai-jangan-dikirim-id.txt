@@ -1,4 +1,4 @@
-template: dev/github-dark
+template: dev/terminal
 lang: id
 title: 5 hal jangan ditempel ke ai
 caption: Satu copy-paste log server bisa ikut bawa token dan data user. #ai #keamanan #belajarcoding
@@ -37,8 +37,6 @@ Hasil AI tanpa dicek
 Bukan soal yang dikirim, tapi yang diterima.
 Kode AI bisa terlihat benar tapi salah: jalankan, baca, dan pahami dulu.
 ---
-[end]
-Simpan dulu ⭐
-Cek lagi sebelum menekan Enter.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[end cta="Simpan"]
+Pernah *nempel API key* di chat AI?
+Jujur aja, komen 🙈 kalau pernah.

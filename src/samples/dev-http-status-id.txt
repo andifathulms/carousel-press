@@ -1,4 +1,4 @@
-template: dev/github-dark
+template: dev/terminal
 lang: id
 title: 8 status code http
 caption: 401 artinya server belum tahu siapa kamu, 403 artinya tahu tapi nggak ngizinin. #webdev #api #belajarcoding
@@ -39,8 +39,8 @@ Cek lagi URL atau endpoint-nya.
 Ada yang error di sisi server.
 Bukan salah request-mu, cek log server-nya.
 ---
-[end]
-Simpan dulu ⭐
-Nanti pas ketemu error, cek angkanya di sini.
+[end cta="Simpan"]
+Status code mana yang *paling sering kamu lihat?*
+Satu angka di komen.
 
 Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

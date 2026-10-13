@@ -1,4 +1,4 @@
-template: dev/terminal
+template: dev/github-dark
 lang: id
 title: 6 pola regex dasar
 caption: Satu baris regex bisa cek format nomor HP 08xx, +62, atau 62. Tesnya ada di slide terakhir. #regex #javascript #belajarcoding
@@ -64,8 +64,6 @@ hp.test("0812-3456");      // false
 ```
 Cuma cek format. Hapus spasi dan strip dulu sebelum dites.
 ---
-[end]
-Simpan dulu ⭐
-Nanti pas validasi form, contek dari sini.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[end cta="Simpan"]
+Regex: *suka atau takut?*
+Satu kata di komen.

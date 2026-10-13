@@ -59,8 +59,20 @@ sudo !!
 ```
 Pastikan kamu tahu perintah apa yang diulang.
 ---
-[end]
-Simpan dulu.
-Nanti pas di server, tinggal buka lagi.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[code number=off]
+Simpan ini
+Semua perintahnya di satu layar.
+```bash
+ls -lah
+grep -rn "TODO" src/
+tail -f app.log
+du -sh * | sort -rh
+lsof -i :3000
+chmod +x deploy.sh
+./deploy.sh
+sudo !!
+```
+---
+[end cta="Simpan"]
+Perintah mana yang *paling sering kamu pakai?*
+Satu perintah di komen.

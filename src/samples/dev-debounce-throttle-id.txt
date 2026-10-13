@@ -64,8 +64,6 @@ Pakai: `throttle(onScroll, 200)` di event scroll.
 Kapan pakai yang mana?
 Butuh hasil akhir saja: debounce (search, validasi form). Butuh update rutin selama event jalan: throttle (scroll, mousemove). Lodash juga punya keduanya siap pakai.
 ---
-[end]
-Simpan dulu ⭐
-Nanti pas search box-mu lemot, balik ke sini.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[end cta="Simpan"]
+Kamu tim *debounce atau throttle?*
+Satu kata di komen.

@@ -1,0 +1,54 @@
+template: dev/terminal
+lang: id
+title: git rescue 2 commit ke branch yang salah
+caption: Commit di main, padahal harusnya di branch fitur? Selama belum di-push, masih bisa dipindahin. #git #belajarcoding #programmer
+---
+[cover kicker="GIT RESCUE • #2"]
+Commit ke Branch | yang Salah?
+Belum di-push? Pindahin tanpa kehilangan apa-apa.
+---
+[code]
+Branch tujuannya belum ada
+Bikin branch di posisi commit itu, lalu mundurkan main satu commit.
+```bash
+git branch fitur-login
+git reset --hard HEAD~1
+git switch fitur-login
+```
+Commit-nya sekarang di fitur-login, main bersih lagi.
+---
+[code]
+Branch tujuannya sudah ada
+Salin commit-nya ke sana, lalu hapus dari main.
+```bash
+git switch fitur-login
+git cherry-pick main
+git switch main
+git reset --hard HEAD~1
+```
+cherry-pick main menyalin commit terakhir di main.
+---
+[card]
+Hati-hati dengan `reset --hard`
+Perubahan yang belum di-commit ikut hilang. Cek `git status` dulu, dan simpan pakai `git stash` kalau perlu.
+---
+[card]
+Sudah telanjur di-push?
+Jangan reset branch yang dipakai bareng. Salin dulu ke branch yang benar pakai `cherry-pick`, lalu `git revert` commit itu di main.
+---
+[code number=off]
+Simpan ini
+Belum ada branch: 3 baris pertama. Sudah ada: 4 baris terakhir.
+```bash
+git branch fitur-login
+git reset --hard HEAD~1
+git switch fitur-login
+git switch fitur-login
+git cherry-pick main
+git switch main
+git reset --hard HEAD~1
+```
+---
+[end cta="Follow"]
+Pernah *commit di main* juga?
+Komen 🙋 kalau pernah. Git Rescue #3 minggu depan.

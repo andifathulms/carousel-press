@@ -58,8 +58,6 @@ a, b = 1, 2
 a, b = b, a
 ```
 ---
-[end]
-Simpan dulu ⭐
-Coba satu trik ini di kode berikutnya.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[end cta="Simpan"]
+Trik mana yang *baru kamu tahu?*
+Komen nomornya.

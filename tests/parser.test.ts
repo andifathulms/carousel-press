@@ -253,11 +253,16 @@ describe('every shipped deck', () => {
       expect(r.deck.slides[r.deck.slides.length - 1]!.showCta).toBe(true);
     });
   }
-  it('dev decks by the owner end with the portfolio line', () => {
-    for (const f of readdirSync(new URL('../src/samples/', import.meta.url)).filter((n) => n.startsWith('dev-') && n !== 'dev-git-id.txt').map((n) => n.slice(0, -4))) {
+  it('dev decks end with a one-tap ask; about a third keep the portfolio line (owner, Oct 2026)', () => {
+    const files = readdirSync(new URL('../src/samples/', import.meta.url)).filter((n) => n.startsWith('dev-') && n !== 'dev-git-id.txt').map((n) => n.slice(0, -4));
+    let withPortfolio = 0;
+    for (const f of files) {
       const end = parse(sample(f)).deck.slides.at(-1)!;
       expect(end.type).toBe('end');
-      expect(JSON.stringify(end.body)).toContain('andifathulms.github.io');
+      expect(JSON.stringify(end.headline)).not.toContain('Simpan dulu');
+      if (JSON.stringify(end.body).includes('andifathulms.github.io')) withPortfolio++;
     }
+    expect(withPortfolio).toBeGreaterThanOrEqual(Math.floor(files.length / 4));
+    expect(withPortfolio).toBeLessThanOrEqual(Math.ceil(files.length / 2));
   });
 });

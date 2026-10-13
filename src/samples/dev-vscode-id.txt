@@ -1,4 +1,4 @@
-template: dev/github-dark
+template: dev/terminal
 lang: id
 title: 7 shortcut vs code
 caption: Ctrl + D, tekan berulang, dan semua kata yang sama ikut keedit. #vscode #programmer #produktif
@@ -62,8 +62,8 @@ Ctrl + `
 ```
 Mac: Ctrl + ` juga.
 ---
-[end]
-Simpan dulu.
-Coba satu shortcut hari ini.
+[end cta="Simpan"]
+Shortcut mana yang *paling ngebantu?*
+Satu shortcut di komen.
 
 Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

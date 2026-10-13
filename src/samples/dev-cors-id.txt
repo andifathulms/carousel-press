@@ -50,8 +50,8 @@ Postman dan curl bukan browser, jadi tidak menerapkan CORS. Makanya API terlihat
 CORS bukan pelindung server. CORS itu aturan browser tentang siapa yang boleh membaca response.
 — Catatan yang akhirnya bikin aku paham
 ---
-[end]
-Simpan dulu ⭐
-Nanti pas ketemu error CORS, balik ke sini.
+[end cta="Simpan"]
+Pernah kena *error CORS* tengah malam?
+Komen 🙋 kalau pernah.
 
 Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

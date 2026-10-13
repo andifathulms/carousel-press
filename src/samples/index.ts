@@ -16,6 +16,8 @@ import aiCoding from './dev-ai-coding-id.txt?raw';
 import consoleTricks from './dev-console-id.txt?raw';
 import asyncAwait from './dev-async-await-id.txt?raw';
 import gitUndo from './dev-git-undo-id.txt?raw';
+import devGitRescue2 from './dev-git-rescue-2-id.txt?raw';
+import devTebakOutput1 from './dev-tebak-output-1-id.txt?raw';
 import kutai from './sejarah-kutai-id.txt?raw';
 import yupa from './sejarah-yupa-id.txt?raw';
 import syarifKasim from './sejarah-syarif-kasim-id.txt?raw';
@@ -146,6 +148,8 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-sql-id', name: '6 query SQL (dev, id)', category: 'dev', text: sql },
   { id: 'dev-vscode-id', name: '7 shortcut VS Code (dev, id)', category: 'dev', text: vscode },
   { id: 'dev-git-undo-id', name: '6 cara undo di Git (dev, id)', category: 'dev', text: gitUndo },
+  { id: 'dev-git-rescue-2-id', name: 'Git Rescue #2: commit ke branch yang salah (dev, id)', category: 'dev', text: devGitRescue2 },
+  { id: 'dev-tebak-output-1-id', name: 'Tebak Output #1: JavaScript (dev, id)', category: 'dev', text: devTebakOutput1 },
   { id: 'dev-console-id', name: '5 trik console JS (dev, id)', category: 'dev', text: consoleTricks },
   // Owner decks: Fathul Learn Coding (fundamentals, AI, learning journey)
   { id: 'dev-api-id', name: 'API itu sebenarnya apa (dev, id)', category: 'dev', text: api },

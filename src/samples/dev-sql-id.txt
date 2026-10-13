@@ -1,4 +1,4 @@
-template: dev/paper-light
+template: dev/github-dark
 lang: id
 title: 6 query sql
 caption: WHERE nyaring baris, HAVING nyaring hasil GROUP BY, dan dua-duanya sering ketuker. #sql #database #belajarcoding
@@ -63,8 +63,6 @@ FROM products
 WHERE name LIKE '%kopi%';
 ```
 ---
-[end]
-Simpan dulu.
-Nanti pas lupa sintaksnya, buka lagi.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[end cta="Simpan"]
+Pernah ketuker *WHERE dan HAVING?*
+Komen 🙋 kalau pernah.

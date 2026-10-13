@@ -3,7 +3,7 @@ lang: id
 title: 6 cara undo di git
 caption: Bahkan commit yang kelihatan hilang biasanya masih tercatat di git reflog. Yang penting tahu cara balikinnya. #git #github #belajarcoding
 ---
-[cover kicker="GIT • UNDO"]
+[cover kicker="GIT RESCUE • #1"]
 Salah Commit? | Hampir Semua Bisa Dibalikin
 6 cara undo di Git, dari typo sampai commit yang "hilang".
 ---
@@ -52,8 +52,19 @@ git reflog
 ```
 Hati-hati: `git reset --hard` menghapus perubahan yang belum di-commit.
 ---
-[end]
-Simpan dulu.
-Nanti pas panik gara-gara Git, buka lagi.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[code number=off]
+Simpan ini
+Semua perintahnya di satu layar.
+```bash
+git commit --amend -m "pesan baru"
+git add lupa.js
+git commit --amend --no-edit
+git reset --soft HEAD~1
+git revert a1b2c3d
+git restore --staged app.js
+git reflog
+```
+---
+[end cta="Follow"]
+Pernah *panik* gara-gara Git?
+Komen 🙋 kalau pernah. Git Rescue #2: commit ke branch yang salah.

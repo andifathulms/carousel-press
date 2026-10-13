@@ -56,8 +56,8 @@ docker rm web
 ```
 `docker rm` tidak menghapus image dan named volume.
 ---
-[end]
-Simpan dulu ⭐
-Nanti pas pertama kali pakai Docker, buka lagi.
+[end cta="Simpan"]
+Pernah *kehilangan file* gara-gara container dihapus?
+Komen 🙋 kalau pernah.
 
 Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

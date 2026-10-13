@@ -1,0 +1,65 @@
+template: dev/github-dark
+lang: id
+title: tebak output javascript 1
+caption: Tiga baris JavaScript, tiga jawaban yang sering bikin kaget. Tebak dulu sebelum geser. #javascript #belajarcoding #programmer
+---
+[cover kicker="TEBAK OUTPUT • #1"]
+3 Baris JavaScript. | Berapa yang Kamu Benar?
+Jawab dulu di kepala, baru geser.
+---
+[code number=off]
+Soal 1: output-nya apa?
+A. [ 1, 2, 10 ]
+B. [ 1, 10, 2 ]
+C. [ 10, 2, 1 ]
+```js
+[1, 10, 2].sort()
+```
+---
+[code number=off]
+Jawaban: B
+Tanpa fungsi pembanding, sort() mengurutkan sebagai teks, jadi "10" datang sebelum "2".
+```js
+[1, 10, 2].sort()
+// [ 1, 10, 2 ]
+```
+Mau urut angka? Pakai `sort((a, b) => a - b)`, hasilnya [ 1, 2, 10 ].
+---
+[code number=off]
+Soal 2: output-nya apa?
+A. true
+B. false
+C. error
+```js
+0.1 + 0.2 === 0.3
+```
+---
+[code number=off]
+Jawaban: B
+Desimal disimpan sebagai floating point, jadi hasilnya sedikit meleset.
+```js
+0.1 + 0.2
+// 0.30000000000000004
+```
+Bandingkan desimal pakai selisih kecil: `Math.abs(a - b) < Number.EPSILON`.
+---
+[code number=off]
+Soal 3: output-nya apa?
+A. "null"
+B. "object"
+C. "undefined"
+```js
+typeof null
+```
+---
+[code number=off]
+Jawaban: B
+Ini sifat lama JavaScript sejak versi pertamanya. Cek null langsung pakai === null.
+```js
+typeof null
+// "object"
+```
+---
+[end cta="Follow"]
+Kamu benar *berapa dari 3?*
+Komen angkanya. Tebak Output #2 minggu depan.

@@ -1,4 +1,4 @@
-template: dev/paper-light
+template: dev/github-dark
 lang: id
 title: api itu sebenarnya apa
 caption: Kamu nggak masuk dapur, kamu pesan lewat pelayan: itu API. #api #belajarcoding #webdev
@@ -43,8 +43,8 @@ Status code kasih tahu hasilnya
 `200` berhasil. `404` nggak ketemu.
 `401` belum login. `500` servernya yang error.
 ---
-[end]
-Simpan dulu ⭐
-Nanti pas ketemu API pertama kali, buka lagi.
+[end cta="Simpan"]
+Analogi API favoritmu *apa?*
+Satu kata aja di komen.
 
 Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

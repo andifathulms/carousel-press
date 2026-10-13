@@ -1,4 +1,4 @@
-template: dev/github-dark
+template: dev/terminal
 lang: id
 title: 5 method http
 caption: PUT itu mengganti seluruh data, bukan cuma field yang kamu kirim. Beda tipis yang sering bikin data hilang. #webdev #api #belajarcoding
@@ -51,8 +51,6 @@ Dikirim sekali atau lima kali, hasil akhirnya di server sama. `GET`, `PUT`, dan 
 Kenapa itu penting?
 Kalau koneksi putus sebelum ada balasan, request idempotent aman dikirim ulang. `POST` jangan diulang otomatis: bisa bikin pesanan dobel.
 ---
-[end]
-Simpan dulu ⭐
-Nanti pas bikin API, cek lagi di sini.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[end cta="Simpan"]
+Kamu tim *PUT atau PATCH?*
+Satu kata di komen.

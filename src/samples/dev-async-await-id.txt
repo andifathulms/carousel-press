@@ -54,8 +54,6 @@ try {
 `await` nggak bikin JavaScript berhenti. Cuma fungsi itu yang nunggu.
 — Catatan yang akhirnya bikin aku paham
 ---
-[end]
-Simpan dulu ⭐
-Nanti pas bingung lagi, balik ke sini.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[end cta="Simpan"]
+Pernah dapat *`<pending>`* juga?
+Komen 🙋 kalau pernah.

@@ -1,4 +1,4 @@
-template: dev/github-dark
+template: dev/terminal
 lang: id
 title: 5 cara pakai ai buat coding
 caption: Yang paling hemat waktu buatku ternyata bukan nulis fitur, tapi bikin test. #ai #belajarcoding #programmer
@@ -48,8 +48,6 @@ Tetap cek hasilnya
 AI bisa salah dengan sangat yakin.
 Jalankan, baca, dan pahami kodenya sebelum dipakai.
 ---
-[end]
-Simpan dulu ⭐
-Coba satu cara ini di project-mu minggu ini.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[end cta="Simpan"]
+Pernah dikasih *fungsi yang nggak ada* sama AI?
+Komen 🙋 kalau pernah.

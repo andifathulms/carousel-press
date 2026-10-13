@@ -51,8 +51,6 @@ brew install ripgrep fzf bat jq
 sudo apt install ripgrep fzf bat jq
 ```
 ---
-[end]
-Simpan dulu.
-Pasang satu dulu, rasakan bedanya.
-
-Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
+[end cta="Simpan"]
+Tool mana yang *mau kamu coba duluan?*
+Satu nama di komen.
