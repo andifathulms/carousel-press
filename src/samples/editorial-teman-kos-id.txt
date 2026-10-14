@@ -1,0 +1,27 @@
+template: editorial/ruang-kunyit
+lang: id
+title: artinya kalimat teman kos
+caption: Teman kos jarang ngomong manis, tapi tiba-tiba ada sepiring nasi di depan pintu 🧡 Teman kosmu yang nomor berapa? #temankos #anakkos #sahabat
+---
+[cover kicker="RUANG RASA · TEMAN KOS"]
+Beda kamar, satu lorong. *Tapi dia tahu kamu belum makan.*
+5 kalimat teman kos dan artinya yang sebenarnya.
+---
+[number=off icon=none]
+"Aku masak kebanyakan nih." | *Artinya: aku sengaja masakin kamu juga.*
+---
+[number=off icon=none]
+"Mau nitip nggak? Aku ke warung." | *Artinya: aku inget kamu, bahkan buat hal kecil.*
+---
+[number=off icon=none]
+"Galonnya udah aku angkat, ya." | *Artinya: nggak usah ngerasa utang.*
+---
+[number=off icon=none]
+"Lampu kamarmu masih nyala jam dua." | *Artinya: aku perhatiin, dan aku khawatir.*
+---
+[number=off icon=none]
+"Kos sepi kalau kamu pulang kampung." | *Artinya: kamu udah kayak keluarga di sini.*
+---
+[end cta="Kirim ke teman kos"]
+Teman kosmu yang *nomor berapa?*
+Komen angkanya. Terus kirim ke dia, biar dia tahu kamu ngerti artinya.

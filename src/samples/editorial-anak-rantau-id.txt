@@ -1,0 +1,32 @@
+template: editorial/ruang-daun
+lang: id
+title: hal kecil anak rantau
+caption: Yang paling dikangenin kadang bukan obrolannya, tapi suara rumah di belakang telepon 🌿 Kamu merantau dari kota mana? Komen satu kata. #anakrantau #perantau #rumah
+---
+[cover kicker="RUANG RASA · ANAK RANTAU"]
+Telepon ke rumah. Ngobrolnya lima menit, *diemnya juga lima menit.*
+5 hal kecil anak rantau yang jarang diceritain ke siapa-siapa.
+---
+[number=off icon=none]
+Hafal suara rumah di belakang telepon: *TV, motor lewat, piring dicuci.*
+Kadang yang dikangenin justru suara-suaranya.
+---
+[number=off icon=none]
+Bilang "aman kok" tiap ditanya, *padahal minggu ini lagi berat.*
+Nggak harus cerita semuanya. Satu hal kecil juga boleh.
+---
+[number=off icon=none]
+Masak resep rumah sendiri, *rasanya selalu kurang sedikit.*
+Mungkin kurangnya bukan di bumbu.
+---
+[number=off icon=none]
+Buka harga tiket pulang, *terus tutup lagi aplikasinya.*
+Pulangnya nanti. Kangennya boleh dari sekarang.
+---
+[number=off icon=none]
+Pas pulang, kamarmu masih sama. *Kamunya yang udah beda.*
+Dua-duanya tetap rumah.
+---
+[end cta="Telepon rumah"]
+Kamu merantau *dari kota mana?*
+Komen satu kata. Habis itu, telepon rumah sebentar.

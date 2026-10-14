@@ -1,0 +1,32 @@
+template: editorial/ruang-bata
+lang: id
+title: pilih satu versi jam tidur
+caption: Sayang sama orangnya, belum tentu cocok sama suhu AC-nya 😆 Jawab A atau B tiap slide, komen urutannya, terus minta dia jawab juga. #pilihsatu #pasangan #thisorthat
+---
+[cover kicker="RUANG RASA · PILIH SATU"]
+Satu kamar, *dua kebiasaan tidur.*
+5 pilihan versi jam tidur. Ingat jawabanmu, contoh: ABBAB.
+---
+[number=off icon=none]
+*A.* AC dingin banget | *B.* Kipas angin aja
+Suhu kamar?
+---
+[number=off icon=none]
+*A.* Gelap total | *B.* Lampu tidur nyala
+Lampu?
+---
+[number=off icon=none]
+*A.* Satu selimut berdua | *B.* Masing-masing satu
+Selimut?
+---
+[number=off icon=none]
+*A.* Tidur jam sepuluh | *B.* Masih scroll jam satu
+Jam tidur?
+---
+[number=off icon=none]
+*A.* Bangun di alarm pertama | *B.* Snooze lima kali
+Pagi hari?
+---
+[end cta="Kirim ke pasanganmu"]
+Urutanmu apa? *Contoh: BABAA.*
+Terus minta dia jawab. Yang beda, itu yang perlu dinego.

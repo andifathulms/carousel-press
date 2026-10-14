@@ -1,0 +1,35 @@
+template: editorial/ruang-malam
+lang: id
+title: minggu malam, kamu yang mana
+caption: Weekend-nya dua hari, mikirin Seninnya udah dari Minggu sore 🌙 Kamu huruf apa? Komen dua huruf: kamu dan temanmu. #minggumalam #refleksidiri #weekend
+---
+[cover kicker="RUANG RASA · MINGGU MALAM"]
+Minggu malam, besok Senin. *Kamu biasanya yang mana?*
+Pilih satu huruf. Terus tanya temanmu, dia yang mana.
+---
+[number=off icon=none]
+Pilih yang *paling kamu banget.*
+A. Siapin baju dan tas, biar tenang.
+B. Scroll sampai lewat tengah malam.
+C. Tiba-tiba kepikiran semua urusan.
+D. Santai aja. Senin urusan besok.
+---
+[number=off icon=none]
+Kamu A, temanmu D: *yang satu nyiapin, yang satu nyantai.*
+Dua-duanya cara buat ngadepin Senin. Nggak ada yang salah.
+---
+[number=off icon=none]
+Ada yang B? *Malamnya kerasa terlalu cepat habis.*
+Wajar pengen punya waktu sendiri sebelum minggu mulai lagi.
+---
+[number=off icon=none]
+Ada yang C? *Pikirannya udah sampai Senin duluan.*
+Coba tulis tiga hal buat besok di kertas. Biar kepalamu nggak harus nyimpen semuanya.
+---
+[number=off icon=none]
+Ada yang D? *Kamu yang paling bikin iri.*
+Ajarin temanmu yang C, ya.
+---
+[end cta="Kirim ke temanmu"]
+Kamu huruf apa? *Temanmu huruf apa?*
+Komen dua huruf. Contoh: C-D.

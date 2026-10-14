@@ -1,0 +1,32 @@
+template: editorial/ruang-kunyit
+lang: id
+title: pesan buat teman yang berduka
+caption: Diem karena takut salah ngomong itu wajar. Tapi satu pesan pendek sering lebih berarti dari yang kamu kira 🤍 Pesan nomor berapa yang mau kamu kirim? #temanberduka #sahabat #kehilangan
+---
+[cover kicker="RUANG RASA · TEMAN BERDUKA"]
+Mau chat teman yang lagi berduka, *tapi takut salah kata.*
+5 pesan yang bisa langsung kamu kirim, tanpa harus nemu kata yang pas.
+---
+[number=off icon=none]
+Aku nggak tahu harus bilang apa. *Tapi aku di sini.*
+Jujur nggak tahu itu nggak apa-apa. Yang penting dia tahu kamu ada.
+---
+[number=off icon=none]
+Nggak usah bales chat ini, ya. *Aku cuma mau kamu tahu aku inget.*
+Kalimat pertamanya bikin dia nggak merasa harus jawab.
+---
+[number=off icon=none]
+Besok aku taruh makanan di depan pintu. *Nggak usah keluar.*
+Tawarkan yang konkret. "Kabarin kalau butuh apa-apa" jarang dipakai.
+---
+[number=off icon=none]
+Aku inget waktu dia ____. *Boleh aku ceritain?*
+Isi titiknya kalau kamu kenal orangnya. Kenangan juga bisa jadi hadiah.
+---
+[number=off icon=none]
+Bulan depan aku *masih nanya kabarmu,* ya.
+Ramainya biasanya minggu pertama. Yang sepi itu sesudahnya.
+---
+[end cta="Kirim ke dia"]
+Pesan *nomor berapa* yang mau kamu kirim?
+Komen angkanya. Terus kirim, walau cuma satu baris.
