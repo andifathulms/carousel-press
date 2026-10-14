@@ -38,6 +38,11 @@ import sejarahMandor from './sejarah-mandor-id.txt?raw';
 import sejarahSumtim from './sejarah-revolusi-sosial-sumtim-id.txt?raw';
 import sejarahWesterling from './sejarah-westerling-id.txt?raw';
 import sejarahPuputanBadung from './sejarah-puputan-badung-id.txt?raw';
+import sejarahBanda from './sejarah-banda-1621-id.txt?raw';
+import sejarahKedukanBukit from './sejarah-kedukan-bukit-id.txt?raw';
+import sejarahBubat from './sejarah-bubat-id.txt?raw';
+import sejarahSoentingMelajoe from './sejarah-soenting-melajoe-id.txt?raw';
+import sejarahMartabatTujuh from './sejarah-martabat-tujuh-id.txt?raw';
 import basketTravelling from './sports-basket-travelling-id.txt?raw';
 import voliRotasi from './sports-voli-rotasi-id.txt?raw';
 import backpass from './sports-backpass-id.txt?raw';
@@ -101,6 +106,36 @@ import ayatAkuDekat from './ayat-aku-dekat.txt?raw';
 import hadisOrangKuat from './hadis-orang-kuat.txt?raw';
 import hadisWajahBerseri from './hadis-wajah-berseri.txt?raw';
 import hadisHatiDanAmal from './hadis-hati-dan-amal.txt?raw';
+import b2DevAiFungsiNgarangId from './dev-ai-fungsi-ngarang-id.txt?raw';
+import b2DevGitRescue3Id from './dev-git-rescue-3-id.txt?raw';
+import b2DevNpmScriptsId from './dev-npm-scripts-id.txt?raw';
+import b2DevTebakOutput2Id from './dev-tebak-output-2-id.txt?raw';
+import b2DevTerminalHarian1Id from './dev-terminal-harian-1-id.txt?raw';
+import b2EditorialAnakRantauId from './editorial-anak-rantau-id.txt?raw';
+import b2EditorialMingguMalamId from './editorial-minggu-malam-id.txt?raw';
+import b2EditorialPilihSatuTidurId from './editorial-pilih-satu-tidur-id.txt?raw';
+import b2EditorialTemanBerdukaId from './editorial-teman-berduka-id.txt?raw';
+import b2EditorialTemanKosId from './editorial-teman-kos-id.txt?raw';
+import b2FilsafatAkrasiaId from './filsafat-akrasia-id.txt?raw';
+import b2FilsafatCogitoId from './filsafat-cogito-id.txt?raw';
+import b2FilsafatLindungiTemanId from './filsafat-lindungi-teman-id.txt?raw';
+import b2FilsafatSenecaBayanganId from './filsafat-seneca-bayangan-id.txt?raw';
+import b2FilsafatTutWuriHandayaniId from './filsafat-tut-wuri-handayani-id.txt?raw';
+import b2LexiconEnglishBorrowLend from './lexicon-english-borrow-lend.txt?raw';
+import b2LexiconEnglishKataHariIni2 from './lexicon-english-kata-hari-ini-2.txt?raw';
+import b2LexiconEnglishKataHariIni3 from './lexicon-english-kata-hari-ini-3.txt?raw';
+import b2LexiconEnglishSayTell from './lexicon-english-say-tell.txt?raw';
+import b2LexiconEnglishSukuKata from './lexicon-english-suku-kata.txt?raw';
+import b2LexiconKamusGabunganKata from './lexicon-kamus-gabungan-kata.txt?raw';
+import b2LexiconKamusKaosKaus from './lexicon-kamus-kaos-kaus.txt?raw';
+import b2LexiconKamusKataIndahHujan from './lexicon-kamus-kata-indah-hujan.txt?raw';
+import b2LexiconKamusNaikKeAtas from './lexicon-kamus-naik-ke-atas.txt?raw';
+import b2LexiconKamusSemampai from './lexicon-kamus-semampai.txt?raw';
+import b2SportsBadmintonFaultId from './sports-badminton-fault-id.txt?raw';
+import b2SportsBasketBackcourtId from './sports-basket-backcourt-id.txt?raw';
+import b2SportsBolaMatiMitosId from './sports-bola-mati-mitos-id.txt?raw';
+import b2SportsPenaltiId from './sports-penalti-id.txt?raw';
+import b2SportsVoliKamuWasitnyaId from './sports-voli-kamu-wasitnya-id.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
 export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'philosophy' | 'travel';
@@ -176,6 +211,11 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sejarah-revolusi-sosial-sumtim-id', name: 'Revolusi Sosial Sumatra Timur 1946 (sejarah, id)', category: 'history', text: sejarahSumtim },
   { id: 'sejarah-westerling-id', name: 'Operasi Westerling di Sulawesi Selatan (sejarah, id)', category: 'history', text: sejarahWesterling },
   { id: 'sejarah-puputan-badung-id', name: 'Puputan Badung 1906 (sejarah, id)', category: 'history', text: sejarahPuputanBadung },
+  { id: 'sejarah-banda-1621-id', name: 'Banda 1621 (sejarah, id)', category: 'history', text: sejarahBanda },
+  { id: 'sejarah-kedukan-bukit-id', name: 'Prasasti Kedukan Bukit dan hari jadi Palembang (sejarah, id)', category: 'history', text: sejarahKedukanBukit },
+  { id: 'sejarah-bubat-id', name: 'Bubat 1357: tiga versi (sejarah, id)', category: 'history', text: sejarahBubat },
+  { id: 'sejarah-soenting-melajoe-id', name: 'Roehana Koeddoes dan Soenting Melajoe (sejarah, id)', category: 'history', text: sejarahSoentingMelajoe },
+  { id: 'sejarah-martabat-tujuh-id', name: 'Buton dan Martabat Tujuh (sejarah, id)', category: 'history', text: sejarahMartabatTujuh },
   // Owner decks: Whistle Notes (photos bundled in ./photos)
   { id: 'sports-offside-id', name: 'Offside, dijelaskan (sports, id)', category: 'sports', text: offside },
   { id: 'sports-handball-id', name: 'Handball, dijelaskan (sports, id)', category: 'sports', text: handball },
@@ -238,4 +278,35 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-lama-bersama-id', name: 'Ruang Rasa · kalimat buat yang udah lama bareng (bata)', category: 'relationships', text: edLamaBersama },
   { id: 'editorial-pilih-satu-keluarga-id', name: 'Ruang Rasa · pilih satu: versi keluarga (daun)', category: 'relationships', text: edPilihSatuKeluarga },
   { id: 'editorial-artinya-sayang-id', name: 'Ruang Rasa · artinya kalimat sayang (bata)', category: 'relationships', text: edArtinyaSayang },
+  // October 2026 batch 2: 5 each for every account
+  { id: 'dev-ai-fungsi-ngarang-id', name: 'Ai ngarang fungsi yang nggak ada (dev, id)', category: 'dev', text: b2DevAiFungsiNgarangId },
+  { id: 'dev-git-rescue-3-id', name: 'Git rescue 3 file env ke-commit (dev, id)', category: 'dev', text: b2DevGitRescue3Id },
+  { id: 'dev-npm-scripts-id', name: 'Npm scripts cheat sheet (dev, id)', category: 'dev', text: b2DevNpmScriptsId },
+  { id: 'dev-tebak-output-2-id', name: 'Tebak output python 2 (dev, id)', category: 'dev', text: b2DevTebakOutput2Id },
+  { id: 'dev-terminal-harian-1-id', name: 'Terminal harian 1 curl (dev, id)', category: 'dev', text: b2DevTerminalHarian1Id },
+  { id: 'editorial-anak-rantau-id', name: 'Hal kecil anak rantau (Ruang Rasa, id)', category: 'relationships', text: b2EditorialAnakRantauId },
+  { id: 'editorial-minggu-malam-id', name: 'Minggu malam, kamu yang mana (Ruang Rasa, id)', category: 'relationships', text: b2EditorialMingguMalamId },
+  { id: 'editorial-pilih-satu-tidur-id', name: 'Pilih satu versi jam tidur (Ruang Rasa, id)', category: 'relationships', text: b2EditorialPilihSatuTidurId },
+  { id: 'editorial-teman-berduka-id', name: 'Pesan buat teman yang berduka (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanBerdukaId },
+  { id: 'editorial-teman-kos-id', name: 'Artinya kalimat teman kos (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanKosId },
+  { id: 'filsafat-akrasia-id', name: 'Akrasia (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatAkrasiaId },
+  { id: 'filsafat-cogito-id', name: 'Cogito ergo sum (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatCogitoId },
+  { id: 'filsafat-lindungi-teman-id', name: 'Lindungi teman atau bilang apa adanya (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatLindungiTemanId },
+  { id: 'filsafat-seneca-bayangan-id', name: 'Menderita dalam bayangan (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatSenecaBayanganId },
+  { id: 'filsafat-tut-wuri-handayani-id', name: 'Tiga tempat pemimpin (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatTutWuriHandayaniId },
+  { id: 'lexicon-english-borrow-lend', name: 'Borrow atau lend (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishBorrowLend },
+  { id: 'lexicon-english-kata-hari-ini-2', name: 'Kata hari ini 2 recipe (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishKataHariIni2 },
+  { id: 'lexicon-english-kata-hari-ini-3', name: 'Kata hari ini 3 appointment (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishKataHariIni3 },
+  { id: 'lexicon-english-say-tell', name: 'Say atau tell (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishSayTell },
+  { id: 'lexicon-english-suku-kata', name: 'Suku kata yang hilang (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishSukuKata },
+  { id: 'lexicon-kamus-gabungan-kata', name: 'Gabungan kata eyd v (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusGabunganKata },
+  { id: 'lexicon-kamus-kaos-kaus', name: 'Kaos atau kaus (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusKaosKaus },
+  { id: 'lexicon-kamus-kata-indah-hujan', name: 'Kata indah hujan (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusKataIndahHujan },
+  { id: 'lexicon-kamus-naik-ke-atas', name: 'Naik ke atas pleonasme (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusNaikKeAtas },
+  { id: 'lexicon-kamus-semampai', name: 'Semampai bukan tinggi (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusSemampai },
+  { id: 'sports-badminton-fault-id', name: 'Pojok bulu tangkis fault saat reli (Whistle Notes, id)', category: 'sports', text: b2SportsBadmintonFaultId },
+  { id: 'sports-basket-backcourt-id', name: 'Kamu wasitnya backcourt basket (Whistle Notes, id)', category: 'sports', text: b2SportsBasketBackcourtId },
+  { id: 'sports-bola-mati-mitos-id', name: 'Mitos aturan bola mati (Whistle Notes, id)', category: 'sports', text: b2SportsBolaMatiMitosId },
+  { id: 'sports-penalti-id', name: 'Kamu wasitnya penalti (Whistle Notes, id)', category: 'sports', text: b2SportsPenaltiId },
+  { id: 'sports-voli-kamu-wasitnya-id', name: 'Kamu wasitnya voli (Whistle Notes, id)', category: 'sports', text: b2SportsVoliKamuWasitnyaId },
 ];

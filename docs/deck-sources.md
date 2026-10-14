@@ -662,3 +662,53 @@ All pages fetched directly (HTML) from Cambridge Dictionary and Oxford Learner's
 - https://developer.mozilla.org/en-US/docs/Web/API/Element/input_event
 - https://lodash.com/docs/#debounce and https://lodash.com/docs/#throttle
 - debounce/throttle code executed in Node: 6 rapid calls -> 1 debounced call with "laptop"; 1000 rapid throttle calls -> 1 call.
+
+## October 2026 batch 2 (5 per account)
+
+### Ruang Rasa
+editorial-anak-rantau-id, editorial-teman-berduka-id, editorial-pilih-satu-tidur-id, editorial-minggu-malam-id, editorial-teman-kos-id: no factual claims; written to channels.md §1.
+
+### Kosakata Inggris
+Cambridge pages were fetched with curl (WebFetch got 403); IPA copied from the page HTML, optional final r written plain.
+- lexicon-english-kata-hari-ini-2 (recipe): /ˈres.ɪ.pi/ UK, /ˈres.ə.pi/ US, https://dictionary.cambridge.org/dictionary/english/recipe ; prescription sense, …/prescription
+- lexicon-english-kata-hari-ini-3 (appointment): /əˈpɔɪnt.mənt/, definition and "I have a dental appointment tomorrow morning." …/appointment ; promise definition …/promise
+- lexicon-english-borrow-lend: Cambridge Grammar "Borrow or lend?" https://dictionary.cambridge.org/grammar/british-grammar/borrow-or-lend ; borrow /ˈbɒr.əʊ/ UK, /ˈbɑːr.oʊ/ US (…/borrow); lend /lend/, lent (…/lend); loan as a US verb (…/loan)
+- lexicon-english-say-tell: Cambridge Grammar "Say or tell?" https://dictionary.cambridge.org/grammar/british-grammar/say-or-tell ; said /sed/, told /təʊld/ UK /toʊld/ US, say, tell entries
+- lexicon-english-suku-kata: comfortable (Oxford /ˈkʌmftəbl/, Cambridge /ˈkʌm.fə.tə.bəl/), vegetable /ˈvedʒ.tə.bəl/, chocolate /ˈtʃɒk.lət/ UK /ˈtʃɑːk.lət/ US, interesting (Oxford /ˈɪntrəstɪŋ/), camera /ˈkæm.rə/, every /ˈev.ri/, business /ˈbɪz.nɪs/, temperature /ˈtem.prə.tʃər/ UK /ˈtem.pɚ.ə.tʃɚ/ US (Cambridge and Oxford Learner's entries)
+- Indonesian translations and localised examples are ours, not dictionary quotes unless marked verbatim.
+
+### Kamus Kecil
+Every entry fetched from https://kbbi.kemendikdasmen.go.id/entri/<kata> (KBBI VI Daring 6.1.0.0); meanings copied exactly (sometimes cut after a semicolon), word classes and labels are KBBI's.
+- lexicon-kamus-kata-indah-hujan: petrikor, rinai, tempias, derai, halimun, gemawan, bianglala, angu
+- lexicon-kamus-kaos-kaus: kaos, kaus, keos, gaji, gajih, telor, telur, syarat, sarat, masa, massa, sah, syah
+- lexicon-kamus-naik-ke-atas: pleonasme, naik, turun, mundur, hadirin, para, bermaaf-maafan, agar, supaya, merupakan ("maju ke depan" left out: KBBI's own example under maju uses it)
+- lexicon-kamus-semampai: semampai, nanar, berkaca-kaca, jengah, bosan, rawan, seronok
+- lexicon-kamus-gabungan-kata: EYD Edisi V, Penulisan Kata › Kata Turunan › 3. Gabungan Kata, rules a–e, https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/kata-turunan/ ; KBBI: ibu kota, ibukota, rumah sakit, tanggung jawab, bertanggung jawab, pertanggungjawaban, kerja sama, bekerja sama, garis bawah, menggarisbawahi, kosakata, segitiga, matahari, olahraga. "Segi empat" has no KBBI entry; that claim rests on EYD V.
+
+### Whistle Notes
+- sports-penalti-id: IFAB Laws of the Game 2026/27, Law 14.1–14.3, https://www.theifab.com/laws/latest/the-penalty-kick/ ; FA copy of the 2026/27 text; IFAB "Changes to the Laws 2026/27" (double-touch Circular 31). The "clearly impacted" encroachment wording dates from 2024/25, not called new.
+- sports-bola-mati-mitos-id: IFAB 2026/27 Law 15/15.1 (throw-in), 16.1–16.2 (goal kick), 17 (corner); 5-second countdown new in 2026/27. https://www.theifab.com/laws/latest/the-throw-in/ , …/the-goal-kick/ , …/the-corner-kick/
+- sports-badminton-fault-id: BWF Laws of Badminton 2025 (Laws 13 and 14 unchanged in the 2027 version), 13.2.1, 13.3.1, 13.3.7, 13.4.1–2, 14.2.3, via https://worldbadminton.com/laws/rules_2025.htm ; confirm against BWF's PDF (https://corporate.bwfbadminton.com/statutes/) before posting.
+- sports-voli-kamu-wasitnya-id: FIVB Official Volleyball Rules 2025–2028 (EN v05), Rules 8.3, 9.2.3.2, 11.2.2.1, 11.3.3, 14.4.1–2, https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf
+- sports-basket-backcourt-id: FIBA Official Basketball Rules 2026 v1.0, Art. 2.3–2.5.2, 28.1.2, 30.1.2, 30.3, https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-v1-0.pdf ; 2026 rule-changes summary (Arts. 28 and 30 unchanged)
+
+### Fathul Learn Coding (everything executed before writing)
+- dev-git-rescue-3-id: git rm --cached, .gitignore, commit --amend, check-ignore, log -- .env, run in a scratch repo.
+- dev-tebak-output-2-id: Python 3.9.6: round(2.5) → 2, bool("False") → True, list aliasing → [1, 2, 3].
+- dev-terminal-harian-1-id: curl 8.7.1 against a local Node server (GET, -i, POST with -H/-d, -w "%{http_code}", -L, | python3 -m json.tool).
+- dev-ai-fungsi-ngarang-id: Node: typeof fs.existsSync → function, typeof fs.readJson → undefined, fs.readJson(...) → TypeError.
+- dev-npm-scripts-id: npm 11.11.0: .bin on PATH, npm run listing, start/test shortcuts, -- flags, pre/post scripts, &&.
+
+### Filsafat Harian
+- filsafat-akrasia-id: Aristotle, Nicomachean Ethics VII.1–3, trans. W.D. Ross, http://classics.mit.edu/Aristotle/nicomachaen.7.vii.html (quote VII.1 verified); SEP "Weakness of Will".
+- filsafat-lindungi-teman-id: Analects 13.18 and 4.18, trans. James Legge, https://www.gutenberg.org/files/4094/4094-h/4094-h.htm ; SEP "Mohism" (jian ai, Mencius' critique); SEP "Confucius". All paraphrased.
+- filsafat-cogito-id: Descartes, Discourse on Method (1637) Part IV, trans. John Veitch, https://www.gutenberg.org/files/59/59-h/59-h.htm ; Meditations II via SEP; SEP "Descartes' Epistemology" (Lichtenberg/Russell objection).
+- filsafat-seneca-bayangan-id: Seneca, Moral Letters to Lucilius 13.4 (quote), 13.5, 13.8, trans. Richard M. Gummere, https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13 ; SEP "Seneca".
+- filsafat-tut-wuri-handayani-id: Ki Sunardi H.S., "Sistem Among", Tamansiswa Pusat (2021), https://tamansiswapusat.com/blog/blog23.html ; Kompas.com (12 Jun 2026) on Taman Siswa (founded 3 Jul 1922, Yogyakarta); death 26 Apr 1959: Wiryopranoto et al., Perjuangan Ki Hajar Dewantara (2017) p. 163 (one source says 28 Apr; the deck gives the year only).
+
+### Sejarah Nusantara (Oct 2026, 5 decks)
+- sejarah-banda-1621-id: V.C. Loth, "Pioneers and Perkeniers: The Banda Islands in the 17th Century", Cakalele 6 (1995) 13–35, https://scholarspace.manoa.hawaii.edu/handle/10125/4207 (1599, 1609 attack (46 per Loth, deck says "puluhan"), 1616 Ai, Coen's 19 ships/1,655/286, 48 beheaded, 789 shipped, ~15,000 → ~1,000 estimate, perkeniers and slave origins, escape to Kei/Seram, Breda 1667 and Nieuw Amsterdam); Colenbrander, Jan Pieterszoon Coen: Bescheiden I (1919) p. 97–98, letter 27 Dec 1614 (archive.org janpieterszcoenb01coen) for the quote; Hurulean, Pattiasina & Hiariej, Arbitrer 4(1) 2022 (Univ. Pattimura) for 44 beheaded and Banda Eli/Elat keeping the Banda language; M. van Pagee, Omniboek 14 Mar 2024 (historibersama.com) for the counter-view.
+- sejarah-kedukan-bukit-id: A. Griffiths, DHARMA edition INSIDENK00159 "Riverstone from Kedukan Bukit (604 Śaka)", https://dharmalekha.info/texts/INSIDENK00159 (text, line readings, Krom/Boechari on line 7); P.-Y. Manguin, "George Cœdès and Śrīvijaya", Journal of the Siam Society 113(2) 2025 (Kern 1913, Cœdès 1918, kadatuan, 680s inscriptions, Musi sites); R.M. Setianingsih, "Perahu dalam beberapa prasasti Indonesia", Berkala Arkeologi (BRIN) (Tatang river, ten lines, round stone); Zubir, Seno & Arios, Bunga Rampai Sejarah Sumatera Selatan (BPSNT Padang 2012) p. ~196 (Batenburg 20 Nov 1920, 17 Juni 683, SK Walikota 57/UM/WK 6 Mei 1972; 16 Juni 682 elsewhere).
+- sejarah-bubat-id: Pararaton, Indonesian translation (archive.org KitabPararaton), ch. X; W.J. Sastrawan, "How to read a chronicle", Indonesia and the Malay World (2020) (pasundabubat *1357, last entry 1481, earliest dated copy 1600, Paduka Sori 1357); S. Azmi, "Bubat: Sisi Gelap Hubungan Kerajaan Majapahit Hindu dengan Kerajan Sunda" (journal.uinjkt.ac.id/index.php/una/article/view/15187), quoting Kidung Sunda via Partini (1986) and Carita Parahyangan ed. Atja & Danasasmita (1981) incl. notes 63–64; Sondarika, Ratih & Herdianto, Jurnal Artefak 11(2) 2024 (marriage myth); Suara Surabaya 11 May 2018 (Bandung street names, Gedung Sate).
+- sejarah-soenting-melajoe-id: Herawati, Karlinah, Agustin & Sjafirah, Jurnal Kajian Komunikasi 10(2) 2022, doi 10.24198/jkk.v10i2.41934 (birth, Adiesa, 1897, 1908, KAS 1911/60 members, both versions of the paper's origin, Zoebaidah, 587 women writers, Ruhina's letter Aug 1912, Poetri Hindia 1908, last issue 28 Jan 1921 and the print strike, Agus Salim/Sjahrir, hero Nov 2019); D.M. Chaniago, Kafa'ah 4(1) 2014 (weekly, f1,80, writers' towns, Johor and Egypt, SM 23 Jan 1914 and 13 Mar 1914 quote); masthead of Soenting Melajoe No. 3, 20 Juli 1912 (Commons scan).
+- sejarah-martabat-tujuh-id: "Pebula", ETNOSIA 5(1) 2020 (Unhas), citing Schoorl 2003 (siolimbona elects/installs/impeaches, sultan could be deposed or executed, 37 sultans, abolished 1960 after Falihi's death; pasabu/tatalima/gogoli; bhone montete yinda posala-sala; Kabanti Kamba Mpu translation; Murhum 948 H); Hasaruddin, "Pergolakan kaum bangsawan terhadap Kesultanan Buton pada abad XIX", jurnal sejarah LPPM Unidayan (1540 vs 19 Dec 1541, 1610, Syekh Syarif Muhammad, Sapati La Singa, reasons for the law, seven martabat mapping, walaka in siolimbona); La Bakry & Hasaruddin, "Administrasi Pemerintahan Islam: Kesultanan Buton masa Muhammad Idrus Kaimuddin" (pnm.gov.my PDF) (only Buton made it a constitution); Sritimuryati & Iriani, Attoriolong 19(2) 2021 (division of powers, VOC under Apollonius Schotte at Baubau 1613).
