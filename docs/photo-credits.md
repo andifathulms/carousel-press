@@ -93,3 +93,31 @@ Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterd
 | badung-pendaratan | Puputan Badung | Dutch_troops_landing_at_Sanur_1906.jpg (darkened) | Dutch government (unknown photographer; source: Bali Museum) | Public domain |
 | badung-alun-alun-1906 | Puputan Badung | KITLV_A3_-_Plein_aan_de_noordzijde_van_Denpasar,_plaats_van_de_eerste_Balinese_zelfmoordstrijd_(poepoetan)_op_20_september_1906,_waarin_de_vorst_van_Badoeng_en_zijn_gevolg_omkwamen_tijdens_de_zevende_,_KITLV_10178.tiff | H.M. van Weede (Commons: "Weede, H.W. van."), KITLV / Leiden University Libraries | CC BY 4.0 |
 | badung-klungkung | Puputan Badung | Kertha_Gosa_Pavilion_of_Klungkung_Palace,_Bali,_Indonesia.jpg | Ray in Manila | CC BY 2.0 |
+| banda-vingboons | Banda 1621 | Gezicht_op_Banda,_zuidelijke_Molukken_Rijksmuseum_SK-A-4476.jpeg (top label cropped) | Johannes Vingboons (Rijksmuseum) | Public domain |
+| banda-pala | Banda 1621 | Nutmeg_fruit_with_mace.jpg | Schlawensko | CC BY-SA 4.0 |
+| banda-peta | Banda 1621 | AMH-6427-NA_Map_of_the_Banda_islands.jpg | after Emmanuel Godinho de Erédia (Nationaal Archief) | Public domain |
+| banda-gijsels-1635 | Banda 1621 | Banda_Neira_and_Gunung_Api.jpg | Artus Gijsels, 1635 | Public domain |
+| banda-lonthor | Banda 1621 | Gezicht_vanuit_Lontar_op_Banda_Neira_en_rokende_Gunungapi,_Banda-eilanden,_Centraal-Molukken,_RP-T-1999-175(R).jpg | Rijksmuseum | CC0 |
+| banda-run-1623 | Banda 1621 | AMH-4740-NA_Map_of_Poeloe_Run.jpg | Batavia mapmaker, 1623 (Nationaal Archief) | Public domain |
+| kedukan-bukit | Kedukan Bukit | Prasasti_Kedukan_Bukit_3.jpg | Gunawan Kartapranata | CC BY-SA 4.0 |
+| kedukan-musi-kitlv | Kedukan Bukit | Prauwen_op_de_rivier_de_Moesi,_KITLV_4571.tiff (border cropped) | Anonymous, KITLV 4571 | CC BY 4.0 |
+| kedukan-siguntang | Kedukan Bukit | Bukit_Siguntang.jpg | The Bangsawan | CC BY-SA 4.0 |
+| kedukan-buddha-seguntang | Kedukan Bukit | Buddha_Seguntang_Palembang.jpg | Gunawan Kartapranata | CC BY-SA 3.0 |
+| kedukan-talang-tuwo | Kedukan Bukit | Talang_Tuwo.jpg | Louis Constant Westenenk | Public domain |
+| kedukan-ampera | Kedukan Bukit | Ampera_Bridge_at_Noon,_Palembang_(cropped).jpg | Gunawan Kartapranata | CC BY-SA 3.0 |
+| bubat-wringin-lawang | Bubat | Indonesien_2016_Trowulan_Gapura_Wringin_Lawang.jpg | Glasreifen | CC BY-SA 4.0 |
+| bubat-bajang-ratu | Bubat | Keagungan_Candi_Bajang_Ratu.jpg | Ivuvisual | CC BY-SA 4.0 |
+| bubat-lontar | Bubat | Lontar_Tojan_-_Babad_Bali_Dwipa.jpg (leaves moved lower, cloth extended above) | Eka343 | CC BY-SA 4.0 |
+| bubat-kawali-1900 | Bubat | KITLV_87606_-_Isidore_van_Kinsbergen_-_Inscribed_stone_at_Kawali_near_Tjiamis_-_Before_1900.tif | Isidore van Kinsbergen | Public domain |
+| bubat-gedung-sate | Bubat | Gedung_Sate_Oktober_2024_-_Rahmatdenas.jpg | Rahmatdenas | CC BY-SA 4.0 |
+| roehana-soenting-1912 | Soenting Melajoe | Surat_kabar_Soenting_Melajoe_1912_07_20_001.pdf (page 1, placed low on a dark ground) | Soenting Melajoe No. 3, 20 Juli 1912 | Public domain |
+| roehana-rumah-kelahiran | Soenting Melajoe | Rumah_Kelahiran_Roehana_Koeddoes_(Pintu_depan).jpg | Syurida | CC BY-SA 4.0 |
+| roehana-masjid-koto-gadang | Soenting Melajoe | KITLV_-_29366_-_Demmeni,_J._-_Mosque_at_Kota_Gedang_near_Fort_de_Kock_(Bukittinggi)_-_circa_1910.tif (mount cropped) | Jean Demmeni | Public domain |
+| roehana-ngarai-sianok | Soenting Melajoe | Ngarai_Sianok,_Bukittingi,_Sumatra_Barat.jpg | Defriyanramzi | CC BY-SA 4.0 |
+| roehana-tembok-gadang | Soenting Melajoe | Tembok_Gadang_Koto_Gadang.JPG | Rahmat Irfan Denas | CC BY-SA 4.0 |
+| buton-benteng | Martabat Tujuh | Sisi_luar_tembok_Benteng_Keraton_Buton.jpg | Marwan Mohamad | CC BY-SA 4.0 |
+| buton-masjid-keraton | Martabat Tujuh | Masjid_Agung_Keraton_Buton.jpg | Marwan Mohamad | CC BY-SA 4.0 |
+| buton-wandailolo | Martabat Tujuh | Lawana_Wandailolo.jpg | Marwan Mohamad | CC BY-SA 4.0 |
+| buton-batu-wolio | Martabat Tujuh | Batu_Wolio.jpg | Marwan Mohamad | CC BY-SA 4.0 |
+| buton-utusan-kitlv | Martabat Tujuh | Gezantschap_van_het_eiland_Boeton_in_de_Roemah_Sobat_te_Makassar,_KITLV_2948.tiff (border cropped) | Anonymous, KITLV 2948 | CC BY 4.0 |
+| buton-pelabuhan-kaudern | Martabat Tujuh | Båtar_i_hamnen._Buton,_Sulawesi._Indonesien_-_SMVK_-_000219.tif (bottom cropped) | Walter Kaudern | Public domain |

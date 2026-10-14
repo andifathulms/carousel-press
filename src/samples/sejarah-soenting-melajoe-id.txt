@@ -1,0 +1,61 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: soenting melajoe dan roehana koeddoes
+caption: Koran perempuan dari Padang, 1912, dengan penulis dari Sawahlunto sampai Mesir. Sumber: Herawati dkk., Jurnal Kajian Komunikasi 10(2) 2022 (Unpad); D.M. Chaniago, Kafa'ah 4(1) 2014; Soenting Melajoe No. 3, 20 Juli 1912 · Foto: Syurida, Defriyanramzi, Rahmat Irfan Denas (CC BY-SA 4.0) via Wikimedia Commons; J. Demmeni / KITLV (domain publik) #sejarahindonesia #roehanakoeddoes #sumaterabarat #pahlawannasional
+---
+[cover photo=roehana-soenting-1912]
+587 Perempuan Menulis | di Koran Ini
+Soenting Melajoe, Padang, 1912–1921. Pemimpin redaksinya Roehana Koeddoes dari Koto Gadang.
+---
+[number=off icon=home photo=roehana-rumah-kelahiran]
+*1884*: lahir di Koto Gadang
+Roehana lahir 20 Desember 1884. Masa kecilnya di Alahan Panjang, tempat ayahnya bekerja. Di sana Adiesa, istri jaksa atasan ayahnya, mengajarinya mengaji, membaca huruf Latin, dan menenun.
+---
+[number=off icon=book photo=roehana-masjid-koto-gadang]
+Mengajar sejak remaja
+Ibunya wafat tahun 1897, dan Roehana kembali ke Koto Gadang. Masih remaja, ia mengumpulkan anak-anak perempuan di kampungnya untuk belajar menenun dan mengaji. Tahun 1908 ia menikah dengan Abdul Kudus Pamuncak Sutan.
+---
+[number=off icon=gift photo=roehana-tembok-gadang]
+*1911*: Kerajinan Amai Setia
+Bersama 60 anggota, Roehana mendirikan Kerajinan Amai Setia. Tenun dan renda perempuan Koto Gadang dijual lebih luas, sambil diajarkan baca tulis, berhitung, memasak, mengurus rumah, dan agama.
+---
+[number=off icon=chat photo=roehana-tembok-gadang]
+Satu halaman? Satu koran
+Datuk Sutan Maharadja, pemimpin Oetoesan Melajoe, menawarkan halaman khusus perempuan di korannya. Menurut satu versi, Roehana meminta lebih: koran perempuan yang berdiri sendiri. Versi lain menyebut tawaran koran itu datang dari Datuk.
+---
+[number=off icon=star photo=roehana-soenting-1912]
+*Juli 1912*: terbit di Padang
+"Soerat chabar perempoean di Alam Minang Kabau", terbit tiap pekan. Redakturnya dua perempuan: Roehana di Koto Gadang dan Zoebaidah Ratna Djoewita, putri Datuk Sutan Maharadja, di Padang. Langganannya f1,80 setahun.
+---
+[number=off icon=map-pin photo=roehana-ngarai-sianok]
+Dari Sawahlunto sampai Mesir
+Tulisan datang dari Sulit Air, Maninjau, Bengkulu, Palembang, Lubuk Pakam, dan banyak tempat lain. Ada juga kiriman pembaca di Johor dan Mesir. Hampir semua tulisannya karya perempuan.
+---
+[quote icon=none photo=roehana-masjid-koto-gadang]
+Meskipoen dada kita soedah menjadi goenoeng pengetahoean, tetapi adat kita jang soedah toeroen menoeroen jangan dihilangkan.
+— Soenting Melajoe, 13 Maret 1914
+---
+[number=off icon=lightbulb photo=roehana-rumah-kelahiran]
+Sekolah bukan kejahatan
+Masih ada orang tua yang tak mau menyekolahkan anak perempuannya, bahkan menganggap sekolah mendatangkan kejahatan. Soenting Melajoe menjawab lewat tulisan "Kebaikan Anak Perempoean Bersekolah" (1914).
+---
+[number=off icon=heart photo=roehana-ngarai-sianok]
+Redakturnya jenderal
+Agustus 1912, Ruhina dari Sawahlunto menulis: para perempuan pembaca adalah serdadu, kedua redaktur jenderalnya, dan Soenting Melajoe panji perangnya.
+---
+[number=off icon=book photo=roehana-tembok-gadang]
+Bukan yang pertama, tapi berbeda
+Tahun 1908 sudah ada Poetri Hindia, didirikan Tirto Adhi Soerjo, dengan pemimpin redaksi perempuan Belanda. Soenting Melajoe disebut koran perempuan pertama yang dikelola sepenuhnya oleh perempuan pribumi.
+---
+[number=off icon=clock photo=roehana-masjid-koto-gadang]
+*1921*: berhenti terbit
+Edisi terakhir terbit 28 Januari 1921. Bulan berikutnya pekerja percetakannya mogok, dan Soenting Melajoe tidak terbit lagi. Selama hampir sembilan tahun, ia terbit sekitar 50 nomor setiap tahun.
+---
+[number=off icon=star photo=roehana-ngarai-sianok]
+*2019*: Pahlawan Nasional
+Roehana sepupu Agus Salim dan kakak tiri Sutan Sjahrir. Tapi gelarnya ia raih sendiri: November 2019, pemerintah menetapkannya sebagai Pahlawan Nasional atas jasanya lewat Soenting Melajoe.
+---
+[end photo=roehana-soenting-1912 cta="Komen"]
+Pernah dengar *namanya?*
+Komen satu kata: pernah atau belum. Kirim ke temanmu yang kuliah jurnalistik.

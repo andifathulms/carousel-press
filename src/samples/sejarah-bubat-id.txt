@@ -1,0 +1,62 @@
+handle: @sejarah.nusantara.id
+template: editorial/midnight
+lang: id
+title: bubat tiga versi
+caption: Perang Bubat 1357 diceritakan tiga naskah, dan ketiganya tidak sama. Sumber: Pararaton (terjemahan Indonesia); W.J. Sastrawan, Indonesia and the Malay World (2020); S. Azmi, "Bubat: Sisi Gelap Hubungan Kerajaan Majapahit Hindu dengan Kerajaan Sunda" (UIN Jakarta) mengutip Kidung Sunda (ed. Berg) dan Carita Parahyangan (ed. Atja & Danasasmita 1981); Sondarika dkk., Jurnal Artefak 11(2) 2024; Suara Surabaya, 11 Mei 2018 · Foto: Glasreifen, Ivuvisual, Eka343, Rahmatdenas (CC BY-SA 4.0) via Wikimedia Commons; I. van Kinsbergen (domain publik) #sejarahindonesia #perangbubat #majapahit #sunda
+---
+[cover photo=bubat-wringin-lawang]
+Jalan Hayam Wuruk | Baru Ada di Bandung 2018
+Akarnya peristiwa tahun 1357 di Bubat, yang diceritakan berbeda oleh tiga naskah.
+---
+[number=off icon=map-pin photo=bubat-bajang-ratu]
+Yang disepakati
+Tahun 1279 Saka atau 1357 Masehi, Raja Sunda datang ke Majapahit untuk menikahkan putrinya dengan Hayam Wuruk. Raja dan rombongannya tewas dalam pertempuran. Kisahnya ada di Pararaton, Kidung Sunda, dan Carita Parahyangan.
+---
+[number=off icon=book photo=bubat-lontar]
+Semuanya naskah, bukan prasasti
+Pararaton mencatat peristiwa sampai 1481; salinan bertanggal tertuanya dari 1600. Carita Parahyangan disusun akhir abad ke-16. Kidung Sunda tidak diketahui kapan dan oleh siapa digubah.
+---
+[number=off icon=chat photo=bubat-bajang-ratu]
+Versi Pararaton: persembahan
+Hayam Wuruk menginginkan putri Sunda, dan orang Sunda setuju. Tapi Patih Gajah Mada keberatan pernikahan dirayakan secara resmi. Ia ingin sang putri diserahkan sebagai persembahan. Orang Sunda menolak.
+---
+[number=off icon=alert photo=bubat-wringin-lawang]
+Pararaton: Sunda bertahan
+Raja Sunda hampir menyerahkan putrinya, tapi para bangsawannya memilih bertempur. Majapahit mengepung. Raja Sunda gugur lebih dulu. Serangan balik Sunda sempat memukul Majapahit, sebelum para menteri berkuda membalas dan rombongan Sunda habis.
+---
+[quote icon=none photo=bubat-lontar]
+…Bali, Sunda, Palembang, Tumasik, barulah saya menikmati masa istirahat.
+— Sumpah Gajah Mada dalam Pararaton (terjemahan)
+Sesudah Bubat, Pararaton menulis: "Sekarang Gajah Mada menikmati masa istirahat."
+---
+[number=off icon=heart photo=bubat-kawali-1900]
+Pararaton: putri tanpa nama
+Pararaton tidak menyebut nama sang putri, juga tidak menceritakan cara ia meninggal. Hanya satu kalimat: karena putri Sunda itu mati, Hayam Wuruk lalu menikah dengan Paduka Sori.
+---
+[number=off icon=chat photo=bubat-bajang-ratu]
+Versi Kidung Sunda: Gajah Mada
+Di sini Gajah Mada tokoh penentu. Ia membujuk Hayam Wuruk agar tidak menyambut Raja Sunda di Bubat. Patih Sunda, Anepaken, datang memprotes, dan keduanya saling memaki. Dalam pertempuran, Gajah Mada membunuh Anepaken.
+---
+[number=off icon=moon photo=bubat-kawali-1900]
+Kidung Sunda: sang putri
+Raja Sunda menyuruh permaisuri dan putrinya pulang, tapi keduanya menolak. Setelah raja gugur, mereka mengakhiri hidup untuk menyusulnya. Hayam Wuruk menyesali peristiwa itu, dan jenazah mereka diperabukan dalam upacara keagamaan.
+---
+[number=off icon=book photo=bubat-kawali-1900]
+Versi Carita Parahyangan
+Naskah Sunda ini tidak memakai kata Bubat. Isinya singkat: Prabu Maharaja memerintah tujuh tahun, "mendapat bencana" karena putrinya, banyak orang pergi ke Jawa, "maka terjadilah perang di Majapahit."
+---
+[number=off icon=star photo=bubat-lontar]
+Dari mana nama Dyah Pitaloka?
+Nama Dyah Pitaloka Citraresmi tidak ada di Pararaton. Di Carita Parahyangan, sang putri disebut Tohan. Nama lengkap itu muncul di catatan penjelas edisi Atja dan Saleh Danasasmita (1981).
+---
+[number=off icon=chat photo=bubat-gedung-sate]
+Ingatan yang panjang
+Kidung Sunda diterbitkan dan diterjemahkan filolog Belanda C.C. Berg, lalu beredar luas di masyarakat Sunda. Sebagian peneliti menduga terjemahan itu menghidupkan lagi luka lama. Mitos larangan menikah Sunda dan Jawa masih dipercaya sebagian orang.
+---
+[number=off icon=map-pin photo=bubat-gedung-sate]
+*11 Mei 2018*: Bandung
+Di Gedung Sate, Gubernur Jawa Barat, Gubernur Jawa Timur, dan Wakil Gubernur DIY meresmikan Jalan Majapahit, Jalan Hayam Wuruk, dan Jalan Citraresmi di Bandung, dalam acara Harmoni Budaya Jawa-Sunda.
+---
+[end photo=bubat-wringin-lawang cta="Komen"]
+Versi mana yang *paling masuk akal?*
+Komen satu huruf: P (Pararaton), K (Kidung Sunda), atau C (Carita Parahyangan).
