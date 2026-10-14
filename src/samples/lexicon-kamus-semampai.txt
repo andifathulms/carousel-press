@@ -1,0 +1,68 @@
+template: lexicon/kamus
+lang: id
+title: semampai bukan tinggi
+caption: Arti kata semampai menurut KBBI ternyata langsing, bukan tinggi. Plus nanar, jengah, rawan, dan seronok. Sumber: KBBI VI Daring #bahasaindonesia #kbbi #katabaku
+---
+[cover kicker="SALAH ARTI"]
+Semampai Itu Langsing, | Bukan Tinggi
+Plus 4 kata lain yang artinya sering meleset.
+---
+[word]
+pos: adjektiva
+word: semampai
+meaning: langsing; lampai; ramping dan lemas; tidak kaku (tentang tubuh dan sebagainya)
+example: Penarinya *semampai*, geraknya luwes sekali.
+note: Contoh di KBBI: badannya tinggi semampai. Tingginya disebut sendiri. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: nanar
+meaning: berasa pusing (karena mabuk, kena pukul, dan sebagainya)
+example: Habis naik wahana itu, kepalaku masih *nanar*.
+note: Arti lainnya: bingung; tercengang-cengang, atau marah sekali. Tak ada arti sedih. Sumber: KBBI VI Daring
+---
+[compare]
+wrong: Matanya nanar menahan tangis di pemakaman.
+right: Matanya *berkaca-kaca* menahan tangis di pemakaman.
+why: Untuk mata yang keluar air mata tapi tidak sampai terjatuh, KBBI mencatat berkaca-kaca. Nanar itu pusing atau bingung.
+---
+[word]
+pos: adjektiva · Melayu Jakarta
+word: jengah
+meaning: malu; kemalu-maluan
+example: Dipuji di depan kelas, dia jadi *jengah*.
+note: Sumber: KBBI VI Daring
+---
+[compare]
+wrong: Aku jengah dengar gosip yang itu-itu terus.
+right: Aku *bosan* dengar gosip yang itu-itu terus.
+why: Jengah berarti malu. Untuk rasa jemu karena terlalu sering, KBBI mencatat bosan.
+---
+[word]
+pos: adjektiva
+word: rawan
+meaning: rindu bercampur sedih; pilu; terharu
+example: Hatinya *rawan* tiap lagu itu diputar.
+note: Ini arti pertama di KBBI. Arti keduanya baru gawat. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva · klasik
+tag: BONUS
+word: seronok
+meaning: menyenangkan hati; sedap dilihat (didengar dan sebagainya)
+example: Alunan gamelannya *seronok* didengar.
+note: Arti erotis juga tercatat, tapi berlabel cakapan. Sumber: KBBI VI Daring
+---
+[table]
+Arti menurut KBBI
+| Kata | Artinya |
+| *semampai* | langsing; lampai |
+| *nanar* | berasa pusing |
+| *jengah* | malu; kemalu-maluan |
+| *rawan* | rindu bercampur sedih |
+| *seronok* | menyenangkan hati |
+Sumber: KBBI VI Daring
+---
+[end cta="Simpan"]
+Kata mana yang *selama ini meleset?*
+Tulis satu kata di komen. Jujur aja.

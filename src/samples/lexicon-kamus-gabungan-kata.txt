@@ -1,0 +1,58 @@
+template: lexicon/kamus
+lang: id
+title: gabungan kata eyd v
+caption: Segitiga ditulis serangkai, segi empat dipisah. Begini aturan gabungan kata dari EYD V. Sumber: EYD Edisi V (Gabungan Kata); KBBI VI Daring #bahasaindonesia #katabaku #eyd
+---
+[cover kicker="GABUNGAN KATA"]
+Segitiga Disambung, | Segi Empat Dipisah
+Dua-duanya gabungan kata. Ini 5 aturan EYD V yang menjelaskannya.
+---
+[compare]
+wrong: Rapatnya di rumahsakit dekat ibukota.
+right: Rapatnya di *rumah sakit* dekat *ibu kota*.
+why: EYD V: unsur gabungan kata ditulis terpisah, seperti wali kota, orang tua, dan segi empat. KBBI VI menandai ibukota tidak baku.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Kita harus bertanggungjawab.
+right: Kita harus *bertanggung jawab*.
+why: Gabungan kata yang hanya mendapat awalan tetap ditulis terpisah, seperti bertepuk tangan. Begitu juga bekerja sama.
+---
+[compare]
+wrong: Laporan pertanggung jawaban belum masuk.
+right: Laporan *pertanggungjawaban* belum masuk.
+why: Kalau mendapat awalan dan akhiran sekaligus, gabungan kata ditulis serangkai, seperti dilipatgandakan dan menyebarluaskan.
+---
+[compare]
+wrong: Tolong garisbawahi kata itu.
+right: Tolong *garis bawahi* kata itu.
+why: Hanya mendapat akhiran -i, jadi tetap terpisah. Tambah awalan meng- juga, baru serangkai: menggarisbawahi.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Rajin baca biar kosa kata makin kaya.
+right: Rajin baca biar *kosakata* makin kaya.
+why: Kosakata termasuk gabungan kata yang ditulis serangkai di EYD V, sama seperti segitiga, matahari, dan olahraga.
+---
+[table]
+Disambung atau dipisah?
+| Disambung | Dipisah |
+| *segitiga* | *segi empat* |
+| *matahari* | *mata acara* |
+| *olahraga* | *rumah sakit* |
+| *kacamata* | *orang tua* |
+| *kosakata* | *wali kota* |
+| *saputangan* | *duta besar* |
+| *dukacita* | *cendera mata* |
+| *beasiswa* | *kambing hitam* |
+Sumber: EYD Edisi V, Gabungan Kata
+---
+Ibu-bapak kami, atau nenek?
+EYD V: kalau bisa salah paham, beri tanda hubung. *Ibu-bapak kami* berarti ibu dan bapak kami.
+*Ibu bapak-kami* berarti ibu dari bapak kami, alias nenek.
+---
+[end cta="Simpan"]
+Tag teman yang *masih nulis ibukota.*
+Atau tulis gabungan kata yang bikin kamu ragu.

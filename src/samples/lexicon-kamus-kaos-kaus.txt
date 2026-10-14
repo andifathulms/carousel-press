@@ -1,0 +1,64 @@
+template: lexicon/kamus
+lang: id
+title: kaos atau kaus
+caption: Salah tulis kata yang ternyata kata lain di KBBI: kaos itu kacau balau, gajih itu lemak, telor itu pelat. Sumber: KBBI VI Daring #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="SALAH KAPRAH"]
+Pakai Kaos Baru? | Kaos Itu Kacau Balau
+Yang baku: kaus. Plus 5 salah tulis yang ternyata kata lain.
+---
+[word]
+pos: nomina
+word: kaos
+meaning: keadaan kacau balau
+example: Rapatnya jadi *kaos* gara-gara proyektornya mati.
+note: Kaos dengan arti baju adalah bentuk tidak baku dari kaus. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Aku beli kaos polos tiga.
+right: Aku beli *kaus* polos tiga.
+why: KBBI VI mencatat kaus sebagai bentuk baku, kaos tidak baku. Salah satu arti kaus: baju yang terbuat dari bahan kaus.
+---
+[compare]
+wrong: Gajih bulan ini sudah masuk?
+right: *Gaji* bulan ini sudah masuk?
+why: KBBI VI: gaji berarti upah kerja yang dibayar dalam waktu yang tetap. Gajih berarti gemuk; lemak, seperti gajih pada daging.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Beli telor sekilo, ya.
+right: Beli *telur* sekilo, ya.
+why: Telor tercatat sebagai bentuk tidak baku dari telur. Sebagai adjektiva, telor berarti tidak dapat mengucapkan kata-kata dengan lafal yang betul.
+---
+[compare]
+wrong: Film ini syarat makna.
+right: Film ini *sarat* makna.
+why: Sarat berarti penuh mengandung. Syarat berarti janji atau ketentuan yang harus dipenuhi, seperti syarat pendaftaran.
+---
+[compare]
+wrong: Masa aksi berkumpul di depan gedung.
+right: *Massa* aksi berkumpul di depan gedung.
+why: Massa berarti sekumpulan orang yang banyak sekali. Masa berarti waktu; ketika; saat, seperti masa kecil.
+---
+[compare]
+wrong: Pernikahan mereka sudah syah.
+right: Pernikahan mereka sudah *sah*.
+why: Sah berarti dilakukan menurut hukum yang berlaku. Syah berarti raja; baginda raja, juga raja dalam permainan catur.
+---
+[table]
+Ternyata artinya
+| Ditulis | Arti di KBBI |
+| kaos | *keadaan kacau balau* |
+| gajih | *gemuk; lemak* |
+| telor | *pelat; pelo* |
+| syarat | *janji; ketentuan* |
+| masa | *waktu; ketika; saat* |
+| syah | *raja; baginda raja* |
+Sumber: KBBI VI Daring
+---
+[end cta="Simpan"]
+Kesalahan mana yang *paling bikin gatal?*
+Tulis satu kata di komen: kaos, gajih, atau telor.

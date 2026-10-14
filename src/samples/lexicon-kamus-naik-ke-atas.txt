@@ -1,0 +1,72 @@
+template: lexicon/kamus
+lang: id
+title: naik ke atas pleonasme
+caption: Naik ke atas, mundur ke belakang, para hadirin: contoh pleonasme yang kita pakai tiap hari. Sumber: KBBI VI Daring #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="SALAH KAPRAH"]
+Naik ke Atas? | Memangnya Ada Naik ke Bawah?
+Itu pleonasme: katanya dobel. Ini 6 yang sering kita pakai.
+---
+[word]
+pos: nomina
+word: pleonasme
+meaning: pemakaian kata-kata yang lebih daripada yang diperlukan
+example: "Naik ke atas" itu contoh *pleonasme*.
+note: Contoh di KBBI: kita harus dan wajib saling menghormati. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Boros
+right-label: Cukup
+wrong: Ayo naik ke atas, rapatnya di lantai tiga.
+right: Ayo *naik*, rapatnya di lantai tiga.
+why: KBBI: naik berarti bergerak ke atas atau ke tempat yang lebih tinggi. Arah ke atas sudah ada di dalam kata naik.
+---
+[compare]
+wrong-label: Boros
+right-label: Cukup
+wrong: Mobilnya mundur ke belakang sedikit.
+right: Mobilnya *mundur* sedikit.
+why: KBBI: mundur berarti berjalan (bergerak) ke belakang. Turun ke bawah sama: turun sudah berarti bergerak ke arah bawah.
+---
+[compare]
+wrong-label: Boros
+right-label: Cukup
+wrong: Para hadirin dimohon berdiri.
+right: *Hadirin* dimohon berdiri.
+why: Hadirin berarti semua orang yang hadir, sudah jamak. Para juga menandai kelompok, jadi jamaknya dobel.
+---
+[compare]
+wrong-label: Boros
+right-label: Cukup
+wrong: Lebaran waktunya saling bermaaf-maafan.
+right: Lebaran waktunya *bermaaf-maafan*.
+why: KBBI: bermaaf-maafan berarti saling memaafkan. Arti saling sudah ada di dalam kata itu.
+---
+[compare]
+wrong-label: Boros
+right-label: Cukup
+wrong: Belajarlah agar supaya lulus.
+right: Belajarlah *agar* lulus.
+why: Di KBBI, agar dan supaya saling menjelaskan: agar berarti supaya. Pilih salah satu.
+---
+[compare]
+wrong-label: Boros
+right-label: Cukup
+wrong: Jakarta adalah merupakan kota terbesar di Indonesia.
+right: Jakarta *merupakan* kota terbesar di Indonesia.
+why: Salah satu arti merupakan di KBBI adalah "adalah". Pakai salah satu: adalah atau merupakan.
+---
+[table]
+Cukup satu
+| Boros | Cukup |
+| naik ke atas | *naik* |
+| mundur ke belakang | *mundur* |
+| para hadirin | *hadirin* |
+| saling bermaaf-maafan | *bermaaf-maafan* |
+| agar supaya | *agar* / *supaya* |
+| adalah merupakan | *adalah* / *merupakan* |
+Sumber: KBBI VI Daring
+---
+[end cta="Simpan"]
+Mana yang *paling sering kamu dengar?*
+Tulis satu frasa di komen, misalnya: para hadirin.

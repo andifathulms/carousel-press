@@ -1,0 +1,73 @@
+template: lexicon/kamus
+lang: id
+title: kata indah hujan
+caption: Kata indah bahasa Indonesia tentang hujan, dan semuanya beneran ada di KBBI. Bau tanah habis hujan pun punya nama: petrikor. Sumber: KBBI VI Daring (Oktober 2026) #bahasaindonesia #kataindah #kbbi
+---
+[cover kicker="KATA INDAH #3 · KBBI VI"]
+Bau Tanah Habis Hujan | Ada Namanya di KBBI
+Petrikor, plus 6 kata indah tentang hujan yang benar-benar tercatat.
+---
+[word]
+pos: nomina
+word: petrikor
+meaning: aroma khas yang diasosiasikan dengan aroma yang keluar saat air hujan membasahi tanah yang kering
+example: Begitu hujan turun, *petrikor* langsung tercium dari halaman.
+note: Sinonimnya di KBBI: angu. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · Minangkabau
+word: rinai
+meaning: gerimis; rintik-rintik; tetes-tetes (tentang hujan)
+example: *Rinai* sore ini bikin kopi terasa lebih hangat.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: tempias
+meaning: titik-titik air yang berhamburan
+example: Tutup jendelanya, *tempias* hujan masuk ke meja.
+note: Contoh di KBBI: dari air hujan, ombak, pancaran air. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: derai
+meaning: tiruan bunyi titik-titik air hujan yang jatuh di kaca dan sebagainya
+example: Aku tertidur ditemani *derai* hujan di jendela.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: halimun
+meaning: kabut tipis
+example: Pagi setelah hujan, *halimun* turun menutupi sawah.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva · sastra
+word: gemawan
+meaning: berbagai-bagai rupa awan
+example: Bulan mengintip dari balik awan *gemawan*.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · klasik
+word: bianglala
+meaning: pelangi
+example: Hujan reda, *bianglala* muncul di atas atap.
+note: Arti kedua: kincir ria. Sumber: KBBI VI Daring
+---
+[table]
+Simpan buat caption
+| Kata | Kelas |
+| *petrikor* | nomina |
+| *rinai* | nomina |
+| *tempias* | nomina |
+| *derai* | nomina |
+| *halimun* | nomina |
+| *gemawan* | adjektiva |
+| *bianglala* | nomina |
+Semua tercatat di KBBI VI Daring
+---
+[end cta="Simpan"]
+Pakai satu kata tadi *dalam satu kalimat.*
+Tulis di komen. Kata hujan favoritmu yang mana?
