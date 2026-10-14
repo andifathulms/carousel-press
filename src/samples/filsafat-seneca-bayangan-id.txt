@@ -1,0 +1,32 @@
+template: editorial/midnight
+lang: id
+title: menderita dalam bayangan
+caption: Buat yang overthinking malam karena mikirin besok. Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya. Sumber: Seneca, Surat kepada Lucilius 13.4–8 (terj. Richard M. Gummere) · SEP "Seneca" #filsafat #filsafatharian #overthinking #stoikisme
+---
+[cover kicker="FILSAFAT HARIAN · SENECA"]
+Jam 2 Pagi, | Masih Mikirin Besok?
+Satu kalimat Seneca buat overthinking malam ini.
+---
+[card kicker="Situasinya" number=off icon=none]
+Belum terjadi apa-apa, *tapi kamu sudah lelah.*
+Kepala memutar skenario terburuk, satu per satu.
+---
+[quote icon=none]
+Kita lebih sering menderita dalam bayangan daripada dalam kenyataan.
+— Seneca, Surat kepada Lucilius 13.4 (terj. bebas, Gummere)
+---
+[card kicker="Ide Seneca · Stoa, Romawi, abad ke-1 M" number=off icon=none]
+Kita membesarkan, mengarang, *dan mendahului* duka.
+Begitu tulisnya di surat yang sama (13.5). Takutnya nyata, kejadiannya sering belum ada.
+---
+[card kicker="Coba hari ini" number=off icon=none]
+Uji takutnya: *sedang terjadi, atau baru mungkin?*
+Seneca mengeluh kita jarang memeriksa hal yang kita takuti (13.8). Periksa dulu, baru percaya.
+---
+[card kicker="Tapi…" number=off icon=none]
+Tidak semua cemas *cuma bayangan.*
+Ada masalah yang memang nyata dan perlu ditangani. Cemas yang terus-menerus juga layak dibicarakan dengan orang lain.
+---
+[end cta="Simpan"]
+Takutmu malam ini *terjadi atau mungkin?*
+Komen satu kata aja.

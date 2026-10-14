@@ -1,0 +1,39 @@
+template: editorial/stone
+lang: id
+title: cogito ergo sum
+caption: "Aku berpikir maka aku ada" ternyata bukan soal berpikir positif. Sumber: Descartes, Diskursus tentang Metode bagian IV (terj. John Veitch) & Meditasi II · SEP "Descartes' Epistemology" #filsafat #filsafatharian #descartes #cogito
+---
+[cover kicker="SALAH KAPRAH FILSAFAT · #3"]
+Aku Berpikir, | *Maka Aku Ada*
+Kalimat yang sering jadi kata motivasi. Isinya ternyata soal ragu.
+---
+[compare]
+headline: Cogito = berpikir positif?
+wrong-label: Kata medsos
+wrong: Pikirkan dirimu sukses, maka kamu akan jadi sukses.
+right-label: Kata Descartes
+right: Saat meragukan segalanya, satu hal tak bisa diragukan: aku yang sedang ragu itu ada.
+why: Diskursus tentang Metode (1637), bagian IV. Ini titik awal pengetahuan yang pasti, bukan rumus mewujudkan keinginan.
+---
+[card kicker="Caranya · Prancis, abad ke-17" number=off icon=none]
+Ia sengaja *meragukan semuanya.*
+Indra bisa menipu, mimpi terasa nyata. Tapi meragukan pun berpikir, dan yang berpikir pasti ada.
+---
+[card kicker="Gagasannya, disarikan" number=off icon=none]
+Kamu bisa ragu soal apa pun, *kecuali bahwa yang ragu itu ada.*
+---
+[card kicker="Fakta kecil" number=off icon=none]
+Di *Meditasi,* ia menulis: aku ada, aku eksis.
+Benar setiap kali ia ucapkan atau pikirkan (Meditasi II). Rumus terkenalnya dari Diskursus, aslinya berbahasa Prancis.
+---
+[card kicker="Coba hari ini" number=off icon=none]
+Pisahkan yang pasti *dari yang cuma dikira.*
+Saat pikiran ramai, tulis dua kolom: yang benar-benar kamu tahu, dan yang masih tebakan.
+---
+[card kicker="Tapi…" number=off icon=none]
+Apakah *"aku"-nya* sudah pasti?
+Lichtenberg (abad ke-18) dan Russell: Descartes cuma berhak bilang "ada pikiran". Soal ini masih diperdebatkan.
+---
+[end cta="Simpan"]
+Kamu baru tahu, *atau sudah tahu?*
+Komen satu kata: baru atau sudah.

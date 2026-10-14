@@ -1,0 +1,32 @@
+template: editorial/stone
+lang: id
+title: lindungi teman atau bilang apa adanya
+caption: Temanmu curang, lalu kamu yang ditanya. Setia atau adil? Sumber: Konfusius, Analekta 13.18 & 4.18 (terj. James Legge) · SEP "Mohism" · SEP "Confucius" #filsafat #filsafatharian #etika #dilema
+---
+[cover kicker="KAMU PILIH MANA? · #2"]
+Temanmu Curang, | Kamu yang Ditanya
+Cara menimbang setia dan adil, dari dua aliran Tiongkok kuno.
+---
+[card kicker="Kamu pilih mana?" number=off icon=none]
+*A.* Lindungi teman. | *B.* Bilang apa adanya.
+Kamu tahu temanmu menyalin tugas kelompok lain. Besok dosen menanyai kelompokmu.
+---
+[card kicker="Posisi A · Konfusius (551–479 SM)" number=off icon=none]
+Setia pada orang dekat *juga bagian dari lurus.*
+Analekta 13.18: ada yang memuji anak yang bersaksi ayahnya mencuri domba. Konfusius: di tempatnya, ayah dan anak saling menutupi.
+---
+[card kicker="Posisi B · Mozi (abad ke-5 SM)" number=off icon=none]
+Peduli pada semua orang, *bukan cuma kelompokmu.*
+Ajarannya *jian ai,* kepedulian menyeluruh. Kelompok lain yang dirugikan juga dihitung.
+---
+[card kicker="Jalan tengah · Analekta 4.18" number=off icon=none]
+Tegur dulu, *dengan lembut.*
+Konfusius juga mengajarkan menegur orang dekat secara halus, tanpa melepas tujuannya. Bicara dengannya sebelum besok?
+---
+[card kicker="Tapi…" number=off icon=none]
+Contohnya soal *ayah dan anak,* bukan teman.
+Dan Mencius (abad ke-4 SM) mengecam Mozi karena dianggap mengabaikan keluarga.
+---
+[end cta="Simpan"]
+Kamu *A atau B?*
+Satu huruf di komen, plus satu kata alasannya.

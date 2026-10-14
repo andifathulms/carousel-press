@@ -1,0 +1,35 @@
+template: editorial/stone
+lang: id
+title: tiga tempat pemimpin
+caption: Baru jadi ketua kelompok atau kakak tertua? Tiga posisi dari Ki Hajar Dewantara. Sumber: Ki Sunardi H.S., "Sistem Among" (Tamansiswa Pusat, 2021) · Kompas.com, "Taman Siswa, Sekolah yang Jadi Bentuk Perlawanan Ki Hadjar Dewantara" (2026) #filsafat #filsafatharian #kihajardewantara #tutwurihandayani
+---
+[cover kicker="FILSAFAT HARIAN · KI HAJAR DEWANTARA"]
+Jadi Ketua, | Harus Selalu di Depan?
+Tiga posisi memimpin dari semboyan Tut Wuri Handayani.
+---
+[card kicker="Situasinya" number=off icon=none]
+Kamu jadi ketua, *lalu semua kamu kerjakan sendiri.*
+Atau sebaliknya: kamu cuma menyuruh dari jauh.
+---
+[card kicker="Ide Ki Hajar Dewantara · 1889–1959" number=off icon=none]
+Pemimpin punya *tiga tempat,* bukan satu.
+Ia merumuskannya untuk para guru di Taman Siswa, sekolah yang ia dirikan di Yogyakarta, 3 Juli 1922.
+---
+[quote icon=none]
+Ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani.
+— Ki Hajar Dewantara, semboyan sistem among Taman Siswa
+---
+[card kicker="Artinya" number=off icon=none]
+Di depan memberi contoh, di tengah membangun semangat, *di belakang memberi dorongan.*
+---
+[card kicker="Coba hari ini" number=off icon=none]
+Tanya dulu: *timku butuh aku di mana?*
+Contoh saat mulai, teman saat jalan, pendorong saat mereka sudah bisa sendiri.
+---
+[card kicker="Tapi…" number=off icon=none]
+Di belakang *bukan berarti lepas tangan.*
+Pamong memberi ruang, tapi tetap mengikuti dan turun tangan saat ada bahaya. Aslinya untuk sekolah, bukan kantor.
+---
+[end cta="Simpan"]
+Kamu paling sering *di depan, tengah, atau belakang?*
+Komen satu kata.
