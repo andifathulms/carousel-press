@@ -1,0 +1,78 @@
+template: dev/terminal
+lang: id
+title: npm scripts cheat sheet
+caption: Ngetik vite langsung: command not found. Lewat npm run dev: jalan. Ternyata ini alasannya. #npm #javascript #belajarcoding
+---
+[cover kicker="NPM • CHEAT SHEET"]
+`npm run dev` Jalan, | `vite` Nggak?
+Rahasianya di package.json, plus 5 trik npm scripts yang jarang dibahas.
+---
+[code]
+Script cuma perintah biasa
+`npm run` nambahin `node_modules/.bin` ke PATH, jadi `vite` ketemu.
+```json
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "test": "vitest run"
+}
+```
+---
+[code]
+Lupa nama script-nya?
+Tanpa nama, `npm run` nampilin semua script yang ada.
+```bash
+npm run
+```
+---
+[code]
+Dua script nggak perlu `run`
+`start` dan `test` punya jalan pintas.
+```bash
+npm start
+npm test
+```
+`npm dev` nggak jalan: "Unknown command".
+---
+[code]
+Kirim flag tambahan
+Semua setelah `--` diterusin ke script-nya.
+```bash
+npm run test -- --watch
+# jadi: vitest run --watch
+```
+---
+[code]
+Jalan otomatis sebelum dan sesudah
+Kasih awalan `pre` atau `post` di nama script.
+```json
+"prebuild": "rm -rf dist",
+"build": "vite build",
+"postbuild": "echo selesai"
+```
+`rm -rf` menghapus tanpa tanya. Pastikan path-nya benar.
+---
+[code]
+Gabung beberapa script
+`&&` lanjut ke perintah berikutnya cuma kalau yang sebelumnya sukses.
+```json
+"check": "npm run lint && npm test"
+```
+---
+[code number=off]
+Simpan ini
+Semua perintahnya di satu layar.
+```bash
+npm run
+npm start
+npm test
+npm run test -- --watch
+npm run build
+npm run check
+```
+---
+[end cta="Simpan"]
+Script apa yang *paling sering kamu jalanin?*
+Satu nama script di komen.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

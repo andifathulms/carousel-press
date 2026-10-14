@@ -1,0 +1,60 @@
+template: dev/terminal
+lang: id
+title: ai ngarang fungsi yang nggak ada
+caption: AI kasih fungsi yang kelihatan meyakinkan, tapi pas dijalankan "is not a function". Cek dulu pakai satu baris. #ai #belajarcoding #programmer
+---
+[cover kicker="AI • WORKFLOW"]
+AI-nya Ngarang Fungsi | yang Nggak Ada
+Cara ngecek dalam satu baris, plus 4 prompt biar nggak kejadian lagi.
+---
+[code]
+Cek dulu: fungsinya beneran ada?
+`node -p` langsung bisa akses modul bawaan seperti `fs`.
+```bash
+node -p "typeof fs.existsSync"
+# function
+node -p "typeof fs.readJson"
+# undefined
+```
+`undefined` berarti fungsinya nggak ada.
+---
+[code]
+Sebutin versi yang kamu pakai
+Cek pakai `node -v` dan `npm ls nama-library`.
+```
+Aku pakai Node 20 dan Express 4.
+Cuma pakai fungsi yang ada
+di versi itu. Kalau ragu, bilang.
+```
+---
+[code]
+Minta baris import-nya
+Fungsi karangan biasanya ketahuan di sini.
+```
+Fungsi ini dari library apa?
+Tulis juga baris import-nya.
+```
+---
+[code]
+Tempel docs aslinya
+Copy bagian docs resmi yang relevan ke chat.
+```
+Ini docs resminya: ...
+Jawab cuma pakai fungsi
+yang ada di docs ini.
+```
+---
+[code]
+Balikin error-nya ke AI
+Error asli lebih jelas daripada "nggak jalan".
+```
+TypeError: fs.readJson is not
+a function. Ganti pakai fungsi
+bawaan Node yang beneran ada.
+```
+---
+[end cta="Simpan"]
+AI kamu pernah ngarang *fungsi apa?*
+Tulis nama fungsinya di komen.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

@@ -1,0 +1,75 @@
+template: dev/github-dark
+lang: id
+title: tebak output python 2
+caption: Tiga baris Python yang hasilnya sering beda sama tebakan pertama. Tebak dulu sebelum geser. #python #belajarcoding #programmer
+---
+[cover kicker="TEBAK OUTPUT • #2"]
+3 Baris Python. | Berapa yang Kamu Benar?
+Edisi Python: jawab dulu di kepala, baru geser.
+---
+[code number=off]
+Soal 1: output-nya apa?
+A. 2
+B. 3
+C. 2.5
+```py
+print(round(2.5))
+```
+---
+[code number=off]
+Jawaban: A
+Kalau pas di tengah, round() memilih angka genap terdekat.
+```py
+print(round(2.5))
+# 2
+print(round(3.5))
+# 4
+```
+Namanya banker's rounding, biar pembulatan nggak condong ke atas.
+---
+[code number=off]
+Soal 2: output-nya apa?
+A. True
+B. False
+C. error
+```py
+print(bool("False"))
+```
+---
+[code number=off]
+Jawaban: A
+String apa pun yang nggak kosong dianggap True, termasuk "False".
+```py
+print(bool("False"))
+# True
+print(bool(""))
+# False
+```
+---
+[code number=off]
+Soal 3: output-nya apa?
+A. [1, 2]
+B. [1, 2, 3]
+C. error
+```py
+a = [1, 2]
+b = a
+b.append(3)
+print(a)
+```
+---
+[code number=off]
+Jawaban: B
+`b = a` nggak bikin salinan. a dan b nunjuk ke list yang sama.
+```py
+a = [1, 2]
+b = a
+b.append(3)
+print(a)
+# [1, 2, 3]
+```
+Mau salinan? Pakai `b = a.copy()`, hasilnya [1, 2].
+---
+[end cta="Follow"]
+Kamu benar *berapa dari 3?*
+Komen angkanya. Tebak Output #3 minggu depan.

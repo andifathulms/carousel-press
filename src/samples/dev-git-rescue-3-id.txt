@@ -1,0 +1,60 @@
+template: dev/terminal
+lang: id
+title: git rescue 3 file env ke-commit
+caption: File .env ikut ke-commit? Kalau belum di-push, keluarin dari commit tanpa hapus filenya. #git #belajarcoding #programmer
+---
+[cover kicker="GIT RESCUE • #3"]
+File `.env` | Ikut Ke-commit?
+Belum di-push? Keluarin dari commit, filenya tetap aman di laptop.
+---
+[code]
+Keluarin dari Git, file tetap ada
+`--cached` cuma hapus dari Git, bukan dari laptopmu.
+```bash
+git rm --cached .env
+```
+---
+[code]
+Biar nggak ke-commit lagi
+Tambahkan ke `.gitignore`, lalu stage.
+```bash
+echo ".env" >> .gitignore
+git add .gitignore
+```
+---
+[code]
+Rapikan commit terakhir
+Commit-nya diganti versi tanpa `.env`.
+```bash
+git commit --amend --no-edit
+```
+Cuma buat commit yang belum di-push.
+---
+[code]
+Pastikan sudah beres
+Baris pertama: alasan `.env` di-ignore.
+Kedua: kosong berarti nggak ada commit yang nyimpen `.env`.
+```bash
+git check-ignore -v .env
+# .gitignore:1:.env	.env
+git log --oneline -- .env
+```
+---
+[card]
+Sudah telanjur di-push?
+Anggap key-nya bocor. Ganti key-nya di dashboard layanannya dulu, baru hapus filenya pakai `git rm --cached` dan commit baru. Commit lama tetap nyimpen isinya.
+---
+[code number=off]
+Simpan ini
+Belum di-push? Jalankan berurutan dari atas.
+```bash
+git rm --cached .env
+echo ".env" >> .gitignore
+git add .gitignore
+git commit --amend --no-edit
+git log --oneline -- .env
+```
+---
+[end cta="Follow"]
+Pernah *nge-push API key* juga?
+Komen 🙈 kalau pernah. Git Rescue #4 minggu depan.

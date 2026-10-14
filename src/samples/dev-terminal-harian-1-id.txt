@@ -1,0 +1,77 @@
+template: dev/terminal
+lang: id
+title: terminal harian 1 curl
+caption: Cara pakai curl buat ngecek API: kalau di sini datanya benar, masalahnya bukan di backend. #curl #terminal #api #belajarcoding
+---
+[cover kicker="TERMINAL HARIAN • #1"]
+API-nya Error. | Salah Frontend | atau Backend?
+Cara pakai curl: tanya server langsung, tanpa browser.
+---
+[code]
+Lihat respons mentahnya
+Datanya benar di sini? Berarti masalahnya di frontend.
+```bash
+curl localhost:3000/api/users
+# [{"id":1,"nama":"Fathul"}]
+```
+---
+[code]
+Lihat status dan header
+`-i` nampilin status code dan header di atas isinya.
+```bash
+curl -i localhost:3000/api/users
+# HTTP/1.1 200 OK
+# Content-Type: application/json
+```
+---
+[code]
+Kirim data JSON
+Ngetes endpoint POST tanpa bikin form dulu.
+```bash
+curl localhost:3000/api/users \
+  -H "Content-Type: application/json" \
+  -d '{"nama":"Andi"}'
+# {"id":2,"nama":"Andi"}
+```
+Ada `-d`, curl otomatis kirim POST.
+---
+[code]
+Cuma butuh status code-nya
+Pas ngecek endpoint hidup atau nggak.
+```bash
+curl -s -o /dev/null \
+  -w "%{http_code}\n" \
+  localhost:3000/api/x
+# 404
+```
+---
+[code]
+Ikuti redirect
+Tanpa `-L`, curl berhenti di respons 301 yang isinya kosong.
+```bash
+curl -L localhost:3000/lama
+```
+---
+[code]
+Rapikan JSON yang panjang
+`-s` nyembunyiin progress bar, Python yang ngerapiin.
+```bash
+curl -s localhost:3000/api/users \
+  | python3 -m json.tool
+```
+---
+[code number=off]
+Simpan ini
+Ganti alamatnya dengan API kamu.
+```bash
+curl localhost:3000/api/users
+curl -i localhost:3000/api/users
+curl localhost:3000/api/users \
+  -H "Content-Type: application/json" \
+  -d '{"nama":"Andi"}'
+curl -L localhost:3000/lama
+```
+---
+[end cta="Follow"]
+Ngetes API biasanya *pakai apa?*
+Komen satu: curl, Postman, atau browser. Terminal Harian #2 minggu depan.
