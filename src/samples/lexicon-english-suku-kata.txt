@@ -1,0 +1,73 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: suku kata yang hilang
+caption: Cara baca comfortable, vegetable, chocolate yang benar: lebih pendek dari tulisannya. Sumber IPA: Cambridge Dictionary; Oxford Learner's Dictionaries #belajarbahasainggris #kosakatainggris #pronunciation
+---
+[cover kicker="PRONUNCIATION"]
+Comfortable Itu | 3 Suku Kata, Bukan 4
+Cara baca kata Inggris yang lebih pendek dari tulisannya. Ini 8 yang sering kita pakai.
+---
+[compare]
+wrong-label: Sering dibaca
+right-label: Kamus
+wrong: kom-for-TE-bel
+right: *KAMF*-te-bel
+why: Tekanannya di suku kata pertama, dan "for" hampir hilang. Kalaupun dibaca empat suku kata, "for" tetap lemah, bukan FOR.
+---
+[word]
+pos: adjective
+word: comfortable
+ipa: /ˈkʌmftəbl/ (UK & US, Oxford)
+say: "KAMF-te-bel"
+meaning: nyaman
+example: I don't feel *comfortable* in high heels.
+translation: Aku nggak nyaman pakai sepatu hak tinggi.
+note: Cambridge juga mencatat /ˈkʌm.fə.tə.bəl/ (UK), tekanan tetap di depan.
+---
+[word]
+pos: noun
+word: vegetable
+ipa: /ˈvedʒ.tə.bəl/ (UK & US)
+say: "VEJ-te-bel"
+meaning: sayur, sayuran
+example: Raw *vegetables* contain more potassium than cooked ones.
+translation: Sayur mentah mengandung lebih banyak kalium daripada yang dimasak.
+note: Bukan ve-je-TA-bel. Huruf e kedua tidak dibaca.
+---
+[word]
+pos: noun
+word: chocolate
+ipa: /ˈtʃɒk.lət/ (UK) · /ˈtʃɑːk.lət/ (US)
+say: "CHOK-let"
+meaning: cokelat
+example: I took her a box of *chocolates*.
+translation: Aku bawakan dia sekotak cokelat.
+note: Dua suku kata saja. Huruf o kedua tidak dibaca.
+---
+[table]
+Lebih pendek dari tulisannya
+| Kata | Dibaca | Suku kata |
+| interesting | "IN-tre-sting" | 3 |
+| camera | "KEM-re" | 2 |
+| every | "EV-ri" | 2 |
+| business | "BIZ-nis" | 2 |
+IPA: /ˈɪntrəstɪŋ/ (Oxford), /ˈkæm.rə/, /ˈev.ri/, /ˈbɪz.nɪs/ (Cambridge).
+---
+[word]
+pos: noun · beda UK/US
+word: temperature
+ipa: /ˈtem.prə.tʃər/ (UK) · /ˈtem.pɚ.ə.tʃɚ/ (US)
+say: "TEM-pre-cher" (UK)
+meaning: suhu
+example: What's the *temperature* in Jakarta today?
+translation: Suhu di Jakarta hari ini berapa?
+note: Versi US punya satu suku kata lagi: "TEM-pe-re-cher".
+---
+[card number=off]
+Ragu? Cek IPA-nya, hitung vokalnya
+Di kamus, camera ditulis /ˈkæm.rə/: tidak ada vokal di antara m dan r. Jadi dua suku kata, bukan tiga.
+---
+[end cta="Simpan"]
+Kata mana yang dulu *kamu baca lengkap?*
+Tulis satu katanya di komen.

@@ -1,0 +1,59 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: say atau tell
+caption: "He said me" atau "he told me"? Kuis say vs tell, jawabannya di slide berikutnya. Sumber: Cambridge Grammar ("Say or tell?"); Cambridge Dictionary #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="SAY VS TELL"]
+"He Said Me"? | Harusnya "He Told Me"
+Say dan tell sama-sama berarti bilang, tapi polanya beda. 3 kuis kecil, jawabannya di slide sesudahnya.
+---
+[card kicker="Kuis 1" number=off]
+*A.* He said me the news. | *B.* He told me the news.
+Jawaban di slide berikutnya.
+---
+[compare]
+wrong: He said me the news.
+right: He *told me* the news.
+why: Tell langsung diikuti orangnya: tell me, tell her. Say tidak. Kalau mau sebut orangnya, pakai say to: he said to me.
+---
+[card kicker="Kuis 2" number=off]
+*A.* She told she was sick. | *B.* She said she was sick.
+Jawaban di slide berikutnya.
+---
+[compare]
+wrong: She told she was sick.
+right: She *said* she was sick.
+why: Tanpa orang yang diajak bicara, pakai say. Tell butuh orangnya: she told me she was sick.
+---
+[card kicker="Kuis 3" number=off]
+*A.* Don't say a lie. | *B.* Don't tell a lie.
+Jawaban di slide berikutnya.
+---
+[compare]
+wrong: Don't say a lie.
+right: Don't *tell* a lie.
+why: Ini pasangan tetap, dan boleh tanpa orang: tell a lie, tell the truth, tell a joke, tell a story.
+---
+[table]
+Ringkasnya
+| Say | Tell |
+| say something | tell someone something |
+| say to someone | tell someone to … |
+| "Hello," she *said*. | tell a lie, tell the truth |
+| say goodbye, say thank you | tell a joke, tell a story |
+Untuk menyuruh pakai tell: They told us to come back the next day.
+---
+[word]
+pos: verb · V2/V3 of say
+word: said
+ipa: /sed/ (UK & US)
+say: "sed", bukan "seid"
+meaning: berkata, bilang (bentuk lampau say)
+example: She *said* she would wait for us outside.
+translation: Dia bilang dia mau nunggu kita di luar.
+note: Say dibaca "sei", tapi said dibaca "sed". V2 tell: told /təʊld/ (UK) · /toʊld/ (US).
+---
+[end cta="Simpan"]
+Kuis nomor berapa yang *bikin kamu ragu?*
+Komen angkanya: 1, 2, atau 3.

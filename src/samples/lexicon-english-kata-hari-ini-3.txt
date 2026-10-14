@@ -1,0 +1,27 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: kata hari ini 3 appointment
+caption: Kata hari ini #3: appointment, bahasa Inggrisnya "ada janji" ke dokter atau klien. Sumber: Cambridge Dictionary #belajarbahasainggris #kosakatainggris #vocabulary
+---
+[cover kicker="KATA HARI INI · #3"]
+Appointment | *Janji ke dokter bukan promise.*
+Satu kata Inggris tiap hari. Hari ini buat yang sering bilang "aku ada janji".
+---
+[card kicker="Coba tebak" number=off]
+"Aku ada janji ke dokter gigi besok pagi." *Promise atau appointment?*
+Tebak dulu, baru geser.
+---
+[word]
+pos: noun
+word: appointment
+ipa: /əˈpɔɪnt.mənt/ (UK & US)
+say: "e-POINT-ment"
+meaning: janji temu: waktu dan tempat yang sudah diatur untuk bertemu seseorang
+example: I have a dental *appointment* tomorrow morning.
+translation: Aku ada janji ke dokter gigi besok pagi.
+note: Promise itu janji akan melakukan sesuatu: I promise I'll call you.
+---
+[end cta="Follow"]
+Besok: *Kata hari ini #4.*
+Follow, satu kata tiap hari.

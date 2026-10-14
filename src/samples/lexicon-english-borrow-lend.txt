@@ -1,0 +1,64 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: borrow atau lend
+caption: Mau pinjam charger tapi bilang "Can I lend your charger?" Kebalik. Ini bedanya borrow dan lend. Sumber: Cambridge Dictionary; Cambridge Grammar ("Lend or borrow?") #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="BORROW VS LEND"]
+"Can I Lend Your Pen?" | Kebalik, Harusnya Borrow
+Pinjam dan meminjamkan itu dua kata berbeda di bahasa Inggris. Ini cara biar nggak ketuker lagi.
+---
+[card kicker="Mana yang benar?" number=off]
+*A.* Can I lend your charger? | *B.* Can I borrow your charger?
+HP-mu mau mati, kamu mau pinjam charger teman. Bilang yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Can I lend your charger?
+right: Can I *borrow* your charger?
+why: Kamu yang menerima barangnya, jadi borrow (meminjam). Lend artinya meminjamkan: kamu yang memberi.
+---
+[compare]
+wrong: Can you borrow me some money till payday?
+right: Can you *lend me* some money till payday?
+why: Minta orang lain meminjamkan ke kamu: lend me. Orang yang dipinjami langsung sesudah lend.
+---
+[compare]
+wrong: I lent this novel from the library.
+right: I *borrowed* this novel from the library.
+why: Dari perpustakaan ke kamu, jadi borrow. Pasangannya from: borrow sesuatu from seseorang.
+---
+[compare]
+wrong: My friend borrowed me his motorbike.
+right: My friend *lent* me his motorbike.
+why: Temanmu yang memberi pinjaman, jadi lend. Bentuk lampaunya lent.
+---
+[table]
+Lihat arah barangnya
+| Kata | Arti | Contoh |
+| *borrow* | meminjam | borrow a pen from Rina |
+| *lend* | meminjamkan | lend Rina a pen |
+Borrow: kamu menerima. Lend: kamu memberi. Bisa juga: lend a pen to Rina.
+---
+[word]
+pos: verb · borrowed, borrowed
+word: borrow
+ipa: /ˈbɒr.əʊ/ (UK) · /ˈbɑːr.oʊ/ (US)
+say: "BO-rou"
+meaning: meminjam: menerima sesuatu dan berniat mengembalikannya
+example: Could I *borrow* your bike until next week?
+translation: Boleh aku pinjam sepedamu sampai minggu depan?
+---
+[word]
+pos: verb · lent, lent
+word: lend
+ipa: /lend/ (UK & US)
+say: "lend"
+meaning: meminjamkan: memberi sesuatu untuk sementara, lalu dikembalikan
+example: If you need a coat, I can *lend* you one.
+translation: Kalau butuh jaket, aku bisa pinjamkan satu.
+note: Di US, loan juga dipakai sebagai kata kerja: Can you loan me $10 until payday?
+---
+[end cta="Simpan"]
+Charger tadi: *A atau B?*
+Komen satu huruf aja.
