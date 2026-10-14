@@ -1,0 +1,37 @@
+template: sport/kapur
+lang: id
+title: mitos aturan bola mati
+caption: Mulai 2026/27, lemparan ke dalam yang diulur lewat 5 detik pindah ke lawan. Ini 5 mitos aturan bola mati. Sumber: IFAB Laws of the Game 2026/27, Law 15, 16 & 17 #sepakbola #aturanbola #lemparankedalam
+---
+[cover kicker="SEPAK BOLA • LAW 15–17 • MITOS VS ATURAN"]
+Lemparan ke dalam diulur? | *Bola pindah ke lawan.*
+Aturan baru IFAB 2026/27. Ini 5 mitos bola mati yang masih dipercaya.
+---
+[verdict="Mitos" tone=bad]
+"Ulur tendangan gawang, paling kartu kuning."
+Aturannya: wasit kini menghitung mundur *5 detik.* Lewat, lawan dapat *tendangan sudut.*
+Law 16.2
+---
+[verdict="Mitos" tone=bad]
+"Lemparan ke dalam langsung masuk gawang itu gol."
+Aturannya: *nggak bisa jadi gol.* Masuk gawang lawan: tendangan gawang. Gawang sendiri: tendangan sudut.
+Law 15
+---
+[verdict="Mitos" tone=bad]
+"Gol langsung dari tendangan sudut nggak sah."
+Aturannya: *sah,* asal masuk gawang lawan. Kalau masuk gawang sendiri, lawan dapat tendangan sudut.
+Law 17
+---
+[verdict="Mitos" tone=bad]
+"Saat lemparan, kaki nggak boleh nginjak garis."
+Aturannya: *boleh.* Sebagian tiap kaki harus di garis atau di luar garis, dan dua tangan dari atas kepala.
+Law 15.1
+---
+[verdict="Mitos" tone=bad]
+"Tendangan gawang harus keluar kotak penalti dulu."
+Aturannya: bola *sudah main* begitu ditendang dan jelas bergerak. Rekan boleh menerimanya di dalam kotak.
+Law 16.1
+---
+[end cta="Kirim ke teman nobar"]
+Skor kamu *berapa dari 5?*
+Komen angkanya: satu poin buat tiap mitos yang kamu tahu salah.

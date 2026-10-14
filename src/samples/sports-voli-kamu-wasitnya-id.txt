@@ -1,0 +1,49 @@
+template: sport/lapangan
+lang: id
+title: kamu wasitnya voli
+caption: Kaki lewat garis tengah belum tentu fault, dan bola yang kena garis itu masuk. Tebak 3 situasi aturan voli ini dulu. Sumber: FIVB Official Volleyball Rules 2025–2028, Rules 8.3, 9.2, 11 & 14.4 #voli #bolavoli #aturanvoli
+---
+[cover kicker="VOLI • ATURAN 8–14 • KAMU WASITNYA"]
+Kaki boleh lewat garis tengah, | *asal masih nempel garis.*
+Aturan FIVB 2025–2028, plus 3 situasi buat kamu tebak. Jawab dulu, baru geser.
+---
+[diagram number=off]
+Smes jatuh, sebagian bola menyentuh garis samping.
+Masuk atau out? Jawab dulu, baru geser.
+```volleyball
+ball 100,72
+label 64,80 garis samping
+pass 30,2 -> 100,72
+```
+---
+[verdict="Masuk" tone=ok]
+Kena garis itu *masuk.*
+Bola masuk kalau ada bagiannya yang menyentuh lapangan, termasuk garis batas.
+Rule 8.3
+---
+[number=off]
+Smes lawan kena blok timmu, lalu timmu masih pakai 3 sentuhan.
+Sah atau four hits? Jawab dulu, baru geser.
+---
+[verdict="Sah" tone=ok]
+Sentuhan blok *nggak dihitung.*
+Setelah blok, tim tetap dapat 3 sentuhan. Pemain yang ngeblok boleh menyentuh lagi duluan.
+Rule 14.4
+---
+[number=off]
+Smesmu masuk ke net, net terdorong dan mengenai bloker lawan.
+Fault buat bloker? Jawab dulu, baru geser.
+---
+[verdict="Bukan fault" tone=warn]
+Net didorong bola: *nggak ada yang salah.*
+Kalau bola mendorong net sampai mengenai lawan, itu bukan fault. Reli jalan terus.
+Rule 11.3.3
+---
+[verdict="Bonus" tone=warn]
+Sentuhan pertama boleh *kena dua bagian badan.*
+Di sentuhan pertama tim, bola boleh kena lengan lalu badan beruntun, asal dalam satu gerakan.
+Rule 9.2.3
+---
+[end cta="Kirim ke tim volimu"]
+Skor kamu *berapa dari 3?*
+Komen angkanya. Tag teman yang selalu teriak "out!" padahal kena garis.

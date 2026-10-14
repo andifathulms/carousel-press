@@ -1,0 +1,61 @@
+template: sport/papan
+lang: id
+title: kamu wasitnya penalti
+caption: Kiper maju duluan belum tentu penaltinya diulang. Tebak 3 situasi aturan penalti ini, terus komen skormu. Sumber: IFAB Laws of the Game 2026/27, Law 14 #sepakbola #penalti #aturanbola
+---
+[cover kicker="SEPAK BOLA • LAW 14 • KAMU WASITNYA"]
+Penalti diulang, | *atau golnya sah?*
+3 situasi aturan penalti, IFAB 2026/27. Tebak dulu, baru geser.
+---
+[diagram number=off]
+Saat bola ditendang, satu kaki kiper di garis, satu lagi sudah maju.
+Sah atau diulang? Jawab dulu, baru geser.
+```football
+gk 50,1 satu kaki di garis
+ball 50,21
+att 50,27 penendang
+att 38,42
+def 62,42
+pass 50,21 -> 44,1
+```
+---
+[verdict="Sah" tone=ok]
+Cukup *satu kaki* di garis.
+Saat bola ditendang, sebagian satu kaki kiper harus menyentuh, sejajar, atau di belakang garis gawang.
+Law 14.1
+---
+[number=off]
+Kiper maju sebelum bola ditendang. Tendangannya melebar di luar gawang.
+Diulang atau nggak? Jawab dulu, baru geser.
+---
+[verdict="Nggak diulang" tone=bad]
+Meleset sendiri? *Nggak diulang.*
+Diulang cuma kalau pelanggaran kiper jelas mengganggu penendang, atau kiper yang menepis bolanya.
+Law 14.2
+---
+[diagram number=off]
+Ditepis kiper, lalu dicetak dari rebound.
+Pencetaknya masuk kotak penalti sebelum bola ditendang. Gol sah? Jawab dulu, baru geser.
+```football
+gk 46,3
+ball 40,9
+att 50,27
+att 28,18 masuk duluan
+def 64,42
+move 28,34 -> 28,18
+pass 46,3 -> 40,9
+```
+---
+[verdict="Dianulir" tone=bad]
+Masuk duluan, lalu mencetak: *dianulir.*
+Pelanggarannya berdampak. Golnya batal, tim bertahan dapat tendangan bebas tidak langsung.
+Law 14.2–14.3
+---
+[verdict="Bonus" tone=warn]
+Kepeleset, bola kena *dua kaki.*
+Sentuhan ganda nggak sengaja: kalau masuk, penalti diulang. Kalau nggak masuk, tendangan bebas tidak langsung.
+Law 14.2
+---
+[end cta="Kirim ke grup nobar"]
+Skor kamu *berapa dari 3?*
+Komen angkanya. Tag teman yang selalu teriak "ulang!" tiap penalti gagal.

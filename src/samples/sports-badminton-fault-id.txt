@@ -1,0 +1,50 @@
+template: sport/lapangan
+lang: id
+title: pojok bulu tangkis fault saat reli
+caption: Kok nyangkut di atas net saat reli itu bukan fault, tapi let. Tebak 3 situasi aturan bulu tangkis ini dulu. Sumber: BWF Laws of Badminton 2025 (sama di versi 2027), Law 13–14 #bulutangkis #badminton #aturanbulutangkis
+---
+[cover kicker="POJOK BULU TANGKIS • #3 • LAW 13"]
+Nggak semua yang kena net | *itu fault.*
+3 situasi saat reli menurut BWF Laws. Tebak dulu, baru geser.
+---
+[diagram number=off]
+Tunggal, skor 14–14. Kok jatuh menyentuh garis samping tunggal.
+Masuk atau keluar? Jawab dulu, baru geser.
+```badminton
+player 60,50 S
+ball 7.5,64
+label 11,72 garis tunggal
+pass 60,0 -> 7.5,64
+```
+---
+[verdict="Masuk" tone=ok]
+Kena garis itu *masuk.*
+Kok baru keluar kalau jatuhnya di luar garis. Garis batas termasuk lapangan.
+Law 13.3
+---
+[number=off]
+Kamu smes kok di sisimu, lalu raket terbawa melewati net tanpa menyentuhnya.
+Fault atau sah? Jawab dulu, baru geser.
+---
+[verdict="Sah" tone=ok]
+Raket boleh *ikut melewati net.*
+Asal kok dipukul di sisimu sendiri. Kalau raket atau badan menyentuh net, baru fault.
+Law 13.4
+---
+[number=off]
+Skor 14–14. Saat reli, kok nyangkut dan diam di atas net.
+Poin buat siapa? Jawab dulu, baru geser.
+---
+[verdict="Let" tone=warn]
+Bukan fault, *relinya diulang.*
+Setelah servis dikembalikan, kok nyangkut di net itu let dan skor tetap. Saat servis, itu fault.
+Law 14.2
+---
+[verdict="Bonus" tone=warn]
+Kena kepala raket dan senar? *Sah.*
+Satu pukulan, bukan dua. Fault kalau pemain yang sama memukul kok dua kali berturut-turut.
+Law 13.3
+---
+[end cta="Kirim ke partner ganda"]
+Skor kamu *berapa dari 3?*
+Komen angkanya. Tag teman yang selalu minta poin tiap kok nyangkut di net.
