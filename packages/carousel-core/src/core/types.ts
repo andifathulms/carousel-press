@@ -40,6 +40,7 @@ export const BUILTIN_TEMPLATE_IDS = [
   'sport/kapur',
   'lexicon/kamus',
   'lexicon/notebook',
+  'lexicon/lembar',
   'serene/fajr',
   'serene/isya',
 ] as const;

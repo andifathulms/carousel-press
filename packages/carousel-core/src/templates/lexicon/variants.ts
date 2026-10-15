@@ -56,4 +56,26 @@ export const notebook: Variant = {
   },
 };
 
-export const LEXICON_VARIANTS: readonly Variant[] = [kamus, notebook];
+/**
+ * SKD Harian (Oct 2026): an exam answer sheet. Square-grid paper with teal ink, graphite
+ * covers with a pencil-yellow accent, Barlow throughout (printed-form feel, lining figures).
+ * Not in SPEC-lexicon; tokens checked by contrast.test.ts.
+ */
+export const lembar: Variant = {
+  id: 'lexicon/lembar',
+  name: 'Lembar',
+  family: 'lexicon',
+  fonts: { serif: 'Barlow', sans: 'Barlow', mono: 'JetBrains Mono' },
+  surfaces: {
+    paper: S('#FBFBF8', '#1C2024', '#394047', '#666E76', '#0B6B61', '#0B6B61', '#FFFFFF', '#FBFBF8', '#0B6B61', '#E6F0EE'),
+    deep: S('#23272C', '#F5F5F2', '#D6D8D6', '#A2A7AB', '#F2C94C', '#F2C94C', '#23272C', '#23272C', '#F2C94C', '#31363C'),
+  },
+  rotation: ['paper'],
+  onPhoto: { ...onPhotoBase, accent: '#F2C94C', badgeBg: '#F2C94C', badgeInk: '#23272C', tint: '#121417' },
+  code: paperCode,
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, grid: 'squares', gridColor: 'rgba(11,107,97,0.08)' },
+  swatches: ['#FBFBF8', '#0B6B61', '#23272C', '#F2C94C'],
+  lex: { rule: '#D5E2DF', highlight: '#FBE38E', okBg: '#DDF0E6', okInk: '#17633A', badBg: '#FBE0DD', badInk: '#A3261C' },
+};
+
+export const LEXICON_VARIANTS: readonly Variant[] = [kamus, notebook, lembar];
