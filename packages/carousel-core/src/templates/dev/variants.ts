@@ -79,4 +79,30 @@ export const paperLight: Variant = {
   swatches: ['#F7F5F0', '#FFFFFF', '#2563EB', '#16181D'],
 };
 
-export const DEV_VARIANTS: readonly Variant[] = [githubDark, terminal, paperLight];
+/**
+ * Jago Kantoran (Oct 2026): a spreadsheet. Light grey-green page with faint cell gridlines,
+ * an office-green accent, a white formula panel without window dots, no terminal path.
+ * Code colours follow spreadsheet formula editing: functions green, references blue.
+ */
+export const sheet: Variant = {
+  id: 'dev/sheet',
+  name: 'Sheet',
+  family: 'dev',
+  fonts: { sans: 'Inter', mono: 'JetBrains Mono' },
+  surfaces: {
+    main: S('#F6F8F7', '#15201B', '#34403A', '#5F6B65', '#13723F', '#13723F', '#FFFFFF', '#F6F8F7', '#13723F', '#E2EBE6'),
+    deep: S('#EAF0EC', '#15201B', '#34403A', '#5B6761', '#13723F', '#13723F', '#FFFFFF', '#EAF0EC', '#13723F', '#D9E4DE'),
+  },
+  rotation: ['main'],
+  onPhoto: { ...darkOnPhoto, accent: '#7FD8A4', badgeBg: '#7FD8A4', badgeInk: '#0B1F14' },
+  code: {
+    panel: '#FFFFFF', border: '#CFDAD4', text: '#24292F', prompt: '#13723F', command: '#15201B',
+    subcommand: '#1F5FBF', flag: '#A14B00', string: '#9A3412', comment: '#6E7781', number: '#A14B00',
+    keyword: '#B42335', fn: '#13723F', punct: '#4B5563', dots: null,
+  },
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: 'fx', grid: 'cells', gridColor: 'rgba(21,32,27,0.05)' },
+  swatches: ['#F6F8F7', '#FFFFFF', '#13723F', '#1F5FBF'],
+  headerRight: 'rule',
+};
+
+export const DEV_VARIANTS: readonly Variant[] = [githubDark, terminal, paperLight, sheet];

@@ -35,6 +35,7 @@ export const BUILTIN_TEMPLATE_IDS = [
   'dev/github-dark',
   'dev/terminal',
   'dev/paper-light',
+  'dev/sheet',
   'sport/papan',
   'sport/lapangan',
   'sport/kapur',
