@@ -492,7 +492,7 @@ The slide is the biggest thing on screen. At 1180 × 820 the preview is about 34
 - **Left column:** a segmented control **Write · Photos · Style**.
   - Write: the deck text (`--font-mono` 14.5 px / 1.7) with syntax colour (header keys and `---` in `--faint`, tags cyan, attribute values `--muted`, `|` in `--warn`, `*accent*` coral, code green), slide numbers and warning dots in a 32 px gutter, warnings list, collapsible cheat sheet. The colour is a layer under a transparent-text textarea, so Scribble, dictation and undo behave as in any text field.
   - Photos: drop zone and photo grid; tap a photo to set its focal point.
-  - Style: template grid (the deck's first card rendered in every template, grouped by family; the current one has a `--select` ring), handle, language, photo darkness, and switches for the safe zone and baseline grid. "Compare cover and card" opens the gallery (PRD F12).
+  - Style: handle and language at the top, then the template grid (the deck's first card rendered in every template, grouped by family; the current one has a `--select` ring), photo darkness, and switches for the safe zone and baseline grid. "Compare cover and card" opens the gallery (PRD F12).
 - **Centre:** the preview fills the stage height, with crop marks instead of a drop shadow outline. Under it: round prev/next buttons (44 px), a tabular counter and progress dots. A "Safe zone" chip sits top-right. Swiping horizontally on the slide changes slides.
 - **Rail:** thumbnails 72 × 128, numbered, active = 2 px `--select` ring, warning dot top-right.
 - **Focus mode** (⛶): hides the left column and the rail; the neighbouring slides peek in at 30% opacity on each side.

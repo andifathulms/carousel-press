@@ -30,8 +30,8 @@ function switchRow(label: string, key: 'showSafe' | 'showGrid', c: Controller): 
 }
 
 /**
- * Style tab: template grid (the deck's first card drawn in every template), handle,
- * language, photo darkness and guides. Template, handle and language rewrite header lines.
+ * Style tab: handle, language, template grid (the deck's first card drawn in every template),
+ * photo darkness and guides. Template, handle and language rewrite header lines.
  */
 export function mountStylePanel(root: HTMLElement, c: Controller): void {
   const cells = listVariants().map((v) => {
@@ -64,12 +64,13 @@ export function mountStylePanel(root: HTMLElement, c: Controller): void {
   const darkVal = h('output', { class: 'range-val' });
   dark.addEventListener('input', () => c.setDarkness(Number(dark.value)));
 
+  // Handle and language first: they are quick edits, and the template grid below is long.
   root.append(
-    h('section', { class: 'style-sec' }, h('div', { class: 'style-head' }, h('h3', { class: 'label' }, 'Template'), compare),
-      ...groups.filter((g): g is HTMLDivElement => g !== null)),
     h('section', { class: 'style-sec style-row' },
       h('div', { class: 'field' }, h('h3', { class: 'label' }, 'Handle'), handle),
       h('div', { class: 'field' }, h('h3', { class: 'label' }, 'Language'), h('div', { class: 'segmented', role: 'group', 'aria-label': 'Language' }, ...langBtns))),
+    h('section', { class: 'style-sec' }, h('div', { class: 'style-head' }, h('h3', { class: 'label' }, 'Template'), compare),
+      ...groups.filter((g): g is HTMLDivElement => g !== null)),
     h('section', { class: 'style-sec' }, h('h3', { class: 'label' }, 'Photo darkness'), h('div', { class: 'range-row' }, dark, darkVal)),
     h('section', { class: 'style-sec' }, h('h3', { class: 'label' }, 'Guides'), switchRow('Safe zone', 'showSafe', c), switchRow('Baseline grid', 'showGrid', c)),
   );
