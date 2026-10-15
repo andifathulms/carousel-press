@@ -1,6 +1,6 @@
 # Channels: content brief for writing decks
 
-Read this before writing any deck. The owner runs nine TikTok accounts, and every deck is for exactly one of them.
+Read this before writing any deck. The owner runs eleven TikTok accounts, and every deck is for exactly one of them.
 If a request names an account ("10 posts for Ruang Rasa", "deck for Whistle Notes"), use that account's section.
 If it doesn't name one, infer it from the topic and say which one you picked:
 
@@ -13,6 +13,8 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 - Indonesian words, KBBI meanings, kata baku, kata serapan → **Kamus Kecil**
 - Quran ayat, hadith, doa, Islamic reminders → **Ayat Harian**
 - philosophy ideas applied to everyday life, thinkers, dilemmas → **Filsafat Harian**
+- exam and selection-test prep (SKD CPNS, sekolah kedinasan, PPPK, BUMN, psikotes) → **SKD Harian**
+- Excel, Word, PowerPoint, email and other office tips → **Jago Kantoran**
 
 The deck format is PRD §4. This file only says *what* to write and which template/attributes to use. It adds no new syntax.
 
@@ -27,6 +29,8 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 📖 Kamus Kecil | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
 | 🌙 Ayat Harian | `id` (+ Arabic) | One ayah / hadith a day, calm reminders | `serene/*` | `serene/fajr` |
 | 🏛️ Filsafat Harian | `id` | One philosophical idea applied to daily life | `editorial/*` | `editorial/stone` |
+| 📝 SKD Harian | `id` | Daily SKD/selection-test questions and strategy | `lexicon/*` | `lexicon/lembar` |
+| 🗂️ Jago Kantoran | `id` | Excel, Word, email and office fixes | `dev/*` | `dev/sheet` |
 
 ---
 
@@ -925,9 +929,306 @@ Hal di luar kendalimu yang *paling bikin kesal?*
 Satu kata aja di komen.
 ```
 
+## 10. 📝 SKD Harian
+
+**Tagline:** *Satu soal sehari, biar hari tes nggak kaget.*
+A faceless Indonesian account for practice and strategy for government and state selection tests. SKD CPNS is the core (most posts). Side series cover Sekolah Kedinasan (many schools use SKD via BKN's CAT plus their own stages), PPPK (teknis, manajerial, sosio-kultural, wawancara), Rekrutmen Bersama BUMN (basic aptitude, AKHLAK values, English) and general job psychotests (deret, analogi, logika). UTBK-SNBT is out of scope.
+It should feel like "oh, there's a 30-second way to do this", never like a tutoring ad or a promise.
+**Bio (owner to set):** must say it isn't an official account, e.g. "📝 Latihan SKD CPNS & kedinasan, satu soal tiap hari. Soal buatan sendiri. Bukan akun resmi BKN."
+
+| | |
+|---|---|
+| Purpose | Daily practice and test strategy for selection tests |
+| Audience | Indonesian fresh graduates, job seekers, SMA students aiming for sekolah kedinasan, honorer staff preparing for PPPK |
+| Reader should think | "I got it right / I fell for the trap. Tomorrow's question, please." |
+| Primary action | Comment (one letter), then save / follow |
+| Tone | Calm, clear, encouraging; never "pasti lolos", never panic |
+| Voice | A calm senior who passed the test and explains it plainly |
+| Slide types | `cover`, `card` (with `verdict=` for answers), `compare`, `table`, `end` |
+
+### Pillars
+
+1. **Soal Harian TIU #N** (most posts): numerik (aritmetika, deret, perbandingan, soal cerita) and verbal (analogi, silogisme, sinonim/antonim). **Figural only once an image slide exists** (see Open items); it can't be drawn yet.
+2. **TWK**: Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika, sejarah, as questions with the article or source cited in the answer slide.
+3. **TKP**: a workplace situation with five options and the scoring explained, labelled "pembahasan versi kami".
+4. **Mini Tryout Minggu**: 5–8 questions, the answer key at the end.
+5. **Strategi**: time, question order, traps, how scoring works.
+6. **Info Resmi**: only after an official announcement, quoting it.
+7. **Beda Tes**: compares CPNS, Kedinasan, PPPK and BUMN (stages, components), each with its official source.
+8. **Psikotes**: deret angka, analogi and logika for general job tests.
+
+### Accuracy rules (non-negotiable)
+
+- **Original questions only.** Never copy from tutoring books, tryout apps or other accounts, never paraphrase one closely, and never anything framed as "soal bocoran" or "soal asli tahun lalu".
+- **Every TIU answer is recomputed independently** before posting. Write the full working in the reply, check that exactly one option is correct, and check that the other options are wrong for a reason (a trap the explanation can name).
+- **TWK facts** are checked against the official text (UUD 1945 with its amendments, the law itself), with the article cited on the answer slide ("Pasal 1 ayat (3) UUD 1945"). Never from memory or a question bank.
+- **TKP** has no single published key. Every TKP explanation says "pembahasan versi kami" and explains the reasoning, never "kunci resmi".
+- **Rules that change every year** (passing grade, formation rules, number of questions, time, stages): cite that year's regulation or official announcement by name and number, and never reuse an older year's figures.
+- **Dates and registration info** come only from official channels: SSCASN (sscasn.bkn.go.id), the BKN kedinasan portal, each school's official site, and the official BUMN recruitment site. Every such post ends with "Cek pengumuman resmi".
+- **No affiliation implied** with BKN, KemenPANRB, any school or any BUMN: no logos, no "resmi", no copying their visual style.
+
+### Writing rules
+
+- Language: Indonesian (`lang: id`), clear and calm: `kamu`, short sentences. Terms as the tests use them: TWK, TIU, TKP, passing grade, formasi, CAT.
+- Numbers in Indonesian format (`Rp31.000`, `2,5`). Headlines hold the question; body lines hold the options `A. …` to `E. …`.
+- Motivation without promises: "Latihan rutin bikin kamu lebih cepat", never "dijamin lolos".
+- No mocking wrong answers. "Banyak yang kejebak di sini" beats "Masa gini aja salah".
+
+### Deck recipe
+
+- **Template:** `lexicon/lembar` (built for this account, Oct 2026): an exam answer sheet. Square-grid paper with teal ink for questions, graphite cover and end with a pencil-yellow accent, Barlow throughout so numbers read cleanly. Its `ok`/`bad` colours carry verdicts and compares. Never `lexicon/notebook` (Kosakata Inggris) or `editorial/rose-dusk` (Playfair's old-style figures make `Rp31.000` hard to read).
+- **Soal Harian:** cover (kicker `SOAL HARIAN TIU · #N · <MUDAH|SEDANG|SULIT>` carries the difficulty) → question card (`[card kicker="Soal · TIU numerik" number=off icon=none]`, the question as the headline, options A–E as body lines) → pause card "Tulis jawabanmu *di komen dulu.*" (`icon=clock`) → hint (`kicker="Petunjuk"`, `icon=lightbulb`) → answer `[card verdict="Jawaban: D" tone=ok]` with the working → `[compare]` with `wrong-label: Jebakan` / `right-label: Benar` (the common wrong answer vs the right one) → end. 7 slides.
+- **Mini Tryout:** cover → 5–8 question cards (`number=1`…, options as body lines) → answer key `[table]` (`| No | Jawaban | Materi |`) → 2–4 explanation cards for the hardest ones → end. ≤ 14 slides.
+- **Strategi:** cover → 4–6 numbered cards → end.
+- **TWK answers** end the body with the source on its own line (`Pasal 36A UUD 1945`). **TKP answers** use `[table]` with each option's score and `kicker` "Pembahasan versi kami" on the card after it.
+- **End:** `[end cta="Follow"]` with a one-tap ask ("Kamu tadi jawab *huruf apa?*") and what comes next ("Soal Harian TIU #N+1 besok.").
+- **Caption:** one line + the source if the post states facts (regulation, UUD article) + "Soal latihan buatan kami, bukan soal resmi" on question posts + 2–4 hashtags (`#skdcpns`, `#cpns`, `#tiu`, `#twk`, `#tkp`, `#sekolahkedinasan`, `#pppk`, `#rekrutmenbumn`).
+- **Rhythm:** Soal Harian daily, Mini Tryout on Sunday, 1–2 strategy or Beda Tes posts a week; side series (Kedinasan, PPPK, BUMN, Psikotes) at most 1 in 4 posts, more around their registration windows.
+
+Working for the example (checked by brute force: exactly one solution, exactly one matching option): 3p + 2b = 31.000 and 2p + 3b = 34.000. Adding them gives 5p + 5b = 65.000, so p + b = 13.000 (**D**). Subtracting gives b − p = 3.000, so p = 5.000 and b = 8.000; check 3·5.000 + 2·8.000 = 31.000 ✓, 2·5.000 + 3·8.000 = 34.000 ✓. Traps: A (pulpen only), C (buku only), B (65.000 ÷ 10 items), E (none).
+
+```text
+template: lexicon/lembar
+lang: id
+title: soal harian tiu 1 pulpen dan buku
+caption: Soal TIU hitungan yang bisa selesai di bawah 1 menit. Soal latihan buatan kami, bukan soal resmi BKN. #skdcpns #cpns #tiu #latihansoal
+---
+[cover kicker="SOAL HARIAN TIU · #1 · SEDANG"]
+Pulpen dan buku. | Ada jalan *30 detik.*
+Kerjakan dulu tanpa kalkulator, baru geser.
+---
+[card kicker="Soal · TIU numerik" number=off icon=none]
+3 pulpen + 2 buku = Rp31.000. | 2 pulpen + 3 buku = Rp34.000. | *1 pulpen + 1 buku = ?*
+A. Rp5.000
+B. Rp6.500
+C. Rp8.000
+D. Rp13.000
+E. Rp15.500
+---
+[card number=off icon=clock]
+Tulis jawabanmu *di komen dulu.*
+Satu huruf aja. Target: di bawah 60 detik.
+---
+[card kicker="Petunjuk" number=off icon=lightbulb]
+Yang ditanya bukan harga satuan. | *Jumlahkan dua persamaannya.*
+---
+[card verdict="Jawaban: D" tone=ok]
+5 pulpen + 5 buku = *Rp65.000*
+Bagi 5, jadi 1 pulpen + 1 buku = Rp13.000. Cek: pulpen Rp5.000, buku Rp8.000.
+---
+[compare]
+wrong-label: Jebakan
+right-label: Benar
+wrong: Rp65.000 ÷ 10 barang = Rp6.500
+right: Rp65.000 ÷ 5 pasang = *Rp13.000*
+why: Hasil penjumlahan itu 5 pasang pulpen + buku, bukan 10 barang. Opsi A dan C juga jebakan: itu harga satuan.
+---
+[end cta="Follow"]
+Kamu tadi jawab *huruf apa?*
+Komen hurufnya. Soal Harian TIU #2 besok.
+```
+
+(Rendered in `lexicon/lembar`, 7 slides, zero warnings.)
+
+### Starter list (30 ideas)
+
+1. Soal Harian TIU #1: pulpen dan buku, jumlahkan persamaannya (the example).
+2. TIU deret: pola selang-seling (two series interleaved).
+3. TIU perbandingan: kerja bersama (A selesai 6 hari, B 3 hari).
+4. TIU silogisme: "Semua… sebagian…", the conclusion everyone picks wrongly.
+5. TIU analogi kata: hubungan alat dan fungsi.
+6. TIU persen: diskon bertingkat 20% + 10% ≠ 30%.
+7. TIU soal cerita: kecepatan berpapasan.
+8. TIU sinonim/antonim: 5 kata yang sering menjebak (meanings checked in KBBI).
+9. TWK: Pancasila sebagai dasar negara, which document and which date (sources cited).
+10. TWK: bentuk negara dan kedaulatan, Pasal 1 UUD 1945.
+11. TWK: bendera, bahasa, lambang dan lagu kebangsaan, Pasal 35–36C UUD 1945.
+12. TWK: Bhinneka Tunggal Ika, where the phrase comes from (Kakawin Sutasoma, sourced).
+13. TWK: amendemen UUD 1945, four amendments and their years.
+14. TWK: sejarah, Sumpah Pemuda, the three points verbatim.
+15. TKP: atasan memberi tugas mendadak di jam pulang (pembahasan versi kami).
+16. TKP: rekan kerja salah dan dilimpahkan ke kamu.
+17. TKP: pelayanan publik, warga marah di loket.
+18. TKP: how TKP is scored (per the official rule of the year, cited).
+19. Mini Tryout Minggu #1: 6 TIU numerik.
+20. Mini Tryout Minggu #2: 4 TWK + 2 TKP.
+21. Strategi: urutan mengerjakan TWK, TIU, TKP, with the reasoning and no guarantees.
+22. Strategi: 5 jebakan soal cerita (satuan, "kecuali", sisa, persen dari persen, pembulatan).
+23. Strategi: kapan lompati soal, the per-question time budget (from that year's official time and count).
+24. Strategi: hitung cepat tanpa kalkulator, ×5, ×25, ÷ 0,5.
+25. Beda Tes: CPNS vs Sekolah Kedinasan vs PPPK vs BUMN, stages side by side (each sourced).
+26. Sekolah Kedinasan: what usually follows SKD (examples from one school's latest official announcement).
+27. PPPK: the four components (teknis, manajerial, sosio-kultural, wawancara) explained.
+28. BUMN: the AKHLAK values, one situational question.
+29. Psikotes: deret angka with two operations.
+30. Info Resmi: the opening of this year's registration, posted only after the announcement, with "Cek pengumuman resmi di SSCASN".
+
 ---
 
-## 10. Shared rules
+## 11. 🗂️ Jago Kantoran
+
+**Tagline:** *Kerjaan kantor lebih cepat, satu trik sehari.*
+A faceless Indonesian account teaching practical office skills to office workers, students and admin staff: Excel and Google Sheets, Word and Google Docs, PowerPoint, email and meetings, PDFs, and fixing the errors everyone hits.
+It should feel like "this saves me 20 minutes tomorrow morning", never like a software manual.
+
+| | |
+|---|---|
+| Purpose | Make everyday office tasks faster and less frustrating |
+| Audience | Indonesian office workers, admin and finance staff, teachers, students writing reports and theses |
+| Reader should think | "I'm saving this for when I open Excel tomorrow." |
+| Primary action | Save, then share with a colleague |
+| Tone | Practical, friendly, quick; a little relief when a problem goes away |
+| Voice | The colleague at the next desk who knows the shortcut |
+| Slide types | `cover`, `code` (formulas), `table`, `compare`, `card`, `end` |
+
+### Pillars
+
+1. **Excel / Google Sheets**: functions, pivot tables, conditional formatting, data validation, cleaning data, charts.
+2. **Word / Google Docs**: daftar isi otomatis, styles, page numbers starting on page 3, mail merge, track changes, formatting surat.
+3. **PowerPoint / Slides**: layouts, alignment, master slides, presenter view.
+4. **Email & meeting**: formal email, CC vs BCC, Gmail and Outlook tricks, Zoom and Teams.
+5. **Shortcuts & PDF**: keyboard shortcuts, merging, compressing and signing PDFs.
+6. **Masalah Kantor**: fixing common errors: `#N/A`, `#VALUE!`, numbers turning into dates, prints cut off.
+7. **AI di kantor**: drafting, summarising, formula help. Workflows only; no prices or model versions unless the owner confirms them.
+
+### Formats (reuse one topic in several)
+
+1. **Tutorial**: one task, one step per slide.
+2. **Compare**: two ways to do it (VLOOKUP vs XLOOKUP, CC vs BCC) and when to use which.
+3. **Salah → Benar**: a common mistake and its fix.
+4. **Kuis**: a formula on one slide, "hasilnya apa?" and the answer on the next.
+5. **Kasus nyata**: a real office situation (rekap absensi, gaji per divisi) solved start to finish.
+6. **Excel vs Google Sheets**: the same task in both where they differ.
+
+**Weekly rotation:** Mon Excel tutorial · Tue Word/Docs · Wed Masalah Kantor · Thu Shortcuts/PDF · Fri Excel quiz · Sat Email/PowerPoint · Sun AI di kantor or a recap. 4–5 posts a week is fine; skip days rather than fill them.
+
+### Accuracy rules (non-negotiable)
+
+- **Every formula and shortcut is tested before posting**, and the caption says where: "Diuji di Excel 365 (Windows)", "Diuji di Google Sheets". No test, no post.
+- **Version limits are stated.** For example, XLOOKUP needs Excel 2021, Excel 365 or Excel for the web, and Excel 2019 and older don't have it. When Google Sheets differs (function name, menu, shortcut), give the Sheets version too.
+- **Separators depend on the region setting.** Excel set to Indonesian region uses `;` between arguments; English (US) uses `,`. Show the `;` form on slides (most of the audience) and say once per deck that `,` is the other form.
+- **Shortcuts:** say Windows or Mac. Menu names are given in English and Indonesian when the Indonesian Office interface differs (e.g. Home/Beranda) only if checked.
+- **AI pillar:** describe workflows; don't state prices, limits or model versions unless the owner confirms them. Never paste confidential office data into an AI tool in an example.
+
+### Writing rules
+
+- Language: Indonesian (`lang: id`), relaxed: `kamu`. Keep menu names, function names and buttons exactly as the software writes them (`XLOOKUP`, `Conditional Formatting`, `Insert`).
+- One task per deck, one step per slide. Headline = what the step does; body = where to type or click; code = the exact formula; note after the fence = the result on the sample data.
+- Use one small, realistic sample table across the whole deck (IDs, names, divisions) and show it on slide 2, so every result can be checked.
+- Keep formulas short: no wrapping, and long lines shrink. Split a long formula into helper columns rather than one long line.
+
+### Deck recipe
+
+- **Template:** `dev/sheet` (built for this account, Oct 2026): a spreadsheet. Faint cell gridlines, an office-green accent, a white formula panel, a rule in the header instead of a terminal path, and a large `fx` on cover and end. Write formulas in `[code]` fences with the language `excel`: functions are drawn green, cell references blue, strings brown, like a spreadsheet's formula editor. Never `dev/paper-light`, `dev/terminal` or `dev/github-dark` (Fathul Learn Coding's looks).
+- **Tutorial:** cover → the sample data `[table]` → one `[code]` per step → result or version note `[card]` → end. 6–10 slides.
+- **Compare:** cover → `[compare]` (`wrong-label`/`right-label` set to e.g. `VLOOKUP`/`XLOOKUP`) or `[table]` side by side → "kapan pakai yang mana" card → end.
+- **Masalah Kantor:** cover (the error as the hook: "`#N/A` padahal datanya ada?") → 2–4 cause cards → one `[code]` or card per fix → end.
+- **Cover:** `[cover kicker="EXCEL • TUTORIAL"]` (APP • FORMAT), headline = the annoyance the viewer has ("Masih hitung kolom buat *VLOOKUP?*"), subtitle = what they get.
+- **End:** `[end cta="Simpan"]`, a one-tap ask ("Kantormu masih pakai *Excel versi berapa?*") + what's next.
+- **Caption:** one line + "Diuji di …" + 2–4 hashtags (`#exceltips`, `#tipskantor`, `#belajarexcel`, `#googlesheets`, `#tipsword`).
+- **Monetisation (later):** the planned first product is templates (absensi, anggaran, inventaris, surat, laporan). Sell only after the audience is built; until then, no product links or "link di bio" pushes in posts.
+
+Tested for the example (Oct 2026, with the Python `formulas` engine 1.3.4 on this sample table, using `,` separators; **not yet run in Excel 365 or Google Sheets**, so the owner runs it once and fills in the caption's "Diuji di"): `=XLOOKUP(F2,A2:A6,B2:B6)` with F2 = K03 → `Sari` · with F2 = K09 → `#N/A`; `=XLOOKUP(F2,A2:A6,B2:B6,"Tidak ada")` with K09 → `Tidak ada`; `=XLOOKUP(F2,B2:B6,A2:A6)` with Dimas → `K04`; `=VLOOKUP("Dimas",A2:D6,1,FALSE)` → `#N/A` (VLOOKUP can't look left).
+
+```text
+template: dev/sheet
+lang: id
+title: xlookup dasar
+caption: Cari data di tabel tanpa menghitung nomor kolom. Diuji di [versi Excel yang dipakai owner]. #exceltips #tipskantor #xlookup
+---
+[cover kicker="EXCEL • TUTORIAL"]
+Masih hitung kolom | buat *VLOOKUP?*
+XLOOKUP: cari nama dari ID, 4 langkah.
+---
+[table]
+Datanya: ID di kolom A, nama di B
+| ID | Nama | Divisi |
+| K01 | Rina | Keuangan |
+| K02 | Bayu | HRD |
+| K03 | Sari | IT |
+| K04 | Dimas | Gudang |
+| K05 | Lala | IT |
+ID yang dicari ditulis di F2.
+---
+[code]
+Cari nama dari ID
+Isi G2. F2 = yang dicari, A = kolom ID, B = kolom hasil.
+```excel
+=XLOOKUP(F2;A2:A6;B2:B6)
+```
+F2 berisi K03, hasilnya Sari.
+---
+[code]
+Kalau ID-nya nggak ada
+Argumen keempat menggantikan #N/A dengan teks sendiri.
+```excel
+=XLOOKUP(F2;A2:A6;B2:B6;"Tidak ada")
+```
+F2 berisi K09, hasilnya: Tidak ada.
+---
+[code]
+Cari ke kiri
+Nama di B, ID di A. VLOOKUP nggak bisa, XLOOKUP bisa.
+```excel
+=XLOOKUP(F2;B2:B6;A2:A6)
+```
+F2 berisi Dimas, hasilnya K04.
+---
+[code]
+Excel kamu pakai koma?
+Pemisah argumen ikut pengaturan region. Excel berbahasa Inggris (region US) pakai koma.
+```excel
+=XLOOKUP(F2,A2:A6,B2:B6)
+```
+Excel menolak rumusnya? Ganti ; jadi , (atau sebaliknya).
+---
+[card number=off icon=alert]
+XLOOKUP butuh *Excel 2021 atau 365*
+Excel 2019 ke bawah belum punya. Google Sheets punya, tulisannya sama.
+---
+[end cta="Simpan"]
+Kantormu masih pakai *Excel versi berapa?*
+Komen tahunnya. Besok: VLOOKUP vs XLOOKUP.
+```
+
+(Rendered in `dev/sheet`, 8 slides, zero warnings.)
+
+### Starter list (30 ideas)
+
+1. XLOOKUP dasar: cari nama dari ID (the example).
+2. VLOOKUP vs XLOOKUP: when the old one is still fine (compare).
+3. `#N/A` padahal datanya ada: spasi tersembunyi, TRIM (Masalah Kantor).
+4. Angka berubah jadi tanggal: why it happens and how to stop it.
+5. Kuis: hasil `=TEXT(A2;"dd mmm yyyy")`?
+6. SUMIFS: total gaji per divisi (kasus nyata).
+7. COUNTIFS: rekap absensi per bulan.
+8. Pivot table pertama kamu, in 4 steps.
+9. Conditional formatting: tandai stok di bawah minimum.
+10. Data validation: dropdown pilihan divisi.
+11. Membersihkan data: pisah nama depan/belakang (Text to Columns vs TEXTSPLIT, with version limits).
+12. Hapus duplikat tanpa kehilangan data asli.
+13. `#VALUE!`: angka yang ternyata teks.
+14. Excel vs Google Sheets: IMPORTRANGE, which has no direct Excel equivalent.
+15. Word: daftar isi otomatis dari Heading styles.
+16. Word: nomor halaman mulai dari halaman 3 (section break).
+17. Word: mail merge undangan dari daftar Excel.
+18. Word: Track Changes for a document reviewed by your boss.
+19. Format surat dinas: margin, spacing and the parts of a letter, as a template checklist.
+20. Google Docs: version history, getting back yesterday's draft.
+21. PowerPoint: align and distribute, so the boxes stop looking messy.
+22. PowerPoint: presenter view on a second screen.
+23. Email formal: subject, greeting and closing (Salah → Benar).
+24. CC vs BCC: when to use each (compare).
+25. Gmail: schedule send and undo send.
+26. Zoom/Teams: 5 meeting shortcuts (Windows/Mac labelled).
+27. PDF: merge and compress without uploading confidential files (offline tools named only if tested).
+28. Print kepotong: set print area and fit to one page.
+29. Shortcut Excel yang hemat waktu: Ctrl+Shift+L, Ctrl+T, Ctrl+; (each tested, Mac equivalents given).
+30. AI di kantor: ask AI to explain a formula you inherited, then check it on sample data.
+
+---
+
+## 12. Shared rules
 
 ### Standards from the Oct 2026 account reviews (every account, every new deck)
 
@@ -940,7 +1241,7 @@ Eight accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Keci
 5. **The end line is specific to the post** (or the deck type) and is never the same on two consecutive posts. The CTA label names the action (`cta="Kirim ke dia"`), not a generic "Simpan • Bagikan".
 6. **Search words:** put the phrase people type ("ayat penenang hati", "kata indah bahasa indonesia") in the cover kicker or subtitle and in the caption's first line; hashtags that match searches beat huge generic ones.
 7. **Series beat one-offs:** when a format works, number it in the kicker ("KATA INDAH #2", "POJOK BULU TANGKIS #3") and post the next one within the week.
-8. **One look per account:** each account has its own template family (Ruang Rasa `editorial/ruang-*`, Whistle Notes `sport/*`, Ayat Harian `serene/*`, Kamus Kecil `lexicon/kamus`…). Text-first; photos only when they add something.
+8. **One look per account:** each account has its own template family (Ruang Rasa `editorial/ruang-*`, Whistle Notes `sport/*`, Ayat Harian `serene/*`, Kamus Kecil `lexicon/kamus`, SKD Harian `lexicon/lembar`, Jago Kantoran `dev/sheet`…). Text-first; photos only when they add something.
 9. **Formats rotate:** never the same format twice in a row on one account.
 10. **Before shipping, render it and look:** zero warnings, no word broken mid-word (reword with shorter words), every claim backed by the account's sources.
 
@@ -956,7 +1257,7 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - When asked for many posts at once, vary pillar, template and opening hook across them.
 - **Hooks (owner, Oct 2026):** the cover is the hook. Make it concrete and specific (a number, a name, a surprising true fact, a situation the viewer recognises), not a topic label. The caption's first line adds to the hook instead of summarising the deck. The hook must still be true and backed by the deck: no clickbait, and keep each account's tone (Ayat Harian stays calm; Ruang Rasa stays gentle).
 - **Re-uploading a deleted post:** rewrite the cover, caption, title and the wording of every slide, and change the order where it still reads well, so it isn't flagged as the same content. Keep the facts, sources and photos (photo choice and order may change).
-- **Fact accounts** (Sejarah Nusantara, Whistle Notes, Peta Angka, Kosakata Inggris, Kamus Kecil, Ayat Harian, Filsafat Harian): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
+- **Fact accounts** (Sejarah Nusantara, Whistle Notes, Peta Angka, Kosakata Inggris, Kamus Kecil, Ayat Harian, Filsafat Harian, SKD Harian, Jago Kantoran): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
   - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
   - No source manifest or source list in the reply is needed for images. Just pick a fitting free image.
@@ -964,9 +1265,9 @@ When asked for "N posts" for an account: read its section, pick formats from its
   - Images for sample decks are bundled with the app: save a downscaled JPEG to `src/samples/photos/<photo-id>.jpg` (it fills 1080×1920; wide images cropped to ≤ 2160 px wide), reference it with `photo=<photo-id>`, and set a focal point in `src/samples/photos.ts` if the subject isn't centred. Loading the sample adds it to the photo tray automatically.
 - Out of scope for this app: screen recordings, video demos. Only photo carousels.
 
-## 11. Open items
+## 13. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all nine handles, put `handle:` in every deck header.
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all eleven handles, put `handle:` in every deck header.
 - **`editorial/stone` variant (Filsafat Harian): shipped (Oct 2026).** A tokens-only variant in the editorial family: warm stone, charcoal, terracotta. Blobs off since the Oct 2026 review. Serif `Playfair Display`, sans `DM Sans`. Rotation `['stone', 'stone', 'slate']`. Tokens (contrast-checked):
 
   | Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |
@@ -981,3 +1282,8 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - **`chart` slide.** Add `[chart data=<pack-id> kind=bar top=N]` to Carousel Press: paste a `carousel-data/1` pack into a Data tab, rendered as a bar chart in template colours. Until then, rankings are one card per region.
 - **`figure` slide + `credit=`.** A slide that shows an image uncropped in a frame (maps, charts) without the dark photo overlay, plus a `credit="…"` line on photo slides. Needed by Sejarah Nusantara and Peta Angka. Courts and pitches are covered by `[diagram]` (shipped Oct 2026).
 - **`editorial/archive` variant.** Sepia paper, dark brown ink, serif, a small year/place label, so Sejarah Nusantara stops borrowing `sage`.
+- **New accounts may replace weak ones (owner decides).** SKD Harian and Jago Kantoran could replace an underperforming account (Whistle Notes or Ruang Rasa) instead of running alongside it. Nothing is paused until the owner decides.
+- **SKD Harian bio:** must include "Bukan akun resmi BKN" (see §10). No BKN, KemenPANRB, school or BUMN logos anywhere.
+- **`lexicon/lembar` (SKD Harian) and `dev/sheet` (Jago Kantoran): shipped (Oct 2026).** Built for these accounts, plus `excel` formula colouring in code blocks (see `docs/decisions.md`).
+- **Image-question slide (proposed, SKD Harian).** Figural TIU questions (pattern series, rotations, mirror images) need a question image drawn or shown uncropped with options A–E under it. This overlaps the proposed `figure` slide; until one exists, SKD Harian posts no figural questions.
+- **Difficulty badge (SKD Harian).** No attribute exists for a difficulty badge; the difficulty goes in the cover kicker (`· SEDANG`). A real badge would need a PRD change.
