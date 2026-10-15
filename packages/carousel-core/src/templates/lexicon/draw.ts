@@ -1,6 +1,7 @@
 import type { Ctx } from '../../render/ctx';
 import { withAlpha } from '../../core/color';
 import { CANVAS, SAFE } from '../../render/safezone';
+import { drawGrid } from '../../render/deco';
 import { setFont, setShadow } from '../../render/text';
 import type { SlideLayout } from '../common';
 import { drawEditorial } from '../editorial/draw';
@@ -28,6 +29,7 @@ function drawDeco(ctx: Ctx, L: SlideLayout): void {
       ctx.fillRect(n.marginX, 0, n.marginW, CANVAS.h);
     }
   }
+  if (v.deco.grid && paper) drawGrid(ctx, v.deco.grid, v.deco.gridColor ?? rule);
   if (v.deco.doubleRule) {
     const d = LEX_DECO.doubleRule;
     ctx.fillStyle = paper ? rule : withAlpha(s.muted, 0.35);

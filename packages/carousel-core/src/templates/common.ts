@@ -111,7 +111,7 @@ export function layoutHeader(input: LayoutInput, sans: string, mono: string, box
   const top = ROWS.headerBaseline - CHROME.handleSize;
   if (handle) boxes.push({ x: SAFE.left, y: top, w: m.width(handle, handleFont), h: CHROME.handleSize * 1.25, kind: 'handle' });
 
-  if (traitsOf(input.variant).headerRight === 'path') {
+  if ((input.variant.headerRight ?? traitsOf(input.variant).headerRight) === 'path') {
     const font: FontSpec = { family: mono, weight: 500, size: CHROME.pathSize };
     const text = truncate(`~/${headerTopic(input.deck)}`, CHROME.pathMax, font, m);
     const w = m.width(text, font);

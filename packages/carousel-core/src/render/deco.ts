@@ -8,6 +8,8 @@ export const DECO = {
   dotGrid: { spacing: 48, r: 2 },
   glow: { x: 980, y: 260, r: 520 },
   scanlines: { every: 6, h: 2, color: 'rgba(0,0,0,0.18)' },
+  /** Spreadsheet cells (5 columns) and square exam paper. */
+  grid: { cells: { w: 216, h: 72, line: 2 }, squares: { w: 54, h: 54, line: 1 } },
   bigGlyph: { size: 560, weight: 700, alpha: 0.05, right: 1140, baseline: 1980 },
 };
 
@@ -21,6 +23,13 @@ export function drawDotGrid(ctx: Ctx, color: string): void {
       ctx.fill();
     }
   }
+}
+
+export function drawGrid(ctx: Ctx, kind: 'cells' | 'squares', color: string): void {
+  const { w, h, line } = DECO.grid[kind];
+  ctx.fillStyle = color;
+  for (let x = w; x < CANVAS.w; x += w) ctx.fillRect(x - line / 2, 0, line, CANVAS.h);
+  for (let y = h; y < CANVAS.h; y += h) ctx.fillRect(0, y - line / 2, CANVAS.w, line);
 }
 
 export function drawGlow(ctx: Ctx, accent: string, alpha: number): void {

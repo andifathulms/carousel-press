@@ -47,6 +47,10 @@ export interface Deco {
   notebook?: boolean;
   /** Lexicon: large faint glyph off the bottom-right corner. */
   cornerGlyph?: string;
+  /** Faint ruled grid: spreadsheet cells (dev/sheet) or square exam paper (lexicon/lembar). */
+  grid?: 'cells' | 'squares';
+  /** Grid line colour (colour with alpha). Lexicon falls back to its rule token. */
+  gridColor?: string;
   /** Serene: thin inset frame + 8-point star ornament (SPEC-ayah §4). */
   frame?: boolean;
   /** Serene: photos are darkened at least this much (0–100, SPEC-ayah §3.3). */
@@ -79,6 +83,8 @@ export interface Variant {
   /** Headline weight override (dev/terminal; editorial/ruang-* softens serif 700 headlines) and an accent prefix on cover/card headlines. */
   headlineWeight?: number;
   headlinePrefix?: string;
+  /** Overrides the family's header right side (dev/sheet: a rule instead of the terminal path). */
+  headerRight?: 'path' | 'rule';
   /** Sport: headlines (cover, card, end) are drawn in capitals. */
   headlineUpper?: boolean;
   /** Verdict and diagram colours (ok / warn / bad). Families without them derive from the surface. */

@@ -1,6 +1,6 @@
 import type { Ctx } from '../../render/ctx';
 import { drawCodeBlock } from '../../render/codeBlock';
-import { drawBigGlyph, drawDotGrid, drawGlow, drawScanlines } from '../../render/deco';
+import { drawBigGlyph, drawDotGrid, drawGlow, drawGrid, drawScanlines } from '../../render/deco';
 import { drawIcon } from '../../render/icons';
 import { clipToStack, drawCta, drawFooter, drawHeader, drawTextBlock } from '../../render/parts';
 import { CONTENT_W } from '../../render/safezone';
@@ -18,6 +18,7 @@ export function drawDev(ctx: Ctx, L: SlideLayout): void {
 
   if (!onPhoto) {
     if (v.deco.dotGrid && v.deco.dotColor) drawDotGrid(ctx, v.deco.dotColor);
+    if (v.deco.grid && v.deco.gridColor) drawGrid(ctx, v.deco.grid, v.deco.gridColor);
     if (v.deco.glow) drawGlow(ctx, s.accent, v.deco.glowAlpha ?? 0.08);
     if (v.deco.bigGlyph && (slide.type === 'cover' || slide.type === 'end')) drawBigGlyph(ctx, v.deco.bigGlyph, mono, s.ink);
   }
