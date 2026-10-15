@@ -237,7 +237,7 @@ Priorities: **P0** = required for V1, **P1** = V1 if time allows (planned in the
 - A family is layout code. A variant is a data object (colours, fonts, surface rotation, decoration switches). Adding a variant must not require touching layout code.
 - Every family renders all 5 slide types, including `code` in editorial and `quote` in dev.
 - Template picker: a dropdown grouped by family, with a 4-swatch preview per variant. Changing the template rewrites the `template:` header line in the text (or inserts a header if there is none), so the text stays the single source of truth.
-- **Syntax highlighting** in code blocks: `bash`/`sh` in P0; `js`, `ts`, `py`, `sql` in P1. Unknown language → plain text in the base code colour.
+- **Syntax highlighting** in code blocks: `bash`/`sh` in P0; `js`, `ts`, `py`, `sql` in P1; `excel` (aliases `xlsx`, `sheets`, `formula`: functions, cell references, strings, numbers; `,` or `;` separators) since Oct 2026. Unknown language → plain text in the base code colour.
 - **Acceptance:** the same deck text renders correctly in all 6 templates with no overflow for the sample decks (F15).
 
 ### F4. Text auto-fit (P0)
