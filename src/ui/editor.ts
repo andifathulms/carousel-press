@@ -1,5 +1,6 @@
 import { isBlocking } from 'carousel-core/src/core/types';
 import { allWarnings } from './appState';
+import { highlightDeck } from './deckHighlight';
 import type { Controller } from './controller';
 import { debounce, h, svg } from './dom';
 import { UI_ICONS } from './uiIcons';
@@ -29,7 +30,9 @@ export function mountEditor(root: HTMLElement, c: Controller): void {
   });
   const gutter = h('div', { class: 'gutter', 'aria-hidden': 'true' });
   const mirror = h('div', { class: 'editor-mirror', 'aria-hidden': 'true' });
-  const wrap = h('div', { class: 'editor-wrap' }, gutter, ta, mirror);
+  // Syntax colour: the same text drawn underneath a textarea whose own text is transparent.
+  const hl = h('div', { class: 'editor-hl', 'aria-hidden': 'true' });
+  const wrap = h('div', { class: 'editor-wrap' }, hl, gutter, ta, mirror);
   const list = h('ul', { class: 'warnings', 'aria-label': 'Warnings' });
   const summary = h('button', { class: 'warn-summary', type: 'button', 'aria-expanded': 'true' });
   root.append(wrap, summary, list);
@@ -37,10 +40,28 @@ export function mountEditor(root: HTMLElement, c: Controller): void {
   let lineTops: number[] = [];
   let lineHeight = 22;
 
+  const paintHl = (): void => {
+    const frag = document.createDocumentFragment();
+    highlightDeck(ta.value).forEach((line, i) => {
+      if (i) frag.append('\n');
+      for (const seg of line) frag.append(seg.k ? h('span', { class: `hl-${seg.k}` }, seg.t) : seg.t);
+    });
+    frag.append('\n\u200b'); // a trailing newline in the textarea still takes a line
+    hl.replaceChildren(frag);
+    syncHl();
+  };
+  const syncHl = (): void => {
+    // clientWidth leaves out a desktop scrollbar, so both wrap at the same width; +2 for the 1px borders.
+    hl.style.width = `${ta.clientWidth + 2}px`;
+    hl.style.height = `${ta.offsetHeight}px`;
+    hl.scrollTop = ta.scrollTop;
+  };
+  const paintHlSoon = debounce(paintHl, 30);
+
   const measure = (): void => {
     const cs = getComputedStyle(ta);
     lineHeight = parseFloat(cs.lineHeight) || 22;
-    mirror.style.width = `${ta.clientWidth}px`;
+    mirror.style.width = `${ta.clientWidth + 2}px`;
     mirror.replaceChildren(...ta.value.split('\n').map((l) => h('div', {}, l || '​')));
     const padTop = parseFloat(cs.paddingTop) || 0;
     lineTops = [...mirror.children].map((el) => (el as HTMLElement).offsetTop + padTop);
@@ -57,6 +78,10 @@ export function mountEditor(root: HTMLElement, c: Controller): void {
       const top = (lineTops[slide.lines[0]] ?? 0) - scroll;
       const bottom = (lineTops[slide.lines[1]] ?? top + scroll) + lineHeight - scroll;
       marks.push(h('span', { class: 'active-range', style: `top:${top}px;height:${Math.max(lineHeight, bottom - top)}px` }));
+    }
+    for (const sl of s.parsed.deck.slides) {
+      const y = (lineTops[sl.lines[0]] ?? -100) - scroll;
+      marks.push(h('span', { class: `num${sl.index === s.selected ? ' on' : ''}`, style: `top:${y}px;line-height:${lineHeight}px` }, String(sl.index + 1)));
     }
     const byLine = new Map<number, boolean>();
     for (const w of allWarnings(s)) byLine.set(w.line, (byLine.get(w.line) ?? false) || isBlocking(w));
@@ -89,22 +114,33 @@ export function mountEditor(root: HTMLElement, c: Controller): void {
   const syncCursor = (): void => c.cursorAtLine(lineAt(ta.value, ta.selectionStart));
   ta.addEventListener('input', () => {
     c.setText(ta.value);
+    paintHl();
     measureSoon();
     syncCursor();
   });
   for (const ev of ['click', 'keyup', 'select']) ta.addEventListener(ev, syncCursor);
-  ta.addEventListener('scroll', paintGutter, { passive: true });
-  new ResizeObserver(() => measureSoon()).observe(ta);
+  ta.addEventListener('scroll', () => {
+    paintGutter();
+    hl.scrollTop = ta.scrollTop;
+  }, { passive: true });
+  new ResizeObserver(() => {
+    syncHl();
+    measureSoon();
+  }).observe(ta);
 
   c.store.watch((s) => s.text, (text) => {
     if (ta.value !== text) {
       const pos = ta.selectionStart;
       ta.value = text;
       ta.setSelectionRange(Math.min(pos, text.length), Math.min(pos, text.length));
+      paintHlSoon();
       measureSoon();
     }
   });
-  c.store.watch((s) => s.parsed, () => paintList());
+  c.store.watch((s) => s.parsed, () => {
+    paintList();
+    paintGutter();
+  });
   c.store.watch((s) => s.renderWarnings, () => {
     paintList();
     paintGutter();
@@ -121,5 +157,6 @@ export function mountEditor(root: HTMLElement, c: Controller): void {
       ta.scrollTop = Math.max(0, top - ta.clientHeight / 3);
     }
     paintGutter();
+    hl.scrollTop = ta.scrollTop;
   });
 }

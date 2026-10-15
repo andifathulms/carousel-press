@@ -12,6 +12,7 @@ import { mountPreview, paintBitmap } from './preview';
 import { mountPublishSheet } from './publishSheet';
 import { mountQueue } from './queue';
 import { deckOrigin } from './sampleIndex';
+import { mountShortcuts } from './shortcuts';
 import { mountStylePanel } from './stylePanel';
 import { UI_ICONS } from './uiIcons';
 
@@ -24,9 +25,9 @@ export function mountApp(root: HTMLElement, c: Controller): void {
   const status = h('span', { class: 'status-pill' });
   const health = h('button', { type: 'button', class: 'health' });
   const saveStatus = h('span', { class: 'save-status', 'aria-live': 'polite' });
-  const help = h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Syntax help' }, svg(UI_ICONS.help));
-  const focusBtn = h('button', { type: 'button', class: 'icon-btn focus-btn', 'aria-label': 'Focus on the slides', 'aria-pressed': 'false' }, svg(UI_ICONS.expand));
-  const publish = h('button', { type: 'button', class: 'btn primary publish-btn' }, svg(UI_ICONS.send), h('span', {}, 'Publish'));
+  const help = h('button', { type: 'button', class: 'icon-btn help-btn', 'aria-label': 'Syntax help', title: 'Syntax help (⌘/)' }, svg(UI_ICONS.help));
+  const focusBtn = h('button', { type: 'button', class: 'icon-btn focus-btn', 'aria-label': 'Focus on the slides', 'aria-pressed': 'false', title: 'Focus (⌘.)' }, svg(UI_ICONS.expand));
+  const publish = h('button', { type: 'button', class: 'btn primary publish-btn', title: 'Publish (⌘⇧P)' }, svg(UI_ICONS.send), h('span', {}, 'Publish'));
   const topbar = h('header', { class: 'topbar' },
     back, deckSwitcher, status, h('div', { class: 'spacer' }), health, saveStatus, help, focusBtn, publish);
 
@@ -73,12 +74,14 @@ export function mountApp(root: HTMLElement, c: Controller): void {
   mountFilmstrip(rail, c);
   mountPublishSheet(c);
 
-  help.addEventListener('click', () => {
-    c.store.set({ leftTab: 'write', mobileTab: 'write', focus: false });
+  const openHelp = (): void => {
+    c.store.set({ view: 'studio', leftTab: 'write', mobileTab: 'write', focus: false });
     cheat.open = true;
     cheat.scrollIntoView({ block: 'nearest' });
     cheat.querySelector('summary')?.focus();
-  });
+  };
+  help.addEventListener('click', openHelp);
+  mountShortcuts(c, { help: openHelp });
   health.addEventListener('click', () => c.store.set({ leftTab: 'write', mobileTab: 'write', focus: false }));
   back.addEventListener('click', () => c.store.set({ view: 'queue', focus: false }));
   focusBtn.addEventListener('click', () => c.store.set({ focus: !c.store.get().focus }));

@@ -105,32 +105,48 @@ code { font-family: var(--font-mono); font-size: 12px; }
 .copy-mini:hover { color: var(--paper); }
 
 /* ---- editor ---- */
-.editor-wrap { position: relative; flex: 1; min-height: 240px; display: flex; }
+.editor-wrap { position: relative; flex: 1; min-height: 240px; display: flex; background: var(--ink-2); border-radius: var(--radius); }
+/* The textarea, its colour layer (.editor-hl) and the measuring mirror share one box model. */
+.editor-text, .editor-hl, .editor-mirror {
+  padding: var(--s3) var(--s3) var(--s3) 40px; border: 1px solid transparent;
+  font: 400 14.5px/1.7 var(--font-mono); tab-size: 2; white-space: pre-wrap; overflow-wrap: anywhere; word-break: normal;
+  font-variant-ligatures: none;
+}
 .editor-text {
-  flex: 1; resize: none; width: 100%;
-  padding: var(--s3) var(--s3) var(--s3) 22px;
-  background: var(--ink-2); border: 1px solid var(--line); border-radius: var(--radius);
-  font: 400 14px/1.6 var(--font-mono); tab-size: 2; white-space: pre-wrap; overflow-wrap: anywhere;
+  position: relative; z-index: 1; flex: 1; resize: none; width: 100%; margin: 0;
+  background: transparent; border-color: var(--line); border-radius: var(--radius);
+  color: transparent; caret-color: var(--paper); -webkit-text-fill-color: transparent;
 }
+.editor-text::selection { background: rgba(69, 184, 234, 0.32); }
 .editor-text:focus { border-color: var(--press); outline: none; }
-.editor-mirror {
-  position: absolute; visibility: hidden; pointer-events: none; left: 0; top: 0;
-  padding: 0 var(--s3) 0 22px; border: 1px solid transparent;
-  font: 400 14px/1.6 var(--font-mono); tab-size: 2; white-space: pre-wrap; overflow-wrap: anywhere;
-}
-.gutter { position: absolute; left: 1px; top: 1px; bottom: 1px; width: 16px; overflow: hidden; pointer-events: none; z-index: 1; }
-.gutter .active-range { position: absolute; left: 4px; width: 3px; border-radius: 2px; background: var(--press); opacity: 0.7; }
-.gutter .mark { position: absolute; left: 4px; width: 8px; height: 8px; margin-top: -4px; border-radius: 50%; background: var(--warn); }
+.editor-hl { position: absolute; left: 0; top: 0; margin: 0; overflow: hidden; pointer-events: none; color: var(--paper); }
+.editor-mirror { position: absolute; visibility: hidden; pointer-events: none; left: 0; top: 0; padding-top: 0; padding-bottom: 0; }
+/* iOS/iPadOS draws textarea text 3px further in on each side; move the layers that must line up with it. */
+.ios .editor-hl, .ios .editor-mirror { padding-left: 43px; padding-right: 15px; }
+.hl-key, .hl-sep { color: var(--faint); }
+.hl-sep { letter-spacing: 0; }
+.hl-tag { color: #7CC8EE; }
+.hl-attr { color: var(--muted); }
+.hl-pipe { color: var(--warn); font-weight: 600; }
+.hl-accent { color: #F2A07B; }
+.hl-code { color: #9FD8B5; }
+.hl-fence { color: var(--faint); }
+.hl-block { color: #9FD8B5; }
+.gutter { position: absolute; z-index: 2; left: 1px; top: 1px; bottom: 1px; width: 32px; overflow: hidden; pointer-events: none; }
+.gutter .active-range { position: absolute; left: 4px; width: 3px; border-radius: 2px; background: var(--press); }
+.gutter .num { position: absolute; left: 8px; width: 22px; text-align: right; font: 600 11px var(--font-mono); color: var(--faint); }
+.gutter .num.on { color: var(--press); }
+.gutter .mark { position: absolute; left: 10px; width: 8px; height: 8px; margin-top: -4px; border-radius: 50%; background: var(--warn); box-shadow: 0 0 0 2px var(--ink-2); }
 .gutter .mark.blocking { background: var(--error); }
 .warn-summary {
-  display: flex; align-items: center; gap: var(--s2); padding: 4px 0; background: none; border: 0; color: var(--warn);
-  font-size: 13px; text-align: left;
+  display: flex; align-items: center; gap: var(--s2); min-height: 36px; padding: 0; background: none; border: 0; color: var(--warn);
+  font-size: 14px; text-align: left;
 }
 .warn-summary.blocking { color: var(--error); }
 .warnings { list-style: none; margin: 0; padding: 0; max-height: 132px; overflow-y: auto; flex: none; }
 .warn-item {
-  display: block; width: 100%; padding: 4px var(--s2); background: none; border: 0; border-radius: 6px;
-  text-align: left; font-size: 12px; color: var(--paper);
+  display: block; width: 100%; min-height: 36px; padding: 6px var(--s2); background: none; border: 0; border-radius: 8px;
+  text-align: left; font-size: 13px; color: var(--paper);
 }
 .warn-item:hover { background: var(--ink-2); }
 .warn-line { font-family: var(--font-mono); color: var(--muted); margin-right: var(--s2); }
@@ -138,7 +154,10 @@ code { font-family: var(--font-mono); font-size: 12px; }
 .warn-item.blocking .warn-code { color: var(--error); }
 
 .cheatsheet { flex: none; border: 1px solid var(--line); border-radius: var(--radius); background: var(--ink-1); }
-.cheatsheet summary { padding: var(--s2) var(--s3); cursor: pointer; color: var(--muted); font-size: 13px; }
+.cheatsheet summary { display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 var(--s3); cursor: pointer; color: var(--muted); font-size: 14px; list-style: none; }
+.cheatsheet summary::-webkit-details-marker { display: none; }
+.cheatsheet summary::before { content: ""; width: 6px; height: 6px; border: solid currentColor; border-width: 0 1.5px 1.5px 0; transform: rotate(-45deg); transition: transform var(--ease); }
+.cheatsheet[open] summary::before { transform: rotate(45deg); }
 .cheatsheet dl { margin: 0; padding: 0 var(--s3) var(--s3); display: grid; gap: 2px; max-height: 300px; overflow-y: auto; }
 .cheatsheet dt { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--s2); margin-top: var(--s2); }
 .cheatsheet dt code { white-space: pre-wrap; color: var(--paper); }

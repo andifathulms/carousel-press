@@ -2,7 +2,7 @@
    thumbnail rail, Publish sheet. Built for iPad first: 1180×820 landscape, 820×1180 portrait. */
 
 /* ---- shell ---- */
-.app { display: flex; flex-direction: column; height: 100vh; height: 100dvh; }
+.app { display: flex; flex-direction: column; height: 100vh; height: var(--app-h, 100dvh); }
 .topbar {
   display: flex; align-items: center; gap: var(--s2); flex: none;
   min-height: var(--topbar); padding: env(safe-area-inset-top, 0px) max(var(--s3), env(safe-area-inset-right, 0px)) 0 max(var(--s2), env(safe-area-inset-left, 0px));
@@ -209,7 +209,7 @@
 .mobile-tabs { display: none; }
 @media (max-width: 767px) {
   .topbar { gap: 2px; }
-  .status-pill, .health span, .focus-btn, .topbar > .icon-btn[aria-label="Syntax help"] { display: none; }
+  .status-pill, .health span, .focus-btn, .help-btn { display: none; }
   .publish-btn { padding: 0 12px; }
   .publish-btn span { display: none; }
   .deck-button { max-width: 60vw; }
@@ -239,3 +239,13 @@
   .sheet { animation: none; }
   .filmstrip { scroll-behavior: auto; }
 }
+
+/* ---- hold ⌘: keyboard shortcuts ---- */
+.kbd-overlay {
+  position: fixed; z-index: 150; left: 50%; top: 50%; transform: translate(-50%, -50%); width: min(420px, calc(100vw - 32px));
+  padding: 22px 24px; background: var(--ink-2); border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+}
+.kbd-overlay h2 { margin: 0 0 14px; font: 650 20px var(--font-display); letter-spacing: -0.015em; }
+.kbd-overlay dl { display: grid; grid-template-columns: auto 1fr; gap: 10px 16px; margin: 0; align-items: center; }
+.kbd-overlay dd { margin: 0; color: var(--muted); }
+.kbd-overlay kbd { font: 500 13px var(--font-mono); padding: 3px 8px; border-radius: 7px; border: 1px solid var(--line); background: var(--ink-1); white-space: pre; }

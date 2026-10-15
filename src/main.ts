@@ -6,6 +6,7 @@ import { SAMPLES } from './samples';
 import { Controller } from './ui/controller';
 import { ensureSamplePhotos, loadSample } from './ui/actions';
 import { mountApp } from './ui/app';
+import { setupPlatform } from './ui/platform';
 import { importDeckFromHash } from './ui/deckLinkImport';
 
 const RESUME_WITHIN_MS = 24 * 60 * 60 * 1000;
@@ -13,6 +14,7 @@ const RESUME_WITHIN_MS = 24 * 60 * 60 * 1000;
 async function boot(): Promise<void> {
   const root = document.getElementById('app');
   if (!root) return;
+  setupPlatform();
   const c = new Controller();
   mountApp(root, c);
   await c.init();

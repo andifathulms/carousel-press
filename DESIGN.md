@@ -490,7 +490,7 @@ The slide is the biggest thing on screen. At 1180 × 820 the preview is about 34
 
 - **Top bar:** registration mark, the deck button (name in `--font-display` 19 px over "template · N slides"; opens the library), the posting status pill, then health ("All 6 slides fit", or "N warnings" in `--warn`/`--error`, which opens Write), save status, help, focus toggle and **Publish** (the only `--press` button on screen).
 - **Left column:** a segmented control **Write · Photos · Style**.
-  - Write: the deck text (`--font-mono` 14 px / 1.6), warnings list, collapsible cheat sheet.
+  - Write: the deck text (`--font-mono` 14.5 px / 1.7) with syntax colour (header keys and `---` in `--faint`, tags cyan, attribute values `--muted`, `|` in `--warn`, `*accent*` coral, code green), slide numbers and warning dots in a 32 px gutter, warnings list, collapsible cheat sheet. The colour is a layer under a transparent-text textarea, so Scribble, dictation and undo behave as in any text field.
   - Photos: drop zone and photo grid; tap a photo to set its focal point.
   - Style: template grid (the deck's first card rendered in every template, grouped by family; the current one has a `--select` ring), handle, language, photo darkness, and switches for the safe zone and baseline grid. "Compare cover and card" opens the gallery (PRD F12).
 - **Centre:** the preview fills the stage height, with crop marks instead of a drop shadow outline. Under it: round prev/next buttons (44 px), a tabular counter and progress dots. A "Safe zone" chip sits top-right. Swiping horizontally on the slide changes slides.
@@ -514,6 +514,12 @@ A panel that slides in from the right (bottom sheet on phones), in the order a p
 4. **Mark as posted**, plus "Posted, open next" for the next unposted sample in the same channel, and Skip.
 
 Each step shows a green check once done (per deck, per session). Blocking warnings are listed at the top; tapping one closes the sheet and jumps to the slide. "Safe-zone test image" sits at the bottom.
+
+### 8.3a iPad details
+- Every control is at least 44 × 44; nothing depends on hover. Long-press replaces right-click menus.
+- Magic Keyboard: ⌘K search decks, ⌘[ / ⌘] previous/next slide, ⌘. focus, ⌘⇧P publish, ⌘/ syntax help, Esc leaves focus. Holding ⌘ shows the list.
+- The app sizes itself to the visual viewport, so the on-screen keyboard never covers the editor or pushes the preview away.
+- Installable from Safari's Share → Add to Home Screen (web app manifest, 180/192/512 px icons, `viewport-fit=cover`, safe-area insets). No service worker and no network requests.
 
 ### 8.4 Dialogs
 The export-warning dialog: title "Some slides need attention", a list of `Slide 4 — text doesn't fit` items (click → jump), and the buttons **Fix** (primary) and **Export anyway** (secondary). Escape closes it, and focus is trapped while it's open.

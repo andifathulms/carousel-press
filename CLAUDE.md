@@ -98,9 +98,10 @@ carousel-press/
 │  │  └─ exportZip.ts
 │  ├─ ui/                      # DOM components as plain functions: mount(el, state) → unmount
 │  │  ├─ state.ts              # tiny observable store (subscribe/set), no library
-│  │  ├─ editor.ts  preview.ts  filmstrip.ts  inspector.ts  photos.ts
-│  │  ├─ templatePicker.ts  dialogs.ts  cheatsheet.ts  library.ts (P1)  gallery.ts (P1)
-│  │  └─ app.css
+│  │  ├─ editor.ts  deckHighlight.ts  preview.ts  filmstrip.ts  photos.ts  stylePanel.ts
+│  │  ├─ publishSheet.ts  queue.ts  sampleCovers.ts  deckMenu.ts  menu.ts  shortcuts.ts  platform.ts
+│  │  ├─ dialogs.ts  cheatsheet.ts  gallery.ts (P1)
+│  │  └─ app.css  studio.css  queue.css
 │  └─ samples/
 │     ├─ editorial-couples-id.txt   # PRD §8.1 verbatim
 │     ├─ dev-git-id.txt             # PRD §8.2 verbatim
