@@ -440,26 +440,33 @@ An unknown icon name → warning `unknown-attr` (message names the icon) and no 
 
 ### 8.1 Chrome tokens
 
+Redesigned Oct 2026 for iPad ("Process Cyan"). Graphite greys with a slight warm cast keep every template looking right; one cyan accent is used only for the primary action, focus and the current-slide marker. It never shares a hue with `--warn` or `--error` (the old `#E4573D` accent was nearly the same red as the error colour). The selected slide/template gets a neutral `--select` ring.
+
 ```css
 :root {
-  --ink-0: #12110F;   /* app background */
-  --ink-1: #1A1916;   /* panels */
-  --ink-2: #23211D;   /* inputs, cards */
-  --line:  #2F2C27;   /* borders */
-  --paper: #EEE9DF;   /* primary text */
-  --muted: #9C948A;   /* secondary text */
-  --press: #E4573D;   /* accent: primary buttons, focus, registration mark */
-  --press-ink: #1A0F0C;
-  --ok:    #6FBF73;
-  --warn:  #E7B54A;
-  --error: #F06A5A;
-  --radius: 10px;
-  --font-ui: "Inter", system-ui, sans-serif;
+  --ink-0: #0E0E0D;   /* stage behind the slide, app background */
+  --ink-1: #161615;   /* panels */
+  --ink-2: #1F1E1C;   /* inputs, cards */
+  --ink-3: #292825;   /* hover, pressed */
+  --line:  #2B2A27;   /* borders */
+  --paper: #F2F0EB;   /* primary text */
+  --muted: #A6A199;   /* secondary text */
+  --faint: #6E6A63;   /* labels, counters */
+  --press: #45B8EA;   /* accent */
+  --press-ink: #03131B;
+  --select: #F2F0EB;  /* selection ring */
+  --ok:    #4FBF85;
+  --warn:  #F2B544;
+  --error: #F2685A;
+  --radius: 12px;
+  --tap: 44px;        /* minimum touch target */
+  --font-ui: "Geist Sans", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", sans-serif;   /* names only: deck titles, screen titles */
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 ```
 
-Spacing: 4/8/12/16/24/32. Base UI text: 14 px Inter, labels 11 px uppercase with +0.08em tracking, `--muted`. Motion: 140 ms ease-out on hover/focus only. Nothing in the UI animates continuously.
+Spacing: 4/8/12/16/24/32. Base UI text: 15 px Geist Sans; labels 11 px JetBrains Mono uppercase with +0.1em tracking in `--faint`. Every control is at least 44 × 44 (iPad touch); nothing depends on hover. Motion: 140 ms ease-out on hover/focus, 200 ms for sheets; nothing animates continuously; `prefers-reduced-motion` turns sheet motion off.
 
 ### 8.2 Layout (desktop ≥ 1200 px)
 
