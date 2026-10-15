@@ -36,9 +36,15 @@ export function mountFilmstrip(root: HTMLElement, c: Controller): void {
       const cached = c.engine.get(i);
       if (s.fontsReady && cached) paintBitmap(it.canvas, cached.bitmap);
     });
-    // Keep the active thumbnail visible without scrolling the page itself.
+    // Keep the active thumbnail visible; the strip is a column (rail) or a row (portrait, phone).
     const li = items[s.selected]?.li;
-    if (li && (li.offsetLeft < strip.scrollLeft || li.offsetLeft + li.offsetWidth > strip.scrollLeft + strip.clientWidth)) {
+    if (!li) return;
+    const vertical = strip.scrollHeight > strip.clientHeight && strip.scrollWidth <= strip.clientWidth;
+    if (vertical) {
+      if (li.offsetTop < strip.scrollTop || li.offsetTop + li.offsetHeight > strip.scrollTop + strip.clientHeight) {
+        strip.scrollTop = li.offsetTop - strip.clientHeight / 2 + li.offsetHeight / 2;
+      }
+    } else if (li.offsetLeft < strip.scrollLeft || li.offsetLeft + li.offsetWidth > strip.scrollLeft + strip.clientWidth) {
       strip.scrollLeft = li.offsetLeft - strip.clientWidth / 2 + li.offsetWidth / 2;
     }
   };
@@ -46,6 +52,8 @@ export function mountFilmstrip(root: HTMLElement, c: Controller): void {
   c.store.subscribe((s, p) => {
     if (s.parsed !== p.parsed || s.selected !== p.selected || s.renderVersion !== p.renderVersion ||
       s.fontsReady !== p.fontsReady || s.renderWarnings !== p.renderWarnings) paint();
+    // Canvases hidden at paint time have no size; repaint once the rail is visible again.
+    if (s.mobileTab !== p.mobileTab || s.focus !== p.focus) requestAnimationFrame(paint);
   });
   paint();
 }

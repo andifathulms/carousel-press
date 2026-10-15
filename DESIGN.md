@@ -468,35 +468,43 @@ Redesigned Oct 2026 for iPad ("Process Cyan"). Graphite greys with a slight warm
 
 Spacing: 4/8/12/16/24/32. Base UI text: 15 px Geist Sans; labels 11 px JetBrains Mono uppercase with +0.1em tracking in `--faint`. Every control is at least 44 × 44 (iPad touch); nothing depends on hover. Motion: 140 ms ease-out on hover/focus, 200 ms for sheets; nothing animates continuously; `prefers-reduced-motion` turns sheet motion off.
 
-### 8.2 Layout (desktop ≥ 1200 px)
+### 8.2 Studio layout (iPad landscape, ≥ 1100 px)
+
+The slide is the biggest thing on screen. At 1180 × 820 the preview is about 343 × 610 (it was 80 × 143 when the settings sat above it).
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│ ⊕ CAROUSEL PRESS   [Deck: 7 perintah git ▾]        saved · 2s ago  [?] │  56px top bar
-├──────────────────────┬──────────────────────────────┬───────────────────┤
-│ WRITE | PHOTOS       │                              │ TEMPLATE          │
-│ ┌──────────────────┐ │        ┌──────────┐          │ [dev/github-dark▾]│
-│ │ handle: @…       │ │        │          │          │ ■■■■ swatches     │
-│ │ ---              │ │        │ preview  │          │ HANDLE  [@…]      │
-│ │ [cover]          │ │        │  9:16    │          │ LANGUAGE [id|en]  │
-│ │ …                │ │        │          │          │ PHOTO DARKNESS ── │
-│ └──────────────────┘ │        └──────────┘          │ ☐ Safe zone ☐ Grid│
-│ ⚠ 1 warning          │   ‹   3 / 9   ›              │ CAPTION [Copy]    │
-│ ▸ Syntax cheat sheet │ ┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐      │ [Download slide]  │
-│                      │ └──┘└──┘└──┘└──┘└──┘└──┘ strip│ [Download all ZIP]│
-└──────────────────────┴──────────────────────────────┴───────────────────┘
-   440px                  flexible                       300px
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ ⊕  5 pertanyaan kecil ▾  [To post]        ✓ All 6 slides fit  Saved  ? ⛶ [Publish] │ 60px
+│    Rose Dusk · 6 slides                                                       │
+├────────────────────┬──────────────────────────────────────────────┬──────────┤
+│ [Write|Photos|Style]│                                 (Safe zone) │  ┌────┐  │
+│ ┌────────────────┐ │              ┌──────────────┐               │  │ 1  │  │
+│ │ deck text      │ │              │              │               │  └────┘  │
+│ │                │ │              │   preview    │               │  ┌────┐  │
+│ │                │ │              │    9:16      │               │  │ 2  │  │
+│ └────────────────┘ │              └──────────────┘               │  └────┘  │
+│ ▸ Syntax cheat sheet│          (‹)   1 / 6  ▬•••••  (›)            │   …      │
+└────────────────────┴──────────────────────────────────────────────┴──────────┘
+   400px                          flexible                           116px rail
 ```
 
-- **Top bar:** the wordmark is "CAROUSEL PRESS" in `--font-mono` 600, 13 px, tracking +0.14em, preceded by a 16 px registration mark (a circle + crosshair) in `--press`. Then the deck switcher (P1 library), a save status, and a help button (opens the syntax cheat sheet).
-- **Left column:** tabs **Write** / **Photos**.
-  - Write: a full-height textarea in `--font-mono` 14 px / 1.6, `--ink-2` background, with a gutter for warning markers, a warnings list under it, and a collapsible cheat sheet.
-  - Photos: a drop zone (dashed `--line`, "Drop photos here"), a 3-column grid of thumbnails with the ID under each plus a copy button, click to enlarge, click on the enlarged image to set the focal point (a 24 px ring with a crosshair).
-- **Centre:** the preview canvas is scaled to fit its height (max 80 vh), sits on `--ink-0`, with **crop marks** (four L-shaped 1 px `--muted` marks, 12 px long, 8 px off each corner) instead of a drop shadow. Under it, prev/next and the counter. Then the **filmstrip**: thumbnails 96×171 px, 12 px gaps, active = 2 px `--press` outline, a warning dot (`--warn`, or `--error` for blocking) top-right, the slide number under each.
-- **Right column (inspector):** grouped controls with uppercase labels. Primary button **Download all (ZIP)** = `--press` fill with `--press-ink` text. Secondary buttons = `--ink-2` with a `--line` border. Buttons are disabled with the hint "Loading fonts…" until fonts are ready.
+- **Top bar:** registration mark, the deck button (name in `--font-display` 19 px over "template · N slides"; opens the library), the posting status pill, then health ("All 6 slides fit", or "N warnings" in `--warn`/`--error`, which opens Write), save status, help, focus toggle and **Publish** (the only `--press` button on screen).
+- **Left column:** a segmented control **Write · Photos · Style**.
+  - Write: the deck text (`--font-mono` 14 px / 1.6), warnings list, collapsible cheat sheet.
+  - Photos: drop zone and photo grid; tap a photo to set its focal point.
+  - Style: template grid (the deck's first card rendered in every template, grouped by family; the current one has a `--select` ring), handle, language, photo darkness, and switches for the safe zone and baseline grid. "Compare cover and card" opens the gallery (PRD F12).
+- **Centre:** the preview fills the stage height, with crop marks instead of a drop shadow outline. Under it: round prev/next buttons (44 px), a tabular counter and progress dots. A "Safe zone" chip sits top-right. Swiping horizontally on the slide changes slides.
+- **Rail:** thumbnails 72 × 128, numbered, active = 2 px `--select` ring, warning dot top-right.
+- **Focus mode** (⛶): hides the left column and the rail; the neighbouring slides peek in at 30% opacity on each side.
 
-### 8.3 Template picker
-A dropdown grouped by family ("Editorial", "Dev"). Each option shows the 4 swatches (12 px squares, 2 px gap) + the variant name. P1 gallery button: "Compare templates" opens the gallery modal (PRD F12) as a 3×2 grid of cover+card pairs.
+### 8.3 Publish sheet
+A panel that slides in from the right (bottom sheet on phones), in the order a post actually happens:
+1. **Save slides to Photos** (Web Share; where the browser can't share files, **Download all (ZIP)** takes its place). Secondary: ZIP, This slide.
+2. **Title**, shown in full, with **Copy title**.
+3. **Caption**, shown in full, with **Copy caption**.
+4. **Mark as posted**, plus "Posted, open next" for the next unposted sample in the same channel, and Skip.
+
+Each step shows a green check once done (per deck, per session). Blocking warnings are listed at the top; tapping one closes the sheet and jumps to the slide. "Safe-zone test image" sits at the bottom.
 
 ### 8.4 Dialogs
 The export-warning dialog: title "Some slides need attention", a list of `Slide 4 — text doesn't fit` items (click → jump), and the buttons **Fix** (primary) and **Export anyway** (secondary). Escape closes it, and focus is trapped while it's open.
@@ -510,8 +518,9 @@ The export-warning dialog: title "Some slides need attention", a list of `Slide 
 
 ## 9. Responsive app layout
 
-- **768–1199 px:** two columns (editor 380 px | preview). The inspector becomes a top toolbar row: template picker, darkness, toggles, and the export buttons.
-- **< 768 px:** a bottom tab bar **Write · Photos · Preview · Export**, one panel at a time. The preview fills the width. The filmstrip scrolls horizontally under it. Export lives in its own tab with large buttons.
+- **≥ 1100 px (iPad landscape, laptop):** editor | stage | rail, as in §8.2. ≥ 1400 px widens the editor to 460 px.
+- **768–1099 px (iPad portrait):** editor (340 px) | stage, with the thumbnails in a row under the stage. Save status hides.
+- **< 768 px (phone):** bottom tab bar **Write · Photos · Style · Preview**, one panel at a time. Publish is an icon button in the top bar and opens as a bottom sheet.
 - Slides themselves never change with screen size; only the chrome does.
 
 ## 10. Visual review checklist (run before each milestone sign-off)

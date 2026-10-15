@@ -33,7 +33,7 @@ async function passGate(c: Controller, onlySlide?: number): Promise<boolean> {
   if (onlySlide !== undefined) ws = ws.filter((w) => w.slideIndex === onlySlide || w.slideIndex === null);
   if (!ws.length) return true;
   const r = await exportWarningsDialog(ws, (w) => {
-    c.store.set({ mobileTab: 'write', leftTab: 'write' });
+    c.store.set({ mobileTab: 'write', leftTab: 'write', focus: false, publishOpen: false });
     if (w.slideIndex !== null) c.jumpToSlide(w.slideIndex);
   });
   return r === 'anyway';

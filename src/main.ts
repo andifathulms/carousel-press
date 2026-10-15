@@ -1,5 +1,6 @@
 import './appFonts';
 import './ui/app.css';
+import './ui/studio.css';
 import { SAMPLES } from './samples';
 import { Controller } from './ui/controller';
 import { ensureSamplePhotos, loadSample } from './ui/actions';

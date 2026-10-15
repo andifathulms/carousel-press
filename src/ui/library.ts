@@ -20,8 +20,9 @@ const shortDate = (at: number): string => new Date(at).toLocaleDateString(undefi
 /** Top-bar deck switcher: saved decks, deck actions, samples and deck files (PRD F10, F11, F15). */
 export function mountLibrary(root: HTMLElement, c: Controller): void {
   const title = h('span', { class: 'deck-title' });
-  const button = h('button', { type: 'button', class: 'deck-button', 'aria-haspopup': 'true', 'aria-expanded': 'false' },
-    h('span', { class: 'deck-label' }, 'Deck:'), title, svg(UI_ICONS.down));
+  const sub = h('span', { class: 'deck-sub' });
+  const button = h('button', { type: 'button', class: 'deck-button', 'aria-haspopup': 'true', 'aria-expanded': 'false', 'aria-label': 'Decks' },
+    h('span', { class: 'deck-name' }, h('span', { class: 'deck-title-row' }, title, svg(UI_ICONS.down)), sub));
   const panel = h('div', { class: 'library', hidden: true, role: 'dialog', 'aria-label': 'Deck library' });
   const fileInput = h('input', { type: 'file', accept: '.json,application/json', class: 'visually-hidden', 'aria-label': 'Open deck file' });
   root.append(button, panel, fileInput);
@@ -196,4 +197,9 @@ export function mountLibrary(root: HTMLElement, c: Controller): void {
     fileInput.value = '';
   });
   c.store.watch((s) => s.parsed.deck.title, (t) => { title.textContent = t || 'Untitled'; });
+  c.store.subscribe((s, p) => {
+    if (s.parsed === p.parsed && s.variant === p.variant) return;
+    const n = s.parsed.deck.slides.length;
+    sub.textContent = `${s.variant.name} · ${n} slide${n === 1 ? '' : 's'}`;
+  });
 }

@@ -19,6 +19,16 @@ export const UI_ICONS = {
   box: wrap('M4.5 8l7.5-3.5L19.5 8v8.5L12 20l-7.5-3.5z M4.5 8L12 11.5 19.5 8 M12 11.5V20'),
   trash: wrap('M5 7h14 M9.5 7V4.5h5V7 M7 7l1 12.5h8L17 7'),
   grid: wrap('M4.5 4.5h15v15h-15z M4.5 12h15 M12 4.5v15'),
+  back: wrap('M14.5 5.5L8 12l6.5 6.5'),
+  check: wrap('M5 12.5l5 4.5 9-10'),
+  expand: wrap('M4 9V4h5 M20 9V4h-5 M4 15v5h5 M20 15v5h-5'),
+  send: wrap('M12 15V4 M7.5 8.5L12 4l4.5 4.5 M5 13v5.5c0 .8.7 1.5 1.5 1.5h11c.8 0 1.5-.7 1.5-1.5V13'),
+  style: wrap('M4 3.5h7v11H4z M13 9.5h7v11h-7z'),
+  safe: wrap('M5 3h14v18H5z M8.5 7h7v10h-7z'),
+  stack: wrap('M4 8.5L12 4l8 4.5-8 4.5z M4 13l8 4.5 8-4.5'),
+  search: wrap('M11 5a6 6 0 1 0 0 12 6 6 0 0 0 0-12z M16 16l4 4'),
+  file: wrap('M6.5 3.5h7l4 4v13h-11z M13.5 3.5v4h4'),
+  more: wrap('M6 12h.01 M12 12h.01 M18 12h.01'),
 };
 
 /** Registration mark: circle + crosshair (top-bar logo). */

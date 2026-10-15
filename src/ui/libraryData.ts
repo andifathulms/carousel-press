@@ -106,3 +106,10 @@ export function filterDecks(
 export function filterSamples(samples: readonly SampleInfo[], query: string, category: CategoryFilter): SampleInfo[] {
   return samples.filter((s) => (category === 'all' || s.category === category) && matches(query, s.name, s.title));
 }
+
+/** The next sample in a channel that is still "to post", skipping the given sample. */
+export function nextToPost(
+  samples: readonly SampleInfo[], marks: PostMarks, category: SampleCategory, skipId?: string,
+): SampleInfo | undefined {
+  return samples.find((x) => x.category === category && x.id !== skipId && postStatus(marks, sampleMarkKey(x.id)) === 'todo');
+}

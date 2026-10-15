@@ -3,7 +3,9 @@ import type { DeckIndexEntry, PostMarks } from '../store/deckStore';
 import type { PhotoMeta } from '../store/photoStore';
 import type { Variant } from 'carousel-core/src/templates/types';
 
-export type MobileTab = 'write' | 'photos' | 'preview' | 'export';
+export type LeftTab = 'write' | 'photos' | 'style';
+/** Phone (< 768 px) shows one panel at a time; the preview is its own tab. */
+export type MobileTab = LeftTab | 'preview';
 
 export interface AppState {
   text: string;
@@ -24,8 +26,12 @@ export interface AppState {
   renderVersion: number;
   saveStatus: 'saved' | 'saving' | 'unsaved' | 'off';
   savedAt: number;
-  leftTab: 'write' | 'photos';
+  leftTab: LeftTab;
   mobileTab: MobileTab;
+  /** Focus mode: only the slides (editor and thumbnail rail hidden). */
+  focus: boolean;
+  /** The Publish sheet (save, copy title/caption, mark as posted). */
+  publishOpen: boolean;
   tip: boolean;
   decks: DeckIndexEntry[];
   /** Posting status per sample/deck key (see libraryData.markKey…). */
