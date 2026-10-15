@@ -136,9 +136,11 @@ import b2SportsBasketBackcourtId from './sports-basket-backcourt-id.txt?raw';
 import b2SportsBolaMatiMitosId from './sports-bola-mati-mitos-id.txt?raw';
 import b2SportsPenaltiId from './sports-penalti-id.txt?raw';
 import b2SportsVoliKamuWasitnyaId from './sports-voli-kamu-wasitnya-id.txt?raw';
+import skdTiuHarian1Id from './skd-tiu-harian-1-id.txt?raw';
+import kantorXlookupId from './kantor-xlookup-id.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
-export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'philosophy' | 'travel';
+export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'philosophy' | 'exam' | 'office' | 'travel';
 
 export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'relationships', label: 'Relationships' },
@@ -149,6 +151,8 @@ export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'indonesian', label: 'Bahasa Indonesia' },
   { id: 'ayat', label: 'Ayat & Hadis' },
   { id: 'philosophy', label: 'Filsafat' },
+  { id: 'exam', label: 'SKD & Seleksi' },
+  { id: 'office', label: 'Kantor' },
   { id: 'travel', label: 'Travel' },
 ];
 
@@ -309,4 +313,7 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sports-bola-mati-mitos-id', name: 'Mitos aturan bola mati (Whistle Notes, id)', category: 'sports', text: b2SportsBolaMatiMitosId },
   { id: 'sports-penalti-id', name: 'Kamu wasitnya penalti (Whistle Notes, id)', category: 'sports', text: b2SportsPenaltiId },
   { id: 'sports-voli-kamu-wasitnya-id', name: 'Kamu wasitnya voli (Whistle Notes, id)', category: 'sports', text: b2SportsVoliKamuWasitnyaId },
+  // SKD Harian (exam) and Jago Kantoran (office), Oct 2026
+  { id: 'skd-tiu-harian-1-id', name: 'Soal harian TIU 1 pulpen dan buku (SKD Harian, id)', category: 'exam', text: skdTiuHarian1Id },
+  { id: 'kantor-xlookup-id', name: 'XLOOKUP dasar (Jago Kantoran, id)', category: 'office', text: kantorXlookupId },
 ];

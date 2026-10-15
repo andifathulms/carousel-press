@@ -37,6 +37,8 @@
   --cat-indonesian: #E8836F;
   --cat-ayat: #7FB89A;
   --cat-philosophy: #E39A7A;
+  --cat-exam: #4FC1C9;
+  --cat-office: #A8D65B;
   /* Posting status in the deck library. */
   --st-todo: #F2B544;
   --st-posted: #4FBF85;
@@ -197,6 +199,8 @@ code { font-family: var(--font-mono); font-size: 12px; }
 .cat-indonesian { --cat: var(--cat-indonesian); }
 .cat-ayat { --cat: var(--cat-ayat); }
 .cat-philosophy { --cat: var(--cat-philosophy); }
+.cat-exam { --cat: var(--cat-exam); }
+.cat-office { --cat: var(--cat-office); }
 .st-todo { --st: var(--st-todo); }
 .st-posted { --st: var(--st-posted); }
 .st-skip { --st: var(--st-skip); }

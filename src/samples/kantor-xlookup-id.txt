@@ -1,0 +1,58 @@
+template: dev/sheet
+lang: id
+title: xlookup dasar
+caption: Cari data di tabel tanpa menghitung nomor kolom. Diuji di [versi Excel yang dipakai owner]. #exceltips #tipskantor #xlookup
+---
+[cover kicker="EXCEL • TUTORIAL"]
+Masih hitung kolom | buat *VLOOKUP?*
+XLOOKUP: cari nama dari ID, 4 langkah.
+---
+[table]
+Datanya: ID di kolom A, nama di B
+| ID | Nama | Divisi |
+| K01 | Rina | Keuangan |
+| K02 | Bayu | HRD |
+| K03 | Sari | IT |
+| K04 | Dimas | Gudang |
+| K05 | Lala | IT |
+ID yang dicari ditulis di F2.
+---
+[code]
+Cari nama dari ID
+Isi G2. F2 = yang dicari, A = kolom ID, B = kolom hasil.
+```excel
+=XLOOKUP(F2;A2:A6;B2:B6)
+```
+F2 berisi K03, hasilnya Sari.
+---
+[code]
+Kalau ID-nya nggak ada
+Argumen keempat menggantikan #N/A dengan teks sendiri.
+```excel
+=XLOOKUP(F2;A2:A6;B2:B6;"Tidak ada")
+```
+F2 berisi K09, hasilnya: Tidak ada.
+---
+[code]
+Cari ke kiri
+Nama di B, ID di A. VLOOKUP nggak bisa, XLOOKUP bisa.
+```excel
+=XLOOKUP(F2;B2:B6;A2:A6)
+```
+F2 berisi Dimas, hasilnya K04.
+---
+[code]
+Excel kamu pakai koma?
+Pemisah argumen ikut pengaturan region. Excel berbahasa Inggris (region US) pakai koma.
+```excel
+=XLOOKUP(F2,A2:A6,B2:B6)
+```
+Excel menolak rumusnya? Ganti ; jadi , (atau sebaliknya).
+---
+[card number=off icon=alert]
+XLOOKUP butuh *Excel 2021 atau 365*
+Excel 2019 ke bawah belum punya. Google Sheets punya, tulisannya sama.
+---
+[end cta="Simpan"]
+Kantormu masih pakai *Excel versi berapa?*
+Komen tahunnya. Besok: VLOOKUP vs XLOOKUP.
