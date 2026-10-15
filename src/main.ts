@@ -1,11 +1,14 @@
 import './appFonts';
 import './ui/app.css';
 import './ui/studio.css';
+import './ui/queue.css';
 import { SAMPLES } from './samples';
 import { Controller } from './ui/controller';
 import { ensureSamplePhotos, loadSample } from './ui/actions';
 import { mountApp } from './ui/app';
 import { importDeckFromHash } from './ui/deckLinkImport';
+
+const RESUME_WITHIN_MS = 24 * 60 * 60 * 1000;
 
 async function boot(): Promise<void> {
   const root = document.getElementById('app');
@@ -16,7 +19,13 @@ async function boot(): Promise<void> {
 
   // A #deck= link opens as a new deck, leaving the previous one untouched.
   // Otherwise restore the last open deck; on first run open the couples sample.
-  if (!importDeckFromHash(c)) await restoreDeck(c);
+  // Start in the Studio when that deck was worked on in the last day, else in the Queue.
+  const last = c.decks.listDecks().find((d) => d.id === c.settings.currentDeckId);
+  const recent = !!last && Date.now() - last.updatedAt < RESUME_WITHIN_MS;
+  if (!importDeckFromHash(c)) {
+    await restoreDeck(c);
+    if (!recent) c.store.set({ view: 'queue' });
+  }
   // Decks made from samples get their bundled photos back if the tray lost them.
   void ensureSamplePhotos(c, c.store.get().text);
 

@@ -36,7 +36,7 @@ export class Controller {
       text: '', deckId: '', parsed: empty, variant: getVariant(DEFAULT_TEMPLATE), selected: 0, darkness: 50,
       showSafe: this.settings.showSafe, showGrid: this.settings.showGrid, fontsReady: false, fontError: null,
       storageAvailable: this.decks.available, photos: [], renderWarnings: [], renderVersion: 0,
-      saveStatus: this.decks.available ? 'saved' : 'off', savedAt: Date.now(), leftTab: 'write', mobileTab: 'write', focus: false, publishOpen: false,
+      saveStatus: this.decks.available ? 'saved' : 'off', savedAt: Date.now(), leftTab: 'write', mobileTab: 'write', view: 'studio', focus: false, publishOpen: false,
       tip: !this.settings.tipDismissed, decks: this.decks.listDecks(), marks: this.decks.loadMarks(), busy: null, jump: null,
     });
   }

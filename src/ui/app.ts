@@ -5,20 +5,22 @@ import { mountCheatsheet } from './cheatsheet';
 import { h, svg, timeAgo } from './dom';
 import { mountEditor } from './editor';
 import { mountFilmstrip } from './filmstrip';
-import { mountLibrary } from './library';
+import { mountDeckMenu } from './deckMenu';
 import { postStatus } from './libraryData';
 import { mountPhotos } from './photos';
 import { mountPreview, paintBitmap } from './preview';
 import { mountPublishSheet } from './publishSheet';
+import { mountQueue } from './queue';
 import { deckOrigin } from './sampleIndex';
 import { mountStylePanel } from './stylePanel';
-import { REG_MARK, UI_ICONS } from './uiIcons';
+import { UI_ICONS } from './uiIcons';
 
-const THUMB = { w: 90, h: 160, quality: 0.7 };
+const THUMB = { w: 135, h: 240, quality: 0.72 };
 
 export function mountApp(root: HTMLElement, c: Controller): void {
   // ---- top bar ----
   const deckSwitcher = h('div', { class: 'deck-switcher' });
+  const back = h('button', { type: 'button', class: 'btn quiet back-btn', 'aria-label': 'Queue' }, svg(UI_ICONS.back), h('span', {}, 'Queue'));
   const status = h('span', { class: 'status-pill' });
   const health = h('button', { type: 'button', class: 'health' });
   const saveStatus = h('span', { class: 'save-status', 'aria-live': 'polite' });
@@ -26,8 +28,7 @@ export function mountApp(root: HTMLElement, c: Controller): void {
   const focusBtn = h('button', { type: 'button', class: 'icon-btn focus-btn', 'aria-label': 'Focus on the slides', 'aria-pressed': 'false' }, svg(UI_ICONS.expand));
   const publish = h('button', { type: 'button', class: 'btn primary publish-btn' }, svg(UI_ICONS.send), h('span', {}, 'Publish'));
   const topbar = h('header', { class: 'topbar' },
-    h('div', { class: 'brand', 'aria-hidden': 'true' }, svg(REG_MARK)),
-    deckSwitcher, status, h('div', { class: 'spacer' }), health, saveStatus, help, focusBtn, publish);
+    back, deckSwitcher, status, h('div', { class: 'spacer' }), health, saveStatus, help, focusBtn, publish);
 
   const storageBanner = h('div', { class: 'banner warn', role: 'status', hidden: true },
     'Autosave is off in this browser. Use Save deck file to keep your work.');
@@ -58,10 +59,12 @@ export function mountApp(root: HTMLElement, c: Controller): void {
     return b;
   }));
 
-  const app = h('div', { class: 'app' }, topbar, storageBanner, tip, main, mobileNav);
+  const queue = h('div', { class: 'queue' });
+  const app = h('div', { class: 'app' }, topbar, storageBanner, tip, main, mobileNav, queue);
   root.replaceChildren(app);
 
-  mountLibrary(deckSwitcher, c);
+  mountDeckMenu(deckSwitcher, c);
+  mountQueue(queue, c);
   mountEditor(panels.get('write')!, c);
   const cheat = mountCheatsheet(panels.get('write')!);
   mountPhotos(panels.get('photos')!, c);
@@ -77,6 +80,7 @@ export function mountApp(root: HTMLElement, c: Controller): void {
     cheat.querySelector('summary')?.focus();
   });
   health.addEventListener('click', () => c.store.set({ leftTab: 'write', mobileTab: 'write', focus: false }));
+  back.addEventListener('click', () => c.store.set({ view: 'queue', focus: false }));
   focusBtn.addEventListener('click', () => c.store.set({ focus: !c.store.get().focus }));
   publish.addEventListener('click', () => c.store.set({ publishOpen: true }));
   tipClose.addEventListener('click', () => {
@@ -97,6 +101,10 @@ export function mountApp(root: HTMLElement, c: Controller): void {
   c.store.watch((s) => s.mobileTab, (t) => {
     app.dataset.mobileTab = t;
     for (const b of mobileNav.querySelectorAll<HTMLButtonElement>('button')) b.setAttribute('aria-current', String(b.dataset.tab === t));
+  });
+  c.store.watch((s) => s.view, (v) => {
+    app.dataset.view = v;
+    if (v === 'queue') c.flushSave();
   });
   c.store.watch((s) => s.focus, (on) => {
     app.classList.toggle('focus', on);

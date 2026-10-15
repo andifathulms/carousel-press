@@ -8,8 +8,6 @@
   min-height: var(--topbar); padding: env(safe-area-inset-top, 0px) max(var(--s3), env(safe-area-inset-right, 0px)) 0 max(var(--s2), env(safe-area-inset-left, 0px));
   border-bottom: 1px solid var(--line); background: var(--ink-1);
 }
-.brand { display: grid; place-items: center; width: 36px; height: var(--tap); flex: none; color: var(--press); }
-.brand .reg-mark { width: 20px; height: 20px; }
 .spacer { flex: 1; }
 .save-status { font-size: 13px; color: var(--faint); white-space: nowrap; padding: 0 var(--s1); }
 .save-status[data-state="off"] { color: var(--warn); }
@@ -211,7 +209,7 @@
 .mobile-tabs { display: none; }
 @media (max-width: 767px) {
   .topbar { gap: 2px; }
-  .brand, .status-pill, .health span, .focus-btn, .topbar > .icon-btn[aria-label="Syntax help"] { display: none; }
+  .status-pill, .health span, .focus-btn, .topbar > .icon-btn[aria-label="Syntax help"] { display: none; }
   .publish-btn { padding: 0 12px; }
   .publish-btn span { display: none; }
   .deck-button { max-width: 60vw; }

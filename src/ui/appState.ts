@@ -28,6 +28,8 @@ export interface AppState {
   savedAt: number;
   leftTab: LeftTab;
   mobileTab: MobileTab;
+  /** Queue (pick a deck) or Studio (write and check it). */
+  view: 'queue' | 'studio';
   /** Focus mode: only the slides (editor and thumbnail rail hidden). */
   focus: boolean;
   /** The Publish sheet (save, copy title/caption, mark as posted). */

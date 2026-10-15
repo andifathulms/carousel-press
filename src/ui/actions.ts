@@ -220,8 +220,19 @@ export async function renameDeck(c: Controller): Promise<void> {
 }
 
 export async function deleteDeck(c: Controller): Promise<void> {
+  await deleteDeckById(c, c.store.get().deckId);
+}
+
+/** Delete a saved deck; deleting the open one opens the next (or the first sample). */
+export async function deleteDeckById(c: Controller, id: string): Promise<void> {
   const s = c.store.get();
-  if (!(await confirmDialog('Delete deck?', `"${s.parsed.deck.title || 'Untitled'}" will be removed from this browser.`, 'Delete', true))) return;
+  const title = id === s.deckId ? s.parsed.deck.title : s.decks.find((d) => d.id === id)?.title;
+  if (!(await confirmDialog('Delete deck?', `"${title || 'Untitled'}" will be removed from this browser.`, 'Delete', true))) return;
+  if (id !== s.deckId) {
+    c.decks.deleteDeck(id);
+    c.store.set({ decks: c.decks.listDecks() });
+    return;
+  }
   c.cancelPendingSave();
   c.decks.deleteDeck(s.deckId);
   c.store.set({ deckId: '' });

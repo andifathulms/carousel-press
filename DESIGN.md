@@ -497,6 +497,15 @@ The slide is the biggest thing on screen. At 1180 × 820 the preview is about 34
 - **Rail:** thumbnails 72 × 128, numbered, active = 2 px `--select` ring, warning dot top-right.
 - **Focus mode** (⛶): hides the left column and the rail; the neighbouring slides peek in at 30% opacity on each side.
 
+### 8.2a Queue
+The home screen for choosing what to post: a sidebar of channels (with how many are still to post) and a grid of 9:16 covers. Covers of samples are drawn with the one render path as they scroll into view; saved decks use their stored thumbnail.
+- Header: the channel name (or "Up next") in `--font-display` 38 px, "N to post · M posted", search (⌘K).
+- Status chips: To post · Posted · Skipped · All (To post by default).
+- **Continue** card for the deck open in the Studio, then **Your decks** (written from scratch) and **Samples**. A deck made from a sample appears once, as the sample's card, with a "Yours" badge; tapping it opens your copy.
+- Tap a card to open it in the Studio. Long-press (or right-click) for: Open, Start a new copy, Mark as posted/skipped, Back to to-post, Delete deck.
+- Sidebar footer: New deck, Open deck file, Clean unused photos. In portrait the sidebar becomes a row of chips.
+- The app opens in the Studio when the last deck was worked on in the past 24 h; otherwise in the Queue. The Studio's **‹ Queue** button returns here; the deck name opens Rename, Duplicate, Save deck file, status and Delete.
+
 ### 8.3 Publish sheet
 A panel that slides in from the right (bottom sheet on phones), in the order a post actually happens:
 1. **Save slides to Photos** (Web Share; where the browser can't share files, **Download all (ZIP)** takes its place). Secondary: ZIP, This slide.
