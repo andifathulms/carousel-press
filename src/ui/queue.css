@@ -88,6 +88,7 @@
 .q-badge.st-todo { color: #FFD27A; }
 .q-badge.st-posted { color: #7FE0AE; }
 .q-badge.mine { left: auto; right: 8px; color: var(--paper); }
+.q-badge.updated { background: var(--press); color: var(--press-ink); }
 
 /* ---- popover menu ---- */
 .menu {

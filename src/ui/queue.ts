@@ -1,11 +1,11 @@
-import { CATEGORIES, type SampleCategory } from '../samples';
+import { CATEGORIES, SAMPLES, type SampleCategory } from '../samples';
 import type { DeckIndexEntry } from '../store/deckStore';
-import { cleanUnusedPhotos, deleteDeckById, loadSample, newBlankDeck, openDeck, openDeckFile } from './actions';
+import { cleanUnusedPhotos, deleteDeckById, loadSample, newBlankDeck, openDeck, openDeckFile, replaceWithSample } from './actions';
 import type { Controller } from './controller';
 import { h, svg, timeAgo } from './dom';
 import {
   type CategoryFilter, type PostStatus, type SampleInfo, type StatusFilter, countStatuses, deckMarkKey, deckSamples,
-  decksFromSample, filterDecks, filterSamples, keepStatus, postStatus, sampleMarkKey, variantName,
+  decksFromSample, filterDecks, filterSamples, keepStatus, postStatus, sampleMarkKey, sampleUpdated, variantName,
 } from './libraryData';
 import { type MenuItem, onLongPress, openMenu } from './menu';
 import { sampleCovers } from './sampleCovers';
@@ -15,6 +15,7 @@ import { REG_MARK, UI_ICONS } from './uiIcons';
 const LABEL = Object.fromEntries(CATEGORIES.map((x) => [x.id, x.label])) as Record<SampleCategory, string>;
 const STATUS_LABEL: Record<PostStatus, string> = { todo: 'To post', posted: 'Posted', skip: 'Skipped' };
 const STATUSES: readonly PostStatus[] = ['todo', 'posted', 'skip'];
+const SAMPLE_TEXT = new Map(SAMPLES.map((x) => [x.id, x.text]));
 
 /** Status actions for a long-press menu (everything except the current state). */
 function statusItems(c: Controller, key: string): MenuItem[] {
@@ -55,7 +56,8 @@ export function mountQueue(root: HTMLElement, c: Controller): void {
     badge?: string; onOpen: () => unknown; menu: () => MenuItem[];
   }): HTMLElement => {
     const cover = h('span', { class: 'q-cover' }, o.img ? h('img', { src: o.img, alt: '' }) : null,
-      h('span', { class: `q-badge st-${o.st}` }, STATUS_LABEL[o.st]), o.badge ? h('span', { class: 'q-badge mine' }, o.badge) : null);
+      h('span', { class: `q-badge st-${o.st}` }, STATUS_LABEL[o.st]),
+      o.badge ? h('span', { class: `q-badge mine${o.badge === 'Updated' ? ' updated' : ''}` }, o.badge) : null);
     if (o.sampleId && !o.img) covers.observe(cover, o.sampleId);
     const b = h('button', { type: 'button', class: `q-card st-${o.st}` }, cover,
       h('strong', {}, o.title || 'Untitled'),
@@ -133,13 +135,18 @@ export function mountQueue(root: HTMLElement, c: Controller): void {
     });
     const sampleCards = smp.map((x) => {
       const mine = decksFromSample(s.decks, x)[0];
+      const updated = !!mine && sampleUpdated(mine, SAMPLE_TEXT.get(x.id) ?? '');
       return card({
-        title: x.name, cat: x.category, st: postStatus(s.marks, sKey(x)), sampleId: x.id, img: mine?.thumb,
-        badge: mine ? 'Yours' : undefined, meta: `${LABEL[x.category]} · ${x.slides} slides`,
+        title: x.name, cat: x.category, st: postStatus(s.marks, sKey(x)), sampleId: x.id,
+        // An updated sample shows its new cover, so the change is visible before replacing.
+        img: updated ? undefined : mine?.thumb,
+        badge: updated ? 'Updated' : mine ? 'Yours' : undefined, meta: `${LABEL[x.category]} · ${x.slides} slides`,
         onOpen: () => loadSample(c, x.id),
         menu: () => [
           { label: mine ? 'Open your copy' : 'Open', icon: UI_ICONS.pen, onSelect: open(() => loadSample(c, x.id)) },
-          ...(mine ? [{ label: 'Start a new copy', icon: UI_ICONS.plus, onSelect: open(() => loadSample(c, x.id, true)) }] : []),
+          ...(mine ? [{ label: 'Replace with latest sample', icon: UI_ICONS.upload, onSelect: async () => {
+            if (await replaceWithSample(c, x.id)) c.store.set({ view: 'studio' });
+          } }] : []),
           'sep', ...statusItems(c, sKey(x)),
         ],
       });

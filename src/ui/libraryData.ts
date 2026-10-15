@@ -1,3 +1,4 @@
+import { hash } from 'carousel-core/src/core/hash';
 import { parse } from 'carousel-core/src/core/parser';
 import type { Sample, SampleCategory } from '../samples';
 import type { DeckIndexEntry, PostMark, PostMarks } from '../store/deckStore';
@@ -112,4 +113,13 @@ export function nextToPost(
   samples: readonly SampleInfo[], marks: PostMarks, category: SampleCategory, skipId?: string,
 ): SampleInfo | undefined {
   return samples.find((x) => x.category === category && x.id !== skipId && postStatus(marks, sampleMarkKey(x.id)) === 'todo');
+}
+
+// ---- sample updates -------------------------------------------------------------
+
+export const sampleHash = (text: string): number => hash(text);
+
+/** True when the sample changed after this deck was copied from it. Unknown (older decks) counts as not changed. */
+export function sampleUpdated(entry: DeckIndexEntry, sampleText: string): boolean {
+  return entry.sampleHash !== undefined && entry.sampleHash !== sampleHash(sampleText);
 }

@@ -502,7 +502,8 @@ The home screen for choosing what to post: a sidebar of channels (with how many 
 - Header: the channel name (or "Up next") in `--font-display` 38 px, "N to post · M posted", search (⌘K).
 - Status chips: To post · Posted · Skipped · All (To post by default).
 - **Continue** card for the deck open in the Studio, then **Your decks** (written from scratch) and **Samples**. A deck made from a sample appears once, as the sample's card, with a "Yours" badge; tapping it opens your copy.
-- Tap a card to open it in the Studio. Long-press (or right-click) for: Open, Start a new copy, Mark as posted/skipped, Back to to-post, Delete deck.
+- Tap a card to open it in the Studio. Long-press (or right-click) for: Open, Replace with latest sample, Mark as posted/skipped, Back to to-post, Delete deck.
+- **Sample updates:** each copy remembers a hash of the sample text it came from. When the sample changes (a redesign), its card shows an **Updated** badge (`--press` fill) and the sample's new cover, and the Studio shows a notice with **Replace with latest**. Replacing overwrites your copy in place (same deck, same posting status, same photo darkness) after a confirmation, and removes any older duplicate copies of that sample. It never creates another copy. "Replace with latest sample" is also in the Studio deck menu.
 - Sidebar footer: New deck, Open deck file, Clean unused photos. In portrait the sidebar becomes a row of chips.
 - The app opens in the Studio when the last deck was worked on in the past 24 h; otherwise in the Queue. The Studio's **‹ Queue** button returns here; the deck name opens Rename, Duplicate, Save deck file, status and Delete.
 

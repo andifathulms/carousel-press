@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { SAMPLES } from '../src/samples';
 import { SAMPLE_PHOTO_IDS, samplePhotosIn } from '../src/samples/photos';
 import type { DeckIndexEntry } from '../src/store/deckStore';
-import { countStatuses, deckCategories, deckMarkKey, deckSamples, decksFromSample, keepStatus, nextToPost, postStatus, sampleMarkKey, filterDecks, filterSamples, matches, sampleInfo } from '../src/ui/libraryData';
+import { countStatuses, deckCategories, deckMarkKey, deckSamples, decksFromSample, keepStatus, nextToPost, postStatus, sampleHash, sampleUpdated, sampleMarkKey, filterDecks, filterSamples, matches, sampleInfo } from '../src/ui/libraryData';
 
 const git = sampleInfo(SAMPLES.find((s) => s.id === 'dev-git-id')!);
 const deck = (over: Partial<DeckIndexEntry>): DeckIndexEntry => ({ id: 'x', title: 't', template: 'editorial/sage', updatedAt: 0, ...over });
@@ -88,5 +88,16 @@ describe('nextToPost', () => {
   it('returns nothing when the channel is done', () => {
     const marks = Object.fromEntries(dev.map((x) => [sampleMarkKey(x.id), { state: 'skip' as const, at: 1 }]));
     expect(nextToPost(all, marks, 'dev')).toBeUndefined();
+  });
+});
+
+describe('sampleUpdated', () => {
+  it('flags a copy whose sample text changed since it was copied', () => {
+    const copied = deck({ sampleId: 'dev-git-id', sampleHash: sampleHash('v1') });
+    expect(sampleUpdated(copied, 'v1')).toBe(false);
+    expect(sampleUpdated(copied, 'v2')).toBe(true);
+  });
+  it('does not flag copies made before hashes were stored', () => {
+    expect(sampleUpdated(deck({ sampleId: 'dev-git-id' }), 'anything')).toBe(false);
   });
 });

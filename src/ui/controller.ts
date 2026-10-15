@@ -7,6 +7,7 @@ import { type AppSettings, DeckStore, type PostState, newDeckId } from '../store
 import { PHOTO, PhotoStore } from '../store/photoStore';
 import { getVariant, templateFamily } from 'carousel-core/src/templates/registry';
 import type { AppState } from './appState';
+import { sampleHash } from './libraryData';
 import { debounce } from './dom';
 import { RenderEngine } from './renderEngine';
 import { Store } from './state';
@@ -233,7 +234,7 @@ export class Controller {
     const id = newDeckId();
     this.openDeck(id, text);
     if (sampleId) {
-      this.decks.setSample(id, sampleId);
+      this.decks.setSample(id, sampleId, sampleHash(text));
       this.store.set({ decks: this.decks.listDecks() });
     }
     return id;

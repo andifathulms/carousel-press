@@ -23,6 +23,8 @@ export interface DeckIndexEntry {
   slides?: number;
   /** Set when the deck was created from a sample, so loading it again opens this deck. */
   sampleId?: string;
+  /** Hash of the sample text this deck was copied from; a different hash now means the sample was updated. */
+  sampleHash?: number;
 }
 
 /** Posting status of a deck or sample. No entry means "to post". */
@@ -124,7 +126,8 @@ export class DeckStore {
     if (!ok) return false;
     const list = this.listDecks().filter((d) => d.id !== deck.id);
     const prev = this.listDecks().find((d) => d.id === deck.id);
-    list.push({ id: deck.id, updatedAt: deck.updatedAt, ...entry, thumb: entry.thumb ?? prev?.thumb, sampleId: entry.sampleId ?? prev?.sampleId });
+    list.push({ id: deck.id, updatedAt: deck.updatedAt, ...entry, thumb: entry.thumb ?? prev?.thumb, sampleId: entry.sampleId ?? prev?.sampleId,
+      sampleHash: entry.sampleHash ?? prev?.sampleHash });
     return this.write(K.index, list);
   }
 
@@ -136,11 +139,13 @@ export class DeckStore {
     this.write(K.index, list);
   }
 
-  setSample(id: string, sampleId: string): void {
+  /** Tag a deck with the sample it was copied from (and the hash of that sample's text). */
+  setSample(id: string, sampleId: string, sampleHash?: number): void {
     const list = this.listDecks();
     const e = list.find((d) => d.id === id);
-    if (!e || e.sampleId === sampleId) return;
+    if (!e || (e.sampleId === sampleId && (sampleHash === undefined || e.sampleHash === sampleHash))) return;
     e.sampleId = sampleId;
+    if (sampleHash !== undefined) e.sampleHash = sampleHash;
     this.write(K.index, list);
   }
 

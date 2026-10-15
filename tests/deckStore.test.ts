@@ -32,6 +32,8 @@ describe('DeckStore', () => {
     s.setSample('a', 'dev-git-id');
     s.saveDeck({ id: 'a', text: 'Hi!', settings: { darkness: 50 }, updatedAt: 2 }, { title: 'Hi!', template: 'dev/terminal', slides: 4 });
     expect(s.listDecks()[0]).toMatchObject({ sampleId: 'dev-git-id', slides: 4, title: 'Hi!' });
+    s.setSample('a', 'dev-git-id', 42);
+    expect(s.listDecks()[0]!.sampleHash).toBe(42);
   });
 
   it('round-trips decks, index and settings', () => {

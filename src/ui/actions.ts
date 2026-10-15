@@ -14,7 +14,8 @@ import {
   validateDeckFile,
 } from '../store/deckFile';
 import type { Controller } from './controller';
-import { decksFromSample, sampleInfo } from './libraryData';
+import { decksFromSample, sampleHash, sampleInfo } from './libraryData';
+import { allSampleInfos } from './sampleIndex';
 import { confirmDialog, exportWarningsDialog, openModal, promptDialog, toast } from './dialogs';
 import { h } from './dom';
 
@@ -187,18 +188,55 @@ export async function ensureSamplePhotos(c: Controller, text: string): Promise<v
   c.refreshPhotos();
 }
 
-/** Open the deck made from this sample, or create it the first time. `fresh` always makes a new copy. */
-export async function loadSample(c: Controller, sampleId: string, fresh = false): Promise<void> {
+/** Open the deck made from this sample, or create it the first time. */
+export async function loadSample(c: Controller, sampleId: string): Promise<void> {
   const sample = SAMPLES.find((x) => x.id === sampleId);
   if (!sample) return;
   await ensureSamplePhotos(c, sample.text);
-  const existing = fresh ? undefined : decksFromSample(c.decks.listDecks(), sampleInfo(sample))[0];
+  const existing = decksFromSample(c.decks.listDecks(), sampleInfo(sample))[0];
   if (existing) {
     openDeck(c, existing.id);
     return;
   }
   c.newDeck(sample.text, sampleId);
-  if (fresh) toast('New copy of the sample. You are editing the copy.');
+}
+
+/**
+ * Replace your copy of a sample with the sample's current text (after the sample was
+ * redesigned). The copy keeps its id, posting status and photo darkness; any older
+ * duplicate copies of the same sample are removed. Asks first, since edits are lost.
+ */
+export async function replaceWithSample(c: Controller, sampleId: string): Promise<boolean> {
+  const sample = SAMPLES.find((x) => x.id === sampleId);
+  if (!sample) return false;
+  const [keep, ...older] = decksFromSample(c.decks.listDecks(), sampleInfo(sample));
+  if (!keep) {
+    await loadSample(c, sampleId);
+    return true;
+  }
+  const extra = older.length ? ` ${older.length} older ${older.length === 1 ? 'copy' : 'copies'} of it will be removed too.` : '';
+  if (!(await confirmDialog('Replace with the latest sample?',
+    `"${keep.title || 'Untitled'}" gets the sample's current text. Changes you made to your copy are lost.${extra}`, 'Replace', true))) return false;
+  await ensureSamplePhotos(c, sample.text);
+  c.cancelPendingSave();
+  for (const d of older) c.decks.deleteDeck(d.id);
+  c.openDeck(keep.id, sample.text, c.decks.loadDeck(keep.id)?.settings.darkness ?? 50);
+  c.decks.setSample(keep.id, sampleId, sampleHash(sample.text));
+  c.store.set({ decks: c.decks.listDecks() });
+  toast('Replaced with the latest sample.');
+  return true;
+}
+
+/** Record the sample hash for decks copied before hashes were stored, when the copy is still identical. */
+export function backfillSampleHashes(c: Controller): void {
+  const decks = c.decks.listDecks();
+  if (!decks.some((d) => d.sampleHash === undefined)) return;
+  for (const [i, sample] of SAMPLES.entries()) {
+    for (const d of decksFromSample(decks, allSampleInfos()[i]!)) {
+      if (d.sampleHash !== undefined) continue;
+      if (c.decks.loadDeck(d.id)?.text === sample.text) c.decks.setSample(d.id, sample.id, sampleHash(sample.text));
+    }
+  }
 }
 
 export function newBlankDeck(c: Controller): void {

@@ -12,6 +12,8 @@
 .save-status { font-size: 13px; color: var(--faint); white-space: nowrap; padding: 0 var(--s1); }
 .save-status[data-state="off"] { color: var(--warn); }
 .banner { display: flex; align-items: center; justify-content: space-between; gap: var(--s3); min-height: 44px; padding: 0 var(--s2) 0 var(--s4); font-size: 14px; flex: none; }
+.banner.update { background: var(--press-soft); border-bottom: 1px solid var(--line); color: var(--paper); }
+.banner-acts { display: flex; align-items: center; gap: var(--s1); flex: none; }
 .banner.tip { background: var(--ink-1); border-bottom: 1px solid var(--line); color: var(--muted); }
 
 /* Deck button: the deck's name (display face) over its template and slide count. */

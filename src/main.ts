@@ -4,7 +4,7 @@ import './ui/studio.css';
 import './ui/queue.css';
 import { SAMPLES } from './samples';
 import { Controller } from './ui/controller';
-import { ensureSamplePhotos, loadSample } from './ui/actions';
+import { backfillSampleHashes, ensureSamplePhotos, loadSample } from './ui/actions';
 import { mountApp } from './ui/app';
 import { setupPlatform } from './ui/platform';
 import { importDeckFromHash } from './ui/deckLinkImport';
@@ -18,6 +18,8 @@ async function boot(): Promise<void> {
   const c = new Controller();
   mountApp(root, c);
   await c.init();
+  backfillSampleHashes(c);
+  c.store.set({ decks: c.decks.listDecks() });
 
   // A #deck= link opens as a new deck, leaving the previous one untouched.
   // Otherwise restore the last open deck; on first run open the couples sample.

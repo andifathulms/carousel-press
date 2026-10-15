@@ -6,7 +6,9 @@ import { h, svg, timeAgo } from './dom';
 import { mountEditor } from './editor';
 import { mountFilmstrip } from './filmstrip';
 import { mountDeckMenu } from './deckMenu';
-import { postStatus } from './libraryData';
+import { postStatus, sampleUpdated } from './libraryData';
+import { replaceWithSample } from './actions';
+import { SAMPLES } from '../samples';
 import { mountPhotos } from './photos';
 import { mountPreview, paintBitmap } from './preview';
 import { mountPublishSheet } from './publishSheet';
@@ -33,6 +35,10 @@ export function mountApp(root: HTMLElement, c: Controller): void {
 
   const storageBanner = h('div', { class: 'banner warn', role: 'status', hidden: true },
     'Autosave is off in this browser. Use Save deck file to keep your work.');
+  const updateBtn = h('button', { type: 'button', class: 'btn small' }, 'Replace with latest');
+  const updateClose = h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Dismiss' }, svg(UI_ICONS.close));
+  const updateBanner = h('div', { class: 'banner update', role: 'status', hidden: true },
+    h('span', {}, 'The sample this deck came from was updated since you copied it.'), h('span', { class: 'banner-acts' }, updateBtn, updateClose));
   const tipClose = h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Dismiss tip' }, svg(UI_ICONS.close));
   const tip = h('div', { class: 'banner tip', role: 'status', hidden: true },
     h('span', {}, 'Edit the text on the left. Slides update live. Swipe the slide to move between slides.'), tipClose);
@@ -61,7 +67,7 @@ export function mountApp(root: HTMLElement, c: Controller): void {
   }));
 
   const queue = h('div', { class: 'queue' });
-  const app = h('div', { class: 'app' }, topbar, storageBanner, tip, main, mobileNav, queue);
+  const app = h('div', { class: 'app' }, topbar, storageBanner, updateBanner, tip, main, mobileNav, queue);
   root.replaceChildren(app);
 
   mountDeckMenu(deckSwitcher, c);
@@ -115,6 +121,27 @@ export function mountApp(root: HTMLElement, c: Controller): void {
   });
   c.store.watch((s) => s.storageAvailable, (ok) => { storageBanner.hidden = ok; });
   c.store.watch((s) => s.tip, (on) => { tip.hidden = !on; });
+
+  // Notice when the open deck's sample changed after it was copied (dismissed per deck, per session).
+  const dismissedUpdate = new Set<string>();
+  const paintUpdate = (): void => {
+    const s = c.store.get();
+    const entry = s.decks.find((d) => d.id === s.deckId);
+    const { sample } = deckOrigin(s.decks, s.deckId);
+    const text = sample ? SAMPLES.find((x) => x.id === sample.id)?.text : undefined;
+    updateBanner.hidden = !entry || !text || dismissedUpdate.has(entry.id) || !sampleUpdated(entry, text);
+  };
+  updateBtn.addEventListener('click', () => {
+    const { sample } = deckOrigin(c.store.get().decks, c.store.get().deckId);
+    if (sample) void replaceWithSample(c, sample.id).then(paintUpdate);
+  });
+  updateClose.addEventListener('click', () => {
+    dismissedUpdate.add(c.store.get().deckId);
+    paintUpdate();
+  });
+  c.store.subscribe((s, p) => {
+    if (s.decks !== p.decks || s.deckId !== p.deckId) paintUpdate();
+  });
 
   const paintHealth = (): void => {
     const s = c.store.get();
