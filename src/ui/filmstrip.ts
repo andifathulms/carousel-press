@@ -53,7 +53,7 @@ export function mountFilmstrip(root: HTMLElement, c: Controller): void {
     if (s.parsed !== p.parsed || s.selected !== p.selected || s.renderVersion !== p.renderVersion ||
       s.fontsReady !== p.fontsReady || s.renderWarnings !== p.renderWarnings) paint();
     // Canvases hidden at paint time have no size; repaint once the rail is visible again.
-    if (s.mobileTab !== p.mobileTab || s.focus !== p.focus) requestAnimationFrame(paint);
+    if (s.mobileTab !== p.mobileTab || s.focus !== p.focus || s.view !== p.view) requestAnimationFrame(paint);
   });
   paint();
 }

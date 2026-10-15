@@ -134,7 +134,7 @@ export function mountPreview(root: HTMLElement, c: Controller): void {
   c.store.subscribe((s, p) => {
     if (s.selected !== p.selected || s.renderVersion !== p.renderVersion || s.fontsReady !== p.fontsReady ||
       s.showSafe !== p.showSafe || s.showGrid !== p.showGrid || s.parsed !== p.parsed || s.fontError !== p.fontError) paint();
-    if (s.mobileTab !== p.mobileTab || s.focus !== p.focus) requestAnimationFrame(fit);
+    if (s.mobileTab !== p.mobileTab || s.focus !== p.focus || s.view !== p.view) requestAnimationFrame(fit);
   });
   fit();
 }

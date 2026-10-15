@@ -119,6 +119,6 @@ export function mountStylePanel(root: HTMLElement, c: Controller): void {
       stale = true;
       soon();
     }
-    if (s.leftTab !== p.leftTab || s.mobileTab !== p.mobileTab) requestAnimationFrame(() => void paintAll());
+    if (s.leftTab !== p.leftTab || s.mobileTab !== p.mobileTab || s.view !== p.view) requestAnimationFrame(() => void paintAll());
   });
 }
