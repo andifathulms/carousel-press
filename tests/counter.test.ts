@@ -74,5 +74,5 @@ describe('layout', () => {
       }
     }
     expect(slides).toBeGreaterThan(1000);
-  }, 30_000);
+  }, 120_000); // every sample × every template; grows with the sample library
 });
