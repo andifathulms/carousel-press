@@ -9,23 +9,25 @@ Udah hafal pesanan kopinya. *Kapan terakhir bilang kenapa kamu milih dia?*
 ---
 [number=off icon=none]
 Aku masih suka *cara kamu ketawa* pas nonton yang nggak lucu.
-Ganti dengan kebiasaan kecilnya. Makin spesifik, makin kena.
 ---
 [number=off icon=none]
 Makasih udah *ngurusin hal-hal yang nggak kelihatan.*
-Bayar tagihan, inget ulang tahun keluarga, beli galon.
+Galon, tagihan, ulang tahun keluargaku. Aku lihat semuanya.
 ---
 [number=off icon=none]
 Kamu yang sekarang *lebih keren* dari waktu kita baru kenal.
-Orang berubah. Bilang kalau perubahannya kamu suka.
 ---
 [number=off icon=none]
-Kapan-kapan kita *ke tempat pertama kita lagi,* yuk.
-Lebih bagus lagi: kasih tanggalnya.
+Sabtu depan kita *ke tempat pertama kita lagi,* yuk.
 ---
 [number=off icon=none]
 Aku *masih milih kamu.* Hari ini juga.
-Pendek. Simpan buat hari yang biasa aja.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Ganti “ketawa” dengan kebiasaannya.
+Makin spesifik, makin kena.
+Yang terakhir, buat hari biasa aja.
 ---
 [end cta="Kirim ke dia"]
 Kalian udah bareng *berapa tahun?*

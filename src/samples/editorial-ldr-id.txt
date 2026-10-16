@@ -9,23 +9,24 @@ Yang susah dari LDR: *bilang kangen tanpa bikin berat.*
 ---
 [number=off icon=none]
 Tadi aku makan *menu kesukaanmu.* Rasanya kurang satu orang.
-Ganti menunya. Detail kecil bikin kerasa dekat.
 ---
 [number=off icon=none]
 Nggak usah bales cepet. *Aku cuma pengen kamu tahu aku kepikiran.*
-Buat hari-hari dia lagi sibuk.
 ---
 [number=off icon=none]
-Aku udah hitung: *tinggal ___ hari lagi* kita ketemu.
-Isi angkanya. Hitungan mundur bikin jarak kerasa ada ujungnya.
+Aku udah mulai *hitung mundur* ke hari kita ketemu.
 ---
 [number=off icon=none]
-Nanti pas ketemu, *aku mau ngajak kamu ke ____.*
-Isi tempatnya. Rencana kecil itu pegangan.
+Nanti pas ketemu, *aku yang atur harinya.* Kamu tinggal datang.
 ---
 [number=off icon=none]
 Makasih udah *tetap milih aku,* walau ribet.
-Yang ini simpan buat malam yang paling berat.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Ganti menunya sesuai kesukaan dia.
+Yang kedua, buat hari dia sibuk.
+Yang terakhir, buat malam terberat.
 ---
 [end cta="Kirim ke dia"]
 Kalian *beda berapa jam?*

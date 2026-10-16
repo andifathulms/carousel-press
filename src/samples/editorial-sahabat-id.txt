@@ -9,23 +9,25 @@ Sahabatmu tahu kamu sayang. *Tapi kapan terakhir kamu bilang?*
 ---
 [number=off icon=none]
 Aku nggak tahu tahun kemarin bakal gimana *kalau nggak ada kamu.*
-Sebut tahunnya kalau mau. Biar dia tahu kamu ingat.
 ---
 [number=off icon=none]
 Makasih udah *nggak pernah bikin aku ngerasa ribet,* walau aku sering ribet.
-Buat sahabat yang tetap bales, walau jam 2 pagi.
 ---
 [number=off icon=none]
-Aku inget kamu pas *lihat ini,* terus ketawa sendiri.
-Kirim bareng fotonya. Nggak perlu konteks.
+Tiap ada yang lucu, *orang pertama yang pengen aku kasih tahu itu kamu.*
 ---
 [number=off icon=none]
-Kalau lagi capek, *bilang aja.* Nggak harus cerita, aku temenin diem juga bisa.
-Kadang yang dibutuhin bukan solusi.
+Kalau lagi capek, *bilang aja.*
+Nggak harus cerita. Aku temenin diem juga bisa.
 ---
 [number=off icon=none]
 Kita udah temenan *berapa tahun* ya? Rasanya baru kemarin kamu nyebelin.
-Sedikit ledekan bikin yang manis nggak kerasa canggung.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Ganti “tahun kemarin” jadi tahunnya.
+Sedikit ledekan bikin nggak canggung.
+Pilih satu aja. Lima itu mencurigakan.
 ---
 [end cta="Kirim ke sahabatmu"]
 Kamu kirim *kalimat yang ke berapa?*

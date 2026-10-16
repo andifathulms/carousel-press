@@ -5,27 +5,28 @@ caption: Yang paling susah itu chat pertama setelah lama nggak ngobrol. Ini 5 ka
 ---
 [cover kicker="RUANG RASA · TEMAN LAMA"]
 Kita nggak pernah berantem. | Cuma *pelan-pelan* jarang chat.
-5 kalimat pembuka, biar nggak berhenti di "apa kabar".
+5 kalimat pembuka, biar nggak berhenti di “apa kabar”.
 ---
 [number=off icon=none]
 Tadi aku lewat tempat kita dulu, *langsung keinget kamu.*
-Ganti tempatnya. Kirim apa adanya, nggak usah dirapihin.
 ---
 [number=off icon=none]
 Lagu apa yang lagi kamu puter terus? *Aku butuh rekomendasi.*
-Mulai dari yang ringan. Yang berat nanti nyusul sendiri.
 ---
 [number=off icon=none]
-Aku masih suka *ketawa sendiri* kalau inget waktu kita ____.
-Isi titiknya. Kenangan bareng bikin dia nggak perlu mikir mau bales apa.
+Aku masih suka *ketawa sendiri* kalau inget kelakuan kita dulu.
 ---
 [number=off icon=none]
 Hidupmu sekarang lagi sibuk apa? *Ceritain versi panjangnya,* aku ada waktu.
-"Aku ada waktu" itu bagian terpentingnya.
 ---
 [number=off icon=none]
 Bulan ini kamu kosong kapan? *Aku traktir kopi.*
-Kasih tanggal. "Kapan-kapan" itu nggak pernah datang.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Sebut tempatnya: kantin, kos, halte.
+Mulai ringan. Yang berat nyusul.
+“Kapan-kapan” nggak pernah datang.
 ---
 [end cta="Kirim ke dia"]
 Kamu kepikiran *siapa* dari tadi?

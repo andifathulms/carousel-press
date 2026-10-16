@@ -8,19 +8,19 @@ Beda kamar, satu lorong. *Tapi dia tahu kamu belum makan.*
 5 kalimat teman kos dan artinya yang sebenarnya.
 ---
 [number=off icon=none]
-"Aku masak kebanyakan nih." | *Artinya: aku sengaja masakin kamu juga.*
+“Aku masak kebanyakan nih.” | *Artinya: aku sengaja masakin kamu juga.*
 ---
 [number=off icon=none]
-"Mau nitip nggak? Aku ke warung." | *Artinya: aku inget kamu, bahkan buat hal kecil.*
+“Mau nitip nggak? Aku ke warung.” | *Artinya: aku inget kamu, bahkan buat hal kecil.*
 ---
 [number=off icon=none]
-"Galonnya udah aku angkat, ya." | *Artinya: nggak usah ngerasa utang.*
+“Galonnya udah aku angkat, ya.” | *Artinya: nggak usah ngerasa utang.*
 ---
 [number=off icon=none]
-"Lampu kamarmu masih nyala jam dua." | *Artinya: aku perhatiin, dan aku khawatir.*
+“Lampu kamarmu masih nyala jam dua.” | *Artinya: aku perhatiin, dan aku khawatir.*
 ---
 [number=off icon=none]
-"Kos sepi kalau kamu pulang kampung." | *Artinya: kamu udah kayak keluarga di sini.*
+“Kos sepi kalau kamu pulang kampung.” | *Artinya: kamu udah kayak keluarga di sini.*
 ---
 [end cta="Kirim ke teman kos"]
 Teman kosmu yang *nomor berapa?*

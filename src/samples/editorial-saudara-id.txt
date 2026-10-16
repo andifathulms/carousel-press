@@ -9,23 +9,25 @@ Dulu berantem tiap hari. *Sekarang malah kangen ribut-ributnya.*
 ---
 [number=off icon=none]
 Maaf ya dulu *sering ngadu.* Sekarang aku ngerti rasanya jadi kamu.
-Kenangan konyol bikin minta maaf nggak kerasa berat.
 ---
 [number=off icon=none]
 Aku masih inget waktu kamu *belain aku,* walau kamu juga lagi dimarahin.
-Kenangan kecil biasanya diingat dua-duanya.
 ---
 [number=off icon=none]
 Kamu orang yang *paling ngerti rumah kita,* tanpa perlu dijelasin.
-Yang ini cuma saudara yang bisa.
 ---
 [number=off icon=none]
-Kapan-kapan kita *pergi berdua* yuk, kayak dulu.
-Tanpa pasangan, tanpa anak, tanpa grup keluarga.
+Kapan-kapan kita *pergi berdua* yuk.
+Kayak dulu. Nggak usah ajak siapa-siapa.
 ---
 [number=off icon=none]
 Aku bangga sama kamu. *Jarang bilang, tapi beneran.*
-Pendek, canggung, dan pasti diingat.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Kirim lewat japri, bukan di grup.
+Mulai dari kenangan yang konyol.
+Canggung itu wajar. Dia pasti inget.
 ---
 [end cta="Kirim ke saudaramu"]
 Kamu *anak ke berapa?*

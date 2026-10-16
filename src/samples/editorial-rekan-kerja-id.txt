@@ -9,23 +9,24 @@ Satu meja tiap hari, *tapi jarang ada yang bilang makasih.*
 ---
 [number=off icon=none]
 Makasih ya yang kemarin. *Aku tahu itu bukan tugasmu.*
-Sebut kerjaannya. Biar kerasa tulus, bukan basa-basi.
 ---
 [number=off icon=none]
 Presentasimu tadi *rapi banget.* Aku catat caranya.
-Bilang juga di depan tim. Lebih kena.
 ---
 [number=off icon=none]
 Lagi banyak kerjaan? *Ada yang bisa aku pegang?*
-Tawaran kecil sering lebih berarti dari kelihatannya.
 ---
 [number=off icon=none]
 Hari ini berat ya. *Ngopi bentar yuk,* aku traktir.
-Nggak harus bahas kerjaan.
 ---
 [number=off icon=none]
 Seneng deh *satu tim sama kamu.*
-Pendek, jarang diucapin. Pas buat hari Jumat.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Sebut kerjaannya, misal laporan Senin.
+Pujiannya ulangi juga di depan tim.
+Yang terakhir pas buat hari Jumat.
 ---
 [end cta="Kirim ke rekan kerja"]
 Kepikiran *siapa* di kantor?
