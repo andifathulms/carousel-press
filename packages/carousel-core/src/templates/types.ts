@@ -45,6 +45,8 @@ export interface Deco {
   doubleRule?: boolean;
   /** Lexicon: ruled notebook lines + margin line (notebook). */
   notebook?: boolean;
+  /** Lexicon: rules every 72 px and a margin line on the right, for RTL writing (lexicon/arab). */
+  notebookRight?: boolean;
   /** Lexicon: large faint glyph off the bottom-right corner. */
   cornerGlyph?: string;
   /** Faint ruled grid: spreadsheet cells (dev/sheet) or square exam paper (lexicon/lembar). */
@@ -67,6 +69,12 @@ export interface LexTokens {
   badInk: string;
   /** Notebook margin line. */
   margin?: string;
+  /** Arabic root letters (SPEC-script §10.1). Default: accent. */
+  root?: string;
+  /** Hanzi practice-box lines (SPEC-script §10.2). Decorative. Default: rule. */
+  grid?: string;
+  /** Tone colours 1–4 + neutral (SPEC-script §5.4). Absent = no tone colouring. */
+  tones?: [string, string, string, string, string];
 }
 
 export interface Variant {
@@ -91,4 +99,6 @@ export interface Variant {
   semantic?: { ok: string; warn: string; bad: string };
   /** Lexicon family only; other families derive these (templates/lexicon/tokens.ts). */
   lex?: LexTokens;
+  /** Per-surface overrides of the lexicon tokens (e.g. `root` on deep). Applied on top of `lex` or the derived set. */
+  lexSurfaces?: Record<string, Partial<LexTokens>>;
 }

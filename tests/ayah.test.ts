@@ -162,8 +162,9 @@ describe('honorifics (owner rule, Oct 2026)', () => {
       expect(text, f).not.toMatch(/\b(swt|saw|a\.s|r\.a)\b/i);
     }
   });
-  it('Latin faces fall back to Amiri, so Arabic honorifics never use a system font', () => {
-    expect(fontString({ family: 'Lora', weight: 500, size: 40 })).toBe('500 40px "Lora", "Amiri", Georgia, "Times New Roman", serif');
+  it('Latin faces fall back to Gentium, then Amiri, so transliteration and Arabic honorifics never use a system font', () => {
+    // Gentium Book Plus (SPEC-script §6.1) catches Latin letters the latin subsets lack before Amiri catches Arabic.
+    expect(fontString({ family: 'Lora', weight: 500, size: 40 })).toBe('500 40px "Lora", "Gentium Book Plus", "Amiri", Georgia, "Times New Roman", serif');
     expect(fontString({ family: 'Amiri Quran', weight: 400, size: 40 })).not.toContain('"Amiri",');
   });
 });

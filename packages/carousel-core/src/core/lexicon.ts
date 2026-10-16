@@ -2,7 +2,11 @@
 import type { Slide, TableData, Warning } from './types';
 import { parseInline, parseRich } from './inline';
 
-export const WORD_FIELDS = ['word', 'ipa', 'say', 'pos', 'tag', 'meaning', 'example', 'translation', 'origin', 'note'] as const;
+export const WORD_FIELDS = [
+  'word', 'ipa', 'say', 'pos', 'tag', 'meaning', 'example', 'translation', 'origin', 'note',
+  // SPEC-script §3.1: Arabic and hanzi keys.
+  'translit', 'root', 'pattern', 'plural', 'pinyin', 'hsk', 'measure', 'strokes', 'example-pinyin',
+] as const;
 export const COMPARE_FIELDS = ['wrong', 'right', 'why', 'wrong-label', 'right-label', 'headline'] as const;
 export const TABLE = { minCols: 2, maxCols: 4, maxRows: 8 };
 

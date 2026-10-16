@@ -34,9 +34,11 @@ export function facesFor(v: Variant): Face[] {
   add(v.fonts.sans, w.sans);
   add(v.fonts.mono, w.mono);
   // Word slides can appear in any template, so every variant gates on the IPA face.
-  faces.push({ family: 'Gentium Book Plus', weight: 400, text: IPA_SAMPLE });
+  faces.push({ family: 'Gentium Book Plus', weight: 400, text: IPA_SAMPLE }, { family: 'Gentium Book Plus', weight: 700, text: IPA_SAMPLE });
   // Ayah/hadith slides can appear in any template too.
   faces.push({ family: AYAH_FACE, weight: 400, text: ARABIC_SAMPLE }, { family: HADITH_FACE, weight: 400, text: ARABIC_SAMPLE });
+  // Arabic headwords in word slides (SPEC-script §7.1).
+  faces.push({ family: HADITH_FACE, weight: 700, text: ARABIC_SAMPLE });
   return faces;
 }
 

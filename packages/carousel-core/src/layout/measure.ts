@@ -2,6 +2,8 @@ export interface FontSpec {
   family: string;
   weight: number;
   size: number;
+  /** A bundled face tried right after `family` (e.g. the variant's sans for spaces and digits inside Arabic runs). */
+  fallback?: string;
 }
 
 export interface TextMeasurer {
@@ -33,11 +35,17 @@ export function fallbackStack(family: string): string {
 
 /** Arabic inside Latin text (honorifics such as ﷺ) falls through to the bundled Amiri face (arabic subset only). */
 export const ARABIC_FALLBACK = 'Amiri';
+/**
+ * Latin letters the variant's latin-subset faces lack (ā ī ǎ ǚ ḥ…) fall through to the bundled
+ * transliteration face before any system font (SPEC-script §6.1).
+ */
+export const TRANSLIT_FALLBACK = 'Gentium Book Plus';
 
-/** Full CSS/canvas font string, e.g. `700 92px "Playfair Display", "Amiri", Georgia, serif`. */
+/** Full CSS/canvas font string, e.g. `700 92px "Playfair Display", "Gentium Book Plus", "Amiri", Georgia, serif`. */
 export function fontString(f: FontSpec): string {
-  const arabic = f.family === ARABIC_FALLBACK || f.family === 'Amiri Quran' ? '' : `"${ARABIC_FALLBACK}", `;
-  return `${f.weight} ${f.size}px "${f.family}", ${arabic}${fallbackStack(f.family)}`;
+  const stack = [f.family, f.fallback, TRANSLIT_FALLBACK, ARABIC_FALLBACK]
+    .filter((x, i, a): x is string => !!x && a.indexOf(x) === i && !(x === ARABIC_FALLBACK && f.family === 'Amiri Quran'));
+  return `${f.weight} ${f.size}px ${stack.map((x) => `"${x}"`).join(', ')}, ${fallbackStack(f.family)}`;
 }
 
 /** Minimal surface of a 2D context needed to measure text. */

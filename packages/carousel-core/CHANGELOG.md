@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- **Script support, Arabic half (SPEC-script M9a).** Per-value script detection; Arabic in `[word]` (right-aligned Amiri 700 headword, `translit`, `root`, `pattern`, `plural`, right-aligned example with whole-word `*…*` highlights), `[table]` (Arabic cells right-aligned at 1.1 ×, rows 2.3 ×, `[table dir=rtl]`) and `[compare]` (strike at 0.45 × the line box). Mixed-script values drawn per run. Header keys `script:` and `tones:`. New variant `lexicon/arab`. Warnings `script-glyph-missing`, `script-overflow` (both blocking, no override), `harakat-missing`, `highlight-splits-word`, `unknown-script`. Bundles Amiri 700 and Gentium Book Plus 700; the font stack is now `primary, Gentium Book Plus, Amiri, generic`, so Latin letters outside the latin subsets no longer fall back to a system font.
 - New template `lexicon/lembar` (SKD Harian): an exam answer sheet, square-grid paper, teal ink, graphite covers with a pencil-yellow accent, Barlow.
 - New template `dev/sheet` (Jago Kantoran): a spreadsheet, faint cell gridlines, office-green accent, white formula panel, no terminal path, `fx` glyph on cover and end.
 - `excel` code highlighting (aliases `xlsx`, `sheets`, `formula`).

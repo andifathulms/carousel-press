@@ -8,6 +8,7 @@ import type { TextStyle } from '../../layout/wrap';
 import { CONTENT_W, ROWS, SAFE } from '../../render/safezone';
 import type { LexTokens, Surface, Variant } from '../types';
 import { IPA_FACE, type LexEl, type LexLayout, SizeSet, plainRich, trackedW, wrapBlock } from './lexLayout';
+import { ARABIC, ARABIC_FACE, arabicHighlight, arabicMarks, checkGlyphs, isArabic, latinFace, scriptOverflow, wrapArabicWords } from './lexScript';
 
 export interface LexCtx {
   v: Variant;
@@ -55,16 +56,26 @@ export const COMPARE = {
   priority: ['why', 'text', 'headline'],
 };
 
-const style = (family: string, weight: number, size: number, mono: string): TextStyle => ({
+export const style = (family: string, weight: number, size: number, mono: string): TextStyle => ({
   font: { family, weight, size }, mono: { family: mono, weight: 400 },
 });
 
-function label(c: LexCtx, text: string, x: number, y: number, color: string): LexEl {
+/**
+ * Style for a short Latin value (meaning, example, say, cells, compare text): the transliteration face when it has
+ * letters the latin subset lacks (SPEC-script §6.1). Paragraphs (why, note, translation, origin, headlines) keep
+ * the template face; only the missing letters fall through to Gentium via the font stack.
+ */
+export const valueStyle = (text: string, family: string, weight: number, size: number, mono: string): TextStyle => {
+  const f = latinFace(text, family, weight);
+  return style(f.family, f.weight, size, mono);
+};
+
+export function label(c: LexCtx, text: string, x: number, y: number, color: string): LexEl {
   const L = WORD.label;
   return { k: 'label', x, y, text: text.toUpperCase(), font: { family: c.sans, weight: L.weight, size: L.size }, color, tracking: L.tracking };
 }
 
-const labelH = WORD.label.size * 1.3;
+export const labelH = WORD.label.size * 1.3;
 
 /** Word slide: pos pill, headword (+tag), ipa, say, divider, meaning, example, origin, note. */
 export function layoutWord(c: LexCtx, f: Record<string, string>): LexLayout {
@@ -128,7 +139,7 @@ export function layoutWord(c: LexCtx, f: Record<string, string>): LexLayout {
     if (f.say) {
       y += f.ipa ? W.ipa.gap : W.head.gap;
       const sz = sizes.get('say');
-      const st = style(c.sans, 400, sz, mono);
+      const st = valueStyle(f.say, c.sans, 400, sz, mono);
       const lab = t('labelSay', c.lang).toUpperCase();
       const lw = trackedW(lab, { family: c.sans, weight: W.label.weight, size: W.label.size }, W.label.tracking, c.m);
       const oneLine = wrapBlock(parseRich([f.say]), CONTENT_W - lw - 12, st, W.say.lh, c.m);
@@ -157,7 +168,7 @@ export function layoutWord(c: LexCtx, f: Record<string, string>): LexLayout {
       els.push(label(c, t('labelMeaning', c.lang), x, y, c.s.muted));
       y += labelH + W.label.gap;
       const sz = sizes.get('meaning');
-      const st = style(c.sans, 500, sz, mono);
+      const st = valueStyle(f.meaning, c.sans, 500, sz, mono);
       const b = wrapBlock(parseRich([f.meaning]), CONTENT_W, st, W.meaning.lh, c.m);
       if (b.lines.length > W.meaning.maxLines) over ??= 'meaning';
       els.push({ k: 'text', x, y, lines: b.lines, size: sz, lh: W.meaning.lh, style: st, color: c.s.ink, accent: c.s.accent });
@@ -169,7 +180,7 @@ export function layoutWord(c: LexCtx, f: Record<string, string>): LexLayout {
       y += labelH + W.label.gap;
       const E = W.example;
       const sz = sizes.get('example');
-      const st = style(c.serif, 600, sz, mono);
+      const st = valueStyle(f.example, c.serif, 600, sz, mono);
       const tx = x + E.indent;
       const b = wrapBlock(parseRich([f.example]), CONTENT_W - E.indent, st, E.lh, c.m);
       if (b.lines.length > E.maxLines) over ??= 'example';
@@ -219,12 +230,42 @@ export function layoutCompare(c: LexCtx, f: Record<string, string>): LexLayout {
   const x = SAFE.left;
   const inner = CONTENT_W - C.box.pad * 2;
 
+  for (const k of ['wrong', 'right'] as const) {
+    if (!isArabic(f[k])) continue;
+    checkGlyphs(c, f[k]!, 'arab');
+    if (arabicHighlight(f[k]!).split) c.warnings.push({ code: 'highlight-splits-word', slideIndex: c.slideIndex, line: c.line, message: `A *…* marker in the Arabic "${k}" text sits inside a word; drawn without the highlight` });
+  }
+  let tooLong = false;
+
   const box = (els: LexEl[], y: number, kind: 'wrong' | 'right'): { y: number; over: boolean } => {
     const B = C.box;
     const bad = kind === 'wrong';
     const ink = bad ? c.tok.badInk : c.tok.okInk;
     const sz = sizes.get('text');
-    const st = style(c.serif, 600, sz, mono);
+    if (isArabic(f[kind])) {
+      // Arabic: right-aligned in the box, Amiri, lh 1.9; icon + label stay on the left of the first row (SPEC-script §7.4).
+      const hl = arabicHighlight(f[kind]!);
+      const font = { family: ARABIC_FACE, weight: 400, size: sz, fallback: c.sans };
+      const wrap = wrapArabicWords(hl.text, font, inner, c.m);
+      const th = wrap.lines.length * sz * ARABIC.lh;
+      const h = B.pad * 2 + B.icon + B.rowGap + th;
+      els.push({ k: 'rect', x, y, w: CONTENT_W, h, fill: bad ? c.tok.badBg : c.tok.okBg, radius: B.radius });
+      els.push({ k: 'icon', name: bad ? 'x-circle' : 'check-circle', x: x + B.pad, y: y + B.pad, size: B.icon, color: ink });
+      const lab = (f[`${kind}-label`] || t(bad ? 'compareWrong' : 'compareRight', c.lang)).toUpperCase();
+      els.push({
+        k: 'label', x: x + B.pad + B.icon + B.iconGap, y: y + B.pad + (B.icon - C.label.size * 1.3) / 2, text: lab,
+        font: { family: c.sans, weight: C.label.weight, size: C.label.size }, color: ink, tracking: C.label.tracking,
+      });
+      els.push({
+        k: 'arabic', x: x + B.pad, y: y + B.pad + B.icon + B.rowGap, w: inner, lines: wrap.lines, widths: wrap.widths, size: sz, lh: ARABIC.lh,
+        baseline: ARABIC.baseline, family: ARABIC_FACE, weight: 400, fallback: c.sans, color: ink, align: 'right', mark: null,
+        ...(bad ? { strike: ink } : { marks: arabicMarks(hl.text, hl.marked, wrap, font, c.m), highlight: c.tok.highlight }),
+      });
+      const tooBig = wrap.lines.length > C.text.maxLines || !wrap.fits;
+      if (tooBig && sz <= C.text.min) tooLong = true;
+      return { y: y + h, over: tooBig };
+    }
+    const st = valueStyle(f[kind] ?? '', c.serif, 600, sz, mono);
     const b = wrapBlock(parseRich([f[kind] ?? '']), inner, st, C.text.lh, c.m);
     const h = B.pad * 2 + B.icon + B.rowGap + b.h;
     els.push({ k: 'rect', x, y, w: CONTENT_W, h, fill: bad ? c.tok.badBg : c.tok.okBg, radius: B.radius });
@@ -245,6 +286,7 @@ export function layoutCompare(c: LexCtx, f: Record<string, string>): LexLayout {
     const els: LexEl[] = [];
     let y = C.top;
     let over: string | null = null;
+    tooLong = false;
     if (f.headline) {
       const sz = sizes.get('headline');
       const st = style(c.serif, 700, sz, mono);
@@ -268,7 +310,9 @@ export function layoutCompare(c: LexCtx, f: Record<string, string>): LexLayout {
     }
     return { els, bottom: y, over };
   };
-  return fit(build, sizes, C.priority);
+  const out = fit(build, sizes, C.priority);
+  if (tooLong) scriptOverflow(c);
+  return out;
 }
 
 /** Step sizes down (over-cap blocks first, then the priority order) until the stack fits. */

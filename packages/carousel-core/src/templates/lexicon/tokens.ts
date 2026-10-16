@@ -11,10 +11,10 @@ export function isDarkSurface(s: Surface, onPhoto: boolean): boolean {
   return contrast('#FFFFFF', s.bg) > contrast('#111111', s.bg);
 }
 
-/** Lexicon tokens for a slide: the variant's own on paper, derived elsewhere. */
-export function lexTokens(v: Variant, s: Surface, onPhoto: boolean): LexTokens {
+/** Lexicon tokens for a slide: the variant's own on paper, derived elsewhere, then per-surface overrides. */
+export function lexTokens(v: Variant, s: Surface, onPhoto: boolean, surfaceName?: string): LexTokens {
   const dark = isDarkSurface(s, onPhoto);
-  if (v.lex && !dark) return v.lex;
-  const pair = dark ? DARK : LIGHT;
-  return { rule: withAlpha(s.muted, 0.3), highlight: withAlpha(s.accent, 0.22), ...pair };
+  const base: LexTokens = v.lex && !dark ? v.lex : { rule: withAlpha(s.muted, 0.3), highlight: withAlpha(s.accent, 0.22), ...(dark ? DARK : LIGHT) };
+  const over = !onPhoto && surfaceName ? v.lexSurfaces?.[surfaceName] : undefined;
+  return over ? { ...base, ...over } : base;
 }

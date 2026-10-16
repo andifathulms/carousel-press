@@ -16,13 +16,15 @@ export const FONT_SOURCES = [
   'inter/latin-400.css', 'inter/latin-500.css', 'inter/latin-600.css', 'inter/latin-700.css', 'inter/latin-800.css',
   'jetbrains-mono/latin-400.css', 'jetbrains-mono/latin-500.css', 'jetbrains-mono/latin-600.css', 'jetbrains-mono/latin-700.css',
   // IPA face (SPEC-lexicon §3.1): every subset, selected by unicode-range.
-  'gentium-book-plus/400.css',
+  'gentium-book-plus/400.css', 'gentium-book-plus/700.css',
   'fraunces/latin-500.css', 'fraunces/latin-600.css', 'fraunces/latin-700.css',
   'instrument-sans/latin-400.css', 'instrument-sans/latin-500.css', 'instrument-sans/latin-600.css',
   'barlow/latin-400.css', 'barlow/latin-500.css', 'barlow/latin-600.css', 'barlow/latin-700.css',
   'barlow-condensed/latin-700.css', 'barlow-condensed/latin-800.css',
   // Arabic (SPEC-ayah §2): Arabic subset only.
   'amiri-quran/arabic-400.css', 'amiri/arabic-400.css',
+  // Arabic headwords in lexicon slides (SPEC-script §7.1).
+  'amiri/arabic-700.css',
 ] as const;
 
 export interface ManifestFace {

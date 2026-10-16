@@ -1,0 +1,42 @@
+
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: akar kata ك-ت-ب
+caption: Satu akar, banyak kata. Simpan buat hafalan! #bahasaarab #belajarbahasaarab
+---
+[cover]
+Satu akar,|*lima kata*
+Kenalan dengan akar ك-ت-ب: "menulis"
+---
+[word]
+word: كِتَاب
+translit: kitāb
+pos: isim · kata benda
+tag: A1
+root: ك ت ب
+pattern: فِعَال
+plural: كُتُب · kutub
+meaning: buku
+example: هٰذَا *كِتَابٌ*
+translation: Ini (adalah) buku.
+---
+[table]
+Satu akar, banyak kata
+| Arab | Baca | Arti |
+| كَتَبَ | kataba | menulis |
+| كِتَاب | kitāb | buku |
+| كَاتِب | kātib | penulis |
+| مَكْتَب | maktab | kantor; meja tulis |
+| مَكْتَبَة | maktabah | perpustakaan |
+---
+[compare]
+headline: Kata sifat ikut jenis bendanya
+wrong: سَيَّارَةٌ جَمِيلٌ
+right: سَيَّارَةٌ جَمِيلَةٌ
+why: سَيَّارَة (mobil) itu muannats (feminin), jadi kata sifatnya juga pakai ة: jamīlah.
+---
+[end]
+Akar kata apa yang mau dibahas besok?
+Tulis di komentar

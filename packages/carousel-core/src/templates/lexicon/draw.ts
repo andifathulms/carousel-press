@@ -10,6 +10,8 @@ import { drawEditorial } from '../editorial/draw';
 export const LEX_DECO = {
   doubleRule: { y: 268, thick: 2, thin: 1, gap: 6 },
   notebook: { from: SAFE.top, to: SAFE.bottom, every: 64, h: 2, marginX: 72, marginW: 3, alpha: 0.55 },
+  // lexicon/arab (SPEC-script §10.1): margin on the right for RTL writing, root colour at 45 %.
+  notebookRight: { from: SAFE.top, to: SAFE.bottom, every: 72, h: 2, marginX: 1008, marginW: 3, marginAlpha: 0.45 },
   cornerGlyph: { size: 900, alpha: 0.04, x: 640, baseline: 2240 },
 };
 
@@ -30,6 +32,13 @@ function drawDeco(ctx: Ctx, L: SlideLayout): void {
     }
   }
   if (v.deco.grid && paper) drawGrid(ctx, v.deco.grid, v.deco.gridColor ?? rule);
+  if (v.deco.notebookRight && paper) {
+    const n = LEX_DECO.notebookRight;
+    ctx.fillStyle = rule;
+    for (let y = n.from; y <= n.to; y += n.every) ctx.fillRect(0, y, CANVAS.w, n.h);
+    ctx.fillStyle = withAlpha(v.lexSurfaces?.[L.surfaceName]?.root ?? v.lex?.root ?? s.accent, n.marginAlpha);
+    ctx.fillRect(n.marginX, 0, n.marginW, CANVAS.h);
+  }
   if (v.deco.doubleRule) {
     const d = LEX_DECO.doubleRule;
     ctx.fillStyle = paper ? rule : withAlpha(s.muted, 0.35);

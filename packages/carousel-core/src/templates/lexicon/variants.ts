@@ -78,4 +78,24 @@ export const lembar: Variant = {
   lex: { rule: '#D5E2DF', highlight: '#FBE38E', okBg: '#DDF0E6', okInk: '#17633A', badBg: '#FBE0DD', badInk: '#A3261C' },
 };
 
-export const LEXICON_VARIANTS: readonly Variant[] = [kamus, notebook, lembar];
+/** Kosakata Arab (SPEC-script §10.1): ivory exercise-book paper, lapis ink, terracotta root letters. Tokens verbatim. */
+export const arab: Variant = {
+  id: 'lexicon/arab',
+  name: 'Arab',
+  family: 'lexicon',
+  fonts: { serif: 'Lora', sans: 'DM Sans', mono: 'JetBrains Mono' },
+  surfaces: {
+    paper: S('#F7F3EA', '#1C2230', '#364052', '#646A7A', '#1F4E8C', '#1F4E8C', '#FFFFFF', '#F7F3EA', '#1F4E8C', '#ECE5D6'),
+    'paper-alt': S('#EFE8DA', '#1C2230', '#343E50', '#5E6474', '#1D4A85', '#1F4E8C', '#FFFFFF', '#EFE8DA', '#1F4E8C', '#E4DCCB'),
+    deep: S('#142338', '#F7F3EA', '#D6DCE6', '#A2ACBC', '#E9B872', '#E9B872', '#142338', '#142338', '#E9B872', '#1F3150'),
+  },
+  rotation: ['paper', 'paper-alt'],
+  onPhoto: { ...onPhotoBase, accent: '#F2D59B', badgeBg: '#E9B872', badgeInk: '#142338', tint: '#0B1220' },
+  code: paperCode,
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, notebookRight: true },
+  swatches: ['#F7F3EA', '#1F4E8C', '#A3402A', '#1C2230'],
+  lex: { rule: '#DDD3C0', highlight: '#F2D59B', okBg: '#E3EEDB', okInk: '#2E5A2A', badBg: '#F6DCD8', badInk: '#8E1F17', root: '#A3402A' },
+  lexSurfaces: { 'paper-alt': { root: '#9C3D28' }, deep: { root: '#F2A285' } },
+};
+
+export const LEXICON_VARIANTS: readonly Variant[] = [kamus, notebook, lembar, arab];

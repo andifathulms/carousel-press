@@ -3,7 +3,8 @@ import type { Lang } from './types';
 export type StringKey =
   | 'swipe' | 'coverSwipe' | 'cta'
   | 'compareWrong' | 'compareRight' | 'labelMeaning' | 'labelExample' | 'labelOrigin' | 'labelSay'
-  | 'portion' | 'gradeLabel' | 'hadithLabel';
+  | 'portion' | 'gradeLabel' | 'hadithLabel'
+  | 'labelTranslit' | 'labelRoot' | 'labelPattern' | 'labelPlural' | 'labelPinyin' | 'labelMeasure' | 'labelStrokes';
 
 /** Built-in slide strings (PRD §4.7). Add a language by adding one column. */
 export const STRINGS: Record<StringKey, Record<Lang, string>> = {
@@ -21,6 +22,14 @@ export const STRINGS: Record<StringKey, Record<Lang, string>> = {
   portion: { id: '(penggalan)', en: '(portion)' },
   gradeLabel: { id: 'Derajat', en: 'Grade' },
   hadithLabel: { id: 'HADIS', en: 'HADITH' },
+  // Script support (SPEC-script §3.3)
+  labelTranslit: { id: 'Cara baca', en: 'Reading' },
+  labelRoot: { id: 'Akar kata', en: 'Root' },
+  labelPattern: { id: 'Wazan', en: 'Pattern' },
+  labelPlural: { id: 'Jamak', en: 'Plural' },
+  labelPinyin: { id: 'Pinyin', en: 'Pinyin' },
+  labelMeasure: { id: 'Kata bantu bilangan', en: 'Measure word' },
+  labelStrokes: { id: 'Goresan', en: 'Strokes' },
 };
 
 export function t(key: StringKey, lang: Lang): string {

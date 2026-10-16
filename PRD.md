@@ -82,6 +82,8 @@ Siapa tahu jadi bahan obrolan kalian nanti.
 | `title` | text | headline of the first `cover` slide (else slide 1), `\|` read as a space | Used for file names (slugified; `carousel` when the slug is empty) and the deck library |
 | `caption` | text, one line | empty | Shown in the caption panel with a Copy button. Never drawn on slides |
 | `counter` | `on` \| `off` | `on` | `off` hides the `i/total` counter (4.6) on every slide, e.g. when another app inserts its own images between the slides. Nothing else moves. Any other value → warning `unknown-counter`, falls back to `on` |
+| `script` | `arab` \| `hanzi` | none | Default script labels and script warnings for lexicon slides (`docs/SPEC-script.md` §2). Detection itself is per value. Any other value → `unknown-script`, ignored |
+| `tones` | `color` \| `off` | `off` | Tone colours on hanzi + pinyin pairs (`docs/SPEC-script.md` §5.4). Any other value → `unknown-script`, `off` |
 
 Unknown key → warning `unknown-header-key`, ignored.
 A `template` value that doesn't exist → warning `unknown-template`, falls back to the default.
@@ -173,6 +175,12 @@ The parser and renderer return warnings as `{ code, slideIndex | null, line, mes
 | `diagram-line` | parser: a diagram line that isn't a valid mark, or an unknown field (skipped / football used) | No |
 | `sheet-missing` | parser: a `[sheet]` slide without a fence, or with an empty one (rendered as a card) | No |
 | `sheet-line` | parser: more than 7 columns or 9 rows (cut), or a formula cell outside the sheet | No |
+| `script-glyph-missing` | renderer: a character has no glyph in its assigned face (Amiri, Noto SC, transliteration face), SPEC-script §8 | **Yes**, no override |
+| `script-overflow` | renderer: Arabic or hanzi text doesn't fit at its minimum size (never clipped or cut with "…") | **Yes**, no override |
+| `pinyin-mismatch` / `pinyin-invalid` | renderer: pinyin syllables ≠ hanzi count / not valid pinyin (SPEC-script §5.3) | No |
+| `harakat-missing` | parser: Arabic `word` without harakat in a `script: arab` deck | No |
+| `highlight-splits-word` | renderer: an Arabic `*…*` marker inside a word (drawn without the highlight) | No |
+| `unknown-script` | parser: a `script:` or `tones:` header value that isn't allowed | No |
 | `long-deck` | parser: more than 10 slides | No (style hint only) |
 | `long-word` | renderer: a word was too wide and was broken between characters | No |
 | `photo-low-res` | photo store (not the parser): photo shorter than 1280px on its short side | No |

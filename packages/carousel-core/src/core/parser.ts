@@ -10,6 +10,7 @@ import { fillCompare, fillTable, fillWord } from './lexicon';
 import { fillAyah, fillHadith } from './ayah';
 import { parseDiagram } from './diagram';
 import { parseSheet } from './sheet';
+import { hasArabicLetters, hasHarakat } from './script';
 
 export interface ParseOptions {
   /** Template used when the header has none (last used). */
@@ -25,13 +26,13 @@ export interface ParseOptions {
   templateFamily?: (id: string) => FamilyId | undefined;
 }
 
-export const HEADER_KEYS = ['handle', 'template', 'lang', 'title', 'caption', 'counter'] as const;
+export const HEADER_KEYS = ['handle', 'template', 'lang', 'title', 'caption', 'counter', 'script', 'tones'] as const;
 type HeaderKey = (typeof HEADER_KEYS)[number];
 const HEADER_LINE = /^\s*([a-z]+)\s*:\s*(.*)$/;
 const TAG_LINE = /^\[[^\]]*\]$/;
 const FENCE = /^\s*```/;
 const FENCE_CLOSE = /^\s*```\s*$/;
-const KNOWN_ATTRS = ['photo', 'icon', 'surface', 'cta', 'number', 'kicker', 'verdict', 'tone'] as const;
+const KNOWN_ATTRS = ['photo', 'icon', 'surface', 'cta', 'number', 'kicker', 'verdict', 'tone', 'dir'] as const;
 const TONES = ['ok', 'warn', 'bad'] as const;
 const LONG_DECK = 10;
 
@@ -251,6 +252,18 @@ function parseUnsafe(text: string, opts: ParseOptions): ParseResult {
     }
   }
 
+  const headerLine = (key: string): number => Math.max(0, lines.findIndex((l, i) => i < headerEnd && new RegExp(`^\\s*${key}\\s*:`).test(l)));
+  let script: Deck['script'];
+  if (header.script !== undefined) {
+    if (header.script === 'arab' || header.script === 'hanzi') script = header.script;
+    else warnings.push({ code: 'unknown-script', slideIndex: null, line: headerLine('script'), message: `Unknown script "${header.script}" (use arab or hanzi), ignored` });
+  }
+  let tones: Deck['tones'];
+  if (header.tones !== undefined) {
+    if (header.tones === 'color') tones = 'color';
+    else if (header.tones !== 'off') warnings.push({ code: 'unknown-script', slideIndex: null, line: headerLine('tones'), message: `Unknown tones "${header.tones}" (use color or off), using off` });
+  }
+
   const slides: Slide[] = [];
   for (const block of splitBlocks(lines, headerEnd + 1)) {
     if (block.lines.every((l) => l.trim() === '')) continue;
@@ -265,6 +278,7 @@ function parseUnsafe(text: string, opts: ParseOptions): ParseResult {
     });
   }
 
+  if (script === 'arab') warnings.push(...harakatWarnings(slides));
   numberSlides(slides, { autoBadge: familyOf(template) !== 'serene' });
   if (opts.photoIds) warnings.push(...resolvePhotos(slides, opts.photoIds));
 
@@ -276,10 +290,19 @@ function parseUnsafe(text: string, opts: ParseOptions): ParseResult {
     handle: header.handle ?? opts.defaultHandle ?? '',
     title, caption: header.caption ?? '',
     ...(counter ? {} : { counter: false as const }),
+    ...(script ? { script } : {}),
+    ...(tones ? { tones } : {}),
     slug: slugify(title) || 'carousel',
     slides,
   };
   return { deck, warnings };
+}
+
+/** `script: arab` decks: an Arabic headword without harakat is a content reminder (SPEC-script §4). */
+function harakatWarnings(slides: readonly Slide[]): Warning[] {
+  return slides
+    .filter((s) => s.type === 'word' && s.fields.word && hasArabicLetters(s.fields.word) && !hasHarakat(s.fields.word))
+    .map((s) => ({ code: 'harakat-missing' as const, slideIndex: s.index, line: s.lines[0], message: `Slide ${s.index + 1}: the Arabic word has no harakat` }));
 }
 
 function parseBlock(block: RawBlock, index: number, warnings: Warning[]): Slide {
@@ -411,6 +434,10 @@ function applyAttr(tok: TagToken, attrs: SlideAttrs, warn: Warn): void {
       if ((TONES as readonly string[]).includes(value)) attrs.tone = value as VerdictTone;
       else warn('unknown-attr', `tone must be ok, warn or bad, got "${value}"`);
       break;
+    case 'dir':
+      if (value === 'ltr' || value === 'rtl') attrs.dir = value;
+      else warn('unknown-attr', `dir must be ltr or rtl, got "${value}"`);
+      break;
   }
 }
 
@@ -429,6 +456,7 @@ function checkAttrScope(slide: Slide, warn: Warn): void {
   if (a.kicker !== undefined && slide.type !== 'cover' && slide.type !== 'card' && slide.type !== 'quote') drop('kicker');
   if (a.verdict !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('verdict');
   if (a.tone !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('tone');
+  if (a.dir !== undefined && slide.type !== 'table') drop('dir');
 }
 
 const TRAY_INDEX = /^\d+$/;

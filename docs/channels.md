@@ -33,7 +33,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 🏛️ Filsafat Harian | `id` | One philosophical idea applied to daily life | `editorial/*` | `editorial/stone` |
 | 📝 SKD Harian | `id` | Daily SKD/selection-test questions and strategy | `lexicon/*` | `lexicon/lembar` |
 | 🗂️ Jago Kantoran | `id` | Excel, Word, email and office fixes | `dev/*` | `dev/sheet` |
-| ✍️ Kosakata Arab | `id` (teaches Arabic) | Fusha words, roots, phrases for beginners | `lexicon/*` | `lexicon/arab` (proposed; not postable until it ships) |
+| ✍️ Kosakata Arab (@kosakata.arab) | `id` (teaches Arabic) | Fusha words, roots, phrases for beginners | `lexicon/*` | `lexicon/arab` |
 | 🏮 Kosakata Mandarin | `id` (teaches Mandarin) | Hanzi, pinyin and tones for beginners | `lexicon/*` | `lexicon/hanzi` (proposed; not postable until it ships) |
 
 ---
@@ -1308,7 +1308,7 @@ Komen tahunnya. Besok: VLOOKUP vs XLOOKUP.
 **Tagline:** *Bahasa Arab dari nol, satu kata satu hari.*
 A faceless account teaching Modern Standard Arabic (fusha) for daily life to Indonesian absolute beginners: one word, one root, one phrase or one small rule per post. A sibling of Kosakata Inggris (English) and Kamus Kecil (Indonesian): same lexicon slides, same "one thing per deck" discipline.
 It should feel like "oh, so that's how كِتَاب and مَكْتَبَة are related", never like a pesantren exam or a teacher showing off.
-**Not yet postable:** Arabic script doesn't render properly in word, table and compare slides yet (see Open items). The account launches when `lexicon/arab` ships, before Kosakata Mandarin.
+**Account:** `@kosakata.arab` (put `handle: @kosakata.arab` and `script: arab` in every deck header). **Postable since M9a (Oct 2026):** Arabic renders right-to-left with full harakat in word, table and compare slides (SPEC-script.md). It launches before Kosakata Mandarin.
 
 | | |
 |---|---|
@@ -1323,7 +1323,7 @@ It should feel like "oh, so that's how كِتَاب and مَكْتَبَة are r
 ### Scope
 
 - **Fusha (MSA) for daily life.** Dialects (Saudi, Egyptian) only as a labelled side series ("Dialek Saudi #N"), every dialect word marked on the slide.
-- **Quran vocabulary belongs to Ayat Harian.** No ayat, no Quranic word studies, no tafsir here. Religious daily phrases (salam, greetings) are fine as everyday language.
+- **Quran vocabulary belongs to Ayat Harian.** No ayat, no Quranic word studies, no tafsir here. Religious daily phrases (salam, greetings) are fine as everyday language. If a card ever quotes the Qur'an, it must be an `[ayah]` slide (Amiri Quran, Ayat Harian's sourcing rules), never `[word]`.
 - Carousels first. Pronunciation videos (voice only, native audio or native-checked, **never text-to-speech**) are a later phase.
 
 ### Pillars
@@ -1342,76 +1342,74 @@ It should feel like "oh, so that's how كِتَاب and مَكْتَبَة are r
 - **Copy, don't type:** paste the vowelled form from the source. A missing or wrong harakat changes the word (مُدَرِّسَة is a female teacher, مَدْرَسَة a school).
 - **Example sentences** come from a dictionary or are checked by a native speaker. Sentences you composed yourself are uncertain: leave them out, or keep a `[SALIN …]` placeholder until checked.
 - **A native-speaker spot-check is recommended**, and strongly so for the first 20 posts. Mark anything uncertain in the reply and leave it out of the deck.
-- **Transliteration has one fixed convention**, explained once in a pinned post and never mixed: long vowels doubled (`kitaab`, `kaatib`), ta marbutah as `-ah` at a pause (`maktabah`), hamzah and 'ain both written `'` in `say:` (the Huruf pillar teaches the difference with the Arabic letters themselves), `sy` for ش, `kh` for خ, `dz` for ذ.
+- **Transliteration has one fixed convention**, explained once in a pinned post and never mixed. `translit:` uses macrons for long vowels (`kitāb`, `kātib`, `jamīlah`), ta marbutah as `-ah` at a pause (`maktabah`), `ʿ` for ع and `ʾ` for ء when they matter, `sy` for ش, `kh` for خ, `dz` for ذ. It's drawn in the transliteration face, so the macrons always render. `say:` is optional, for an Indonesian reading tip ("ki-taab", a-nya panjang).
 - **Dialect words are labelled** on the slide ("Dialek Mesir"), never mixed into fusha decks unlabelled.
 
 ### Writing rules
 
 - Explanations in Indonesian (`lang: id`), relaxed: `kamu`, `kita`. Arabic terms the way Indonesian learners know them: harakat, fathah, kasrah, dhammah, sukun, mudzakkar, muannats, dhamir.
 - One word or one point per deck. Example sentences short and about everyday life (rumah, pasar, sekolah, kantor).
-- Put the Arabic in `word:` / table cells, the transliteration in `say:` (ASCII only, so it renders in every face), the meaning in `meaning:`.
+- Put the Arabic in `word:` / table cells, the transliteration in `translit:`, the root in `root:` (letters separated by spaces), the wazan in `pattern:`, the plural in `plural:` (`كُتُب · kutub`), the meaning in `meaning:`. Arabic `example:` sentences may highlight whole words with `*…*`.
 - Encourage, never test publicly: "Coba baca pelan-pelan" beats "Masa nggak bisa baca?".
 
 ### Deck recipe
 
-- **Template:** `lexicon/arab` once it exists (proposed in Open items). Until then nothing is posted; example decks use `lexicon/kamus` as a placeholder header so they parse.
-- **Kata hari ini:** cover (kicker `KATA HARI INI · #N`) → `[word]` (word with harakat, `say:`, `meaning:`, `example:` + `translation:`, `note:` with the source) → `[table]` related forms (≤ 8 rows) → `[card]` practice prompt → end.
+- **Template:** `lexicon/arab` (shipped Oct 2026): ivory exercise-book paper, lapis ink, terracotta root letters, a margin on the right for RTL writing. Header: `handle: @kosakata.arab`, `template: lexicon/arab`, `script: arab` (turns on the `harakat-missing` reminder).
+- **Kata hari ini:** cover (kicker `KATA HARI INI · #N`) → `[word]` (word with harakat, `translit:`, `root:`, `pattern:`, `plural:`, `meaning:`, `example:` + `translation:`, `note:` with the source) → `[table]` related forms (≤ 8 rows) → `[card]` practice prompt → end.
 - **Akar kata:** cover (kicker `AKAR KATA · #N`) → `[table]` the family (`| Arab | Cara baca | Arti |`, ≤ 8 rows) → 1–2 `[word]` for the most useful members → `[card]` the pattern (e.g. ma-…-ah = tempat) → `[card]` kuis using the pattern on a new root → end.
-- **Huruf tertukar:** cover → `[compare]` (`wrong-label`/`right-label` set to the two letters) → `[table]` minimal pairs → end.
+- **Huruf tertukar:** cover → `[compare]` (`wrong-label`/`right-label` set to the two letters) → `[table]` minimal pairs → end. Mostly-Arabic tables (conjugations) can use `[table dir=rtl]`, which draws the first column on the right.
 - **End:** `[end cta="Simpan"]`, always a practice prompt for the comments ("Tulis satu kata lagi dari akar ini di komen.").
 - **Length:** 6–10 slides. One word or one point; tables ≤ 8 rows.
 - **Caption:** one line + `Sumber: Almaany` (or Hans Wehr) + 2–4 hashtags (`#belajarbahasaarab`, `#bahasaarab`, `#kosakataarab`, `#arabpemula`).
 
-Checked for the example (Oct 2026, exact vowelled forms matched byte for byte against Wiktionary's entries; **Almaany blocked scripted access and Hans Wehr wasn't available, so the owner checks both before posting**): كَتَبَ to write (root ك ت ب) · كِتَاب book (pl. كُتُب) · كَاتِب writer, author (active participle of كَتَبَ) · مَكْتَب desk, office (noun of place) · مَكْتَبَة library, also bookstore (noun of place) · دَرَسَ to study, to learn · مَدْرَسَة school (noun of place from دَرَسَ).
+The shipped sample `lexicon-arab-kitab` (SPEC-script §12). Checked Oct 2026: every vowelled word (كِتَاب, كُتُب, كَتَبَ, كَاتِب, مَكْتَب, مَكْتَبَة, فِعَال, هٰذَا, سَيَّارَة feminine, جَمِيل / جَمِيلَة) matched Wiktionary's vowelled entries byte for byte; Almaany blocks scripts and Hans Wehr isn't online, so the owner checks both before posting. The sentences هٰذَا كِتَابٌ and سَيَّارَةٌ جَمِيلَةٌ are built from those words with regular grammar (tanwin, agreement): a native-speaker check is recommended. Before posting, also make the end slide a practice prompt (this sample keeps the spec's wording).
 
 ```text
-template: lexicon/kamus
+
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
 lang: id
-title: akar kata k-t-b
-caption: Satu akar, lima kata: dari menulis sampai perpustakaan. Sumber: Almaany · Hans Wehr #belajarbahasaarab #bahasaarab #kosakataarab
+title: akar kata ك-ت-ب
+caption: Satu akar, banyak kata. Simpan buat hafalan! #bahasaarab #belajarbahasaarab
 ---
-[cover kicker="AKAR KATA · #1"]
-Satu akar, | *lima kata*
-ك-ت-ب: dari menulis sampai perpustakaan.
----
-[table]
-Keluarga kata ك-ت-ب
-| Arab | Cara baca | Arti |
-| كَتَبَ | kataba | menulis |
-| كِتَاب | kitaab | buku |
-| كَاتِب | kaatib | penulis |
-| مَكْتَب | maktab | meja; kantor |
-| مَكْتَبَة | maktabah | perpustakaan; toko buku |
-Sumber: Almaany
+[cover]
+Satu akar,|*lima kata*
+Kenalan dengan akar ك-ت-ب: "menulis"
 ---
 [word]
-pos: nomina · mudzakkar
-tag: AKAR ك-ت-ب
 word: كِتَاب
-say: "ki-taab", a-nya panjang
+translit: kitāb
+pos: isim · kata benda
+tag: A1
+root: ك ت ب
+pattern: فِعَال
+plural: كُتُب · kutub
 meaning: buku
-example: [SALIN CONTOH KALIMAT DARI KAMUS, ATAU CEK KE PENUTUR ASLI]
-translation: [TERJEMAHAN CONTOH]
-note: Jamaknya كُتُب (kutub). Sumber: Almaany
+example: هٰذَا *كِتَابٌ*
+translation: Ini (adalah) buku.
 ---
-[card kicker="Polanya" number=off icon=none]
-ma-…-ah sering berarti *tempat*
-مَكْتَبَة maktabah: tempat buku. Dari akar yang sama dengan kataba.
+[table]
+Satu akar, banyak kata
+| Arab | Baca | Arti |
+| كَتَبَ | kataba | menulis |
+| كِتَاب | kitāb | buku |
+| كَاتِب | kātib | penulis |
+| مَكْتَب | maktab | kantor; meja tulis |
+| مَكْتَبَة | maktabah | perpustakaan |
 ---
-[card kicker="Kuis" number=off icon=none]
-دَرَسَ darasa = belajar. | *مَدْرَسَة madrasah artinya?*
-Jawab di komen dulu. Petunjuk: pakai pola ma-…-ah.
+[compare]
+headline: Kata sifat ikut jenis bendanya
+wrong: سَيَّارَةٌ جَمِيلٌ
+right: سَيَّارَةٌ جَمِيلَةٌ
+why: سَيَّارَة (mobil) itu muannats (feminin), jadi kata sifatnya juga pakai ة: jamīlah.
 ---
-[card kicker="Jawaban" number=off icon=none]
-*Sekolah*
-Tempat belajar. Polanya sama dengan maktabah.
----
-[end cta="Simpan"]
-Kata mana yang *paling sering kamu dengar?*
-Tulis satu kata lagi dari akar ك-ت-ب di komen. Kita cek bareng.
+[end]
+Akar kata apa yang mau dibahas besok?
+Tulis di komentar
 ```
 
-(Example only: it parses, but don't post it until `lexicon/arab` ships, the example sentence is filled from a dictionary, and every harakat is checked in Almaany or Hans Wehr.)
+(Renders with zero warnings in every template.)
 
 ### Starter list (30 ideas)
 
@@ -1657,9 +1655,9 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - **`lexicon/lembar` (SKD Harian) and `dev/sheet` (Jago Kantoran): shipped (Oct 2026).** Built for these accounts, plus `excel` formula colouring in code blocks and the `[sheet]` slide (PRD §4.10), a mini spreadsheet for Jago Kantoran's formula steps (see `docs/decisions.md`).
 - **Image-question slide (proposed, SKD Harian).** Figural TIU questions (pattern series, rotations, mirror images) need a question image drawn or shown uncropped with options A–E under it. This overlaps the proposed `figure` slide; until one exists, SKD Harian posts no figural questions.
 - **Difficulty badge (SKD Harian).** No attribute exists for a difficulty badge; the difficulty goes in each question card's kicker (`Soal 3 · Sedang`). A real badge would need a PRD change.
-- **Kosakata Arab and Kosakata Mandarin launch after script support lands.** Launch order: Kosakata Arab first, Kosakata Mandarin a few weeks later (device and account limits). Until each variant ships, neither account posts: a deck without the script (transliteration or pinyin only) would teach the wrong habit, and a deck with it renders badly or in a system font today. Write and check decks in the meantime; they wait in the Queue.
-- **`lexicon/arab` variant (proposed, Kosakata Arab).** Tested Oct 2026: Arabic in `[word]`/`[table]` already draws in Amiri (the font stack falls back to it and the gate loads it for every variant), but the harakat collide with the line below the headword, Arabic is left-aligned instead of right-to-left, table cells draw it too small for the harakat, and mixed lines ("Akar ك-ت-ب") depend on bidi reordering. Needed: right-aligned RTL headword, example and Arabic table column; Amiri (SPEC-ayah, M8) at a size and line height that leave room for harakat; the `arabic-too-long` style blocking check reused for word slides; a paper palette of its own.
-- **`lexicon/hanzi` variant (proposed, Kosakata Mandarin).** Needs: (1) a Chinese font (e.g. Noto Sans SC, OFL) bundled and **subset to the characters the decks use**, gated like every other face; (2) pinyin with every tone mark in every field: today only `ipa:` is drawn in a face with ā ǎ ǐ ǒ ǔ ǚ (Gentium Book Plus); `example:`, `translation:`, `note:` and table cells use the variant's Latin subset, which lacks them; (3) a large hanzi headword with pinyin above or below it.
+- **Launch order: Kosakata Arab first (postable now), Kosakata Mandarin a few weeks later** (device and account limits). Kosakata Mandarin doesn't post until `lexicon/hanzi` (M9b) ships: a deck without hanzi would teach the wrong habit, and hanzi render in a system font today. Write and check Mandarin decks in the meantime.
+- **`lexicon/arab` and Arabic script support: shipped (M9a, Oct 2026).** RTL Arabic with harakat in word/table/compare, `translit`/`root`/`pattern`/`plural`, `[table dir=rtl]`, blocking `script-glyph-missing` / `script-overflow` (see SPEC-script.md).
+- **`lexicon/hanzi` and hanzi support (M9b, in progress).** Specified in SPEC-script.md: Noto Sans/Serif SC loaded per unicode-range slice, kinsoku line breaking, pinyin (tone marks or numbers) with ruby over the headword, optional tone colours, a 田字格 practice box. Until it ships, pinyin with ā ǎ ǐ ǒ ǔ ǚ is safe only in `ipa:`.
 - **Missing-glyph check for CJK (bug, found Oct 2026).** Hanzi in a `[word]` slide rendered in the system font (PingFang) with **no warning**, which breaks the "never export with fallback fonts" rule. Proposed: a blocking `glyph-missing` warning when a slide contains characters no gated face covers (like `ipa-glyph-missing`, for every field and table cell).
 - **`check:cedict` (shipped, Oct 2026).** `npm run check:cedict -- <deck.txt>` validates hanzi and pinyin against CC-CEDICT (data file not committed: CC BY-SA 4.0; download steps in the script). There is no equivalent for Arabic: Almaany blocks scripted requests and Hans Wehr isn't online, so Arabic harakat stay a manual check (plus Wiktionary as a scripted cross-check).
 - **Pronunciation videos (later phase, both language accounts).** Voice only, native audio or native-checked, never text-to-speech. Out of scope for this app (photo carousels only).

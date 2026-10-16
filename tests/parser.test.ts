@@ -242,7 +242,9 @@ describe('every shipped deck', () => {
       expect(ws).toEqual([]);
       if (long) expect(r.deck.slides.length).toBeLessThanOrEqual(14);
       // Language decks: 8–14 slides, compact (owner, Oct 2026).
-      if (f.startsWith('lexicon-')) expect(r.deck.slides.length).toBeGreaterThanOrEqual(daily ? 4 : 8);
+      // SPEC-script §12 samples (lexicon-arab-*, lexicon-hanzi-*) are the spec's own short decks.
+      const scriptSample = f.startsWith('lexicon-arab-') || f.startsWith('lexicon-hanzi-');
+      if (f.startsWith('lexicon-') && !scriptSample) expect(r.deck.slides.length).toBeGreaterThanOrEqual(daily ? 4 : 8);
       // Whistle Notes rework (owner, Oct 2026): 6–10 slides.
       if (f.startsWith('sports-')) {
         expect(r.deck.slides.length).toBeGreaterThanOrEqual(6);

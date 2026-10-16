@@ -7,6 +7,8 @@ import { lexBoxes, shiftEls } from './lexLayout';
 import { ROWS } from '../../render/safezone';
 import { type LexCtx, layoutCompare, layoutWord } from './lexSlides';
 import { layoutTable } from './lexTable';
+import { layoutWordArabic } from './lexArabic';
+import { isArabic } from './lexScript';
 import { lexTokens } from './tokens';
 
 export function layoutLexSlide(input: LayoutInput): SlideLayout {
@@ -17,12 +19,12 @@ export function layoutLexSlide(input: LayoutInput): SlideLayout {
   const sans = v.fonts.sans;
   const mono = v.fonts.mono;
   const c: LexCtx = {
-    v, s: surface, tok: lexTokens(v, surface, onPhoto), m, lang: deck.lang, serif: v.fonts.serif ?? sans, sans,
+    v, s: surface, tok: lexTokens(v, surface, onPhoto, name), m, lang: deck.lang, serif: v.fonts.serif ?? sans, sans,
     slideIndex: slide.index, line: slide.lines[0], warnings,
   };
-  const lex = slide.type === 'word' ? layoutWord(c, slide.fields)
+  const lex = slide.type === 'word' ? (isArabic(slide.fields.word) ? layoutWordArabic(c, slide.fields) : layoutWord(c, slide.fields))
     : slide.type === 'compare' ? layoutCompare(c, slide.fields)
-      : layoutTable(c, slide.table ?? { header: [], rows: [] }, slide.headlineSrc, slide.fields.note ?? '', slide.badge);
+      : layoutTable(c, slide.table ?? { header: [], rows: [] }, slide.headlineSrc, slide.fields.note ?? '', slide.badge, slide.attrs.dir);
   // Centre a fitting stack in the content band like normal slides (owner, Oct 2026); photo slides stay top-anchored.
   const first = lex.els.find((e) => 'y' in e) as { y: number } | undefined;
   if (!lex.overflow && !onPhoto && first) {

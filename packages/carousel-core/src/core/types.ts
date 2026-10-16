@@ -43,6 +43,7 @@ export const BUILTIN_TEMPLATE_IDS = [
   'lexicon/kamus',
   'lexicon/notebook',
   'lexicon/lembar',
+  'lexicon/arab',
   'serene/fajr',
   'serene/isya',
 ] as const;
@@ -106,15 +107,22 @@ export type WarningCode =
   | 'diagram-missing'
   | 'sheet-line'
   | 'sheet-missing'
+  | 'script-glyph-missing'
+  | 'script-overflow'
+  | 'pinyin-mismatch'
+  | 'pinyin-invalid'
+  | 'harakat-missing'
+  | 'highlight-splits-word'
+  | 'unknown-script'
   | 'internal-error';
 
 export const BLOCKING_CODES: readonly WarningCode[] = [
   'overflow', 'code-line-too-long', 'table-too-many-rows', 'table-too-wide', 'ipa-glyph-missing', 'internal-error',
-  'arabic-too-long', 'arabic-font-missing',
+  'arabic-too-long', 'arabic-font-missing', 'script-glyph-missing', 'script-overflow',
 ];
 
 /** Blocking with no "Export anyway" (SPEC-ayah §5): Arabic is never exported clipped or in a fallback font. */
-export const HARD_CODES: readonly WarningCode[] = ['arabic-too-long', 'arabic-font-missing'];
+export const HARD_CODES: readonly WarningCode[] = ['arabic-too-long', 'arabic-font-missing', 'script-glyph-missing', 'script-overflow'];
 
 export interface Warning {
   code: WarningCode;
@@ -145,6 +153,8 @@ export interface SlideAttrs {
   /** Card/diagram stamp label, e.g. "SAH" (PRD §4.3). */
   verdict?: string;
   tone?: VerdictTone;
+  /** `[table dir=rtl]`: mirror the column order (SPEC-script §3.2). */
+  dir?: 'ltr' | 'rtl';
 }
 
 export type VerdictTone = 'ok' | 'warn' | 'bad';
@@ -199,6 +209,8 @@ export interface DeckHeader {
   title?: string;
   caption?: string;
   counter?: string;
+  script?: string;
+  tones?: string;
 }
 
 export interface Deck {
@@ -212,6 +224,10 @@ export interface Deck {
   caption: string;
   /** false when the header sets `counter: off` (the i/total counter is hidden). Absent = on. */
   counter?: false;
+  /** `script: arab | hanzi` (SPEC-script §2): default labels and script warnings. Absent = none. */
+  script?: 'arab' | 'hanzi';
+  /** `tones: color` (SPEC-script §5.4). Absent = off. */
+  tones?: 'color';
   slug: string;
   slides: Slide[];
 }

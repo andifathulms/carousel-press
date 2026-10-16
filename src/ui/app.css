@@ -39,6 +39,7 @@
   --cat-philosophy: #E39A7A;
   --cat-exam: #4FC1C9;
   --cat-office: #A8D65B;
+  --cat-arabic: #E9B872;
   /* Posting status in the deck library. */
   --st-todo: #F2B544;
   --st-posted: #4FBF85;
@@ -201,6 +202,7 @@ code { font-family: var(--font-mono); font-size: 12px; }
 .cat-philosophy { --cat: var(--cat-philosophy); }
 .cat-exam { --cat: var(--cat-exam); }
 .cat-office { --cat: var(--cat-office); }
+.cat-arabic { --cat: var(--cat-arabic); }
 .st-todo { --st: var(--st-todo); }
 .st-posted { --st: var(--st-posted); }
 .st-skip { --st: var(--st-skip); }

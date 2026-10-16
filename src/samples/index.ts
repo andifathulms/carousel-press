@@ -138,9 +138,10 @@ import b2SportsPenaltiId from './sports-penalti-id.txt?raw';
 import b2SportsVoliKamuWasitnyaId from './sports-voli-kamu-wasitnya-id.txt?raw';
 import skdPersamaan5SoalId from './skd-persamaan-5-soal-id.txt?raw';
 import kantorXlookupId from './kantor-xlookup-id.txt?raw';
+import lexiconArabKitab from './lexicon-arab-kitab.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
-export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'philosophy' | 'exam' | 'office' | 'travel';
+export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'philosophy' | 'exam' | 'office' | 'arabic' | 'travel';
 
 export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'relationships', label: 'Relationships' },
@@ -153,6 +154,7 @@ export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'philosophy', label: 'Filsafat' },
   { id: 'exam', label: 'SKD & Seleksi' },
   { id: 'office', label: 'Kantor' },
+  { id: 'arabic', label: 'Bahasa Arab' },
   { id: 'travel', label: 'Travel' },
 ];
 
@@ -316,4 +318,6 @@ export const SAMPLES: readonly Sample[] = [
   // SKD Harian (exam) and Jago Kantoran (office), Oct 2026
   { id: 'skd-persamaan-5-soal-id', name: 'Soal cerita persamaan, 5 soal (SKD Harian, id)', category: 'exam', text: skdPersamaan5SoalId },
   { id: 'kantor-xlookup-id', name: 'XLOOKUP dasar (Jago Kantoran, id)', category: 'office', text: kantorXlookupId },
+  // Kosakata Arab (SPEC-script §12), Oct 2026
+  { id: 'lexicon-arab-kitab', name: 'Akar kata ك-ت-ب (Kosakata Arab, id)', category: 'arabic', text: lexiconArabKitab },
 ];

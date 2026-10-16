@@ -4,6 +4,7 @@ import type { SlideLayout } from '../templates/common';
 import { baselines } from '../layout/wrap';
 import { drawIcon } from './icons';
 import { drawTracked, drawWrapped, setFont, setShadow } from './text';
+import { ARABIC } from '../templates/lexicon/lexScript';
 
 /** Marker behind `*word*` (SPEC-lexicon §4.1): 6 px side padding, 0.62 × size tall, radius 6. */
 export const MARKER = { padX: 6, h: 0.62, rise: 0.5, radius: 6 };
@@ -37,14 +38,31 @@ function drawText(ctx: Ctx, e: Extract<LexEl, { k: 'text' }>, onPhoto: boolean):
 
 /** Arabic lines, right-to-left and verbatim; the end-of-ayah mark sits left of the last line in the accent colour. */
 function drawArabic(ctx: Ctx, e: Extract<LexEl, { k: 'arabic' }>, onPhoto: boolean): void {
+  const rightOf = (i: number): number => {
+    const markW = e.mark && i === e.lines.length - 1 ? e.mark.gap + e.mark.w : 0;
+    const full = e.widths[i]! + markW;
+    return e.align === 'center' ? e.x + (e.w + full) / 2 : e.x + e.w;
+  };
+  // Highlight behind whole words, mirrored from the logical prefix (SPEC-script §4).
+  if (e.marks?.length && e.highlight) {
+    setShadow(ctx, false);
+    ctx.fillStyle = e.highlight;
+    const M = ARABIC.marker;
+    for (const mk of e.marks) {
+      const base = e.y + mk.line * e.size * e.lh + e.size * e.baseline;
+      ctx.beginPath();
+      ctx.roundRect(rightOf(mk.line) - mk.from - mk.w - M.padX, base - e.size * M.rise, mk.w + M.padX * 2, e.size * M.h, M.radius);
+      ctx.fill();
+    }
+  }
   setShadow(ctx, onPhoto);
-  setFont(ctx, { family: e.family, weight: 400, size: e.size });
+  setFont(ctx, { family: e.family, weight: e.weight ?? 400, size: e.size, ...(e.fallback ? { fallback: e.fallback } : {}) });
   ctx.direction = 'rtl';
   e.lines.forEach((line, i) => {
     const last = i === e.lines.length - 1;
     const markW = e.mark && last ? e.mark.gap + e.mark.w : 0;
     const full = e.widths[i]! + markW;
-    const right = e.align === 'center' ? e.x + (e.w + full) / 2 : e.x + e.w;
+    const right = rightOf(i);
     const y = e.y + i * e.size * e.lh + e.size * e.baseline;
     ctx.textAlign = 'right';
     ctx.fillStyle = e.color;
@@ -54,7 +72,27 @@ function drawArabic(ctx: Ctx, e: Extract<LexEl, { k: 'arabic' }>, onPhoto: boole
       ctx.fillStyle = e.mark.color;
       ctx.fillText(e.mark.text, right - full, y);
     }
+    // Strike at 0.45 × the line box, so the lower harakat stay visible (SPEC-script §7.4).
+    if (e.strike) {
+      ctx.fillStyle = e.strike;
+      ctx.fillRect(right - e.widths[i]!, e.y + i * e.size * e.lh + e.size * e.lh * ARABIC.strike.at - ARABIC.strike.w / 2, e.widths[i]!, ARABIC.strike.w);
+    }
   });
+  ctx.direction = 'ltr';
+  ctx.textAlign = 'left';
+}
+
+/** One line of mixed scripts: each segment in its face, Arabic segments right-to-left (SPEC-script §6.2). */
+function drawMixed(ctx: Ctx, e: Extract<LexEl, { k: 'mixed' }>, onPhoto: boolean): void {
+  setShadow(ctx, onPhoto);
+  const y = e.y + e.baseline;
+  for (const s of e.segs) {
+    setFont(ctx, s.font);
+    ctx.fillStyle = s.color;
+    ctx.direction = s.rtl ? 'rtl' : 'ltr';
+    ctx.textAlign = s.rtl ? 'right' : 'left';
+    ctx.fillText(s.text, s.rtl ? e.x + s.dx + s.w : e.x + s.dx, y);
+  }
   ctx.direction = 'ltr';
   ctx.textAlign = 'left';
 }
@@ -149,6 +187,9 @@ export function drawLex(ctx: Ctx, L: SlideLayout): void {
         break;
       case 'arabic':
         drawArabic(ctx, e, L.onPhoto);
+        break;
+      case 'mixed':
+        drawMixed(ctx, e, L.onPhoto);
         break;
       case 'star':
         drawStar(ctx, e.cx, e.cy, e.size, e.color, e.width);

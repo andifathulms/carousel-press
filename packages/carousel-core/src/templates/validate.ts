@@ -60,6 +60,16 @@ export function validateVariant(v: Variant, families: readonly FamilyId[]): stri
   for (const [label, c] of colours) if (typeof c !== 'string' || !COLOUR.test(c.trim())) issues.push(`${label} "${String(c)}" is not #RGB, #RRGGBB or rgb(a)()`);
   if (issues.length) return issues;
   for (const [name, s] of Object.entries(v.surfaces)) {
+    // Root letters and tone colours are text: 4.5:1 on their surface (SPEC-script §9). `grid` is decorative.
+    const lexOn = { ...(name !== 'deep' ? v.lex : {}), ...v.lexSurfaces?.[name] };
+    try {
+      if (lexOn.root && !(contrast(lexOn.root, s.bg) >= 4.5)) issues.push(`surfaces.${name}: lex.root ${contrast(lexOn.root, s.bg).toFixed(2)} < 4.5`);
+      lexOn.tones?.forEach((tc, i) => {
+        if (!(contrast(tc, s.bg) >= 4.5)) issues.push(`surfaces.${name}: lex.tone${i + 1} ${contrast(tc, s.bg).toFixed(2)} < 4.5`);
+      });
+    } catch (err) {
+      issues.push(`surfaces.${name}: ${err instanceof Error ? err.message : String(err)}`);
+    }
     try {
       issues.push(...surfaceIssues(s, v.semantic).map((x) => `surfaces.${name}: ${x}`));
     } catch (err) {

@@ -26,6 +26,23 @@ export type LexEl =
     baseline: number;
     family: string; color: string; align: 'center' | 'right';
     mark: { text: string; w: number; gap: number; color: string } | null;
+    /** Defaults to 400. */
+    weight?: number;
+    /** Bundled face for spaces and digits inside the Arabic run (the variant's sans). */
+    fallback?: string;
+    /** Highlighted words: `from` = logical prefix width from the right edge of the line, `w` = word width (SPEC-script §4). */
+    marks?: { line: number; from: number; w: number }[];
+    highlight?: string;
+    /** Strike through each line at 0.45 × the line box (compare: wrong, SPEC-script §7.4). */
+    strike?: string;
+  }
+  | {
+    /**
+     * One line mixing scripts (SPEC-script §6.2): segments in visual order, each in its own face.
+     * `x` is the left edge of the first segment; `baseline` is the baseline below `y`.
+     */
+    k: 'mixed'; x: number; y: number; h: number; baseline: number; w: number;
+    segs: { text: string; font: FontSpec; color: string; dx: number; w: number; rtl: boolean }[];
   }
   | { k: 'star'; cx: number; cy: number; size: number; color: string; width: number }
   | { k: 'label'; x: number; y: number; text: string; font: FontSpec; color: string; tracking: number }
@@ -125,6 +142,9 @@ export function lexBoxes(els: readonly LexEl[]): Box[] {
         out.push({ x, y: e.y, w, h: e.lines.length * e.size * e.lh, kind: 'arabic' });
         break;
       }
+      case 'mixed':
+        out.push({ x: e.x, y: e.y, w: e.w, h: e.h, kind: 'lex-text' });
+        break;
       case 'pill': case 'badge': case 'rect': case 'frame':
         out.push({ x: e.x, y: e.y, w: e.w, h: e.h, kind: `lex-${e.k}` });
         break;
