@@ -94,7 +94,7 @@ The first non-empty line of a block may be a tag:
 [type attr=value attr="value with spaces" flag]
 ```
 
-- `type` ∈ `cover | card | code | quote | end | diagram` (plus the lexicon types in `docs/SPEC-lexicon.md`), and it's **optional**. The first token is the type only if it is a bare word (no `=`) matching a known type. Otherwise every token is an attribute or flag, and the type is the default. So `[icon=heart]` and `[cta icon=leaf]` are valid card tags.
+- `type` ∈ `cover | card | code | quote | end | diagram | sheet` (plus the lexicon types in `docs/SPEC-lexicon.md`), and it's **optional**. The first token is the type only if it is a bare word (no `=`) matching a known type. Otherwise every token is an attribute or flag, and the type is the default. So `[icon=heart]` and `[cta icon=leaf]` are valid card tags.
 - A line counts as a tag line only if the whole trimmed line matches `^\[[^\]]*\]$`.
 - If there is no tag, or the tag has no type: block 1 → `cover`, any other block → `card`.
 - A first bare token that is neither a known type nor a known flag (`cta`) → warning `unknown-slide-type`, rendered as `card`. The token itself is ignored; the remaining tokens still apply.
@@ -171,6 +171,8 @@ The parser and renderer return warnings as `{ code, slideIndex | null, line, mes
 | `unclosed-fence`, `code-missing-fence` | parser | No |
 | `diagram-missing` | parser: a `[diagram]` slide without a fence (rendered as a card) | No |
 | `diagram-line` | parser: a diagram line that isn't a valid mark, or an unknown field (skipped / football used) | No |
+| `sheet-missing` | parser: a `[sheet]` slide without a fence, or with an empty one (rendered as a card) | No |
+| `sheet-line` | parser: more than 7 columns or 9 rows (cut), or a formula cell outside the sheet | No |
 | `long-deck` | parser: more than 10 slides | No (style hint only) |
 | `long-word` | renderer: a word was too wide and was broken between characters | No |
 | `photo-low-res` | photo store (not the parser): photo shorter than 1280px on its short side | No |
@@ -210,6 +212,30 @@ pass 42,56 -> 70,30
 | label | `label x,y text` | small text |
 
 Labels are cut at 24 characters. The parser never throws on diagram text.
+
+### 4.10 Sheet slides (Oct 2026)
+
+A `[sheet]` slide draws a small spreadsheet, so a formula is shown working on real cells instead of described. Made for Jago Kantoran (docs/channels.md §11); it renders in every family with the variant's code-panel colours.
+
+````text
+[sheet]
+Cari nama dari ID
+D2 = yang dicari, A = kolom ID, B = kolom hasil.
+```sheet
+E2 =XLOOKUP(D2;A2:A6;B2:B6)
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | K03 | Sari
+*K03* | *Sari* | IT | |
+```
+K03 ketemu di baris 4, jadi hasilnya Sari.
+````
+
+- Like `[code]`: headline, optional body, the fence, then an optional note. A fence is required (no fence, or an empty one → `sheet-missing`, rendered as a card). `---` inside a closed fence doesn't split slides. Badge numbers count like `code` (`number=off|N` work).
+- **Optional first line `<cell> =<formula>`:** the formula goes in a formula bar above the grid (name box + `fx` + the formula), and that cell is the result cell: solid outline, bold text and its column letter and row number in the result colour (`code.prompt`). The cell's value is whatever the row text puts there.
+- **Rows:** pipe-separated, starting at A1 (leading/trailing pipes optional, `\|` = a literal pipe, empty cells allowed). Row 1 is drawn bold as the header row. At most **7 columns (A–G) and 9 rows**; extra ones are cut with `sheet-line`.
+- **References:** every cell reference in the formula (`D2`, `$A$2:$A$6`, `A:A`, `2:2`) is coloured in the formula bar and its range outlined and tinted in the same colour, in order of first appearance: `code.subcommand`, `code.keyword`, `code.flag`, `code.string`, `code.number`. References to other sheets (`Data!A1`) are coloured but not outlined.
+- **Marked cells** `*K03*`: dashed outline per run of adjacent marked cells in a row, bold text in the result colour (e.g. the row a lookup found). The stars aren't shown.
+- **Fit:** cell text tries 30 → 22 px; columns get their natural width plus an even share of the spare width. Still too wide at 22 px (or a formula too long for the bar at 20 px) → cut with "…" and `table-too-wide` (blocking, like tables). The parser never throws on sheet text.
 
 ---
 

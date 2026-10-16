@@ -15,7 +15,7 @@ export function numberSlides(slides: Slide[], opts: { autoBadge?: boolean } = {}
     s.counter = { i: i + 1, total };
 
     s.badge = null;
-    if (s.type === 'card' || s.type === 'code' || s.type === 'diagram' || (s.type === 'table' && typeof s.attrs.number === 'number')) {
+    if (s.type === 'card' || s.type === 'code' || s.type === 'diagram' || s.type === 'sheet' || (s.type === 'table' && typeof s.attrs.number === 'number')) {
       const n = s.attrs.number;
       if (n === 'off' || (n === undefined && !autoBadge)) {
         // skipped: doesn't consume a number
@@ -28,7 +28,7 @@ export function numberSlides(slides: Slide[], opts: { autoBadge?: boolean } = {}
       }
     }
 
-    const isContent = s.type === 'card' || s.type === 'code' || s.type === 'diagram' || s.type === 'quote' ||
+    const isContent = s.type === 'card' || s.type === 'code' || s.type === 'diagram' || s.type === 'sheet' || s.type === 'quote' ||
       s.type === 'word' || s.type === 'table' || s.type === 'compare' || s.type === 'ayah' || s.type === 'hadith';
     s.contentIndex = isContent ? content++ : -1;
 

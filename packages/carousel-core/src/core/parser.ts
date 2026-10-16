@@ -9,6 +9,7 @@ import { slugify } from './slug';
 import { fillCompare, fillTable, fillWord } from './lexicon';
 import { fillAyah, fillHadith } from './ayah';
 import { parseDiagram } from './diagram';
+import { parseSheet } from './sheet';
 
 export interface ParseOptions {
   /** Template used when the header has none (last used). */
@@ -100,7 +101,7 @@ function splitBlocks(lines: readonly string[], from: number): RawBlock[] {
     if (!seen && raw.trim() !== '') {
       seen = true;
       const head = tagHead(raw);
-      code = (head?.key === 'code' || head?.key === 'diagram') && head.value === true;
+      code = (head?.key === 'code' || head?.key === 'diagram' || head?.key === 'sheet') && head.value === true;
     }
     if (code && fence === 'before' && FENCE.test(raw)) fence = fenceCloses(lines, i) ? 'open' : 'after';
     else if (fence === 'open' && FENCE_CLOSE.test(raw)) fence = 'after';
@@ -346,7 +347,7 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[]): Slide 
   }
   const head = content.shift();
   // On a code slide a fence can't be the headline; elsewhere ``` is literal text.
-  if (!head || ((finalType === 'code' || finalType === 'diagram') && FENCE.test(head.text))) {
+  if (!head || ((finalType === 'code' || finalType === 'diagram' || finalType === 'sheet') && FENCE.test(head.text))) {
     warn('missing-headline', 'This slide has no headline');
     if (head) content.unshift(head);
   } else {
@@ -356,6 +357,7 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[]): Slide 
 
   if (finalType === 'code') fillCode(slide, content, warn);
   else if (finalType === 'diagram') fillDiagram(slide, content, warn);
+  else if (finalType === 'sheet') fillSheet(slide, content, warn);
   else if (finalType === 'quote') fillQuote(slide, content);
   else slide.body = parseRich(content.map((c) => c.text));
 
@@ -366,7 +368,7 @@ function parseBlock(block: RawBlock, index: number, warnings: Warning[]): Slide 
 
 function makeSlide(index: number, type: SlideType, attrs: SlideAttrs, block: RawBlock): Slide {
   return {
-    index, type, attrs, headlineSrc: '', headline: [], body: [], note: [], attribution: null, code: null, fields: {}, table: null, diagram: null,
+    index, type, attrs, headlineSrc: '', headline: [], body: [], note: [], attribution: null, code: null, fields: {}, table: null, diagram: null, sheet: null,
     photoId: null, lines: [block.start, Math.max(block.start, block.end)],
     badge: null, counter: { i: index + 1, total: 0 }, swipe: null, showCta: false, contentIndex: -1,
   };
@@ -423,7 +425,7 @@ function checkAttrScope(slide: Slide, warn: Warn): void {
   // Lexicon slides ignore icon= silently (SPEC-lexicon §2).
   if (isLexType(slide.type) || isArabicType(slide.type)) delete a.icon;
   if (a.cta !== undefined && slide.type === 'cover') drop('cta');
-  if (a.number !== undefined && slide.type !== 'card' && slide.type !== 'code' && slide.type !== 'diagram' && slide.type !== 'table') drop('number');
+  if (a.number !== undefined && slide.type !== 'card' && slide.type !== 'code' && slide.type !== 'diagram' && slide.type !== 'sheet' && slide.type !== 'table') drop('number');
   if (a.kicker !== undefined && slide.type !== 'cover' && slide.type !== 'card' && slide.type !== 'quote') drop('kicker');
   if (a.verdict !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('verdict');
   if (a.tone !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('tone');
@@ -505,6 +507,31 @@ function fillDiagram(slide: Slide, content: { text: string; line: number }[], wa
   const { diagram, issues } = parseDiagram(lang, inner.map((c) => c.text));
   for (const i of issues) warn('diagram-line', i.message, i.offset < 0 ? open.line : inner[i.offset]!.line);
   slide.diagram = diagram;
+  slide.note = parseRich(closeAt < 0 ? [] : rest.slice(closeAt + 1).map((c) => c.text));
+}
+
+/** `[sheet]`: like diagram; the fence holds pipe rows from A1 and an optional `G2 =FORMULA` first line. */
+function fillSheet(slide: Slide, content: { text: string; line: number }[], warn: Warn): void {
+  const fenceAt = content.findIndex((c) => FENCE.test(c.text));
+  if (fenceAt < 0) {
+    warn('sheet-missing', 'Sheet slide without a ``` fence, rendered as a card');
+    slide.type = 'card';
+    slide.body = parseRich(content.map((c) => c.text));
+    return;
+  }
+  slide.body = parseRich(content.slice(0, fenceAt).map((c) => c.text));
+  const open = content[fenceAt]!;
+  const rest = content.slice(fenceAt + 1);
+  const closeAt = rest.findIndex((c) => FENCE_CLOSE.test(c.text));
+  const inner = closeAt < 0 ? rest : rest.slice(0, closeAt);
+  if (closeAt < 0) warn('unclosed-fence', 'Sheet fence is never closed', open.line);
+  const { sheet, issues } = parseSheet(inner.map((c) => c.text));
+  for (const i of issues) warn('sheet-line', i.message, i.offset < 0 ? open.line : inner[i.offset]!.line);
+  if (!sheet) {
+    slide.type = 'card';
+    return;
+  }
+  slide.sheet = sheet;
   slide.note = parseRich(closeAt < 0 ? [] : rest.slice(closeAt + 1).map((c) => c.text));
 }
 

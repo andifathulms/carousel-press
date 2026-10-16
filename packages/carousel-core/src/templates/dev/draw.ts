@@ -100,6 +100,7 @@ export function drawDev(ctx: Ctx, L: SlideLayout): void {
         break;
       case 'verdict':
       case 'diagram':
+      case 'sheet':
         drawStampItem(ctx, p, L);
         break;
     }

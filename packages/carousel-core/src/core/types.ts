@@ -1,8 +1,9 @@
 // Core data types shared by parser, layout and renderer. Pure: no DOM.
 import type { Diagram } from './diagram';
+import type { Sheet } from './sheet';
 
-export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end' | 'word' | 'table' | 'compare' | 'ayah' | 'hadith' | 'diagram';
-export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end', 'word', 'table', 'compare', 'ayah', 'hadith', 'diagram'];
+export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end' | 'word' | 'table' | 'compare' | 'ayah' | 'hadith' | 'diagram' | 'sheet';
+export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end', 'word', 'table', 'compare', 'ayah', 'hadith', 'diagram', 'sheet'];
 
 /** Lexicon slide types (SPEC-lexicon §2): structured fields instead of headline + body. */
 export type LexType = 'word' | 'table' | 'compare';
@@ -103,6 +104,8 @@ export type WarningCode =
   | 'unknown-counter'
   | 'diagram-line'
   | 'diagram-missing'
+  | 'sheet-line'
+  | 'sheet-missing'
   | 'internal-error';
 
 export const BLOCKING_CODES: readonly WarningCode[] = [
@@ -174,6 +177,8 @@ export interface Slide {
   table: TableData | null;
   /** `[diagram]` field and marks (PRD §4.9). */
   diagram: Diagram | null;
+  /** `[sheet]` rows and formula (PRD §4.10). */
+  sheet: Sheet | null;
   /** Resolved photo id (after tray lookup) or null. */
   photoId: string | null;
   /** [startLine, endLine] inclusive, 0-based, in the deck text. */

@@ -8,6 +8,7 @@ const ROWS: [string, string][] = [
   ['Headline | second line', '| = line break, \\| = a literal pipe'],
   ['[card icon=heart]', 'Card (default after slide 1): headline + body'],
   ['[code]\nTitle\nWhat it does\n```bash\ngit status\n```\nA small note', 'Code: body, fenced code, then a note'],
+  ['[sheet]\nTitle\n```sheet\nC2 =SUM(A2:B2)\nA | B | Total\n1 | 2 | 3\n```', 'Sheet: a mini spreadsheet; optional first line = cell + formula, *x* marks a cell'],
   ['[quote]\nBe kind.\n— Someone', 'Quote: text, then — attribution on the next line'],
   ['[end]\nSave dulu.\nSee you!', 'End: headline + body + CTA button'],
   ['[cta="Follow dulu"]', 'Add a CTA to a card, or relabel the end button'],

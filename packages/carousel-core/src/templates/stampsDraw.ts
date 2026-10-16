@@ -1,7 +1,9 @@
-// Draw the shared fixed items (verdict stamp, diagram panel) for any family.
+// Draw the shared fixed items (verdict stamp, diagram panel, sheet panel) for any family.
 import { displayFamily } from './traits';
 import type { Ctx } from '../render/ctx';
 import { drawDiagram } from '../render/diagram';
+import { drawSheet } from '../render/sheet';
+import { sheetFonts } from './sheet';
 import type { Placed } from '../layout/stack';
 import { setFont, setShadow } from '../render/text';
 import type { SlideLayout } from './common';
@@ -31,6 +33,10 @@ export function drawStampItem(ctx: Ctx, p: Placed, L: SlideLayout): boolean {
     }, {
       sans: v.fonts.sans, display: displayFamily(v), displayWeight: v.headlineWeight ?? 700,
     });
+    return true;
+  }
+  if (p.item.kind === 'sheet' && slide.sheet) {
+    drawSheet(ctx, slide.sheet, p, v.code, sheetFonts(v));
     return true;
   }
   return false;

@@ -5,6 +5,7 @@
 - New template `lexicon/lembar` (SKD Harian): an exam answer sheet, square-grid paper, teal ink, graphite covers with a pencil-yellow accent, Barlow.
 - New template `dev/sheet` (Jago Kantoran): a spreadsheet, faint cell gridlines, office-green accent, white formula panel, no terminal path, `fx` glyph on cover and end.
 - `excel` code highlighting (aliases `xlsx`, `sheets`, `formula`).
+- New slide type `[sheet]` (PRD §4.10): a mini spreadsheet with a formula bar, colour-coded reference ranges, a result cell and `*marked*` cells; warnings `sheet-missing`, `sheet-line`. `Slide` gains `sheet: Sheet | null`.
 - Variant data: `deco.grid` (`'cells' | 'squares'`) + `deco.gridColor`, and `headerRight` (`'path' | 'rule'`) to override the family's header.
 - `editorial/stone`: blobs off (Filsafat Harian review). Visual change only; tokens unchanged.
 

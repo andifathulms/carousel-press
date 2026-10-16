@@ -1,5 +1,6 @@
 import { isEmptyRich } from '../../core/inline';
 import { diagramItem, verdictItem } from '../stamps';
+import { sheetItem } from '../sheet';
 import { prepareCode } from '../../layout/codeFit';
 import { type CodeSpec, type StackItem, type TextSpec, fitStack } from '../../layout/stack';
 import { type Box, CONTENT_W, ROWS } from '../../render/safezone';
@@ -88,7 +89,8 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
     }
     case 'card':
     case 'code':
-    case 'diagram': {
+    case 'diagram':
+    case 'sheet': {
       // A card kicker is a small label above the headline; it replaces the badge (PRD §4.3).
       const kicker = slide.attrs.kicker;
       if (kicker) push({ kind: 'kicker', h: FIXED.kicker.h, w: 0, gap: 0, label: kicker.toUpperCase() });
@@ -108,6 +110,11 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
           padX: c.pad, padTop: c.pad, padBottom: c.pad, titleBar: 0,
         };
         push({ kind: 'code', lines: prepareCode(slide.code.text, slide.code.lang), lang: slide.code.lang, spec: codeSpec, gap: STACK.iconGap });
+        if (!isEmptyRich(slide.note)) push({ kind: 'text', role: 'note', rich: slide.note, spec: spec(TYPE.note), gap: STACK.noteGap, tone: 'muted' });
+        if (cta) push({ kind: 'cta', h: CHROME.cta.h, w: ctaWidth(cta, sans, m), gap: CHROME.cta.gapBefore, label: cta });
+      } else if (slide.type === 'sheet') {
+        const sh = sheetItem(slide, v, m, STACK.cardGap, warnings);
+        if (sh) push(sh);
         if (!isEmptyRich(slide.note)) push({ kind: 'text', role: 'note', rich: slide.note, spec: spec(TYPE.note), gap: STACK.noteGap, tone: 'muted' });
         if (cta) push({ kind: 'cta', h: CHROME.cta.h, w: ctaWidth(cta, sans, m), gap: CHROME.cta.gapBefore, label: cta });
       } else if (slide.type === 'diagram') {
