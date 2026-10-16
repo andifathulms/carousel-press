@@ -1,0 +1,100 @@
+template: dev/sheet
+lang: id
+title: kuis count counta average
+caption: Satu tabel absen, tiga rumus, tiga hasil yang beda. Kamu benar berapa? Diuji di [versi Excel yang dipakai owner]. #exceltips #tipskantor #kuisexcel
+---
+[cover kicker="EXCEL • KUIS #1"]
+Satu tabel absen. | *Tebak hasilnya.*
+COUNT, COUNTA, AVERAGE: jawab dulu sebelum geser.
+---
+[sheet]
+Soal 1: hasil COUNT?
+Sel Sari masih kosong, Dimas ditulis izin.
+```sheet
+C2 =COUNT(B2:B6)
+Nama | Hadir | Hasil
+Rina | 20 | ?
+Bayu | 18 |
+Sari | |
+Dimas | izin |
+Lala | 22 |
+```
+Tebak dulu, jawabannya di slide berikutnya.
+---
+[sheet]
+Jawaban 1: *3*
+COUNT cuma menghitung sel yang isinya angka.
+```sheet
+C2 =COUNT(B2:B6)
+Nama | Hadir | Hasil
+Rina | *20* | 3
+Bayu | *18* |
+Sari | |
+Dimas | izin |
+Lala | *22* |
+```
+Sel kosong dan teks izin dilewati.
+---
+[sheet]
+Soal 2: hasil COUNTA?
+Tabelnya sama. Rumusnya beda satu huruf.
+```sheet
+C2 =COUNTA(B2:B6)
+Nama | Hadir | Hasil
+Rina | 20 | ?
+Bayu | 18 |
+Sari | |
+Dimas | izin |
+Lala | 22 |
+```
+Tebak dulu, baru geser.
+---
+[sheet]
+Jawaban 2: *4*
+COUNTA menghitung semua sel yang tidak kosong, teks juga.
+```sheet
+C2 =COUNTA(B2:B6)
+Nama | Hadir | Hasil
+Rina | *20* | 4
+Bayu | *18* |
+Sari | |
+Dimas | *izin* |
+Lala | *22* |
+```
+Cuma sel Sari yang nggak dihitung.
+---
+[sheet]
+Soal 3: hasil AVERAGE?
+Ada 5 orang di tabel. Rata-rata hadirnya berapa?
+```sheet
+C2 =AVERAGE(B2:B6)
+Nama | Hadir | Hasil
+Rina | 20 | ?
+Bayu | 18 |
+Sari | |
+Dimas | izin |
+Lala | 22 |
+```
+Ini yang paling sering salah tebak.
+---
+[sheet]
+Jawaban 3: *20, bukan 12*
+AVERAGE melewati sel kosong dan teks: (20 + 18 + 22) / 3.
+```sheet
+C2 =AVERAGE(B2:B6)
+Nama | Hadir | Hasil
+Rina | *20* | 20
+Bayu | *18* |
+Sari | |
+Dimas | izin |
+Lala | *22* |
+```
+Isi sel Sari dengan 0, hasilnya jadi 15.
+---
+[card icon=lightbulb]
+Mau tahu yang *belum diisi?*
+Pakai =COUNTBLANK(B2:B6). Di tabel ini hasilnya 1, yaitu sel Sari. Sama di Excel dan Google Sheets.
+---
+[end cta="Simpan"]
+Kamu benar berapa | *dari 3 soal?*
+Komen angkanya, 0 sampai 3. Kuis #2 menyusul.

@@ -1,0 +1,74 @@
+template: dev/sheet
+lang: id
+title: na padahal datanya ada
+caption: #N/A padahal ID-nya jelas ada di tabel? Biasanya spasi yang nggak kelihatan. Diuji di [versi Excel yang dipakai owner]. #exceltips #tipskantor #belajarexcel
+---
+[cover kicker="EXCEL • MASALAH KANTOR"]
+#N/A padahal | *datanya ada?*
+Biasanya gara-gara spasi yang nggak kelihatan. Ini cara cek dan beresinnya.
+---
+[sheet]
+K03 jelas ada, tapi #N/A
+Rumusnya benar. Yang salah isi sel D2.
+```sheet
+E2 =VLOOKUP(D2;A2:C6;2;FALSE)
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | K03 | #N/A
+K02 | Bayu | HRD | |
+K03 | Sari | IT | |
+K04 | Dimas | Gudang | |
+K05 | Lala | IT | |
+```
+Di mata sama, di Excel beda.
+---
+[sheet]
+Cek jumlah karakternya
+LEN menghitung semua karakter, spasi juga.
+```sheet
+E2 =LEN(D2)
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | *K03* | 4
+K02 | Bayu | HRD | |
+K03 | Sari | IT | |
+K04 | Dimas | Gudang | |
+K05 | Lala | IT | |
+```
+K03 cuma 3 karakter. Yang keempat: spasi di belakang.
+---
+[sheet]
+Bungkus dengan TRIM
+TRIM membuang spasi di depan dan belakang teks.
+```sheet
+E2 =VLOOKUP(TRIM(D2);A2:C6;2;FALSE)
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | K03 | Sari
+K02 | Bayu | HRD | |
+*K03* | *Sari* | IT | |
+K04 | Dimas | Gudang | |
+K05 | Lala | IT | |
+```
+Sekarang K03 ketemu di baris 4, hasilnya Sari.
+---
+[card]
+Spasinya di kolom ID?
+Bikin kolom bantu =TRIM(A2), salin ke bawah, lalu Paste Values ke kolom ID. Rumus lookup-mu nggak perlu diubah.
+---
+[code]
+Copy dari web, TRIM nggak mempan?
+Spasinya bisa CHAR(160), spasi khusus halaman web. Ganti dulu jadi spasi biasa.
+```excel
+=TRIM(SUBSTITUTE(D2;CHAR(160);" "))
+```
+TRIM cuma membuang spasi biasa (CHAR(32)).
+---
+[code]
+Excel kamu pakai koma?
+Pemisah argumen ikut pengaturan region. Region US pakai koma.
+```excel
+=VLOOKUP(TRIM(D2),A2:C6,2,FALSE)
+```
+Rumus ditolak? Ganti ; jadi , (atau sebaliknya). Google Sheets sama.
+---
+[end cta="Simpan"]
+Pernah kena #N/A | *gara-gara spasi?*
+Komen 1 kalau pernah, 0 kalau belum.

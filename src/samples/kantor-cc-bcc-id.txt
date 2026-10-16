@@ -1,0 +1,40 @@
+template: dev/sheet
+lang: id
+title: cc vs bcc
+caption: Kirim undangan ke 50 klien lewat CC, dan semua alamat email mereka bocor ke satu sama lain. Diuji di [Gmail/Outlook yang dipakai owner]. #tipskantor #emailformal #ccbcc
+---
+[cover kicker="EMAIL • CC VS BCC"]
+Undangan ke 50 klien | *pakai CC?*
+Semua alamat email mereka bisa saling lihat. Bedanya CC dan BCC ada di situ.
+---
+[compare]
+headline: Kirim ke 50 klien
+wrong-label: Semua di CC
+wrong: Tiap klien melihat 49 alamat email klien lain.
+right-label: Semua di BCC
+right: Tiap klien cuma melihat alamatmu. Isi kolom To dengan alamatmu sendiri.
+why: Alamat email klien itu data pribadi. Jangan sampai bocor lewat CC.
+---
+[table]
+Siapa lihat siapa
+| | CC | BCC |
+| Dilihat penerima lain | Ya | Tidak |
+| Ikut Reply All | Ya | Tidak |
+| Cocok untuk | Atasan, tim | Banyak klien |
+Penerima BCC tetap melihat isi To dan CC.
+---
+[card]
+To untuk yang bertindak
+Yang harus membalas atau mengerjakan, taruh di To. Yang cukup tahu, seperti atasan, taruh di CC.
+---
+[card icon=alert]
+Di-BCC? *Jangan Reply All*
+Balasanmu sampai ke semua orang di To dan CC. Mereka jadi tahu kamu diam-diam ikut di email itu.
+---
+[card]
+Kolom BCC nggak ada?
+Gmail: klik Bcc di ujung kanan kolom To. Outlook desktop: tab Options, lalu klik Bcc.
+---
+[end cta="Simpan"]
+Pernah dapat email | *CC ratusan orang?*
+Komen 1 kalau pernah, 0 kalau belum.

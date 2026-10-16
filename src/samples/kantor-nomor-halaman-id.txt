@@ -1,0 +1,45 @@
+template: dev/sheet
+lang: id
+title: nomor halaman mulai halaman 3
+caption: Cover dan daftar isi tanpa nomor, Bab 1 mulai dari halaman 1. Cocok buat skripsi dan laporan. Diuji di [versi Word yang dipakai owner]. #tipsword #tipskantor #skripsi
+---
+[cover kicker="WORD • TUTORIAL"]
+Cover dan daftar isi | *ikut bernomor?*
+Nomor halaman mulai dari halaman 3 di Word, 5 langkah.
+---
+[card]
+Pasang Section Break
+Klik di akhir halaman 2. Di tab Layout, klik Breaks, lalu pilih Next Page di bagian Section Breaks.
+---
+[card]
+Putuskan Link to Previous
+Klik dua kali footer halaman 3. Di tab Header & Footer, matikan tombol Link to Previous.
+---
+[card]
+Pasang nomornya
+Masih di footer halaman 3, klik Page Number, pilih Bottom of Page, lalu pilih posisinya.
+---
+[card]
+Mulai dari angka 1
+Klik Page Number, pilih Format Page Numbers, isi Start at dengan 1. Tanpa ini, Bab 1 tetap tertulis halaman 3.
+---
+[card]
+Cek halaman 1 dan 2
+Masih ada nomor? Hapus dari footer halaman 1. Halaman 3 aman karena link-nya sudah diputus.
+---
+[table]
+Hasilnya begini
+| Halaman | Isi | Nomor |
+| 1 | Cover | kosong |
+| 2 | Daftar isi | kosong |
+| 3 | Bab 1 | *1* |
+| 4 | Bab 1 | *2* |
+Menu di atas: Word Microsoft 365 (Windows), bahasa Inggris.
+---
+[card number=off icon=lightbulb]
+Cuma cover yang *tanpa nomor?*
+Nggak perlu section break. Klik dua kali footer, centang Different First Page.
+---
+[end cta="Simpan"]
+Skripsimu pakai | *Word atau Google Docs?*
+Komen W atau G.
