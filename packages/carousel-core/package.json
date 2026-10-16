@@ -1,6 +1,6 @@
 {
   "name": "carousel-core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Plain-text decks to 1080×1920 carousel PNGs, rendered in the browser (Canvas 2D). The engine behind Carousel Press.",
   "type": "module",
   "sideEffects": false,
