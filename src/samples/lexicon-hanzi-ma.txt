@@ -1,0 +1,58 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: pertanyaan dengan 吗 ma
+caption: Kalimat biasa jadi pertanyaan cuma dengan satu karakter. Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #hsk1
+---
+[cover kicker="TATA BAHASA DASAR #1"]
+Bikin pertanyaan|cukup tambah *吗*
+Kalimat biasa jadi pertanyaan ya/tidak
+---
+[word]
+word: 吗
+pinyin: ma
+pos: partikel tanya
+hsk: 1
+meaning: penanda pertanyaan ya/tidak di akhir kalimat
+example: 你忙*吗*？
+example-pinyin: Nǐ máng ma?
+translation: Kamu sibuk?
+note: 吗 bernada netral: ucapkan pendek dan ringan, tanpa tanda nada.
+---
+[table]
+Tambah 吗 di akhir
+| Hanzi | Pinyin | Arti |
+| 你是老师 | nǐ shì lǎo shī | kamu guru |
+| 你是老师吗 | nǐ shì lǎo shī ma | kamu guru? |
+| 你喝茶 | nǐ hē chá | kamu minum teh |
+| 你喝茶吗 | nǐ hē chá ma | kamu minum teh? |
+---
+[table]
+Jawabnya: ulang kata kerjanya
+| Hanzi | Pinyin | Arti |
+| 是 | shì | ya, benar |
+| 不是 | bú shì | bukan |
+| 喝 | hē | (ya,) minum |
+| 不喝 | bù hē | tidak minum |
+---
+[compare]
+headline: Sudah ada kata tanya? Tanpa 吗
+wrong-label: Salah
+right-label: Benar
+wrong: 你叫什么名字吗？
+right: 你叫什么名字？
+why: 什么 shénme (apa) sudah membuat kalimat jadi pertanyaan, jadi tidak perlu 吗 lagi.
+---
+[card kicker="Kuis" number=off]
+Mana yang benar?
+*A.* 你喝什么吗？ | *B.* 你喝茶吗？
+---
+[card kicker="Jawaban" number=off]
+*B.* 你喝茶吗？
+Nǐ hē chá ma? Kalimat A sudah punya 什么, jadi 吗 harus dibuang.
+---
+[end cta="Simpan"]
+Ubah "kamu sibuk" jadi pertanyaan, pakai pinyin
+Jawab di komentar

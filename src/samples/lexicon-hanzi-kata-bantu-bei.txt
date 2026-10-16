@@ -1,0 +1,57 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: kata bantu bilangan 杯 bēi
+caption: Mau pesan teh atau kopi? Jangan lupa 杯. Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #mandarinpemula
+---
+[cover kicker="KATA BANTU BILANGAN #1"]
+Pesan *teh* di Mandarin|butuh kata ini
+杯 bēi: buat minuman dalam gelas atau cangkir
+---
+[word]
+word: 杯
+pinyin: bēi
+pos: kata bantu bilangan
+meaning: gelas; cangkir; kata bantu untuk minuman segelas atau secangkir
+example: 我要一*杯*茶。
+example-pinyin: Wǒ yào yì bēi chá.
+translation: Saya mau segelas teh.
+note: 一 dibaca yì (nada 4) karena 杯 bernada 1.
+---
+[table]
+Angka + 杯 + minuman
+| Hanzi | Pinyin | Arti |
+| 一杯茶 | yì bēi chá | segelas teh |
+| 一杯水 | yì bēi shuǐ | segelas air |
+| 一杯咖啡 | yì bēi kā fēi | secangkir kopi |
+| 两杯茶 | liǎng bēi chá | dua gelas teh |
+---
+[compare]
+headline: Jangan langsung angka + benda
+wrong-label: Salah
+right-label: Benar
+wrong: 我要两咖啡。
+right: 我要两*杯*咖啡。
+why: Di antara angka dan benda harus ada kata bantu bilangan. Kopi secangkir pakai 杯 bēi.
+---
+[compare]
+headline: "Dua gelas" pakai 两, bukan 二
+wrong-label: Salah
+right-label: Benar
+wrong: 二杯茶
+right: *两*杯茶
+why: Sebelum kata bantu bilangan, "dua" ditulis 两 liǎng. 二 èr dipakai saat berhitung: 一、二、三.
+---
+[card kicker="Kuis" number=off]
+"Dua gelas air" yang benar…
+*A.* 两水 | *B.* 二杯水 | *C.* 两杯水
+---
+[card kicker="Jawaban" number=off]
+*C.* 两杯水
+liǎng bēi shuǐ: pakai 两 untuk "dua", lalu 杯, lalu 水 (air).
+---
+[end cta="Simpan"]
+Tulis "segelas teh" pakai pinyin
+Jawab di komentar

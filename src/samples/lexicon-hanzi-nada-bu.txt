@@ -1,0 +1,50 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: nada 不 bù dan bú
+caption: 不 itu nggak selalu dibaca bù, ini aturannya. Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #hsk1 #mandarinpemula
+---
+[cover kicker="NADA #3"]
+*不* nggak selalu|dibaca bù
+Satu aturan nada yang langsung kepakai
+---
+[word]
+word: 不
+pinyin: bù
+pos: kata keterangan
+hsk: 1
+meaning: tidak; bukan
+example: 我*不*忙。
+example-pinyin: Wǒ bù máng.
+translation: Saya tidak sibuk.
+note: Di kamus, 不 tertulis bù (nada 4). Sebelum nada 1, 2 dan 3, bacanya tetap bù.
+---
+[table]
+Tetap bù: sebelum nada 1, 2, 3
+| Hanzi | Pinyin | Arti |
+| 不喝 | bù hē | tidak minum |
+| 不忙 | bù máng | tidak sibuk |
+| 不来 | bù lái | tidak datang |
+| 不好 | bù hǎo | tidak baik |
+---
+[table]
+Sebelum nada 4: bú
+| Hanzi | Pinyin | Arti |
+| 不是 | bú shì | bukan |
+| 不对 | bú duì | tidak benar |
+| 不要 | bú yào | tidak mau; jangan |
+| 不去 | bú qù | tidak pergi |
+---
+[card kicker="Kuis" number=off]
+不贵 (tidak mahal) dibaca…
+*A.* bù guì | *B.* bú guì
+---
+[card kicker="Jawaban" number=off]
+*B.* bú guì
+贵 guì bernada 4, jadi 不 naik ke nada 2: bú.
+---
+[end cta="Simpan"]
+Tulis cara baca 不是 dan 不忙 pakai pinyin
+Jawab di komentar

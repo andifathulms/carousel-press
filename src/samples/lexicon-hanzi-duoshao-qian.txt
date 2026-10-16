@@ -1,0 +1,62 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: 多少钱 berapa harganya
+caption: Belanja di pasar atau toko? Ini kalimat tanya harga dan menawar. Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #hsk1
+---
+[cover kicker="UNGKAPAN SEHARI-HARI #1"]
+Nanya harga|cukup *3 suku kata*
+Plus cara bilang "kemahalan" dan menawar
+---
+[word]
+word: 多少钱
+pinyin: duō shao qián
+pos: ungkapan
+hsk: 1
+meaning: berapa harganya?
+example: 这个*多少钱*？
+example-pinyin: Zhège duōshao qián?
+translation: Yang ini berapa?
+note: 多少 duōshao = berapa (shao bernada netral). 钱 qián = uang.
+---
+[word]
+word: 块
+pinyin: kuài
+pos: kata bantu bilangan
+hsk: 1
+meaning: yuan (sebutan lisan untuk satuan uang)
+example: 二十*块*。
+example-pinyin: Èrshí kuài.
+translation: Dua puluh yuan.
+note: Di label harga dan tulisan resmi biasanya tertulis 元 yuán.
+---
+[word]
+word: 太贵了
+pinyin: tài guì le
+pos: ungkapan
+meaning: mahal banget!; kemahalan
+note: Pola 太…了 tài…le = terlalu… 贵 guì = mahal.
+---
+[word]
+word: 便宜
+pinyin: pián yi
+pos: kata sifat
+meaning: murah
+example: 可以*便宜*一点吗？
+example-pinyin: Kěyǐ piányi yìdiǎn ma?
+translation: Bisa lebih murah sedikit?
+note: 便宜 dibaca piányi saat artinya "murah". 一点 dibaca yìdiǎn: 一 jadi yì sebelum nada 3.
+---
+[card kicker="Kuis" number=off]
+Penjual bilang "十块". Harganya…
+*A.* 10 yuan | *B.* 100 yuan
+---
+[card kicker="Jawaban" number=off]
+*A.* 10 yuan
+十 shí = sepuluh, 块 kuài = yuan. Jadi shí kuài.
+---
+[end cta="Simpan"]
+Tulis "yang ini berapa?" pakai pinyin
+Jawab di komentar

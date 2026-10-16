@@ -1,0 +1,52 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: bongkar hanzi 口 kǒu
+caption: Kotak kecil di sisi kiri banyak hanzi itu 口, mulut. Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #hanzi
+---
+[cover kicker="BONGKAR HANZI #1"]
+Kotak kecil di kiri|itu *口*, mulut
+Cari dia di 6 hanzi sehari-hari
+---
+[word]
+word: 口
+pinyin: kǒu
+pos: kata benda · radikal
+strokes: 3
+meaning: mulut
+note: 口 juga radikal (部首 bùshǒu): pengelompok hanzi di kamus.
+---
+[table]
+Ada 口 di sisi kiri
+| Hanzi | Pinyin | Arti |
+| 吃 | chī | makan |
+| 喝 | hē | minum |
+| 叫 | jiào | memanggil; bernama |
+| 唱 | chàng | bernyanyi |
+| 听 | tīng | mendengar |
+| 吗 | ma | partikel tanya |
+---
+[word]
+word: 吃
+pinyin: chī
+pos: kata kerja
+hsk: 1
+meaning: makan
+example: 你*吃*饭了吗？
+example-pinyin: Nǐ chī fàn le ma?
+translation: Kamu sudah makan?
+note: 口 ada di kiri. 饭 fàn = nasi; makanan.
+---
+[card kicker="Kuis" number=off]
+Mana yang TIDAK punya 口?
+*A.* 喝 | *B.* 好 | *C.* 唱
+---
+[card kicker="Jawaban" number=off]
+*B.* 好 hǎo
+好 tersusun dari 女 (perempuan) dan 子 (anak). Tidak ada 口.
+---
+[end cta="Simpan"]
+Tulis pinyin 吃 dan 喝, lengkap dengan nadanya
+Jawab di komentar
