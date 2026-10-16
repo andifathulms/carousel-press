@@ -83,7 +83,8 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 - Owner: the lowest-performing account (no numbers shared yet).
 - Diagnosis: every slide was homework for later; covers repeated as cards; high-effort comment asks; looked like an info account (badges, icons, 3 backgrounds, same dusk photo).
 - Changes made: send-ready lines, "Kamu yang mana?", A/B, "Artinya…", Pertanyaan Malam series; one colour per pillar.
-- Track: shares per 1,000 views against the median of the last 10 posts.
+- Second review (Oct 2026, "the account is a mouthpiece"): send cards gave the script away (sender tips and `____` blanks visible to the recipient), and topics were the easy lines (kangen, sayang) rather than the hard ones. Changes made: send cards carry only the line, tips on one card before the end; curly quotes; "Obrolan susah" across pillars; PDKT/HTS in Berdua; "Kode buat dia" (repost) and "Ganti kalimatnya #N" (save) formats; search phrases in subtitles; a Hari Ibu calendar.
+- Track: shares + reposts per 1,000 views against the median of the last 10 posts. Compare "Kode buat dia" reposts with "Kirim ini" shares.
 
 ## Whistle Notes (`sport/*`)
 

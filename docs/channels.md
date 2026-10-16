@@ -46,13 +46,23 @@ Ruang Rasa writes the words that are hard to say, so the viewer only has to send
 
 **Direction (owner, Oct 2026 review).** The old decks were question lists: every slide was homework for later, with someone who wasn't there, and the account looked like an info account (badges, icons, three backgrounds per deck, the same dusk cover). Now every slide gives the viewer something right away: a line to send, a choice to make, or something they recognise. Comments ask for one tap, not a paragraph.
 
+**The account is a mouthpiece (owner, Oct 2026 second review).** Young Indonesians avoid conflict and find direct vulnerability hard, so they let a post say it for them. They don't do it by forwarding to parents (who aren't on TikTok). They do it in four ways:
+- **TikTok DM / tag:** "ini kamu banget", "baca sampai habis".
+- **Repost:** a *kode*. The post sits on their profile until the person sees it. Nothing has to be said.
+- **Screenshot** of one slide to a WhatsApp chat, WA story or the family group. This is the only way content reaches orang rumah.
+- **Copying the line** into their own chat.
+
+So every send card must work **cold**: the recipient sees only that slide and reads it as a message from the sender. Anything addressed to the sender ("Ganti tempatnya", "Isi titiknya", `____` blanks) gives the script away, and the person sending feels exposed. That embarrassment is exactly what they were avoiding.
+
+The second lesson: the gap is in the **hard** conversations, not the sweet ones. Most people can type "kangen". What they can't type is a request for the money back, a "no", a first apology, a reply to "kapan nikah?", or "kita ini apa?". Those lines get saved *and* sent.
+
 | | |
 |---|---|
-| Purpose | Give people the words to start a conversation |
-| Audience | Indonesian young adults |
-| Reader should think | "I want to send this to someone." |
-| Primary action | Share (send the post or a screenshot), then comment |
-| Tone | Warm, intimate, relatable, gently funny |
+| Purpose | Say the hard thing for the viewer |
+| Audience | Indonesian young adults, 18–27 (students, first jobs, anak rantau) |
+| Reader should think | "I want to send this to someone." / "Ini kodeku." |
+| Primary action | Share (DM, repost, screenshot), then comment |
+| Tone | Warm, intimate, relatable, gently funny; a little *nyesek* is fine, sindiran is not |
 | Voice | Anonymous companion; the viewer is the one speaking on "send" cards |
 | Slide types | `cover`, `card`, `quote`, `end` |
 
@@ -62,42 +72,55 @@ Each pillar has its own colour, the same on every slide of the deck, so the feed
 
 | Pillar | Template | Weight |
 |---|---|---|
-| **Rumah**: orang tua, saudara, kakek nenek, grup keluarga | `editorial/ruang-daun` | ~30% |
-| **Sahabat**: sahabat, teman lama, rekan kerja | `editorial/ruang-kunyit` | ~25% |
-| **Berdua**: pasangan, LDR, sebelum menikah, uang | `editorial/ruang-bata` | ~25% (specific angles only, it's the most crowded) |
+| **Rumah**: orang tua, saudara, kakek nenek, grup keluarga, anak rantau | `editorial/ruang-daun` | ~30% |
+| **Sahabat**: sahabat, teman lama, rekan kerja, teman kos | `editorial/ruang-kunyit` | ~25% |
+| **Berdua**: PDKT, gebetan, HTS, pasangan, LDR, sebelum menikah, uang | `editorial/ruang-bata` | ~25% (specific angles only, it's the most crowded; at least 1 in 3 Berdua posts is pre-relationship: PDKT, HTS, gebetan) |
 | **Diri sendiri**: refleksi, usia 20an, Pertanyaan Malam | `editorial/ruang-malam` | ~20% |
+
+**Obrolan susah** runs across the pillars, not as a pillar of its own: at least 1 in 3 "Kirim ini" posts is a hard conversation. Starters:
+- **Uang:** nagih utang ke teman, nolak minjemin, split bill yang nggak adil.
+- **Bilang nggak:** nolak ajakan, nolak lembur, nolak titipan, nolak dijodohin.
+- **Minta maaf duluan:** to a pasangan, sahabat, or orang rumah.
+- **Orang rumah:** "kapan nikah/kerja?", telling them you're resigning, moving out, or not coming home for mudik.
+- **Berdua:** "kita ini apa?", ending it gently, asking for space.
 
 ### Formats (rotate; never the same format twice in a row)
 
-1. **Kirim ini**: every card is a message the viewer can forward as is. Headline = the line (from the viewer's point of view), body = one tip that makes it easier to use ("Ganti tempatnya."). End asks for a tag or the line's number.
+1. **Kirim ini**: every card is a message the viewer can send as is. Headline = the line (from the viewer's point of view). Body is optional and **only in the sender's voice**, as the second line of the same message ("Nggak harus cerita. Aku temenin diem juga bisa."). No blanks: write a complete line the viewer can personalise. Tips for the sender go on **one** card just before the end: headline `Biar nggak kerasa *copas:*` (or `Sebelum kamu *kirim:*` for heavy topics), 2–3 body lines of ≤ 38 characters each, so every tip fits on one line. End asks for a tag or the line's number.
 2. **Kamu yang mana?**: one familiar situation. Card 1 lists options as body lines `A. …` to `D. …`. Next cards: "Kalau kamu A, dia B: …", gentle and practical. No diagnosis and no "right" letter. End: "Komen dua huruf. Contoh: A-B."
 3. **Pilih satu (A/B)**: headline = both options, `*A.* Kafe yang ramai | *B.* Masak berdua di rumah` (type a non-breaking space after `*A.*`/`*B.*` so a letter never ends a line, and avoid one long word per option), body = the short question. End: "Komen urutanmu. Contoh: ABBAB." The viewer then asks their person and compares.
-4. **Artinya…**: everyday phrases and what they mean. Headline = `"the phrase" | *Artinya: …*` (the meaning is the payoff, so it stays headline size), no body. End: "Kalimat nomor berapa yang paling sering kamu dengar?"
+4. **Artinya…**: everyday phrases and what they mean. Headline = `“the phrase” | *Artinya: …*` (the meaning is the payoff, so it stays headline size), no body. End: "Kalimat nomor berapa yang paling sering kamu dengar?"
 5. **Kamu juga?**: small situations the viewer recognises (headline), plus one kind line (body). End asks for a number.
 6. **Pertanyaan Malam #N**: a numbered series, 3 slides: the question (cover with kicker `PERTANYAAN MALAM · #N`), the account's own short answer (`[quote icon=none]`, attribution `— admin Ruang Rasa`), then `[end]` "Giliranmu." **The owner writes the answer slide personally**; the sample deck's answer is a draft to replace.
-7. **Pertanyaan** (the old question list): at most 1 post in 5, only with a strong, specific cover.
+7. **Kode buat dia**: built to be **reposted**. Every card is one standalone line in the viewer's voice that hints at what they can't say ("Aku nggak minta banyak. *Cukup kabarin kalau sampai.*"). Headline only, no tips card. Keep the hints gentle and honest: never sindiran, never guilt-tripping, never a line about a third person. End: `[end cta="Repost buat dia"]`, ask = "Komen inisialnya. Satu huruf aja."
+8. **Ganti kalimatnya #N**: a numbered series for **saves**, not sends. Headline = `“kalimat lama” | *Coba: “kalimat baru”*`, body = why it lands better, then one recap card listing only the new lines, then the end. Kicker `GANTI KALIMATNYA #N · <WHO>`.
+9. **Pertanyaan** (the old question list): at most 1 post in 5, only with a strong, specific cover.
 
 ### Writing rules
 
 - Language: Indonesian (`lang: id`), casual and warm: `kamu` / `aku` / `kita`, never `Anda`. Light slang is fine (`nggak`, `bikin`, `banget`), don't overdo it.
 - Sentence case everywhere. One `*accent*` phrase per headline, on the words that carry the feeling.
 - Make the point of view clear. On "send" cards the viewer is "aku". On other cards, talk to the viewer about themselves. Don't write "-ku" lines that read as the account talking to the viewer.
+- Use curly quotes `“ ”` in slide text (straight `"` look like inch marks in Fraunces). Keep straight quotes in header lines and `[attr="…"]` values: they're syntax.
 - The cover makes a promise; card 1 is the strongest payoff. **Never repeat the cover line as a card.**
 - Covers: a scene the viewer knows, a phrase everyone has heard, or a pick-a-side question. ≤ 12 words. The subtitle says what the viewer gets ("5 kalimat pembuka…"), never "N pertanyaan buat…".
-- Comment asks are one tap: a letter, a number, an emoji, a tag, or "satu kata".
-- Inclusive by default: don't assume gender, marriage, religion, two parents or a warm home ("orang rumah" over "orang tua" in captions when it fits).
+- Comment asks are one tap: a letter, a number, an emoji, a tag, an initial, or "satu kata".
+- Inclusive by default: don't assume gender, marriage, religion, two parents or a warm home ("orang rumah" over "orang tua" in captions when it fits). Hari Ibu decks are about ibu by definition; their caption still makes room ("atau siapa pun yang jadi ibumu").
+- Hard conversations stay kind and firm: the line protects the relationship *and* the viewer's boundary. No scripts that shame, threaten, or manipulate the other person.
 - Avoid: generic motivational quotes, cheesy romance, pop/fake psychology ("tanda dia toxic"), manipulative advice, hidden-answer hooks, telling people what a relationship "should" be.
-- Before shipping, ask of each card: would someone send this exact slide to a specific person?
+- Before shipping, ask of each send card: **if the recipient saw only this slide, would it read as a message from the sender?**
 
 ### Deck recipe
 
 - **Template:** the pillar's `editorial/ruang-*` variant. No photo by default: the cover is the pillar colour. If you use a photo, use a real candid one (hands, a table, a window), different on every post, never the sample dusk.
-- **Cover:** `[cover kicker="RUANG RASA · <PILLAR OR TOPIC>"]`, headline with one `*accent*`, subtitle.
+- **Cover:** `[cover kicker="RUANG RASA · <TOPIC>"]`, headline with one `*accent*`, subtitle. Put the phrase people search for in the subtitle and in the caption's first line ("kata-kata minta maaf ke pacar", "cara nagih utang ke teman", "ucapan hari ibu"). Relationship content gets a lot of search traffic in Indonesia.
 - **Cards:** `[number=off icon=none]` on every card. Badges and icons read as a listicle.
-- **End:** `[end cta="<the action>"]` (e.g. `Kirim ke dia`, `Kirim ke grup keluarga`), headline = the one-tap ask, body = how to answer. Not "Simpan • Bagikan".
-- **Length:** cover + 4–6 cards + end (Pertanyaan Malam: 3 slides). Stay ≤ 10 slides.
+- **End:** `[end cta="<the action>"]` (e.g. `Kirim ke dia`, `Kirim ke grup keluarga`, `Repost buat dia`), headline = the one-tap ask, body = how to answer. Not "Simpan • Bagikan".
+- **Length:** cover + 4–6 cards (+ the tips card) + end (Pertanyaan Malam: 3 slides). Stay ≤ 10 slides.
 - **Caption:** the first line pushes the hook further, the last line repeats the comment ask, plus 2–4 hashtags.
 - **Posting:** a soft trending sound on every carousel (chosen in TikTok), a pinned comment with the account's own answer within 10 minutes, and replies to the first comments in the first hour.
+- **Calendar:** Hari Ibu (22 Des): start a Rumah run in late November and post the send deck on 20–21 Des so it's ready to be sent on the day. Then natal/tahun baru (pulang atau nggak), gajian (25th: uang decks), Ramadan and Lebaran (“kapan nikah?” scripts, mudik, minta maaf). Valentine is minor here.
+- **Track:** shares + reposts per 1,000 views, against the median of the last 10 posts.
 
 ```text
 template: editorial/ruang-kunyit
@@ -107,11 +130,15 @@ caption: Yang paling susah itu chat pertama setelah lama nggak ngobrol. Ini 5 ka
 ---
 [cover kicker="RUANG RASA · TEMAN LAMA"]
 Kita nggak pernah berantem. | Cuma *pelan-pelan* jarang chat.
-5 kalimat pembuka, biar nggak berhenti di "apa kabar".
+5 kalimat pembuka, biar nggak berhenti di “apa kabar”.
 ---
 [number=off icon=none]
 Tadi aku lewat tempat kita dulu, *langsung keinget kamu.*
-Ganti tempatnya. Kirim apa adanya, nggak usah dirapihin.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Sebut tempatnya: kantin, kos, halte.
+Mulai ringan. Yang berat nyusul.
 ---
 [end cta="Kirim ke dia"]
 Kamu kepikiran *siapa* dari tadi?
@@ -1634,7 +1661,7 @@ When asked for "N posts" for an account: read its section, pick formats from its
 
 ## 15. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all thirteen handles, put `handle:` in every deck header.
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all thirteen handles, put `handle:` in every deck header. Ruang Rasa first: its slides are screenshotted out of TikTok, and the handle on the slide is the only way those shares turn into follows.
 - **`editorial/stone` variant (Filsafat Harian): shipped (Oct 2026).** A tokens-only variant in the editorial family: warm stone, charcoal, terracotta. Blobs off since the Oct 2026 review. Serif `Playfair Display`, sans `DM Sans`. Rotation `['stone', 'stone', 'slate']`. Tokens (contrast-checked):
 
   | Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |
@@ -1644,7 +1671,7 @@ When asked for "N posts" for an account: read its section, pick formats from its
   | deep | #1B1A18 | #EDEAE4 | #CFCBC3 | #9C988F | #E39A7A | #E39A7A | #1B1A18 | #262522 | #E39A7A | #2A2926 |
 - **Ayah & hadith features: shipped (M8, Oct 2026).** `[ayah]`, `[hadith]`, Amiri Quran / Amiri and `serene/fajr` / `serene/isya` are built (see SPEC-ayah.md). Export is blocked with no override when a required field is missing, the Arabic doesn't fit at 48 px, or the Arabic font didn't load.
 - **Lexicon features: shipped (M7, Oct 2026).** `[word]`, `[table]`, `[compare]` and `lexicon/notebook` / `lexicon/kamus` are built (see SPEC-lexicon.md); the card fallbacks in the recipes are no longer needed. Note: KBBI VI Daring now lives at kbbi.kemendikdasmen.go.id, and its etymology labels (Por, Skt…) are only shown to logged-in users, so don't print them unless checked while logged in.
-- **Ruang Rasa templates: shipped (Oct 2026).** Ruang Rasa moved off `rose-dusk`/`sage`/`midnight` to `editorial/ruang-*` (Fraunces + Instrument Sans). Still proposed, needs a PRD change: `kicker` on cards, a chat-bubble line, an options list with letter discs, a "kirim ke" tag.
+- **Ruang Rasa templates: shipped (Oct 2026).** Ruang Rasa moved off `rose-dusk`/`sage`/`midnight` to `editorial/ruang-*` (Fraunces + Instrument Sans). Still proposed, needs a PRD change: `kicker` on cards, a chat-bubble line, an options list with letter discs, a "kirim ke" tag. **The chat-bubble line comes first** (Oct 2026 second review): a generic bubble (no WhatsApp branding) makes a send card read as "a message to send" at a glance and suits screenshots.
 - **BPS Papua fix.** No BPS-based Peta Angka decks until the NusaStats ingest fix is merged (26 new-Papua kabupaten were missing from rankings). Dukcapil and DJPK packs are fine now.
 - **`chart` slide.** Add `[chart data=<pack-id> kind=bar top=N]` to Carousel Press: paste a `carousel-data/1` pack into a Data tab, rendered as a bar chart in template colours. Until then, rankings are one card per region.
 - **`figure` slide + `credit=`.** A slide that shows an image uncropped in a frame (maps, charts) without the dark photo overlay, plus a `credit="…"` line on photo slides. Needed by Sejarah Nusantara and Peta Angka. Courts and pitches are covered by `[diagram]` (shipped Oct 2026).
