@@ -1,0 +1,96 @@
+template: lexicon/lembar
+lang: id
+title: deret angka 5 soal
+caption: Deret angka TIU: cek selisihnya dulu, baru tebak polanya. Soal latihan buatan kami, bukan soal resmi BKN. #skdcpns #cpns #tiu #deretangka
+---
+[cover kicker="TIU DERET ANGKA · 1 TOPIK, 5 SOAL"]
+Deret angka buntu? | *Tulis selisihnya dulu.*
+5 soal deret dari mudah ke sulit, 5 pola yang paling sering keluar. Kerjakan dulu, baru geser.
+---
+[card kicker="Soal 1 · Mudah" number=off icon=none]
+2, 5, 10, 17, 26, … | *Angka berikutnya?*
+A. 35
+B. 37
+C. 36
+D. 39
+E. 52
+---
+[card verdict="1 · Jawaban B" tone=ok]
+Trik: *tulis selisihnya.*
+Selisih: 3, 5, 7, 9
+Selisih berikutnya: 11
+26 + 11 = 37
+Jebakan A: selisih 9 dipakai lagi.
+---
+[card kicker="Soal 2 · Mudah" number=off icon=none]
+3, 7, 15, 31, 63, … | *Angka berikutnya?*
+A. 95
+B. 126
+C. 125
+D. 94
+E. 127
+---
+[card verdict="2 · Jawaban E" tone=ok]
+Trik: *cek kali 2, lalu lihat sisanya.*
+3 × 2 + 1 = 7
+7 × 2 + 1 = 15
+63 × 2 + 1 = 127
+Jebakan B: cuma dikali 2, lupa + 1.
+---
+[card kicker="Soal 3 · Sedang" number=off icon=none]
+4, 20, 7, 17, | 10, 14, 13, … | *Angka berikutnya?*
+A. 11
+B. 16
+C. 10
+D. 12
+E. 17
+---
+[card verdict="3 · Jawaban A" tone=ok]
+Trik: *pisahkan jadi 2 deret.*
+Urutan ganjil: 4, 7, 10, 13 (+ 3)
+Urutan genap: 20, 17, 14 (− 3)
+Berikutnya urutan genap: 14 − 3 = 11
+Jebakan B: 13 + 3, salah giliran deret.
+---
+[card kicker="Soal 4 · Sedang" number=off icon=none]
+5, 10, 8, 16, 14, 28, … | *Angka berikutnya?*
+A. 56
+B. 30
+C. 24
+D. 26
+E. 27
+---
+[card verdict="4 · Jawaban D" tone=ok]
+Trik: *2 operasi bergantian.*
+5 × 2 = 10, lalu 10 − 2 = 8
+8 × 2 = 16, lalu 16 − 2 = 14
+14 × 2 = 28, lalu 28 − 2 = 26
+Jebakan A: dikali 2 lagi, padahal giliran − 2.
+---
+[card kicker="Soal 5 · Sulit" number=off icon=none]
+1, 2, 6, 15, 31, … | *Angka berikutnya?*
+A. 47
+B. 52
+C. 56
+D. 63
+E. 50
+---
+[card verdict="5 · Jawaban C" tone=ok]
+Trik: *selisihnya ikut berpola.*
+Selisih: 1, 4, 9, 16
+Itu 1², 2², 3², 4², jadi berikutnya 5² = 25
+31 + 25 = 56
+Jebakan D: × 2 + 1 cuma cocok untuk 15 ke 31.
+---
+[table]
+Simpan: 5 pola deret
+| Soal | Triknya |
+| 1 | Tulis selisihnya |
+| 2 | Cek kali 2, lihat sisanya |
+| 3 | Pisahkan jadi 2 deret |
+| 4 | 2 operasi bergantian |
+| 5 | Selisihnya ikut berpola |
+---
+[end cta="Follow"]
+Skor kamu *berapa dari 5?*
+Komen angkanya. Topik berikutnya: kerja bersama.

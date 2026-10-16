@@ -1,0 +1,41 @@
+template: lexicon/lembar
+lang: id
+title: tkp tugas mendadak jam pulang
+caption: Soal TKP: tugas mendadak 10 menit sebelum pulang, kamu pilih yang mana? Soal latihan buatan kami, bukan soal resmi. Pembahasan versi kami. #skdcpns #cpns #tkp
+---
+[cover kicker="TKP · SOAL SITUASI"]
+10 menit sebelum pulang, | *atasan kasih tugas.*
+1 soal TKP, 5 pilihan, skor tiap pilihan dan alasannya. Pilih dulu, baru geser.
+---
+[card kicker="Soal TKP" number=off icon=none]
+Jam 16.50, atasan minta | laporan rapat besok. | *Kamu ada janji keluarga.*
+A. Menolak, jam kerja sudah habis.
+B. Lembur, batalkan janji tanpa kabar.
+C. Minta rekan yang belum pulang mengerjakan.
+D. Tanya prioritasnya, kerjakan, kabari keluarga.
+E. Terima, kerjakan besok pagi diam-diam.
+---
+[table]
+Skor versi kami
+| Opsi | Skor | Alasannya |
+| D | 5 | Tugas beres, semua dikabari |
+| B | 4 | Tugas beres, keluarga diabaikan |
+| C | 3 | Tugas dilempar ke orang lain |
+| E | 2 | Atasan nggak tahu, rapat berisiko |
+| A | 1 | Menolak tugas penting |
+---
+[card kicker="Pembahasan versi kami" number=off icon=lightbulb]
+Pilih yang tugasnya beres | *dan semua orang tahu.*
+D menyelesaikan tugas dan tetap berkomunikasi.
+B juga menyelesaikan tugas, tapi janji dibatalkan tanpa kabar.
+TKP menilai tanggung jawab, bukan seberapa besar kamu berkorban.
+---
+[card kicker="Pola TKP yang sama" number=off icon=check]
+Cari pilihan yang | *aktif dan komunikatif.*
+Selesaikan tugasnya sendiri, jangan dilempar.
+Kabari pihak yang terdampak.
+Hindari pilihan yang menolak atau diam-diam menunda.
+---
+[end cta="Follow"]
+Kamu tadi *pilih huruf apa?*
+Komen hurufnya. Soal TKP berikutnya: rekan salah, kamu yang disalahkan.

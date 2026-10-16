@@ -1,0 +1,97 @@
+template: lexicon/lembar
+lang: id
+title: persen dan diskon bertingkat 5 soal
+caption: Diskon 20% + 10% itu bukan 30%. Soal latihan buatan kami, bukan soal resmi BKN. #skdcpns #cpns #tiu #soalpersen
+---
+[cover kicker="TIU PERSEN · 1 TOPIK, 5 SOAL"]
+Diskon 20% + 10%? | *Bukan 30%.*
+5 soal persen dan diskon bertingkat dari mudah ke sulit. Kerjakan dulu, baru geser.
+---
+[card kicker="Soal 1 · Mudah" number=off icon=none]
+Harga tas Rp200.000. | Diskon 20% + 10%. | *Harga yang dibayar?*
+A. Rp140.000
+B. Rp160.000
+C. Rp180.000
+D. Rp144.000
+E. Rp150.000
+---
+[card verdict="1 · Jawaban D" tone=ok]
+Trik: *diskon kedua dari harga baru.*
+Diskon 20%: Rp200.000 × 0,8 = Rp160.000
+Diskon 10%: Rp160.000 × 0,9 = Rp144.000
+Jebakan A: diskonnya dijumlah jadi 30%.
+---
+[card kicker="Soal 2 · Mudah" number=off icon=none]
+Harga naik 10%, | lalu turun 10%. | *Dibanding harga awal?*
+A. Sama saja
+B. Turun 1%
+C. Naik 1%
+D. Turun 10%
+E. Turun 0,1%
+---
+[card verdict="2 · Jawaban B" tone=ok]
+Trik: *kalikan faktornya.*
+Naik 10% = × 1,1
+Turun 10% = × 0,9
+1,1 × 0,9 = 0,99
+0,99 = turun 1%
+Jebakan A: naik dan turun dianggap saling hapus.
+---
+[card kicker="Soal 3 · Sedang" number=off icon=none]
+Setelah diskon 25%, | harga sepatu Rp120.000. | *Harga sebelum diskon?*
+A. Rp150.000
+B. Rp145.000
+C. Rp160.000
+D. Rp96.000
+E. Rp90.000
+---
+[card verdict="3 · Jawaban C" tone=ok]
+Trik: *bagi, jangan ditambah.*
+Diskon 25% = bayar 75%
+Rp120.000 ÷ 0,75 = Rp160.000
+Cek: Rp160.000 × 0,75 = Rp120.000
+Jebakan A: Rp120.000 ditambah 25%-nya sendiri.
+---
+[card kicker="Soal 4 · Sedang" number=off icon=none]
+Beli Rp80.000, | dijual Rp100.000. | *Untungnya berapa persen?*
+A. 20%
+B. 80%
+C. 22,5%
+D. 30%
+E. 25%
+---
+[card verdict="4 · Jawaban E" tone=ok]
+Trik: *persen untung dari harga beli.*
+Untung: Rp100.000 − Rp80.000 = Rp20.000
+Rp20.000 ÷ Rp80.000 = 0,25
+0,25 = 25%
+Jebakan A: dibagi harga jual.
+---
+[card kicker="Soal 5 · Sulit" number=off icon=none]
+Rp250.000 diskon 20%, | diskon lagi jadi Rp170.000. | *Diskon kedua berapa?*
+A. 15%
+B. 12%
+C. 32%
+D. 20%
+E. 10%
+---
+[card verdict="5 · Jawaban A" tone=ok]
+Trik: *mundur satu diskon dulu.*
+Diskon 20%: Rp250.000 × 0,8 = Rp200.000
+Rp200.000 − Rp170.000 = Rp30.000
+Rp30.000 ÷ Rp200.000 = 15%
+Jebakan B: Rp30.000 dibagi harga awal.
+Jebakan C: itu total diskonnya.
+---
+[table]
+Simpan: 5 trik persen
+| Soal | Triknya |
+| 1 | Diskon kedua dari harga baru |
+| 2 | Kalikan faktornya |
+| 3 | Bagi, jangan ditambah |
+| 4 | Untung dari harga beli |
+| 5 | Mundur satu diskon dulu |
+---
+[end cta="Follow"]
+Skor kamu *berapa dari 5?*
+Komen angkanya. Topik berikutnya: silogisme.

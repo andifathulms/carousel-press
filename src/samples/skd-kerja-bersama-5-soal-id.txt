@@ -1,0 +1,100 @@
+template: lexicon/lembar
+lang: id
+title: kerja bersama 5 soal
+caption: Soal kerja bersama TIU tanpa pecahan ribet: pakai KPK. Soal latihan buatan kami, bukan soal resmi BKN. #skdcpns #cpns #tiu #perbandingan
+---
+[cover kicker="TIU PERBANDINGAN · 1 TOPIK, 5 SOAL"]
+A 6 hari, | B 3 hari. | *Bersama? Bukan 4,5.*
+5 soal kerja bersama dari mudah ke sulit, cukup pakai KPK. Kerjakan dulu, baru geser.
+---
+[card kicker="Soal 1 · Mudah" number=off icon=none]
+A mengecat pagar 6 hari. | B mengecat pagar yang sama 3 hari. | *Bersama, berapa hari?*
+A. 4,5 hari
+B. 9 hari
+C. 2 hari
+D. 3 hari
+E. 1,5 hari
+---
+[card verdict="1 · Jawaban C" tone=ok]
+Trik: *anggap pekerjaannya KPK.*
+KPK 6 dan 3 = 6 bagian
+A: 6 ÷ 6 = 1 bagian per hari
+B: 6 ÷ 3 = 2 bagian per hari
+Bersama: 6 ÷ (1 + 2) = 2 hari
+Jebakan A: dirata-rata, padahal bersama lebih cepat.
+---
+[card kicker="Soal 2 · Mudah" number=off icon=none]
+Keran A mengisi bak 12 menit. | Keran B: 4 menit. | *Dibuka bersama, berapa menit?*
+A. 3 menit
+B. 8 menit
+C. 16 menit
+D. 6 menit
+E. 4 menit
+---
+[card verdict="2 · Jawaban A" tone=ok]
+Trik: *kali dibagi tambah.*
+12 × 4 = 48
+12 + 4 = 16
+48 ÷ 16 = 3 menit
+Jebakan C: waktunya dijumlah.
+---
+[card kicker="Soal 3 · Sedang" number=off icon=none]
+A dan B bersama selesai 4 hari. | A sendiri selesai 6 hari. | *B sendiri, berapa hari?*
+A. 2 hari
+B. 10 hari
+C. 5 hari
+D. 8 hari
+E. 12 hari
+---
+[card verdict="3 · Jawaban E" tone=ok]
+Trik: *KPK, lalu kurangkan.*
+KPK 4 dan 6 = 12 bagian
+Bersama: 12 ÷ 4 = 3 bagian per hari
+A: 12 ÷ 6 = 2 bagian per hari
+B: 3 − 2 = 1 bagian per hari
+B sendiri: 12 ÷ 1 = 12 hari
+Jebakan A: 6 − 4, hari dikurangi langsung.
+---
+[card kicker="Soal 4 · Sedang" number=off icon=none]
+8 pekerja selesai 15 hari. | Kalau ada 12 pekerja, | *berapa hari?*
+A. 22,5 hari
+B. 10 hari
+C. 11 hari
+D. 19 hari
+E. 12 hari
+---
+[card verdict="4 · Jawaban B" tone=ok]
+Trik: *berbalik nilai, kalikan dulu.*
+8 × 15 = 120 hari kerja
+120 ÷ 12 = 10 hari
+Jebakan A: dihitung searah, padahal berbalik.
+---
+[card kicker="Soal 5 · Sulit" number=off icon=none]
+A 10 hari, B 15 hari. | Bersama 4 hari, lalu A berhenti. | *Total sampai selesai?*
+A. 6 hari
+B. 5 hari
+C. 11 hari
+D. 9 hari
+E. 10 hari
+---
+[card verdict="5 · Jawaban D" tone=ok]
+Trik: *hitung sisa pekerjaannya.*
+Kerja = 30 bagian (KPK): A 3, B 2 per hari
+4 hari bersama: 4 × 5 = 20 bagian
+Sisa: 30 − 20 = 10 bagian
+B sendiri: 10 ÷ 2 = 5 hari
+Total: 4 + 5 = 9 hari
+Jebakan B: itu sisa kerja B saja.
+---
+[table]
+Simpan: 5 trik kerja bersama
+| Soal | Triknya |
+| 1 | Anggap pekerjaannya KPK |
+| 2 | Kali dibagi tambah |
+| 3 | KPK, lalu kurangkan |
+| 4 | Berbalik nilai, kalikan dulu |
+| 5 | Hitung sisa pekerjaannya |
+---
+[end cta="Follow"]
+Skor kamu *berapa dari 5?*
+Komen angkanya. Topik berikutnya: diskon bertingkat.
