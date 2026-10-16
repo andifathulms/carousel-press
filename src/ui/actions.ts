@@ -5,7 +5,7 @@ import { layoutWarnings, renderDeck } from 'carousel-core/src/api/deck';
 import { exportZip, slideFileNames } from 'carousel-core/src/api/zip';
 import { exportSlidePng, exportTestImage, downloadBlob } from 'carousel-core/src/export/exportPng';
 import { sharePngs, toPngFiles } from './sharePhotos';
-import { loadFonts } from 'carousel-core/src/fonts/loadFonts';
+import { loadFonts, loadTextFonts } from 'carousel-core/src/fonts/loadFonts';
 import { deckIcons } from 'carousel-core/src/render/renderSlide';
 import { SAMPLES } from '../samples';
 import { samplePhotosIn } from '../samples/photos';
@@ -23,6 +23,7 @@ import { h } from './dom';
 async function blockingWarnings(c: Controller): Promise<Warning[]> {
   const s = c.store.get();
   await loadFonts(s.variant);
+  await loadTextFonts(s.text);
   const { slides } = s.parsed.deck;
   const hasPhoto = (i: number): boolean => !!(slides[i]?.photoId && c.photos.get(slides[i]!.photoId!));
   return [...s.parsed.warnings, ...layoutWarnings(s.parsed.deck, s.variant, hasPhoto)].filter(isBlocking);

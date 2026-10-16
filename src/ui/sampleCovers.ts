@@ -1,4 +1,4 @@
-import { loadFonts } from 'carousel-core/src/fonts/loadFonts';
+import { loadFonts, loadTextFonts } from 'carousel-core/src/fonts/loadFonts';
 import { makeCanvas } from 'carousel-core/src/render/ctx';
 import type { PhotoInput } from 'carousel-core/src/render/photo';
 import { deckIcons, renderSlide } from 'carousel-core/src/render/renderSlide';
@@ -37,6 +37,7 @@ async function draw(c: Controller, sampleId: string): Promise<string | null> {
   if (!slide) return null;
   const variant = getVariant(deck.template);
   await loadFonts(variant);
+  await loadTextFonts(sample.text);
   // Photos the tray doesn't have yet (the sample was never opened) come straight from the bundle.
   const ref = slide.photoId ?? slide.attrs.photo;
   const photo = slide.photoId ? await c.photos.photoInput(slide.photoId) : ref ? await bundledPhoto(ref) : null;

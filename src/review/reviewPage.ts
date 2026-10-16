@@ -2,7 +2,7 @@
 import '../slideFonts';
 import { parse } from 'carousel-core/src/core/parser';
 import type { TemplateId, Warning } from 'carousel-core/src/core/types';
-import { loadAllFonts } from 'carousel-core/src/fonts/loadFonts';
+import { loadAllFonts, loadTextFonts } from 'carousel-core/src/fonts/loadFonts';
 import { makeCanvas } from 'carousel-core/src/render/ctx';
 import type { PhotoInput } from 'carousel-core/src/render/photo';
 import { deckIcons, renderSlide } from 'carousel-core/src/render/renderSlide';
@@ -25,6 +25,7 @@ let assets: Promise<Map<string, PhotoInput>> | null = null;
 
 async function loadAssets(): Promise<Map<string, PhotoInput>> {
   await loadAllFonts(VARIANTS);
+  await loadTextFonts(SAMPLES.map((s) => s.text).join(''));
   const dusk = await generateSampleDusk();
   const bitmap = await createImageBitmap(dusk.blob);
   const photos = new Map<string, PhotoInput>([

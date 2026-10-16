@@ -1,0 +1,48 @@
+
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: terima kasih & sama-sama
+caption: Dua kata pertama yang wajib kamu bisa. #belajarmandarin #bahasamandarin
+---
+[cover]
+Bilang *terima kasih*|dalam Mandarin
+Plus cara jawabnya
+---
+[word]
+word: 谢谢
+pinyin: xie4 xie5
+pos: kata kerja
+hsk: 1
+meaning: terima kasih
+example: *谢谢*你！
+example-pinyin: Xièxie nǐ!
+translation: Terima kasih (ya)!
+---
+[word]
+word: 不客气
+pinyin: bú kèqi
+pos: ungkapan
+hsk: 1
+meaning: sama-sama; jangan sungkan
+note: 不 dibaca bú (nada 2) karena diikuti nada 4.
+---
+[table]
+Satu bunyi, empat nada
+| Hanzi | Pinyin | Arti |
+| 妈 | mā | ibu |
+| 麻 | má | rami |
+| 马 | mǎ | kuda |
+| 骂 | mà | memarahi |
+---
+[compare]
+headline: Buku pakai kata bantu 本
+wrong: 一个书
+right: 一本书
+why: Benda berjilid seperti buku pakai 本 (běn), bukan 个. Dibaca yì běn shū.
+---
+[end]
+Kata apa yang mau kamu pelajari besok?
+Tulis di komentar

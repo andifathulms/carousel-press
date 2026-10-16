@@ -12,6 +12,8 @@ export const LEX_DECO = {
   notebook: { from: SAFE.top, to: SAFE.bottom, every: 64, h: 2, marginX: 72, marginW: 3, alpha: 0.55 },
   // lexicon/arab (SPEC-script §10.1): margin on the right for RTL writing, root colour at 45 %.
   notebookRight: { from: SAFE.top, to: SAFE.bottom, every: 72, h: 2, marginX: 1008, marginW: 3, marginAlpha: 0.45 },
+  // lexicon/hanzi (SPEC-script §10.2): a plain rounded square, never with characters in it.
+  seal: { size: 48, radius: 8, x: SAFE.right - 48, y: 108, angle: -4 },
   cornerGlyph: { size: 900, alpha: 0.04, x: 640, baseline: 2240 },
 };
 
@@ -32,6 +34,17 @@ function drawDeco(ctx: Ctx, L: SlideLayout): void {
     }
   }
   if (v.deco.grid && paper) drawGrid(ctx, v.deco.grid, v.deco.gridColor ?? rule);
+  if (v.deco.seal) {
+    const g = LEX_DECO.seal;
+    ctx.save();
+    ctx.translate(g.x + g.size / 2, g.y + g.size / 2);
+    ctx.rotate((g.angle * Math.PI) / 180);
+    ctx.fillStyle = s.accent;
+    ctx.beginPath();
+    ctx.roundRect(-g.size / 2, -g.size / 2, g.size, g.size, g.radius);
+    ctx.fill();
+    ctx.restore();
+  }
   if (v.deco.notebookRight && paper) {
     const n = LEX_DECO.notebookRight;
     ctx.fillStyle = rule;

@@ -8,7 +8,10 @@ import { ROWS } from '../../render/safezone';
 import { type LexCtx, layoutCompare, layoutWord } from './lexSlides';
 import { layoutTable } from './lexTable';
 import { layoutWordArabic } from './lexArabic';
+import { layoutWordHan } from './lexHan';
+import { hasHan } from './lexHanText';
 import { isArabic } from './lexScript';
+import { detectScript } from '../../core/script';
 import { lexTokens } from './tokens';
 
 export function layoutLexSlide(input: LayoutInput): SlideLayout {
@@ -20,9 +23,10 @@ export function layoutLexSlide(input: LayoutInput): SlideLayout {
   const mono = v.fonts.mono;
   const c: LexCtx = {
     v, s: surface, tok: lexTokens(v, surface, onPhoto, name), m, lang: deck.lang, serif: v.fonts.serif ?? sans, sans,
-    slideIndex: slide.index, line: slide.lines[0], warnings,
+    slideIndex: slide.index, line: slide.lines[0], warnings, tones: deck.tones === 'color',
   };
-  const lex = slide.type === 'word' ? (isArabic(slide.fields.word) ? layoutWordArabic(c, slide.fields) : layoutWord(c, slide.fields))
+  const lex = slide.type === 'word' ? (isArabic(slide.fields.word) ? layoutWordArabic(c, slide.fields)
+    : detectScript(slide.fields.word ?? '') === 'han' && hasHan(slide.fields.word) ? layoutWordHan(c, slide.fields) : layoutWord(c, slide.fields))
     : slide.type === 'compare' ? layoutCompare(c, slide.fields)
       : layoutTable(c, slide.table ?? { header: [], rows: [] }, slide.headlineSrc, slide.fields.note ?? '', slide.badge, slide.attrs.dir);
   // Centre a fitting stack in the content band like normal slides (owner, Oct 2026); photo slides stay top-anchored.

@@ -98,4 +98,30 @@ export const arab: Variant = {
   lexSurfaces: { 'paper-alt': { root: '#9C3D28' }, deep: { root: '#F2A285' } },
 };
 
-export const LEXICON_VARIANTS: readonly Variant[] = [kamus, notebook, lembar, arab];
+/** Kosakata Mandarin (SPEC-script §10.2): rice paper, black ink, vermilion, practice grids. Tokens verbatim. */
+export const hanzi: Variant = {
+  id: 'lexicon/hanzi',
+  name: 'Hanzi',
+  family: 'lexicon',
+  fonts: { serif: 'Lora', sans: 'DM Sans', mono: 'JetBrains Mono' },
+  surfaces: {
+    paper: S('#FAF6EE', '#1A1A1A', '#333333', '#6B6B6B', '#B03020', '#B8321F', '#FFFFFF', '#FAF6EE', '#B03020', '#EFE8DA'),
+    'paper-alt': S('#F3EDE1', '#1A1A1A', '#313131', '#666462', '#AA2E1E', '#B8321F', '#FFFFFF', '#F3EDE1', '#AA2E1E', '#E8E0D0'),
+    deep: S('#1E1A17', '#FAF6EE', '#DDD6CC', '#ADA59A', '#F07A63', '#F07A63', '#1E1A17', '#1E1A17', '#F07A63', '#2C2622'),
+  },
+  rotation: ['paper', 'paper-alt'],
+  onPhoto: { ...onPhotoBase, accent: '#F6D7A7', badgeBg: '#F07A63', badgeInk: '#1E1A17', tint: '#120F0D' },
+  code: paperCode,
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, seal: true },
+  swatches: ['#FAF6EE', '#B03020', '#1A1A1A', '#F6D7A7'],
+  lex: {
+    rule: '#E2D9C8', highlight: '#F6D7A7', okBg: '#E3EEDB', okInk: '#2E5A2A', badBg: '#F6DCD8', badInk: '#8E1F17',
+    grid: '#E6C3BA', tones: ['#C62828', '#2E7D32', '#1565C0', '#7B1FA2', '#616161'],
+  },
+  lexSurfaces: {
+    'paper-alt': { tones: ['#C02626', '#2B762F', '#1460B8', '#761D9C', '#5C5C5C'] },
+    deep: { grid: '#4A3A33', tones: ['#FF8A80', '#81C784', '#64B5F6', '#CE93D8', '#BDBDBD'] },
+  },
+};
+
+export const LEXICON_VARIANTS: readonly Variant[] = [kamus, notebook, lembar, arab, hanzi];

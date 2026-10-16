@@ -5,6 +5,10 @@ import { baselines } from '../layout/wrap';
 import { drawIcon } from './icons';
 import { drawTracked, drawWrapped, setFont, setShadow } from './text';
 import { ARABIC } from '../templates/lexicon/lexScript';
+import { HAN } from '../templates/lexicon/lexHanText';
+
+/** 田字格 practice box (SPEC-script §10.2): 2 px border, dashed 1 px centre cross. */
+export const TIANZIGE = { border: 2, cross: 1, dash: [8, 6] as [number, number] };
 
 /** Marker behind `*word*` (SPEC-lexicon §4.1): 6 px side padding, 0.62 × size tall, radius 6. */
 export const MARKER = { padX: 6, h: 0.62, rise: 0.5, radius: 6 };
@@ -80,6 +84,57 @@ function drawArabic(ctx: Ctx, e: Extract<LexEl, { k: 'arabic' }>, onPhoto: boole
   });
   ctx.direction = 'ltr';
   ctx.textAlign = 'left';
+}
+
+/** Hanzi lines, left-aligned; per unit when units carry tone colours (SPEC-script §5.4). */
+function drawHan(ctx: Ctx, e: Extract<LexEl, { k: 'han' }>, onPhoto: boolean): void {
+  if (e.marks?.length && e.highlight) {
+    setShadow(ctx, false);
+    ctx.fillStyle = e.highlight;
+    const M = HAN.marker;
+    for (const mk of e.marks) {
+      const base = e.y + mk.line * e.size * e.lh + e.size * e.baseline;
+      ctx.beginPath();
+      ctx.roundRect(e.x + mk.from - M.padX, base - e.size * M.rise, mk.w + M.padX * 2, e.size * M.h, M.radius);
+      ctx.fill();
+    }
+  }
+  setShadow(ctx, onPhoto);
+  setFont(ctx, { family: e.family, weight: e.weight, size: e.size, fallback: e.fallback });
+  e.lines.forEach((line, i) => {
+    const y = e.y + i * e.size * e.lh + e.size * e.baseline;
+    const colors = e.colors?.[i];
+    if (colors && e.units && e.offs) {
+      e.units[i]!.forEach((u, k) => {
+        ctx.fillStyle = colors[k] ?? e.color;
+        ctx.fillText(u, e.x + e.offs![i]![k]!, y);
+      });
+    } else {
+      ctx.fillStyle = e.color;
+      ctx.fillText(line, e.x, y);
+    }
+    if (e.strike) {
+      ctx.fillStyle = e.strike;
+      ctx.fillRect(e.x, e.y + i * e.size * e.lh + e.size * e.lh * HAN.strike.at - HAN.strike.w / 2, e.widths[i]!, HAN.strike.w);
+    }
+  });
+}
+
+function drawTianzige(ctx: Ctx, e: Extract<LexEl, { k: 'tianzige' }>): void {
+  setShadow(ctx, false);
+  const T = TIANZIGE;
+  ctx.strokeStyle = e.color;
+  ctx.lineWidth = T.border;
+  ctx.strokeRect(e.x + T.border / 2, e.y + T.border / 2, e.size - T.border, e.size - T.border);
+  ctx.lineWidth = T.cross;
+  ctx.setLineDash(T.dash);
+  ctx.beginPath();
+  ctx.moveTo(e.x + e.size / 2, e.y + T.border);
+  ctx.lineTo(e.x + e.size / 2, e.y + e.size - T.border);
+  ctx.moveTo(e.x + T.border, e.y + e.size / 2);
+  ctx.lineTo(e.x + e.size - T.border, e.y + e.size / 2);
+  ctx.stroke();
+  ctx.setLineDash([]);
 }
 
 /** One line of mixed scripts: each segment in its face, Arabic segments right-to-left (SPEC-script §6.2). */
@@ -190,6 +245,12 @@ export function drawLex(ctx: Ctx, L: SlideLayout): void {
         break;
       case 'mixed':
         drawMixed(ctx, e, L.onPhoto);
+        break;
+      case 'han':
+        drawHan(ctx, e, L.onPhoto);
+        break;
+      case 'tianzige':
+        drawTianzige(ctx, e);
         break;
       case 'star':
         drawStar(ctx, e.cx, e.cy, e.size, e.color, e.width);

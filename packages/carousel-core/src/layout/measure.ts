@@ -40,10 +40,12 @@ export const ARABIC_FALLBACK = 'Amiri';
  * transliteration face before any system font (SPEC-script §6.1).
  */
 export const TRANSLIT_FALLBACK = 'Gentium Book Plus';
+/** Hanzi inside Latin text (e.g. "pakai 本") falls through to the bundled CJK face; the font gate preloads the deck's hanzi. */
+export const HAN_FALLBACK = 'Noto Sans SC';
 
-/** Full CSS/canvas font string, e.g. `700 92px "Playfair Display", "Gentium Book Plus", "Amiri", Georgia, serif`. */
+/** Full CSS/canvas font string, e.g. `700 92px "Playfair Display", "Gentium Book Plus", "Amiri", "Noto Sans SC", Georgia, serif`. */
 export function fontString(f: FontSpec): string {
-  const stack = [f.family, f.fallback, TRANSLIT_FALLBACK, ARABIC_FALLBACK]
+  const stack = [f.family, f.fallback, TRANSLIT_FALLBACK, ARABIC_FALLBACK, HAN_FALLBACK]
     .filter((x, i, a): x is string => !!x && a.indexOf(x) === i && !(x === ARABIC_FALLBACK && f.family === 'Amiri Quran'));
   return `${f.weight} ${f.size}px ${stack.map((x) => `"${x}"`).join(', ')}, ${fallbackStack(f.family)}`;
 }

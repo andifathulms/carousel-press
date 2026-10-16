@@ -1,7 +1,7 @@
 import { setHeaderKey } from 'carousel-core/src/core/headerEdit';
 import { parse } from 'carousel-core/src/core/parser';
 import { DEFAULT_TEMPLATE, type Lang, type ParseResult, type TemplateId } from 'carousel-core/src/core/types';
-import { loadFonts } from 'carousel-core/src/fonts/loadFonts';
+import { loadFonts, loadTextFonts, textFontsReady } from 'carousel-core/src/fonts/loadFonts';
 import { SAMPLE_DUSK, generateSampleDusk } from '../samples/samplePhoto';
 import { type AppSettings, DeckStore, type PostState, newDeckId } from '../store/deckStore';
 import { PHOTO, PhotoStore } from '../store/photoStore';
@@ -113,7 +113,8 @@ export class Controller {
     const selected = Math.max(0, Math.min(s.selected, parsed.deck.slides.length - 1));
     const renderWarnings = s.renderWarnings.slice(0, parsed.deck.slides.length);
     this.store.set({ parsed, variant, selected, renderWarnings });
-    if (variant.id !== s.variant.id || !s.fontsReady) void this.ensureFonts();
+    // New hanzi in the text need their CJK slices before the next render (SPEC-script §5.1).
+    if (variant.id !== s.variant.id || !s.fontsReady || !textFontsReady(s.text)) void this.ensureFonts();
     else this.scheduleRender();
   }
 
@@ -122,6 +123,7 @@ export class Controller {
     this.store.set({ fontsReady: false, fontError: null });
     try {
       await loadFonts(v);
+      await loadTextFonts(this.store.get().text);
       if (this.store.get().variant.id === v.id) {
         this.store.set({ fontsReady: true });
         this.scheduleRender();

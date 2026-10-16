@@ -1,6 +1,7 @@
 // Lexicon slides (SPEC-lexicon §2): field lines for word/compare, pipe rows for table. Pure.
 import type { Slide, TableData, Warning } from './types';
 import { parseInline, parseRich } from './inline';
+import { normalizePinyin } from './pinyin';
 
 export const WORD_FIELDS = [
   'word', 'ipa', 'say', 'pos', 'tag', 'meaning', 'example', 'translation', 'origin', 'note',
@@ -52,6 +53,9 @@ export function fillWord(slide: Slide, content: readonly Line[], warn: Warn): vo
   slide.fields = f;
   slide.headlineSrc = f.word;
   slide.headline = [parseInline(f.word)];
+  const norm: Record<string, string> = {};
+  for (const k of ['pinyin', 'example-pinyin'] as const) if (f[k]) norm[k] = normalizePinyin(f[k]!);
+  if (Object.keys(norm).length) slide.pinyinNormalized = norm;
 }
 
 export function fillCompare(slide: Slide, content: readonly Line[], warn: Warn): void {

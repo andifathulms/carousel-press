@@ -25,6 +25,8 @@ export const FONT_SOURCES = [
   'amiri-quran/arabic-400.css', 'amiri/arabic-400.css',
   // Arabic headwords in lexicon slides (SPEC-script §7.1).
   'amiri/arabic-700.css',
+  // Hanzi (SPEC-script §5.1): every unicode-range slice; the browser fetches only the slices a slide's text needs.
+  'noto-sans-sc/500.css', 'noto-sans-sc/700.css', 'noto-serif-sc/700.css',
 ] as const;
 
 export interface ManifestFace {
@@ -65,6 +67,35 @@ export function parseFontFaces(css: string): (ManifestFace & { source: string })
   return out;
 }
 
+/**
+ * CJK faces only ever draw CJK (SPEC-script §5.1). Their slices also declare Latin, IPA, emoji and
+ * Cyrillic ranges; with those, the browser could pick a not-yet-loaded Noto slice for a Latin glyph
+ * (Noto sits at the end of every font stack) and render differently once it loads. So the declared
+ * ranges are clamped to these blocks, and slices left with nothing are not bundled.
+ */
+export const CJK_BLOCKS: readonly [number, number][] = [
+  [0x2e80, 0x2fdf], [0x2ff0, 0x2fff], [0x3000, 0x303f], [0x3100, 0x312f], [0x31a0, 0x31ef], [0x3200, 0x33ff],
+  [0x3400, 0x4dbf], [0x4e00, 0x9fff], [0xf900, 0xfaff], [0xfe10, 0xfe1f], [0xfe30, 0xfe4f], [0xff00, 0xffef], [0x20000, 0x323af],
+];
+const CJK_FAMILIES = new Set(['Noto Sans SC', 'Noto Serif SC']);
+
+/** Intersect a unicode-range string with CJK_BLOCKS; null when nothing is left. */
+export function clampToCjk(range: string): string | null {
+  const parts: string[] = [];
+  for (const part of range.split(',')) {
+    const m = /U\+([0-9a-f]+)(?:-([0-9a-f]+))?/i.exec(part.trim());
+    if (!m) continue;
+    const a = parseInt(m[1]!, 16);
+    const b = parseInt(m[2] ?? m[1]!, 16);
+    for (const [x, y] of CJK_BLOCKS) {
+      const lo = Math.max(a, x);
+      const hi = Math.min(b, y);
+      if (lo <= hi) parts.push(lo === hi ? `U+${lo.toString(16)}` : `U+${lo.toString(16)}-${hi.toString(16)}`);
+    }
+  }
+  return parts.length ? parts.join(',') : null;
+}
+
 export function buildManifest(): { manifest: FontManifest; copies: [string, string][]; licences: [string, string][] } {
   const faces: ManifestFace[] = [];
   const copies: [string, string][] = [];
@@ -75,6 +106,11 @@ export function buildManifest(): { manifest: FontManifest; copies: [string, stri
     for (const f of parseFontFaces(readFileSync(join(FONTSOURCE, css), 'utf8'))) {
       const { source, ...face } = f;
       if (faces.some((x) => x.file === face.file)) continue;
+      if (CJK_FAMILIES.has(face.family)) {
+        const clamped = face.unicodeRange ? clampToCjk(face.unicodeRange) : null;
+        if (!clamped) continue;
+        face.unicodeRange = clamped;
+      }
       faces.push(face);
       copies.push([join(FONTSOURCE, pkg, 'files', source), face.file]);
     }

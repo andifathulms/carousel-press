@@ -9,6 +9,8 @@ import { CONTENT_W, ROWS, SAFE } from '../../render/safezone';
 import type { LexTokens, Surface, Variant } from '../types';
 import { IPA_FACE, type LexEl, type LexLayout, SizeSet, plainRich, trackedW, wrapBlock } from './lexLayout';
 import { ARABIC, ARABIC_FACE, arabicHighlight, arabicMarks, checkGlyphs, isArabic, latinFace, scriptOverflow, wrapArabicWords } from './lexScript';
+import { HAN, HAN_SANS, checkHanGlyphs, hanBlock, hanHighlight } from './lexHanText';
+import { detectScript } from '../../core/script';
 
 export interface LexCtx {
   v: Variant;
@@ -21,6 +23,8 @@ export interface LexCtx {
   slideIndex: number;
   line: number;
   warnings: Warning[];
+  /** `tones: color` in the deck header (SPEC-script §5.4). */
+  tones?: boolean;
 }
 
 /** Word slide type scale and gaps (SPEC-lexicon §4.1). */
@@ -262,6 +266,26 @@ export function layoutCompare(c: LexCtx, f: Record<string, string>): LexLayout {
         ...(bad ? { strike: ink } : { marks: arabicMarks(hl.text, hl.marked, wrap, font, c.m), highlight: c.tok.highlight }),
       });
       const tooBig = wrap.lines.length > C.text.maxLines || !wrap.fits;
+      if (tooBig && sz <= C.text.min) tooLong = true;
+      return { y: y + h, over: tooBig };
+    }
+    if (detectScript(f[kind] ?? '') === 'han') {
+      // Hanzi: Noto Sans SC with kinsoku; the right side's *…* highlights per character (SPEC-script §7.4).
+      checkHanGlyphs(c, f[kind]!, HAN_SANS);
+      const hl = hanHighlight(f[kind]!);
+      const blk = hanBlock(hl.text, { family: HAN_SANS, weight: 500, size: Math.round(sz * HAN.cellScale), fallback: c.sans }, inner, c.m, {
+        color: ink, ...(bad ? { strike: ink } : { marked: hl.marked, highlight: c.tok.highlight }),
+      });
+      const h = B.pad * 2 + B.icon + B.rowGap + blk.h;
+      els.push({ k: 'rect', x, y, w: CONTENT_W, h, fill: bad ? c.tok.badBg : c.tok.okBg, radius: B.radius });
+      els.push({ k: 'icon', name: bad ? 'x-circle' : 'check-circle', x: x + B.pad, y: y + B.pad, size: B.icon, color: ink });
+      const lab = (f[`${kind}-label`] || t(bad ? 'compareWrong' : 'compareRight', c.lang)).toUpperCase();
+      els.push({
+        k: 'label', x: x + B.pad + B.icon + B.iconGap, y: y + B.pad + (B.icon - C.label.size * 1.3) / 2, text: lab,
+        font: { family: c.sans, weight: C.label.weight, size: C.label.size }, color: ink, tracking: C.label.tracking,
+      });
+      els.push({ ...blk.el, x: x + B.pad, y: y + B.pad + B.icon + B.rowGap });
+      const tooBig = blk.el.lines.length > C.text.maxLines || !blk.fits;
       if (tooBig && sz <= C.text.min) tooLong = true;
       return { y: y + h, over: tooBig };
     }

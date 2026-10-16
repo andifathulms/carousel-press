@@ -1,7 +1,7 @@
 // npm run check:cedict -- <deck.txt> [more decks…] [--cedict data/cedict_ts.u8]
 //
 // Checks a Kosakata Mandarin deck against CC-CEDICT (docs/channels.md §13):
-// - every [word] slide: `word:` (hanzi) must be a CC-CEDICT entry and `ipa:` (pinyin with tone
+// - every [word] slide: `word:` (hanzi) must be a CC-CEDICT entry and `pinyin:` (or `ipa:`; tone marks or numbers
 //   marks) must match its reading (written tone changes of 不 and 一 are accepted);
 // - every [table] with a "Hanzi" and a "Pinyin" column: the same, row by row;
 // - every other hanzi on the slide (examples): each character must exist in CC-CEDICT.
@@ -14,6 +14,7 @@
 //   mkdir -p data && unzip -o /tmp/cedict.zip -d data      # → data/cedict_ts.u8 (git-ignored)
 import { existsSync, readFileSync } from 'node:fs';
 import { parse } from 'carousel-core/src/core/parser';
+import { normalizePinyin } from 'carousel-core/src/core/pinyin';
 import { type CheckItem, type CheckResult, checkItem, hanziRuns, parseCedict } from './cedict';
 
 const args = process.argv.slice(2);
@@ -47,8 +48,10 @@ for (const file of decks) {
   for (const s of deck.slides) {
     const n = s.index + 1;
     if (s.type === 'word' && s.fields.word && hanziRuns(s.fields.word).length) {
-      items.push({ where: `slide ${n} word`, hanzi: s.fields.word.trim(), pinyin: s.fields.ipa?.trim() ?? null });
-      for (const k of ['example', 'meaning', 'note'] as const) if (s.fields[k]) loose.push({ where: `slide ${n} ${k}`, text: s.fields[k]! });
+      // `pinyin:` (SPEC-script, marks or tone numbers) wins over the older `ipa:` convention.
+      const py = s.fields.pinyin ?? s.fields.ipa;
+      items.push({ where: `slide ${n} word`, hanzi: s.fields.word.trim(), pinyin: py ? normalizePinyin(py.trim()) : null });
+      for (const k of ['example', 'meaning', 'note', 'measure'] as const) if (s.fields[k]) loose.push({ where: `slide ${n} ${k}`, text: s.fields[k]! });
     } else if (s.type === 'table' && s.table) {
       const head = s.table.header.map((h) => h.toLowerCase());
       const hz = head.findIndex((h) => h.includes('hanzi'));

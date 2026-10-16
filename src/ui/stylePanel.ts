@@ -1,5 +1,5 @@
 import type { Lang } from 'carousel-core/src/core/types';
-import { loadAllFonts } from 'carousel-core/src/fonts/loadFonts';
+import { loadAllFonts, loadTextFonts } from 'carousel-core/src/fonts/loadFonts';
 import { makeCanvas } from 'carousel-core/src/render/ctx';
 import { deckIcons, renderSlide } from 'carousel-core/src/render/renderSlide';
 import { CANVAS } from 'carousel-core/src/render/safezone';
@@ -94,6 +94,7 @@ export function mountStylePanel(root: HTMLElement, c: Controller): void {
     stale = false;
     try {
       await loadAllFonts(listVariants());
+      await loadTextFonts(c.store.get().text);
       const { canvas, ctx } = makeCanvas(CANVAS.w, CANVAS.h);
       const s = c.store.get();
       const deck = s.parsed.deck;

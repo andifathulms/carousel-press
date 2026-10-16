@@ -139,9 +139,10 @@ import b2SportsVoliKamuWasitnyaId from './sports-voli-kamu-wasitnya-id.txt?raw';
 import skdPersamaan5SoalId from './skd-persamaan-5-soal-id.txt?raw';
 import kantorXlookupId from './kantor-xlookup-id.txt?raw';
 import lexiconArabKitab from './lexicon-arab-kitab.txt?raw';
+import lexiconHanziXiexie from './lexicon-hanzi-xiexie.txt?raw';
 
 /** Topic group in the library; roughly one per account (docs/channels.md). */
-export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'philosophy' | 'exam' | 'office' | 'arabic' | 'travel';
+export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'philosophy' | 'exam' | 'office' | 'arabic' | 'mandarin' | 'travel';
 
 export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'relationships', label: 'Relationships' },
@@ -155,6 +156,7 @@ export const CATEGORIES: readonly { id: SampleCategory; label: string }[] = [
   { id: 'exam', label: 'SKD & Seleksi' },
   { id: 'office', label: 'Kantor' },
   { id: 'arabic', label: 'Bahasa Arab' },
+  { id: 'mandarin', label: 'Bahasa Mandarin' },
   { id: 'travel', label: 'Travel' },
 ];
 
@@ -320,4 +322,6 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'kantor-xlookup-id', name: 'XLOOKUP dasar (Jago Kantoran, id)', category: 'office', text: kantorXlookupId },
   // Kosakata Arab (SPEC-script §12), Oct 2026
   { id: 'lexicon-arab-kitab', name: 'Akar kata ك-ت-ب (Kosakata Arab, id)', category: 'arabic', text: lexiconArabKitab },
+  // Kosakata Mandarin (SPEC-script §12), Oct 2026
+  { id: 'lexicon-hanzi-xiexie', name: 'Terima kasih dan sama-sama (Kosakata Mandarin, id)', category: 'mandarin', text: lexiconHanziXiexie },
 ];

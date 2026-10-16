@@ -3,7 +3,7 @@ import type { ParseOptions } from '../core/parser';
 import { parseDeck } from './parse';
 import { type Deck, type ParseResult, type Warning, isBlocking } from '../core/types';
 import { exportSlidePng } from '../export/exportPng';
-import { loadFonts as loadVariantFonts } from '../fonts/loadFonts';
+import { loadFonts as loadVariantFonts, loadTextFonts } from '../fonts/loadFonts';
 import { makeCanvas } from '../render/ctx';
 import { faceAvailable } from '../render/fontCheck';
 import type { PhotoInput } from '../render/photo';
@@ -14,9 +14,13 @@ import type { Variant } from '../templates/types';
 
 export { parseDeck } from './parse';
 
-/** Wait for every face a variant (by id, or the variant itself) draws with. Rejects after 8 s. */
-export function loadFonts(variant: string | Variant): Promise<void> {
-  return loadVariantFonts(typeof variant === 'string' ? getVariant(variant) : variant);
+/**
+ * Wait for every face a variant (by id, or the variant itself) draws with, plus the CJK slices for
+ * any hanzi in `text` (SPEC-script §11). Rejects after 8 s.
+ */
+export async function loadFonts(variant: string | Variant, text?: string): Promise<void> {
+  await loadVariantFonts(typeof variant === 'string' ? getVariant(variant) : variant);
+  if (text) await loadTextFonts(text);
 }
 
 /** Thrown by renderDeck() before anything is drawn when a slide overflows or can't render. */
@@ -72,6 +76,7 @@ export async function renderDeck(input: string | Deck, opts: RenderDeckOptions =
   const { deck } = parsed;
   const variant = getVariant(opts.template ?? deck.template);
   await loadVariantFonts(variant);
+  await loadTextFonts(JSON.stringify(deck.slides) + deck.title);
 
   const lookup = async (id: string): Promise<PhotoInput | null> =>
     !photos ? null : typeof photos === 'function' ? (await photos(id)) ?? null : photos[id] ?? null;

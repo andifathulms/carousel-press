@@ -18,6 +18,8 @@ vi.mock('carousel-core/src/fonts/loadFonts', () => ({
       };
     });
   }),
+  // CJK slices for the deck's hanzi (SPEC-script §11); these decks have none.
+  loadTextFonts: vi.fn(() => Promise.resolve()),
 }));
 vi.mock('carousel-core/src/export/exportPng', () => ({
   exportSlidePng: vi.fn(async (_s: unknown, _d: unknown, _v: unknown, a: { photo: unknown; icon: unknown; darkness: number }) => {

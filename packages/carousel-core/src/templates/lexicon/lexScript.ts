@@ -181,9 +181,11 @@ export function mixedSegs(
     const runText = rtl ? r.text.trim() : r.text;
     const font: FontSpec = r.script === 'arab'
       ? { family: ARABIC_FACE, weight: faces.arabWeight, size, fallback: faces.fallback }
-      : { ...latinFace(runText, faces.latin, faces.latinWeight), size };
+      : r.script === 'han'
+        ? { family: 'Noto Sans SC', weight: 500, size: Math.round(size * 0.92), fallback: faces.fallback }
+        : { ...latinFace(runText, faces.latin, faces.latinWeight), size };
     const w = m.width(runText, font);
-    const seg: MixedSeg = { text: runText, font, color: r.script === 'arab' ? colors.arab : colors.latin, dx, w, rtl: r.script === 'arab' };
+    const seg: MixedSeg = { text: runText, font, color: r.script === 'latin' ? colors.latin : colors.arab, dx, w, rtl: r.script === 'arab' };
     dx += w + (rtl ? m.width(' ', font) : 0);
     return seg;
   });

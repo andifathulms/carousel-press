@@ -44,6 +44,7 @@ export const BUILTIN_TEMPLATE_IDS = [
   'lexicon/notebook',
   'lexicon/lembar',
   'lexicon/arab',
+  'lexicon/hanzi',
   'serene/fajr',
   'serene/isya',
 ] as const;
@@ -189,6 +190,8 @@ export interface Slide {
   diagram: Diagram | null;
   /** `[sheet]` rows and formula (PRD §4.10). */
   sheet: Sheet | null;
+  /** Word slides: `pinyin` / `example-pinyin` with tone numbers turned into marks (SPEC-script §11). The fields keep the typed text. */
+  pinyinNormalized?: Record<string, string>;
   /** Resolved photo id (after tray lookup) or null. */
   photoId: string | null;
   /** [startLine, endLine] inclusive, 0-based, in the deck text. */

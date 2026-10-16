@@ -1,4 +1,4 @@
-import { loadAllFonts } from 'carousel-core/src/fonts/loadFonts';
+import { loadAllFonts, loadTextFonts } from 'carousel-core/src/fonts/loadFonts';
 import { makeCanvas } from 'carousel-core/src/render/ctx';
 import { deckIcons, renderSlide } from 'carousel-core/src/render/renderSlide';
 import { CANVAS } from 'carousel-core/src/render/safezone';
@@ -35,6 +35,7 @@ export async function openGallery(c: Controller): Promise<void> {
 
   try {
     await loadAllFonts(listVariants());
+    await loadTextFonts(c.store.get().text);
   } catch (err) {
     toast(err instanceof Error ? err.message : String(err), 'error');
     return;

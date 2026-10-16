@@ -42,6 +42,36 @@ export function facesFor(v: Variant): Face[] {
   return faces;
 }
 
+/** CJK faces (SPEC-script §5.1). Loaded per text, not per variant: the browser fetches only the unicode-range slices the text needs. */
+export const HAN_FACES: readonly Face[] = [
+  { family: 'Noto Sans SC', weight: 500 }, { family: 'Noto Sans SC', weight: 700 }, { family: 'Noto Serif SC', weight: 700 },
+];
+const HAN_CHAR = /[\p{Script=Han}\u3000-\u303f\uff00-\uffef]/u;
+const hanLoaded = new Set<string>();
+
+/** The hanzi (and CJK punctuation) in a text that aren't loaded yet. */
+function pendingHan(text: string): string {
+  const out = new Set<string>();
+  for (const ch of text) if (HAN_CHAR.test(ch) && !hanLoaded.has(ch)) out.add(ch);
+  return [...out].join('');
+}
+
+/** True when every hanzi in `text` is loaded in the CJK faces (or there are none). */
+export function textFontsReady(text: string): boolean {
+  return pendingHan(text) === '';
+}
+
+/**
+ * Load the CJK slices for the hanzi in `text` (all three faces, so hanzi inside Latin text, word
+ * slides and tables never fall back). Resolves at once when there's nothing new. Rejects like loadFonts.
+ */
+export async function loadTextFonts(text: string, timeoutMs = FONT_TIMEOUT_MS): Promise<void> {
+  const chars = pendingHan(text);
+  if (!chars) return;
+  await loadFaces(HAN_FACES.map((f) => ({ ...f, text: chars })), timeoutMs, 'hanzi');
+  for (const ch of chars) hanLoaded.add(ch);
+}
+
 const loaded = new Map<string, Promise<void>>();
 
 /**

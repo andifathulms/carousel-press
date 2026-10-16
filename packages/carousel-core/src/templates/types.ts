@@ -47,6 +47,8 @@ export interface Deco {
   notebook?: boolean;
   /** Lexicon: rules every 72 px and a margin line on the right, for RTL writing (lexicon/arab). */
   notebookRight?: boolean;
+  /** Lexicon: a small rounded accent square top-right, with no characters in it (lexicon/hanzi). */
+  seal?: boolean;
   /** Lexicon: large faint glyph off the bottom-right corner. */
   cornerGlyph?: string;
   /** Faint ruled grid: spreadsheet cells (dev/sheet) or square exam paper (lexicon/lembar). */

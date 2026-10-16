@@ -4,7 +4,7 @@ import { type RenderAssets, renderSlide } from '../render/renderSlide';
 import { CANVAS } from '../render/safezone';
 import { drawTestImage } from '../render/overlay';
 import type { Variant } from '../templates/types';
-import { loadFace, loadFonts } from '../fonts/loadFonts';
+import { loadFace, loadFonts, loadTextFonts } from '../fonts/loadFonts';
 
 export async function canvasToPng(canvas: OffscreenCanvas | HTMLCanvasElement): Promise<Blob> {
   if ('convertToBlob' in canvas) return canvas.convertToBlob({ type: 'image/png' });
@@ -19,6 +19,7 @@ export async function exportSlidePng(
   slide: Slide, deck: Deck, variant: Variant, assets: Omit<RenderAssets, 'preview'>,
 ): Promise<{ blob: Blob; warnings: Warning[] }> {
   await loadFonts(variant);
+  await loadTextFonts(JSON.stringify(slide) + deck.title);
   const { canvas, ctx } = makeCanvas(CANVAS.w, CANVAS.h);
   const r = renderSlide(ctx, slide, deck, variant, { ...assets, preview: false });
   return { blob: await canvasToPng(canvas), warnings: r.warnings };

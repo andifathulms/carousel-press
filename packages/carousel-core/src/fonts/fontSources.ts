@@ -31,6 +31,27 @@ interface ManifestFace {
 
 export const BUNDLED_FACES: readonly ManifestFace[] = (MANIFEST as { faces: ManifestFace[] }).faces;
 
+const coverage = new Map<string, [number, number][]>();
+
+/**
+ * Code point ranges the bundled files of `family` cover (union of their unicode-range slices).
+ * document.fonts.check() is true for characters no face covers, so script checks use this too.
+ */
+export function bundledCoverage(family: string): readonly [number, number][] {
+  let out = coverage.get(family);
+  if (out) return out;
+  out = [];
+  for (const f of BUNDLED_FACES) {
+    if (f.family !== family || !f.unicodeRange) continue;
+    for (const part of f.unicodeRange.split(',')) {
+      const m = /U\+([0-9a-f]+)(?:-([0-9a-f]+))?/i.exec(part.trim());
+      if (m) out.push([parseInt(m[1]!, 16), parseInt(m[2] ?? m[1]!, 16)]);
+    }
+  }
+  coverage.set(family, out);
+  return out;
+}
+
 let baseUrl: string | null = null;
 let resolveUrl: ((file: string) => string) | null = null;
 let hostFaces: FontFaceSource[] = [];

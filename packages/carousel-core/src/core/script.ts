@@ -15,8 +15,9 @@ export function charScript(ch: string): Script | null {
   const cp = ch.codePointAt(0)!;
   // Arabic harakat and the Arabic comma/semicolon are marks/punctuation but belong to the Arabic run.
   if (inRanges(cp, ARAB)) return 'arab';
-  // CJK punctuation and fullwidth forms count as hanzi (they need the CJK face).
-  if (inRanges(cp, HAN)) return 'han';
+  // CJK punctuation and fullwidth forms count as hanzi (they need the CJK face), and so does every Han
+  // character outside the BMP ranges (Extension B and up), so rare characters reach the CJK glyph check.
+  if (inRanges(cp, HAN) || /\p{Script=Han}/u.test(ch)) return 'han';
   if (NEUTRAL.test(ch)) return null;
   return 'latin';
 }

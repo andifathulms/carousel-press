@@ -164,7 +164,8 @@ describe('honorifics (owner rule, Oct 2026)', () => {
   });
   it('Latin faces fall back to Gentium, then Amiri, so transliteration and Arabic honorifics never use a system font', () => {
     // Gentium Book Plus (SPEC-script §6.1) catches Latin letters the latin subsets lack before Amiri catches Arabic.
-    expect(fontString({ family: 'Lora', weight: 500, size: 40 })).toBe('500 40px "Lora", "Gentium Book Plus", "Amiri", Georgia, "Times New Roman", serif');
+    // Noto Sans SC last: hanzi inside Latin text (SPEC-script §5.1).
+    expect(fontString({ family: 'Lora', weight: 500, size: 40 })).toBe('500 40px "Lora", "Gentium Book Plus", "Amiri", "Noto Sans SC", Georgia, "Times New Roman", serif');
     expect(fontString({ family: 'Amiri Quran', weight: 400, size: 40 })).not.toContain('"Amiri",');
   });
 });

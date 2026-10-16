@@ -34,7 +34,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 📝 SKD Harian | `id` | Daily SKD/selection-test questions and strategy | `lexicon/*` | `lexicon/lembar` |
 | 🗂️ Jago Kantoran | `id` | Excel, Word, email and office fixes | `dev/*` | `dev/sheet` |
 | ✍️ Kosakata Arab (@kosakata.arab) | `id` (teaches Arabic) | Fusha words, roots, phrases for beginners | `lexicon/*` | `lexicon/arab` |
-| 🏮 Kosakata Mandarin | `id` (teaches Mandarin) | Hanzi, pinyin and tones for beginners | `lexicon/*` | `lexicon/hanzi` (proposed; not postable until it ships) |
+| 🏮 Kosakata Mandarin (@kosakata.mandarin) | `id` (teaches Mandarin) | Hanzi, pinyin and tones for beginners | `lexicon/*` | `lexicon/hanzi` |
 
 ---
 
@@ -1451,7 +1451,7 @@ Tulis di komentar
 **Tagline:** *Mandarin dari nol, satu kata satu nada.*
 A faceless account teaching standard Mandarin to Indonesian absolute beginners, roughly HSK 1–2: one word, one tone rule, one character part or one phrase per post. Simplified characters, pinyin with tone marks. A sibling of Kosakata Inggris and Kamus Kecil.
 It should feel like "oh, so 不 isn't always bù", never like a cram school or a test.
-**Not yet postable:** hanzi render in a system font (not allowed by the font gate) and pinyin tone marks only render in the `ipa:` field (see Open items). The account launches a few weeks after Kosakata Arab, once `lexicon/hanzi` ships.
+**Account:** `@kosakata.mandarin` (put `handle: @kosakata.mandarin`, `script: hanzi` and `tones: color` in every deck header). **Postable since M9b (Oct 2026):** hanzi come from bundled Noto SC, pinyin tone marks render everywhere, and the headword gets ruby pinyin (SPEC-script.md). It still launches a few weeks after Kosakata Arab (device and account limits).
 
 | | |
 |---|---|
@@ -1483,7 +1483,7 @@ It should feel like "oh, so 不 isn't always bù", never like a cram school or a
 ### Accuracy rules (non-negotiable)
 
 - **Never write hanzi or pinyin from memory.** Check every hanzi, pinyin and meaning against **CC-CEDICT** or **MDBG**, and list the source per word in the reply before the deck.
-- **Run the checker before posting:** `npm run check:cedict -- <deck.txt>` checks every `[word]` (`word:` + `ipa:`) and every table with `Hanzi` and `Pinyin` columns against the CC-CEDICT data file, accepts the written tone changes of 不 and 一, flags traditional characters and unknown characters in examples, and prints the English definitions to compare with the Indonesian meaning. Setup is in `scripts/check-cedict.ts`. `ok~` means no whole-word entry (e.g. 一天), but every character's reading matches: still check it by eye.
+- **Run the checker before posting:** `npm run check:cedict -- <deck.txt>` checks every `[word]` (`word:` + `pinyin:`, tone marks or numbers) and every table with `Hanzi` and `Pinyin` columns against the CC-CEDICT data file, accepts the written tone changes of 不 and 一, flags traditional characters and unknown characters in examples, and prints the English definitions to compare with the Indonesian meaning. Setup is in `scripts/check-cedict.ts`. `ok~` means no whole-word entry (e.g. 一天), but every character's reading matches: still check it by eye.
 - **Tone marks always**, never tone numbers on slides (`xièxie`, not `xie4xie5`).
 - **Character components:** standard analyses only (radical names and meanings from a dictionary). No folk etymology, no "this character is a picture of…" unless a standard reference says so.
 - **A native-speaker spot-check is recommended**, and strongly so for the first 20 posts. Mark anything uncertain in the reply and leave it out.
@@ -1491,75 +1491,74 @@ It should feel like "oh, so 不 isn't always bù", never like a cram school or a
 ### Writing rules
 
 - Explanations in Indonesian (`lang: id`), relaxed: `kamu`, `kita`. Grammar terms in Indonesian (nada, kata bantu bilangan), with the Mandarin term once.
-- Hanzi in `word:` and table cells; **pinyin in `ipa:`** (the only field drawn in a face with every tone mark today); meaning in `meaning:`. Don't put pinyin with ā, ǎ, ǐ, ǒ, ǔ, ǚ in other fields until `lexicon/hanzi` ships.
+- Hanzi in `word:` and table cells; pinyin in `pinyin:` (one syllable per hanzi; tone marks or tone numbers like `xie4 xie5`, the app draws marks; written tone changes such as `bú kèqi` are drawn as typed); `hsk:` for the level badge; `measure:` for the classifier (`本 běn`); `example:` (hanzi, `*…*` highlights characters) with `example-pinyin:` and `translation:`; meaning in `meaning:`. Pinyin columns in tables are plain cells.
 - No `say:` respelling: Indonesian spelling misleads on tones and on sounds like x, q, zh. Pinyin is the pronunciation guide.
 - One word or one point per deck; tables ≤ 8 rows. Example sentences short and everyday (makan, beli, kenalan).
 
 ### Deck recipe
 
-- **Template:** `lexicon/hanzi` once it exists (proposed in Open items). Until then nothing is posted; example decks use `lexicon/notebook` as a placeholder header so they parse.
-- **Kata hari ini:** cover (kicker `KATA HARI INI · #N`) → `[word]` (hanzi, `ipa:` pinyin, `meaning:`, `example:` + `translation:`, `note:` with the source) → one more `[word]` or a `[table]` → `[card]` kuis → `[card]` jawaban → end.
+- **Template:** `lexicon/hanzi` (shipped Oct 2026): rice paper, black ink, vermilion, headword characters in 田字格 practice boxes with ruby pinyin, tone colours with `tones: color` (each tone keeps its mark, so colour is never the only signal).
+- **Kata hari ini:** cover (kicker `KATA HARI INI · #N`) → `[word]` (`word:`, `pinyin:`, `hsk:`, `meaning:`, `example:` + `example-pinyin:` + `translation:`, `note:` with the source) → one more `[word]` or a `[table]` → `[card]` kuis → `[card]` jawaban → end.
 - **Nada:** cover → `[table]` (`| Hanzi | Pinyin | Arti |`, ≤ 8 rows, the rule shown on real words) → `[card]` kuis → `[card]` jawaban → end.
 - **Kata bantu bilangan:** cover → `[word]` the classifier → `[table]` 3–5 nouns with it → `[compare]` (`wrong-label: Salah` / `right-label: Benar`) the common mistake → end.
 - **End:** `[end cta="Simpan"]`, always a practice prompt for the comments in pinyin with tones ("Tulis 'terima kasih' dan 'sama-sama' pakai pinyin.").
 - **Length:** 6–10 slides.
 - **Caption:** one line + `Sumber: CC-CEDICT` (or MDBG) + 2–4 hashtags (`#belajarmandarin`, `#bahasamandarin`, `#hsk1`, `#mandarinpemula`).
 
-Checked for the example (Oct 2026, `npm run check:cedict` against CC-CEDICT, 2026-10-14 file): 谢谢 xièxie ✓ · 不客气 bú kèqi ✓ (CC-CEDICT lists bù kèqi; bú is the written tone change before kè, 4th tone) · 不是 bú shì ✓ · 不对 bú duì ✓ · 不好 bù hǎo ✓ · 不吃 bù chī (no whole-word entry; each character matches) · 不要 bú yào (CC-CEDICT bù yào, 要 yào 4th tone). The example sentences 谢谢你！ and 谢谢！不客气。 use only these words plus 你 nǐ; native check recommended.
+The shipped sample `lexicon-hanzi-xiexie` (SPEC-script §12). Checked Oct 2026 with `npm run check:cedict`: 谢谢 xiè xie (typed `xie4 xie5`) ✓ · 不客气 bú kèqi ✓ (CC-CEDICT bù kèqi; bú is the written tone change before kè) · 妈 mā ✓ · 麻 má ✓ · 马 mǎ ✓ · 骂 mà ✓; 一本书 yì běn shū follows the 一 rule before a 3rd tone. Native check recommended for the example sentence. Before posting, make the end slide a practice prompt (this sample keeps the spec's wording).
 
-```text
-template: lexicon/notebook
+````text
+
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
 lang: id
-title: terima kasih dan sama-sama
-caption: Terima kasih dan sama-sama dalam bahasa Mandarin, plus satu aturan nada yang sering kelewat. Sumber: CC-CEDICT · MDBG #belajarmandarin #bahasamandarin #hsk1
+title: terima kasih & sama-sama
+caption: Dua kata pertama yang wajib kamu bisa. #belajarmandarin #bahasamandarin
 ---
-[cover kicker="KATA HARI INI · #1"]
-Bilang *terima kasih* | dalam bahasa Mandarin
-Plus jawabannya, dan kenapa 不 di sini dibaca bú.
+[cover]
+Bilang *terima kasih*|dalam Mandarin
+Plus cara jawabnya
 ---
 [word]
-pos: ungkapan
-tag: HSK 1
 word: 谢谢
-ipa: xièxie
+pinyin: xie4 xie5
+pos: kata kerja
+hsk: 1
 meaning: terima kasih
-example: 谢谢你！
-translation: Terima kasih (ke kamu)!
-note: 谢 kedua bernada netral: pendek dan ringan. Sumber: CC-CEDICT
+example: *谢谢*你！
+example-pinyin: Xièxie nǐ!
+translation: Terima kasih (ya)!
 ---
 [word]
-pos: ungkapan
-tag: HSK 1
 word: 不客气
-ipa: bú kèqi
+pinyin: bú kèqi
+pos: ungkapan
+hsk: 1
 meaning: sama-sama; jangan sungkan
-example: 谢谢！不客气。
-translation: Terima kasih! Sama-sama.
-note: 不 aslinya bù, berubah jadi bú karena 客 kè bernada 4. Sumber: CC-CEDICT
+note: 不 dibaca bú (nada 2) karena diikuti nada 4.
 ---
 [table]
-不 sebelum *nada 4* jadi bú
+Satu bunyi, empat nada
 | Hanzi | Pinyin | Arti |
-| 不是 | bú shì | bukan |
-| 不对 | bú duì | salah, tidak benar |
-| 不好 | bù hǎo | tidak baik |
-| 不吃 | bù chī | tidak makan |
-Nada 1, 2, 3: tetap bù.
+| 妈 | mā | ibu |
+| 麻 | má | rami |
+| 马 | mǎ | kuda |
+| 骂 | mà | memarahi |
 ---
-[card kicker="Kuis" number=off icon=none]
-不要 dibaca *bù yào* atau *bú yào?*
-Petunjuk: 要 yào bernada 4. Jawab di komen dulu, baru geser.
+[compare]
+headline: Buku pakai kata bantu 本
+wrong: 一个书
+right: 一本书
+why: Benda berjilid seperti buku pakai 本 (běn), bukan 个. Dibaca yì běn shū.
 ---
-[card kicker="Jawaban" number=off icon=none]
-*bú yào*
-Nada 4 bertemu nada 4: 不 naik jadi bú.
----
-[end cta="Simpan"]
-Balas pakai *pinyin dan nadanya*
-Tulis "terima kasih" dan "sama-sama" di komen. Kita koreksi bareng.
-```
+[end]
+Kata apa yang mau kamu pelajari besok?
+Tulis di komentar
+````
 
-(Example only: it parses and passes `check:cedict`, but don't post it until `lexicon/hanzi` ships: the hanzi would render in a system font, and `bù hǎo` in the table needs a face with ǎ.)
+(Renders with zero warnings in every template.)
 
 ### Starter list (30 ideas)
 
@@ -1655,10 +1654,10 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - **`lexicon/lembar` (SKD Harian) and `dev/sheet` (Jago Kantoran): shipped (Oct 2026).** Built for these accounts, plus `excel` formula colouring in code blocks and the `[sheet]` slide (PRD §4.10), a mini spreadsheet for Jago Kantoran's formula steps (see `docs/decisions.md`).
 - **Image-question slide (proposed, SKD Harian).** Figural TIU questions (pattern series, rotations, mirror images) need a question image drawn or shown uncropped with options A–E under it. This overlaps the proposed `figure` slide; until one exists, SKD Harian posts no figural questions.
 - **Difficulty badge (SKD Harian).** No attribute exists for a difficulty badge; the difficulty goes in each question card's kicker (`Soal 3 · Sedang`). A real badge would need a PRD change.
-- **Launch order: Kosakata Arab first (postable now), Kosakata Mandarin a few weeks later** (device and account limits). Kosakata Mandarin doesn't post until `lexicon/hanzi` (M9b) ships: a deck without hanzi would teach the wrong habit, and hanzi render in a system font today. Write and check Mandarin decks in the meantime.
+- **Launch order: Kosakata Arab first, Kosakata Mandarin a few weeks later** (device and account limits). Both are postable since M9a/M9b.
 - **`lexicon/arab` and Arabic script support: shipped (M9a, Oct 2026).** RTL Arabic with harakat in word/table/compare, `translit`/`root`/`pattern`/`plural`, `[table dir=rtl]`, blocking `script-glyph-missing` / `script-overflow` (see SPEC-script.md).
-- **`lexicon/hanzi` and hanzi support (M9b, in progress).** Specified in SPEC-script.md: Noto Sans/Serif SC loaded per unicode-range slice, kinsoku line breaking, pinyin (tone marks or numbers) with ruby over the headword, optional tone colours, a 田字格 practice box. Until it ships, pinyin with ā ǎ ǐ ǒ ǔ ǚ is safe only in `ipa:`.
-- **Missing-glyph check for CJK (bug, found Oct 2026).** Hanzi in a `[word]` slide rendered in the system font (PingFang) with **no warning**, which breaks the "never export with fallback fonts" rule. Proposed: a blocking `glyph-missing` warning when a slide contains characters no gated face covers (like `ipa-glyph-missing`, for every field and table cell).
+- **`lexicon/hanzi` and hanzi support: shipped (M9b, Oct 2026).** Noto SC slices loaded per text, kinsoku, pinyin with ruby, tone colours, 田字格 boxes, blocking `script-glyph-missing` / `script-overflow` (see SPEC-script.md).
+- **Missing-glyph check for CJK: fixed (M9b).** Hanzi without a loaded or bundled glyph now raise the blocking `script-glyph-missing`, and hanzi inside Latin text come from Noto Sans SC.
 - **`check:cedict` (shipped, Oct 2026).** `npm run check:cedict -- <deck.txt>` validates hanzi and pinyin against CC-CEDICT (data file not committed: CC BY-SA 4.0; download steps in the script). There is no equivalent for Arabic: Almaany blocks scripted requests and Hans Wehr isn't online, so Arabic harakat stay a manual check (plus Wiktionary as a scripted cross-check).
 - **Pronunciation videos (later phase, both language accounts).** Voice only, native audio or native-checked, never text-to-speech. Out of scope for this app (photo carousels only).
 

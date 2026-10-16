@@ -9,6 +9,8 @@ import { CONTENT_W, SAFE } from '../../render/safezone';
 import { type LexEl, type LexLayout, SizeSet, trackedW, wrapBlock } from './lexLayout';
 import { type LexCtx, WORD, fit, valueStyle } from './lexSlides';
 import { ARABIC, ARABIC_FACE, checkGlyphs, isArabic, isMixed, mixedSegs, scriptOverflow } from './lexScript';
+import { HAN, HAN_SANS, checkHanGlyphs, hanBlock, pinyinSegs, tonesFor } from './lexHanText';
+import { detectScript } from '../../core/script';
 
 export const TABLE_STYLE = {
   top: WORD.top,
@@ -56,13 +58,28 @@ export function layoutTable(c: LexCtx, tableIn: TableData, headline: string, not
   const T = TABLE_STYLE;
   // dir=rtl mirrors the column order; the header follows (SPEC-script §3.2).
   const table: TableData = dir === 'rtl' ? { header: [...tableIn.header].reverse(), rows: tableIn.rows.map((r) => [...r].reverse()) } : tableIn;
-  const kindOf = (src: string): 'arab' | 'mixed' | 'latin' => {
+  const kindOf = (src: string): 'arab' | 'han' | 'mixed' | 'latin' => {
     const text = cellText(src);
-    if (!isArabic(text) && !/[\u0600-\u06ff]/.test(text)) return 'latin';
-    return isMixed(text) ? 'mixed' : 'arab';
+    const arab = isArabic(text) || /[\u0600-\u06ff]/.test(text);
+    const han = /\p{Script=Han}/u.test(text);
+    if (!arab && !han) return 'latin';
+    if (isMixed(text)) return 'mixed';
+    return detectScript(text) === 'han' ? 'han' : 'arab';
   };
-  for (const r of table.rows) for (const cell of r) if (kindOf(cell) !== 'latin') checkGlyphs(c, cellText(cell), 'arab');
-  const hasArab = table.rows.some((r) => r.some((cell) => kindOf(cell) !== 'latin'));
+  for (const r of table.rows) for (const cell of r) {
+    const k = kindOf(cell);
+    if (k === 'arab' || (k === 'mixed' && /[\u0600-\u06ff]/.test(cell))) checkGlyphs(c, cellText(cell), 'arab');
+    if (k === 'han' || k === 'mixed') checkHanGlyphs(c, cellText(cell), HAN_SANS);
+  }
+  const hasArab = table.rows.some((r) => r.some((cell) => kindOf(cell) === 'arab' || (kindOf(cell) === 'mixed' && /[\u0600-\u06ff]/.test(cell))));
+  // tones: color: a hanzi cell and a pinyin cell with one syllable per hanzi, in the same row, get tone colours (SPEC-script §5.4).
+  const toneRows = table.rows.map((r) => {
+    if (!c.tones || !c.tok.tones) return null;
+    const hi = r.findIndex((cell) => kindOf(cell) === 'han');
+    if (hi < 0) return null;
+    const pi = r.findIndex((cell, i) => i !== hi && kindOf(cell) === 'latin' && tonesFor(cellText(r[hi]!), cellText(cell)));
+    return pi < 0 ? null : { hi, pi, tones: tonesFor(cellText(r[hi]!), cellText(r[pi]!))! };
+  });
   let tooLong = false;
   const sizes = new SizeSet({ body: T.body, headline: T.headline, note: T.note });
   const mono = c.v.fonts.mono;
@@ -100,9 +117,12 @@ export function layoutTable(c: LexCtx, tableIn: TableData, headline: string, not
     const asz = Math.round(sz * ARABIC.cellScale);
     const arabFont = { family: ARABIC_FACE, weight: 400, size: asz, fallback: c.sans };
     const mixFaces = { latin: c.sans, latinWeight: T.body.weight, arabWeight: 400, fallback: c.sans };
+    const hsz = Math.round(sz * HAN.cellScale);
+    const hanFont = { family: HAN_SANS, weight: 500, size: hsz, fallback: c.sans };
     const cellW = (src: string): number => {
       const k = kindOf(src);
       if (k === 'arab') return c.m.width(cellText(src), arabFont);
+      if (k === 'han') return c.m.width(cellText(src), hanFont);
       if (k === 'mixed') return mixedSegs(cellText(src), sz, mixFaces, { latin: c.s.ink, arab: c.s.ink }, c.m).w;
       return cellLine(src, cellStyle(src), 1e9, c.m).line.width;
     };
@@ -146,6 +166,24 @@ export function layoutTable(c: LexCtx, tableIn: TableData, headline: string, not
             baseline: ARABIC.baseline, family: ARABIC_FACE, weight: 400, fallback: c.sans, color: c.s.ink, align: 'right', mark: null,
           });
           return;
+        }
+        if (k === 'han') {
+          // Hanzi cells are left-aligned and never cut with "…" either.
+          const tr = toneRows[ri];
+          const blk = hanBlock(cellText(cell), hanFont, 1e9, c.m, { color: c.s.ink, tones: tr && tr.hi === col ? tr.tones : null, tok: c.tok });
+          const w = blk.el.widths[0] ?? 0;
+          if (w > avail) { over ??= 'body'; if (sz <= T.body.min) tooLong = true; }
+          els.push({ ...blk.el, x: colX[col]! + T.padX, y: ry + (rowH - hsz * HAN.lh) / 2 });
+          return;
+        }
+        const tr = toneRows[ri];
+        if (tr && tr.pi === col) {
+          const segs = pinyinSegs(cellText(cell), sz, c.tok, c.s.ink, c.m);
+          if (segs.w <= avail) {
+            const h = sz * 1.2;
+            els.push({ k: 'mixed', x: colX[col]! + T.padX, y: ry + (rowH - h) / 2, h, baseline: sz * 0.95, w: segs.w, segs: segs.segs });
+            return;
+          }
         }
         if (k === 'mixed') {
           const mix = mixedSegs(cellText(cell), sz, mixFaces, { latin: c.s.ink, arab: c.s.ink }, c.m);

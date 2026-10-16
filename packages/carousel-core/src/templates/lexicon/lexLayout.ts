@@ -44,6 +44,17 @@ export type LexEl =
     k: 'mixed'; x: number; y: number; h: number; baseline: number; w: number;
     segs: { text: string; font: FontSpec; color: string; dx: number; w: number; rtl: boolean }[];
   }
+  | {
+    /**
+     * Hanzi lines (SPEC-script §5), left-aligned. `units`/`offs` give each break unit and its x offset per line,
+     * used when units have their own colours (tones) or a highlight; otherwise each line is one fillText.
+     */
+    k: 'han'; x: number; y: number; lines: string[]; widths: number[]; size: number; lh: number; baseline: number;
+    family: string; weight: number; fallback: string; color: string;
+    units?: string[][]; offs?: number[][]; colors?: (string | null)[][];
+    marks?: { line: number; from: number; w: number }[]; highlight?: string; strike?: string;
+  }
+  | { k: 'tianzige'; x: number; y: number; size: number; color: string }
   | { k: 'star'; cx: number; cy: number; size: number; color: string; width: number }
   | { k: 'label'; x: number; y: number; text: string; font: FontSpec; color: string; tracking: number }
   | { k: 'pill'; x: number; y: number; w: number; h: number; text: string; font: FontSpec; color: string; tracking: number; padX: number }
@@ -144,6 +155,12 @@ export function lexBoxes(els: readonly LexEl[]): Box[] {
       }
       case 'mixed':
         out.push({ x: e.x, y: e.y, w: e.w, h: e.h, kind: 'lex-text' });
+        break;
+      case 'han':
+        out.push({ x: e.x, y: e.y, w: Math.max(0, ...e.widths), h: e.lines.length * e.size * e.lh, kind: 'lex-text' });
+        break;
+      case 'tianzige':
+        out.push({ x: e.x, y: e.y, w: e.size, h: e.size, kind: 'lex-frame' });
         break;
       case 'pill': case 'badge': case 'rect': case 'frame':
         out.push({ x: e.x, y: e.y, w: e.w, h: e.h, kind: `lex-${e.k}` });
