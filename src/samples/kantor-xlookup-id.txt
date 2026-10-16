@@ -5,47 +5,55 @@ caption: Cari data di tabel tanpa menghitung nomor kolom. Diuji di [versi Excel 
 ---
 [cover kicker="EXCEL • TUTORIAL"]
 Masih hitung kolom | buat *VLOOKUP?*
-XLOOKUP: cari nama dari ID, 4 langkah.
+XLOOKUP: cari data dari tabel, 3 langkah.
 ---
-[table]
-Datanya: ID di kolom A, nama di B
-| ID | Nama | Divisi |
-| K01 | Rina | Keuangan |
-| K02 | Bayu | HRD |
-| K03 | Sari | IT |
-| K04 | Dimas | Gudang |
-| K05 | Lala | IT |
-ID yang dicari ditulis di F2.
----
-[code]
+[sheet]
 Cari nama dari ID
-Isi G2. F2 = yang dicari, A = kolom ID, B = kolom hasil.
-```excel
-=XLOOKUP(F2;A2:A6;B2:B6)
+D2 = yang dicari, A = kolom ID, B = kolom hasil.
+```sheet
+E2 =XLOOKUP(D2;A2:A6;B2:B6)
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | K03 | Sari
+K02 | Bayu | HRD | |
+*K03* | *Sari* | IT | |
+K04 | Dimas | Gudang | |
+K05 | Lala | IT | |
 ```
-F2 berisi K03, hasilnya Sari.
+K03 ketemu di baris 4, jadi hasilnya Sari.
 ---
-[code]
+[sheet]
 Kalau ID-nya nggak ada
 Argumen keempat menggantikan #N/A dengan teks sendiri.
-```excel
-=XLOOKUP(F2;A2:A6;B2:B6;"Tidak ada")
+```sheet
+E2 =XLOOKUP(D2;A2:A6;B2:B6;"Tidak ada")
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | K09 | Tidak ada
+K02 | Bayu | HRD | |
+K03 | Sari | IT | |
+K04 | Dimas | Gudang | |
+K05 | Lala | IT | |
 ```
-F2 berisi K09, hasilnya: Tidak ada.
+Tanpa argumen keempat, hasilnya #N/A.
 ---
-[code]
+[sheet]
 Cari ke kiri
-Nama di B, ID di A. VLOOKUP nggak bisa, XLOOKUP bisa.
-```excel
-=XLOOKUP(F2;B2:B6;A2:A6)
+ID ada di kiri nama. VLOOKUP nggak bisa ke kiri.
+```sheet
+E2 =XLOOKUP(D2;B2:B6;A2:A6)
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | Dimas | K04
+K02 | Bayu | HRD | |
+K03 | Sari | IT | |
+*K04* | *Dimas* | Gudang | |
+K05 | Lala | IT | |
 ```
-F2 berisi Dimas, hasilnya K04.
+Kolom cari dan kolom hasil boleh di mana saja.
 ---
 [code]
 Excel kamu pakai koma?
 Pemisah argumen ikut pengaturan region. Excel berbahasa Inggris (region US) pakai koma.
 ```excel
-=XLOOKUP(F2,A2:A6,B2:B6)
+=XLOOKUP(D2,A2:A6,B2:B6)
 ```
 Excel menolak rumusnya? Ganti ; jadi , (atau sebaliknya).
 ---

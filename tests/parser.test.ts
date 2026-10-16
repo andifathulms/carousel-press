@@ -230,7 +230,8 @@ describe('every shipped deck', () => {
     it(`${f} parses without warnings`, () => {
       const r = parse(sample(f.slice(0, -4)), { photoIds: ['sample-dusk', ...SAMPLE_PHOTO_IDS] });
       // History, sports and language decks may run past 10 slides (owner decision): only the long-deck hint is allowed.
-      const long = f.startsWith('sejarah-') || f.startsWith('sports-') || f.startsWith('lexicon-');
+      // SKD Harian's "1 topik, 5 soal" needs cover + 5 × (soal, pembahasan) + recap + end (channels.md §10).
+      const long = f.startsWith('sejarah-') || f.startsWith('sports-') || f.startsWith('lexicon-') || f.startsWith('skd-');
       // Ayat Harian posts are short (channels.md §8).
       const short = f.startsWith('ayat-') || f.startsWith('hadis-');
       // Ruang Rasa's Pertanyaan Malam series is 3 slides (channels.md §1).

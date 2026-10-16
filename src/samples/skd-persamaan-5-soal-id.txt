@@ -1,13 +1,13 @@
 template: lexicon/lembar
 lang: id
-title: soal harian tiu 1 pulpen dan buku
-caption: Soal TIU hitungan yang bisa selesai di bawah 1 menit. Soal latihan buatan kami, bukan soal resmi BKN. #skdcpns #cpns #tiu #latihansoal
+title: soal cerita persamaan 5 soal
+caption: 5 soal cerita TIU, 5 trik tanpa x dan y. Soal latihan buatan kami, bukan soal resmi BKN. #skdcpns #cpns #tiu #latihansoal
 ---
-[cover kicker="SOAL HARIAN TIU · #1 · SEDANG"]
-Pulpen dan buku. | Ada jalan *30 detik.*
-Kerjakan dulu tanpa kalkulator, baru geser.
+[cover kicker="TIU NUMERIK · 1 TOPIK, 5 SOAL"]
+Soal cerita 2 barang? | *Nggak perlu x dan y.*
+5 soal dari mudah ke sulit. Kerjakan dulu, baru geser ke pembahasannya.
 ---
-[card kicker="Soal · TIU numerik" number=off icon=none]
+[card kicker="Soal 1 · Mudah" number=off icon=none]
 3 pulpen + 2 buku = Rp31.000. | 2 pulpen + 3 buku = Rp34.000. | *1 pulpen + 1 buku = ?*
 A. Rp5.000
 B. Rp6.500
@@ -15,24 +15,78 @@ C. Rp8.000
 D. Rp13.000
 E. Rp15.500
 ---
-[card number=off icon=clock]
-Tulis jawabanmu *di komen dulu.*
-Satu huruf aja. Target: di bawah 60 detik.
+[card verdict="1 · Jawaban D" tone=ok]
+Trik: *jumlahkan, lalu bagi.*
+5 pulpen + 5 buku = Rp65.000
+Rp65.000 ÷ 5 = Rp13.000
+Jebakan B: dibagi 10, padahal 5 pasang.
 ---
-[card kicker="Petunjuk" number=off icon=lightbulb]
-Yang ditanya bukan harga satuan. | *Jumlahkan dua persamaannya.*
+[card kicker="Soal 2 · Mudah" number=off icon=none]
+4 apel + 3 jeruk = Rp26.000. | 3 apel + 4 jeruk = Rp23.000. | *1 apel − 1 jeruk = ?*
+A. Rp1.000
+B. Rp2.000
+C. Rp3.000
+D. Rp5.000
+E. Rp7.000
 ---
-[card verdict="Jawaban: D" tone=ok]
-5 pulpen + 5 buku = *Rp65.000*
-Bagi 5, jadi 1 pulpen + 1 buku = Rp13.000. Cek: pulpen Rp5.000, buku Rp8.000.
+[card verdict="2 · Jawaban C" tone=ok]
+Trik: *kurangkan.*
+Persamaan 1 − persamaan 2 = 1 apel − 1 jeruk
+Rp26.000 − Rp23.000 = Rp3.000
+Jebakan B dan D: harga jeruk dan harga apel.
 ---
-[compare]
-wrong-label: Jebakan
-right-label: Benar
-wrong: Rp65.000 ÷ 10 barang = Rp6.500
-right: Rp65.000 ÷ 5 pasang = *Rp13.000*
-why: Hasil penjumlahan itu 5 pasang pulpen + buku, bukan 10 barang. Opsi A dan C juga jebakan: itu harga satuan.
+[card kicker="Soal 3 · Sedang" number=off icon=none]
+Berat A + B = 12 kg. | B + C = 15 kg. | A + C = 13 kg. | *Berat A + B + C?*
+A. 13 kg
+B. 20 kg
+C. 25 kg
+D. 40 kg
+E. 27 kg
+---
+[card verdict="3 · Jawaban B" tone=ok]
+Trik: *jumlahkan semua, bagi 2.*
+12 + 15 + 13 = 40 (tiap huruf terhitung 2 kali)
+40 ÷ 2 = 20 kg
+Jebakan D: lupa dibagi 2.
+---
+[card kicker="Soal 4 · Sedang" number=off icon=none]
+2 tiket dewasa + 3 tiket anak = Rp190.000. | Tiket dewasa Rp20.000 lebih mahal. | *Harga 1 tiket anak?*
+A. Rp30.000
+B. Rp38.000
+C. Rp50.000
+D. Rp34.000
+E. Rp42.000
+---
+[card verdict="4 · Jawaban A" tone=ok]
+Trik: *anggap semua tiket anak dulu.*
+Rp190.000 − 2 × Rp20.000 = Rp150.000
+Rp150.000 ÷ 5 tiket = Rp30.000
+Jebakan C: itu harga tiket dewasa.
+---
+[card kicker="Soal 5 · Sulit" number=off icon=none]
+Umur ayah + anak sekarang = 50 tahun. | 5 tahun lalu, umur ayah 4 kali umur anak. | *Umur anak sekarang?*
+A. 8 tahun
+B. 10 tahun
+C. 13 tahun
+D. 15 tahun
+E. 37 tahun
+---
+[card verdict="5 · Jawaban C" tone=ok]
+Trik: *mundur dulu, baru maju.*
+5 tahun lalu: 50 − 10 = 40
+Anak dulu: 40 ÷ (4 + 1) = 8 tahun
+Sekarang: 8 + 5 = 13 tahun
+Jebakan A: berhenti di 5 tahun lalu.
+---
+[table]
+Simpan: 5 trik soal cerita
+| Soal | Triknya |
+| 1 | Jumlahkan, lalu bagi |
+| 2 | Kurangkan |
+| 3 | Jumlahkan semua, bagi 2 |
+| 4 | Anggap semua sama dulu |
+| 5 | Mundur dulu, baru maju |
 ---
 [end cta="Follow"]
-Kamu tadi jawab *huruf apa?*
-Komen hurufnya. Soal Harian TIU #2 besok.
+Skor kamu *berapa dari 5?*
+Komen angkanya. Topik berikutnya: deret angka.
