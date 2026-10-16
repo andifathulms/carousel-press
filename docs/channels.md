@@ -1,6 +1,6 @@
 # Channels: content brief for writing decks
 
-Read this before writing any deck. The owner runs eleven TikTok accounts, and every deck is for exactly one of them.
+Read this before writing any deck. The owner runs thirteen TikTok accounts, and every deck is for exactly one of them.
 If a request names an account ("10 posts for Ruang Rasa", "deck for Whistle Notes"), use that account's section.
 If it doesn't name one, infer it from the topic and say which one you picked:
 
@@ -15,6 +15,8 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 - philosophy ideas applied to everyday life, thinkers, dilemmas → **Filsafat Harian**
 - exam and selection-test prep (SKD CPNS, sekolah kedinasan, PPPK, BUMN, psikotes) → **SKD Harian**
 - Excel, Word, PowerPoint, email and other office tips → **Jago Kantoran**
+- Arabic language learning (fusha vocabulary, roots, phrases, basic grammar; not Quran vocabulary) → **Kosakata Arab**
+- Mandarin learning (hanzi, pinyin, tones, HSK 1–2) → **Kosakata Mandarin**
 
 The deck format is PRD §4. This file only says *what* to write and which template/attributes to use. It adds no new syntax.
 
@@ -31,6 +33,8 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 🏛️ Filsafat Harian | `id` | One philosophical idea applied to daily life | `editorial/*` | `editorial/stone` |
 | 📝 SKD Harian | `id` | Daily SKD/selection-test questions and strategy | `lexicon/*` | `lexicon/lembar` |
 | 🗂️ Jago Kantoran | `id` | Excel, Word, email and office fixes | `dev/*` | `dev/sheet` |
+| ✍️ Kosakata Arab | `id` (teaches Arabic) | Fusha words, roots, phrases for beginners | `lexicon/*` | `lexicon/arab` (proposed; not postable until it ships) |
+| 🏮 Kosakata Mandarin | `id` (teaches Mandarin) | Hanzi, pinyin and tones for beginners | `lexicon/*` | `lexicon/hanzi` (proposed; not postable until it ships) |
 
 ---
 
@@ -1299,9 +1303,302 @@ Komen tahunnya. Besok: VLOOKUP vs XLOOKUP.
 29. Shortcut Excel yang hemat waktu: Ctrl+Shift+L, Ctrl+T, Ctrl+; (each tested, Mac equivalents given).
 30. AI di kantor: ask AI to explain a formula you inherited, then check it on sample data.
 
+## 12. ✍️ Kosakata Arab
+
+**Tagline:** *Bahasa Arab dari nol, satu kata satu hari.*
+A faceless account teaching Modern Standard Arabic (fusha) for daily life to Indonesian absolute beginners: one word, one root, one phrase or one small rule per post. A sibling of Kosakata Inggris (English) and Kamus Kecil (Indonesian): same lexicon slides, same "one thing per deck" discipline.
+It should feel like "oh, so that's how كِتَاب and مَكْتَبَة are related", never like a pesantren exam or a teacher showing off.
+**Not yet postable:** Arabic script doesn't render properly in word, table and compare slides yet (see Open items). The account launches when `lexicon/arab` ships, before Kosakata Mandarin.
+
+| | |
+|---|---|
+| Purpose | Make everyday Arabic approachable for Indonesian beginners |
+| Audience | Indonesian absolute beginners: students, people preparing for umrah or work in the Gulf, parents learning alongside their children |
+| Reader should think | "I can read and use this word today." |
+| Primary action | Save, then comment the practice word |
+| Tone | Warm, encouraging, patient; mistakes are part of learning |
+| Voice | "Belajar bareng": the owner is learning Arabic too and shares what clicked |
+| Slide types | `cover`, `word`, `table`, `compare`, `card`, `end` |
+
+### Scope
+
+- **Fusha (MSA) for daily life.** Dialects (Saudi, Egyptian) only as a labelled side series ("Dialek Saudi #N"), every dialect word marked on the slide.
+- **Quran vocabulary belongs to Ayat Harian.** No ayat, no Quranic word studies, no tafsir here. Religious daily phrases (salam, greetings) are fine as everyday language.
+- Carousels first. Pronunciation videos (voice only, native audio or native-checked, **never text-to-speech**) are a later phase.
+
+### Pillars
+
+1. **Kata hari ini #N**: one word with full harakat, Indonesian-friendly transliteration, meaning and an example sentence.
+2. **Akar kata #N**: one three-letter root and its word family (ك-ت-ب: menulis, buku, penulis, kantor, perpustakaan).
+3. **Ungkapan sehari-hari**: greetings, introducing yourself, at the market, travel and umrah phrases.
+4. **Tata bahasa dasar**: mudzakkar/muannats, dhamir (pronouns), isim isyarah (hadza/hadzihi), simple nominal sentences. One rule per deck.
+5. **Huruf yang sering tertukar**: ع vs ء, ح vs ه, ق vs ك, ص vs س, with how to hear and write the difference.
+6. **Kata serapan Arab**: Indonesian words that came from Arabic and how the meaning moved (crossover with Kamus Kecil; KBBI for the Indonesian side).
+7. **Kuis**: guess the meaning from a root pattern, or pick the right harakat.
+
+### Accuracy rules (non-negotiable)
+
+- **Never write Arabic text or harakat from memory.** Check every word and its harakat against **Almaany** (almaany.com) or **Hans Wehr**, and list the source per word in the reply before the deck. Wiktionary's vowelled headwords are a useful cross-check, not the final source.
+- **Copy, don't type:** paste the vowelled form from the source. A missing or wrong harakat changes the word (مُدَرِّسَة is a female teacher, مَدْرَسَة a school).
+- **Example sentences** come from a dictionary or are checked by a native speaker. Sentences you composed yourself are uncertain: leave them out, or keep a `[SALIN …]` placeholder until checked.
+- **A native-speaker spot-check is recommended**, and strongly so for the first 20 posts. Mark anything uncertain in the reply and leave it out of the deck.
+- **Transliteration has one fixed convention**, explained once in a pinned post and never mixed: long vowels doubled (`kitaab`, `kaatib`), ta marbutah as `-ah` at a pause (`maktabah`), hamzah and 'ain both written `'` in `say:` (the Huruf pillar teaches the difference with the Arabic letters themselves), `sy` for ش, `kh` for خ, `dz` for ذ.
+- **Dialect words are labelled** on the slide ("Dialek Mesir"), never mixed into fusha decks unlabelled.
+
+### Writing rules
+
+- Explanations in Indonesian (`lang: id`), relaxed: `kamu`, `kita`. Arabic terms the way Indonesian learners know them: harakat, fathah, kasrah, dhammah, sukun, mudzakkar, muannats, dhamir.
+- One word or one point per deck. Example sentences short and about everyday life (rumah, pasar, sekolah, kantor).
+- Put the Arabic in `word:` / table cells, the transliteration in `say:` (ASCII only, so it renders in every face), the meaning in `meaning:`.
+- Encourage, never test publicly: "Coba baca pelan-pelan" beats "Masa nggak bisa baca?".
+
+### Deck recipe
+
+- **Template:** `lexicon/arab` once it exists (proposed in Open items). Until then nothing is posted; example decks use `lexicon/kamus` as a placeholder header so they parse.
+- **Kata hari ini:** cover (kicker `KATA HARI INI · #N`) → `[word]` (word with harakat, `say:`, `meaning:`, `example:` + `translation:`, `note:` with the source) → `[table]` related forms (≤ 8 rows) → `[card]` practice prompt → end.
+- **Akar kata:** cover (kicker `AKAR KATA · #N`) → `[table]` the family (`| Arab | Cara baca | Arti |`, ≤ 8 rows) → 1–2 `[word]` for the most useful members → `[card]` the pattern (e.g. ma-…-ah = tempat) → `[card]` kuis using the pattern on a new root → end.
+- **Huruf tertukar:** cover → `[compare]` (`wrong-label`/`right-label` set to the two letters) → `[table]` minimal pairs → end.
+- **End:** `[end cta="Simpan"]`, always a practice prompt for the comments ("Tulis satu kata lagi dari akar ini di komen.").
+- **Length:** 6–10 slides. One word or one point; tables ≤ 8 rows.
+- **Caption:** one line + `Sumber: Almaany` (or Hans Wehr) + 2–4 hashtags (`#belajarbahasaarab`, `#bahasaarab`, `#kosakataarab`, `#arabpemula`).
+
+Checked for the example (Oct 2026, exact vowelled forms matched byte for byte against Wiktionary's entries; **Almaany blocked scripted access and Hans Wehr wasn't available, so the owner checks both before posting**): كَتَبَ to write (root ك ت ب) · كِتَاب book (pl. كُتُب) · كَاتِب writer, author (active participle of كَتَبَ) · مَكْتَب desk, office (noun of place) · مَكْتَبَة library, also bookstore (noun of place) · دَرَسَ to study, to learn · مَدْرَسَة school (noun of place from دَرَسَ).
+
+```text
+template: lexicon/kamus
+lang: id
+title: akar kata k-t-b
+caption: Satu akar, lima kata: dari menulis sampai perpustakaan. Sumber: Almaany · Hans Wehr #belajarbahasaarab #bahasaarab #kosakataarab
+---
+[cover kicker="AKAR KATA · #1"]
+Satu akar, | *lima kata*
+ك-ت-ب: dari menulis sampai perpustakaan.
+---
+[table]
+Keluarga kata ك-ت-ب
+| Arab | Cara baca | Arti |
+| كَتَبَ | kataba | menulis |
+| كِتَاب | kitaab | buku |
+| كَاتِب | kaatib | penulis |
+| مَكْتَب | maktab | meja; kantor |
+| مَكْتَبَة | maktabah | perpustakaan; toko buku |
+Sumber: Almaany
+---
+[word]
+pos: nomina · mudzakkar
+tag: AKAR ك-ت-ب
+word: كِتَاب
+say: "ki-taab", a-nya panjang
+meaning: buku
+example: [SALIN CONTOH KALIMAT DARI KAMUS, ATAU CEK KE PENUTUR ASLI]
+translation: [TERJEMAHAN CONTOH]
+note: Jamaknya كُتُب (kutub). Sumber: Almaany
+---
+[card kicker="Polanya" number=off icon=none]
+ma-…-ah sering berarti *tempat*
+مَكْتَبَة maktabah: tempat buku. Dari akar yang sama dengan kataba.
+---
+[card kicker="Kuis" number=off icon=none]
+دَرَسَ darasa = belajar. | *مَدْرَسَة madrasah artinya?*
+Jawab di komen dulu. Petunjuk: pakai pola ma-…-ah.
+---
+[card kicker="Jawaban" number=off icon=none]
+*Sekolah*
+Tempat belajar. Polanya sama dengan maktabah.
+---
+[end cta="Simpan"]
+Kata mana yang *paling sering kamu dengar?*
+Tulis satu kata lagi dari akar ك-ت-ب di komen. Kita cek bareng.
+```
+
+(Example only: it parses, but don't post it until `lexicon/arab` ships, the example sentence is filled from a dictionary, and every harakat is checked in Almaany or Hans Wehr.)
+
+### Starter list (30 ideas)
+
+1. Akar kata #1: ك-ت-ب, menulis sampai perpustakaan (the example).
+2. Kata hari ini: buku, with its plural.
+3. Kata hari ini: rumah.
+4. Kata hari ini: air.
+5. Kata hari ini: guru (and its feminine form).
+6. Kata hari ini: teman.
+7. Akar kata #2: د-ر-س, belajar, pelajaran, sekolah, guru.
+8. Akar kata #3: ع-ل-م, ilmu, tahu, dunia (with the 'ain introduced).
+9. Akar kata #4: ف-ت-ح, membuka, kunci, pembukaan.
+10. Ungkapan: salam dan jawabannya, written in full.
+11. Ungkapan: memperkenalkan diri (nama saya…, saya dari Indonesia).
+12. Ungkapan: menanyakan kabar dan menjawabnya.
+13. Ungkapan: di pasar, berapa harganya?
+14. Ungkapan: arah (kanan, kiri, lurus) for travel and umrah.
+15. Ungkapan: terima kasih dan sama-sama.
+16. Tata bahasa: mudzakkar vs muannats, the ta marbutah sign.
+17. Tata bahasa: hadza vs hadzihi (ini, untuk laki-laki dan perempuan).
+18. Tata bahasa: dhamir tunggal (saya, kamu laki-laki, kamu perempuan, dia).
+19. Tata bahasa: kalimat nominal pertama, "ini buku" (native-checked).
+20. Tata bahasa: al- (kata sandang) and when the l isn't pronounced.
+21. Huruf tertukar: ع vs ء.
+22. Huruf tertukar: ح vs ه.
+23. Huruf tertukar: ق vs ك.
+24. Huruf tertukar: ص vs س.
+25. Harakat: fathah, kasrah, dhammah, sukun, one word each.
+26. Kata serapan: kitab, kursi, kamus (Indonesian side checked in KBBI, Arabic side in Almaany).
+27. Kata serapan: kata yang artinya bergeser (e.g. a word whose Indonesian meaning differs from fusha).
+28. Kuis: tebak arti dari pola ma-…-ah.
+29. Kuis: pilih harakat yang benar (two vowelled forms, one wrong).
+30. Dialek Saudi #1 (side series): one everyday dialect word next to its fusha form, both labelled.
+
 ---
 
-## 12. Shared rules
+## 13. 🏮 Kosakata Mandarin
+
+**Tagline:** *Mandarin dari nol, satu kata satu nada.*
+A faceless account teaching standard Mandarin to Indonesian absolute beginners, roughly HSK 1–2: one word, one tone rule, one character part or one phrase per post. Simplified characters, pinyin with tone marks. A sibling of Kosakata Inggris and Kamus Kecil.
+It should feel like "oh, so 不 isn't always bù", never like a cram school or a test.
+**Not yet postable:** hanzi render in a system font (not allowed by the font gate) and pinyin tone marks only render in the `ipa:` field (see Open items). The account launches a few weeks after Kosakata Arab, once `lexicon/hanzi` ships.
+
+| | |
+|---|---|
+| Purpose | Make beginner Mandarin approachable, tones first |
+| Audience | Indonesian absolute beginners: students, workers at Chinese companies, travellers, people curious about the Hokkien words in Indonesian |
+| Reader should think | "I can say this today, with the right tone." |
+| Primary action | Save, then comment the practice line in pinyin |
+| Tone | Friendly, encouraging, a little playful; tones are hard for everyone |
+| Voice | "Belajar bareng": the owner is learning Mandarin too |
+| Slide types | `cover`, `word`, `table`, `compare`, `card`, `end` |
+
+### Scope
+
+- **Standard Mandarin, simplified characters, pinyin with tone marks**, roughly HSK 1–2.
+- **No politics**: no current affairs, no territorial or government topics, no comparisons between countries.
+- Carousels first. Pronunciation videos (voice only, native audio or native-checked, **never text-to-speech**) are a later phase; tones are where audio will matter most.
+
+### Pillars
+
+1. **Kata hari ini #N**: hanzi, pinyin, meaning, an example sentence with pinyin and translation.
+2. **Nada**: the 4 tones and the neutral tone, and the written tone changes of 不 (bù → bú before a 4th tone) and 一.
+3. **Bongkar hanzi**: character components with real examples (氵 shuǐ, the water radical, in 河 hé "sungai" and 喝 hē "minum"; 口 kǒu "mulut" in 吃 chī "makan" and 喝 hē). Standard analyses only.
+4. **Ungkapan sehari-hari**: greetings, numbers, bargaining, ordering food.
+5. **Kata bantu bilangan**: 个 gè, 本 běn (books), 张 zhāng (flat things), 杯 bēi (cups)… one per deck with 3–5 nouns.
+6. **Tata bahasa dasar**: 是 shì, 吗 ma, 了 le, 的 de, basic word order. One point per deck.
+7. **Kata Hokkien dalam bahasa Indonesia**: crossover with Kamus Kecil. Every etymology checked (KBBI label + a scholarly source such as Jones, *Loan-Words in Indonesian and Malay*); say "Hokkien", not "Mandarin", when the source says so.
+8. **Kuis**: pick the tone, pick the classifier, read the pinyin.
+
+### Accuracy rules (non-negotiable)
+
+- **Never write hanzi or pinyin from memory.** Check every hanzi, pinyin and meaning against **CC-CEDICT** or **MDBG**, and list the source per word in the reply before the deck.
+- **Run the checker before posting:** `npm run check:cedict -- <deck.txt>` checks every `[word]` (`word:` + `ipa:`) and every table with `Hanzi` and `Pinyin` columns against the CC-CEDICT data file, accepts the written tone changes of 不 and 一, flags traditional characters and unknown characters in examples, and prints the English definitions to compare with the Indonesian meaning. Setup is in `scripts/check-cedict.ts`. `ok~` means no whole-word entry (e.g. 一天), but every character's reading matches: still check it by eye.
+- **Tone marks always**, never tone numbers on slides (`xièxie`, not `xie4xie5`).
+- **Character components:** standard analyses only (radical names and meanings from a dictionary). No folk etymology, no "this character is a picture of…" unless a standard reference says so.
+- **A native-speaker spot-check is recommended**, and strongly so for the first 20 posts. Mark anything uncertain in the reply and leave it out.
+
+### Writing rules
+
+- Explanations in Indonesian (`lang: id`), relaxed: `kamu`, `kita`. Grammar terms in Indonesian (nada, kata bantu bilangan), with the Mandarin term once.
+- Hanzi in `word:` and table cells; **pinyin in `ipa:`** (the only field drawn in a face with every tone mark today); meaning in `meaning:`. Don't put pinyin with ā, ǎ, ǐ, ǒ, ǔ, ǚ in other fields until `lexicon/hanzi` ships.
+- No `say:` respelling: Indonesian spelling misleads on tones and on sounds like x, q, zh. Pinyin is the pronunciation guide.
+- One word or one point per deck; tables ≤ 8 rows. Example sentences short and everyday (makan, beli, kenalan).
+
+### Deck recipe
+
+- **Template:** `lexicon/hanzi` once it exists (proposed in Open items). Until then nothing is posted; example decks use `lexicon/notebook` as a placeholder header so they parse.
+- **Kata hari ini:** cover (kicker `KATA HARI INI · #N`) → `[word]` (hanzi, `ipa:` pinyin, `meaning:`, `example:` + `translation:`, `note:` with the source) → one more `[word]` or a `[table]` → `[card]` kuis → `[card]` jawaban → end.
+- **Nada:** cover → `[table]` (`| Hanzi | Pinyin | Arti |`, ≤ 8 rows, the rule shown on real words) → `[card]` kuis → `[card]` jawaban → end.
+- **Kata bantu bilangan:** cover → `[word]` the classifier → `[table]` 3–5 nouns with it → `[compare]` (`wrong-label: Salah` / `right-label: Benar`) the common mistake → end.
+- **End:** `[end cta="Simpan"]`, always a practice prompt for the comments in pinyin with tones ("Tulis 'terima kasih' dan 'sama-sama' pakai pinyin.").
+- **Length:** 6–10 slides.
+- **Caption:** one line + `Sumber: CC-CEDICT` (or MDBG) + 2–4 hashtags (`#belajarmandarin`, `#bahasamandarin`, `#hsk1`, `#mandarinpemula`).
+
+Checked for the example (Oct 2026, `npm run check:cedict` against CC-CEDICT, 2026-10-14 file): 谢谢 xièxie ✓ · 不客气 bú kèqi ✓ (CC-CEDICT lists bù kèqi; bú is the written tone change before kè, 4th tone) · 不是 bú shì ✓ · 不对 bú duì ✓ · 不好 bù hǎo ✓ · 不吃 bù chī (no whole-word entry; each character matches) · 不要 bú yào (CC-CEDICT bù yào, 要 yào 4th tone). The example sentences 谢谢你！ and 谢谢！不客气。 use only these words plus 你 nǐ; native check recommended.
+
+```text
+template: lexicon/notebook
+lang: id
+title: terima kasih dan sama-sama
+caption: Terima kasih dan sama-sama dalam bahasa Mandarin, plus satu aturan nada yang sering kelewat. Sumber: CC-CEDICT · MDBG #belajarmandarin #bahasamandarin #hsk1
+---
+[cover kicker="KATA HARI INI · #1"]
+Bilang *terima kasih* | dalam bahasa Mandarin
+Plus jawabannya, dan kenapa 不 di sini dibaca bú.
+---
+[word]
+pos: ungkapan
+tag: HSK 1
+word: 谢谢
+ipa: xièxie
+meaning: terima kasih
+example: 谢谢你！
+translation: Terima kasih (ke kamu)!
+note: 谢 kedua bernada netral: pendek dan ringan. Sumber: CC-CEDICT
+---
+[word]
+pos: ungkapan
+tag: HSK 1
+word: 不客气
+ipa: bú kèqi
+meaning: sama-sama; jangan sungkan
+example: 谢谢！不客气。
+translation: Terima kasih! Sama-sama.
+note: 不 aslinya bù, berubah jadi bú karena 客 kè bernada 4. Sumber: CC-CEDICT
+---
+[table]
+不 sebelum *nada 4* jadi bú
+| Hanzi | Pinyin | Arti |
+| 不是 | bú shì | bukan |
+| 不对 | bú duì | salah, tidak benar |
+| 不好 | bù hǎo | tidak baik |
+| 不吃 | bù chī | tidak makan |
+Nada 1, 2, 3: tetap bù.
+---
+[card kicker="Kuis" number=off icon=none]
+不要 dibaca *bù yào* atau *bú yào?*
+Petunjuk: 要 yào bernada 4. Jawab di komen dulu, baru geser.
+---
+[card kicker="Jawaban" number=off icon=none]
+*bú yào*
+Nada 4 bertemu nada 4: 不 naik jadi bú.
+---
+[end cta="Simpan"]
+Balas pakai *pinyin dan nadanya*
+Tulis "terima kasih" dan "sama-sama" di komen. Kita koreksi bareng.
+```
+
+(Example only: it parses and passes `check:cedict`, but don't post it until `lexicon/hanzi` ships: the hanzi would render in a system font, and `bù hǎo` in the table needs a face with ǎ.)
+
+### Starter list (30 ideas)
+
+1. Kata hari ini #1: 谢谢 xièxie / 不客气 bú kèqi (the example).
+2. Kata hari ini: 你好 nǐ hǎo, and when people actually say it.
+3. Kata hari ini: 再见 zàijiàn.
+4. Kata hari ini: 我 wǒ, 你 nǐ, 他/她 tā (one sound, two characters).
+5. Kata hari ini: 茶 chá (and ordering it).
+6. Kata hari ini: 人 rén.
+7. Nada #1: the four tones on one syllable (ma), with real words only.
+8. Nada #2: the neutral tone (谢谢, 吗 ma, 的 de).
+9. Nada #3: 不 bù → bú before a 4th tone.
+10. Nada #4: 一 yī → yí / yì.
+11. Nada #5: 3rd tone + 3rd tone (你好), the tone change speakers make but pinyin doesn't write.
+12. Bongkar hanzi: 氵 water radical in 河 hé and 喝 hē.
+13. Bongkar hanzi: 口 mouth in 吃 chī, 喝 hē.
+14. Bongkar hanzi: 人 person as a component.
+15. Bongkar hanzi: 女 nǚ woman as a component (好 hǎo), standard analysis only.
+16. Ungkapan: angka 1–10.
+17. Ungkapan: 多少钱 duōshao qián, menawar harga.
+18. Ungkapan: memesan makanan.
+19. Ungkapan: memperkenalkan diri (nama, asal).
+20. Kata bantu bilangan: 个 gè, the default classifier.
+21. Kata bantu bilangan: 本 běn for books.
+22. Kata bantu bilangan: 张 zhāng for flat things.
+23. Kata bantu bilangan: 杯 bēi for cups and glasses.
+24. Tata bahasa: 是 shì, "adalah" (and when Mandarin doesn't use it).
+25. Tata bahasa: 吗 ma, turning a sentence into a yes/no question.
+26. Tata bahasa: 的 de, punya.
+27. Tata bahasa: 了 le, the basic completed-action use (one use only).
+28. Kata Hokkien dalam bahasa Indonesia #1: words like loteng or bakmi (each etymology verified; label Hokkien, not Mandarin).
+29. Kuis: pick the classifier.
+30. Kuis: pick the tone (two pinyin spellings, one right).
+
+---
+
+## 14. Shared rules
 
 ### Standards from the Oct 2026 account reviews (every account, every new deck)
 
@@ -1314,7 +1611,7 @@ Eight accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Keci
 5. **The end line is specific to the post** (or the deck type) and is never the same on two consecutive posts. The CTA label names the action (`cta="Kirim ke dia"`), not a generic "Simpan • Bagikan".
 6. **Search words:** put the phrase people type ("ayat penenang hati", "kata indah bahasa indonesia") in the cover kicker or subtitle and in the caption's first line; hashtags that match searches beat huge generic ones.
 7. **Series beat one-offs:** when a format works, number it in the kicker ("KATA INDAH #2", "POJOK BULU TANGKIS #3") and post the next one within the week.
-8. **One look per account:** each account has its own template family (Ruang Rasa `editorial/ruang-*`, Whistle Notes `sport/*`, Ayat Harian `serene/*`, Kamus Kecil `lexicon/kamus`, SKD Harian `lexicon/lembar`, Jago Kantoran `dev/sheet`…). Text-first; photos only when they add something.
+8. **One look per account:** each account has its own template family (Ruang Rasa `editorial/ruang-*`, Whistle Notes `sport/*`, Ayat Harian `serene/*`, Kamus Kecil `lexicon/kamus`, SKD Harian `lexicon/lembar`, Jago Kantoran `dev/sheet`, and soon Kosakata Arab `lexicon/arab`, Kosakata Mandarin `lexicon/hanzi`…). Text-first; photos only when they add something.
 9. **Formats rotate:** never the same format twice in a row on one account.
 10. **Before shipping, render it and look:** zero warnings, no word broken mid-word (reword with shorter words), every claim backed by the account's sources.
 
@@ -1330,7 +1627,7 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - When asked for many posts at once, vary pillar, template and opening hook across them.
 - **Hooks (owner, Oct 2026):** the cover is the hook. Make it concrete and specific (a number, a name, a surprising true fact, a situation the viewer recognises), not a topic label. The caption's first line adds to the hook instead of summarising the deck. The hook must still be true and backed by the deck: no clickbait, and keep each account's tone (Ayat Harian stays calm; Ruang Rasa stays gentle).
 - **Re-uploading a deleted post:** rewrite the cover, caption, title and the wording of every slide, and change the order where it still reads well, so it isn't flagged as the same content. Keep the facts, sources and photos (photo choice and order may change).
-- **Fact accounts** (Sejarah Nusantara, Whistle Notes, Peta Angka, Kosakata Inggris, Kamus Kecil, Ayat Harian, Filsafat Harian, SKD Harian, Jago Kantoran): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
+- **Fact accounts** (Sejarah Nusantara, Whistle Notes, Peta Angka, Kosakata Inggris, Kamus Kecil, Ayat Harian, Filsafat Harian, SKD Harian, Jago Kantoran, Kosakata Arab, Kosakata Mandarin): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
   - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
   - No source manifest or source list in the reply is needed for images. Just pick a fitting free image.
@@ -1338,9 +1635,9 @@ When asked for "N posts" for an account: read its section, pick formats from its
   - Images for sample decks are bundled with the app: save a downscaled JPEG to `src/samples/photos/<photo-id>.jpg` (it fills 1080×1920; wide images cropped to ≤ 2160 px wide), reference it with `photo=<photo-id>`, and set a focal point in `src/samples/photos.ts` if the subject isn't centred. Loading the sample adds it to the photo tray automatically.
 - Out of scope for this app: screen recordings, video demos. Only photo carousels.
 
-## 13. Open items
+## 15. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all eleven handles, put `handle:` in every deck header.
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all thirteen handles, put `handle:` in every deck header.
 - **`editorial/stone` variant (Filsafat Harian): shipped (Oct 2026).** A tokens-only variant in the editorial family: warm stone, charcoal, terracotta. Blobs off since the Oct 2026 review. Serif `Playfair Display`, sans `DM Sans`. Rotation `['stone', 'stone', 'slate']`. Tokens (contrast-checked):
 
   | Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |
@@ -1360,3 +1657,10 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - **`lexicon/lembar` (SKD Harian) and `dev/sheet` (Jago Kantoran): shipped (Oct 2026).** Built for these accounts, plus `excel` formula colouring in code blocks and the `[sheet]` slide (PRD §4.10), a mini spreadsheet for Jago Kantoran's formula steps (see `docs/decisions.md`).
 - **Image-question slide (proposed, SKD Harian).** Figural TIU questions (pattern series, rotations, mirror images) need a question image drawn or shown uncropped with options A–E under it. This overlaps the proposed `figure` slide; until one exists, SKD Harian posts no figural questions.
 - **Difficulty badge (SKD Harian).** No attribute exists for a difficulty badge; the difficulty goes in each question card's kicker (`Soal 3 · Sedang`). A real badge would need a PRD change.
+- **Kosakata Arab and Kosakata Mandarin launch after script support lands.** Launch order: Kosakata Arab first, Kosakata Mandarin a few weeks later (device and account limits). Until each variant ships, neither account posts: a deck without the script (transliteration or pinyin only) would teach the wrong habit, and a deck with it renders badly or in a system font today. Write and check decks in the meantime; they wait in the Queue.
+- **`lexicon/arab` variant (proposed, Kosakata Arab).** Tested Oct 2026: Arabic in `[word]`/`[table]` already draws in Amiri (the font stack falls back to it and the gate loads it for every variant), but the harakat collide with the line below the headword, Arabic is left-aligned instead of right-to-left, table cells draw it too small for the harakat, and mixed lines ("Akar ك-ت-ب") depend on bidi reordering. Needed: right-aligned RTL headword, example and Arabic table column; Amiri (SPEC-ayah, M8) at a size and line height that leave room for harakat; the `arabic-too-long` style blocking check reused for word slides; a paper palette of its own.
+- **`lexicon/hanzi` variant (proposed, Kosakata Mandarin).** Needs: (1) a Chinese font (e.g. Noto Sans SC, OFL) bundled and **subset to the characters the decks use**, gated like every other face; (2) pinyin with every tone mark in every field: today only `ipa:` is drawn in a face with ā ǎ ǐ ǒ ǔ ǚ (Gentium Book Plus); `example:`, `translation:`, `note:` and table cells use the variant's Latin subset, which lacks them; (3) a large hanzi headword with pinyin above or below it.
+- **Missing-glyph check for CJK (bug, found Oct 2026).** Hanzi in a `[word]` slide rendered in the system font (PingFang) with **no warning**, which breaks the "never export with fallback fonts" rule. Proposed: a blocking `glyph-missing` warning when a slide contains characters no gated face covers (like `ipa-glyph-missing`, for every field and table cell).
+- **`check:cedict` (shipped, Oct 2026).** `npm run check:cedict -- <deck.txt>` validates hanzi and pinyin against CC-CEDICT (data file not committed: CC BY-SA 4.0; download steps in the script). There is no equivalent for Arabic: Almaany blocks scripted requests and Hans Wehr isn't online, so Arabic harakat stay a manual check (plus Wiktionary as a scripted cross-check).
+- **Pronunciation videos (later phase, both language accounts).** Voice only, native audio or native-checked, never text-to-speech. Out of scope for this app (photo carousels only).
+
