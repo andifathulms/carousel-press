@@ -49,6 +49,8 @@ export interface Deco {
   notebookRight?: boolean;
   /** Lexicon: a small rounded accent square top-right, with no characters in it (lexicon/hanzi). */
   seal?: boolean;
+  /** Cover/end (deep surface) pattern: an 8-fold star lattice (lexicon/arab) or gold 回纹 fret bands (lexicon/hanzi). */
+  coverPattern?: 'girih' | 'huiwen';
   /** Lexicon: large faint glyph off the bottom-right corner. */
   cornerGlyph?: string;
   /** Faint ruled grid: spreadsheet cells (dev/sheet) or square exam paper (lexicon/lembar). */

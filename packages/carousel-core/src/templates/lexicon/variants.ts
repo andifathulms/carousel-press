@@ -87,15 +87,16 @@ export const arab: Variant = {
   surfaces: {
     paper: S('#F7F3EA', '#1C2230', '#364052', '#646A7A', '#1F4E8C', '#1F4E8C', '#FFFFFF', '#F7F3EA', '#1F4E8C', '#ECE5D6'),
     'paper-alt': S('#EFE8DA', '#1C2230', '#343E50', '#5E6474', '#1D4A85', '#1F4E8C', '#FFFFFF', '#EFE8DA', '#1F4E8C', '#E4DCCB'),
-    deep: S('#142338', '#F7F3EA', '#D6DCE6', '#A2ACBC', '#E9B872', '#E9B872', '#142338', '#142338', '#E9B872', '#1F3150'),
+    // Cover and end (owner, Oct 2026): jewel emerald with antique gold, brighter and more saturated than serene/fajr's muted green.
+    deep: S('#08603E', '#FBF6E8', '#E2EEE6', '#B9D6C6', '#F2CF7E', '#F2CF7E', '#08603E', '#08603E', '#F2CF7E', '#0B704A'),
   },
   rotation: ['paper', 'paper-alt'],
   onPhoto: { ...onPhotoBase, accent: '#F2D59B', badgeBg: '#E9B872', badgeInk: '#142338', tint: '#0B1220' },
   code: paperCode,
-  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, notebookRight: true },
-  swatches: ['#F7F3EA', '#1F4E8C', '#A3402A', '#1C2230'],
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, notebookRight: true, coverPattern: 'girih' },
+  swatches: ['#08603E', '#F2CF7E', '#F7F3EA', '#1F4E8C'],
   lex: { rule: '#DDD3C0', highlight: '#F2D59B', okBg: '#E3EEDB', okInk: '#2E5A2A', badBg: '#F6DCD8', badInk: '#8E1F17', root: '#A3402A' },
-  lexSurfaces: { 'paper-alt': { root: '#9C3D28' }, deep: { root: '#F2A285' } },
+  lexSurfaces: { 'paper-alt': { root: '#9C3D28' }, deep: { root: '#FFD7A0' } },
 };
 
 /** Kosakata Mandarin (SPEC-script §10.2): rice paper, black ink, vermilion, practice grids. Tokens verbatim. */
@@ -107,20 +108,22 @@ export const hanzi: Variant = {
   surfaces: {
     paper: S('#FAF6EE', '#1A1A1A', '#333333', '#6B6B6B', '#B03020', '#B8321F', '#FFFFFF', '#FAF6EE', '#B03020', '#EFE8DA'),
     'paper-alt': S('#F3EDE1', '#1A1A1A', '#313131', '#666462', '#AA2E1E', '#B8321F', '#FFFFFF', '#F3EDE1', '#AA2E1E', '#E8E0D0'),
-    deep: S('#1E1A17', '#FAF6EE', '#DDD6CC', '#ADA59A', '#F07A63', '#F07A63', '#1E1A17', '#1E1A17', '#F07A63', '#2C2622'),
+    // Cover and end (owner, Oct 2026): crimson 中国红 with imperial gold, cooler than the brick/vermilion accents elsewhere.
+    deep: S('#B80F2A', '#FFF6E3', '#FBE3D3', '#F7C9B9', '#FFD77A', '#FFD77A', '#8E0A20', '#B80F2A', '#FFD77A', '#A00D24'),
   },
   rotation: ['paper', 'paper-alt'],
   onPhoto: { ...onPhotoBase, accent: '#F6D7A7', badgeBg: '#F07A63', badgeInk: '#1E1A17', tint: '#120F0D' },
   code: paperCode,
-  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, seal: true },
-  swatches: ['#FAF6EE', '#B03020', '#1A1A1A', '#F6D7A7'],
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, seal: true, coverPattern: 'huiwen' },
+  swatches: ['#B80F2A', '#FFD77A', '#FAF6EE', '#1A1A1A'],
   lex: {
     rule: '#E2D9C8', highlight: '#F6D7A7', okBg: '#E3EEDB', okInk: '#2E5A2A', badBg: '#F6DCD8', badInk: '#8E1F17',
     grid: '#E6C3BA', tones: ['#C62828', '#2E7D32', '#1565C0', '#7B1FA2', '#616161'],
   },
   lexSurfaces: {
     'paper-alt': { tones: ['#C02626', '#2B762F', '#1460B8', '#761D9C', '#5C5C5C'] },
-    deep: { grid: '#4A3A33', tones: ['#FF8A80', '#81C784', '#64B5F6', '#CE93D8', '#BDBDBD'] },
+    // Light tints on the crimson cover (tone 1 is gold there: a red tone can't read on red).
+    deep: { grid: '#D9475C', tones: ['#FFF0B0', '#D6F5D0', '#D3E7FF', '#F6D9FF', '#F2E6DA'] },
   },
 };
 
