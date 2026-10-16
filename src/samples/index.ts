@@ -113,6 +113,7 @@ import b2DevTebakOutput2Id from './dev-tebak-output-2-id.txt?raw';
 import b2DevTerminalHarian1Id from './dev-terminal-harian-1-id.txt?raw';
 import b2EditorialAnakRantauId from './editorial-anak-rantau-id.txt?raw';
 import b2EditorialMingguMalamId from './editorial-minggu-malam-id.txt?raw';
+import editorialGantiKalimatRumahId from './editorial-ganti-kalimat-rumah-id.txt?raw';
 import b2EditorialPilihSatuTidurId from './editorial-pilih-satu-tidur-id.txt?raw';
 import b2EditorialTemanBerdukaId from './editorial-teman-berduka-id.txt?raw';
 import b2EditorialTemanKosId from './editorial-teman-kos-id.txt?raw';
@@ -316,6 +317,7 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-terminal-harian-1-id', name: 'Terminal harian 1 curl (dev, id)', category: 'dev', text: b2DevTerminalHarian1Id },
   { id: 'editorial-anak-rantau-id', name: 'Hal kecil anak rantau (Ruang Rasa, id)', category: 'relationships', text: b2EditorialAnakRantauId },
   { id: 'editorial-minggu-malam-id', name: 'Minggu malam, kamu yang mana (Ruang Rasa, id)', category: 'relationships', text: b2EditorialMingguMalamId },
+  { id: 'editorial-ganti-kalimat-rumah-id', name: 'Ruang Rasa · Ganti Kalimatnya #1: orang rumah (daun)', category: 'relationships', text: editorialGantiKalimatRumahId },
   { id: 'editorial-pilih-satu-tidur-id', name: 'Pilih satu versi jam tidur (Ruang Rasa, id)', category: 'relationships', text: b2EditorialPilihSatuTidurId },
   { id: 'editorial-teman-berduka-id', name: 'Pesan buat teman yang berduka (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanBerdukaId },
   { id: 'editorial-teman-kos-id', name: 'Artinya kalimat teman kos (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanKosId },
