@@ -141,6 +141,28 @@ import kantorXlookupId from './kantor-xlookup-id.txt?raw';
 import lexiconArabKitab from './lexicon-arab-kitab.txt?raw';
 import lexiconHanziXiexie from './lexicon-hanzi-xiexie.txt?raw';
 
+// October 2026 batch 3: Jago Kantoran, SKD Harian, Kosakata Arab, Kosakata Mandarin
+import b3KantorNaSpasiId from './kantor-na-spasi-id.txt?raw';
+import b3KantorSumifsId from './kantor-sumifs-id.txt?raw';
+import b3KantorNomorHalamanId from './kantor-nomor-halaman-id.txt?raw';
+import b3KantorCcBccId from './kantor-cc-bcc-id.txt?raw';
+import b3KantorKuisCountId from './kantor-kuis-count-id.txt?raw';
+import b3SkdDeretAngka5SoalId from './skd-deret-angka-5-soal-id.txt?raw';
+import b3SkdKerjaBersama5SoalId from './skd-kerja-bersama-5-soal-id.txt?raw';
+import b3SkdDiskonBertingkat5SoalId from './skd-diskon-bertingkat-5-soal-id.txt?raw';
+import b3SkdStrategiJebakanSoalCeritaId from './skd-strategi-jebakan-soal-cerita-id.txt?raw';
+import b3SkdTkpTugasJamPulangId from './skd-tkp-tugas-jam-pulang-id.txt?raw';
+import b3LexiconArabAkarDarasa from './lexicon-arab-akar-darasa.txt?raw';
+import b3LexiconArabSalamKenalan from './lexicon-arab-salam-kenalan.txt?raw';
+import b3LexiconArabHadzaHadzihi from './lexicon-arab-hadza-hadzihi.txt?raw';
+import b3LexiconArabAinHamzah from './lexicon-arab-ain-hamzah.txt?raw';
+import b3LexiconArabKataHariIniShadiq from './lexicon-arab-kata-hari-ini-shadiq.txt?raw';
+import b3LexiconHanziNadaBu from './lexicon-hanzi-nada-bu.txt?raw';
+import b3LexiconHanziKataBantuBei from './lexicon-hanzi-kata-bantu-bei.txt?raw';
+import b3LexiconHanziDuoshaoQian from './lexicon-hanzi-duoshao-qian.txt?raw';
+import b3LexiconHanziMa from './lexicon-hanzi-ma.txt?raw';
+import b3LexiconHanziBongkarKou from './lexicon-hanzi-bongkar-kou.txt?raw';
+
 /** Topic group in the library; roughly one per account (docs/channels.md). */
 export type SampleCategory = 'relationships' | 'dev' | 'history' | 'sports' | 'english' | 'indonesian' | 'ayat' | 'philosophy' | 'exam' | 'office' | 'arabic' | 'mandarin' | 'travel';
 
@@ -324,4 +346,25 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-arab-kitab', name: 'Akar kata ك-ت-ب (Kosakata Arab, id)', category: 'arabic', text: lexiconArabKitab },
   // Kosakata Mandarin (SPEC-script §12), Oct 2026
   { id: 'lexicon-hanzi-xiexie', name: 'Terima kasih dan sama-sama (Kosakata Mandarin, id)', category: 'mandarin', text: lexiconHanziXiexie },
+  // October 2026 batch 3
+  { id: 'kantor-na-spasi-id', name: '#N/A padahal datanya ada (Jago Kantoran, id)', category: 'office', text: b3KantorNaSpasiId },
+  { id: 'kantor-sumifs-id', name: 'SUMIFS dan COUNTIFS rekap gaji (Jago Kantoran, id)', category: 'office', text: b3KantorSumifsId },
+  { id: 'kantor-nomor-halaman-id', name: 'Nomor halaman mulai halaman 3 (Jago Kantoran, id)', category: 'office', text: b3KantorNomorHalamanId },
+  { id: 'kantor-cc-bcc-id', name: 'CC vs BCC (Jago Kantoran, id)', category: 'office', text: b3KantorCcBccId },
+  { id: 'kantor-kuis-count-id', name: 'Kuis COUNT, COUNTA, AVERAGE (Jago Kantoran, id)', category: 'office', text: b3KantorKuisCountId },
+  { id: 'skd-deret-angka-5-soal-id', name: 'Deret angka 5 soal (SKD Harian, id)', category: 'exam', text: b3SkdDeretAngka5SoalId },
+  { id: 'skd-kerja-bersama-5-soal-id', name: 'Kerja bersama 5 soal (SKD Harian, id)', category: 'exam', text: b3SkdKerjaBersama5SoalId },
+  { id: 'skd-diskon-bertingkat-5-soal-id', name: 'Persen dan diskon bertingkat 5 soal (SKD Harian, id)', category: 'exam', text: b3SkdDiskonBertingkat5SoalId },
+  { id: 'skd-strategi-jebakan-soal-cerita-id', name: 'Strategi 5 jebakan soal cerita (SKD Harian, id)', category: 'exam', text: b3SkdStrategiJebakanSoalCeritaId },
+  { id: 'skd-tkp-tugas-jam-pulang-id', name: 'TKP tugas mendadak jam pulang (SKD Harian, id)', category: 'exam', text: b3SkdTkpTugasJamPulangId },
+  { id: 'lexicon-arab-akar-darasa', name: 'Akar kata د-ر-س (Kosakata Arab, id)', category: 'arabic', text: b3LexiconArabAkarDarasa },
+  { id: 'lexicon-arab-salam-kenalan', name: 'Ungkapan salam dan kenalan (Kosakata Arab, id)', category: 'arabic', text: b3LexiconArabSalamKenalan },
+  { id: 'lexicon-arab-hadza-hadzihi', name: 'Hadza dan hadzihi (Kosakata Arab, id)', category: 'arabic', text: b3LexiconArabHadzaHadzihi },
+  { id: 'lexicon-arab-ain-hamzah', name: 'Huruf ain dan hamzah (Kosakata Arab, id)', category: 'arabic', text: b3LexiconArabAinHamzah },
+  { id: 'lexicon-arab-kata-hari-ini-shadiq', name: 'Kata hari ini shadiq (Kosakata Arab, id)', category: 'arabic', text: b3LexiconArabKataHariIniShadiq },
+  { id: 'lexicon-hanzi-nada-bu', name: 'Nada 不 bù dan bú (Kosakata Mandarin, id)', category: 'mandarin', text: b3LexiconHanziNadaBu },
+  { id: 'lexicon-hanzi-kata-bantu-bei', name: 'Kata bantu bilangan 杯 bēi (Kosakata Mandarin, id)', category: 'mandarin', text: b3LexiconHanziKataBantuBei },
+  { id: 'lexicon-hanzi-duoshao-qian', name: '多少钱 berapa harganya (Kosakata Mandarin, id)', category: 'mandarin', text: b3LexiconHanziDuoshaoQian },
+  { id: 'lexicon-hanzi-ma', name: 'Pertanyaan dengan 吗 ma (Kosakata Mandarin, id)', category: 'mandarin', text: b3LexiconHanziMa },
+  { id: 'lexicon-hanzi-bongkar-kou', name: 'Bongkar hanzi 口 kǒu (Kosakata Mandarin, id)', category: 'mandarin', text: b3LexiconHanziBongkarKou },
 ];
