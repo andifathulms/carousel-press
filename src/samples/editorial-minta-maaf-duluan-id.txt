@@ -1,0 +1,35 @@
+template: editorial/ruang-bata
+lang: id
+title: minta maaf duluan ke pasangan
+caption: Habis berantem, dua-duanya nunggu. Yang minta maaf duluan bukan yang kalah 🤍 Kata-kata minta maaf ke pacar atau pasangan, tinggal kirim satu. Kamu kirim nomor berapa? #mintamaaf #pasangan #habisberantem
+---
+[cover kicker="RUANG RASA · HABIS BERANTEM"]
+Udah dua hari diem-dieman. *Dua-duanya nunggu yang duluan.*
+5 kata-kata minta maaf ke pacar, tanpa nunggu gengsinya turun.
+---
+[number=off icon=none]
+Aku kangen ngobrol sama kamu, *walau kita belum beres.*
+---
+[number=off icon=none]
+Maaf ya, kemarin *nadaku nggak enak.*
+Kamu nggak salah ngerasa kesel.
+---
+[number=off icon=none]
+Aku masih mikirin omonganmu. *Kayaknya kamu ada benarnya.*
+---
+[number=off icon=none]
+Kita bahas pelan-pelan, *pas kamu udah siap.*
+Aku tunggu. Nggak ke mana-mana.
+---
+[number=off icon=none]
+Aku lebih milih *kita baikan* daripada aku yang menang.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Sebut yang kamu sesali, satu aja.
+Jangan pakai “tapi” sesudah maaf.
+Kirim, terus kasih dia waktu.
+---
+[end cta="Kirim ke dia"]
+Kamu kirim *nomor berapa?*
+Komen angkanya, 1 sampai 5. Gengsinya ditaruh dulu.

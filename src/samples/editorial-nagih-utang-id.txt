@@ -1,0 +1,36 @@
+template: editorial/ruang-kunyit
+lang: id
+title: nagih utang ke teman
+caption: Yang minjem lupa, yang minjemin sungkan. Ini cara nagih utang ke teman tanpa bikin pertemanan canggung 🤍 Udah berapa bulan? #nagihutang #temanan #sungkan
+---
+[cover kicker="RUANG RASA · NAGIH UTANG"]
+Dia yang minjem. *Kok aku yang sungkan nagih?*
+5 cara nagih utang ke teman. Sopan, jelas, pertemanannya aman.
+---
+[number=off icon=none]
+Eh, yang kemarin *bisa ditransfer minggu ini?*
+Aku lagi ngerapihin keuangan bulan ini.
+---
+[number=off icon=none]
+Yang aku pinjemin kemarin, *dicicil juga nggak apa-apa.*
+Aku lagi butuh buat bayar kos.
+---
+[number=off icon=none]
+Biar aku nggak lupa juga: *kira-kira bisa balikin tanggal berapa?*
+---
+[number=off icon=none]
+Aku nggak mau uang bikin kita canggung. *Makanya aku tanya sekarang.*
+---
+[number=off icon=none]
+Kalau lagi susah, *bilang aja.* Kita atur bareng.
+Yang penting aku tahu kabarnya.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Sebut nominal dan tanggalnya.
+Tagih lewat japri, jangan di grup.
+Minta tanggal, bukan “kapan-kapan”.
+---
+[end cta="Kirim ke dia"]
+Utangnya *udah berapa bulan?*
+Komen angkanya. 0 kalau udah lunas, selamat.

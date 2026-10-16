@@ -1,0 +1,36 @@
+template: editorial/ruang-daun
+lang: id
+title: ucapan hari ibu
+caption: Ucapan hari ibu yang nggak kayak template. Screenshot satu, kirim ke Ibu, atau siapa pun yang jadi ibumu 🌿 Kamu manggil ibumu apa? #hariibu #ucapanhariibu #ibu
+---
+[cover kicker="RUANG RASA · HARI IBU"]
+Ibu nggak butuh puisi panjang. *Cukup tahu kamu ingat.*
+5 ucapan hari ibu yang pendek. Screenshot satu, kirim ke Ibu.
+---
+[number=off icon=none]
+Bu, makasih udah *nggak pernah capek nanya* aku udah makan atau belum.
+---
+[number=off icon=none]
+Aku baru ngerti sekarang, *dulu Ibu pasti capek banget.*
+Tapi Ibu nggak pernah bilang.
+---
+[number=off icon=none]
+Masakan Ibu *belum ada yang ngalahin.*
+Aku udah nyoba ke mana-mana.
+---
+[number=off icon=none]
+Maaf ya Bu, jarang bilang. *Aku sayang Ibu.*
+---
+[number=off icon=none]
+Hari ini *Ibu istirahat aja,* ya.
+Biar aku yang pesenin makan malam.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Ganti “Bu” jadi panggilanmu.
+Mama, Mamak, Umi, Bunda, Ambu.
+Telepon sesudahnya. Sebentar aja.
+---
+[end cta="Kirim ke Ibu"]
+Kamu manggil ibumu *apa?*
+Komen satu kata. Mama, Mamak, Umi, Bunda?

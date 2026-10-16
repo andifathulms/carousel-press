@@ -114,6 +114,10 @@ import b2DevTerminalHarian1Id from './dev-terminal-harian-1-id.txt?raw';
 import b2EditorialAnakRantauId from './editorial-anak-rantau-id.txt?raw';
 import b2EditorialMingguMalamId from './editorial-minggu-malam-id.txt?raw';
 import editorialGantiKalimatRumahId from './editorial-ganti-kalimat-rumah-id.txt?raw';
+import editorialMintaMaafDuluanId from './editorial-minta-maaf-duluan-id.txt?raw';
+import editorialKodeHtsId from './editorial-kode-hts-id.txt?raw';
+import editorialNagihUtangId from './editorial-nagih-utang-id.txt?raw';
+import editorialHariIbuId from './editorial-hari-ibu-id.txt?raw';
 import b2EditorialPilihSatuTidurId from './editorial-pilih-satu-tidur-id.txt?raw';
 import b2EditorialTemanBerdukaId from './editorial-teman-berduka-id.txt?raw';
 import b2EditorialTemanKosId from './editorial-teman-kos-id.txt?raw';
@@ -318,6 +322,10 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-anak-rantau-id', name: 'Hal kecil anak rantau (Ruang Rasa, id)', category: 'relationships', text: b2EditorialAnakRantauId },
   { id: 'editorial-minggu-malam-id', name: 'Minggu malam, kamu yang mana (Ruang Rasa, id)', category: 'relationships', text: b2EditorialMingguMalamId },
   { id: 'editorial-ganti-kalimat-rumah-id', name: 'Ruang Rasa · Ganti Kalimatnya #1: orang rumah (daun)', category: 'relationships', text: editorialGantiKalimatRumahId },
+  { id: 'editorial-minta-maaf-duluan-id', name: 'Ruang Rasa · Minta maaf duluan (bata)', category: 'relationships', text: editorialMintaMaafDuluanId },
+  { id: 'editorial-kode-hts-id', name: 'Ruang Rasa · Kode buat dia: HTS (bata)', category: 'relationships', text: editorialKodeHtsId },
+  { id: 'editorial-nagih-utang-id', name: 'Ruang Rasa · Nagih utang ke teman (kunyit)', category: 'relationships', text: editorialNagihUtangId },
+  { id: 'editorial-hari-ibu-id', name: 'Ruang Rasa · Ucapan hari ibu (daun)', category: 'relationships', text: editorialHariIbuId },
   { id: 'editorial-pilih-satu-tidur-id', name: 'Pilih satu versi jam tidur (Ruang Rasa, id)', category: 'relationships', text: b2EditorialPilihSatuTidurId },
   { id: 'editorial-teman-berduka-id', name: 'Pesan buat teman yang berduka (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanBerdukaId },
   { id: 'editorial-teman-kos-id', name: 'Artinya kalimat teman kos (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanKosId },

@@ -1,0 +1,27 @@
+template: editorial/ruang-bata
+lang: id
+title: kode buat dia, hts
+caption: Buat yang lagi HTS dan capek nebak-nebak. Repost, biar dia yang baca 🤍 Kode buat siapa? Inisialnya aja. #hts #kodebuatdia #gebetan
+---
+[cover kicker="RUANG RASA · KODE BUAT DIA"]
+Chat tiap hari, *tapi belum tahu kita ini apa.*
+5 kode buat yang lagi HTS. Repost, biar dia yang baca.
+---
+[number=off icon=none]
+Aku nggak butuh label besok. *Aku cuma pengen tahu arahnya.*
+---
+[number=off icon=none]
+Aku seneng ngobrol sama kamu. *Makanya aku pengen jelas.*
+---
+[number=off icon=none]
+Nebak-nebak itu capek, *walau nebak kamu itu seru.*
+---
+[number=off icon=none]
+Kalau buat kamu ini cuma iseng, *bilang aja.* Aku bisa terima.
+---
+[number=off icon=none]
+Apa pun jawabannya, *aku lebih tenang kalau tahu.*
+---
+[end cta="Repost buat dia"]
+Kode ini *buat siapa?*
+Komen inisialnya. Satu huruf aja.
