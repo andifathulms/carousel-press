@@ -1,0 +1,65 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: huruf ain dan hamzah
+caption: Amal itu harapan, ʿamal itu kerja: beda huruf ع dan ء di bahasa Arab. Sumber: Almaany #belajarbahasaarab #bahasaarab #hurufarab #arabpemula
+---
+[cover kicker="HURUF YANG SERING TERTUKAR · #1"]
+Harapan atau kerja?|*Beda satu huruf*
+ع ('ain) dan ء (hamzah) terdengar mirip buat telinga kita, tapi artinya bisa jauh beda.
+---
+[compare]
+headline: Mau bilang "kerja"
+wrong-label: ء hamzah
+right-label: ع 'ain
+wrong: أَمَل
+right: عَمَل
+why: أَمَل (amal) artinya harapan. Kerja itu عَمَل (ʿamal), dibuka dengan huruf ع.
+---
+[card kicker="Cara dengar bedanya" number=off]
+Hamzah itu *jeda*, 'ain itu *tekanan*.
+ء (hamzah): bunyi putus di tenggorokan, seperti jeda di kata "saat" (sa-at). ع ('ain): suara dari tengah tenggorokan yang ditekan. Bahasa Indonesia tidak punya bunyi ini, jadi latih pelan-pelan.
+---
+[table]
+Pasangan yang mirip
+| Arab | Baca | Arti |
+| عَمَل | ʿamal | kerja; perbuatan |
+| أَمَل | amal | harapan |
+| عَيْن | ʿayn | mata |
+| أَيْنَ | ayna | di mana? |
+| عَلَم | ʿalam | bendera; tanda |
+| أَلَم | alam | rasa sakit |
+| سَعَلَ | saʿala | batuk |
+| سَأَلَ | saʾala | bertanya |
+---
+[word]
+word: أَيْنَ
+translit: ayna
+say: "ai-na", dibuka dengan jeda hamzah
+pos: kata tanya
+tag: A1
+meaning: di mana?
+example: *أَيْنَ* أَنْتَ؟
+translation: Kamu di mana?
+note: Contoh kalimat: Wiktionary.
+---
+[word]
+word: عَيْن
+translit: ʿayn
+say: "ain", ditekan dari tenggorokan
+pos: isim · kata benda
+tag: A1
+root: ع ي ن
+pattern: فَعْل
+plural: عُيُون · ʿuyūn
+meaning: mata; juga mata air
+note: Termasuk muannats walau tanpa ة. Kata ini juga nama huruf ع.
+---
+[card kicker="Kuis" number=off]
+Mana yang artinya *dia bertanya?*
+A: سَعَلَ atau B: سَأَلَ. Yang satu lagi artinya batuk. Jawab A atau B di komen.
+---
+[end cta="Simpan"]
+Ucapkan ʿamal dan amal *bergantian.*
+Tulis di komen: lebih susah yang mana?

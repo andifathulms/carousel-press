@@ -1,0 +1,54 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: ungkapan salam dan kenalan
+caption: Salam, tanya kabar, kenalan sampai pamit dalam bahasa Arab, lengkap dengan balasannya. Sumber: Almaany #belajarbahasaarab #bahasaarab #kosakataarab #arabpemula
+---
+[cover kicker="UNGKAPAN SEHARI-HARI · #1"]
+Kenalan pakai|*bahasa Arab*
+Dari salam sampai pamit, lengkap dengan cara membalasnya.
+---
+[table]
+Salam dan balasannya
+| Arab | Baca | Arti |
+| السَّلَامُ عَلَيْكُمْ | as-salāmu ʿalaykum | salam |
+| وَعَلَيْكُمُ ٱلسَّلَامُ | wa-ʿalaykumus-salām | balasannya |
+| صَبَاح الخَيْر | ṣabāḥ al-khayr | selamat pagi |
+| صَبَاح النُّور | ṣabāḥ an-nūr | balasannya |
+| مَسَاء الخَيْر | masāʾ al-khayr | selamat sore |
+| أَهْلًا وَسَهْلًا | ahlan wa-sahlan | selamat datang |
+---
+[word]
+word: كَيْفَ حَالُكَ؟
+translit: kayfa ḥāluka
+say: "kai-fa haa-lu-ka", h-nya dari tenggorokan
+pos: ungkapan · tanya kabar
+tag: A1
+meaning: apa kabar? (ke laki-laki)
+note: Jawabannya: بِخَيْرٍ (bi-khayr), artinya baik.
+---
+[compare]
+headline: Tanya kabar ke perempuan
+wrong-label: Ke laki-laki
+right-label: Ke perempuan
+wrong: كَيْفَ حَالُكَ؟
+right: كَيْفَ حَالُكِ؟
+why: Cuma beda harakat terakhir. Ke laki-laki حَالُكَ (ḥāluka, fathah), ke perempuan حَالُكِ (ḥāluki, kasrah).
+---
+[table]
+Kenalan dan pamit
+| Arab | Baca | Arti |
+| اِسْمِي ... | ismī ... | nama saya ... |
+| تَشَرَّفْنَا | tasyarrafnā | senang berkenalan |
+| شُكْرًا | syukran | terima kasih |
+| عَفْوًا | ʿafwan | sama-sama |
+| مَعَ ٱلسَّلَامَةِ | maʿas-salāmah | sampai jumpa |
+---
+[card kicker="Latihan" number=off]
+Ada yang menyapamu *selamat pagi.*
+Dia bilang صَبَاح الخَيْر. Balasnya apa? Tulis di komen, huruf Arab atau latin boleh.
+---
+[end cta="Simpan"]
+Kenalkan dirimu pakai *ismī* di komen.
+Contoh: ismī Rina.

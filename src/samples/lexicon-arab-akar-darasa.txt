@@ -1,0 +1,60 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: akar kata د-ر-س
+caption: Madrasah, guru dan pelajaran ternyata satu akar: د-ر-س. Sumber: Almaany #belajarbahasaarab #bahasaarab #kosakataarab #arabpemula
+---
+[cover kicker="AKAR KATA · #2"]
+Sekolah dan guru,|*satu akar*
+Akar د-ر-س artinya belajar. Dari tiga huruf ini lahir enam kata.
+---
+[table]
+Keluarga akar د-ر-س
+| Arab | Baca | Arti |
+| دَرَسَ | darasa | belajar |
+| دَرَّسَ | darrasa | mengajar |
+| دَرْس | dars | pelajaran |
+| مَدْرَسَة | madrasah | sekolah |
+| مُدَرِّس | mudarris | guru (laki-laki) |
+| مُدَرِّسَة | mudarrisah | guru (perempuan) |
+---
+[word]
+word: مَدْرَسَة
+translit: madrasah
+say: "mad-ra-sah", semua a-nya pendek
+pos: isim · kata benda
+tag: A1
+root: د ر س
+pattern: مَفْعَلَة
+plural: مَدَارِس · madāris
+meaning: sekolah
+note: Kata madrasah di bahasa Indonesia berasal dari kata ini.
+---
+[word]
+word: مُدَرِّس
+translit: mudarris
+say: "mu-dar-ris", r-nya dobel
+pos: isim · kata benda
+tag: A1
+root: د ر س
+pattern: مُفَعِّل
+meaning: guru (laki-laki); perempuan: مُدَرِّسَة
+example: أَنَا أَعْمَلُ *مُدَرِّسًا* فِي الْمَدْرَسَةِ.
+translation: Saya bekerja sebagai guru di sekolah.
+note: Contoh kalimat: Wiktionary.
+---
+[table]
+Awalan ma- sering berarti tempat
+| Arab | Baca | Arti |
+| مَدْرَسَة | madrasah | tempat belajar: sekolah |
+| مَكْتَب | maktab | tempat menulis: kantor |
+| مَلْعَب | malʿab | tempat bermain: lapangan |
+---
+[card kicker="Kuis" number=off]
+Ini tempat apa? *Tebak dari polanya.*
+Kata: مَطْعَم. Akarnya ط-ع-م, seperti طَعَام (makanan), polanya sama dengan مَلْعَب. Jawab di komen.
+---
+[end cta="Simpan"]
+Tulis satu kata lagi dari *akar ini* di komen.
+Atau jawab dulu kuis tempat tadi.

@@ -1,0 +1,59 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: kata hari ini shadiq
+caption: Kata hari ini: صَدِيق, teman, plus peribahasa Arab tentang teman dan perjalanan. Sumber: Almaany #belajarbahasaarab #bahasaarab #kosakataarab #arabpemula
+---
+[cover kicker="KATA HARI INI · #1"]
+Teman dulu,|*baru jalan*
+Kata Arab untuk teman, dan satu peribahasa tentangnya.
+---
+[word]
+word: صَدِيق
+translit: ṣadīq
+pos: isim · kata benda
+tag: A1
+root: ص د ق
+pattern: فَعِيل
+plural: أَصْدِقَاء · aṣdiqāʾ
+meaning: teman, sahabat
+example: *اَلصَّدِيقُ* قَبْلَ الطَّرِيقْ.
+translation: (Cari) teman sebelum (menempuh) jalan.
+note: Peribahasa (Wiktionary).
+---
+[table]
+Di sekitar kata teman
+| Arab | Baca | Arti |
+| صَدِيق | ṣadīq | teman (laki-laki) |
+| صَدِيقَة | ṣadīqah | teman (perempuan) |
+| أَصْدِقَاء | aṣdiqāʾ | teman-teman |
+| صَاحِب | ṣāḥib | kawan; pemilik |
+| عَدُوّ | ʿaduww | musuh |
+| طَرِيق | ṭarīq | jalan |
+---
+[compare]
+headline: Beda harakat, beda arti
+wrong-label: Bukan teman
+right-label: Teman
+wrong: صِدِّيق
+right: صَدِيق
+why: صِدِّيق (ṣiddīq, kasrah dan syaddah) artinya orang yang selalu jujur. Teman: صَدِيق, fathah tanpa syaddah.
+---
+[table]
+Wazan فَعِيل: polanya sama
+| Arab | Baca | Arti |
+| صَدِيق | ṣadīq | teman |
+| جَمِيل | jamīl | indah |
+| كَبِير | kabīr | besar |
+| صَغِير | ṣaghīr | kecil |
+| قَرِيب | qarīb | dekat |
+| بَعِيد | baʿīd | jauh |
+---
+[card kicker="Latihan" number=off]
+Bukuku itu kitābī. *Kalau temanku?*
+كِتَابِي artinya bukuku. Tambahkan akhiran yang sama ke صَدِيق, lalu tulis jawabanmu di komen.
+---
+[end cta="Simpan"]
+Tag satu *teman* yang mau kamu ajak belajar bareng.
+Satu tag cukup.

@@ -1,0 +1,60 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: hadza dan hadzihi
+caption: Kata "ini" di bahasa Arab ada dua: hadza dan hadzihi. Kapan pakai yang mana? Sumber: Almaany #belajarbahasaarab #bahasaarab #kosakataarab #arabpemula
+---
+[cover kicker="TATA BAHASA DASAR · #1"]
+"Ini" di bahasa Arab|*ada dua*
+هٰذَا dan هٰذِهِ: pilihnya tergantung jenis bendanya.
+---
+[word]
+word: هٰذَا
+translit: hādzā
+say: "haa-dzaa", dua-duanya a panjang
+pos: isim isyarah · kata tunjuk
+tag: A1
+meaning: ini (untuk benda mudzakkar)
+example: هٰذَا *كِتَابٌ* جَدِيدٌ
+translation: Ini buku baru.
+note: Mudzakkar artinya maskulin. كِتَاب (buku) termasuk mudzakkar.
+---
+[word]
+word: هٰذِهِ
+translit: hādzihi
+say: "haa-dzi-hi"
+pos: isim isyarah · kata tunjuk
+tag: A1
+meaning: ini (untuk benda muannats)
+example: هٰذِهِ *فِكْرَةٌ* جَيِّدَةٌ
+translation: Ini ide yang bagus.
+note: Muannats artinya feminin. فِكْرَة (ide) berakhiran ة, tanda muannats. Contoh: Wiktionary.
+---
+[table]
+Pakai yang mana?
+| Arab | Baca | Arti | Ini |
+| بَيْت | bayt | rumah | هٰذَا |
+| بَاب | bāb | pintu | هٰذَا |
+| قَلَم | qalam | pena | هٰذَا |
+| غُرْفَة | ghurfah | kamar | هٰذِهِ |
+| سَيَّارَة | sayyārah | mobil | هٰذِهِ |
+| مَدْرَسَة | madrasah | sekolah | هٰذِهِ |
+---
+[card kicker="Ciri cepat" number=off]
+Ada ta marbutah di akhir? *Biasanya muannats.*
+Ta marbutah itu ة, seperti di غُرْفَة dan سَيَّارَة. Tapi ada juga yang muannats tanpa ة, misalnya عَيْن (mata). Kalau ragu, cek kamus.
+---
+[compare]
+headline: Mau bilang "ini mobil"
+wrong: هٰذَا سَيَّارَةٌ
+right: هٰذِهِ سَيَّارَةٌ
+why: سَيَّارَة (mobil) itu muannats, jadi pakai هٰذِهِ.
+---
+[card kicker="Kuis" number=off]
+Perpustakaan: *hādzā atau hādzihi?*
+Perpustakaan itu مَكْتَبَة. Lihat huruf terakhirnya, lalu jawab A untuk هٰذَا atau B untuk هٰذِهِ.
+---
+[end cta="Simpan"]
+Sebut satu benda di sekitarmu: *hādzā atau hādzihi?*
+Kita cek bareng di komen.
