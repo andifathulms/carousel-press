@@ -931,24 +931,26 @@ Satu kata aja di komen.
 
 ## 10. 📝 SKD Harian
 
-**Tagline:** *Satu soal sehari, biar hari tes nggak kaget.*
+**Tagline:** *Satu topik, lima soal, biar hari tes nggak kaget.*
 A faceless Indonesian account for practice and strategy for government and state selection tests. SKD CPNS is the core (most posts). Side series cover Sekolah Kedinasan (many schools use SKD via BKN's CAT plus their own stages), PPPK (teknis, manajerial, sosio-kultural, wawancara), Rekrutmen Bersama BUMN (basic aptitude, AKHLAK values, English) and general job psychotests (deret, analogi, logika). UTBK-SNBT is out of scope.
 It should feel like "oh, there's a 30-second way to do this", never like a tutoring ad or a promise.
-**Bio (owner to set):** must say it isn't an official account, e.g. "📝 Latihan SKD CPNS & kedinasan, satu soal tiap hari. Soal buatan sendiri. Bukan akun resmi BKN."
+
+**Direction (owner, Oct 2026).** One question per post felt unusual. Every main post now teaches one topic through 5 worked questions, easy to hard, so the viewer learns the pattern, not one answer.
+**Bio (owner to set):** must say it isn't an official account, e.g. "📝 Latihan SKD CPNS & kedinasan: satu topik, 5 soal + pembahasan. Soal buatan sendiri. Bukan akun resmi BKN."
 
 | | |
 |---|---|
 | Purpose | Daily practice and test strategy for selection tests |
 | Audience | Indonesian fresh graduates, job seekers, SMA students aiming for sekolah kedinasan, honorer staff preparing for PPPK |
-| Reader should think | "I got it right / I fell for the trap. Tomorrow's question, please." |
-| Primary action | Comment (one letter), then save / follow |
+| Reader should think | "3 out of 5, and now I know the trick for this type." |
+| Primary action | Save (the recap), comment the score, follow for the next topic |
 | Tone | Calm, clear, encouraging; never "pasti lolos", never panic |
 | Voice | A calm senior who passed the test and explains it plainly |
 | Slide types | `cover`, `card` (with `verdict=` for answers), `compare`, `table`, `end` |
 
 ### Pillars
 
-1. **Soal Harian TIU #N** (most posts): numerik (aritmetika, deret, perbandingan, soal cerita) and verbal (analogi, silogisme, sinonim/antonim). **Figural only once an image slide exists** (see Open items); it can't be drawn yet.
+1. **1 Topik, 5 Soal** (most posts): one question type per deck, TIU numerik (soal cerita, deret, perbandingan, persen) and verbal (analogi, silogisme, sinonim/antonim). **Figural only once an image slide exists** (see Open items); it can't be drawn yet.
 2. **TWK**: Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika, sejarah, as questions with the article or source cited in the answer slide.
 3. **TKP**: a workplace situation with five options and the scoring explained, labelled "pembahasan versi kami".
 4. **Mini Tryout Minggu**: 5–8 questions, the answer key at the end.
@@ -977,27 +979,35 @@ It should feel like "oh, there's a 30-second way to do this", never like a tutor
 ### Deck recipe
 
 - **Template:** `lexicon/lembar` (built for this account, Oct 2026): an exam answer sheet. Square-grid paper with teal ink for questions, graphite cover and end with a pencil-yellow accent, Barlow throughout so numbers read cleanly. Its `ok`/`bad` colours carry verdicts and compares. Never `lexicon/notebook` (Kosakata Inggris) or `editorial/rose-dusk` (Playfair's old-style figures make `Rp31.000` hard to read).
-- **Soal Harian:** cover (kicker `SOAL HARIAN TIU · #N · <MUDAH|SEDANG|SULIT>` carries the difficulty) → question card (`[card kicker="Soal · TIU numerik" number=off icon=none]`, the question as the headline, options A–E as body lines) → pause card "Tulis jawabanmu *di komen dulu.*" (`icon=clock`) → hint (`kicker="Petunjuk"`, `icon=lightbulb`) → answer `[card verdict="Jawaban: D" tone=ok]` with the working → `[compare]` with `wrong-label: Jebakan` / `right-label: Benar` (the common wrong answer vs the right one) → end. 7 slides.
+- **1 Topik, 5 Soal** (main format): cover (kicker `TIU NUMERIK · 1 TOPIK, 5 SOAL`; headline = the topic as the viewer meets it, "Soal cerita 2 barang?"; subtitle = "5 soal dari mudah ke sulit…") → 5 × (question card, solution card) → recap `[table]` (`| Soal | Triknya |`) → end. 13 slides; may run to 14.
+  - **Question card:** `[card kicker="Soal N · Mudah|Sedang|Sulit" number=off icon=none]`, the question as the headline with the asked quantity in `*accent*` (`*1 apel − 1 jeruk = ?*`), options `A. …` to `E. …` as body lines. Keep the headline to 3 short lines; write the ask as an equation when it fits.
+  - **Solution card:** `[card verdict="N · Jawaban C" tone=ok]`, headline `Trik: *<the trick>*`, then the working **one calculation per body line** (never a paragraph: equations must not break across lines), then `Jebakan X: …` naming the trap option.
+  - Order the 5 from easy to hard, each a different trick for the same topic, and spread the right answers over A–E.
 - **Mini Tryout:** cover → 5–8 question cards (`number=1`…, options as body lines) → answer key `[table]` (`| No | Jawaban | Materi |`) → 2–4 explanation cards for the hardest ones → end. ≤ 14 slides.
 - **Strategi:** cover → 4–6 numbered cards → end.
 - **TWK answers** end the body with the source on its own line (`Pasal 36A UUD 1945`). **TKP answers** use `[table]` with each option's score and `kicker` "Pembahasan versi kami" on the card after it.
-- **End:** `[end cta="Follow"]` with a one-tap ask ("Kamu tadi jawab *huruf apa?*") and what comes next ("Soal Harian TIU #N+1 besok.").
+- **End:** `[end cta="Follow"]` with a one-tap ask ("Skor kamu *berapa dari 5?*") and what comes next ("Topik berikutnya: deret angka.").
 - **Caption:** one line + the source if the post states facts (regulation, UUD article) + "Soal latihan buatan kami, bukan soal resmi" on question posts + 2–4 hashtags (`#skdcpns`, `#cpns`, `#tiu`, `#twk`, `#tkp`, `#sekolahkedinasan`, `#pppk`, `#rekrutmenbumn`).
-- **Rhythm:** Soal Harian daily, Mini Tryout on Sunday, 1–2 strategy or Beda Tes posts a week; side series (Kedinasan, PPPK, BUMN, Psikotes) at most 1 in 4 posts, more around their registration windows.
+- **Rhythm:** 1 Topik, 5 Soal 4–5 times a week, Mini Tryout on Sunday, 1–2 strategy or Beda Tes posts a week; side series (Kedinasan, PPPK, BUMN, Psikotes) at most 1 in 4 posts, more around their registration windows.
 
-Working for the example (checked by brute force: exactly one solution, exactly one matching option): 3p + 2b = 31.000 and 2p + 3b = 34.000. Adding them gives 5p + 5b = 65.000, so p + b = 13.000 (**D**). Subtracting gives b − p = 3.000, so p = 5.000 and b = 8.000; check 3·5.000 + 2·8.000 = 31.000 ✓, 2·5.000 + 3·8.000 = 34.000 ✓. Traps: A (pulpen only), C (buku only), B (65.000 ÷ 10 items), E (none).
+Working for the example (each checked by brute force: exactly one solution, exactly one matching option):
+1. 3p + 2b = 31.000, 2p + 3b = 34.000 → p = 5.000, b = 8.000, p + b = 13.000 (**D**). Traps: A/C one item, B ÷ 10 items.
+2. 4a + 3j = 26.000, 3a + 4j = 23.000 → a = 5.000, j = 2.000, a − j = 3.000 (**C**). Traps: B jeruk, D apel, E a + j.
+3. A + B = 12, B + C = 15, A + C = 13 → A = 5, B = 7, C = 8, total 20 kg (**B**). Trap: D 40 (not halved).
+4. 2(a + 20.000) + 3a = 190.000 → anak 30.000 (**A**), dewasa 50.000. Traps: B 190.000 ÷ 5, C dewasa, D (190.000 − 20.000) ÷ 5.
+5. k + y = 50, y − 5 = 4(k − 5) → anak 13, ayah 37 (5 years ago 8 and 32) (**C**). Traps: A 8 (stopped 5 years ago), B 50 ÷ 5, E ayah.
 
 ```text
 template: lexicon/lembar
 lang: id
-title: soal harian tiu 1 pulpen dan buku
-caption: Soal TIU hitungan yang bisa selesai di bawah 1 menit. Soal latihan buatan kami, bukan soal resmi BKN. #skdcpns #cpns #tiu #latihansoal
+title: soal cerita persamaan 5 soal
+caption: 5 soal cerita TIU, 5 trik tanpa x dan y. Soal latihan buatan kami, bukan soal resmi BKN. #skdcpns #cpns #tiu #latihansoal
 ---
-[cover kicker="SOAL HARIAN TIU · #1 · SEDANG"]
-Pulpen dan buku. | Ada jalan *30 detik.*
-Kerjakan dulu tanpa kalkulator, baru geser.
+[cover kicker="TIU NUMERIK · 1 TOPIK, 5 SOAL"]
+Soal cerita 2 barang? | *Nggak perlu x dan y.*
+5 soal dari mudah ke sulit. Kerjakan dulu, baru geser ke pembahasannya.
 ---
-[card kicker="Soal · TIU numerik" number=off icon=none]
+[card kicker="Soal 1 · Mudah" number=off icon=none]
 3 pulpen + 2 buku = Rp31.000. | 2 pulpen + 3 buku = Rp34.000. | *1 pulpen + 1 buku = ?*
 A. Rp5.000
 B. Rp6.500
@@ -1005,34 +1015,88 @@ C. Rp8.000
 D. Rp13.000
 E. Rp15.500
 ---
-[card number=off icon=clock]
-Tulis jawabanmu *di komen dulu.*
-Satu huruf aja. Target: di bawah 60 detik.
+[card verdict="1 · Jawaban D" tone=ok]
+Trik: *jumlahkan, lalu bagi.*
+5 pulpen + 5 buku = Rp65.000
+Rp65.000 ÷ 5 = Rp13.000
+Jebakan B: dibagi 10, padahal 5 pasang.
 ---
-[card kicker="Petunjuk" number=off icon=lightbulb]
-Yang ditanya bukan harga satuan. | *Jumlahkan dua persamaannya.*
+[card kicker="Soal 2 · Mudah" number=off icon=none]
+4 apel + 3 jeruk = Rp26.000. | 3 apel + 4 jeruk = Rp23.000. | *1 apel − 1 jeruk = ?*
+A. Rp1.000
+B. Rp2.000
+C. Rp3.000
+D. Rp5.000
+E. Rp7.000
 ---
-[card verdict="Jawaban: D" tone=ok]
-5 pulpen + 5 buku = *Rp65.000*
-Bagi 5, jadi 1 pulpen + 1 buku = Rp13.000. Cek: pulpen Rp5.000, buku Rp8.000.
+[card verdict="2 · Jawaban C" tone=ok]
+Trik: *kurangkan.*
+Persamaan 1 − persamaan 2 = 1 apel − 1 jeruk
+Rp26.000 − Rp23.000 = Rp3.000
+Jebakan B dan D: harga jeruk dan harga apel.
 ---
-[compare]
-wrong-label: Jebakan
-right-label: Benar
-wrong: Rp65.000 ÷ 10 barang = Rp6.500
-right: Rp65.000 ÷ 5 pasang = *Rp13.000*
-why: Hasil penjumlahan itu 5 pasang pulpen + buku, bukan 10 barang. Opsi A dan C juga jebakan: itu harga satuan.
+[card kicker="Soal 3 · Sedang" number=off icon=none]
+Berat A + B = 12 kg. | B + C = 15 kg. | A + C = 13 kg. | *Berat A + B + C?*
+A. 13 kg
+B. 20 kg
+C. 25 kg
+D. 40 kg
+E. 27 kg
+---
+[card verdict="3 · Jawaban B" tone=ok]
+Trik: *jumlahkan semua, bagi 2.*
+12 + 15 + 13 = 40 (tiap huruf terhitung 2 kali)
+40 ÷ 2 = 20 kg
+Jebakan D: lupa dibagi 2.
+---
+[card kicker="Soal 4 · Sedang" number=off icon=none]
+2 tiket dewasa + 3 tiket anak = Rp190.000. | Tiket dewasa Rp20.000 lebih mahal. | *Harga 1 tiket anak?*
+A. Rp30.000
+B. Rp38.000
+C. Rp50.000
+D. Rp34.000
+E. Rp42.000
+---
+[card verdict="4 · Jawaban A" tone=ok]
+Trik: *anggap semua tiket anak dulu.*
+Rp190.000 − 2 × Rp20.000 = Rp150.000
+Rp150.000 ÷ 5 tiket = Rp30.000
+Jebakan C: itu harga tiket dewasa.
+---
+[card kicker="Soal 5 · Sulit" number=off icon=none]
+Umur ayah + anak sekarang = 50 tahun. | 5 tahun lalu, umur ayah 4 kali umur anak. | *Umur anak sekarang?*
+A. 8 tahun
+B. 10 tahun
+C. 13 tahun
+D. 15 tahun
+E. 37 tahun
+---
+[card verdict="5 · Jawaban C" tone=ok]
+Trik: *mundur dulu, baru maju.*
+5 tahun lalu: 50 − 10 = 40
+Anak dulu: 40 ÷ (4 + 1) = 8 tahun
+Sekarang: 8 + 5 = 13 tahun
+Jebakan A: berhenti di 5 tahun lalu.
+---
+[table]
+Simpan: 5 trik soal cerita
+| Soal | Triknya |
+| 1 | Jumlahkan, lalu bagi |
+| 2 | Kurangkan |
+| 3 | Jumlahkan semua, bagi 2 |
+| 4 | Anggap semua sama dulu |
+| 5 | Mundur dulu, baru maju |
 ---
 [end cta="Follow"]
-Kamu tadi jawab *huruf apa?*
-Komen hurufnya. Soal Harian TIU #2 besok.
+Skor kamu *berapa dari 5?*
+Komen angkanya. Topik berikutnya: deret angka.
 ```
 
-(Rendered in `lexicon/lembar`, 7 slides, zero warnings.)
+(The sample deck `skd-persamaan-5-soal-id`: 13 slides, zero warnings in every template.)
 
 ### Starter list (30 ideas)
 
-1. Soal Harian TIU #1: pulpen dan buku, jumlahkan persamaannya (the example).
+1. Soal cerita persamaan: 5 soal, 5 trik (the example).
 2. TIU deret: pola selang-seling (two series interleaved).
 3. TIU perbandingan: kerja bersama (A selesai 6 hari, B 3 hari).
 4. TIU silogisme: "Semua… sebagian…", the conclusion everyone picks wrongly.
@@ -1079,7 +1143,7 @@ It should feel like "this saves me 20 minutes tomorrow morning", never like a so
 | Primary action | Save, then share with a colleague |
 | Tone | Practical, friendly, quick; a little relief when a problem goes away |
 | Voice | The colleague at the next desk who knows the shortcut |
-| Slide types | `cover`, `code` (formulas), `table`, `compare`, `card`, `end` |
+| Slide types | `cover`, `sheet` (formula on a mini spreadsheet), `code`, `table`, `compare`, `card`, `end` |
 
 ### Pillars
 
@@ -1113,14 +1177,15 @@ It should feel like "this saves me 20 minutes tomorrow morning", never like a so
 ### Writing rules
 
 - Language: Indonesian (`lang: id`), relaxed: `kamu`. Keep menu names, function names and buttons exactly as the software writes them (`XLOOKUP`, `Conditional Formatting`, `Insert`).
-- One task per deck, one step per slide. Headline = what the step does; body = where to type or click; code = the exact formula; note after the fence = the result on the sample data.
-- Use one small, realistic sample table across the whole deck (IDs, names, divisions) and show it on slide 2, so every result can be checked.
+- One task per deck, one step per slide. Headline = what the step does; body = what each part of the formula means; the `[sheet]` shows the formula working; note = what happened ("K03 ketemu di baris 4, jadi hasilnya Sari.").
+- Use one small, realistic sample table across the whole deck (IDs, names, divisions), the same on every `[sheet]`, so every result can be checked.
 - Keep formulas short: no wrapping, and long lines shrink. Split a long formula into helper columns rather than one long line.
 
 ### Deck recipe
 
 - **Template:** `dev/sheet` (built for this account, Oct 2026): a spreadsheet. Faint cell gridlines, an office-green accent, a white formula panel, a rule in the header instead of a terminal path, and a large `fx` on cover and end. Write formulas in `[code]` fences with the language `excel`: functions are drawn green, cell references blue, strings brown, like a spreadsheet's formula editor. Never `dev/paper-light`, `dev/terminal` or `dev/github-dark` (Fathul Learn Coding's looks).
-- **Tutorial:** cover → the sample data `[table]` → one `[code]` per step → result or version note `[card]` → end. 6–10 slides.
+- **Formulas are shown on a `[sheet]`** (PRD §4.10), not only as code: first fence line `E2 =XLOOKUP(D2;A2:A6;B2:B6)`, then the table from A1. The app colours each reference and outlines its range in the same colour, and marks E2 as the result. Write the found cells as `*K03*` so viewers see where the lookup landed. Keep it to ≤ 5 columns and ≤ 6 rows so cells stay at full size. Use `[code]` with `excel` only for formula-only points (the `,` vs `;` slide).
+- **Tutorial:** cover → one `[sheet]` per step → `,`/`;` note `[code]` → version `[card]` → end. 6–10 slides.
 - **Compare:** cover → `[compare]` (`wrong-label`/`right-label` set to e.g. `VLOOKUP`/`XLOOKUP`) or `[table]` side by side → "kapan pakai yang mana" card → end.
 - **Masalah Kantor:** cover (the error as the hook: "`#N/A` padahal datanya ada?") → 2–4 cause cards → one `[code]` or card per fix → end.
 - **Cover:** `[cover kicker="EXCEL • TUTORIAL"]` (APP • FORMAT), headline = the annoyance the viewer has ("Masih hitung kolom buat *VLOOKUP?*"), subtitle = what they get.
@@ -1128,9 +1193,9 @@ It should feel like "this saves me 20 minutes tomorrow morning", never like a so
 - **Caption:** one line + "Diuji di …" + 2–4 hashtags (`#exceltips`, `#tipskantor`, `#belajarexcel`, `#googlesheets`, `#tipsword`).
 - **Monetisation (later):** the planned first product is templates (absensi, anggaran, inventaris, surat, laporan). Sell only after the audience is built; until then, no product links or "link di bio" pushes in posts.
 
-Tested for the example (Oct 2026, with the Python `formulas` engine 1.3.4 on this sample table, using `,` separators; **not yet run in Excel 365 or Google Sheets**, so the owner runs it once and fills in the caption's "Diuji di"): `=XLOOKUP(F2,A2:A6,B2:B6)` with F2 = K03 → `Sari` · with F2 = K09 → `#N/A`; `=XLOOKUP(F2,A2:A6,B2:B6,"Tidak ada")` with K09 → `Tidak ada`; `=XLOOKUP(F2,B2:B6,A2:A6)` with Dimas → `K04`; `=VLOOKUP("Dimas",A2:D6,1,FALSE)` → `#N/A` (VLOOKUP can't look left).
+Tested for the example (Oct 2026, Python `formulas` engine 1.3.4 on this exact table, `,` separators; **not yet run in Excel 365 or Google Sheets**, so the owner runs it once and fills in the caption's "Diuji di"): `=XLOOKUP(D2,A2:A6,B2:B6)` with D2 = K03 → `Sari`; with K09 and a 4th argument `"Tidak ada"` → `Tidak ada` (without it `#N/A`); `=XLOOKUP(D2,B2:B6,A2:A6)` with Dimas → `K04`; `VLOOKUP` looking left → `#N/A`.
 
-```text
+````text
 template: dev/sheet
 lang: id
 title: xlookup dasar
@@ -1138,47 +1203,55 @@ caption: Cari data di tabel tanpa menghitung nomor kolom. Diuji di [versi Excel 
 ---
 [cover kicker="EXCEL • TUTORIAL"]
 Masih hitung kolom | buat *VLOOKUP?*
-XLOOKUP: cari nama dari ID, 4 langkah.
+XLOOKUP: cari data dari tabel, 3 langkah.
 ---
-[table]
-Datanya: ID di kolom A, nama di B
-| ID | Nama | Divisi |
-| K01 | Rina | Keuangan |
-| K02 | Bayu | HRD |
-| K03 | Sari | IT |
-| K04 | Dimas | Gudang |
-| K05 | Lala | IT |
-ID yang dicari ditulis di F2.
----
-[code]
+[sheet]
 Cari nama dari ID
-Isi G2. F2 = yang dicari, A = kolom ID, B = kolom hasil.
-```excel
-=XLOOKUP(F2;A2:A6;B2:B6)
+D2 = yang dicari, A = kolom ID, B = kolom hasil.
+```sheet
+E2 =XLOOKUP(D2;A2:A6;B2:B6)
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | K03 | Sari
+K02 | Bayu | HRD | |
+*K03* | *Sari* | IT | |
+K04 | Dimas | Gudang | |
+K05 | Lala | IT | |
 ```
-F2 berisi K03, hasilnya Sari.
+K03 ketemu di baris 4, jadi hasilnya Sari.
 ---
-[code]
+[sheet]
 Kalau ID-nya nggak ada
 Argumen keempat menggantikan #N/A dengan teks sendiri.
-```excel
-=XLOOKUP(F2;A2:A6;B2:B6;"Tidak ada")
+```sheet
+E2 =XLOOKUP(D2;A2:A6;B2:B6;"Tidak ada")
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | K09 | Tidak ada
+K02 | Bayu | HRD | |
+K03 | Sari | IT | |
+K04 | Dimas | Gudang | |
+K05 | Lala | IT | |
 ```
-F2 berisi K09, hasilnya: Tidak ada.
+Tanpa argumen keempat, hasilnya #N/A.
 ---
-[code]
+[sheet]
 Cari ke kiri
-Nama di B, ID di A. VLOOKUP nggak bisa, XLOOKUP bisa.
-```excel
-=XLOOKUP(F2;B2:B6;A2:A6)
+ID ada di kiri nama. VLOOKUP nggak bisa ke kiri.
+```sheet
+E2 =XLOOKUP(D2;B2:B6;A2:A6)
+ID | Nama | Divisi | Cari | Hasil
+K01 | Rina | Keuangan | Dimas | K04
+K02 | Bayu | HRD | |
+K03 | Sari | IT | |
+*K04* | *Dimas* | Gudang | |
+K05 | Lala | IT | |
 ```
-F2 berisi Dimas, hasilnya K04.
+Kolom cari dan kolom hasil boleh di mana saja.
 ---
 [code]
 Excel kamu pakai koma?
 Pemisah argumen ikut pengaturan region. Excel berbahasa Inggris (region US) pakai koma.
 ```excel
-=XLOOKUP(F2,A2:A6,B2:B6)
+=XLOOKUP(D2,A2:A6,B2:B6)
 ```
 Excel menolak rumusnya? Ganti ; jadi , (atau sebaliknya).
 ---
@@ -1189,9 +1262,9 @@ Excel 2019 ke bawah belum punya. Google Sheets punya, tulisannya sama.
 [end cta="Simpan"]
 Kantormu masih pakai *Excel versi berapa?*
 Komen tahunnya. Besok: VLOOKUP vs XLOOKUP.
-```
+````
 
-(Rendered in `dev/sheet`, 8 slides, zero warnings.)
+(The sample deck `kantor-xlookup-id`: 7 slides, zero warnings in every template.)
 
 ### Starter list (30 ideas)
 
@@ -1284,6 +1357,6 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - **`editorial/archive` variant.** Sepia paper, dark brown ink, serif, a small year/place label, so Sejarah Nusantara stops borrowing `sage`.
 - **New accounts may replace weak ones (owner decides).** SKD Harian and Jago Kantoran could replace an underperforming account (Whistle Notes or Ruang Rasa) instead of running alongside it. Nothing is paused until the owner decides.
 - **SKD Harian bio:** must include "Bukan akun resmi BKN" (see §10). No BKN, KemenPANRB, school or BUMN logos anywhere.
-- **`lexicon/lembar` (SKD Harian) and `dev/sheet` (Jago Kantoran): shipped (Oct 2026).** Built for these accounts, plus `excel` formula colouring in code blocks (see `docs/decisions.md`).
+- **`lexicon/lembar` (SKD Harian) and `dev/sheet` (Jago Kantoran): shipped (Oct 2026).** Built for these accounts, plus `excel` formula colouring in code blocks and the `[sheet]` slide (PRD §4.10), a mini spreadsheet for Jago Kantoran's formula steps (see `docs/decisions.md`).
 - **Image-question slide (proposed, SKD Harian).** Figural TIU questions (pattern series, rotations, mirror images) need a question image drawn or shown uncropped with options A–E under it. This overlaps the proposed `figure` slide; until one exists, SKD Harian posts no figural questions.
-- **Difficulty badge (SKD Harian).** No attribute exists for a difficulty badge; the difficulty goes in the cover kicker (`· SEDANG`). A real badge would need a PRD change.
+- **Difficulty badge (SKD Harian).** No attribute exists for a difficulty badge; the difficulty goes in each question card's kicker (`Soal 3 · Sedang`). A real badge would need a PRD change.
