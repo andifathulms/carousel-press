@@ -696,7 +696,29 @@ Komen satu huruf.
 A faceless account about the Indonesian language: words most people don't know, what KBBI actually says, standard vs non-standard spelling, and where our words came from.
 It should feel like "lho, ternyata kata ini dari bahasa Portugis?", never like a grammar teacher correcting people.
 
-**What works (owner data, Oct 2026).** Views (likes) of the first four posts: "Kamu masih nulis 'Resiko'?" 428 (18) · "Kata sehari-hari dari bahasa Portugis" 331 (11) · "11 kata indah yang jarang dipakai" **4,824 (275)** · "Merubah jadwal? Rubah itu nama hewan" **3,662 (152)**. The two winners give the viewer something to use the same day (words for a caption, a mistake to stop making), and post 4's cover takes the mistake literally as a joke. The weak ones were a finger-pointing hook and trivia with no use. Small sample, and posts 1–2 were the account's first, so keep testing; the design (brown cover, notebook cards, dictionary headword) stays.
+**What works (owner data, Oct 2026, second update).**
+
+| Cover as posted | Views |
+|---|---|
+| 11 kata indah yang jarang dipakai | **4,959** |
+| Mempesona atau memesona? | **4,252** |
+| Merubah jadwal? Rubah itu nama hewan | **3,780** |
+| Acuh itu peduli, bukan cuek | 713 |
+| Cek KBBI: "email" bukan surat elektronik | 693 |
+| Soto Banjar, tapi jeruk bali | 628 |
+| Kamu masih nulis "resiko"? | 465 |
+| Kata sehari-hari dari bahasa Portugis | 344 |
+
+**Two engines, about 5–10× everything else:**
+1. **Kata Indah, the verified kind** (saves, shares). Words that really are in KBBI, for captions, bios and vows.
+2. **Mana yang baku?** (comments). A two-spelling question people argue about before checking ("mempesona atau memesona?"), or a mistake taken literally as a joke ("rubah itu nama hewan").
+
+Weak: finger-pointing covers, trivia with no use (serapan), padanan and plain rule lists.
+
+**Direction (owner, Oct 2026 second review): the anak indie aesthetic, kept honest.**
+- **Who it serves:** young writers and romantics who want beautiful Indonesian words for captions, bios and wedding vows. That is the biggest audience.
+- **Where it's crowded:** the senandika niche is full of copied lists, and several viral "kata indah" (swastamita, nabastala, anindya…) aren't in KBBI. The account's edge is in the handle: **kata indah yang benar-benar ada, dipakai dengan benar**.
+- **Alternate the two engines.** The aesthetic one grows saves and shares; the baku debates grow comments. Neither alone.
 
 | | |
 |---|---|
@@ -719,13 +741,21 @@ It should feel like "lho, ternyata kata ini dari bahasa Portugis?", never like a
 7. **Imbuhan & bentuk kata**: one affix or a confusing pair per post (`di-` attached vs `di` as preposition, `merubah` vs `mengubah`).
 8. **Peribahasa & ungkapan**: one proverb with its meaning and a modern example.
 
-### Formats (in order of proven pull)
+### Formats (in order of proven pull; alternate 1 and 2)
 
-1. **Kata Indah #N** (series): words that are really in KBBI, one `[word]` slide each, a recap `[table]` near the end (`| Kata | Kelas |`, words and KBBI word class only, never shortened meanings), and an end that asks viewers to use one word in a sentence. Kicker `KATA INDAH #N · KBBI VI`. Say "yang benar-benar ada di KBBI": that's the account's edge over copied lists. Themes for later numbers: senja, hujan, rindu, laut (every word checked in KBBI VI Daring by the owner before posting).
-2. **Salah kaprah**: an everyday mistake, with a cover that takes the wrong form literally ("Merubah jadwal? Rubah itu nama hewan."). Then `[compare]` slides, plus a `[word]` slide that pays off the joke when there is one (`rubah`, the animal).
-3. **Salah arti**: meanings people get backwards ("Acuh itu peduli, bukan cuek."). End: "Selama ini kamu pakai yang mana? Jujur aja."
-4. **Aturan with a twist** (EYD): a rule as a small puzzle ("Soto Banjar, tapi jeruk bali."). Never a plain rule list.
-5. **Serapan / padanan**: frame around something the viewer uses ("Hari Minggu itu pinjaman Portugis"), not trivia alone. Testing: if it keeps trailing, post it less.
+1. **Kata Indah #N** (series, saves and shares): words that are really in KBBI, one `[word]` slide each, a recap `[table]` near the end (`| Kata | Kelas |`, words and KBBI word class only, never shortened meanings), and an end that asks viewers to use one word in a sentence. Kicker `KATA INDAH #N · KBBI VI`. Say "yang benar-benar ada di KBBI": that's the account's edge over copied lists.
+   - **Caption-ready:** every word's `example:` is a line someone would actually post (a caption, a bio, a line for a partner), not a textbook sentence.
+   - **Usage note** in `note:` when the word is easy to misuse, e.g. "nomina: *renjana*, bukan *merenjana*". Keep "Sumber: KBBI VI Daring" in the note.
+   - **Themes:** senja, hujan, rindu, laut, **untuk pasangan / undangan pernikahan**, **untuk ibu** (Hari Ibu, 22 Des), kerja, kota.
+   - **Debunk opener on some numbers:** a famous word that isn't in KBBI, then the real ones.
+2. **Mana yang baku? #N** (series, comments): the cover is the two spellings as a question ("Mempesona atau | Memesona?").
+   - Card 1 is the answer with the one rule behind it (e.g. *k, t, s, p* luluh).
+   - Then 3–5 more pairs, as `[compare]` with `wrong-label: Tidak baku` / `right-label: Baku`, or quiz rounds.
+   - End: "Kamu tadi jawab *yang mana?*" / "Komen A atau B."
+3. **Salah kaprah** (literal joke): an everyday mistake, with a cover that takes the wrong form literally ("Merubah jadwal? Rubah itu nama hewan."). Then `[compare]` slides, plus a `[word]` slide that pays off the joke (`rubah`, the animal).
+4. **Salah arti**: meanings people get backwards ("Acuh itu peduli, bukan cuek."). End: "Selama ini kamu pakai yang mana? Jujur aja."
+5. **Kata indah palsu** (occasional, comments and shares): viral "kata indah" that aren't in KBBI, the closest real word for each, and where the viral one probably came from (only if a source says so).
+6. **Aturan with a twist** (EYD), **serapan**, **padanan**: at most 1 post in 5, only with a strong hook that frames something the viewer uses ("Soto Banjar, tapi jeruk bali."). Never a plain rule list or trivia.
 
 ### Covers and endings
 
@@ -755,7 +785,10 @@ It should feel like "lho, ternyata kata ini dari bahasa Portugis?", never like a
 - **Kata hari ini deck:** cover → `[word]` (meaning, example, origin) → `[card]` the story behind the word → `[table]` related words or padanan → end.
 - **Serapan deck:** cover → `[table]` (`Kata | Dari | Bentuk asli`) → 2–3 `[word]` slides with `origin:` → end.
 - **Baku deck:** cover → `[table]` (`Baku | Tidak baku`) → 2–3 `[compare]` slides with `wrong-label: Tidak baku` / `right-label: Baku` → end.
-- **Kata Indah deck:** cover (kicker `KATA INDAH #N · KBBI VI`) → optional myth card → `[word]` × 6–8 → recap `[table]` → end. Up to 8 words, so the recap fits one table.
+- **Header:** `handle: @katabaku.id`, `template: lexicon/kamus`, `lang: id`.
+- **Kata Indah deck:** cover (kicker `KATA INDAH #N · KBBI VI`) → optional myth card → `[word]` × 6–8 (caption-ready `example:`, usage note when needed) → recap `[table]` → end. Up to 8 words, so the recap fits one table. 10–12 slides.
+- **Mana yang baku? deck:** cover (kicker `MANA YANG BAKU? · #N`) → card 1: the cover's answer + the rule → 3–5 `[compare]` or quiz pairs → optional recap `[table]` (`Baku | Tidak baku`) → end with an A/B ask. 8–11 slides.
+- **Unverified words:** KBBI VI Daring can't be fetched by scripts. When a deck was drafted without opening KBBI by hand, list every word in `docs/deck-sources.md` under the deck with "cek KBBI manual sebelum posting", and the owner checks before posting.
 - **End:** `[end cta="…"]` with the deck-type line from "Covers and endings".
 - **Caption:** one line + `Sumber: KBBI VI Daring` (+ other sources) + 2–4 hashtags (`#bahasaindonesia`, `#kbbi`, `#katabaku`, `#kataserapan`…).
 - **Fallback until the lexicon features ship:** same as Kosakata Inggris.

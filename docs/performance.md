@@ -51,17 +51,20 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 
 ## Kata Baku (`lexicon/kamus`, @katabaku.id; earlier "Kamus Kecil")
 
-| Post | Cover as posted | Slides | Views (likes) |
-|---|---|---|---|
-| 1 | Kamu masih nulis "Resiko"? | 12 | 428 (18) |
-| 2 | Kata sehari-hari dari bahasa Portugis | 14 | 331 (11) |
-| 3 | 11 kata indah yang jarang dipakai | 15 | 4,824 (275) |
-| 4 | Merubah jadwal? Rubah itu nama hewan | 12 | 3,662 (152) |
+| Post | Cover as posted | Views |
+|---|---|---|
+| 1 | Kamu masih nulis "Resiko"? | 465 |
+| 2 | Kata sehari-hari dari bahasa Portugis | 344 |
+| 3 | 11 kata indah yang jarang dipakai | **4,959** |
+| 4 | Merubah jadwal? Rubah itu nama hewan | **3,780** |
+| 5 | Acuh itu peduli, bukan cuek | 713 |
+| 6 | Cek KBBI: "Email" bukan surat elektronik | 693 |
+| 7 | Mempesona atau memesona? | **4,252** |
+| 8 | Soto Banjar, tapi jeruk bali | 628 |
 
-- Winners give the viewer something to use the same day (words for a caption, a mistake to stop) or a literal-joke hook. Losers: a finger-pointing hook; trivia with no use.
-- Posts 1–2 were the account's first (cold start), so part of the gap is the account's age.
-- Long decks are fine when every slide pays off (post 3 had 15).
-- Next: Kata Indah as a numbered series; re-upload posts 1–2 with the rewritten covers already in the samples; test whether serapan trivia can travel with a better hook.
+- Two engines (Oct 2026, second update): verified kata indah (saves/shares) and "mana yang baku?" two-spelling debates or literal-joke mistakes (comments). Everything else (salah arti, padanan, EYD rules, serapan) sits at 344–713.
+- Changes made (second review, "anak indie aesthetic, kept honest"): Kata Indah #N with caption-ready examples and usage notes, themes incl. untuk pasangan/undangan and untuk ibu; Mana yang baku? #N series; Kata indah palsu; rules/serapan/padanan capped at 1 in 5.
+- Track: saves per 1,000 views on Kata Indah, comments per 1,000 views on Mana yang baku?
 
 ## Kosakata Inggris (`lexicon/notebook`, @kosakata_inggris)
 
