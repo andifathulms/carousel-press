@@ -1,32 +1,25 @@
-template: editorial/stone
+template: editorial/tameng
+handle: @filsafatharian.id
 lang: id
-title: berani bilang nggak tahu
-caption: Pelajaran umur 2.500 tahun untuk grup WhatsApp. Sumber: Konfusius, Analekta 2.17 (terj. James Legge) · Platon, Apologia 21d (terj. Benjamin Jowett) · SEP "Confucius" #filsafat #filsafatharian #konfusius
+title: satu kalimat 2 pura pura tahu di meeting
+caption: Satu kalimat umur 2.500 tahun buat momen ditanya atasan di depan semua orang. Sumber: Konfusius, Analekta 2.17 (terj. James Legge) · Platon, Apologia 21d (terj. Benjamin Jowett) · SEP "Confucius" #filsafatharian #konfusius #meeting #duniakerja
 ---
-[cover kicker="FILSAFAT HARIAN · KONFUSIUS"]
-Pura-pura Tahu | di Grup WhatsApp?
-Satu kalimat umur 2.500 tahun buat momen itu.
----
-[card kicker="Situasinya" number=off icon=none]
-Kamu cuma setengah tahu, *tapi merasa harus menjawab.*
-Bilang "nggak tahu" rasanya bikin kelihatan bodoh.
+[cover kicker="SATU KALIMAT · #2"]
+Ditanya di meeting, | *kamu cuma setengah tahu.*
+Satu kalimat Konfusius buat momen itu.
 ---
 [quote icon=none]
 Kalau kamu tahu sesuatu, akuilah bahwa kamu tahu. Kalau tidak tahu, akuilah bahwa kamu tidak tahu. Itulah pengetahuan.
 — Konfusius, Analekta 2.17 (terj. bebas, Legge)
 ---
-[card kicker="Ide Konfusius · Tiongkok, 551–479 SM" number=off icon=none]
-Pengetahuan dimulai dari *jujur tentang batas tahumu.*
-Begitu ia mengajari muridnya, Zilu. Bukan soal tahu sebanyak-banyaknya.
+[card kicker="Artinya di kantor" number=off icon=none]
+“Aku belum tahu, *nanti aku cek dulu.*”
+Lalu benar-benar cek. Itu bukan tanda lemah, tapi awal belajar. Begitu Konfusius mengajari muridnya, Zilu.
 ---
-[card kicker="Coba hari ini" number=off icon=none]
-"Aku belum tahu, *nanti aku cek dulu.*"
-Lalu benar-benar cek. Itu bukan tanda lemah, tapi awal belajar.
----
-[card kicker="Tapi…" number=off icon=none]
-Kadang kita *tetap harus memutuskan* dengan pengetahuan yang belum lengkap.
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Kadang kamu *tetap harus memutuskan* dengan pengetahuan yang belum lengkap.
 Di Yunani, Sokrates punya gagasan mirip: ia merasa sedikit lebih bijak hanya karena tak mengira dirinya tahu (Apologia 21d).
 ---
 [end cta="Simpan"]
-Pernah pura-pura tahu *di grup?*
+Pernah pura-pura tahu *di meeting?*
 Komen 🙋 kalau pernah. Jujur aja.

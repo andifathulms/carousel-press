@@ -1,4 +1,5 @@
-template: editorial/stone
+template: editorial/tameng
+handle: @filsafatharian.id
 lang: id
 title: cogito ergo sum
 caption: "Aku berpikir maka aku ada" ternyata bukan soal berpikir positif. Sumber: Descartes, Diskursus tentang Metode bagian IV (terj. John Veitch) & Meditasi II · SEP "Descartes' Epistemology" #filsafat #filsafatharian #descartes #cogito
@@ -30,7 +31,7 @@ Benar setiap kali ia ucapkan atau pikirkan (Meditasi II). Rumus terkenalnya dari
 Pisahkan yang pasti *dari yang cuma dikira.*
 Saat pikiran ramai, tulis dua kolom: yang benar-benar kamu tahu, dan yang masih tebakan.
 ---
-[card kicker="Tapi…" number=off icon=none]
+[card kicker="Tapi…" number=off icon=none surface=baja]
 Apakah *"aku"-nya* sudah pasti?
 Lichtenberg (abad ke-18) dan Russell: Descartes cuma berhak bilang "ada pikiran". Soal ini masih diperdebatkan.
 ---

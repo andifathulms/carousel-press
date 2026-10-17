@@ -1,15 +1,16 @@
-template: editorial/stone
+template: editorial/tameng
+handle: @filsafatharian.id
 lang: id
-title: jujur atau menjaga perasaan
-caption: Dilema kecil yang hampir semua orang pernah alami. Sumber: SEP "Kant's Moral Philosophy" · J.S. Mill, Utilitarianism (1861) bab 2 · SEP "Aristotle's Ethics" #filsafat #filsafatharian #etika #dilema
+title: pilih mana 1 jujur ke rekan kerja
+caption: Rekan kerja minta pendapat soal slide presentasinya, dan besok dia tampil. Kamu jawab apa? Sumber: SEP "Kant's Moral Philosophy" · J.S. Mill, Utilitarianism (1861) bab 2 · SEP "Aristotle's Ethics" #filsafatharian #etika #dilema #duniakerja
 ---
 [cover kicker="KAMU PILIH MANA? · #1"]
-Jujur atau | Menjaga Perasaan?
-Dilema kecil yang hampir semua orang pernah alami.
+Jujur atau | *jaga perasaan?*
+Rekan kerja minta pendapat. Tiga filsuf menimbang.
 ---
 [card kicker="Kamu pilih mana?" number=off icon=none]
-*A.* Tetap jujur. | *B.* Jaga perasaan.
-Temanmu baru buka usaha kue dan minta pendapat. Rasanya kurang enak, dan dia kelihatan sangat berharap.
+*A.* Tetap jujur. | *B.* Jaga perasaan.
+Rekan kerja minta pendapat soal slide presentasinya. Menurutmu berantakan, dan besok dia tampil di depan atasan.
 ---
 [card kicker="Posisi A · Immanuel Kant (1724–1804)" number=off icon=none]
 Kalau semua boleh bohong, *kata-kata kehilangan artinya.*
@@ -21,7 +22,7 @@ Tapi bagi Mill kejujuran aturan yang sangat berguna, karena kepercayaan bergantu
 ---
 [card kicker="Jalan tengah · Aristoteles (384–322 SM)" number=off icon=none]
 Tahu *cara, waktu, dan takaran* yang tepat.
-Kebajikan butuh kebijaksanaan praktis (*phronesis*). Jujur soal rasanya, tapi dengan cara yang membantu temanmu memperbaiki?
+Kebajikan butuh kebijaksanaan praktis (*phronesis*). Jujur soal isinya, dengan cara yang membantu dia memperbaiki sebelum besok?
 ---
 [end cta="Simpan"]
 Kamu *A atau B?*

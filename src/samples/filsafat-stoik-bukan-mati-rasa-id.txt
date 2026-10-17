@@ -1,11 +1,12 @@
-template: editorial/stone
+template: editorial/tameng
+handle: @filsafatharian.id
 lang: id
-title: stoik bukan mati rasa
-caption: Stoik bukan berarti nggak boleh sedih. Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya. Sumber: SEP "Stoicism" (bagian emosi, mengutip Diogenes Laertius & Gellius) · SEP "Aristotle's Ethics" #filsafat #filsafatharian #stoikisme
+title: salah kaprah stoik 1 mati rasa
+caption: Stoik bukan berarti nggak boleh sedih, apalagi setelah hari kerja yang berat. Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya. Sumber: SEP "Stoicism" (bagian emosi, mengutip Diogenes Laertius & Gellius) · SEP "Aristotle's Ethics" #stoikisme #filsafatharian #salahkaprah
 ---
-[cover kicker="SALAH KAPRAH FILSAFAT · #1"]
-Stoik Itu | Nggak Boleh Sedih?
-Yang sebenarnya diajarkan para Stoa soal perasaan.
+[cover kicker="SALAH KAPRAH STOIK · #1"]
+Stoik itu | *nggak boleh sedih?*
+Biar kamu nggak salah pakai tameng.
 ---
 [compare]
 headline: Yang sering salah dipahami
@@ -16,17 +17,17 @@ right: Yang dilawan adalah emosi yang lahir dari penilaian keliru.
 why: Bagi Stoa (abad ke-3 SM sampai ke-2 M), takut atau marah muncul karena kita keliru menilai sesuatu sebagai baik atau buruk.
 ---
 [card kicker="Orang bijak pun merasa" number=off icon=none]
-Ada *"perasaan baik"* dan *"pra-emosi".*
+Ada *“perasaan baik”* dan *“pra-emosi”.*
 Sukacita yang tepat (*eupatheiai*), dan reaksi spontan seperti kaget (*propatheiai*), yang dialami bahkan oleh orang paling bijak.
 ---
 [card kicker="Coba hari ini" number=off icon=none]
 Jangan buru-buru menekannya. *Tanya penilaian di baliknya.*
 Apakah penilaian itu benar?
 ---
-[card kicker="Tapi…" number=off icon=none]
+[card kicker="Tapi…" number=off icon=none surface=baja]
 Aristoteles: marah dan takut *kadang memang tepat.*
 Asal dirasakan dengan cara dan pada waktu yang benar. Stoa justru menilai emosi seperti itu selalu keliru.
 ---
 [end cta="Simpan"]
 Selama ini kamu kira stoik itu *mati rasa?*
-Jawab "iya" atau "nggak" di komen.
+Jawab “iya” atau “nggak” di komen.

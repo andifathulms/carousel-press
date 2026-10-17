@@ -1,36 +1,41 @@
-template: editorial/stone
+template: editorial/tameng
+handle: @filsafatharian.id
 lang: id
-title: akrasia
-caption: Tahu harus mulai, tapi malah buka HP lagi? Rasa itu punya nama. Sumber: Aristoteles, Etika Nikomakea VII.1–3 (terj. W.D. Ross) · SEP "Weakness of Will" #filsafat #filsafatharian #akrasia #menunda
+title: tameng 5 deadline besok
+caption: Tahu harus mulai, tapi malah buka HP lagi? Rasa itu punya nama, dan orang Yunani sudah memperdebatkannya. Sumber: Aristoteles, Etika Nikomakea VII.1–3 (terj. W.D. Ross) · SEP "Weakness of Will" #filsafatharian #akrasia #deadline #menunda
 ---
-[cover kicker="ADA NAMANYA · #1"]
-Tahu Harus Mulai, | Tapi Buka HP Lagi?
-Rasa itu punya nama, dan cara melihatnya dari 2.300 tahun lalu.
+[cover kicker="FILSAFAT HARIAN · TAMENG #5"]
+Deadline besok. | *Kamu malah scroll.*
+Rasa itu punya nama, dari 2.300 tahun lalu.
+---
+[card kicker="Situasinya" number=off icon=none]
+Laptop sudah terbuka, *tapi jarimu buka HP.*
+Tahu harus mulai. Tetap belum mulai.
 ---
 [card kicker="Namanya" number=off icon=none]
 Orang Yunani menyebutnya *akrasia.*
-Tahu mana yang baik, tapi tetap tidak melakukannya. Artinya kira-kira "tanpa kendali diri".
+Tahu mana yang baik, tapi tetap tidak melakukannya. Artinya kira-kira “tanpa kendali diri”.
 ---
 [quote icon=none]
 Orang yang tak bisa menahan diri tahu bahwa yang ia lakukan buruk, tapi tetap melakukannya karena dorongan nafsu.
-— Aristoteles, Etika Nikomakea VII.1 (terj. bebas, Ross)
+— Aristoteles, Etika VII.1 (terj. bebas, Ross)
 ---
-[card kicker="Pendapat Sokrates · Yunani, abad ke-5 SM" number=off icon=none]
+[card kicker="Kata Sokrates · Yunani, abad ke-5 SM" number=off icon=none]
 Itu bukan lemah, *tapi belum benar-benar tahu.*
 Menurut catatan Aristoteles (VII.2), Sokrates berpendapat orang bertindak salah hanya karena tidak tahu.
 ---
 [card kicker="Jawaban Aristoteles · 384–322 SM" number=off icon=none]
-Kita tahu, *tapi tahunya sedang "tidur".*
+Kita tahu, *tapi tahunya sedang “tidur”.*
 Seperti orang mengantuk atau mabuk: pengetahuannya ada, tapi tak terpakai saat dorongan datang (VII.3).
 ---
-[card kicker="Coba hari ini" number=off icon=none]
+[card kicker="Coba malam ini" number=off icon=none]
 Putuskan *sebelum dorongannya datang.*
-Taruh HP di ruangan lain sebelum mulai. Saat godaan muncul, pilihannya sudah dibuat.
+Taruh HP di ruangan lain sebelum mulai kerja. Saat godaan muncul, pilihannya sudah dibuat.
 ---
-[card kicker="Tapi…" number=off icon=none]
+[card kicker="Tapi…" number=off icon=none surface=baja]
 Tidak semua menunda *itu akrasia.*
 Capek, takut gagal, atau tugas yang tak jelas juga bisa jadi sebab. Para filsuf pun masih berdebat soal akrasia.
 ---
 [end cta="Simpan"]
-Hari ini kamu kalah *sama apa?*
+Malam ini kamu kalah *sama apa?*
 Komen satu kata: HP, kasur, atau yang lain?

@@ -1,4 +1,5 @@
-template: editorial/stone
+template: editorial/tameng
+handle: @filsafatharian.id
 lang: id
 title: wu wei
 caption: Satu kata dari teks Tiongkok kuno yang sering disalahpahami. Sumber: Laozi (Daodejing) bab 37 & 48 (terj. James Legge) · SEP "Laozi" #filsafat #filsafatharian #wuwei #taoisme
@@ -31,7 +32,7 @@ Begitu rileks dan ikut keseimbangan, sepedanya jalan. Bukan berhenti berusaha, t
 Siapa Laozi *masih diperdebatkan.*
 Banyak sarjana menilai teksnya disusun bertahap dan baru utuh sekitar abad ke-4–3 SM.
 ---
-[card kicker="Tapi…" number=off icon=none]
+[card kicker="Tapi…" number=off icon=none surface=baja]
 Para penafsir *berbeda pendapat.*
 Ada yang membacanya sebagai ajaran spiritual, ada yang sebagai nasihat etika dan politik, termasuk cara penguasa memerintah.
 ---

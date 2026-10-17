@@ -1,15 +1,16 @@
-template: editorial/stone
+template: editorial/tameng
+handle: @filsafatharian.id
 lang: id
-title: checkout tengah malam
-caption: Sebelum checkout, coba pakai cara pikir umur 2.300 tahun ini. Sumber: Epikuros, Surat kepada Menoikeus 127–131 (terj. R.D. Hicks) · SEP "Epicurus" · SEP "Stoicism" #filsafat #filsafatharian #epikuros
+title: tameng 6 baru gajian sudah checkout
+caption: Tanggal 25 gajian, tanggal 28 sudah tinggal sisa? Coba cara pikir umur 2.300 tahun ini sebelum checkout. Sumber: Epikuros, Surat kepada Menoikeus 127–131 (terj. R.D. Hicks) · SEP "Epicurus" · SEP "Stoicism" #filsafatharian #epikuros #gajian #checkout
 ---
-[cover kicker="FILSAFAT HARIAN · EPIKUROS"]
-Checkout Tengah Malam, | Lalu Menyesal?
-Cara bedain mau dan butuh, dari 2.300 tahun lalu.
+[cover kicker="FILSAFAT HARIAN · TAMENG #6"]
+Baru gajian, | *sudah checkout.*
+Cara Epikuros bedain butuh dan cuma pengin.
 ---
 [card kicker="Situasinya" number=off icon=none]
 Barangnya datang. *Senangnya cuma sebentar.*
-Lalu muncul keinginan berikutnya, dan berikutnya lagi.
+Lalu muncul keinginan berikutnya. Gajinya habis duluan.
 ---
 [card kicker="Ide Epikuros · Yunani, 341–270 SM" number=off icon=none]
 Kenali dulu *jenis keinginanmu.*
@@ -19,21 +20,25 @@ Hidup yang baik menurutnya: bebas dari sakit di tubuh dan gelisah di pikiran (*a
 Ada yang *perlu,* ada yang *sekadar enak,* ada yang *kosong.*
 Perlu: makan dan tempat berteduh. Sekadar enak: makanan mewah. Kosong: tanpa batas alami, seperti ingin hidup abadi.
 ---
+[quote icon=none]
+Roti dan air memberi kenikmatan tertinggi saat sampai di bibir yang lapar.
+— Epikuros, Menoikeus 131 (terj. bebas, Hicks)
+---
 [compare]
 headline: Epikurean = foya-foya?
 wrong-label: Kata orang
 wrong: Epikuros mengajarkan pesta dan kesenangan sebanyak-banyaknya.
 right-label: Kata Epikuros
 right: Yang ia maksud dengan kenikmatan adalah tidak sakit dan tidak gelisah.
-why: Dalam suratnya ia sendiri membantah anggapan itu, dan menulis bahwa roti dan air terasa paling nikmat bagi orang yang lapar.
+why: Dalam suratnya ia sendiri membantah anggapan itu (131).
 ---
-[card kicker="Coba hari ini" number=off icon=none]
+[card kicker="Coba gajian ini" number=off icon=none]
 Biarkan dulu *sehari di keranjang.*
 Tanya: ini perlu, sekadar enak, atau kosong? Sering kali keinginannya hilang sendiri.
 ---
-[card kicker="Tapi…" number=off icon=none]
+[card kicker="Tapi…" number=off icon=none surface=baja]
 Kaum Stoa *menolak kenikmatan* sebagai tujuan hidup.
-Bagi mereka hanya kebajikan yang baik. Dan hari ini garis "perlu" tak selalu jelas. Ponsel, misalnya.
+Bagi mereka hanya kebajikan yang baik. Dan hari ini garis “perlu” tak selalu jelas. Ponsel, misalnya.
 ---
 [end cta="Simpan"]
 Perlu, sekadar enak, *atau kosong?*

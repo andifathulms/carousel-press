@@ -1,4 +1,5 @@
-template: editorial/stone
+template: editorial/tameng
+handle: @filsafatharian.id
 lang: id
 title: tiga tempat pemimpin
 caption: Baru jadi ketua kelompok atau kakak tertua? Tiga posisi dari Ki Hajar Dewantara. Sumber: Ki Sunardi H.S., "Sistem Among" (Tamansiswa Pusat, 2021) · Kompas.com, "Taman Siswa, Sekolah yang Jadi Bentuk Perlawanan Ki Hadjar Dewantara" (2026) #filsafat #filsafatharian #kihajardewantara #tutwurihandayani
@@ -17,7 +18,7 @@ Ia merumuskannya untuk para guru di Taman Siswa, sekolah yang ia dirikan di Yogy
 ---
 [quote icon=none]
 Ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani.
-— Ki Hajar Dewantara, semboyan sistem among Taman Siswa
+— Ki Hajar Dewantara, semboyan Taman Siswa
 ---
 [card kicker="Artinya" number=off icon=none]
 Di depan memberi contoh, di tengah membangun semangat, *di belakang memberi dorongan.*
@@ -26,7 +27,7 @@ Di depan memberi contoh, di tengah membangun semangat, *di belakang memberi doro
 Tanya dulu: *timku butuh aku di mana?*
 Contoh saat mulai, teman saat jalan, pendorong saat mereka sudah bisa sendiri.
 ---
-[card kicker="Tapi…" number=off icon=none]
+[card kicker="Tapi…" number=off icon=none surface=baja]
 Di belakang *bukan berarti lepas tangan.*
 Pamong memberi ruang, tapi tetap mengikuti dan turun tangan saat ada bahaya. Aslinya untuk sekolah, bukan kantor.
 ---
