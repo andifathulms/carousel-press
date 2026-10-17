@@ -1,0 +1,75 @@
+template: dev/terminal
+lang: id
+title: git rescue 4 konflik setelah git pull
+caption: git pull terus muncul CONFLICT? Tenang, belum ada yang rusak. Ini cara beresinnya, atau batalin dulu. #git #belajarcoding #programmer
+---
+[cover kicker="GIT RESCUE • #4"]
+`git pull` | Malah CONFLICT?
+Belum ada yang rusak. Beresin dalam 3 langkah, atau batalin dulu. Simpan buat pas panik.
+---
+[code]
+Panik? Batalin dulu
+Semua balik ke kondisi sebelum `pull`. Nggak ada yang hilang.
+```bash
+git merge --abort
+```
+Tarik napas, baru coba lagi.
+---
+[code]
+Cari file yang konflik
+Yang ditandai `UU` itu yang perlu dibenerin.
+```bash
+git status --short
+# UU app.js
+```
+---
+[code]
+Pilih isi yang benar
+Atas punyamu, bawah dari remote. Sisakan yang benar, hapus ketiga baris tanda.
+```
+<<<<<<< HEAD
+const port = 5000;
+=======
+const port = 8080;
+>>>>>>> 81f825a
+```
+Baris terakhir berisi nama branch atau hash commit.
+---
+[code]
+Tandai beres, commit, push
+`--no-edit` pakai pesan merge bawaan dari Git.
+```bash
+git add app.js
+git commit --no-edit
+git push
+```
+Jalankan aplikasinya dulu sebelum push.
+---
+[code]
+Muncul “divergent branches”?
+Git minta kamu pilih cara gabung. Pilih merge biasa:
+```bash
+git pull --no-rebase
+# biar nggak ditanya lagi:
+git config pull.rebase false
+```
+---
+[code number=off]
+Simpan ini
+Ikuti dari atas. Panik? Baris pertama.
+```bash
+# panik? batalin semuanya
+git merge --abort
+# cari file yang konflik
+git status --short
+# sudah dibenerin di editor
+git add app.js
+git commit --no-edit
+git push
+# pull ditolak: divergent branches
+git pull --no-rebase
+```
+---
+[end cta="Follow"]
+Konflik pertamamu *di file apa?*
+Satu nama file di komen. Git Rescue #5 minggu depan.

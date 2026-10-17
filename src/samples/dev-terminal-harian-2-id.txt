@@ -1,0 +1,57 @@
+template: dev/terminal
+lang: id
+title: terminal harian 2 cari perintah lama
+caption: Perintah panjang yang kemarin jalan, hari ini lupa. Nggak usah scroll chat lagi, cari di history terminal. #terminal #linux #belajarcoding
+---
+[cover kicker="TERMINAL HARIAN • #2"]
+Lupa Perintah | yang Kemarin Jalan?
+Cari di history terminal, nggak usah ngetik ulang. Simpan buat besok.
+---
+[code]
+Cari sambil ngetik
+Ketik sebagian, misalnya `docker`. Tekan lagi buat hasil sebelumnya, Enter buat jalanin.
+```
+Ctrl + R
+```
+Jalan di bash dan zsh. Batal: Ctrl + C.
+---
+[code]
+Lihat semua yang cocok
+`history` nampilin daftar bernomor. Saring pakai `grep`.
+```bash
+history | grep docker
+#  1  docker compose up -d
+#  4  docker logs -f web
+```
+---
+[code]
+Jalankan ulang pakai nomornya
+Nomornya dari hasil `history` tadi.
+```bash
+!4
+```
+Langsung jalan. Pastikan nomornya benar.
+---
+[code]
+Cek dulu sebelum jalan
+`:p` cuma nampilin perintah terakhir yang diawali `docker`, nggak dijalanin.
+```bash
+!docker:p
+```
+---
+[code number=off]
+Simpan ini
+Bash dan zsh sama.
+```bash
+# cari sambil ngetik: Ctrl + R
+# semua yang cocok
+history | grep docker
+# jalankan nomor 4
+!4
+# lihat dulu, belum dijalankan
+!docker:p
+```
+---
+[end cta="Follow"]
+Kamu tim *Ctrl + R* atau tim panah atas?
+Komen R atau panah. Terminal Harian #3 minggu depan.

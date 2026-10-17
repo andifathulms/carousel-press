@@ -111,6 +111,10 @@ import b2DevGitRescue3Id from './dev-git-rescue-3-id.txt?raw';
 import b2DevNpmScriptsId from './dev-npm-scripts-id.txt?raw';
 import b2DevTebakOutput2Id from './dev-tebak-output-2-id.txt?raw';
 import b2DevTerminalHarian1Id from './dev-terminal-harian-1-id.txt?raw';
+import devGitRescue4Id from './dev-git-rescue-4-id.txt?raw';
+import devKerjaNyata1Id from './dev-kerja-nyata-1-id.txt?raw';
+import devKerjaNyata2Id from './dev-kerja-nyata-2-id.txt?raw';
+import devTerminalHarian2Id from './dev-terminal-harian-2-id.txt?raw';
 import b2EditorialAnakRantauId from './editorial-anak-rantau-id.txt?raw';
 import b2EditorialMingguMalamId from './editorial-minggu-malam-id.txt?raw';
 import editorialGantiKalimatRumahId from './editorial-ganti-kalimat-rumah-id.txt?raw';
@@ -319,6 +323,10 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-npm-scripts-id', name: 'Npm scripts cheat sheet (dev, id)', category: 'dev', text: b2DevNpmScriptsId },
   { id: 'dev-tebak-output-2-id', name: 'Tebak output python 2 (dev, id)', category: 'dev', text: b2DevTebakOutput2Id },
   { id: 'dev-terminal-harian-1-id', name: 'Terminal harian 1 curl (dev, id)', category: 'dev', text: b2DevTerminalHarian1Id },
+  { id: 'dev-git-rescue-4-id', name: 'Git rescue 4 konflik setelah pull (dev, id)', category: 'dev', text: devGitRescue4Id },
+  { id: 'dev-kerja-nyata-1-id', name: 'Kerja nyata 1 clone project langsung error (dev, id)', category: 'dev', text: devKerjaNyata1Id },
+  { id: 'dev-kerja-nyata-2-id', name: 'Kerja nyata 2 pesan commit (dev, id)', category: 'dev', text: devKerjaNyata2Id },
+  { id: 'dev-terminal-harian-2-id', name: 'Terminal harian 2 cari perintah lama (dev, id)', category: 'dev', text: devTerminalHarian2Id },
   { id: 'editorial-anak-rantau-id', name: 'Hal kecil anak rantau (Ruang Rasa, id)', category: 'relationships', text: b2EditorialAnakRantauId },
   { id: 'editorial-minggu-malam-id', name: 'Minggu malam, kamu yang mana (Ruang Rasa, id)', category: 'relationships', text: b2EditorialMingguMalamId },
   { id: 'editorial-ganti-kalimat-rumah-id', name: 'Ruang Rasa · Ganti Kalimatnya #1: orang rumah (daun)', category: 'relationships', text: editorialGantiKalimatRumahId },

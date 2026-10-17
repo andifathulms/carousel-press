@@ -42,7 +42,7 @@ describe('filtering', () => {
     expect(cats.has('a')).toBe(false);
     expect(filterDecks(decks, '', 'dev', cats).map((d) => d.id)).toEqual(['b']);
     expect(filterDecks(decks, 'git', 'all', cats).map((d) => d.id)).toEqual(['b']);
-    expect(filterSamples(SAMPLES.map(sampleInfo), 'git', 'dev').map((s) => s.id).sort()).toEqual(['dev-git-id', 'dev-git-rescue-2-id', 'dev-git-rescue-3-id', 'dev-git-undo-id']);
+    expect(filterSamples(SAMPLES.map(sampleInfo), 'git', 'dev').map((s) => s.id).sort()).toEqual(['dev-git-id', 'dev-git-rescue-2-id', 'dev-git-rescue-3-id', 'dev-git-rescue-4-id', 'dev-git-undo-id']);
     const all = SAMPLES.map(sampleInfo);
     expect(filterSamples(all, '', 'history').map((s) => s.id).every((id) => id.startsWith('sejarah-'))).toBe(true);
     expect(filterSamples(all, '', 'sports')).toHaveLength(SAMPLES.filter((s) => s.category === 'sports').length);

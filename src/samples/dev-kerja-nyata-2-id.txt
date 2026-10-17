@@ -1,0 +1,72 @@
+template: dev/terminal
+lang: id
+title: kerja nyata 2 pesan commit
+caption: Pesan commit "update" lolos di project sendiri, tapi biasanya ditanya pas review. Ini format yang dipakai banyak tim. #git #belajarcoding #juniordeveloper
+---
+[cover kicker="KERJA NYATA • #2"]
+Pesan Commit-mu | Cuma “update”?
+Format yang dipakai banyak tim, biar PR pertamamu nggak ditanya-tanya. Simpan dulu.
+---
+[code]
+Tipe, lalu apa yang berubah
+Tipe pendek di depan, satu kalimat setelahnya.
+```bash
+git commit -m "fix: login dobel"
+```
+Namanya Conventional Commits. Banyak tim pakai ini.
+---
+[code]
+6 tipe yang paling sering dipakai
+Pilih satu yang paling pas.
+```
+feat      fitur baru
+fix       perbaikan bug
+docs      dokumentasi
+refactor  rapikan kode
+test      tambah atau ubah tes
+chore     dependency, config
+```
+---
+[code]
+Tulis yang berubah, bukan prosesnya
+Yang baca commit butuh tahu apa yang beda.
+```bash
+# kurang jelas
+git commit -m "update"
+git commit -m "fix bug"
+# jelas
+git commit -m "fix: total minus"
+```
+---
+[code]
+Perlu penjelasan? Tambah `-m` kedua
+`-m` kedua jadi isi commit, di bawah judulnya.
+```bash
+git commit -m "fix: login dobel" \
+  -m "Tombol nonaktif sampai beres."
+```
+---
+[code]
+Ikuti gaya tim dulu
+Sebelum commit pertama, lihat contoh yang sudah ada.
+```bash
+git log --oneline -10
+```
+Gaya tim selalu menang dari aturan di slide ini.
+---
+[code number=off]
+Simpan ini
+Cek gaya tim dulu, baru commit.
+```bash
+# judul saja
+git commit -m "fix: login dobel"
+# judul + penjelasan
+git commit -m "feat: filter harga" \
+  -m "Filter per kategori juga."
+# lihat gaya tim
+git log --oneline -10
+```
+---
+[end cta="Follow"]
+Pesan commit *terakhirmu* apa?
+Tempel di komen, nggak usah malu. Kerja Nyata #3 minggu depan.

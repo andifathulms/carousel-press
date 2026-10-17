@@ -1,0 +1,68 @@
+template: dev/terminal
+lang: id
+title: kerja nyata 1 clone project langsung error
+caption: Hari pertama, clone project kantor, npm run dev langsung error. Biasanya bukan kodenya, tapi salah satu dari 4 hal ini. #belajarcoding #programmer #juniordeveloper
+---
+[cover kicker="KERJA NYATA • #1"]
+Clone Project Kantor, | Langsung Error?
+Biasanya bukan kodenya. Cek 4 hal ini sebelum nanya ke tim. Simpan dulu.
+---
+[code]
+Samakan versi Node
+Lihat versi yang diminta project, lalu versi di laptopmu.
+```bash
+cat .nvmrc
+node -v
+```
+Beda? Ganti pakai version manager: nvm, fnm, atau volta.
+---
+[code]
+Bikin `.env` dari contohnya
+`.env` nggak ikut di-commit, jadi harus dibikin sendiri.
+```bash
+cp .env.example .env
+```
+Isi nilainya. Tanya tim, jangan ditebak.
+---
+[code]
+Install persis seperti tim
+`npm ci` pakai versi yang tercatat di `package-lock.json`.
+```bash
+npm ci
+```
+---
+[code]
+Cek nama script-nya
+Belum tentu `dev`. Bisa `start`, `serve`, atau yang lain.
+```bash
+npm run
+```
+---
+[code]
+Masih error? Bawa ini pas nanya
+Senior biasanya nanya balik tiga hal ini.
+```bash
+node -v
+npm -v
+git log --oneline -1
+```
+Plus teks error lengkapnya, bukan foto layar.
+---
+[code number=off]
+Simpan ini
+Urut dari atas. Masih error? Bawa versi dan error lengkapnya.
+```bash
+# versi Node sudah sama?
+cat .nvmrc
+node -v
+# bikin .env
+cp .env.example .env
+# install seperti tim
+npm ci
+# lihat nama script
+npm run
+```
+---
+[end cta="Follow"]
+Error pertamamu di kantor *soal apa?*
+Satu kata di komen. Kerja Nyata #2 minggu depan.
