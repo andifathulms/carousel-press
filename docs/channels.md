@@ -1056,7 +1056,14 @@ Satu kata aja di komen.
 A faceless Indonesian account for practice and strategy for government and state selection tests. SKD CPNS is the core (most posts). Side series cover Sekolah Kedinasan (many schools use SKD via BKN's CAT plus their own stages), PPPK (teknis, manajerial, sosio-kultural, wawancara), Rekrutmen Bersama BUMN (basic aptitude, AKHLAK values, English) and general job psychotests (deret, analogi, logika). UTBK-SNBT is out of scope.
 It should feel like "oh, there's a 30-second way to do this", never like a tutoring ad or a promise.
 
-**Direction (owner, Oct 2026).** One question per post felt unusual. Every main post now teaches one topic through 5 worked questions, easy to hard, so the viewer learns the pattern, not one answer.
+**Direction (owner, Oct 2026 second review): the trusted one in a desperate market.**
+- **The market:** PNS, kedinasan and BUMN are still the family safety net, and test season is full of anxiety and of people selling to it (*joki*, "soal bocoran", "pasti lolos").
+- **The brand is trust:** correct shortcuts, original questions, and plainly "soal buatan kami, bukan soal resmi". That is what a study group forwards without hesitating.
+- **Fast, but honest:** every question has a **time target** in its kicker ("Soal 1 · Mudah · 30 detik"), because SKD gives roughly a minute per question and viewers want the 30-second way. Every solution shows the trick *and* the trap.
+- **Built for WA/Telegram study groups:** each question card stands alone as a screenshot, the recap is the slide that gets forwarded, and the end asks for the score plus "kirim ke grup belajarmu".
+- **Relief over fear** (standard 14): never "kalau salah, gagal CPNS".
+
+**Format (owner, Oct 2026).** One question per post felt unusual. Every main post now teaches one topic through 5 worked questions, easy to hard, so the viewer learns the pattern, not one answer.
 **Bio (owner to set):** must say it isn't an official account, e.g. "📝 Latihan SKD CPNS & kedinasan: satu topik, 5 soal + pembahasan. Soal buatan sendiri. Bukan akun resmi BKN."
 
 | | |
@@ -1064,7 +1071,7 @@ It should feel like "oh, there's a 30-second way to do this", never like a tutor
 | Purpose | Daily practice and test strategy for selection tests |
 | Audience | Indonesian fresh graduates, job seekers, SMA students aiming for sekolah kedinasan, honorer staff preparing for PPPK |
 | Reader should think | "3 out of 5, and now I know the trick for this type." |
-| Primary action | Save (the recap), comment the score, follow for the next topic |
+| Primary action | Save (the recap), share to a study group, comment the score, follow for the next topic |
 | Tone | Calm, clear, encouraging; never "pasti lolos", never panic |
 | Voice | A calm senior who passed the test and explains it plainly |
 | Slide types | `cover`, `card` (with `verdict=` for answers), `compare`, `table`, `end` |
@@ -1073,7 +1080,7 @@ It should feel like "oh, there's a 30-second way to do this", never like a tutor
 
 1. **1 Topik, 5 Soal** (most posts): one question type per deck, TIU numerik (soal cerita, deret, perbandingan, persen) and verbal (analogi, silogisme, sinonim/antonim). **Figural only once an image slide exists** (see Open items); it can't be drawn yet.
 2. **TWK**: Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika, sejarah, as questions with the article or source cited in the answer slide.
-3. **TKP**: a workplace situation with five options and the scoring explained, labelled "pembahasan versi kami".
+3. **TKP** (the biggest gap in the market; "cara jawab TKP" is the most searched strategy): a workplace situation with five options and the scoring explained, labelled "pembahasan versi kami". Teach the reasoning pattern (aktif, tuntas, komunikatif, tidak melempar), never a "kunci". Any scoring scheme or passing grade cites that year's regulation by name and number.
 4. **Mini Tryout Minggu**: 5–8 questions, the answer key at the end.
 5. **Strategi**: time, question order, traps, how scoring works.
 6. **Info Resmi**: only after an official announcement, quoting it.
@@ -1101,14 +1108,17 @@ It should feel like "oh, there's a 30-second way to do this", never like a tutor
 
 - **Template:** `lexicon/lembar` (built for this account, Oct 2026): an exam answer sheet. Square-grid paper with teal ink for questions, graphite cover and end with a pencil-yellow accent, Barlow throughout so numbers read cleanly. Its `ok`/`bad` colours carry verdicts and compares. Never `lexicon/notebook` (Kosakata Inggris) or `editorial/rose-dusk` (Playfair's old-style figures make `Rp31.000` hard to read).
 - **1 Topik, 5 Soal** (main format): cover (kicker `TIU NUMERIK · 1 TOPIK, 5 SOAL`; headline = the topic as the viewer meets it, "Soal cerita 2 barang?"; subtitle = "5 soal dari mudah ke sulit…") → 5 × (question card, solution card) → recap `[table]` (`| Soal | Triknya |`) → end. 13 slides; may run to 14.
-  - **Question card:** `[card kicker="Soal N · Mudah|Sedang|Sulit" number=off icon=none]`, the question as the headline with the asked quantity in `*accent*` (`*1 apel − 1 jeruk = ?*`), options `A. …` to `E. …` as body lines. Keep the headline to 3 short lines; write the ask as an equation when it fits.
+  - **Question card:** `[card kicker="Soal N · Mudah|Sedang|Sulit · 30 detik" number=off icon=none]` (time target: 30 detik mudah, 45 sedang, 60 sulit), the question as the headline with the asked quantity in `*accent*` (`*1 apel − 1 jeruk = ?*`), options `A. …` to `E. …` as body lines. Keep the headline to 3 short lines; write the ask as an equation when it fits.
   - **Solution card:** `[card verdict="N · Jawaban C" tone=ok]`, headline `Trik: *<the trick>*`, then the working **one calculation per body line** (never a paragraph: equations must not break across lines), then `Jebakan X: …` naming the trap option.
   - Order the 5 from easy to hard, each a different trick for the same topic, and spread the right answers over A–E.
 - **Mini Tryout:** cover → 5–8 question cards (`number=1`…, options as body lines) → answer key `[table]` (`| No | Jawaban | Materi |`) → 2–4 explanation cards for the hardest ones → end. ≤ 14 slides.
 - **Strategi:** cover → 4–6 numbered cards → end.
 - **TWK answers** end the body with the source on its own line (`Pasal 36A UUD 1945`). **TKP answers** use `[table]` with each option's score and `kicker` "Pembahasan versi kami" on the card after it.
-- **End:** `[end cta="Follow"]` with a one-tap ask ("Skor kamu *berapa dari 5?*") and what comes next ("Topik berikutnya: deret angka.").
+- **End:** `[end cta="Follow"]` with a one-tap ask ("Skor kamu *berapa dari 5?*"), the share line ("Kirim ke grup belajarmu.") and what comes next ("Topik berikutnya: deret angka.").
+- **Header:** `handle: <SKD handle>` in every deck once the owner gives it; screenshots in study groups are how the account gets found.
+- **The LJK look** (DESIGN §6.8): write options as body lines `A. …` to `E. …` and the answer as `verdict="N · Jawaban X"`; the template draws the answer-sheet bubbles and fills X. Keep options short enough for one line (≈ 24 characters), or they fall back to plain text.
 - **Caption:** one line + the source if the post states facts (regulation, UUD article) + "Soal latihan buatan kami, bukan soal resmi" on question posts + 2–4 hashtags (`#skdcpns`, `#cpns`, `#tiu`, `#twk`, `#tkp`, `#sekolahkedinasan`, `#pppk`, `#rekrutmenbumn`).
+- **Launch order (first two weeks):** TIU numerik 1 Topik 5 Soal → TKP cara mikir → TIU deret → Strategi (time and question order) → Mini Tryout Minggu; then the normal rhythm.
 - **Rhythm:** 1 Topik, 5 Soal 4–5 times a week, Mini Tryout on Sunday, 1–2 strategy or Beda Tes posts a week; side series (Kedinasan, PPPK, BUMN, Psikotes) at most 1 in 4 posts, more around their registration windows.
 
 Working for the example (each checked by brute force: exactly one solution, exactly one matching option):
