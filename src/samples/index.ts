@@ -20,6 +20,9 @@ import devGitRescue2 from './dev-git-rescue-2-id.txt?raw';
 import devTebakOutput1 from './dev-tebak-output-1-id.txt?raw';
 import kutai from './sejarah-kutai-id.txt?raw';
 import yupa from './sejarah-yupa-id.txt?raw';
+import sejarahBantenSurosowan from './sejarah-banten-surosowan-id.txt?raw';
+import sejarahPuputanBayu from './sejarah-puputan-bayu-id.txt?raw';
+import sejarahTrunajaya from './sejarah-trunajaya-id.txt?raw';
 import syarifKasim from './sejarah-syarif-kasim-id.txt?raw';
 import baabullah from './sejarah-baabullah-id.txt?raw';
 import bongaya from './sejarah-bongaya-id.txt?raw';
@@ -255,6 +258,9 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sejarah-bubat-id', name: 'Bubat 1357: tiga versi (sejarah, id)', category: 'history', text: sejarahBubat },
   { id: 'sejarah-soenting-melajoe-id', name: 'Roehana Koeddoes dan Soenting Melajoe (sejarah, id)', category: 'history', text: sejarahSoentingMelajoe },
   { id: 'sejarah-martabat-tujuh-id', name: 'Buton dan Martabat Tujuh (sejarah, id)', category: 'history', text: sejarahMartabatTujuh },
+  { id: 'sejarah-banten-surosowan-id', name: 'Surosowan 1808 (sejarah, id)', category: 'history', text: sejarahBantenSurosowan },
+  { id: 'sejarah-puputan-bayu-id', name: 'Puputan Bayu dan hari jadi Banyuwangi (sejarah, id)', category: 'history', text: sejarahPuputanBayu },
+  { id: 'sejarah-trunajaya-id', name: 'Trunajaya, debat (sejarah, id)', category: 'history', text: sejarahTrunajaya },
   // Owner decks: Whistle Notes (photos bundled in ./photos)
   { id: 'sports-offside-id', name: 'Offside, dijelaskan (sports, id)', category: 'sports', text: offside },
   { id: 'sports-handball-id', name: 'Handball, dijelaskan (sports, id)', category: 'sports', text: handball },

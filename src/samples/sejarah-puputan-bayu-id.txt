@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/midnight
+lang: id
+title: puputan bayu hari jadi banyuwangi
+caption: Banyuwangi, Jawa Timur: hari jadinya, 18 Desember, diambil dari Puputan Bayu 1771, perang rakyat Blambangan melawan VOC. Kotanya sendiri baru jadi ibu kota tahun 1774. Sumber: Sri Margana, Java's Last Frontier: The Struggle for Hegemony of Blambangan c. 1763–1813 (disertasi Universitas Leiden, 2007), bab 4–5, mengutip arsip VOC; Antara Jatim (2018); detikJatim (2021, 2022); Kompas.com (2021) · Foto: Aryphrase (CC BY-SA 3.0), Jakub Hałun & WMWis (CC BY-SA 4.0) via Wikimedia Commons; peta F. Valentijn 1728 (domain publik) #sejarahindonesia #banyuwangi #blambangan #puputanbayu
+---
+[cover kicker="BANYUWANGI · 1771" photo=bayu-tetenger]
+Ulang Tahun Banyuwangi | Diambil dari Pertempuran
+Puputan Bayu: perang rakyat Blambangan melawan VOC yang jadi Hari Jadi Banyuwangi, 18 Desember.
+---
+[number=off icon=none photo=bayu-raung]
+*18 Desember 1771*: sergapan di Songgon
+Sekitar 150 serdadu VOC pimpinan Van Schaar disergap pejuang Jagapati yang hanya bersenjata bambu runcing dan tombak. Van Schaar tewas, dan ratusan prajurit Madura di pihak VOC gugur.
+---
+[number=off icon=none photo=bayu-peta-1728]
+*1767–1771*: VOC masuk Blambangan
+Maret 1767, bendera VOC naik di Blambangan, kerajaan Hindu terakhir di Jawa. Tahun 1771 VOC mengangkat bupati dari Surabaya; rakyat menolaknya dan mengeluh diperas.
+---
+[number=off icon=none photo=bayu-raung]
+*Agustus 1771*: “Wilis” muncul di Bayu
+Mas Rempeg, 17 tahun, keturunan Tawang Alun, mengaku sebagai Pangeran Wilis, pemberontak yang dibuang VOC ke Banda. Bergelar Susuhunan Jagapati, ia memanggil warga ke Bayu.
+---
+[number=off icon=none photo=bayu-raung]
+*1772*: Bayu dikepung, lumbung dibakar
+VOC membakar sawah dan lumbung di sekitar Bayu, dan orang mati kelaparan dan disentri. Menurut arsip VOC, Jagapati wafat Juni 1772; cerita lokal menyebut Desember 1771.
+---
+[number=off icon=none photo=bayu-peta-1728]
+*11 Oktober 1772*: Bayu jatuh
+Pasukan VOC dan sekutunya merebut benteng Bayu. Laporan komandannya, Letnan Heinrich, mencatat para tawanan dibunuh dan kepalanya digantung di pohon sebagai peringatan.
+---
+[number=off icon=none photo=bayu-selat-bali]
+Berapa korbannya? Sumber tak sepakat
+Tulisan populer menyebut lebih dari 60.000 orang tewas, hilang, atau mengungsi. Dari arsip VOC, sejarawan Sri Margana menghitung sisa penduduk akhir 1772 tak sampai 3.000.
+---
+[number=off icon=none photo=bayu-selat-bali]
+*1774*: lahirnya ibu kota Banyuwangi
+Ulupampang dilanda wabah, jadi VOC membangun benteng baru di tepi Kali Buntu. Tanggal 21 Oktober 1774, residen dan bupati resmi pindah ke Banyuwangi.
+---
+[number=off icon=none photo=bayu-tetenger]
+*1995*: tanggal perang jadi hari jadi
+DPRD Banyuwangi memilih 18 Desember secara aklamasi, untuk mengenang perlawanannya. Tiap Desember, peringatannya digelar di Rowo Bayu, Songgon.
+---
+[end photo=bayu-tetenger cta="Komen A atau B"]
+Hari jadi Banyuwangi: *A. 18 Des 1771* atau *B. 21 Okt 1774*?
+Komen A atau B. Alasanmu di balasan.

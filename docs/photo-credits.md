@@ -116,3 +116,19 @@ Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterd
 | buton-wandailolo | Martabat Tujuh | Lawana_Wandailolo.jpg | Marwan Mohamad | CC BY-SA 4.0 |
 | buton-batu-wolio | Martabat Tujuh | Batu_Wolio.jpg | Marwan Mohamad | CC BY-SA 4.0 |
 | buton-utusan-kitlv | Martabat Tujuh | Gezantschap_van_het_eiland_Boeton_in_de_Roemah_Sobat_te_Makassar,_KITLV_2948.tiff (border cropped) | Anonymous, KITLV 2948 | CC BY 4.0 |
+| banten-surosowan | Banten | Keraton Surosowan (3).jpg | Mirani Pramitasari | CC BY-SA 4.0 |
+| banten-surosowan-tembok | Banten | Tampak Benteng Keraton Surosowan Berbahan Batu Bata dan Batu Karang (Kawis).jpg | Arif Permana Putra | CC BY-SA 4.0 |
+| banten-fort-diamant | Banten | KITLV A673 - Overblijfselen van fort Diamant te Bantam bij Serang, KITLV 88367.tiff | Unknown photographer, KITLV/Leiden University Libraries | CC BY 4.0 |
+| banten-fort-diamant-gerbang | Banten | KITLV A673 - Overblijfselen van fort Diamant te Bantam bij Serang, KITLV 88369.tiff | Unknown photographer, KITLV/Leiden University Libraries | CC BY 4.0 |
+| banten-daendels | Banten | Posthuum portret van Herman Willem Daendels (1762-1818). Gouverneur-generaal (1808-10), SK-A-3790.jpg | Raden Saleh (1838), Rijksmuseum | Public domain |
+| banten-ujung-kulon | Banten | Pulau peucang taman nasional ujung kulon.jpg | Ewal Jr | CC BY-SA 4.0 |
+| bayu-tetenger | Puputan Bayu | Tetenger-perang-puputan-bayu.jpg | Aryphrase (Indonesian Wikipedia) | CC BY-SA 3.0 |
+| bayu-raung | Puputan Bayu | Raung - view from Kawah Ijen, East Java, Indonesia, 20220821 0643 9778.jpg | Jakub Hałun | CC BY-SA 4.0 |
+| bayu-peta-1728 | Puputan Bayu | B26055912H - Nieuwe en zeer naaukeurige kaart van t eyland Java Major of Groot Java.jpg | François Valentijn; engr. J. van Braam & G. onder de Linden (1728) | CC0 |
+| bayu-selat-bali | Puputan Bayu | Selat Bali dari Banyuwangi.jpg | WMWis | CC BY-SA 4.0 |
+| trunajaya-istana-mataram | Trunajaya | Koninklijk toernooi op Java, 1676, RP-P-OB-47.468 (cropped).jpg | Anonymous after Wouter Schouten / Rijksmuseum | CC0 |
+| trunajaya-situs-plered | Trunajaya | Situs benteng Kedaton Pleret 2.jpg | Muhamad Abdu | CC BY-SA 4.0 |
+| trunajaya-arosbaya-1649 | Trunajaya | Civitas Madura ducta Risbaia - 19115.jpg | Benjamin Wright (engraver), Cornelis Claesz (publisher) | Public domain |
+| trunajaya-peta-hurdt | Trunajaya | Map of Java used by Anthony Hurdt in 1678.jpg | Unknown (VOC, 1678) | Public domain |
+| trunajaya-ngantang | Trunajaya | Sawah Ngantang Malang.jpg | Yovi prasetyo | CC BY-SA 4.0 |
+| trunajaya-monumen-sampang | Trunajaya | MONUMEN TRUNOJOYO SAMPANG 5.jpg | Lukjsly | CC BY-SA 4.0 |

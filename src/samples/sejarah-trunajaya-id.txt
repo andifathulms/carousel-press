@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/midnight
+lang: id
+title: trunajaya pemberontak atau pejuang
+caption: Madura, Jawa Timur: tahun 1677 pasukan Raden Trunajaya (Trunojoyo) menjarah istana Mataram di Plered. Tiga tahun kemudian ia ditikam raja yang dulu sekutunya. Sumber: M.C. Ricklefs, A History of Modern Indonesia since c.1200 (2008); Pigeaud & de Graaf, Islamic States in Java 1500–1700 (1976); H.J. de Graaf, “Gevangenneming en dood van Raden Truna-Djaja” (TBG 85, 1952); Universitas Trunojoyo Madura; Setkab (2017); Suara Surabaya (2019) · Gambar: Rijksmuseum (CC0), peta Hurdt 1678 dan Benjamin Wright 1649 (domain publik); Foto: Muhamad Abdu, Yovi prasetyo, Lukjsly (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #madura #trunojoyo #jawatimur
+---
+[cover kicker="MADURA · 1677" photo=trunajaya-istana-mataram]
+Istana Mataram Jatuh | ke Pasukan Pangeran Madura
+Plered, 1677. Ini bukan Madura lawan Jawa: pasukan Raden Trunajaya berisi orang Madura, Jawa, dan Makassar.
+---
+[number=off icon=none photo=trunajaya-situs-plered]
+*1677*: raja kabur, istana dijarah
+Amangkurat I yang sakit kabur sebelum musuh tiba, lalu wafat dalam pelarian. Pasukan Trunajaya membakar dan menjarah Plered, membawa harta raja dan perempuan tawanan ke Kediri.
+---
+[number=off icon=none photo=trunajaya-arosbaya-1649]
+*1656*: ayahnya dibunuh di istana
+Trunajaya keturunan raja Madura Barat yang ditaklukkan Sultan Agung. Setelah ayahnya dibunuh di istana Mataram, ia lari ke Kajoran. Sekitar 1670 ia bersekongkol dengan putra mahkota, yang juga memusuhi ayahnya.
+---
+[number=off icon=none photo=trunajaya-arosbaya-1649]
+*1671–1676*: dari Madura ke pesisir Jawa
+Tahun 1671 ia menguasai Madura. Bersama pelarian Makassar pimpinan Karaeng Galesong, pasukannya membakar kota pelabuhan dan merebut Surabaya. Tahun 1676 tentara Mataram hancur di Gegodog.
+---
+[number=off icon=none photo=trunajaya-peta-hurdt]
+*1677*: VOC masuk, sekutu lama berbalik
+Mei 1677 VOC mengusir Trunajaya dari Surabaya, tapi Plered tetap jatuh. Putra mahkota naik takhta sebagai Amangkurat II tanpa tentara dan harta, lalu menjanjikan Semarang dan Priangan kepada VOC.
+---
+[number=off icon=none photo=trunajaya-peta-hurdt]
+*25 November 1678*: Kediri direbut
+Pasukan VOC di bawah Anthonio Hurdt dan Amangkurat II menembus pedalaman. Kediri, ibu kota Trunajaya, direbut lalu dijarah pasukan Jawa dan Eropa. Trunajaya lolos ke pegunungan.
+---
+[number=off icon=none photo=trunajaya-ngantang]
+*1680*: ditikam raja, bekas sekutunya
+Diburu pasukan VOC, Bugis, dan Ambon, ia menyerah karena kelaparan pada 26 Desember 1679. Pada 2 Januari 1680, sebagai tawanan VOC, ia ditikam Amangkurat II sendiri.
+---
+[number=off icon=none photo=trunajaya-monumen-sampang]
+Madura hari ini
+Namanya dipakai Universitas Trunojoyo Madura di Bangkalan dan Bandara Trunojoyo di Sumenep. Tahun 2019 Gubernur Jawa Timur mengusulkannya menjadi Pahlawan Nasional.
+---
+[number=off icon=none photo=trunajaya-situs-plered]
+Dua cara membaca Trunajaya
+Pemberontak: ia melawan rajanya, menyebut dirinya raja, dan pasukannya menjarah. Pejuang: ia melawan raja yang membantai ribuan pemuka agama, dan di akhir hidupnya mengajak Amangkurat II lepas dari VOC.
+---
+[end photo=trunajaya-istana-mataram cta="Komen A atau B"]
+Trunajaya: *A.* pemberontak atau *B.* pejuang?
+Komen A atau B. Alasanmu di balasan.

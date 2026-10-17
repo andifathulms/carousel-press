@@ -38,6 +38,29 @@ Photo licences are in [photo-credits.md](photo-credits.md).
 - Added Oct 2026 at the owner's request, from Wikipedia "Hasanuddin of Gowa" (en, read 13 Oct 2026; it cites Andaya 1981, Stapel, Van Dam van Isselt 1906): conflict from 1616 (VOC hostage-taking, 15 Dutch sailors killed); 27 Apr 1659 demand that the VOC stop attacking Gowa's vassals and admit its spice monopoly broke God's laws; a coastal brick wall of nearly 11 km; the VOC exhausted its ammunition without breaching Somba Opu; a siege of about two and a half years, with disease leaving at one point only 250 European soldiers fit; Hasanuddin abrogated the treaty within months. Medium confidence (Wikipedia, owner-chosen); the brief normally treats Wikipedia as a lead only.
 - Date conflict: Somba Opu's fall is 24 Jun 1669 in Sagimun but 12 Jun 1669 in Wikipedia's text, so the slide says "Juni 1669". Wikipedia's ~10,000 Bugis troops vs the deck's ~8,000 (Andaya): the deck keeps 8,000.
 
+### sejarah-banten-surosowan-id: Surosowan 1808
+- Faizal Arifin, *Agastya* 11(1), 2021, doi 10.25273/ajsp.v11i1.8000 (1,000 infantry and four cannon, loot, sultan to Ambon, Anyer ultimatum, 12 Nov 1808 letter, Du Puy killed 14 or 15 Nov, Wargadireja executed, 22 Nov 1808 annexation incl. Lampung)
+- Sunandar, Saepudin & Safitri, *Al-Isnad* 5(1), 2024, doi 10.22515/isnad.v5i01.8602 (arrival at the Surosowan gate 21 Nov 1808, Meeuwenbaai labour and malaria, the Wargadireja and Anyer demands)
+- T.S. Raffles, *The History of Java* (1817), Project Gutenberg #49843 (resident murdered, sultan "banished to Amboina"; 1813 resignation for a 10,000 Spanish dollar pension)
+- Atlas of Mutual Heritage, "Surosowan fort" (Meeuwenbaai labour, ~1,000 attackers vs 3,000 defenders, demolition completed 1832)
+- Historia (Risa Herdahita Putri, Dec 2024); Kompas.com (20 Mar 2023) (1813 abolition under Raffles)
+- DJKN Kanwil Banten (25 Apr 2025) (destruction 1808–1832, bricks reused, cagar budaya SK Mendikbud 139/M/1998)
+- Left out: the sultans' names (sources disagree), how Wargadireja died (shot/beheaded), the number of labourers demanded (1,000 or 1,500), whether the palace was burned in 1808 (one weak source), the "Aku jadi Sultan!" anecdote (Sandick 1893).
+
+### sejarah-puputan-bayu-id: Puputan Bayu dan hari jadi Banyuwangi
+- S. Margana, *Java's Last Frontier: The Struggle for Hegemony of Blambangan, c. 1763–1813*, PhD thesis Leiden 2007, https://hdl.handle.net/1887/12547, ch. 4–5 (1767 takeover, Wilis exiled 1768, Rempeg as Jagapati Aug 1771, 18 Dec 1771 ambush and Van Schaar killed, the 1772 siege, Jagapati's death 11 Jun 1772, Bayu falls 11 Oct 1772, captives killed, < 3,000 left, capital moved 21 Oct 1774, why 18 Dec was chosen)
+- Antara Jatim (16 Dec 2018) (DPRD session 9 May 1995 chose 18 Dec by acclamation; commemoration at Rowo Bayu)
+- detikJatim (Ardian Fanani, 7 Feb 2021 and 21 May 2022) (Rowo Bayu in Songgon; the popular "60.000" figure; the local story of Jagapati's death)
+- Kompas.com (Widya Lestari Ningsih, 29 Jun 2021) (second source for "lebih dari 60.000")
+- Left out: popular-only claims ("10.000 tentara VOC", "delapan ton emas", 65,000 starting population), the Perda number (Margana says the date was approved in 1998, Antara gives the DPRD session of 1995), graphic details.
+
+### sejarah-trunajaya-id: Trunajaya
+- M.C. Ricklefs, *A History of Modern Indonesia since c.1200*, 4th ed. 2008, ch. 7 (Plered falls late May–late June 1677, Amangkurat I's death and burial at Tegalwangi, the father murdered 1656, Kajoran, the 1675 Makassar pact, Gogodog 1676, the Feb 1677 VOC treaty, Kediri 25 Nov 1678, capture by Jonker end 1679, stabbed by Amangkurat II Jan 1680, van Goens' 5,000–6,000 figure)
+- Th. Pigeaud & H.J. de Graaf, *Islamic States in Java 1500–1700* (1976) (Plered occupied by Madurese and Kajoran forces, June 1677; descent from the West Madura kings; Ngantang; surrender to Jonker; his letter to Amangkurat II)
+- H.J. de Graaf, "Gevangenneming en dood van Raden Truna-Djaja", *TBG* 85 (1952) (26 Dec 1679 – 2 Jan 1680)
+- Universitas Trunojoyo Madura (Keppres 85/2001); Setkab (8 Oct 2017, Bandara Trunojoyo); Suara Surabaya (10 Nov 2019, the Pahlawan Nasional proposal)
+- Left out: the exact Plered date (slides say 1677), whether he wanted Mataram's throne (Ricklefs and de Graaf differ), any claim about his Pahlawan Nasional status (only the 2019 proposal is stated), the province of Payak.
+
 ## Whistle Notes
 
 ### sports-offside-id / sports-handball-id (decks in Indonesian since Oct 2026)

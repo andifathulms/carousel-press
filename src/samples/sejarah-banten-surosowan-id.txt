@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: surosowan dijarah daendels 1808
+caption: Banten, 1808: utusan Daendels dibunuh di keraton, seminggu kemudian Surosowan diserbu dan sultannya dibuang ke Ambon. Sumber: Faizal Arifin, Agastya 11(1) 2021; Sunandar, Saepudin & Safitri, Al-Isnad 5(1) 2024; T.S. Raffles, The History of Java (1817); Atlas of Mutual Heritage, “Surosowan fort”; Historia (2024); Kompas.com (2023); DJKN Kanwil Banten (2025) · Foto: Mirani Pramitasari, Arif Permana Putra, Ewal Jr (CC BY-SA 4.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #banten #kesultananbanten #serang
+---
+[cover kicker="BANTEN · 1808" photo=banten-surosowan]
+Keraton Banten Dijarah, | Sultannya Dibuang ke Ambon
+Banten Lama, November 1808. Pasukan Daendels menyerbu Keraton Surosowan setelah utusannya dibunuh.
+---
+[number=off icon=none photo=banten-fort-diamant]
+*21 November 1808*: Surosowan diserbu
+Daendels datang dengan sekitar 1.000 tentara dan meriam. Keraton dijarah, emas dan peraknya dibagi ke pasukan. Sultan ditangkap, lalu dibuang ke Ambon.
+---
+[number=off icon=none photo=banten-ujung-kulon]
+*1808*: kerja paksa di Ujung Kulon
+Untuk menahan Inggris, Daendels membangun pangkalan armada di Teluk Meeuwen. Banten wajib mengirim pekerja. Banyak yang mati kena malaria, banyak pula yang kabur.
+---
+[number=off icon=none photo=banten-surosowan-tembok]
+*November 1808*: disuruh pindah ke Anyer
+Daendels menuntut pekerja tiap hari, penyerahan Mangkubumi Wargadireja, dan keraton dipindah ke Anyer. Sultan menolak meninggalkan keraton dan makam leluhurnya.
+---
+[number=off icon=none photo=banten-daendels]
+*12 November 1808*: surat Daendels
+Tiga hari sebelum utusannya tewas, Daendels menulis ke Menteri Jajahan: tanah subur Banten berguna bagi Batavia. Sejarawan Faizal Arifin membacanya sebagai rencana, bukan balasan.
+---
+[number=off icon=none photo=banten-fort-diamant-gerbang]
+*November 1808*: utusan Daendels dibunuh
+Komandan Du Puy membawa tuntutan itu ke keraton. Ia dan beberapa serdadunya dibunuh, tanggal 14 atau 15 November menurut sumber yang berbeda.
+---
+[number=off icon=none photo=banten-fort-diamant]
+*22 November 1808*: Banten jadi milik Belanda
+Mangkubumi Wargadireja dihukum mati, jasadnya dibuang. Daendels menyatakan Banten, termasuk Lampung, wilayah Belanda. Sultan baru diangkat di bawah perintah Belanda.
+---
+[number=off icon=none photo=banten-fort-diamant-gerbang]
+*1813*: kesultanan berakhir
+Sultan menyerahkan pemerintahan ke Inggris di bawah Raffles, ditukar pensiun 10.000 dolar Spanyol setahun. Raffles menyebutnya sukarela, sumber lain menyebut sultan dipaksa.
+---
+[number=off icon=none photo=banten-surosowan-tembok]
+*Kini*: tinggal tembok dan fondasi
+Pembongkaran tuntas tahun 1832, batanya dipakai untuk bangunan Belanda. Reruntuhan Surosowan di Banten Lama, Kota Serang, jadi cagar budaya sejak 1998.
+---
+[end photo=banten-surosowan cta="Komen"]
+Orang Banten, pernah *diajarkan di sekolah?*
+Komen ✅ kalau pernah, ❌ kalau belum. Kirim ke grup keluarga Bantenmu.
