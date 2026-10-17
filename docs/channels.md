@@ -243,6 +243,11 @@ Concepts always open **error-first**: the cover is the error or the confusing re
 
 **What works (owner data, Oct 2026).** One of the best-performing accounts: "Kesultanan ini pernah dihapus negara" **29.1K** views · "Dipenjara, diceraikan, gelarnya dicabut" (Opu Daeng Risaju) 7.3K · "Bukti tertulis tertua di Nusantara" (Yupa) 5.4K · "Malamnya bertamu, subuhnya mengepung" (Bultiken, a re-upload) 150. People share history they weren't taught. Keep the photo cards. Tell it as it happened, uncomfortable parts included, with sources and without adjectives: the facts carry the weight. The 150-view post was most likely held back as a re-upload or as sensitive military content, not rejected by viewers; for those topics use the sources' own words on the cover, no images of victims, sources in a pinned comment, and rewrite fully when re-uploading.
 - **End slides:** a one-tap ask specific to the deck, never the generic "Di daerahmu ada cerita kayak gini?": "Pernah diajarkan di sekolahmu?", "Pernah dengar namanya?", or a real debate ("Arung Palakka: pahlawan atau pengkhianat?").
+
+**Direction (owner, Oct 2026 second review): regional pride and the untaught.**
+- **The audience:** Indonesians are proud of their region, and many feel the national curriculum skipped its history.
+- **What travels:** the region named in one glance, the hook moment told first, a debate people can take sides on, and sources that win the argument.
+- **What it is not:** a cover-up story ("yang disembunyikan"), a fight between ethnic groups, or a 14-slide lecture.
 A faceless Indonesian account telling lesser-known stories from Indonesian history, one place or event at a time: kingdoms, local events, place-name origins, objects and people the textbook skipped.
 It should feel like "wait, this happened here?", never like a lecture or a political opinion.
 
@@ -251,7 +256,7 @@ It should feel like "wait, this happened here?", never like a lecture or a polit
 | Purpose | Make people curious about local history |
 | Audience | Indonesian teens to adults, students, people proud of their region |
 | Reader should think | "I didn't know this, I'm sending it to someone from there." |
-| Primary action | Share / save / comment ("di daerahku juga ada…") |
+| Primary action | **Comment** (one tap or A/B), then share to people from that region |
 | Tone | Curious, vivid, respectful, neutral |
 | Voice | A storyteller who did the reading: concrete dates, places, names; no exaggeration |
 | Slide types | `cover`, `card`, `quote`, `end` |
@@ -292,50 +297,74 @@ Every slide has a photo: the place, object, an old print/map, or a true related 
 
 - Language: Indonesian (`lang: id`), standard but relaxed: `kamu` is fine, light slang only in the hook. Proper names in correct spelling (`Kesultanan Kutai Kartanegara ing Martadipura` on first mention).
 - Put the year or place at the start of story headlines: `*1960*: …`, `Tenggarong, 2001: …` (`*…*` = accent colour).
-- Body ≤ 45 words per slide (2–3 short sentences). One beat of the story per slide.
+- Body ≤ 30 words per slide (two short sentences at most). One beat of the story per slide.
 - The hook must be true. No "rahasia yang disembunyikan", no clickbait the deck can't back up.
+
+### Comments, debate and moderation (owner, Oct 2026 second review)
+
+Comments drive this account's reach, and regional pride is what makes people comment and share. Two rules keep that fuel from turning into a fire:
+
+- **"Yang nggak sempat masuk buku", never "yang disembunyikan".** Don't claim a cover-up the sources don't show. When someone shouts "hoaks", the account's answer is a pinned, sourced comment, and that only works if the deck never overclaimed.
+- **Debate, not hate.** A good debate has two positions you can defend from the sources, about a person, a decision or a reading of a text:
+  - "Arung Palakka: pahlawan atau pengkhianat?"
+  - "20.000 atau 1.020 sapi?"
+  - "Naskah mana yang benar?"
+
+  Never frame a question about an ethnic group, a region or a religion ("suku mana yang…", "siapa yang lebih…"). On topics with an ethnic edge (Bubat, Bongaya, Trunajaya), say so in the cover subtitle or first card, and attach the debate to the person or the source, not the group.
+- **About 1 in 3 posts ends with a debate:** `[end cta="Komen A atau B"]`, headline = the question with `*A.*` / `*B.*` options, body = "Komen A atau B. Alasanmu di balasan." The other posts end with a deck-specific one-tap ask: "Pernah diajarkan di sekolahmu?", "Orang Palembang, udah tahu soal ini?". Never "Di daerahmu ada cerita kayak gini?".
+- **Moderation (owner, in TikTok):**
+  - Turn on the comment keyword filter with slurs and ethnic insults.
+  - Pin a comment with the sources within 10 minutes.
+  - Reply to the top disagreeing comment with a source, not an opinion.
+  - Delete comments that attack a group; keep the ones that argue with the history.
+
+### Regions
+
+Each post should wake up a different regional audience, so **rotate regions**: never two posts in a row from the same province. Java is over half the audience and has its own untaught local histories (Banten, Cirebon, Blambangan, Madura, Betawi, Banyumas). Give it at least 1 post in 4 alongside Sumatra, Kalimantan, Sulawesi, Bali–Nusa Tenggara, Maluku and Papua (Papua only when the owner asks, see Sensitive topics).
 
 ### Deck recipe
 
+- **Header:** `handle: @sejarah.nusantara.id`.
 - **Templates:** `editorial/sage` (default: calm, archival feel, Lora serif), `editorial/midnight` (tragedies, wars, night-time events). Switch to `editorial/archive` once it exists (see Open items).
-- **Two deck shapes:**
-  - **Story deck** (one event): cover → context → turning point → what happened → aftermath → "today" link → end. Use `number=off` on story cards.
-  - **List deck** ("5 kerajaan yang…", "4 nama kota yang…"): cover + 4–6 numbered cards + end.
-- **Length:** up to 14 slides (cover + up to 12 cards + end). This goes past the app's 10-slide `long-deck` hint on purpose: the story needs the room.
-- **Cover:** `[cover photo=<id>]` with a photo of the place/object or an old print or map; headline = a surprising true statement or question with a `|` break; subtitle sets place + era.
+- **Cover:**
+  - Kicker = the region first, then the year: `[cover kicker="KALIMANTAN TIMUR · 1965" photo=<id>]`. Someone from there should recognise it in one second. Use the province, or the city when it's better known.
+  - Headline = the hook moment: a surprising true statement with a `|` break.
+  - Subtitle = who and where in one sentence.
+- **Story deck** (one event), hook first:
+  1. **Card 1 is the hook moment itself**, told in full (standard 11).
+  2. Then 2–4 cards on how it came to this, in date order.
+  3. Then the aftermath, the "today" link, and the end.
+
+  Use `number=off` on story cards.
+- **List deck** ("4 nama kota yang…"): cover + 4–6 cards + end. The cover's item is card 1.
+- **Length:** 8–10 slides (cover + 6–8 cards + end); at most 12 when the story truly needs it. Details that don't fit go in the pinned comment, not on more slides.
+- **Cards:** `[number=off icon=none photo=<id>]`. The editorial family adds an icon automatically, so always write `icon=none`; icons over photos are noise. Headline ≤ 8 words with the year in accent (`*1965*: …`). **Body ≤ 30 words**, two short sentences at most: one beat per slide, readable over a photo on a phone.
 - **Quote slide:** a documented quote (with attribution and source only), or a line from a prasasti/chronicle.
-- **End:** `[end photo=<same id>]` with `Di daerahmu ada cerita kayak gini?` + `Tulis di komen, siapa tahu jadi postingan berikutnya.`
-- **Caption:** one line hook + `Sumber:` short source list + a credit line if the image licence needs one + 2–4 hashtags (`#sejarahindonesia`, `#sejarahlokal`, `#kalimantantimur`…).
+- **End:** `[end photo=<cover photo> cta="…"]` with a named action (`cta="Komen A atau B"`, `cta="Komen"`, `cta="Kirim ke orang Kaltim"`), never the default "Simpan • Bagikan".
+- **Caption:** first line = the hook plus the region ("Kutai, Kalimantan Timur: …") + `Sumber:` short source list + a credit line if the image licence needs one + 2–4 hashtags including the region (`#sejarahindonesia`, `#kalimantantimur`, `#kutai`).
 
 ```text
+handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
-title: kutai pernah dihapus
-caption: Kerajaan tua yang masih punya sultan. Sumber: [isi sumber terverifikasi] · Foto: [credit lines] #sejarahindonesia #kutai #kalimantantimur
+title: payung sultan kutai dibakar
+caption: Kutai, Kalimantan Timur: … Sumber: [sumber terverifikasi] · Foto: [credit] #sejarahindonesia #kalimantantimur #kutai
 ---
-[cover photo=kutai-kedaton]
-Kesultanan Ini Pernah | Dihapus Negara
-Lalu "hidup lagi" 41 tahun kemudian. Kutai Kartanegara, Kalimantan Timur.
+[cover kicker="KALIMANTAN TIMUR · 1965" photo=kutai-kedaton]
+Payung Sultan Kutai | Dibakar di Depan Warga
+21 Mei 1965, Samarinda. Sultannya ditahan tentara tanpa diadili.
 ---
-[number=off icon=home]
-Berdiri sejak abad ke-14
-Kutai Kartanegara berpusat di tepi Sungai Mahakam dan memeluk Islam pada abad ke-16.
+[number=off icon=none photo=kutai-mahkota]
+*21 Mei 1965*: pusaka dibakar
+Pakaian kebesaran dan payung Sultan dibakar di Lapangan Kinibalu, di depan warga yang dikumpulkan.
 ---
-[number=off icon=map-pin]
-Setelah merdeka, jadi daerah istimewa
-Wilayah kesultanan sempat punya status khusus di dalam Republik Indonesia.
+[number=off icon=none photo=kutai-mahakam]
+Berawal di tepi Mahakam
+…
 ---
-[number=off icon=alert]
-*1960*: status itu dihapus
-Pemerintah pusat menghapus status istimewanya. Kekuasaan politik sultan berakhir, wilayahnya jadi bagian biasa dari Kalimantan Timur.
----
-[number=off icon=star]
-*2001*: sultan dinobatkan lagi
-Aji Muhammad Salehuddin II naik takhta pada 22 September 2001, kali ini sebagai simbol budaya, bukan pemerintahan.
----
-[end]
-Di daerahmu ada cerita kayak gini?
-Tulis di komen, siapa tahu jadi postingan berikutnya.
+[end photo=kutai-kedaton cta="Komen"]
+Kamu baru tahu *soal ini?*
+Komen 🙋 kalau baru tahu.
 ```
 
 (Example only: verify every fact and fill in real sources/credits before posting.)

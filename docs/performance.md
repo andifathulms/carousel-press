@@ -17,6 +17,8 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 - What travels: history people weren't taught (an abolished sultanate, a jailed heroine, the oldest inscription), told plainly with sources. Owner: keep the photo cards, tell it as it happened.
 - The 150-view post is likely a re-upload penalty and/or limited reach for military-violence content, not audience rejection.
 - Changes made: deck-specific one-tap end asks, handle in every deck, Bongaya expanded with the Makassarese resistance.
+- Second review (Oct 2026, "regional pride and the untaught"): story decks opened with background and reached the hook late (Kutai: slide 11 of 14), bodies ran to 46 words over photos, auto icons on almost every card, default "Simpan • Bagikan" CTAs. Changes made: region-first kickers, hook moment as card 1, 8–10 slides, body ≤ 30 words, `icon=none`, named CTAs, debate ends on ~1 in 3 with SARA guardrails, region rotation including Java.
+- Track: comments per 1,000 views (main), shares; note which region each post is about and compare.
 
 ## Fathul Learn Coding (`dev/*`)
 
