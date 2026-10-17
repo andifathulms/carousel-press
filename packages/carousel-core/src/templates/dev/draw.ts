@@ -7,6 +7,7 @@ import { CONTENT_W } from '../../render/safezone';
 import { drawTracked, setFont, setShadow, truncateToWidth } from '../../render/text';
 import type { SlideLayout } from '../common';
 import { drawStampItem } from '../stampsDraw';
+import { drawMatch } from '../matchPanel';
 import { drawKeycaps } from '../keycaps';
 import { drawLex } from '../../render/lexDraw';
 import { FIXED, STACK } from './layout';
@@ -103,6 +104,9 @@ export function drawDev(ctx: Ctx, L: SlideLayout): void {
       case 'diagram':
       case 'sheet':
         drawStampItem(ctx, p, L);
+        break;
+      case 'match':
+        if (L.slide.match) drawMatch(ctx, p, L.slide.match, v, s, onPhoto);
         break;
       case 'keycaps':
         drawKeycaps(ctx, p, v, s, onPhoto);

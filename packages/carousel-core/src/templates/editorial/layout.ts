@@ -2,6 +2,7 @@ import { isEmptyRich } from '../../core/inline';
 import { diagramItem, verdictItem } from '../stamps';
 import { LJK, bubblesItem, optionsItem, splitOptions } from '../ljk';
 import { sheetItem } from '../sheet';
+import { matchItem } from '../matchPanel';
 import { prepareCode } from '../../layout/codeFit';
 import { type CodeSpec, type StackItem, type TextSpec, fitStack } from '../../layout/stack';
 import { type Box, CONTENT_W, ROWS } from '../../render/safezone';
@@ -96,7 +97,9 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
     case 'card':
     case 'code':
     case 'diagram':
-    case 'sheet': {
+    case 'sheet':
+    case 'results':
+    case 'stats': {
       // A card kicker is a small label above the headline; it replaces the badge (PRD §4.3).
       const kicker = slide.attrs.kicker;
       if (kicker) push({ kind: 'kicker', h: FIXED.kicker.h, w: 0, gap: 0, label: kicker.toUpperCase() });
@@ -131,8 +134,8 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
         push({ kind: 'code', lines: prepareCode(slide.code.text, slide.code.lang), lang: slide.code.lang, spec: codeSpec, gap: STACK.iconGap });
         if (!isEmptyRich(slide.note)) push({ kind: 'text', role: 'note', rich: slide.note, spec: spec(TYPE.note), gap: STACK.noteGap, tone: 'muted' });
         if (cta) push({ kind: 'cta', h: CHROME.cta.h, w: ctaWidth(cta, sans, m), gap: CHROME.cta.gapBefore, label: cta });
-      } else if (slide.type === 'sheet') {
-        const sh = sheetItem(slide, v, m, STACK.cardGap, warnings);
+      } else if (slide.type === 'sheet' || slide.type === 'results' || slide.type === 'stats') {
+        const sh = slide.type === 'sheet' ? sheetItem(slide, v, m, STACK.cardGap, warnings) : matchItem(slide, STACK.cardGap);
         if (sh) push(sh);
         if (!isEmptyRich(slide.note)) push({ kind: 'text', role: 'note', rich: slide.note, spec: spec(TYPE.note), gap: STACK.noteGap, tone: 'muted' });
         if (cta) push({ kind: 'cta', h: CHROME.cta.h, w: ctaWidth(cta, sans, m), gap: CHROME.cta.gapBefore, label: cta });

@@ -32,7 +32,7 @@ export interface CodeSpec {
   titleBar: number;
 }
 
-export type FixedKind = 'badge' | 'number' | 'icon' | 'cta' | 'kicker' | 'attribution' | 'verdict' | 'diagram' | 'sheet' | 'bubbles';
+export type FixedKind = 'badge' | 'number' | 'icon' | 'cta' | 'kicker' | 'attribution' | 'verdict' | 'diagram' | 'sheet' | 'bubbles' | 'match';
 
 /** One keyboard shortcut drawn as keycaps plus its label (dev/sheet). */
 export interface KeyRow {

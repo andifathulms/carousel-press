@@ -443,6 +443,12 @@ SKD Harian's questions read like a real computer answer sheet (lembar jawaban ko
 - **`[sheet]` sizes** (every template, though only `dev/sheet` uses sheets): cell text 38 → 22 px (was 30 → 22), line height 1.8, column header 26 px in a 52 px band with a 62 px row gutter, formula bar 36 → 20 px (was 30) in an 88 px bar. Sizes still step down until the table fits.
 - **Keycaps** (`deco.keycaps`, `dev/sheet` only). On a card, a contiguous run of body lines `Keys: label` is drawn as keyboard keys. A line counts when it is two or more keys joined by `+` (`Ctrl + Shift + L: Filter`) or a single function key (`F4: Kunci sel`). Keys are Ctrl, Alt, Shift, Cmd, Option, Win, Fn, Tab, Enter, Esc, Space, Home, End, PgUp, PgDn, Delete, Backspace, F1–F12, one letter or digit, or one punctuation key. Each key is a rounded box (radius 10, 3 px `muted` border, `bg` face, a 5 px `muted` base below it for depth), key text Inter 600 in `ink`, `+` in `muted`; labels (Inter 500, `body`) start in one column after the widest key combo. Size 44 → 30 until every row fits one line, else the lines stay plain body text. Text before the rows stays above them, text after goes below.
 
+### 6.10 Results and stats panels (every family; built for `sport/papan`)
+
+- **Team badge:** a filled circle in the team colour with the code in the display face (the verdict-stamp face, so it is always loaded), text white or `#111111`, whichever contrasts more. A colour under 1.6:1 on the surface gets a 3 px `muted` ring. No crests or logos.
+- **Results:** one row per match, 84 px tall (72 px above 6 rows), 12 px apart, `ink` at 7% alpha behind, radius 14. Home badge left, away badge right (54 px, 46 px when dense), names Inter/Barlow 28 px (winner 600 in `ink`, others 400 in `body`, cut with "…"), score centred in the display face 46 px. Highlighted rows get a 4 px `accent` outline.
+- **Stats:** a 176 px header (badges 100 px, score 104 px, names 26 px), then one 78 px row per stat: values in the display face 36 px at the edges (the larger in `accent`), the label 24 px centred, and a 14 px split bar in the two team colours (a colour under 1.6:1 on the surface falls back to `ink` / `muted`; two colours closer than 1.25:1 are split into `ink` and `muted`).
+
 ## 7. Icons
 
 - Author **original** line icons on a 24×24 grid as SVG path strings, and render them with `new Path2D(d)` scaled into the target box.

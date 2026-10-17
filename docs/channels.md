@@ -1,13 +1,13 @@
 # Channels: content brief for writing decks
 
 Read this before writing any deck. The owner runs thirteen TikTok accounts, and every deck is for exactly one of them.
-If a request names an account ("10 posts for Ruang Rasa", "deck for Whistle Notes"), use that account's section.
+If a request names an account ("10 posts for Ruang Rasa", "deck for Sports Codex"), use that account's section.
 If it doesn't name one, infer it from the topic and say which one you picked:
 
 - relationships, friendship, family, feelings, self-reflection → **Ruang Rasa**
 - code, AI for developers, dev tools → **Fathul Learn Coding**
 - Indonesian history, kingdoms, local events, place-name origins → **Sejarah Nusantara**
-- sports rules, how a sport works, rule incidents → **Whistle Notes**
+- football match recaps, football rules and referee calls → **Sports Codex**
 - regional statistics, rankings, "kabupaten mana yang paling…" → **Peta Angka**
 - English vocabulary, grammar, pronunciation for Indonesians → **Kosakata Inggris**
 - Indonesian words, KBBI meanings, kata baku, kata serapan → **Kata Baku**
@@ -25,7 +25,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 🌿 Ruang Rasa (@ruangrasakita.id) | `id` | Lines to send, conversation starters | `editorial/ruang-*` | one per pillar (see §1) |
 | 💻 Fathul Learn Coding (@fathul_learncoding) | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
 | 📜 Sejarah Nusantara (@sejarah.nusantara.id) | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
-| 🏟️ Whistle Notes | `id` | Sports rules as verdict quizzes | `sport/*` | `sport/papan` (football), `sport/lapangan` (indoor) |
+| 🏟️ Sports Codex (@sportscodex) | `id` | Football match recaps and referee-call quizzes | `sport/*` | `sport/papan` |
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
 | ✏️ Kosakata Inggris (@kosakata_inggris) | `id` (teaches English) | Daily words, common mistakes, A/B quizzes | `lexicon/*` | `lexicon/notebook` |
 | 📖 Kata Baku (@katabaku.id) | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
@@ -371,7 +371,19 @@ Komen 🙋 kalau baru tahu.
 
 ---
 
-## 4. 🏟️ Whistle Notes
+## 4. 🏟️ Sports Codex
+
+**Account:** Sports Codex, `@sportscodex` (put `handle: @sportscodex` in every deck header). Earlier docs called it "Whistle Notes".
+
+**Pivot (owner, Oct 2026): football only, plus match recaps.** Football carried the account (4,063 / 772 / 561 / 498 views); the one volleyball post got 7. New decks are football: the **match recap** (below) and **Kamu wasitnya**. Other sports stop; their samples stay.
+
+**Match recap** (the morning after a match night, posted ~06:00–08:00 WIB):
+- Generate it with `npm run recap -- --date <European match day>` (Saturday/Sunday: Premier League, LaLiga, Serie A, Bundesliga; Tue–Thu: `--leagues ucl,uel,uecl`). It fetches finished matches from ESPN's public site API and writes `recaps/recap-<date>.txt`: cover → one `[results]` slide per league (≤ 9 rows) → `[stats]` for the 2 best stories (a loser with ≥ 60% possession or twice the shots, ≥ 5 goals, or a 6+ place upset) → end. Paste it into the app, check, export.
+- Every number comes from the data; never type scores or stats by hand. Before posting, check the scorelines against a second source (the league's site) and fix any match the script marked "not finished".
+- Badges are colour circles with team codes, never club crests or player photos (trademarks and image rights). xG and other licensed stats are not used.
+- Optional extra slide: the weekend's controversial call as a Kamu wasitnya card (`verdict=`), with the Law cited.
+- Caption: the competitions, "Data: ESPN", 3–5 hashtags.
+
 
 **Tagline:** *Kamu wasitnya.*
 A faceless Indonesian account that settles match arguments: one rule, shown on a drawn pitch or court, with the viewer making the call before the answer.

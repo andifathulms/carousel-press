@@ -1,0 +1,78 @@
+handle: @sportscodex
+template: sport/papan
+lang: id
+title: recap 20261010
+caption: Hasil Premier League, LaLiga, Serie A, Bundesliga tadi malam, lengkap dengan statistik. Data: ESPN. #premierleague #laliga #seriea #bundesliga #sportscodex
+---
+[cover kicker="RECAP · SABTU 10 OKT"]
+18 laga, 61 gol. | *Hoffenheim kalah, padahal kuasai bola.*
+Semua skor Premier League, LaLiga, Serie A, Bundesliga. Plus statistik 2 laga paling seru.
+---
+[results kicker="HASIL · SABTU 10 OKT"]
+Premier League
+```results
+ARS Arsenal #E20520 | 2-1 | LEE Leeds #FFFFFF
+AVL Aston Villa #660E36 | 2-2 | BRE Brentford #F42727
+CHE Chelsea #144992 | 5-1 | BOU Bournemouth #F42727
+IPS Ipswich #0000FA | 2-1 | FUL Fulham #FFFFFF
+SUN Sunderland #EB172B | 0-2 | BHA Brighton #0606FA
+MAN Man United #DA020E | 1-1 | TOT Spurs #FFFFFF
+```
+---
+[results kicker="HASIL · SABTU 10 OKT"]
+LaLiga
+```results
+ALA Alavés #0000FF | 1-2 | ATM Atlético #CA3624
+BAR Barcelona #990000 | 3-0 | GET Getafe #0000FF
+RMA Real Madrid #FFFFFF | 1-0 | VIL Villarreal #FFFF00
+```
+---
+[results kicker="HASIL · SABTU 10 OKT"]
+Serie A
+```results
+GEN Genoa #08305D | 2-1 | FIO Fiorentina #4C1D84
+INT Inter Milan #00239C | 3-0 | PAR Parma #19161D
+NAP Napoli #0677D2 | 3-0 | FRO Frosinone #FACF08
+```
+---
+[results kicker="HASIL · SABTU 10 OKT"]
+Bundesliga
+```results
+FCU Union Berlin #DA0308 | 1-0 | ELV Elversberg #000000 *
+FCA Augsburg #FFFFFF | 2-2 | MUN Bayern #DC052D
+M05 Mainz #DA0308 | 3-4 | B04 Leverkusen #DA0308
+SCP Paderborn #0000DD | 0-2 | VFB Stuttgart #FFFFFF
+TSG Hoffenheim #003399 | 2-3 | HSV Hamburg #1A26AF
+RBL RB Leipzig #FFFFFF | 6-0 | SGE Frankfurt #FFFFFF
+```
+Bingkai kuning: tim peringkat lebih bawah menang.
+---
+[stats kicker="BUNDESLIGA"]
+Hoffenheim kuasai bola 64,2%, *tetap kalah 2–3.*
+TSG: Bornauw (bd) 45'+6', Conté 53'
+HSV: Poulsen 12', Moffi 83', Muheim 90'+4'
+```stats
+TSG Hoffenheim #003399 | 2-3 | HSV Hamburg #1A26AF
+Penguasaan bola | 64,2% | 35,8%
+Tembakan | 17 | 15
+Tepat sasaran | 4 | 4
+Kartu merah | 1 | 0
+Sepak pojok | 7 | 3
+```
+---
+[stats kicker="SERIE A"]
+Fiorentina kuasai bola 63,3%, *tetap kalah 1–2.*
+GEN: Osmajic 7', Messias 15'
+FIO: Vásquez (bd) 73'
+```stats
+GEN Genoa #08305D | 2-1 | FIO Fiorentina #4C1D84
+Penguasaan bola | 36,7% | 63,3%
+Tembakan | 10 | 13
+Tepat sasaran | 4 | 3
+Sepak pojok | 3 | 4
+Kartu kuning | 5 | 3
+```
+---
+[end cta="Follow"]
+Tim kamu *menang atau kalah?*
+Komen kode timnya. Contoh: ARS.

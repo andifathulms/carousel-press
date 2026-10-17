@@ -224,6 +224,7 @@ export interface Sample {
   text: string;
 }
 
+import sportsRecapContoh from './sports-recap-contoh-id.txt?raw';
 export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-couples-id', name: '5 pertanyaan kecil (editorial, id)', category: 'relationships', text: couples },
   { id: 'dev-git-id', name: '7 perintah git (dev, id)', category: 'dev', text: git },
@@ -286,6 +287,7 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sejarah-trunajaya-id', name: 'Trunajaya, debat (sejarah, id)', category: 'history', text: sejarahTrunajaya },
   // Owner decks: Whistle Notes (photos bundled in ./photos)
   { id: 'sports-offside-id', name: 'Offside, dijelaskan (sports, id)', category: 'sports', text: offside },
+  { id: 'sports-recap-contoh-id', name: 'Match recap, contoh 10 Okt (Sports Codex, id)', category: 'sports', text: sportsRecapContoh },
   { id: 'sports-handball-id', name: 'Handball, dijelaskan (sports, id)', category: 'sports', text: handball },
   { id: 'sports-tennis-scoring-id', name: 'Skor tenis 15-30-40 (sports, id)', category: 'sports', text: tennisScoring },
   { id: 'sports-badminton-scoring-id', name: 'Skor bulu tangkis berubah (sports, id)', category: 'sports', text: badmintonScoring },

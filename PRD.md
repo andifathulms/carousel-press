@@ -247,6 +247,36 @@ K03 ketemu di baris 4, jadi hasilnya Sari.
 
 ---
 
+### 4.11 Results and stats slides (Oct 2026, Sports Codex)
+
+Two football slide types for match recaps. Like `[sheet]`, the headline comes first, optional body lines next, then a fence; text after the fence is a note. Both accept `kicker` and `number`.
+
+```text
+[results kicker="HASIL · SABTU 17 OKT"]
+Premier League
+```results
+ARS Arsenal #E20520 | 2-1 | LEE Leeds United #FFCD00
+CHE Chelsea #144992 | 5-1 | BOU Bournemouth #F42727 *
+```
+```
+
+- A team is `CODE Name #rrggbb`: a 2–4 letter code drawn in a colour badge (never a club crest), the name, and the badge colour. The score is `2-1`. A trailing ` *` outlines the row (an upset). At most 9 rows.
+
+```text
+[stats kicker="BUNDESLIGA"]
+Hoffenheim kuasai bola 64,2%, *tetap kalah 2–3.*
+TSG: Bornauw (bd) 45'+6', Conté 53'
+```stats
+TSG Hoffenheim #003399 | 2-3 | HSV Hamburg #1A26AF
+Penguasaan bola | 64,2% | 35,8%
+Tembakan | 17 | 15
+```
+```
+
+- The first fence line is the match; each next line is `Label | home | away`. Values may use Indonesian decimals (`58,2%`); the bars use their numbers. At most 7 rows.
+- Warnings: `match-missing` (no fence: rendered as a card), `match-line` (a line that isn't a valid team, score or stat; skipped).
+- `npm run recap -- --date YYYY-MM-DD [--leagues pl,laliga,seriea,bundesliga|ucl,uel,uecl]` writes a full recap deck from ESPN's public site API (finished matches only) to `recaps/`.
+
 ## 5. Features
 
 Priorities: **P0** = required for V1, **P1** = V1 if time allows (planned in the milestones), **P2** = later.

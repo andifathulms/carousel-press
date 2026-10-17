@@ -1,9 +1,10 @@
 // Core data types shared by parser, layout and renderer. Pure: no DOM.
 import type { Diagram } from './diagram';
 import type { Sheet } from './sheet';
+import type { MatchData } from './match';
 
-export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end' | 'word' | 'table' | 'compare' | 'ayah' | 'hadith' | 'diagram' | 'sheet';
-export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end', 'word', 'table', 'compare', 'ayah', 'hadith', 'diagram', 'sheet'];
+export type SlideType = 'cover' | 'card' | 'code' | 'quote' | 'end' | 'word' | 'table' | 'compare' | 'ayah' | 'hadith' | 'diagram' | 'sheet' | 'results' | 'stats';
+export const SLIDE_TYPES: readonly SlideType[] = ['cover', 'card', 'code', 'quote', 'end', 'word', 'table', 'compare', 'ayah', 'hadith', 'diagram', 'sheet', 'results', 'stats'];
 
 /** Lexicon slide types (SPEC-lexicon §2): structured fields instead of headline + body. */
 export type LexType = 'word' | 'table' | 'compare';
@@ -109,6 +110,8 @@ export type WarningCode =
   | 'diagram-missing'
   | 'sheet-line'
   | 'sheet-missing'
+  | 'match-line'
+  | 'match-missing'
   | 'script-glyph-missing'
   | 'script-overflow'
   | 'pinyin-mismatch'
@@ -191,6 +194,8 @@ export interface Slide {
   diagram: Diagram | null;
   /** `[sheet]` rows and formula (PRD §4.10). */
   sheet: Sheet | null;
+  /** `[results]` scorelines or `[stats]` match stats (PRD §4.11). */
+  match: MatchData | null;
   /** Word slides: `pinyin` / `example-pinyin` with tone numbers turned into marks (SPEC-script §11). The fields keep the typed text. */
   pinyinNormalized?: Record<string, string>;
   /** Resolved photo id (after tray lookup) or null. */
