@@ -8,6 +8,14 @@ Edit Kata yang Sama | di Banyak Tempat Sekaligus
 Ctrl + D, plus 6 shortcut VS Code lain. Lepas mouse.
 ---
 [code]
+Pilih kata yang sama berikutnya
+Tekan berulang untuk edit banyak tempat sekaligus.
+```
+Ctrl + D
+```
+Mac: Cmd + D
+---
+[code]
 Buka file tanpa nyari di folder
 Ketik sebagian nama filenya saja.
 ```
@@ -22,14 +30,6 @@ Semua perintah VS Code ada di sini.
 Ctrl + Shift + P
 ```
 Mac: Cmd + Shift + P
----
-[code]
-Pilih kata yang sama berikutnya
-Tekan berulang untuk edit banyak tempat sekaligus.
-```
-Ctrl + D
-```
-Mac: Cmd + D
 ---
 [code]
 Pindahkan baris ke atas atau bawah
@@ -61,6 +61,19 @@ Terminal langsung di dalam editor.
 Ctrl + `
 ```
 Mac: Ctrl + ` juga.
+---
+[code number=off]
+Simpan ini
+Mac: Ctrl jadi Cmd, Alt jadi Option.
+```
+Ctrl + D          kata berikutnya
+Ctrl + P          buka file
+Ctrl + Shift + P  semua perintah
+Alt + Up/Down     pindah baris
+Shift+Alt+Down    duplikat baris
+F2                rename semua
+Ctrl + `          terminal
+```
 ---
 [end cta="Simpan"]
 Shortcut mana yang *paling ngebantu?*

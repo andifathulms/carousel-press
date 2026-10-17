@@ -7,6 +7,14 @@ caption: 401 artinya server belum tahu siapa kamu, 403 artinya tahu tapi nggak n
 `401` dan `403` | Itu Beda
 8 status code HTTP yang paling sering muncul di tab Network.
 ---
+`401` Unauthorized
+Belum login, atau token-nya tidak valid.
+Walau namanya “unauthorized”, artinya: server belum tahu siapa kamu.
+---
+`403` Forbidden
+Server tahu siapa kamu, tapi kamu tidak punya izin.
+Login ulang tidak akan membantu.
+---
 `200` OK
 Request berhasil, dan server mengirim datanya.
 Paling sering kamu lihat saat mengambil data.
@@ -22,14 +30,6 @@ Sering dipakai untuk DELETE.
 `400` Bad Request
 Request-nya salah format.
 Cek lagi body atau parameter yang kamu kirim.
----
-`401` Unauthorized
-Belum login, atau token-nya tidak valid.
-Walau namanya "unauthorized", artinya: server belum tahu siapa kamu.
----
-`403` Forbidden
-Server tahu siapa kamu, tapi kamu tidak punya izin.
-Login ulang tidak akan membantu.
 ---
 `404` Not Found
 Alamat yang diminta tidak ada.

@@ -5,7 +5,7 @@ caption: File .env ikut ke-commit? Kalau belum di-push, keluarin dari commit tan
 ---
 [cover kicker="GIT RESCUE • #3"]
 File `.env` | Ikut Ke-commit?
-Belum di-push? Keluarin dari commit, filenya tetap aman di laptop.
+Belum di-push? Keluarin dari commit, file tetap aman. Simpan dulu.
 ---
 [code]
 Keluarin dari Git, file tetap ada
@@ -48,10 +48,12 @@ Anggap key-nya bocor. Ganti key-nya di dashboard layanannya dulu, baru hapus fil
 Simpan ini
 Belum di-push? Jalankan berurutan dari atas.
 ```bash
+# keluarkan .env, file tetap ada
 git rm --cached .env
 echo ".env" >> .gitignore
 git add .gitignore
 git commit --amend --no-edit
+# cek: kosong berarti beres
 git log --oneline -- .env
 ```
 ---

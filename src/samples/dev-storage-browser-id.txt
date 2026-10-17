@@ -8,6 +8,21 @@ Token Login di `localStorage`? | Script di Halamanmu Bisa Baca
 Beda localStorage, sessionStorage, dan cookie, plus tempat yang lebih aman buat sesi login.
 ---
 [code]
+Sesi login: cookie `HttpOnly`
+Cookie HttpOnly tidak bisa dibaca JavaScript, jadi lebih susah dicuri lewat XSS. Dipasang dari server.
+```js
+res.cookie("sid", sessionId, {
+  httpOnly: true,
+  secure: true,
+  sameSite: "lax",
+});
+```
+Contoh di Express.
+---
+Semuanya bisa dibaca JavaScript
+Kalau ada script jahat masuk lewat XSS, isi localStorage bisa dicuri. Cookie biasa juga bisa dibaca lewat `document.cookie`.
+---
+[code]
 `localStorage`: tetap ada
 Browser ditutup pun datanya masih ada. Hilang kalau dihapus lewat kode atau data situs dibersihkan.
 ```js
@@ -30,21 +45,6 @@ Browser otomatis menempelkan cookie di request ke domain-nya. Masa berlakunya di
 ---
 Ukurannya beda jauh
 localStorage dan sessionStorage: sekitar 5 MB per origin, tergantung browser. Cookie: sekitar 4 KB per cookie. Jangan simpan data besar di cookie.
----
-Semuanya bisa dibaca JavaScript
-Kalau ada script jahat masuk lewat XSS, isi localStorage bisa dicuri. Cookie biasa juga bisa dibaca lewat `document.cookie`.
----
-[code]
-Sesi login: cookie `HttpOnly`
-Cookie HttpOnly tidak bisa dibaca JavaScript, jadi lebih susah dicuri lewat XSS. Dipasang dari server.
-```js
-res.cookie("sid", sessionId, {
-  httpOnly: true,
-  secure: true,
-  sameSite: "lax",
-});
-```
-Contoh di Express.
 ---
 Jadi, pakai yang mana?
 Tema dan bahasa: localStorage. Isian form sementara: sessionStorage. Sesi login: cookie HttpOnly dari server.

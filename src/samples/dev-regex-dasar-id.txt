@@ -8,6 +8,17 @@ Cek Format Nomor HP | Cukup Satu Regex
 6 pola regex dasar yang beneran kepakai, lengkap dengan contoh tesnya.
 ---
 [code]
+Regex nomor HP, siap pakai
+Diawali 0, 62, atau +62, lalu 8 dan 8 sampai 11 angka. Geser buat bedah polanya.
+```js
+const hp = /^(\+62|62|0)8\d{8,11}$/;
+hp.test("081234567890");   // true
+hp.test("+6281234567890"); // true
+hp.test("0812-3456");      // false
+```
+Cuma cek format. Hapus spasi dan strip dulu sebelum dites.
+---
+[code]
 `\d`: satu angka
 Sama dengan 0 sampai 9. Tambah `+` untuk satu angka atau lebih.
 ```js
@@ -52,17 +63,6 @@ const m = "2026-10-12".match(
 m[1]; // "2026"
 m[2]; // "10"
 ```
----
-[code]
-Contoh nyata: nomor HP
-Diawali 0, 62, atau +62, lalu 8 dan 8 sampai 11 angka.
-```js
-const hp = /^(\+62|62|0)8\d{8,11}$/;
-hp.test("081234567890");   // true
-hp.test("+6281234567890"); // true
-hp.test("0812-3456");      // false
-```
-Cuma cek format. Hapus spasi dan strip dulu sebelum dites.
 ---
 [end cta="Simpan"]
 Regex: *suka atau takut?*

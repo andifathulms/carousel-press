@@ -5,7 +5,7 @@ caption: Commit di main, padahal harusnya di branch fitur? Selama belum di-push,
 ---
 [cover kicker="GIT RESCUE • #2"]
 Commit ke Branch | yang Salah?
-Belum di-push? Pindahin tanpa kehilangan apa-apa.
+Belum di-push? Pindahin tanpa kehilangan apa-apa. Simpan buat pas panik.
 ---
 [code]
 Branch tujuannya belum ada
@@ -38,11 +38,13 @@ Jangan reset branch yang dipakai bareng. Salin dulu ke branch yang benar pakai `
 ---
 [code number=off]
 Simpan ini
-Belum ada branch: 3 baris pertama. Sudah ada: 4 baris terakhir.
+Pilih sesuai kondisimu. Cek `git status` dulu.
 ```bash
+# kalau branch tujuan belum ada
 git branch fitur-login
 git reset --hard HEAD~1
 git switch fitur-login
+# kalau branch tujuan sudah ada
 git switch fitur-login
 git cherry-pick main
 git switch main

@@ -8,6 +8,16 @@ WHERE atau HAVING? | Ini Bedanya
 Plus 5 query SQL lain yang cukup buat kerja harian.
 ---
 [code]
+Filter hasil hitungan
+WHERE untuk baris, HAVING untuk hasil GROUP BY.
+```sql
+SELECT user_id, SUM(total) AS spent
+FROM orders
+GROUP BY user_id
+HAVING SUM(total) > 1000000;
+```
+---
+[code]
 Ambil data dengan filter
 Pilih kolom yang perlu saja.
 ```sql
@@ -42,16 +52,6 @@ Pesanan lengkap dengan nama pembelinya.
 SELECT u.name, o.total
 FROM orders o
 JOIN users u ON u.id = o.user_id;
-```
----
-[code]
-Filter hasil hitungan
-WHERE untuk baris, HAVING untuk hasil GROUP BY.
-```sql
-SELECT user_id, SUM(total) AS spent
-FROM orders
-GROUP BY user_id
-HAVING SUM(total) > 1000000;
 ```
 ---
 [code]

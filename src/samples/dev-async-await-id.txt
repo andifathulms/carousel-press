@@ -17,7 +17,7 @@ console.log(res);
 ```
 ---
 Promise itu janji
-`fetch` langsung balikin janji: "nanti datanya aku kasih".
+`fetch` langsung balikin janji: “nanti datanya aku kasih”.
 Datanya sendiri belum ada.
 ---
 [code]

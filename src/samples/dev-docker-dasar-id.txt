@@ -7,14 +7,6 @@ caption: Container dihapus, file di dalamnya ikut hilang. Kecuali kamu pakai vol
 Container Dihapus, | File di Dalamnya Ikut Hilang
 Makanya ada volume. Image, container, volume, dan perintah Docker yang beneran kepakai.
 ---
-[icon=folder]
-Image: cetakannya
-Paket berisi aplikasi dan semua yang dibutuhkan untuk jalan. Image bersifat read-only, tidak berubah saat dipakai.
----
-[icon=cpu]
-Container: image yang sedang jalan
-Satu image bisa jadi banyak container. Perubahan di dalam container hilang saat container-nya dihapus.
----
 [code]
 Volume: data yang awet
 Disimpan di luar container. Container dihapus, isi volume tetap ada.
@@ -22,6 +14,14 @@ Disimpan di luar container. Container dihapus, isi volume tetap ada.
 docker volume create data
 docker run -v data:/app/data myapp
 ```
+---
+[icon=folder]
+Image: cetakannya
+Paket berisi aplikasi dan semua yang dibutuhkan untuk jalan. Image bersifat read-only, tidak berubah saat dipakai.
+---
+[icon=cpu]
+Container: image yang sedang jalan
+Satu image bisa jadi banyak container. Perubahan di dalam container hilang saat container-nya dihapus.
 ---
 [code]
 Dockerfile: resep image

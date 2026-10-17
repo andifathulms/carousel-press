@@ -5,7 +5,7 @@ caption: Cara pakai curl buat ngecek API: kalau di sini datanya benar, masalahny
 ---
 [cover kicker="TERMINAL HARIAN • #1"]
 API-nya Error. | Salah Frontend | atau Backend?
-Cara pakai curl: tanya server langsung, tanpa browser.
+Cara pakai curl: tanya server langsung, tanpa browser. Simpan buat debug berikutnya.
 ---
 [code]
 Lihat respons mentahnya
@@ -64,11 +64,15 @@ curl -s localhost:3000/api/users \
 Simpan ini
 Ganti alamatnya dengan API kamu.
 ```bash
+# lihat respons mentah
 curl localhost:3000/api/users
+# plus status dan header
 curl -i localhost:3000/api/users
+# kirim JSON
 curl localhost:3000/api/users \
   -H "Content-Type: application/json" \
   -d '{"nama":"Andi"}'
+# ikuti redirect
 curl -L localhost:3000/lama
 ```
 ---

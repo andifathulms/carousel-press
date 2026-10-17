@@ -32,7 +32,7 @@ Dua script nggak perlu `run`
 npm start
 npm test
 ```
-`npm dev` nggak jalan: "Unknown command".
+`npm dev` nggak jalan: “Unknown command”.
 ---
 [code]
 Kirim flag tambahan
@@ -61,13 +61,18 @@ Gabung beberapa script
 ---
 [code number=off]
 Simpan ini
-Semua perintahnya di satu layar.
+Cari kebutuhanmu, jalankan baris di bawahnya.
 ```bash
+# lihat semua script
 npm run
+# dua script yang nggak perlu run
 npm start
 npm test
+# kirim flag tambahan
 npm run test -- --watch
+# prebuild dan postbuild ikut jalan
 npm run build
+# lint lalu test sekaligus
 npm run check
 ```
 ---

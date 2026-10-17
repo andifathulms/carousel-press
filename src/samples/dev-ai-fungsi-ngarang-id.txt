@@ -46,7 +46,7 @@ yang ada di docs ini.
 ---
 [code]
 Balikin error-nya ke AI
-Error asli lebih jelas daripada "nggak jalan".
+Error asli lebih jelas daripada “nggak jalan”.
 ```
 TypeError: fs.readJson is not
 a function. Ganti pakai fungsi

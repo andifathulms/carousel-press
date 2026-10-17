@@ -8,6 +8,14 @@ Tukar Dua Variabel | Tanpa Variabel Ketiga
 Plus 5 trik Python kecil yang kepakai tiap hari.
 ---
 [code]
+Tukar dua variabel
+Tanpa variabel sementara.
+```py
+a, b = 1, 2
+a, b = b, a
+```
+---
+[code]
 f-string
 Sisipkan variabel langsung ke dalam teks.
 ```py
@@ -48,14 +56,6 @@ Nggak error kalau key-nya tidak ada.
 ```py
 user = {"nama": "Rina"}
 kota = user.get("kota", "-")
-```
----
-[code]
-Tukar dua variabel
-Tanpa variabel sementara.
-```py
-a, b = 1, 2
-a, b = b, a
 ```
 ---
 [end cta="Simpan"]

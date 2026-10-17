@@ -8,21 +8,6 @@ Kirim `PUT` Tanpa Satu Field? | Field-nya Bisa Hilang
 5 method HTTP, plus beda PUT dan PATCH yang sering ketuker.
 ---
 [code]
-`GET`: ambil data
-Cuma membaca, tidak mengubah apa pun di server. Aman dipanggil berkali-kali.
-```
-GET /users/7
-```
----
-[code]
-`POST`: buat data baru
-Biasanya dibalas `201 Created`. Dikirim dua kali, bisa jadi dua data.
-```
-POST /users
-{ "name": "Rina", "age": 25 }
-```
----
-[code]
 `PUT`: ganti seluruh data
 Isi yang kamu kirim dianggap versi lengkapnya. Field yang tidak dikirim bisa ikut hilang.
 ```
@@ -36,6 +21,21 @@ Kirim bagian yang mau diubah saja. Field lain tetap.
 ```
 PATCH /users/7
 { "age": 26 }
+```
+---
+[code]
+`GET`: ambil data
+Cuma membaca, tidak mengubah apa pun di server. Aman dipanggil berkali-kali.
+```
+GET /users/7
+```
+---
+[code]
+`POST`: buat data baru
+Biasanya dibalas `201 Created`. Dikirim dua kali, bisa jadi dua data.
+```
+POST /users
+{ "name": "Rina", "age": 25 }
 ```
 ---
 [code]

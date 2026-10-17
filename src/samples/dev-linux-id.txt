@@ -5,7 +5,14 @@ caption: Dari log yang terus jalan sampai folder yang diam-diam makan disk. #lin
 ---
 [cover kicker="LINUX • TERMINAL"]
 Port 3000 | Udah Dipakai?
-Cek pakai lsof, plus 6 perintah Linux lain yang sering kepakai.
+Cek pakai lsof, plus 6 perintah lain yang sering kepakai. Simpan buat pas butuh.
+---
+[code]
+Cari proses yang pakai port
+Berguna pas muncul “port already in use”.
+```bash
+lsof -i :3000
+```
 ---
 [code]
 Lihat isi folder, lengkap
@@ -37,13 +44,6 @@ du -sh * | sort -rh
 ```
 ---
 [code]
-Cari proses yang pakai port
-Berguna pas muncul "port already in use".
-```bash
-lsof -i :3000
-```
----
-[code]
 Bikin script bisa dijalankan
 Tambahkan izin eksekusi, lalu jalankan.
 ```bash
@@ -61,15 +61,21 @@ Pastikan kamu tahu perintah apa yang diulang.
 ---
 [code number=off]
 Simpan ini
-Semua perintahnya di satu layar.
+Cari kebutuhanmu, jalankan baris di bawahnya.
 ```bash
-ls -lah
-grep -rn "TODO" src/
-tail -f app.log
-du -sh * | sort -rh
+# siapa pakai port 3000?
 lsof -i :3000
+# isi folder, lengkap
+ls -lah
+# cari teks di file
+grep -rn "TODO" src/
+# pantau log
+tail -f app.log
+# folder paling besar
+du -sh * | sort -rh
+# bikin script jalan
 chmod +x deploy.sh
-./deploy.sh
+# ulangi pakai sudo
 sudo !!
 ```
 ---

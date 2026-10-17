@@ -4,7 +4,7 @@ title: debounce vs throttle
 caption: Search box yang manggil API tiap huruf bisa kirim 6 request cuma buat satu kata. #javascript #webdev #belajarcoding
 ---
 [cover kicker="JAVASCRIPT • PERFORMA"]
-Ketik "laptop", | Server Dapat 6 Request
+Ketik “laptop”, | Server Dapat 6 Request
 Debounce bikin jadi 1. Ini beda debounce dan throttle, plus kapan pakai yang mana.
 ---
 [code]
@@ -34,7 +34,7 @@ function debounce(fn, ms) {
 ---
 [code]
 Pasang di search input
-Ketik "laptop" tanpa jeda, `search()` cuma jalan sekali: 300 ms setelah huruf terakhir.
+Ketik “laptop” tanpa jeda, `search()` cuma jalan sekali: 300 ms setelah huruf terakhir.
 ```js
 const cari = debounce(search, 300);
 input.oninput = (e) => {
