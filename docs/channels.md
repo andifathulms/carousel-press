@@ -788,7 +788,7 @@ Weak: finger-pointing covers, trivia with no use (serapan), padanan and plain ru
 - **Header:** `handle: @katabaku.id`, `template: lexicon/kamus`, `lang: id`.
 - **Kata Indah deck:** cover (kicker `KATA INDAH #N · KBBI VI`) → optional myth card → `[word]` × 6–8 (caption-ready `example:`, usage note when needed) → recap `[table]` → end. Up to 8 words, so the recap fits one table. 10–12 slides.
 - **Mana yang baku? deck:** cover (kicker `MANA YANG BAKU? · #N`) → card 1: the cover's answer + the rule → 3–5 `[compare]` or quiz pairs → optional recap `[table]` (`Baku | Tidak baku`) → end with an A/B ask. 8–11 slides.
-- **Unverified words:** KBBI VI Daring can't be fetched by scripts. When a deck was drafted without opening KBBI by hand, list every word in `docs/deck-sources.md` under the deck with "cek KBBI manual sebelum posting", and the owner checks before posting.
+- **Checking KBBI:** fetch `https://kbbi.kemendikdasmen.go.id/entri/<kata>` with a browser user agent (`curl -A "Mozilla/5.0"`). The page shows each sense with its labels; "Entri tidak ditemukan." means the word is not in KBBI. Quote the definition from that page and note the check date in `docs/deck-sources.md`. Etymology labels (Skt, Por…) only show to logged-in users, so don't print them unless checked while logged in.
 - **End:** `[end cta="…"]` with the deck-type line from "Covers and endings".
 - **Caption:** one line + `Sumber: KBBI VI Daring` (+ other sources) + 2–4 hashtags (`#bahasaindonesia`, `#kbbi`, `#katabaku`, `#kataserapan`…).
 - **Fallback until the lexicon features ship:** same as Kosakata Inggris.
