@@ -12,7 +12,7 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 - English vocabulary, grammar, pronunciation for Indonesians → **Kosakata Inggris**
 - Indonesian words, KBBI meanings, kata baku, kata serapan → **Kamus Kecil**
 - Quran ayat, hadith, doa, Islamic reminders → **Ayat Harian**
-- philosophy ideas applied to everyday life, thinkers, dilemmas → **Filsafat Harian**
+- Stoicism and philosophy as armor for work, family and comparison stress, dilemmas → **Filsafat Harian**
 - exam and selection-test prep (SKD CPNS, sekolah kedinasan, PPPK, BUMN, psikotes) → **SKD Harian**
 - Excel, Word, PowerPoint, email and other office tips → **Jago Kantoran**
 - Arabic language learning (fusha vocabulary, roots, phrases, basic grammar; not Quran vocabulary) → **Kosakata Arab**
@@ -30,7 +30,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | ✏️ Kosakata Inggris (@kosakata_inggris) | `id` (teaches English) | Daily words, common mistakes, A/B quizzes | `lexicon/*` | `lexicon/notebook` |
 | 📖 Kamus Kecil | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
 | 🌙 Ayat Harian | `id` (+ Arabic) | One ayah / hadith a day, calm reminders | `serene/*` | `serene/fajr` |
-| 🏛️ Filsafat Harian | `id` | One philosophical idea applied to daily life | `editorial/*` | `editorial/stone` |
+| 🏛️ Filsafat Harian (@filsafatharian.id) | `id` | Street-level Stoicism: mental armor for work and family stress | `editorial/tameng` | `editorial/tameng` |
 | 📝 SKD Harian | `id` | Daily SKD/selection-test questions and strategy | `lexicon/*` | `lexicon/lembar` |
 | 🗂️ Jago Kantoran | `id` | Excel, Word, email and office fixes | `dev/*` | `dev/sheet` |
 | ✍️ Kosakata Arab (@kosakata.arab) | `id` (teaches Arabic) | Fusha words, roots, phrases for beginners | `lexicon/*` | `lexicon/arab` |
@@ -910,107 +910,112 @@ Tulis di komentar. Kita saling mengingatkan.
 
 ## 9. 🏛️ Filsafat Harian
 
-**Tagline:** *Pikiran besar, untuk hari-hari biasa.*
-A faceless Indonesian account that takes one philosophical idea (Western, Islamic, Chinese, Indian, Javanese/Nusantara or modern Indonesian) and applies it to an ordinary situation: traffic, work, family, comparing yourself on social media, overthinking at night.
-It should feel like "oh, there's a name for what I feel, and someone thought about it 2,000 years ago", never like a lecture, a motivational quote page or a debate club.
+**Handle:** `@filsafatharian.id`
+**Tagline:** *Tameng buat hari-hari yang berat.*
+A faceless Indonesian account of **street-level Stoicism**: philosophy as mental armor against the things that actually wear young Indonesians down. That means toxic bosses and group-chat scoldings, hustle culture and comparing salaries, nosy relatives ("kapan nikah?", "kerja di mana sekarang?") and family expectations. The audience made *Filosofi Teras* a bestseller. They don't want Greek history. They want something that works tonight.
+It should feel like "I can carry this into tomorrow's meeting", never like a lecture, a motivational quote page or a museum.
 
-**Direction (Oct 2026 review, no view numbers yet).** The thinking is right (verified quotes, situation first, a counterpoint every time); the form read like lecture notes: every deck used the same Situasinya → Idenya → Coba hari ini → Tapi… skeleton, the biggest text was a label, and only some decks had a line worth screenshotting. Now: labels are small kickers and the thought is the headline, every deck lands one big line, comment asks take one tap, and four formats rotate.
-
-### Formats (rotate; never the same format twice in a row)
-
-1. **Ada namanya #N** (shares): a feeling everyone knows, then its name (*ataraxia*, *amor fati*, *memento mori*…), who named it, how to use it, its limit.
-2. **Kamu pilih mana?** (comments): the dilemma as A/B in a card headline (`*A.* Tetap jujur. | *B.* Jaga perasaan.`), the situation as the body, then what each thinker weighs (kicker = the thinker), never deciding for the viewer. End: "Kamu A atau B? Komen satu huruf, plus satu kata alasannya."
-3. **Salah kaprah filsafat #N** (saves): "kata medsos" vs "kata filsufnya" `[compare]` slides (Stoik ≠ mati rasa, Epikurean ≠ foya-foya, *wu wei* ≠ malas).
-4. **Satu kalimat** (screenshots): one verified quote (work + section + named translation) or the idea in one sentence labelled "gagasannya, disarikan", then how to use it today, then its limit.
-
-### Slide rules
-
-- **Labels are kickers, thoughts are headlines:** `[card kicker="Situasinya" number=off icon=none]` with the situation as one sentence ("Barangnya datang. *Senangnya cuma sebentar.*") and at most one short body line. Same for "Ide <thinker> · <era>", "Coba hari ini", "Tapi…".
-- **Every deck lands one big line:** a `[quote icon=none]` slide (verified only) or a card whose headline is the idea in one sentence with "Gagasannya, disarikan" as the kicker.
-- **Cover:** the situation as a question; the subtitle says what changes for the viewer ("Cara bedain mau dan butuh, dari 2.300 tahun lalu"), not the thinker's dates. Kicker: `FILSAFAT HARIAN · <THINKER>` or the series (`SALAH KAPRAH FILSAFAT · #2`).
-- **No icons on cards** (`icon=none`): the type carries the look.
-- **End:** a one-tap ask (one letter, one word) with `cta="Simpan"`; never "Tulis di komen" alone.
+**Direction (owner, Oct 2026 repositioning).**
+- **Armor, not ignoring.** The Stoic move isn't pretending you didn't hear. It is seeing that what hurts is the story you add (Epictetus, *Enchiridion* 5 and 20), keeping what is yours (your judgment, your reply, your work) and leaving what isn't (their opinion of your life). "Ignore them" contradicts the account's own *Salah kaprah #1* (Stoik ≠ mati rasa).
+- **Some things need action, not armor.** Unpaid overtime, harassment, threats and wage theft get documented and reported. Acting justly is also within your control. Every deck keeps its "Tapi…" card, and this is where it earns it: the account never tells anyone to put up with abuse.
+- **Stoa is the spine (~70%).** Epictetus, Seneca and Marcus Aurelius. Other schools (~30%) appear only when they serve the same armor: Epicurus on wants and flexing, Zhuangzi, Confucius, Al-Ghazali, *nrimo* read carefully. No history-lesson posts: "Filsuf dalam 5 slide" and pure concept decks are retired.
+- **Real quotes are the edge.** Philosophy TikTok is full of fake Marcus Aurelius quotes. "Kutipan asli, ada nomor pasalnya" is something this account can claim.
+- **Not Ruang Rasa.** Ruang Rasa writes the reply to *send* ("kapan nikah?" scripts). Filsafat Harian gives what to *think*, so the question stops hurting. Link across when it fits: "Butuh kalimat balasannya? Cek @ruangrasakita.id."
 
 | | |
 |---|---|
-| Purpose | Make philosophy useful and approachable |
-| Audience | Indonesian students and young adults, readers, people who liked books like *Filosofi Teras* |
-| Reader should think | "This changes how I'll see today." Then save it or send it to a friend |
-| Primary action | Save / share / comment ("setuju atau nggak?") |
-| Tone | Thoughtful, clear, curious, a little warm humour; never smug |
-| Voice | A friend who reads philosophy and explains it over coffee: "coba lihat dari sudut ini" |
+| Purpose | Mental armor for work, family and comparison stress, from real philosophy |
+| Audience | Indonesian first-jobbers and students, 18–30; readers of *Filosofi Teras* |
+| Reader should think | "I'll use this tomorrow." Then save it, screenshot the quote, or send it to a coworker |
+| Primary action | Save, screenshot (quote slide), share |
+| Tone | Calm, dry, on the viewer's side; a little dark humour is fine. Never smug, never hustle |
+| Voice | A colleague who reads Stoa and tells you over late-night coffee: "coba lihat dari sini" |
+| Template | `editorial/tameng` (always) |
 | Slide types | `cover`, `card`, `quote`, `compare`, `end` |
 
-### Pillars
+### Template: `editorial/tameng` (two voices)
 
-1. **Filsafat untuk masalah sehari-hari**: one everyday situation, one idea that helps (e.g. the Stoic dichotomy of control for things you can't change).
-2. **Satu konsep, satu kata**: one term explained simply (amor fati, wu wei, eudaimonia, ataraxia, zuhud as discussed by Muslim thinkers, *nrimo ing pandum*…).
-3. **Filsuf dalam 5 slide**: who they were, their key idea, the context, one takeaway, one common misunderstanding.
-4. **Dilema**: a moral dilemma with Indonesian everyday framing (honest vs kind, loyalty vs fairness). Present the positions, don't decide for the viewer.
-5. **Salah paham populer**: what an idea really says vs how social media uses it (Stoicism ≠ suppressing emotions; "cogito" isn't a self-help slogan).
-6. **Kearifan Nusantara & pemikir Indonesia**: Javanese, Bugis and Minang sayings as ethical ideas; thinkers like Ki Hajar Dewantara, Driyarkara, Hamka (*Tasawuf Modern*) and Franz Magnis-Suseno (*Etika Jawa*).
-7. **Dari Timur**: Confucius, Laozi/Zhuangzi, Al-Ghazali, Ibn Sina, Ibn Rushd, Al-Farabi, the Buddha's teachings as philosophy (describe, don't preach).
+- **Today's problem** speaks in heavy sans (Inter 800) on dark asphalt: cover, situation, idea and advice cards.
+- **The 2,000-year-old answer** speaks in a book face (Gentium Book Plus) on **paper**: every `[quote]` slide flips to the light `kertas` surface by itself. That's the slide people screenshot. Keep one verified quote per deck so the flip happens once.
+- **Steel is for the limit:** put `surface=baja` on the "Tapi…" card. Don't use `baja` anywhere else.
+- **One ember accent** per headline, on 2–3 words (the sting or the turn). Long ember runs shout.
+- No icons (`icon=none`), no photos, no badges on narrative cards (`number=off`).
+
+### Formats (rotate; never the same format twice in a row)
+
+1. **Tameng #N** (saves): one situation that hurts → what actually hurts (the judgment) → the verified quote (paper) → the idea (what's yours, what isn't) → "Coba malam ini/besok" (one action) → "Tapi…" on steel (when armor isn't enough) → end. Kicker `FILSAFAT HARIAN · TAMENG #N`. Model: `filsafat-tameng-bos-marah-id`.
+2. **Satu kalimat** (screenshots): cover (the situation) → the quote on paper → what it means at work or at home → its limit (steel) → end. 4–5 slides.
+3. **Kata medsos vs kata Stoa #N** (saves): `[compare]` slides that correct pop Stoicism. Examples: "stoik = cuek", "stoik = pasrah", "stoik = nggak boleh sedih", "stoik = sigma/alpha". Kicker `SALAH KAPRAH STOIK · #N`.
+4. **Kamu pilih mana?** (comments): a real dilemma as A/B (`*A.* Resign. | *B.* Bertahan setahun lagi.`). Each thinker weighs it (kicker = thinker), never deciding for the viewer. End: "Kamu A atau B? Komen satu huruf."
+
+### Situations (rotate across these)
+
+- **Kantor:** a boss scolding in the group chat, credit stolen by a coworker, unrealistic deadlines, failing probation, layoffs, Monday dread, a WA from the boss on your day off.
+- **Keluarga:** "kapan nikah/punya anak?", being compared to a cousin, being expected to send money home, choosing a career your parents don't understand.
+- **Perbandingan:** a friend's salary or promotion, LinkedIn and Instagram updates, "umur segini harusnya udah…".
+- **Hustle:** rest guilt, "kerja keras bagai kuda" content, side-hustle pressure. The account is anti-hustle: rest is not weakness.
+- **Diri sendiri:** overthinking at 2 a.m., fear of failing, a mistake you can't stop replaying.
+
+### Slide rules
+
+- **Card 1 answers the cover:** the situation, as a scene the viewer knows ("Namamu disebut di grup, *jam sepuluh malam.*").
+- **Labels are kickers, thoughts are headlines:** `[card kicker="Situasinya" number=off icon=none]`. Kickers in use: "Situasinya", "Yang sebenarnya melukai", "Ide <thinker> · <one human detail>, <era>" (e.g. "pernah jadi budak, abad ke-1–2 M": make the thinker a person, not a date), "Coba malam ini", "Tapi…".
+- **Attribution fits one line** (≤ 50 characters): `— Epiktetos, Enchiridion 20 (terj. bebas, Higginson)`. Longer is cut with "…" without a warning (open item), so shorten the work's name (`Surat 13.4`), never drop the section number.
+- **Cover:** the situation as a statement or question, ≤ 10 words, sting in ember. The subtitle says what changes for the viewer ("Cara Stoa biar kalimatnya nggak ikut kamu bawa tidur.").
+- **End:** a one-tap ask about the viewer's own version ("Kalimat bos yang *paling nempel?*" → "Satu kata aja di komen.") with `cta="Simpan"`.
 
 ### Accuracy rules (non-negotiable)
 
-- **Quotes are the biggest risk.** Philosophy is full of fake or misattributed quotes. Use a direct quote only with the primary text and location (work + book/section, e.g. *Enchiridion* 1, *Meditations* 4.3) and a named translation. Otherwise paraphrase it as an idea and say so ("gagasannya, disarikan").
-- List sources in the reply before the deck: primary texts, Stanford Encyclopedia of Philosophy (plato.stanford.edu), Internet Encyclopedia of Philosophy, or reputable books. Not quote sites or Pinterest.
-- Name the school and era when it matters ("Stoa, abad ke-1–2 M"). Don't flatten different thinkers into one "philosophy says".
-- When scholars disagree about what someone meant, say so briefly.
+- **Quotes are the biggest risk.** A direct quote needs the primary text and location (work + section, e.g. *Enchiridion* 20, *Meditations* 2.1, *Surat* 13.4) and a named public-domain translation (Higginson or Carter for Epictetus, George Long for Marcus Aurelius, Gummere for Seneca), checked against the full text (Project Gutenberg, Wikisource). Slides say "(terj. bebas, <translator>)". Otherwise paraphrase and label it "Gagasannya, disarikan".
+- Advice in "Coba…" cards comes from the text when possible (*Enchiridion* 20's "gain time and respite" → "jangan balas sekarang"); the deck's own suggestions are marked as such in deck-sources.md.
+- Sources in the reply before the deck: primary texts, the Stanford Encyclopedia of Philosophy, the Internet Encyclopedia of Philosophy. Never quote sites or Pinterest. Log them in `docs/deck-sources.md`.
+- Biographical hooks must be checked (Epictetus was a slave for part of his life, SEP; Marcus Aurelius was emperor; Seneca was Nero's advisor and very rich, so say so when a Seneca deck is about money).
 
 ### Sensitivity rules
 
-- **Religion:** present philosophy as a way of thinking, never as attacking or replacing faith. No "God is dead" style provocation for views. Present religious thinkers respectfully and accurately.
-- **Politics:** no current politics, parties or figures. Historically controversial thinkers (e.g. Marx, Tan Malaka) only when the owner explicitly asks, presented neutrally and historically.
-- **Mental health:** overthinking, loneliness and sadness are fair themes, but present ideas as perspectives, not treatment. When a deck touches heavy feelings, the caption adds: "Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya."
-- No hustle-culture or "alpha" framing, no manipulation tactics dressed as philosophy (e.g. misused Machiavelli).
+- **Workplace:** the armor is for words and moods, never for abuse. Harassment, threats, unpaid wages and unsafe work: the "Tapi…" card points to documenting and reporting (HR, Disnaker). Don't name real companies or bosses.
+- **Family:** no "orang tua toxic" labels or pop psychology. Parents and relatives are people with their own fears; the armor is for the viewer's peace, not for contempt.
+- **Mental health:** perspectives, not treatment. Decks about heavy feelings (overthinking, burnout, failure) add to the caption: "Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya."
+- **No hustle, no "sigma/alpha" framing,** no manipulation tactics dressed as philosophy. Stoicism isn't about being cold or winning.
+- **Religion and politics:** philosophy as a way of thinking, never against faith; no current politics, parties or figures.
 
 ### Writing rules
 
-- Language: Indonesian (`lang: id`), relaxed and clear: `kamu`, `kita`. Technical terms appear once in italics-style accent (`*amor fati*`) with a plain explanation right after.
-- One idea per deck. Start from the situation, not the thinker ("Pernah kesal karena macet?", not "Epiktetos adalah…").
-- Always include a **counterpoint or limit** slide: what the idea doesn't solve or who disagreed. That's what makes it philosophy rather than self-help.
-- End with a question that invites a real answer, not "setuju?" alone.
+- Indonesian (`lang: id`), relaxed and clear: `kamu`, `aku`, `nggak`. Office words people use (*grup*, *atasan*, *lembur*, *deadline*) are fine.
+- One situation and one idea per deck.
+- Technical terms once, explained right after: *prohairesis* → "bagian dirimu yang memilih".
+- Curly quotes in slide text.
 
 ### Deck recipe
 
-- **Templates:** `editorial/stone` (default), `editorial/midnight` for night/overthinking themes.
-- **Length:** cover + 4–6 slides + end, ≤ 10 total.
-- **Everyday-problem deck:** cover (the situation as a question) → situation card (kicker "Situasinya") → idea card (kicker "Ide <thinker> · <era>") → the big line (`[quote]` verified, or "Gagasannya, disarikan") → "Coba hari ini" → "Tapi…" (counterpoint/limit) → `[end]` one-tap ask. Vary the order between decks.
-- **Concept deck:** cover (the term) → meaning → origin → everyday example → common misunderstanding (`[compare]`, with `wrong-label`/`right-label` set to e.g. "Kata medsos"/"Kata filsufnya": `wrong` = the misuse, `right` = the actual idea) → end.
-- **Dilemma deck:** cover (the dilemma) → A/B card (choice as headline, situation as body) → position A (kicker = thinker) → position B → the middle way → `[end]` "Kamu A atau B? Komen satu huruf, plus satu kata alasannya."
-- Use `number=off icon=none` on narrative cards; numbers only for list decks.
-- **Caption:** one line + `Sumber:` (primary text / SEP) + 2–4 hashtags (`#filsafat`, `#filsafatharian`, `#stoikisme`, `#refleksidiri`…).
+- **Header:** `template: editorial/tameng` and `handle: @filsafatharian.id` in every deck.
+- **Length:** cover + 5–6 slides + end, ≤ 9 slides.
+- **Caption:** the first line pushes the hook further, then `Sumber:` (primary text + translator · SEP), then 3–4 hashtags that people search (`#stoikisme`, `#filsafatharian`, `#duniakerja`, `#bostoxic`, `#kapannikah`, `#overthinking`).
+- **Calendar:** Monday mornings (kantor), the 25th (gajian, comparison), Ramadan and Lebaran ("kapan nikah?", mudik, being compared), end-of-year appraisals, and weeks with layoff news (calm, practical; never mocking).
 
 ```text
-template: editorial/stone
+template: editorial/tameng
+handle: @filsafatharian.id
 lang: id
-title: yang bisa dan nggak bisa dikendalikan
-caption: Ide umur 2.000 tahun buat macet hari ini. Sumber: Epiktetos, Enchiridion 1 · SEP "Epictetus" #filsafat #stoikisme #filsafatharian
+title: tameng 1 bos marah di grup
+caption: Pesannya nggak bisa kamu hapus. Cerita yang kamu tambahkan di kepala, bisa. Sumber: Epiktetos, Enchiridion 1 & 20 (terj. T.W. Higginson) · SEP "Epictetus" #stoikisme #filsafatharian #duniakerja
 ---
-[cover kicker="FILSAFAT HARIAN · EPIKTETOS"]
-Kesal Karena Macet? | Marahnya Nggak Bikin Jalan
-Cara misahin yang bisa dan nggak bisa kamu ubah.
+[cover kicker="FILSAFAT HARIAN · TAMENG #1"]
+Bos marah di grup. | *Semua orang baca.*
+Cara Stoa biar kalimatnya nggak ikut kamu bawa tidur.
 ---
-[card kicker="Situasinya" number=off icon=none]
-Jalanan macet, kamu telat. *Marah nggak bikin mobil di depan bergerak.*
+[card kicker="Yang sebenarnya melukai" number=off icon=none]
+Bukan pesannya, tapi cerita yang *kamu tambahkan.*
 ---
-[card kicker="Ide Epiktetos · Stoa, abad ke-1–2 M" number=off icon=none]
-Hidup terbagi dua: *yang dalam kendalimu, dan yang tidak.*
+[quote icon=none]
+Yang menghinamu bukan orang yang memaki, tapi pandanganmu bahwa itu menghina.
+— Epiktetos, Enchiridion 20 (terj. bebas, Higginson)
 ---
-[card kicker="Gagasannya, disarikan" number=off icon=none]
-Penilaian dan tindakanmu milikmu. *Jalanan, orang lain, dan cuaca bukan.*
----
-[card kicker="Coba hari ini" number=off icon=none]
-Saat kesal, tanya: *bagian mana yang bisa aku ubah?*
-Misalnya: berangkat lebih awal besok.
----
-[card kicker="Tapi…" number=off icon=none]
-Ini *bukan alasan pasrah* pada ketidakadilan.
-Garis "bisa" dan "tidak bisa" sering lebih kabur dari kelihatannya.
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Tameng *bukan alasan diam* kalau sudah keterlaluan.
 ---
 [end cta="Simpan"]
-Hal di luar kendalimu yang *paling bikin kesal?*
+Kalimat bos yang *paling nempel?*
 Satu kata aja di komen.
 ```
 
@@ -1722,14 +1727,9 @@ When asked for "N posts" for an account: read its section, pick formats from its
 
 ## 15. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all thirteen handles, put `handle:` in every deck header. Done: Ruang Rasa (`@ruangrasakita.id`), Fathul Learn Coding (`@fathul_learncoding`), Sejarah Nusantara (`@sejarah.nusantara.id`). Ruang Rasa matters most: its slides are screenshotted out of TikTok, and the handle on the slide is the only way those shares turn into follows.
-- **`editorial/stone` variant (Filsafat Harian): shipped (Oct 2026).** A tokens-only variant in the editorial family: warm stone, charcoal, terracotta. Blobs off since the Oct 2026 review. Serif `Playfair Display`, sans `DM Sans`. Rotation `['stone', 'stone', 'slate']`. Tokens (contrast-checked):
-
-  | Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |
-  |---|---|---|---|---|---|---|---|---|---|---|
-  | stone | #EDEAE4 | #1E1E1C | #3C3B37 | #6C6A64 | #9A4B2F | #2B2A27 | #EDEAE4 | #E2DED6 | #9A4B2F | #E2DED6 |
-  | slate | #2B2A27 | #EDEAE4 | #D2CEC6 | #A19D94 | #E39A7A | #E39A7A | #2B2A27 | #35332F | #E39A7A | #3A3834 |
-  | deep | #1B1A18 | #EDEAE4 | #CFCBC3 | #9C988F | #E39A7A | #E39A7A | #1B1A18 | #262522 | #E39A7A | #2A2926 |
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all thirteen handles, put `handle:` in every deck header. Done: Ruang Rasa (`@ruangrasakita.id`), Fathul Learn Coding (`@fathul_learncoding`), Sejarah Nusantara (`@sejarah.nusantara.id`), Filsafat Harian (`@filsafatharian.id`). Ruang Rasa matters most: its slides are screenshotted out of TikTok, and the handle on the slide is the only way those shares turn into follows.
+- **`editorial/tameng` (Filsafat Harian): shipped (Oct 2026),** replacing `editorial/stone` for this account (stone stays available). Two voices: Inter 800 headlines on asphalt, Gentium Book Plus quotes on a paper surface, steel for the "Tapi…" card, one ember accent. Tokens in DESIGN §5.1.
+- **Long quote attributions are cut silently.** The attribution line is truncated with "…" at the content width in every editorial template, with no warning. Until a warning (or a second line) exists, keep attributions ≤ 50 characters.
 - **Ayah & hadith features: shipped (M8, Oct 2026).** `[ayah]`, `[hadith]`, Amiri Quran / Amiri and `serene/fajr` / `serene/isya` are built (see SPEC-ayah.md). Export is blocked with no override when a required field is missing, the Arabic doesn't fit at 48 px, or the Arabic font didn't load.
 - **Lexicon features: shipped (M7, Oct 2026).** `[word]`, `[table]`, `[compare]` and `lexicon/notebook` / `lexicon/kamus` are built (see SPEC-lexicon.md); the card fallbacks in the recipes are no longer needed. Note: KBBI VI Daring now lives at kbbi.kemendikdasmen.go.id, and its etymology labels (Por, Skt…) are only shown to logged-in users, so don't print them unless checked while logged in.
 - **Ruang Rasa templates: shipped (Oct 2026).** Ruang Rasa moved off `rose-dusk`/`sage`/`midnight` to `editorial/ruang-*` (Fraunces + Instrument Sans). Still proposed, needs a PRD change: `kicker` on cards, a chat-bubble line, an options list with letter discs, a "kirim ke" tag. **The chat-bubble line comes first** (Oct 2026 second review): a generic bubble (no WhatsApp branding) makes a send card read as "a message to send" at a glance and suits screenshots.

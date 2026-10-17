@@ -40,7 +40,9 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 - Second review (Oct 2026, "the panicking junior"): saves per 1,000 views became the main metric, with follows per post as the account metric. Changes made: relief-over-fear hooks, a Kerja Nyata series (first-job skills), concepts capped at 1 in 6 and error-first, card 1 answers the cover (9 decks reordered), labelled recap slides.
 - Track: saves per 1,000 views per post; follows per post (now ~1 per 540 views) for the account.
 
-## Filsafat Harian (`editorial/stone`)
+## Filsafat Harian (`editorial/tameng` since Oct 2026; `editorial/stone` before)
+
+- Oct 2026 repositioning (owner): street-level Stoicism as mental armor for work, family and comparison stress (the *Filosofi Teras* audience), "armor, not ignoring", Stoa ~70%. New template `editorial/tameng`, new format Tameng #N (model `filsafat-tameng-bos-marah-id`). No post numbers yet: track saves and screenshots of the quote slide against the old decks.
 
 - No view numbers shared yet (Oct 2026). Review was design and content judgement.
 - Diagnosis: same five-step skeleton on every deck, labels as headlines, a screenshot line in only some decks, confession-style comment asks, icons and blobs as decoration.
