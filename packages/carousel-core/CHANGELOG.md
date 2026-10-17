@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- `[sheet]`: larger cells (max 38 px), column header and formula bar (max 36 px) for phone legibility (DESIGN §6.9).
+- `dev/sheet` (Jago Kantoran): keyboard keycaps for body lines `Ctrl + Shift + L: label`. New variant flag `deco.keycaps` (default off) and stack item `keycaps`. Visual change for `dev/sheet` only.
 - `lexicon/lembar` (SKD Harian): LJK answer-sheet treatment (DESIGN §6.8). Body lines `A. …`–`E. …` render as circled-letter option rows; a "Jawaban X" verdict gets an A–E bubble row with X filled; verdict-card working lines a step larger. New variant flag `deco.ljk` (default off) and stack items `options` / `bubbles`. Visual change for `lexicon/lembar` only.
 - New template `editorial/tameng` (Filsafat Harian): Inter 800 headlines on asphalt, Gentium Book Plus quotes on a paper surface, steel for the limit card, one ember accent.
 - Variant data (default-off, no change to existing templates): `headlineFace`, `quoteWeight`, `quoteSize`, `quoteSurface`, `deco.quoteMark`. The editorial font gate's weights follow `headlineFace`.

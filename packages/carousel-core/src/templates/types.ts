@@ -59,6 +59,8 @@ export interface Deco {
   gridColor?: string;
   /** Cards: body lines "A. …"–"E. …" as LJK option rows, and an A–E bubble row under a "Jawaban X" verdict (lexicon/lembar). */
   ljk?: boolean;
+  /** Cards: body lines "Ctrl + Shift + L: label" drawn as keyboard keycaps (dev/sheet). */
+  keycaps?: boolean;
   /** Editorial: the large opening quote mark on quote slides (default on). */
   quoteMark?: boolean;
   /** Serene: thin inset frame + 8-point star ornament (SPEC-ayah §4). */

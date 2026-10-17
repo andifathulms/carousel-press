@@ -100,7 +100,7 @@ export const sheet: Variant = {
     subcommand: '#1F5FBF', flag: '#A14B00', string: '#9A3412', comment: '#6E7781', number: '#A14B00',
     keyword: '#B42335', fn: '#13723F', punct: '#4B5563', dots: null,
   },
-  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: 'fx', grid: 'cells', gridColor: 'rgba(21,32,27,0.05)' },
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: 'fx', grid: 'cells', gridColor: 'rgba(21,32,27,0.05)', keycaps: true },
   swatches: ['#F6F8F7', '#FFFFFF', '#13723F', '#1F5FBF'],
   headerRight: 'rule',
 };

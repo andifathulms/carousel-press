@@ -4,6 +4,7 @@ import { layoutLexSlide } from '../lexicon/lexDispatch';
 import { layoutArabicSlide } from '../serene/arabicLayout';
 import { diagramItem, verdictItem } from '../stamps';
 import { sheetItem } from '../sheet';
+import { keycapsItem, splitKeys } from '../keycaps';
 import { prepareCode } from '../../layout/codeFit';
 import { type CodeSpec, type StackItem, type TextSpec, fitStack } from '../../layout/stack';
 import { legibleMin } from '../../layout/measure';
@@ -127,7 +128,14 @@ export function layoutDev(input: LayoutInput): SlideLayout {
       if (verdict) push(verdict);
       else if (!kicked) numberItem(0);
       push({ kind: 'text', role: 'headline', rich: prefixed(slide.headline), spec: spec(T.cardHeadline, true), gap: STACK.gap, tone: 'ink' });
-      if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.gap, tone: 'body' });
+      // dev/sheet: "Ctrl + Shift + L: label" lines become keycaps (DESIGN §6.9).
+      const keys = v.deco.keycaps ? splitKeys(slide.body) : null;
+      const caps = keys ? keycapsItem(keys.rows, v, m, STACK.gap) : null;
+      if (keys && caps) {
+        if (keys.pre.length) push({ kind: 'text', role: 'body', rich: keys.pre, spec: spec(TYPE.body), gap: STACK.gap, tone: 'body' });
+        push(caps);
+        if (keys.post.length) push({ kind: 'text', role: 'body', rich: keys.post, spec: spec(TYPE.body), gap: STACK.gap, tone: 'body' });
+      } else if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.gap, tone: 'body' });
       pushIcon();
       pushCta(CHROME.cta.gapBefore);
       break;

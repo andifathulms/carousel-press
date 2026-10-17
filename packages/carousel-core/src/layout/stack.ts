@@ -34,6 +34,12 @@ export interface CodeSpec {
 
 export type FixedKind = 'badge' | 'number' | 'icon' | 'cta' | 'kicker' | 'attribution' | 'verdict' | 'diagram' | 'sheet' | 'bubbles';
 
+/** One keyboard shortcut drawn as keycaps plus its label (dev/sheet). */
+export interface KeyRow {
+  keys: string[];
+  label: string;
+}
+
 /** One A–E answer option drawn as an LJK row (lexicon/lembar). */
 export interface LjkOption {
   letter: string;
@@ -47,7 +53,8 @@ export type StackItem =
   | { kind: 'text'; role: TextRole; rich: Rich; spec: TextSpec; gap: number; tone: Tone }
   | { kind: 'code'; lines: CodeLineSrc[]; lang: string; spec: CodeSpec; gap: number }
   | { kind: FixedKind; h: number; w: number; gap: number; label?: string }
-  | { kind: 'options'; h: number; w: number; gap: number; options: LjkOption[]; size: number; label?: string };
+  | { kind: 'options'; h: number; w: number; gap: number; options: LjkOption[]; size: number; label?: string }
+  | { kind: 'keycaps'; h: number; w: number; gap: number; rows: KeyRow[]; size: number; keyCol: number; label?: string };
 
 export interface Placed {
   item: StackItem;

@@ -438,6 +438,11 @@ SKD Harian's questions read like a real computer answer sheet (lembar jawaban ko
 - **Working lines.** The body of a verdict card (the calculation, one per line) uses 48 → 36 instead of the body scale's 42 → 34.
 - Other families and lexicon variants are unchanged.
 
+### 6.9 `dev/sheet`: bigger sheets and keycaps (Jago Kantoran, Oct 2026)
+
+- **`[sheet]` sizes** (every template, though only `dev/sheet` uses sheets): cell text 38 → 22 px (was 30 → 22), line height 1.8, column header 26 px in a 52 px band with a 62 px row gutter, formula bar 36 → 20 px (was 30) in an 88 px bar. Sizes still step down until the table fits.
+- **Keycaps** (`deco.keycaps`, `dev/sheet` only). On a card, a contiguous run of body lines `Keys: label` is drawn as keyboard keys. A line counts when it is two or more keys joined by `+` (`Ctrl + Shift + L: Filter`) or a single function key (`F4: Kunci sel`). Keys are Ctrl, Alt, Shift, Cmd, Option, Win, Fn, Tab, Enter, Esc, Space, Home, End, PgUp, PgDn, Delete, Backspace, F1–F12, one letter or digit, or one punctuation key. Each key is a rounded box (radius 10, 3 px `muted` border, `bg` face, a 5 px `muted` base below it for depth), key text Inter 600 in `ink`, `+` in `muted`; labels (Inter 500, `body`) start in one column after the widest key combo. Size 44 → 30 until every row fits one line, else the lines stay plain body text. Text before the rows stays above them, text after goes below.
+
 ## 7. Icons
 
 - Author **original** line icons on a 24×24 grid as SVG path strings, and render them with `new Path2D(d)` scaled into the target box.

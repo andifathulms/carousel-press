@@ -9,9 +9,10 @@ import type { Variant } from './types';
 
 export const SHEET = {
   radius: 20,
-  bar: { h: 80, name: 104, fx: 64, padX: 20, max: 30, min: 20, step: 2, gap: 16 },
-  head: { h: 46, size: 22, gutter: 58 },
-  cell: { max: 30, min: 22, step: 2, padX: 16, lh: 1.9, minW: 72 },
+  // Sizes raised for phone legibility (Jago Kantoran review, Oct 2026): cells 30 → 38, header 22 → 26, formula 30 → 36.
+  bar: { h: 88, name: 104, fx: 64, padX: 20, max: 36, min: 20, step: 2, gap: 16 },
+  head: { h: 52, size: 26, gutter: 62 },
+  cell: { max: 38, min: 22, step: 2, padX: 16, lh: 1.8, minW: 72 },
   line: { grid: 2, ref: 4, result: 6, mark: 4 },
   markDash: [12, 8],
   refAlpha: 0.12,
