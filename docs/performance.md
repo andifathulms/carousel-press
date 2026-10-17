@@ -67,15 +67,21 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 
 | Post | Cover as posted | Slides | Views |
 |---|---|---|---|
-| 1 | 11 kalimat Inggris yang sering salah | 13 | 625 |
-| 2 | Think jadi thought? Ini polanya | 12 | 376 |
-| 3 | "I did a mistake"? Harusnya made | 10 | 712 |
-| 4 | Walked itu satu ketukan, bukan wal-ked | 10 | 699 |
+| 1 | 11 kalimat Inggris yang sering salah | 13 | 630 |
+| 2 | Think jadi thought? Ini polanya | 12 | 382 |
+| 3 | "I did a mistake"? Harusnya made | 10 | 724 |
+| 4 | Walked itu satu ketukan, bukan wal-ked | 10 | 710 |
+| 5 | "I live here since 2020" belum tepat | 13 | 1,028 |
+| 6 | Nulis "your welcome"? Harusnya "you're" | 11 | 1,122 |
+| 7 | Di London, pants itu celana dalam | 10 | **3,792** |
+| 8 | "He said me"? Harusnya "He told me" | 10 | **3,544** |
+| 9 | Knife dibaca "naif", k-nya diam | 11 | 30 (just posted) |
 
-- 152 likes in total (6% per view), 4 followers (Oct 2026).
-- Covers naming one concrete mistake beat the pattern lesson; no breakout yet.
-- Low follows: the bio promised a daily word, the posts were long grammar decks, and nothing said "come back tomorrow". Changes made: Kata hari ini #N daily series, payoff first (slide 2 = the strongest example), A/B quizzes with one-letter end asks.
-- Track: follows per post first, then 24-hour views and saves per 1,000 views.
+- Oct 2026 (second update): 41 followers (up from 4), 721 likes.
+- Winners: the exact wrong sentence people say, quoted on the cover (say/tell), and a surprising, slightly embarrassing meaning (pants). About 5× the list and pattern decks.
+- Weakest: lists ("11 kalimat") and patterns ("Think jadi thought").
+- Changes made (second review, "the keminggris anxiety"): Salah ngomong #N and Beda arti #N as numbered series; new formats Bahasa sekolah vs aslinya, Artinya apa? (slang decoder with "Pakai di:"), Interview/Kantor; slang sourcing rules; 8–12 slides.
+- Track: saves and shares per 1,000 views, follows per post; check whether the series numbering lifts follows.
 
 ## Ayat Harian (`serene/*`)
 

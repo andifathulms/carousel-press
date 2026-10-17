@@ -576,52 +576,68 @@ Tulis di komen, nanti kami cek datanya.
 
 **Account:** Kosakata Inggris, `@kosakata_inggris` (put `handle: @kosakata_inggris` in every deck header). Earlier docs called it "English Sehari".
 **Tagline:** *Satu hari, satu hal kecil tentang bahasa Inggris.*
-**Bio (owner to set):** "📖 Kata hari ini, tiap hari. Plus salah kaprah bahasa Inggris yang sering kita pakai. Simpan, pakai!"
-A faceless account that teaches English to Indonesians, one small, useful thing per post: a word, a verb pattern, a common mistake, a pronunciation trap.
-It should feel like "oh, jadi selama ini aku salah", never like a textbook or a test.
+**Bio (owner to set):** "📖 Kata hari ini, tiap hari. Plus salah kaprah bahasa Inggris yang sering kita pakai. Simpan, pakai!" (The live bio has a typo, "serih", Oct 2026.)
+A faceless account that teaches English to Indonesians, one small, useful thing per post: a sentence people get wrong, a word with a surprising meaning, the natural way to say something.
+It should feel like "oh, jadi selama ini aku salah" or "untung aku tahu sebelum ngomong", never like a textbook or a test.
 
-**What works (owner data, Oct 2026).** Views of the first four posts: "11 kalimat Inggris yang sering salah" 625 · "Think jadi thought? Ini polanya" 376 · "'I did a mistake'? Harusnya made" 712 · "Walked itu satu ketukan" 699. 152 likes in total (6% per view) but only 4 followers. Covers naming one concrete mistake beat the pattern lesson. The low follow rate comes from a profile that promised a daily word while the posts were long grammar decks, and from nothing that says "come back tomorrow".
+**What works (owner data, Oct 2026: 41 followers, 721 likes).**
 
-### Formats (in order)
+| Cover as posted | Views |
+|---|---|
+| Di London, pants itu celana dalam | **3,792** |
+| "He said me"? Harusnya "He told me" | **3,544** |
+| Nulis "your welcome"? Harusnya "you're" | 1,122 |
+| "I live here since 2020" belum tepat | 1,028 |
+| "I did a mistake"? Harusnya made | 724 |
+| Walked itu satu ketukan, bukan wal-ked | 710 |
+| 11 kalimat Inggris yang sering salah | 630 |
+| Think jadi thought? Ini polanya | 382 |
 
-1. **Kata hari ini #N** (daily, 4 slides): cover with the word big and a one-line hook (kicker `KATA HARI INI · #N`) → `[word]` (IPA + meaning from Cambridge/Oxford) → a one-line situation or mini quiz `[card]` → end "Besok: Kata hari ini #N+1." with `cta="Follow"`. This delivers the bio's promise.
-2. **Salah kaprah with an A/B quiz**: cover names one concrete mistake taken literally ("Bilang 'I'm boring'? Artinya kamu yang bikin bosan.") → slide 2 a `[card]` "Mana yang benar?" with `A. …` / `B. …` body lines and "Jawab A atau B dulu, baru geser." → the `[compare]` reveal → more compares → end "Kamu tadi jawab *A atau B?*".
-3. **Everyday-life shock**: UK vs US, false friends, chat typos, work phrases ("pants itu celana dalam", "fabric itu kain").
-4. **Pronunciation**: one trap per deck (-ed, silent letters), with `say:` respelling and IPA.
-5. **Patterns** (irregular verbs, make vs do): only with a mistake-hook cover ("Thinked? Buyed? Bukan begitu."), and never the rule first.
+Two kinds of cover win, by about 5× over lists and grammar patterns:
+- **The exact sentence people say, in quotes, and it's wrong:** "He said me".
+- **A surprising and slightly embarrassing meaning:** pants = celana dalam.
+
+Lists ("11 kalimat") and patterns ("Think jadi thought") are the weakest. Both winners are now numbered series (see Formats).
+
+**Direction (owner, Oct 2026 second review): the keminggris anxiety, both sides.** Most Indonesians have basic English but are afraid of looking stupid. *Keminggris* is also the word for mocking someone who sprinkles English to look clever. So the fear runs two ways: "my English is wrong" **and** "I'll sound try-hard".
+- **The promise:** English that sounds *normal* in real situations (kantor, chat, interview, travel), not textbook English and not show-off English.
+- **No mocking, ever:** the account may laugh at the school script ("I'm fine, thank you, and you?"), never at a person or group, Jaksel speakers included.
+
+### Formats (rotate; never the same format twice in a row, except Kata hari ini)
+
+1. **Kata hari ini #N** (daily, 4 slides): cover with the word big and a one-line hook (kicker `KATA HARI INI · #N`) → `[word]` (IPA + meaning from Cambridge/Oxford) → a one-line situation or mini quiz `[card]` → end "Besok: Kata hari ini #N+1." with `cta="Follow"`. This delivers the bio's promise and is the follow engine.
+2. **Salah ngomong #N** (proven, 3,544): the cover quotes the exact wrong sentence ("He said me"?) and the fix. Slide 2 is that sentence fixed (`[compare]`) or the A/B quiz on it, then 3–5 more `[compare]`s or quiz rounds of the same family, then the end "Kamu tadi jawab *A atau B?*".
+3. **Beda arti #N** (proven, 3,792): UK vs US, false friends, words that mean something embarrassing or surprising somewhere else ("pants itu celana dalam", "fabric itu kain"). Slide 2 is the cover's word. Keep it clean: surprising, not vulgar.
+4. **Bahasa sekolah vs aslinya #N** (new): the script everyone learned at school vs what people actually say ("I'm fine, thank you, and you?" → "Not bad, you?" / "Pretty good"). `[compare]` slides with `wrong:` relabelled by the why line as *kaku, bukan salah* when the school version is grammatical. Never call correct English "salah".
+5. **Artinya apa? #N** (new, slang decoder): 4–5 slang words or abbreviations Indonesians see in comments, series and games. Each `[word]` gets meaning, an example, and a **"Pakai di:" line**, e.g. `nongkrong ✅ · chat kantor ⚠️ · email ❌`. The point is to *understand* it, not to show off with it. No vulgar, sexual or drug slang, nothing that mocks a group.
+6. **Interview #N / Kantor #N** (new, high saves): one high-stakes situation per deck ("Tell me about yourself", "What's your weakness?", replying to a boss, a meeting phrase), with natural phrases to copy and one `[compare]` of the stiff vs natural answer. Recap slide with every phrase before the end.
+7. **Sering salah dibaca #N** (pronunciation): one trap per deck (-ed, silent letters, stress), with `say:` respelling and IPA.
+8. **Patterns** (irregular verbs, make vs do): lowest priority (382 views), only with a mistake-hook cover, never the rule first.
 
 ### Slide order and endings
 
-- **Payoff first:** slide 2 is always the strongest example (a wrong-vs-right `[compare]` or the A/B quiz), never the rule. The rule or table comes after two or three examples, or as a recap near the end.
+- **The cover is the hook.** Quote the exact sentence or name the surprising meaning, ≤ 8 words in the headline. Never "N kalimat yang…" or a grammar term as the cover.
+- **Card 1 answers the cover** (standard 11): slide 2 is the cover's sentence fixed, or its A/B quiz, or the cover's word. Never the rule.
 - **One-tap comment asks:** "A atau B?", "UK atau US?", "kata mana yang dulu kamu baca lengkap?". Don't ask learners to write a whole English sentence in public.
-- **End lines** are specific to the deck and never the same on consecutive posts; the CTA names the action (`cta="Simpan"`, `cta="Follow"`).
+- **End lines** are specific to the deck and never the same on consecutive posts; the CTA names the action (`cta="Simpan"`, `cta="Follow"`). Series ends name the next number ("Salah ngomong #3 besok lusa.").
 - **Search words** in the caption's first line ("Kesalahan bahasa Inggris yang sering dipakai orang Indonesia."), hashtags `#belajarbahasainggris`, `#kosakatainggris` + one topic tag.
-- **Rhythm:** Kata hari ini daily, plus 2–3 bigger decks a week; when one breaks out, make its type a numbered series within the week.
+- **Rhythm:** Kata hari ini daily, plus 2–3 bigger decks a week, rotating Salah ngomong and Beda arti first (proven) with one new format a week.
 
 | | |
 |---|---|
-| Purpose | Make English click for Indonesian speakers |
-| Audience | Indonesian students, job seekers, workers, anyone learning English (beginner → intermediate) |
-| Reader should think | "I'll save this and use it today." |
-| Primary action | Save / share / comment (try the word in a sentence) |
+| Purpose | English that sounds normal, without the fear |
+| Audience | Indonesian students, job seekers, office workers learning English (beginner → intermediate) |
+| Reader should think | "Untung aku tahu sebelum ngomong." / "I'll save this." |
+| Primary action | Save and share ("kirim ke teman yang suka bilang he said me"), then a one-tap comment |
 | Tone | Friendly, encouraging, a little playful; mistakes are normal |
 | Voice | A patient friend who knows where Indonesians usually slip |
 | Slide types | `cover`, `word`, `table`, `compare`, `card`, `end` |
 
-### Pillars
-
-1. **Word of the day**: one useful word with meaning, pronunciation, an example and its forms.
-2. **Irregular verbs by pattern**: V1–V2–V3 grouped so they stick (`think–thought`, `buy–bought`, `spend–spent`, `send–sent`, `sing–sang–sung`…).
-3. **Salah kaprah**: mistakes Indonesians commonly make (`I am agree` → `I agree`, `discuss about` → `discuss`, `very like` → `really like`).
-4. **False friends**: words that look like Indonesian but mean something else (e.g. English *actual* ≠ Indonesian *aktual*).
-5. **Pronunciation traps**: silent letters, stress, `-ed` endings (`walked` /t/, `played` /d/, `wanted` /ɪd/).
-6. **Pairs that confuse**: make vs do, bored vs boring, fun vs funny, say vs tell, borrow vs lend.
-7. **Phrasal verbs & everyday expressions**: one situation per post (meeting, chatting, email).
-8. **Mini quiz**: question on one slide, answer on the next slide (a carousel can reveal it by swiping).
-
 ### Accuracy rules
 
 - Meanings, IPA and verb forms must match a reputable learner's dictionary (Cambridge Dictionary, Oxford Learner's Dictionaries or Merriam-Webster). Name it in the caption when giving IPA or a definition.
+- **Slang and abbreviations:** the meaning must be in Cambridge, Merriam-Webster, Oxford or Dictionary.com (slang section). Never Urban Dictionary alone. Say if a word is informal, dated or mainly American/British.
+- **"Natural" claims:** when a deck says what people "actually say", the phrase must appear as an example or entry in one of those dictionaries or a major learner resource (Cambridge, British Council, BBC Learning English). Don't invent "native speakers always say…".
 - Say which pronunciation you show: `(UK)`, `(US)`, or both. Default: both when they differ.
 - `say:` respelling is a friendly approximation in Indonesian spelling, not a replacement for IPA. Keep both.
 - When British and American usage differ (spelling, words, verb forms like *learnt/learned*), say so.
@@ -630,64 +646,44 @@ It should feel like "oh, jadi selama ini aku salah", never like a textbook or a 
 ### Writing rules
 
 - Explanations in Indonesian (`lang: id`); English examples in English. Keep it casual (`kamu`, `nggak` is fine).
-- One concept per deck. Example sentences short, everyday, and relevant to Indonesian life (kantor, kampus, ojol, nongkrong).
+- One concept per deck. Example sentences short, everyday, and relevant to Indonesian life (kantor, kampus, ojol, nongkrong, interview).
 - Highlight the target word in examples with `*word*`.
-- Never mock learners' mistakes. "Banyak yang salah di sini" beats "Masa nggak tahu?".
+- Never mock learners' mistakes or anyone's English. "Banyak yang salah di sini" beats "Masa nggak tahu?". *Kaku* (stiff) is not *salah* (wrong): say which one it is.
+- Before shipping, ask: would someone who's nervous about English save this, and would they feel smarter, not judged?
 
 ### Deck recipe
 
-- **Templates:** `lexicon/notebook` (default). Use `deep` surface (`surface=deep`) for the cover/end if no photo.
-- **Length (owner, Oct 2026):** 8–14 slides. Compact: every slide teaches something with an example, nothing is there just to fill space. Go up to 14 only when the topic needs it.
-- **Word-of-the-day deck:** cover → `[word]` → `[table]` (forms, or synonyms/opposites) → `[compare]` (common mistake with it) → `[card]` "Coba pakai: …" prompt → end.
-- **Pattern deck (verbs):** cover → 2–3 `[table]` slides grouped by pattern → `[word]` for the trickiest one → `[compare]` → end.
-- **Salah kaprah deck:** cover → A/B quiz `[card]` → its `[compare]` reveal → 2–4 more `[compare]` → end.
-- **Quiz deck:** cover → `[card]` question + "Jawaban di slide berikutnya" → `[compare]` or `[card]` answer → … → end.
+- **Header:** `handle: @kosakata_inggris`, `template: lexicon/notebook`, `lang: id`.
+- **Length:** 8–12 slides (the two winners had 10). Compact: every slide teaches something with an example, nothing is there just to fill space. Kata hari ini stays at 4.
+- **Cover:** `[cover kicker="<SERIES> · #N"]` for series (`SALAH NGOMONG · #2`, `BEDA ARTI · #2`, `ARTINYA APA? · #1`, `INTERVIEW · #1`), otherwise the topic in caps. Use the `deep` surface for cover/end (the notebook template does this by default).
+- **Salah ngomong deck:** cover → A/B quiz `[card]` or the cover's `[compare]` → 3–5 more `[compare]`s or quiz rounds → end.
+- **Beda arti deck:** cover → the cover's word as `[word]` (both meanings, region labelled) → 4–6 more `[word]` or `[compare]` → end with "Kamu tim *UK atau US?*"-style ask.
+- **Sekolah vs aslinya deck:** cover → the cover's script as `[compare]` → 3–5 more → a recap `[table]` (Sekolah | Aslinya) → end.
+- **Artinya apa? deck:** cover → 4–5 `[word]` (meaning, example, "Pakai di:" in the note line) → end.
+- **Interview/Kantor deck:** cover → the stiff vs natural `[compare]` → 3–4 phrase `[card]`s or `[word]`s → recap `[table]` or `[card]` with every phrase → end.
+- **Word-of-the-day deck:** cover → `[word]` → `[card]` situation or quiz → end.
 - **End:** `[end cta="…"]` with a deck-specific line and a one-tap ask (see "Slide order and endings").
-- **Caption:** one line + dictionary source if IPA/definitions are used + 2–4 hashtags (`#belajarbahasainggris`, `#kosakatainggris`, `#irregularverbs`, `#vocabulary`…).
-- **Fallback until the lexicon features ship** (see Open items): `[word]` → `[card]` with headline = word and body lines `IPA · arti · contoh`; `[table]` → `[card]` with one row per body line (`think → thought`); `[compare]` → `[card]` with `✘ …` / `✔ …` body lines.
+- **Caption:** one line with search words + dictionary source if IPA/definitions are used + 2–4 hashtags (`#belajarbahasainggris`, `#kosakatainggris`, `#englishslang`, `#interviewbahasainggris`…).
 
 ```text
 handle: @kosakata_inggris
 template: lexicon/notebook
 lang: id
-title: verb pola ought
-caption: Think jadi thought, buy jadi bought. Ini polanya 👇 Sumber IPA: Cambridge Dictionary #belajarbahasainggris #irregularverbs
+title: salah ngomong said told
+caption: Kesalahan bahasa Inggris yang sering dipakai orang Indonesia: said vs told. Sumber: Cambridge Dictionary #belajarbahasainggris #kosakatainggris
 ---
-[cover kicker="IRREGULAR VERBS"]
-Thinked? Buyed? | Bukan Begitu
-6 kata kerja yang V2-nya berakhiran -ought / -aught.
----
-[table]
-Pola *-ought*
-| V1 | V2 / V3 | Arti |
-| think | th*ought* | berpikir |
-| bring | br*ought* | membawa |
-| buy | b*ought* | membeli |
-| fight | f*ought* | bertarung |
----
-[table]
-Pola *-aught*
-| V1 | V2 / V3 | Arti |
-| teach | t*aught* | mengajar |
-| catch | c*aught* | menangkap |
----
-[word]
-pos: verb · V2/V3 of think
-word: thought
-ipa: /θɔːt/ (UK) · /θɑːt/ (US)
-say: "thot", ujung lidah di antara gigi
-meaning: berpikir; mengira
-example: I *thought* you were coming.
-translation: Kukira kamu mau datang.
+[cover kicker="SALAH NGOMONG · #1"]
+“He Said Me”? | Harusnya “He Told Me”
+Say dan tell sama-sama berarti bilang, tapi polanya beda.
 ---
 [compare]
-wrong: Yesterday I thinked about it.
-right: Yesterday I *thought* about it.
-why: Think tidak pakai -ed. Bentuk lampaunya thought.
+wrong: He said me to wait.
+right: He *told* me to wait.
+why: Tell langsung diikuti orangnya. Say tidak: say *to* me, atau say something.
 ---
 [end cta="Simpan"]
-Kamu dulu nulis *thinked* juga?
-Jawab "iya" atau "nggak" di komen.
+Kamu tadi jawab *A atau B?*
+Komen satu huruf.
 ```
 
 ---
