@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: payung sultan kutai dibakar
-caption: Kutai, Kalimantan Timur: tahun 1965 pusaka sultannya dibakar di depan warga, setelah sultannya ditahan tanpa diadili. Sumber: Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020; Sarip, Yupa 4(2) 2020; kaltimkece.id & sejarahkaltim.com (Muhammad Sarip); Tirto (2017); detik.com (2024) · Foto: Sri Wahyuni Nur Indah Sari, Gunawan Kartapranata, Fauzan Noviatmoko (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kutai #kalimantantimur
+caption: Kutai, Kalimantan Timur: tahun 1965 pusaka sultannya dibakar di depan warga, setelah sultannya ditahan tanpa diadili. Sumber: Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020; Sarip, Yupa 4(2) 2020; kaltimkece.id & sejarahkaltim.com (Muhammad Sarip); Tirto (2017); detik.com (2024) · Foto: Sri Wahyuni Nur Indah Sari, Gunawan Kartapranata (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kutai #kalimantantimur
 ---
 [cover kicker="KALIMANTAN TIMUR · 1965" photo=kutai-kedaton]
 Payung Sultan Kutai | Dibakar di Depan Warga
