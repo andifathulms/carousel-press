@@ -8,19 +8,6 @@ caption: Analisa, nafas, karir: dipakai tiap hari, dan ketiganya ternyata tidak 
 Analisa, Nafas, Karir: | Ketiganya Tidak Baku
 Plus 13 kata lain yang sering salah tulis.
 ---
-[table]
-Mana yang baku?
-| Baku | Tidak baku |
-| *risiko* | resiko |
-| *apotek* | apotik |
-| *praktik* | praktek |
-| *nasihat* | nasehat |
-| *detail* | detil |
-| *objek* | obyek |
-| *napas* | nafas |
-| *sekadar* | sekedar |
-Sumber: KBBI VI Daring
----
 [compare]
 wrong-label: Tidak baku
 right-label: Baku
@@ -41,6 +28,19 @@ right-label: Baku
 wrong: Dia lagi fokus ngejar karir.
 right: Dia lagi fokus ngejar *karier*.
 why: KBBI VI mencatat karier sebagai bentuk baku, karir tidak baku.
+---
+[table]
+Mana yang baku?
+| Baku | Tidak baku |
+| *risiko* | resiko |
+| *apotek* | apotik |
+| *praktik* | praktek |
+| *nasihat* | nasehat |
+| *detail* | detil |
+| *objek* | obyek |
+| *napas* | nafas |
+| *sekadar* | sekedar |
+Sumber: KBBI VI Daring
 ---
 [table]
 Mana yang baku? (2)
@@ -64,8 +64,8 @@ example: Dia siap menanggung *risiko* dari keputusannya.
 note: Bentuk tidak baku: resiko. Sumber: KBBI VI Daring
 ---
 Cara cek sendiri di KBBI
-Cari katanya di kbbi.kemendikdasmen.go.id. Kalau baku, di bawah judul entri ada tulisan "bentuk tidak baku: ...". Kalau tidak baku, entrinya hanya merujuk ke bentuk bakunya.
+Cari katanya di kbbi.kemendikdasmen.go.id. Kalau baku, di bawah judul entri ada tulisan “bentuk tidak baku: ...”. Kalau tidak baku, entrinya hanya merujuk ke bentuk bakunya.
 ---
 [end cta="Simpan"]
-Kesalahan mana yang *paling bikin gatal?*
-Tulis di komen.
+Dari tiga di sampul, *mana yang paling sering kamu tulis?*
+Komen satu kata: analisa, nafas, atau karir.

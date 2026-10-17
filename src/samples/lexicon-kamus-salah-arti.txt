@@ -30,7 +30,7 @@ note: Sumber: KBBI VI Daring
 [compare]
 wrong: Didorong lima orang, mobil itu tidak bergeming.
 right: Didorong lima orang, mobil itu *bergeming*.
-why: Bergeming sudah berarti diam. "Tidak bergeming" malah berarti mobilnya bergerak.
+why: Bergeming sudah berarti diam. “Tidak bergeming” malah berarti mobilnya bergerak.
 ---
 [compare]
 wrong: Jangan lupa absen sebelum masuk kelas.
@@ -47,7 +47,7 @@ pos: adjektiva
 word: dirgahayu
 meaning: berumur panjang (biasanya ditujukan kepada negara atau organisasi yang sedang memperingati hari jadinya)
 example: *Dirgahayu* Republik Indonesia!
-note: Jadi "Dirgahayu HUT RI" berlebihan; cukup "Dirgahayu RI". Sumber: KBBI VI Daring
+note: Jadi “Dirgahayu HUT RI” berlebihan; cukup “Dirgahayu RI”. Sumber: KBBI VI Daring
 ---
 [word]
 pos: adjektiva
@@ -71,4 +71,4 @@ Sumber: KBBI VI Daring
 ---
 [end cta="Simpan"]
 Selama ini kamu pakai *yang mana?*
-Jujur aja. Tag teman yang suka bilang "dia acuh banget".
+Jujur aja. Tag teman yang suka bilang “dia acuh banget”.

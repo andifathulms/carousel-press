@@ -4,11 +4,11 @@ lang: id
 title: memesona bukan mempesona
 caption: Mempesona, mempengaruhi, mengkonsumsi: di KBBI VI ketiganya tercatat tidak baku. Sumber: KBBI VI Daring #bahasaindonesia #katabaku #kbbi
 ---
-[cover kicker="IMBUHAN"]
+[cover kicker="MANA YANG BAKU? · #1"]
 Mempesona atau | Memesona?
 Yang baku memesona. Ini aturan k, t, s, p dan 3 jebakannya.
 ---
-Aturan k, t, s, p
+Yang baku: *memesona*
 Kalau kata dasarnya diawali k, t, s, atau p, huruf itu luluh saat bertemu awalan meN- atau peN-.
 kirim jadi mengirim, tulis jadi menulis, sapu jadi menyapu, pesona jadi memesona.
 ---

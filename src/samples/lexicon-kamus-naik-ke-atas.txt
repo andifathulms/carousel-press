@@ -12,7 +12,7 @@ Itu pleonasme: katanya dobel. Ini 6 yang sering kita pakai.
 pos: nomina
 word: pleonasme
 meaning: pemakaian kata-kata yang lebih daripada yang diperlukan
-example: "Naik ke atas" itu contoh *pleonasme*.
+example: “Naik ke atas” itu contoh *pleonasme*.
 note: Contoh di KBBI: kita harus dan wajib saling menghormati. Sumber: KBBI VI Daring
 ---
 [compare]
@@ -55,7 +55,7 @@ wrong-label: Boros
 right-label: Cukup
 wrong: Jakarta adalah merupakan kota terbesar di Indonesia.
 right: Jakarta *merupakan* kota terbesar di Indonesia.
-why: Salah satu arti merupakan di KBBI adalah "adalah". Pakai salah satu: adalah atau merupakan.
+why: Salah satu arti merupakan di KBBI adalah “adalah”. Pakai salah satu: adalah atau merupakan.
 ---
 [table]
 Cukup satu

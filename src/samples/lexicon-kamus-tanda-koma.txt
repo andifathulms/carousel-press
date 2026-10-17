@@ -6,7 +6,7 @@ caption: Kalimatnya sama, urutannya dibalik, komanya harus hilang. Sumber: EYD E
 ---
 [cover kicker="TANDA KOMA"]
 Kalimatnya Dibalik, | Komanya Hilang
-"Kalau diundang, saya datang." Dibalik: tanpa koma. Ini 7 aturan koma EYD V.
+“Kalau diundang, saya datang.” Dibalik: tanpa koma. Ini 7 aturan koma EYD V.
 ---
 [compare]
 wrong: Kalau diundang saya akan datang.
@@ -31,7 +31,7 @@ why: Koma dipakai di belakang penghubung antarkalimat: oleh karena itu, jadi, de
 [compare]
 wrong: Ayo makan Nenek!
 right: Ayo makan*, Nenek*!
-why: Sapaan dipisahkan dengan koma, seperti "Siapa namamu, Dik?". Tanpa koma, neneknya ikut dimakan.
+why: Sapaan dipisahkan dengan koma, seperti “Siapa namamu, Dik?”. Tanpa koma, neneknya ikut dimakan.
 ---
 [compare]
 wrong: Bandung 10 Mei 2026
@@ -50,10 +50,10 @@ Pakai koma atau tidak?
 | Saya datang kalau diundang. | *tidak* |
 | Saya mau, tetapi ... | *ya* |
 | Jadi, dia berhasil. | *ya* |
-| "Di mana?" tanya Ibu. | *tidak* |
+| “Di mana?” tanya Ibu. | *tidak* |
 | 12,5 kg | *ya* |
 Sumber: EYD Edisi V, Tanda Koma
 ---
 [end cta="Simpan"]
-Tag teman yang *paling sering salah soal ini.*
-Atau tulis kalimat yang bikin kamu ragu soal koma.
+Selama ini kamu *pakai koma di situ?*
+Komen “iya” atau “nggak”.

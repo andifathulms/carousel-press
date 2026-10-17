@@ -19,8 +19,8 @@ right: Rapatnya hari *Senin*, bulan *Agustus*.
 why: Nama hari, bulan, dan hari raya ditulis kapital. Kata hari dan bulan di depannya tidak: hari Jumat, hari Lebaran.
 ---
 [compare]
-wrong: "Kapan bapak berangkat?" tanya Hasan.
-right: "Kapan *Bapak* berangkat?" tanya Hasan.
+wrong: “Kapan bapak berangkat?” tanya Hasan.
+right: “Kapan *Bapak* berangkat?” tanya Hasan.
 why: Kata kekerabatan seperti bapak, ibu, kakak, dan adik ditulis kapital kalau dipakai sebagai sapaan atau pengacuan, misalnya: Besok Paman datang.
 ---
 [compare]
