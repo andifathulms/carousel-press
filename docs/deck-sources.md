@@ -741,3 +741,20 @@ Every entry fetched from https://kbbi.kemendikdasmen.go.id/entri/<kata> (KBBI VI
 - skd-persamaan-5-soal-id: original questions, no outside source. Five systems, each brute-forced to exactly one solution and exactly one matching option: (1) 3p+2b=31.000, 2p+3b=34.000 → p+b=13.000 D; (2) 4a+3j=26.000, 3a+4j=23.000 → a−j=3.000 C; (3) A+B=12, B+C=15, A+C=13 → 20 kg B; (4) 2(a+20.000)+3a=190.000 → 30.000 A; (5) k+y=50, y−5=4(k−5) → 13 C.
 - kantor-xlookup-id: formulas tested on the deck's exact sheet (search in D2, result in E2) with the Python `formulas` engine 1.3.4 (`,` separators): K03 → Sari, K09 → "Tidak ada" (#N/A without the 4th argument), Dimas → K04 (look left), VLOOKUP looking left → #N/A. Not yet run in Excel 365 or Google Sheets; the caption keeps a "Diuji di" placeholder until the owner does. Version limit (Excel 2021/365, not 2019) per Microsoft's XLOOKUP documentation, not re-checked online.
 
+## Kata Baku second review (Oct 2026): every form checked at kbbi.kemendikdasmen.go.id/entri/<kata> on 17 Oct 2026
+
+### lexicon-kamus-kata-indah-pasangan: Kata Indah #4, untuk pasangan
+- asmaraloka (n kl) "dunia (alam) cinta kasih"; kinasih (a Jw) "sangat dikasihi"; sanubari (n, sense 2) "hati (dalam arti batin); hati nurani; perasaan batin"; ikrar (n, sense 1) "janji yang sungguh-sungguh", verb berikrar; bersemayam (v ki, sense 3) "tersimpan; terpatri (dalam hati)"; mawadah (n Ar) "kasih sayang yang disertai keinginan kuat, kedekatan, dan keterikatan yang mendalam"; langgeng (a) "tidak ada habisnya; kekal; abadi"; sejoli (n, under joli 2) "sepasang; sejodoh".
+- Not in KBBI: mawaddah, warahmah, rahmah (so the example says only "sakinah dan … mawadah"). Rejected: phrases without a word class (belahan jiwa, tambatan hati…), kasmaran (ark, partly sexual), kirana (ark), asmara (first sense), nirwana (religious senses).
+
+### lexicon-kamus-mana-yang-baku-2: Mana yang baku? #2, izin atau ijin
+- Baku entries with their listed tidak-baku forms: izin (idzin, ijin), rezeki (rejeki, rizeki, rizki), zaman (jaman), jenazah (jenasah), ziarah (jiarah, ziarat), azan (adan, adhan, adzan), magrib (menggerib, maghrib, mahrib), zikir (dikir, dzikir), zuhur (lohor, zohor, duhur, dzuhur, zhuhur, juhur). Each tidak-baku form also checked as a "→" pointer.
+- The "z stays z" line is a pattern across these entries, not a cited rule.
+
+### lexicon-kamus-kata-indah-palsu: Kata indah palsu
+- "Entri tidak ditemukan.": nawasena, nayanika, abhipraya (and abipraya), netapa, kanagara, rahara, swastamita. Viral on detik.com Jateng (300 kata Sansekerta), dianisa.com, lister.co.id, liputan6.com (200 kata estetik).
+- Replacements, quoted: anagata (n Bl) "masa yang akan datang (tentang peristiwa); masa depan"; netra (n) "mata"; asa (asa 1, n) "harap(an); semangat"; nestapa (a) "sedih sekali; susah hati"; kanigara (n) "bunga matahari"; "mahkota raja atau pengantin"; dara (dara 1, n) "anak perempuan yang belum kawin; gadis; perawan"; sandikala (n Jw) "senja kala".
+- Origin only for nayanika, as "diduga" from Sanskrit nayana "eye" (wisdomlib.org/definition/nayana).
+
+### lexicon-kamus-salah-kaprah-2: Salah kaprah #2, duren itu duda keren
+- durian ("bentuk tidak baku: duren1"); duren2 (n cak akronim) "duda keren"; kesal (a) "mendongkol; sebal" vs kesel1 (v) "gosok" (KBBI does not mark kesel as a tidak-baku kesal, so that slide is labelled "Di KBBI: gosok", not "Tidak baku"); bus ("bentuk tidak baku: bis2") vs bis1 "… kotak surat"; kalau ("bentuk tidak baku: kalo3") vs kalo1 "gurami; kalui"; aja2 (adv cak) "saja" (labelled "Cakapan") vs aja1 "sebutan untuk putri bangsawan (Deli)"; jomlo ("bentuk tidak baku: jomblo1") vs jomblo2 (a Jw) "… kopong dan busuk (tentang buah kelapa)".

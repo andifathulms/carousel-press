@@ -1,0 +1,80 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata indah palsu
+caption: Kata indah viral yang ternyata belum tercatat di KBBI, dan penggantinya yang ada. Nawasena, nayanika, abhipraya, netapa, kanagara, rahara. Sumber: KBBI VI Daring (dicek 17 Oktober 2026) #bahasaindonesia #kataindah #kbbi #katabaku
+---
+[cover kicker="KATA INDAH · CEK KBBI"]
+Nawasena Ternyata | Belum Ada di KBBI
+Plus 5 kata indah viral lainnya, dan penggantinya yang benar-benar ada.
+---
+[compare]
+headline: Nawasena, katanya “masa depan yang cerah”
+wrong-label: Belum di KBBI
+right-label: Ada di KBBI
+wrong: Semoga nawasena kita cerah.
+right: Semoga *anagata* kita cerah.
+why: Nawasena belum tercatat di KBBI. Yang tercatat: anagata, “masa yang akan datang (tentang peristiwa); masa depan”.
+---
+[word]
+pos: nomina · Bali
+word: anagata
+meaning: masa yang akan datang (tentang peristiwa); masa depan
+example: Aku ingin menyusun *anagata* bersamamu.
+note: Pengganti nawasena yang benar-benar ada. Sumber: KBBI VI Daring
+---
+[compare]
+headline: Nayanika, katanya “mata yang indah”
+wrong-label: Belum di KBBI
+right-label: Ada di KBBI
+wrong: Sepasang nayanika yang teduh.
+right: Sepasang *netra* yang teduh.
+why: Diduga dari bahasa Sanskerta nayana, “mata”. Yang sudah tercatat di KBBI: netra, “mata”.
+---
+[compare]
+headline: Abhipraya, katanya “harapan”
+wrong-label: Belum di KBBI
+right-label: Ada di KBBI
+wrong: Kamu abhipraya yang selalu kujaga.
+right: Kamu *asa* yang selalu kujaga.
+why: Abhipraya belum tercatat di KBBI. Yang tercatat: asa, “harap(an); semangat”.
+---
+[compare]
+headline: Netapa, katanya “sedih hati”
+wrong-label: Belum di KBBI
+right-label: Ada di KBBI
+wrong: Malam ini hatiku netapa.
+right: Malam ini hatiku *nestapa*.
+why: Netapa belum tercatat di KBBI. Yang tercatat, cuma beda satu huruf: nestapa, “sedih sekali; susah hati”.
+---
+[compare]
+headline: Kanagara, katanya “bunga matahari”
+wrong-label: Belum di KBBI
+right-label: Ada di KBBI
+wrong: Kamu kanagara di tamanku.
+right: Kamu *kanigara* di tamanku.
+why: Ejaan yang tercatat di KBBI pakai i: kanigara, “bunga matahari”, juga “mahkota raja atau pengantin”.
+---
+[compare]
+headline: Rahara, katanya “gadis yang sudah dewasa”
+wrong-label: Belum di KBBI
+right-label: Ada di KBBI
+wrong: Kini ia tumbuh menjadi rahara.
+right: Kini ia tumbuh menjadi *dara*.
+why: Rahara belum tercatat di KBBI. Yang tercatat: dara, “anak perempuan yang belum kawin; gadis; perawan”.
+---
+[table]
+Kata indah yang benar-benar ada
+| Viral | Yang ada di KBBI |
+| nawasena | *anagata* |
+| nayanika | *netra* |
+| abhipraya | *asa* |
+| netapa | *nestapa* |
+| kanagara | *kanigara* |
+| rahara | *dara* |
+| swastamita | *sandikala* |
+Belum tercatat bukan berarti salah: bisa jadi ada di Kawi atau bahasa daerah. Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Kata mana yang *pernah kamu pakai?*
+Tulis di komen, atau kata viral lain yang mau kami cek di KBBI.

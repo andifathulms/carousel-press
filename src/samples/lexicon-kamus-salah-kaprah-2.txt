@@ -1,0 +1,74 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: duren atau durian
+caption: Salah tulis yang ternyata kata lain di KBBI: duren itu duda keren, bis itu kotak surat, kalo itu gurami. Sumber: KBBI VI Daring #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="SALAH KAPRAH"]
+Beli Duren Sekilo? | Duren Itu Duda Keren
+Yang baku: durian. Plus 5 salah tulis yang ternyata artinya lain di KBBI.
+---
+[word]
+pos: nomina
+tag: CAKAPAN
+word: duren
+meaning: duda keren
+example: Kata Tante, ada *duren* baru di kompleks sebelah.
+note: Akronim ragam cakapan. Duren si buah adalah bentuk tidak baku dari durian. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Beli duren dua, ya.
+right: Beli *durian* dua, ya.
+why: KBBI VI mencatat durian sebagai bentuk baku, duren tidak baku. Jadi yang dibeli di pasar itu durian.
+---
+[compare]
+wrong-label: Di KBBI: gosok
+right-label: Yang dimaksud
+wrong: Aku kesel banget sama dia.
+right: Aku *kesal* banget sama dia.
+why: Untuk rasa jengkel, KBBI VI mencatat kesal: “mendongkol; sebal”. Kesel di KBBI berarti “gosok”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Aku naik bis ke kantor.
+right: Aku naik *bus* ke kantor.
+why: Bis tercatat sebagai bentuk tidak baku dari bus. Bis yang lain berarti “kotak surat”: yang dimasukkan surat, bukan penumpang.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Kalo hujan, kita batal.
+right: *Kalau* hujan, kita batal.
+why: Kalo tercatat sebagai bentuk tidak baku dari kalau. Kalo yang lain adalah nama ikan: “gurami; kalui”.
+---
+[compare]
+wrong-label: Cakapan
+right-label: Baku
+wrong: Aku pesan teh aja.
+right: Aku pesan teh *saja*.
+why: KBBI VI menandai aja sebagai ragam cakapan dari saja. Aja yang lain (arkais, Melayu Medan) berarti “sebutan untuk putri bangsawan (Deli)”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Dia masih jomblo.
+right: Dia masih *jomlo*.
+why: Jomblo tercatat sebagai bentuk tidak baku dari jomlo. Dalam bahasa Jawa, jomblo juga berarti “kopong dan busuk (tentang buah kelapa)”.
+---
+[table]
+Yang ditulis
+| Tulis | Bukan |
+| *durian* | duren |
+| *kesal* | kesel |
+| *bus* | bis |
+| *kalau* | kalo |
+| *saja* | aja |
+| *jomlo* | jomblo |
+Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Arti mana yang *paling bikin ngakak?*
+Komen satu kata: duren, kesel, bis, kalo, aja, atau jomblo.

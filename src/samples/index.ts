@@ -74,6 +74,10 @@ import lexMakeDo from './lexicon-english-make-do.txt?raw';
 import places from './editorial-places-en.txt?raw';
 import lexKamusSalahArti from './lexicon-kamus-salah-arti.txt?raw';
 import lexKamusLuluh from './lexicon-kamus-luluh-ktsp.txt?raw';
+import lexKataIndahPasangan from './lexicon-kamus-kata-indah-pasangan.txt?raw';
+import lexManaYangBaku2 from './lexicon-kamus-mana-yang-baku-2.txt?raw';
+import lexKataIndahPalsu from './lexicon-kamus-kata-indah-palsu.txt?raw';
+import lexSalahKaprah2 from './lexicon-kamus-salah-kaprah-2.txt?raw';
 import lexKamusKapital from './lexicon-kamus-huruf-kapital.txt?raw';
 import lexKamusKoma from './lexicon-kamus-tanda-koma.txt?raw';
 import lexKamusJamPukul from './lexicon-kamus-jam-pukul.txt?raw';
@@ -284,11 +288,11 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-english-false-friends', name: 'False friends (Kosakata Inggris, id)', category: 'english', text: lexFalseFriends },
   { id: 'lexicon-english-ed', name: 'Bunyi -ed ada tiga (Kosakata Inggris, id)', category: 'english', text: lexEd },
   { id: 'lexicon-english-make-do', name: 'Make atau do (Kosakata Inggris, id)', category: 'english', text: lexMakeDo },
-  { id: 'lexicon-kamus-baku', name: 'Baku atau tidak (Kamus Kecil, id)', category: 'indonesian', text: lexBaku },
-  { id: 'lexicon-kamus-serapan-portugis', name: 'Kata serapan dari Portugis (Kamus Kecil, id)', category: 'indonesian', text: lexSerapan },
-  { id: 'lexicon-kamus-padanan', name: 'Padanan kata asing (Kamus Kecil, id)', category: 'indonesian', text: lexPadanan },
-  { id: 'lexicon-kamus-kata-indah', name: '5 kata indah di KBBI (Kamus Kecil, id)', category: 'indonesian', text: lexKataIndah },
-  { id: 'lexicon-kamus-ejaan', name: 'Merubah atau mengubah? (Kamus Kecil, id)', category: 'indonesian', text: lexEjaan },
+  { id: 'lexicon-kamus-baku', name: 'Baku atau tidak (Kata Baku, id)', category: 'indonesian', text: lexBaku },
+  { id: 'lexicon-kamus-serapan-portugis', name: 'Kata serapan dari Portugis (Kata Baku, id)', category: 'indonesian', text: lexSerapan },
+  { id: 'lexicon-kamus-padanan', name: 'Padanan kata asing (Kata Baku, id)', category: 'indonesian', text: lexPadanan },
+  { id: 'lexicon-kamus-kata-indah', name: '5 kata indah di KBBI (Kata Baku, id)', category: 'indonesian', text: lexKataIndah },
+  { id: 'lexicon-kamus-ejaan', name: 'Merubah atau mengubah? (Kata Baku, id)', category: 'indonesian', text: lexEjaan },
   // Ayat Harian (ayat): ayah/hadith slides, text copied from Tanzil, Kemenag RI and HadeethEnc
   { id: 'ayat-hati-tenang', name: 'Hati yang tenang (Ayat Harian, id)', category: 'ayat', text: ayatHatiTenang },
   { id: 'ayat-bersama-kesulitan', name: 'Bersama kesulitan ada kemudahan (Ayat Harian, id)', category: 'ayat', text: ayatBersamaKesulitan },
@@ -307,11 +311,15 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'filsafat-stoik-bukan-mati-rasa-id', name: 'Stoik bukan mati rasa (Filsafat Harian, id)', category: 'philosophy', text: filsafatStoik },
   { id: 'filsafat-konfusius-tahu-id', name: 'Berani bilang nggak tahu: Konfusius (Filsafat Harian, id)', category: 'philosophy', text: filsafatKonfusius },
   // October 2026 batch: 5 each for Kamus Kecil, Kosakata Inggris, dev, Ruang Rasa
-  { id: 'lexicon-kamus-salah-arti', name: 'Acuh itu peduli (Kamus Kecil, id)', category: 'indonesian', text: lexKamusSalahArti },
-  { id: 'lexicon-kamus-luluh-ktsp', name: 'Memesona, bukan mempesona (Kamus Kecil, id)', category: 'indonesian', text: lexKamusLuluh },
-  { id: 'lexicon-kamus-huruf-kapital', name: 'Huruf kapital EYD V (Kamus Kecil, id)', category: 'indonesian', text: lexKamusKapital },
-  { id: 'lexicon-kamus-tanda-koma', name: 'Tanda koma EYD V (Kamus Kecil, id)', category: 'indonesian', text: lexKamusKoma },
-  { id: 'lexicon-kamus-jam-pukul', name: 'Jam atau pukul (Kamus Kecil, id)', category: 'indonesian', text: lexKamusJamPukul },
+  { id: 'lexicon-kamus-salah-arti', name: 'Acuh itu peduli (Kata Baku, id)', category: 'indonesian', text: lexKamusSalahArti },
+  { id: 'lexicon-kamus-luluh-ktsp', name: 'Memesona, bukan mempesona (Kata Baku, id)', category: 'indonesian', text: lexKamusLuluh },
+  { id: 'lexicon-kamus-kata-indah-pasangan', name: 'Kata Indah #4: untuk pasangan (Kata Baku, id)', category: 'indonesian', text: lexKataIndahPasangan },
+  { id: 'lexicon-kamus-mana-yang-baku-2', name: 'Mana yang baku? #2: izin atau ijin (Kata Baku, id)', category: 'indonesian', text: lexManaYangBaku2 },
+  { id: 'lexicon-kamus-kata-indah-palsu', name: 'Kata indah palsu (Kata Baku, id)', category: 'indonesian', text: lexKataIndahPalsu },
+  { id: 'lexicon-kamus-salah-kaprah-2', name: 'Salah kaprah #2: duren itu duda keren (Kata Baku, id)', category: 'indonesian', text: lexSalahKaprah2 },
+  { id: 'lexicon-kamus-huruf-kapital', name: 'Huruf kapital EYD V (Kata Baku, id)', category: 'indonesian', text: lexKamusKapital },
+  { id: 'lexicon-kamus-tanda-koma', name: 'Tanda koma EYD V (Kata Baku, id)', category: 'indonesian', text: lexKamusKoma },
+  { id: 'lexicon-kamus-jam-pukul', name: 'Jam atau pukul (Kata Baku, id)', category: 'indonesian', text: lexKamusJamPukul },
   { id: 'lexicon-english-since-for', name: 'Since atau for (Kosakata Inggris, id)', category: 'english', text: lexSinceFor },
   { id: 'lexicon-english-homofon', name: 'Homofon: your, its, their (Kosakata Inggris, id)', category: 'english', text: lexHomofon },
   { id: 'lexicon-english-silent-letters', name: 'Huruf yang tidak dibaca (Kosakata Inggris, id)', category: 'english', text: lexSilent },
@@ -365,11 +373,11 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-english-kata-hari-ini-3', name: 'Kata hari ini 3 appointment (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishKataHariIni3 },
   { id: 'lexicon-english-say-tell', name: 'Say atau tell (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishSayTell },
   { id: 'lexicon-english-suku-kata', name: 'Suku kata yang hilang (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishSukuKata },
-  { id: 'lexicon-kamus-gabungan-kata', name: 'Gabungan kata eyd v (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusGabunganKata },
-  { id: 'lexicon-kamus-kaos-kaus', name: 'Kaos atau kaus (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusKaosKaus },
-  { id: 'lexicon-kamus-kata-indah-hujan', name: 'Kata indah hujan (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusKataIndahHujan },
-  { id: 'lexicon-kamus-naik-ke-atas', name: 'Naik ke atas pleonasme (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusNaikKeAtas },
-  { id: 'lexicon-kamus-semampai', name: 'Semampai bukan tinggi (Kamus Kecil, id)', category: 'indonesian', text: b2LexiconKamusSemampai },
+  { id: 'lexicon-kamus-gabungan-kata', name: 'Gabungan kata eyd v (Kata Baku, id)', category: 'indonesian', text: b2LexiconKamusGabunganKata },
+  { id: 'lexicon-kamus-kaos-kaus', name: 'Kaos atau kaus (Kata Baku, id)', category: 'indonesian', text: b2LexiconKamusKaosKaus },
+  { id: 'lexicon-kamus-kata-indah-hujan', name: 'Kata indah hujan (Kata Baku, id)', category: 'indonesian', text: b2LexiconKamusKataIndahHujan },
+  { id: 'lexicon-kamus-naik-ke-atas', name: 'Naik ke atas pleonasme (Kata Baku, id)', category: 'indonesian', text: b2LexiconKamusNaikKeAtas },
+  { id: 'lexicon-kamus-semampai', name: 'Semampai bukan tinggi (Kata Baku, id)', category: 'indonesian', text: b2LexiconKamusSemampai },
   { id: 'sports-badminton-fault-id', name: 'Pojok bulu tangkis fault saat reli (Whistle Notes, id)', category: 'sports', text: b2SportsBadmintonFaultId },
   { id: 'sports-basket-backcourt-id', name: 'Kamu wasitnya backcourt basket (Whistle Notes, id)', category: 'sports', text: b2SportsBasketBackcourtId },
   { id: 'sports-bola-mati-mitos-id', name: 'Mitos aturan bola mati (Whistle Notes, id)', category: 'sports', text: b2SportsBolaMatiMitosId },

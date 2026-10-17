@@ -1,0 +1,73 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: izin atau ijin
+caption: Kata baku yang sering salah: izin, rezeki, zaman, jenazah. Di KBBI VI, ijin, rejeki, jaman, dan jenasah tercatat tidak baku. Sumber: KBBI VI Daring #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="MANA YANG BAKU? · #2"]
+Izin atau | Ijin?
+Tebak dulu, baru geser. Plus 7 kata yang huruf z-nya sering tertukar.
+---
+[card number=off]
+Yang baku: *izin*
+KBBI VI mencatat *izin* sebagai bentuk baku. Ijin dan idzin tercatat tidak baku.
+Polanya: huruf z di kata ini tetap z, tidak diganti j, s, atau dz. Tujuh kata berikut ikut pola yang sama.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Semoga rejekinya lancar, ya.
+right: Semoga *rezekinya* lancar, ya.
+why: Yang baku ternyata rezeki. KBBI VI mencatat rejeki, rizki, dan rizeki sebagai bentuk tidak baku.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Ini lagu jaman SMA kita.
+right: Ini lagu *zaman* SMA kita.
+why: Z yang sering jadi j. KBBI VI mencatat zaman sebagai bentuk baku, jaman tidak baku.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Jenasah dimakamkan siang ini.
+right: *Jenazah* dimakamkan siang ini.
+why: Kali ini z yang jadi s. KBBI VI mencatat jenazah sebagai bentuk baku, jenasah tidak baku.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Habis Lebaran, kami jiarah ke makam kakek.
+right: Habis Lebaran, kami *ziarah* ke makam kakek.
+why: KBBI VI mencatat ziarah sebagai bentuk baku. Jiarah dan ziarat tercatat tidak baku. Kata kerjanya: berziarah.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Adzan magrib sudah terdengar.
+right: *Azan* magrib sudah terdengar.
+why: Z yang sering ditulis dz. KBBI VI mencatat azan sebagai bentuk baku; adzan, adhan, dan adan tidak baku. Magrib juga tanpa h.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Habis salat dzuhur, ada dzikir bersama.
+right: Habis salat *zuhur*, ada *zikir* bersama.
+why: KBBI VI mencatat zuhur dan zikir sebagai bentuk baku. Dzuhur dan dzikir tidak baku, bahkan lohor pun tercatat tidak baku.
+---
+[table]
+Huruf z tetap z
+| Baku | Tidak baku |
+| *izin* | ijin, idzin |
+| *rezeki* | rejeki, rizki |
+| *zaman* | jaman |
+| *jenazah* | jenasah |
+| *ziarah* | jiarah |
+| *azan* | adzan |
+| *zikir* | dzikir |
+| *zuhur* | dzuhur, lohor |
+Sumber: KBBI VI Daring
+---
+[end cta="Komen A atau B"]
+Kamu tadi jawab *yang mana?*
+Komen A kalau izin, B kalau ijin. Mana yang baku? #3 minggu depan.

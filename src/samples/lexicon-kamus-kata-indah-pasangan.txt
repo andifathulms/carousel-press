@@ -1,0 +1,82 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata indah untuk pasangan
+caption: Kata indah untuk pasangan dan undangan pernikahan yang benar-benar ada di KBBI. Asmaraloka, sanubari, ikrar, dan mawadah (ditulis satu d). Sumber: KBBI VI Daring (Oktober 2026) #bahasaindonesia #kataindah #kbbi #undanganpernikahan
+---
+[cover kicker="KATA INDAH #4 · KBBI VI"]
+Kata Indah Buat Dia, | Semuanya Ada di KBBI
+8 kata untuk caption pasangan, undangan, dan janji nikah, lengkap dengan contoh kalimatnya.
+---
+[word]
+pos: nomina · klasik
+word: asmaraloka
+meaning: dunia (alam) cinta kasih
+example: Bersamamu, rumah kecil ini jadi *asmaraloka*.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva · Jawa
+word: kinasih
+meaning: sangat dikasihi
+example: Selamat ulang tahun, istriku yang *kinasih*.
+note: Adjektiva: “istriku yang kinasih”. KBBI tidak mencatatnya sebagai nomina. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: sanubari
+meaning: hati (dalam arti batin); hati nurani; perasaan batin
+example: Terima kasih sudah memilihku dengan sepenuh *sanubari*.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: ikrar
+meaning: janji yang sungguh-sungguh
+example: Hari ini kami mengucap *ikrar* untuk saling menjaga.
+note: Nomina: mengucap *ikrar*. Verbanya: *berikrar*. Sumber: KBBI VI Daring
+---
+[word]
+pos: verba · kiasan
+word: bersemayam
+meaning: tersimpan; terpatri (dalam hati)
+example: Namamu *bersemayam* dalam setiap doaku.
+note: Arti lainnya (hormat): duduk; berkediaman. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · Arab
+word: mawadah
+meaning: kasih sayang yang disertai keinginan kuat, kedekatan, dan keterikatan yang mendalam
+example: Semoga menjadi keluarga yang sakinah dan penuh *mawadah*.
+note: Ejaan KBBI: *mawadah*, satu d. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: langgeng
+meaning: tidak ada habisnya; kekal; abadi
+example: Semoga *langgeng* sampai rambut kita sama-sama memutih.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: sejoli
+meaning: sepasang; sejodoh
+example: Selamat menempuh hidup baru, *sejoli* kesayangan kami.
+note: *Sejoli* sudah berarti “sepasang”. Sumber: KBBI VI Daring
+---
+[table]
+Simpan buat undangan
+| Kata | Kelas |
+| *asmaraloka* | nomina |
+| *kinasih* | adjektiva |
+| *sanubari* | nomina |
+| *ikrar* | nomina |
+| *bersemayam* | verba |
+| *mawadah* | nomina |
+| *langgeng* | adjektiva |
+| *sejoli* | nomina |
+Semua tercatat di KBBI VI Daring
+---
+[end cta="Simpan"]
+Tulis satu kata tadi *untuk dia.*
+Komen katanya. Kata Indah #5 minggu depan.
