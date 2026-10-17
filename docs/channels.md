@@ -1267,6 +1267,12 @@ Komen angkanya. Topik berikutnya: deret angka.
 A faceless Indonesian account teaching practical office skills to office workers, students and admin staff: Excel and Google Sheets, Word and Google Docs, PowerPoint, email and meetings, PDFs, and fixing the errors everyone hits.
 It should feel like "this saves me 20 minutes tomorrow morning", never like a software manual.
 
+**Direction (owner, Oct 2026 review): the budak korporat survival kit.** Admins, finance staff and fresh grads drowning in spreadsheets, who want to fix today's disaster and look competent to their manager. Pure utility, told with a little self-mocking office humour ("Bos minta rekap jam 4 sore").
+- **Disaster first.** The cover is the moment something breaks or the boss asks for something (`#N/A` padahal datanya ada, data dari divisi lain berantakan, angka jadi tanggal), never a feature name.
+- **It has to work on their Excel.** Many Indonesian offices still run Excel 2016/2019 or WPS Office, where XLOOKUP and FILTER don't exist. Every modern formula comes with the old-version fallback (INDEX-MATCH, VLOOKUP + the fix), and the version line says which one to use. "Bisa di Excel 2016" is a reason to save.
+- **Looking competent counts.** A tidy report (one page when printed, freeze panes, consistent number formats, a highlighted overdue row) earns as many saves as a clever formula.
+- **Before → after.** A disaster deck shows the broken sheet first, then the fixed one.
+
 | | |
 |---|---|
 | Purpose | Make everyday office tasks faster and less frustrating |
@@ -1286,6 +1292,9 @@ It should feel like "this saves me 20 minutes tomorrow morning", never like a so
 5. **Shortcuts & PDF**: keyboard shortcuts, merging, compressing and signing PDFs.
 6. **Masalah Kantor**: fixing common errors: `#N/A`, `#VALUE!`, numbers turning into dates, prints cut off.
 7. **AI di kantor**: drafting, summarising, formula help. Workflows only; no prices or model versions unless the owner confirms them.
+8. **Laporan rapi** (looking competent): print on one page, freeze panes, number formats, conditional formatting for deadlines, a clean chart.
+
+**Series** (number them in the kicker, e.g. `EXCEL • BOS MINTA #2`): **Bos minta… #N** (a real request from the boss solved start to finish: total per divisi, rekap dalam 1 menit, laporan 1 halaman) and **Data berantakan #N** (cleaning data someone else made: spasi, angka jadi tanggal, nama satu kolom, duplikat).
 
 ### Formats (reuse one topic in several)
 
@@ -1301,7 +1310,8 @@ It should feel like "this saves me 20 minutes tomorrow morning", never like a so
 ### Accuracy rules (non-negotiable)
 
 - **Every formula and shortcut is tested before posting**, and the caption says where: "Diuji di Excel 365 (Windows)", "Diuji di Google Sheets". No test, no post.
-- **Version limits are stated.** For example, XLOOKUP needs Excel 2021, Excel 365 or Excel for the web, and Excel 2019 and older don't have it. When Google Sheets differs (function name, menu, shortcut), give the Sheets version too.
+- **Version limits are stated, and the fallback is given.** For example, XLOOKUP needs Excel 2021, Excel 365 or Excel for the web; Excel 2019 and older don't have it, so the deck also shows INDEX-MATCH. When Google Sheets differs (function name, menu, shortcut), give the Sheets version too. WPS Office only when the owner has tested it there.
+- **Engine check vs real test.** Formulas are checked in a spreadsheet engine (Python `formulas`) while drafting; the caption's "Diuji di …" is filled only after the owner runs the deck once in real Excel or Sheets. Until then the caption keeps the placeholder.
 - **Separators depend on the region setting.** Excel set to Indonesian region uses `;` between arguments; English (US) uses `,`. Show the `;` form on slides (most of the audience) and say once per deck that `,` is the other form.
 - **Shortcuts:** say Windows or Mac. Menu names are given in English and Indonesian when the Indonesian Office interface differs (e.g. Home/Beranda) only if checked.
 - **AI pillar:** describe workflows; don't state prices, limits or model versions unless the owner confirms them. Never paste confidential office data into an AI tool in an example.
@@ -1320,7 +1330,10 @@ It should feel like "this saves me 20 minutes tomorrow morning", never like a so
 - **Tutorial:** cover → one `[sheet]` per step → `,`/`;` note `[code]` → version `[card]` → end. 6–10 slides.
 - **Compare:** cover → `[compare]` (`wrong-label`/`right-label` set to e.g. `VLOOKUP`/`XLOOKUP`) or `[table]` side by side → "kapan pakai yang mana" card → end.
 - **Masalah Kantor:** cover (the error as the hook: "`#N/A` padahal datanya ada?") → 2–4 cause cards → one `[code]` or card per fix → end.
-- **Cover:** `[cover kicker="EXCEL • TUTORIAL"]` (APP • FORMAT), headline = the annoyance the viewer has ("Masih hitung kolom buat *VLOOKUP?*"), subtitle = what they get.
+- **Cover:** `[cover kicker="EXCEL • TUTORIAL"]` (APP • FORMAT, or the series: `EXCEL • DATA BERANTAKAN #1`), headline = the disaster or the boss's request ("Data dari divisi lain *penuh spasi?*"), subtitle = what they get.
+- **Header:** `handle: <Jago Kantoran handle>` in every deck once the owner gives it.
+- **Before → after:** the first `[sheet]` shows the problem (the `#N/A`, the date that should be a number), the next shows the fix working on the same table.
+- **Shortcuts as keycaps** (DESIGN §6.9): on a card, write one shortcut per body line as `Ctrl + Shift + L: Filter` (or `F4: Kunci sel`); the template draws them as keyboard keys. Say Windows or Mac in a line after the rows. Keep labels short so each row fits one line.
 - **End:** `[end cta="Simpan"]`, a one-tap ask ("Kantormu masih pakai *Excel versi berapa?*") + what's next.
 - **Caption:** one line + "Diuji di …" + 2–4 hashtags (`#exceltips`, `#tipskantor`, `#belajarexcel`, `#googlesheets`, `#tipsword`).
 - **Monetisation (later):** the planned first product is templates (absensi, anggaran, inventaris, surat, laporan). Sell only after the audience is built; until then, no product links or "link di bio" pushes in posts.
