@@ -1,4 +1,5 @@
 template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
 lang: id
 title: pesan buat teman yang berduka
 caption: Diem karena takut salah ngomong itu wajar. Tapi satu pesan pendek sering lebih berarti dari yang kamu kira 🤍 Pesan nomor berapa yang mau kamu kirim? #temanberduka #sahabat #kehilangan

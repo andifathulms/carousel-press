@@ -1,4 +1,5 @@
 template: editorial/ruang-bata
+handle: @ruangrasakita.id
 lang: id
 title: kalimat buat yang ldr
 caption: Jarak bikin kita lebih sering nanya "udah makan?" daripada bilang yang sebenarnya. Ini 5 kalimat buat malam ini 🌙 Kalian beda berapa jam? #ldr #pasangan #longdistance

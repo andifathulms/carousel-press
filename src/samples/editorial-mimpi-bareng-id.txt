@@ -1,4 +1,5 @@
 template: editorial/ruang-bata
+handle: @ruangrasakita.id
 lang: id
 title: pertanyaan soal mimpi berdua
 caption: Bayangin dari bangun tidur, terus bandingin versi kalian. Biasanya ada yang bikin kaget 🤍 Hari Minggu idealmu apa? #pasangan #pertanyaanpasangan #deeptalk

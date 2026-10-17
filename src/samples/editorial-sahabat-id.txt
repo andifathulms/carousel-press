@@ -1,4 +1,5 @@
 template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
 lang: id
 title: kalimat buat sahabat
 caption: Sahabat jarang dibilangin makasih, karena dianggap udah ngerti. Pilih satu, kirim malam ini 🤍 Kamu kirim yang nomor berapa? #sahabat #bestfriend #deeptalk

@@ -1,4 +1,5 @@
 template: editorial/ruang-bata
+handle: @ruangrasakita.id
 lang: id
 title: kalimat buat yang udah lama bareng
 caption: Makin lama bareng, makin jarang bilang yang dulu sering diucapin. Kirim satu malam ini 🤍 Udah berapa tahun? #pasangan #longterm #deeptalk

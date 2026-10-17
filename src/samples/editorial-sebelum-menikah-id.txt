@@ -1,4 +1,5 @@
 template: editorial/ruang-bata
+handle: @ruangrasakita.id
 lang: id
 title: kalau marahan, kamu yang mana
 caption: Dua orang yang saling sayang bisa punya cara marahan yang beda banget. Lebih enak tahu sekarang, pas lagi tenang 🤍 Kamu huruf apa? #pasangan #sebelummenikah #pertanyaanpasangan

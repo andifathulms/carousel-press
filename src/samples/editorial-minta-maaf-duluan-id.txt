@@ -1,4 +1,5 @@
 template: editorial/ruang-bata
+handle: @ruangrasakita.id
 lang: id
 title: minta maaf duluan ke pasangan
 caption: Habis berantem, dua-duanya nunggu. Yang minta maaf duluan bukan yang kalah 🤍 Kata-kata minta maaf ke pacar atau pasangan, tinggal kirim satu. Kamu kirim nomor berapa? #mintamaaf #pasangan #habisberantem

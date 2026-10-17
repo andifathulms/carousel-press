@@ -1,4 +1,5 @@
 template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
 lang: id
 title: artinya kalimat teman kos
 caption: Teman kos jarang ngomong manis, tapi tiba-tiba ada sepiring nasi di depan pintu 🧡 Teman kosmu yang nomor berapa? #temankos #anakkos #sahabat

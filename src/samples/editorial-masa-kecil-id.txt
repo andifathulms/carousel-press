@@ -1,4 +1,5 @@
 template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
 lang: id
 title: pertanyaan masa kecil
 caption: Kalian mungkin udah kenal lama, tapi belum pernah ketemu versi kecilnya. Tanya pas lagi santai ✨ Kamu dulu pengen jadi apa? #deeptalk #sahabat #masakecil

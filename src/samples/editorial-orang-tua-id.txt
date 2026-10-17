@@ -1,4 +1,5 @@
 template: editorial/ruang-daun
+handle: @ruangrasakita.id
 lang: id
 title: artinya kalimat orang rumah
 caption: Orang rumah mungkin jarang bilang "sayang", tapi bilang ini hampir tiap hari 🌿 Nomor berapa yang paling sering kamu dengar? #keluarga #orangtua #rumah

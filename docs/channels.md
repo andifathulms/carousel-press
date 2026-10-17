@@ -22,7 +22,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 
 | Account | Language | What it posts | Template family | Default template |
 |---|---|---|---|---|
-| 🌿 Ruang Rasa | `id` | Lines to send, conversation starters | `editorial/ruang-*` | one per pillar (see §1) |
+| 🌿 Ruang Rasa (@ruangrasakita.id) | `id` | Lines to send, conversation starters | `editorial/ruang-*` | one per pillar (see §1) |
 | 💻 Fathul Learn Coding | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
 | 📜 Sejarah Nusantara (@sejarah.nusantara.id) | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
 | 🏟️ Whistle Notes | `id` | Sports rules as verdict quizzes | `sport/*` | `sport/papan` (football), `sport/lapangan` (indoor) |
@@ -112,6 +112,7 @@ Each pillar has its own colour, the same on every slide of the deck, so the feed
 
 ### Deck recipe
 
+- **Header:** `handle: @ruangrasakita.id` in every deck.
 - **Template:** the pillar's `editorial/ruang-*` variant. No photo by default: the cover is the pillar colour. If you use a photo, use a real candid one (hands, a table, a window), different on every post, never the sample dusk.
 - **Cover:** `[cover kicker="RUANG RASA · <TOPIC>"]`, headline with one `*accent*`, subtitle. Put the phrase people search for in the subtitle and in the caption's first line ("kata-kata minta maaf ke pacar", "cara nagih utang ke teman", "ucapan hari ibu"). Relationship content gets a lot of search traffic in Indonesia.
 - **Cards:** `[number=off icon=none]` on every card. Badges and icons read as a listicle.
@@ -124,6 +125,7 @@ Each pillar has its own colour, the same on every slide of the deck, so the feed
 
 ```text
 template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
 lang: id
 title: pembuka obrolan buat teman lama
 caption: Yang paling susah itu chat pertama setelah lama nggak ngobrol. Ini 5 kalimat pembuka, tinggal kirim 🤍 Kamu kepikiran siapa? #temanlama #sahabat
@@ -1661,7 +1663,7 @@ When asked for "N posts" for an account: read its section, pick formats from its
 
 ## 15. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all thirteen handles, put `handle:` in every deck header. Ruang Rasa first: its slides are screenshotted out of TikTok, and the handle on the slide is the only way those shares turn into follows.
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all thirteen handles, put `handle:` in every deck header. Ruang Rasa is done (`handle: @ruangrasakita.id` in every deck, Oct 2026): its slides are screenshotted out of TikTok, and the handle on the slide is the only way those shares turn into follows.
 - **`editorial/stone` variant (Filsafat Harian): shipped (Oct 2026).** A tokens-only variant in the editorial family: warm stone, charcoal, terracotta. Blobs off since the Oct 2026 review. Serif `Playfair Display`, sans `DM Sans`. Rotation `['stone', 'stone', 'slate']`. Tokens (contrast-checked):
 
   | Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |

@@ -1,4 +1,5 @@
 template: editorial/ruang-daun
+handle: @ruangrasakita.id
 lang: id
 title: ganti kalimatnya orang rumah
 caption: Kalimat buat orang tua yang artinya sama, tapi sampainya beda 🌿 Simpan, terus kirim satu versi barunya malam ini. Kamu paling sering bilang nomor berapa? #kalimatbuatorangtua #orangrumah #keluarga

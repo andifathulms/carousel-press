@@ -1,4 +1,5 @@
 template: editorial/ruang-malam
+handle: @ruangrasakita.id
 lang: id
 title: minggu malam, kamu yang mana
 caption: Weekend-nya dua hari, mikirin Seninnya udah dari Minggu sore 🌙 Kamu huruf apa? Komen dua huruf: kamu dan temanmu. #minggumalam #refleksidiri #weekend

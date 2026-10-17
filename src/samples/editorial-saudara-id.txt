@@ -1,4 +1,5 @@
 template: editorial/ruang-daun
+handle: @ruangrasakita.id
 lang: id
 title: kalimat buat kakak atau adik
 caption: Dulu rebutan remote, sekarang saling cari pas ada apa-apa 🌿 Kirim satu ke kakak atau adikmu malam ini. Kamu anak ke berapa? #keluarga #saudara #siblings

@@ -1,4 +1,5 @@
 template: editorial/ruang-malam
+handle: @ruangrasakita.id
 lang: id
 title: hal kecil umur 20an
 caption: Buat yang lagi ngerasa semua orang udah lebih jauh 🌙 Nomor berapa yang paling kamu banget? #usia20an #quarterlife #refleksidiri

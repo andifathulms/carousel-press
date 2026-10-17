@@ -1,4 +1,5 @@
 template: editorial/ruang-bata
+handle: @ruangrasakita.id
 lang: id
 title: pilih satu versi jam tidur
 caption: Sayang sama orangnya, belum tentu cocok sama suhu AC-nya 😆 Jawab A atau B tiap slide, komen urutannya, terus minta dia jawab juga. #pilihsatu #pasangan #thisorthat

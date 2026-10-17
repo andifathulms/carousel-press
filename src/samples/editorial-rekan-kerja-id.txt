@@ -1,4 +1,5 @@
 template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
 lang: id
 title: kalimat buat rekan kerja
 caption: Kerja bareng tiap hari, tapi jarang ada yang bilang ini. Kirim satu besok pagi ☕ Kepikiran siapa? #rekankerja #kantor #kerja

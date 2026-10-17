@@ -1,4 +1,5 @@
 template: editorial/ruang-daun
+handle: @ruangrasakita.id
 lang: id
 title: pilih satu versi keluarga
 caption: Jawab A atau B tiap slide, komen urutannya, terus kirim ke grup keluarga. Siapa yang beda sendiri? 😆 #pilihsatu #keluarga #thisorthat

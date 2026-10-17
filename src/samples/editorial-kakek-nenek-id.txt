@@ -1,4 +1,5 @@
 template: editorial/ruang-daun
+handle: @ruangrasakita.id
 lang: id
 title: pertanyaan buat kakek nenek
 caption: Pernah tanya mereka dulu ketemu di mana? Jawabannya sering lebih seru dari film 🌿 Rekam ceritanya kalau boleh. #keluarga #kakeknenek #cerita

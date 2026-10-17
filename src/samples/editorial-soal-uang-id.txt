@@ -1,4 +1,5 @@
 template: editorial/ruang-bata
+handle: @ruangrasakita.id
 lang: id
 title: gajian, kamu yang mana
 caption: Cara kita ngatur uang sering kebawa dari rumah dulu. Nggak ada huruf yang salah, yang penting saling tahu 🤍 Kamu huruf apa? #pasangan #keuangan #deeptalk

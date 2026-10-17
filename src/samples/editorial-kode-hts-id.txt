@@ -1,4 +1,5 @@
 template: editorial/ruang-bata
+handle: @ruangrasakita.id
 lang: id
 title: kode buat dia, hts
 caption: Buat yang lagi HTS dan capek nebak-nebak. Repost, biar dia yang baca 🤍 Kode buat siapa? Inisialnya aja. #hts #kodebuatdia #gebetan

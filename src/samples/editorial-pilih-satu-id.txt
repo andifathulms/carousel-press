@@ -1,4 +1,5 @@
 template: editorial/ruang-bata
+handle: @ruangrasakita.id
 lang: id
 title: pilih satu versi pacaran
 caption: Jawab A atau B tiap slide, komen urutannya, terus suruh pasanganmu jawab juga. Berapa yang sama? 😆 #pilihsatu #pasangan #thisorthat

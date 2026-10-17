@@ -1,4 +1,5 @@
 template: editorial/ruang-malam
+handle: @ruangrasakita.id
 lang: id
 title: pertanyaan sebelum tahun berganti
 caption: Sebelum sibuk bikin resolusi, lihat dulu tahun yang hampir lewat 🌙 Simpan buat malam yang tenang. Tahun ini dalam satu kata? #refleksidiri #akhirtahun

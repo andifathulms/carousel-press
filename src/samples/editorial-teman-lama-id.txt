@@ -1,4 +1,5 @@
 template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
 lang: id
 title: pembuka obrolan buat teman lama
 caption: Yang paling susah itu chat pertama setelah lama nggak ngobrol. Ini 5 kalimat pembuka, tinggal kirim 🤍 Kamu kepikiran siapa? #temanlama #sahabat #deeptalk

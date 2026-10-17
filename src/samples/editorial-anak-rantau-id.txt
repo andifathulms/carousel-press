@@ -1,4 +1,5 @@
 template: editorial/ruang-daun
+handle: @ruangrasakita.id
 lang: id
 title: hal kecil anak rantau
 caption: Yang paling dikangenin kadang bukan obrolannya, tapi suara rumah di belakang telepon 🌿 Kamu merantau dari kota mana? Komen satu kata. #anakrantau #perantau #rumah

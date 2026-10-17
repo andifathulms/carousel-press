@@ -1,4 +1,5 @@
 template: editorial/ruang-malam
+handle: @ruangrasakita.id
 lang: id
 title: pertanyaan malam 1
 caption: Pertanyaan malam #1. Nggak usah panjang, satu kata juga boleh 🌙 Besok, pertanyaan #2. #refleksidiri #pertanyaanmalam #deeptalk

@@ -1,4 +1,5 @@
 template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
 lang: id
 title: pilih satu versi sahabat
 caption: Jawab A atau B di tiap slide, terus komen urutannya. Kalau jawaban sahabatmu sama persis, kalian kembar 😆 #pilihsatu #sahabat #thisorthat

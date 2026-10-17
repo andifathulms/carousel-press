@@ -1,4 +1,5 @@
 template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
 lang: id
 title: nagih utang ke teman
 caption: Yang minjem lupa, yang minjemin sungkan. Ini cara nagih utang ke teman tanpa bikin pertemanan canggung 🤍 Udah berapa bulan? #nagihutang #temanan #sungkan
