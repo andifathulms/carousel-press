@@ -15,7 +15,7 @@ C. 36
 D. 39
 E. 52
 ---
-[card verdict="1 · Jawaban B" tone=ok]
+[card verdict="1 · Jawaban B" tone=ok icon=none]
 Trik: *tulis selisihnya.*
 Selisih: 3, 5, 7, 9
 Selisih berikutnya: 11
@@ -30,7 +30,7 @@ C. 125
 D. 94
 E. 127
 ---
-[card verdict="2 · Jawaban E" tone=ok]
+[card verdict="2 · Jawaban E" tone=ok icon=none]
 Trik: *cek kali 2, lalu lihat sisanya.*
 3 × 2 + 1 = 7
 7 × 2 + 1 = 15
@@ -45,7 +45,7 @@ C. 10
 D. 12
 E. 17
 ---
-[card verdict="3 · Jawaban A" tone=ok]
+[card verdict="3 · Jawaban A" tone=ok icon=none]
 Trik: *pisahkan jadi 2 deret.*
 Urutan ganjil: 4, 7, 10, 13 (+ 3)
 Urutan genap: 20, 17, 14 (− 3)
@@ -60,7 +60,7 @@ C. 24
 D. 26
 E. 27
 ---
-[card verdict="4 · Jawaban D" tone=ok]
+[card verdict="4 · Jawaban D" tone=ok icon=none]
 Trik: *2 operasi bergantian.*
 5 × 2 = 10, lalu 10 − 2 = 8
 8 × 2 = 16, lalu 16 − 2 = 14
@@ -75,7 +75,7 @@ C. 56
 D. 63
 E. 50
 ---
-[card verdict="5 · Jawaban C" tone=ok]
+[card verdict="5 · Jawaban C" tone=ok icon=none]
 Trik: *selisihnya ikut berpola.*
 Selisih: 1, 4, 9, 16
 Itu 1², 2², 3², 4², jadi berikutnya 5² = 25

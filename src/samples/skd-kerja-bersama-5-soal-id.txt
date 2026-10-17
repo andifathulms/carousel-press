@@ -15,7 +15,7 @@ C. 2 hari
 D. 3 hari
 E. 1,5 hari
 ---
-[card verdict="1 · Jawaban C" tone=ok]
+[card verdict="1 · Jawaban C" tone=ok icon=none]
 Trik: *anggap pekerjaannya KPK.*
 KPK 6 dan 3 = 6 bagian
 A: 6 ÷ 6 = 1 bagian per hari
@@ -31,7 +31,7 @@ C. 16 menit
 D. 6 menit
 E. 4 menit
 ---
-[card verdict="2 · Jawaban A" tone=ok]
+[card verdict="2 · Jawaban A" tone=ok icon=none]
 Trik: *kali dibagi tambah.*
 12 × 4 = 48
 12 + 4 = 16
@@ -46,7 +46,7 @@ C. 5 hari
 D. 8 hari
 E. 12 hari
 ---
-[card verdict="3 · Jawaban E" tone=ok]
+[card verdict="3 · Jawaban E" tone=ok icon=none]
 Trik: *KPK, lalu kurangkan.*
 KPK 4 dan 6 = 12 bagian
 Bersama: 12 ÷ 4 = 3 bagian per hari
@@ -63,7 +63,7 @@ C. 11 hari
 D. 19 hari
 E. 12 hari
 ---
-[card verdict="4 · Jawaban B" tone=ok]
+[card verdict="4 · Jawaban B" tone=ok icon=none]
 Trik: *berbalik nilai, kalikan dulu.*
 8 × 15 = 120 hari kerja
 120 ÷ 12 = 10 hari
@@ -77,7 +77,7 @@ C. 11 hari
 D. 9 hari
 E. 10 hari
 ---
-[card verdict="5 · Jawaban D" tone=ok]
+[card verdict="5 · Jawaban D" tone=ok icon=none]
 Trik: *hitung sisa pekerjaannya.*
 Kerja = 30 bagian (KPK): A 3, B 2 per hari
 4 hari bersama: 4 × 5 = 20 bagian

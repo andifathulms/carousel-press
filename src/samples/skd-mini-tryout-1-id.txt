@@ -1,0 +1,91 @@
+template: lexicon/lembar
+lang: id
+title: mini tryout minggu 1
+caption: Mini tryout SKD CPNS #1: 6 soal TIU dan TWK, lengkap dengan kunci dan pembahasan. Soal latihan buatan kami, bukan soal resmi BKN. Sumber TWK: Pasal 1 ayat (2) dan Pasal 36A UUD 1945. #skdcpns #tryoutcpns #cpns #twk
+---
+[cover kicker="MINI TRYOUT MINGGU · #1"]
+6 Soal, 5 Menit. | *Berani?*
+Campuran TIU dan TWK. Catat jawabanmu, kunci di slide 8.
+---
+[card kicker="Soal 1 · TIU · 30 detik" number=off icon=none]
+Kemarau panjang : kekeringan | = hujan deras : *…?*
+A. Mendung
+B. Payung
+C. Banjir
+D. Petir
+E. Musim hujan
+---
+[card kicker="Soal 2 · TIU · 45 detik" number=off icon=none]
+Uang Ani : uang Budi = 3 : 5. | Selisihnya Rp40.000. | *Jumlah uang mereka?*
+A. Rp60.000
+B. Rp100.000
+C. Rp120.000
+D. Rp320.000
+E. Rp160.000
+---
+[card kicker="Soal 3 · TWK · 30 detik" number=off icon=none]
+Lambang negara: Garuda Pancasila. | *Semboyannya menurut Pasal 36A?*
+A. Bhinneka Tunggal Ika
+B. Tut Wuri Handayani
+C. Jalesveva Jayamahe
+D. Bersatu Kita Teguh
+E. Merdeka atau Mati
+---
+[card kicker="Soal 4 · TIU · 60 detik" number=off icon=none]
+3, 4, 7, 16, 43, … | *Angka berikutnya?*
+A. 70
+B. 129
+C. 86
+D. 124
+E. 97
+---
+[card kicker="Soal 5 · TWK · 45 detik" number=off icon=none]
+Pasal 1 ayat (2) UUD 1945: | kedaulatan di tangan rakyat, | dilaksanakan *menurut …?*
+A. MPR
+B. Undang-Undang Dasar
+C. Pancasila
+D. Presiden
+E. DPR
+---
+[card kicker="Soal 6 · TIU · 60 detik" number=off icon=none]
+Semua guru sabar. | Sebagian warga adalah guru. | *Kesimpulan yang tepat?*
+A. Semua warga sabar
+B. Tak ada warga sabar
+C. Sebagian warga sabar
+D. Ada warga tak sabar
+E. Tak bisa disimpulkan
+---
+[table]
+Kunci Mini Tryout #1
+| No | Jawaban | Materi |
+| 1 | C | TIU analogi |
+| 2 | E | TIU perbandingan |
+| 3 | A | TWK, Pasal 36A |
+| 4 | D | TIU deret |
+| 5 | B | TWK, Pasal 1 (2) |
+| 6 | C | TIU silogisme |
+---
+[card verdict="4 · Jawaban D" tone=ok icon=none]
+Trik: *selisihnya ikut dikali 3.*
+Selisih: 1, 3, 9, 27
+Selisih berikutnya: 27 × 3 = 81
+43 + 81 = 124
+Jebakan A: selisih 27 dipakai lagi.
+---
+[card verdict="5 · Jawaban B" tone=ok icon=none]
+Trik: *pakai bunyi setelah amendemen.*
+Kedaulatan berada di tangan rakyat
+dan dilaksanakan menurut UUD.
+Jebakan A: MPR itu bunyi sebelum Perubahan Ketiga (2001).
+Pasal 1 ayat (2) UUD 1945
+---
+[card verdict="6 · Jawaban C" tone=ok icon=none]
+Trik: *ikuti premis “semua”.*
+Semua P adalah Q, sebagian S adalah P
+Maka sebagian S adalah Q
+Warga yang guru pasti sabar
+Jebakan D: “sebagian” tidak berarti sisanya tidak.
+---
+[end cta="Follow"]
+Skor kamu *berapa dari 6?*
+Komen angkanya. Kirim ke grup belajarmu. Mini Tryout #2 Minggu depan.

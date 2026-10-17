@@ -15,7 +15,7 @@ C. Rp8.000
 D. Rp13.000
 E. Rp15.500
 ---
-[card verdict="1 · Jawaban D" tone=ok]
+[card verdict="1 · Jawaban D" tone=ok icon=none]
 Trik: *jumlahkan, lalu bagi.*
 5 pulpen + 5 buku = Rp65.000
 Rp65.000 ÷ 5 = Rp13.000
@@ -29,7 +29,7 @@ C. Rp3.000
 D. Rp5.000
 E. Rp7.000
 ---
-[card verdict="2 · Jawaban C" tone=ok]
+[card verdict="2 · Jawaban C" tone=ok icon=none]
 Trik: *kurangkan.*
 Persamaan 1 − persamaan 2 = 1 apel − 1 jeruk
 Rp26.000 − Rp23.000 = Rp3.000
@@ -43,7 +43,7 @@ C. 25 kg
 D. 40 kg
 E. 27 kg
 ---
-[card verdict="3 · Jawaban B" tone=ok]
+[card verdict="3 · Jawaban B" tone=ok icon=none]
 Trik: *jumlahkan semua, bagi 2.*
 12 + 15 + 13 = 40 (tiap huruf terhitung 2 kali)
 40 ÷ 2 = 20 kg
@@ -57,7 +57,7 @@ C. Rp50.000
 D. Rp34.000
 E. Rp42.000
 ---
-[card verdict="4 · Jawaban A" tone=ok]
+[card verdict="4 · Jawaban A" tone=ok icon=none]
 Trik: *anggap semua tiket anak dulu.*
 Rp190.000 − 2 × Rp20.000 = Rp150.000
 Rp150.000 ÷ 5 tiket = Rp30.000
@@ -71,7 +71,7 @@ C. 13 tahun
 D. 15 tahun
 E. 37 tahun
 ---
-[card verdict="5 · Jawaban C" tone=ok]
+[card verdict="5 · Jawaban C" tone=ok icon=none]
 Trik: *mundur dulu, baru maju.*
 5 tahun lalu: 50 − 10 = 40
 Anak dulu: 40 ÷ (4 + 1) = 8 tahun

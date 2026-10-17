@@ -7,33 +7,33 @@ caption: Hitungannya benar, jawabannya salah? Biasanya kena salah satu dari 5 je
 Hitungan benar, | *jawaban salah?*
 5 jebakan soal cerita TIU yang paling sering bikin poin hilang, plus cara menghindarinya.
 ---
-[card kicker="Jebakan satuan" icon=clock]
+[card kicker="Jebakan satuan" icon=none]
 Samakan *satuannya* dulu.
 60 km/jam selama 45 menit.
 60 × 45 = 2.700 km? Salah satuan.
 45 menit = 0,75 jam
 60 × 0,75 = 45 km
 ---
-[card kicker="Jebakan kata negatif" icon=alert]
+[card kicker="Jebakan kata negatif" icon=none]
 Lingkari *kecuali* dan *tidak*.
 "Berikut benar, kecuali…" berarti cari yang salah.
 Baca ulang kalimat terakhir soal sebelum memilih.
 Banyak yang kejebak di sini karena buru-buru.
 ---
-[card kicker="Jebakan sisa" icon=lightbulb]
+[card kicker="Jebakan sisa" icon=none]
 "Dari *sisanya*" = hitung ulang.
 Rp100.000, pakai 1/4, lalu 1/3 sisanya.
 Pakai 1/4: Rp100.000 − Rp25.000 = Rp75.000
 1/3 dari sisa: Rp75.000 ÷ 3 = Rp25.000
 Sisa akhir: Rp75.000 − Rp25.000 = Rp50.000
 ---
-[card kicker="Jebakan persen dari persen" icon=star]
+[card kicker="Jebakan persen dari persen" icon=none]
 Diskon bertingkat *nggak dijumlah.*
 Diskon 20% + 10%:
 0,8 × 0,9 = 0,72
 Bayar 72%, jadi diskonnya 28%, bukan 30%.
 ---
-[card kicker="Jebakan pembulatan" icon=check]
+[card kicker="Jebakan pembulatan" icon=none]
 Bulatkan *sesuai ceritanya.*
 45 orang, 1 bus muat 20 orang.
 45 ÷ 20 = 2,25

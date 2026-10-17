@@ -15,7 +15,7 @@ C. Rp180.000
 D. Rp144.000
 E. Rp150.000
 ---
-[card verdict="1 · Jawaban D" tone=ok]
+[card verdict="1 · Jawaban D" tone=ok icon=none]
 Trik: *diskon kedua dari harga baru.*
 Diskon 20%: Rp200.000 × 0,8 = Rp160.000
 Diskon 10%: Rp160.000 × 0,9 = Rp144.000
@@ -29,7 +29,7 @@ C. Naik 1%
 D. Turun 10%
 E. Turun 0,1%
 ---
-[card verdict="2 · Jawaban B" tone=ok]
+[card verdict="2 · Jawaban B" tone=ok icon=none]
 Trik: *kalikan faktornya.*
 Naik 10% = × 1,1
 Turun 10% = × 0,9
@@ -45,7 +45,7 @@ C. Rp160.000
 D. Rp96.000
 E. Rp90.000
 ---
-[card verdict="3 · Jawaban C" tone=ok]
+[card verdict="3 · Jawaban C" tone=ok icon=none]
 Trik: *bagi, jangan ditambah.*
 Diskon 25% = bayar 75%
 Rp120.000 ÷ 0,75 = Rp160.000
@@ -60,7 +60,7 @@ C. 22,5%
 D. 30%
 E. 25%
 ---
-[card verdict="4 · Jawaban E" tone=ok]
+[card verdict="4 · Jawaban E" tone=ok icon=none]
 Trik: *persen untung dari harga beli.*
 Untung: Rp100.000 − Rp80.000 = Rp20.000
 Rp20.000 ÷ Rp80.000 = 0,25
@@ -75,7 +75,7 @@ C. 32%
 D. 20%
 E. 10%
 ---
-[card verdict="5 · Jawaban A" tone=ok]
+[card verdict="5 · Jawaban A" tone=ok icon=none]
 Trik: *mundur satu diskon dulu.*
 Diskon 20%: Rp250.000 × 0,8 = Rp200.000
 Rp200.000 − Rp170.000 = Rp30.000

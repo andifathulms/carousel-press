@@ -1116,6 +1116,7 @@ It should feel like "oh, there's a 30-second way to do this", never like a tutor
 - **TWK answers** end the body with the source on its own line (`Pasal 36A UUD 1945`). **TKP answers** use `[table]` with each option's score and `kicker` "Pembahasan versi kami" on the card after it.
 - **End:** `[end cta="Follow"]` with a one-tap ask ("Skor kamu *berapa dari 5?*"), the share line ("Kirim ke grup belajarmu.") and what comes next ("Topik berikutnya: deret angka.").
 - **Header:** `handle: <SKD handle>` in every deck once the owner gives it; screenshots in study groups are how the account gets found.
+- **No icons:** every card gets `icon=none` (the lexicon family adds an icon automatically otherwise); the answer sheet carries the look.
 - **The LJK look** (DESIGN §6.8): write options as body lines `A. …` to `E. …` and the answer as `verdict="N · Jawaban X"`; the template draws the answer-sheet bubbles and fills X. Keep options short enough for one line (≈ 24 characters), or they fall back to plain text.
 - **Caption:** one line + the source if the post states facts (regulation, UUD article) + "Soal latihan buatan kami, bukan soal resmi" on question posts + 2–4 hashtags (`#skdcpns`, `#cpns`, `#tiu`, `#twk`, `#tkp`, `#sekolahkedinasan`, `#pppk`, `#rekrutmenbumn`).
 - **Launch order (first two weeks):** TIU numerik 1 Topik 5 Soal → TKP cara mikir → TIU deret → Strategi (time and question order) → Mini Tryout Minggu; then the normal rhythm.

@@ -24,13 +24,13 @@ Skor versi kami
 | E | 2 | Atasan nggak tahu, rapat berisiko |
 | A | 1 | Menolak tugas penting |
 ---
-[card kicker="Pembahasan versi kami" number=off icon=lightbulb]
+[card kicker="Pembahasan versi kami" number=off icon=none]
 Pilih yang tugasnya beres | *dan semua orang tahu.*
 D menyelesaikan tugas dan tetap berkomunikasi.
 B juga menyelesaikan tugas, tapi janji dibatalkan tanpa kabar.
 TKP menilai tanggung jawab, bukan seberapa besar kamu berkorban.
 ---
-[card kicker="Pola TKP yang sama" number=off icon=check]
+[card kicker="Pola TKP yang sama" number=off icon=none]
 Cari pilihan yang | *aktif dan komunikatif.*
 Selesaikan tugasnya sendiri, jangan dilempar.
 Kabari pihak yang terdampak.

@@ -1,0 +1,93 @@
+template: lexicon/lembar
+lang: id
+title: tkp cara mikir 4 soal
+caption: Cara jawab TKP tanpa hafal kunci: 4 situasi kerja, 5 pola. Pembahasan versi kami, bukan kunci resmi. Soal latihan buatan kami. Skor TKP 1–5 per soal: KepmenPANRB Nomor 406 Tahun 2026 (SKD Sekolah Kedinasan TA 2026). #skdcpns #tkp #cpns #sekolahkedinasan
+---
+[cover kicker="TKP · CARA MIKIR"]
+TKP Nggak Ada Kunci, | *Tapi Ada Polanya.*
+Cara jawab TKP: 4 soal situasi kerja, skor 1–5 versi kami, dan pola cara mikirnya.
+---
+[card kicker="Pola yang kami pakai" number=off icon=none]
+Cari pilihan yang | *paling aktif dan tuntas.*
+Layani sampai tuntas.
+Kabari pihak yang terdampak.
+Jangan lempar ke orang lain.
+Ikuti aturan, tolak yang curang.
+Terima perubahan, pelajari caranya.
+---
+[card kicker="TKP 1 · 45 detik" number=off icon=none]
+Lansia bingung isi formulir daring. | Antreanmu sepi, | *tapi itu bukan mejamu.*
+A. Biarkan, bukan tugasmu.
+B. Suruh datang bareng anaknya.
+C. Arahkan ke meja informasi.
+D. Dampingi sampai selesai.
+E. Jelaskan caranya sekilas.
+---
+[card verdict="1 · Jawaban D" tone=ok kicker="Pembahasan versi kami" icon=none]
+Warganya terlayani | *sampai beres.*
+D skor tertinggi versi kami.
+E membantu, tapi belum tuntas.
+A terendah: menolak melayani.
+---
+[table]
+Skor versi kami, TKP 1
+| Opsi | Skor | Alasannya |
+| D | 5 | Didampingi sampai beres |
+| E | 4 | Dibantu, belum tuntas |
+| C | 3 | Dioper ke meja lain |
+| B | 2 | Disuruh datang lagi |
+| A | 1 | Menolak melayani |
+---
+[card kicker="TKP 2 · 45 detik" number=off icon=none]
+Laporan minggu ini | wajib lewat aplikasi baru. | *Kamu belum paham.*
+A. Kirim lewat cara lama saja.
+B. Pelajari, tanya admin.
+C. Titip ke rekan yang bisa.
+D. Coba sendiri seadanya.
+E. Protes, aplikasinya ribet.
+---
+[card verdict="2 · Jawaban B" tone=ok kicker="Pembahasan versi kami" icon=none]
+Aturan baru? | *Pelajari, jangan hindari.*
+B skor tertinggi versi kami.
+D aktif, tapi tanpa bertanya.
+E terendah: cuma protes.
+---
+[card kicker="TKP 3 · 45 detik" number=off icon=none]
+Laporanmu sudah terkirim. | Atasan belum baca, | *tapi ada angka yang salah.*
+A. Diam, belum tentu ketahuan.
+B. Ganti file tanpa bilang.
+C. Tunggu atasan bertanya.
+D. Kabari atasan saja dulu.
+E. Revisi, kirim ulang, kabari.
+---
+[card verdict="3 · Jawaban E" tone=ok kicker="Pembahasan versi kami" icon=none]
+Salah sendiri? | *Perbaiki, lalu bilang.*
+E skor tertinggi versi kami.
+D jujur, tapi belum beres.
+A terendah: menutupi salah.
+---
+[card kicker="TKP 4 · 45 detik" number=off icon=none]
+Kenalan minta berkasnya | didahulukan, | *sambil menyodorkan amplop.*
+A. Tolak halus, minta antre.
+B. Terima, lalu dahulukan.
+C. Dahulukan, tolak amplopnya.
+D. Oper ke petugas lain.
+E. Tolak dengan nada ketus.
+---
+[card verdict="4 · Jawaban A" tone=ok kicker="Pembahasan versi kami" icon=none]
+Aturan jalan, | *orangnya tetap dihormati.*
+A skor tertinggi versi kami.
+E benar, tapi caranya kasar.
+B terendah: terima amplop.
+---
+[table]
+Simpan: pola TKP versi kami
+| Pola | Contoh pilihan skor 5 |
+| Layani tuntas | Dampingi sampai beres |
+| Adaptif | Pelajari, tanya admin |
+| Jujur | Revisi, kirim ulang, kabari |
+| Ikuti aturan | Tolak amplop dengan halus |
+---
+[end cta="Follow"]
+Dari 4 soal, kamu *pilih skor 5 berapa kali?*
+Komen angkanya. Kirim ke grup belajarmu. TKP berikutnya: warga marah di loket.

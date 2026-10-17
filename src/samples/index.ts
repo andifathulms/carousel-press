@@ -164,6 +164,10 @@ import b2SportsBolaMatiMitosId from './sports-bola-mati-mitos-id.txt?raw';
 import b2SportsPenaltiId from './sports-penalti-id.txt?raw';
 import b2SportsVoliKamuWasitnyaId from './sports-voli-kamu-wasitnya-id.txt?raw';
 import skdPersamaan5SoalId from './skd-persamaan-5-soal-id.txt?raw';
+import skdPersenNaikTurun from './skd-persen-naik-turun-5-soal-id.txt?raw';
+import skdTkpCaraMikir from './skd-tkp-cara-mikir-id.txt?raw';
+import skdStrategiWaktu from './skd-strategi-waktu-id.txt?raw';
+import skdMiniTryout1 from './skd-mini-tryout-1-id.txt?raw';
 import kantorXlookupId from './kantor-xlookup-id.txt?raw';
 import lexiconArabKitab from './lexicon-arab-kitab.txt?raw';
 import lexiconHanziXiexie from './lexicon-hanzi-xiexie.txt?raw';
@@ -395,6 +399,10 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sports-voli-kamu-wasitnya-id', name: 'Kamu wasitnya voli (Whistle Notes, id)', category: 'sports', text: b2SportsVoliKamuWasitnyaId },
   // SKD Harian (exam) and Jago Kantoran (office), Oct 2026
   { id: 'skd-persamaan-5-soal-id', name: 'Soal cerita persamaan, 5 soal (SKD Harian, id)', category: 'exam', text: skdPersamaan5SoalId },
+  { id: 'skd-persen-naik-turun-5-soal-id', name: 'Persen naik-turun, 5 soal (SKD Harian, id)', category: 'exam', text: skdPersenNaikTurun },
+  { id: 'skd-tkp-cara-mikir-id', name: 'TKP cara mikir (SKD Harian, id)', category: 'exam', text: skdTkpCaraMikir },
+  { id: 'skd-strategi-waktu-id', name: 'Strategi waktu CAT (SKD Harian, id)', category: 'exam', text: skdStrategiWaktu },
+  { id: 'skd-mini-tryout-1-id', name: 'Mini tryout #1 (SKD Harian, id)', category: 'exam', text: skdMiniTryout1 },
   { id: 'kantor-xlookup-id', name: 'XLOOKUP dasar (Jago Kantoran, id)', category: 'office', text: kantorXlookupId },
   // Kosakata Arab (SPEC-script §12), Oct 2026
   { id: 'lexicon-arab-kitab', name: 'Akar kata ك-ت-ب (Kosakata Arab, id)', category: 'arabic', text: lexiconArabKitab },

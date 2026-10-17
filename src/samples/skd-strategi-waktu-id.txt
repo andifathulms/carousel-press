@@ -1,0 +1,46 @@
+template: lexicon/lembar
+lang: id
+title: strategi waktu cat skd
+caption: Strategi waktu SKD CAT: 110 soal dalam 100 menit, dan kamu nggak harus mulai dari nomor 1. Angka dari KepmenPANRB 321/2024 (SKD CPNS 2024) dan KepmenPANRB 406/2026 (SKD Sekolah Kedinasan 2026). Cek pengumuman resmi di sscasn.bkn.go.id. #skdcpns #cpns #tipscpns #sekolahkedinasan
+---
+[cover kicker="STRATEGI · CAT SKD"]
+110 soal, 100 menit: | *Nggak harus dari nomor 1.*
+Cara bagi waktu dan urutan ngerjain SKD, versi kami. Angkanya dari KepmenPANRB terbaru.
+---
+[card number=1 icon=none]
+Mulai dari subtes *yang paling cepat buatmu.*
+Poin awal bikin tenang, dan sisa waktu jadi lebih longgar.
+Saran BKN untuk tes CAT: dahulukan soal yang lebih cepat dan mudah.
+---
+[table]
+SKD: 110 soal dalam 100 menit
+| Subtes | Soal | Nilai per soal |
+| TWK | 30 | Benar 5, salah 0 |
+| TIU | 35 | Benar 5, salah 0 |
+| TKP | 45 | 1 sampai 5 |
+---
+[card number=2 icon=none]
+Patokan: *±54 detik per soal.*
+100 menit ÷ 110 soal ≈ 54 detik.
+Sudah 1 menit dan belum ketemu jalannya? Itu tanda untuk pindah.
+---
+[card number=3 icon=none]
+Lewati dulu, *balik di putaran kedua.*
+Putaran 1: jawab yang langsung yakin.
+Putaran 2: soal yang tadi dilewati. Sisakan sekitar 10 menit.
+---
+[card number=4 icon=none]
+Jangan ada *yang kosong.*
+TWK dan TIU: salah atau kosong sama-sama 0. Nggak ada pengurangan.
+TKP: tiap pilihan bernilai 1 sampai 5, kosong 0.
+KepmenPANRB 321/2024 dan 406/2026
+---
+[card number=5 icon=none]
+Tiap subtes *punya batasnya sendiri.*
+Nilai ambang batas dihitung per subtes: TWK, TIU, dan TKP.
+Jangan habiskan waktu di satu subtes sampai yang lain terbengkalai.
+---
+[end cta="Follow"]
+Kamu biasa mulai dari | *TWK, TIU, atau TKP?*
+Komen satu kata. Kirim ke grup belajarmu. Topik berikutnya: hitung cepat tanpa kalkulator.
+Cek pengumuman resmi.

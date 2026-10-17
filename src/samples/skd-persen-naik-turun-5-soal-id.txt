@@ -1,0 +1,97 @@
+template: lexicon/lembar
+lang: id
+title: persen naik turun 5 soal
+caption: Naik 20% lalu turun 20% itu turun 4%, bukan balik ke awal. Soal latihan buatan kami, bukan soal resmi BKN. #skdcpns #tiu #cpns #soalpersen
+---
+[cover kicker="TIU NUMERIK · 1 TOPIK, 5 SOAL"]
+Naik 20%, turun 20%? | *Nggak balik ke awal.*
+5 soal persen naik-turun dari mudah ke sulit. Kerjakan dulu, baru geser ke pembahasannya.
+---
+[card kicker="Soal 1 · Mudah · 30 detik" number=off icon=none]
+Harga Rp500.000 naik 20%, | lalu turun 20%. | *Harga akhirnya?*
+A. Rp500.000
+B. Rp520.000
+C. Rp480.000
+D. Rp400.000
+E. Rp600.000
+---
+[card verdict="1 · Jawaban C" tone=ok icon=none]
+Trik: *turunnya a × a ÷ 100 persen.*
+20 × 20 ÷ 100 = 4%
+4% dari Rp500.000 = Rp20.000
+Rp500.000 − Rp20.000 = Rp480.000
+Jebakan A: naik dan turun 20% dikira balik ke awal.
+---
+[card kicker="Soal 2 · Mudah · 30 detik" number=off icon=none]
+Dari 800 pegawai, 25% ikut pelatihan. | 40% dari peserta itu perempuan. | *Peserta perempuan = ?*
+A. 200 orang
+B. 320 orang
+C. 520 orang
+D. 120 orang
+E. 80 orang
+---
+[card verdict="2 · Jawaban E" tone=ok icon=none]
+Trik: *“dari” artinya kali.*
+25% × 40% = 10%
+10% dari 800 = 80 orang
+Jebakan C: 25% + 40% dijumlah jadi 65%.
+Jebakan B: 40% dari 800, bukan dari peserta.
+---
+[card kicker="Soal 3 · Sedang · 45 detik" number=off icon=none]
+Gaji naik 25%, | menjadi Rp3.000.000. | *Gaji sebelum naik?*
+A. Rp2.400.000
+B. Rp2.250.000
+C. Rp3.750.000
+D. Rp600.000
+E. Rp750.000
+---
+[card verdict="3 · Jawaban A" tone=ok icon=none]
+Trik: *cari 1% dulu.*
+Rp3.000.000 = 125% gaji awal
+1% = Rp3.000.000 ÷ 125 = Rp24.000
+100% = Rp24.000 × 100 = Rp2.400.000
+Jebakan B: dikurangi 25% dari gaji akhir.
+---
+[card kicker="Soal 4 · Sedang · 45 detik" number=off icon=none]
+Rp80.000 naik jadi Rp100.000, | lalu turun ke Rp80.000. | *Persen naik dan turunnya?*
+A. Naik 25%, turun 25%
+B. Naik 20%, turun 20%
+C. Naik 20%, turun 25%
+D. Naik 25%, turun 20%
+E. Naik 25%, turun 80%
+---
+[card verdict="4 · Jawaban D" tone=ok icon=none]
+Trik: *selisih sama, pembaginya beda.*
+Selisih: Rp100.000 − Rp80.000 = Rp20.000
+Naik: Rp20.000 ÷ Rp80.000 = 25%
+Turun: Rp20.000 ÷ Rp100.000 = 20%
+Jebakan A: turunnya juga dibagi Rp80.000.
+---
+[card kicker="Soal 5 · Sulit · 60 detik" number=off icon=none]
+Harga A 20% lebih mahal dari B. | B 25% lebih murah dari C. | *A dibanding C?*
+A. 5% lebih murah
+B. 10% lebih murah
+C. 10% lebih mahal
+D. 11,1% lebih murah
+E. 90% lebih murah
+---
+[card verdict="5 · Jawaban B" tone=ok icon=none]
+Trik: *misalkan C = 100.*
+B = 100 × 0,75 = 75
+A = 75 × 1,2 = 90
+90 dari 100 = 10% lebih murah
+Jebakan A: +20% dan −25% dijumlah jadi −5%.
+Jebakan D: selisih 10 dibagi 90, bukan 100.
+---
+[table]
+Simpan: 5 trik persen naik-turun
+| Soal | Triknya |
+| 1 | Naik lalu turun a%: turun a × a ÷ 100% |
+| 2 | “Dari” artinya kali |
+| 3 | Harga awal: cari 1% dulu |
+| 4 | Selisih sama, pembaginya beda |
+| 5 | Bandingkan: misalkan pembandingnya 100 |
+---
+[end cta="Follow"]
+Skor kamu *berapa dari 5?*
+Komen angkanya. Kirim ke grup belajarmu. Topik berikutnya: kecepatan berpapasan.
