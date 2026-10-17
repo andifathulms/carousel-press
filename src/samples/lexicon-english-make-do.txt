@@ -5,8 +5,8 @@ title: make atau do
 caption: Yang benar made a mistake, tapi do me a favour, dan ini nggak bisa ditukar. Sumber: Cambridge Dictionary; Cambridge Grammar ("Do or make?"); Oxford Learner's Dictionaries #belajarbahasainggris #kosakatainggris #collocation
 ---
 [cover kicker="MAKE VS DO"]
-"I Did a Mistake"? | Harusnya Made
-Make dan do sama-sama bisa berarti "membuat", tapi pasangannya beda.
+“I Did a Mistake”? | Harusnya Made
+Make dan do sama-sama bisa berarti “membuat”, tapi pasangannya beda.
 ---
 [compare]
 wrong: I did a mistake.
@@ -36,7 +36,7 @@ Pakai *make*
 | make friends | cari teman |
 | make a noise | bikin berisik |
 | make the bed | merapikan tempat tidur |
-Make the bed bukan "bikin kasur", tapi merapikan seprai dan selimut.
+Make the bed bukan “bikin kasur”, tapi merapikan seprai dan selimut.
 ---
 [table]
 Pakai *do*

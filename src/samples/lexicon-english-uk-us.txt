@@ -4,7 +4,7 @@ lang: id
 title: inggris uk vs us
 caption: Minta biscuit di Amerika, yang datang bisa roti kecil, bukan biskuit. Sumber: Cambridge Dictionary (label UK/US) #belajarbahasainggris #kosakatainggris #vocabulary
 ---
-[cover kicker="UK vs US"]
+[cover kicker="BEDA ARTI · #1"]
 Di London, Pants Itu | Celana Dalam
 Di Amerika, pants itu celana panjang. Ini kata sehari-hari yang beda antara Inggris (UK) dan Amerika (US).
 ---
@@ -12,7 +12,7 @@ Di Amerika, pants itu celana panjang. Ini kata sehari-hari yang beda antara Ingg
 pos: noun · beda arti UK/US
 word: pants
 ipa: /pænts/ (UK & US)
-say: "pents"
+say: “pents”
 meaning: UK: celana dalam | US: celana panjang
 example: I spilled coffee on my *pants*.
 translation: (US) Celanaku ketumpahan kopi.
@@ -38,7 +38,7 @@ Hati-hati: chips di UK dan di US itu beda makanan.
 pos: noun · beda arti UK/US
 word: biscuit
 ipa: /ˈbɪs.kɪt/ (UK & US)
-say: "BIS-kit"
+say: “BIS-kit”
 meaning: UK: biskuit | US: roti kecil bundar
 example: Would you like a *biscuit* with your tea?
 translation: (UK) Mau biskuit buat teman minum teh?

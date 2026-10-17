@@ -5,7 +5,7 @@ title: borrow atau lend
 caption: Mau pinjam charger tapi bilang "Can I lend your charger?" Kebalik. Ini bedanya borrow dan lend. Sumber: Cambridge Dictionary; Cambridge Grammar ("Lend or borrow?") #belajarbahasainggris #kosakatainggris #grammar
 ---
 [cover kicker="BORROW VS LEND"]
-"Can I Lend Your Pen?" | Kebalik, Harusnya Borrow
+“Can I Lend Your Pen?” | Kebalik, Harusnya Borrow
 Pinjam dan meminjamkan itu dua kata berbeda di bahasa Inggris. Ini cara biar nggak ketuker lagi.
 ---
 [card kicker="Mana yang benar?" number=off]
@@ -44,7 +44,7 @@ Borrow: kamu menerima. Lend: kamu memberi. Bisa juga: lend a pen to Rina.
 pos: verb · borrowed, borrowed
 word: borrow
 ipa: /ˈbɒr.əʊ/ (UK) · /ˈbɑːr.oʊ/ (US)
-say: "BO-rou"
+say: “BO-rou”
 meaning: meminjam: menerima sesuatu dan berniat mengembalikannya
 example: Could I *borrow* your bike until next week?
 translation: Boleh aku pinjam sepedamu sampai minggu depan?
@@ -53,7 +53,7 @@ translation: Boleh aku pinjam sepedamu sampai minggu depan?
 pos: verb · lent, lent
 word: lend
 ipa: /lend/ (UK & US)
-say: "lend"
+say: “lend”
 meaning: meminjamkan: memberi sesuatu untuk sementara, lalu dikembalikan
 example: If you need a coat, I can *lend* you one.
 translation: Kalau butuh jaket, aku bisa pinjamkan satu.

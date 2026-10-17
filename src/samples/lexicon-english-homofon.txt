@@ -5,7 +5,7 @@ title: homofon yang ketuker
 caption: Beda satu apostrof dan satu huruf e, artinya berubah total. Sumber IPA: Oxford Learner's Dictionaries; arti: Cambridge Dictionary #belajarbahasainggris #kosakatainggris #grammar
 ---
 [cover kicker="SALAH TULIS"]
-Nulis "Your Welcome"? | Harusnya "You're"
+Nulis “Your Welcome”? | Harusnya “You're”
 Yang dimaksud you're welcome. Ini 5 pasangan kata yang bunyinya mirip dan sering ketuker di chat.
 ---
 [compare]
@@ -17,7 +17,7 @@ why: You're = you are. Your = milikmu: your bag, your idea. Tes cepat: bisa diga
 pos: short form of you are
 word: you're
 ipa: /jʊə(r)/ · /jɔː(r)/ (UK) · /jʊr/ (US)
-say: "yur" atau "yor"
+say: “yur” atau “yor”
 meaning: kamu (itu/sedang)
 example: *You're* doing great.
 translation: Kamu hebat kok.
@@ -32,7 +32,7 @@ why: Its (tanpa apostrof) = miliknya, untuk benda atau hewan. It's = it is atau 
 pos: short form of it is / it has
 word: it's
 ipa: /ɪts/ (UK & US)
-say: "its"
+say: “its”
 meaning: itu (adalah); itu sudah
 example: *It's* been a long day.
 translation: Hari ini panjang banget.
@@ -44,7 +44,7 @@ Their, there, *they're*
 | their | milik mereka | *their* house |
 | there | di sana; ada | over *there* |
 | they're | they are | *they're* late |
-Ketiganya dibaca sama: "dheer". Bedanya cuma di tulisan.
+Ketiganya dibaca sama: “dheer”. Bedanya cuma di tulisan.
 ---
 [compare]
 wrong: Their going to be late.
@@ -60,7 +60,7 @@ why: Than untuk membandingkan (daripada). Then artinya lalu, kemudian, atau saat
 pos: preposition · conjunction
 word: than
 ipa: /ðən/ · /ðæn/ (strong form) · UK & US
-say: "dhen" dengan e lemah
+say: “dhen” dengan e lemah
 meaning: daripada
 example: Jakarta is busier *than* Bandung.
 translation: Jakarta lebih ramai daripada Bandung.
@@ -72,7 +72,7 @@ To, *too*, two
 | to | ke; untuk | go *to* work |
 | too | juga; terlalu | *too* spicy |
 | two | dua | *two* coffees |
-Too dan two dibaca sama, "tuu". To biasanya lebih pendek, kecuali ditekan.
+Too dan two dibaca sama, “tuu”. To biasanya lebih pendek, kecuali ditekan.
 ---
 [compare]
 wrong: This sambal is to spicy for me.

@@ -26,13 +26,13 @@ Pola *-ought* dan *-aught*
 Seek lebih formal; sehari-hari biasanya look for.
 ---
 Ejaan beda, bunyi sama
--ought dan -aught dibaca persis sama: thought, bought, taught, caught berakhir dengan bunyi "ot" panjang. Huruf gh-nya tidak dibaca.
+-ought dan -aught dibaca persis sama: thought, bought, taught, caught berakhir dengan bunyi “ot” panjang. Huruf gh-nya tidak dibaca.
 ---
 [word]
 pos: verb · V2/V3 of think
 word: thought
 ipa: /θɔːt/ (UK) · /θɑːt/ (US)
-say: "thot", ujung lidah di antara gigi
+say: “thot”, ujung lidah di antara gigi
 meaning: berpikir; mengira
 example: I *thought* you were coming.
 translation: Kukira kamu mau datang.
@@ -41,7 +41,7 @@ translation: Kukira kamu mau datang.
 pos: verb · V2/V3 of teach
 word: taught
 ipa: /tɔːt/ (UK) · /tɑːt/ (US)
-say: "tot", o panjang
+say: “tot”, o panjang
 meaning: mengajar; mengajari
 example: My mum *taught* me how to cook.
 translation: Ibuku yang mengajariku masak.
@@ -51,7 +51,7 @@ note: Thought dan taught cuma beda bunyi awal: th dan t.
 pos: verb · V2/V3 of buy
 word: bought
 ipa: /bɔːt/ (UK) · /bɑːt/ (US)
-say: "bot", o panjang
+say: “bot”, o panjang
 meaning: membeli
 example: I *bought* this shirt online.
 translation: Kemeja ini aku beli online.
@@ -65,4 +65,4 @@ why: Maksudnya membeli? Pakai bought, dari buy. Brought dari bring, artinya memb
 ---
 [end cta="Simpan"]
 Kamu dulu nulis *thinked* juga?
-Jawab "iya" atau "nggak" di komen.
+Jawab “iya” atau “nggak” di komen.

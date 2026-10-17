@@ -5,7 +5,7 @@ title: kata hari ini 2 recipe
 caption: Kata hari ini #2: recipe, cara baca resep dalam bahasa Inggris yang sering kepleset. Sumber IPA: Cambridge Dictionary #belajarbahasainggris #kosakatainggris #pronunciation
 ---
 [cover kicker="KATA HARI INI · #2"]
-Recipe | *Bukan dibaca "ri-saip".*
+Recipe | *Bukan dibaca “ri-saip”.*
 Satu kata Inggris tiap hari. Hari ini yang sering kita baca persis tulisannya.
 ---
 [card kicker="Coba tebak" number=off]
@@ -16,7 +16,7 @@ Tebak dulu, baru geser.
 pos: noun
 word: recipe
 ipa: /ˈres.ɪ.pi/ (UK) · /ˈres.ə.pi/ (US)
-say: "RE-si-pi", tiga suku kata
+say: “RE-si-pi”, tiga suku kata
 meaning: resep masakan: cara memasak plus daftar bahannya
 example: Do you know a good *recipe* for rendang?
 translation: Kamu tahu resep rendang yang enak?

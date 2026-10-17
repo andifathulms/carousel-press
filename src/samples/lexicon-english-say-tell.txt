@@ -4,8 +4,8 @@ lang: id
 title: say atau tell
 caption: "He said me" atau "he told me"? Kuis say vs tell, jawabannya di slide berikutnya. Sumber: Cambridge Grammar ("Say or tell?"); Cambridge Dictionary #belajarbahasainggris #kosakatainggris #grammar
 ---
-[cover kicker="SAY VS TELL"]
-"He Said Me"? | Harusnya "He Told Me"
+[cover kicker="SALAH NGOMONG · #1"]
+“He Said Me”? | Harusnya “He Told Me”
 Say dan tell sama-sama berarti bilang, tapi polanya beda. 3 kuis kecil, jawabannya di slide sesudahnya.
 ---
 [card kicker="Kuis 1" number=off]
@@ -40,7 +40,7 @@ Ringkasnya
 | Say | Tell |
 | say something | tell someone something |
 | say to someone | tell someone to … |
-| "Hello," she *said*. | tell a lie, tell the truth |
+| “Hello,” she *said*. | tell a lie, tell the truth |
 | say goodbye, say thank you | tell a joke, tell a story |
 Untuk menyuruh pakai tell: They told us to come back the next day.
 ---
@@ -48,11 +48,11 @@ Untuk menyuruh pakai tell: They told us to come back the next day.
 pos: verb · V2/V3 of say
 word: said
 ipa: /sed/ (UK & US)
-say: "sed", bukan "seid"
+say: “sed”, bukan “seid”
 meaning: berkata, bilang (bentuk lampau say)
 example: She *said* she would wait for us outside.
 translation: Dia bilang dia mau nunggu kita di luar.
-note: Say dibaca "sei", tapi said dibaca "sed". V2 tell: told /təʊld/ (UK) · /toʊld/ (US).
+note: Say dibaca “sei”, tapi said dibaca “sed”. V2 tell: told /təʊld/ (UK) · /toʊld/ (US).
 ---
 [end cta="Simpan"]
 Kuis nomor berapa yang *bikin kamu ragu?*

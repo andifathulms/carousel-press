@@ -6,17 +6,17 @@ caption: Kata hari ini #3: appointment, bahasa Inggrisnya "ada janji" ke dokter 
 ---
 [cover kicker="KATA HARI INI · #3"]
 Appointment | *Janji ke dokter bukan promise.*
-Satu kata Inggris tiap hari. Hari ini buat yang sering bilang "aku ada janji".
+Satu kata Inggris tiap hari. Hari ini buat yang sering bilang “aku ada janji”.
 ---
 [card kicker="Coba tebak" number=off]
-"Aku ada janji ke dokter gigi besok pagi." *Promise atau appointment?*
+“Aku ada janji ke dokter gigi besok pagi.” *Promise atau appointment?*
 Tebak dulu, baru geser.
 ---
 [word]
 pos: noun
 word: appointment
 ipa: /əˈpɔɪnt.mənt/ (UK & US)
-say: "e-POINT-ment"
+say: “e-POINT-ment”
 meaning: janji temu: waktu dan tempat yang sudah diatur untuk bertemu seseorang
 example: I have a dental *appointment* tomorrow morning.
 translation: Aku ada janji ke dokter gigi besok pagi.

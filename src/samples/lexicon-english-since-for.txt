@@ -5,7 +5,7 @@ title: since vs for
 caption: Since 2020 itu benar, yang salah justru kata kerjanya. Sumber: Cambridge Grammar (For or since?, Since, Present perfect simple, Ago); Cambridge Dictionary #belajarbahasainggris #kosakatainggris #grammar
 ---
 [cover kicker="GRAMMAR"]
-"I Live Here Since 2020" | Belum Tepat
+“I Live Here Since 2020” | Belum Tepat
 Since-nya sudah benar. Yang perlu diganti kata kerjanya, plus kapan pakai for.
 ---
 [compare]
@@ -47,16 +47,6 @@ why: Kalau yang menyusul berupa kalimat (subjek + kata kerja) yang menunjuk titi
 wrong: I have met him three years ago.
 right: I *met* him three years ago.
 why: Ago dipakai dengan past simple, bukan present perfect. Mau pakai present perfect? I've known him for three years.
----
-[word]
-pos: preposition · conjunction · adverb
-word: since
-ipa: /sɪns/ (UK & US)
-say: "sins"
-meaning: sejak; juga karena
-example: *Since* it's raining, let's order food.
-translation: Karena hujan, kita pesan makanan aja.
-note: Arti karena ini sering muncul di email kerja dan tulisan.
 ---
 Kuis: since atau for?
 1. I've had this phone ___ 2022. | 2. She's been sick ___ a week. | 3. We haven't met ___ graduation. | 4. They've been married ___ ten years. | Jawab dulu, lalu geser.

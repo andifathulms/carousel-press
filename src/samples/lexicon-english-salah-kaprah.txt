@@ -5,7 +5,7 @@ title: salah kaprah bahasa inggris
 caption: Mau bilang bosan, malah ngaku membosankan. Ini 8 kalimat yang sering kepleset, plus versi benarnya. Sumber: Cambridge Grammar (Common mistakes); Oxford Learner's Dictionaries #belajarbahasainggris #kosakatainggris #grammar
 ---
 [cover kicker="SALAH KAPRAH"]
-Bilang "I'm Boring"? | Artinya Kamu yang Bikin Bosan
+Bilang “I'm Boring”? | Artinya Kamu yang Bikin Bosan
 Itu satu dari 8 kalimat Inggris yang sering keliru. Santai, ini wajar.
 ---
 [card kicker="Mana yang benar?" number=off]
@@ -16,7 +16,7 @@ Jawab A atau B dulu, baru geser.
 [compare]
 wrong: I'm boring. Let's go out.
 right: I'm *bored*. Let's go out.
-why: Bored artinya merasa bosan. Boring artinya membosankan. Jadi I'm boring berarti "aku orang yang membosankan".
+why: Bored artinya merasa bosan. Boring artinya membosankan. Jadi I'm boring berarti “aku orang yang membosankan”.
 ---
 [compare]
 wrong: I am agree with you.
@@ -36,7 +36,7 @@ why: Explain tidak bisa langsung diikuti orang. Pakai to sebelum orangnya.
 [compare]
 wrong: She's married with a doctor.
 right: She's married *to* a doctor.
-why: Married to + pasangan. Tapi "married with two children" benar: sudah menikah dan punya dua anak.
+why: Married to + pasangan. Tapi “married with two children” benar: sudah menikah dan punya dua anak.
 ---
 [compare]
 wrong: I very like this song.

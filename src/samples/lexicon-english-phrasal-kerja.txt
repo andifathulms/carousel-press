@@ -5,8 +5,8 @@ title: phrasal verb kantor dan kampus
 caption: Bos bilang "I'll look into it"? Itu artinya mau dicek, bukan cuma dilihat. Sumber: Cambridge Dictionary; Cambridge Grammar (Phrasal verbs) #belajarbahasainggris #kosakatainggris #phrasalverbs
 ---
 [cover kicker="PHRASAL VERBS"]
-"I'll Look Into It" | Artinya Mau Dicek
-Bukan "aku lihat ke dalamnya". Ini 10 phrasal verb yang sering muncul di kantor dan kampus.
+“I'll Look Into It” | Artinya Mau Dicek
+Bukan “aku lihat ke dalamnya”. Ini 10 phrasal verb yang sering muncul di kantor dan kampus.
 ---
 [compare]
 wrong: The client complained. We'll look it into.
@@ -34,18 +34,10 @@ Di kampus dan sekolah
 [word]
 pos: phrasal verb · informal
 word: figure out
-say: "FI-ge aut"
+say: “FI-ge aut”
 meaning: akhirnya paham, atau menemukan jawaban setelah dipikir-pikir
 example: I can't *figure out* why my code isn't working.
 translation: Aku belum nemu kenapa kodeku nggak jalan.
----
-[word]
-pos: phrasal verb
-word: run out of
-meaning: kehabisan
-example: The printer has *run out of* paper.
-translation: Kertas printernya habis.
-note: Kalau barangnya jadi subjek, tanpa of: The paper has run out.
 ---
 [word]
 pos: phrasal verb

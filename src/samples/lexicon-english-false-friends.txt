@@ -19,7 +19,7 @@ why: Pabrik dalam bahasa Inggris: factory. Fabric berarti kain, misalnya cotton 
 pos: noun
 word: argument
 ipa: /ˈɑːɡ.jə.mənt/ (UK) · /ˈɑːrɡ.jə.mənt/ (US)
-say: "AA-gyu-ment"
+say: “AA-gyu-ment”
 meaning: pertengkaran, adu mulut; juga alasan untuk mendukung pendapat
 example: We had an *argument* about money.
 translation: Kami bertengkar soal uang.
@@ -36,7 +36,7 @@ why: Mau bilang ekonomis atau hemat? Pakai economical. Economic dipakai untuk ur
 pos: adjective
 word: sympathetic
 ipa: /ˌsɪm.pəˈθet.ɪk/ (UK)
-say: "sim-pe-TE-tik"
+say: “sim-pe-TE-tik”
 meaning: peduli dan ikut merasakan kesusahan orang lain; pengertian
 example: My boss was really *sympathetic* when I was sick.
 translation: Bosku pengertian banget waktu aku sakit.
@@ -60,7 +60,7 @@ why: Jasa kirim paket alias ekspedisi itu courier. Expedition adalah perjalanan 
 pos: adjective
 word: actual
 ipa: /ˈæk.tʃu.əl/ (UK & US)
-say: "EK-chu-el"
+say: “EK-chu-el”
 meaning: benar-benar ada; sesungguhnya
 example: The *actual* cost was higher than the quote.
 translation: Biaya sebenarnya lebih mahal dari penawarannya.
@@ -70,7 +70,7 @@ note: Aktual dalam arti hangat atau terbaru? Pakai current atau latest: current 
 pos: verb
 word: realize
 ipa: /ˈrɪə.laɪz/ (UK) · /ˈriː.ə.laɪz/ (US)
-say: "RI-e-laiz"
+say: “RI-e-laiz”
 meaning: menyadari; juga mewujudkan (impian, rencana)
 example: I didn't *realize* the shop was already closed.
 translation: Aku nggak sadar tokonya ternyata sudah tutup.

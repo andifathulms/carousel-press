@@ -12,7 +12,7 @@ Bunyi -ed ada tiga, dan cuma satu yang menambah suku kata.
 pos: verb · V2/V3 of walk
 word: walked
 ipa: /wɔːkt/ (UK & US)
-say: "wokt", satu suku kata
+say: “wokt”, satu suku kata
 meaning: berjalan kaki
 example: I *walked* to school this morning.
 translation: Tadi pagi aku jalan kaki ke sekolah.
@@ -21,7 +21,7 @@ translation: Tadi pagi aku jalan kaki ke sekolah.
 pos: verb · V2/V3 of want
 word: wanted
 ipa: /ˈwɒntɪd/ (UK) · /ˈwɑːntɪd/ (US)
-say: "WON-tid", dua suku kata
+say: “WON-tid”, dua suku kata
 meaning: ingin; mau
 example: She *wanted* to quit.
 translation: Dia pengin berhenti.
@@ -34,7 +34,7 @@ Tiga bunyi *-ed*
 | id | want*ed*, need*ed*, decid*ed* |
 ---
 Cara cepat menentukannya
-Kata dasarnya berakhir bunyi t atau d? -ed dibaca "id", tambah satu suku kata. Selain itu, taruh tangan di leher: bunyi terakhir bergetar (seperti b) berarti d; tidak bergetar (p, k, f, s, sh, ch) berarti t.
+Kata dasarnya berakhir bunyi t atau d? -ed dibaca “id”, tambah satu suku kata. Selain itu, taruh tangan di leher: bunyi terakhir bergetar (seperti b) berarti d; tidak bergetar (p, k, f, s, sh, ch) berarti t.
 ---
 [table]
 Pengecualian: kata sifat *-ed*
@@ -43,13 +43,13 @@ Pengecualian: kata sifat *-ed*
 | wick*ed* | jahat |
 | crook*ed* | bengkok |
 | belov*ed* | tercinta |
-Kata sifat ini dibaca "id". Beloved begini di depan kata benda.
+Kata sifat ini dibaca “id”. Beloved begini di depan kata benda.
 ---
 [word]
 pos: adjective (formal)
 word: learned
 ipa: /ˈlɜːnɪd/ (UK) · /ˈlɜːrnɪd/ (US)
-say: "LER-nid", dua suku kata
+say: “LER-nid”, dua suku kata
 meaning: terpelajar; berpengetahuan luas
 example: He was a *learned* man who read every day.
 translation: Dia orang terpelajar yang membaca setiap hari.
@@ -67,4 +67,4 @@ Jawabannya
 ---
 [end cta="Simpan"]
 Kamu dulu baca *wal-ked* juga?
-Jawab "iya" atau "nggak" di komen.
+Jawab “iya” atau “nggak” di komen.
