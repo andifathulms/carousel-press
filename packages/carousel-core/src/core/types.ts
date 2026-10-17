@@ -29,6 +29,7 @@ export const BUILTIN_TEMPLATE_IDS = [
   'editorial/sage',
   'editorial/midnight',
   'editorial/stone',
+  'editorial/tameng',
   'editorial/ruang-kunyit',
   'editorial/ruang-bata',
   'editorial/ruang-daun',

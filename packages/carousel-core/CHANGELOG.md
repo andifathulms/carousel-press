@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- New template `editorial/tameng` (Filsafat Harian): Inter 800 headlines on asphalt, Gentium Book Plus quotes on a paper surface, steel for the limit card, one ember accent.
+- Variant data (default-off, no change to existing templates): `headlineFace`, `quoteWeight`, `quoteSize`, `quoteSurface`, `deco.quoteMark`. The editorial font gate's weights follow `headlineFace`.
+
 ## 1.1.0 (2026-10-16)
 
 - **Script support, hanzi half (SPEC-script M9b).** Hanzi in `[word]` (Noto Serif SC headword in 田字格 practice boxes, ruby pinyin centred per character, `pinyin` with tone marks or numbers, `hsk`, `measure`, `strokes`, `example` with kinsoku and per-character `*…*`, `example-pinyin`), `[table]` (hanzi cells at 0.92 ×, never cut) and `[compare]`. `tones: color` colours hanzi + pinyin pairs by tone. Pinyin normalisation, segmentation and a 410-syllable table (`core/pinyin.ts`). New variant `lexicon/hanzi`. Warnings `pinyin-mismatch`, `pinyin-invalid`. Noto Sans SC 500/700 and Noto Serif SC 700 bundled as unicode-range slices clamped to CJK blocks; `loadFonts(variant, text)` and `loadTextFonts(text)` load the slices a text needs; `renderDeck` does it automatically. Word slides gain `pinyinNormalized`.

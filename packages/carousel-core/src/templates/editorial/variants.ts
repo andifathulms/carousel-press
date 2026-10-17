@@ -102,6 +102,48 @@ export const stone: Variant = {
 };
 
 /**
+ * Filsafat Harian (docs/channels.md §9, DESIGN §5.1), Oct 2026 repositioning: "two voices".
+ * Today's problem in Inter 800 on asphalt and steel; the 2,000-year-old answer in Gentium Book
+ * Plus on a paper surface that every quote slide flips to (the slide made to be screenshotted).
+ * One ember accent, no decoration.
+ */
+export const tameng: Variant = {
+  id: 'editorial/tameng',
+  name: 'Tameng',
+  family: 'editorial',
+  fonts: { serif: 'Gentium Book Plus', sans: 'Inter', mono: 'JetBrains Mono' },
+  surfaces: {
+    aspal: S('#141516', '#F2EEE6', '#CFCAC1', '#8E8A83', '#FF7A4D', '#FF7A4D', '#141516', '#141516', '#FF7A4D', '#222426'),
+    baja: S('#1D262C', '#F2EEE6', '#CAD2D6', '#8F9CA3', '#FF8A5E', '#FF8A5E', '#1D262C', '#1D262C', '#FF8A5E', '#27323A'),
+    kertas: S('#EEE9DF', '#141516', '#3A3834', '#6B675F', '#B23F17', '#141516', '#EEE9DF', '#EEE9DF', '#B23F17', '#E2DCD0'),
+    deep: S('#0D0E0F', '#F2EEE6', '#CBC6BD', '#8A867F', '#FF7A4D', '#FF7A4D', '#0D0E0F', '#0D0E0F', '#FF7A4D', '#1C1E20'),
+  },
+  // Dark for the problem and the idea, paper for the old voice (every quote), steel for the
+  // limit: decks put `surface=baja` on the "Tapi…" card (docs/channels.md §9).
+  rotation: ['aspal'],
+  quoteSurface: 'kertas',
+  quoteSize: { max: 88, min: 60 },
+  headlineFace: 'sans',
+  headlineWeight: 800,
+  quoteWeight: 400,
+  onPhoto: { ...onPhotoBase, accent: '#FFB08F', badgeBg: '#FF7A4D', badgeInk: '#0D0E0F', tint: '#0A0B0C' },
+  code: {
+    ...roseCode, panel: '#1C1E20', border: '#1C1E20', text: '#F2EEE6', prompt: '#FF7A4D',
+    subcommand: '#CAD2D6', flag: '#FFB08F', string: '#C9D3B0', comment: '#8E8A83', dots: null,
+  },
+  // No quote mark: the paper flip and the book face already say "quote", and a tall quote
+  // would push the mark into the header.
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, quoteMark: false },
+  swatches: ['#141516', '#FF7A4D', '#EEE9DF', '#1D262C'],
+  // Compare slides ("kata medsos" vs "kata Stoa"): the myth in a dull steel box, the idea in ember,
+  // instead of the generic red/green pairs.
+  lex: { rule: 'rgba(107,103,95,0.3)', highlight: 'rgba(178,63,23,0.18)', okBg: '#F6D9CB', okInk: '#7E2A0E', badBg: '#E2DCD0', badInk: '#4A4741' },
+  lexSurfaces: Object.fromEntries(
+    ['aspal', 'baja', 'deep'].map((k) => [k, { okBg: '#3A2118', okInk: '#FFB08F', badBg: '#262A2E', badInk: '#B9B4AC' }]),
+  ),
+};
+
+/**
  * Ruang Rasa (docs/channels.md §1): one colour per pillar, the same surface on every
  * slide (covers and ends use `deep`, so `deep` repeats the main surface). No blobs,
  * Fraunces headlines at 500. Tokens from the Oct 2026 account review; contrast-checked.
@@ -139,4 +181,4 @@ export const ruangMalam = ruang('malam', 'Malam',
   S('#131621', '#EDE6DA', '#CFC8BC', '#8F8A84', '#F4B860', '#F4B860', '#131621', '#131621', '#F4B860', '#22263A'),
   '#F4B860', '#07080D', '#0B0D14', ['#131621', '#EDE6DA', '#F4B860', '#22263A']);
 
-export const EDITORIAL_VARIANTS: readonly Variant[] = [roseDusk, sage, midnight, stone, ruangKunyit, ruangBata, ruangDaun, ruangMalam];
+export const EDITORIAL_VARIANTS: readonly Variant[] = [roseDusk, sage, midnight, stone, tameng, ruangKunyit, ruangBata, ruangDaun, ruangMalam];

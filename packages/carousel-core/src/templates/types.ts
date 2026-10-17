@@ -57,6 +57,8 @@ export interface Deco {
   grid?: 'cells' | 'squares';
   /** Grid line colour (colour with alpha). Lexicon falls back to its rule token. */
   gridColor?: string;
+  /** Editorial: the large opening quote mark on quote slides (default on). */
+  quoteMark?: boolean;
   /** Serene: thin inset frame + 8-point star ornament (SPEC-ayah §4). */
   frame?: boolean;
   /** Serene: photos are darkened at least this much (0–100, SPEC-ayah §3.3). */
@@ -95,6 +97,15 @@ export interface Variant {
   /** Headline weight override (dev/terminal; editorial/ruang-* softens serif 700 headlines) and an accent prefix on cover/card headlines. */
   headlineWeight?: number;
   headlinePrefix?: string;
+  /** Editorial: cover/card/end headlines in the sans face at `headlineWeight` (default 700) instead of
+   * the serif; quotes keep the serif (editorial/tameng: today's problem in sans, the old answer in serif). */
+  headlineFace?: 'serif' | 'sans';
+  /** Editorial: quote text weight (default 600). Gentium Book Plus only ships 400 and 700. */
+  quoteWeight?: number;
+  /** Editorial: quote text size range (default 76 → 52), for variants whose quote slide is the hero. */
+  quoteSize?: { max: number; min: number };
+  /** Surface for quote slides that don't set `surface=` (editorial/tameng: the paper quote slide). */
+  quoteSurface?: string;
   /** Overrides the family's header right side (dev/sheet: a rule instead of the terminal path). */
   headerRight?: 'path' | 'rule';
   /** Sport: headlines (cover, card, end) are drawn in capitals. */

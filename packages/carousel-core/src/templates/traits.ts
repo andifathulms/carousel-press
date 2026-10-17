@@ -18,7 +18,11 @@ export interface FamilyTraits {
   weights(v: Variant): { serif?: number[]; sans: number[]; mono: number[] };
 }
 
-const editorialWeights = (): ReturnType<FamilyTraits['weights']> => ({ serif: [500, 600, 700], sans: [400, 500, 600], mono: [400, 500, 600] });
+const editorialWeights = (v: Variant): ReturnType<FamilyTraits['weights']> =>
+  v.headlineFace === 'sans'
+    ? // Sans headlines (editorial/tameng): the serif only draws quotes (and the 700 quote mark).
+      { serif: [...new Set([v.quoteWeight ?? 600, 700])], sans: [...new Set([400, 500, 600, 700, v.headlineWeight ?? 700])], mono: [400, 500, 600] }
+    : { serif: [500, 600, 700], sans: [400, 500, 600], mono: [400, 500, 600] };
 const EDITORIAL_LIKE: Omit<FamilyTraits, 'icons'> = {
   headerRight: 'rule', coverSwipeIcon: true, displayFace: 'serif', weights: editorialWeights,
 };

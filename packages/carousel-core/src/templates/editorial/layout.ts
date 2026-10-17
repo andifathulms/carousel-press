@@ -63,10 +63,15 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
   const boxes: Box[] = [];
   const { surface, name, onPhoto } = resolveSurface(v, slide, input.hasPhoto, warnings);
 
-  // A variant may soften the 700 serif headlines (Ruang Rasa: Fraunces 500).
+  // A variant may soften the 700 serif headlines (Ruang Rasa: Fraunces 500), set them in the sans
+  // face (editorial/tameng), and change the quote weight. Serif 700 = the cover/card/end headlines.
   const spec = (s: Spec): TextSpec => {
-    const weight = s.face === 'serif' && s.weight === 700 && v.headlineWeight ? v.headlineWeight : s.weight;
-    return { ...s, weight, family: s.face === 'serif' ? serif : sans, mono: { family: mono, weight: weight >= 600 ? 600 : 400 } };
+    const headline = s.face === 'serif' && s.weight === 700;
+    const face = headline && v.headlineFace === 'sans' ? 'sans' : s.face;
+    let weight = headline && v.headlineWeight ? v.headlineWeight : s.weight;
+    if (s === TYPE.quote && v.quoteWeight) weight = v.quoteWeight;
+    const size = s === TYPE.quote && v.quoteSize ? v.quoteSize : {};
+    return { ...s, ...size, weight, family: face === 'serif' ? serif : sans, mono: { family: mono, weight: weight >= 600 ? 600 : 400 } };
   };
   const items: StackItem[] = [];
   const push = (it: StackItem): void => {

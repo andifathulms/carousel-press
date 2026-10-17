@@ -285,6 +285,19 @@ fonts: serif `Fraunces`, sans `Instrument Sans`, mono `JetBrains Mono` · rotati
 onPhoto: as rose-dusk, with accent and badgeBg set to the pillar accent (kunyit #FFD877), badgeInk `#1B1A19`, plus a dark tint per pillar. code: rose-dusk tokens on a dark pillar panel.
 deco: none.
 
+**`editorial/tameng`**: Filsafat Harian (Oct 2026). "Two voices": today's problem in heavy sans on asphalt, the 2,000-year-old answer in a book face on paper. Asphalt, steel and one ember accent. No decoration, no quote mark.
+fonts: serif `Gentium Book Plus` (quotes only, 400), sans `Inter` (headlines 800) · rotation `['aspal']` · quotes use `kertas` (`quoteSurface`), the "Tapi…" card sets `surface=baja` · swatches `#141516 #FF7A4D #EEE9DF #1D262C`
+
+| Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |
+|---|---|---|---|---|---|---|---|---|---|---|
+| aspal | #141516 | #F2EEE6 | #CFCAC1 | #8E8A83 | #FF7A4D | #FF7A4D | #141516 | #141516 | #FF7A4D | #222426 |
+| baja | #1D262C | #F2EEE6 | #CAD2D6 | #8F9CA3 | #FF8A5E | #FF8A5E | #1D262C | #1D262C | #FF8A5E | #27323A |
+| kertas | #EEE9DF | #141516 | #3A3834 | #6B675F | #B23F17 | #141516 | #EEE9DF | #EEE9DF | #B23F17 | #E2DCD0 |
+| deep | #0D0E0F | #F2EEE6 | #CBC6BD | #8A867F | #FF7A4D | #FF7A4D | #0D0E0F | #0D0E0F | #FF7A4D | #1C1E20 |
+
+Variant switches (generic, data-only): `headlineFace: 'sans'` + `headlineWeight: 800` (cover/card/end headlines in the sans face), `quoteWeight: 400`, `quoteSize: { max: 88, min: 60 }`, `quoteSurface: 'kertas'`, `deco.quoteMark: false`. Compare/word/table slides use the sans for their headline-styled text too. Compare boxes: on paper ok `#F6D9CB`/`#7E2A0E`, bad `#E2DCD0`/`#4A4741`; on dark surfaces ok `#3A2118`/`#FFB08F`, bad `#262A2E`/`#B9B4AC` (the myth in dull steel, the idea in ember).
+onPhoto: accent `#FFB08F`, badgeBg `#FF7A4D`, badgeInk `#0D0E0F`, tint `#0A0B0C`. code: panel `#1C1E20`, prompt `#FF7A4D`, others as stone.
+
 ### 5.2 Cover (editorial)
 - Background: the photo (3.6) or the `deep` surface + blobs.
 - Stack from y = 300: [kicker (if any) → gap 32] → **cover headline** → gap 40 → **subtitle**.

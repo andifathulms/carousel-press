@@ -22,7 +22,7 @@ export function layoutLexSlide(input: LayoutInput): SlideLayout {
   const sans = v.fonts.sans;
   const mono = v.fonts.mono;
   const c: LexCtx = {
-    v, s: surface, tok: lexTokens(v, surface, onPhoto, name), m, lang: deck.lang, serif: v.fonts.serif ?? sans, sans,
+    v, s: surface, tok: lexTokens(v, surface, onPhoto, name), m, lang: deck.lang, serif: v.headlineFace === 'sans' ? sans : v.fonts.serif ?? sans, sans,
     slideIndex: slide.index, line: slide.lines[0], warnings, tones: deck.tones === 'color',
   };
   const lex = slide.type === 'word' ? (isArabic(slide.fields.word) ? layoutWordArabic(c, slide.fields)

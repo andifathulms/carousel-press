@@ -73,6 +73,7 @@ export function resolveSurface(v: Variant, slide: Slide, hasPhoto: boolean, warn
   if (hasPhoto) return { surface: v.onPhoto, name: 'onPhoto', onPhoto: true };
   const isContent = slide.contentIndex >= 0;
   let name = isContent ? v.rotation[slide.contentIndex % v.rotation.length]! : 'deep';
+  if (slide.type === 'quote' && v.quoteSurface && v.surfaces[v.quoteSurface]) name = v.quoteSurface;
   const req = slide.attrs.surface;
   if (req && req !== 'auto') {
     if (v.surfaces[req]) name = req;

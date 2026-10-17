@@ -30,7 +30,7 @@ export function drawEditorial(ctx: Ctx, L: SlideLayout): void {
     return;
   }
 
-  if (slide.type === 'quote' && !L.center) {
+  if (slide.type === 'quote' && !L.center && v.deco.quoteMark !== false) {
     const q = FIXED.quoteMark;
     setShadow(ctx, false);
     setFont(ctx, { family: serif, weight: q.weight, size: q.size });
