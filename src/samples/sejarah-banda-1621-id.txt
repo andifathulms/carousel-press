@@ -2,60 +2,48 @@ handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: banda 1621
-caption: Pala dulu hanya tumbuh di Kepulauan Banda. Tahun 1621 VOC datang untuk memilikinya sendiri. Sumber: Vincent C. Loth, "Pioneers and Perkeniers: The Banda Islands in the 17th Century", Cakalele 6 (1995); Colenbrander, Jan Pieterszoon Coen: Bescheiden I (1919), surat 27 Des 1614; Hurulean dkk., Arbitrer 4(1) 2022 (Univ. Pattimura); M. van Pagee (2024) · Foto: Schlawensko (CC BY-SA 4.0) via Wikimedia Commons; Rijksmuseum, Nationaal Archief (domain publik/CC0) #sejarahindonesia #banda #maluku #pala
+caption: Kepulauan Banda, Maluku: pala dulu hanya tumbuh di sini, dan tahun 1621 VOC datang untuk memilikinya sendiri. Sumber: Vincent C. Loth, "Pioneers and Perkeniers: The Banda Islands in the 17th Century", Cakalele 6 (1995); Colenbrander, Jan Pieterszoon Coen: Bescheiden I (1919), surat 27 Des 1614; Hurulean dkk., Arbitrer 4(1) 2022 (Univ. Pattimura); M. van Pagee (2024) · Foto: Schlawensko (CC BY-SA 4.0) via Wikimedia Commons; Rijksmuseum, Nationaal Archief (domain publik/CC0) #sejarahindonesia #banda #maluku #pala
 ---
-[cover photo=banda-vingboons]
+[cover kicker="MALUKU · 1621" photo=banda-vingboons]
 Dulu Pala Hanya Tumbuh | di Pulau-Pulau Ini
-Lalu VOC ingin memilikinya sendiri. Kepulauan Banda, Maluku, 1621.
+Kepulauan Banda. Tahun 1621 VOC datang untuk memilikinya sendiri.
 ---
-[number=off icon=leaf photo=banda-pala]
-Satu-satunya sumber pala
-Sampai abad ke-17, Kepulauan Banda adalah satu-satunya sumber pala dan fuli di dunia. Orang Banda menjualnya kepada siapa saja, lalu membeli beras dan kebutuhan lain dari para pedagang itu.
+[number=off icon=none photo=banda-vingboons]
+*1621*: Coen datang sendiri
+Gubernur Jenderal Jan Pieterszoon Coen memimpin 19 kapal dengan 1.655 serdadu Eropa dan 286 serdadu Asia. Di Banda, pasukan lokal dan 36 perahu ikut bergabung.
 ---
-[number=off icon=map-pin photo=banda-peta]
+[number=off icon=none photo=banda-lonthor]
+Para orang kaya dipancung
+Mereka menawarkan kontrak yang menuruti semua tuntutan VOC; Coen menolak. Para pemimpin diadili, lalu dipancung algojo Jepang bayaran VOC: 44 orang menurut sebagian sumber, 48 menurut yang lain.
+---
+[number=off icon=none photo=banda-lonthor]
+Lari ke gunung
+Sekitar 789 anggota keluarga orang kaya dikapalkan ke Batavia, sebagian dijadikan budak. Penduduk Lonthor yang lari ke gunung dikepung berbulan-bulan; banyak memilih melompat dari tebing atau kelaparan daripada menyerah.
+---
+[number=off icon=none photo=banda-peta]
 *1599*: Belanda datang
-Orang Banda menyambut Belanda dengan baik, karena sedang berusaha menyingkirkan Portugis. Tapi VOC ingin pala dijual hanya kepadanya. Kontrak monopoli diteken, lalu terus dilanggar, karena makanan orang Banda datang dari pedagang lain.
+Orang Banda menyambut Belanda, karena sedang berusaha menyingkirkan Portugis. Kontrak monopoli pala diteken, lalu terus dilanggar, karena makanan orang Banda datang dari pedagang lain.
 ---
-[number=off icon=alert photo=banda-gijsels-1635]
+[number=off icon=none photo=banda-gijsels-1635]
 *1609*: perundingan berdarah
-Rombongan VOC yang datang berunding diserang. Pemimpinnya, Pieter Verhoeven, dan puluhan anak buahnya tewas. Persaingan dengan Inggris membuat VOC makin condong ke jalan perang.
+Rombongan VOC yang datang berunding diserang; pemimpinnya, Pieter Verhoeven, dan puluhan anak buahnya tewas. Persaingan dengan Inggris membuat VOC makin condong ke jalan perang.
 ---
 [quote icon=none photo=banda-gijsels-1635]
 Perdagangan tidak bisa dipertahankan tanpa perang, dan perang tidak bisa dipertahankan tanpa perdagangan.
 — Jan Pieterszoon Coen kepada direksi VOC, 27 Desember 1614 (terjemahan)
 ---
-[number=off icon=alert photo=banda-peta]
-*1616*: Pulau Ai jatuh
-Setelah gagal pada 1610 dan 1615, 240 tentara Belanda dan 23 orang Jepang merebut Pulau Ai. Banyak pembela tewas. Sekitar 400 orang, banyak di antaranya perempuan dan anak-anak, tenggelam saat lari ke Pulau Run.
----
-[number=off icon=mountain photo=banda-vingboons]
-*1621*: Coen datang sendiri
-Gubernur Jenderal Jan Pieterszoon Coen memimpin 19 kapal dengan 1.655 serdadu Eropa dan 286 serdadu Asia. Di Banda, pasukan lokal dan 36 perahu ikut bergabung. Sasaran utamanya Lonthor, pulau terbesar.
----
-[number=off icon=alert photo=banda-lonthor]
-Para orang kaya dipancung
-Para orang kaya menawarkan kontrak baru yang menuruti semua tuntutan VOC. Coen menolak. Para pemimpin ditangkap, diadili, lalu dipancung algojo Jepang bayaran VOC. Sebagian sumber menyebut 44 orang, sebagian lagi 48.
----
-[number=off icon=mountain photo=banda-lonthor]
-Lari ke gunung
-Sekitar 789 anggota keluarga orang kaya dikapalkan ke Batavia; sebagian dijadikan budak sampai ke Sri Lanka. Penduduk Lonthor yang selamat lari ke gunung dan dikepung berbulan-bulan. Banyak yang memilih melompat dari tebing atau kelaparan daripada menyerah.
----
-[number=off icon=clock photo=banda-lonthor]
+[number=off icon=none photo=banda-lonthor]
 Berapa yang tersisa?
-Angkanya diperdebatkan. Sejarawan Vincent Loth memperkirakan, dari sekitar 15.000 penduduk, hanya sekitar 1.000 yang tersisa. Penulis lain, seperti Marjolein van Pagee, menilai banyak orang Banda sedang berada di luar pulau saat armada datang.
+Angkanya diperdebatkan. Vincent Loth memperkirakan, dari sekitar 15.000 penduduk, hanya sekitar 1.000 yang tersisa. Marjolein van Pagee menilai banyak orang Banda sedang di luar pulau saat armada datang.
 ---
-[number=off icon=leaf photo=banda-pala]
+[number=off icon=none photo=banda-pala]
 Perkenier dan budak
-Kebun pala dibagi menjadi petak (perk) dan diserahkan kepada pendatang Eropa, para perkenier. Penggarapnya budak dari Gujarat, Malabar, Jawa, Kalimantan, Buton, Kei, Aru, dan tempat lain. Banyak yang mati karena perlakuan buruk dan penyakit.
+Kebun pala dibagi jadi petak (perk) untuk pendatang Eropa, para perkenier. Penggarapnya budak dari Gujarat, Malabar, Jawa, Buton, Kei, dan tempat lain; banyak mati karena perlakuan buruk dan penyakit.
 ---
-[number=off icon=map-pin photo=banda-peta]
+[number=off icon=none photo=banda-peta]
 Yang lolos ke Kei
-Sebagian kecil kabur dengan perahu pada malam hari, ke Kei, Seram, dan pulau-pulau lain. Di Kei Besar, Desa Banda Eli dan Banda Elat masih memakai bahasa Banda sampai sekarang.
----
-[number=off icon=star photo=banda-run-1623]
-*1667*: Pulau Run dan New York
-Inggris sempat bertahan di Pulau Run. Lewat Perdamaian Breda 1667, Inggris melepas klaimnya atas Run, sementara Nieuw Amsterdam di Amerika menjadi milik Inggris. Kota itu kini bernama New York.
+Sebagian kecil kabur dengan perahu pada malam hari, ke Kei, Seram, dan pulau lain. Di Kei Besar, Desa Banda Eli dan Banda Elat masih memakai bahasa Banda sampai sekarang.
 ---
 [end photo=banda-vingboons cta="Komen"]
 Pernah *diajarkan di sekolahmu?*
-Jawab satu kata di komen: pernah atau belum.
+Jawab satu kata di komen: pernah atau belum. Orang Maluku, kirim ke grupmu.

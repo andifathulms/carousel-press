@@ -18,7 +18,6 @@ Every slide of the history decks has a photo (sports decks use drawn diagrams si
 | Photo ID | Deck | Commons file | Author | Licence |
 |---|---|---|---|---|
 | kutai-mahakam | Kutai | Rivier_Mahakam_(Koetai-rivier)_te_Midden-Borneo,_KITLV_143508.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
-| kutai-masjid-amir-hasanuddin | Kutai | Masjid_Jami_Aji_Amir_Hasanuddin_(1).jpg | Fauzan Noviatmoko | CC BY-SA 4.0 |
 | kutai-parikesit | Kutai | Sultan_Aji_Muhammad_Parikesit,_sultan_van_Koetai,_KITLV_176300.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
 | kutai-mahkota | Kutai | Mahkota_Sultan_Kutai_3.jpg | Gunawan Kartapranata | CC BY-SA 4.0 |
 | yupa-replika-muara-kaman | Yupa | Replika_Prasasti_Yupa.JPG | Ezagren | CC BY-SA 4.0 |
@@ -74,13 +73,11 @@ Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterd
 | mandor-kapuas-pontianak | Mandor | De_Kleine_Kapoeas-rivier_te_Pontianak,_Borneo,_KITLV_124745.tiff | M. Honda (presumed), KITLV 124745 | CC BY 4.0 |
 | mandor-makam-juang | Mandor | Makam_Juang_Mandor.jpg | Widita22 | CC BY-SA 4.0 |
 | mandor-hulu-kapuas | Mandor | Rivier_bij_de_Boven-Kapoeas_op_Borneo,_KITLV_152218.tiff | Anonymous (from A.W. Nieuwenhuis, In Centraal Borneo, 1900), KITLV 152218 | CC BY 4.0 |
-| mandor-hamid | Mandor | Syarif_Hamid_II_of_Pontianak.jpg | Unknown (Nationaal Archief, 10 Apr 1950) | Public domain |
 | sumtim-maimun | Sumatra Timur 1946 | Istana_Maimun_Medan.jpg | Ramada Febrian | CC BY-SA 4.0 |
 | sumtim-tembakau | Sumatra Timur 1946 | Sorteren_van_Tabak_in_fermenteerschuur_Deli_Toewa,_Bestanddeelnr_803_15.jpg | J. Willem Schut / Nationaal Archief (Fotocollectie Deli Maatschappij, 1897) | CC0 |
 | sumtim-peta | Sumatra Timur 1946 | Kaart_van_de_Oostkust_van_Sumatra,_Bestanddeelnr_853_10.jpg | Nationaal Archief (Deli Maatschappij map, undated) | CC0 |
 | sumtim-azizi | Sumatra Timur 1946 | Azizi_Mosque.jpg | Davidelit | CC BY-SA 4.0 |
 | sumtim-amir-hamzah | Sumatra Timur 1946 | Amir_Hamzah_portrait.JPG | Uncredited (from H.B. Jassin, Amir Hamzah, Radja Penjair Pudjangga Baru, 1962) | Public domain |
-| sumtim-mansur | Sumatra Timur 1946 | Negara_feestenl_toespraak_van_Wali_Negara_Tengkoe_Mansoer,_Bestanddeelnr_1601-15-1.jpg | A.J.M. Loomans / DLC, Nationaal Archief (Medan, 13 March 1948) | CC0 |
 | westerling-monumen | Westerling | Monumen_Korban_40.000_Jiwa_Sulawesi_Selatan.jpg (top cropped) | Wadaihangit | CC BY-SA 4.0 |
 | westerling-pelabuhan | Westerling | Makassar_Bedrijvigheid_in_de_haven_van_Makassar.,_Bestanddeelnr_431-1-4.jpg | Nationaal Archief / Dienst voor Legercontacten Indonesië (10 Nov 1947) | CC0 |
 | westerling-potret | Westerling | Kapitein_Westerling_verkleurd_glasnegatief,_Bestanddeelnr_903-8219.jpg | Daan Noske / Anefo, Nationaal Archief (10 Feb 1950) | CC0 |
@@ -98,7 +95,6 @@ Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterd
 | banda-peta | Banda 1621 | AMH-6427-NA_Map_of_the_Banda_islands.jpg | after Emmanuel Godinho de Erédia (Nationaal Archief) | Public domain |
 | banda-gijsels-1635 | Banda 1621 | Banda_Neira_and_Gunung_Api.jpg | Artus Gijsels, 1635 | Public domain |
 | banda-lonthor | Banda 1621 | Gezicht_vanuit_Lontar_op_Banda_Neira_en_rokende_Gunungapi,_Banda-eilanden,_Centraal-Molukken,_RP-T-1999-175(R).jpg | Rijksmuseum | CC0 |
-| banda-run-1623 | Banda 1621 | AMH-4740-NA_Map_of_Poeloe_Run.jpg | Batavia mapmaker, 1623 (Nationaal Archief) | Public domain |
 | kedukan-bukit | Kedukan Bukit | Prasasti_Kedukan_Bukit_3.jpg | Gunawan Kartapranata | CC BY-SA 4.0 |
 | kedukan-musi-kitlv | Kedukan Bukit | Prauwen_op_de_rivier_de_Moesi,_KITLV_4571.tiff (border cropped) | Anonymous, KITLV 4571 | CC BY 4.0 |
 | kedukan-siguntang | Kedukan Bukit | Bukit_Siguntang.jpg | The Bangsawan | CC BY-SA 4.0 |
@@ -120,4 +116,3 @@ Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterd
 | buton-wandailolo | Martabat Tujuh | Lawana_Wandailolo.jpg | Marwan Mohamad | CC BY-SA 4.0 |
 | buton-batu-wolio | Martabat Tujuh | Batu_Wolio.jpg | Marwan Mohamad | CC BY-SA 4.0 |
 | buton-utusan-kitlv | Martabat Tujuh | Gezantschap_van_het_eiland_Boeton_in_de_Roemah_Sobat_te_Makassar,_KITLV_2948.tiff (border cropped) | Anonymous, KITLV 2948 | CC BY 4.0 |
-| buton-pelabuhan-kaudern | Martabat Tujuh | Båtar_i_hamnen._Buton,_Sulawesi._Indonesien_-_SMVK_-_000219.tif (bottom cropped) | Walter Kaudern | Public domain |

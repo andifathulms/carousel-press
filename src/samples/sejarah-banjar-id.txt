@@ -2,60 +2,44 @@ handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: kesultanan banjar dihapus
-caption: Belanda menghapus kesultanannya, tapi putra Antasari masih melawan sampai gugur pada 1905. Sumber: Norpikriadi, Naditira Widya 8(2) 2014; Kalimantan (Kementerian Penerangan, 1953); Tirto (2021) mengutip Idwar Saleh & Helius Sjamsuddin; Amerta (BRIN); RCE, basis data kapal karam (Onrust); De Gids (1860); Setneg #sejarahindonesia #banjar #kalimantanselatan
+caption: Banjar, Kalimantan Selatan: Belanda menghapus kesultanannya pada 1860, tapi putra Antasari masih melawan sampai gugur pada 1905. Sumber: Norpikriadi, Naditira Widya 8(2) 2014; Kalimantan (Kementerian Penerangan, 1953); Tirto (2021) mengutip Idwar Saleh & Helius Sjamsuddin; Amerta (BRIN); RCE, basis data kapal karam (Onrust); De Gids (1860); Setneg · Foto: Ilham Mufti Laksono, Tim WikiBarakat – WikiBanua, Herusutimbul (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #banjar #kalimantanselatan
 ---
-[cover photo=banjar-perang-tongka]
+[cover kicker="KALIMANTAN SELATAN · 1860–1905" photo=banjar-perang-tongka]
 Dihapus 1860, | Melawan sampai 1905
-Kesultanannya sudah tiada, perangnya jalan terus 45 tahun. Kesultanan Banjar, Kalimantan Selatan.
+Kesultanan Banjar sudah tiada, tapi perangnya jalan terus 45 tahun.
 ---
-[number=off icon=key photo=banjar-pengaron]
-Akar perang: takhta dan batu bara
-Sultan Adam menginginkan Hidayatullah sebagai penerus, tapi Belanda menobatkan Tamjidillah pada 3 November 1857. Sejak 1849 pemerintah kolonial juga menambang batu bara di Pengaron, di tanah kesultanan.
----
-[number=off icon=alert photo=banjar-pengaron]
-*Akhir April 1859*: perang dimulai
-Pasukan Banjar menyerang pos Belanda di Martapura dan tambang batu bara Oranje Nassau di Pengaron. Bentengnya bertahan, tapi kawasan tambang terbakar.
----
-[number=off icon=alert photo=banjar-perang-tongka]
-*1 Mei 1859*: Kalangan
-Di tambang batu bara Kalangan, pekerja Eropa dibunuh. Menurut catatan sezaman, insinyur Inggris James Motley tewas bersama keluarganya. Sumber Indonesia lama menyebut sebagian perempuan dan anak diselamatkan.
----
-[number=off icon=star photo=banjar-sungai-martapura]
-*Juni 1859*: sultan dicopot
-Belanda mencopot Sultan Tamjidillah II dan mengirimnya ke Bogor dengan uang pensiun. Para pengikut lalu mengangkat Pangeran Hidayatullah sebagai sultan.
----
-[number=off icon=mountain photo=banjar-sungai-martapura]
-*Desember 1859*: kapal Onrust
-Tumenggung Surapati berpura-pura mau membantu Belanda menangkap Antasari. Di Sungai Barito, pasukannya menyerbu kapal uap Onrust; komandan dan puluhan awaknya tewas, kapal tenggelam. Belanda membalas dengan membakar kampung-kampung di tepi Barito.
----
-[number=off icon=book photo=banjar-masjid-suriansyah]
+[number=off icon=none photo=banjar-masjid-suriansyah]
 *11 Juni 1860*: kesultanan dihapus
-Setelah keputusan Batavia pada Desember 1859, Belanda memproklamasikan penghapusan Kesultanan Banjar dan wilayahnya diambil alih pemerintah kolonial. Tapi perlawanan tidak berhenti di situ.
+Belanda memproklamasikan penghapusan Kesultanan Banjar, dan wilayahnya diambil alih pemerintah kolonial. Tapi perlawanan tidak berhenti di situ.
 ---
-[number=off icon=map-pin photo=banjar-hidayatullah]
+[number=off icon=none photo=banjar-pengaron]
+*1857*: takhta dan batu bara
+Sultan Adam menginginkan Hidayatullah sebagai penerus, tapi Belanda menobatkan Tamjidillah. Sejak 1849 pemerintah kolonial juga menambang batu bara di Pengaron, di tanah kesultanan.
+---
+[number=off icon=none photo=banjar-pengaron]
+*1859*: perang dimulai
+Akhir April, pasukan Banjar menyerang pos Belanda di Martapura dan tambang Pengaron. 1 Mei di tambang Kalangan, pekerja Eropa dibunuh; sumber Indonesia lama menyebut sebagian perempuan dan anak diselamatkan.
+---
+[number=off icon=none photo=banjar-sungai-martapura]
+*Desember 1859*: kapal Onrust
+Pura-pura membantu Belanda, Tumenggung Surapati menyerbu kapal uap Onrust di Barito: komandan dan puluhan awaknya tewas. Belanda membalas dengan membakar kampung-kampung di tepi Barito.
+---
+[number=off icon=none photo=banjar-hidayatullah]
 *1862*: Hidayatullah ditangkap
-Ia ditangkap lewat tipu daya: Belanda menjanjikan takhta, dan ibunya, Ratu Siti, ditahan di Martapura. Hidayatullah diasingkan ke Cianjur dan tinggal di sana sampai wafat pada 1904.
+Ia ditangkap lewat tipu daya: Belanda menjanjikan takhta, dan ibunya, Ratu Siti, ditahan di Martapura. Hidayatullah diasingkan ke Cianjur sampai wafat pada 1904.
 ---
-[number=off icon=shield-heart photo=banjar-makam-antasari]
-Pangeran Antasari
-Pada 14 Maret 1862, Antasari diangkat sebagai Panembahan Amiruddin Khalifatul Mukminin, disaksikan para kepala suku Dayak. Ia wafat karena sakit pada 11 Oktober 1862 di hulu Barito.
+[number=off icon=none photo=banjar-perang-tongka]
+*1864*: Demang Lehman digantung
+Panglima setia Hidayatullah ini ditangkap setelah dikhianati demi imbalan, lalu digantung di Martapura. Cerita bahwa kepalanya disimpan di Leiden belum terbukti.
 ---
-[number=off icon=alert photo=banjar-perang-tongka]
-Demang Lehman
-Panglima setia Hidayatullah ini ditangkap pada Februari 1864 setelah dikhianati demi imbalan, lalu digantung di Martapura. Cerita bahwa kepalanya disimpan di Leiden belum terbukti.
+[number=off icon=none photo=banjar-sungai-martapura]
+*1905*: putra Antasari gugur
+Sultan Muhammad Seman memimpin pemerintahan Pagustian di hulu Barito. Ia gugur melawan pasukan Marsose Belanda pada 1905, dan anak-anaknya masih melawan sampai 1906.
 ---
-[number=off icon=mountain photo=banjar-sungai-martapura]
-Perlawanan sampai 1905
-Putra Antasari, Sultan Muhammad Seman, memimpin pemerintahan Pagustian di hulu Barito. Ia gugur melawan pasukan Marsose Belanda pada 1905, dan anak-anaknya masih melawan sampai 1906.
+[number=off icon=none photo=banjar-makam-antasari]
+*1968*: Antasari, Pahlawan Nasional
+Antasari wafat karena sakit di hulu Barito pada 1862. Tahun 2010 Keraton Banjar dibentuk kembali sebagai lembaga adat dan budaya, tanpa kekuasaan politik.
 ---
-[number=off icon=star photo=banjar-makam-antasari]
-*1968*: Pahlawan Nasional
-Antasari ditetapkan sebagai Pahlawan Nasional lewat Keppres No. 06/TK/1968. Sepuluh tahun sebelumnya, makamnya dipindahkan ke Banjarmasin.
----
-[number=off icon=leaf photo=banjar-bubungan-tinggi]
-*2010*: keraton dihidupkan lagi
-Keraton Banjar dibentuk kembali pada 2010 sebagai lembaga adat dan budaya, tanpa kekuasaan politik.
----
-[end photo=banjar-masjid-suriansyah]
+[end photo=banjar-perang-tongka cta="Komen"]
 Perang 45 tahun ini *pernah diajarkan di sekolahmu?*
-Jawab 'pernah' atau 'belum'.
+Jawab “pernah” atau “belum”.

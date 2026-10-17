@@ -2,52 +2,44 @@ handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: opu daeng risaju
-caption: Belakangan ia ditahan 11 bulan tanpa pengadilan, dan tembakan senapan di dekat telinganya membuatnya tuli. Sumber: Kemdikbud, Sejarah Indonesia Kelas XII (2018), hlm. 42–44; Amir & Azis, Al-Qalam 28(2) 2022; Mattingaragau, Andi Djemma Pahlawan Nasional (2016); Masita dkk., JPDSH 1(5) 2022; Republika (2014); Setneg · Foto: Midori (CC BY 3.0), Jorge Franganillo (CC BY 2.0), KITLV/Leiden University Libraries (CC BY 4.0; rapat Sarekat Islam di Blitar) via Wikimedia Commons; Silentwinner (CC0) #sejarahindonesia #luwu #sulawesiselatan
+caption: Luwu, Sulawesi Selatan: tahun 1934 Opu Daeng Risaju dipenjara, diceraikan, dan gelarnya dicabut karena menolak keluar dari PSII. Sumber: Kemdikbud, Sejarah Indonesia Kelas XII (2018), hlm. 42–44; Amir & Azis, Al-Qalam 28(2) 2022; Mattingaragau, Andi Djemma Pahlawan Nasional (2016); Masita dkk., JPDSH 1(5) 2022; Republika (2014); Setneg · Foto: Midori (CC BY 3.0), Jorge Franganillo (CC BY 2.0), KITLV/Leiden University Libraries (CC BY 4.0; rapat Sarekat Islam di Blitar) via Wikimedia Commons; Silentwinner (CC0) #sejarahindonesia #luwu #sulawesiselatan
 ---
-[cover photo=risaju-istana-luwu]
+[cover kicker="SULAWESI SELATAN · 1934" photo=risaju-istana-luwu]
 Dipenjara, Diceraikan, | Gelarnya Dicabut
-Karena menolak keluar dari PSII. Opu Daeng Risaju, bangsawan Luwu, 1934.
+Opu Daeng Risaju, bangsawan Luwu, karena menolak keluar dari PSII.
 ---
-[number=off icon=home photo=risaju-palopo]
-Lahir di Palopo, 1880
-Nama kecilnya Famajjah. Ia keturunan bangsawan Luwu dan tidak pernah bersekolah Barat. Suaminya, H. Muhammad Daud, seorang ulama yang pernah tinggal di Makkah.
+[number=off icon=none photo=risaju-rumah-adat-luwu]
+*1934*: hukuman karena PSII
+Ia dipenjara lagi 14 bulan, gelar bangsawannya dicabut, dan suaminya menceraikannya. Sumber berbeda soal siapa yang menghukum: dewan adat Luwu atau pemerintah Belanda.
 ---
-[number=off icon=book photo=risaju-sarekat-islam]
-*1927*: bergabung dengan PSII
-Di Parepare, lewat H. Muhammad Yahya, ia bergabung dengan Partai Sarekat Islam Indonesia.
+[number=off icon=none photo=risaju-palopo]
+*1880*: lahir di Palopo
+Nama kecilnya Famajjah, keturunan bangsawan Luwu, tak pernah bersekolah Barat. Tahun 1927 di Parepare, ia bergabung dengan Partai Sarekat Islam Indonesia (PSII).
 ---
-[number=off icon=star photo=risaju-masjid-tua-palopo]
-*Januari 1930*: cabang Palopo
+[number=off icon=none photo=risaju-sarekat-islam]
+*Januari 1930*: memimpin PSII Palopo
 Ia mendirikan dan memimpin PSII cabang Palopo. Saat itu jarang sekali perempuan memimpin organisasi Islam.
 ---
-[number=off icon=alert photo=risaju-jembatan-rimbung]
+[number=off icon=none photo=risaju-jembatan-rimbung]
 Dipenjara, tetap berangkat
-Kontrolir Belanda di Masamba menuduhnya menghasut rakyat, dan ia dipenjara 13 bulan. Pada 1933 ia tetap berangkat ke kongres PSII di Jawa, dengan biaya dari menjual hartanya.
+Kontrolir Belanda di Masamba menuduhnya menghasut rakyat, dan ia dipenjara 13 bulan. Tahun 1933 ia tetap ke kongres PSII di Jawa, dibiayai dari menjual hartanya.
 ---
-[number=off icon=chat photo=risaju-istana-luwu]
-Datu Luwu di pihak mana?
-Datu Luwu saat itu, Andi Kambo, adalah perempuan, ibu Andi Djemma. Belanda memintanya membujuk Opu Daeng Risaju keluar dari PSII. Bujukan itu gagal.
+[number=off icon=none photo=risaju-istana-luwu]
+Datu Luwu diminta membujuknya
+Datu Luwu saat itu, Andi Kambo, adalah perempuan, ibu Andi Djemma. Belanda memintanya membujuk Opu Daeng Risaju keluar dari PSII, tapi bujukan itu gagal.
 ---
-[number=off icon=key photo=risaju-rumah-adat-luwu]
-*1934*: gelarnya dicabut
-Ia kembali dipenjara 14 bulan, gelar bangsawannya dicabut, dan suaminya menceraikannya. Sumber berbeda soal siapa yang menghukum: dewan adat Luwu atau pemerintah Belanda.
----
-[number=off icon=mountain photo=risaju-monumen-toddopuli]
+[number=off icon=none photo=risaju-monumen-toddopuli]
 *23 Januari 1946*: Luwu melawan
-Pemuda Luwu menyerang pasukan NICA. Orang yang dianggap pro-NICA juga dibunuh, sebagian kerabat Datu Luwu Andi Djemma sendiri. Juni 1946 Andi Djemma tertangkap dan dihukum 25 tahun.
+Pemuda Luwu menyerang pasukan NICA. Orang yang dianggap pro-NICA juga dibunuh, sebagian kerabat Datu Luwu Andi Djemma sendiri.
 ---
-[number=off icon=alert photo=risaju-jembatan-rimbung]
-Sebelas bulan tanpa pengadilan
-Ditangkap tentara NICA, ia dibawa berjalan kaki ke Watampone, lalu dipenjara di Bone, Sengkang, dan Bajo. Seorang kepala distrik menembakkan senapan di dekat telinganya hingga ia tuli. Setelah 11 bulan ia dilepas tanpa diadili.
+[number=off icon=none photo=risaju-jembatan-rimbung]
+11 bulan ditahan tanpa diadili
+Ditangkap tentara NICA, ia dibawa berjalan kaki ke Watampone, lalu dipenjara di Bone, Sengkang, dan Bajo. Seorang kepala distrik menembakkan senapan di dekat telinganya hingga ia tuli.
 ---
-[number=off icon=moon photo=risaju-rumah-adat-luwu]
-*10 Februari 1964*: wafat
-Sejak 1949 ia tinggal bersama putranya di Parepare. Ia wafat pada 1964 dan dimakamkan di pemakaman raja-raja Lokkoe, Palopo.
----
-[number=off icon=shield-heart photo=risaju-monumen-toddopuli]
+[number=off icon=none photo=risaju-masjid-tua-palopo]
 *2006*: Pahlawan Nasional
-Usulan gelarnya dibahas dalam seminar nasional di Makassar pada Juni 2006, 42 tahun setelah ia wafat. Keppres No. 085/TK/2006 terbit pada 3 November 2006.
+Ia wafat 10 Februari 1964 dan dimakamkan di pemakaman raja-raja Lokkoe, Palopo. Keppres No. 085/TK/2006 menjadikannya Pahlawan Nasional, 42 tahun kemudian.
 ---
-[end photo=risaju-istana-luwu]
+[end photo=risaju-istana-luwu cta="Komen"]
 Kamu pernah dengar *nama Opu Daeng Risaju?*
-Jawab 'pernah' atau 'baru tahu'.
+Komen ‘pernah’ atau ‘baru tahu’. Orang Luwu, kirim ke grupmu.

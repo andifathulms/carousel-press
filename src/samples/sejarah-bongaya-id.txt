@@ -2,60 +2,44 @@ handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: perjanjian bongaya
-caption: Ditandatangani setelah setahun perang, tapi dua tahun kemudian Somba Opu tetap jatuh. Sumber: Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud, 1975) termasuk teks perjanjian; Andaya, The Heritage of Arung Palakka (1981); Palallo, Attoriolong 18(1) 2020; Atlas of Mutual Heritage (Nationaal Archief); Setneg · Gambar: Romeyn de Hooge / Nationaal Archief (domain publik), Rijksmuseum (CC0); Foto: Herusutimbul, Torbenbrinker (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #makassar #sulawesiselatan
+caption: Makassar, Sulawesi Selatan: 250.000 ringgit dan 1.000 budak, sebagian yang wajib diserahkan Gowa lewat Perjanjian Bongaya 1667. Sumber: Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud, 1975) termasuk teks perjanjian; Andaya, The Heritage of Arung Palakka (1981); Palallo, Attoriolong 18(1) 2020; Atlas of Mutual Heritage (Nationaal Archief); Setneg · Gambar: Romeyn de Hooge / Nationaal Archief (domain publik), Rijksmuseum (CC0); Foto: Herusutimbul, Torbenbrinker (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #makassar #sulawesiselatan
 ---
-[cover photo=penaklukan-makassar]
+[cover kicker="SULAWESI SELATAN · 1667" photo=penaklukan-makassar]
 250.000 Ringgit | dan 1.000 Budak
-Itu sebagian yang wajib diserahkan Gowa lewat Perjanjian Bongaya. Makassar, 18 November 1667.
+Isi Perjanjian Bongaya, setelah Gowa kalah dari VOC dan sekutunya, Arung Palakka. Makassar, 1667.
 ---
-[number=off icon=mountain photo=makassar-somba-opu]
-Lebih dari 50 tahun melawan
-Bentrokan Makassar dan VOC sudah dimulai pada 1616, saat VOC menyandera bangsawan Makassar dan 15 pelaut Belanda terbunuh. Tahun 1659 Hasanuddin menuntut VOC berhenti menyerang daerah bawahannya dan mengakui monopoli rempahnya melanggar hukum Tuhan.
----
-[number=off icon=alert photo=penaklukan-makassar]
-*1660*: VOC sudah menyerang
-Pada 12 Juni 1660 armada VOC merebut Benteng Pannakukang dan menewaskan seluruh pasukan Gowa di dalamnya. Perjanjian damai sesudahnya memaksa sekitar 2.000 orang Portugis meninggalkan Gowa.
----
-[number=off icon=mountain photo=makassar-somba-opu]
-Kenapa Arung Palakka memihak VOC?
-Tahun 1660 Gowa mengerahkan ribuan orang Bone menggali parit dan membangun pertahanan. Yang lari ditangkap dan dihukum, banyak yang dibunuh. Arung Palakka memimpin pelarian dan pemberontakan, kalah, lalu menyingkir ke Buton dan pada 1663 ke Batavia.
----
-[number=off icon=plane photo=makassar-speelman]
-Armada Speelman
-Pada 24 November 1666 Cornelis Speelman berangkat dari Batavia dengan sekitar 1.860 orang, termasuk prajurit Ambon dan Bugis. Di Sulawesi, pasukan Bugis Arung Palakka kemudian mencapai sekitar 8.000 orang.
----
-[number=off icon=alert photo=penaklukan-makassar]
-*Januari 1667*: tragedi Selat Buton
-Armada Gowa runtuh setelah sekitar 5.000 orang Bugis di dalamnya berbalik ke Arung Palakka. Sekitar 5.500 orang Makassar ditawan. Ratusan dijual sebagai budak, ribuan dibuang ke pulau kecil dan banyak yang mati kelaparan.
----
-[number=off icon=book photo=makassar-speelman]
+[number=off icon=none photo=makassar-speelman]
 *18 November 1667*: isinya berat
-Setelah setahun perang, Hasanuddin dan Speelman menandatangani perjanjian di Bungaya. VOC mendapat monopoli dagang, orang Portugis dan Inggris diusir, benteng Gowa dibongkar kecuali Somba Opu, dan Gowa wajib membayar 250.000 ringgit serta menyerahkan 1.000 budak.
+Setelah setahun perang, Hasanuddin dan Speelman menandatangani perjanjian di Bungaya. VOC mendapat monopoli dagang, orang Portugis dan Inggris diusir, benteng Gowa dibongkar kecuali Somba Opu.
 ---
-[number=off icon=clock photo=makassar-somba-opu]
+[number=off icon=none photo=makassar-hasanuddin]
+*1660*: VOC sudah menyerang
+Bentrokan Makassar dan VOC sudah dimulai sejak 1616. Pada 12 Juni 1660 armada VOC merebut Benteng Pannakukang dan menewaskan seluruh pasukan Gowa di dalamnya.
+---
+[number=off icon=none photo=makassar-somba-opu]
+Kenapa Arung Palakka memihak VOC?
+Tahun 1660 Gowa mengerahkan ribuan orang Bone menggali parit; yang lari ditangkap dan dihukum, banyak dibunuh. Arung Palakka memimpin pemberontakan, kalah, lalu menyingkir ke Buton dan Batavia.
+---
+[number=off icon=none photo=makassar-speelman]
+*1666*: armada Speelman
+Cornelis Speelman berangkat dari Batavia dengan sekitar 1.860 orang, termasuk prajurit Ambon dan Bugis. Di Sulawesi, pasukan Bugis Arung Palakka kemudian mencapai sekitar 8.000 orang.
+---
+[number=off icon=none photo=penaklukan-makassar]
+*Januari 1667*: tragedi Selat Buton
+Armada Gowa runtuh: sekitar 5.000 orang Bugis di dalamnya berbalik ke Arung Palakka. Dari sekitar 5.500 tawanan Makassar, ratusan dijual sebagai budak, ribuan dibuang ke pulau kecil, banyak mati kelaparan.
+---
+[number=off icon=none photo=makassar-hasanuddin]
 *1668*: perjanjian dibatalkan
-Hasanuddin membatalkan perjanjian itu dalam hitungan bulan. Pada 12 April 1668 perang pecah lagi. Speelman memblokade pantai dan menyuruh pasukan Bugis merampas padi dan ternak di pedalaman, supaya Gowa kelaparan.
+Hasanuddin membatalkannya dalam hitungan bulan, dan 12 April 1668 perang pecah lagi. Speelman memblokade pantai dan menyuruh pasukan Bugis merampas padi dan ternak, supaya Gowa kelaparan.
 ---
-[number=off icon=alert photo=penaklukan-makassar]
-Somba Opu tak tertembus
-Hasanuddin memagari pesisir Makassar dengan tembok bata hampir 11 kilometer. VOC sampai kehabisan amunisi tanpa bisa menjebol Somba Opu. Pengepungan berlangsung sekitar dua setengah tahun, dan wabah membuat VOC sempat hanya punya 250 prajurit Eropa yang sanggup bertempur.
----
-[number=off icon=mountain photo=makassar-fort-rotterdam]
+[number=off icon=none photo=makassar-somba-opu]
 *Juni 1669*: Somba Opu jatuh
-Tembok Somba Opu akhirnya dijebol lewat galian ranjau. Para pembela meledakkan meriam keramat Anak Makassar agar tidak dirampas, lalu VOC meratakan benteng itu. Benteng Ujung Pandang milik Gowa dibangun ulang VOC dan dinamai Fort Rotterdam. Hasanuddin turun takhta pada 1669 dan wafat pada 12 Juni 1670.
+Temboknya dijebol lewat galian ranjau. Para pembela meledakkan meriam keramat Anak Makassar agar tak dirampas, lalu VOC meratakan benteng itu.
 ---
-[number=off icon=chat photo=makassar-fort-rotterdam]
+[number=off icon=none photo=makassar-fort-rotterdam]
 Pahlawan atau pengkhianat?
 Bagi orang Gowa, Arung Palakka pemberontak yang bersekutu dengan VOC. Bagi banyak orang Bone dan Soppeng, ia pembebas dari kekuasaan Gowa. Sampai kini sosoknya masih diperdebatkan.
 ---
-[number=off icon=map-pin photo=penaklukan-makassar]
-Setelah kalah: merantau dan melawan
-Sebagian bangsawan dan prajurit Makassar menolak Perjanjian Bongaya. Mereka berlayar ke Banten, lalu ke Jawa Timur. Di sana Karaeng Galesong bergabung dengan pemberontakan Trunajaya melawan Mataram dan VOC, sampai wafat pada 1679.
----
-[number=off icon=star photo=makassar-hasanuddin]
-"Ayam Jantan dari Timur"
-Julukan ini sering disebut berasal dari Belanda, tapi belum ada sumber sezaman yang memastikannya; dulu sebutan itu dipakai untuk orang Makassar umumnya. Hasanuddin dianugerahi gelar Pahlawan Nasional pada 1973.
----
-[end photo=makassar-hasanuddin]
-Arung Palakka: *pahlawan atau pengkhianat?*
-Komen satu kata. Dua-duanya punya alasan.
+[end photo=penaklukan-makassar cta="Komen A atau B"]
+Arung Palakka: | *A.* pahlawan, *B.* pengkhianat?
+Komen A atau B. Alasanmu di balasan.

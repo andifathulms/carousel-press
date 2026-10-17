@@ -2,60 +2,44 @@ handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: tambora 1815 dari sumbawa
-caption: Setelah abunya turun, orang Sumbawa sampai menjual anaknya demi segantang beras. Sumber: Bernice de Jong Boers, Indonesia 60 (1995), Cornell; Oppenheimer, Progress in Physical Geography 27 (2003); University of Rhode Island (2006); Setkab (2015) · Foto: Felix Dance (CC BY 2.0), Georesearch Volcanedo, Budi Wasisto (CC BY-SA 4.0), Tisquesusa (CC BY 4.0) via Wikimedia Commons; NASA, Rijksmuseum (domain publik/CC0) #sejarahindonesia #tambora #sumbawa
+caption: Sumbawa, NTB: setelah Tambora meletus tahun 1815, dua kerajaan hilang, dan sebagian orang sampai menjual anaknya demi segantang beras. Sumber: Bernice de Jong Boers, Indonesia 60 (1995), Cornell; Oppenheimer, Progress in Physical Geography 27 (2003); University of Rhode Island (2006); Setkab (2015) · Foto: Felix Dance (CC BY 2.0), Georesearch Volcanedo, Budi Wasisto (CC BY-SA 4.0), Tisquesusa (CC BY 4.0) via Wikimedia Commons; NASA, Rijksmuseum (domain publik/CC0) #sejarahindonesia #tambora #sumbawa #ntb
 ---
-[cover photo=tambora-kaldera]
+[cover kicker="NUSA TENGGARA BARAT · 1815" photo=tambora-kaldera]
 Dua Kerajaan Hilang | dalam Satu Letusan
-Pekat dan Tambora musnah bersama rajanya. Gunung Tambora, Sumbawa, April 1815.
+Letusan Gunung Tambora di Pulau Sumbawa, April 1815.
 ---
-[number=off icon=home photo=tambora-peta-1855]
-Enam kerajaan di Sumbawa
-Sebelum 1815, Sumbawa punya enam kerajaan: Sumbawa, Bima, Dompu, Sanggar, Pekat, dan Tambora. Orang Tambora bahkan punya bahasanya sendiri, yang kini sudah punah.
+[number=off icon=none photo=tambora-tepi-kaldera]
+*April 1815*: Pekat dan Tambora lenyap
+Kerajaan Pekat dan Tambora musnah bersama rajanya, Muhamad dan Abdul Gafur. Sanggar kehilangan banyak penduduk, pantainya dihantam tsunami, dan abu menumpuk 50–60 cm.
 ---
-[number=off icon=alert photo=tambora-dari-teluk-saleh]
+[number=off icon=none photo=tambora-peta-1855]
+Sebelum 1815: enam kerajaan
+Sumbawa punya enam kerajaan: Sumbawa, Bima, Dompu, Sanggar, Pekat, dan Tambora. Orang Tambora bahkan punya bahasanya sendiri, yang kini sudah punah.
+---
+[number=off icon=none photo=tambora-dari-teluk-saleh]
 *5–11 April 1815*: letusan
 Ledakan pertama pada 5 April terdengar ratusan kilometer jauhnya. Pada malam 10 April, menurut Raja Sanggar yang menyaksikannya, tiga tiang api naik dari puncak.
 ---
-[number=off icon=book photo=tambora-bima-litho]
+[number=off icon=none photo=tambora-bima-litho]
 Catatan Kerajaan Bima
-Bo' Sangaji Kai, catatan istana Bima, menulis: hari gelap, terdengar bunyi seperti meriam, lalu turun batu dan abu "lamanya tiga hari dua malam".
+Bo’ Sangaji Kai, catatan istana Bima, menulis: hari gelap, terdengar bunyi seperti meriam, lalu turun batu dan abu “lamanya tiga hari dua malam”.
 ---
-[number=off icon=mountain photo=tambora-tepi-kaldera]
-Pekat dan Tambora lenyap
-Kerajaan Pekat dan Tambora musnah bersama rajanya, Muhamad dan Abdul Gafur. Sanggar kehilangan banyak penduduk, dan pantainya dihantam tsunami. Abu menumpuk 50–60 cm.
----
-[number=off icon=alert photo=tambora-lapisan-abu]
+[number=off icon=none photo=tambora-lapisan-abu]
 Separuh penduduk hilang
 Menurut taksiran Zollinger, Sumbawa kehilangan sekitar 84.000 dari 170.000 jiwa: 10.000 tewas langsung, 38.000 karena lapar dan penyakit, 36.000 mengungsi. Ini taksiran, bukan sensus.
 ---
-[number=off icon=umbrella photo=tambora-tepi-kaldera]
+[number=off icon=none photo=tambora-tepi-kaldera]
 Menjual anak demi beras
-Orang makan daun kering dan umbi beracun. Sebagian menjual anaknya demi beras, kadang hanya satu gantang, sekitar 3 kilogram. Ada yang menjual diri sebagai budak kepada pedagang dari Seram.
+Orang makan daun kering dan umbi beracun, ada yang menjual diri sebagai budak kepada pedagang dari Seram. Sebagian menjual anaknya demi beras, kadang hanya satu gantang, sekitar 3 kilogram.
 ---
-[number=off icon=chat photo=tambora-raffles]
-Wabah, dan bantuan yang tak cukup
-Diare dan demam menyebar. Wabah 1816 ikut menewaskan Sultan Sumbawa dan tiga putranya. Raffles mengirim kapal bantuan, tapi tak banyak menolong.
+[number=off icon=none photo=tambora-raffles]
+*1816*: wabah, bantuan tak cukup
+Wabah 1816 ikut menewaskan Sultan Sumbawa dan tiga putranya; kapal bantuan Raffles tak banyak menolong. Di Bali dan Lombok, abu menimbun sawah, lalu kelaparan dan wabah menyusul.
 ---
-[number=off icon=map-pin photo=tambora-dari-teluk-saleh]
-Bali dan Lombok ikut lapar
-Abu menimbun sawah Bali dan Lombok. Kelaparan, wabah, dan hama tikus menyusul; orang menjual diri dan anaknya demi makan. Taksiran korban Lombok berkisar 10.000 hingga lebih dari 100.000, Bali sekitar 25.000.
+[number=off icon=none photo=tambora-sabana]
+*1824–2015*: dari puing ke taman nasional
+Tahun 1824 Tambora dan Pekat masih disebut “tumpukan puing”; baru 1844 pengungsi Sanggar meminta izin pulang. Tahun 2015, dua abad setelah letusan, Taman Nasional Gunung Tambora diresmikan.
 ---
-[number=off icon=clock photo=tambora-sabana]
-Pulihnya puluhan tahun
-Panen pertama di Bima baru datang pada 1820. Pada 1824 Tambora dan Pekat masih disebut "tumpukan puing". Tiga perempat ternak mati, dan baru pada 1844 pengungsi Sanggar meminta izin pulang.
----
-[number=off icon=chat photo=tambora-peta-1855]
-Menurut cerita rakyat
-Letusan itu dikisahkan sebagai hukuman karena Raja Tambora menjamu seorang haji dengan daging anjing lalu membunuhnya. Kisah ini masih diceritakan di Pekat.
----
-[number=off icon=map-pin photo=tambora-lapisan-abu]
-*2004*: desa yang terkubur
-Tim University of Rhode Island dan Direktorat Vulkanologi Indonesia menggali sisa rumah panggung, keramik, dan perkakas logam yang terkubur abu 1815.
----
-[number=off icon=leaf photo=tambora-sabana]
-*2015*: taman nasional
-Dua abad setelah letusan, Taman Nasional Gunung Tambora diresmikan di Doro Ncanga, Dompu. Di belahan bumi lain, 1816 dikenal sebagai "tahun tanpa musim panas".
----
-[end photo=tambora-kaldera]
+[end photo=tambora-kaldera cta="Komen"]
 Pernah dengar *Kerajaan Pekat dan Tambora?*
-Jawab 'pernah' atau 'baru tahu'.
+Komen ‘pernah’ atau ‘baru tahu’. Orang NTB, kirim ke grupmu.

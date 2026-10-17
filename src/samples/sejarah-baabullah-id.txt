@@ -2,60 +2,44 @@ handle: @sejarah.nusantara.id
 template: editorial/midnight
 lang: id
 title: sultan baabullah ternate
-caption: Diundang masuk benteng, lalu ditikam di dalamnya: pembunuhan Sultan Khairun memicu pengepungan lima tahun. Sumber: Argensola, Conquista de las Molucas (1609); The World Encompassed (1628) & Hakluyt; Leirissa, Review of Culture 19 (2006); Hanna & Des Alwi (1990); Mostert, CAPASIA (2026); Campo López, Revista de Indias (2017); Setneg (2020) · Foto: Ana Ainina (CC BY 4.0, CC BY-SA 4.0), Fabio Achilli (CC BY 2.0) via Wikimedia Commons; Rijksmuseum (CC0) #sejarahindonesia #ternate #malukuutara
+caption: Ternate, Maluku Utara: Sultan Khairun diundang masuk benteng Portugis lalu ditikam di dalamnya, dan putranya mengepung benteng itu sampai Portugis angkat kaki. Sumber: Argensola, Conquista de las Molucas (1609); The World Encompassed (1628) & Hakluyt; Leirissa, Review of Culture 19 (2006); Hanna & Des Alwi (1990); Mostert, CAPASIA (2026); Campo López, Revista de Indias (2017); Setneg (2020) · Foto: Ana Ainina (CC BY 4.0, CC BY-SA 4.0), Fabio Achilli (CC BY 2.0) via Wikimedia Commons; Rijksmuseum (CC0) #sejarahindonesia #ternate #malukuutara
 ---
-[cover photo=benteng-kastela]
+[cover kicker="MALUKU UTARA · 1570–1575" photo=benteng-kastela]
 Ayahnya Dibunuh | di Benteng Portugis
-Putranya, Baabullah, membalas: benteng itu dikepung sampai Portugis angkat kaki. Ternate, 1570–1575.
+Ternate, 1570. Putranya, Baabullah, membalas sampai Portugis angkat kaki.
 ---
-[number=off icon=home photo=ternate-gamalama]
-Benteng di pulau cengkih
-Batu pertama benteng Portugis São João Baptista diletakkan pada 24 Juni 1522, dan benteng itu rampung sekitar 1540. Saat itu cengkih hanya tumbuh di segelintir pulau di Maluku Utara. Reruntuhannya kini disebut Benteng Kastela.
+[number=off icon=none photo=ternate-monumen-1570]
+*Februari 1570*: diundang, lalu ditikam
+Kapten Diogo Lopes de Mesquita mengundang Sultan Khairun ke benteng. Pengawalnya ditahan di gerbang, lalu keponakan sang kapten, Martim Afonso Pimentel, menikamnya sampai tewas.
 ---
-[number=off icon=alert photo=ternate-gezicht-1682]
-Kekerasan sebelum 1570
-Para kapten Portugis mengeksekusi wali raja Ternate sekitar 1530, mengirim Sultan Tabarija ke Goa untuk diadili pada 1535, dan pada 1557 menahan Sultan Khairun beserta ibunya di dalam benteng.
----
-[number=off icon=alert photo=ternate-monumen-1570]
-*1570*: pembunuhan di gerbang benteng
-Februari 1570, kapten Diogo Lopes de Mesquita mengundang Sultan Khairun ke benteng. Pengawalnya ditahan di gerbang, lalu keponakan sang kapten, Martim Afonso Pimentel, menikam Khairun sampai tewas.
----
-[number=off icon=moon photo=ternate-monumen-1570]
+[number=off icon=none photo=ternate-monumen-1570]
 Sumpah di depan jenazah
-Menurut kronik Spanyol Argensola (1609), jasad Khairun dipotong dan dipamerkan di tembok benteng. Versi lain menyebut dibuang ke laut. Saat jasadnya akhirnya dimakamkan, putra-putranya bersumpah membalas dendam.
+Menurut kronik Spanyol Argensola (1609), jasad Khairun dipotong dan dipamerkan di tembok benteng; versi lain menyebut dibuang ke laut. Saat dimakamkan, putra-putranya bersumpah membalas.
 ---
-[number=off icon=star photo=ternate-kedaton]
-Baabullah naik takhta
-Putra Khairun, Baabullah, diangkat menjadi sultan dan menyatakan perang terhadap Portugis. Sumber berbeda soal waktunya: tahun yang sama, atau sekitar dua tahun setelah pembunuhan.
+[number=off icon=none photo=ternate-gamalama]
+*1522*: benteng di pulau cengkih
+Batu pertama Benteng São João Baptista diletakkan 24 Juni 1522. Saat itu cengkih hanya tumbuh di segelintir pulau di Maluku Utara. Reruntuhannya kini disebut Benteng Kastela.
 ---
-[number=off icon=clock photo=benteng-kastela]
-Lima tahun pengepungan
-Benteng Portugis diblokade sekitar lima tahun. Orang Portugis di dalamnya terkurung dan terputus dari pasokan, sementara Goa tak kunjung menghukum Mesquita.
+[number=off icon=none photo=ternate-gezicht-1682]
+Kekerasan sebelum 1570
+Para kapten Portugis mengeksekusi wali raja Ternate sekitar 1530 dan mengirim Sultan Tabarija ke Goa untuk diadili (1535). Tahun 1557 mereka menahan Sultan Khairun dan ibunya di benteng.
 ---
-[number=off icon=plane photo=ternate-gezicht-1682]
+[number=off icon=none photo=benteng-kastela]
+Baabullah mengepung benteng
+Baabullah, putra Khairun, jadi sultan dan menyatakan perang; sumber berbeda soal kapan. Benteng diblokade sekitar lima tahun, sementara Goa tak kunjung menghukum Mesquita.
+---
+[number=off icon=none photo=ternate-gezicht-1682]
 *1575*: Portugis angkat kaki
-Syaratnya: orang Portugis boleh pergi dengan aman dan diberi kapal ke Ambon. Sebagian ke Malaka dan Tidore, beberapa keluarga tetap tinggal. Tanggalnya diperdebatkan: 15 Juli atau 26 Desember 1575.
+Syaratnya: mereka boleh pergi dengan aman dan diberi kapal ke Ambon. Tanggalnya diperdebatkan: 15 Juli atau 26 Desember 1575.
 ---
-[number=off icon=map-pin photo=ternate-gamalama]
+[number=off icon=none photo=ternate-cengkih]
 Jaya, tapi juga menaklukkan
-Benteng dijadikan istana, Ternate menguasai jalur cengkih. Armadanya juga menyerang desa-desa Kristen di Ambon dan Halmahera, dan daerah taklukan dipaksa membayar upeti. Catatan pelayaran Drake (terbit 1589) sudah menyebutnya raja atas 70 pulau.
+Benteng dijadikan istana, Ternate menguasai jalur cengkih. Armadanya juga menyerang desa-desa Kristen di Ambon dan Halmahera, dan daerah taklukan dipaksa membayar upeti.
 ---
-[number=off icon=leaf photo=ternate-cengkih]
-*1579*: Drake dan tiga ton cengkih
-Francis Drake singgah dan mencatat sang sultan "tinggi, gemuk, berwibawa". Kapalnya kemudian kandas dekat Sulawesi dan tiga ton cengkih dibuang ke laut. Di perjalanan, Drake menelantarkan Maria, perempuan Afrika yang diperbudak dan sedang hamil.
----
-[number=off icon=moon photo=ternate-kedaton]
+[number=off icon=none photo=ternate-kedaton]
 *1583*: wafat yang diperdebatkan
-Baabullah wafat pada 1583. Penyebabnya tidak pasti: sakit menurut penulis Portugis sezaman, racun menurut rumor, dan versi abad ke-17 menyebut ia dijebak naik kapal Portugis menuju Goa.
+Penyebabnya tak pasti: sakit menurut penulis Portugis sezaman, racun menurut rumor, jebakan menurut versi abad ke-17. Tahun 2020 ia ditetapkan sebagai Pahlawan Nasional.
 ---
-[number=off icon=alert photo=ternate-cengkih]
-Setelah Baabullah
-Pada 1606 Spanyol merebut Ternate; Sultan Said dibawa ke Manila dan wafat di pengasingan. Pada 1650-an VOC memberi pilihan: tebang cengkihmu sendiri dan terima tunjangan, atau VOC yang menebang tanpa ganti rugi.
----
-[number=off icon=shield-heart photo=ternate-kedaton]
-*2020*: Pahlawan Nasional
-Lewat Keppres No. 117/TK/2020, Baabullah ditetapkan sebagai Pahlawan Nasional. Gelarnya diserahkan pada 10 November 2020.
----
-[end photo=benteng-kastela]
+[end photo=benteng-kastela cta="Komen"]
 Kamu pernah dengar *nama Baabullah?*
-Jawab 'pernah' atau 'baru tahu'.
+Jawab “pernah” atau “baru tahu”. Orang Ternate, kirim ke grupmu.

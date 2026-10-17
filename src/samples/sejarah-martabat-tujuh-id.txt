@@ -2,57 +2,41 @@ handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: buton dan martabat tujuh
-caption: Di Kesultanan Buton, sultan dipilih dewan dan bisa dipecat. Undang-undang dasarnya sejak 1610: Martabat Tujuh. Sumber: Etnosia 5(1) 2020 (Unhas, mengutip Schoorl 2003); Hasaruddin, jurnal sejarah LPPM Unidayan; La Bakry & Hasaruddin (pnm.gov.my); Sritimuryati & Iriani, Attoriolong 19(2) 2021 · Foto: Marwan Mohamad (CC BY-SA 4.0), KITLV (CC BY 4.0) via Wikimedia Commons; Walter Kaudern (domain publik) #sejarahindonesia #buton #baubau #sulawesitenggara
+caption: Baubau, Sulawesi Tenggara: di Kesultanan Buton, sultan dipilih dewan dan bisa dipecat. Undang-undang dasarnya sejak 1610: Martabat Tujuh. Sumber: Etnosia 5(1) 2020 (Unhas, mengutip Schoorl 2003); Hasaruddin, jurnal sejarah LPPM Unidayan; La Bakry & Hasaruddin (pnm.gov.my); Sritimuryati & Iriani, Attoriolong 19(2) 2021 · Foto: Marwan Mohamad (CC BY-SA 4.0), KITLV (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #buton #baubau #sulawesitenggara
 ---
-[cover photo=buton-benteng]
+[cover kicker="SULAWESI TENGGARA · 1610" photo=buton-benteng]
 Sultan di Negeri Ini | Bisa Dipecat
-Kesultanan Buton, Sulawesi Tenggara. Undang-undang dasarnya sejak 1610 bernama Martabat Tujuh.
+Kesultanan Buton punya undang-undang dasar tertulis sejak 1610: Martabat Tujuh.
 ---
-[number=off icon=chat photo=buton-wandailolo]
-Dipilih, bukan diwariskan
-Jabatan sultan tidak turun ke anak. Calonnya datang dari tiga kelompok bangsawan kaomu, lalu dipilih siolimbona, dewan sembilan bonto dari golongan walaka. Dewan ini juga melantik, bahkan bisa memakzulkan sultan.
+[number=off icon=none photo=buton-wandailolo]
+Dipilih dewan, bukan diwariskan
+Jabatan sultan tidak turun ke anak. Calonnya dari tiga kelompok bangsawan kaomu, dipilih siolimbona, dewan sembilan bonto golongan walaka, yang juga melantik dan bisa memakzulkannya.
 ---
-[number=off icon=star photo=buton-masjid-keraton]
-*1541*: raja menjadi sultan
-Lakilaponto, raja Buton keenam, dilantik sebagai sultan pertama dengan gelar Sultan Murhum. Couvreur mencatat tanggalnya 1 Ramadan 948 H atau 19 Desember 1541; sumber lain menyebut 1540.
----
-[number=off icon=book photo=buton-masjid-keraton]
-*1610*: Martabat Tujuh
-Sultan keempat, Dayanu Ikhsanuddin atau La Elangi, menetapkan undang-undang dasar tertulis, dibantu ulama Arab Syekh Syarif Muhammad. Menurut tradisi lisan, Sapati La Singa mengumumkannya di depan Masjid Keraton Buton.
----
-[number=off icon=alert photo=buton-batu-wolio]
-Kenapa perlu aturan tertulis?
-Sebagian anak bangsawan bertindak di luar hukum. Belum ada aturan tegas soal siapa berwenang atas apa. Buton juga baru lepas dari kelaparan akibat kemarau panjang di masa sultan ketiga.
----
-[number=off icon=lightbulb photo=buton-wandailolo]
-Namanya dari tasawuf
-Martabat tujuh adalah ajaran tasawuf tentang tujuh tingkatan wujud, dari martabat ahadiyah sampai alam insan. Di daerah lain ajaran ini dipelajari. Buton menjadikannya undang-undang dasar.
----
-[number=off icon=key photo=buton-benteng]
-Tujuh martabat, tujuh kursi
-Tiga martabat pertama untuk tiga kelompok bangsawan: Tanailandu, Tapi-tapi, dan Kumbewaha. Empat sisanya untuk jabatan: Sultan, Sapati (perdana menteri), Kenepulu (hukum dan peradilan), dan Kapitalao (panglima perang).
----
-[number=off icon=shield photo=buton-batu-wolio]
-Kuasa yang dibagi
-Bangsawan kaomu memegang kekuasaan eksekutif, sampai jabatan sultan. Golongan walaka mengisi lembaga legislatif, siolimbona. Peradilan dipegang keduanya. Pembagian ini berlaku sejak masa La Elangi.
----
-[number=off icon=alert photo=buton-utusan-kitlv]
-Korupsi namanya pebula
-Pejabat yang terbukti pebula bisa dikenai pasabu (dipecat), tatalima (potong tangan), atau gogoli (hukuman gantung). Asasnya "bhone montete yinda posala-sala": tak ada beda bagi siapa pun di depan hukum.
----
-[number=off icon=alert photo=buton-utusan-kitlv]
+[number=off icon=none photo=buton-utusan-kitlv]
 Sultan pun tidak kebal
-Konstitusi Buton tidak membatasi masa jabatan, tapi sultan bisa dilengserkan. Sejarah Buton mencatat seorang sultan dan sejumlah petinggi kesultanan berakhir di tiang gantungan.
+Masa jabatannya tak dibatasi, tapi sultan bisa dilengserkan. Sejarah Buton mencatat seorang sultan dan sejumlah petinggi kesultanan berakhir di tiang gantungan.
 ---
-[quote icon=none photo=buton-pelabuhan-kaudern]
-Belumlah disebut kaya jika baru memiliki harta yang berlimpah. Yang disebut kaya ketika haknya sekalipun diberikan untuk kemaslahatan orang lain.
-— Kabanti Kamba Mpu, syair Buton (terjemahan)
+[number=off icon=none photo=buton-masjid-keraton]
+*1541*: raja menjadi sultan
+Lakilaponto, raja Buton keenam, dilantik sebagai sultan pertama, Sultan Murhum. Couvreur mencatat 1 Ramadan 948 H atau 19 Desember 1541; sumber lain menyebut 1540.
 ---
-[number=off icon=map-pin photo=buton-pelabuhan-kaudern]
-*1613*: kapal VOC singgah
-Kapal-kapal VOC di bawah Apollonius Schotte singgah di pelabuhan Baubau. Berbeda dengan Banten dan Makassar yang waspada, para pembesar Buton menyambut tawaran kerja sama itu.
+[number=off icon=none photo=buton-batu-wolio]
+Kenapa perlu aturan tertulis?
+Sebagian anak bangsawan bertindak di luar hukum, dan belum ada aturan tegas soal wewenang. Buton juga baru lepas dari kelaparan akibat kemarau panjang di masa sultan ketiga.
 ---
-[number=off icon=clock photo=buton-utusan-kitlv]
+[number=off icon=none photo=buton-masjid-keraton]
+*1610*: ditetapkan sultan keempat
+La Elangi (Dayanu Ikhsanuddin) menetapkannya, dibantu ulama Arab Syekh Syarif Muhammad. Namanya diambil dari ajaran tasawuf tentang tujuh tingkatan wujud.
+---
+[number=off icon=none photo=buton-benteng]
+Tujuh martabat, tujuh kursi
+Tiga untuk kelompok bangsawan: Tanailandu, Tapi-tapi, dan Kumbewaha. Empat untuk jabatan: Sultan, Sapati (perdana menteri), Kenepulu (hukum dan peradilan), dan Kapitalao (panglima perang).
+---
+[number=off icon=none photo=buton-utusan-kitlv]
+Korupsi namanya pebula
+Pejabat yang terbukti pebula bisa dipecat (pasabu), dipotong tangan (tatalima), atau digantung (gogoli). Asasnya “bhone montete yinda posala-sala”: tak ada beda di depan hukum.
+---
+[number=off icon=none photo=buton-batu-wolio]
 *1960*: kesultanan dihapus
 Buton pernah dipimpin 37 sultan. Kesultanannya dihapus pada 1960, beberapa bulan setelah sultan terakhir, La Ode Muhammad Falihi Qaimuddin, wafat.
 ---

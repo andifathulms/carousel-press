@@ -2,60 +2,48 @@ handle: @sejarah.nusantara.id
 template: editorial/sage
 lang: id
 title: sultan syarif kasim ii
-caption: Ia sultan terakhir Siak, dan singgasana emasnya pun dilaporkan dicuri pada 1967. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Siti Zaqiah, skripsi UIN Syarif Hidayatullah (2024, mengutip arsip ANRI & Delpher); Historia.id (2024); Wilaela, Sosial Budaya (UIN Suska); Museum Nasional; Setneg · Foto: Taufik Hadris, DinaMardiati, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #siak #riau
+caption: Siak, Riau: sultan terakhirnya menyatakan setia kepada Republik lewat satu telegram, lalu hidup dari tunjangan negara, dan singgasana emasnya pun dilaporkan dicuri pada 1967. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Siti Zaqiah, skripsi UIN Syarif Hidayatullah (2024, mengutip arsip ANRI & Delpher); Historia.id (2024); Wilaela, Sosial Budaya (UIN Suska); Museum Nasional; Setneg · Foto: Taufik Hadris, DinaMardiati, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #siak #riau
 ---
-[cover photo=istana-siak]
+[cover kicker="RIAU · 1945–1968" photo=istana-siak]
 Mahkota Emas 1,8 Kg, | Tunjangan Rp1.000
-Sultan Syarif Kasim II menyatakan Siak setia kepada Republik lewat satu telegram, lalu hidup dari tunjangan negara.
+Sultan Syarif Kasim II, sultan terakhir Siak, menyatakan setia kepada Republik lewat satu telegram.
 ---
-[number=off icon=star photo=siak-sultan-1926]
+[number=off icon=none photo=siak-mahkota]
+Mahkota di museum, sultan bertunjangan
+Mahkota aslinya bertatah berlian dan rubi, kini di Museum Nasional; Istana Siak memajang replikanya. Sultannya diberi tunjangan Rp1.000, lalu Rp3.000–4.000 per bulan pada 1951–1953.
+---
+[number=off icon=none photo=siak-sultan-1926]
 *1915*: sultan di usia 21
-Ayahnya wafat pada 1908 saat ia masih bersekolah di Batavia, sehingga Siak dipimpin pemangku, sepupunya Tengku Besar Sayid Sagaf. Syarif Kasim II dinobatkan sebagai sultan ke-12 pada 3 Maret 1915.
+Ia dinobatkan sebagai sultan ke-12 pada 3 Maret 1915. Tapi sejak Traktat Siak 1858 Siak di bawah Belanda, dan kontrak politiknya diperbarui 1916, lalu 1938.
 ---
-[number=off icon=key photo=siak-istana-lama]
-Bukan raja yang bebas
-Siak sudah berada di bawah Belanda sejak Traktat Siak 1858. Syarif Kasim II tetap menandatangani kontrak politik dengan pemerintah kolonial: diperbarui 1916, lalu Kontrak Panjang pada Juni 1938.
----
-[number=off icon=home photo=siak-istana-lama]
-*1889*: Istana Siak berdiri
-Istana Asserayah Hasyimiah dibangun pada masa ayahnya, Sultan Syarif Hasyim. Kini istana ini menjadi museum yang terbuka untuk umum.
----
-[number=off icon=book photo=siak-madrasah-taufiqiyah]
+[number=off icon=none photo=siak-madrasah-taufiqiyah]
 Sekolah untuk rakyatnya
-Ia mendirikan Madrasah Taufiqiyah, dan istrinya, Tengku Agung, merintis sekolah putri. Setelah Tengku Agung wafat pada 1929, Sultan menikahi adiknya, Tengku Maharatu, yang meneruskan sekolah-sekolah itu.
+Ia mendirikan Madrasah Taufiqiyah, dan istrinya, Tengku Agung, merintis sekolah putri. Setelah Tengku Agung wafat pada 1929, adiknya, Tengku Maharatu, meneruskan sekolah-sekolah itu.
 ---
-[number=off icon=alert photo=siak-sungai]
-Jepang tak lebih baik
-Jepang tiba di Siak pada April 1942. Mereka mengambil dokumen kontrak dan kapal Sultan, memungut padi dan karet rakyat, dan memaksa warga menanam jarak untuk minyak pesawat.
+[number=off icon=none photo=siak-sungai]
+*1942*: Jepang tak lebih baik
+Jepang tiba di Siak pada April 1942. Mereka mengambil kapal Sultan, memungut padi dan karet rakyat, dan memaksa warga menanam jarak untuk minyak pesawat.
 ---
-[number=off icon=chat photo=istana-siak]
+[number=off icon=none photo=istana-siak]
 *28 November 1945*: satu telegram
-Kabar proklamasi baru ia pastikan akhir Oktober 1945, setelah utusannya, O.K.M. Djamil, mengeceknya ke Pekanbaru. Pada 28 November ia mengirim telegram ke Presiden Soekarno: Siak setia kepada Republik Indonesia.
+Akhir Oktober 1945 utusannya, O.K.M. Djamil, memastikan kabar proklamasi di Pekanbaru. Pada 28 November ia mengirim telegram ke Presiden Soekarno: Siak setia kepada Republik Indonesia.
 ---
-[number=off icon=map-pin photo=siak-sungai]
-Mengungsi dari dua ancaman
-Setelah Revolusi Sosial 1946 di Sumatra Timur, sekelompok laskar berencana menculiknya demi intan berliannya. Ia dikawal ke Aceh dan tiba di Banda Aceh 10 September 1947. Pada 1949 Belanda menduduki Siak.
----
-[number=off icon=gift photo=siak-mahkota]
+[number=off icon=none photo=siak-mahkota]
 Berapa yang ia sumbangkan?
-Angka 13 juta gulden sering dikutip, tapi teks arsipnya belum pernah dikutip langsung. Sumber lain menyebut 10.000 gulden atau Rp20.000, dan surat Gubernur T.M. Hasan 1950 mencatat janji menyerahkan sebagian permata istana.
+Angka 13 juta gulden sering dikutip, tapi teks arsipnya belum pernah dikutip langsung. Sumber lain menyebut 10.000 gulden atau Rp20.000.
 ---
-[number=off icon=clock photo=istana-siak]
-Tunjangan dan takhta yang dicuri
-Pemerintah memberinya tunjangan Rp1.000, lalu Rp3.000–4.000 per bulan pada 1951–1953. Sekolah putri yang dulu dibiayai kas kesultanan berhenti sejak 1950. September 1967, koran melaporkan singgasana emasnya dicuri.
+[number=off icon=none photo=siak-sungai]
+*1947*: mengungsi ke Aceh
+Setelah Revolusi Sosial 1946 di Sumatra Timur, sekelompok laskar berencana menculiknya demi intan berliannya. Ia dikawal ke Aceh, tiba di Banda Aceh 10 September 1947.
 ---
-[number=off icon=moon photo=siak-sultan-1926]
-*1968*: wafat di Pekanbaru
-Syarif Kasim II wafat pada 23 April 1968 di Rumbai, Pekanbaru, dan dimakamkan di samping Masjid Syahabuddin, Siak. Ia sultan terakhir Siak dan tidak punya anak kandung.
+[number=off icon=none photo=siak-sultan-1926]
+*1967–1968*: takhta hilang, sultan wafat
+September 1967, koran melaporkan singgasana emasnya dicuri. Ia wafat 23 April 1968 di Pekanbaru, sultan terakhir Siak, tanpa anak kandung.
 ---
-[number=off icon=star photo=siak-mahkota]
-Mahkota di Jakarta
-Mahkota aslinya, emas seberat 1,8 kg bertatah berlian dan rubi, disimpan di Museum Nasional Jakarta dan ditetapkan sebagai cagar budaya nasional pada 2013. Istana Siak memajang replikanya.
----
-[number=off icon=shield-heart photo=siak-sultan-1926]
+[number=off icon=none photo=siak-istana-lama]
 *1998*: Pahlawan Nasional
 Gelar itu diberikan lewat Keppres No. 109/TK/1998 tanggal 6 November 1998. Namanya kini dipakai bandara di Pekanbaru.
 ---
-[end photo=istana-siak]
-Kamu baru tahu *soal Sultan Siak ini?*
-Komen 🙋 kalau baru tahu.
+[end photo=istana-siak cta="Komen A atau B"]
+Sumbangannya: *A.* 13 juta gulden, *B.* 10.000 gulden?
+Komen A atau B. Alasanmu di balasan.
