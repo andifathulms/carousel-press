@@ -58,4 +58,50 @@ describe('DeckStore', () => {
     expect(off).toHaveBeenCalledOnce();
     expect(s.saveSettings(s.loadSettings())).toBe(false);
   });
+
+  describe('when the quota is full', () => {
+    // Throws like a real quota error once the stored characters would pass `limit`.
+    const capAt = (limit: number) => {
+      const set = mem.setItem.bind(mem);
+      vi.spyOn(mem, 'setItem').mockImplementation((k: string, v: string) => {
+        const others = ['cp:v1:decks', 'cp:v1:status', 'cp:v1:deck:a', 'cp:v1:deck:b']
+          .filter((x) => x !== k).reduce((n, x) => n + (mem.getItem(x)?.length ?? 0), 0);
+        if (others + v.length > limit) throw new DOMException('full', 'QuotaExceededError');
+        set(k, v);
+      });
+    };
+    const deck = (id: string) => ({ id, text: 'x'.repeat(50), settings: { darkness: 50 }, updatedAt: 1 });
+
+    it('keeps earlier posting marks when a later save fails (owner bug, Oct 2026)', () => {
+      const s = new DeckStore(vi.fn());
+      s.setMark('s:one', 'posted', 1);
+      capAt(0);
+      expect(s.saveDeck(deck('a'), { title: 'A', template: 'dev/terminal' })).toBe(false);
+      s.setMark('s:two', 'posted', 2);
+      expect(Object.keys(s.loadMarks()).sort()).toEqual(['s:one', 's:two']);
+      expect(s.available).toBe(true);
+    });
+
+    it('drops library thumbnails to make room, then saves', () => {
+      const s = new DeckStore(vi.fn());
+      s.saveDeck(deck('a'), { title: 'A', template: 'dev/terminal', thumb: 't'.repeat(2000) });
+      capAt(2200);
+      expect(s.saveDeck(deck('b'), { title: 'B', template: 'dev/terminal' })).toBe(true);
+      expect(s.listDecks().every((d) => !d.thumb)).toBe(true);
+      expect(s.loadDeck('a')).not.toBeNull();
+      s.setMark('s:a', 'posted', 3);
+      expect(new DeckStore().loadMarks()).toEqual({ 's:a': { state: 'posted', at: 3 } });
+    });
+
+    it('warns once and keeps reading', () => {
+      const off = vi.fn();
+      const s = new DeckStore(off);
+      s.saveSettings({ ...s.loadSettings(), handle: '@kept' });
+      capAt(0);
+      expect(s.saveDeck(deck('a'), { title: 'A', template: 'dev/terminal' })).toBe(false);
+      s.setMark('s:x', 'skip', 4);
+      expect(off).toHaveBeenCalledOnce();
+      expect(s.loadSettings().handle).toBe('@kept');
+    });
+  });
 });

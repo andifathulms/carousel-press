@@ -58,10 +58,17 @@ const K = {
   marks: 'cp:v1:status',
 };
 
-/** localStorage wrapper: every call is guarded; failures flip `available` off. */
+/**
+ * localStorage wrapper: every call is guarded. `available` goes off only when storage
+ * can't be used at all; a failed write (usually a full quota) shows the banner but
+ * reads keep working, so one failed save can't make the app forget what's stored.
+ */
 export class DeckStore {
   available = true;
   private onUnavailable: () => void;
+  private warned = false;
+  /** Marks set this session, applied over what's stored, so none is lost if a write fails. */
+  private sessionMarks = new Map<string, PostMark | null>();
 
   constructor(onUnavailable: () => void = () => {}) {
     this.onUnavailable = onUnavailable;
@@ -75,8 +82,13 @@ export class DeckStore {
   }
 
   private fail(): void {
-    if (this.available) {
-      this.available = false;
+    this.available = false;
+    this.warn();
+  }
+
+  private warn(): void {
+    if (!this.warned) {
+      this.warned = true;
       this.onUnavailable();
     }
   }
@@ -93,11 +105,31 @@ export class DeckStore {
 
   private write(key: string, value: unknown): boolean {
     if (!this.available) return false;
+    const json = JSON.stringify(value);
     try {
-      localStorage.setItem(key, JSON.stringify(value));
+      localStorage.setItem(key, json);
       return true;
     } catch {
-      this.fail();
+      // Library thumbnails fill most of the quota and are redrawn when a deck opens.
+      if (key !== K.index && this.dropThumbs()) {
+        try {
+          localStorage.setItem(key, json);
+          return true;
+        } catch { /* still full */ }
+      }
+      this.warn();
+      return false;
+    }
+  }
+
+  /** Remove every library thumbnail to free space; true if any were removed. */
+  private dropThumbs(): boolean {
+    const list = this.listDecks();
+    if (!list.some((d) => d.thumb)) return false;
+    try {
+      localStorage.setItem(K.index, JSON.stringify(list.map(({ thumb: _, ...d }) => d)));
+      return true;
+    } catch {
       return false;
     }
   }
@@ -160,14 +192,18 @@ export class DeckStore {
 
   loadMarks(): PostMarks {
     const m = this.read<PostMarks>(K.marks);
-    return m && typeof m === 'object' && !Array.isArray(m) ? m : {};
+    const marks: PostMarks = m && typeof m === 'object' && !Array.isArray(m) ? { ...m } : {};
+    for (const [key, mark] of this.sessionMarks) {
+      if (mark) marks[key] = mark;
+      else delete marks[key];
+    }
+    return marks;
   }
 
   /** Set or clear (state = null) one posting mark; returns the updated map. */
   setMark(key: string, state: PostState | null, at: number): PostMarks {
-    const marks = { ...this.loadMarks() };
-    if (state) marks[key] = { state, at };
-    else delete marks[key];
+    this.sessionMarks.set(key, state ? { state, at } : null);
+    const marks = this.loadMarks();
     this.write(K.marks, marks);
     return marks;
   }
