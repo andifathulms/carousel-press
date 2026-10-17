@@ -1,3 +1,4 @@
+handle: @katabaku.id
 template: lexicon/kamus
 lang: id
 title: kaos atau kaus

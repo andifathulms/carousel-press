@@ -49,7 +49,7 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 - Changes made: kicker labels with thought headlines, one big line per deck, four rotating formats (Ada namanya, Kamu pilih mana?, Salah kaprah filsafat, Satu kalimat), one-tap ends, stone without blobs.
 - Track when numbers come in: shares (Ada namanya), comments (dilemmas), saves (salah kaprah, satu kalimat), follows per post.
 
-## Kamus Kecil (`lexicon/kamus`)
+## Kata Baku (`lexicon/kamus`, @katabaku.id; earlier "Kamus Kecil")
 
 | Post | Cover as posted | Slides | Views (likes) |
 |---|---|---|---|

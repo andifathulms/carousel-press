@@ -10,7 +10,7 @@ If it doesn't name one, infer it from the topic and say which one you picked:
 - sports rules, how a sport works, rule incidents → **Whistle Notes**
 - regional statistics, rankings, "kabupaten mana yang paling…" → **Peta Angka**
 - English vocabulary, grammar, pronunciation for Indonesians → **Kosakata Inggris**
-- Indonesian words, KBBI meanings, kata baku, kata serapan → **Kamus Kecil**
+- Indonesian words, KBBI meanings, kata baku, kata serapan → **Kata Baku**
 - Quran ayat, hadith, doa, Islamic reminders → **Ayat Harian**
 - Stoicism and philosophy as armor for work, family and comparison stress, dilemmas → **Filsafat Harian**
 - exam and selection-test prep (SKD CPNS, sekolah kedinasan, PPPK, BUMN, psikotes) → **SKD Harian**
@@ -28,7 +28,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | 🏟️ Whistle Notes | `id` | Sports rules as verdict quizzes | `sport/*` | `sport/papan` (football), `sport/lapangan` (indoor) |
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
 | ✏️ Kosakata Inggris (@kosakata_inggris) | `id` (teaches English) | Daily words, common mistakes, A/B quizzes | `lexicon/*` | `lexicon/notebook` |
-| 📖 Kamus Kecil | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
+| 📖 Kata Baku (@katabaku.id) | `id` | Indonesian words, KBBI, baku, serapan | `lexicon/*` | `lexicon/kamus` |
 | 🌙 Ayat Harian | `id` (+ Arabic) | One ayah / hadith a day, calm reminders | `serene/*` | `serene/fajr` |
 | 🏛️ Filsafat Harian (@filsafatharian.id) | `id` | Street-level Stoicism: mental armor for work and family stress | `editorial/tameng` | `editorial/tameng` |
 | 📝 SKD Harian | `id` | Daily SKD/selection-test questions and strategy | `lexicon/*` | `lexicon/lembar` |
@@ -688,7 +688,9 @@ Komen satu huruf.
 
 ---
 
-## 7. 📖 Kamus Kecil
+## 7. 📖 Kata Baku
+
+**Account:** Kata Baku, `@katabaku.id` (put `handle: @katabaku.id` in every deck header). Earlier docs called it "Kamus Kecil".
 
 **Tagline:** *Kata-kata kita sendiri, yang ternyata jarang kita kenal.*
 A faceless account about the Indonesian language: words most people don't know, what KBBI actually says, standard vs non-standard spelling, and where our words came from.
@@ -1388,7 +1390,7 @@ Komen tahunnya. Besok: VLOOKUP vs XLOOKUP.
 ## 12. ✍️ Kosakata Arab
 
 **Tagline:** *Bahasa Arab dari nol, satu kata satu hari.*
-A faceless account teaching Modern Standard Arabic (fusha) for daily life to Indonesian absolute beginners: one word, one root, one phrase or one small rule per post. A sibling of Kosakata Inggris (English) and Kamus Kecil (Indonesian): same lexicon slides, same "one thing per deck" discipline.
+A faceless account teaching Modern Standard Arabic (fusha) for daily life to Indonesian absolute beginners: one word, one root, one phrase or one small rule per post. A sibling of Kosakata Inggris (English) and Kata Baku (Indonesian): same lexicon slides, same "one thing per deck" discipline.
 It should feel like "oh, so that's how كِتَاب and مَكْتَبَة are related", never like a pesantren exam or a teacher showing off.
 **Account:** `@kosakata.arab` (put `handle: @kosakata.arab` and `script: arab` in every deck header). **Postable since M9a (Oct 2026):** Arabic renders right-to-left with full harakat in word, table and compare slides (SPEC-script.md). It launches before Kosakata Mandarin.
 
@@ -1415,7 +1417,7 @@ It should feel like "oh, so that's how كِتَاب and مَكْتَبَة are r
 3. **Ungkapan sehari-hari**: greetings, introducing yourself, at the market, travel and umrah phrases.
 4. **Tata bahasa dasar**: mudzakkar/muannats, dhamir (pronouns), isim isyarah (hadza/hadzihi), simple nominal sentences. One rule per deck.
 5. **Huruf yang sering tertukar**: ع vs ء, ح vs ه, ق vs ك, ص vs س, with how to hear and write the difference.
-6. **Kata serapan Arab**: Indonesian words that came from Arabic and how the meaning moved (crossover with Kamus Kecil; KBBI for the Indonesian side).
+6. **Kata serapan Arab**: Indonesian words that came from Arabic and how the meaning moved (crossover with Kata Baku; KBBI for the Indonesian side).
 7. **Kuis**: guess the meaning from a root pattern, or pick the right harakat.
 
 ### Accuracy rules (non-negotiable)
@@ -1531,7 +1533,7 @@ Tulis di komentar
 ## 13. 🏮 Kosakata Mandarin
 
 **Tagline:** *Mandarin dari nol, satu kata satu nada.*
-A faceless account teaching standard Mandarin to Indonesian absolute beginners, roughly HSK 1–2: one word, one tone rule, one character part or one phrase per post. Simplified characters, pinyin with tone marks. A sibling of Kosakata Inggris and Kamus Kecil.
+A faceless account teaching standard Mandarin to Indonesian absolute beginners, roughly HSK 1–2: one word, one tone rule, one character part or one phrase per post. Simplified characters, pinyin with tone marks. A sibling of Kosakata Inggris and Kata Baku.
 It should feel like "oh, so 不 isn't always bù", never like a cram school or a test.
 **Account:** `@kosakata.mandarin` (put `handle: @kosakata.mandarin`, `script: hanzi` and `tones: color` in every deck header). **Postable since M9b (Oct 2026):** hanzi come from bundled Noto SC, pinyin tone marks render everywhere, and the headword gets ruby pinyin (SPEC-script.md). It still launches a few weeks after Kosakata Arab (device and account limits).
 
@@ -1559,7 +1561,7 @@ It should feel like "oh, so 不 isn't always bù", never like a cram school or a
 4. **Ungkapan sehari-hari**: greetings, numbers, bargaining, ordering food.
 5. **Kata bantu bilangan**: 个 gè, 本 běn (books), 张 zhāng (flat things), 杯 bēi (cups)… one per deck with 3–5 nouns.
 6. **Tata bahasa dasar**: 是 shì, 吗 ma, 了 le, 的 de, basic word order. One point per deck.
-7. **Kata Hokkien dalam bahasa Indonesia**: crossover with Kamus Kecil. Every etymology checked (KBBI label + a scholarly source such as Jones, *Loan-Words in Indonesian and Malay*); say "Hokkien", not "Mandarin", when the source says so.
+7. **Kata Hokkien dalam bahasa Indonesia**: crossover with Kata Baku. Every etymology checked (KBBI label + a scholarly source such as Jones, *Loan-Words in Indonesian and Malay*); say "Hokkien", not "Mandarin", when the source says so.
 8. **Kuis**: pick the tone, pick the classifier, read the pinyin.
 
 ### Accuracy rules (non-negotiable)
@@ -1681,7 +1683,7 @@ Tulis di komentar
 
 ### Standards from the Oct 2026 account reviews (every account, every new deck)
 
-Eight accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Kecil, Kosakata Inggris, Fathul Learn Coding, Filsafat Harian, Sejarah Nusantara). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
+Eight accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kata Baku, Kosakata Inggris, Fathul Learn Coding, Filsafat Harian, Sejarah Nusantara). What we learned, and the numbers behind it, is in `docs/performance.md`. Every deck you write follows these, on top of the account's own section:
 
 1. **The cover is the hook, and the subtitle says what the viewer gets.** A specific, true scene, fact or question, not a topic label. Never "N pertanyaan buat…"-style homework, never a finger-pointing "Kamu masih…".
 2. **Never repeat the cover line as a card.** Card 1 is the strongest payoff.
@@ -1690,7 +1692,7 @@ Eight accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Keci
 5. **The end line is specific to the post** (or the deck type) and is never the same on two consecutive posts. The CTA label names the action (`cta="Kirim ke dia"`), not a generic "Simpan • Bagikan".
 6. **Search words:** put the phrase people type ("ayat penenang hati", "kata indah bahasa indonesia") in the cover kicker or subtitle and in the caption's first line; hashtags that match searches beat huge generic ones.
 7. **Series beat one-offs:** when a format works, number it in the kicker ("KATA INDAH #2", "POJOK BULU TANGKIS #3") and post the next one within the week.
-8. **One look per account:** each account has its own template family (Ruang Rasa `editorial/ruang-*`, Whistle Notes `sport/*`, Ayat Harian `serene/*`, Kamus Kecil `lexicon/kamus`, SKD Harian `lexicon/lembar`, Jago Kantoran `dev/sheet`, and soon Kosakata Arab `lexicon/arab`, Kosakata Mandarin `lexicon/hanzi`…). Text-first; photos only when they add something.
+8. **One look per account:** each account has its own template family (Ruang Rasa `editorial/ruang-*`, Whistle Notes `sport/*`, Ayat Harian `serene/*`, Kata Baku `lexicon/kamus`, SKD Harian `lexicon/lembar`, Jago Kantoran `dev/sheet`, and soon Kosakata Arab `lexicon/arab`, Kosakata Mandarin `lexicon/hanzi`…). Text-first; photos only when they add something.
 9. **Formats rotate:** never the same format twice in a row on one account.
 10. **Before shipping, render it and look:** zero warnings, no word broken mid-word (reword with shorter words), every claim backed by the account's sources.
 11. **Card 1 answers the cover.** If the cover names something specific (a command, an error, a phrase, a question), the first card delivers it. In a list deck the cover's item goes first. Viewers who came for the hook won't swipe to slide 6.
@@ -1713,7 +1715,7 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - When asked for many posts at once, vary pillar, template and opening hook across them.
 - **Hooks (owner, Oct 2026):** the cover is the hook. Make it concrete and specific (a number, a name, a surprising true fact, a situation the viewer recognises), not a topic label. The caption's first line adds to the hook instead of summarising the deck. The hook must still be true and backed by the deck: no clickbait, and keep each account's tone (Ayat Harian stays calm; Ruang Rasa stays gentle).
 - **Re-uploading a deleted post:** rewrite the cover, caption, title and the wording of every slide, and change the order where it still reads well, so it isn't flagged as the same content. Keep the facts, sources and photos (photo choice and order may change).
-- **Fact accounts** (Sejarah Nusantara, Whistle Notes, Peta Angka, Kosakata Inggris, Kamus Kecil, Ayat Harian, Filsafat Harian, SKD Harian, Jago Kantoran, Kosakata Arab, Kosakata Mandarin): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
+- **Fact accounts** (Sejarah Nusantara, Whistle Notes, Peta Angka, Kosakata Inggris, Kata Baku, Ayat Harian, Filsafat Harian, SKD Harian, Jago Kantoran, Kosakata Arab, Kosakata Mandarin): list sources in the reply before the deck; never invent a fact, date, number or quote to fill a gap.
 - **Image policy** (all accounts):
   - Any image that's free to reuse. First choice: public domain or CC0 (Wikimedia Commons, Unsplash/Pexels, Rijksmuseum, Nationaal Archief), because they need no credit. Never Google Images, Pinterest, news sites, agency photos or other social accounts.
   - No source manifest or source list in the reply is needed for images. Just pick a fitting free image.

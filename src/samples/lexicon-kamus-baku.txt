@@ -1,4 +1,4 @@
-handle: @kamuskecil
+handle: @katabaku.id
 template: lexicon/kamus
 lang: id
 title: baku atau tidak
