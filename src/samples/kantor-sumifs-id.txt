@@ -3,7 +3,7 @@ lang: id
 title: sumifs countifs rekap gaji
 caption: Rekap gaji per divisi tanpa filter dan kalkulator: cukup SUMIFS dan COUNTIFS. Diuji di [versi Excel yang dipakai owner]. #exceltips #tipskantor #belajarexcel #sumifs
 ---
-[cover kicker="EXCEL • KASUS NYATA"]
+[cover kicker="EXCEL • BOS MINTA #1"]
 Bos minta total gaji | *per divisi?*
 SUMIFS dan COUNTIFS: rekap dari satu tabel, tanpa filter manual.
 ---
@@ -81,4 +81,4 @@ SUMIFS dan COUNTIFS jalan di Excel 2007 ke atas, Excel 365, dan Google Sheets de
 ---
 [end cta="Simpan"]
 Rekap apa yang paling sering | *kamu bikin?*
-Komen G (gaji), A (absensi) atau S (stok).
+Komen G (gaji), A (absensi) atau S (stok). Kirim ke rekan sedivisi. Bos minta #2: rekap 1 menit pakai PivotTable.

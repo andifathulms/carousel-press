@@ -3,7 +3,7 @@ lang: id
 title: na padahal datanya ada
 caption: #N/A padahal ID-nya jelas ada di tabel? Biasanya spasi yang nggak kelihatan. Diuji di [versi Excel yang dipakai owner]. #exceltips #tipskantor #belajarexcel
 ---
-[cover kicker="EXCEL • MASALAH KANTOR"]
+[cover kicker="EXCEL • DATA BERANTAKAN #1"]
 #N/A padahal | *datanya ada?*
 Biasanya gara-gara spasi yang nggak kelihatan. Ini cara cek dan beresinnya.
 ---
@@ -71,4 +71,4 @@ Rumus ditolak? Ganti ; jadi , (atau sebaliknya). Google Sheets sama.
 ---
 [end cta="Simpan"]
 Pernah kena #N/A | *gara-gara spasi?*
-Komen 1 kalau pernah, 0 kalau belum.
+Komen 1 kalau pernah, 0 kalau belum. Data berantakan #2: angka yang jadi tanggal.
