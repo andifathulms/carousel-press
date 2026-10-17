@@ -64,7 +64,7 @@ Kantormu masih Excel 2016? Geser.
 ---
 [sheet]
 Excel lama: *INDEX + MATCH*
-MATCH cari posisi K03 di kolom A, INDEX ambil isi kolom B di posisi itu.
+MATCH cari posisi K03, INDEX ambil namanya.
 ```sheet
 E2 =INDEX(B2:B6;MATCH(D2;A2:A6;0))
 ID | Nama | Divisi | Cari | Hasil
@@ -74,7 +74,7 @@ K02 | Bayu | HRD | |
 K04 | Dimas | Gudang | |
 K05 | Lala | IT | |
 ```
-Jalan di semua versi Excel. Angka 0 artinya harus sama persis.
+Jalan di semua versi Excel.
 ---
 [end cta="Simpan"]
 Kantormu masih pakai *Excel versi berapa?*
