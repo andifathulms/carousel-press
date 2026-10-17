@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: tameng 1 bos marah di grup
+caption: Pesannya nggak bisa kamu hapus. Cerita yang kamu tambahkan di kepala, bisa. Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya. Sumber: Epiktetos, Enchiridion 1 & 20 (terj. T.W. Higginson) · SEP "Epictetus" #stoikisme #filsafatharian #duniakerja #bostoxic
+---
+[cover kicker="FILSAFAT HARIAN · TAMENG #1"]
+Bos marah di grup. | *Semua orang baca.*
+Cara Stoa biar kalimatnya nggak ikut kamu bawa tidur.
+---
+[card kicker="Situasinya" number=off icon=none]
+Namamu disebut di grup, *jam sepuluh malam.*
+Kamu baca berulang-ulang. Tidurnya ikut hilang.
+---
+[card kicker="Yang sebenarnya melukai" number=off icon=none]
+Bukan pesannya, tapi cerita yang *kamu tambahkan.*
+“Aku dipermalukan.” “Semua orang pasti ngetawain.”
+---
+[quote icon=none]
+Yang menghinamu bukan orang yang memaki, tapi pandanganmu bahwa itu menghina.
+— Epiktetos, Enchiridion 20 (terj. bebas, Higginson)
+---
+[card kicker="Ide Epiktetos · pernah jadi budak, abad ke-1–2 M" number=off icon=none]
+Pesannya di luar kendalimu. Penilaian dan balasanmu, *di dalam.*
+Itu tamengnya: bukan pura-pura nggak dengar, tapi nggak menyerahkan malammu ke orang lain.
+---
+[card kicker="Coba malam ini" number=off icon=none]
+Jangan balas sekarang. *Ambil jeda dulu.*
+Kata Epiktetos di pasal yang sama: dengan jeda, kamu lebih mudah menguasai diri. Yang memang perlu dibetulkan, betulkan besok pagi.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Tameng *bukan alasan diam* kalau sudah keterlaluan.
+Makian berulang, ancaman atau pelecehan itu dicatat dan dilaporkan. Bertindak adil juga ada dalam kendalimu.
+---
+[end cta="Simpan"]
+Kalimat bos yang *paling nempel?*
+Satu kata aja di komen.

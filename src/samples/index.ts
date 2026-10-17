@@ -129,6 +129,7 @@ import b2EditorialPilihSatuTidurId from './editorial-pilih-satu-tidur-id.txt?raw
 import b2EditorialTemanBerdukaId from './editorial-teman-berduka-id.txt?raw';
 import b2EditorialTemanKosId from './editorial-teman-kos-id.txt?raw';
 import b2FilsafatAkrasiaId from './filsafat-akrasia-id.txt?raw';
+import filsafatTamengBosMarah from './filsafat-tameng-bos-marah-id.txt?raw';
 import b2FilsafatCogitoId from './filsafat-cogito-id.txt?raw';
 import b2FilsafatLindungiTemanId from './filsafat-lindungi-teman-id.txt?raw';
 import b2FilsafatSenecaBayanganId from './filsafat-seneca-bayangan-id.txt?raw';
@@ -344,6 +345,7 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-teman-berduka-id', name: 'Pesan buat teman yang berduka (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanBerdukaId },
   { id: 'editorial-teman-kos-id', name: 'Artinya kalimat teman kos (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanKosId },
   { id: 'filsafat-akrasia-id', name: 'Akrasia (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatAkrasiaId },
+  { id: 'filsafat-tameng-bos-marah-id', name: 'Tameng #1: bos marah di grup (Filsafat Harian, id)', category: 'philosophy', text: filsafatTamengBosMarah },
   { id: 'filsafat-cogito-id', name: 'Cogito ergo sum (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatCogitoId },
   { id: 'filsafat-lindungi-teman-id', name: 'Lindungi teman atau bilang apa adanya (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatLindungiTemanId },
   { id: 'filsafat-seneca-bayangan-id', name: 'Menderita dalam bayangan (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatSenecaBayanganId },
