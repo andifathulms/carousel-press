@@ -1,0 +1,47 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: interview tell me about yourself
+caption: Cara jawab tell me about yourself di interview bahasa Inggris: bukan biodata, tapi sekarang, pengalaman, dan kenapa posisi ini. Sumber: The Muse; Warwick University Careers; Warwick Business School; Cambridge Dictionary #interviewbahasainggris #belajarbahasainggris #kosakatainggris
+---
+[cover kicker="INTERVIEW · #1"]
+“Tell Me About Yourself” | Bukan Minta Biodata
+Pola jawaban yang rapi, plus 4 kalimat siap pakai buat fresh graduate.
+---
+[card kicker="Jawaban yang lebih kuat" number=off]
+I’ve just finished my marketing degree, and I did an internship in *digital marketing*.
+Yang kaku: “My name is Rina. I was born in Bandung in 2002. My hobbies are reading and travelling.”
+Nggak salah, cuma kaku. Nama dan CV-mu sudah mereka pegang. Yang ditunggu: kamu sekarang apa, pengalamanmu apa, dan kenapa posisi ini.
+---
+[card kicker="1 · Sekarang" number=off]
+I’m a recent *marketing graduate*.
+Mulai dari posisimu sekarang. Sudah kerja? Pakai: I’m currently working as a social media admin.
+---
+[card kicker="2 · Pengalaman" number=off]
+During my internship, I was *responsible for* our Instagram.
+Pilih satu pengalaman yang nyambung sama posisinya. Bukan semua isi CV.
+---
+[card kicker="3 · Ke depan" number=off]
+Now I’m *looking to* build a career in digital marketing.
+Be looking to artinya berencana atau ingin. Sopan dan umum di interview.
+---
+[card kicker="4 · Penutup" number=off]
+That’s why I’m *excited about* this role.
+Tutup dengan alasan kamu melamar posisi ini. Jawabanmu jadi punya arah.
+---
+[compare]
+wrong: I am graduated from a university in Bandung.
+right: I *graduated* from a university in Bandung.
+why: Graduate di sini kata kerja, jadi cukup I graduated, tanpa am. Atau pakai kata bendanya: I’m a graduate.
+---
+[card kicker="Berapa lama?" number=off]
+Cukup di bawah 2 menit
+Idealnya kurang dari 90 detik. Latih polanya, jangan hafal kata per kata biar nggak terdengar kayak membaca.
+---
+[card kicker="Ringkasan" number=off]
+Tell me about yourself
+*Sekarang:* I’m a recent marketing graduate. | *Pengalaman:* During my internship, I was responsible for our Instagram. | *Ke depan:* Now I’m looking to build a career in digital marketing. | *Penutup:* That’s why I’m excited about this role.
+---
+[end cta="Simpan"]
+Bagian nomor berapa yang *paling susah buat kamu?*
+Komen angkanya, 1 sampai 4. Interview #2: What’s your weakness? minggu depan.

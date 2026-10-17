@@ -1,0 +1,48 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: bahasa sekolah vs aslinya 1
+caption: Bahasa Inggris sekolah vs percakapan sehari-hari: “I'm fine, thank you, and you?” nggak salah, cuma kaku. Sumber: Oxford Learner's Dictionaries; Cambridge Dictionary; Cambridge Grammar #belajarbahasainggris #kosakatainggris #speakingenglish
+---
+[cover kicker="SEKOLAH VS ASLINYA · #1"]
+“I’m Fine, Thank You, | And You?”
+Nggak salah, cuma kaku. 5 kalimat hafalan sekolah dan versi santainya buat ngobrol beneran.
+---
+[card kicker="Ditanya “How are you?”" number=off]
+*I’m good*, thanks. How are you?
+Di sekolah: “I’m fine, thank you, and you?”
+Nggak salah, cuma kedengaran kayak hafalan. Jawaban santai lain: Not too bad, atau Fine, thanks. Lalu tanya balik.
+---
+[card kicker="Kenalan sama orang baru" number=off]
+Hi! *Nice to meet you.*
+Di sekolah: “How do you do?”
+Nggak salah, tapi How do you do itu salam formal, bukan nanya kabar. Jawabannya pun How do you do lagi, bukan I’m fine.
+---
+[card kicker="Sebut nama dan asal" number=off]
+*I’m* Dimas. *I’m* from Medan.
+Di sekolah: “My name is Dimas. I am from Medan.”
+Nggak salah, cuma kaku. Di obrolan sehari-hari, bentuk pendek I’m yang biasa dipakai. My name is tetap benar dan sopan.
+---
+[card kicker="Nanya kesukaan orang" number=off]
+Do you have any *hobbies*?
+Di sekolah: “What is your hobby?”
+Nggak salah, cuma kaku, kayak isian formulir. Mau lebih santai lagi: What do you like to do in your spare time? (spare time = waktu luang)
+---
+[card kicker="Nggak dengar jelas" number=off]
+Sorry, could you *say that again*?
+Di sekolah: “I beg your pardon?”
+Nggak salah, sopan, tapi formal. Hati-hati: dengan nada kesal (terutama di UK), I beg your pardon! malah berarti kamu tersinggung.
+---
+[table]
+Contekan: sekolah vs ngobrol
+| Sekolah | Lebih natural |
+| I’m fine, thank you. | I’m good, thanks. |
+| How do you do? | Nice to meet you. |
+| My name is Dimas. | I’m Dimas. |
+| What is your hobby? | Do you have any hobbies? |
+| I beg your pardon? | Could you say that again? |
+Versi sekolah tetap benar. Untuk situasi resmi, masih aman dipakai.
+---
+[end cta="Simpan"]
+Dulu di sekolah kamu diajarin *yang mana?*
+Komen satu kata: fine, hobby, atau pardon. Sekolah vs aslinya #2 minggu depan.

@@ -1,0 +1,59 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: salah ngomong wait for
+caption: Kesalahan bahasa Inggris yang sering dipakai orang Indonesia: “I’m waiting you”, “listen music”, “reply my email”. Nunggu, dengar, lihat, balas, bayar: semuanya butuh kata depan. Sumber: Cambridge Grammar; Oxford Learner’s Dictionaries #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="SALAH NGOMONG · #2"]
+“I’m Waiting You”? | Harusnya “I’m Waiting for You”
+Nunggu, dengar, lihat, balas, bayar: lima kata kerja yang butuh kata depan. Plus 2 kuis kecil.
+---
+[card kicker="Mana yang benar?" number=off]
+*A.* I’m waiting you in the lobby. | *B.* I’m waiting for you in the lobby.
+Kamu sudah sampai duluan, terus chat teman. Tulis yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: I’m waiting you in the lobby.
+right: I’m *waiting for* you in the lobby.
+why: Kalau ada yang ditunggu, wait selalu pakai for: wait for the bus, wait for me. Tanpa yang ditunggu, wait saja: Wait a minute.
+---
+[compare]
+wrong: I’m listening music.
+right: I’m *listening to* music.
+why: Kalau ada yang didengar, listen pakai to: listen to me, listen to this song. Tanpa objek, listen saja: Listen!
+---
+[compare]
+wrong: Look this photo!
+right: *Look at* this photo!
+why: Kalau ada yang dilihat, look pakai at: look at me, look at the rain. Tanpa objek, look saja: Look!
+---
+[card kicker="Kuis 2" number=off]
+*A.* Sorry, I’ll reply to your email tonight. | *B.* Sorry, I’ll reply your email tonight.
+Balas email kantor yang telat. Pilih yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Sorry, I’ll reply your email tonight.
+right: Sorry, I’ll *reply to* your email tonight.
+why: Reply + to + yang dibalas: reply to a message, reply to my chat. Mau tanpa to? Pakai answer: answer your email.
+---
+[compare]
+wrong: I’ll pay the food.
+right: I’ll *pay for* the food.
+why: Barang yang dibeli pakai for: pay for the tickets. Tagihan atau orangnya tanpa for: pay the bill, pay the driver.
+---
+[table]
+Ringkasnya
+| Bahasa Indonesia | Bahasa Inggris |
+| nungguin kamu | wait *for* you |
+| dengerin lagu | listen *to* music |
+| lihat foto ini | look *at* this photo |
+| balas email | reply *to* an email |
+| bayar makanan | pay *for* the food |
+| bayar tagihan | pay the bill |
+Tanpa objek, kata depannya hilang: Wait! Listen! Look!
+---
+[end cta="Simpan"]
+Kuis 1 dan 2, kamu jawab *apa?*
+Komen dua huruf, misal AB. Salah ngomong #3 minggu depan.

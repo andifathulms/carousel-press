@@ -1,0 +1,96 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: beda arti 2 vest
+caption: Beda arti bahasa Inggris UK dan US: di London, vest itu kaus dalam, bukan rompi. Sumber: Cambridge Dictionary (label UK/US) #belajarbahasainggris #kosakatainggris #britishvsamerican
+---
+[cover kicker="BEDA ARTI · #2"]
+Di London, Vest Itu | Kaus Dalam
+Di Amerika, vest itu rompi. Plus 6 kata lain yang artinya beda di UK dan US, dari lantai gedung sampai sepatu.
+---
+[word]
+pos: noun · beda arti UK/US
+word: vest
+ipa: /vest/ (UK & US)
+say: “vest”, bukan “fes”
+meaning: UK: kaus dalam, singlet | US: rompi
+example: It’s cold, wear a *vest* under your shirt.
+translation: (UK) Dingin, pakai kaus dalam di balik kemejamu.
+note: Rompi versi UK: waistcoat. Kaus dalam versi US: undershirt.
+---
+[word]
+pos: noun · beda arti UK/US
+word: first floor
+ipa: /ˌfɜːst ˈflɔːr/ (UK) · /ˌfɝːst ˈflɔːr/ (US)
+say: “fest FLOR”
+meaning: UK: lantai 2, satu di atas lantai jalan | US: lantai 1, sejajar jalan
+example: My office is on the *first floor*.
+translation: (UK) Kantorku di lantai 2.
+note: Lantai sejajar jalan versi UK: ground floor. Lantai 2 versi US: second floor.
+---
+[word]
+pos: noun · beda arti UK/US
+word: purse
+ipa: /pɜːs/ (UK) · /pɝːs/ (US)
+say: “pes”, e seperti di “emas”
+meaning: UK: dompet kecil, biasanya punya cewek | US: tas tangan
+example: I left my *purse* in the taxi.
+translation: (US) Tasku ketinggalan di taksi.
+note: Dompet kecil versi US: change purse. Tas tangan di UK: handbag.
+---
+[word]
+pos: noun · beda arti UK/US
+word: rubber
+ipa: /ˈrʌb.ər/ (UK) · /ˈrʌb.ɚ/ (US)
+say: “RA-ber”
+meaning: UK: penghapus (juga karet) | US: karet
+example: Can I borrow your *rubber*?
+translation: (UK) Boleh pinjam penghapusmu?
+note: Di US, rubber juga slang untuk kondom. Jadi di sana, bilang eraser.
+---
+[word]
+pos: noun · beda arti UK/US
+word: jumper
+ipa: /ˈdʒʌm.pər/ (UK) · /ˈdʒʌm.pɚ/ (US)
+say: “JAM-per”
+meaning: UK: sweter | US: gaun tanpa lengan, dipakai di atas kaus atau kemeja
+example: Put a *jumper* on, it’s cold outside.
+translation: (UK) Pakai sweter, di luar dingin.
+note: Sweter versi US: sweater. Di UK, sweater juga dipakai.
+---
+[word]
+pos: noun · beda arti UK/US
+word: trainer
+ipa: /ˈtreɪ.nər/ (UK) · /ˈtreɪ.nɚ/ (US)
+say: “TREI-ner”
+meaning: UK: sepatu olahraga, sepatu kets | UK & US: pelatih
+example: I bought new *trainers* for the gym.
+translation: (UK) Aku beli sepatu olahraga baru buat nge-gym.
+note: Biasanya jamak: trainers. Sepatu kets versi US: sneakers.
+---
+[word]
+pos: noun · beda arti UK/US
+word: football
+ipa: /ˈfʊt.bɔːl/ (UK) · /ˈfʊt.bɑːl/ (US)
+say: “FUT-bol”
+meaning: UK: sepak bola | US: American football (bola lonjong)
+example: Let’s play *football* after work.
+translation: (UK) Main bola yuk habis kerja.
+note: Sepak bola versi US: soccer.
+---
+[table]
+Biar nggak salah paham
+| Arti | UK | US |
+| kaus dalam | vest | undershirt |
+| rompi | waistcoat | vest |
+| lantai 2 | first floor | second floor |
+| dompet kecil | purse | change purse |
+| penghapus | rubber | eraser |
+| sweter | jumper | sweater |
+| sepatu kets | trainers | sneakers |
+| sepak bola | football | soccer |
+Di US, purse juga berarti tas tangan.
+---
+[end cta="Simpan"]
+Kata mana yang *paling bikin kaget?*
+Komen satu kata. Beda arti #3 minggu depan.

@@ -81,6 +81,11 @@ import lexSinceFor from './lexicon-english-since-for.txt?raw';
 import lexHomofon from './lexicon-english-homofon.txt?raw';
 import lexSilent from './lexicon-english-silent-letters.txt?raw';
 import lexUkUs from './lexicon-english-uk-us.txt?raw';
+import lexSalahNgomong2 from './lexicon-english-salah-ngomong-2.txt?raw';
+import lexBedaArti2 from './lexicon-english-beda-arti-2.txt?raw';
+import lexSekolah1 from './lexicon-english-sekolah-1.txt?raw';
+import lexArtinyaApa1 from './lexicon-english-artinya-apa-1.txt?raw';
+import lexInterview1 from './lexicon-english-interview-1.txt?raw';
 import lexKataHariIni1 from './lexicon-english-kata-hari-ini-1.txt?raw';
 import lexPhrasal from './lexicon-english-phrasal-kerja.txt?raw';
 import devHttpMethods from './dev-http-methods-id.txt?raw';
@@ -311,6 +316,11 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-english-homofon', name: 'Homofon: your, its, their (Kosakata Inggris, id)', category: 'english', text: lexHomofon },
   { id: 'lexicon-english-silent-letters', name: 'Huruf yang tidak dibaca (Kosakata Inggris, id)', category: 'english', text: lexSilent },
   { id: 'lexicon-english-uk-us', name: 'British vs American (Kosakata Inggris, id)', category: 'english', text: lexUkUs },
+  { id: 'lexicon-english-salah-ngomong-2', name: 'Salah ngomong #2: waiting for (Kosakata Inggris, id)', category: 'english', text: lexSalahNgomong2 },
+  { id: 'lexicon-english-beda-arti-2', name: 'Beda arti #2: vest, purse, rubber (Kosakata Inggris, id)', category: 'english', text: lexBedaArti2 },
+  { id: 'lexicon-english-sekolah-1', name: 'Bahasa sekolah vs aslinya #1 (Kosakata Inggris, id)', category: 'english', text: lexSekolah1 },
+  { id: 'lexicon-english-artinya-apa-1', name: 'Artinya apa? #1: slang (Kosakata Inggris, id)', category: 'english', text: lexArtinyaApa1 },
+  { id: 'lexicon-english-interview-1', name: 'Interview #1: tell me about yourself (Kosakata Inggris, id)', category: 'english', text: lexInterview1 },
   { id: 'lexicon-english-phrasal-kerja', name: 'Phrasal verb kerja dan kampus (Kosakata Inggris, id)', category: 'english', text: lexPhrasal },
   { id: 'lexicon-english-kata-hari-ini-1', name: 'Kata hari ini #1: pants (Kosakata Inggris, id)', category: 'english', text: lexKataHariIni1 },
   { id: 'dev-http-methods-id', name: 'PUT vs PATCH (dev, id)', category: 'dev', text: devHttpMethods },

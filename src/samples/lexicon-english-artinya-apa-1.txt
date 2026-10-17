@@ -1,0 +1,71 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: artinya apa 1 slang komen
+caption: Arti slang bahasa Inggris yang sering muncul di komen: slay, no cap, lowkey, mid, IYKYK. Sumber arti & IPA: Cambridge Dictionary, Dictionary.com Slang #belajarbahasainggris #kosakatainggris #englishslang
+---
+[cover kicker="ARTINYA APA? · #1"]
+“Slay” di Komen | Artinya Apa?
+5 slang yang sering muncul di komen, plus “Pakai di:” biar tahu kapan aman dipakai dan kapan jangan.
+---
+[word]
+pos: slang · verb
+word: slay
+ipa: /sleɪ/ (UK & US)
+say: “slei”
+meaning: keren banget; tampil memukau
+example: She *slayed* that karaoke song.
+translation: Dia nyanyi lagu karaoke itu keren banget.
+note: Pakai di: nongkrong ✅ · chat kantor ⚠️ · email ❌
+---
+[word]
+pos: slang · idiom
+word: no cap
+say: “nou kep”
+meaning: serius, nggak bohong | (buat menekankan kamu jujur)
+example: This bakso is the best in town, *no cap*.
+translation: Bakso ini paling enak sekota, serius.
+note: Pakai di: nongkrong ✅ · chat kantor ❌ · email ❌
+---
+[word]
+pos: slang · adverb
+word: lowkey
+ipa: /ˌləʊˈkiː/ (UK) · /ˌloʊˈkiː/ (US)
+say: “lou-KI”
+meaning: agak; sebenarnya sih | (pendapat yang nggak mau ditekankan)
+example: I’m *lowkey* nervous about tomorrow.
+translation: Aku agak deg-degan sih buat besok.
+note: Pakai di: nongkrong ✅ · chat kantor ⚠️ · email ❌
+---
+[word]
+pos: slang · adjective
+word: mid
+ipa: /mɪd/ (UK & US)
+say: “mid”
+meaning: biasa aja; kurang bagus
+example: The movie was kind of *mid*.
+translation: Filmnya biasa aja sih.
+note: Pakai di: nongkrong ✅ · chat kantor ❌ · email ❌
+---
+[word]
+pos: singkatan tulisan
+word: IYKYK
+say: biasanya cuma ditulis
+meaning: if you know, you know | yang pernah ngalamin pasti paham
+example: Monday morning traffic in Jakarta. *IYKYK*.
+translation: Macet Jakarta Senin pagi. Yang pernah, pasti paham.
+note: Pakai di: nongkrong ✅ · chat kantor ⚠️ · email ❌
+---
+[table]
+Slang ini aman di mana?
+| Slang | Arti | Chat kantor |
+| slay | keren banget | ⚠️ |
+| no cap | serius, nggak bohong | ❌ |
+| lowkey | agak, sebenarnya sih | ⚠️ |
+| mid | biasa aja | ❌ |
+| IYKYK | yang pernah pasti paham | ⚠️ |
+Email dan tulisan resmi: ❌ untuk semuanya. Cukup paham artinya.
+---
+[end cta="Follow"]
+Slang mana yang *paling sering kamu lihat?*
+Komen satu kata. Artinya apa? #2 minggu depan.
