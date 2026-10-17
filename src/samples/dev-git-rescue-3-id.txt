@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: git rescue 3 file env ke-commit
 caption: File .env ikut ke-commit? Kalau belum di-push, keluarin dari commit tanpa hapus filenya. #git #belajarcoding #programmer

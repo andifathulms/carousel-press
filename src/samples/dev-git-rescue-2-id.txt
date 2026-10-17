@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: git rescue 2 commit ke branch yang salah
 caption: Commit di main, padahal harusnya di branch fitur? Selama belum di-push, masih bisa dipindahin. #git #belajarcoding #programmer

@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: 5 cara pakai ai buat coding
 caption: Yang paling hemat waktu buatku ternyata bukan nulis fitur, tapi bikin test. #ai #belajarcoding #programmer

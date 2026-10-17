@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: 7 shortcut vs code
 caption: Ctrl + D, tekan berulang, dan semua kata yang sama ikut keedit. #vscode #programmer #produktif

@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: 7 perintah linux
 caption: Dari log yang terus jalan sampai folder yang diam-diam makan disk. #linux #programmer #belajarcoding

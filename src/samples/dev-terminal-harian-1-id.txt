@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: terminal harian 1 curl
 caption: Cara pakai curl buat ngecek API: kalau di sini datanya benar, masalahnya bukan di backend. #curl #terminal #api #belajarcoding

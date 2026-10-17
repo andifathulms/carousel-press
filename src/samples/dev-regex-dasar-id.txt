@@ -1,4 +1,5 @@
 template: dev/github-dark
+handle: @fathul_learncoding
 lang: id
 title: 6 pola regex dasar
 caption: Satu baris regex bisa cek format nomor HP 08xx, +62, atau 62. Tesnya ada di slide terakhir. #regex #javascript #belajarcoding

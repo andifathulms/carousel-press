@@ -1,4 +1,5 @@
 template: dev/github-dark
+handle: @fathul_learncoding
 lang: id
 title: tebak output python 2
 caption: Tiga baris Python yang hasilnya sering beda sama tebakan pertama. Tebak dulu sebelum geser. #python #belajarcoding #programmer

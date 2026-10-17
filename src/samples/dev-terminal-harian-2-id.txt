@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: terminal harian 2 cari perintah lama
 caption: Perintah panjang yang kemarin jalan, hari ini lupa. Nggak usah scroll chat lagi, cari di history terminal. #terminal #linux #belajarcoding

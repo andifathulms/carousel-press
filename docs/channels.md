@@ -23,7 +23,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 | Account | Language | What it posts | Template family | Default template |
 |---|---|---|---|---|
 | 🌿 Ruang Rasa (@ruangrasakita.id) | `id` | Lines to send, conversation starters | `editorial/ruang-*` | one per pillar (see §1) |
-| 💻 Fathul Learn Coding | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
+| 💻 Fathul Learn Coding (@fathul_learncoding) | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
 | 📜 Sejarah Nusantara (@sejarah.nusantara.id) | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
 | 🏟️ Whistle Notes | `id` | Sports rules as verdict quizzes | `sport/*` | `sport/papan` (football), `sport/lapangan` (indoor) |
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
@@ -210,6 +210,7 @@ Concepts always open **error-first**: the cover is the error or the confusing re
 
 ### Deck recipe
 
+- **Header:** `handle: @fathul_learncoding` in every deck.
 - **Templates:** `dev/terminal` is the default (Git, shell, AI, tools, concepts). `dev/github-dark` only for JS/Python/SQL code-heavy decks, where colour highlighting helps. Never `dev/paper-light` (that was Whistle Notes' old look).
 - **Length:** cover + 4–7 slides + end, ≤ 10 total.
 - **Cover:** `[cover kicker="GIT RESCUE • #2"]` or `[cover kicker="GIT • CHEAT SHEET"]` (TOPIC • FORMAT in caps; the first segment becomes the header path, `~/git`). Headline: the moment of panic ("Port 3000 udah dipakai?"), not "N perintah…". On rescue and cheat-sheet decks, end the subtitle with a short save reason, worded differently each post ("Simpan buat pas panik.", "Simpan dulu, kepakai nanti.").
@@ -1692,7 +1693,7 @@ When asked for "N posts" for an account: read its section, pick formats from its
 
 ## 15. Open items
 
-- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all thirteen handles, put `handle:` in every deck header. Ruang Rasa is done (`handle: @ruangrasakita.id` in every deck, Oct 2026): its slides are screenshotted out of TikTok, and the handle on the slide is the only way those shares turn into follows.
+- **Handles.** Decks omit `handle:` and fall back to the single handle in Settings, so most accounts will get the wrong handle. Once the owner gives all thirteen handles, put `handle:` in every deck header. Done: Ruang Rasa (`@ruangrasakita.id`), Fathul Learn Coding (`@fathul_learncoding`), Sejarah Nusantara (`@sejarah.nusantara.id`). Ruang Rasa matters most: its slides are screenshotted out of TikTok, and the handle on the slide is the only way those shares turn into follows.
 - **`editorial/stone` variant (Filsafat Harian): shipped (Oct 2026).** A tokens-only variant in the editorial family: warm stone, charcoal, terracotta. Blobs off since the Oct 2026 review. Serif `Playfair Display`, sans `DM Sans`. Rotation `['stone', 'stone', 'slate']`. Tokens (contrast-checked):
 
   | Surface | bg | ink | body | muted | accent | badgeBg | badgeInk | blob | icon | inlineCodeBg |

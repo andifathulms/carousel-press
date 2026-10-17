@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: ai ngarang fungsi yang nggak ada
 caption: AI kasih fungsi yang kelihatan meyakinkan, tapi pas dijalankan "is not a function". Cek dulu pakai satu baris. #ai #belajarcoding #programmer

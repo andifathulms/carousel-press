@@ -1,4 +1,5 @@
 template: dev/github-dark
+handle: @fathul_learncoding
 lang: id
 title: 5 trik console javascript
 caption: console.log({ total }) langsung nunjukin nama variabelnya, bukan cuma angkanya. #javascript #debugging #belajarcoding

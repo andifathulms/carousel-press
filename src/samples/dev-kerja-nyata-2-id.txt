@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: kerja nyata 2 pesan commit
 caption: Pesan commit "update" lolos di project sendiri, tapi biasanya ditanya pas review. Ini format yang dipakai banyak tim. #git #belajarcoding #juniordeveloper

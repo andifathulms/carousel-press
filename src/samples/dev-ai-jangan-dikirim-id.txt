@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: 5 hal jangan ditempel ke ai
 caption: Satu copy-paste log server bisa ikut bawa token dan data user. #ai #keamanan #belajarcoding

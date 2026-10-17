@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: 5 cli tools
 caption: Cari teks, cari file, baca JSON: semuanya lebih cepat dari terminal. #terminal #linux #belajarcoding

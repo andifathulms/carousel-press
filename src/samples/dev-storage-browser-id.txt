@@ -1,4 +1,5 @@
 template: dev/github-dark
+handle: @fathul_learncoding
 lang: id
 title: localstorage vs cookie
 caption: Script jahat yang lolos lewat XSS bisa baca isi localStorage, termasuk token login. #webdev #javascript #belajarcoding

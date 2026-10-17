@@ -1,4 +1,5 @@
 template: dev/github-dark
+handle: @fathul_learncoding
 lang: id
 title: akhirnya paham cors
 caption: Ternyata bukan server-nya yang rusak: browser yang nahan response-nya. #webdev #javascript #belajarcoding

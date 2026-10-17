@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: git rescue 4 konflik setelah git pull
 caption: git pull terus muncul CONFLICT? Tenang, belum ada yang rusak. Ini cara beresinnya, atau batalin dulu. #git #belajarcoding #programmer

@@ -1,4 +1,5 @@
 template: dev/github-dark
+handle: @fathul_learncoding
 lang: id
 title: 6 query sql
 caption: WHERE nyaring baris, HAVING nyaring hasil GROUP BY, dan dua-duanya sering ketuker. #sql #database #belajarcoding

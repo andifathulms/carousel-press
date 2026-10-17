@@ -1,4 +1,5 @@
 template: dev/terminal
+handle: @fathul_learncoding
 lang: id
 title: docker dasar
 caption: Container dihapus, file di dalamnya ikut hilang. Kecuali kamu pakai volume. #docker #devops #belajarcoding

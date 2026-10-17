@@ -1,4 +1,5 @@
 template: dev/github-dark
+handle: @fathul_learncoding
 lang: id
 title: akhirnya paham async await
 caption: Yang bikin aku lama bingung: await nggak bikin JavaScript berhenti. Semoga kamu lebih cepat. #javascript #asyncawait #belajarcoding

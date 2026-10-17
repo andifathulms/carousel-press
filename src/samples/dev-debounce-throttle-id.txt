@@ -1,4 +1,5 @@
 template: dev/github-dark
+handle: @fathul_learncoding
 lang: id
 title: debounce vs throttle
 caption: Search box yang manggil API tiap huruf bisa kirim 6 request cuma buat satu kata. #javascript #webdev #belajarcoding
