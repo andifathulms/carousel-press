@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: salah kaprah stoik 2 sigma
+caption: Di medsos, stoik sering jadi “sigma”: dingin, cuek, balas dendam diam-diam. Kaisar yang menulisnya bilang lain. Sumber: Marcus Aurelius, Meditasi 2.1 & 6.6 (terj. George Long) · SEP "Marcus Aurelius" #stoikisme #filsafatharian #sigma #salahkaprah
+---
+[cover kicker="SALAH KAPRAH STOIK · #2"]
+Stoik itu | *dingin dan balas dendam?*
+Kata medsos vs kata kaisar yang menulisnya.
+---
+[compare]
+headline: Yang sering salah dipahami
+wrong-label: Kata medsos
+wrong: Stoik = sigma: dingin, cuek, lalu balas dendam diam-diam.
+right-label: Kata Marcus Aurelius
+right: Balasan terbaik adalah tidak menjadi seperti orang yang menyakitimu.
+why: Meditasi 6.6, ditulis untuk dirinya sendiri oleh kaisar Roma (161–180 M).
+---
+[quote icon=none]
+Kita diciptakan untuk bekerja sama, seperti kaki, tangan, kelopak mata, dan deretan gigi atas dan bawah.
+— Marcus Aurelius, Meditasi 2.1 (terj. bebas, Long)
+---
+[card kicker="Ide Marcus Aurelius · kaisar Roma, 161–180 M" number=off icon=none]
+Yang berbuat salah *tetap kerabatmu.*
+Bagi Marcus, semua orang berbagi akal yang sama. Karena itu ia menolak membenci, bukan menolak peduli (2.1).
+---
+[card kicker="Coba hari ini" number=off icon=none]
+Saat ingin membalas, tanya: *aku mau jadi seperti dia?*
+Kalau nggak, balasannya adalah tetap bekerja dengan baik.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Tidak membalas *bukan berarti diam.*
+Menegur, menolak, atau melapor tetap bisa dilakukan, tanpa dendam.
+---
+[end cta="Simpan"]
+Selama ini kamu kira stoik itu *sigma?*
+Jawab “iya” atau “nggak” di komen.

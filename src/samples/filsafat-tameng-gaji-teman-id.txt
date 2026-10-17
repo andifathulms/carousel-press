@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: tameng 4 gaji teman dua kali lipat
+caption: Lulus bareng, sekarang angkanya beda jauh. Epiktetos punya hitungan selada buat ini. Sumber: Epiktetos, Enchiridion 25 (terj. T.W. Higginson) · SEP "Epictetus" #stoikisme #filsafatharian #gaji #insecure
+---
+[cover kicker="FILSAFAT HARIAN · TAMENG #4"]
+Gaji teman seangkatan | *dua kali lipat.*
+Hitungan selada dari Epiktetos, buat yang lagi membandingkan.
+---
+[card kicker="Situasinya" number=off icon=none]
+Kalian lulus bareng. *Sekarang angkanya beda jauh.*
+Kamu ikut senang, tapi malamnya buka slip gajimu sendiri berkali-kali.
+---
+[card kicker="Yang sebenarnya melukai" number=off icon=none]
+Bukan gajinya, tapi *kesimpulan yang kamu tarik.*
+“Berarti aku kalah.” “Aku salah pilih jalan.”
+---
+[quote icon=none]
+Kamu tak bisa menyamai orang lain dalam hal-hal lahiriah tanpa memakai cara yang sama untuk mendapatkannya.
+— Epiktetos, Enchiridion 25 (terj. bebas, Higginson)
+---
+[card kicker="Ide Epiktetos · pernah jadi budak, abad ke-1–2 M" number=off icon=none]
+Semua hal di luar dirimu *ada harganya.*
+Selada dijual satu obol. Yang membayar dapat selada, yang tidak membayar masih pegang obolnya (Enchiridion 25).
+---
+[card kicker="Coba malam ini" number=off icon=none]
+Tanya: *harga apa yang dia bayar?*
+Pindah kota, lembur, risiko, jam tidur. Lalu tanya: aku mau bayar harga itu? Kalau nggak, kamu masih pegang obolmu.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Kadang selisihnya *memang nggak adil.*
+Gaji di bawah ketentuan atau upah yang telat dibayar bukan soal harga selada. Itu boleh dinegosiasikan atau dilaporkan.
+---
+[end cta="Simpan"]
+Yang paling sering kamu *bandingkan?*
+Satu kata di komen: gaji, jabatan, atau yang lain?

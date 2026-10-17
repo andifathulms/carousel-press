@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: tameng 3 kapan nikah
+caption: Kumpul keluarga, satu meja, satu pertanyaan. Yang bikin berat bukan pertanyaannya. Sumber: Marcus Aurelius, Meditasi 12.4 (terj. George Long) · Epiktetos, Enchiridion 1 (terj. T.W. Higginson) · SEP "Marcus Aurelius" #stoikisme #filsafatharian #kapannikah #keluarga
+---
+[cover kicker="FILSAFAT HARIAN · TAMENG #3"]
+“Kapan nikah?” | *Di depan satu meja.*
+Cara Stoa biar pertanyaannya nggak ikut kamu bawa pulang.
+---
+[card kicker="Situasinya" number=off icon=none]
+Semua menoleh ke kamu, *sendoknya berhenti.*
+Kamu senyum. Di jalan pulang, pertanyaannya masih di kepala.
+---
+[card kicker="Yang sebenarnya melukai" number=off icon=none]
+Bukan pertanyaannya, tapi *takut dinilai.*
+“Aku ketinggalan.” “Mereka pasti mikir aku gagal.”
+---
+[quote icon=none]
+Tiap orang mencintai dirinya lebih dari siapa pun, tapi lebih menghargai pendapat orang lain tentang dirinya daripada pendapatnya sendiri.
+— Marcus Aurelius, Meditasi 12.4 (terj. bebas, Long)
+---
+[card kicker="Ide Marcus Aurelius · kaisar Roma, 161–180 M" number=off icon=none]
+Pendapat mereka tentang hidupmu *bukan milikmu.*
+Yang milikmu: penilaianmu sendiri dan jawabanmu. Epiktetos menaruh nama baik di mata orang di luar kendali kita (Enchiridion 1).
+---
+[card kicker="Coba di kumpul keluarga berikutnya" number=off icon=none]
+Siapkan satu jawaban, *lalu ganti topik.*
+Pendek, jujur, ramah. Butuh kalimatnya? Cek @ruangrasakita.id.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Tameng *bukan tembok* buat keluarga.
+Kalau pertanyaannya sudah jadi tekanan atau paksaan, bicarakan baik-baik dengan orang rumah yang paling kamu percaya.
+---
+[end cta="Simpan"]
+Pertanyaan keluarga yang *paling kamu hindari?*
+Satu kata aja di komen.

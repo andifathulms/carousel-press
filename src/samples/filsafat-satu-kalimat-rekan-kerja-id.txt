@@ -1,0 +1,25 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: satu kalimat 1 rekan kerja itu lagi
+caption: Kalimat yang ditulis seorang kaisar untuk dirinya sendiri, buat pagi yang sudah kebayang beratnya. Sumber: Marcus Aurelius, Meditasi 2.1 (terj. George Long) · SEP "Marcus Aurelius" #stoikisme #filsafatharian #rekankerja #duniakerja
+---
+[cover kicker="SATU KALIMAT · #1"]
+Pagi ini kamu ketemu | *rekan kerja itu lagi.*
+Kalimat yang ditulis kaisar Roma untuk dirinya sendiri.
+---
+[quote icon=none]
+Mulailah pagi dengan berkata pada dirimu: hari ini aku akan bertemu orang yang suka ikut campur, tak tahu terima kasih, sombong, licik, iri, dan tak mau bekerja sama.
+— Marcus Aurelius, Meditasi 2.1 (terj. bebas, Long)
+---
+[card kicker="Artinya di kantor" number=off icon=none]
+Kamu sudah tahu mereka ada. *Jadi nggak kaget.*
+Lanjutannya: tak satu pun bisa benar-benar merugikanku, karena kita diciptakan untuk bekerja sama, seperti kaki dan tangan (2.1).
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Kalau sudah merendahkan, *itu bukan soal sabar.*
+Sikap yang mengganggu kerjamu terus-menerus perlu dicatat dan dibicarakan dengan atasan atau HR.
+---
+[end cta="Simpan"]
+Tipe rekan kerja yang *paling menguji?*
+Satu kata di komen: kepo, sombong, atau yang lain?

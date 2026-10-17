@@ -139,6 +139,11 @@ import b2EditorialTemanBerdukaId from './editorial-teman-berduka-id.txt?raw';
 import b2EditorialTemanKosId from './editorial-teman-kos-id.txt?raw';
 import b2FilsafatAkrasiaId from './filsafat-akrasia-id.txt?raw';
 import filsafatTamengBosMarah from './filsafat-tameng-bos-marah-id.txt?raw';
+import filsafatTamengKapanNikah from './filsafat-tameng-kapan-nikah-id.txt?raw';
+import filsafatTamengGajiTeman from './filsafat-tameng-gaji-teman-id.txt?raw';
+import filsafatSatuKalimatRekan from './filsafat-satu-kalimat-rekan-kerja-id.txt?raw';
+import filsafatStoikBukanSigma from './filsafat-stoik-bukan-sigma-id.txt?raw';
+import filsafatLemburAtauPulang from './filsafat-lembur-atau-pulang-id.txt?raw';
 import b2FilsafatCogitoId from './filsafat-cogito-id.txt?raw';
 import b2FilsafatLindungiTemanId from './filsafat-lindungi-teman-id.txt?raw';
 import b2FilsafatSenecaBayanganId from './filsafat-seneca-bayangan-id.txt?raw';
@@ -305,11 +310,11 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'hadis-wajah-berseri', name: 'Wajah berseri (hadis) (Ayat Harian, id)', category: 'ayat', text: hadisWajahBerseri },
   { id: 'hadis-hati-dan-amal', name: 'Hati dan amal (hadis) (Ayat Harian, id)', category: 'ayat', text: hadisHatiDanAmal },
   // Filsafat Harian (philosophy)
-  { id: 'filsafat-epikuros-keinginan-id', name: 'Checkout tengah malam: Epikuros (Filsafat Harian, id)', category: 'philosophy', text: filsafatEpikuros },
+  { id: 'filsafat-epikuros-keinginan-id', name: 'Tameng #6: baru gajian sudah checkout (Filsafat Harian, id)', category: 'philosophy', text: filsafatEpikuros },
   { id: 'filsafat-wu-wei-id', name: 'Wu wei bukan berarti malas (Filsafat Harian, id)', category: 'philosophy', text: filsafatWuWei },
-  { id: 'filsafat-jujur-atau-baik-id', name: 'Jujur atau menjaga perasaan? (dilema) (Filsafat Harian, id)', category: 'philosophy', text: filsafatJujur },
-  { id: 'filsafat-stoik-bukan-mati-rasa-id', name: 'Stoik bukan mati rasa (Filsafat Harian, id)', category: 'philosophy', text: filsafatStoik },
-  { id: 'filsafat-konfusius-tahu-id', name: 'Berani bilang nggak tahu: Konfusius (Filsafat Harian, id)', category: 'philosophy', text: filsafatKonfusius },
+  { id: 'filsafat-jujur-atau-baik-id', name: 'Kamu pilih mana #1: jujur ke rekan kerja (Filsafat Harian, id)', category: 'philosophy', text: filsafatJujur },
+  { id: 'filsafat-stoik-bukan-mati-rasa-id', name: 'Salah kaprah stoik #1: mati rasa (Filsafat Harian, id)', category: 'philosophy', text: filsafatStoik },
+  { id: 'filsafat-konfusius-tahu-id', name: 'Satu kalimat #2: pura-pura tahu di meeting (Filsafat Harian, id)', category: 'philosophy', text: filsafatKonfusius },
   // October 2026 batch: 5 each for Kamus Kecil, Kosakata Inggris, dev, Ruang Rasa
   { id: 'lexicon-kamus-salah-arti', name: 'Acuh itu peduli (Kata Baku, id)', category: 'indonesian', text: lexKamusSalahArti },
   { id: 'lexicon-kamus-luluh-ktsp', name: 'Memesona, bukan mempesona (Kata Baku, id)', category: 'indonesian', text: lexKamusLuluh },
@@ -362,11 +367,16 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-pilih-satu-tidur-id', name: 'Pilih satu versi jam tidur (Ruang Rasa, id)', category: 'relationships', text: b2EditorialPilihSatuTidurId },
   { id: 'editorial-teman-berduka-id', name: 'Pesan buat teman yang berduka (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanBerdukaId },
   { id: 'editorial-teman-kos-id', name: 'Artinya kalimat teman kos (Ruang Rasa, id)', category: 'relationships', text: b2EditorialTemanKosId },
-  { id: 'filsafat-akrasia-id', name: 'Akrasia (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatAkrasiaId },
+  { id: 'filsafat-akrasia-id', name: 'Tameng #5: deadline besok (akrasia) (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatAkrasiaId },
   { id: 'filsafat-tameng-bos-marah-id', name: 'Tameng #1: bos marah di grup (Filsafat Harian, id)', category: 'philosophy', text: filsafatTamengBosMarah },
+  { id: 'filsafat-tameng-kapan-nikah-id', name: 'Tameng #3: kapan nikah (Filsafat Harian, id)', category: 'philosophy', text: filsafatTamengKapanNikah },
+  { id: 'filsafat-tameng-gaji-teman-id', name: 'Tameng #4: gaji teman dua kali lipat (Filsafat Harian, id)', category: 'philosophy', text: filsafatTamengGajiTeman },
+  { id: 'filsafat-satu-kalimat-rekan-kerja-id', name: 'Satu kalimat #1: rekan kerja itu lagi (Filsafat Harian, id)', category: 'philosophy', text: filsafatSatuKalimatRekan },
+  { id: 'filsafat-stoik-bukan-sigma-id', name: 'Salah kaprah stoik #2: sigma (Filsafat Harian, id)', category: 'philosophy', text: filsafatStoikBukanSigma },
+  { id: 'filsafat-lembur-atau-pulang-id', name: 'Kamu pilih mana #3: lembur atau pulang (Filsafat Harian, id)', category: 'philosophy', text: filsafatLemburAtauPulang },
   { id: 'filsafat-cogito-id', name: 'Cogito ergo sum (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatCogitoId },
-  { id: 'filsafat-lindungi-teman-id', name: 'Lindungi teman atau bilang apa adanya (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatLindungiTemanId },
-  { id: 'filsafat-seneca-bayangan-id', name: 'Menderita dalam bayangan (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatSenecaBayanganId },
+  { id: 'filsafat-lindungi-teman-id', name: 'Kamu pilih mana #2: rekan curang, kamu ditanya (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatLindungiTemanId },
+  { id: 'filsafat-seneca-bayangan-id', name: 'Tameng #2: Senin belum mulai (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatSenecaBayanganId },
   { id: 'filsafat-tut-wuri-handayani-id', name: 'Tiga tempat pemimpin (Filsafat Harian, id)', category: 'philosophy', text: b2FilsafatTutWuriHandayaniId },
   { id: 'lexicon-english-borrow-lend', name: 'Borrow atau lend (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishBorrowLend },
   { id: 'lexicon-english-kata-hari-ini-2', name: 'Kata hari ini 2 recipe (Kosakata Inggris, id)', category: 'english', text: b2LexiconEnglishKataHariIni2 },

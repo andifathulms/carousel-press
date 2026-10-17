@@ -1,0 +1,29 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: pilih mana 3 lembur atau pulang
+caption: Ada posisi kosong, dan yang paling sering lembur kelihatannya paling dilirik. Dua orang Stoa menjawab beda. Sumber: Marcus Aurelius, Meditasi 5.1 (terj. George Long) · Seneca, Surat kepada Lucilius 1 (terj. Richard M. Gummere) · SEP "Marcus Aurelius" #filsafatharian #lembur #hustleculture #dilema
+---
+[cover kicker="KAMU PILIH MANA? · #3"]
+Lembur demi naik jabatan, | *atau pulang tepat waktu?*
+Dua orang Stoa, dua jawaban.
+---
+[card kicker="Kamu pilih mana?" number=off icon=none]
+*A.* Lembur terus. | *B.* Pulang tepat waktu.
+Ada posisi kosong di timmu. Yang paling sering lembur kelihatannya paling dilirik.
+---
+[card kicker="Posisi A · Marcus Aurelius (121–180 M)" number=off icon=none]
+Kamu lahir *untuk bekerja,* bukan untuk berselimut.
+Begitu kaisar Roma ini menegur dirinya sendiri saat malas bangun pagi (Meditasi 5.1).
+---
+[card kicker="Posisi B · Seneca (abad ke-1 M)" number=off icon=none]
+Tak ada yang *benar-benar milikmu* kecuali waktu.
+Surat kepada Lucilius 1.3: waktu satu-satunya pinjaman yang tak bisa dikembalikan, bahkan oleh orang yang paling tahu terima kasih.
+---
+[card kicker="Yang sering terlewat · Meditasi 5.1" number=off icon=none]
+Marcus juga menulis: *istirahat itu perlu.*
+Hanya saja ada batasnya, seperti makan dan minum. Pertanyaannya: lemburmu untuk kerjanya, atau supaya terlihat?
+---
+[end cta="Simpan"]
+Kamu *A atau B?*
+Komen satu huruf, plus satu kata alasannya.
