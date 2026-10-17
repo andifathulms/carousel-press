@@ -1,0 +1,79 @@
+template: dev/sheet
+lang: id
+title: pivot rekap penjualan
+caption: Cara bikin pivot table Excel buat rekap penjualan per cabang per bulan, 1 menit. Plus rumus SUMIFS kalau file-nya nggak bisa dipivot. Diuji di [versi Excel yang dipakai owner]. #pivottable #exceltips #tipskantor
+---
+[cover kicker="EXCEL • BOS MINTA #2"]
+Bos minta rekap | *jam 4 sore?*
+Cara bikin pivot table: total penjualan per cabang per bulan, 1 menit.
+---
+[sheet]
+Klik tabelnya, Insert > PivotTable
+Pilih New Worksheet, lalu OK. Setiap kolom wajib punya judul.
+```sheet
+Bulan | Cabang | Penjualan
+Agu | *Bandung* | 12
+Agu | Medan | 8
+Agu | *Bandung* | 6
+Sep | Medan | 9
+Sep | *Bandung* | 15
+```
+Penjualan dalam juta rupiah. Bandung muncul 3 kali.
+---
+[card]
+Tarik kolomnya ke 3 kotak
+Di panel PivotTable Fields:
+Cabang ke Rows.
+Bulan ke Columns.
+Penjualan ke Values, otomatis jadi Sum.
+---
+[sheet]
+Jadi: per cabang, per bulan
+Excel menjumlahkan sendiri, termasuk Grand Total.
+```sheet
+Row Labels | Agu | Sep | Grand Total
+Bandung | *18* | 15 | 33
+Medan | 8 | 9 | 17
+Grand Total | 26 | 24 | 50
+```
+Bandung Agu: 12 + 6 = 18. Semua 50 juta.
+---
+[card]
+Angka diubah? *Refresh dulu*
+Pivot nggak ikut berubah sendiri. Klik di dalam pivot, lalu:
+Alt + F5: Refresh
+Ctrl + Alt + F5: Refresh semua
+Atau klik kanan pivot, pilih Refresh. Shortcut ini untuk Windows.
+---
+[card]
+Baris baru *nggak ikut?*
+Pivot cuma membaca range awal. Sebelum bikin pivot, jadikan datanya Table:
+Ctrl + T: Jadikan Table
+Baris baru di Table ikut masuk setiap kali Refresh.
+---
+[sheet]
+Nggak bisa pivot? *SUMIFS*
+Update sendiri tanpa Refresh. C dijumlah, B dan A syaratnya.
+```sheet
+D2 =SUMIFS(C2:C6;B2:B6;"Bandung";A2:A6;"Agu")
+Bulan | Cabang | Penjualan | Hasil
+*Agu* | *Bandung* | *12* | 18
+Agu | Medan | 8 |
+*Agu* | *Bandung* | *6* |
+Sep | Medan | 9 |
+Sep | Bandung | 15 |
+```
+Sama dengan pivot: 18. Region US: ganti ; jadi ,
+---
+[card]
+Pakai Google Sheets?
+Insert > Pivot table. Di panel kanan, klik Add di Rows, Columns dan Values.
+Pivot di Sheets ikut update sendiri saat datanya berubah.
+---
+[card number=off icon=check]
+Bisa di *Excel 2016*
+PivotTable ada di Excel 2016, 2019, 2021, 2024 dan Microsoft 365. SUMIFS malah sudah ada sejak Excel 2007.
+---
+[end cta="Simpan"]
+Kantormu lebih sering | *pivot atau rumus?*
+Komen P atau R. Kirim ke rekan sedivisi. Besok: laporan pas 1 halaman waktu di-print.

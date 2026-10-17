@@ -1,0 +1,62 @@
+template: dev/sheet
+lang: id
+title: shortcut laporan
+caption: Shortcut Excel buat bikin laporan lebih cepat, tangan nggak perlu pindah ke mouse. Diuji di [versi Excel yang dipakai owner] (Windows). #shortcutexcel #exceltips #tipskantor
+---
+[cover kicker="EXCEL • SHORTCUT"]
+Laporan dikejar deadline? | *Lepas mouse.*
+17 shortcut Excel, dikelompokkan per tugas. Kartu terakhir buat disimpan.
+---
+[card]
+Pindah dan blok data
+Data ribuan baris? Nggak usah di-scroll.
+Ctrl + ↓: Ke ujung data
+Ctrl + Shift + ↓: Blok sampai bawah
+Ctrl + Space: Pilih kolom
+Shift + Space: Pilih baris
+Ada sel kosong di tengah? Lompatnya berhenti di situ. Shortcut Windows.
+---
+[card]
+Rapikan tabel
+Ctrl + T: Jadikan tabel
+Ctrl + B: Tebalkan
+Ctrl + 1: Format Cells
+Habis Ctrl + T, tekan Enter. Judul kolom langsung dapat tombol filter. Di Mac, Ctrl jadi Cmd.
+---
+[card]
+Format angka
+Blok angkanya dulu, lalu:
+Ctrl + Shift + 1: Ribuan + 2 desimal
+Ctrl + Shift + 5: Persen
+Ctrl + Shift + 3: Format tanggal
+Di keyboard US, 1, 5, 3 itu tombol !, %, #. Pemisah ribuan ikut region. Shortcut Windows.
+---
+[card]
+Isi dan jumlah cepat
+Alt + =: Jumlah otomatis
+Ctrl + D: Salin ke bawah
+Ctrl + Enter: Isi semua sel blok
+Ctrl + ;: Tanggal hari ini
+Blok selnya, ketik, lalu Ctrl + Enter: isinya masuk ke semua sel itu. Shortcut Windows.
+---
+[card]
+Rumus
+F2: Edit sel
+F4: Kunci sel ($A$1)
+Ctrl + E: Flash Fill
+Di luar rumus, F4 mengulang aksi terakhir. Di laptop, mungkin perlu Fn. Shortcut Windows.
+---
+[card number=off]
+Simpan ini
+Ctrl + ↓: Ke ujung data
+Ctrl + Shift + ↓: Blok sampai bawah
+Ctrl + T: Jadikan tabel
+Ctrl + Shift + 1: Ribuan + 2 desimal
+Alt + =: Jumlah otomatis
+Ctrl + D: Salin ke bawah
+F4: Kunci sel ($A$1)
+Shortcut Excel Windows.
+---
+[end cta="Simpan"]
+Shortcut mana yang | *baru kamu tahu?*
+Komen nomor kartunya. Kirim ke rekan sedivisi. Besok: laporan pas satu halaman waktu di-print.

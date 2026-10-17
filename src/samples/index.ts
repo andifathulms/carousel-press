@@ -174,6 +174,10 @@ import lexiconHanziXiexie from './lexicon-hanzi-xiexie.txt?raw';
 
 // October 2026 batch 3: Jago Kantoran, SKD Harian, Kosakata Arab, Kosakata Mandarin
 import b3KantorNaSpasiId from './kantor-na-spasi-id.txt?raw';
+import kantorDataBerantakan2 from './kantor-data-berantakan-2-id.txt?raw';
+import kantorShortcutLaporan from './kantor-shortcut-laporan-id.txt?raw';
+import kantorBosMinta2 from './kantor-bos-minta-2-id.txt?raw';
+import kantorPrint1Halaman from './kantor-print-1-halaman-id.txt?raw';
 import b3KantorSumifsId from './kantor-sumifs-id.txt?raw';
 import b3KantorNomorHalamanId from './kantor-nomor-halaman-id.txt?raw';
 import b3KantorCcBccId from './kantor-cc-bcc-id.txt?raw';
@@ -410,6 +414,10 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-hanzi-xiexie', name: 'Terima kasih dan sama-sama (Kosakata Mandarin, id)', category: 'mandarin', text: lexiconHanziXiexie },
   // October 2026 batch 3
   { id: 'kantor-na-spasi-id', name: '#N/A padahal datanya ada (Jago Kantoran, id)', category: 'office', text: b3KantorNaSpasiId },
+  { id: 'kantor-data-berantakan-2-id', name: 'Data berantakan #2: pisah nama (Jago Kantoran, id)', category: 'office', text: kantorDataBerantakan2 },
+  { id: 'kantor-shortcut-laporan-id', name: 'Shortcut laporan (Jago Kantoran, id)', category: 'office', text: kantorShortcutLaporan },
+  { id: 'kantor-bos-minta-2-id', name: 'Bos minta #2: pivot rekap (Jago Kantoran, id)', category: 'office', text: kantorBosMinta2 },
+  { id: 'kantor-print-1-halaman-id', name: 'Print 1 halaman (Jago Kantoran, id)', category: 'office', text: kantorPrint1Halaman },
   { id: 'kantor-sumifs-id', name: 'SUMIFS dan COUNTIFS rekap gaji (Jago Kantoran, id)', category: 'office', text: b3KantorSumifsId },
   { id: 'kantor-nomor-halaman-id', name: 'Nomor halaman mulai halaman 3 (Jago Kantoran, id)', category: 'office', text: b3KantorNomorHalamanId },
   { id: 'kantor-cc-bcc-id', name: 'CC vs BCC (Jago Kantoran, id)', category: 'office', text: b3KantorCcBccId },

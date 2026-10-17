@@ -1,0 +1,50 @@
+template: dev/sheet
+lang: id
+title: print excel 1 halaman
+caption: Cara print Excel 1 halaman biar kolom nggak terpotong, dan judul kolom muncul di tiap halaman. Diuji di [versi Excel yang dipakai owner]. #exceltips #tipskantor #printexcel
+---
+[cover kicker="EXCEL • LAPORAN RAPI"]
+Diprint, kolom terakhirnya | *pindah halaman?*
+Print Excel 1 halaman lebar, judul kolom ikut di tiap halaman. 5 langkah.
+---
+[sheet]
+Kolom E nyasar ke halaman 2?
+Page Layout > Scale to Fit. Width: pilih 1 page, Height: Automatic.
+```sheet
+ID | Nama | Divisi | Jam | *Status*
+K01 | Rina | Keuangan | 8 | *Hadir*
+K02 | Bayu | HRD | 6 | *Izin*
+K03 | Sari | IT | 8 | *Hadir*
+K04 | Dimas | Gudang | 7 | *Hadir*
+K05 | Lala | IT | 0 | *Cuti*
+```
+Kolom A sampai E muat 1 halaman. Barisnya boleh lanjut ke halaman 2.
+---
+[card]
+Cek angka di kotak Scale
+Excel mengecilkan isinya supaya muat. Angkanya kecil banget? Page Layout > Orientation > Landscape.
+---
+[card]
+Judul kolom di tiap halaman
+Page Layout > Print Titles. Di tab Sheet, isi Rows to repeat at top dengan $1:$1.
+---
+[card]
+Lihat batas halamannya
+View > Page Break Preview. Garis putus-putus itu batas halaman yang dibuat Excel.
+---
+[card]
+Cek dulu sebelum print
+Ctrl + P: Print
+Windows. Lihat halaman 2: judul kolom ada, kolom E nggak nyasar lagi.
+---
+[card number=off]
+Judul kolom diam waktu scroll
+View > Freeze Panes > Freeze Top Row. Ini buat kerja di layar, nggak ngaruh ke print.
+---
+[card number=off icon=alert]
+Excel for the web *belum bisa*
+Fit to dan Print Titles cuma di Excel desktop. Di Mac, menunya sama. Google Sheets: File > Print > Headers & footers > Repeat frozen rows.
+---
+[end cta="Simpan"]
+Laporanmu biasanya | *berapa halaman?*
+Komen angkanya. Kirim ke rekan sedivisi. Besok: format angka rupiah yang rapi.

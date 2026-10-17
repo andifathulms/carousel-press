@@ -1,0 +1,87 @@
+template: dev/sheet
+lang: id
+title: pisah nama depan belakang
+caption: Cara memisahkan nama depan dan belakang di Excel, tanpa ketik ulang satu per satu. Bisa di Excel 2016. Diuji di [versi Excel yang dipakai owner]. #exceltips #tipskantor #belajarexcel
+---
+[cover kicker="EXCEL • DATA BERANTAKAN #2"]
+Nama lengkap nyatu | *satu kolom?*
+Cara memisahkan nama depan dan belakang di Excel: rumus untuk semua versi, plus jalan pintas Excel baru.
+---
+[sheet]
+Form minta dua kolom, datanya satu
+Data dari divisi lain: nama lengkap di kolom A. Kolom B dan C masih kosong.
+```sheet
+Nama lengkap | Depan | Belakang
+*Rina Kartika* | |
+*Bayu Saputra* | |
+*Sari Wulandari* | |
+*Dimas Pratama* | |
+*Lala Nur Aini* | |
+```
+Nggak perlu ketik ulang. Kuncinya: spasi pertama di tiap nama.
+---
+[sheet]
+Nama depan: LEFT + FIND
+FIND mencari posisi spasi. LEFT mengambil huruf sebelum spasi itu (makanya -1).
+```sheet
+B2 =LEFT(A2;FIND(" ";A2)-1)
+Nama lengkap | Depan | Belakang
+Rina Kartika | Rina |
+Bayu Saputra | Bayu |
+Sari Wulandari | Sari |
+Dimas Pratama | Dimas |
+Lala Nur Aini | Lala |
+```
+Spasi Rina di huruf ke-5, jadi diambil 4 huruf: Rina. Salin ke bawah.
+---
+[sheet]
+Nama belakang: RIGHT + LEN
+LEN = panjang nama. Dikurangi posisi spasi = sisa huruf di kanan.
+```sheet
+C2 =RIGHT(A2;LEN(A2)-FIND(" ";A2))
+Nama lengkap | Depan | Belakang
+Rina Kartika | Rina | Kartika
+Bayu Saputra | Bayu | Saputra
+Sari Wulandari | Sari | Wulandari
+Dimas Pratama | Dimas | Pratama
+*Lala Nur Aini* | *Lala* | *Nur Aini*
+```
+Tiga kata? Dipotong di spasi pertama: Nur Aini.
+---
+[sheet]
+Excel 365: TEXTAFTER
+Ambil teks sesudah spasi. Nama depan: =TEXTBEFORE(A2;" ")
+```sheet
+C2 =TEXTAFTER(A2;" ")
+Nama lengkap | Depan | Belakang
+Rina Kartika | Rina | Kartika
+Bayu Saputra | Bayu | Saputra
+Sari Wulandari | Sari | Wulandari
+Dimas Pratama | Dimas | Pratama
+Lala Nur Aini | Lala | Nur Aini
+```
+Kata terakhir saja (Aini): =TEXTAFTER(A2;" ";-1)
+---
+[card icon=lightbulb]
+Tanpa rumus: *Flash Fill*
+Ketik “Rina” di B2, pindah ke B3, lalu tekan:
+Ctrl + E: Flash Fill
+Excel menebak polanya dan mengisi sisanya. Shortcut Windows; menunya Data > Flash Fill. Cek hasilnya, karena ini tebakan.
+---
+[card number=off icon=check]
+Pakai yang mana di *Excel kamu?*
+Excel 2016, 2019, 2021: LEFT/RIGHT + FIND, atau Flash Fill.
+Excel 365 dan 2024: TEXTBEFORE dan TEXTAFTER.
+Google Sheets: =SPLIT(A2;" ") memecah tiap kata ke kolom sebelahnya.
+---
+[code]
+Excel kamu pakai koma?
+Pemisah argumen ikut pengaturan region. Region US pakai koma.
+```excel
+=LEFT(A2,FIND(" ",A2)-1)
+```
+Rumus ditolak? Ganti ; jadi , (atau sebaliknya).
+---
+[end cta="Simpan"]
+Di kantormu, nama ditulis | *berapa kata?*
+Komen 2 atau 3. Kirim ke rekan sedivisi. Data berantakan #3: angka berubah jadi tanggal.
