@@ -7,7 +7,7 @@ caption: 5 soal cerita TIU, 5 trik tanpa x dan y. Soal latihan buatan kami, buka
 Soal cerita 2 barang? | *Nggak perlu x dan y.*
 5 soal dari mudah ke sulit. Kerjakan dulu, baru geser ke pembahasannya.
 ---
-[card kicker="Soal 1 · Mudah" number=off icon=none]
+[card kicker="Soal 1 · Mudah · 30 detik" number=off icon=none]
 3 pulpen + 2 buku = Rp31.000. | 2 pulpen + 3 buku = Rp34.000. | *1 pulpen + 1 buku = ?*
 A. Rp5.000
 B. Rp6.500
@@ -21,7 +21,7 @@ Trik: *jumlahkan, lalu bagi.*
 Rp65.000 ÷ 5 = Rp13.000
 Jebakan B: dibagi 10, padahal 5 pasang.
 ---
-[card kicker="Soal 2 · Mudah" number=off icon=none]
+[card kicker="Soal 2 · Mudah · 30 detik" number=off icon=none]
 4 apel + 3 jeruk = Rp26.000. | 3 apel + 4 jeruk = Rp23.000. | *1 apel − 1 jeruk = ?*
 A. Rp1.000
 B. Rp2.000
@@ -35,7 +35,7 @@ Persamaan 1 − persamaan 2 = 1 apel − 1 jeruk
 Rp26.000 − Rp23.000 = Rp3.000
 Jebakan B dan D: harga jeruk dan harga apel.
 ---
-[card kicker="Soal 3 · Sedang" number=off icon=none]
+[card kicker="Soal 3 · Sedang · 45 detik" number=off icon=none]
 Berat A + B = 12 kg. | B + C = 15 kg. | A + C = 13 kg. | *Berat A + B + C?*
 A. 13 kg
 B. 20 kg
@@ -49,7 +49,7 @@ Trik: *jumlahkan semua, bagi 2.*
 40 ÷ 2 = 20 kg
 Jebakan D: lupa dibagi 2.
 ---
-[card kicker="Soal 4 · Sedang" number=off icon=none]
+[card kicker="Soal 4 · Sedang · 45 detik" number=off icon=none]
 2 tiket dewasa + 3 tiket anak = Rp190.000. | Tiket dewasa Rp20.000 lebih mahal. | *Harga 1 tiket anak?*
 A. Rp30.000
 B. Rp38.000
@@ -63,7 +63,7 @@ Rp190.000 − 2 × Rp20.000 = Rp150.000
 Rp150.000 ÷ 5 tiket = Rp30.000
 Jebakan C: itu harga tiket dewasa.
 ---
-[card kicker="Soal 5 · Sulit" number=off icon=none]
+[card kicker="Soal 5 · Sulit · 60 detik" number=off icon=none]
 Umur ayah + anak sekarang = 50 tahun. | 5 tahun lalu, umur ayah 4 kali umur anak. | *Umur anak sekarang?*
 A. 8 tahun
 B. 10 tahun
@@ -89,4 +89,4 @@ Simpan: 5 trik soal cerita
 ---
 [end cta="Follow"]
 Skor kamu *berapa dari 5?*
-Komen angkanya. Topik berikutnya: deret angka.
+Komen angkanya. Kirim ke grup belajarmu. Topik berikutnya: deret angka.

@@ -7,7 +7,7 @@ caption: Diskon 20% + 10% itu bukan 30%. Soal latihan buatan kami, bukan soal re
 Diskon 20% + 10%? | *Bukan 30%.*
 5 soal persen dan diskon bertingkat dari mudah ke sulit. Kerjakan dulu, baru geser.
 ---
-[card kicker="Soal 1 · Mudah" number=off icon=none]
+[card kicker="Soal 1 · Mudah · 30 detik" number=off icon=none]
 Harga tas Rp200.000. | Diskon 20% + 10%. | *Harga yang dibayar?*
 A. Rp140.000
 B. Rp160.000
@@ -21,7 +21,7 @@ Diskon 20%: Rp200.000 × 0,8 = Rp160.000
 Diskon 10%: Rp160.000 × 0,9 = Rp144.000
 Jebakan A: diskonnya dijumlah jadi 30%.
 ---
-[card kicker="Soal 2 · Mudah" number=off icon=none]
+[card kicker="Soal 2 · Mudah · 30 detik" number=off icon=none]
 Harga naik 10%, | lalu turun 10%. | *Dibanding harga awal?*
 A. Sama saja
 B. Turun 1%
@@ -37,7 +37,7 @@ Turun 10% = × 0,9
 0,99 = turun 1%
 Jebakan A: naik dan turun dianggap saling hapus.
 ---
-[card kicker="Soal 3 · Sedang" number=off icon=none]
+[card kicker="Soal 3 · Sedang · 45 detik" number=off icon=none]
 Setelah diskon 25%, | harga sepatu Rp120.000. | *Harga sebelum diskon?*
 A. Rp150.000
 B. Rp145.000
@@ -52,7 +52,7 @@ Rp120.000 ÷ 0,75 = Rp160.000
 Cek: Rp160.000 × 0,75 = Rp120.000
 Jebakan A: Rp120.000 ditambah 25%-nya sendiri.
 ---
-[card kicker="Soal 4 · Sedang" number=off icon=none]
+[card kicker="Soal 4 · Sedang · 45 detik" number=off icon=none]
 Beli Rp80.000, | dijual Rp100.000. | *Untungnya berapa persen?*
 A. 20%
 B. 80%
@@ -67,7 +67,7 @@ Rp20.000 ÷ Rp80.000 = 0,25
 0,25 = 25%
 Jebakan A: dibagi harga jual.
 ---
-[card kicker="Soal 5 · Sulit" number=off icon=none]
+[card kicker="Soal 5 · Sulit · 60 detik" number=off icon=none]
 Rp250.000 diskon 20%, | diskon lagi jadi Rp170.000. | *Diskon kedua berapa?*
 A. 15%
 B. 12%
@@ -94,4 +94,4 @@ Simpan: 5 trik persen
 ---
 [end cta="Follow"]
 Skor kamu *berapa dari 5?*
-Komen angkanya. Topik berikutnya: silogisme.
+Komen angkanya. Kirim ke grup belajarmu. Topik berikutnya: silogisme.

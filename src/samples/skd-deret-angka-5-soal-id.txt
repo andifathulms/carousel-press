@@ -7,7 +7,7 @@ caption: Deret angka TIU: cek selisihnya dulu, baru tebak polanya. Soal latihan 
 Deret angka buntu? | *Tulis selisihnya dulu.*
 5 soal deret dari mudah ke sulit, 5 pola yang paling sering keluar. Kerjakan dulu, baru geser.
 ---
-[card kicker="Soal 1 · Mudah" number=off icon=none]
+[card kicker="Soal 1 · Mudah · 30 detik" number=off icon=none]
 2, 5, 10, 17, 26, … | *Angka berikutnya?*
 A. 35
 B. 37
@@ -22,7 +22,7 @@ Selisih berikutnya: 11
 26 + 11 = 37
 Jebakan A: selisih 9 dipakai lagi.
 ---
-[card kicker="Soal 2 · Mudah" number=off icon=none]
+[card kicker="Soal 2 · Mudah · 30 detik" number=off icon=none]
 3, 7, 15, 31, 63, … | *Angka berikutnya?*
 A. 95
 B. 126
@@ -37,7 +37,7 @@ Trik: *cek kali 2, lalu lihat sisanya.*
 63 × 2 + 1 = 127
 Jebakan B: cuma dikali 2, lupa + 1.
 ---
-[card kicker="Soal 3 · Sedang" number=off icon=none]
+[card kicker="Soal 3 · Sedang · 45 detik" number=off icon=none]
 4, 20, 7, 17, | 10, 14, 13, … | *Angka berikutnya?*
 A. 11
 B. 16
@@ -52,7 +52,7 @@ Urutan genap: 20, 17, 14 (− 3)
 Berikutnya urutan genap: 14 − 3 = 11
 Jebakan B: 13 + 3, salah giliran deret.
 ---
-[card kicker="Soal 4 · Sedang" number=off icon=none]
+[card kicker="Soal 4 · Sedang · 45 detik" number=off icon=none]
 5, 10, 8, 16, 14, 28, … | *Angka berikutnya?*
 A. 56
 B. 30
@@ -67,7 +67,7 @@ Trik: *2 operasi bergantian.*
 14 × 2 = 28, lalu 28 − 2 = 26
 Jebakan A: dikali 2 lagi, padahal giliran − 2.
 ---
-[card kicker="Soal 5 · Sulit" number=off icon=none]
+[card kicker="Soal 5 · Sulit · 60 detik" number=off icon=none]
 1, 2, 6, 15, 31, … | *Angka berikutnya?*
 A. 47
 B. 52
@@ -93,4 +93,4 @@ Simpan: 5 pola deret
 ---
 [end cta="Follow"]
 Skor kamu *berapa dari 5?*
-Komen angkanya. Topik berikutnya: kerja bersama.
+Komen angkanya. Kirim ke grup belajarmu. Topik berikutnya: kerja bersama.

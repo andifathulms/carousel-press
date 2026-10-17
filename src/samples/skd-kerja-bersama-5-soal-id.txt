@@ -7,7 +7,7 @@ caption: Soal kerja bersama TIU tanpa pecahan ribet: pakai KPK. Soal latihan bua
 A 6 hari, | B 3 hari. | *Bersama? Bukan 4,5.*
 5 soal kerja bersama dari mudah ke sulit, cukup pakai KPK. Kerjakan dulu, baru geser.
 ---
-[card kicker="Soal 1 · Mudah" number=off icon=none]
+[card kicker="Soal 1 · Mudah · 30 detik" number=off icon=none]
 A mengecat pagar 6 hari. | B mengecat pagar yang sama 3 hari. | *Bersama, berapa hari?*
 A. 4,5 hari
 B. 9 hari
@@ -23,7 +23,7 @@ B: 6 ÷ 3 = 2 bagian per hari
 Bersama: 6 ÷ (1 + 2) = 2 hari
 Jebakan A: dirata-rata, padahal bersama lebih cepat.
 ---
-[card kicker="Soal 2 · Mudah" number=off icon=none]
+[card kicker="Soal 2 · Mudah · 30 detik" number=off icon=none]
 Keran A mengisi bak 12 menit. | Keran B: 4 menit. | *Dibuka bersama, berapa menit?*
 A. 3 menit
 B. 8 menit
@@ -38,7 +38,7 @@ Trik: *kali dibagi tambah.*
 48 ÷ 16 = 3 menit
 Jebakan C: waktunya dijumlah.
 ---
-[card kicker="Soal 3 · Sedang" number=off icon=none]
+[card kicker="Soal 3 · Sedang · 45 detik" number=off icon=none]
 A dan B bersama selesai 4 hari. | A sendiri selesai 6 hari. | *B sendiri, berapa hari?*
 A. 2 hari
 B. 10 hari
@@ -55,7 +55,7 @@ B: 3 − 2 = 1 bagian per hari
 B sendiri: 12 ÷ 1 = 12 hari
 Jebakan A: 6 − 4, hari dikurangi langsung.
 ---
-[card kicker="Soal 4 · Sedang" number=off icon=none]
+[card kicker="Soal 4 · Sedang · 45 detik" number=off icon=none]
 8 pekerja selesai 15 hari. | Kalau ada 12 pekerja, | *berapa hari?*
 A. 22,5 hari
 B. 10 hari
@@ -69,7 +69,7 @@ Trik: *berbalik nilai, kalikan dulu.*
 120 ÷ 12 = 10 hari
 Jebakan A: dihitung searah, padahal berbalik.
 ---
-[card kicker="Soal 5 · Sulit" number=off icon=none]
+[card kicker="Soal 5 · Sulit · 60 detik" number=off icon=none]
 A 10 hari, B 15 hari. | Bersama 4 hari, lalu A berhenti. | *Total sampai selesai?*
 A. 6 hari
 B. 5 hari
@@ -97,4 +97,4 @@ Simpan: 5 trik kerja bersama
 ---
 [end cta="Follow"]
 Skor kamu *berapa dari 5?*
-Komen angkanya. Topik berikutnya: diskon bertingkat.
+Komen angkanya. Kirim ke grup belajarmu. Topik berikutnya: diskon bertingkat.
