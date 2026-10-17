@@ -32,7 +32,13 @@ export interface CodeSpec {
   titleBar: number;
 }
 
-export type FixedKind = 'badge' | 'number' | 'icon' | 'cta' | 'kicker' | 'attribution' | 'verdict' | 'diagram' | 'sheet';
+export type FixedKind = 'badge' | 'number' | 'icon' | 'cta' | 'kicker' | 'attribution' | 'verdict' | 'diagram' | 'sheet' | 'bubbles';
+
+/** One A–E answer option drawn as an LJK row (lexicon/lembar). */
+export interface LjkOption {
+  letter: string;
+  text: string;
+}
 
 /** Colour role a renderer uses for a text block. */
 export type Tone = 'ink' | 'body' | 'muted';
@@ -40,7 +46,8 @@ export type Tone = 'ink' | 'body' | 'muted';
 export type StackItem =
   | { kind: 'text'; role: TextRole; rich: Rich; spec: TextSpec; gap: number; tone: Tone }
   | { kind: 'code'; lines: CodeLineSrc[]; lang: string; spec: CodeSpec; gap: number }
-  | { kind: FixedKind; h: number; w: number; gap: number; label?: string };
+  | { kind: FixedKind; h: number; w: number; gap: number; label?: string }
+  | { kind: 'options'; h: number; w: number; gap: number; options: LjkOption[]; size: number; label?: string };
 
 export interface Placed {
   item: StackItem;

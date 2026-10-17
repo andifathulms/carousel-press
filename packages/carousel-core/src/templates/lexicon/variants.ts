@@ -73,7 +73,7 @@ export const lembar: Variant = {
   rotation: ['paper'],
   onPhoto: { ...onPhotoBase, accent: '#F2C94C', badgeBg: '#F2C94C', badgeInk: '#23272C', tint: '#121417' },
   code: paperCode,
-  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, grid: 'squares', gridColor: 'rgba(11,107,97,0.08)' },
+  deco: { blobs: false, dotGrid: false, scanlines: false, glow: false, bigGlyph: null, grid: 'squares', gridColor: 'rgba(11,107,97,0.08)', ljk: true },
   swatches: ['#FBFBF8', '#0B6B61', '#23272C', '#F2C94C'],
   lex: { rule: '#D5E2DF', highlight: '#FBE38E', okBg: '#DDF0E6', okInk: '#17633A', badBg: '#FBE0DD', badInk: '#A3261C' },
 };

@@ -9,6 +9,7 @@ import { CONTENT_W } from '../../render/safezone';
 import { drawTracked, setFont, setShadow, truncateToWidth } from '../../render/text';
 import type { SlideLayout } from '../common';
 import { drawStampItem } from '../stampsDraw';
+import { drawLjkItem } from '../ljk';
 import { drawLex } from '../../render/lexDraw';
 import { FIXED, STACK } from './layout';
 
@@ -97,6 +98,10 @@ export function drawEditorial(ctx: Ctx, L: SlideLayout): void {
       case 'diagram':
       case 'sheet':
         drawStampItem(ctx, p, L);
+        break;
+      case 'options':
+      case 'bubbles':
+        drawLjkItem(ctx, p, v, s, onPhoto);
         break;
     }
   }

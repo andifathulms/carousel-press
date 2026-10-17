@@ -57,6 +57,8 @@ export interface Deco {
   grid?: 'cells' | 'squares';
   /** Grid line colour (colour with alpha). Lexicon falls back to its rule token. */
   gridColor?: string;
+  /** Cards: body lines "A. …"–"E. …" as LJK option rows, and an A–E bubble row under a "Jawaban X" verdict (lexicon/lembar). */
+  ljk?: boolean;
   /** Editorial: the large opening quote mark on quote slides (default on). */
   quoteMark?: boolean;
   /** Serene: thin inset frame + 8-point star ornament (SPEC-ayah §4). */

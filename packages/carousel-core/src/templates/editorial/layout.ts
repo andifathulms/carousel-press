@@ -1,5 +1,6 @@
 import { isEmptyRich } from '../../core/inline';
 import { diagramItem, verdictItem } from '../stamps';
+import { LJK, bubblesItem, optionsItem, splitOptions } from '../ljk';
 import { sheetItem } from '../sheet';
 import { prepareCode } from '../../layout/codeFit';
 import { type CodeSpec, type StackItem, type TextSpec, fitStack } from '../../layout/stack';
@@ -100,14 +101,27 @@ export function layoutEditorial(input: LayoutInput, opts: { center?: boolean } =
       const kicker = slide.attrs.kicker;
       if (kicker) push({ kind: 'kicker', h: FIXED.kicker.h, w: 0, gap: 0, label: kicker.toUpperCase() });
       const verdict = verdictItem(slide, v, m, kicker ? STACK.kickerGap : 0);
-      if (verdict) push(verdict);
-      else if (kicker) top = STACK.cardTopNoBadge;
+      if (verdict) {
+        push(verdict);
+        // lexicon/lembar: "Jawaban X" also gets an A–E answer-sheet row with X filled.
+        const bubbles = v.deco.ljk ? bubblesItem(slide, STACK.kickerGap) : null;
+        if (bubbles) push(bubbles);
+      } else if (kicker) top = STACK.cardTopNoBadge;
       else if (slide.badge !== null) push({ kind: 'badge', h: FIXED.badge.d, w: FIXED.badge.d, gap: 0, label: String(slide.badge) });
       else top = STACK.cardTopNoBadge;
       const d = diagramItem(slide, STACK.cardGap);
       if (d) push(d);
       push({ kind: 'text', role: 'headline', rich: slide.headline, spec: spec(TYPE.cardHeadline), gap: kicker && !verdict ? STACK.kickerGap : STACK.cardGap, tone: 'ink' });
-      if (!isEmptyRich(slide.body)) push({ kind: 'text', role: 'body', rich: slide.body, spec: spec(TYPE.body), gap: STACK.cardGap, tone: 'body' });
+      const split = v.deco.ljk && slide.type === 'card' ? splitOptions(slide.body) : null;
+      const opts = split ? optionsItem(split.options, v, m, split.pre.length ? STACK.noteGap : STACK.cardGap) : null;
+      if (split && opts) {
+        if (split.pre.length) push({ kind: 'text', role: 'body', rich: split.pre, spec: spec(TYPE.body), gap: STACK.cardGap, tone: 'body' });
+        push(opts);
+        if (split.post.length) push({ kind: 'text', role: 'body', rich: split.post, spec: spec(TYPE.body), gap: STACK.noteGap, tone: 'body' });
+      } else if (!isEmptyRich(slide.body)) {
+        const working = verdict && v.deco.ljk ? { ...spec(TYPE.body), ...LJK.working } : spec(TYPE.body);
+        push({ kind: 'text', role: 'body', rich: slide.body, spec: working, gap: STACK.cardGap, tone: 'body' });
+      }
       if (slide.type === 'code' && slide.code) {
         const c = FIXED.code;
         const codeSpec: CodeSpec = {

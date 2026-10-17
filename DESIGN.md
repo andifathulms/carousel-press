@@ -429,6 +429,15 @@ onPhoto: as github-dark with accent/badgeBg `#F5C518`; tint papan `#06140D`, lap
 **Diagram** (`[diagram]` slide, PRD §4.9): a 816 × 520 panel (full content width) at the top of the stack, radius 24, filled with `inlineCodeBg`. The field is drawn inside with 24 px padding, aspect-correct and centred, net/goal at the top, lines `ink` at 55% alpha, 3 px (the goal or net 8 px).
 Marks: player discs r 26 (att = `accent`, def = `semantic.bad` or `badgeBg`, player = `ink` with its label in `bg`, 30 px display face), ball r 12 `ink` with a `bg` ring, offside line dashed 14/10 `accent` 4 px, pass = dashed arrow `ink` 4 px, move = solid arrow, zone = `accent` at 22% alpha, labels 28 px sans 600 `ink`. Every mark is clamped inside the panel.
 
+### 6.8 LJK answer sheet (`lexicon/lembar` only, `deco.ljk`)
+
+SKD Harian's questions read like a real computer answer sheet (lembar jawaban komputer). No new syntax: the treatment reads existing slide content.
+
+- **Options.** On a card, a contiguous run of at least two body lines `A. …` to `E. …` becomes an option list: one row per option, a stroked circle (stroke 4, `accent`) with the letter inside (Barlow 700 at 0.62 × the row size, `accent`), then the option text (Barlow 500, `ink`) after a 0.55 × size gap. Row height 1.62 × size, circle diameter 1.18 × size. The size steps from 56 down to 38 (step 2) until every option fits one line in `CONTENT_W`; if none fits at 38, the lines stay ordinary body text. Body lines before the options stay above them (gap 48 → 32), lines after go below (gap 32).
+- **Answer bubbles.** A card whose `verdict=` contains "Jawaban X" (X = A–E) gets a row of five bubbles under the stamp (gap 32): diameter 68, gap 24, letters Barlow 700 32. The answer's bubble is filled with `ink` like pencil, its letter in `bg`; the others are stroked in `muted`.
+- **Working lines.** The body of a verdict card (the calculation, one per line) uses 48 → 36 instead of the body scale's 42 → 34.
+- Other families and lexicon variants are unchanged.
+
 ## 7. Icons
 
 - Author **original** line icons on a 24×24 grid as SVG path strings, and render them with `new Path2D(d)` scaled into the target box.
