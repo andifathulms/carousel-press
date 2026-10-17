@@ -155,52 +155,73 @@ Tag dia di komentar. Nggak usah nulis apa-apa.
 Profile line: `💻 Coding • 🤖 AI • 🛠️ Dev Tools`.
 Voice is "I found this useful, here's how it works", not "I'm the expert, listen to me".
 
-**What works (owner data, Oct 2026).** Nine posts, ~16,900 views, 1,330 likes (7.9%), but only 31 followers (≈ 1 per 540 views). Best: "7 perintah Linux yang sering kepakai" 3,401 and "Salah di Git? Ini 6 cara undo-nya" 2,975, both in `dev/terminal` and both rescue/daily-use topics. The six GitHub-dark posts averaged ~1,500. People save the tips but don't follow Fathul: every post is a one-off list, and no post shows the learning-in-public voice.
+**What works (owner data, Oct 2026).** Nine posts, ~16,900 views, 1,330 likes (7.9%), but only 31 followers (≈ 1 per 540 views).
+- Best: "7 perintah Linux yang sering kepakai" (3,401 views) and "Salah di Git? Ini 6 cara undo-nya" (2,975), both in `dev/terminal` and both rescue/daily-use topics.
+- The six GitHub-dark posts averaged ~1,500.
+- People save the tips but don't follow Fathul: every post is a one-off list, and no post shows the learning-in-public voice.
+
+**Direction (owner, Oct 2026 second review): the panicking junior.** The audience is Indonesian bootcamp grads, juniors and students in a tough job market. They swipe past theory. They save the fix for the moment something breaks at work: the terminal command, the git rescue, the error and what it means.
+- **Sell relief, not fear.** The hook is a real moment of panic they recognise ("`git push` ditolak di hari pertama kerja?"). The deck answers it calmly ("Tenang, ini 3 baris"), and the save is how they keep that relief for later.
+- **Never threaten.** No "biar nggak dipecat", "kamu bakal gagal interview", or "junior zaman sekarang…". That reads cheap and makes an anxious viewer scroll on.
 
 **Bio (owner to set):** "💻 Git, terminal & AI buat developer, tiap minggu. / 🛟 Git Rescue · ⌨️ Terminal Harian · 🧠 Tebak Output / Belajar bareng, bukan menggurui. Porto di komen yang di-pin." (A bio link usually needs ~1,000 followers; until then the portfolio goes in a pinned comment.)
 
 ### Series (number every one in the kicker: `GIT RESCUE • #N`)
 
 1. **Git Rescue #N**: one panic, one fix ("Commit ke branch yang salah?"). Every command run in a scratch repo before posting. A recap slide with all commands, a `reset --hard` warning where it applies.
-2. **Tebak Output #N**: 3 short snippets (JS, Python, shell). Question slide: `[code]` with the options as body lines; answer slide: "Jawaban: X", the real output as a comment, one-line why. **Every output is run (Node, Python, a real shell) before posting.** Keep code lines ≤ 24 characters so they stay large.
-3. **Terminal Harian #N**: one command a day-to-day dev actually uses, with a realistic example.
-4. **Catatan Fathul #N** (weekly): first person, a true bug, mistake or "akhirnya aku paham…". Only real stories; the owner writes them.
-5. **AI for devs**: problem-first workflows ("AI-nya ngarang fungsi yang nggak ada"), never news or hype.
+2. **Kerja Nyata #N**: what bootcamps skip and the first month at work demands. Examples: running a project from its README, reading a stack trace, a commit message the team accepts, a first PR and its review, `pull` before you start, rebasing a shared branch, asking a good question in the team chat. Same shape as Git Rescue: the situation, the steps, a recap.
+3. **Tebak Output #N**: 3 short snippets (JS, Python, shell). Question slide: `[code]` with the options as body lines; answer slide: "Jawaban: X", the real output as a comment, one-line why. **Every output is run (Node, Python, a real shell) before posting.** Keep code lines ≤ 24 characters so they stay large.
+4. **Terminal Harian #N**: one command a day-to-day dev actually uses, with a realistic example.
+5. **Catatan Fathul #N** (weekly): first person, a true bug, mistake or "akhirnya aku paham…". Only real stories; the owner writes them.
+6. **AI for devs**: problem-first workflows ("AI-nya ngarang fungsi yang nggak ada"), never news or hype.
 
 | | |
 |---|---|
-| Purpose | Teach/share useful things |
-| Audience | Indonesian beginner/junior devs, students, AI-curious |
-| Reader should think | "I should save this." |
-| Primary action | Save / follow |
-| Tone | Practical, curious, friendly, concise, slightly nerdy |
+| Purpose | Give juniors the fix before they need it |
+| Audience | Indonesian bootcamp grads, junior devs, students, AI-curious |
+| Reader should think | "I'm saving this for when it breaks." |
+| Primary action | **Save** (main metric), then follow |
+| Tone | Calm, practical, friendly, concise, slightly nerdy |
 | Voice | Fathul learning in public: "belajar bareng, bukan menggurui" |
 | Slide types | `cover`, `card`, `code`, `end` (`quote` rarely) |
 
 ### Pillars
 
-1. **Coding fundamentals**: concepts explained simply (API, HTTP, databases, JS/Python basics). "X itu sebenarnya apa?"
-2. **Practical dev tips** (most saveable): Git, GitHub, VS Code shortcuts, Linux/terminal commands, SQL, debugging, snippets.
-3. **AI for developers**: Claude, ChatGPT, Gemini, Copilot, AI IDEs, prompting for code, AI-assisted debugging, practical workflows, honest comparisons. The angle is always "how can a developer actually use this?". Not AI news, not "10 tools that will change the world".
-4. **Developer tools**: extensions, CLI tools, deployment platforms, databases, useful sites. Filter: would a developer actually use it?
-5. **Learning journey**: things Fathul recently learned, "akhirnya aku paham…", mistakes, debugging lessons, small projects. This is what separates the account from generic tip pages.
+| Pillar | Weight |
+|---|---|
+| **Rescue & daily tips** (most saveable): Git rescue, terminal, debugging, VS Code, SQL, snippets | ~40% |
+| **Kerja Nyata**: the first-job skills bootcamps skip (series above) | ~20% |
+| **AI for developers**: Claude, ChatGPT, Gemini, Copilot, AI IDEs, prompting for code, AI-assisted debugging, honest workflows. The angle is always "how can a developer actually use this?". Not AI news, not "10 tools that will change the world" | ~15% |
+| **Learning journey** (Catatan Fathul): things Fathul recently learned, mistakes, debugging lessons. This is what turns savers into followers | ~15% |
+| **Concepts** (API, HTTP, databases, JS/Python basics) and **dev tools** | ≤ 10%, at most 1 post in 6 |
+
+Concepts always open **error-first**: the cover is the error or the confusing result people meet ("Jalan di Postman, gagal di browser?"), never "X itu sebenarnya apa?" on its own.
 
 ### Writing rules
 
 - Language: Indonesian (`lang: id`), friendly and concise; keep technical terms in English (`commit`, `branch`, `query`, `prompt`).
-- Every command or snippet must be correct and runnable as written. Prefer the common, safe form; add a warning in the body for destructive commands (`reset --hard`, `rm -rf`, `DROP`).
+- Every command or snippet must be correct and runnable as written. **Run it before posting**: git in a scratch repo, shell in a real shell, Node/Python outputs for real. Prefer the common, safe form; add a warning in the body for destructive commands (`reset --hard`, `rm -rf`, `DROP`).
 - One command/idea per slide: headline = what it does, body = when you'd use it, code = the exact command, optional note after the fence.
+- **Card 1 answers the cover.** If the cover names a command, error or question, that is the first card. In a list deck, the cover's item goes first and the rest follow. A panicking viewer won't swipe to slide 6.
 - AI pillar: tools change fast. Don't state prices, model versions, limits or rankings unless the owner confirms them. Describe workflows, not hype.
 - Learning-journey decks use first person (`aku`) and admit what was confusing. A `quote` slide works for the "aha" sentence.
 - Light humour is fine; usefulness comes first.
+- Before shipping, ask: would a junior save this *before* they need it, and find the fix in under 5 seconds when they open it again?
 
 ### Deck recipe
 
-- **Templates (2-week test, Oct 2026):** `dev/terminal` is the default (Git, shell, AI, tools, concepts). `dev/github-dark` only for JS/Python/SQL code-heavy decks, where colour highlighting helps. Never `dev/paper-light` (that was Whistle Notes' old look). After the test, keep whichever look wins on views and follows.
+- **Templates:** `dev/terminal` is the default (Git, shell, AI, tools, concepts). `dev/github-dark` only for JS/Python/SQL code-heavy decks, where colour highlighting helps. Never `dev/paper-light` (that was Whistle Notes' old look).
 - **Length:** cover + 4–7 slides + end, ≤ 10 total.
-- **Cover:** `[cover kicker="GIT RESCUE • #2"]` or `[cover kicker="GIT • CHEAT SHEET"]` (TOPIC • FORMAT in caps; the first segment becomes the header path, `~/git`). Headline: the problem the viewer has ("Port 3000 udah dipakai?"), better than "N perintah…".
+- **Cover:** `[cover kicker="GIT RESCUE • #2"]` or `[cover kicker="GIT • CHEAT SHEET"]` (TOPIC • FORMAT in caps; the first segment becomes the header path, `~/git`). Headline: the moment of panic ("Port 3000 udah dipakai?"), not "N perintah…". On rescue and cheat-sheet decks, end the subtitle with a short save reason, worded differently each post ("Simpan buat pas panik.", "Simpan dulu, kepakai nanti.").
 - **Slides:** `[code]` with a fenced block in `bash`, `js`, `py` or `sql` for commands/snippets; plain cards for concepts. Inline `` `code` `` in headlines is fine. Keep code lines short (no wrapping; long lines get shrunk then clipped with `code-line-too-long`).
-- **Recap slide** on cheat-sheet decks: `[code number=off]` "Simpan ini" with every command in one block, before the end.
+- **Recap slide**, the slide people actually save: `[code number=off]` "Simpan ini" just before the end, on every rescue, Kerja Nyata and cheat-sheet deck whose commands fit.
+  - **One screenshot:** at most 14 code lines.
+  - **Labelled:** a `# what it's for` comment line above each command or group (bash comment lines get no `$` prompt).
+  - **No repeats without a label.** When two situations share commands, give each its own `# kalau …` group.
+  - **Same order as the cards.**
+  - Body: one line on how to pick ("Pilih sesuai kondisimu.").
+  - Shortcuts go in a plain fenced block with no language, one `shortcut  what it does` per line.
+  - Multi-line queries (SQL) that can't fit get no recap; the cover subtitle carries the save cue instead.
 - **End (owner, Oct 2026):** a one-tap ask and a reason to follow, never "Simpan dulu" boilerplate: `[end cta="Follow"]` for series ("Pernah *panik* gara-gara Git?" + "Komen 🙋 kalau pernah. Git Rescue #3 minggu depan."), `cta="Simpan"` otherwise. The portfolio sign-off stays on about 1 in 3 posts, as the last body line:
   ```text
   [end cta="Simpan"]
@@ -209,7 +230,8 @@ Voice is "I found this useful, here's how it works", not "I'm the expert, listen
 
   Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*
   ```
-- **Caption:** one line on why it's useful + 2–4 hashtags (`#belajarcoding`, `#programmer`, `#git`, `#ai`…).
+- **Caption:** first line = the panic moment plus the promise of the fix ("Commit di main padahal harusnya di branch fitur? Masih bisa dipindahin."), then 2–4 hashtags (`#belajarcoding`, `#programmer`, `#git`, `#ai`…).
+- **Track:** saves per 1,000 views is the main measure of a post. Follows per post is the measure of the account. When saves are high but follows aren't, post the next number of the series sooner and mention it on the end slide.
 
 ---
 
@@ -1640,6 +1662,13 @@ Eight accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kamus Keci
 8. **One look per account:** each account has its own template family (Ruang Rasa `editorial/ruang-*`, Whistle Notes `sport/*`, Ayat Harian `serene/*`, Kamus Kecil `lexicon/kamus`, SKD Harian `lexicon/lembar`, Jago Kantoran `dev/sheet`, and soon Kosakata Arab `lexicon/arab`, Kosakata Mandarin `lexicon/hanzi`…). Text-first; photos only when they add something.
 9. **Formats rotate:** never the same format twice in a row on one account.
 10. **Before shipping, render it and look:** zero warnings, no word broken mid-word (reword with shorter words), every claim backed by the account's sources.
+11. **Card 1 answers the cover.** If the cover names something specific (a command, an error, a phrase, a question), the first card delivers it. In a list deck the cover's item goes first. Viewers who came for the hook won't swipe to slide 6.
+12. **Slides that get forwarded must read cold.** On any slide meant to be sent or screenshotted (Ruang Rasa send cards, Ayat Harian reminders, recap cards), the person receiving it only sees that slide. So no instructions addressed to the sender, no `____` blanks, and no "see the previous slide". Tips go on their own slide.
+13. **The saved slide is built to be found again.** A recap or cheat card fits one screen, is labelled (what each line is for), has no unexplained repeats, and follows the order of the cards.
+14. **Relief over fear.** Hooks name a real moment of trouble or doubt the viewer recognises, and the deck answers it calmly. Never threaten the viewer ("biar nggak dipecat", "kamu bakal gagal"), and never shame them ("Kamu masih…").
+15. **Curly quotes in slide text:** `“ ”` and `’`. Straight `"` stays only in code, header lines and `[attr="…"]` values. (Ruang Rasa is converted; other accounts' older decks convert when they are next edited.)
+
+Anything an account section says on top of these is stricter, not looser.
 
 When asked for "N posts" for an account: read its section, pick formats from its "Formats" list (rotating), apply the standards above, and say which format each deck uses.
 

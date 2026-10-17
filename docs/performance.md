@@ -35,7 +35,8 @@ Numbers are views (likes) unless noted. Small samples: treat conclusions as hypo
 - 1,330 likes (7.9% per view), 31 followers (Oct 2026).
 - Terminal covers averaged ~2,600 vs ~1,500 for GitHub-dark, but the top two are also rescue/daily-use topics, and the terminal "CLI tools" list was average. Look and topic are confounded; the 2-week test posts the same topic type in both looks.
 - Changes made: terminal as default, numbered series (Git Rescue, Tebak Output, Terminal Harian, Catatan Fathul), recap slides, one-tap ends with a follow reason, portfolio line on ~1 in 3 posts, bigger short code, topic header path, no code ligatures.
-- Track: follows per post first (now ~1 per 540 views), then saves per 1,000 views.
+- Second review (Oct 2026, "the panicking junior"): saves per 1,000 views became the main metric, with follows per post as the account metric. Changes made: relief-over-fear hooks, a Kerja Nyata series (first-job skills), concepts capped at 1 in 6 and error-first, card 1 answers the cover (9 decks reordered), labelled recap slides.
+- Track: saves per 1,000 views per post; follows per post (now ~1 per 540 views) for the account.
 
 ## Filsafat Harian (`editorial/stone`)
 
