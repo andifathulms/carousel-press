@@ -106,7 +106,7 @@ export function drawDev(ctx: Ctx, L: SlideLayout): void {
         drawStampItem(ctx, p, L);
         break;
       case 'match':
-        if (L.slide.match) drawMatch(ctx, p, L.slide.match, v, s, onPhoto);
+        if (L.slide.match) drawMatch(ctx, p, L.slide.match, v, s, onPhoto, L.crests);
         break;
       case 'keycaps':
         drawKeycaps(ctx, p, v, s, onPhoto);

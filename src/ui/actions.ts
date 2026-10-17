@@ -1,4 +1,5 @@
 import { setHeaderKey } from 'carousel-core/src/core/headerEdit';
+import { loadCrests } from 'carousel-core/src/render/crests';
 import { slideFileName } from 'carousel-core/src/core/slug';
 import { type Warning, isBlocking } from 'carousel-core/src/core/types';
 import { layoutWarnings, renderDeck } from 'carousel-core/src/api/deck';
@@ -62,7 +63,8 @@ export async function downloadCurrentSlide(c: Controller): Promise<void> {
   await busy(c, 'Exporting slide…', async () => {
     const photo = slide.photoId ? await c.photos.photoInput(slide.photoId) : null;
     const icon = deckIcons(s.parsed.deck, s.variant)[s.selected] ?? null;
-    const { blob } = await exportSlidePng(slide, s.parsed.deck, s.variant, { photo, darkness: s.darkness, icon });
+    const crests = await loadCrests(s.parsed.deck, (id) => c.photos.photoInput(id));
+    const { blob } = await exportSlidePng(slide, s.parsed.deck, s.variant, { photo, darkness: s.darkness, icon, crests });
     downloadBlob(blob, slideFileName(s.parsed.deck.slug, s.selected));
   });
 }

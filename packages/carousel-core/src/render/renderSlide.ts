@@ -16,6 +16,8 @@ export interface RenderAssets {
   /** 0–100 */
   darkness: number;
   icon: PoolIcon | null;
+  /** Crest images for `[results]` / `[stats]` teams, by photo id (`@crest-…`). */
+  crests?: ReadonlyMap<string, PhotoInput>;
   /** Preview only: outline overflowing slides in red. Never set for export. */
   preview?: boolean;
 }
@@ -61,6 +63,7 @@ export function renderSlide(ctx: Ctx, slide: Slide, deck: Deck, variant: Variant
   const darkness = Math.max(variant.deco.minDarkness ?? 0, assets.darkness);
   if (assets.photo) drawPhoto(ctx, assets.photo, darkness, variant.onPhoto.tint);
 
+  if (assets.crests) L.crests = assets.crests;
   getFamily(variant.family).draw(ctx, L);
 
   if (assets.preview && L.stack.overflow) {

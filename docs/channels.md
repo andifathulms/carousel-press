@@ -378,9 +378,11 @@ Komen 🙋 kalau baru tahu.
 **Pivot (owner, Oct 2026): football only, plus match recaps.** Football carried the account (4,063 / 772 / 561 / 498 views); the one volleyball post got 7. New decks are football: the **match recap** (below) and **Kamu wasitnya**. Other sports stop; their samples stay.
 
 **Match recap** (the morning after a match night, posted ~06:00–08:00 WIB):
-- Generate it with `npm run recap -- --date <European match day>` (Saturday/Sunday: Premier League, LaLiga, Serie A, Bundesliga; Tue–Thu: `--leagues ucl,uel,uecl`). It fetches finished matches from ESPN's public site API and writes `recaps/recap-<date>.txt`: cover → one `[results]` slide per league (≤ 9 rows) → `[stats]` for the 2 best stories (a loser with ≥ 60% possession or twice the shots, ≥ 5 goals, or a 6+ place upset) → end. Paste it into the app, check, export.
+- **One post per competition** (owner, Oct 2026), each in its own template (`sport/pl`, `sport/laliga`, `sport/seriea`, `sport/bundesliga`, `sport/ucl`, `sport/uel`, `sport/uecl`): cover → all results → one `[stats]` page per match (scorers, possession, shots, on target, corners, cards) → end.
+- Generate with `npm run recap -- --date <European match day>` (weekend default: PL, LaLiga, Serie A, Bundesliga; midweek: `--leagues ucl,uel,uecl`). It writes `recaps/<date>/<league>.txt` and the finished PNGs in `recaps/<date>/<league>/`. The cover hook and stats headlines come from the data (a loser with ≥ 60% possession or twice the shots, ≥ 5 goals, a 6+ place upset).
+- To edit a post in the app: import the crest PNGs from `recaps/<date>/crests/` into the photo tray once, then paste the deck text.
 - Every number comes from the data; never type scores or stats by hand. Before posting, check the scorelines against a second source (the league's site) and fix any match the script marked "not finished".
-- Badges are colour circles with team codes, never club crests or player photos (trademarks and image rights). xG and other licensed stats are not used.
+- Club crests (owner's decision, Oct 2026): downloaded per run from ESPN's logo CDN, used only on the slides, never committed or bundled. If a club or league asks for removal, switch to `--no-crests` (colour badges). Never player photos or broadcast images; no xG or other licensed stats.
 - Optional extra slide: the weekend's controversial call as a Kamu wasitnya card (`verdict=`), with the Law cited.
 - Caption: the competitions, "Data: ESPN", 3–5 hashtags.
 

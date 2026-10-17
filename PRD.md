@@ -260,7 +260,7 @@ CHE Chelsea #144992 | 5-1 | BOU Bournemouth #F42727 *
 ```
 ```
 
-- A team is `CODE Name #rrggbb`: a 2–4 letter code drawn in a colour badge (never a club crest), the name, and the badge colour. The score is `2-1`. A trailing ` *` outlines the row (an upset). At most 9 rows.
+- A team is `CODE Name #rrggbb [@crest-id]`: a 2–4 letter code, the name, the badge colour, and optionally the photo id of a crest image. When that image is in the photo tray (or passed by the host) the crest is drawn on a light disc; otherwise a colour badge with the code. The score is `2-1`. A trailing ` *` outlines the row (an upset). At most 9 rows.
 
 ```text
 [stats kicker="BUNDESLIGA"]
@@ -273,9 +273,9 @@ Tembakan | 17 | 15
 ```
 ```
 
-- The first fence line is the match; each next line is `Label | home | away`. Values may use Indonesian decimals (`58,2%`); the bars use their numbers. At most 7 rows.
+- The first fence line is the match; an optional `Gol | Saka 12' 80', Rice 55' | -` line lists scorers per side (one per comma, `-` for none), drawn under each team; each other line is `Label | home | away`. Values may use Indonesian decimals (`58,2%`); the bars use their numbers. At most 7 rows.
 - Warnings: `match-missing` (no fence: rendered as a card), `match-line` (a line that isn't a valid team, score or stat; skipped).
-- `npm run recap -- --date YYYY-MM-DD [--leagues pl,laliga,seriea,bundesliga|ucl,uel,uecl]` writes a full recap deck from ESPN's public site API (finished matches only) to `recaps/`.
+- `npm run recap -- --date YYYY-MM-DD [--leagues pl,laliga,seriea,bundesliga|ucl,uel,uecl] [--no-crests] [--no-render]` writes one deck per competition from ESPN's public site API (finished matches only), downloads crests to `recaps/<date>/crests/` and renders the PNGs to `recaps/<date>/<league>/`. `recaps/` is git-ignored; crest images are never committed or bundled.
 
 ## 5. Features
 

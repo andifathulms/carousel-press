@@ -1,3 +1,4 @@
+import { loadCrests } from '../render/crests';
 // Public deck API: parse with the registry, check, and render a whole deck to PNGs.
 import type { ParseOptions } from '../core/parser';
 import { parseDeck } from './parse';
@@ -88,9 +89,10 @@ export async function renderDeck(input: string | Deck, opts: RenderDeckOptions =
   if (blocking.length && (opts.onBlocking ?? 'throw') === 'throw') throw new BlockingWarningsError(blocking);
 
   const icons = deckIcons(deck, variant);
+  const crests = await loadCrests(deck, lookup);
   const blobs: Blob[] = [];
   for (const [i, slide] of deck.slides.entries()) {
-    const r = await exportSlidePng(slide, deck, variant, { photo: images[i] ?? null, darkness: opts.darkness ?? 50, icon: icons[i] ?? null });
+    const r = await exportSlidePng(slide, deck, variant, { photo: images[i] ?? null, darkness: opts.darkness ?? 50, icon: icons[i] ?? null, crests });
     blobs.push(r.blob);
     opts.onProgress?.(i + 1, deck.slides.length);
   }

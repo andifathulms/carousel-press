@@ -7,6 +7,8 @@ import { makeCanvas } from 'carousel-core/src/render/ctx';
 import type { PhotoInput } from 'carousel-core/src/render/photo';
 import { deckIcons, renderSlide } from 'carousel-core/src/render/renderSlide';
 import { CANVAS } from 'carousel-core/src/render/safezone';
+import { loadCrests } from 'carousel-core/src/render/crests';
+import { getVariant } from 'carousel-core/src/templates/registry';
 import { SAMPLE_DUSK, generateSampleDusk } from '../samples/samplePhoto';
 import { VARIANTS } from 'carousel-core/src/templates/registry';
 import { SAMPLES } from '../samples';
@@ -70,8 +72,39 @@ function blobToDataUrl(blob: Blob): Promise<string> {
   });
 }
 
+/**
+ * Renders one deck's text with the given images (photo id → data URL), for `npm run recap`.
+ * Images stay local: they come from the script, never from the network.
+ */
+async function renderDeckText(text: string, images: Record<string, string>): Promise<{ dataUrls: string[]; warnings: Warning[] }> {
+  await (assets ??= loadAssets());
+  const photos = new Map<string, PhotoInput>();
+  for (const [id, url] of Object.entries(images)) {
+    const img = await createImageBitmap(await (await fetch(url)).blob());
+    photos.set(id, { image: img, width: img.width, height: img.height, focalX: 0.5, focalY: 0.5 });
+  }
+  const { deck, warnings } = parse(text, { photoIds: [...photos.keys()] });
+  const variant = getVariant(deck.template);
+  await loadTextFonts(text);
+  const crests = await loadCrests(deck, async (id) => photos.get(id) ?? null);
+  const icons = deckIcons(deck, variant);
+  const { canvas, ctx } = makeCanvas(CANVAS.w, CANVAS.h);
+  const dataUrls: string[] = [];
+  const all: Warning[] = [...warnings];
+  for (const [i, slide] of deck.slides.entries()) {
+    const r = renderSlide(ctx, slide, deck, variant, {
+      photo: slide.photoId ? photos.get(slide.photoId) ?? null : null, darkness: 50, icon: icons[i] ?? null, crests,
+    });
+    all.push(...r.warnings);
+    const blob = 'convertToBlob' in canvas ? await canvas.convertToBlob({ type: 'image/png' }) : null;
+    dataUrls.push(blob ? await blobToDataUrl(blob) : (canvas as HTMLCanvasElement).toDataURL('image/png'));
+  }
+  return { dataUrls, warnings: all };
+}
+
 declare global {
   interface Window {
+    __renderDeck?: typeof renderDeckText;
     __review?: (template?: TemplateId, sampleId?: string) => Promise<ReviewItem[]>;
     __reviewTemplates?: TemplateId[];
     __reviewSamples?: string[];
@@ -79,6 +112,7 @@ declare global {
 }
 
 window.__review = review;
+window.__renderDeck = renderDeckText;
 window.__reviewTemplates = VARIANTS.map((v) => v.id);
 window.__reviewSamples = SAMPLES.map((x) => x.id);
 document.getElementById('status')!.textContent = 'Ready: call window.__review()';

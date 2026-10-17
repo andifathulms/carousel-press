@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- `[results]` / `[stats]` teams take an optional crest `@id`; `RenderAssets.crests` / `loadCrests()` supply the images (drawn on a light disc). `[stats]` gains a `Gol` scorers line. Seven league templates: `sport/pl`, `sport/laliga`, `sport/seriea`, `sport/bundesliga`, `sport/ucl`, `sport/uel`, `sport/uecl`.
 - New slide types `[results]` and `[stats]` (PRD §4.11, DESIGN §6.10): football scorelines with colour team badges and one match's paired stat bars. `Slide` gains `match: MatchData | null`; warnings `match-missing`, `match-line`. New stack item `match`.
 - `[sheet]`: larger cells (max 38 px), column header and formula bar (max 36 px) for phone legibility (DESIGN §6.9).
 - `dev/sheet` (Jago Kantoran): keyboard keycaps for body lines `Ctrl + Shift + L: label`. New variant flag `deco.keycaps` (default off) and stack item `keycaps`. Visual change for `dev/sheet` only.

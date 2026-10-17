@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { parse } from 'carousel-core/src/core/parser';
-import { parseMatch, parseResultLine, statNumber } from 'carousel-core/src/core/match';
+import { crestIds, parseMatch, parseResultLine, statNumber } from 'carousel-core/src/core/match';
 import { badgeInk } from 'carousel-core/src/templates/matchPanel';
 import { getVariant } from 'carousel-core/src/templates/registry';
 import { layoutSlide } from 'carousel-core/src/render/renderSlide';
@@ -10,7 +10,7 @@ const fake = { width: (t: string, f: { size: number }) => t.length * f.size * 0.
 describe('[results] / [stats] (PRD §4.11)', () => {
   it('reads a scoreline with codes, names, colours and a highlight', () => {
     expect(parseResultLine('ARS Arsenal #E20520 | 2-1 | LEE Leeds United #FFCD00 *')).toEqual({
-      home: { code: 'ARS', name: 'Arsenal', color: '#E20520' }, away: { code: 'LEE', name: 'Leeds United', color: '#FFCD00' },
+      home: { code: 'ARS', name: 'Arsenal', color: '#E20520', crest: null }, away: { code: 'LEE', name: 'Leeds United', color: '#FFCD00', crest: null },
       homeGoals: 2, awayGoals: 1, highlight: true,
     });
     expect(parseResultLine('ARS Arsenal | 2-1 | LEE Leeds #FFCD00')).toMatch(/CODE Name/);
@@ -48,5 +48,23 @@ describe('[results] / [stats] (PRD §4.11)', () => {
   it('picks readable badge text', () => {
     expect(badgeInk('#FFFFFF')).toBe('#111111');
     expect(badgeInk('#034694')).toBe('#FFFFFF');
+  });
+
+  it('reads crest refs and the scorers row', () => {
+    const { data } = parseMatch('stats', [
+      "ARS Arsenal #E20520 @crest-arsenal | 2-1 | LEE Leeds #FFFFFF @crest-leeds",
+      "Gol | Calafiori 62', Saka 80' 88' | -",
+      'Tembakan | 13 | 11',
+    ]);
+    expect(data?.match?.home.crest).toBe('crest-arsenal');
+    expect(data?.goals).toEqual({ home: ["Calafiori 62'", "Saka 80' 88'"], away: [] });
+    expect(data?.stats).toHaveLength(1);
+    expect(crestIds(data!)).toEqual(['crest-arsenal', 'crest-leeds']);
+  });
+
+  it('has a template for every competition', () => {
+    for (const id of ['sport/pl', 'sport/laliga', 'sport/seriea', 'sport/bundesliga', 'sport/ucl', 'sport/uel', 'sport/uecl']) {
+      expect(getVariant(id).family).toBe('sport');
+    }
   });
 });

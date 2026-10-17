@@ -1,3 +1,4 @@
+import type { PhotoInput } from '../render/photo';
 import { slugify } from '../core/slug';
 import type { Deck, Rich, Slide, Warning } from '../core/types';
 import type { PoolIcon } from '../core/iconNames';
@@ -46,6 +47,8 @@ export interface SlideLayout {
   warnings: Warning[];
   /** word/table/compare/ayah/hadith slides: positioned elements (drawn instead of the stack). */
   lex?: LexLayout;
+  /** Crest images for match slides, set by renderSlide from its assets. */
+  crests?: ReadonlyMap<string, PhotoInput>;
   /** Serene: every stack item and text line is centred (SPEC-ayah §3.3). */
   center?: boolean;
 }

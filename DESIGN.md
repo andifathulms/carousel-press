@@ -445,7 +445,9 @@ SKD Harian's questions read like a real computer answer sheet (lembar jawaban ko
 
 ### 6.10 Results and stats panels (every family; built for `sport/papan`)
 
-- **Team badge:** a filled circle in the team colour with the code in the display face (the verdict-stamp face, so it is always loaded), text white or `#111111`, whichever contrasts more. A colour under 1.6:1 on the surface gets a 3 px `muted` ring. No crests or logos.
+- **Team badge:** the crest image, contained at 74% inside a `#F6F5F1` disc so dark crests stay visible, when the deck names one and the image is loaded. Otherwise a filled circle in the team colour with the code in the display face (the verdict-stamp face, so it is always loaded), text white or `#111111`, whichever contrasts more; a colour under 1.6:1 on the surface gets a 3 px `muted` ring.
+- **Scorers** (`Gol` line): under each team, one per line, the sans face 26 px in `body`, 34 px apart, at most 5 lines a side (the fifth becomes "+N gol lagi").
+- **League templates** `sport/pl` (purple / electric green), `sport/laliga` (charcoal / coral), `sport/seriea` (navy / aqua), `sport/bundesliga` (deep red / yellow), `sport/ucl` (night blue / silver-cyan), `sport/uel` (dark brown / orange), `sport/uecl` (black-green / lime): `sport/papan` with its own colours only; no logos or identity patterns.
 - **Results:** one row per match, 84 px tall (72 px above 6 rows), 12 px apart, `ink` at 7% alpha behind, radius 14. Home badge left, away badge right (54 px, 46 px when dense), names Inter/Barlow 28 px (winner 600 in `ink`, others 400 in `body`, cut with "…"), score centred in the display face 46 px. Highlighted rows get a 4 px `accent` outline.
 - **Stats:** a 176 px header (badges 100 px, score 104 px, names 26 px), then one 78 px row per stat: values in the display face 36 px at the edges (the larger in `accent`), the label 24 px centred, and a 14 px split bar in the two team colours (a colour under 1.6:1 on the surface falls back to `ink` / `muted`; two colours closer than 1.25:1 are split into `ink` and `muted`).
 

@@ -20,6 +20,8 @@ export interface Team {
   name: string;
   /** #rrggbb */
   color: string;
+  /** Photo id of the crest image (`@crest-arsenal`), drawn instead of the code when the image is available. */
+  crest: string | null;
 }
 
 export interface ResultRow {
@@ -45,6 +47,8 @@ export interface MatchData {
   /** stats only: the match in the header and its stat rows. */
   match: ResultRow | null;
   stats: StatRow[];
+  /** stats only: a `Gol | … | …` line: scorers per side, comma-separated ("Saka 12'"). */
+  goals: { home: string[]; away: string[] } | null;
 }
 
 export interface MatchIssue {
@@ -53,12 +57,12 @@ export interface MatchIssue {
   message: string;
 }
 
-const TEAM = /^([A-Za-z0-9]{2,4})\s+(.+?)\s+(#[0-9a-fA-F]{6})$/;
+const TEAM = /^([A-Za-z0-9]{2,4})\s+(.+?)\s+(#[0-9a-fA-F]{6})(?:\s+@([a-z0-9][a-z0-9-]{0,60}))?$/;
 const SCORE = /^(\d{1,2})\s*[-–:]\s*(\d{1,2})$/;
 
 function parseTeam(s: string): Team | null {
   const m = TEAM.exec(s.trim());
-  return m ? { code: m[1]!.toUpperCase(), name: m[2]!, color: m[3]!.toUpperCase() } : null;
+  return m ? { code: m[1]!.toUpperCase(), name: m[2]!, color: m[3]!.toUpperCase(), crest: m[4] ?? null } : null;
 }
 
 /** "CODE Name #hex | 1-2 | CODE Name #hex [*]" → a row, or a reason it isn't one. */
@@ -89,6 +93,7 @@ export function parseMatch(kind: 'results' | 'stats', lines: string[]): { data: 
   const rows: ResultRow[] = [];
   const stats: StatRow[] = [];
   let match: ResultRow | null = null;
+  let goals: MatchData['goals'] = null;
   lines.forEach((raw, offset) => {
     if (raw.trim() === '') return;
     if (kind === 'results' || !match) {
@@ -106,6 +111,11 @@ export function parseMatch(kind: 'results' | 'stats', lines: string[]): { data: 
     const parts = raw.split('|').map((p) => p.trim());
     if (parts.length !== 3 || !parts[0]) {
       issues.push({ offset, message: 'Expected "Label | home | away"' });
+      return;
+    }
+    if (/^gol$/i.test(parts[0])) {
+      const list = (s: string): string[] => s.split(',').map((x) => x.trim()).filter((x) => x && x !== '-');
+      goals = { home: list(parts[1]!), away: list(parts[2]!) };
       return;
     }
     const homeValue = num(parts[1]!);
@@ -128,5 +138,12 @@ export function parseMatch(kind: 'results' | 'stats', lines: string[]): { data: 
     issues.push({ offset: -1, message: 'The first line must be the match: "CODE Name #hex | 1-2 | CODE Name #hex"' });
     return { data: null, issues };
   }
-  return { data: { kind, rows, match, stats }, issues };
+  return { data: { kind, rows, match, stats, goals }, issues };
+}
+
+/** Every crest photo id a slide's match data refers to. */
+export function crestIds(d: MatchData | null): string[] {
+  if (!d) return [];
+  const teams = d.kind === 'results' ? d.rows.flatMap((r) => [r.home, r.away]) : d.match ? [d.match.home, d.match.away] : [];
+  return [...new Set(teams.map((t) => t.crest).filter((c): c is string => !!c))];
 }

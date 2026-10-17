@@ -1,15 +1,15 @@
 handle: @sportscodex
-template: sport/papan
+template: sport/pl
 lang: id
-title: recap 20261010
-caption: Hasil Premier League, LaLiga, Serie A, Bundesliga tadi malam, lengkap dengan statistik. Data: ESPN. #premierleague #laliga #seriea #bundesliga #sportscodex
+title: Premier League sabtu 10 okt
+caption: Hasil Premier League tadi malam: Arsenal 2-1 Leeds, Aston Villa 2-2 Brentford, Chelsea 5-1 Bournemouth, Ipswich 2-1 Fulham, Sunderland 0-2 Brighton, Man United 1-1 Spurs. Statistik tiap laga di dalam. Data: ESPN. #premierleague #epl #sportscodex
 ---
-[cover kicker="RECAP · SABTU 10 OKT"]
-18 laga, 61 gol. | *Hoffenheim kalah, padahal kuasai bola.*
-Semua skor Premier League, LaLiga, Serie A, Bundesliga. Plus statistik 2 laga paling seru.
+[cover kicker="PREMIER LEAGUE · SABTU 10 OKT"]
+6 laga, 20 gol. | *Sunderland kalah, padahal kuasai bola.*
+Hasil lengkap Premier League, lalu statistik tiap laga: pencetak gol, penguasaan bola, tembakan.
 ---
 [results kicker="HASIL · SABTU 10 OKT"]
-Premier League
+Semua skor
 ```results
 ARS Arsenal #E20520 | 2-1 | LEE Leeds #FFFFFF
 AVL Aston Villa #660E36 | 2-2 | BRE Brentford #F42727
@@ -19,58 +19,76 @@ SUN Sunderland #EB172B | 0-2 | BHA Brighton #0606FA
 MAN Man United #DA020E | 1-1 | TOT Spurs #FFFFFF
 ```
 ---
-[results kicker="HASIL · SABTU 10 OKT"]
-LaLiga
-```results
-ALA Alavés #0000FF | 1-2 | ATM Atlético #CA3624
-BAR Barcelona #990000 | 3-0 | GET Getafe #0000FF
-RMA Real Madrid #FFFFFF | 1-0 | VIL Villarreal #FFFF00
-```
----
-[results kicker="HASIL · SABTU 10 OKT"]
-Serie A
-```results
-GEN Genoa #08305D | 2-1 | FIO Fiorentina #4C1D84
-INT Inter Milan #00239C | 3-0 | PAR Parma #19161D
-NAP Napoli #0677D2 | 3-0 | FRO Frosinone #FACF08
-```
----
-[results kicker="HASIL · SABTU 10 OKT"]
-Bundesliga
-```results
-FCU Union Berlin #DA0308 | 1-0 | ELV Elversberg #000000 *
-FCA Augsburg #FFFFFF | 2-2 | MUN Bayern #DC052D
-M05 Mainz #DA0308 | 3-4 | B04 Leverkusen #DA0308
-SCP Paderborn #0000DD | 0-2 | VFB Stuttgart #FFFFFF
-TSG Hoffenheim #003399 | 2-3 | HSV Hamburg #1A26AF
-RBL RB Leipzig #FFFFFF | 6-0 | SGE Frankfurt #FFFFFF
-```
-Bingkai kuning: tim peringkat lebih bawah menang.
----
-[stats kicker="BUNDESLIGA"]
-Hoffenheim kuasai bola 64,2%, *tetap kalah 2–3.*
-TSG: Bornauw (bd) 45'+6', Conté 53'
-HSV: Poulsen 12', Moffi 83', Muheim 90'+4'
+[stats kicker="LAGA 1 DARI 6"]
+Arsenal *menang 2–1* atas Leeds.
 ```stats
-TSG Hoffenheim #003399 | 2-3 | HSV Hamburg #1A26AF
-Penguasaan bola | 64,2% | 35,8%
-Tembakan | 17 | 15
-Tepat sasaran | 4 | 4
-Kartu merah | 1 | 0
-Sepak pojok | 7 | 3
-```
----
-[stats kicker="SERIE A"]
-Fiorentina kuasai bola 63,3%, *tetap kalah 1–2.*
-GEN: Osmajic 7', Messias 15'
-FIO: Vásquez (bd) 73'
-```stats
-GEN Genoa #08305D | 2-1 | FIO Fiorentina #4C1D84
-Penguasaan bola | 36,7% | 63,3%
-Tembakan | 10 | 13
-Tepat sasaran | 4 | 3
+ARS Arsenal #E20520 | 2-1 | LEE Leeds #FFFFFF
+Gol | Calafiori 62', Guimarães 70' | Justin 55'
+Penguasaan bola | 58,2% | 41,8%
+Tembakan | 13 | 11
+Tepat sasaran | 6 | 5
 Sepak pojok | 3 | 4
-Kartu kuning | 5 | 3
+Kartu kuning | 1 | 4
+```
+---
+[stats kicker="LAGA 2 DARI 6"]
+Aston Villa dan Brentford *imbang 2–2.*
+```stats
+AVL Aston Villa #660E36 | 2-2 | BRE Brentford #F42727
+Gol | Jackson 12', McGinn 77' | Yarmoliuk 10', Ajer 79'
+Penguasaan bola | 52,1% | 47,9%
+Tembakan | 20 | 14
+Tepat sasaran | 7 | 4
+Sepak pojok | 2 | 2
+Kartu kuning | 2 | 5
+```
+---
+[stats kicker="LAGA 3 DARI 6"]
+6 gol dalam satu laga: *Chelsea 5–1 Bournemouth.*
+```stats
+CHE Chelsea #144992 | 5-1 | BOU Bournemouth #F42727
+Gol | Henderson 2' 70', Rogers 3', Pedro 46' 67' | Evanilson 51'
+Penguasaan bola | 49,9% | 50,1%
+Tembakan | 10 | 9
+Tepat sasaran | 6 | 4
+Sepak pojok | 1 | 7
+Kartu kuning | 0 | 4
+```
+---
+[stats kicker="LAGA 4 DARI 6"]
+Ipswich *menang 2–1* atas Fulham.
+```stats
+IPS Ipswich #0000FA | 2-1 | FUL Fulham #FFFFFF
+Gol | Ouattara 88', O'Shea 90'+1' | Sessegnon 55'
+Penguasaan bola | 47,6% | 52,4%
+Tembakan | 11 | 13
+Tepat sasaran | 5 | 5
+Sepak pojok | 2 | 5
+Kartu kuning | 2 | 4
+```
+---
+[stats kicker="LAGA 5 DARI 6"]
+Sunderland kuasai bola 62,3%, *tetap kalah 0–2.*
+```stats
+SUN Sunderland #EB172B | 0-2 | BHA Brighton #0606FA
+Gol | - | De Cuyper 53', Hadjam 90'+3'
+Penguasaan bola | 62,3% | 37,7%
+Tembakan | 12 | 13
+Tepat sasaran | 3 | 4
+Kartu merah | 0 | 1
+Sepak pojok | 7 | 5
+```
+---
+[stats kicker="LAGA 6 DARI 6"]
+Man United dan Spurs *imbang 1–1.*
+```stats
+MAN Man United #DA020E | 1-1 | TOT Spurs #FFFFFF
+Gol | Mbeumo 73' | Solanke 90'+2'
+Penguasaan bola | 49,6% | 50,4%
+Tembakan | 12 | 12
+Tepat sasaran | 4 | 3
+Kartu merah | 0 | 1
+Sepak pojok | 4 | 4
 ```
 ---
 [end cta="Follow"]
