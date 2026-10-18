@@ -147,7 +147,7 @@ function story(g: Game): Story | null {
   const cands: Story[] = [];
   if (loser && ls && val(ls, 'possessionPct') >= 60) cands.push({ g, score: 50 + val(ls, 'possessionPct'), headline: `${loser.name} kuasai bola ${fmt(val(ls, 'possessionPct'))}%, *tetap kalah ${lossSc}.*`, hook: `${loser.name} kalah, padahal kuasai bola.` });
   if (loser && ls && ws && val(ls, 'totalShots') >= 2 * Math.max(1, val(ws, 'totalShots'))) cands.push({ g, score: 60 + val(ls, 'totalShots'), headline: `${val(ls, 'totalShots')} tembakan lawan ${val(ws, 'totalShots')}, *${loser.name} tetap kalah.*`, hook: `${loser.name} kalah, padahal ${val(ls, 'totalShots')} tembakan.` });
-  if (total >= 5) cands.push({ g, score: 40 + total * 5, headline: `${total} gol dalam satu laga: *${g.home.name} ${sc} ${g.away.name}.*`, hook: `${g.home.name} ${sc} ${g.away.name}.` });
+  if (total >= 5) cands.push({ g, score: 40 + total * 12 + Math.abs(g.home.goals - g.away.goals), headline: `${total} gol dalam satu laga: *${g.home.name} ${sc} ${g.away.name}.*`, hook: `${g.home.name} ${sc} ${g.away.name}.` });
   if (upsetGap(g)) cands.push({ g, score: 45 + upsetGap(g), headline: `Peringkat ${g.rank[winner!.id]} kalahkan peringkat ${g.rank[loser!.id]}: *${winner!.name} menang ${winSc}.*`, hook: `${winner!.name} bikin kejutan.` });
   return cands.sort((x, y) => y.score - x.score)[0] ?? null;
 }
