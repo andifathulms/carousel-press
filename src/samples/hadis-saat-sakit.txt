@@ -1,0 +1,22 @@
+template: serene/isya
+lang: id
+title: saat sakit
+caption: Hadis tentang sakit, untuk yang sedang lelah, sakit, atau sedih. HR. Bukhari no. 5641 dan Muslim · Sahih · Terjemahan: HadeethEnc #hadis #hadistentangsakit #pengingatdiri
+---
+[cover kicker="HADIS TENTANG SAKIT"]
+Untuk yang sedang sakit, *lelah, atau sedih.*
+Satu hadis sahih · HR. Bukhari dan Muslim
+---
+[hadith]
+arab: مَا يُصِيبُ الْمُسْلِمَ مِنْ نَصَبٍ وَلَا وَصَبٍ وَلَا هَمٍّ وَلَا حُزْنٍ وَلَا أَذًى وَلَا غَمٍّ حَتَّى الشَّوْكَةِ يُشَاكُهَا إِلَّا كَفَّرَ اللهُ بِهَا مِنْ خَطَايَاهُ
+text: Tidaklah seorang muslim ditimpa kepayahan, penyakit, kegelisahan, kesedihan, gangguan, dan kesusahan hingga duri yang menusuknya melainkan Allah akan menghapus dosa-dosanya dengan sebab itu.
+ref: HR. Bukhari no. 5641 dan Muslim
+grade: Sahih
+source: Dari Abu Sa'id Al-Khudri dan Abu Hurairah رضي الله عنهما · Terjemahan: HadeethEnc
+---
+[card kicker="Renungan"]
+Kepayahan, kesedihan, bahkan duri yang menusuk: dengan semua itu Allah سبحانه وتعالى menghapus dosa-dosa seorang muslim.
+---
+[end cta="Kirim"]
+Kirim ke satu orang yang *sedang sakit.*
+Semoga Allah lekas menyembuhkannya.

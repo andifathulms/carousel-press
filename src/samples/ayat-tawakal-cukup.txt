@@ -1,0 +1,27 @@
+template: serene/fajr
+lang: id
+title: tawakal
+caption: Ayat tentang tawakal, untuk urusan yang belum jelas ujungnya. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #ayattentangtawakal #pengingatdiri
+---
+[cover kicker="AYAT TENTANG TAWAKAL"]
+Untuk urusan yang *belum jelas ujungnya.*
+Satu ayat untuk pagi ini · QS. At-Talaq [65]: 3
+---
+[ayah]
+arab: وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ
+terjemah: Siapa yang bertawakal kepada Allah, niscaya Allah akan mencukupkan (keperluan)-nya.
+ref: QS. At-Talaq [65]: 3
+source: Terjemahan Kemenag RI
+portion: true
+mark: off
+---
+[quote kicker="Tafsir" icon=none]
+Dan barang siapa bertawakal kepada Allah dalam segala urusan, niscaya Allah cukup sebagai tempat mengadu bagi diri-nya.
+— Tafsir Ringkas Kemenag RI · dikutip sebagian
+---
+[card kicker="Renungan"]
+Tidak semua urusan jelas ujungnya. Tapi siapa yang bertawakal kepada Allah سبحانه وتعالى, Allah mencukupkan keperluannya.
+---
+[end cta="Simpan"]
+Simpan untuk hari saat *urusan terasa buntu.*
+Bacalah lagi, pelan-pelan.

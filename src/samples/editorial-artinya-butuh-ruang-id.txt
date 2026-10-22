@@ -1,0 +1,28 @@
+template: editorial/ruang-bata
+handle: @ruangrasakita.id
+lang: id
+title: artinya kalimat minta ruang
+caption: Minta waktu sendiri ke pasangan itu susah, karena takut dikira mau pergi. Ini kalimatnya, sekalian artinya 🤍 Kirim ke dia biar artinya sampai. #mintaruang #pasangan #waktusendiri
+---
+[cover kicker="RUANG RASA · MINTA RUANG"]
+Butuh waktu sendiri, *takut dikira mau pergi.*
+5 kalimat minta ruang ke pasangan, dan artinya yang sebenarnya.
+---
+[number=off icon=none]
+“Aku lagi pengen sendiri dulu.” | *Artinya: aku butuh napas, bukan butuh jarak dari kamu.*
+---
+[number=off icon=none]
+“Malam ini aku nggak telepon, ya.” | *Artinya: aku lagi capek, bukan lagi bosan sama kamu.*
+---
+[number=off icon=none]
+“Bahasnya besok aja, boleh?” | *Artinya: aku pengen jawab kamu pakai kepala dingin.*
+---
+[number=off icon=none]
+“Aku main sama teman-temanku dulu, ya.” | *Artinya: aku tetap butuh duniaku, dan kamu tetap di dalamnya.*
+---
+[number=off icon=none]
+“Nanti aku kabarin, ya.” | *Artinya: aku pasti balik. Aku cuma butuh jeda.*
+---
+[end cta="Kirim ke dia"]
+Yang paling sering *kamu ucapin* nomor berapa?
+Komen angkanya. Terus kirim ke dia, biar artinya sampai.

@@ -1,0 +1,81 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: pete atau petai
+caption: Pete, kayak, sate, cabe: di KBBI semuanya ragam cakapan. Yang baku: petai, seperti, satai, cabai. Bonus: di KBBI, kayak juga nama perahu kecil. Sumber: KBBI VI Daring (dicek 22 Oktober 2026) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="SALAH KAPRAH #3"]
+Tambah Pete? | Di KBBI, Pete Itu Cakapan
+Yang baku: petai. Plus kayak, sate, cabe, dan 3 tulisan lain yang belum baku.
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Nasi gorengnya tambah pete, ya.
+right: Nasi gorengnya tambah *petai*, ya.
+why: KBBI VI menandai pete sebagai ragam cakapan dari petai. Di tulisan resmi, pakai petai.
+---
+[word]
+pos: verba · Buna (Bunak)
+word: pete
+meaning: mengeluarkan nanah dari luka
+example: Lukanya mulai *pete*, cepat bawa ke puskesmas.
+note: Pete yang dimakan tercatat sebagai ragam cakapan dari petai. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · olahraga
+word: kayak
+meaning: perahu kecil (dengan seorang atau dua orang pendayung) untuk lomba mendayung
+example: Atlet *kayak* itu mendayung sendirian sampai garis akhir.
+note: Arti pertamanya: perahu kecil orang Eskimo yang dibungkus kulit hewan. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Rasanya kayak mimpi.
+right: Rasanya *seperti* mimpi.
+why: KBBI VI menandai kayak dengan arti “sebagai; seperti” sebagai ragam cakapan. Kaya dengan arti itu malah tercatat tidak baku.
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Sate ayamnya pakai cabe rawit.
+right: *Satai* ayamnya pakai *cabai* rawit.
+why: KBBI VI menandai sate sebagai ragam cakapan dari satai, dan cabe dari cabai.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Nahkoda kapal itu sudah 20 tahun berlayar.
+right: *Nakhoda* kapal itu sudah 20 tahun berlayar.
+why: KBBI VI mencatat nakhoda sebagai bentuk baku. Nahkoda, nakoda, dan nangkoda tidak baku. Urutannya: na-kho-da.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Nanti aku telpon lagi.
+right: Nanti aku *telepon* lagi.
+why: KBBI VI mencatat telepon sebagai bentuk baku. Telpon, telfon, dan telephon tercatat tidak baku.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Kirim berkasnya ke sekertaris kantor.
+right: Kirim berkasnya ke *sekretaris* kantor.
+why: KBBI VI mencatat sekretaris sebagai bentuk baku, sekertaris tidak baku. Huruf r-nya langsung setelah k: sek-re-ta-ris.
+---
+[table]
+Yang ditulis
+| Tulis | Bukan |
+| *petai* | pete |
+| *seperti* | kayak |
+| *satai* | sate |
+| *cabai* | cabe |
+| *nakhoda* | nahkoda |
+| *telepon* | telpon |
+| *sekretaris* | sekertaris |
+Pete, kayak, sate, cabe: ragam cakapan. Sisanya tidak baku. Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Kesalahan mana yang *paling bikin gatal?*
+Komen satu kata: pete, kayak, atau nahkoda.

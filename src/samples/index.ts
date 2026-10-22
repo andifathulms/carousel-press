@@ -225,6 +225,51 @@ export interface Sample {
 }
 
 import sportsRecapContoh from './sports-recap-contoh-id.txt?raw';
+import b4EditorialJawabKapanNikahId from './editorial-jawab-kapan-nikah-id.txt?raw';
+import b4EditorialGantiKalimatNolakId from './editorial-ganti-kalimat-nolak-id.txt?raw';
+import b4EditorialKodeGebetanId from './editorial-kode-gebetan-id.txt?raw';
+import b4EditorialLagiAdaMasalahId from './editorial-lagi-ada-masalah-id.txt?raw';
+import b4EditorialArtinyaButuhRuangId from './editorial-artinya-butuh-ruang-id.txt?raw';
+import b4DevGitRescue5Id from './dev-git-rescue-5-id.txt?raw';
+import b4DevKerjaNyata3Id from './dev-kerja-nyata-3-id.txt?raw';
+import b4DevTerminalHarian3Id from './dev-terminal-harian-3-id.txt?raw';
+import b4DevTebakOutput3Id from './dev-tebak-output-3-id.txt?raw';
+import b4DevAiUbahFileLainId from './dev-ai-ubah-file-lain-id.txt?raw';
+import b4SejarahGegerSepehiId from './sejarah-geger-sepehi-id.txt?raw';
+import b4SejarahBengkuluDitukarId from './sejarah-bengkulu-ditukar-id.txt?raw';
+import b4SejarahEndePancasilaId from './sejarah-ende-pancasila-id.txt?raw';
+import b4SejarahRumphiusAmbonId from './sejarah-rumphius-ambon-id.txt?raw';
+import b4SejarahSultanahAcehId from './sejarah-sultanah-aceh-id.txt?raw';
+import b4LexiconEnglishSalahNgomong3 from './lexicon-english-salah-ngomong-3.txt?raw';
+import b4LexiconEnglishBedaArti3 from './lexicon-english-beda-arti-3.txt?raw';
+import b4LexiconEnglishInterview2 from './lexicon-english-interview-2.txt?raw';
+import b4LexiconEnglishSekolah2 from './lexicon-english-sekolah-2.txt?raw';
+import b4LexiconEnglishKataHariIni4 from './lexicon-english-kata-hari-ini-4.txt?raw';
+import b4LexiconKamusKataIndahIbu from './lexicon-kamus-kata-indah-ibu.txt?raw';
+import b4LexiconKamusManaYangBaku3 from './lexicon-kamus-mana-yang-baku-3.txt?raw';
+import b4LexiconKamusKataIndahLaut from './lexicon-kamus-kata-indah-laut.txt?raw';
+import b4LexiconKamusSalahKaprah3 from './lexicon-kamus-salah-kaprah-3.txt?raw';
+import b4LexiconKamusSalahArtiBahari from './lexicon-kamus-salah-arti-bahari.txt?raw';
+import b4AyatTawakalCukup from './ayat-tawakal-cukup.txt?raw';
+import b4AyatSyukurNikmat from './ayat-syukur-nikmat.txt?raw';
+import b4AyatJanganPutusAsa from './ayat-jangan-putus-asa.txt?raw';
+import b4HadisSaatSakit from './hadis-saat-sakit.txt?raw';
+import b4HadisSehatWaktuLuang from './hadis-sehat-waktu-luang.txt?raw';
+import b4FilsafatTamengKerjaDiakuiId from './filsafat-tameng-kerja-diakui-id.txt?raw';
+import b4FilsafatSatuKalimatSalahKirimId from './filsafat-satu-kalimat-salah-kirim-id.txt?raw';
+import b4FilsafatStoikBukanPasrahId from './filsafat-stoik-bukan-pasrah-id.txt?raw';
+import b4FilsafatResignAtauBertahanId from './filsafat-resign-atau-bertahan-id.txt?raw';
+import b4FilsafatTamengLiburBersalahId from './filsafat-tameng-libur-bersalah-id.txt?raw';
+import b4LexiconArabAkarAlima from './lexicon-arab-akar-alima.txt?raw';
+import b4LexiconArabKataHariIniMaa from './lexicon-arab-kata-hari-ini-maa.txt?raw';
+import b4LexiconArabQafKaf from './lexicon-arab-qaf-kaf.txt?raw';
+import b4LexiconArabArahJalan from './lexicon-arab-arah-jalan.txt?raw';
+import b4LexiconArabSerapanKalimat from './lexicon-arab-serapan-kalimat.txt?raw';
+import b4LexiconHanziNihao from './lexicon-hanzi-nihao.txt?raw';
+import b4LexiconHanziNadaYi from './lexicon-hanzi-nada-yi.txt?raw';
+import b4LexiconHanziBongkarShui from './lexicon-hanzi-bongkar-shui.txt?raw';
+import b4LexiconHanziShi from './lexicon-hanzi-shi.txt?raw';
+import b4LexiconHanziKataBantuZhang from './lexicon-hanzi-kata-bantu-zhang.txt?raw';
 export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-couples-id', name: '5 pertanyaan kecil (editorial, id)', category: 'relationships', text: couples },
   { id: 'dev-git-id', name: '7 perintah git (dev, id)', category: 'dev', text: git },
@@ -439,4 +484,49 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-hanzi-duoshao-qian', name: '多少钱 berapa harganya (Kosakata Mandarin, id)', category: 'mandarin', text: b3LexiconHanziDuoshaoQian },
   { id: 'lexicon-hanzi-ma', name: 'Pertanyaan dengan 吗 ma (Kosakata Mandarin, id)', category: 'mandarin', text: b3LexiconHanziMa },
   { id: 'lexicon-hanzi-bongkar-kou', name: 'Bongkar hanzi 口 kǒu (Kosakata Mandarin, id)', category: 'mandarin', text: b3LexiconHanziBongkarKou },
+  { id: 'editorial-jawab-kapan-nikah-id', name: 'Jawab kapan nikah (Ruang Rasa, id)', category: 'relationships', text: b4EditorialJawabKapanNikahId },
+  { id: 'editorial-ganti-kalimat-nolak-id', name: 'Ganti kalimatnya #2: bilang nggak (Ruang Rasa, id)', category: 'relationships', text: b4EditorialGantiKalimatNolakId },
+  { id: 'editorial-kode-gebetan-id', name: 'Kode buat gebetan (Ruang Rasa, id)', category: 'relationships', text: b4EditorialKodeGebetanId },
+  { id: 'editorial-lagi-ada-masalah-id', name: 'Lagi ada masalah, kamu yang mana (Ruang Rasa, id)', category: 'relationships', text: b4EditorialLagiAdaMasalahId },
+  { id: 'editorial-artinya-butuh-ruang-id', name: 'Artinya minta ruang (Ruang Rasa, id)', category: 'relationships', text: b4EditorialArtinyaButuhRuangId },
+  { id: 'dev-git-rescue-5-id', name: 'Git Rescue #5 detached HEAD (dev, id)', category: 'dev', text: b4DevGitRescue5Id },
+  { id: 'dev-kerja-nyata-3-id', name: 'Kerja Nyata #3 stack trace (dev, id)', category: 'dev', text: b4DevKerjaNyata3Id },
+  { id: 'dev-terminal-harian-3-id', name: 'Terminal Harian #3 find (dev, id)', category: 'dev', text: b4DevTerminalHarian3Id },
+  { id: 'dev-tebak-output-3-id', name: 'Tebak Output #3 JS/Py/Bash (dev, id)', category: 'dev', text: b4DevTebakOutput3Id },
+  { id: 'dev-ai-ubah-file-lain-id', name: 'AI ngubah file lain (dev, id)', category: 'dev', text: b4DevAiUbahFileLainId },
+  { id: 'sejarah-geger-sepehi-id', name: 'Geger Sepehi 1812 (sejarah, id)', category: 'history', text: b4SejarahGegerSepehiId },
+  { id: 'sejarah-bengkulu-ditukar-id', name: 'Bengkulu ditukar Malaka (sejarah, id)', category: 'history', text: b4SejarahBengkuluDitukarId },
+  { id: 'sejarah-ende-pancasila-id', name: 'Ende dan Pancasila (sejarah, id)', category: 'history', text: b4SejarahEndePancasilaId },
+  { id: 'sejarah-rumphius-ambon-id', name: 'Rumphius Ambon (sejarah, id)', category: 'history', text: b4SejarahRumphiusAmbonId },
+  { id: 'sejarah-sultanah-aceh-id', name: 'Empat sultanah Aceh (sejarah, id)', category: 'history', text: b4SejarahSultanahAcehId },
+  { id: 'lexicon-english-salah-ngomong-3', name: 'Salah ngomong #3: informations (Kosakata Inggris, id)', category: 'english', text: b4LexiconEnglishSalahNgomong3 },
+  { id: 'lexicon-english-beda-arti-3', name: 'Beda arti #3: homely (Kosakata Inggris, id)', category: 'english', text: b4LexiconEnglishBedaArti3 },
+  { id: 'lexicon-english-interview-2', name: 'Interview #2: weakness (Kosakata Inggris, id)', category: 'english', text: b4LexiconEnglishInterview2 },
+  { id: 'lexicon-english-sekolah-2', name: 'Sekolah vs aslinya #2 (Kosakata Inggris, id)', category: 'english', text: b4LexiconEnglishSekolah2 },
+  { id: 'lexicon-english-kata-hari-ini-4', name: 'Kata hari ini #4: gang (Kosakata Inggris, id)', category: 'english', text: b4LexiconEnglishKataHariIni4 },
+  { id: 'lexicon-kamus-kata-indah-ibu', name: 'Kata Indah #5: ibu (Kata Baku, id)', category: 'indonesian', text: b4LexiconKamusKataIndahIbu },
+  { id: 'lexicon-kamus-mana-yang-baku-3', name: 'Mana yang baku? #3: antre (Kata Baku, id)', category: 'indonesian', text: b4LexiconKamusManaYangBaku3 },
+  { id: 'lexicon-kamus-kata-indah-laut', name: 'Kata Indah #6: laut (Kata Baku, id)', category: 'indonesian', text: b4LexiconKamusKataIndahLaut },
+  { id: 'lexicon-kamus-salah-kaprah-3', name: 'Salah kaprah #3: pete (Kata Baku, id)', category: 'indonesian', text: b4LexiconKamusSalahKaprah3 },
+  { id: 'lexicon-kamus-salah-arti-bahari', name: 'Salah arti #3: bahari (Kata Baku, id)', category: 'indonesian', text: b4LexiconKamusSalahArtiBahari },
+  { id: 'ayat-tawakal-cukup', name: 'Tawakal (Ayat Harian, id)', category: 'ayat', text: b4AyatTawakalCukup },
+  { id: 'ayat-syukur-nikmat', name: 'Syukur (Ayat Harian, id)', category: 'ayat', text: b4AyatSyukurNikmat },
+  { id: 'ayat-jangan-putus-asa', name: 'Jangan putus asa (Ayat Harian, id)', category: 'ayat', text: b4AyatJanganPutusAsa },
+  { id: 'hadis-saat-sakit', name: 'Saat sakit, hadis (Ayat Harian, id)', category: 'ayat', text: b4HadisSaatSakit },
+  { id: 'hadis-sehat-waktu-luang', name: 'Sehat dan waktu luang, hadis (Ayat Harian, id)', category: 'ayat', text: b4HadisSehatWaktuLuang },
+  { id: 'filsafat-tameng-kerja-diakui-id', name: 'Tameng #7: kamu kerjakan, dia dipuji (Filsafat Harian, id)', category: 'philosophy', text: b4FilsafatTamengKerjaDiakuiId },
+  { id: 'filsafat-satu-kalimat-salah-kirim-id', name: 'Satu kalimat #3: salah kirim (Filsafat Harian, id)', category: 'philosophy', text: b4FilsafatSatuKalimatSalahKirimId },
+  { id: 'filsafat-stoik-bukan-pasrah-id', name: 'Salah kaprah stoik #3: pasrah (Filsafat Harian, id)', category: 'philosophy', text: b4FilsafatStoikBukanPasrahId },
+  { id: 'filsafat-resign-atau-bertahan-id', name: 'Kamu pilih mana #4: resign (Filsafat Harian, id)', category: 'philosophy', text: b4FilsafatResignAtauBertahanId },
+  { id: 'filsafat-tameng-libur-bersalah-id', name: 'Tameng #8: libur merasa bersalah (Filsafat Harian, id)', category: 'philosophy', text: b4FilsafatTamengLiburBersalahId },
+  { id: 'lexicon-arab-akar-alima', name: 'Akar kata #3: ع-ل-م (Kosakata Arab, id)', category: 'arabic', text: b4LexiconArabAkarAlima },
+  { id: 'lexicon-arab-kata-hari-ini-maa', name: 'Kata hari ini #2: air (Kosakata Arab, id)', category: 'arabic', text: b4LexiconArabKataHariIniMaa },
+  { id: 'lexicon-arab-qaf-kaf', name: 'Huruf qaf dan kaf (Kosakata Arab, id)', category: 'arabic', text: b4LexiconArabQafKaf },
+  { id: 'lexicon-arab-arah-jalan', name: 'Arah jalan (Kosakata Arab, id)', category: 'arabic', text: b4LexiconArabArahJalan },
+  { id: 'lexicon-arab-serapan-kalimat', name: 'Kata serapan #1: kalimat (Kosakata Arab, id)', category: 'arabic', text: b4LexiconArabSerapanKalimat },
+  { id: 'lexicon-hanzi-nihao', name: '你好 halo (Kosakata Mandarin, id)', category: 'mandarin', text: b4LexiconHanziNihao },
+  { id: 'lexicon-hanzi-nada-yi', name: 'Nada 一 yī/yí/yì (Kosakata Mandarin, id)', category: 'mandarin', text: b4LexiconHanziNadaYi },
+  { id: 'lexicon-hanzi-bongkar-shui', name: 'Bongkar hanzi 氵 (Kosakata Mandarin, id)', category: 'mandarin', text: b4LexiconHanziBongkarShui },
+  { id: 'lexicon-hanzi-shi', name: 'Kapan pakai 是 (Kosakata Mandarin, id)', category: 'mandarin', text: b4LexiconHanziShi },
+  { id: 'lexicon-hanzi-kata-bantu-zhang', name: 'Kata bantu 张 (Kosakata Mandarin, id)', category: 'mandarin', text: b4LexiconHanziKataBantuZhang },
 ];

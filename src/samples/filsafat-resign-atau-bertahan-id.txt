@@ -1,0 +1,33 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: pilih mana 4 resign atau bertahan
+caption: Kantornya bikin lemas tiap Minggu malam, tapi tabungan baru cukup dua bulan. Dua orang Stoa menimbang, kamu yang memutuskan. Sumber: Epiktetos, Diskursus 1.2 (terj. George Long) & Enchiridion 29 (terj. T.W. Higginson) · Seneca, Surat kepada Lucilius 28 (terj. Richard M. Gummere) · SEP "Epictetus" · SEP "Seneca" #filsafatharian #resign #duniakerja #dilema
+---
+[cover kicker="KAMU PILIH MANA? · #4"]
+Resign sekarang, | *atau bertahan setahun lagi?*
+Dua orang Stoa menimbang. Kamu yang memutuskan.
+---
+[card kicker="Kamu pilih mana?" number=off icon=none]
+*A.* Resign. | *B.* Bertahan setahun lagi.
+Tiap Minggu malam kamu lemas memikirkan kantor. Tapi tabunganmu baru cukup untuk dua bulan.
+---
+[card kicker="Posisi A · Epiktetos, pernah jadi budak" number=off icon=none]
+Pikirkan *berapa harga dirimu dijual.*
+Diskursus 1.2: jangan jual *prohairesis*-mu, bagian dirimu yang memilih, dengan harga murah. Kalau bertahan berarti mengkhianati prinsipmu, harganya terlalu mahal.
+---
+[card kicker="Posisi B · Seneca, penasihat Nero" number=off icon=none]
+Yang kamu butuhkan *perubahan jiwa,* bukan perubahan iklim.
+Surat 28: kata Sokrates, kamu selalu membawa dirimu sendiri. Kalau capeknya dari caramu memandang kerja, di kantor baru pun ikut.
+---
+[card kicker="Jalan tengah · Enchiridion 29" number=off icon=none]
+Lihat *yang datang sebelum dan sesudahnya.*
+Epiktetos: pertimbangkan dulu semua yang menyertai suatu langkah, baru jalani. Hitung tabungan, peluang kerja, dan apa yang sebenarnya kamu cari.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Ada kantor yang *memang harus ditinggalkan.*
+Gaji ditahan, ancaman, atau pelecehan bukan soal cara pandang. Catat, laporkan ke HR atau Disnaker, lalu cari jalan keluar.
+---
+[end cta="Simpan"]
+Kamu *A atau B?*
+Satu huruf aja di komen.

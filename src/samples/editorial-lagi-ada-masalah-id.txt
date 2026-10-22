@@ -1,0 +1,36 @@
+template: editorial/ruang-malam
+handle: @ruangrasakita.id
+lang: id
+title: lagi ada masalah, kamu yang mana
+caption: Ditanya "kamu kenapa?", jawabnya "nggak apa-apa". Padahal tiap orang punya cara sendiri buat ngadepin hari berat 🌙 Kamu dan temanmu huruf apa? #refleksidiri #lagiberat #sahabat
+---
+[cover kicker="RUANG RASA · DIRI SENDIRI"]
+Ditanya “kamu kenapa?”, *jawabnya “nggak apa-apa”.*
+Pas lagi ada masalah, kamu yang mana? Pilih satu huruf, terus tanya temanmu.
+---
+[number=off icon=none]
+Pas lagi berat, *kamu biasanya…*
+A. Cerita ke satu orang sampai lega.
+B. Diem dulu, beresin sendiri.
+C. Sibukin diri biar nggak kepikiran.
+D. Tidur. Besok baru dipikirin.
+---
+[number=off icon=none]
+Kamu A, temanmu B: *yang satu pengen didengerin, yang satu pengen dibiarin.*
+Tanya aja: “Mau ditemenin atau dikasih waktu?” Dua-duanya bentuk peduli.
+---
+[number=off icon=none]
+Ada yang B? *Sendiri bukan berarti harus sendirian.*
+Kasih tahu satu orang kamu lagi beresin sesuatu. Isinya nggak harus diceritain.
+---
+[number=off icon=none]
+Ada yang C? *Sibuk bikin lupa, tapi cuma sebentar.*
+Sisain sepuluh menit buat ngaku ke diri sendiri: “Oke, ini lagi berat.”
+---
+[number=off icon=none]
+Ada yang D? *Kadang tidur memang jawabannya.*
+Kalau besoknya masih berat, mungkin itu tanda buat cerita ke seseorang.
+---
+[end cta="Kirim ke temanmu"]
+Kalian *hurufnya sama?*
+Komen dua huruf, kamu dan temanmu. Contoh: B-A.

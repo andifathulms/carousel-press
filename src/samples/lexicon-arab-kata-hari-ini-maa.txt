@@ -1,0 +1,47 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: kata hari ini maa
+caption: Kata Arab untuk air: مَاء. Hamzah di akhirnya jangan sampai hilang. Sumber: Almaany #belajarbahasaarab #bahasaarab #kosakataarab #arabpemula
+---
+[cover kicker="KATA HARI INI · #2"]
+Haus, mau minta air?|*Ini katanya*
+Kata Arab untuk air, bentuk jamaknya, dan tujuh kata di sekitarnya.
+---
+[word]
+word: مَاء
+translit: māʾ
+say: “maa'”, a panjang lalu jeda pendek
+pos: isim · kata benda
+tag: A1
+plural: مِيَاه · miyāh
+meaning: air
+note: Termasuk mudzakkar. Jamaknya, مِيَاه, juga cukup sering dipakai.
+---
+[compare]
+headline: Mau bilang “air”
+wrong-label: Artinya apa?
+right-label: Artinya air
+wrong: مَا
+right: مَاء
+why: مَا (mā) artinya “apa”. Air itu مَاء (māʾ): sesudah a panjang ada hamzah ء, bunyi putus yang pendek.
+---
+[table]
+Kata di sekitar air
+| Arab | Baca | Arti |
+| شَرِبَ | syariba | minum |
+| كُوب | kūb | gelas |
+| بَارِد | bārid | dingin |
+| حَارّ | ḥārr | panas |
+| عَطْشَان | ʿaṭsyān | haus |
+| بَحْر | baḥr | laut |
+| نَهْر | nahr | sungai |
+---
+[card kicker="Latihan" number=off]
+Siang terik begini, *mau air yang mana?*
+Dingin itu بَارِد, panas itu حَارّ. Jawab bārid atau ḥārr di komen.
+---
+[end cta="Simpan"]
+Ucapkan māʾ dengan *jeda kecil di akhir.*
+Sudah bisa bedakan dengan mā? Tulis “bisa” di komen.

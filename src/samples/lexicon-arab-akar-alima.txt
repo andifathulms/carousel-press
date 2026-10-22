@@ -1,0 +1,67 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: akar kata ع-ل-م
+caption: Ilmu, alim dan ulama ternyata lahir dari satu akar Arab: ع-ل-م. Sumber: Almaany #belajarbahasaarab #bahasaarab #kosakataarab #arabpemula
+---
+[cover kicker="AKAR KATA · #3"]
+Ilmu, alim, ulama:|*satu akar*
+Akar ع-ل-م artinya mengetahui. Dari tiga huruf ini lahir kata guru, ilmuwan sampai informasi.
+---
+[table]
+Keluarga akar ع-ل-م
+| Arab | Baca | Arti |
+| عَلِمَ | ʿalima | mengetahui |
+| عِلْم | ʿilm | ilmu |
+| عَلَّمَ | ʿallama | mengajar |
+| تَعَلَّمَ | taʿallama | belajar |
+| مُعَلِّم | muʿallim | guru |
+| عَالِم | ʿālim | orang berilmu |
+| عُلَمَاء | ʿulamāʾ | para ilmuwan |
+| مَعْلُومَات | maʿlūmāt | informasi |
+---
+[word]
+word: عِلْم
+translit: ʿilm
+say: “'ilm”, 'ain di awal ditekan dari tenggorokan
+pos: isim · kata benda
+tag: A1
+root: ع ل م
+pattern: فِعْل
+plural: عُلُوم · ʿulūm
+meaning: ilmu, pengetahuan
+note: Jamaknya, عُلُوم, juga dipakai untuk sains. Kata ilmu kita berasal dari sini.
+---
+[word]
+word: مُعَلِّم
+translit: muʿallim
+pos: isim · kata benda
+tag: A1
+root: ع ل م
+pattern: مُفَعِّل
+plural: مُعَلِّمُون · muʿallimūn
+meaning: guru, pengajar
+example: *الْمُعَلِّمُ* يُعَلِّمُ الطُّلَابَ الرِّيَاضِيَّاتِ.
+translation: Guru itu mengajar matematika kepada para murid.
+note: Guru perempuan: مُعَلِّمَة. Contoh: Wiktionary.
+---
+[compare]
+headline: Mau bilang “dunia”
+wrong-label: Orang berilmu
+right-label: Dunia
+wrong: عَالِم
+right: عَالَم
+why: Bedanya di huruf lam: kasrah di عَالِم (ʿālim, orang berilmu), fathah di عَالَم (ʿālam, dunia). Kata alam kita berasal dari عَالَم.
+---
+[card kicker="Pola" number=off]
+Pola fāʿil: *orang yang melakukan*
+Dari عَلِمَ (mengetahui) lahir عَالِم, orang yang tahu. Dari كَتَبَ (menulis) lahir كَاتِب, penulis. Polanya sama: فَاعِل.
+---
+[card kicker="Kuis" number=off]
+Yang bermain disebut *apa?*
+لَعِبَ artinya bermain. Dengan pola فَاعِل jadi لَاعِب (lāʿib). Artinya apa? Satu kata saja di komen.
+---
+[end cta="Simpan"]
+Kata ilmu dan ulama sekarang *punya keluarga.*
+Kata mana dari tabel yang baru kamu tahu?

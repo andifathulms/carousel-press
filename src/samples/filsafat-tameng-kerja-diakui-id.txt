@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: tameng 7 kamu yang kerjakan dia yang dipuji
+caption: Kamu yang lembur bikin slide-nya, dia yang dipuji di meeting. Kaisar Roma punya cara lihat yang lain, lengkap dengan batasnya. Sumber: Marcus Aurelius, Meditasi 5.6 & 6.51 (terj. George Long) · SEP "Marcus Aurelius" #stoikisme #filsafatharian #duniakerja #rekankerja
+---
+[cover kicker="FILSAFAT HARIAN · TAMENG #7"]
+Kamu yang kerjakan, | *dia yang dipuji.*
+Cara Stoa biar kerja kerasmu nggak terasa sia-sia.
+---
+[card kicker="Situasinya" number=off icon=none]
+Slide-nya kamu yang buat. *Namanya yang disebut.*
+Atasan bilang “Bagus, makasih ya” ke dia. Kamu cuma senyum di pojok ruang meeting.
+---
+[card kicker="Yang sebenarnya melukai" number=off icon=none]
+Bukan pujiannya, tapi *rasa nggak dianggap.*
+“Kerjaku nggak ada artinya.” “Percuma capek-capek.”
+---
+[quote icon=none]
+Saat berbuat baik, ia tidak memanggil orang untuk datang melihat. Ia lanjut ke perbuatan berikutnya, seperti pohon anggur yang berbuah lagi di musimnya.
+— Marcus Aurelius, Meditasi 5.6 (terj. bebas, Long)
+---
+[card kicker="Ide Marcus Aurelius · kaisar Roma, 161–180 M" number=off icon=none]
+Pujiannya milik mereka. *Kerjamu tetap milikmu.*
+Yang haus nama menganggap tindakan orang lain sebagai kebaikannya. Yang paham menaruhnya di perbuatannya sendiri (6.51).
+---
+[card kicker="Coba besok" number=off icon=none]
+Lanjut kerja, *tapi biarkan jejaknya tertulis.*
+Kirim rekap singkat ke atasan: apa yang kamu kerjakan minggu ini. Bukan pamer, cuma catatan.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Kalau terus terjadi, *itu bukan soal ego.*
+Bawa catatanmu dan bicarakan dengan atasan, tenang dan pakai fakta. Meminta yang adil juga ada dalam kendalimu.
+---
+[end cta="Simpan"]
+Kerjaan apa yang paling sering *diakui orang?*
+Satu kata di komen: ide, slide, atau laporan?

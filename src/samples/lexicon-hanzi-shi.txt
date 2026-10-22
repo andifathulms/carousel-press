@@ -1,0 +1,58 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: kapan pakai 是 shì
+caption: Bilang “saya sibuk” dalam bahasa Mandarin tanpa 是. Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #hsk1
+---
+[cover kicker="TATA BAHASA DASAR #2"]
+“Saya sibuk”|*bukan* 我是忙
+Kapan pakai 是 shì, dan kapan tidak
+---
+[compare]
+headline: Kata sifat: tanpa 是
+wrong-label: Salah
+right-label: Benar
+wrong: 我是忙。
+right: 我*很*忙。
+why: 是 shì hanya dipakai sebelum kata benda. Sebelum kata sifat seperti 忙 máng (sibuk), pakai 很 hěn. Di sini 很 tidak harus berarti “sangat”.
+---
+[word]
+word: 是
+pinyin: shì
+pos: kata kerja
+hsk: 1
+meaning: adalah (sebelum kata benda); ya, benar
+example: 我*是*学生。
+example-pinyin: Wǒ shì xuésheng.
+translation: Saya pelajar.
+note: Bentuk negatifnya 不是 bú shì: bukan.
+---
+[table]
+是 + kata benda
+| Hanzi | Pinyin | Arti |
+| 我是学生 | wǒ shì xué sheng | saya pelajar |
+| 他是医生 | tā shì yī shēng | dia dokter |
+| 这是茶 | zhè shì chá | ini teh |
+| 我们是朋友 | wǒ men shì péng you | kami berteman |
+---
+[table]
+很 + kata sifat
+| Hanzi | Pinyin | Arti |
+| 我很忙 | wǒ hěn máng | saya sibuk |
+| 他很高兴 | tā hěn gāo xìng | dia senang |
+| 我很累 | wǒ hěn lèi | saya capek |
+| 茶很热 | chá hěn rè | tehnya panas |
+---
+[card kicker="Kuis" number=off]
+“Tehnya mahal” yang benar…
+*A.* 茶是贵。 | *B.* 茶很贵。
+---
+[card kicker="Jawaban" number=off]
+*B.* 茶很贵。
+Chá hěn guì. 贵 guì (mahal) itu kata sifat, jadi pakai 很, bukan 是.
+---
+[end cta="Simpan"]
+Tulis “saya capek” pakai pinyin
+Jawab di komentar

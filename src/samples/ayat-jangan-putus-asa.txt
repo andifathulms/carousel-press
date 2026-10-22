@@ -1,0 +1,25 @@
+template: serene/fajr
+lang: id
+title: jangan putus asa
+caption: Ayat jangan putus asa, pesan Nabi Yakub kepada anak-anaknya. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #ayatjanganputusasa #pengingatdiri
+---
+[cover kicker="AYAT JANGAN PUTUS ASA"]
+Untuk kamu yang *hampir berhenti berharap.*
+Pesan Nabi Yakub kepada anak-anaknya · QS. Yusuf [12]: 87
+---
+[ayah]
+arab: يَٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَٰفِرُونَ
+terjemah: Wahai anak-anakku, pergi dan carilah berita tentang Yusuf beserta saudaranya. Janganlah kamu berputus asa dari rahmat Allah. Sesungguhnya tidak ada yang berputus asa dari rahmat Allah, kecuali kaum yang kafir.”
+ref: QS. Yusuf [12]: 87
+source: Terjemahan Kemenag RI
+---
+[quote kicker="Tafsir" icon=none]
+Sebagai nabi dan rasul, Nabi Yakub sebenarnya tahu Nabi Yusuf masih hidup, hanya saja Allah belum memberitahukan tempat keberadaannya.
+— Tafsir Ringkas Kemenag RI · dikutip sebagian
+---
+[card kicker="Renungan"]
+Di tengah kehilangan, Nabi Yakub عليه السلام tetap berpesan kepada anak-anaknya: jangan berputus asa dari rahmat Allah.
+---
+[end cta="Kirim"]
+Kirim ke satu orang yang *sedang kehilangan harapan.*
+Semoga satu ayat ini menemaninya pagi ini.

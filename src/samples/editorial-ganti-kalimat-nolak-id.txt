@@ -1,0 +1,41 @@
+template: editorial/ruang-kunyit
+handle: @ruangrasakita.id
+lang: id
+title: ganti kalimatnya, bilang nggak ke teman
+caption: Cara nolak ajakan teman tanpa bikin nggak enak, dan tanpa ngarang alasan panjang 🧡 Simpan, biar besok nggak "iya" lagi. Paling susah nolak nomor berapa? #caranolak #temanan #sungkan
+---
+[cover kicker="GANTI KALIMATNYA #2 · TEMAN"]
+Mau bilang nggak, *yang keluar malah “iya, boleh”.*
+5 cara nolak ajakan teman tanpa nggak enak. Tinggal ganti kalimatnya.
+---
+[number=off icon=none]
+“Iya, nanti aku usahain.” | *Coba: “Kali ini aku nggak bisa, ya.”*
+“Diusahain” bikin dia nunggu. Jawaban yang jelas lebih ringan buat dua-duanya.
+---
+[number=off icon=none]
+“Aduh maaf banget, soalnya aku tuh…” | *Coba: “Aku skip dulu, lagi pengen istirahat.”*
+Alasan yang kepanjangan malah kedengaran kayak ngarang. Satu alasan jujur cukup.
+---
+[number=off icon=none]
+“Oke, mau nitip apa aja?” | *Coba: “Bagasiku pas-pasan, kali ini nggak bisa nitip, ya.”*
+Nolak sebelum berangkat jauh lebih gampang daripada pas udah di toko.
+---
+[number=off icon=none]
+“Nanti ya, aku cek dulu.” | *Coba: “Aku nggak bisa minjemin. Bantu cari cara lain, yuk.”*
+Yang ditolak uangnya, bukan orangnya.
+---
+[number=off icon=none]
+“Kayaknya nggak bisa deh.” | *Coba: “Minggu ini nggak bisa. Sabtu depan, gimana?”*
+Nawarin waktu lain bikin dia tahu kamu tetap mau ketemu.
+---
+[number=off icon=none]
+Simpan buat *pas mau bilang nggak.*
+Ajakan: “Kali ini aku nggak bisa, ya.”
+Alasan: “Lagi pengen istirahat.”
+Titipan: “Bagasiku pas-pasan.”
+Pinjaman: “Bantu cari cara lain, yuk.”
+Jadwal: “Sabtu depan, gimana?”
+---
+[end cta="Simpan buat nanti"]
+Paling susah nolak *nomor berapa?*
+Komen angkanya, 1 sampai 5. Besok coba satu.

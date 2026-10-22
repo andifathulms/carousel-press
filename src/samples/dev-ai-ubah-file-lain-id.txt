@@ -1,0 +1,87 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: ai ngubah file yang nggak diminta
+caption: Minta AI benerin satu fungsi, yang berubah malah 4 file? Cek dan balikin pakai Git, nggak perlu undo satu per satu. #ai #git #belajarcoding
+---
+[cover kicker="AI • WORKFLOW"]
+AI Ngubah File | yang Nggak Kamu Minta?
+Minta 1 perbaikan, yang berubah 4 file. Cek dan balikin pakai Git. Simpan dulu.
+---
+[code]
+Lihat file apa aja yang diubah
+`M` = diubah, `??` = file baru dari AI.
+```bash
+git status --short
+#  M package.json
+#  M src/api.js
+#  M src/login.js
+# ?? src/utils.js
+```
+---
+[code]
+Balikin file yang nggak diminta
+File itu balik ke commit terakhir. Kerjaanmu di file itu yang belum di-commit ikut hilang.
+```bash
+git restore src/api.js package.json
+```
+---
+[code]
+Hapus file baru dari AI
+`-n` cuma nampilin daftarnya. Sudah benar? Baru jalankan `-fd`.
+```bash
+git clean -nd
+# Would remove src/utils.js
+git clean -fd
+```
+Hati-hati: file barumu sendiri yang belum di-add ikut terhapus. File yang di-ignore seperti `.env` aman.
+---
+[code]
+Baca sisanya baris per baris
+Yang diawali `-` dihapus, `+` ditambah. Yakin paham? Baru commit.
+```bash
+git diff src/login.js
+```
+---
+[code]
+Lain kali: commit dulu sebelum minta AI
+Kalau hasilnya kacau, semua bisa dibalikin tanpa kehilangan kerjaanmu.
+```bash
+git add -A
+git commit -m "wip: sebelum AI"
+```
+Commit kecil gini bisa dirapikan sebelum PR.
+---
+[code]
+Batasi di prompt-nya
+Sebut file dan fungsi yang boleh diubah.
+```
+Ubah cuma fungsi login()
+di src/login.js. Jangan
+sentuh file lain. Kalau
+perlu, tanya dulu.
+```
+---
+[code number=off]
+Simpan ini
+Urut dari atas. Commit dulu sebelum minta AI berikutnya.
+```bash
+# file apa aja yang berubah
+git status --short
+# balikin file yang nggak diminta
+git restore src/api.js
+# file baru: lihat dulu, baru hapus
+git clean -nd
+git clean -fd
+# baca sisanya
+git diff src/login.js
+# sebelum minta AI lagi
+git add -A
+git commit -m "wip: sebelum AI"
+```
+---
+[end cta="Simpan"]
+AI kamu pernah ngubah *berapa file* sekaligus?
+Komen angkanya.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

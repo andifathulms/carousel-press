@@ -1,0 +1,69 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: git rescue 5 detached head
+caption: Muncul “detached HEAD” habis checkout commit lama? Commit-mu belum hilang, tinggal kasih nama branch. #git #belajarcoding #programmer
+---
+[cover kicker="GIT RESCUE • #5"]
+Muncul | “detached HEAD”?
+Commit-mu belum hilang. Kasih nama branch, beres. Simpan buat pas panik.
+---
+[code]
+Kasih nama branch sekarang
+Commit yang kamu bikin di sini ikut masuk branch baru. Perubahan yang belum di-commit juga ikut.
+```bash
+git switch -c simpan
+# Switched to a new branch 'simpan'
+```
+---
+[code]
+Sudah telanjur pindah branch?
+Pas pindah, Git nyebut commit yang ketinggalan. Pakai hash-nya.
+```bash
+# pesan Git pas pindah:
+#   ea70ed7 fix: navbar
+git branch simpan ea70ed7
+```
+---
+[code]
+Pesannya ketutup? Cari di reflog
+Cari baris `commit:` paling atas. Hash-nya di kolom pertama.
+```bash
+git reflog
+```
+Contoh: `ea70ed7 HEAD@{1}: commit: fix: navbar`. Jangan ditunda berminggu-minggu, Git lama-lama membersihkan commit tanpa branch.
+---
+[code]
+Cuma lihat-lihat? Balik aja
+Nggak bikin commit di sini, jadi nggak ada yang perlu diselamatkan.
+```bash
+git switch -
+# Switched to branch 'main'
+```
+---
+[code]
+Kenapa bisa detached?
+Kamu `checkout` ke hash commit, tag, atau `origin/main`. Git lagi nunjuk commit, bukan branch. `git switch` nolak kalau nggak sengaja:
+```bash
+git switch e7d4657
+# fatal: a branch is expected,
+# got commit 'e7d4657'
+```
+---
+[code number=off]
+Simpan ini
+Pilih sesuai kondisimu. Ganti hash-nya dengan punyamu.
+```bash
+# masih detached: kasih nama
+git switch -c simpan
+# sudah pindah: pakai hash-nya
+git branch simpan ea70ed7
+# hash ketutup: cari di sini
+git reflog
+# cuma lihat-lihat: balik
+git switch -
+```
+---
+[end cta="Follow"]
+Pertama lihat *detached HEAD*, kamu ngapain?
+Komen A: panik, B: googling, C: tutup terminal. Git Rescue #6 minggu depan.

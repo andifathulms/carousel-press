@@ -1,0 +1,66 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: antre atau antri
+caption: Kata baku yang sering salah: antre, bukan antri. Antrian dan mengantri malah tidak tercatat di KBBI VI. Sumber: KBBI VI Daring (dicek 22 Oktober 2026) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="MANA YANG BAKU? · #3"]
+Antre atau | Antri?
+Tebak dulu, baru geser. Plus 5 kata yang huruf e-nya sering jadi i.
+---
+[card number=off]
+Yang baku: *antre*
+KBBI VI mencatat *antre* sebagai bentuk baku, antri tidak baku.
+Turunannya ikut e: *mengantre* dan *antrean*. Antrian dan mengantri tidak tercatat di KBBI VI.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Antriannya panjang banget, ya.
+right: *Antreannya* panjang banget, ya.
+why: KBBI VI: antrean berarti “deretan orang, barang olahan, atau unit yang sedang menunggu giliran untuk dilayani”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Cuacanya lagi ekstrim.
+right: Cuacanya lagi *ekstrem*.
+why: KBBI VI mencatat ekstrem sebagai bentuk baku, ekstrim tidak baku. Artinya: paling ujung (paling tinggi, paling keras, dan sebagainya).
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Kasih contoh yang konkrit, dong.
+right: Kasih contoh yang *konkret*, dong.
+why: KBBI VI mencatat konkret sebagai bentuk baku. Konkrit, kongkrit, dan kongkret tercatat tidak baku.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Secara teoritis, rencana ini bisa jalan.
+right: Secara *teoretis*, rencana ini bisa jalan.
+why: KBBI VI mencatat teoretis sebagai bentuk baku, teoritis tidak baku. Padahal kata dasarnya teori.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Seminar ini dihadiri para cendikiawan.
+right: Seminar ini dihadiri para *cendekiawan*.
+why: KBBI VI mencatat cendekiawan sebagai bentuk baku, cendikiawan tidak baku. Artinya: orang cerdik pandai; orang intelek.
+---
+[table]
+Huruf e tetap e
+| Baku | Tidak baku |
+| *antre* | antri |
+| *mengantre* | mengantri |
+| *antrean* | antrian |
+| *ekstrem* | ekstrim |
+| *konkret* | konkrit |
+| *teoretis* | teoritis |
+| *cendekiawan* | cendikiawan |
+| *komplet* | komplit |
+Mengantri dan antrian tidak tercatat. Sumber: KBBI VI Daring
+---
+[end cta="Komen A atau B"]
+Kamu tadi jawab *yang mana?*
+Komen A kalau antre, B kalau antri.

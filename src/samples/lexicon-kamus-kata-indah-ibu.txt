@@ -1,0 +1,82 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata indah untuk ibu
+caption: Kata indah untuk ibu yang benar-benar ada di KBBI, buat caption Hari Ibu 22 Desember. Pangkuan Ibu pun punya nama: haribaan. Sumber: KBBI VI Daring (dicek 22 Oktober 2026) #bahasaindonesia #kataindah #kbbi #hariibu
+---
+[cover kicker="KATA INDAH #5 · KBBI VI"]
+Pangkuan Ibu Punya | Nama yang Lebih Indah
+Haribaan, plus 7 kata indah untuk ibu yang benar-benar ada di KBBI. Pas buat Hari Ibu, 22 Desember.
+---
+[word]
+pos: nomina
+word: haribaan
+meaning: pangkuan; ribaan
+example: Capek seharian hilang begitu rebahan di *haribaan* Ibu.
+note: Hati-hati: “berpulang ke haribaan Tuhan” berarti meninggal. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · hormat
+word: ibunda
+meaning: kata sapaan takzim untuk ibu
+example: Selamat Hari Ibu, *Ibunda* tersayang.
+note: Sebagai sapaan, ditulis kapital: Ibunda. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: tulus
+meaning: sungguh dan bersih hati (benar-benar keluar dari hati yang suci); jujur; tidak pura-pura
+example: Sayang Ibu itu *tulus*, tidak pernah menagih balasan.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva · Jawa
+word: telaten
+meaning: sabar dan teliti (dalam mengerjakan sesuatu); cermat
+example: Terima kasih sudah *telaten* menghadapi aku yang keras kepala, Bu.
+note: Contoh di KBBI: ia sabar dan telaten mengasuh bayinya. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: pengayom
+meaning: orang dan sebagainya yang mengayomi
+example: Ibu, *pengayom* kami di rumah kecil ini.
+note: Mengayomi berarti melindungi. Sumber: KBBI VI Daring
+---
+[word]
+pos: verba
+word: mendekap
+meaning: memeluk
+example: Pulang nanti, aku mau *mendekap* Ibu lama-lama.
+note: Kata dasarnya dekap: peluk; lekap. Hasilnya disebut dekapan. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: bersahaja
+meaning: sederhana; tidak berlebih-lebihan
+example: Cantiknya Ibu itu *bersahaja*, apa adanya.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: verba · Jawa
+word: sungkem
+meaning: sujud (tanda bakti dan hormat)
+example: Lebaran nanti aku pulang, *sungkem* sama Ibu.
+note: Ada juga bersungkem, dan sungkeman: upacara memohon restu. Sumber: KBBI VI Daring
+---
+[table]
+Simpan buat Hari Ibu
+| Kata | Kelas |
+| *haribaan* | nomina |
+| *ibunda* | nomina |
+| *tulus* | adjektiva |
+| *telaten* | adjektiva |
+| *pengayom* | nomina |
+| *mendekap* | verba |
+| *bersahaja* | adjektiva |
+| *sungkem* | verba |
+Semua tercatat di KBBI VI Daring
+---
+[end cta="Kirim ke Ibu"]
+Kata mana yang *paling Ibu banget?*
+Komen satu kata, lalu kirim ke ibumu.

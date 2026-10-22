@@ -1,0 +1,53 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: huruf qaf dan kaf
+caption: Hati itu qalb, anjing itu kalb: beda huruf ق dan ك di bahasa Arab. Sumber: Almaany #belajarbahasaarab #bahasaarab #hurufarab #arabpemula
+---
+[cover kicker="HURUF YANG SERING TERTUKAR · #2"]
+Mau bilang hati,|*jangan jadi anjing*
+ق (qaf) dan ك (kaf) sama-sama terdengar “k” buat kita. Di bahasa Arab, artinya bisa jauh beda.
+---
+[compare]
+headline: Mau bilang “hati”
+wrong-label: ك kaf
+right-label: ق qaf
+wrong: كَلْب
+right: قَلْب
+why: كَلْب (kalb) artinya anjing. Hati itu قَلْب (qalb), dibuka dengan huruf ق.
+---
+[card kicker="Cara dengar bedanya" number=off]
+ك itu *k biasa*, ق lebih *dalam*.
+ك (kaf): seperti k di kata “kaki”. ق (qaf): pangkal lidah menempel ke langit-langit paling belakang, dekat tenggorokan. Bunyinya lebih berat dan tebal.
+---
+[table]
+Dengar dan bandingkan
+| Arab | Baca | Arti |
+| قَلْب | qalb | hati; jantung |
+| كَلْب | kalb | anjing |
+| قَمَر | qamar | bulan |
+| قَهْوَة | qahwah | kopi |
+| قَلَم | qalam | pena |
+| كُرْسِيّ | kursiyy | kursi |
+| كُوب | kūb | gelas |
+---
+[word]
+word: قَلْب
+translit: qalb
+say: “qalb”, q dari pangkal lidah
+pos: isim · kata benda
+tag: A1
+root: ق ل ب
+pattern: فَعْل
+plural: قُلُوب · qulūb
+meaning: hati; jantung
+note: Kata kalbu di bahasa Indonesia berasal dari kata ini.
+---
+[card kicker="Kuis" number=off]
+Mana yang artinya *dia berkata?*
+A: كَالَ atau B: قَالَ. Yang satu lagi artinya menakar. Jawab A atau B di komen.
+---
+[end cta="Simpan"]
+Tulis قَلْب pelan-pelan *di kertas.*
+Sudah? Tulis “sudah” di komen.

@@ -1,0 +1,63 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: bahari itu dahulu kala
+caption: Di KBBI, bahari juga berarti dahulu kala dan indah, bukan cuma soal laut. Plus bandar, teduh, restu, inang, dan ambu. Sumber: KBBI VI Daring (dicek 22 Oktober 2026) #bahasaindonesia #kbbi #katabaku
+---
+[cover kicker="SALAH ARTI #3"]
+Bahari Bukan Cuma Laut. | Di KBBI, Juga Dahulu Kala
+Plus 5 kata lain yang punya arti yang jarang kita kenal.
+---
+[word]
+pos: adjektiva · klasik
+word: bahari
+meaning: dahulu kala; kuno
+example: Adat *bahari* itu masih dijaga kampung kami.
+note: Arti lain: indah; elok sekali (klasik), dan mengenai laut (arkais). Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: bandar
+meaning: selokan aliran air (ke sawah dan sebagainya); selokan; parit
+example: Warga membersihkan *bandar* sebelum musim tanam.
+note: Arti lainnya: pelabuhan, kota pelabuhan, juga bandar judi. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: teduh
+meaning: reda (tentang angin ribut, ombak); berhenti (tentang hujan)
+example: Tunggu hujannya *teduh* dulu, baru kita pulang.
+note: Arti keduanya baru terlindung atau tidak kena panas matahari. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: restu
+meaning: pengaruh baik atau buruk; pesona
+example: Penyanyi itu punya *restu*: begitu dia naik panggung, semua terdiam.
+note: Arti yang biasa kita pakai: berkat; doa. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: inang
+meaning: perempuan yang merawat (menyusui dan sebagainya) anak tuannya (seperti anak raja atau anak pembesar)
+example: Sang putri dibesarkan oleh seorang *inang*.
+note: Arti ibu hanya berlabel Batak. Di pertanian, inang berarti hospes. Sumber: KBBI VI Daring
+---
+Ambu: belum ada arti ibu
+Banyak yang kenal ambu sebagai panggilan ibu dari bahasa Sunda. KBBI VI mencatat lima entri ambu, dan belum ada yang berarti ibu.
+Salah satunya (Bali): daun enau muda.
+---
+[table]
+Arti yang jarang dikenal
+| Kata | Artinya |
+| *bahari* | dahulu kala; kuno |
+| *bandar* | selokan; parit |
+| *teduh* | reda; berhenti |
+| *restu* | pengaruh; pesona |
+| *inang* | perempuan yang merawat |
+| *ambu* | daun enau muda (Bali) |
+Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Arti mana yang *paling bikin kaget?*
+Komen satu kata: bahari, bandar, teduh, restu, inang, atau ambu.

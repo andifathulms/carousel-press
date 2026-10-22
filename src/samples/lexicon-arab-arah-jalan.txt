@@ -1,0 +1,60 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: ungkapan arah jalan
+caption: Kanan, kiri, depan, belakang dalam bahasa Arab, bekal tanya jalan waktu umrah. Sumber: Almaany #belajarbahasaarab #bahasaarab #kosakataarab #arabumrah
+---
+[cover kicker="UNGKAPAN SEHARI-HARI · #2"]
+Bingung arah waktu umrah?|*Hafalkan delapan kata ini*
+Kanan, kiri, depan, belakang, atas, bawah, sini dan sana dalam bahasa Arab.
+---
+[table]
+Kata arah
+| Arab | Baca | Arti |
+| يَمِين | yamīn | kanan |
+| يَسَار | yasār | kiri |
+| أَمَامَ | amāma | di depan |
+| خَلْفَ | khalfa | di belakang |
+| فَوْقَ | fawqa | di atas |
+| تَحْتَ | taḥta | di bawah |
+| هُنَا | hunā | di sini |
+| هُنَاكَ | hunāka | di sana |
+---
+[word]
+word: يَمِين
+translit: yamīn
+say: “ya-miin”, i-nya panjang
+pos: isim · kata benda
+tag: A1
+meaning: kanan; tangan kanan
+example: ثُمَّ ٱنْعَطِفْ *يَمِينًا.*
+translation: Lalu belok kanan.
+note: Contoh kalimat: Wiktionary.
+---
+[word]
+word: يَسَار
+translit: yasār
+say: “ya-saar”, a kedua panjang
+pos: isim · kata benda
+tag: A1
+root: ي س ر
+pattern: فَعَال
+meaning: kiri
+note: Lawan kata يَمِين (kanan).
+---
+[compare]
+headline: Mau bilang “utara”
+wrong-label: Kiri
+right-label: Utara
+wrong: شِمَال
+right: شَمَال
+why: Beda harakat huruf pertama. شِمَال (syimāl, kasrah) artinya kiri. شَمَال (syamāl, fathah) artinya utara.
+---
+[card kicker="Latihan" number=off]
+Tunjuk ke langit-langit: *fawqa atau taḥta?*
+فَوْقَ (fawqa) atau تَحْتَ (taḥta)? Jawab A untuk fawqa, B untuk taḥta di komen.
+---
+[end cta="Simpan"]
+Kamu lebih sering salah belok *ke kanan atau ke kiri?*
+Jawab yamīn atau yasār di komen.

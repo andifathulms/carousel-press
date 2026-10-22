@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: salah kaprah stoik 3 pasrah
+caption: “Udah, terima aja, namanya juga stoik.” Kaisar yang menulis Meditasi justru bilang: bertindaklah. Sumber: Marcus Aurelius, Meditasi 6.50 (terj. George Long) · Epiktetos, Enchiridion 1 (terj. T.W. Higginson) · SEP "Stoicism" #stoikisme #filsafatharian #salahkaprah #duniakerja
+---
+[cover kicker="SALAH KAPRAH STOIK · #3"]
+Stoik itu | *pasrah aja?*
+Kata medsos vs kata Stoa, sebelum kamu diam soal yang nggak adil.
+---
+[compare]
+headline: Yang sering salah dipahami
+wrong-label: Kata medsos
+wrong: Stoik = terima semua. Pembagian kerja nggak adil? Diam aja, itu di luar kendali.
+right-label: Kata para Stoa
+right: Pendapat, tujuan, dan tindakanmu sendiri justru ada dalam kendalimu. Hasilnya yang tidak.
+why: Enchiridion 1. Pasrah berarti berhenti mengurus bagian yang jelas milikmu.
+---
+[quote icon=none]
+Cobalah meyakinkan mereka. Tapi bertindaklah, bahkan di luar kehendak mereka, kalau prinsip keadilan menuntunmu ke sana.
+— Marcus Aurelius, Meditasi 6.50 (terj. bebas, Long)
+---
+[card kicker="Ide Marcus Aurelius · kaisar Roma, 161–180 M" number=off icon=none]
+Usaha penuh, *hasilnya “dengan catatan”.*
+Lanjutan 6.50: kalau dihalangi paksa, terima dengan tenang dan pakai hambatan itu untuk melatih kebajikan lain. Sejak awal kamu tak menuntut yang mustahil.
+---
+[card kicker="Coba hari ini" number=off icon=none]
+Pisahkan *usahamu dari hasilnya.*
+Pembagian kerja timmu berat sebelah? Usahamu: bicara ke atasan dengan data. Hasilnya: keputusan atasan. Kerjakan bagian pertama sepenuhnya.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Tenang *bukan berarti sendirian.*
+Upah ditahan, ancaman, atau pelecehan: catat dan laporkan ke HR atau Disnaker. Itu bukan melawan Stoa, itu bertindak adil.
+---
+[end cta="Simpan"]
+Selama ini kamu kira stoik itu *pasrah?*
+Komen “iya” atau “nggak”. Jujur aja.

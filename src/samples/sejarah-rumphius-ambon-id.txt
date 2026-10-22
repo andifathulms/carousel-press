@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: rumphius ambon naskah tenggelam
+caption: Ambon, Maluku: Rumphius buta, kehilangan istri dan putrinya dalam tsunami 1674, perpustakaannya terbakar, lalu naskah buku tumbuhannya tenggelam di laut. Bukunya tetap terbit. Sumber: van Andel dkk., Blumea 63 (2018); Naturalis, Cyclopaedia of Malesian Collectors; Pranantyo & Cummins, Pure and Applied Geophysics (2019); CNBC Indonesia (2025) · Gambar: Rijksmuseum (CC0), Nationaal Archief & Herbarium Amboinense (domain publik); Foto: Len Worthington (CC BY-SA 2.0) dan naskah Cruijdeboek (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #ambon #maluku #rumphius
+---
+[cover kicker="MALUKU · AMBON, 1692" photo=rumphius-potret]
+Buta, Istrinya Tewas, | Naskahnya Tenggelam
+Rumphius menulis buku tumbuhan Ambon, hampir 1.300 jenis. Kapal yang membawanya ke Belanda ditenggelamkan armada Prancis.
+---
+[number=off icon=none photo=rumphius-naskah]
+*1692*: naskahnya karam
+Kapal De Waterlandt yang membawa naskah Herbarium Amboinense dicegat armada Prancis dan tenggelam dekat La Coruña, Spanyol. Untung, ada salinannya di Batavia.
+---
+[number=off icon=none photo=rumphius-amboina]
+*1653*: tiba di Ambon
+Georg Eberhard Rumpf, orang Jerman, datang sebagai serdadu VOC lalu jadi pedagang. Ia tinggal di Ambon 49 tahun dan meneliti tumbuhan serta hewannya.
+---
+[number=off icon=none photo=rumphius-musa]
+*1670*: matanya buta
+Dalam usia sekitar 43 tahun, Rumphius buta. Ia tidak berhenti: buku tumbuhan Ambon tetap ia susun sampai selesai.
+---
+[number=off icon=none photo=rumphius-fort-victoria]
+*17 Februari 1674*: gempa malam Imlek
+Gempa dan tsunami melanda Ambon saat warga merayakan Imlek. Lebih dari 2.300 orang tewas, termasuk istri dan seorang putri Rumphius.
+---
+[number=off icon=none photo=rumphius-amboina]
+Tsunami setinggi 100 meter
+Catatan Rumphius, terbit 1675, adalah laporan tsunami rinci tertua di Indonesia: air naik sekitar 100 meter. Peneliti tahun 2019 menduga penyebabnya longsor bawah laut.
+---
+[number=off icon=none photo=rumphius-anggrek]
+Anggrek untuk istrinya
+Istrinya, Susanna, ia abadikan dalam nama anggrek putih Flos susannae. Sekarang anggrek itu bernama Pecteilis susannae.
+---
+[number=off icon=none photo=rumphius-fort-victoria]
+*11 Januari 1687*: kebakaran
+Api menghanguskan perpustakaan, koleksi, dan sebagian besar naskahnya. Ia menyusun ulang, dan naskah itulah yang kemudian dikirim ke Belanda.
+---
+[number=off icon=none photo=rumphius-musa]
+*1741–1755*: terbit setelah ia wafat
+Rumphius wafat di Ambon tahun 1702. Salinan naskahnya tiba di Amsterdam 1697, lalu diterbitkan Johannes Burman dalam enam jilid besar.
+---
+[end photo=rumphius-potret cta="Kirim ke orang Ambon"]
+Orang Ambon, pernah *dengar nama Rumphius?*
+Komen “pernah” atau “belum”.

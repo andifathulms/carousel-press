@@ -1,0 +1,41 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: ende pancasila di bawah pohon sukun
+caption: Ende, Nusa Tenggara Timur: 1934–1938 Sukarno dibuang Belanda ke Flores tanpa diadili, dan di bawah pohon sukun ia merenungkan Pancasila. Lahirnya di Ende atau di Jakarta? Sumber: Samingan & Roe, “Kajian Pemikiran Soekarno di Ende 1934–1938”, Sejarah dan Budaya 14(2) 2020 (mengutip Dhakidae 2013, Daras 2014, Cindy Adams); Setkab RI (Keppres 24/2016; upacara 1 Juni 2022) · Foto: Iskandar Hale Usman, Herusutimbul (CC BY-SA 4.0), Rosino (CC BY-SA 2.0), Felix Dance (CC BY 2.0), Rochelimit (CC BY-SA 3.0) via Wikimedia Commons #sejarahindonesia #ende #flores #pancasila #ntt
+---
+[cover kicker="NUSA TENGGARA TIMUR · 1934" photo=ende-sukun]
+Pancasila Direnungkan | di Bawah Pohon Sukun
+Ende, Flores, 1934–1938: Sukarno dibuang Belanda ke sini tanpa diadili. Lalu, Pancasila lahir di Ende atau di Jakarta?
+---
+[number=off icon=none photo=ende-pulau]
+*1934–1938*: duduk menghadap teluk
+Sukarno sering merenung di bawah pohon sukun menghadap Teluk Ende, sekitar 700 meter dari rumahnya. Pohon aslinya mati tahun 1970-an; yang sekarang tanaman pengganti.
+---
+[quote icon=none photo=ende-sukun]
+…aku telah menghabiskan waktu berjam-jam lamanya di bawah sebatang pohon…, merenungkan ilham… yang kemudian dikenal sebagai Pancasila.
+— Sukarno kepada Cindy Adams, Penyambung Lidah Rakyat
+---
+[number=off icon=none photo=ende-rumah]
+*1934*: dibuang tanpa diadili
+Ditangkap lagi 31 Juli 1933, Sukarno diinternir tanpa sidang. Ia berlayar delapan hari ke Ende bersama Inggit Garnasih, ibu mertua Amsi, dan anak angkat Ratna Djuami.
+---
+[number=off icon=none photo=ende-katedral]
+Teman dari nelayan dan pastor
+Ia bergaul dengan nelayan dan petani, dan berdiskusi dengan misionaris SVD seperti Pastor Huijtink. Di Flores yang mayoritas Katolik, muncul pertanyaan: di mana tempat minoritas nanti?
+---
+[number=off icon=none photo=ende-penari]
+Tonil Kelimutu
+Ia membentuk kelompok sandiwara Kelimutu, sekitar 50 anggota, dan menulis 12 naskah. Pentasnya sering dibuka dengan Indonesia Raya. Oktober 1938 ia dipindah ke Bengkulu.
+---
+[number=off icon=none photo=ende-gedung-pancasila]
+*1 Juni 1945*: diucapkan di Jakarta
+Di sidang BPUPK, Sukarno pertama mengusulkan Pancasila sebagai dasar negara. Negara menetapkan 1 Juni sebagai Hari Lahirnya. Tahun 2022 upacaranya pertama kali digelar di Ende.
+---
+[number=off icon=none photo=ende-pulau]
+Dua cara menjawab
+Ende: di sinilah, kata Sukarno sendiri, gagasan itu ia renungkan. Jakarta: rumusannya pertama diucapkan 1 Juni 1945, dan tanggal itulah yang ditetapkan negara.
+---
+[end photo=ende-sukun cta="Komen A atau B"]
+Pancasila lahir di: *A.* Ende atau *B.* Jakarta?
+Komen A atau B. Alasanmu di balasan.

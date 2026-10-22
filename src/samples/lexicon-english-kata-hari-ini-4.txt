@@ -1,0 +1,27 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: kata hari ini 4 gang
+caption: Kata hari ini #4: gang, yang di bahasa Inggris bukan jalan kecil. Bahasa Inggrisnya gang (lorong) itu alley. Sumber: Cambridge Dictionary; KBBI #belajarbahasainggris #kosakatainggris #falsefriends
+---
+[cover kicker="KATA HARI INI · #4"]
+Gang | *Di bahasa Inggris, ini bukan jalan kecil.*
+Satu kata Inggris tiap hari. Hari ini yang sama tulisannya, beda jauh artinya.
+---
+[card kicker="Coba tebak" number=off]
+Kamu bilang ke teman bule: “My house is in a small gang.” *Dia bayangin apa?*
+Tebak dulu, baru geser.
+---
+[word]
+pos: noun
+word: gang
+ipa: /ɡæŋ/ (UK & US)
+say: “geng”
+meaning: geng: kelompok anak muda yang suka bikin onar, atau komplotan penjahat | (informal) juga geng teman
+example: I miss the old *gang* from college.
+translation: Aku kangen geng kuliahku dulu.
+note: Gang yang jalan kecil? Bahasa Inggrisnya alley: My house is down a narrow alley.
+---
+[end cta="Follow"]
+Besok: *Kata hari ini #5.*
+Follow, besok kata yang lain lagi.

@@ -1,0 +1,36 @@
+template: editorial/ruang-daun
+handle: @ruangrasakita.id
+lang: id
+title: cara jawab kapan nikah
+caption: Cara jawab "kapan nikah?" tanpa canggung, tanpa bohong, tanpa ceramah. Screenshot satu sebelum kumpul keluarga berikutnya 🌿 Kamu paling sering ditanya "kapan" apa? #kapannikah #kumpulkeluarga #keluarga
+---
+[cover kicker="RUANG RASA · KUMPUL KELUARGA"]
+“Jadi, kapan nikah?” | *Satu meja langsung nengok ke kamu.*
+5 cara jawab “kapan nikah?” yang sopan, singkat, terus ganti topik.
+---
+[number=off icon=none]
+Doain aja ya, Tante. *Kalau udah waktunya, Tante yang pertama aku kabarin.*
+---
+[number=off icon=none]
+Aku lagi seneng sama hidupku sekarang, *jadi belum buru-buru.*
+Tante sendiri gimana, tanamannya makin banyak?
+---
+[number=off icon=none]
+Lagi aku jalanin pelan-pelan, Om. *Nanti pasti aku cerita.*
+---
+[number=off icon=none]
+Aku tahu Tante nanya karena peduli. *Tapi aku belum mau bahas itu, ya.*
+---
+[number=off icon=none]
+Ma, kalau ada yang nanya lagi, *bantu bilang aku baik-baik aja, ya.*
+Karena memang begitu.
+---
+[number=off icon=none]
+Biar nggak kerasa *copas:*
+Ganti “Tante” jadi panggilannya.
+Jawab sekali, terus ganti topik.
+Nomor 5 kirim sebelum acaranya.
+---
+[end cta="Kirim ke orang rumah"]
+Pertanyaan *“kapan”* apa yang paling sering kamu dapat?
+Komen satu kata. Nikah, kerja, lulus, punya anak?

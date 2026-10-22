@@ -1,0 +1,47 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: interview 2 what is your weakness
+caption: Cara jawab what’s your weakness di interview bahasa Inggris: kelemahan yang nyata, langkah yang sudah kamu ambil, dan hasilnya. Sumber: TargetJobs; Bright Network; Cambridge Dictionary #interviewbahasainggris #belajarbahasainggris #kosakatainggris
+---
+[cover kicker="INTERVIEW · #2"]
+“What’s Your Weakness?” | Bukan Pertanyaan Jebakan
+Pola jawaban yang jujur tapi tetap aman, plus 4 kalimat siap pakai.
+---
+[card kicker="Jawaban yang lebih kuat" number=off]
+I sometimes find it hard to *ask for help*, so I’m working on that.
+Yang klise: “My weakness is I’m a perfectionist.”
+Nggak salah grammar-nya, cuma klise, dan pewawancara sudah sering dengar. Yang dicari: kelemahan yang nyata, dan buktinya kamu sedang memperbaikinya.
+---
+[card kicker="1 · Kelemahannya" number=off]
+One thing I’m *working on* is speaking in front of a group.
+Work on = berusaha memperbaiki. Pilih kelemahan yang nyata, tapi bukan syarat utama posisinya.
+---
+[card kicker="2 · Contohnya" number=off]
+During my internship, I *used to* get nervous in presentations.
+Used to = dulu begitu, sekarang sudah beda. Cukup satu contoh singkat.
+---
+[card kicker="3 · Langkahmu" number=off]
+So I *started volunteering* to present in team meetings.
+Bagian terpenting: apa yang sudah kamu lakukan. Bisa juga kursus, latihan, atau minta masukan.
+---
+[card kicker="4 · Hasilnya" number=off]
+Now I feel *more confident*, and I’m still improving.
+Tutup dengan kemajuanmu, bukan dengan kelemahannya.
+---
+[compare]
+wrong: I’m not good in public speaking.
+right: I’m not very good *at* public speaking.
+why: Jago atau nggak jago dalam sesuatu: good at. Contoh lain: good at Excel, good at dealing with people.
+---
+[card kicker="Jangan dipilih" number=off]
+Tiga jawaban yang bikin rugi
+“I don’t have any weaknesses.” | Kelemahan yang jadi syarat utama, misalnya Excel buat posisi admin data. | Yang nggak nyambung, misalnya “I can’t cook” di interview kantor.
+---
+[card kicker="Ringkasan" number=off]
+What’s your weakness?
+*Kelemahan:* One thing I’m working on is speaking in front of a group. | *Contoh:* During my internship, I used to get nervous in presentations. | *Langkah:* So I started volunteering to present in team meetings. | *Hasil:* Now I feel more confident, and I’m still improving.
+---
+[end cta="Simpan"]
+Dulu kamu mau jawab *perfectionist* juga?
+Komen “iya” atau “nggak”. Interview #3: Why should we hire you? minggu depan.

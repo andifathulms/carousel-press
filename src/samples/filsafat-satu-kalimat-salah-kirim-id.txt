@@ -1,0 +1,25 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: satu kalimat 3 kesalahan yang terus diputar
+caption: Salahnya sudah lewat seminggu, tapi di kepala masih tayang tiap malam. Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya. Sumber: Epiktetos, Enchiridion 5 (terj. T.W. Higginson) · SEP "Epictetus" #stoikisme #filsafatharian #overthinking #duniakerja
+---
+[cover kicker="SATU KALIMAT · #3"]
+Salah kirim ke klien. | *Diputar ulang tiap malam.*
+Satu kalimat Epiktetos buat kesalahan yang nggak mau pergi.
+---
+[quote icon=none]
+Menyalahkan orang lain atas kemalanganmu itu tanda belum terdidik. Menyalahkan diri sendiri, tanda mulai terdidik. Tidak menyalahkan keduanya, tanda sudah terdidik penuh.
+— Epiktetos, Enchiridion 5 (terj. bebas, Higginson)
+---
+[card kicker="Artinya di kantor" number=off icon=none]
+Menyesal itu langkah, *bukan tempat tinggal.*
+Di pasal yang sama: yang mengganggu kita bukan kejadiannya, tapi pandangan kita tentangnya. “Aku salah kirim” itu kejadian. “Aku memang nggak becus” itu cerita tambahan.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Tidak menyalahkan *bukan berarti lepas tangan.*
+Kalau kesalahanmu merugikan orang, minta maaf dan perbaiki. Itu justru bagian yang ada dalam kendalimu.
+---
+[end cta="Simpan"]
+Sudah berapa malam *kamu putar ulang?*
+Komen satu angka aja.

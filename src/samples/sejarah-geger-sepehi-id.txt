@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/midnight
+lang: id
+title: geger sepehi 1812 keraton jogja dijarah
+caption: Yogyakarta: 20 Juni 1812, Keraton Yogyakarta direbut pasukan Inggris dan sepoy India, Sultan Hamengku Buwono II ditawan, dan naskah istananya dibawa ke London. Sumber: Ardiyansyah & Meyer, “From Raids to Digital Returns”, Archipel 110 (2025); detikJogja (2023, mengutip situs Keraton Jogja dan Dinas Kebudayaan DIY); Antara Jogja (seminar sejarawan Harto Juwono & Djoko Marihandono); Tempo (2019) · Foto: RaFaDa20631 (CC BY-SA 4.0), CEphoto/Uwe Aranas (CC BY-SA 3.0), Daderot (CC0) via Wikimedia Commons; British Library & Topographisch Bureau (domain publik) #sejarahindonesia #yogyakarta #gegersepehi #jogja
+---
+[cover kicker="YOGYAKARTA · 1812" photo=sepehi-jokteng]
+Keraton Jogja Pernah | Dijarah Inggris
+Geger Sepehi, 20 Juni 1812: benteng keraton jebol, Sultan Hamengku Buwono II ditawan, dan naskah istananya dibawa ke London.
+---
+[number=off icon=none photo=sepehi-kraton]
+*20 Juni 1812*: benteng jebol
+Pukul 5 pagi pasukan menyerbu. Sekitar pukul 8, pojok timur laut benteng jatuh. Sultan menyerah saat pasukan sampai di Srimanganti.
+---
+[number=off icon=none photo=sepehi-jayalengkara]
+Isi istana dibawa pergi
+Kas sultan, arsip, dan perpustakaan keraton berisi lebih dari 150 naskah diangkut. Banyak naskahnya kini disimpan British Library di London.
+---
+[number=off icon=none photo=sepehi-peta-kraton]
+*20–24 Juni*: penjarahan berhari-hari
+Menurut para sejarawan, pusaka dan perhiasan dijarah selama beberapa hari. Mereka juga mencatat kekerasan terhadap perempuan di sekitar keraton.
+---
+[number=off icon=none photo=sepehi-peta-kraton]
+*1811*: Jawa jatuh ke Inggris
+Inggris merebut Jawa dan Raffles jadi Letnan Gubernur. Hamengku Buwono II, yang dulu menentang Daendels, kembali berkuasa dan menolak tunduk.
+---
+[number=off icon=none photo=sepehi-kraton]
+*18 Juni 1812*: meriam mulai ditembakkan
+Kolonel Gillespie memimpin pasukan Inggris dan sepoy India, dibantu Legiun Mangkunegaran. Sumber menyebut 1.000 sampai 2.000 orang. Dari kata sepoy lahir nama Geger Sepehi.
+---
+[number=off icon=none photo=sepehi-panji]
+Sultan dibuang, kerajaan dipecah
+Hamengku Buwono II dibuang ke Pulau Pinang. Putranya diangkat jadi Hamengku Buwono III, dan Pangeran Notokusumo dijadikan Paku Alam I dengan wilayah sendiri.
+---
+[number=off icon=none photo=sepehi-panji]
+Cucu yang menyaksikan
+Pangeran Diponegoro melihat kakeknya ditangkap dan dibuang. Sejarawan mengaitkan luka 1812 dengan Perang Jawa yang ia pimpin tahun 1825–1830.
+---
+[number=off icon=none photo=sepehi-jayalengkara]
+*7 Maret 2019*: pulang, tapi digital
+Dubes Inggris Moazzam Malik menyerahkan hard disk berisi 30.000 foto halaman dari 75 naskah kepada Sultan Hamengku Buwono X. Naskah aslinya tetap di London.
+---
+[end photo=sepehi-jokteng cta="Komen"]
+Orang Jogja, pernah *dengar Geger Sepehi?*
+Komen “pernah” atau “baru tahu”. Kirim ke temanmu yang dari Jogja.

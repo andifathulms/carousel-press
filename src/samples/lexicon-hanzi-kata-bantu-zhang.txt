@@ -1,0 +1,51 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: kata bantu bilangan 张 zhāng
+caption: Beli tiket atau cetak foto? Pakai kata bantu bilangan 张. Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #mandarinpemula
+---
+[cover kicker="KATA BANTU BILANGAN #2"]
+Tiket, foto, kertas|semua pakai *张*
+张 zhāng: buat benda pipih dan lembaran
+---
+[word]
+word: 张
+pinyin: zhāng
+pos: kata bantu bilangan
+meaning: lembar; kata bantu untuk benda pipih: kertas, tiket, foto, meja
+example: 我要两*张*票。
+example-pinyin: Wǒ yào liǎng zhāng piào.
+translation: Saya mau dua tiket.
+note: 张 juga marga yang umum: Zhāng.
+---
+[table]
+Angka + 张 + benda
+| Hanzi | Pinyin | Arti |
+| 一张纸 | yì zhāng zhǐ | selembar kertas |
+| 一张票 | yì zhāng piào | selembar tiket |
+| 一张照片 | yì zhāng zhào piàn | selembar foto |
+| 一张桌子 | yì zhāng zhuō zi | sebuah meja |
+| 一张床 | yì zhāng chuáng | sebuah tempat tidur |
+Meja dan tempat tidur juga pakai 张: permukaannya datar.
+---
+[compare]
+headline: Foto bukan pakai 个
+wrong-label: Salah
+right-label: Benar
+wrong: 两个照片
+right: 两*张*照片
+why: 个 gè itu kata bantu umum, tapi benda pipih seperti foto punya kata bantunya sendiri: 张 zhāng.
+---
+[card kicker="Kuis" number=off]
+“Tiga lembar kertas” yang benar…
+*A.* 三张纸 | *B.* 三个纸 | *C.* 三纸
+---
+[card kicker="Jawaban" number=off]
+*A.* 三张纸
+sān zhāng zhǐ: angka, lalu 张, lalu 纸 (kertas).
+---
+[end cta="Simpan"]
+Tulis “dua tiket” pakai pinyin
+Jawab di komentar

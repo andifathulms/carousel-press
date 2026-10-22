@@ -1,0 +1,81 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: terminal harian 3 find
+caption: Lupa file komponennya ditaruh di folder mana? Cari pakai find, nggak usah buka folder satu per satu. #terminal #linux #belajarcoding
+---
+[cover kicker="TERMINAL HARIAN • #3"]
+Lupa File-nya | Ditaruh di Mana?
+Cari pakai `find`: dari nama sampai yang barusan diubah. Simpan buat besok.
+---
+[code]
+Cari pakai nama file
+Titik artinya mulai dari folder ini, termasuk semua subfolder.
+```bash
+find . -name "Navbar.jsx"
+# ./src/components/Navbar.jsx
+```
+---
+[code]
+Lupa huruf besar kecilnya?
+`-iname` nggak peduli kapital. Tanda `*` artinya “apa pun setelahnya”.
+```bash
+find . -iname "navbar*"
+# ./src/components/Navbar.jsx
+```
+---
+[code]
+Tanpa isi `node_modules`
+Biar hasilnya cuma file project-mu.
+```bash
+find . -name "*.log" \
+  -not -path "*/node_modules/*"
+# ./logs/error.log
+# ./logs/app.log
+```
+---
+[code]
+File yang barusan diubah
+`-mmin -30` artinya diubah dalam 30 menit terakhir.
+```bash
+find src -type f -mmin -30
+# src/components/Navbar.jsx
+```
+---
+[code]
+Cari file yang bikin repo berat
+Semua file di atas 50 MB.
+```bash
+find . -size +50M
+# ./public/video.mp4
+```
+---
+[code]
+Hapus hasilnya? Cek dulu
+Jalankan tanpa `-delete` dulu. Kalau daftarnya benar, baru tambah `-delete`.
+```bash
+find . -name ".DS_Store"
+find . -name ".DS_Store" -delete
+```
+Hati-hati: `-delete` nggak minta konfirmasi dan nggak lewat Trash.
+---
+[code number=off]
+Simpan ini
+Ganti nama file dan foldernya dengan punyamu.
+```bash
+# cari pakai nama
+find . -name "Navbar.jsx"
+# huruf besar kecil bebas
+find . -iname "navbar*"
+# tanpa node_modules
+find . -name "*.log" \
+  -not -path "*/node_modules/*"
+# diubah 30 menit terakhir
+find src -type f -mmin -30
+# di atas 50 MB
+find . -size +50M
+```
+---
+[end cta="Follow"]
+Kamu biasa cari file *pakai apa?*
+Komen satu: find, VS Code, atau Finder. Terminal Harian #4 minggu depan.

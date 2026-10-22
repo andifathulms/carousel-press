@@ -1,0 +1,73 @@
+template: dev/github-dark
+handle: @fathul_learncoding
+lang: id
+title: tebak output js python bash 3
+caption: Satu baris JavaScript, satu Python, satu Bash. Semuanya kelihatan gampang sampai dijalankan. Tebak dulu sebelum geser. #javascript #python #belajarcoding
+---
+[cover kicker="TEBAK OUTPUT • #3"]
+JS, Python, Bash. | Berapa yang Kamu Benar?
+Satu soal tiap bahasa. Jawab dulu di kepala, baru geser.
+---
+[code number=off]
+Soal 1: output-nya apa?
+A. 6
+B. "521"
+C. 51
+```js
+"5" + 2 - 1
+```
+---
+[code number=off]
+Jawaban: C
+`+` ketemu string jadi gabung teks: "52". `-` cuma buat angka, jadi "52" diubah ke 52 lalu dikurang 1.
+```js
+"5" + 2 - 1
+// 51
+```
+Mau dijumlah? Ubah dulu: `Number("5") + 2`, hasilnya 7.
+---
+[code number=off]
+Soal 2: output-nya apa?
+A. -3
+B. -4
+C. -3.5
+```py
+print(-7 // 2)
+```
+---
+[code number=off]
+Jawaban: B
+`//` membulatkan ke bawah, bukan memotong koma. Ke bawah dari -3.5 itu -4.
+```py
+print(-7 // 2)
+# -4
+print(7 // 2)
+# 3
+```
+Mau potong koma ke arah nol? Pakai `int(-7 / 2)`, hasilnya -3.
+---
+[code number=off]
+Soal 3: output-nya apa?
+A. Halo $nama
+B. Halo Fathul
+C. Halo
+```bash
+nama=Fathul
+echo 'Halo $nama'
+```
+---
+[code number=off]
+Jawaban: A
+Kutip satu bikin isinya dibaca apa adanya, jadi `$nama` nggak diganti.
+```bash
+nama=Fathul
+echo 'Halo $nama'
+# Halo $nama
+echo "Halo $nama"
+# Halo Fathul
+```
+Mau isi variabelnya keluar? Pakai kutip dua.
+---
+[end cta="Follow"]
+Kamu benar *berapa dari 3?*
+Komen angkanya. Tebak Output #4 minggu depan.

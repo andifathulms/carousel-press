@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: bengkulu ditukar dengan malaka 1824
+caption: Bengkulu: lewat Traktat London 17 Maret 1824, Inggris menyerahkan Bengkulu ke Belanda dan Belanda menyerahkan Malaka ke Inggris. Sumber: teks Traktat London 1824 (Pasal 9, 10, 13); Roots.gov.sg, National Museum of Singapore; Infopedia, National Library Board Singapore; The Jakarta Post (4 Juli 2014); MARINews Mahkamah Agung RI (2025) · Foto: Crisco 1492 (CC BY-SA 4.0), sbamueller (CC BY-SA 2.0), KITLV/Leiden University Libraries (CC BY 4.0), Wellcome Collection (CC BY 4.0) via Wikimedia Commons; J.C. Stadler 1799, Yale Center for British Art (CC0) #sejarahindonesia #bengkulu #bentengmarlborough #sumatra
+---
+[cover kicker="BENGKULU · 1824" photo=bengkulu-gerbang]
+Bengkulu Pernah | Ditukar dengan Malaka
+Traktat London, 1824: Inggris melepas Bengkulu ke Belanda, Belanda melepas Malaka.
+---
+[number=off icon=none photo=bengkulu-stadler-1799]
+*17 Maret 1824*: ditukar di London
+Pasal 9: Fort Marlborough dan semua milik Inggris di Sumatra diserahkan ke Belanda. Pasal 10: Malaka dan wilayahnya diserahkan ke Inggris.
+---
+[number=off icon=none photo=bengkulu-kota]
+Singapura ikut masuk hitungan
+Lewat traktat yang sama, Belanda mengakui kekuasaan Inggris atas Singapura. Wilayah pengaruh kedua negara pun dipisah.
+---
+[number=off icon=none photo=bengkulu-stadler-1799]
+*1685*: Inggris datang
+Kongsi dagang Inggris (EIC) masuk Bengkulu untuk mengambil rempah. Benteng pertamanya, Fort York, dekat Sungai Serut, ternyata rawan malaria.
+---
+[number=off icon=none photo=bengkulu-meriam]
+*Awal 1700-an*: benteng baru
+Atas perintah Joseph Collet dibangun Benteng Marlborough, sekitar 4,4 hektare. Sumber menyebut pembangunannya antara 1712 dan 1719.
+---
+[number=off icon=none photo=bengkulu-parr]
+*1807*: residen Inggris dibunuh
+Residen Thomas Parr dan asistennya Charles Murray tewas dibunuh warga yang marah pada penjajahan Inggris. Monumennya masih berdiri di dekat benteng.
+---
+[number=off icon=none photo=bengkulu-raffles]
+*1818–1822*: masa Raffles
+Raffles menjabat Letnan Gubernur Bengkulu sejak 1818, lalu pindah ke Singapura September 1822. Empat anaknya dimakamkan di Bengkulu.
+---
+[number=off icon=none photo=bengkulu-meriam]
+*1 Maret 1825*: resmi diserahkan
+Pasal 13 traktat menetapkan semua wilayah yang ditukar diserahkan pada 1 Maret 1825. Sejak itu Bengkulu dikuasai Belanda.
+---
+[number=off icon=none photo=bengkulu-kota]
+Jejaknya di Singapura
+Singapura punya Bencoolen Street. Menurut Perpustakaan Nasional Singapura, namanya mengenang masa Raffles di Bengkulu dan orang Melayu Bengkulu yang ikut lalu menetap di sana.
+---
+[end photo=bengkulu-gerbang cta="Kirim ke orang Bengkulu"]
+Orang Bengkulu, *udah tahu soal ini?*
+Komen 1 kalau udah tahu, 2 kalau baru tahu.

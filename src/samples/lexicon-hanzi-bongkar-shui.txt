@@ -1,0 +1,49 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: bongkar hanzi 氵 air
+caption: Tiga titik di sisi kiri hanzi itu 氵, radikal air. Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #hanzi
+---
+[cover kicker="BONGKAR HANZI #2"]
+Tiga titik di kiri|itu *水*, air
+Kenali 氵 di 6 hanzi, dan kenapa 喝 tidak punya
+---
+[word]
+word: 氵
+pinyin: shuǐ
+pos: radikal
+strokes: 3
+meaning: radikal “air”: bentuk 水 di sisi kiri hanzi
+note: Namanya 三点水 sān diǎn shuǐ, “air tiga titik”.
+---
+[table]
+Ada 氵 di sisi kiri
+| Hanzi | Pinyin | Arti |
+| 洗 | xǐ | mencuci; mandi |
+| 游泳 | yóu yǒng | berenang |
+| 河 | hé | sungai |
+| 海 | hǎi | laut |
+| 汉语 | Hàn yǔ | bahasa Mandarin |
+| 没 | méi | tidak (punya) |
+汉 dan 没 tidak berarti air: radikal itu petunjuk, bukan arti pasti.
+---
+[table]
+Mirip, beda radikal
+| Hanzi | Pinyin | Arti | Radikal |
+| 喝 | hē | minum | 口 mulut |
+| 渴 | kě | haus | 氵 air |
+Minum pakai mulut, haus butuh air.
+---
+[card kicker="Kuis" number=off]
+Mana yang TIDAK punya 氵?
+*A.* 海 | *B.* 吗 | *C.* 河
+---
+[card kicker="Jawaban" number=off]
+*B.* 吗 ma
+吗 punya 口 (mulut) di kiri, bukan 氵. 海 hǎi dan 河 hé sama-sama pakai 氵.
+---
+[end cta="Simpan"]
+Tulis 喝 dan 渴 pakai pinyin, lengkap dengan nadanya
+Jawab di komentar

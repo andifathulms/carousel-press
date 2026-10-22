@@ -1628,7 +1628,7 @@ It should feel like "oh, so 不 isn't always bù", never like a cram school or a
 
 1. **Kata hari ini #N**: hanzi, pinyin, meaning, an example sentence with pinyin and translation.
 2. **Nada**: the 4 tones and the neutral tone, and the written tone changes of 不 (bù → bú before a 4th tone) and 一.
-3. **Bongkar hanzi**: character components with real examples (氵 shuǐ, the water radical, in 河 hé "sungai" and 喝 hē "minum"; 口 kǒu "mulut" in 吃 chī "makan" and 喝 hē). Standard analyses only.
+3. **Bongkar hanzi**: character components with real examples (氵 shuǐ, the water radical, in 河 hé "sungai" and 渴 kě "haus"; 口 kǒu "mulut" in 吃 chī "makan" and 喝 hē "minum"). Standard analyses only.
 4. **Ungkapan sehari-hari**: greetings, numbers, bargaining, ordering food.
 5. **Kata bantu bilangan**: 个 gè, 本 běn (books), 张 zhāng (flat things), 杯 bēi (cups)… one per deck with 3–5 nouns.
 6. **Tata bahasa dasar**: 是 shì, 吗 ma, 了 le, 的 de, basic word order. One point per deck.
@@ -1728,7 +1728,7 @@ Tulis di komentar
 9. Nada #3: 不 bù → bú before a 4th tone.
 10. Nada #4: 一 yī → yí / yì.
 11. Nada #5: 3rd tone + 3rd tone (你好), the tone change speakers make but pinyin doesn't write.
-12. Bongkar hanzi: 氵 water radical in 河 hé and 喝 hē.
+12. Bongkar hanzi: 氵 water radical in 河 hé and 渴 kě (not 喝, whose radical is 口).
 13. Bongkar hanzi: 口 mouth in 吃 chī, 喝 hē.
 14. Bongkar hanzi: 人 person as a component.
 15. Bongkar hanzi: 女 nǚ woman as a component (好 hǎo), standard analysis only.

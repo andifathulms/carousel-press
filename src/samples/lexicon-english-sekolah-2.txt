@@ -1,0 +1,48 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: bahasa sekolah vs aslinya 2
+caption: Bahasa Inggris sekolah vs percakapan sehari-hari: “You’re welcome” dan “Sit down, please” nggak salah, tapi ada versi yang lebih santai. Sumber: Cambridge Dictionary; Oxford Learner’s Dictionaries #belajarbahasainggris #kosakatainggris #speakingenglish
+---
+[cover kicker="SEKOLAH VS ASLINYA · #2"]
+“Thank You.” | “You’re Welcome.”
+Nggak salah, tapi bukan satu-satunya jawaban. 5 kalimat sekolah dan versi santainya.
+---
+[card kicker="Teman bilang “Thanks!”" number=off]
+*No problem!*
+Di sekolah: “You’re welcome.”
+Nggak salah, tetap sopan. Buat bantuan kecil di obrolan santai, No problem atau No worries juga jawaban ramah untuk terima kasih.
+---
+[card kicker="Nanya arti kata" number=off]
+What does *“deadline”* mean?
+Di sekolah: “What is the meaning of deadline?”
+Nggak salah, cuma kaku dan panjang. Pola pendeknya: What does … mean? Contoh di Cambridge: What does this word mean?
+---
+[card kicker="Pamitan sama teman" number=off]
+Bye! *See you* tomorrow.
+Di sekolah: “Goodbye.”
+Nggak salah, cuma kedengaran resmi. Bye dan See you (later) itu versi informal yang biasa dipakai antar teman.
+---
+[card kicker="Mempersilakan tamu duduk" number=off]
+Please, *have a seat*.
+Di sekolah: “Sit down, please.”
+Nggak salah, cuma kaku, kayak instruksi di kelas. Buat tamu atau klien: Have a seat atau Take a seat, artinya sama, silakan duduk.
+---
+[card kicker="Mau pulang" number=off]
+I’m *heading home*.
+Di sekolah: “I am going to go home.”
+Nggak salah, cuma panjang. Head home artinya pulang, menuju rumah. Versi pendek lain: I’m going home.
+---
+[table]
+Contekan: sekolah vs ngobrol
+| Sekolah | Lebih santai |
+| You’re welcome. | No problem! |
+| What is the meaning of …? | What does … mean? |
+| Goodbye. | Bye! See you. |
+| Sit down, please. | Have a seat. |
+| I am going to go home. | I’m heading home. |
+Versi sekolah tetap benar. Untuk situasi resmi, masih aman dipakai.
+---
+[end cta="Simpan"]
+Kalimat sekolah mana yang *paling sering kamu pakai?*
+Komen satu kata: welcome, meaning, atau goodbye. Sekolah vs aslinya #3 minggu depan.

@@ -1,0 +1,43 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: 你好 halo dalam bahasa Mandarin
+caption: Halo dalam bahasa Mandarin itu 你好, tapi kok kedengarannya ní hǎo? Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #mandarinpemula
+---
+[cover kicker="KATA HARI INI #2"]
+*你好* ditulis nǐ hǎo|tapi dibaca ní hǎo
+Cara bilang halo dalam bahasa Mandarin, plus 5 salam lain
+---
+[word]
+word: 你好
+pinyin: nǐ hǎo
+pos: ungkapan
+meaning: halo; hai
+example: *你好*！你忙吗？
+example-pinyin: Nǐ hǎo! Nǐ máng ma?
+translation: Halo! Lagi sibuk?
+note: Nada 3 + nada 3: yang pertama dibaca nada 2 (ní hǎo). Tulisannya tetap nǐ hǎo.
+---
+[table]
+Tinggal ganti depannya
+| Hanzi | Pinyin | Arti |
+| 您好 | nín hǎo | halo (sopan) |
+| 你们好 | nǐ men hǎo | halo (ke kalian) |
+| 大家好 | dà jiā hǎo | halo, semuanya |
+| 老师好 | lǎo shī hǎo | halo, Pak/Bu Guru |
+| 早上好 | zǎo shang hǎo | selamat pagi |
+您 nín = kamu, bentuk hormat. 大家 dàjiā = semua orang.
+---
+[card kicker="Kuis" number=off]
+Masuk kelas, mau menyapa semua teman sekaligus…
+*A.* 您好 | *B.* 大家好
+---
+[card kicker="Jawaban" number=off]
+*B.* 大家好
+dà jiā hǎo: 大家 artinya semua orang. 您好 dipakai untuk satu orang yang kamu hormati.
+---
+[end cta="Simpan"]
+Tulis “halo, Pak/Bu Guru” pakai pinyin
+Jawab di komentar

@@ -18,6 +18,11 @@ const FOCAL: Record<string, [number, number]> = {
   'bayu-peta-1728': [0.72, 0.6],
   'bayu-selat-bali': [0.62, 0.5],
   'trunajaya-peta-hurdt': [0.7, 0.45],
+  'bengkulu-stadler-1799': [0.3, 0.5],
+  'bengkulu-raffles': [0.5, 0.3],
+  'ende-penari': [0.7, 0.45],
+  'ende-gedung-pancasila': [0.45, 0.5],
+  'sultanah-taman-1880': [0.55, 0.5],
 };
 
 export const SAMPLE_PHOTOS: readonly SamplePhoto[] = Object.entries(URLS).map(([path, url]) => {

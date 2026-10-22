@@ -1,0 +1,95 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: beda arti 3 homely
+caption: Beda arti bahasa Inggris UK dan US: di London, homely itu pujian buat rumah yang nyaman. Di Amerika, artinya nggak cakep. Sumber: Cambridge Dictionary (label UK/US) #belajarbahasainggris #kosakatainggris #britishvsamerican
+---
+[cover kicker="BEDA ARTI · #3"]
+Di Amerika, Homely Itu | Nggak Cakep
+Di London, homely itu pujian buat tempat yang nyaman. Plus 6 kata lain yang artinya beda di UK dan US, dari senter sampai bagasi mobil.
+---
+[word]
+pos: adjective · beda arti UK/US
+word: homely
+ipa: /ˈhəʊm.li/ (UK) · /ˈhoʊm.li/ (US)
+say: “HOUM-li”
+meaning: UK: sederhana tapi nyaman, kayak di rumah | US: (untuk orang) nggak menarik, jelek
+example: The guesthouse was small but *homely*.
+translation: (UK) Penginapannya kecil, tapi nyaman kayak di rumah.
+note: Versi US untuk arti nyaman: homey. Jadi jangan puji orang Amerika pakai homely.
+---
+[word]
+pos: noun · beda arti UK/US
+word: torch
+ipa: /tɔːtʃ/ (UK) · /tɔːrtʃ/ (US)
+say: “torch”
+meaning: UK: senter | US: obor, tongkat yang ujungnya dibakar
+example: The power’s out. Where’s the *torch*?
+translation: (UK) Listriknya mati. Senternya di mana?
+note: Senter versi US: flashlight.
+---
+[word]
+pos: noun · beda arti UK/US
+word: boot
+ipa: /buːt/ (UK & US)
+say: “buut”
+meaning: UK: bagasi mobil, juga sepatu bot | US: sepatu bot
+example: Put your bag in the *boot*.
+translation: (UK) Taruh tasmu di bagasi.
+note: Bagasi mobil versi US: trunk.
+---
+[word]
+pos: adjective · informal · beda arti UK/US
+word: mad
+ipa: /mæd/ (UK & US)
+say: “med”
+meaning: UK: gila, konyol banget | UK & US: marah
+example: Are you still *mad* at me?
+translation: (US) Kamu masih marah sama aku?
+note: Gila versi US: biasanya crazy. Marah ke orang: mad at (terutama US), mad with (UK).
+---
+[word]
+pos: noun · beda arti UK/US
+word: jelly
+ipa: /ˈdʒel.i/ (UK & US)
+say: “JE-li”
+meaning: UK: jeli, puding agar-agar manis | UK & US: selai buah yang halus, tanpa potongan buah
+example: I’d like a peanut butter and *jelly* sandwich.
+translation: (US) Aku mau roti isi selai kacang dan selai buah.
+note: Puding jeli versi US: Jell-O (nama merek). Jadi di sana, jelly biasanya selai.
+---
+[word]
+pos: noun · beda arti UK/US
+word: bill
+ipa: /bɪl/ (UK & US)
+say: “bil”
+meaning: UK & US: tagihan (listrik, HP) | US: juga uang kertas
+example: Could we have the *bill*, please?
+translation: (UK) Boleh minta bonnya?
+note: Bon restoran versi US: check. Uang kertas versi UK: note.
+---
+[word]
+pos: noun · beda arti UK/US
+word: pavement
+ipa: /ˈpeɪv.mənt/ (UK & US)
+say: “PEIV-ment”
+meaning: UK: trotoar | US: permukaan jalan yang diaspal atau dicor
+example: Ride your motorbike on the road, not the *pavement*.
+translation: (UK) Naik motornya di jalan, jangan di trotoar.
+note: Trotoar versi US: sidewalk.
+---
+[table]
+Biar nggak salah paham
+| Arti | UK | US |
+| nyaman, kayak rumah | homely | homey |
+| senter | torch | flashlight |
+| bagasi mobil | boot | trunk |
+| gila, konyol | mad | crazy |
+| jeli, agar-agar | jelly | Jell-O |
+| bon restoran | bill | check |
+| trotoar | pavement | sidewalk |
+Di US, homely buat orang artinya nggak menarik.
+---
+[end cta="Simpan"]
+Kamu lebih sering ketemu *versi UK atau US?*
+Komen UK atau US. Beda arti #4 minggu depan.

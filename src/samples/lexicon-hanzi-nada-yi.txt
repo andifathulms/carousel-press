@@ -1,0 +1,51 @@
+handle: @kosakata.mandarin
+template: lexicon/hanzi
+script: hanzi
+tones: color
+lang: id
+title: nada 一 yī, yí dan yì
+caption: Angka satu dalam bahasa Mandarin punya 3 cara baca, ini aturannya. Sumber: CC-CEDICT #belajarmandarin #bahasamandarin #hsk1
+---
+[cover kicker="NADA #4"]
+*一* bisa dibaca|yī, yí atau yì
+Angka satu dalam Mandarin: nadanya ikut kata sesudahnya
+---
+[word]
+word: 一
+pinyin: yī
+pos: angka
+hsk: 1
+meaning: satu
+example: 今天是第*一*天。
+example-pinyin: Jīntiān shì dì yī tiān.
+translation: Hari ini hari pertama.
+note: Tetap yī saat berdiri sendiri, saat berhitung, di akhir kata (十一 shíyī) dan sebagai urutan (第一 dìyī).
+---
+[table]
+Sebelum nada 4: yí
+| Hanzi | Pinyin | Arti |
+| 一个 | yí gè | satu (buah) |
+| 一下 | yí xià | sebentar |
+| 一样 | yí yàng | sama |
+| 一次 | yí cì | sekali |
+个 sering dibaca netral (ge), tapi aslinya nada 4, jadi tetap yí.
+---
+[table]
+Sebelum nada 1, 2, 3: yì
+| Hanzi | Pinyin | Arti |
+| 一天 | yì tiān | sehari |
+| 一年 | yì nián | setahun |
+| 一起 | yì qǐ | bersama |
+| 一点 | yì diǎn | sedikit |
+---
+[card kicker="Kuis" number=off]
+一共 (totalnya) dibaca…
+*A.* yì gòng | *B.* yí gòng
+---
+[card kicker="Jawaban" number=off]
+*B.* yí gòng
+共 gòng bernada 4, jadi 一 jadi yí. Di kasir: 一共多少钱？ “Totalnya berapa?”
+---
+[end cta="Simpan"]
+Tulis cara baca 一天 dan 一样
+Jawab pakai pinyin di komentar

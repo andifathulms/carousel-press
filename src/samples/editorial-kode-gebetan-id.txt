@@ -1,0 +1,28 @@
+template: editorial/ruang-bata
+handle: @ruangrasakita.id
+lang: id
+title: kode buat gebetan
+caption: Kode buat gebetan yang gengsi ngomong duluan. Nggak usah bilang apa-apa, repost aja 🤍 Buat siapa? Inisialnya aja. #kodebuatgebetan #pdkt #gebetan
+---
+[cover kicker="RUANG RASA · KODE BUAT GEBETAN"]
+Udah suka dari lama. *Gengsi ngomong duluan.*
+5 kode buat gebetan. Repost, biar dia yang baca sendiri.
+---
+[number=off icon=none]
+Kalau kamu yang ngajak, *aku pasti nyempetin.*
+---
+[number=off icon=none]
+Lagu yang kamu kirim minggu lalu *masih aku puter sampai sekarang.*
+---
+[number=off icon=none]
+Kafe yang kamu ceritain itu *aku belum ke sana. Nunggu diajak.*
+---
+[number=off icon=none]
+Chat kamu itu *yang aku bales paling cepat.* Baru sadar sendiri.
+---
+[number=off icon=none]
+Aku nggak jago ngode. *Jadi ini aku, lagi ngode.*
+---
+[end cta="Repost buat dia"]
+Udah kebayang *inisialnya?*
+Komen satu huruf aja. Rahasianya aman.

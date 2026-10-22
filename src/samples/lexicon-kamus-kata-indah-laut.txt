@@ -1,0 +1,83 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata indah laut
+caption: Kata indah tentang laut yang benar-benar ada di KBBI, dan yang baku itu samudra, bukan samudera. Sumber: KBBI VI Daring (dicek 22 Oktober 2026) #bahasaindonesia #kataindah #kbbi #captionpantai
+---
+[cover kicker="KATA INDAH #6 · KBBI VI"]
+Samudra, Bukan Samudera: | Kata Indah tentang Laut
+Plus 7 kata indah buat caption pantai yang benar-benar ada di KBBI.
+---
+[word]
+pos: nomina
+tag: BAKU
+word: samudra
+meaning: lautan
+example: Sejauh apa pun *samudra*, kamu tetap tujuan pulangku.
+note: Samudera tercatat tidak baku. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · klasik
+word: segara
+meaning: laut(an)
+example: Senja turun pelan di atas *segara*.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · klasik
+word: bahtera
+meaning: perahu; kapal
+example: Selamat berlayar di *bahtera* rumah tangga, kalian berdua.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: bayu
+meaning: angin
+example: Biar *bayu* pantai yang menyimpan ceritaku hari ini.
+note: Bayu yang lain (adjektiva) berarti basi. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: riak
+meaning: gerakan mengombak di permukaan air; ombak kecil
+example: Tenang di luar, ada *riak* kecil di dalam.
+note: Hati-hati: riak yang lain berarti dahak. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: debur
+meaning: bunyi ombak memecah
+example: Tidur paling nyenyak itu ditemani *debur* dari pantai.
+note: Arti pertamanya: tiruan bunyi barang besar jatuh ke air. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: buih
+meaning: gelembung-gelembung kecil pada permukaan barang cair (seperti pada air, sabun, dan bir); busa
+example: Kakiku basah disapu *buih* di bibir pantai.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: cakrawala
+meaning: kaki langit; tepi langit; batas pemandangan; horizon
+example: Kapal kecil itu pelan-pelan hilang di *cakrawala*.
+note: Arti pertamanya: lengkung langit. Sumber: KBBI VI Daring
+---
+[table]
+Simpan buat caption pantai
+| Kata | Kelas |
+| *samudra* | nomina |
+| *segara* | nomina |
+| *bahtera* | nomina |
+| *bayu* | nomina |
+| *riak* | nomina |
+| *debur* | nomina |
+| *buih* | nomina |
+| *cakrawala* | nomina |
+Semua tercatat di KBBI VI Daring
+---
+[end cta="Simpan buat caption"]
+Pakai satu kata tadi *buat caption pantaimu.*
+Tulis di komen. Kata laut favoritmu yang mana?

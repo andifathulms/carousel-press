@@ -1,0 +1,22 @@
+template: serene/fajr
+lang: id
+title: sehat dan waktu luang
+caption: Hadis tentang nikmat sehat dan waktu luang, dua nikmat yang sering terlewat. HR. Bukhari no. 6412 · Sahih · Terjemahan: HadeethEnc #hadis #hadistentangwaktu #pengingatdiri
+---
+[cover kicker="HADIS TENTANG NIKMAT SEHAT"]
+Dua nikmat yang *sering terlewat* begitu saja.
+Satu hadis sahih · HR. Bukhari no. 6412
+---
+[hadith]
+arab: نِعْمَتَانِ مَغْبُونٌ فِيهِمَا كَثِيرٌ مِنَ النَّاسِ: الصِّحَّةُ وَالفَرَاغُ
+text: Ada dua nikmat yang banyak manusia tertipu pada keduanya, yakni kesehatan dan waktu luang.
+ref: HR. Bukhari no. 6412
+grade: Sahih
+source: Dari Ibnu 'Abbas رضي الله عنهما · Terjemahan: HadeethEnc
+---
+[card kicker="Renungan"]
+Selagi masih sehat dan ada waktu luang, mari isi dengan kebaikan, sekecil apa pun.
+---
+[end cta="Simpan"]
+Waktu luang hari ini, *untuk apa?*
+Satu kebaikan kecil sudah cukup untuk memulai.

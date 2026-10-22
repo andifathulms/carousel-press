@@ -1,0 +1,63 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: salah ngomong 3 informations
+caption: Kesalahan bahasa Inggris yang sering dipakai orang Indonesia: “informations”, “advices”, “feedbacks”. Kata ini nggak bisa dijamakkan. Sumber: Cambridge Dictionary; Cambridge Grammar (Nouns: countable and uncountable); Oxford Learner’s Dictionaries #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="SALAH NGOMONG · #3"]
+“Many Informations”? | Harusnya “A Lot of Information”
+Information, advice, feedback: kata yang nggak pernah pakai -s. Plus 2 kuis kecil.
+---
+[card kicker="Mana yang benar?" number=off]
+*A.* Can you send me more informations? | *B.* Can you send me more information?
+Kamu chat HRD, minta detail lowongan. Tulis yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Can you send me more informations?
+right: Can you send me more *information*?
+why: Information itu uncountable (nggak bisa dihitung), jadi tanpa -s dan tanpa many. Pakai a lot of, some, atau more.
+---
+[compare]
+wrong: My mentor gave me some good advices.
+right: My mentor gave me some good *advice*.
+why: Advice juga uncountable. Mau hitung satu? Pakai a piece of advice: Can I give you a piece of advice?
+---
+[compare]
+wrong: The teacher gave us many homeworks.
+right: The teacher gave us *a lot of homework*.
+why: Homework nggak pakai -s, dan pakai a lot of, bukan many. Begitu juga housework.
+---
+[card kicker="Kuis 2" number=off]
+*A.* Thanks for all the feedbacks! | *B.* Thanks for all the feedback!
+Atasan habis review presentasimu. Balas yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Thanks for all the feedbacks!
+right: Thanks for all the *feedback*!
+why: Feedback (masukan, tanggapan) juga uncountable. Bisa: positive feedback, some feedback, a lot of feedback.
+---
+[compare]
+wrong: How many luggages can I bring?
+right: How much *luggage* can I bring?
+why: Luggage uncountable, jadi how much. Mau hitung kopernya? How many bags, atau how many pieces of luggage. Di US lebih sering: baggage.
+---
+[compare]
+wrong: We need new furnitures for the office.
+right: We need new *furniture* for the office.
+why: Furniture dan equipment sama-sama kumpulan barang, jadi tanpa -s. Satu barangnya: a piece of furniture, a piece of equipment.
+---
+[table]
+Mau dihitung? Pakai *a piece of*
+| Kata | Satu buah |
+| information | a piece of information |
+| advice | a piece of advice |
+| luggage | a piece of luggage |
+| furniture | a piece of furniture |
+| equipment | a piece of equipment |
+Tanpa angka cukup some, more, atau a lot of: some advice, a lot of feedback.
+---
+[end cta="Simpan"]
+Kuis 1 dan 2, kamu *jawab apa?*
+Komen dua huruf, misal BB. Salah ngomong #4 minggu depan.

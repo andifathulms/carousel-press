@@ -132,3 +132,31 @@ Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterd
 | trunajaya-peta-hurdt | Trunajaya | Map of Java used by Anthony Hurdt in 1678.jpg | Unknown (VOC, 1678) | Public domain |
 | trunajaya-ngantang | Trunajaya | Sawah Ngantang Malang.jpg | Yovi prasetyo | CC BY-SA 4.0 |
 | trunajaya-monumen-sampang | Trunajaya | MONUMEN TRUNOJOYO SAMPANG 5.jpg | Lukjsly | CC BY-SA 4.0 |
+| sepehi-jokteng | Geger Sepehi | Jokteng Lor Wetan.jpg | RaFaDa20631 | CC BY-SA 4.0 |
+| sepehi-kraton | Geger Sepehi | Yogyakarta Indonesia Kraton-the-Sultans-Palace-02.jpg | CEphoto, Uwe Aranas | CC BY-SA 3.0 |
+| sepehi-jayalengkara | Geger Sepehi | Serat jayalengkara wulang 02v-03r.jpg | anonymous Javanese scribes (British Library MSS Jav 24, 1803) | Public domain |
+| sepehi-peta-kraton | Geger Sepehi | Plattegrond van het noordelijk deel van het middenvak van de Kraton van Djokjakarta.tif | Topographisch Bureau (Batavia), c. 1890 | Public domain |
+| sepehi-panji | Geger Sepehi | Serat Panji Angronagung Pakualaman (The tale of Panji), Yogyakarta, 1813 AD - British Library, London - DSC00574.jpg | Daderot | CC0 |
+| bengkulu-gerbang | Bengkulu ditukar | Front gate of Fort Marlborough, Bengkulu 2015-04-19 01.jpg | Crisco 1492 | CC BY-SA 4.0 |
+| bengkulu-stadler-1799 | Bengkulu ditukar | Joseph Constantine Stadler - Fort Marlborough, Benkulen, Sumatra, 1799 - B1977.14.10968 - Yale Center for British Art.jpg | Joseph Constantine Stadler | CC0 |
+| bengkulu-kota | Bengkulu ditukar | Bengkulu City and Fort Marlborough.jpg | sbamueller | CC BY-SA 2.0 |
+| bengkulu-meriam | Bengkulu ditukar | Cannon and Lamp at Fort Marlborough, 2015-04-19.jpg | Crisco 1492 | CC BY-SA 4.0 |
+| bengkulu-parr | Bengkulu ditukar | Monument van de Engelse resident Thomas Parr te Benkoelen, KITLV 32351.tiff | Anonymous, KITLV/Leiden University Libraries | CC BY 4.0 |
+| bengkulu-raffles | Bengkulu ditukar | Sir Thomas Stamford Bingley Raffles. Stipple engraving by J. Wellcome V0004871.jpg | J. Thomson 1824, Wellcome Collection | CC BY 4.0 |
+| ende-sukun | Ende Pancasila | Pohon Sukun Bung Karno di Ende.jpg | Iskandar Hale Usman | CC BY-SA 4.0 |
+| ende-pulau | Ende Pancasila | Ende Island (26133372205).jpg | Felix Dance | CC BY 2.0 |
+| ende-rumah | Ende Pancasila | Rumah Pengasingan Bung Karno.jpg | Herusutimbul | CC BY-SA 4.0 |
+| ende-katedral | Ende Pancasila | Ende catholic cathedral (Indonesia).jpg | Rosino | CC BY-SA 2.0 |
+| ende-penari | Ende Pancasila | Sukarno with dancers in Ende, Flores, Bung Karno Penjambung Lidah Rakjat 245.jpg | Uncredited | Public domain |
+| ende-gedung-pancasila | Ende Pancasila | Gedpancasila.jpg | Rochelimit | CC BY-SA 3.0 |
+| rumphius-potret | Rumphius Ambon | Portret van Georg Everhard Rumphius, RP-P-OB-46.529.jpg | Rijksmuseum | CC0 |
+| rumphius-naskah | Rumphius Ambon | Kruidenboek van Georg Rumphius.jpg | Georg Rumphius 1690 (photo of the title page) | CC BY-SA 4.0 |
+| rumphius-amboina | Rumphius Ambon | AMH-4695-NA Bird's eye view map of Amboina.jpg | Caspar Schmalkalden, Nationaal Archief | Public domain |
+| rumphius-musa | Rumphius Ambon | Musa uranoscopos Rumphius.jpg | Rumphius, Herbarium Amboinense vol. 5 (1747) | Public domain |
+| rumphius-fort-victoria | Rumphius Ambon | AMH-6402-NA Bird's eye view of Fort Victoria, Ambon.jpg | Anonymous, Nationaal Archief | Public domain |
+| rumphius-anggrek | Rumphius Ambon | Pecteilis susannae (6346377315).jpg (photographed in Thailand) | Len Worthington | CC BY-SA 2.0 |
+| sultanah-atjeh-1665 | Sultanah Aceh | AMH-6132-NA Bird's eye view of the city of Atjeh.jpg | Johannes Vingboons c. 1665, Nationaal Archief | Public domain |
+| sultanah-peta-atjeh | Sultanah Aceh | AMH-6131-NA Map of the city of Atjeh.jpg | Johannes Vingboons, Nationaal Archief | Public domain |
+| sultanah-gunongan | Sultanah Aceh | Gunongan Putroë Phang.JPG | Si Gam | CC BY-SA 3.0 |
+| sultanah-taman-1880 | Sultanah Aceh | Taman bij Kota Goenongan.jpg | G.B. Hooijer | Public domain |
+| sultanah-krueng-aceh | Sultanah Aceh | Krueng Aceh.jpg | Si Gam | CC BY-SA 4.0 |

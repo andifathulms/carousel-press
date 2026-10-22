@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: tameng 8 libur tapi merasa bersalah
+caption: HP-nya diam, kerjaan aman, tapi rebahan di hari libur kok terasa seperti utang? Seneca sudah menulis soal ini 2.000 tahun lalu. Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya. Sumber: Seneca, Tentang Ketenangan Jiwa 17 (terj. Aubrey Stewart) · SEP "Seneca" #filsafatharian #stoikisme #hustleculture #istirahat
+---
+[cover kicker="FILSAFAT HARIAN · TAMENG #8"]
+Hari libur, | *kok rasanya bersalah?*
+Cara Stoa biar istirahat nggak terasa seperti kalah.
+---
+[card kicker="Situasinya" number=off icon=none]
+Sabtu siang kamu rebahan, *lalu buka LinkedIn.*
+Semua orang kelihatan sibuk. Rebahanmu langsung terasa seperti utang.
+---
+[card kicker="Yang sebenarnya melukai" number=off icon=none]
+Bukan liburnya, tapi *vonis yang kamu jatuhkan.*
+“Aku malas.” “Yang lain sudah jalan jauh.”
+---
+[quote icon=none]
+Pikiran perlu diberi istirahat: setelah beristirahat, ia bangkit lebih baik dan lebih segar.
+— Seneca, Ketenangan Jiwa 17 (terj. bebas, Stewart)
+---
+[card kicker="Ide Seneca · penasihat Nero, abad ke-1 M" number=off icon=none]
+Ladang subur pun *habis kalau dipaksa.*
+Begitu tulisnya di bab yang sama: kerja tanpa henti bikin pikiran tumpul, istirahat sebentar memulihkannya.
+---
+[card kicker="Coba akhir pekan ini" number=off icon=none]
+Pasang *jam tutup* buat kepalamu.
+Asinius Pollio, orator Romawi, tak mau mengurus apa pun lewat jam kesepuluh (kira-kira sore), bahkan membaca surat pun tidak. Pilih jammu sendiri.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Seneca kaya raya. *Istirahatnya lebih mudah.*
+Kalau kamu disuruh kerja di hari libur tanpa dibayar, itu bukan soal rasa bersalah. Catat jamnya, bicarakan, atau laporkan ke HR atau Disnaker.
+---
+[end cta="Simpan"]
+Jam berapa kepalamu *biasanya “tutup”?*
+Komen satu angka.

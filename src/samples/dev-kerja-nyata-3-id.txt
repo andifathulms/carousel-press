@@ -1,0 +1,78 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: kerja nyata 3 baca stack trace
+caption: Error-nya belasan baris dan kamu langsung pengin copy semua ke chat tim? Cukup baca 2 baris ini dulu, sering langsung ketemu. #javascript #belajarcoding #juniordeveloper
+---
+[cover kicker="KERJA NYATA • #3"]
+Error-nya Panjang Banget. | Baca yang Mana?
+Cara baca stack trace: mulai dari 2 baris ini. Simpan buat error berikutnya.
+---
+[code]
+Baris `Error`: apa yang salah
+Ada yang `undefined`, lalu kodenya manggil `.toUpperCase()` di situ.
+```
+TypeError: Cannot read
+properties of undefined
+(reading 'toUpperCase')
+```
+Di terminal, ini satu baris panjang.
+---
+[code]
+Baris `at` pertama: di mana
+Formatnya file:baris:kolom. Buka file itu, loncat ke baris 2.
+```
+at formatNama
+(src/format.js:2:20)
+```
+Di terminal, path-nya lengkap dari folder laptopmu.
+---
+[code]
+Lewati baris `node:internal`
+Itu isi Node sendiri, bukan kodemu. Cari yang ada nama file project-mu.
+```
+at Module._compile
+(node:internal/...)
+at Module.load
+(node:internal/...)
+```
+---
+[code]
+Baris `at` berikutnya: siapa yang manggil
+Sering penyebabnya di sini, bukan di file yang error.
+```
+at Object.<anonymous>
+(src/app.js:6:15)
+```
+Di app.js, datanya ternyata pakai `name`, bukan `nama`.
+---
+[code]
+Cek isinya sebelum baris error
+Satu `console.log` di atas baris 2, jalankan lagi.
+```js
+console.log(user);
+// { name: 'Budi' }
+```
+Pantas `user.nama` jadi `undefined`.
+---
+[code number=off]
+Simpan ini
+Urut dari atas. Masih buntu? Tempel baris 1 dan 2 pas nanya.
+```
+# 1. apa yang salah
+baris Error / TypeError
+# 2. di mana
+at pertama: file:baris:kolom
+# 3. lewati
+baris node:internal
+# 4. siapa yang manggil
+at berikutnya
+# 5. cek isinya
+console.log sebelum baris error
+```
+---
+[end cta="Follow"]
+Error yang *paling sering* kamu temui?
+Komen satu kata: undefined, null, atau 404. Kerja Nyata #4 minggu depan.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

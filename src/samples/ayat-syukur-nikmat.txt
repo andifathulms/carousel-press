@@ -1,0 +1,25 @@
+template: serene/isya
+lang: id
+title: syukur
+caption: Ayat tentang syukur, untuk satu nikmat yang kita ingat malam ini. Teks Arab: Tanzil (tanzil.net) · Terjemahan: Kemenag RI #ayatharian #ayattentangsyukur #pengingatdiri
+---
+[cover kicker="AYAT TENTANG SYUKUR"]
+Sebelum tidur, *ingat satu nikmat* hari ini.
+Satu ayat untuk malam ini · QS. Ibrahim [14]: 7
+---
+[ayah]
+arab: وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌ
+terjemah: (Ingatlah) ketika Tuhanmu memaklumkan, “Sesungguhnya jika kamu bersyukur, niscaya Aku akan menambah (nikmat) kepadamu, tetapi jika kamu mengingkari (nikmat-Ku), sesungguhnya azab-Ku benar-benar sangat keras.”
+ref: QS. Ibrahim [14]: 7
+source: Terjemahan Kemenag RI
+---
+[quote kicker="Tafsir" icon=none]
+…jika kamu bersyukur atas nikmat-nikmat-Ku kepadamu, niscaya Aku akan menambah kepadamu nikmat lebih banyak lagi…
+— Tafsir Ringkas Kemenag RI · dikutip sebagian
+---
+[card kicker="Renungan"]
+Malam ini, sebelum tidur, ingat satu nikmat yang Allah سبحانه وتعالى berikan hari ini, lalu ucapkan alhamdulillah.
+---
+[end cta="Tulis di komentar"]
+Satu kata: *nikmat apa* yang kamu syukuri hari ini?
+Tulis satu kata di komentar.

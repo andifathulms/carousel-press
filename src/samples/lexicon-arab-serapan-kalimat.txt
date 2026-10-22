@@ -1,0 +1,65 @@
+handle: @kosakata.arab
+template: lexicon/arab
+script: arab
+lang: id
+title: kata serapan kalimat
+caption: Kalimat di bahasa Arab artinya kata, dan jumlah artinya kalimat. Sumber: Almaany #belajarbahasaarab #bahasaarab #kosakataarab #kataserapan
+---
+[cover kicker="KATA SERAPAN ARAB · #1"]
+Kalimat di bahasa Arab|*artinya kata*
+Kata serapan yang artinya bergeser waktu masuk ke bahasa Indonesia.
+---
+[word]
+word: كَلِمَة
+translit: kalimah
+pos: isim · kata benda
+tag: A1
+root: ك ل م
+pattern: فَعِلَة
+plural: كَلِمَات · kalimāt
+meaning: kata; pidato
+example: أَلْقَى *كَلِمَةً*
+translation: Dia menyampaikan pidato.
+note: Kata kalimat kita dari jamaknya, كَلِمَات.
+---
+[word]
+word: جُمْلَة
+translit: jumlah
+say: “jum-lah”
+pos: isim · kata benda
+tag: A1
+root: ج م ل
+pattern: فُعْلَة
+plural: جُمَل · jumal
+meaning: kalimat; juga keseluruhan
+example: اُكْتُبْ *جُمْلَةً* وَاحِدَةً.
+translation: Tulis satu kalimat.
+note: Dari kata inilah kata jumlah di bahasa Indonesia. Contoh: Wiktionary.
+---
+[compare]
+headline: Mau bilang “kalimat”
+wrong-label: Artinya kata
+right-label: Artinya kalimat
+wrong: كَلِمَة
+right: جُمْلَة
+why: Di bahasa Arab, كَلِمَة (kalimah) itu satu kata. Kalimat yang utuh disebut جُمْلَة (jumlah).
+---
+[table]
+Artinya bergeser
+| Indonesia | Arab | Arti di Arab |
+| kalimat | كَلِمَة | kata |
+| jumlah | جُمْلَة | kalimat |
+| ahli | أَهْل | keluarga |
+| kamus | قَامُوس | kamus; dulu: samudra |
+---
+[card kicker="Kenapa kamus?" number=off]
+Kamus dulu *artinya samudra*
+قَامُوس dulu berarti samudra. Kamus karya Al-Fairuzabadi diberi judul “Samudra yang Meliputi”. Judul itu begitu terkenal sampai qāmūs jadi berarti kamus.
+---
+[card kicker="Kuis" number=off]
+Di sekolah Arab, *faṣl itu apa?*
+فَصْل (faṣl) juga asal kata pasal. Di sekolah artinya A: kelas atau B: pasal undang-undang? Jawab A atau B di komen.
+---
+[end cta="Simpan"]
+Tulis satu kata serapan Arab lain di komen,
+*kita cek artinya bareng.*

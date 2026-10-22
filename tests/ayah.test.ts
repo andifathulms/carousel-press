@@ -156,7 +156,7 @@ describe('honorifics (owner rule, Oct 2026)', () => {
   const dir = new URL('../src/samples/', import.meta.url);
   const decks = readdirSync(dir).filter((f) => /^(ayat|hadis)-.*\.txt$/.test(f));
   it('Ayat Harian decks use Arabic honorifics, never Swt./saw./as./ra.', () => {
-    expect(decks.length).toBe(10);
+    expect(decks.length).toBe(15);
     for (const f of decks) {
       const text = readFileSync(new URL(f, dir), 'utf8');
       expect(text, f).not.toMatch(/\b(swt|saw|a\.s|r\.a)\b/i);
