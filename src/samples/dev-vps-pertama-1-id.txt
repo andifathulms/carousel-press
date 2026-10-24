@@ -1,0 +1,109 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: vps pertama 1 login ssh key matikan password
+caption: VPS baru dan root masih bisa login pakai password? Bot rajin nebak itu. Ini cara login SSH key dan matikan login password tanpa terkunci di luar. Diuji di Ubuntu 24.04. #linux #vps #devops #belajarcoding
+---
+[cover kicker="VPS PERTAMA • #1"]
+VPS baru, | *root masih pakai password?*
+Pindah ke user sendiri dan SSH key, lalu matikan login password. Diuji di Ubuntu 24.04. Simpan sebelum sewa VPS.
+---
+[code]
+Berhenti login sebagai root
+Login root pakai password untuk terakhir kali, lalu bikin user sendiri yang boleh `sudo`.
+```bash
+adduser deploy
+usermod -aG sudo deploy
+```
+Ganti `deploy` dengan namamu. Isi password-nya, sisanya Enter saja.
+---
+[code]
+Bikin SSH key di laptop
+Jalankan di laptop, bukan di server. Di PowerShell Windows, tulis jadi satu baris.
+```bash
+ssh-keygen -t ed25519 \
+  -C "kamu@email.com"
+```
+Hasilnya 2 file di `~/.ssh`: `id_ed25519` itu rahasia, `id_ed25519.pub` boleh dikirim.
+---
+[code]
+Kirim key ke server, lalu tes
+Dari laptop. Ganti `IP` dengan IP VPS-mu. Password user ditanya sekali ini saja.
+```bash
+ssh-copy-id deploy@IP
+ssh deploy@IP
+# masuk tanpa ditanya password
+```
+Pasang passphrase? Yang ditanya passphrase key, bukan password server.
+---
+[code]
+Windows nggak punya `ssh-copy-id`
+OpenSSH bawaan Windows punya `scp`. Kirim file `.pub`, lalu tempel di server:
+```
+# PowerShell di laptop
+cd ~\.ssh
+scp id_ed25519.pub deploy@IP:
+ssh deploy@IP
+# sekarang di server
+mkdir -p ~/.ssh
+cat id_ed25519.pub >> \
+  ~/.ssh/authorized_keys
+```
+Keluar, lalu `ssh deploy@IP` lagi. Harusnya tanpa password.
+---
+[code]
+Matikan login password dan root
+Di server. Bikin file baru di folder drop-in, jangan edit file bawaan.
+```bash
+cd /etc/ssh/sshd_config.d
+echo "PasswordAuthentication no" \
+  | sudo tee 01-aman.conf
+echo "PermitRootLogin no" \
+  | sudo tee -a 01-aman.conf
+```
+Ada `50-cloud-init.conf` di folder itu? Nama `01-` dibaca duluan, dan sshd memakai nilai pertama.
+---
+[code]
+Cek dulu, baru restart
+Diam berarti aman. Ada error? Perbaiki dulu, jangan restart.
+```bash
+sudo sshd -t
+sudo systemctl restart ssh
+```
+Di Ubuntu, nama service-nya `ssh`, bukan `sshd`. Sesi yang lagi terbuka nggak ikut putus.
+---
+[code]
+Tes dari terminal *baru*
+Terminal lama jangan ditutup dulu. Itu jalan pulangmu kalau ada yang salah.
+```bash
+# di terminal baru, dari laptop
+ssh deploy@IP
+# masuk? aman. Lalu cek root:
+ssh root@IP
+# Permission denied (publickey).
+```
+Gagal masuk? Perbaiki lewat terminal lama.
+---
+[code number=off]
+Simpan ini
+Urut dari atas. Tes login baru sebelum logout.
+```bash
+# server (masih root): user baru
+adduser deploy
+usermod -aG sudo deploy
+# laptop: bikin key, kirim
+ssh-keygen -t ed25519
+ssh-copy-id deploy@IP
+# server: tolak password, restart
+cd /etc/ssh/sshd_config.d
+echo "PasswordAuthentication no" \
+  | sudo tee 01-aman.conf
+echo "PermitRootLogin no" \
+  | sudo tee -a 01-aman.conf
+sudo sshd -t
+sudo systemctl restart ssh
+```
+---
+[end cta="Follow"]
+Sudah *pakai SSH key?*
+Komen 🔑 kalau sudah. VPS Pertama #2: firewall dengan ufw.
