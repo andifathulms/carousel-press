@@ -1,0 +1,66 @@
+handle: @fathul_learncoding
+template: dev/kabar
+lang: id
+title: kabar dev 1 php2shell
+caption: Dua celah kritis di PHP (PHP2Shell) bocor sebelum jadwal patch, dan patch-nya sudah keluar 21 Okt. Cara cek dan update celah keamanan PHP di website kamu, per 25 Okt 2026. Sumber: php.net security advisory, GitHub php-src (GHSA-w8hw-w9fx-j79w, GHSA-6wmf-4rv5-p3rp), NVD, CISA KEV, watchTowr, Huntress, Cloudflare. #php #keamanansiber #webdev #belajarcoding
+---
+[cover kicker="KABAR DEV · #1 · 25 OKT 2026"]
+Dua celah kritis PHP | bocor sebelum ditambal
+Patch-nya sudah keluar 21 Okt. Ini cara cek dan update celah keamanan PHP di website kamu.
+---
+[card verdict="KRITIS" tone=bad kicker="KABAR DEV · 25 OKT 2026" icon=none]
+Orang asing bisa *jalankan perintah* di server kamu
+Dua celah di inti PHP (CVE-2026-109618 dan -109619), dijuluki “PHP2Shell”.
+Jenisnya RCE (remote code execution): perintah penyerang jalan di server, tanpa login.
+Detailnya bocor 20 Okt, sehari sebelum jadwal patch.
+---
+[card kicker="KABAR DEV · 25 OKT 2026" icon=none]
+Pintunya bagus, *kusennya* yang retak
+WordPress, Laravel dan plugin itu pintunya. PHP itu kusen tempat pintu menempel.
+Ganti pintu atau update plugin nggak menambal kusen.
+Yang harus di-update PHP-nya sendiri (patch = tambalan resmi).
+---
+[card verdict="PENTING" tone=warn kicker="KABAR DEV · 25 OKT 2026" icon=none]
+Yang kena: PHP di bawah versi ini
+Aman mulai 8.5.12 · 8.4.27 · 8.3.36 · 8.2.35.
+Berisiko: PHP-FPM, LiteSpeed, php-cgi, dan paling tinggi Apache mod_php.
+PHP 8.1 ke bawah nggak dapat update resmi. Pindah ke 8.2+.
+---
+[code number=off]
+Cek versi PHP di server kamu
+Pakai paket Ubuntu/Debian? Angkanya bisa tetap sama (8.3.6) walau sudah ditambal, jadi cek update-nya.
+```bash
+php -v
+# PHP 8.3.36 (cli) ...
+sudo apt update
+apt list --upgradable | grep php
+# ada baris php = belum di-patch
+```
+Shared hosting: lihat menu “PHP Version” di panel. Pakai `phpinfo()`? Hapus file-nya setelah dicek.
+---
+[code number=off]
+Punya VPS: update, lalu restart
+Restart wajib, biar PHP yang jalan sudah versi baru.
+```bash
+sudo apt update
+sudo apt upgrade
+# restart yang kamu pakai
+sudo service php8.3-fpm restart
+sudo service apache2 restart
+```
+Ganti `8.3` dengan versi kamu.
+---
+[card kicker="KABAR DEV · 25 OKT 2026" icon=none]
+Shared hosting? Kamu nggak bisa `apt`
+Yang update PHP itu hosting kamu. Pilih versi 8.2 ke atas di panel, lalu tanya CS: “PHP di server saya sudah di-patch 21 Okt?”
+Belum bisa update? Tim PHP kasih langkah darurat, tapi katanya itu cuma mengurangi risiko, bukan menambal.
+---
+[card kicker="KABAR DEV · 25 OKT 2026" icon=none]
+Yang *belum pasti* (per 25 Okt)
+Skor: bocoran bilang 10.0, resmi dari PHP 9.2 (CVSS v4).
+Diserang? watchTowr dan Cloudflare lihat serangan sejak 21 Okt; Huntress belum (21 Okt).
+Belum masuk daftar CISA (KEV) per 23 Okt. PHP 5 kena? Tim PHP belum merinci.
+---
+[end cta="Follow"]
+Website kamu pakai PHP versi *berapa?*
+Komen angkanya aja: 7.4, 8.1, 8.3… Kabar Dev berikutnya minggu depan.

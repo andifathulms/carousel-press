@@ -239,6 +239,7 @@ import b4DevTebakOutput3Id from './dev-tebak-output-3-id.txt?raw';
 import b4DevAiUbahFileLainId from './dev-ai-ubah-file-lain-id.txt?raw';
 import devServerDown1Id from './dev-server-down-1-id.txt?raw';
 import devVpsPertama1Id from './dev-vps-pertama-1-id.txt?raw';
+import devKabarDev1Php2shellId from './dev-kabar-dev-1-php2shell-id.txt?raw';
 import b4SejarahGegerSepehiId from './sejarah-geger-sepehi-id.txt?raw';
 import b4SejarahBengkuluDitukarId from './sejarah-bengkulu-ditukar-id.txt?raw';
 import b4SejarahEndePancasilaId from './sejarah-ende-pancasila-id.txt?raw';
@@ -500,6 +501,7 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-ai-ubah-file-lain-id', name: 'AI ngubah file lain (dev, id)', category: 'dev', text: b4DevAiUbahFileLainId },
   { id: 'dev-server-down-1-id', name: 'Server Down #1: website mati (dev, id)', category: 'dev', text: devServerDown1Id },
   { id: 'dev-vps-pertama-1-id', name: 'VPS Pertama #1: SSH key (dev, id)', category: 'dev', text: devVpsPertama1Id },
+  { id: 'dev-kabar-dev-1-php2shell-id', name: 'Kabar Dev #1: PHP2Shell (dev, id)', category: 'dev', text: devKabarDev1Php2shellId },
   { id: 'sejarah-geger-sepehi-id', name: 'Geger Sepehi 1812 (sejarah, id)', category: 'history', text: b4SejarahGegerSepehiId },
   { id: 'sejarah-bengkulu-ditukar-id', name: 'Bengkulu ditukar Malaka (sejarah, id)', category: 'history', text: b4SejarahBengkuluDitukarId },
   { id: 'sejarah-ende-pancasila-id', name: 'Ende dan Pancasila (sejarah, id)', category: 'history', text: b4SejarahEndePancasilaId },
