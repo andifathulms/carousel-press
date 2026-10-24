@@ -237,6 +237,7 @@ import b4DevKerjaNyata3Id from './dev-kerja-nyata-3-id.txt?raw';
 import b4DevTerminalHarian3Id from './dev-terminal-harian-3-id.txt?raw';
 import b4DevTebakOutput3Id from './dev-tebak-output-3-id.txt?raw';
 import b4DevAiUbahFileLainId from './dev-ai-ubah-file-lain-id.txt?raw';
+import devServerDown1Id from './dev-server-down-1-id.txt?raw';
 import b4SejarahGegerSepehiId from './sejarah-geger-sepehi-id.txt?raw';
 import b4SejarahBengkuluDitukarId from './sejarah-bengkulu-ditukar-id.txt?raw';
 import b4SejarahEndePancasilaId from './sejarah-ende-pancasila-id.txt?raw';
@@ -496,6 +497,7 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-terminal-harian-3-id', name: 'Terminal Harian #3 find (dev, id)', category: 'dev', text: b4DevTerminalHarian3Id },
   { id: 'dev-tebak-output-3-id', name: 'Tebak Output #3 JS/Py/Bash (dev, id)', category: 'dev', text: b4DevTebakOutput3Id },
   { id: 'dev-ai-ubah-file-lain-id', name: 'AI ngubah file lain (dev, id)', category: 'dev', text: b4DevAiUbahFileLainId },
+  { id: 'dev-server-down-1-id', name: 'Server Down #1: website mati (dev, id)', category: 'dev', text: devServerDown1Id },
   { id: 'sejarah-geger-sepehi-id', name: 'Geger Sepehi 1812 (sejarah, id)', category: 'history', text: b4SejarahGegerSepehiId },
   { id: 'sejarah-bengkulu-ditukar-id', name: 'Bengkulu ditukar Malaka (sejarah, id)', category: 'history', text: b4SejarahBengkuluDitukarId },
   { id: 'sejarah-ende-pancasila-id', name: 'Ende dan Pancasila (sejarah, id)', category: 'history', text: b4SejarahEndePancasilaId },

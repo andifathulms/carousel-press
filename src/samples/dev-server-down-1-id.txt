@@ -1,0 +1,115 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: server down 1 website nggak bisa dibuka
+caption: Website nggak bisa dibuka dan kamu bingung mulai dari mana? Cek 7 hal ini berurutan, dari server sampai disk. Diuji di Ubuntu 24.04 + nginx 1.24.0. #linux #nginx #devops #belajarcoding
+---
+[cover kicker="SERVER DOWN • #1"]
+Website *nggak bisa dibuka?*
+Cek urutan ini dulu sebelum panik: 7 langkah buat server Linux + nginx. Simpan buat pas kejadian.
+---
+[code]
+Server-nya bisa dihubungi?
+SSH nggak masuk dan ping juga diam? Masalahnya di server atau jaringan, belum sampai nginx. Cek panel VPS-mu.
+```bash
+ping -c 3 IP_SERVER
+# 100% packet loss = nggak nyampe
+ssh user@IP_SERVER
+```
+Ada VPS yang memblok ping. Kalau SSH masuk, lanjut.
+---
+[code]
+nginx-nya jalan?
+Lihat baris “Active”. Kalau mati, nyalakan lagi.
+```bash
+curl -I http://localhost
+# Couldn't connect to server
+systemctl status nginx
+# Active: inactive (dead)
+sudo systemctl start nginx
+```
+Muncul “failed”? Hampir selalu config. Cek langkah berikutnya.
+---
+[code]
+Config-nya valid?
+Satu typo bikin nginx gagal start. `-t` nunjukin file dan nomor barisnya.
+```bash
+sudo nginx -t
+# [emerg] unknown directive
+# "servr_name" in
+# .../sites-enabled/default:3
+# ... test failed
+sudo systemctl reload nginx
+```
+Reload setelah muncul “test is successful”. Lupa `;` biasanya dilaporkan di baris berikutnya.
+---
+[code]
+Ada yang pakai port 80?
+nginx harus muncul di sini. Pakai HTTPS? Harus ada `:443` juga.
+```bash
+sudo ss -tlnp
+# sehat:
+# 0.0.0.0:80 ... (("nginx",...
+# bentrok, dipakai program lain:
+# 0.0.0.0:80 ... (("python3",...
+```
+Nggak ada `:443`? Cek blok `listen 443 ssl` di config.
+---
+[code]
+Masih bingung? Baca log-nya
+Mulai dari baris paling bawah. Cari `[emerg]` dan `[error]`.
+```bash
+sudo tail -n 50 \
+  /var/log/nginx/error.log
+# kalau nginx gagal start:
+sudo journalctl -u nginx \
+  --since "10 min ago"
+```
+“Address already in use” artinya port 80 dipakai program lain.
+---
+[code]
+Muncul *502 Bad Gateway?*
+nginx-nya sehat. Aplikasi di belakangnya yang mati. Cek port di `proxy_pass`.
+```bash
+# isi error.log:
+# connect() failed (111:
+# Connection refused) while
+# connecting to upstream
+curl -I http://127.0.0.1:3000
+```
+“Couldn’t connect” = aplikasinya mati. Nyalakan lagi (pm2, php-fpm, docker).
+---
+[code]
+Disk-nya penuh?
+Disk 100% bikin log dan upload gagal ditulis. Cari folder yang paling besar.
+```bash
+df -h
+# Use% Mounted on
+# 100% /var/log
+sudo du -sh /var/log/* | sort -rh
+```
+Jangan `rm` log yang lagi dipakai, ruangnya belum tentu lega. Kosongkan: `sudo truncate -s 0 nama.log`
+---
+[code number=off]
+Simpan ini
+Ikuti dari atas. Berhenti di langkah yang gagal.
+```bash
+# 1 server bisa dihubungi?
+ssh user@IP_SERVER
+# 2 nginx jalan?
+systemctl status nginx
+# 3 config valid?
+sudo nginx -t
+# 4 port 80/443 kepakai siapa?
+sudo ss -tlnp
+# 5 baca log
+sudo tail /var/log/nginx/error.log
+# 6 502? cek aplikasinya
+curl -I http://127.0.0.1:3000
+# 7 disk penuh?
+df -h
+```
+---
+[end cta="Follow"]
+Biasanya kamu *nyangkut di langkah berapa?*
+Komen angkanya, 1 sampai 7. Server Down #2: 502 Bad Gateway.
