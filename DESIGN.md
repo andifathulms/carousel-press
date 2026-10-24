@@ -451,6 +451,12 @@ SKD Harian's questions read like a real computer answer sheet (lembar jawaban ko
 - **Results:** one row per match, 84 px tall (72 px above 6 rows), 12 px apart, `ink` at 7% alpha behind, radius 14. Home badge left, away badge right (54 px, 46 px when dense), names Inter/Barlow 28 px (winner 600 in `ink`, others 400 in `body`, cut with "…"), score centred in the display face 46 px. Highlighted rows get a 4 px `accent` outline.
 - **Stats:** a 176 px header (badges 100 px, score 104 px, names 26 px), then one 78 px row per stat: values in the display face 36 px at the edges (the larger in `accent`), the label 24 px centred, and a 14 px split bar in the two team colours (a colour under 1.6:1 on the surface falls back to `ink` / `muted`; two colours closer than 1.25:1 are split into `ink` and `muted`).
 
+### 6.11 `dev/kabar`: news band (Kabar Dev, Oct 2026)
+
+- `github-dark` layout with its own surface: background `#11151D`, headline `#F5F2EA`, body `#D3D6DD`, muted `#959CAA`, accent (breaking red) `#FF5A4F`; code panel `#0B0E14`. Semantic `ok #3DDC84`, `warn #FFC233`, `bad #FF5A4F`. No blobs, dot grid, scanlines, glow or big glyph.
+- **News band** (`deco.newsBand`): a full-width 22 px `accent` bar at the very top, then 8 px down a 4 px `accent` rule at 45% alpha, like a ticker. Both sit above SAFE (decoration, not content).
+- Severity is the existing verdict stamp (§6.7): `KRITIS` with `tone=bad`, `PENTING` with `tone=warn`, `INFO` with `tone=ok`.
+
 ## 7. Icons
 
 - Author **original** line icons on a 24×24 grid as SVG path strings, and render them with `new Path2D(d)` scaled into the target box.

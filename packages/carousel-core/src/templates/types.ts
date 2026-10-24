@@ -59,6 +59,8 @@ export interface Deco {
   gridColor?: string;
   /** Cards: body lines "A. …"–"E. …" as LJK option rows, and an A–E bubble row under a "Jawaban X" verdict (lexicon/lembar). */
   ljk?: boolean;
+  /** A news-bulletin band across the top of every slide, in the accent colour (dev/kabar). */
+  newsBand?: boolean;
   /** Cards: body lines "Ctrl + Shift + L: label" drawn as keyboard keycaps (dev/sheet). */
   keycaps?: boolean;
   /** Editorial: the large opening quote mark on quote slides (default on). */

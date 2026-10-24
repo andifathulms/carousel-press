@@ -3,7 +3,7 @@ import { drawCodeBlock } from '../../render/codeBlock';
 import { drawBigGlyph, drawDotGrid, drawGlow, drawGrid, drawScanlines } from '../../render/deco';
 import { drawIcon } from '../../render/icons';
 import { clipToStack, drawCta, drawFooter, drawHeader, drawTextBlock } from '../../render/parts';
-import { CONTENT_W } from '../../render/safezone';
+import { CANVAS, CONTENT_W } from '../../render/safezone';
 import { drawTracked, setFont, setShadow, truncateToWidth } from '../../render/text';
 import type { SlideLayout } from '../common';
 import { drawStampItem } from '../stampsDraw';
@@ -24,6 +24,8 @@ export function drawDev(ctx: Ctx, L: SlideLayout): void {
     if (v.deco.glow) drawGlow(ctx, s.accent, v.deco.glowAlpha ?? 0.08);
     if (v.deco.bigGlyph && (slide.type === 'cover' || slide.type === 'end')) drawBigGlyph(ctx, v.deco.bigGlyph, mono, s.ink);
   }
+  // dev/kabar: decoration only, above the header row (no content there).
+  if (v.deco.newsBand) drawNewsBand(ctx, s.accent);
 
   if (L.lex) {
     drawHeader(ctx, L, s.body, s.muted);
@@ -122,3 +124,15 @@ export function drawDev(ctx: Ctx, L: SlideLayout): void {
 function quoteMarkTop(L: SlideLayout, designTop: number): number {
   return (L.stack.placed[0]?.y ?? STACK.quoteTop) - (STACK.quoteTop - designTop);
 }
+
+/** A solid accent band at the top edge with a thin rule under it, like a news ticker (DESIGN §6.11). */
+function drawNewsBand(ctx: Ctx, color: string): void {
+  setShadow(ctx, false);
+  ctx.fillStyle = color;
+  ctx.fillRect(0, 0, CANVAS.w, NEWS_BAND.h);
+  ctx.globalAlpha = NEWS_BAND.ruleAlpha;
+  ctx.fillRect(0, NEWS_BAND.h + NEWS_BAND.gap, CANVAS.w, NEWS_BAND.rule);
+  ctx.globalAlpha = 1;
+}
+
+const NEWS_BAND = { h: 22, gap: 8, rule: 4, ruleAlpha: 0.45 };

@@ -15,6 +15,7 @@ import { drawLexicon } from './lexicon/draw';
 import { SERENE_VARIANTS } from './serene/variants';
 import { SPORT_VARIANTS } from './sport/variants';
 import { LEAGUE_VARIANTS } from './sport/leagues';
+import { kabar } from './dev/kabar';
 import { layoutSerene } from './serene/layout';
 import { drawSerene } from './serene/draw';
 
@@ -35,7 +36,7 @@ export const FAMILIES: Record<FamilyId, FamilyLayout> = {
 };
 
 /** The variants that ship with the package (review page, tests). */
-export const VARIANTS: readonly Variant[] = [...EDITORIAL_VARIANTS, ...DEV_VARIANTS, ...LEXICON_VARIANTS, ...SERENE_VARIANTS, ...SPORT_VARIANTS, ...LEAGUE_VARIANTS];
+export const VARIANTS: readonly Variant[] = [...EDITORIAL_VARIANTS, ...DEV_VARIANTS, ...LEXICON_VARIANTS, ...SERENE_VARIANTS, ...SPORT_VARIANTS, ...LEAGUE_VARIANTS, kabar];
 
 const BY_ID = new Map<string, Variant>(VARIANTS.map((v) => [v.id, v]));
 const BUILTIN = new Set<string>(BUILTIN_TEMPLATE_IDS);

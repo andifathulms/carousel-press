@@ -16,6 +16,7 @@ const LABEL = Object.fromEntries(CATEGORIES.map((x) => [x.id, x.label])) as Reco
 const STATUS_LABEL: Record<PostStatus, string> = { todo: 'To post', posted: 'Posted', skip: 'Skipped' };
 const STATUSES: readonly PostStatus[] = ['todo', 'posted', 'skip'];
 const SAMPLE_TEXT = new Map(SAMPLES.map((x) => [x.id, x.text]));
+const RETIRED = new Set(SAMPLES.filter((x) => x.retired).map((x) => x.id));
 
 /** Status actions for a long-press menu (everything except the current state). */
 function statusItems(c: Controller, key: string): MenuItem[] {
@@ -70,8 +71,9 @@ export function mountQueue(root: HTMLElement, c: Controller): void {
   const render = (): void => {
     covers.reset();
     const s = c.store.get();
-    const samples = allSampleInfos();
-    const from = deckSamples(s.decks, samples);
+    // Retired samples leave the queue; decks already made from one keep their origin.
+    const samples = allSampleInfos().filter((x) => !RETIRED.has(x.id));
+    const from = deckSamples(s.decks, allSampleInfos());
     const cats = new Map([...from].map(([id, x]) => [id, x.category]));
     const dKey = (d: DeckIndexEntry): string => deckMarkKey(d.id, from);
     const sKey = (x: SampleInfo): string => sampleMarkKey(x.id);

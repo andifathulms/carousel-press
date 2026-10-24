@@ -106,3 +106,4 @@ export const sheet: Variant = {
 };
 
 export const DEV_VARIANTS: readonly Variant[] = [githubDark, terminal, paperLight, sheet];
+// dev/kabar lives in ./kabar.ts and is registered next to these in the registry.

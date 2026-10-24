@@ -222,6 +222,8 @@ export interface Sample {
   name: string;
   category: SampleCategory;
   text: string;
+  /** Off-direction for its channel: kept in the app, left out of the queue's Up next (docs/channels.md). */
+  retired?: boolean;
 }
 
 import sportsRecapContoh from './sports-recap-contoh-id.txt?raw';
@@ -296,13 +298,13 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'dev-git-undo-id', name: '6 cara undo di Git (dev, id)', category: 'dev', text: gitUndo },
   { id: 'dev-git-rescue-2-id', name: 'Git Rescue #2: commit ke branch yang salah (dev, id)', category: 'dev', text: devGitRescue2 },
   { id: 'dev-tebak-output-1-id', name: 'Tebak Output #1: JavaScript (dev, id)', category: 'dev', text: devTebakOutput1 },
-  { id: 'dev-console-id', name: '5 trik console JS (dev, id)', category: 'dev', text: consoleTricks },
+  { id: 'dev-console-id', name: '5 trik console JS (dev, id)', category: 'dev', text: consoleTricks, retired: true },
   // Owner decks: Fathul Learn Coding (fundamentals, AI, learning journey)
   { id: 'dev-api-id', name: 'API itu sebenarnya apa (dev, id)', category: 'dev', text: api },
   { id: 'dev-ai-coding-id', name: '5 cara pakai AI buat coding (dev, id)', category: 'dev', text: aiCoding },
-  { id: 'dev-async-await-id', name: 'Akhirnya paham async/await (dev, id)', category: 'dev', text: asyncAwait },
+  { id: 'dev-async-await-id', name: 'Akhirnya paham async/await (dev, id)', category: 'dev', text: asyncAwait, retired: true },
   { id: 'dev-http-status-id', name: '8 status code HTTP (dev, id)', category: 'dev', text: httpStatus },
-  { id: 'dev-python-trik-id', name: '6 trik Python (dev, id)', category: 'dev', text: pythonTrik },
+  { id: 'dev-python-trik-id', name: '6 trik Python (dev, id)', category: 'dev', text: pythonTrik, retired: true },
   { id: 'dev-ai-jangan-dikirim-id', name: '5 hal jangan ditempel ke AI (dev, id)', category: 'dev', text: aiJanganDikirim },
   { id: 'dev-cli-tools-id', name: '5 CLI tools (dev, id)', category: 'dev', text: cliTools },
   { id: 'dev-cors-id', name: 'Akhirnya paham CORS (dev, id)', category: 'dev', text: cors },
@@ -393,9 +395,9 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-english-kata-hari-ini-1', name: 'Kata hari ini #1: pants (Kosakata Inggris, id)', category: 'english', text: lexKataHariIni1 },
   { id: 'dev-http-methods-id', name: 'PUT vs PATCH (dev, id)', category: 'dev', text: devHttpMethods },
   { id: 'dev-storage-browser-id', name: 'localStorage vs cookie (dev, id)', category: 'dev', text: devStorage },
-  { id: 'dev-regex-dasar-id', name: 'Regex dasar (dev, id)', category: 'dev', text: devRegex },
+  { id: 'dev-regex-dasar-id', name: 'Regex dasar (dev, id)', category: 'dev', text: devRegex, retired: true },
   { id: 'dev-docker-dasar-id', name: 'Docker dasar (dev, id)', category: 'dev', text: devDocker },
-  { id: 'dev-debounce-throttle-id', name: 'Debounce vs throttle (dev, id)', category: 'dev', text: devDebounce },
+  { id: 'dev-debounce-throttle-id', name: 'Debounce vs throttle (dev, id)', category: 'dev', text: devDebounce, retired: true },
   { id: 'editorial-rekan-kerja-id', name: 'Ruang Rasa · kalimat buat rekan kerja (kunyit)', category: 'relationships', text: edRekanKerja },
   { id: 'editorial-usia-20an-id', name: 'Ruang Rasa · hal kecil umur 20an (malam)', category: 'relationships', text: edUsia20an },
   { id: 'editorial-kakek-nenek-id', name: 'Ruang Rasa · pertanyaan buat kakek nenek (daun)', category: 'relationships', text: edKakekNenek },

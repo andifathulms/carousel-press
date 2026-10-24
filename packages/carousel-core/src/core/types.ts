@@ -39,6 +39,7 @@ export const BUILTIN_TEMPLATE_IDS = [
   'dev/terminal',
   'dev/paper-light',
   'dev/sheet',
+  'dev/kabar',
   'sport/papan',
   'sport/lapangan',
   'sport/kapur',

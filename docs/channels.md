@@ -180,7 +180,7 @@ Voice is "I found this useful, here's how it works", not "I'm the expert, listen
 8. **Server Down #N**: incident playbooks, the order to check things when it breaks ("website nggak bisa dibuka", "502 Bad Gateway", "port bentrok", "deploy gagal"): what to check first, the command, what the output means.
 9. **Kabar Dev #N** (1–2 a week, see "Kabar Dev rules" below): recent tech or security news in *bahasa bayi*: what happened, an analogy, who is affected, how to check yours, what to do.
 
-**Retired (Oct 2026):** JS/Python trick lists and pure syntax posts. Tebak Output at most 1 post in 8, for engagement only.
+**Retired (Oct 2026):** JS/Python trick lists and pure syntax posts. Tebak Output at most 1 post in 8, for engagement only. Retired decks carry `retired: true` in `src/samples/index.ts`: they stay in the app but leave the queue (currently 5 trik console JS, 6 trik Python, Regex dasar, Debounce vs throttle, async/await).
 
 | | |
 |---|---|
