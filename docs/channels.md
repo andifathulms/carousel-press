@@ -166,6 +166,8 @@ Voice is "I found this useful, here's how it works", not "I'm the expert, listen
 
 **Bio (owner to set):** "💻 Git, terminal & AI buat developer, tiap minggu. / 🛟 Git Rescue · ⌨️ Terminal Harian · 🧠 Tebak Output / Belajar bareng, bukan menggurui. Porto di komen yang di-pin." (A bio link usually needs ~1,000 followers; until then the portfolio goes in a pinned comment.)
 
+**Direction (owner, Oct 2026 third review): run code safely, not write it.** Everyone vibe-codes now; AI writes the snippets. What AI doesn't do is keep a server alive, fix a broken deploy, or say what a security alert means for *your* site. The proven posts were already terminal and rescue topics (Linux 3,401, Git undo 2,975 vs ~1,250–1,550 for JS/Python tricks). Indonesia runs a lot of PHP (WordPress, Laravel, CodeIgniter, shared hosting, campus and government sites), so security news about the web stack is directly useful here.
+
 ### Series (number every one in the kicker: `GIT RESCUE • #N`)
 
 1. **Git Rescue #N**: one panic, one fix ("Commit ke branch yang salah?"). Every command run in a scratch repo before posting. A recap slide with all commands, a `reset --hard` warning where it applies.
@@ -173,7 +175,12 @@ Voice is "I found this useful, here's how it works", not "I'm the expert, listen
 3. **Tebak Output #N**: 3 short snippets (JS, Python, shell). Question slide: `[code]` with the options as body lines; answer slide: "Jawaban: X", the real output as a comment, one-line why. **Every output is run (Node, Python, a real shell) before posting.** Keep code lines ≤ 24 characters so they stay large.
 4. **Terminal Harian #N**: one command a day-to-day dev actually uses, with a realistic example.
 5. **Catatan Fathul #N** (weekly): first person, a true bug, mistake or "akhirnya aku paham…". Only real stories; the owner writes them.
-6. **AI for devs**: problem-first workflows ("AI-nya ngarang fungsi yang nggak ada"), never news or hype.
+6. **AI for devs** (now "Ngoding di era AI"): problem-first workflows ("AI-nya ngarang fungsi yang nggak ada"), never hype.
+7. **VPS Pertama #N**: running your own server step by step: SSH key and no password login, firewall (ufw), nginx, HTTPS (certbot), updates, backups, logs, "disk penuh". Every command run on a real Ubuntu LTS (container or VM) before posting; say which version.
+8. **Server Down #N**: incident playbooks, the order to check things when it breaks ("website nggak bisa dibuka", "502 Bad Gateway", "port bentrok", "deploy gagal"): what to check first, the command, what the output means.
+9. **Kabar Dev #N** (1–2 a week, see "Kabar Dev rules" below): recent tech or security news in *bahasa bayi*: what happened, an analogy, who is affected, how to check yours, what to do.
+
+**Retired (Oct 2026):** JS/Python trick lists and pure syntax posts. Tebak Output at most 1 post in 8, for engagement only.
 
 | | |
 |---|---|
@@ -189,13 +196,22 @@ Voice is "I found this useful, here's how it works", not "I'm the expert, listen
 
 | Pillar | Weight |
 |---|---|
-| **Rescue & daily tips** (most saveable): Git rescue, terminal, debugging, VS Code, SQL, snippets | ~40% |
-| **Kerja Nyata**: the first-job skills bootcamps skip (series above) | ~20% |
-| **AI for developers**: Claude, ChatGPT, Gemini, Copilot, AI IDEs, prompting for code, AI-assisted debugging, honest workflows. The angle is always "how can a developer actually use this?". Not AI news, not "10 tools that will change the world" | ~15% |
-| **Learning journey** (Catatan Fathul): things Fathul recently learned, mistakes, debugging lessons. This is what turns savers into followers | ~15% |
-| **Concepts** (API, HTTP, databases, JS/Python basics) and **dev tools** | ≤ 10%, at most 1 post in 6 |
+| **Server & Linux**: VPS Pertama, Terminal Harian, deploy, nginx, Docker basics, logs | ~35% |
+| **Kabar Dev**: news explained (security advisories, big releases, outages, AI tooling changes) | ~25% |
+| **Rescue**: Git Rescue, Server Down, Kerja Nyata | ~20% |
+| **Ngoding di era AI**: reviewing AI output, hallucinated packages, secrets in prompts, AI code in production | ~15% |
+| Concepts and code tricks (Tebak Output) | ≤ 5% |
 
 Concepts always open **error-first**: the cover is the error or the confusing result people meet ("Jalan di Postman, gagal di browser?"), never "X itu sebenarnya apa?" on its own.
+
+### Kabar Dev rules (non-negotiable)
+
+- **Primary sources only:** the vendor's own advisory or release notes, the CVE/NVD entry, CISA, and named security firms. News sites only to locate those. List them in the reply and the caption.
+- **Date-stamp every deck** ("per 25 Okt 2026") in the cover kicker and caption; news changes. When sources disagree (exploited or not, severity scores), say so on a slide.
+- **Explain, never weaponise:** no exploit steps, payloads or proof-of-concept code. Only what it is, who is affected, how to check your version, how to patch or reduce risk.
+- **Calm, not clickbait:** "Patch sekarang" with steps, never "semua website bakal kena hack". Severity in the stamp comes from the vendor or CVE score, not our mood.
+- **Bahasa bayi:** one slide explains it with an everyday analogy (kunci pintu, satpam, pipa bocor). Technical terms (RCE, CVE, patch) are named once and explained.
+- **Speed:** news decays in 24–72 hours. Draft the same day the owner asks; if more than a week old, frame it as "yang perlu kamu cek" instead of breaking news.
 
 ### Writing rules
 
@@ -211,8 +227,9 @@ Concepts always open **error-first**: the cover is the error or the confusing re
 ### Deck recipe
 
 - **Header:** `handle: @fathul_learncoding` in every deck.
-- **Templates:** `dev/terminal` is the default (Git, shell, AI, tools, concepts). `dev/github-dark` only for JS/Python/SQL code-heavy decks, where colour highlighting helps. Never `dev/paper-light` (that was Whistle Notes' old look).
+- **Templates:** `dev/kabar` for Kabar Dev only (news bulletin look: severity stamp via `verdict=` with `tone=bad|warn|ok` = KRITIS / PENTING / INFO). `dev/terminal` is the default for everything else (Git, shell, server, AI, tools, concepts). `dev/github-dark` only for JS/Python/SQL code-heavy decks, where colour highlighting helps. Never `dev/paper-light` (that was Whistle Notes' old look).
 - **Length:** cover + 4–7 slides + end, ≤ 10 total.
+- **Kabar Dev deck:** cover (`[cover kicker="KABAR DEV · #N · <DD MMM YYYY>"]`, headline = what happened in plain words) → `[card verdict="KRITIS" tone=bad]` what happened in bahasa bayi → analogy card → who is affected (versions) → `[code]` cek punyamu → `[code]` or card: what to do → "yang belum pasti" (disagreements, what isn't known yet) → end. 7–9 slides. Cards get `kicker="KABAR DEV · <date>"` (code slides can't take a kicker; the header path `~/kabar-dev` comes from the cover kicker and shows on every slide), so a screenshot keeps the label and the date.
 - **Cover:** `[cover kicker="GIT RESCUE • #2"]` or `[cover kicker="GIT • CHEAT SHEET"]` (TOPIC • FORMAT in caps; the first segment becomes the header path, `~/git`). Headline: the moment of panic ("Port 3000 udah dipakai?"), not "N perintah…". On rescue and cheat-sheet decks, end the subtitle with a short save reason, worded differently each post ("Simpan buat pas panik.", "Simpan dulu, kepakai nanti.").
 - **Slides:** `[code]` with a fenced block in `bash`, `js`, `py` or `sql` for commands/snippets; plain cards for concepts. Inline `` `code` `` in headlines is fine. Keep code lines short (no wrapping; long lines get shrunk then clipped with `code-line-too-long`).
 - **Recap slide**, the slide people actually save: `[code number=off]` "Simpan ini" just before the end, on every rescue, Kerja Nyata and cheat-sheet deck whose commands fit.
