@@ -20,7 +20,7 @@ Bukan pesannya, tapi cerita yang *kamu tambahkan.*
 Yang menghinamu bukan orang yang memaki, tapi pandanganmu bahwa itu menghina.
 — Epiktetos, Enchiridion 20 (terj. bebas, Higginson)
 ---
-[card kicker="Ide Epiktetos · pernah jadi budak, abad ke-1–2 M" number=off icon=none]
+[card kicker="Ide Epiktetos · mantan budak, abad 1–2 M" number=off icon=none]
 Pesannya di luar kendalimu. Penilaian dan balasanmu, *di dalam.*
 Itu tamengnya: bukan pura-pura nggak dengar, tapi nggak menyerahkan malammu ke orang lain.
 ---

@@ -1021,7 +1021,7 @@ It should feel like "I can carry this into tomorrow's meeting", never like a lec
 ### Slide rules
 
 - **Card 1 answers the cover:** the situation, as a scene the viewer knows ("Namamu disebut di grup, *jam sepuluh malam.*").
-- **Labels are kickers, thoughts are headlines:** `[card kicker="Situasinya" number=off icon=none]`. Kickers in use: "Situasinya", "Yang sebenarnya melukai", "Ide <thinker> · <one human detail>, <era>" (e.g. "pernah jadi budak, abad ke-1–2 M": make the thinker a person, not a date), "Coba malam ini", "Tapi…".
+- **Labels are kickers, thoughts are headlines:** `[card kicker="Situasinya" number=off icon=none]`. Kickers in use: "Situasinya", "Yang sebenarnya melukai", "Ide <thinker> · <one human detail>, <era>" (e.g. "mantan budak, abad 1–2 M": make the thinker a person, not a date), "Coba malam ini", "Tapi…".
 - **Attribution fits one line** (≤ 50 characters): `— Epiktetos, Enchiridion 20 (terj. bebas, Higginson)`. Longer is cut with "…" without a warning (open item), so shorten the work's name (`Surat 13.4`), never drop the section number.
 - **Cover:** the situation as a statement or question, ≤ 10 words, sting in ember. The subtitle says what changes for the viewer ("Cara Stoa biar kalimatnya nggak ikut kamu bawa tidur.").
 - **End:** a one-tap ask about the viewer's own version ("Kalimat bos yang *paling nempel?*" → "Satu kata aja di komen.") with `cta="Simpan"`.
@@ -1788,6 +1788,7 @@ Eight accounts were reviewed (Ruang Rasa, Whistle Notes, Ayat Harian, Kata Baku,
 13. **The saved slide is built to be found again.** A recap or cheat card fits one screen, is labelled (what each line is for), has no unexplained repeats, and follows the order of the cards.
 14. **Relief over fear.** Hooks name a real moment of trouble or doubt the viewer recognises, and the deck answers it calmly. Never threaten the viewer ("biar nggak dipecat", "kamu bakal gagal"), and never shame them ("Kamu masih…").
 15. **Curly quotes in slide text:** `“ ”` and `’`. Straight `"` stays only in code, header lines and `[attr="…"]` values. (Ruang Rasa is converted; other accounts' older decks convert when they are next edited.)
+16. **Kickers are short: at most 40 characters.** A kicker is one tracked, uppercase line that never wraps; past ~44 characters it runs outside the safe area on a phone, and the review render flags it.
 
 Anything an account section says on top of these is stricter, not looser.
 

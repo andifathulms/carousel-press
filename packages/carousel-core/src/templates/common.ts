@@ -210,6 +210,10 @@ export function stackWarnings(slide: Slide, stack: StackResult): Warning[] {
   if (stack.overflow) {
     out.push({ code: 'overflow', slideIndex: slide.index, line, message: `Slide ${slide.index + 1}: text doesn't fit` });
   }
+  // A kicker is one tracked line that never wraps; with real fonts a long one runs past SAFE.
+  if (stack.placed.some((p) => p.item.kind === 'kicker' && p.w > CONTENT_W)) {
+    out.push({ code: 'overflow', slideIndex: slide.index, line, message: `Slide ${slide.index + 1}: the kicker is too long, shorten it` });
+  }
   if (stack.charBroken) {
     out.push({ code: 'long-word', slideIndex: slide.index, line, message: `Slide ${slide.index + 1}: a word is too long and was broken` });
   }

@@ -20,7 +20,7 @@ Bukan gajinya, tapi *kesimpulan yang kamu tarik.*
 Kamu tak bisa menyamai orang lain dalam hal-hal lahiriah tanpa memakai cara yang sama untuk mendapatkannya.
 — Epiktetos, Enchiridion 25 (terj. bebas, Higginson)
 ---
-[card kicker="Ide Epiktetos · pernah jadi budak, abad ke-1–2 M" number=off icon=none]
+[card kicker="Ide Epiktetos · mantan budak, abad 1–2 M" number=off icon=none]
 Semua hal di luar dirimu *ada harganya.*
 Selada dijual satu obol. Yang membayar dapat selada, yang tidak membayar masih pegang obolnya (Enchiridion 25).
 ---
