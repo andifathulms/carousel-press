@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: tameng 9 kena phk
+caption: Kena PHK? Kartu aksesnya dimatikan, tapi yang kamu pelajari nggak ikut dimatikan. Kalau lagi berat banget, ngobrol sama orang yang kamu percaya atau tenaga profesional, ya. Sumber: Epiktetos, Enchiridion 1 & 11 (terj. T.W. Higginson) · SEP "Epictetus" #stoikisme #filsafatharian #phk #layoff
+---
+[cover kicker="FILSAFAT HARIAN · TAMENG #9"]
+Kena PHK. | *Kartu aksesmu langsung mati.*
+Cara Stoa biar jabatannya pergi, kamunya nggak ikut hilang.
+---
+[card kicker="Situasinya" number=off icon=none]
+Rapat lima belas menit, *lalu laptopmu diminta.*
+Sorenya kamu pulang bawa kardus. Namamu sudah keluar dari grup kantor.
+---
+[card kicker="Yang sebenarnya melukai" number=off icon=none]
+Gajinya hilang, itu nyata. Luka keduanya: *vonis tentang dirimu.*
+“Berarti aku nggak berguna.” “Aku gagal.”
+---
+[quote icon=none]
+Jangan pernah berkata “aku kehilangannya”, tapi “aku mengembalikannya”. … Peganglah sebagai yang bukan milikmu, seperti pelancong di penginapan.
+— Epiktetos, Enchiridion 11 (terj. bebas, Higginson)
+---
+[card kicker="Ide Epiktetos · mantan budak, abad 1–2 M" number=off icon=none]
+Jabatan itu titipan. *Pilihanmu berikutnya, bukan.*
+Enchiridion 1 menaruh harta dan jabatan di luar kendali kita. Yang tetap milikmu: penilaianmu, tujuanmu, dan langkahmu besok pagi.
+---
+[card kicker="Coba malam ini" number=off icon=none]
+Tulis yang *ikut kamu bawa pulang.*
+Bukan cuma kardusnya: keahlian, cara kerjamu, orang-orang yang tahu hasil kerjamu. Itu modal besok pagi.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+“Dikembalikan” *bukan berarti hakmu ikut.*
+Pesangon, sisa gaji, dan surat pengalaman kerja tetap hakmu. Catat, tanyakan ke HR, dan kalau tak dibayar, laporkan ke Disnaker.
+---
+[end cta="Kirim ke teman"]
+Yang paling berat dari PHK: *gaji, malu, atau bingung?*
+Komen satu kata. Kamu nggak sendirian.

@@ -1,0 +1,94 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: beda arti 4 quite
+caption: Beda arti bahasa Inggris UK dan US: di London, “quite good” itu cuma lumayan. Di Amerika, quite bisa berarti banget. Sumber: Cambridge Dictionary (label UK/US); Oxford Learner’s Dictionaries (quite) #belajarbahasainggris #kosakatainggris #britishvsamerican
+---
+[cover kicker="BEDA ARTI · #4"]
+Di London, “Quite Good” | Cuma Lumayan
+Di Amerika, quite bisa berarti banget. Plus 6 kata lain yang beda arti di UK dan US, dari pelit sampai rapat kantor.
+---
+[word]
+pos: adverb · beda arti UK/US
+word: quite
+ipa: /kwaɪt/ (UK & US)
+say: “kwait”
+meaning: UK: lumayan, agak, tapi nggak sepenuhnya | US: sangat, banget
+example: Your presentation was *quite* good.
+translation: (UK) Presentasimu lumayan bagus.
+note: Lumayan versi US: fairly atau pretty. Jadi quite good dari bos di London belum tentu wah.
+---
+[word]
+pos: adjective · beda arti UK/US
+word: mean
+ipa: /miːn/ (UK & US)
+say: “miin”
+meaning: terutama UK: pelit, nggak mau berbagi uang | UK & US: jahat, nggak baik
+example: He’s too *mean* to buy her a ring.
+translation: (UK) Dia terlalu pelit buat beliin cincin.
+note: Pelit versi US: cheap. Jahat, dua-duanya: Stop being so mean to me!
+---
+[word]
+pos: adverb · beda arti UK/US
+word: momentarily
+ipa: /ˌməʊ.mənˈter.əl.i/ (UK) · /ˌmoʊ.mənˈter.əl.i/ (US)
+say: “mou-men-TE-re-li”
+meaning: UK & US: sebentar, sesaat | US: juga sebentar lagi
+example: The train will be leaving *momentarily*.
+translation: (US) Keretanya sebentar lagi berangkat.
+note: Dengar ini di pesawat atau stasiun di Amerika? Artinya sebentar lagi, bukan cuma sesaat.
+---
+[word]
+pos: verb · beda arti UK/US
+word: table
+ipa: /ˈteɪ.bəl/ (UK & US)
+say: “TEI-bel”
+meaning: UK: mengajukan usulan buat dibahas | US: menunda pembahasannya
+example: An amendment to the proposal was *tabled*.
+translation: (UK) Usulan perubahannya diajukan. (US) Usulan perubahannya ditunda.
+note: Arti kebalikan di rapat! Kerja bareng tim UK dan US? Pakai propose (mengusulkan) atau postpone (menunda).
+---
+[word]
+pos: noun · beda arti UK/US
+word: dummy
+ipa: /ˈdʌm.i/ (UK & US)
+say: “DA-mi”
+meaning: UK: empeng bayi | UK & US: manekin toko; juga (informal) orang bodoh
+example: The baby won’t sleep without her *dummy*.
+translation: (UK) Bayinya nggak mau tidur tanpa empeng.
+note: Empeng versi US: pacifier.
+---
+[word]
+pos: noun · beda arti UK/US
+word: cot
+ipa: /kɒt/ (UK) · /kɑːt/ (US)
+say: “kot” (UK) · “kaat” (US)
+meaning: UK: boks bayi berpagar | US: ranjang lipat
+example: The hotel can put a *cot* in our room.
+translation: (UK) Hotelnya bisa taruh boks bayi di kamar kita.
+note: Boks bayi versi US: crib. Ranjang lipat versi UK: camp bed.
+---
+[word]
+pos: noun · beda arti UK/US
+word: flannel
+ipa: /ˈflæn.əl/ (UK & US)
+say: “FLE-nel”
+meaning: UK: waslap, kain kecil buat lap muka | UK & US: kain flanel
+example: Wash your face with a warm *flannel*.
+translation: (UK) Basuh mukamu pakai waslap hangat.
+note: Waslap versi US: washcloth. Kemeja flanel tetap flannel shirt di mana-mana.
+---
+[table]
+Biar nggak salah paham
+| Arti | UK | US |
+| lumayan | quite | fairly, pretty |
+| pelit | mean | cheap |
+| empeng bayi | dummy | pacifier |
+| boks bayi | cot | crib |
+| ranjang lipat | camp bed | cot |
+| waslap | flannel | washcloth |
+Table di rapat: UK diajukan, US ditunda.
+---
+[end cta="Simpan"]
+Kata mana yang *paling bikin kaget?*
+Komen satu kata: quite, table, atau dummy. Beda arti #5 minggu depan.

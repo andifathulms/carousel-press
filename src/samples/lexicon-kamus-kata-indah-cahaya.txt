@@ -1,0 +1,82 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata indah cahaya
+caption: Kata indah viral yang ternyata benar-benar ada di KBBI: arunika. Plus 7 kata cahaya dari pagi sampai malam, buat caption foto langit. Sumber: KBBI VI Daring (dicek 3 November 2026) #bahasaindonesia #kataindah #kbbi
+---
+[cover kicker="KATA INDAH #8 · KBBI VI"]
+Arunika Ternyata | Ada di KBBI
+Banyak kata indah viral tidak ada di KBBI. Yang ini ada, plus 7 kata cahaya dari pagi sampai malam.
+---
+[word]
+pos: Sanskerta
+word: arunika
+meaning: seberkas cahaya matahari setelah terbit di pagi hari
+example: Bangun lebih pagi, demi *arunika* di jendela kamar.
+note: Arti lain: pemandangan saat matahari terbit. Tanpa kelas kata. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: cerlang
+meaning: cahaya terang
+example: Ada *cerlang* di ujung lorong yang gelap itu.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: binar
+meaning: sinar
+example: Ada *binar* di matamu tiap kali cerita soal mimpimu.
+note: Contoh di KBBI: hanya binar matanya kian redup. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: jingga
+meaning: kuning kemerah-merahan; oranye
+example: Langit *jingga* sore ini terlalu cantik untuk dilewatkan.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: semburat
+meaning: pancaran cahaya
+example: Ada *semburat* merah di pipimu tiap kali kugoda.
+note: Sebagai verba (Jawa): memancarkan cahaya; bersinar. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: senja
+meaning: waktu (hari) setengah gelap sesudah matahari terbenam
+example: Teh hangat, hujan reda, dan *senja* yang pelan-pelan pulang.
+note: Menurut KBBI, senja datang sesudah matahari terbenam. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: temaram
+meaning: remang-remang
+example: Ngobrol sampai larut di kafe yang lampunya *temaram*.
+note: Di KBBI, temaram dicatat di bawah kata dasar taram. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: pendar
+meaning: cahaya seperti yang tampak pada lendir kelemayar atau pada permukaan laut pada malam hari
+example: Kami duduk di dermaga, menatap *pendar* laut malam itu.
+note: Kata kerjanya: berpendar. Sumber: KBBI VI Daring
+---
+[table]
+Dari pagi sampai malam
+| Kata | Kelas |
+| *arunika* | (Skt, tanpa kelas) |
+| *cerlang* | nomina |
+| *binar* | nomina |
+| *jingga* | adjektiva |
+| *semburat* | nomina |
+| *senja* | nomina |
+| *temaram* | adjektiva |
+| *pendar* | nomina |
+Semua tercatat di KBBI VI Daring
+---
+[end cta="Simpan"]
+Kata cahaya mana yang *masuk caption-mu?*
+Komen satu kata, lalu simpan buat foto langit berikutnya.

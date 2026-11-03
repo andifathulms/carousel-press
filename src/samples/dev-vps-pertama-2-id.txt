@@ -1,0 +1,107 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: vps pertama 2 firewall ufw tanpa terkunci
+caption: Mau nyalain firewall di VPS tapi takut kekunci sendiri? Izinkan SSH dulu, baru ufw enable. Diuji di Ubuntu 24.04 (ufw 0.36.2). #linux #vps #ufw #belajarcoding
+---
+[cover kicker="VPS PERTAMA • #2"]
+Pasang firewall ufw, | *takut kekunci di luar?*
+Kuncinya satu: izinkan SSH dulu, baru nyalakan. Diuji di Ubuntu 24.04. Simpan sebelum `ufw enable`.
+---
+[code]
+Izinkan SSH *dulu*
+Ini yang bikin kamu tetap bisa masuk setelah firewall nyala. `OpenSSH` = port 22.
+```bash
+sudo ufw allow OpenSSH
+# Rules updated
+# Rules updated (v6)
+```
+SSH-mu pakai port lain, misalnya 2222? Jalankan `sudo ufw allow 2222/tcp`.
+---
+[code]
+Baru nyalakan firewall
+Lewat SSH, ufw nanya dulu. Jawab `y` cuma kalau langkah 1 sudah.
+```bash
+sudo ufw enable
+# Command may disrupt existing
+# ssh connections. Proceed with
+# operation (y|n)? y
+# Firewall is active and enabled
+# on system startup
+```
+Mulai sekarang, semua yang masuk ditolak kecuali yang kamu izinkan.
+---
+[code]
+Lupa langkah 1? Jangan logout
+Login baru langsung ditolak. Tapi sesi yang lagi terbuka tetap jalan, jadi perbaiki dari situ.
+```bash
+# login baru dari laptop:
+# ssh: connect to host IP
+# port 22: Connection timed out
+# di sesi yang masih terbuka:
+sudo ufw allow OpenSSH
+```
+Sudah telanjur logout? Masuk lewat konsol web di panel VPS-mu.
+---
+[code]
+Buka port web: 80 dan 443
+80 buat HTTP, 443 buat HTTPS. Port lain tetap tertutup.
+```bash
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+```
+Sudah pasang nginx? `sudo ufw allow "Nginx Full"` isinya sama: 80 dan 443.
+---
+[code]
+Cek aturan yang aktif
+Yang nggak ada di daftar ini ditolak. Tiap aturan muncul dua kali: IPv4 dan IPv6.
+```bash
+sudo ufw status numbered
+# [ 1] OpenSSH       ALLOW IN
+# [ 2] 80/tcp        ALLOW IN
+# [ 3] 443/tcp       ALLOW IN
+# [ 4] OpenSSH (v6)  ALLOW IN
+# ...
+```
+Kolom “From” (Anywhere) dipotong biar muat.
+---
+[code]
+Hapus aturan yang nggak perlu
+Contoh: port 3000 yang dulu dibuka buat testing. Tulis ulang aturannya setelah `delete`.
+```bash
+sudo ufw delete allow 3000
+# Rule deleted
+# Rule deleted (v6)
+```
+`ufw delete 2` cuma hapus satu baris, dan nomornya geser tiap ada yang dihapus. Salah nomor, SSH yang kehapus.
+---
+[code]
+Pakai Docker? `-p` nembus ufw
+Port yang di-publish Docker lewat sebelum aturan ufw dicek. Cuma dipakai server sendiri? Ikat ke `127.0.0.1`:
+```bash
+docker run -d \
+  -p 127.0.0.1:8080:80 nginx
+```
+Sumber: docs Docker, “Packet filtering and firewalls”.
+---
+[code number=off]
+Simpan ini
+Urut dari atas. Langkah 1 jangan dilewati.
+```bash
+# 1 izinkan SSH dulu
+sudo ufw allow OpenSSH
+# 2 baru nyalakan
+sudo ufw enable
+# 3 buka port web
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+# 4 cek aturannya
+sudo ufw status numbered
+# 5 hapus yang nggak perlu
+sudo ufw delete allow 3000
+# Docker: -p 127.0.0.1:8080:80
+```
+---
+[end cta="Follow"]
+Firewall VPS-mu *sudah nyala?*
+Komen ✅ kalau sudah. VPS Pertama #3: update keamanan otomatis.

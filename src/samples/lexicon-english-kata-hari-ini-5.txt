@@ -1,0 +1,27 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: kata hari ini 5 determine
+caption: Kata hari ini #5: determine (menentukan), cara bacanya di-TER-min, bukan “determain”. Sumber IPA: Cambridge Dictionary; Oxford Learner’s Dictionaries #belajarbahasainggris #kosakatainggris #pronunciation
+---
+[cover kicker="KATA HARI INI · #5"]
+Determine | *Bukan dibaca “determain”.*
+Satu kata Inggris tiap hari. Hari ini kata formal yang sering muncul di bacaan dan email kerja.
+---
+[card kicker="Coba tebak" number=off]
+Menentukan dalam bahasa Inggris: determine. *A. di-ter-MAIN atau B. di-TER-min?*
+Tebak dulu, baru geser.
+---
+[word]
+pos: verb · formal
+word: determine
+ipa: /dɪˈtɜː.mɪn/ (UK) · /dɪˈtɝː.mɪn/ (US)
+say: “di-TER-min”, jawabannya B
+meaning: menentukan: memutuskan atau memengaruhi apa yang akan terjadi
+example: The interview will *determine* who gets the job.
+translation: Wawancaranya yang menentukan siapa yang diterima.
+note: -mine di sini dibaca “min”, sama kayak examine (ig-ZE-min).
+---
+[end cta="Follow"]
+Besok: *Kata hari ini #6.*
+Follow, besok kata yang beda lagi.

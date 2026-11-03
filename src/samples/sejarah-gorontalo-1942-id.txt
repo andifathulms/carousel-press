@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: gorontalo 23 januari 1942 nani wartabone
+caption: Gorontalo: 23 Januari 1942, Nani Wartabone dan rakyat Gorontalo menawan pejabat Belanda, mengibarkan Merah Putih, dan menyatakan merdeka. Inilah asal Hari Patriotik Gorontalo. Sumber: Hasanuddin, “Pendudukan Jepang di Gorontalo”, BPNB Manado (2013), mengutip Sudirman Habibie dkk., 23 Januari 1942 dan Nasionalisme Nani Wartabone (Dinas Pendidikan dan Kebudayaan Provinsi Gorontalo, 2004); Daftar Penerima Gelar Pahlawan Nasional 1959–2017, Kemensetneg; Pemprov Gorontalo (Hari Patriotik ke-84, 2026) · Foto: IPPHOS (domain publik); KITLV/Leiden University Libraries (CC BY 4.0); Marwan Mohamad (CC BY-SA 3.0), FahreziJasin (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #gorontalo #haripatriotik #naniwartabone
+---
+[cover kicker="GORONTALO · 1942" photo=gorontalo-wartabone]
+Merah Putih Berkibar | 3 Tahun Sebelum Proklamasi
+23 Januari 1942, Hari Patriotik Gorontalo: Nani Wartabone dan rakyat menawan pejabat Belanda dan menyatakan merdeka.
+---
+[number=off icon=none photo=gorontalo-jalan]
+*23 Januari 1942*: Merah Putih naik
+Pejabat Belanda ditawan, bendera Belanda diturunkan. Di lapangan depan rumah asisten residen, Merah Putih dikibarkan dan Indonesia Raya dinyanyikan.
+---
+[quote icon=none photo=gorontalo-wartabone]
+Pada hari ini tanggal 23 Januari 1942 kita bangsa Indonesia yang berada di sini sudah merdeka bebas, lepas dari penjajahan bangsa manapun juga.
+— Nani Wartabone, dicatat Habibie dkk. (2004)
+---
+[number=off icon=none photo=gorontalo-teluk]
+*15 Januari 1942*: Belanda membakar
+Manado sudah jatuh ke Jepang. Sebelum pergi, pihak Belanda membakar kapal motor Kalolio serta gudang kopra dan gudang minyak di Gorontalo.
+---
+[number=off icon=none photo=gorontalo-jalan]
+Malam itu, Komite 12 lahir
+Dalam rapat rahasia di rumah Kusno Danupoyo, Komite 12 dibentuk dan diketuai Nani Wartabone. Tugas pertamanya: menjaga jembatan, irigasi, dan kantor pos.
+---
+[number=off icon=none photo=gorontalo-suwawa]
+Subuh, berjalan dari Suwawa
+Pasukan Nani Wartabone berjalan sekitar 11 km ke kota, diikuti rakyat dan sebagian polisi. Sekitar 20 pejabat dan pegawai Belanda ditawan.
+---
+[number=off icon=none photo=gorontalo-teluk]
+*26 Februari 1942*: Jepang disambut
+Nani Wartabone kini memimpin Pucuk Pimpinan Pemerintah Gorontalo. Kapal perang Jepang tiba dan disambut pengurusnya. Gorontalo diduduki tanpa pengeboman.
+---
+[number=off icon=none photo=gorontalo-monumen]
+*1942–1944*: dari mitra jadi tahanan
+Nani Wartabone menuntut Jepang mengakui Indonesia merdeka. Juni 1942 pemerintahannya diambil alih. Desember 1943 ia dan beberapa jogugu ditahan di Manado dan disiksa; ada yang meninggal.
+---
+[number=off icon=none photo=gorontalo-monumen]
+*2003*: pahlawan nasional
+Nani Wartabone (1907–1986) jadi pahlawan nasional lewat Keppres 6 November 2003. Tiap 23 Januari, Gorontalo memperingati Hari Patriotik.
+---
+[end photo=gorontalo-wartabone cta="Komen A atau B"]
+Menyambut Jepang, 1942: | *A.* langkah cerdik, *B.* keliru?
+Komen A atau B. Alasanmu di balasan.

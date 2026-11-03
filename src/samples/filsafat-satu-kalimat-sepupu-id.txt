@@ -1,0 +1,25 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: satu kalimat 4 dibandingkan sama sepupu
+caption: Dibanding-bandingin sama sepupu? Kalimatnya cuma lima kata, tapi kebawa sampai seminggu. Seneca menulis soal ini hampir 2.000 tahun lalu. Sumber: Seneca, Tentang Amarah (De Ira) III.31 (terj. Aubrey Stewart) · SEP "Seneca" #stoikisme #filsafatharian #dibandingkan #keluarga
+---
+[cover kicker="SATU KALIMAT · #4"]
+“Tuh, sepupumu | *sudah jadi PNS.*”
+Satu kalimat Seneca buat saat kamu dibanding-bandingkan.
+---
+[quote icon=none]
+Tak ada orang yang puas dengan nasibnya sendiri kalau perhatiannya terus tertuju pada nasib orang lain.
+— Seneca, De Ira III.31 (terj. bebas, Stewart)
+---
+[card kicker="Artinya di rumah" number=off icon=none]
+Yang membandingkan keluarga. *Yang terus menghitung, kamu.*
+Kalimatnya selesai di meja makan, biasanya karena khawatir. Beratnya datang saat kamu ikut memakai garis ukur sepupumu. Di pasal yang sama: kita lupa berapa banyak yang sudah kita dahului.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Seneca menulisnya *sebagai orang kaya raya.*
+Gampang bilang “cukup” dari posisinya. Dan kalau perbandingan itu sudah jadi tekanan terus-menerus, bicarakan baik-baik dengan orang rumah yang paling kamu percaya.
+---
+[end cta="Simpan"]
+Kamu paling sering *dibandingkan soal apa?*
+Komen satu kata: kerja, nikah, atau gaji?

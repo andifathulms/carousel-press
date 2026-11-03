@@ -1,0 +1,93 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: git rescue 6 commit hilang habis reset hard
+caption: Salah git reset --hard dan commit-mu hilang dari git log? Selama sudah di-commit, Git masih nyimpen. Cari di reflog, balikin satu baris. #git #belajarcoding #programmer
+---
+[cover kicker="GIT RESCUE • #6"]
+Habis reset --hard, | *commit-nya hilang?*
+Yang sudah di-commit masih disimpan Git. Cari di reflog, balikin satu baris. Simpan buat pas panik.
+---
+[code]
+Cari posisi sebelum reset
+Baris `reset: moving to` itu kesalahannya. Baris tepat di bawahnya = posisi sebelum reset.
+```bash
+git reflog
+# 8e27ece HEAD@{0}: reset: ...
+# 2f87393 HEAD@{1}: commit: ...
+```
+Hash-mu pasti beda. Di contoh ini yang dicari `2f87393`.
+---
+[code]
+Balikin ke situ
+Commit-nya muncul lagi di `git log`.
+```bash
+git reset --hard 2f87393
+# HEAD is now at 2f87393
+# feat: logout
+```
+Sudah ngetik kode baru setelah salah reset? `git stash` dulu, biar nggak ikut kehapus.
+---
+[code]
+Ragu? Simpan jadi branch dulu
+Nggak ngubah file apa pun. Commit-nya aman di branch baru, cek pelan-pelan.
+```bash
+git branch selamat 2f87393
+git log --oneline selamat
+# 2f87393 feat: logout
+# fef1ad1 feat: login
+```
+---
+[code]
+Baru aja reset? Ada jalan pintas
+Git nyimpen posisi sebelum reset di `ORIG_HEAD`.
+```bash
+git reset --hard ORIG_HEAD
+# HEAD is now at 2f87393
+# feat: logout
+```
+Cuma aman tepat setelah reset. Sudah merge atau rebase sesudahnya? Pakai reflog.
+---
+[code]
+Branch kehapus pakai `-D`?
+Pesan Git pas menghapus nyebut hash terakhirnya. Bikin lagi dari situ.
+```bash
+git branch -D fitur-bayar
+# Deleted branch fitur-bayar
+# (was 151dd30).
+git branch fitur-bayar 151dd30
+```
+Pesannya ketutup? Cari commit terakhir branch itu di `git reflog`.
+---
+[code]
+File yang cuma di-`add`, belum commit
+Isinya masih ada sebagai “dangling blob”. Nama filenya yang hilang.
+```bash
+git fsck --lost-found
+# dangling blob 02d22ed...
+git show 02d22ed > catatan.txt
+```
+Belum pernah di-`add`? Git nggak nyimpen. Coba Local History di editor (VS Code: Timeline).
+---
+[code number=off]
+Simpan ini
+Cari dulu di reflog, baru pilih caranya. Ganti hash-nya dengan punyamu.
+```bash
+# cari posisi sebelum reset
+git reflog
+# balik ke sana (stash dulu)
+git reset --hard 2f87393
+# atau simpan jadi branch
+git branch selamat 2f87393
+# baru aja reset: jalan pintas
+git reset --hard ORIG_HEAD
+# branch kehapus: hash dari pesan
+git branch fitur-bayar 151dd30
+# file yang cuma di-add
+git fsck --lost-found
+git show 02d22ed > catatan.txt
+```
+---
+[end cta="Follow"]
+Pernah *kehilangan commit* juga?
+Komen 😅 kalau pernah. Git Rescue #7 minggu depan.

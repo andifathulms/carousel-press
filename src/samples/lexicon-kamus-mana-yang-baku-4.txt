@@ -1,0 +1,65 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: utang atau hutang
+caption: Kata baku yang sering salah: utang, bukan hutang. Imbau, embus, andal, dan isap juga tanpa h di depan. Sumber: KBBI VI Daring (dicek 3 November 2026) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="MANA YANG BAKU? · #4"]
+Hutang atau | Utang?
+Tebak dulu, baru geser. Plus 4 kata baku lain yang huruf h-nya sering ikut menumpang.
+---
+[card number=off]
+Yang baku: *utang*
+KBBI VI mencatat hutang sebagai bentuk tidak baku. Artinya: “uang yang dipinjam dari orang lain”.
+Polanya sama di *imbau*, *embus*, *andal*, dan *isap*: tanpa h di depan.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Akhirnya hutangku lunas bulan ini!
+right: Akhirnya *utangku* lunas bulan ini!
+why: KBBI VI juga mencatat arti kedua utang: “kewajiban membayar kembali apa yang sudah diterima”. Seperti utang budi.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Warga dihimbau tetap di rumah saat badai.
+right: Warga *diimbau* tetap di rumah saat badai.
+why: KBBI VI mencatat himbau, menghimbau, dan himbauan sebagai bentuk tidak baku. Mengimbau: “meminta (menyerukan) dengan sungguh-sungguh; mengajak”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Angin pagi mulai berhembus.
+right: Angin pagi mulai *berembus*.
+why: KBBI VI mencatat hembus sebagai bentuk tidak baku dari embus. Berembus: “bertiup (angin dan sebagainya)”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Dia kiper paling handal di timnya.
+right: Dia kiper paling *andal* di timnya.
+why: KBBI VI mencatat handal sebagai bentuk tidak baku. Andal: “dapat dipercaya”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Nyamuk itu menghisap darahku semalaman.
+right: Nyamuk itu *mengisap* darahku semalaman.
+why: KBBI VI mencatat hisap sebagai bentuk tidak baku dari isap. Mengisap: “menghirup; menyedot”.
+---
+[table]
+H di depan tidak ikut
+| Baku | Tidak baku |
+| *utang* | hutang |
+| *imbau* | himbau |
+| *mengimbau* | menghimbau |
+| *imbauan* | himbauan |
+| *embus* | hembus |
+| *andal* | handal |
+| *isap* | hisap |
+Sumber: KBBI VI Daring
+---
+[end cta="Komen A atau B"]
+Jujur, tadi kamu pilih *yang mana?*
+Komen A untuk utang, B untuk hutang.

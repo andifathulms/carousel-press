@@ -1,0 +1,116 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: server down 2 502 bad gateway
+caption: 502 Bad Gateway artinya nginx-nya hidup, aplikasi di belakangnya yang nggak jawab. error.log kasih tahu kenapa. Diuji di Ubuntu 24.04 + nginx 1.24.0 + PHP 8.3. #nginx #linux #devops #belajarcoding
+---
+[cover kicker="SERVER DOWN • #2"]
+Muncul *502 Bad Gateway?*
+nginx-nya hidup, aplikasi di belakangnya yang nggak jawab. Cari tahu kenapa dalam 5 langkah. Simpan buat pas kejadian.
+---
+[code]
+Baca error.log dulu
+Cari baris yang ada kata `upstream`. Angka di dalam kurung itu petunjuknya.
+```bash
+sudo tail -n 20 \
+  /var/log/nginx/error.log
+# connect() failed (111:
+# Connection refused) while
+# connecting to upstream
+```
+Upstream = aplikasi yang dituju nginx: Node, Python, php-fpm.
+---
+[code]
+Arti angkanya
+Cocokkan dengan log-mu, lalu lompat ke slide-nya.
+```
+(111: Connection refused)
+= aplikasi mati / port salah
+(110: Connection timed out)
+= aplikasi kelamaan (504)
+(2: No such file or directory)
+= socket php-fpm nggak ada
+(13: Permission denied)
+= socket nggak boleh diakses
+```
+---
+[code]
+111: aplikasinya dengar di port mana?
+Bandingkan port di `proxy_pass` dengan yang benar-benar dipakai aplikasimu.
+```bash
+sudo grep -Rn proxy_pass \
+  /etc/nginx/sites-enabled/
+# ...default:3: ...:3000;
+sudo ss -tlnp
+# 0.0.0.0:80   ... "nginx"
+# 0.0.0.0:8000 ... "python3"
+```
+nginx ke 3000, aplikasinya di 8000? Samakan salah satunya. Nggak ada sama sekali? Aplikasinya mati.
+---
+[code]
+111: tes aplikasinya tanpa nginx
+Gagal juga? Masalahnya di aplikasi, bukan nginx. Nyalakan lagi, lalu cari kenapa tadi mati.
+```bash
+curl -I http://127.0.0.1:3000
+# curl: (7) Failed to connect
+# ... Couldn't connect to server
+```
+Cari penyebabnya: `pm2 logs`, atau `journalctl -u namaapp -n 50` kalau pakai systemd.
+---
+[code]
+110: ini 504, bukan 502
+Aplikasinya nyambung, tapi kelamaan jawab. nginx nunggu 60 detik, lalu menyerah.
+```bash
+curl -I http://localhost
+# HTTP/1.1 504 Gateway Time-out
+# error.log:
+# upstream timed out (110:
+# Connection timed out) while
+# reading response header
+```
+Cari query atau API yang lambat. Menaikkan `proxy_read_timeout` cuma nutup gejala.
+---
+[code]
+2: socket php-fpm nggak ada
+Website PHP (WordPress, Laravel)? Biasanya php-fpm mati, atau nama socket-nya beda versi.
+```bash
+ls /run/php/
+# kosong = php-fpm mati
+sudo systemctl restart php8.3-fpm
+grep -Rn fastcgi_pass \
+  /etc/nginx/sites-enabled/
+```
+Habis upgrade PHP, `php8.1-fpm.sock` jadi `php8.3-fpm.sock`. Samakan di `fastcgi_pass`.
+---
+[code]
+13: socket-nya nggak boleh diakses
+nginx jalan sebagai `www-data`. Socket harus milik `www-data`.
+```bash
+ls -l /run/php/php8.3-fpm.sock
+# salah:
+# srw------- 1 root root
+# sehat:
+# srw-rw---- 1 www-data www-data
+```
+Atur `listen.owner` dan `listen.group` di `/etc/php/8.3/fpm/pool.d/www.conf`, lalu restart php-fpm.
+---
+[code number=off]
+Simpan ini
+Mulai dari log. Angkanya nentuin langkah berikutnya.
+```bash
+# 1 baca petunjuknya
+sudo tail /var/log/nginx/error.log
+# 111: port cocok? aplikasi hidup?
+sudo ss -tlnp
+curl -I http://127.0.0.1:3000
+# 110 (504): cari yang lambat
+# 2: php-fpm hidup? socket ada?
+ls /run/php/
+sudo systemctl restart php8.3-fpm
+# 13: pemilik socket
+ls -l /run/php/php8.3-fpm.sock
+```
+---
+[end cta="Follow"]
+502-mu kemarin *angka berapa?*
+Komen 111, 110, 2, atau 13. Server Down #3: port bentrok.

@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: rapat damai tumbang anoi 1894
+caption: Gunung Mas, Kalimantan Tengah: tahun 1894, para kepala Dayak berkumpul berbulan-bulan di betang Damang Batu, Tumbang Anoi, untuk mengakhiri kayau dan perbudakan. Sumber: Sitti Utami Haryanti, “The Treaty of Tumbang Anoi, 1894”, dalam Trajectories of Memory (Springer, 2023); Sumiatie, Arianti & Susanto, Anterior Jurnal 21(2) (2022); situs Kecamatan Damang Batu, Pemkab Gunung Mas; Kompas (2011, mengutip KMA M. Usop, Pakat Dayak); RRI (April 2026) · Foto: Tropenmuseum / Wereldmuseum Amsterdam, sekitar 1894 (CC BY-SA 3.0); Raflinoer32 (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #kalimantantengah #tumbanganoi #dayak
+---
+[cover kicker="KALIMANTAN TENGAH · 1894" photo=anoi-kampong]
+Berbulan-bulan di Satu Betang | untuk Mengakhiri Kayau
+Rapat Damai Tumbang Anoi, hulu Sungai Kahayan: para kepala Dayak berkumpul di betang Damang Batu.
+---
+[number=off icon=none photo=anoi-pembukaan]
+*22 Mei 1894*: rapat dibuka
+Di Tumbang Anoi, hulu Kahayan, sumber menyebut sekitar 1.000 orang hadir. Dua controleur Belanda, A.C. de Heer dan J.P.J. Barth, ikut membuka rapat.
+---
+[number=off icon=none photo=anoi-para-kepala]
+Yang disepakati
+Hentikan perang antarsuku, balas dendam antarkeluarga, kayau, dan perbudakan. Hukum adat Dayak diakui dan diseragamkan antarsuku.
+---
+[number=off icon=none photo=anoi-para-kepala]
+Sekaligus sidang adat besar
+Sengketa lama dibawa ke rapat. Menurut catatan KMA M. Usop, 233 perkara diputus. Sisanya ditolak karena terlalu lama atau tanpa bukti.
+---
+[number=off icon=none photo=anoi-kampong]
+*14 Juni 1893*: berawal di Kuala Kapuas
+Residen Belanda, Brus, mengumpulkan para kepala suku di Kuala Kapuas. Di sana diputuskan: rapat besar seluruh Dayak digelar di Tumbang Anoi.
+---
+[number=off icon=none photo=anoi-damang-ribu]
+Tuan rumah: Damang Batu
+Kepala Tumbang Anoi, juga dikenal sebagai Damang Ribu. Ia menawarkan diri jadi tuan rumah dan berbulan-bulan menyiapkan tempat serta makanan.
+---
+[number=off icon=none photo=anoi-pembukaan]
+Angkanya berbeda-beda
+152 suku disebut hadir, ada yang bilang diundang. Kesepakatannya ditulis 8 atau 9 butir, atau 96 pasal adat. Penutupan umumnya 24 Juli, sebagian menulis 24 Juni.
+---
+[number=off icon=none photo=anoi-damang-ribu]
+Prakarsa siapa?
+Butir pertamanya: berhenti bermusuhan dengan Hindia Belanda. Peneliti mencatat prakarsanya lebih banyak dari Belanda, yang saat itu mulai masuk ke pedalaman.
+---
+[number=off icon=none photo=anoi-kahayan-tewah]
+Hulu Kahayan hari ini
+Betang Damang Batu kini cagar budaya, dan namanya jadi nama kecamatan di Gunung Mas. April 2026, Menteri Kebudayaan mendukung revitalisasi hukum adat Tumbang Anoi.
+---
+[end photo=anoi-kampong cta="Kirim ke orang Kalteng"]
+Pernah diajarkan *soal Tumbang Anoi?*
+Komen 1 kalau pernah diajarkan, 2 kalau baru tahu.

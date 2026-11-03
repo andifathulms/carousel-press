@@ -160,3 +160,30 @@ Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterd
 | sultanah-gunongan | Sultanah Aceh | Gunongan Putroë Phang.JPG | Si Gam | CC BY-SA 3.0 |
 | sultanah-taman-1880 | Sultanah Aceh | Taman bij Kota Goenongan.jpg | G.B. Hooijer | Public domain |
 | sultanah-krueng-aceh | Sultanah Aceh | Krueng Aceh.jpg | Si Gam | CC BY-SA 4.0 |
+| gorontalo-wartabone | sejarah-gorontalo-1942-id | Portrait_of_Nani_Wartabone,_Sulawesi_Utara_Bergolak,_p34.jpg | IPPHOS | Public domain |
+| gorontalo-jalan | sejarah-gorontalo-1942-id | KITLV_A1088_-_Straat_te_Gorontalo,_KITLV_118625.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| gorontalo-teluk | sejarah-gorontalo-1942-id | KITLV_A1088_-_Baai_van_Gorontalo,_KITLV_118627.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| gorontalo-monumen | sejarah-gorontalo-1942-id | Monumen_Nani_Wartabone.JPG | Marwan Mohamad | CC BY-SA 3.0 |
+| gorontalo-suwawa | sejarah-gorontalo-1942-id | Dusk_at_Suwawa.jpg | FahreziJasin | CC BY-SA 4.0 |
+| anoi-kampong | sejarah-tumbang-anoi-id | COLLECTIE WERELDMUSEUM AMSTERDAM Gezicht vanaf de Kahajan rivier op de Dajak kampong Toembanganoi… TM-FV-1536-97.jpg | unknown (1894) | CC BY-SA 3.0 |
+| anoi-pembukaan | sejarah-tumbang-anoi-id | COLLECTIE TROPENMUSEUM Controleurs A.C. de Heer en J.P.J. Barth temidden van Dajak afgevaardigden… TMnr 60010387.jpg | unknown (1894) | CC BY-SA 3.0 |
+| anoi-para-kepala | sejarah-tumbang-anoi-id | COLLECTIE TROPENMUSEUM Groepsportret van districtshoofden… te Toembanganoi. TMnr 60046444.jpg | unknown (1894) | CC BY-SA 3.0 |
+| anoi-damang-ribu | sejarah-tumbang-anoi-id | COLLECTIE WERELDMUSEUM AMSTERDAM Hoofd van het dorp Toembanganoi, Demang Riboe… TM-FV-1536-98.jpg | unknown (1894) | CC BY-SA 3.0 |
+| anoi-kahayan-tewah | sejarah-tumbang-anoi-id | Sungai Kahayan di Tewah.jpg | Raflinoer32 | CC BY-SA 4.0 |
+| penyengat-masjid | sejarah-penyengat-id | Masjid Raya Sultan Riau, Pulau Penyengat.jpg | Rahma Azizah | CC BY-SA 4.0 |
+| penyengat-makam-hamidah | sejarah-penyengat-id | Pulau Penyengat 1.jpg | a_rabin | CC BY 2.0 |
+| penyengat-istana-ydm | sejarah-penyengat-id | Paleis van de onderkoning van Riouw te Penjengat, KITLV 26661.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| penyengat-pendaratan | sejarah-penyengat-id | Landing der troepen op het Eiland Marsch.jpg | J.C. Baane | Public domain |
+| penyengat-makam-raja-ali-haji | sejarah-penyengat-id | Pulau Penyengat 3.jpg | a_rabin | CC BY 2.0 |
+| penyengat-sultan-riouw | sejarah-penyengat-id | Verheffing van Abdoel Rachman Maädlam Sjah … tot sultan van Riouw te Penjengat, KITLV 26380.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| pitung-tanah-abang-1890 | sejarah-si-pitung-id | KITLV A692 - Tanah Abang te Batavia, KITLV 377430.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| pitung-tanah-abang-1899 | sejarah-si-pitung-id | Tanah Abang te Batavia, KITLV 5255.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| pitung-kali-tanah-abang | sejarah-si-pitung-id | Weltevreden. Gezicht op de Kali te Tanah-Abang., KITLV 1400475.tiff | G. Kolff & Co. / KITLV | CC BY 4.0 |
+| pitung-rumah-marunda | sejarah-si-pitung-id | Tampak depan Rumah si Pitung Marunda.jpg | Olobaho | CC BY-SA 4.0 |
+| pitung-rumah-papan | sejarah-si-pitung-id | Si Pitung House.jpg | Si Gam | CC BY-SA 4.0 |
+| muarojambi-gumpung | sejarah-muaro-jambi-id | 020 Candi Gumpung and Platform, Candi Gumpung (24266825577).jpg | Anandajoti Bhikkhu (Photo Dharma) | CC BY 2.0 |
+| muarojambi-kedaton | sejarah-muaro-jambi-id | 075 Main Candi, Candi Kedaton (38245046225).jpg | Anandajoti Bhikkhu (Photo Dharma) | CC BY 2.0 |
+| muarojambi-kembar-batu | sejarah-muaro-jambi-id | 040 Two Candis and Stairs, Candi Kembar Batu (27349843789).jpg | Anandajoti Bhikkhu (Photo Dharma) | CC BY 2.0 |
+| muarojambi-kanal | sejarah-muaro-jambi-id | 098 Canal, near Candi Kedaton (24266621027).jpg | Anandajoti Bhikkhu (Photo Dharma) | CC BY 2.0 |
+| muarojambi-reruntuhan | sejarah-muaro-jambi-id | 096 Ruins, Candi Kedaton (24266628007).jpg | Anandajoti Bhikkhu (Photo Dharma) | CC BY 2.0 |
+| muarojambi-atisha | sejarah-muaro-jambi-id | Portrait of the Indian Monk Atisha.jpg (The Met, 12th c.) | unknown | Public domain |

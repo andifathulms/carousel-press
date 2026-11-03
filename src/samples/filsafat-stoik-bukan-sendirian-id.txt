@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: salah kaprah stoik 4 nggak minta tolong
+caption: Di medsos, stoik digambarkan kuat sendirian. Kaisar Roma justru menulis untuk dirinya sendiri: jangan malu dibantu. Sumber: Marcus Aurelius, Meditasi 7.5 & 7.7 (terj. George Long) · SEP "Marcus Aurelius" · SEP "Stoicism" #stoikisme #filsafatharian #salahkaprah #duniakerja
+---
+[cover kicker="SALAH KAPRAH STOIK · #4"]
+Stoik itu | *nggak minta tolong?*
+Kata medsos vs kata kaisar Roma, sebelum kamu tanggung semuanya sendirian.
+---
+[compare]
+headline: Yang sering salah dipahami
+wrong-label: Kata medsos
+wrong: Stoik = tanggung semua sendiri. Minta tolong itu tanda lemah.
+right-label: Kata Marcus Aurelius
+right: Kalau mampuku tak cukup, kerjakan sebaik mungkin dengan bantuan orang yang bisa.
+why: Meditasi 7.5. Ukurannya apa yang berguna bagi bersama, bukan gengsi.
+---
+[quote icon=none]
+Jangan malu dibantu. Tugasmu seperti prajurit yang menyerbu kota. Lalu bagaimana kalau kamu pincang, tak bisa naik benteng sendirian, tapi bisa dibantu orang lain?
+— Marcus Aurelius, Meditasi 7.7 (terj. bebas, Long)
+---
+[card kicker="Ide Marcus Aurelius · kaisar Roma, 161–180 M" number=off icon=none]
+Yang dinilai *bentengnya,* bukan cara naiknya.
+Prajurit yang naik dibantu temannya tetap ikut menyerbu. Kebajikan Stoa itu bijak, adil, berani, dan tahu batas. Gengsi nggak ada di daftarnya.
+---
+[card kicker="Coba hari ini" number=off icon=none]
+Minta tolong *dengan satu kalimat jelas.*
+Sebut bagian yang butuh bantuan dan batas waktunya: “Bisa bantu cek angka di slide 4 sebelum jam 3?”
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Minta tolong *bukan melempar kerjaan.*
+Bagianmu tetap kamu kerjakan sebaik mungkin. Kalau bebannya memang tak masuk akal, itu bahan bicara dengan atasan, bukan bukti kamu lemah.
+---
+[end cta="Simpan"]
+Terakhir kali kamu minta tolong *kapan?*
+Komen satu: minggu ini, bulan ini, atau lupa.

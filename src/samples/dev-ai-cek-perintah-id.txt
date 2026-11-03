@@ -1,0 +1,97 @@
+template: dev/terminal
+handle: @fathul_learncoding
+lang: id
+title: ai nyuruh jalanin rm rf cek dulu
+caption: AI nyuruh jalanin rm -rf, chmod 777, atau curl | bash? Cek dulu sebelum tekan Enter, satu perintah satu kebiasaan. Diuji di Ubuntu 24.04. #ai #linux #belajarcoding
+---
+[cover kicker="AI • KEAMANAN"]
+AI nyuruh jalanin | `rm -rf`? *Cek dulu*
+Atau `chmod 777`, atau `curl | bash`. 6 hal yang kucek sebelum tekan Enter. Simpan dulu.
+---
+[code]
+`rm -rf`: lihat dulu isinya
+Nggak ada undo, nggak masuk Trash. Pastikan path-nya memang yang kamu maksud.
+```bash
+ls ./build
+# assets  index.html
+rm -rf ./build
+```
+Path-nya `/`, `~`, atau `*` doang? Stop, tanya dulu kenapa.
+---
+[code]
+Ada variabel? Echo dulu
+Variabel kosong bikin `"$DIR"/*` jadi `/*`, seisi server. Tulis `echo` di depan buat lihat hasilnya.
+```bash
+DIR=""
+echo rm -rf "$DIR"/*
+# rm -rf /bin /boot /dev /etc ...
+rm -rf "${DIR:?}"/*
+# DIR: parameter null or not set
+```
+`${DIR:?}` bikin perintahnya berhenti kalau variabelnya kosong.
+---
+[code]
+`chmod 777`? Benerin pemiliknya
+777 = semua user dan proses boleh nulis. “Permission denied” biasanya soal pemilik folder.
+```bash
+ls -ld storage
+# drwxr-xr-x 1 root root ...
+sudo chown -R \
+  www-data:www-data storage
+# drwxr-xr-x 1 www-data www-data
+```
+`www-data` = user yang dipakai nginx dan PHP di Ubuntu.
+---
+[code]
+`curl … | bash`? Unduh, baca dulu
+Pipa ke `bash` langsung menjalankan isi yang belum kamu lihat. Cek juga: alamatnya dari docs resmi, bukan karangan AI?
+```bash
+curl -fsSL -o install.sh \
+  https://get.docker.com
+less install.sh
+sh install.sh --dry-run
+```
+`--dry-run` khusus script Docker ini: nampilin langkahnya tanpa menjalankan.
+---
+[code]
+Minta AI jelasin dulu
+Cocokkan jawabannya dengan `man` atau docs resmi.
+```
+Jelasin perintah ini bagian
+per bagian: apa yang dihapus
+atau diubah, kenapa butuh
+sudo, dan bisa di-undo nggak?
+```
+---
+[code]
+Masih ragu? Coba di container
+Jalankan di situ dulu. `--rm` = container dibuang begitu kamu keluar.
+```bash
+docker run --rm -it ubuntu:24.04
+# rusak? exit, hilang semua
+```
+---
+[code number=off]
+Simpan ini
+Sebelum tekan Enter, cek baris yang cocok.
+```bash
+# rm -rf: lihat dulu isinya
+ls ./build
+# ada variabel: echo dulu
+echo rm -rf "$DIR"/*
+rm -rf "${DIR:?}"/*
+# Permission denied: bukan 777
+sudo chown -R \
+  www-data:www-data storage
+# curl | bash: unduh, baca dulu
+curl -fsSL -o install.sh URL
+less install.sh
+# ragu: coba di container
+docker run --rm -it ubuntu:24.04
+```
+---
+[end cta="Simpan"]
+Perintah AI yang bikin kamu *ragu tekan Enter?*
+Komen A: `rm -rf`, B: `chmod 777`, C: `curl | bash`.
+
+Lagi butuh web portofolio atau aplikasi web? Ngobrol aja di *andifathulms.github.io*

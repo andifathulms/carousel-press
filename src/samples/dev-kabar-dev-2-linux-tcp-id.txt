@@ -1,0 +1,73 @@
+handle: @fathul_learncoding
+template: dev/kabar
+lang: id
+title: kabar dev 2 linux tcp
+caption: Celah kritis di kernel Linux (CVE-2026-98432) kena hampir semua VPS Linux. Debian sudah ada tambalan, Ubuntu masih disiapkan. Cara cek dan jaga server kamu sambil nunggu, per 3 Nov 2026. Sumber: Linux kernel CVE team (NVD), Ubuntu CVE tracker, Debian security tracker, Red Hat RHSB-2026-016, AWS bulletin 2026-160-AWS, Go security team, Anthropic, CIQ. #linux #vps #keamanansiber #belajarcoding
+---
+[cover kicker="KABAR DEV · #2 · 3 NOV 2026"]
+Celah kritis di *kernel Linux*. | Cek VPS kamu
+Debian sudah ada tambalan, Ubuntu masih disiapkan. Ini cara cek dan jaga server kamu sambil nunggu.
+---
+[card verdict="KRITIS" tone=bad kicker="KABAR DEV · 3 NOV 2026" icon=none]
+Server bisa *diambil alih* lewat TCP
+Celah CVE-2026-98432 ada di kernel, bagian yang menerima koneksi TCP (IPv4). Skor 9.8.
+Peneliti Anthropic membuktikan RCE: perintah penyerang jalan sebagai root, tanpa login, di server dengan listener MPTCP.
+---
+[card kicker="KABAR DEV · 3 NOV 2026" icon=none]
+Dua resepsionis, satu *formulir tamu*
+Kernel itu inti sistem operasi, termasuk “resepsionis” koneksi masuk.
+Tamu mengetuk dua kali. Resepsionis A membuang formulirnya, B masih membacanya.
+Membaca yang sudah dibuang itu namanya use-after-free.
+---
+[card verdict="PENTING" tone=warn kicker="KABAR DEV · 3 NOV 2026" icon=none]
+Yang kena: server Linux, kernel 4.4 ke atas
+Sudah ada tambalan: Debian 12 (6.1.190-1), Debian 13 (6.12.115-2), Amazon Linux.
+Ubuntu 22.04 sampai 26.10: tambalan masih disiapkan. Ubuntu 20.04 ke bawah: belum ada.
+Shared hosting? Kernel diurus hosting kamu.
+---
+[code number=off]
+Cek kernel server kamu
+Nomor kernel Ubuntu beda dari nomor upstream, jadi cek paketnya.
+```bash
+uname -r
+# nomor kernel yang sedang jalan
+sudo apt update
+apt-cache policy linux-image-generic
+# Ubuntu 24.04, per 3 Nov:
+# Candidate: 6.8.0-147.147
+# tambalannya nanti 6.8.0-149
+```
+Akhiran `-aws`, `-azure`, `-gcp`? Cek barisnya di tracker Ubuntu.
+---
+[code number=off]
+Tambalan keluar? Update, lalu reboot
+Debian 12 dan 13 bisa sekarang. Ubuntu: begitu tracker-nya bilang “Released”.
+```bash
+sudo apt update
+sudo apt upgrade
+# kernel baru aktif setelah reboot
+sudo reboot
+uname -r
+```
+Reboot bikin website mati sebentar. Pilih jam sepi.
+---
+[code number=off]
+Sambil nunggu: cek MPTCP
+Serangan yang dibuktikan butuh listener MPTCP (TCP lewat banyak jalur). Program Go 1.24+ menyalakannya otomatis.
+```bash
+sysctl net.mptcp.enabled
+# 1 = aplikasi boleh pakai MPTCP
+sudo ss -Mltn
+# cuma baris judul = nggak ada
+```
+Nggak dipakai? Matikan (`net.mptcp.enabled=0`), tutup port yang nggak perlu. Ini cuma mengurangi risiko.
+---
+[card kicker="KABAR DEV · 3 NOV 2026" icon=none]
+Yang *belum pasti* (per 3 Nov)
+Diserang? AWS (2 Nov): belum ada bukti. Belum masuk daftar CISA (KEV).
+Tanpa MPTCP, RCE belum ditunjukkan, tapi Red Hat dan tim Go bilang tetap mungkin.
+Tanggal tambalan Ubuntu belum diumumkan.
+---
+[end cta="Follow"]
+VPS kamu pakai *distro apa?*
+Komen satu kata aja: Ubuntu, Debian, Alma… Kabar Dev #3 minggu depan.

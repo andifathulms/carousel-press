@@ -1,0 +1,63 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: salah ngomong 4 let me to
+caption: Kesalahan bahasa Inggris yang sering dipakai orang Indonesia: “let me to introduce myself”, “made me to work”, “must to”. Setelah kata ini, kata kerjanya langsung tanpa to. Sumber: Cambridge Grammar (Let; Make; Had better; Would rather; Word patterns: help); Cambridge Dictionary blog (Modal verbs: the basics) #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="SALAH NGOMONG · #4"]
+“Let Me to Introduce Myself”? | Hapus “To”-nya
+Let, make, must, had better, would rather: langsung kata kerja, tanpa to. Plus 2 kuis kecil.
+---
+[card kicker="Mana yang benar?" number=off]
+*A.* Let me to introduce myself. | *B.* Let me introduce myself.
+Kamu buka presentasi di kelas atau di kantor. Pilih yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Let me to introduce myself.
+right: *Let me introduce* myself.
+why: Let + orang + kata kerja dasar, tanpa to. Contoh di Cambridge: She let me look at the photos, bukan let me to look.
+---
+[compare]
+wrong: My boss made me to work on Sunday.
+right: My boss *made me work* on Sunday.
+why: Make yang artinya maksa juga langsung kata kerja. Bedanya cuma di kalimat pasif: I was made to work on Sunday.
+---
+[compare]
+wrong: You must to submit the report today.
+right: You *must submit* the report today.
+why: Must, should, can, could, will: semua langsung kata kerja dasar. Yang tetap pakai to: ought to dan have to.
+---
+[card kicker="Kuis 2" number=off]
+*A.* Can you help me to carry this box? | *B.* Can you help me carry this box?
+Teman lagi pindahan kos. Kamu minta tolong pakai yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Can you help me carrying this box?
+right: Can you help me *(to) carry* this box?
+why: Kuis 2 jebakan: A dan B sama-sama benar. Help boleh pakai to, boleh tanpa to. Yang salah cuma bentuk -ing.
+---
+[compare]
+wrong: It’s late. I’d better to go home.
+right: It’s late. *I’d better go* home.
+why: Had better (sebaiknya, biar nggak repot) juga tanpa to. Bentuk pendeknya ’d better.
+---
+[compare]
+wrong: I’d rather to stay at home tonight.
+right: *I’d rather stay* at home tonight.
+why: Would rather (lebih milih) langsung kata kerja. Bandingkan dua pilihan pakai than: I’d rather walk than wait.
+---
+[table]
+Langsung kata kerja, *tanpa to*
+| Pola | Contoh |
+| let + orang | Let me explain. |
+| make + orang | She made me laugh. |
+| must, should, can | You should rest. |
+| had better | You’d better hurry. |
+| would rather | I’d rather walk. |
+Help boleh dua-duanya: help me (to) carry. Ought to dan have to tetap pakai to.
+---
+[end cta="Simpan"]
+Kuis 2 tadi kamu pilih *A, B, atau dua-duanya?*
+Komen satu huruf, atau “dua”. Salah ngomong #5 minggu depan.

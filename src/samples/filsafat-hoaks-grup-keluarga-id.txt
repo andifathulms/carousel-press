@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: pilih mana 5 hoaks di grup keluarga
+caption: Om sudah meneruskan, dua tante sudah bilang “makasih infonya”. Koreksi di grup keluarga, atau diam? Sumber: Marcus Aurelius, Meditasi 5.28 & 11.18 (terj. George Long) · Epiktetos, Enchiridion 1 & 33 (terj. T.W. Higginson) · SEP "Marcus Aurelius" #filsafatharian #grupkeluarga #hoaks #dilema
+---
+[cover kicker="KAMU PILIH MANA? · #5"]
+Om kirim hoaks | *di grup keluarga.*
+Koreksi atau diam? Dua orang Stoa menimbang.
+---
+[card kicker="Kamu pilih mana?" number=off icon=none]
+*A.* Koreksi di grup. | *B.* Diam aja.
+Pesan berantai soal obat ajaib, diteruskan Om ke grup keluarga. Dua tante sudah balas “makasih infonya”.
+---
+[card kicker="Posisi A · Marcus Aurelius (121–180 M)" number=off icon=none]
+Tunjukkan kelirunya, *tanpa marah.*
+Meditasi 5.28: pakai akalmu untuk menggugah akalnya, tunjukkan kesalahannya. Kalau ia mau mendengar, kamu menyembuhkannya.
+---
+[card kicker="Posisi B · Epiktetos, pernah jadi budak" number=off icon=none]
+Keyakinan Om *bukan milikmu.*
+Enchiridion 1: yang dalam kendali kita hanya pendapat, tujuan, dan keinginan kita sendiri. Enchiridion 33: lebih banyak diam, bicara seperlunya.
+---
+[quote icon=none]
+Tegurlah dengan lembut. Lakukan tanpa sindiran dan tanpa mencela, tapi dengan kasih sayang; bukan seperti menggurui, bukan pula supaya dikagumi orang yang melihat.
+— Marcus Aurelius, Meditasi 11.18 (terj. bebas, Long)
+---
+[card kicker="Jalan tengah · Meditasi 11.18" number=off icon=none]
+Japri, *bukan di depan semua orang.*
+Kalimat Marcus terputus di naskah tepat di sini: “…tapi saat ia sendirian, dan kalau ada orang lain…”. Japri Om, kirim sumber yang benar, pakai bahasa sayang.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+Kalau hoaksnya *bisa mencelakai,* jangan tunggu.
+Obat pengganti pengobatan dokter atau link penipuan transfer: bilang di grup dengan sopan, sertakan sumbernya. Keluarga lain juga membaca.
+---
+[end cta="Simpan"]
+Kamu *A atau B?*
+Komen satu huruf. Om-nya nggak usah di-tag.

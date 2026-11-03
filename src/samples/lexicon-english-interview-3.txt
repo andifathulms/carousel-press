@@ -1,0 +1,47 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: interview 3 why should we hire you
+caption: Cara jawab why should we hire you di interview bahasa Inggris: kebutuhan mereka, bukti dari pengalamanmu, nilai tambahmu. Sumber: Bright Network; Robert Half; Jobstreet; Cambridge Dictionary #interviewbahasainggris #belajarbahasainggris #kosakatainggris
+---
+[cover kicker="INTERVIEW · #3"]
+“Why Should We Hire You?” | Jawab Pakai Bukti
+Pola 4 langkah buat fresh graduate dan yang pindah kerja, plus kalimat siap pakai.
+---
+[card kicker="Jawaban yang lebih kuat" number=off]
+You need someone *good with numbers*, and I’ve done that work in my internship.
+Yang lemah: “Because I really need this job.”
+Nggak salah grammar-nya, tapi isinya tentang kamu, bukan tentang mereka. Yang dicari: apa yang bisa kamu bawa ke tim.
+---
+[card kicker="1 · Kebutuhan mereka" number=off]
+From the job ad, you’re *looking for* someone who’s good with numbers.
+Buka dengan yang mereka cari, ambil dari iklan lowongan. Good with = jago menangani sesuatu.
+---
+[card kicker="2 · Buktinya" number=off]
+In my internship, I *was in charge of* the weekly sales report.
+In charge of = bertanggung jawab atas. Satu contoh nyata lebih kuat dari “I’m a hard worker”. Ada angka? Sebut, asal benar.
+---
+[card kicker="3 · Nilai tambahmu" number=off]
+*On top of that*, I can use basic SQL, so I can prepare the data myself.
+On top of that = selain itu. Pilih yang bikin kamu beda, bukan skill yang semua pelamar punya.
+---
+[card kicker="4 · Penutup" number=off]
+I’d *love to bring* that experience to your team.
+Tutup dengan apa yang bisa kamu kasih ke tim. Boleh tambah: Does that match what you’re looking for?
+---
+[compare]
+wrong: I am very interesting in this position.
+right: I’m very *interested* in this position.
+why: Interested = tertarik, perasaanmu. Interesting = menarik, sifat sesuatu: This position is interesting.
+---
+[card kicker="Jangan dipilih" number=off]
+Tiga jawaban yang bikin rugi
+“Because I really need this job.” Isinya tentang kamu. | “I’m clearly the best candidate.” Kedengaran sombong. | “I’m a hard worker.” Tanpa contoh, susah dipercaya.
+---
+[card kicker="Ringkasan" number=off]
+Why should we hire you?
+*Kebutuhan:* From the job ad, you’re looking for someone who’s good with numbers. | *Bukti:* In my internship, I was in charge of the weekly sales report. | *Nilai tambah:* On top of that, I can use basic SQL. | *Penutup:* I’d love to bring that experience to your team.
+---
+[end cta="Simpan"]
+Langkah mana yang *paling susah buat kamu?*
+Komen satu angka: 1, 2, 3, atau 4. Interview #4 minggu depan.

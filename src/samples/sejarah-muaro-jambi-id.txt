@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: atisha berguru 12 tahun di swarnadwipa muaro jambi
+caption: Jambi, Candi Muaro Jambi: sekitar 1012–1024, biksu asal Bengal bernama Atisha berguru 12 tahun di Swarnadwipa sebelum mengubah sejarah Buddha di Tibet. Sumber: Peter Skilling, “Dharmakirti’s Durbodhaloka and the Literature of Srivijaya”, Journal of the Siam Society 85 (1997); Muarajambi Temple Compound, Daftar Tentatif UNESCO (berkas Indonesia, 2025); Claudine Salmon, Archipel 66 (2003); Adi dkk., Berkala Arkeologi 42(2), BRIN; Lesley Pullen, Konferensi Internasional Kajian Jambi (2013); The Jakarta Post (2014); Mongabay Indonesia (2024) · Foto: Anandajoti Bhikkhu/Photo Dharma (CC BY 2.0) via Wikimedia Commons; lukisan Atisha, The Met (domain publik) #sejarahindonesia #jambi #candimuarojambi #muarojambi
+---
+[cover kicker="JAMBI · SEKITAR 1012" photo=muarojambi-gumpung]
+Dari Bengal ke Sumatra, | Berguru 12 Tahun
+Atisha, tokoh besar Buddha Tibet, belajar di Swarnadwipa. Indonesia mengaitkannya dengan Candi Muaro Jambi.
+---
+[number=off icon=none photo=muarojambi-atisha]
+*Sekitar 1012*: biksu Bengal tiba
+Atisha berguru pada Dharmakirti di Swarnadwipa selama 12 tahun, sampai sekitar 1024. Menurut berkas Indonesia ke UNESCO, pelayarannya makan waktu 13 bulan.
+---
+[number=off icon=none photo=muarojambi-atisha]
+Lalu ia diundang ke Tibet
+Setelah kembali ke India, Atisha diundang ke Tibet. Ajarannya melahirkan aliran Kadampa, akar aliran Gelugpa tempat para Dalai Lama berasal.
+---
+[number=off icon=none photo=muarojambi-kanal]
+Di mana tepatnya? Masih diperdebatkan
+Berkas Indonesia ke UNESCO menunjuk Muarajambi. Peneliti Peter Skilling (1997) menduga Dharmakirti justru berkarya di sekitar Kedah, Semenanjung Malaya.
+---
+[number=off icon=none photo=muarojambi-reruntuhan]
+*1820*: dicatat perwira Inggris
+Letnan S.C. Crooke melaporkan reruntuhan kuno di tepi Batanghari. Sebagian tulisan menyebut 1824, tetapi kajian Claudine Salmon (2003) memakai 1820.
+---
+[number=off icon=none photo=muarojambi-kedaton]
+*3.981 hektare*, 101 situs
+Sampai 2019 tercatat sekitar 101 situs: candi, kanal, kolam, dan gundukan bata bernama menapo. Sekitar 11 sudah dipugar, termasuk Kedaton, Gumpung, dan Kembar Batu.
+---
+[number=off icon=none photo=muarojambi-gumpung]
+*1978*: arca tanpa kepala
+Arca Prajnaparamita ditemukan di Candi Gumpung tanpa kepala. Pahatan kain dan ikat pinggangnya rinci, dan para ahli menempatkannya di sekitar abad ke-13.
+---
+[number=off icon=none photo=muarojambi-kembar-batu]
+*2013*: cagar budaya nasional
+SK Mendikbud 259/M/2013 menetapkannya sebagai kawasan cagar budaya nasional. Diusulkan ke UNESCO sejak 2009, statusnya masih daftar tentatif.
+---
+[number=off icon=none photo=muarojambi-reruntuhan]
+*2024*: batubara di zona inti
+Mongabay melaporkan tumpukan batubara di zona inti, padahal aturan zonasi 2023 melarangnya. Menurut arkeolog Agus Widiatmoko, zatnya membuat bata candi lapuk.
+---
+[end photo=muarojambi-gumpung cta="Komen"]
+Udah pernah ke *Candi Muaro Jambi?*
+Komen “udah” atau “belum”. Kirim ke temanmu yang dari Jambi.

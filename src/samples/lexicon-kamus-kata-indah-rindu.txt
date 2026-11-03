@@ -1,0 +1,87 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata indah rindu
+caption: Kata indah tentang rindu yang benar-benar ada di KBBI, buat caption dan puisi. Kangen sendiri ternyata ragam cakapan. Sumber: KBBI VI Daring (dicek 3 November 2026) #bahasaindonesia #kataindah #kbbi
+---
+[cover kicker="KATA INDAH #7 · KBBI VI"]
+Kangen Ternyata | Ragam Cakapan
+Buat caption yang lebih puitis: 8 kata indah tentang rindu yang benar-benar ada di KBBI.
+---
+[card number=off]
+*Kangen* itu cakapan
+KBBI VI menandai kangen sebagai ragam cakapan (cak): “ingin sekali bertemu; rindu”.
+Di chat, kangen tetap hangat. Di puisi, surat, atau caption, coba kata-kata ini.
+---
+[word]
+pos: adjektiva
+word: rindu
+meaning: memiliki keinginan yang kuat untuk bertemu (hendak pulang ke kampung halaman)
+example: Hari ini aku *rindu* rumah, dan semua orang di dalamnya.
+note: Arti lainnya: sangat ingin dan berharap benar terhadap sesuatu. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: damba
+meaning: sangat ingin; rindu
+example: Lama di rantau, aku *damba* masakan rumah.
+note: KBBI juga mencatat bentuk mendamba. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: kalbu
+meaning: pangkal perasaan batin; hati yang suci (murni); hati
+example: Namamu tersimpan rapi di *kalbu*.
+note: Tulis kalbu. Qalbu, qolbu, dan kolbu tercatat tidak baku. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: sendu
+meaning: berasa sedih dan pilu; dukacita; sedu
+example: Lagu *sendu* untuk malam yang terlalu sepi tanpamu.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: pilu
+meaning: sangat sedih, terharu (rawan)
+example: *Pilu* rasanya melambai lagi di bandara.
+note: Contoh di KBBI: pilu rasa hatiku, bagai diiris sembilu. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: sayu
+meaning: kuyu; suram (tentang mata)
+example: Matamu *sayu*, menyimpan rindu yang belum sempat diucap.
+note: Arti lainnya: sangat sedih dan terharu (tentang perasaan hati). Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva · klasik
+word: lara
+meaning: sedih; susah hati
+example: Jauh darimu, hati ini *lara* tiap malam.
+note: Berlabel klasik, cocok untuk puisi. Arti lainnya: sakit. Sumber: KBBI VI Daring
+---
+[word]
+pos: verba
+word: bersua
+meaning: bertemu; berjumpa
+example: Sampai kita *bersua* lagi, jaga dirimu baik-baik.
+note: Kata dasarnya sua. Sumber: KBBI VI Daring
+---
+[table]
+Simpan buat caption rindu
+| Kata | Kelas |
+| *rindu* | adjektiva |
+| *damba* | adjektiva |
+| *kalbu* | nomina |
+| *sendu* | adjektiva |
+| *pilu* | adjektiva |
+| *sayu* | adjektiva |
+| *lara* | adjektiva |
+| *bersua* | verba |
+Semua tercatat di KBBI VI Daring
+---
+[end cta="Kirim ke dia"]
+Pakai satu kata tadi *dalam satu kalimat.*
+Tulis di komen, lalu kirim ke yang kamu rindukan.

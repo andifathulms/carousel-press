@@ -1,0 +1,37 @@
+template: editorial/tameng
+handle: @filsafatharian.id
+lang: id
+title: tameng 10 umur segini harusnya udah
+caption: “Umur segini harusnya udah…” Kalimatnya pendek, tapi penggarisnya dipakai buat semua orang. Zhuangzi punya bebek dan bangau buat ini. Sumber: Zhuangzi, bab VIII & XVII (terj. Herbert A. Giles, 1889) · SEP "Zhuangzi" #filsafatharian #umursegini #quarterlifecrisis #insecure
+---
+[cover kicker="FILSAFAT HARIAN · TAMENG #10"]
+“Umur segini | *harusnya udah…*”
+Cara Zhuangzi lepas dari garis waktu orang lain.
+---
+[card kicker="Situasinya" number=off icon=none]
+Ulang tahun ke-27, *lalu kamu buka Instagram.*
+Ada yang sudah punya rumah, ada yang sudah dua anak. Kamu masih ngekos.
+---
+[card kicker="Yang sebenarnya melukai" number=off icon=none]
+Bukan umurnya, tapi *satu penggaris untuk semua orang.*
+“Aku telat.” “Harusnya aku sudah sampai sana.”
+---
+[quote icon=none]
+Kaki bebek memang pendek, tapi tak bisa dipanjangkan tanpa menyakiti si bebek. Kaki bangau memang panjang, tapi tak bisa dipotong tanpa menyengsarakan si bangau.
+— Zhuangzi, bab VIII (terj. bebas, Giles)
+---
+[card kicker="Ide Zhuangzi · menolak jabatan, abad ke-4 SM" number=off icon=none]
+Tiap orang *punya panjangnya sendiri.*
+Di bab yang sama: yang panjang tak dianggap berlebih, yang pendek tak dianggap kurang. Ia sendiri menolak jabatan tinggi demi hidup bebas, “mengibaskan ekor di lumpur” (bab XVII).
+---
+[card kicker="Coba malam ini" number=off icon=none]
+Ganti “harusnya udah” jadi *“aku lagi bangun apa?”*
+Tulis satu hal yang sedang kamu kerjakan, sekecil apa pun. Ukur dari situ, bukan dari unggahan orang.
+---
+[card kicker="Tapi…" number=off icon=none surface=baja]
+“Alami” *bukan berarti berhenti tumbuh.*
+Zhuangzi menulisnya untuk mengkritik moral yang dipaksakan, bukan soal karier. Kalau ada yang memang kamu inginkan, kejar dengan ukuranmu sendiri.
+---
+[end cta="Simpan"]
+Kalimat “umur segini” yang *paling sering kamu dengar?*
+Komen satu kata: nikah, rumah, atau gaji?

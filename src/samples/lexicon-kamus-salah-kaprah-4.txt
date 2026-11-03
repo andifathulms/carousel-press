@@ -1,0 +1,82 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: emang itu paman
+caption: Di KBBI, emang itu paman (bahasa Sunda), tau itu huruf Yunani, dan sampe itu alat musik dari Kalimantan. Di chat sah saja, di tulisan resmi pakai memang, tahu, sampai. Sumber: KBBI VI Daring (dicek 3 November 2026) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="SALAH KAPRAH #4"]
+Emang Gitu? | Di KBBI, Emang Itu Paman
+Yang baku: memang. Plus tau, sampe, dan 5 kata chat lain yang di KBBI ternyata beda.
+---
+[word]
+pos: nomina · Sunda
+word: emang
+meaning: paman
+example: Lebaran nanti kami mampir ke rumah *emang* di Garut.
+note: Emang yang berarti memang belum tercatat di KBBI VI. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Di chat
+right-label: Bentuk baku
+wrong: Emang gitu aturannya?
+right: *Memang begitu* aturannya?
+why: Di KBBI VI, emang hanya berarti paman (Sunda). Gitu diarahkan ke bentuk bakunya, begitu.
+---
+[word]
+pos: nomina
+word: tau
+meaning: nama huruf ke-19 abjad Yunani
+example: Di papan tulis, huruf *tau* ditulis τ.
+note: Tau dengan arti tahu tercatat sebagai ragam cakapan. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Saya belum tau jadwalnya.
+right: Saya belum *tahu* jadwalnya.
+why: KBBI VI menandai tau dengan arti tahu sebagai ragam cakapan (cak). Di tulisan resmi, pakai tahu.
+---
+[word]
+pos: nomina
+word: sampe
+meaning: sape
+example: Petikan *sampe* mengiringi tarian di panggung itu.
+note: Sape: alat musik petik tradisional Kalimantan, berbentuk seperti perahu. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Di chat
+right-label: Bentuk baku
+wrong: Kemaren dia sampe duluan.
+right: *Kemarin* dia *sampai* duluan.
+why: KBBI VI mengarahkan kemaren ke kemarin. Sampe di KBBI berarti sape, bukan sampai.
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Laporannya udah dikirim.
+right: Laporannya *sudah* dikirim.
+why: KBBI VI menandai udah sebagai ragam cakapan dari sudah.
+---
+[compare]
+wrong-label: Di chat
+right-label: Bentuk baku
+wrong: Gimana kalau pake yang biru?
+right: *Bagaimana* kalau *pakai* yang biru?
+why: KBBI VI mengarahkan gimana ke bagaimana, dan pake ke pakai.
+---
+[table]
+Yang ditulis
+| Tulis | Bukan |
+| *memang* | emang |
+| *begitu* | gitu |
+| *tahu* | tau |
+| *sampai* | sampe |
+| *kemarin* | kemaren |
+| *sudah* | udah |
+| *bagaimana* | gimana |
+| *pakai* | pake |
+Emang (paman), tau (huruf Yunani), sampe (sape): artinya lain. Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Kata chat mana yang *paling sering kamu ketik?*
+Komen satu kata: emang, tau, atau sampe.

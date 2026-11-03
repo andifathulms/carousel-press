@@ -275,6 +275,31 @@ import b4LexiconHanziNadaYi from './lexicon-hanzi-nada-yi.txt?raw';
 import b4LexiconHanziBongkarShui from './lexicon-hanzi-bongkar-shui.txt?raw';
 import b4LexiconHanziShi from './lexicon-hanzi-shi.txt?raw';
 import b4LexiconHanziKataBantuZhang from './lexicon-hanzi-kata-bantu-zhang.txt?raw';
+import b5FilsafatSatuKalimatSepupuId from './filsafat-satu-kalimat-sepupu-id.txt?raw';
+import b5FilsafatTamengKenaPhkId from './filsafat-tameng-kena-phk-id.txt?raw';
+import b5FilsafatStoikBukanSendirianId from './filsafat-stoik-bukan-sendirian-id.txt?raw';
+import b5FilsafatHoaksGrupKeluargaId from './filsafat-hoaks-grup-keluarga-id.txt?raw';
+import b5FilsafatTamengUmurSeginiId from './filsafat-tameng-umur-segini-id.txt?raw';
+import b5LexiconEnglishSalahNgomong4 from './lexicon-english-salah-ngomong-4.txt?raw';
+import b5LexiconEnglishBedaArti4 from './lexicon-english-beda-arti-4.txt?raw';
+import b5LexiconEnglishKataHariIni5 from './lexicon-english-kata-hari-ini-5.txt?raw';
+import b5LexiconEnglishInterview3 from './lexicon-english-interview-3.txt?raw';
+import b5LexiconEnglishSekolah3 from './lexicon-english-sekolah-3.txt?raw';
+import b5LexiconKamusManaYangBaku4 from './lexicon-kamus-mana-yang-baku-4.txt?raw';
+import b5LexiconKamusSalahKaprah4 from './lexicon-kamus-salah-kaprah-4.txt?raw';
+import b5LexiconKamusSalahArtiGemas from './lexicon-kamus-salah-arti-gemas.txt?raw';
+import b5LexiconKamusKataIndahRindu from './lexicon-kamus-kata-indah-rindu.txt?raw';
+import b5LexiconKamusKataIndahCahaya from './lexicon-kamus-kata-indah-cahaya.txt?raw';
+import b5DevKabarDev2LinuxTcpId from './dev-kabar-dev-2-linux-tcp-id.txt?raw';
+import b5DevVpsPertama2Id from './dev-vps-pertama-2-id.txt?raw';
+import b5DevServerDown2Id from './dev-server-down-2-id.txt?raw';
+import b5DevGitRescue6Id from './dev-git-rescue-6-id.txt?raw';
+import b5DevAiCekPerintahId from './dev-ai-cek-perintah-id.txt?raw';
+import b5SejarahGorontalo1942Id from './sejarah-gorontalo-1942-id.txt?raw';
+import b5SejarahTumbangAnoiId from './sejarah-tumbang-anoi-id.txt?raw';
+import b5SejarahPenyengatId from './sejarah-penyengat-id.txt?raw';
+import b5SejarahSiPitungId from './sejarah-si-pitung-id.txt?raw';
+import b5SejarahMuaroJambiId from './sejarah-muaro-jambi-id.txt?raw';
 export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-couples-id', name: '5 pertanyaan kecil (editorial, id)', category: 'relationships', text: couples },
   { id: 'dev-git-id', name: '7 perintah git (dev, id)', category: 'dev', text: git },
@@ -537,4 +562,29 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'lexicon-hanzi-bongkar-shui', name: 'Bongkar hanzi 氵 (Kosakata Mandarin, id)', category: 'mandarin', text: b4LexiconHanziBongkarShui },
   { id: 'lexicon-hanzi-shi', name: 'Kapan pakai 是 (Kosakata Mandarin, id)', category: 'mandarin', text: b4LexiconHanziShi },
   { id: 'lexicon-hanzi-kata-bantu-zhang', name: 'Kata bantu 张 (Kosakata Mandarin, id)', category: 'mandarin', text: b4LexiconHanziKataBantuZhang },
+  { id: 'filsafat-satu-kalimat-sepupu-id', name: 'Satu kalimat #4: dibandingkan sama sepupu (Filsafat Harian, id)', category: 'philosophy', text: b5FilsafatSatuKalimatSepupuId },
+  { id: 'filsafat-tameng-kena-phk-id', name: 'Tameng #9: kena PHK (Filsafat Harian, id)', category: 'philosophy', text: b5FilsafatTamengKenaPhkId },
+  { id: 'filsafat-stoik-bukan-sendirian-id', name: 'Salah kaprah stoik #4: nggak minta tolong (Filsafat Harian, id)', category: 'philosophy', text: b5FilsafatStoikBukanSendirianId },
+  { id: 'filsafat-hoaks-grup-keluarga-id', name: 'Kamu pilih mana #5: hoaks di grup keluarga (Filsafat Harian, id)', category: 'philosophy', text: b5FilsafatHoaksGrupKeluargaId },
+  { id: 'filsafat-tameng-umur-segini-id', name: 'Tameng #10: umur segini harusnya udah (Filsafat Harian, id)', category: 'philosophy', text: b5FilsafatTamengUmurSeginiId },
+  { id: 'lexicon-english-salah-ngomong-4', name: 'Salah ngomong #4: let me to (Kosakata Inggris, id)', category: 'english', text: b5LexiconEnglishSalahNgomong4 },
+  { id: 'lexicon-english-beda-arti-4', name: 'Beda arti #4: quite (Kosakata Inggris, id)', category: 'english', text: b5LexiconEnglishBedaArti4 },
+  { id: 'lexicon-english-kata-hari-ini-5', name: 'Kata hari ini #5: determine (Kosakata Inggris, id)', category: 'english', text: b5LexiconEnglishKataHariIni5 },
+  { id: 'lexicon-english-interview-3', name: 'Interview #3: why should we hire you (Kosakata Inggris, id)', category: 'english', text: b5LexiconEnglishInterview3 },
+  { id: 'lexicon-english-sekolah-3', name: 'Sekolah vs aslinya #3: what is your job (Kosakata Inggris, id)', category: 'english', text: b5LexiconEnglishSekolah3 },
+  { id: 'lexicon-kamus-mana-yang-baku-4', name: 'Mana yang baku #4: utang (Kata Baku, id)', category: 'indonesian', text: b5LexiconKamusManaYangBaku4 },
+  { id: 'lexicon-kamus-salah-kaprah-4', name: 'Salah kaprah #4: emang itu paman (Kata Baku, id)', category: 'indonesian', text: b5LexiconKamusSalahKaprah4 },
+  { id: 'lexicon-kamus-salah-arti-gemas', name: 'Salah arti #4: gemas (Kata Baku, id)', category: 'indonesian', text: b5LexiconKamusSalahArtiGemas },
+  { id: 'lexicon-kamus-kata-indah-rindu', name: 'Kata indah #7: rindu (Kata Baku, id)', category: 'indonesian', text: b5LexiconKamusKataIndahRindu },
+  { id: 'lexicon-kamus-kata-indah-cahaya', name: 'Kata indah #8: cahaya (Kata Baku, id)', category: 'indonesian', text: b5LexiconKamusKataIndahCahaya },
+  { id: 'dev-kabar-dev-2-linux-tcp-id', name: 'Kabar Dev #2: celah kernel Linux TCP (dev, id)', category: 'dev', text: b5DevKabarDev2LinuxTcpId },
+  { id: 'dev-vps-pertama-2-id', name: 'VPS Pertama #2: firewall ufw (dev, id)', category: 'dev', text: b5DevVpsPertama2Id },
+  { id: 'dev-server-down-2-id', name: 'Server Down #2: 502 Bad Gateway (dev, id)', category: 'dev', text: b5DevServerDown2Id },
+  { id: 'dev-git-rescue-6-id', name: 'Git Rescue #6: commit hilang habis reset --hard (dev, id)', category: 'dev', text: b5DevGitRescue6Id },
+  { id: 'dev-ai-cek-perintah-id', name: 'AI nyuruh rm -rf? Cek dulu (dev, id)', category: 'dev', text: b5DevAiCekPerintahId },
+  { id: 'sejarah-gorontalo-1942-id', name: 'Gorontalo 23 Januari 1942: Nani Wartabone (Sejarah Nusantara, id)', category: 'history', text: b5SejarahGorontalo1942Id },
+  { id: 'sejarah-tumbang-anoi-id', name: 'Rapat Damai Tumbang Anoi 1894 (Sejarah Nusantara, id)', category: 'history', text: b5SejarahTumbangAnoiId },
+  { id: 'sejarah-penyengat-id', name: 'Pulau Penyengat, mas kawin sultan (Sejarah Nusantara, id)', category: 'history', text: b5SejarahPenyengatId },
+  { id: 'sejarah-si-pitung-id', name: 'Si Pitung, Batavia 1893 (Sejarah Nusantara, id)', category: 'history', text: b5SejarahSiPitungId },
+  { id: 'sejarah-muaro-jambi-id', name: 'Atisha dan Candi Muaro Jambi (Sejarah Nusantara, id)', category: 'history', text: b5SejarahMuaroJambiId },
 ];

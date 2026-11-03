@@ -1,0 +1,48 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: bahasa sekolah vs aslinya 3
+caption: Bahasa Inggris sekolah vs percakapan sehari-hari: “What is your job?” nggak salah, tapi ada versi yang lebih santai. Sumber: Cambridge Dictionary; Cambridge Grammar (Of course); Oxford Learner’s Dictionaries #belajarbahasainggris #kosakatainggris #speakingenglish
+---
+[cover kicker="SEKOLAH VS ASLINYA · #3"]
+“What Is | Your Job?”
+Nggak salah, cuma kaku. 5 kalimat sekolah dan versi santainya, dari kenalan sampai nanya jam.
+---
+[card kicker="Nanya kerjaan orang" number=off]
+So, what do you *do*?
+Di sekolah: “What is your job?”
+Nggak salah, cuma kayak isian formulir. What do you do? artinya kerjanya apa, bukan lagi ngapain. Lengkapnya: What do you do for a living?
+---
+[card kicker="Nanya jam ke orang asing" number=off]
+Excuse me, do you have *the time*?
+Di sekolah: “What time is it now?”
+Nggak salah. Versi sopan buat orang asing: Do you have the time? Awas, tanpa the (Do you have time?) biasanya artinya: ada waktu luang?
+---
+[card kicker="Atasan: “Did you send the report?”" number=off]
+*Yes*, I sent it this morning.
+Di sekolah: “Of course!”
+Of course pas buat kasih izin: Can I borrow your pen? Of course! Tapi buat jawab info, bisa kedengaran “masa gitu aja nanya”.
+---
+[card kicker="Lapar banget" number=off]
+I’m *starving*!
+Di sekolah: “I am very hungry.”
+Nggak salah, cuma kaku. Starving (informal) = lapar banget. Arti aslinya kelaparan parah, jadi pakai buat ngobrol santai saja.
+---
+[card kicker="Diajak makan siang bareng" number=off]
+That *sounds good*!
+Di sekolah: “Yes, I agree.”
+Nggak salah, cuma kaku buat ajakan santai. Sound good = kedengarannya oke. Mirip: That sounds like a good idea.
+---
+[table]
+Contekan: sekolah vs ngobrol
+| Sekolah | Lebih santai |
+| What is your job? | What do you do? |
+| What time is it now? | Do you have the time? |
+| Of course! (jawab info) | Yes, I sent it. |
+| I am very hungry. | I’m starving! |
+| Yes, I agree. | That sounds good! |
+Versi sekolah tetap benar. Of course tetap pas buat kasih izin.
+---
+[end cta="Simpan"]
+Kalimat mana yang *mau kamu coba duluan?*
+Komen satu kata: do, time, course, starving, atau sounds. Sekolah vs aslinya #4 minggu depan.
