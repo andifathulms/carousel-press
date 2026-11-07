@@ -1,0 +1,55 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kreativitas atau kreatifitas
+caption: Kata baku yang sering salah: kreativitas, bukan kreatifitas. Efektivitas, produktivitas, dan sensitivitas juga pakai v. Sumber: KBBI VI Daring (dicek 7 November 2026) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="MANA YANG BAKU? · #5"]
+Kreatifitas atau | Kreativitas?
+Tebak dulu, baru geser. Plus 3 kata baku lain yang huruf v-nya sering berubah jadi f.
+---
+[card number=off]
+Yang baku: *kreativitas*
+KBBI VI mencatat kreatifitas sebagai bentuk tidak baku. Artinya: “kemampuan untuk mencipta; daya cipta”.
+Polanya: kreatif pakai f, kreativitas pakai v. KBBI sendiri menulis “kekreatifan” di definisinya.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Lomba ini menguji kreatifitas peserta.
+right: Lomba ini menguji *kreativitas* peserta.
+why: KBBI VI juga mencatat kretifitas dan kratifitas sebagai bentuk tidak baku. Arti kedua kreativitas: “perihal berkreasi; kekreatifan”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Efektifitas rapat daring masih dipertanyakan.
+right: *Efektivitas* rapat daring masih dipertanyakan.
+why: KBBI VI mencatat efektifitas dan keefektivitasan sebagai bentuk tidak baku. Efektivitas: “keefektifan”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Tidur cukup membuat produktifitas naik.
+right: Tidur cukup membuat *produktivitas* naik.
+why: KBBI VI mencatat produktifitas sebagai bentuk tidak baku. Produktivitas: “kemampuan untuk menghasilkan sesuatu; daya produksi; keproduktifan”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Sensitifitas kulitnya tinggi terhadap sabun.
+right: *Sensitivitas* kulitnya tinggi terhadap sabun.
+why: KBBI VI mencatat sensitifitas dan sensifitas sebagai bentuk tidak baku. Sensitivitas: “perihal cepat menerima rangsangan; kepekaan”.
+---
+[table]
+Akhiran -itas pakai v
+| Baku | Tidak baku |
+| *kreativitas* | kreatifitas |
+| *efektivitas* | efektifitas |
+| *produktivitas* | produktifitas |
+| *sensitivitas* | sensitifitas |
+Sumber: KBBI VI Daring
+---
+[end cta="Komen A atau B"]
+Tadi kamu tebak *yang mana?*
+Komen A untuk kreatifitas, B untuk kreativitas.

@@ -1,0 +1,94 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: beda arti 5 scheme
+caption: Beda arti bahasa Inggris UK dan US: di Inggris, scheme itu program resmi. Di Amerika, kesannya rencana licik. Plus revise, public school, smart, graduate, chips, entrée. Sumber: Cambridge Dictionary (label UK/US); Oxford Learner’s Dictionaries (scheme) #belajarbahasainggris #kosakatainggris #britishvsamerican
+---
+[cover kicker="BEDA ARTI · #5"]
+Di Amerika, “Scheme” | Kesannya Akal Licik
+Di Inggris, scheme itu program resmi. Plus 6 kata lain yang beda arti di UK dan US, dari sekolah sampai restoran.
+---
+[word]
+pos: noun · beda arti UK/US
+word: scheme
+ipa: /skiːm/ (UK & US)
+say: “skiim”
+meaning: UK: program resmi | UK & US: rencana, sering yang licik
+example: The company has a new training *scheme*.
+translation: (UK) Kantornya punya program pelatihan baru.
+note: Rapat sama tim Amerika? Pakai plan atau program.
+---
+[word]
+pos: verb · beda arti UK/US
+word: revise
+ipa: /rɪˈvaɪz/ (UK & US)
+say: “ri-VAIZ”
+meaning: UK & US: merevisi, memperbaiki tulisan atau rencana | UK: juga belajar lagi buat ujian
+example: I’m *revising* for my exam tomorrow.
+translation: (UK) Aku lagi belajar buat ujian besok.
+note: Belajar buat ujian versi US: review. Revise my thesis tetap berarti merevisi skripsi di mana-mana.
+---
+[word]
+pos: noun · beda arti UK/US
+word: public school
+ipa: /ˌpʌb.lɪk ˈskuːl/ (UK & US)
+say: “pa-blik SKUUL”
+meaning: England: sekolah swasta yang mahal | US: sekolah negeri, gratis dari pemerintah
+example: He went to a *public school* in London.
+translation: (UK) Dia dulu sekolah di sekolah swasta mahal di London.
+note: Sekolah negeri versi UK: state school. Sekolah swasta di mana-mana: private school.
+---
+[word]
+pos: adjective · beda arti UK/US
+word: smart
+ipa: /smɑːt/ (UK) · /smɑːrt/ (US)
+say: “smaat” (UK) · “smart” (US)
+meaning: terutama UK: rapi, necis, penampilannya bagus | terutama US: pintar, cerdas
+example: I need a *smart* jacket for my interview.
+translation: (UK) Aku butuh jaket yang rapi buat interview.
+note: Jadi kalau orang London bilang you look smart, itu pujian buat bajumu.
+---
+[word]
+pos: verb · beda arti UK/US
+word: graduate
+ipa: /ˈɡrædʒ.u.eɪt/ (UK & US)
+say: “GRE-ju-eit”
+meaning: UK: lulus kuliah S1 | US: lulus sekolah, kuliah, atau universitas
+example: She *graduated* from high school last year.
+translation: (US) Dia lulus SMA tahun lalu.
+note: Di UK, graduate biasanya cuma buat lulus kuliah. Kata bendanya dibaca beda: a graduate, “GRE-ju-et”.
+---
+[word]
+pos: noun · beda arti UK/US
+word: chips
+ipa: /tʃɪps/ (UK & US)
+say: “cips”
+meaning: UK: kentang goreng panjang yang dimakan hangat | US: keripik kentang dalam bungkus
+example: Can I get fish and *chips*, please?
+translation: (UK) Saya pesan ikan goreng dan kentang goreng, ya.
+note: Kentang goreng versi US: French fries. Keripik versi UK: crisps.
+---
+[word]
+pos: noun · beda arti UK/US
+word: entrée
+ipa: /ˈɒn.treɪ/ (UK) · /ˈɑːn.treɪ/ (US)
+say: “ON-trei” (UK) · “AAN-trei” (US)
+meaning: US: hidangan utama | UK: hidangan pembuka kecil di makan malam formal
+example: We had grilled fish as our *entrée*.
+translation: (US) Hidangan utama kami ikan bakar.
+note: Pembuka versi US: appetizer. Hidangan utama versi UK: main course.
+---
+[table]
+Biar nggak salah paham
+| Arti | UK | US |
+| belajar buat ujian | revise | review |
+| sekolah negeri | state school | public school |
+| kentang goreng | chips | French fries |
+| keripik kentang | crisps | chips |
+| hidangan pembuka | entrée | appetizer |
+| hidangan utama | main course | entrée |
+Smart: UK rapi, US pintar. Scheme: pakai plan biar aman.
+---
+[end cta="Simpan"]
+Kamu tim *UK atau US?*
+Komen UK atau US. Beda arti #6 minggu depan.

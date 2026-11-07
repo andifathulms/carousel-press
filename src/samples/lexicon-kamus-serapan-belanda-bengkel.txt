@@ -1,0 +1,76 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata bengkel dari belanda
+caption: Setir dari stuur, persneling dari versnelling, dongkrak dari dommekracht. Sumber: KBBI VI Daring (dicek 7 November 2026); asal kata: Wiktionary, entri Indonesia (dongkrak: N. van der Sijs, Nederlandse woorden wereldwijd, 2010) #bahasaindonesia #kataserapan #kbbi
+---
+[cover kicker="KATA SERAPAN · BELANDA"]
+Setir, Kopling, Knalpot: | Bengkel Kita Bahasa Belanda
+Dari stuur, koppeling, dan knalpot. Ini 8 kata bengkel serapan Belanda.
+---
+[table]
+Dari bahasa Belanda
+| Kata | Bentuk asli |
+| setir | *stuur* |
+| persneling | *versnelling* |
+| kopling | *koppeling* |
+| knalpot | *knalpot* |
+| dongkrak | *dommekracht* |
+| oli | *olie* |
+| bensin | *benzine* |
+| korsleting | *kortsluiting* |
+Sumber asal kata: Wiktionary
+---
+[word]
+pos: nomina
+tag: SERAPAN
+word: setir
+meaning: kemudi (mobil)
+example: Pegang *setir* pakai dua tangan, ya.
+origin: dari bahasa Belanda *stuur*
+note: Sumber: KBBI VI Daring; asal kata: Wiktionary
+---
+[word]
+pos: nomina
+tag: SERAPAN
+word: persneling
+meaning: alat untuk mengatur kecepatan kendaraan bermotor (berupa roda gigi)
+example: Di tanjakan, pindahkan *persneling* ke gigi satu.
+origin: dari bahasa Belanda *versnelling*
+note: Dalam bahasa Belanda, versnelling berarti percepatan, juga gigi. Sumber: KBBI VI Daring; Wiktionary
+---
+[word]
+pos: nomina
+tag: SERAPAN
+word: dongkrak
+meaning: alat untuk mengumpil atau menaikkan (mobil dan sebagainya)
+example: Ban kempis, untung ada *dongkrak* di bagasi.
+origin: dari bahasa Belanda *dommekracht*
+note: Bahasa Rusia meminjam kata yang sama: domkrat. Sumber: KBBI VI Daring; Wiktionary
+---
+[word]
+pos: adjektiva
+tag: SERAPAN
+word: korsleting
+meaning: terputusnya arus listrik karena kawat yang bermuatan arus positif dan negatif bersentuhan sehingga terjadi hubungan pendek
+example: Lampu dapur mati karena kabelnya *korsleting*.
+origin: dari bahasa Belanda *kortsluiting*
+note: Arti kiasannya: keadaan tidak dapat berpikir dengan baik. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Kenalpot motornya bocor.
+right: *Knalpot* motornya bocor.
+why: KBBI VI mencatat kenalpot sebagai bentuk tidak baku dari knalpot. Bentuk Belandanya juga knalpot.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Kabelnya konsleting lagi.
+right: Kabelnya *korsleting* lagi.
+why: KBBI VI mencatat konsleting sebagai bentuk tidak baku dari korsleting, dari bahasa Belanda kortsluiting.
+---
+[end cta="Komen"]
+Tebak: kata bengkel mana lagi *yang dari Belanda?*
+Tulis tebakanmu di komen.

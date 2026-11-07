@@ -1,0 +1,56 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: salat atau sholat
+caption: Kata baku yang sering salah: salat, bukan sholat. Musala, magrib, wudu, dan Ramadan juga tanpa h tambahan. Sumber: KBBI VI Daring (dicek 7 November 2026) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="MANA YANG BAKU? · #6"]
+Sholat atau | Salat?
+Tebak dulu, baru geser. Plus 4 kata baku lain yang sering ditulis dengan h tambahan.
+---
+[card number=off]
+Yang baku: *salat*
+KBBI VI mencatat solat, shalat, dan sholat sebagai bentuk tidak baku. Salah satu artinya: “doa kepada Allah Swt.”
+Polanya: h tambahan di sh, gh, dan dh tidak ikut. Sama di *musala*, *magrib*, *wudu*, dan *Ramadan*.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Mushola kantor ada di lantai dua.
+right: *Musala* kantor ada di lantai dua.
+why: KBBI VI mencatat musalla, mushala, mushola, musola, dan musholla sebagai bentuk tidak baku. Musala: “tempat salat; langgar; surau”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Kita berangkat setelah maghrib, ya.
+right: Kita berangkat setelah *magrib*, ya.
+why: KBBI VI mencatat maghrib, mahrib, dan menggerib sebagai bentuk tidak baku. Magrib: “waktu matahari terbenam”. Sebagai nama salat, M-nya kapital.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Aku wudhu dulu sebelum salat.
+right: Aku *wudu* dulu sebelum salat.
+why: KBBI VI mencatat wudhu, wuduk, udu, dan uduk sebagai bentuk tidak baku. Wudu: “menyucikan diri (sebelum salat) dengan membasuh muka, tangan, kepala, dan kaki”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Selamat menunaikan ibadah puasa Ramadhan.
+right: Selamat menunaikan ibadah puasa *Ramadan*.
+why: KBBI VI mencatat Ramadhan sebagai bentuk tidak baku. Ramadan: “bulan ke-9 tahun Hijriah (29 atau 30 hari)”.
+---
+[table]
+H tambahan tidak ikut
+| Baku | Tidak baku |
+| *salat* | sholat, shalat |
+| *musala* | mushola, mushala |
+| *magrib* | maghrib |
+| *wudu* | wudhu |
+| *Ramadan* | Ramadhan |
+Sumber: KBBI VI Daring
+---
+[end cta="Komen A atau B"]
+Selama ini kamu nulis *yang mana?*
+Komen A untuk sholat, B untuk salat.

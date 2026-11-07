@@ -187,3 +187,57 @@ Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterd
 | muarojambi-kanal | sejarah-muaro-jambi-id | 098 Canal, near Candi Kedaton (24266621027).jpg | Anandajoti Bhikkhu (Photo Dharma) | CC BY 2.0 |
 | muarojambi-reruntuhan | sejarah-muaro-jambi-id | 096 Ruins, Candi Kedaton (24266628007).jpg | Anandajoti Bhikkhu (Photo Dharma) | CC BY 2.0 |
 | muarojambi-atisha | sejarah-muaro-jambi-id | Portrait of the Indian Monk Atisha.jpg (The Met, 12th c.) | unknown | Public domain |
+| lanfang-kronik | sejarah-lanfang-id | Het Kongsiwezen van Borneo (1885) Chinese text p. 8 (p. 47) - Founding of Lanfang Kongsi in 1777.png (darkened) | Yap Siong-yoen / J.J.M. de Groot | Public domain |
+| lanfang-kongsihuis | sejarah-lanfang-id | Kongsie-huis te Mandor (1822), Veth 1854 Plaat II.jpg (darkened) | P.W.M. Trap / P.J. Veth | Public domain |
+| lanfang-hoofden | sejarah-lanfang-id | Chinesche Hoofden te Mandor en Montrado, Veth 1856.jpg (darkened) | P.W.M. Trap / P.J. Veth | Public domain |
+| lanfang-perisai | sejarah-lanfang-id | Chinese rattan shield from Mandor, West Borneo (pre-1886), Wereldmuseum RV-535-5i.jpg | Wereldmuseum | CC0 |
+| lanfang-peta-schaank | sejarah-lanfang-id | Schetskaart van de zeven Chineesche Kongsi's in het rijk Sambas omstreeks 1825 (Schaank 1893).jpg (darkened) | S.H. Schaank | Public domain |
+| bada-palindo | sejarah-lembah-bada-id | Patung Palindo Lembah Bada Taman Nasional Lore Lindu.jpg | Lo2asinamura | CC BY-SA 4.0 |
+| bada-langke-bulawa-1918 | sejarah-lembah-bada-id | Langke Boelawa, kvinnofigur av sten… SMVK - 010645.tif | Walter Kaudern | Public domain |
+| bada-kalamba-1918 | sejarah-lembah-bada-id | Två stenkar (kalamba)… SMVK - 010701.tif | Walter Kaudern | Public domain |
+| bada-tadulako-1918 | sejarah-lembah-bada-id | Stenfigur kallad Tadoelakoe… SMVK - 010702.tif | Walter Kaudern | Public domain |
+| bada-pokekea | sejarah-lembah-bada-id | Situs megalitikum Pokekea.jpg | Bingkaijay | CC BY-SA 4.0 |
+| bada-behoa | sejarah-lembah-bada-id | Kawasan Cagar Budaya Lembah Behoa.jpg | Romi Hidayat1986 | CC BY-SA 4.0 |
+| depu-sandeq | sejarah-andi-depu-id | Sandeq boats in Majene, West Sulawesi, Indonesia.jpg | Lfvalle1 | CC BY-SA 3.0 |
+| depu-rumah-mandar | sejarah-andi-depu-id | KITLV A878 - Paalwoningen in Mandar, KITLV 107305.tiff | anonymous / KITLV | CC BY 4.0 |
+| depu-majene-senja | sejarah-andi-depu-id | Sunset Over the Harbor in Majene.jpg | Lfvalle1 | CC BY-SA 3.0 |
+| nuku-tidore | sejarah-nuku-tidore-id | Pulau Tidore dan Pulau Maitara.jpg | Marwan Mohamad | CC BY-SA 4.0 |
+| nuku-korakora-1817 | sejarah-nuku-tidore-id | Kora-kora with the sultan of Tidore and Dutch ship of the line Evertsen in 1817.jpg | Q.M.R. Ver Huell | Public domain |
+| nuku-kedaton | sejarah-nuku-tidore-id | Kedaton Kesultanan Tidore.jpg | Ana Ainina | CC BY 4.0 |
+| nuku-tahula | sejarah-nuku-tidore-id | Benteng Tahula.jpg | Kainjock | CC BY-SA 4.0 |
+| nuku-oranje | sejarah-nuku-tidore-id | Benteng Oranje, Ternate 01.jpg | RaymondSutanto | CC BY-SA 4.0 |
+| nuku-makam | sejarah-nuku-tidore-id | Makam Sultan Nuku 2.jpg | Ana Ainina | CC BY 4.0 |
+| solor-henricus-1656 | sejarah-solor-larantuka-id | AMH-4676-NA View of Fort Henricus.jpg (darkened) | anonymous / Nationaal Archief | Public domain |
+| solor-pulau-1656 | sejarah-solor-larantuka-id | AMH-4675-NA View of the island of Solor and Fort Henricus.jpg (darkened) | anonymous / Nationaal Archief | Public domain |
+| solor-larantuka-1656 | sejarah-solor-larantuka-id | AMH-5478-NA View of the mountain of Larantuka….jpg (darkened) | anonymous / Nationaal Archief | Public domain |
+| solor-peta-1656 | sejarah-solor-larantuka-id | AMH-5477-NA Map of Solor and Timor.jpg (darkened) | anonymous / Nationaal Archief | Public domain |
+| solor-cendana | sejarah-solor-larantuka-id | Santalum album 4.jpg | Nativeplants garden | CC BY-SA 4.0 |
+| solor-larantuka-kini | sejarah-solor-larantuka-id | Sore di Larantuka.jpg | Nugroho Arif Prabowo | CC BY-SA 4.0 |
+| cilegon-reruntuhan | sejarah-geger-cilegon-id | Militairen bij een verwoest gebouw na de opstand te Tjilegon, KITLV 29072.tiff | Herrmann & Co. / KITLV | CC BY 4.0 |
+| cilegon-desa-kedoeng | sejarah-geger-cilegon-id | Desa Kedoeng na de opstand te Tjilegon, KITLV 29074.tiff | Herrmann & Co. / KITLV | CC BY 4.0 |
+| cilegon-landraad | sejarah-geger-cilegon-id | Zitting van de Landraad te Tjilegon inzake de moord op assistent-resident J.H.H. Gubbels…, KITLV 5300.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| cilegon-masjid-bedjie | sejarah-geger-cilegon-id | Moskee Desa Bedjie na de opstand te Tjilegon, KITLV 29073.tiff | Herrmann & Co. / KITLV | CC BY 4.0 |
+| cilegon-anyer-1872 | sejarah-geger-cilegon-id | Anjer, Noordkust van Java (Residentie Bantam), KITLV 47F3.tiff | Abraham Salm / KITLV | CC BY 4.0 |
+| cilegon-masjid-1910 | sejarah-geger-cilegon-id | Moskee te Tjilegon bij Serang, KITLV 16549.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| cirebon-kasepuhan | sejarah-nama-cirebon-id | KITLV A728 - Poerapoort van kraton Kasepoehan te Cheribon, KITLV 89532.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| cirebon-pelabuhan | sejarah-nama-cirebon-id | Haven van Cheribon, KITLV 43226.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| cirebon-rebon | sejarah-nama-cirebon-id | 9042Alamang Acetes sibogae textures 07.jpg | Judgefloro | CC0 |
+| cirebon-terasi | sejarah-nama-cirebon-id | Trasi Bonang.JPG | Midori | CC BY 3.0 |
+| cirebon-masjid | sejarah-nama-cirebon-id | Moskee bij kraton Kasepoehan te Cheribon, KITLV 99163.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| cirebon-gunungjati | sejarah-nama-cirebon-id | Toegangspoort naar het graf van Soenan Goenoeng Djati…, KITLV 99209.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| bri-museum | sejarah-bri-purwokerto-id | Bank BRI Museum Purwokerto.jpg | Nicho Pratama | Public domain |
+| bri-sawah | sejarah-bri-purwokerto-id | KITLV A576 - Rijstoogst bij Poerwokerto, KITLV 51723.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| bri-volkscredietbank | sejarah-bri-purwokerto-id | Algemene Volkscredietbank, KITLV 32851.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| bri-pinjaman | sejarah-bri-purwokerto-id | Aanvang en uitbetaling van nieuwe leningen bij de Volkscredietbank te Tegal, KITLV 5164.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| lampung-krakatau-litografi | sejarah-berouw-telukbetung-id | Krakatoa eruption lithograph.jpg | Parker & Coward (1888) | Public domain |
+| lampung-ketel-berouw | sejarah-berouw-telukbetung-id | COLLECTIE TROPENMUSEUM De ketel van het marineschip 'Barouw'… TMnr 60042780.jpg | unknown / Tropenmuseum | CC BY-SA 3.0 |
+| lampung-residentiehuis | sejarah-berouw-telukbetung-id | Residentiehuis te Telok Betong in de Lampongse districten, KITLV 179194.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| lampung-varkenshoek | sejarah-berouw-telukbetung-id | Varkenshoek na den vloedgolf (Sumatra), KITLV 36A258.tiff | A.G. Vorderman / KITLV | CC BY 4.0 |
+| lampung-pangkoel | sejarah-berouw-telukbetung-id | Onder den asch bedolven kampong Pangkoel aan den voet van den Radja Bassa (Sumatra), KITLV 36A259.tiff | A.G. Vorderman / KITLV | CC BY 4.0 |
+| lampung-erupsi-1883 | sejarah-berouw-telukbetung-id | De uitbarsting van de Krakatau, KITLV 5888.tiff | unknown | Public domain |
+| lombok-vitrine | sejarah-harta-lombok-id | De Lombokschat in een ijzeren vitrine, RMA-SSA-F-05487-1.jpg | Rijksmuseum | CC0 |
+| lombok-benda-cakranegara | sejarah-harta-lombok-id | Voorwerpen afkomstig uit Tjakranegara op Lombok, KITLV 106219.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |
+| lombok-kolam-cakranegara | sejarah-harta-lombok-id | KITLV A33 - De vijver van de lusthof Tjakranegara…, KITLV 11330.tiff | C.J. Neeb / KITLV | CC BY 4.0 |
+| lombok-perundingan | sejarah-harta-lombok-id | KITLV A1410 - Onderhandelingen te Tjakranegara… van Ham, KITLV 77259.tiff | C.J. Neeb / KITLV | CC BY 4.0 |
+| lombok-zaal-rijksmuseum | sejarah-harta-lombok-id | Zaal met de Lombokschat, HA-0012354.jpg | Rijksmuseum | CC0 |
+| lombok-gerbang-puri | sejarah-harta-lombok-id | KITLV A693 - Tempelpoort bij het paleis (poeri) te Tjakranegara…, KITLV 54190.tiff | KITLV / Leiden University Libraries | CC BY 4.0 |

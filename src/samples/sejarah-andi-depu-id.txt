@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: andi depu tiang bendera tinambung 1946
+caption: Tinambung, Polewali Mandar, Sulawesi Barat: 15 Januari 1946, Andi Depu memeluk tiang bendera saat pasukan Belanda datang menurunkan Merah Putih. Ia panglima laskar KRIS Muda dan pahlawan nasional sejak 2018. Sumber: Abd Rahman Hamid, “Nasionalisme dalam Teror di Mandar Tahun 1947”, Paramita 26(1) (2016), mengutip Sinrang (1994), Pawiloy (1989) dan arsip LVRI serta NIT; Keppres 123/TK/2018 (Setkab, 8 Nov 2018) · Foto: KITLV/Leiden University Libraries (CC BY 4.0); Lfvalle1 (CC BY-SA 3.0) via Wikimedia Commons #sejarahindonesia #sulawesibarat #mandar #andidepu
+---
+[cover kicker="SULAWESI BARAT · 1946" photo=depu-sandeq]
+Ia Memeluk Tiang Bendera | Saat Belanda Datang
+Andi Depu, Maradia (raja) Balanipa di Mandar, panglima laskar KRIS Muda dan pahlawan nasional sejak 2018.
+---
+[number=off icon=none photo=depu-sandeq]
+*15 Januari 1946*: Tinambung
+Pasukan Belanda datang menurunkan Merah Putih di Tinambung. Andi Depu, putranya, dan kawan-kawan berlari memeluk tiang bendera. Hari itu bendera tetap berkibar.
+---
+[quote icon=none photo=depu-rumah-mandar]
+Wahai seluruh laki-laki, berikanlah kepada kami [perempuan] celanamu…
+— Andi Depu, 15 Jan 1946 (terj. bebas)
+---
+[number=off icon=none photo=depu-rumah-mandar]
+*19 Agustus 1945*: KRIS Muda lahir
+Kabar proklamasi sampai ke Mandar. Dari organisasi Islam Muda lahir Kebaktian Rahasia Islam (KRIS) Muda, dengan Andi Depu, Maradia Balanipa, sebagai panglima.
+---
+[number=off icon=none photo=depu-rumah-mandar]
+Laskar sampai ke Makassar
+KRIS Muda punya divisi khusus perempuan. Oktober 1946 cabangnya berdiri di Makassar. Menurut arsip NIT, anggotanya sekitar 700 di Mandar dan 176 di Makassar.
+---
+[number=off icon=none photo=depu-majene-senja]
+*Oktober 1946*: ditangkap
+NICA menangkap Andi Depu dan menahannya di Majene. Ia dipindah tak kurang dari 28 kali, dari Parepare sampai Makassar. Putranya, Andi Parenrengi, meneruskan perlawanan.
+---
+[number=off icon=none photo=depu-majene-senja]
+*Februari 1947*: Galung Lombok
+Saat ia ditahan, pasukan Westerling mengeksekusi warga di Galung Lombok, Mandar. A.R. Tamma, rekan seperjuangannya, menyebut lebih dari 500 orang dibunuh pada 1 Februari 1947.
+---
+[number=off icon=none photo=depu-rumah-mandar]
+*29 Desember 1949*: pulang ke Tinambung
+Dibebaskan Belanda, Andi Depu pulang dari Makassar dengan empat truk. Merah Putih berkibar di sepanjang jalan. Pagi itu ia disambut upacara di Tinambung.
+---
+[number=off icon=none photo=depu-sandeq]
+*2018*: pahlawan nasional
+Keppres 123/TK/2018, tertanggal 6 November 2018, menetapkan Agung Hajjah Andi Depu, tokoh Sulawesi Barat, sebagai pahlawan nasional.
+---
+[end photo=depu-sandeq cta="Kirim ke orang Mandar"]
+Pernah dengar nama *Andi Depu?*
+Komen 1 kalau pernah, 2 kalau baru tahu.

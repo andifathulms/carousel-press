@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: kongsi lanfang mandor 1777-1884
+caption: Mandor, Kalimantan Barat: selama 107 tahun, penambang emas Hakka di Mandor memilih ketuanya sendiri lewat rapat, sampai Belanda membubarkan Kongsi Lanfang tahun 1884. Sumber: Sugiri Kustedja, “Benarkah Ada ‘Republik’ Lanfang Kongsi di Kalimantan Barat?”, Jurnal Sosioteknologi 15(2) (2016); J.J.M. de Groot, Het Kongsiwezen van Borneo (1885, memuat kronik Lanfang); Soerabaijasch Handelsblad 1 dan 11 Nov 1884; Bataviaasch Handelsblad 8 Nov 1884; De Locomotief 25 Nov 1884 (Delpher) · Foto: domain publik (Veth 1854 dan 1856, de Groot 1885, Schaank 1893); Wereldmuseum Leiden (CC0) #sejarahindonesia #kalimantanbarat #mandor #lanfang
+---
+[cover kicker="KALIMANTAN BARAT · 1777–1884" photo=lanfang-hoofden]
+Penambang Emas di Mandor | Memilih Ketuanya Sendiri
+Kongsi Lanfang: perkumpulan penambang Hakka yang bertahan 107 tahun di antara kesultanan, orang Dayak, dan Belanda.
+---
+[number=off icon=none photo=lanfang-kongsihuis]
+Ketua dipilih, bukan diwariskan
+Di balai kongsi di Mandor, ketua dipilih dalam rapat lengkap anggota dan keputusan diambil dengan suara terbanyak. Pengurus lain dipilih ulang tiap empat bulan.
+---
+[number=off icon=none photo=lanfang-kronik]
+*1777*: Luo Fangbo mendirikan kongsi
+Guru asal Jiayingzhou, Guangdong, ini tiba tahun 1772. Bersama 108 orang Hakka ia merebut tambang di Mandor. Kronik Lanfang mencatat pendiriannya tahun 1777.
+---
+[number=off icon=none photo=lanfang-hoofden]
+Tanahnya bukan tanah kosong
+Kesultanan menuntut upeti, orang Dayak menganggapnya tanah adat. Daftar ketua Lanfang mencatat perang dengan Panembahan Mempawah (1795–1799) dan bentrok dengan orang Dayak di Landak.
+---
+[number=off icon=none photo=lanfang-kongsihuis]
+Memilih, tapi tidak untuk semua
+Jabatan ketua hanya untuk orang asal Jiayingzhou, daerah asal Luo Fangbo. Kepala kampung boleh dipilih warga, tapi harus pendatang dari Tiongkok.
+---
+[number=off icon=none photo=lanfang-peta-schaank]
+*1850-an*: memihak Belanda
+Saat Belanda memerangi kongsi-kongsi di Montrado, Lanfang di bawah Liu Asheng ikut membantu. Imbalannya, Lanfang dibiarkan berdiri, asal mengakui kekuasaan Batavia dan membayar pajak.
+---
+[number=off icon=none photo=lanfang-hoofden]
+*22 September 1884*: ketua terakhir wafat
+Liu Asheng meninggal. Belanda sudah lama memutuskan kongsi dibubarkan setelah ia wafat. Pada 3 Oktober 1884, pemerintahan Mandor diambil alih tanpa perlawanan.
+---
+[number=off icon=none photo=lanfang-perisai]
+*Oktober 1884*: Mandor bergolak
+Controleur J.C. Rijk, pejabat Belanda yang menggantikan ketua kongsi, ditembak saat duduk di meja makan. Empat atau lima polisinya ikut terbunuh. Pasukan dikirim dari Semarang.
+---
+[number=off icon=none photo=lanfang-kongsihuis]
+Republik atau bukan?
+Peneliti Barat menyebutnya republik. De Groot memakai istilah “republik desa” yang meniru tata kampung Tiongkok Selatan. Yuan Bingling melihat jejak novel Tepi Air (Shuihu Zhuan).
+---
+[end photo=lanfang-perisai cta="Komen A atau B"]
+Lanfang: *A.* republik, | *B.* kongsi tambang?
+Komen A atau B. Alasanmu di balasan.

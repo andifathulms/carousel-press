@@ -1,0 +1,27 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: kata hari ini 8 attend
+caption: Kata hari ini #8: attend (menghadiri). Hadir di rapat itu attend the meeting, tanpa to. Attend to artinya mengurus. Sumber: Cambridge Dictionary; Oxford Learner’s Dictionaries #belajarbahasainggris #kosakatainggris #vocabulary
+---
+[cover kicker="KATA HARI INI · #8"]
+Attend | *Hadir di rapat? Tanpa “to”.*
+Satu kata Inggris tiap hari. Hari ini buat yang sering izin nggak bisa ikut rapat atau kelas.
+---
+[card kicker="Coba tebak" number=off]
+Kamu izin ke atasan: *A. I can’t attend to the meeting. | B. I can’t attend the meeting.*
+Tebak dulu, baru geser.
+---
+[word]
+pos: verb · agak formal
+word: attend
+ipa: /əˈtend/ (UK & US)
+say: “e-TEND”
+meaning: menghadiri: datang ke acara, rapat, atau kelas | juga rutin datang ke sekolah atau kampus
+example: Sorry, I can’t *attend* the meeting tomorrow.
+translation: Maaf, aku nggak bisa hadir di rapat besok.
+note: Jawabannya B. Attend to artinya lain: mengurus atau menangani. I have a lot to attend to today.
+---
+[end cta="Follow"]
+Besok: *Kata hari ini #9.*
+Follow, biar besok nggak ketinggalan.

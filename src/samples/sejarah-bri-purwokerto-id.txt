@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: bri lahir di purwokerto 1895
+caption: Purwokerto, Banyumas: Bank Rakyat Indonesia bermula dari bank kecil untuk pegawai bumiputra yang berdiri 16 Desember 1895. BRI menyebut pendirinya Patih Wirjaatmadja; tulisan Belanda 1898 menyebut nama lain. Sumber: BRI, Annual Report 2023 (bagian sejarah); De Locomotief, 5 Februari 1898 (ringkasan tulisan W.P.D. de Wolff van Westerrode di Tijdschrift voor Nijverheid en Landbouw in Nederlandsch-Indië); De Nieuwe Courant, 13 April 1909 (mengutip Bataviaasch Nieuwsblad), keduanya di Delpher/KB. Ejaan nama beragam: Wirjaatmadja, Wiriaatmadja, Wiriatmaja · Foto: Nicho Pratama (domain publik); KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #purwokerto #banyumas #bri
+---
+[cover kicker="BANYUMAS · PURWOKERTO, 1895" photo=bri-museum]
+BRI Lahir di Purwokerto, | dari Bank Kecil Para Priyayi
+16 Desember 1895: bank pertolongan dan tabungan untuk pejabat bumiputra di Purwokerto. Dari sinilah BRI bermula.
+---
+[number=off icon=none photo=bri-sawah]
+*16 Desember 1895*: bank para pejabat
+Di Purwokerto berdiri De Poerwokertosche Hulp- en Spaarbank der Inlandsche Hoofden: bank pertolongan dan tabungan untuk pejabat bumiputra. BRI menyebutnya awal sejarahnya.
+---
+[number=off icon=none photo=bri-museum]
+Patih Purwokerto, Wirjaatmadja
+Menurut BRI, pendirinya Raden Aria Wirjaatmadja, patih Purwokerto, dan bank itu bermula dari pengelolaan kas masjid. Ia lebih dari 40 tahun bekerja di pemerintahan.
+---
+[number=off icon=none photo=bri-pinjaman]
+Lalu, kredit untuk petani
+Pejabat Belanda W.P.D. de Wolff van Westerrode menata ulang bank itu jadi bank simpan, pinjam, dan kredit pertanian, terilhami koperasi Raiffeisen di Jerman.
+---
+[number=off icon=none photo=bri-sawah]
+Pinjam boleh, asal jelas gunanya
+Menurut tulisannya (1898), uang dipinjamkan untuk keperluan yang berguna. Bukan untuk dibungakan lagi, berpesta, atau membeli perhiasan.
+---
+[number=off icon=none photo=bri-volkscredietbank]
+Pendirinya siapa?
+De Wolff van Westerrode menulis (1898) bahwa bank itu didirikan pejabat Belanda E. Sieburgh. BRI dan sebuah koran tahun 1909 menyebut Wirjaatmadja.
+---
+[quote icon=none photo=bri-sawah]
+Tetap merupakan fakta, mungkin hanya dikenal di kalangan pegawai bumiputra, bahwa Raden Arja Wiriaatmadja adalah bapak bank-bank kredit pertanian.
+— De Nieuwe Courant, 13 April 1909, mengutip Bataviaasch Nieuwsblad (terjemahan)
+---
+[number=off icon=none photo=bri-pinjaman]
+*11 Maret 1909*: wafat di Purwokerto
+Koran itu mengakui dukungan pejabat Eropa tak tergantikan, tapi meminta nama Wirjaatmadja dikenang di samping De Wolff van Westerrode.
+---
+[number=off icon=none photo=bri-volkscredietbank]
+*1912–1946*: ganti nama, jadi BRI
+Centrale Kas voor Volkscredietwezen Algemene (1912), Algemene Volkscredietbank (1934), Syomin Ginko di masa Jepang, lalu Bank Rakyat Indonesia milik negara (1946).
+---
+[end photo=bri-museum cta="Komen A atau B"]
+Pendiri bank ini: *A.* Wirjaatmadja, *B.* Sieburgh?
+Komen A atau B. Alasanmu di balasan.

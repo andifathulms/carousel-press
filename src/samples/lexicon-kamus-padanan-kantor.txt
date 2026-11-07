@@ -1,0 +1,58 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: padanan kata kantor
+caption: Deadline itu tenggat, briefing itu taklimat, snack itu kudapan. Sumber: PASTI (Padanan Istilah), Badan Bahasa; KBBI VI Daring (dicek 7 November 2026) #bahasaindonesia #padanankata #kbbi
+---
+[cover kicker="PADANAN KATA · KANTOR"]
+Deadline Itu Tenggat, | Briefing Itu Taklimat
+Padanan dari Badan Bahasa yang sudah tercatat di KBBI. Plus 3 lagi buat chat kantor.
+---
+[word]
+pos: nomina
+word: tenggat
+meaning: batas waktu
+example: *Tenggat* laporan bulanan dimajukan ke hari Jumat.
+note: Padanan deadline menurut PASTI, Badan Bahasa. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: taklimat
+meaning: pertemuan atau rapat yang diadakan untuk menyampaikan informasi tentang isu atau situasi mutakhir
+example: *Taklimat* proyek baru dimulai jam sembilan.
+note: Padanan briefing. PASTI juga mencatat pengarahan. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: lokakarya
+meaning: pertemuan antara para ahli (pakar) untuk membahas masalah praktis atau yang bersangkutan dengan pelaksanaan dalam bidang keahliannya; sanggar kerja
+example: Minggu depan ada *lokakarya* desain di lantai tiga.
+note: Padanan workshop menurut PASTI. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: kudapan
+meaning: penganan yang dimakan di luar waktu makan; makanan kecil
+example: *Kudapan* buat rapat sore sudah dipesan.
+note: Padanan snack menurut PASTI. Kata dasarnya kudap. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Kata asing
+right-label: Padanan
+wrong: Ditunggu feedback-nya, ya.
+right: Ditunggu *umpan baliknya*, ya.
+why: PASTI memadankan feedback dengan umpan balik atau balikan. KBBI VI mencatat umpan balik.
+---
+[table]
+Padanan kantor
+| Asing | Indonesia |
+| deadline | *tenggat* |
+| briefing | *taklimat* |
+| workshop | *lokakarya* |
+| snack | *kudapan* |
+| feedback | *umpan balik* |
+Sumber: PASTI, Badan Bahasa; KBBI VI Daring
+---
+[end cta="Komen"]
+Padanan mana yang *berani kamu pakai di grup kantor?*
+Komen satu kata.

@@ -1,0 +1,64 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: salah ngomong 5 have ever been
+caption: Kesalahan bahasa Inggris yang sering dipakai orang Indonesia: “I have ever been to Bali”, “Are you already eat?”. Cara bilang pernah, sudah, belum, dan masih. Sumber: Oxford Learner’s Dictionaries (ever); Cambridge Grammar (Already; Already, still or yet?; Been or gone?) #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="SALAH NGOMONG · #5"]
+“I Have Ever Been to Bali”? | Cukup “I’ve Been”
+Cara bilang pernah, sudah, belum, dan masih dalam bahasa Inggris. Plus 2 kuis kecil.
+---
+[card kicker="Mana yang benar?" number=off]
+*A.* I have ever been to Bali. | *B.* I’ve been to Bali.
+Teman kantor nanya kamu pernah ke Bali atau belum. Kamu jawab pakai yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: I have ever been to Bali.
+right: *I’ve been* to Bali.
+why: Pernah di kalimat positif cukup have been. Ever dipakai di pertanyaan, kalimat negatif, dan if: Have you ever been to Bali?
+---
+[compare]
+wrong: Rina isn’t here. She has been to Jakarta.
+right: Rina isn’t here. She *has gone* to Jakarta.
+why: Been to = pernah ke sana dan sudah balik. Gone to = lagi pergi, belum balik. Makanya Have you ever been to…, bukan ever gone to.
+---
+[compare]
+wrong: Are you already eat?
+right: *Have you eaten yet?*
+why: Sudah … belum? Pakai have + bentuk ketiga + yet. Have you already eaten? juga benar, tapi kesannya kaget: lho, kok udah?
+---
+[compare]
+wrong: Sorry, I haven’t finished it already.
+right: Sorry, I haven’t finished it *yet*.
+why: Belum di kalimat negatif pakai yet, biasanya di akhir. Already dipakai di kalimat positif dan pertanyaan: I’ve already sent it.
+---
+[compare]
+wrong: I’ve sent already the report.
+right: I’ve *already sent* the report.
+why: Already jangan diselipkan di antara kata kerja dan objeknya. Taruh setelah have, atau di akhir kalimat: I’ve sent the report already.
+---
+[card kicker="Kuis 2" number=off]
+*A.* I haven’t found my keys yet. | *B.* I still haven’t found my keys.
+Kunci motor hilang dari pagi, sudah kamu cari ke mana-mana. Mana yang lebih pas?
+Jawab A atau B dulu, baru geser.
+---
+[card kicker="Jawaban kuis 2" number=off]
+*Dua-duanya benar.* | B lebih pas.
+Yet cuma bilang belum. Still … not ada rasa “harusnya udah dari tadi”.
+Posisinya beda: yet di akhir kalimat, still sebelum haven’t.
+---
+[table]
+Pernah, sudah, belum, *masih*
+| Indonesia | Inggris |
+| Aku pernah ke Bali. | I’ve been to Bali. |
+| Pernah ke Bali? | Have you ever been to Bali? |
+| Dia lagi ke Jakarta. | She’s gone to Jakarta. |
+| Sudah makan? | Have you eaten yet? |
+| Belum selesai. | I haven’t finished yet. |
+| Masih belum ketemu. | I still haven’t found it. |
+Already: setelah have, bukan sesudah kata kerja. I’ve already sent it.
+---
+[end cta="Simpan"]
+Dulu kamu pernah bilang *“I have ever”?*
+Komen satu kata: pernah atau belum. Salah ngomong #6 minggu depan.

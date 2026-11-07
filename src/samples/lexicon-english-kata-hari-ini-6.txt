@@ -1,0 +1,27 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: kata hari ini 6 colleague
+caption: Kata hari ini #6: colleague (rekan kerja), tekanannya di depan: KO-liig. Jangan ketuker sama college. Sumber IPA: Cambridge Dictionary; Oxford Learner’s Dictionaries #belajarbahasainggris #kosakatainggris #pronunciation
+---
+[cover kicker="KATA HARI INI · #6"]
+Colleague | *Tekanannya di depan: KO-liig.*
+Satu kata Inggris tiap hari. Hari ini kata yang tiap hari kepakai di kantor.
+---
+[card kicker="Coba tebak" number=off]
+Rekan kerja dalam bahasa Inggris: colleague. *A. ko-LIIG atau B. KO-liig?*
+Tebak dulu, baru geser.
+---
+[word]
+pos: noun · countable
+word: colleague
+ipa: /ˈkɒl.iːɡ/ (UK) · /ˈkɑː.liːɡ/ (US)
+say: “KO-liig” (UK) · “KAA-liig” (US), jawabannya B
+meaning: rekan kerja: orang yang kerja bareng kamu, satu kantor atau satu profesi
+example: I’m having lunch with my *colleagues*.
+translation: Aku makan siang bareng rekan kerja.
+note: Jangan ketuker sama college (KO-lij), kampus. Santainya: co-worker.
+---
+[end cta="Follow"]
+Besok: *Kata hari ini #7.*
+Follow, besok kata kantor yang lain.

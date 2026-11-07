@@ -1,0 +1,74 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: sering salah dibaca 1 present
+caption: Cara baca present yang benar: PREZ-ent kalau hadiah, pri-ZENT kalau mempresentasikan. Tekanannya pindah ikut fungsinya. Sumber IPA: Cambridge Dictionary; pola: VOA Learning English #belajarbahasainggris #kosakatainggris #pronunciation
+---
+[cover kicker="SERING SALAH DIBACA · #1"]
+“Present” Ada Dua: | PREZ-ent dan pri-ZENT
+Tulisannya sama, tekanannya beda. Benda di depan, kata kerja di belakang. Plus 5 pasangan lain yang sering muncul di kantor.
+---
+[word]
+pos: noun vs verb
+word: present
+ipa: noun /ˈprez.ənt/ · verb /prɪˈzent/ (UK & US)
+say: “PREZ-ent” (benda) · “pri-ZENT” (kerja)
+meaning: PREZ-ent: hadiah; masa kini | pri-ZENT: mempresentasikan; menyerahkan
+example: I’ll *present* the results on Monday.
+translation: Aku presentasi hasilnya hari Senin. (pri-ZENT)
+note: Huruf besar di say = suku kata yang ditekan.
+---
+[card kicker="Polanya" number=off]
+Benda di depan, kerja di belakang
+Kata dua suku kata yang bisa jadi noun dan verb biasanya begini: noun ditekan di suku kata pertama, verb di suku kata kedua (VOA Learning English). | Biasanya, bukan selalu: control dan promise tekanannya sama. Ragu? Lihat tanda ˈ di IPA kamus. Suku kata sesudahnya yang ditekan.
+---
+[word]
+pos: noun vs verb
+word: record
+ipa: noun /ˈrek.ɔːd/ (UK) · /ˈrek.ɚd/ (US) · verb /rɪˈkɔːd/ (UK) · /rɪˈkɔːrd/ (US)
+say: “REK-od” (benda) · “ri-KOD” (kerja)
+meaning: REK-od: catatan; rekor | ri-KOD: merekam; mencatat
+example: Can we *record* the meeting?
+translation: Rapatnya boleh direkam? (ri-KOD)
+---
+[word]
+pos: noun vs verb
+word: increase
+ipa: noun /ˈɪn.kriːs/ · verb /ɪnˈkriːs/ (UK & US)
+say: “IN-kriis” (benda) · “in-KRIIS” (kerja)
+meaning: IN-kriis: kenaikan | in-KRIIS: naik; menaikkan
+example: We got a small *increase* in sales.
+translation: Penjualan kita naik sedikit. (IN-kriis)
+---
+[word]
+pos: noun vs verb
+word: project
+ipa: noun /ˈprɒdʒ.ekt/ (UK) · /ˈprɑː.dʒekt/ (US) · verb /prəˈdʒekt/
+say: “PRO-jekt” (benda) · “pre-JEKT” (kerja)
+meaning: PRO-jekt: proyek | pre-JEKT: memperkirakan; memancarkan ke layar
+example: This *project* is due next month.
+translation: Proyek ini deadline-nya bulan depan. (PRO-jekt)
+---
+[word]
+pos: noun vs verb
+word: object
+ipa: noun /ˈɒb.dʒekt/ (UK) · /ˈɑːb.dʒekt/ (US) · verb /əbˈdʒekt/
+say: “OB-jekt” (benda) · “eb-JEKT” (kerja)
+meaning: OB-jekt: benda; tujuan | eb-JEKT: keberatan
+example: Does anyone *object* to the new schedule?
+translation: Ada yang keberatan sama jadwal barunya? (eb-JEKT)
+---
+[table]
+Contekan: benda vs kerja
+| Kata | Benda (noun) | Kerja (verb) |
+| present | PREZ-ent | pri-ZENT |
+| record | REK-od | ri-KOD |
+| increase | IN-kriis | in-KRIIS |
+| project | PRO-jekt | pre-JEKT |
+| object | OB-jekt | eb-JEKT |
+| permit | PER-mit | pe-MIT |
+Permit sebagai benda = surat izin. Sebagai kerja = mengizinkan.
+---
+[end cta="Simpan"]
+Kata mana yang selama ini *kamu baca sama terus?*
+Komen satu kata. Sering salah dibaca #2 minggu depan.

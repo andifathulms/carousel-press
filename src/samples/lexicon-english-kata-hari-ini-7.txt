@@ -1,0 +1,27 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: kata hari ini 7 career
+caption: Kata hari ini #7: career (karier), tekanannya di belakang: ke-RIR. Beda sama carrier. Sumber IPA: Cambridge Dictionary; Oxford Learner’s Dictionaries #belajarbahasainggris #kosakatainggris #pronunciation
+---
+[cover kicker="KATA HARI INI · #7"]
+Career | *Bukan KA-rir, tapi ke-RIR.*
+Satu kata Inggris tiap hari. Hari ini kata yang pasti muncul di interview kerja.
+---
+[card kicker="Coba tebak" number=off]
+Karier dalam bahasa Inggris: career. *A. KE-rir atau B. ke-RIR?*
+Tebak dulu, baru geser.
+---
+[word]
+pos: noun · countable
+word: career
+ipa: /kəˈrɪə(r)/ (UK) · /kəˈrɪr/ (US)
+say: “ke-RIE” (UK) · “ke-RIR” (US), jawabannya B
+meaning: karier: pekerjaan yang kamu jalani sepanjang hidup kerja, biasanya makin lama makin naik
+example: I want to build a *career* in marketing.
+translation: Aku mau membangun karier di bidang marketing.
+note: Tekanan di depan malah kedengaran kayak carrier (KE-ri-e): pengangkut atau maskapai.
+---
+[end cta="Follow"]
+Besok: *Kata hari ini #8.*
+Follow, satu kata kecil tiap hari.

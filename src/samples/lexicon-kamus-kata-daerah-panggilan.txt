@@ -1,0 +1,66 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: panggilan daerah di kbbi
+caption: Teteh dan akang dari Sunda, uni dan uda dari Minangkabau, butet dan ucok dari Batak: semuanya tercatat di KBBI, lengkap dengan label daerahnya. Sumber: KBBI VI Daring (dicek 7 November 2026) #bahasaindonesia #kbbi #katabaku
+---
+[cover kicker="KATA DAERAH DI KBBI"]
+Teteh, Uni, Butet: | Ada di KBBI
+Panggilan dari Sunda, Minangkabau, dan Batak yang sudah tercatat, lengkap dengan label daerahnya.
+---
+[word]
+pos: nomina · Sunda
+word: teteh
+meaning: panggilan kepada kakak perempuan
+example: *Teteh*, titip beliin cilok, ya.
+note: Teteh yang lain berlabel Jawa: sudah jelas ucapannya (tentang anak kecil). Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · Sunda
+word: akang
+meaning: kakak (laki-laki); abang; aa
+example: Terima kasih, *Akang*, sudah dijemput.
+note: Berlabel Sangir, akang berarti kakak laki-laki atau perempuan; anak pertama. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · Minangkabau
+word: uni
+meaning: kakak perempuan
+example: *Uni*, rendangnya satu bungkus, ya.
+note: Uni yang lain berarti perserikatan; persatuan; ikatan. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · Minangkabau
+word: uda
+meaning: kakak (laki-laki); abang
+example: *Uda* yang jualan nasi padang itu hafal pesananku.
+note: Uda yang lain (arkais, Jakarta) adalah kependekan dari muda, seperti pak uda. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · Batak
+word: butet
+meaning: panggilan kepada anak perempuan
+example: *Butet*, jangan lupa makan, ya.
+note: Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · Batak
+word: ucok
+meaning: anak laki-laki
+example: *Ucok* sudah pulang sekolah, Mak.
+note: Ucok yang lain (arkais, Minangkabau): berunding dengan damai; berdamai. Sumber: KBBI VI Daring
+---
+[table]
+Label daerahnya
+| Kata | Label di KBBI |
+| *teteh* | Sd (Sunda) |
+| *akang* | Sd (Sunda) |
+| *uni* | Mk (Minangkabau) |
+| *uda* | Mk (Minangkabau) |
+| *butet* | Bt (Batak) |
+| *ucok* | Bt (Batak) |
+Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Di rumahmu, kakak dipanggil *apa?*
+Komen satu kata.

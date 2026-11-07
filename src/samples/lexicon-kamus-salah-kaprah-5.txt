@@ -1,0 +1,73 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: males itu memotong babi
+caption: Di KBBI, males itu memotong babi untuk dijual dagingnya (bahasa Dayak), dan bete juga nama penganan dari Bugis. Di chat sah saja, di tulisan resmi pakai malas, bosan, hitam. Bonus: malas juga nama ikan, betutu. Sumber: KBBI VI Daring (dicek 7 November 2026) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="SALAH KAPRAH #5"]
+Lagi Males? | Di KBBI, Males Itu Memotong Babi
+Yang baku: malas. Plus bete, item, rame, ijo, dan pinter: kata chat yang di KBBI ternyata beda.
+---
+[word]
+pos: verba · Dayak
+word: males
+meaning: memotong babi untuk dijual dagingnya
+example: Menjelang pesta adat, Paman *males* dua ekor babinya.
+note: Males dengan arti malas belum tercatat di KBBI VI. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Di chat
+right-label: Bentuk baku
+wrong: Lagi males keluar rumah.
+right: Lagi *malas* keluar rumah.
+why: Di KBBI VI, males hanya verba Dayak. Malas: “tidak bernafsu; tidak suka; segan; enggan”.
+---
+[word]
+pos: nomina · Bugis
+word: bete
+meaning: penganan yang dibuat dari padi yang masih muda, disangrai, lalu ditumbuk untuk melepaskan kulitnya, dicampur kelapa dan gula merah
+example: Nenek menyuguhkan *bete* buat teman minum teh sore.
+note: Bete yang berarti bosan juga ada, tapi ragam cakapan (cak). Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Lama-lama aku bete di sini.
+right: Lama-lama aku *bosan* di sini.
+why: KBBI VI menandai bete sebagai ragam cakapan (cak): “bosan total; benar-benar bosan”. Di tulisan resmi, pakai bosan.
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Kucing item itu tidur di teras.
+right: Kucing *hitam* itu tidur di teras.
+why: KBBI VI mencatat item sebagai ragam cakapan (cak) dengan arti hitam.
+---
+[compare]
+wrong-label: Di chat
+right-label: Bentuk baku
+wrong: Jalanan rame, lampunya masih ijo.
+right: Jalanan *ramai*, lampunya masih *hijau*.
+why: KBBI VI mengarahkan rame ke bentuk bakunya, ramai, dan ijo ke hijau.
+---
+[compare]
+wrong-label: Di chat
+right-label: Bentuk baku
+wrong: Adikku pinter menggambar.
+right: Adikku *pintar* menggambar.
+why: Pinter tidak ada di KBBI VI Daring (per 7 Nov 2026). Pintar: “mahir (melakukan atau mengerjakan sesuatu)”.
+---
+[table]
+Yang ditulis
+| Tulis | Bukan |
+| *malas* | males |
+| *bosan* | bete |
+| *hitam* | item |
+| *ramai* | rame |
+| *hijau* | ijo |
+| *pintar* | pinter |
+Males (memotong babi, Dayak) dan bete (penganan, Bugis): artinya lain. Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Kata chat mana yang *paling bikin kaget?*
+Komen satu kata: males, bete, atau item.

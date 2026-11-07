@@ -1,0 +1,74 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata indah bunga
+caption: Kata indah bahasa Indonesia tentang bunga yang benar-benar ada di KBBI: puspa, kusuma, sekar, padma, kuntum, mekar, semerbak. Buat caption foto taman dan bio. Sumber: KBBI VI Daring (dicek 7 November 2026) #bahasaindonesia #kataindah #kbbi
+---
+[cover kicker="KATA INDAH #9 · KBBI VI"]
+Puspa, Padma, Kuntum: | Semuanya Ada di KBBI
+7 kata indah tentang bunga yang benar-benar tercatat, buat caption foto taman atau bio.
+---
+[word]
+pos: nomina · klasik
+word: puspa
+meaning: bunga
+example: Balkon kecil, penuh *puspa* warna-warni.
+note: Label kl: kata kesusastraan Melayu Klasik. Puspa juga nama pohon hutan. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: kusuma
+meaning: bunga
+example: Kamu *kusuma* paling elok di taman ini.
+note: Bukan kesuma (bentuk tidak baku). Kiasan: perempuan yang cantik. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · klasik
+word: sekar
+meaning: kembang; bunga
+example: Ada *sekar* melati terselip di rambutmu.
+note: Sekar yang lain (Jawa): tembang; nyanyian (lagu) vokal. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: padma
+meaning: teratai yang bunganya berwarna merah jambu
+example: Pagi di kolam, *padma* merah jambu mulai terbuka.
+note: Padma juga nama tumbuhan langka Rafflesia patma, disebut juga pakma. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: kuntum
+meaning: kuncup bunga yang hampir mekar (berkembang)
+example: Satu *kuntum* mawar merah, untukmu yang sabar.
+note: Juga kata penggolong: tiga kuntum kemboja. Sumber: KBBI VI Daring
+---
+[word]
+pos: verba
+word: mekar
+meaning: (mulai) berkembang; menjadi terbuka; mengurai
+example: Pelan-pelan, rasa ini *mekar* tanpa minta izin.
+note: Kiasan (ki): “(mulai) timbul dan berkembang”, seperti perasaan cinta. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: semerbak
+meaning: harum; merata (tentang bau yang harum)
+example: Pagi ini kamarku *semerbak* wangi melati.
+note: Dicatat di bawah kata dasar serbak. Sumber: KBBI VI Daring
+---
+[table]
+Kata indah dari taman
+| Kata | Kelas |
+| *puspa* | nomina (kl) |
+| *kusuma* | nomina |
+| *sekar* | nomina (kl) |
+| *padma* | nomina |
+| *kuntum* | nomina |
+| *mekar* | verba |
+| *semerbak* | adjektiva |
+Semua tercatat di KBBI VI Daring
+---
+[end cta="Simpan"]
+Pakai satu kata tadi *dalam satu kalimat.*
+Tulis di komen, lalu simpan buat foto bunga berikutnya.

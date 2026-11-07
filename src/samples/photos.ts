@@ -43,6 +43,14 @@ const FOCAL: Record<string, [number, number]> = {
   'muarojambi-kembar-batu': [0.5, 0.6],
   'muarojambi-reruntuhan': [0.5, 0.6],
   'muarojambi-atisha': [0.5, 0.4],
+  'lanfang-kongsihuis': [0.4, 0.45],
+  'lanfang-hoofden': [0.5, 0.6],
+  'bada-palindo': [0.45, 0.5],
+  'nuku-makam': [0.6, 0.5],
+  'solor-henricus-1656': [0.25, 0.7],
+  'solor-pulau-1656': [0.4, 0.45],
+  'cilegon-landraad': [0.5, 0.6],
+  'lombok-vitrine': [0.5, 0.55],
 };
 
 export const SAMPLE_PHOTOS: readonly SamplePhoto[] = Object.entries(URLS).map(([path, url]) => {

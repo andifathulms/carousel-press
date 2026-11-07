@@ -1,0 +1,73 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: artinya apa 2 goat salty
+caption: Arti slang bahasa Inggris di komen bola dan game: GOAT, salty, cringe, delulu, touch grass. Sumber arti & IPA: Cambridge Dictionary #belajarbahasainggris #kosakatainggris #englishslang
+---
+[cover kicker="ARTINYA APA? · #2"]
+“GOAT” di Komen Bola | Bukan Kambing
+5 slang dari komen bola, game, dan fandom, plus “Pakai di:” biar tahu kapan aman dipakai.
+---
+[word]
+pos: singkatan · noun
+word: GOAT
+ipa: /ɡəʊt/ (UK) · /ɡoʊt/ (US)
+say: “gout”, sama kayak goat (kambing)
+meaning: Greatest Of All Time | yang terhebat sepanjang masa
+example: Our goalkeeper is the *GOAT*.
+translation: Kiper kita yang terhebat sepanjang masa.
+note: Pakai di: nongkrong ✅ · chat kantor ⚠️ · email ❌
+---
+[word]
+pos: informal · adjective
+word: salty
+ipa: /ˈsɒl.ti/ (UK)
+say: “SOL-ti”
+meaning: kesal atau baper, apalagi | kalau alasannya nggak masuk akal
+example: He got *salty* after losing one game.
+translation: Dia langsung kesal gara-gara kalah sekali.
+note: Arti aslinya asin. Pakai di: nongkrong ✅ · chat kantor ❌ · email ❌
+---
+[word]
+pos: informal · adjective
+word: cringe
+ipa: /krɪndʒ/ (UK & US)
+say: “krinj”
+meaning: malu-maluin banget, | karena jelek atau konyol
+example: My old Facebook posts are so *cringe*.
+translation: Postingan Facebook lamaku malu-maluin banget.
+note: Pakai di: nongkrong ✅ · chat kantor ⚠️ · email ❌
+---
+[word]
+pos: slang · adjective
+word: delulu
+ipa: /dɪˈluː.luː/ (UK & US)
+say: “di-LU-lu”
+meaning: percaya hal yang nggak nyata, | biasanya karena memang mau percaya
+example: I think my idol waved at me. I know, I’m *delulu*.
+translation: Kayaknya idolaku melambai ke aku. Iya, aku halu.
+note: Nadanya bercanda. Pakai di: nongkrong ✅ · chat kantor ❌ · email ❌
+---
+[word]
+pos: informal · idiom
+word: touch grass
+ipa: /tʌtʃ ɡrɑːs/ (UK) · /tʌtʃ ɡræs/ (US)
+say: “tach graas”
+meaning: keluar rumah dan ngapain di dunia | nyata, bukan terus di internet
+example: I’ve been gaming all weekend. I need to *touch grass*.
+translation: Akhir pekan main game terus. Aku perlu keluar dulu.
+note: Ke orang lain bisa kedengaran nyindir. Pakai di: nongkrong ✅ · kantor ❌
+---
+[table]
+Slang ini aman di mana?
+| Slang | Arti | Chat kantor |
+| GOAT | terhebat | ⚠️ |
+| salty | kesal, baper | ❌ |
+| cringe | malu-maluin | ⚠️ |
+| delulu | halu | ❌ |
+| touch grass | lepas dari HP | ❌ |
+Email dan tulisan resmi: ❌ untuk semuanya. Cukup paham artinya.
+---
+[end cta="Follow"]
+Slang mana yang *pertama kali kamu lihat di komen?*
+Komen satu kata. Artinya apa? #3 minggu depan.

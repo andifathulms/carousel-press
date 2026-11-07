@@ -1,0 +1,45 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: benteng solor komandan voc kabur ke larantuka
+caption: Solor dan Larantuka, Flores Timur, NTT: tahun 1629, komandan benteng VOC di Lohayong menggelapkan uang Kompeni dan kabur ke Larantuka. Anak atau cucunya kelak memimpin kaum Topas di Timor. Sumber: Hans Hägerdal, Lords of the Land, Lords of the Sea: Conflict and Adaptation in Early Colonial Timor, 1600–1800 (KITLV Press, 2012, akses terbuka), mengutip A. de Roever (2002) dan Tiele & Heeres · Foto: Nationaal Archief / Atlas of Mutual Heritage, sekitar 1656 (domain publik); Nativeplants garden, Nugroho Arif Prabowo (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #nusatenggaratimur #florestimur #larantuka #solor
+---
+[cover kicker="FLORES TIMUR · 1613–1629" photo=solor-henricus-1656]
+Komandan Benteng VOC | Kabur ke Larantuka
+Benteng di Lohayong, Pulau Solor: dibangun misionaris Dominikan, direbut VOC, lalu ditinggal kabur komandannya sendiri.
+---
+[number=off icon=none photo=solor-larantuka-1656]
+*1629*: Jan de Hornay membelot
+Komandan Fort Henricus di Solor ini menggelapkan uang VOC, lalu kabur ke Larantuka, basis orang Portugis. Segera setelah itu, Belanda meratakan benteng itu dan pergi.
+---
+[number=off icon=none photo=solor-cendana]
+Semua berawal dari cendana
+Cendana Timor dikirim sampai Tiongkok dan pantai Koromandel, India. Menurut Hägerdal, pendatang ke Solor terutama berebut dagang cendana, bukan berebut soal agama.
+---
+[number=off icon=none photo=solor-pulau-1656]
+*1566*: benteng batu di Lohayong
+Setelah diserang armada dari Jawa tahun 1563, misionaris Dominikan António da Cruz membangun benteng batu dan kapur dengan lima bastion. Di dalamnya ada gereja dan biara.
+---
+[number=off icon=none photo=solor-henricus-1656]
+*April 1613*: VOC merebut Solor
+Komandan Apolonius Schot memberi syarat lunak: orang Portugis boleh pergi membawa separuh harta. Lebih dari 1.500 orang pindah ke Larantuka, termasuk tujuh biarawan Dominikan.
+---
+[number=off icon=none photo=solor-peta-1656]
+Sekutu VOC: Kaicili Pertawi
+Penguasa Lohayong ini sengaji tertinggi di Solor dan memihak Belanda. Ia menjalin hubungan dengan raja-raja Buton, Makassar, dan Banten, juga Mena di Timor.
+---
+[number=off icon=none photo=solor-pulau-1656]
+Benteng dengan buku nikah
+VOC meninggalkan benteng tahun 1616 dan kembali 1618. Dari 56 istri yang tercatat di buku nikahnya, 29 berasal dari Kepulauan Solor.
+---
+[number=off icon=none photo=solor-larantuka-1656]
+Dua komandan membelot
+Jan Thomasz Dayman kabur ke Larantuka tahun 1625, Jan de Hornay tahun 1629. Laporan Belanda 1689 menyebut De Hornay orang Denmark; versi lain bilang dari Amsterdam.
+---
+[number=off icon=none photo=solor-larantuka-kini]
+Keturunannya memimpin di Timor
+Di Larantuka ia menikahi perempuan Timor, bekas budak para padre Dominikan. António Hornay, anaknya (menurut De Roever, cucunya), lahir sekitar 1630–1635 dan memimpin kaum Topas di Timor 1664–1693.
+---
+[end photo=solor-henricus-1656 cta="Kirim ke orang Flores Timur"]
+Orang Flores Timur, sudah tahu *kisah ini?*
+Komen 🙋 kalau baru tahu.

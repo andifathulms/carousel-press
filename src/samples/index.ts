@@ -300,6 +300,36 @@ import b5SejarahTumbangAnoiId from './sejarah-tumbang-anoi-id.txt?raw';
 import b5SejarahPenyengatId from './sejarah-penyengat-id.txt?raw';
 import b5SejarahSiPitungId from './sejarah-si-pitung-id.txt?raw';
 import b5SejarahMuaroJambiId from './sejarah-muaro-jambi-id.txt?raw';
+import b6LexiconEnglishSalahNgomong5 from './lexicon-english-salah-ngomong-5.txt?raw';
+import b6LexiconEnglishBedaArti5 from './lexicon-english-beda-arti-5.txt?raw';
+import b6LexiconEnglishKataHariIni6 from './lexicon-english-kata-hari-ini-6.txt?raw';
+import b6LexiconEnglishKataHariIni7 from './lexicon-english-kata-hari-ini-7.txt?raw';
+import b6LexiconEnglishKataHariIni8 from './lexicon-english-kata-hari-ini-8.txt?raw';
+import b6LexiconEnglishSekolah4 from './lexicon-english-sekolah-4.txt?raw';
+import b6LexiconEnglishArtinyaApa2 from './lexicon-english-artinya-apa-2.txt?raw';
+import b6LexiconEnglishInterview4 from './lexicon-english-interview-4.txt?raw';
+import b6LexiconEnglishKantor1 from './lexicon-english-kantor-1.txt?raw';
+import b6LexiconEnglishSalahDibaca1 from './lexicon-english-salah-dibaca-1.txt?raw';
+import b6LexiconKamusManaYangBaku5 from './lexicon-kamus-mana-yang-baku-5.txt?raw';
+import b6LexiconKamusManaYangBaku6 from './lexicon-kamus-mana-yang-baku-6.txt?raw';
+import b6LexiconKamusSalahKaprah5 from './lexicon-kamus-salah-kaprah-5.txt?raw';
+import b6LexiconKamusKataIndahBunga from './lexicon-kamus-kata-indah-bunga.txt?raw';
+import b6LexiconKamusKataIndahPalsu2 from './lexicon-kamus-kata-indah-palsu-2.txt?raw';
+import b6LexiconKamusSalahArtiAnarkis from './lexicon-kamus-salah-arti-anarkis.txt?raw';
+import b6LexiconKamusSerapanBelandaBengkel from './lexicon-kamus-serapan-belanda-bengkel.txt?raw';
+import b6LexiconKamusPadananKantor from './lexicon-kamus-padanan-kantor.txt?raw';
+import b6LexiconKamusUngkapanBuahTangan from './lexicon-kamus-ungkapan-buah-tangan.txt?raw';
+import b6LexiconKamusKataDaerahPanggilan from './lexicon-kamus-kata-daerah-panggilan.txt?raw';
+import b6SejarahLanfangId from './sejarah-lanfang-id.txt?raw';
+import b6SejarahLembahBadaId from './sejarah-lembah-bada-id.txt?raw';
+import b6SejarahAndiDepuId from './sejarah-andi-depu-id.txt?raw';
+import b6SejarahNukuTidoreId from './sejarah-nuku-tidore-id.txt?raw';
+import b6SejarahSolorLarantukaId from './sejarah-solor-larantuka-id.txt?raw';
+import b6SejarahGegerCilegonId from './sejarah-geger-cilegon-id.txt?raw';
+import b6SejarahNamaCirebonId from './sejarah-nama-cirebon-id.txt?raw';
+import b6SejarahBriPurwokertoId from './sejarah-bri-purwokerto-id.txt?raw';
+import b6SejarahBerouwTelukbetungId from './sejarah-berouw-telukbetung-id.txt?raw';
+import b6SejarahHartaLombokId from './sejarah-harta-lombok-id.txt?raw';
 export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-couples-id', name: '5 pertanyaan kecil (editorial, id)', category: 'relationships', text: couples },
   { id: 'dev-git-id', name: '7 perintah git (dev, id)', category: 'dev', text: git },
@@ -587,4 +617,34 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sejarah-penyengat-id', name: 'Pulau Penyengat, mas kawin sultan (Sejarah Nusantara, id)', category: 'history', text: b5SejarahPenyengatId },
   { id: 'sejarah-si-pitung-id', name: 'Si Pitung, Batavia 1893 (Sejarah Nusantara, id)', category: 'history', text: b5SejarahSiPitungId },
   { id: 'sejarah-muaro-jambi-id', name: 'Atisha dan Candi Muaro Jambi (Sejarah Nusantara, id)', category: 'history', text: b5SejarahMuaroJambiId },
+  { id: 'lexicon-english-salah-ngomong-5', name: 'Salah ngomong #5: have ever been (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishSalahNgomong5 },
+  { id: 'lexicon-english-beda-arti-5', name: 'Beda arti #5: scheme (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishBedaArti5 },
+  { id: 'lexicon-english-kata-hari-ini-6', name: 'Kata hari ini #6: colleague (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishKataHariIni6 },
+  { id: 'lexicon-english-kata-hari-ini-7', name: 'Kata hari ini #7: career (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishKataHariIni7 },
+  { id: 'lexicon-english-kata-hari-ini-8', name: 'Kata hari ini #8: attend (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishKataHariIni8 },
+  { id: 'lexicon-english-sekolah-4', name: 'Sekolah vs aslinya #4: what’s up, hang on (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishSekolah4 },
+  { id: 'lexicon-english-artinya-apa-2', name: 'Artinya apa? #2: GOAT, salty, delulu (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishArtinyaApa2 },
+  { id: 'lexicon-english-interview-4', name: 'Interview #4: any questions for us (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishInterview4 },
+  { id: 'lexicon-english-kantor-1', name: 'Kantor #1: minta tambahan waktu (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishKantor1 },
+  { id: 'lexicon-english-salah-dibaca-1', name: 'Sering salah dibaca #1: present, record (Kosakata Inggris, id)', category: 'english', text: b6LexiconEnglishSalahDibaca1 },
+  { id: 'lexicon-kamus-mana-yang-baku-5', name: 'Mana yang baku #5: kreativitas (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusManaYangBaku5 },
+  { id: 'lexicon-kamus-mana-yang-baku-6', name: 'Mana yang baku #6: salat (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusManaYangBaku6 },
+  { id: 'lexicon-kamus-salah-kaprah-5', name: 'Salah kaprah #5: males (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusSalahKaprah5 },
+  { id: 'lexicon-kamus-kata-indah-bunga', name: 'Kata indah #9: bunga (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusKataIndahBunga },
+  { id: 'lexicon-kamus-kata-indah-palsu-2', name: 'Kata indah palsu #2: harsa (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusKataIndahPalsu2 },
+  { id: 'lexicon-kamus-salah-arti-anarkis', name: 'Salah arti #5: anarkis (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusSalahArtiAnarkis },
+  { id: 'lexicon-kamus-serapan-belanda-bengkel', name: 'Kata serapan: bengkel dari Belanda (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusSerapanBelandaBengkel },
+  { id: 'lexicon-kamus-padanan-kantor', name: 'Padanan kata: tenggat, taklimat (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusPadananKantor },
+  { id: 'lexicon-kamus-ungkapan-buah-tangan', name: 'Ungkapan: buah tangan, buah bibir (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusUngkapanBuahTangan },
+  { id: 'lexicon-kamus-kata-daerah-panggilan', name: 'Kata daerah di KBBI: teteh, uni, butet (Kata Baku, id)', category: 'indonesian', text: b6LexiconKamusKataDaerahPanggilan },
+  { id: 'sejarah-lanfang-id', name: 'Kongsi Lanfang, Mandor (Sejarah Nusantara, id)', category: 'history', text: b6SejarahLanfangId },
+  { id: 'sejarah-lembah-bada-id', name: 'Megalit Lembah Bada (Sejarah Nusantara, id)', category: 'history', text: b6SejarahLembahBadaId },
+  { id: 'sejarah-andi-depu-id', name: 'Andi Depu, Mandar 1946 (Sejarah Nusantara, id)', category: 'history', text: b6SejarahAndiDepuId },
+  { id: 'sejarah-nuku-tidore-id', name: 'Sultan Nuku, Tidore (Sejarah Nusantara, id)', category: 'history', text: b6SejarahNukuTidoreId },
+  { id: 'sejarah-solor-larantuka-id', name: 'Benteng Solor dan Larantuka (Sejarah Nusantara, id)', category: 'history', text: b6SejarahSolorLarantukaId },
+  { id: 'sejarah-geger-cilegon-id', name: 'Geger Cilegon 1888 (Sejarah Nusantara, id)', category: 'history', text: b6SejarahGegerCilegonId },
+  { id: 'sejarah-nama-cirebon-id', name: 'Asal-usul nama Cirebon (Sejarah Nusantara, id)', category: 'history', text: b6SejarahNamaCirebonId },
+  { id: 'sejarah-bri-purwokerto-id', name: 'Bank priyayi Purwokerto 1895 (Sejarah Nusantara, id)', category: 'history', text: b6SejarahBriPurwokertoId },
+  { id: 'sejarah-berouw-telukbetung-id', name: 'Kapal Berouw, Teluk Betung 1883 (Sejarah Nusantara, id)', category: 'history', text: b6SejarahBerouwTelukbetungId },
+  { id: 'sejarah-harta-lombok-id', name: 'Harta Lombok 1894 (Sejarah Nusantara, id)', category: 'history', text: b6SejarahHartaLombokId },
 ];

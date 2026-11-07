@@ -1,0 +1,47 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: interview 4 any questions for us
+caption: Cara jawab do you have any questions for us di akhir interview bahasa Inggris: jawab yes, lalu pakai 4 pertanyaan ini. Sumber: Prospects (Jisc); Virginia Tech Career and Professional Development; Cambridge Grammar (Reported speech: indirect speech) #interviewbahasainggris #belajarbahasainggris #kosakatainggris
+---
+[cover kicker="INTERVIEW · #4"]
+“Any Questions for Us?” | Siapkan Jawaban “Yes”
+Pertanyaan terakhir interview itu kesempatanmu. 4 pertanyaan siap pakai, dari tugas sampai langkah berikutnya.
+---
+[card kicker="Jawaban yang lebih kuat" number=off]
+Yes, I have *a few questions*, if that’s okay.
+Yang kurang kuat: “No, I think everything is clear.”
+Nggak salah grammar-nya, tapi kesempatannya lewat. Panduan karier Prospects dan Virginia Tech sama-sama bilang: jawab yes, dan siapkan 4–5 pertanyaan.
+---
+[card kicker="1 · Soal tugasnya" number=off]
+What does a *typical day* look like in this role?
+Typical = biasa, yang sehari-hari. Jawabannya bikin kamu kebayang kerjaannya, bukan cuma isi iklan lowongan.
+---
+[card kicker="2 · Soal timnya" number=off]
+Could you tell me more about the *team* I’d be working with?
+I’d be working with = yang nanti kerja bareng aku. Sopan, dan nggak kedengaran kepedean.
+---
+[card kicker="3 · Soal ukuran sukses" number=off]
+What would *success* look like in the first three months?
+Kamu nunjukin mikir soal hasil kerja, bukan cuma soal diterima. Prospects juga menyarankan nanya soal tiga bulan pertama.
+---
+[card kicker="4 · Soal langkah berikutnya" number=off]
+What are the *next steps* in the process?
+Tanya ini kalau mereka belum jelasin. Kamu jadi tahu kapan dan lewat apa kabar berikutnya datang.
+---
+[compare]
+wrong: Can you tell me when is the next interview?
+right: Can you tell me *when the next interview is*?
+why: Setelah Can you tell me…, urutannya kayak kalimat biasa: when + subjek + is. Pertanyaan langsungnya tetap: When is the next interview?
+---
+[card kicker="Tunda dulu" number=off]
+Tiga pertanyaan yang kurang pas
+“How much is the salary?” Gaji dan cuti: simpan sampai ada tawaran. | Yang sudah mereka jelasin tadi. Kesannya nggak nyimak. | Yang jawabannya cuma ya/tidak, atau sudah ada di website.
+---
+[card kicker="Ringkasan" number=off]
+Do you have any questions for us?
+*Tugas:* What does a typical day look like in this role? | *Tim:* Could you tell me more about the team I’d be working with? | *Sukses:* What would success look like in the first three months? | *Lanjutan:* What are the next steps in the process?
+---
+[end cta="Simpan"]
+Pertanyaan nomor berapa yang *bakal kamu pakai?*
+Komen satu angka: 1, 2, 3, atau 4. Interview #5 minggu depan.

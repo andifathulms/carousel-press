@@ -1,0 +1,41 @@
+handle: @sejarah.nusantara.id
+template: editorial/sage
+lang: id
+title: megalit lembah bada lore lindu
+caption: Poso, Sulawesi Tengah: megalit Lore Lindu di Lembah Bada, Besoa, dan Napu. Arca dan kalamba ini sudah dicatat sejak 1898, tapi umurnya masih diperdebatkan. Sumber: Kirleis, Müller, Kortemeier, Behling & Soeghondo, “The Megalithic Landscape of Central Sulawesi, Indonesia”, dalam Crossing Borders in Southeast Asian Archaeology (2012); Dwi Yani Yuniawati Umar, “Stone Vats (Kalambas) as One of Megalithic Remains in the Lore Valley”, Berkala Arkeologi 30(2) (2010); Mongabay Indonesia, 30 Jul 2019 (data BPCB Gorontalo) · Foto: Walter Kaudern 1918 (domain publik, Museum Kebudayaan Dunia, Swedia); Lo2asinamura, Bingkaijay, Romi Hidayat1986 (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #sulawesitengah #poso #lembahbada #megalit
+---
+[cover kicker="SULAWESI TENGAH · LORE LINDU" photo=bada-palindo]
+Patung Batu di Lembah Poso | Umurnya Masih Diperdebatkan
+Megalit Lore Lindu di Lembah Bada, Besoa, dan Napu: arca seperti Palindo, ikon Lembah Bada, dan tong batu kalamba.
+---
+[number=off icon=none photo=bada-pokekea]
+Tiga situs, tiga angka
+Arang di situs Entovera: 1387–831 SM. Kerangka di situs Wineki: 2351–1416 SM. Endapan di dalam dua kalamba Pokekea: abad ke-8 sampai ke-13 Masehi.
+---
+[number=off icon=none photo=bada-behoa]
+Kenapa angkanya beda jauh?
+Yang ditanggali adalah arang, tulang, dan endapan di sekitar atau di dalam batu, bukan batunya. Kirleis dkk. menyimpulkan kalamba Pokekea sudah berdiri sebelum sekitar 830 M.
+---
+[number=off icon=none photo=bada-kalamba-1918]
+Kalamba, tong batu untuk kubur
+Warga menyebut wadahnya kalamba, “perahu”, dan tutupnya tuatena. Di kalamba no. 38 situs Tadulako ada gigi sedikitnya 10 orang dewasa dan 1 anak.
+---
+[number=off icon=none photo=bada-langke-bulawa-1918]
+Bukan cuma satu patung
+Survei BPCB Gorontalo mencatat 2.007 tinggalan di 118 situs dalam empat lembah. Di Lembah Bada saja ada 186 tinggalan di 35 situs.
+---
+[number=off icon=none photo=bada-tadulako-1918]
+*1898*: mulai dicatat orang luar
+Misionaris Adriani dan Kruyt menulis tentang batu-batu ini tahun 1898. Walter Kaudern memotretnya pada 1917–1921 dan menerbitkan Megalithic Finds in Central Celebes (1938).
+---
+[number=off icon=none photo=bada-behoa]
+Siapa pembuatnya?
+DNA tulang dari kalamba Tadulako paling dekat dengan sampel orang Kajang, Sulawesi Selatan, di antara lima populasi yang dibandingkan. Itu baru petunjuk, belum jawaban.
+---
+[number=off icon=none photo=bada-pokekea]
+Lembah Bada hari ini
+Kawasan ini masuk Cagar Biosfer Lore Lindu sejak 1977. Tahun 2019, kajian BPCB Gorontalo disiapkan untuk mengusulkannya jadi warisan dunia.
+---
+[end photo=bada-palindo cta="Kirim ke orang Poso"]
+Orang Poso, pernah lihat *Palindo langsung?*
+Komen 🙋 kalau pernah ke Lembah Bada.

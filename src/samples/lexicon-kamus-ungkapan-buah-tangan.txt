@@ -1,0 +1,48 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: buah tangan dan buah bibir
+caption: Oleh-oleh dari liburan itu buah tangan. Kalau kamu yang diomongin orang, kamu jadi buah bibir. Sumber: KBBI VI Daring (dicek 7 November 2026) #bahasaindonesia #ungkapan #kbbi
+---
+[cover kicker="UNGKAPAN · KBBI VI"]
+Bawa Oleh-oleh? | Itu Namanya Buah Tangan
+Kalau videomu viral dan semua orang membicarakanmu, kamu jadi buah bibir.
+---
+[word]
+pos: gabungan kata
+word: buah tangan
+meaning: barang yang dibawa dari bepergian; oleh-oleh
+example: Ini *buah tangan* dari Jogja, bakpianya masih hangat.
+note: Arti pertamanya: hasil pekerjaan. Sumber: KBBI VI Daring
+---
+Satu ungkapan, dua arti
+Buah tangan juga berarti hasil pekerjaan. “Kue ini *buah tangan* ibuku” bisa berarti oleh-oleh dari ibu, atau kue yang ibu buat sendiri.
+---
+[word]
+pos: gabungan kata
+word: buah bibir
+meaning: yang selalu menjadi bahan sebutan (pembicaraan) orang
+example: Sejak videonya viral, warung bakso itu jadi *buah bibir* satu kota.
+note: Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Kurang tepat
+right-label: Tepat
+wrong: Aku nggak suka buah bibir di kantor.
+right: Aku nggak suka jadi *buah bibir* di kantor.
+why: Buah bibir itu yang dibicarakan orang, bukan obrolannya. KBBI: yang selalu menjadi bahan pembicaraan orang.
+---
+Dipakai hari ini
+Pulang dinas, bawa *buah tangan* buat tim.
+Desain kemasannya jadi *buah bibir* di media sosial.
+---
+[table]
+Dua ungkapan buah
+| Ungkapan | Di KBBI |
+| *buah tangan* | oleh-oleh; hasil pekerjaan |
+| *buah bibir* | bahan sebutan (pembicaraan) orang |
+Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Terakhir kamu bawa *buah tangan* dari mana?
+Komen satu nama kota.

@@ -1,0 +1,59 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata indah palsu 2
+caption: Kata indah viral yang dicek langsung di KBBI: harsa ternyata akronim pemeliharaan sarana, senjakala ditulis terpisah, dan baswara benar-benar ada. Sumber: KBBI VI Daring (dicek 7 November 2026) #bahasaindonesia #kataindah #kbbi #katabaku
+---
+[cover kicker="KATA INDAH PALSU #2"]
+Harsa Itu Bahagia? | Di KBBI, Harsa Itu Akronim
+Plus senjakala dan baswara: kata indah viral yang kami cek langsung di KBBI.
+---
+[word]
+pos: nomina · akronim
+word: harsa
+meaning: pemeliharaan sarana
+example: Tim *harsa* kampus sedang memperbaiki lift gedung B.
+note: Harsa dengan arti bahagia belum tercatat di KBBI VI. Sumber: KBBI VI Daring
+---
+[compare]
+headline: Harsa, katanya “bahagia”
+wrong-label: Belum di KBBI
+right-label: Ada di KBBI
+wrong: Hatiku harsa melihatmu pulang.
+right: Hatiku *sukacita* melihatmu pulang.
+why: Yang tercatat: sukacita (adjektiva), “suka hati; girang hati; kegirangan”.
+---
+[compare]
+headline: Senjakala, katanya “senja”
+wrong-label: Tidak ada di KBBI
+right-label: Ada di KBBI
+wrong: Kita bertemu lagi saat senjakala.
+right: Kita bertemu lagi saat *senja kala*.
+why: Senjakala (disambung) tidak ada di KBBI VI Daring (per 7 Nov 2026). Yang tercatat, ditulis terpisah: senja kala, “waktu senja”.
+---
+[word]
+pos: verba · Sanskerta
+word: baswara
+meaning: memancarkan cahaya
+example: Kunang-kunang *baswara* di pinggir sawah.
+note: Yang ini benar-benar ada, sebagai verba. Sumber: KBBI VI Daring
+---
+[compare]
+headline: Baswara itu kata kerja
+wrong-label: Kurang tepat
+right-label: Tepat
+wrong: Kamulah baswara hidupku.
+right: Matamu *baswara* setiap kali kamu tertawa.
+why: Baswara tercatat sebagai verba: “memancarkan cahaya”. Pakai seperti bersinar, bukan seperti cahaya.
+---
+[table]
+Sebelum dipakai di caption
+| Viral | Pakai ini |
+| harsa | *sukacita* |
+| senjakala | *senja kala* |
+| baswara | *baswara* (verba) |
+Di KBBI, harsa berarti pemeliharaan sarana. Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Kata viral mana *yang mau kami cek berikutnya?*
+Tulis satu kata di komen.

@@ -1,0 +1,48 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: bahasa sekolah vs aslinya 4
+caption: Bahasa Inggris sekolah vs percakapan sehari-hari: ditanya “What’s up?”, jawabnya bukan “I’m fine, thank you.” Sumber: Cambridge Dictionary; Cambridge Grammar (Requests) #belajarbahasainggris #kosakatainggris #speakingenglish
+---
+[cover kicker="SEKOLAH VS ASLINYA · #4"]
+“What’s Up?” | “I’m Fine, Thank You.”
+Nggak salah, cuma kurang nyambung. 5 kalimat sekolah dan versi santainya, dari sapaan sampai pesan minum.
+---
+[card kicker="Teman nyapa “What’s up?”" number=off]
+*Nothing much.* You?
+Di sekolah: “I’m fine, thank you.”
+Nggak salah, cuma kurang nyambung. What’s up? di sini nanya ada apa atau lagi ngapain, sering cuma sapaan. Contoh di Cambridge: “What’s up?” “Nothing much.”
+---
+[card kicker="Pesan minum di kafe" number=off]
+*Could I have* an iced tea, please?
+Di sekolah: “I want an iced tea.”
+Nggak salah grammar-nya. Tapi menurut Cambridge Grammar, I want terdengar sangat langsung dan bisa kesannya kurang sopan. Could I have …? lebih halus.
+---
+[card kicker="Minta tolong angkat barang" number=off]
+Could you *give me a hand* with this box?
+Di sekolah: “Please help me.”
+Nggak salah, cuma kaku. Give someone a hand = membantu, contoh di Cambridge: Could you give me a hand with the table, please?
+---
+[card kicker="Minta orang nunggu sebentar" number=off]
+*Hang on* a minute!
+Di sekolah: “Please wait a moment.”
+Nggak salah, tetap sopan buat tamu. Ke teman atau rekan kerja, hang on (informal) = tunggu sebentar.
+---
+[card kicker="Ketemu teman lama" number=off]
+Hey! *Long time no see!*
+Di sekolah: “I have not seen you for a long time.”
+Nggak salah, cuma panjang. Long time no see dipakai pas ketemu orang yang sudah lama nggak kamu lihat. Santai, buat teman.
+---
+[table]
+Contekan: sekolah vs ngobrol
+| Situasi | Lebih santai |
+| What’s up? | Nothing much. You? |
+| Pesan minum | Could I have …, please? |
+| Minta tolong | Could you give me a hand? |
+| Minta tunggu | Hang on a minute! |
+| Teman lama | Long time no see! |
+Versi sekolah tetap benar. Please wait a moment masih pas buat tamu.
+---
+[end cta="Simpan"]
+Kalimat mana yang *paling sering kamu dengar?*
+Komen satu kata: up, have, hand, hang, atau see. Sekolah vs aslinya #5 minggu depan.

@@ -1,0 +1,78 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: anarkis itu orang
+caption: Di KBBI, anarkis itu nomina: orangnya, bukan sifatnya. Plus anarki, dahsyat, nuansa, oknum, dan pamrih, yang artinya jarang kita kenal. Sumber: KBBI VI Daring (dicek 7 November 2026) #bahasaindonesia #kbbi #katabaku
+---
+[cover kicker="SALAH ARTI #5"]
+Demo Anarkis? | Di KBBI, Anarkis Itu Orang
+Untuk sifatnya, pakai anarkistis. Plus 5 kata lain yang artinya jarang kita kenal.
+---
+[word]
+pos: nomina
+word: anarkis
+meaning: penganjur (penganut) paham anarkisme
+example: Tokoh itu dikenal sebagai seorang *anarkis*.
+note: Arti keduanya: orang yang melakukan tindakan anarki. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Nomina (orang)
+right-label: Adjektiva (sifat)
+wrong: Demonya berubah anarkis.
+right: Demonya berubah *anarkistis*.
+why: Anarkis itu nomina, orangnya. Untuk sifat, KBBI mencatat adjektiva anarkistis: bersifat anarki.
+---
+[word]
+pos: nomina
+word: anarki
+meaning: kondisi sosial atau politik yang ditandai oleh ketiadaan otoritas hierarkis …
+example: Novel itu membayangkan dunia *anarki* yang tetap tertib.
+note: Arti pertama ini bukan rusuh. Arti kedua: kekacauan (dalam suatu negara). Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: dahsyat
+meaning: mengerikan; menakutkan
+example: Banjir semalam *dahsyat*, airnya sampai sepinggang.
+note: Arti hebat; amat sangat ada di urutan kedua. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: nuansa
+meaning: variasi atau perbedaan yang sangat halus atau kecil sekali (tentang warna, suara, kualitas, dan sebagainya)
+example: Dua cat putih itu beda *nuansa*, hampir nggak kelihatan.
+note: KBBI VI belum mencatat arti suasana. Untuk “nuansa Natal”, pakai suasana. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · arkais
+word: oknum
+meaning: penyebut diri Tuhan dalam agama Katolik; pribadi
+example: Bapa, Putra, dan Roh Kudus disebut tiga *oknum*.
+note: Arti kedua netral: orang seorang; perseorangan. Arti yang kurang baik baru di urutan ketiga. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: pamrih
+meaning: maksud yang tersembunyi dalam memenuhi keinginan untuk memperoleh keuntungan pribadi
+example: Dia membantu tanpa *pamrih*, nggak ada udang di balik batu.
+note: KBBI tidak menyebut imbalan: intinya maksud yang tersembunyi. Sumber: KBBI VI Daring
+---
+[card number=off]
+Wacana: yang ini sah
+Wacana sering dipakai untuk rencana yang nggak jadi-jadi. KBBI VI ternyata sudah mencatatnya: “rencana yang baru sebatas dibicarakan dan belum jelas kepastian (pelaksanaan)nya”.
+---
+[table]
+Arti menurut KBBI
+| Kata | Di KBBI |
+| *anarkis* | penganjur (penganut) paham anarkisme |
+| *anarkistis* | bersifat anarki |
+| *dahsyat* | mengerikan; menakutkan |
+| *nuansa* | perbedaan yang sangat halus |
+| *oknum* | orang seorang; perseorangan |
+| *pamrih* | maksud yang tersembunyi |
+| *wacana* | rencana yang baru sebatas dibicarakan |
+Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Kata mana yang *selama ini kamu pakai beda?*
+Komen satu kata: anarkis, dahsyat, nuansa, oknum, atau pamrih.

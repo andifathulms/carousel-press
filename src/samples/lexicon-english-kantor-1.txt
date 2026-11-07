@@ -1,0 +1,43 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: kantor 1 minta tambahan waktu
+caption: Cara minta tambahan waktu deadline ke atasan dalam bahasa Inggris: kabari lebih awal, sebut tanggal baru, kirim yang sudah jadi. Sumber: The Muse; Cambridge Dictionary; Cambridge Grammar (Mind; Until) #belajarbahasainggris #kosakatainggris #bahasainggriskantor
+---
+[cover kicker="KANTOR · #1"]
+Laporan Belum Siap, | Deadline Besok
+Cara bilang ke atasan dengan tenang: 4 kalimat minta tambahan waktu, plus beda by dan until.
+---
+[card kicker="Laporan belum selesai" number=off]
+Just a *heads-up*: I’m a bit behind on the report.
+Yang kaku: “Sorry, Sir. I cannot finish the report.”
+Nggak salah grammar-nya, tapi berhenti di kabar buruk. Atasan butuh kabar lebih awal, tanggal baru, dan apa yang sudah jadi.
+---
+[card kicker="1 · Kabari lebih awal" number=off]
+I wanted to give you a *heads-up* about the sales report.
+Heads-up (informal) = kabar lebih awal biar orang bisa siap-siap. Kirim jauh sebelum deadline, bukan pas hari H.
+---
+[card kicker="2 · Sebut posisinya" number=off]
+I’m a bit *behind on* it because the data came in late.
+Behind on (US) atau behind with (UK) = telat dari jadwal. Satu alasan singkat cukup, nggak perlu cerita panjang.
+---
+[card kicker="3 · Tawarkan tanggal baru" number=off]
+*Would you mind if* I sent it on Thursday morning?
+Pola sopan minta izin: Would you mind if I + kata kerja lampau. Kalau dijawab “No, not at all”, artinya boleh.
+---
+[card kicker="4 · Kirim yang sudah jadi" number=off]
+*In the meantime*, I can send you what I have *so far*.
+In the meantime = sambil menunggu. So far = sampai sekarang. Atasan bisa cek arahnya lebih awal.
+---
+[compare]
+wrong: I will send it until Thursday.
+right: I will send it *by* Thursday.
+why: By = paling lambat, cocok buat deadline. Until = terus sampai waktu itu: I’ll be in the office until six.
+---
+[card kicker="Ringkasan" number=off]
+Minta tambahan waktu
+*Kabari:* I wanted to give you a heads-up about the sales report. | *Posisi:* I’m a bit behind on it because the data came in late. | *Tanggal baru:* Would you mind if I sent it on Thursday morning? | *Yang sudah jadi:* In the meantime, I can send you what I have so far.
+---
+[end cta="Simpan"]
+Kalimat mana yang *paling kamu butuhin minggu ini?*
+Komen satu angka: 1, 2, 3, atau 4. Kantor #2 minggu depan.
