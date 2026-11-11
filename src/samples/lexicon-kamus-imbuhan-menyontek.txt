@@ -1,0 +1,69 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: menyontek bukan mencontek
+caption: Mencontek atau menyontek? Kata dasarnya sontek, jadi yang baku menyontek, sontekan, dan penyontek. Bonus: di KBBI, menyontek juga istilah sepak bola. Sumber: KBBI VI Daring (dicek 11 November 2026) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="IMBUHAN & BENTUK KATA"]
+Mencontek atau | Menyontek?
+Jawabannya ada di kata dasar. Plus contekan, penyontek, dan menyontek versi sepak bola.
+---
+[card number=off]
+Yang baku: *menyontek*
+KBBI VI memakai kata dasar *sontek*, dan mencatat contek serta mencontek sebagai bentuk tidak baku.
+Sontek berawal s. Saat dapat awalan meN- atau peN-, s luluh jadi ny: *menyontek*, *penyontek*.
+---
+[word]
+pos: verba
+word: menyontek
+meaning: mengutip (tulisan dan sebagainya) sebagaimana aslinya; menjiplak
+example: Lebih baik nilai pas-pasan daripada *menyontek* jawaban teman.
+note: Nyontek belum tercatat di KBBI VI (per 11 Nov 2026). Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Dia ketahuan mencontek saat ujian.
+right: Dia ketahuan *menyontek* saat ujian.
+why: KBBI VI mencatat mencontek sebagai bentuk tidak baku dari menyontek.
+---
+[compare]
+wrong-label: Tidak ada di KBBI
+right-label: Di KBBI VI
+wrong: Kertas contekan itu disita guru.
+right: Kertas *sontekan* itu disita guru.
+why: Contekan tidak ada di KBBI VI Daring (per 11 Nov 2026). Sontekan: “hasil menyontek; bahan (tulisan) yang disontek”.
+---
+[word]
+pos: nomina
+word: penyontek
+meaning: orang yang menyontek
+example: Guru itu hafal semua trik *penyontek* di kelasnya.
+note: Bentukan dari sontek dengan awalan peN-, s luluh jadi ny. Sumber: KBBI VI Daring
+---
+[word]
+pos: verba
+tag: SEPAK BOLA
+word: menyontek
+meaning: menggocoh (dengan sentuhan ringan); mencungkil (bola dan sebagainya) dengan ujung kaki
+example: Kiper itu sempat *menyontek* bola keluar dari garis gawang.
+note: Entri sontek yang lain. Mencontek juga tidak baku di sini. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Tidak ada di KBBI
+right-label: Di KBBI VI
+wrong: Warna bajunya menyolok sekali.
+right: Warna bajunya *mencolok* sekali.
+why: Kebalikannya: kata dasar colok berawal c, dan c tidak luluh. Menyolok tidak ada di KBBI VI Daring (per 11 Nov 2026).
+---
+[table]
+Lihat kata dasarnya
+| Kata dasar | Tulis | Bukan |
+| sontek | *menyontek* | mencontek |
+| sontek | *sontekan* | contekan |
+| colok | *mencolok* | menyolok |
+Mencontek: bentuk tidak baku. Contekan dan menyolok tidak ada di KBBI VI Daring.
+---
+[end cta="Tag teman"]
+Tag teman yang dulu *duduk sebangku.*
+Dia pasti ingat siapa yang suka menyontek.

@@ -330,6 +330,16 @@ import b6SejarahNamaCirebonId from './sejarah-nama-cirebon-id.txt?raw';
 import b6SejarahBriPurwokertoId from './sejarah-bri-purwokerto-id.txt?raw';
 import b6SejarahBerouwTelukbetungId from './sejarah-berouw-telukbetung-id.txt?raw';
 import b6SejarahHartaLombokId from './sejarah-harta-lombok-id.txt?raw';
+import b7LexiconEnglishGrammar1 from './lexicon-english-grammar-1.txt?raw';
+import b7LexiconEnglishGrammar2 from './lexicon-english-grammar-2.txt?raw';
+import b7LexiconEnglishGrammar3 from './lexicon-english-grammar-3.txt?raw';
+import b7LexiconEnglishGrammar4 from './lexicon-english-grammar-4.txt?raw';
+import b7LexiconEnglishGrammar5 from './lexicon-english-grammar-5.txt?raw';
+import b7LexiconKamusManaYangBaku7 from './lexicon-kamus-mana-yang-baku-7.txt?raw';
+import b7LexiconKamusSalahKaprah6 from './lexicon-kamus-salah-kaprah-6.txt?raw';
+import b7LexiconKamusKataIndahMalam from './lexicon-kamus-kata-indah-malam.txt?raw';
+import b7LexiconKamusImbuhanMenyontek from './lexicon-kamus-imbuhan-menyontek.txt?raw';
+import b7LexiconKamusSatuKataPacar from './lexicon-kamus-satu-kata-pacar.txt?raw';
 export const SAMPLES: readonly Sample[] = [
   { id: 'editorial-couples-id', name: '5 pertanyaan kecil (editorial, id)', category: 'relationships', text: couples },
   { id: 'dev-git-id', name: '7 perintah git (dev, id)', category: 'dev', text: git },
@@ -647,4 +657,14 @@ export const SAMPLES: readonly Sample[] = [
   { id: 'sejarah-bri-purwokerto-id', name: 'Bank priyayi Purwokerto 1895 (Sejarah Nusantara, id)', category: 'history', text: b6SejarahBriPurwokertoId },
   { id: 'sejarah-berouw-telukbetung-id', name: 'Kapal Berouw, Teluk Betung 1883 (Sejarah Nusantara, id)', category: 'history', text: b6SejarahBerouwTelukbetungId },
   { id: 'sejarah-harta-lombok-id', name: 'Harta Lombok 1894 (Sejarah Nusantara, id)', category: 'history', text: b6SejarahHartaLombokId },
+  { id: 'lexicon-english-grammar-1', name: 'Grammar ala Indonesia #1: Yesterday I go (Kosakata Inggris, id)', category: 'english', text: b7LexiconEnglishGrammar1 },
+  { id: 'lexicon-english-grammar-2', name: 'Grammar ala Indonesia #2: dia = he/she (Kosakata Inggris, id)', category: 'english', text: b7LexiconEnglishGrammar2 },
+  { id: 'lexicon-english-grammar-3', name: 'Grammar ala Indonesia #3: I very happy (Kosakata Inggris, id)', category: 'english', text: b7LexiconEnglishGrammar3 },
+  { id: 'lexicon-english-grammar-4', name: 'Grammar ala Indonesia #4: she works (Kosakata Inggris, id)', category: 'english', text: b7LexiconEnglishGrammar4 },
+  { id: 'lexicon-english-grammar-5', name: 'Grammar ala Indonesia #5: a/an (Kosakata Inggris, id)', category: 'english', text: b7LexiconEnglishGrammar5 },
+  { id: 'lexicon-kamus-mana-yang-baku-7', name: 'Mana yang baku #7: kuitansi (Kata Baku, id)', category: 'indonesian', text: b7LexiconKamusManaYangBaku7 },
+  { id: 'lexicon-kamus-salah-kaprah-6', name: 'Salah kaprah #6: seneng (Kata Baku, id)', category: 'indonesian', text: b7LexiconKamusSalahKaprah6 },
+  { id: 'lexicon-kamus-kata-indah-malam', name: 'Kata indah #10: malam (Kata Baku, id)', category: 'indonesian', text: b7LexiconKamusKataIndahMalam },
+  { id: 'lexicon-kamus-imbuhan-menyontek', name: 'Imbuhan & bentuk kata #1: menyontek (Kata Baku, id)', category: 'indonesian', text: b7LexiconKamusImbuhanMenyontek },
+  { id: 'lexicon-kamus-satu-kata-pacar', name: 'Satu kata, banyak arti #1: pacar (Kata Baku, id)', category: 'indonesian', text: b7LexiconKamusSatuKataPacar },
 ];

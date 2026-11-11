@@ -1,0 +1,57 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: grammar ala indonesia 3 i very happy
+caption: Kesalahan grammar bahasa Inggris yang sering dipakai orang Indonesia: “I very happy”, “Are you live in Jakarta?”. Kapan perlu am, is, are, dan kapan tidak. Sumber: Cambridge Grammar (Be; Verbs: types; Questions: typical errors) #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="GRAMMAR ALA INDONESIA · #3"]
+“I Very Happy”? | Kurang Satu Kata: “I’m”
+Kata sifat butuh am, is, are. Plus kebalikannya: kapan are justru nggak boleh ada.
+---
+[card kicker="Mana yang benar?" number=off]
+*A.* I very happy with the result. | *B.* I’m very happy with the result.
+Atasan bilang presentasimu bagus. Kamu balas pakai yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[card kicker="Kenapa “am” sering hilang?" number=off]
+Jawabannya B. | Inggris butuh *am, is, are*.
+“Aku senang sekali”: senang langsung nempel ke aku, tanpa kata tambahan.
+Di Inggris, kata sifat (happy, tired, late) perlu be di depannya: I’m very happy. Namanya linking verb.
+---
+[card kicker="Polanya" number=off]
+I *am* · he/she/it *is* | you/we/they *are* + kata sifat
+Kemarin: I/he/she/it *was*, you/we/they *were*.
+I’m tired. She’s sick. We were late.
+---
+[compare]
+wrong: Sorry, I late. The traffic was bad.
+right: Sorry, *I’m late*. The traffic was bad.
+why: Late (telat) itu kata sifat, jadi perlu am. Saat ngobrol atau chat, pakai bentuk pendeknya: I’m.
+---
+[compare]
+wrong: My boss very angry yesterday.
+right: My boss *was* very angry yesterday.
+why: Kemarin? Be-nya ikut lampau: was untuk I, he, she, it; were untuk you, we, they.
+---
+[card kicker="Kuis 2: kebalikannya" number=off]
+*A.* Are you live in Jakarta? | *B.* Do you live in Jakarta?
+Kenalan sama teman baru di kampus. Kamu mau tanya dia tinggal di mana.
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Are you live in Jakarta?
+right: *Do you live* in Jakarta?
+why: Kalau ada kata kerja (live, work, like), tanyanya pakai do atau does, bukan are. Are untuk kata sifat: Are you tired?
+---
+[table]
+Kata sifat: *am, is, are*
+| Ala Indonesia | Inggris |
+| I very happy. | I’m very happy. |
+| Sorry, I late. | Sorry, I’m late. |
+| He angry yesterday. | He was angry yesterday. |
+| Are you live here? | Do you live here? |
+Kata sifat: am, is, are (kemarin: was, were). Kata kerja: tanpa be, tanyanya pakai do.
+---
+[end cta="Simpan"]
+Kuis 2 tadi kamu jawab *A atau B?*
+Komen satu huruf. Lanjut di Grammar ala Indonesia #4.

@@ -1,0 +1,58 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: grammar ala indonesia 1 yesterday i go
+caption: Kesalahan grammar bahasa Inggris yang sering dipakai orang Indonesia: “Yesterday I go”. Kenapa kata kerjanya harus ikut lampau, dan pola gampangnya. Sumber: Cambridge Grammar (Past simple; Verbs and verb phrases: typical errors) #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="GRAMMAR ALA INDONESIA · #1"]
+“Yesterday I Go to the Mall”? | Harusnya “I Went”
+Kenapa kita sering lupa ganti kata kerjanya, dan cara gampang ingatnya. Plus 2 kuis kecil.
+---
+[card kicker="Mana yang benar?" number=off]
+*A.* Yesterday I go to the mall. | *B.* Yesterday I went to the mall.
+Teman kantor nanya kemarin kamu ke mana. Kamu jawab pakai yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[card kicker="Kenapa kita bilang “go”?" number=off]
+Jawabannya B. | Di Inggris, *kata kerjanya* ikut berubah.
+“Kemarin aku pergi ke mal”: pergi tetap pergi, kata kemarin yang menunjukkan waktunya.
+Di Inggris, yesterday saja belum cukup: go harus jadi went. Namanya past simple.
+---
+[card kicker="Polanya" number=off]
+Kejadian lampau: | kata kerja *bentuk lampau*
+Kebanyakan cukup tambah -ed: worked, called, watched. Sebagian tidak beraturan, jadi dihafal: went, ate, spent.
+Bentuknya sama untuk semua orang: I went, she went, they went. Kecuali be: was, were.
+---
+[compare]
+wrong: Last night I watch a K-drama until 2 a.m.
+right: Last night I *watched* a K-drama until 2 a.m.
+why: Last night sudah bilang kapan, tapi watch tetap harus jadi watched. Kata kerja beraturan cukup tambah -ed.
+---
+[compare]
+wrong: I spend too much at the mall yesterday.
+right: I *spent* too much at the mall yesterday.
+why: Spend jadi spent: d berubah jadi t. Cambridge menulis kesalahan ini di daftar kesalahan umumnya: We spend a lot of money yesterday.
+---
+[card kicker="Kuis 2" number=off]
+*A.* Did you saw my message? | *B.* Did you see my message?
+Chat kamu ke teman satu tim belum dibalas dari pagi. Kamu tanya pakai yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Did you saw my message?
+right: Did you *see* my message?
+why: Kalau sudah ada did atau didn’t, kata kerjanya balik ke bentuk dasar: did you see, I didn’t see. Lampaunya sudah dibawa did.
+---
+[table]
+Kemarin? Kata kerjanya *ikut lampau*
+| Ala Indonesia | Inggris |
+| Yesterday I go there. | Yesterday I went there. |
+| I watch it last night. | I watched it last night. |
+| I spend it yesterday. | I spent it yesterday. |
+| Did you saw it? | Did you see it? |
+| I didn’t went. | I didn’t go. |
+Bentuk lampau sama untuk semua orang (kecuali was, were). Setelah did dan didn’t: bentuk dasar.
+---
+[end cta="Simpan"]
+Dulu kamu lebih sering bilang *“I go” atau “I went”?*
+Komen satu kata: go atau went. Lanjut di Grammar ala Indonesia #2.

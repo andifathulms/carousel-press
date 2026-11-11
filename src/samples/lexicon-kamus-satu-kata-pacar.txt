@@ -1,0 +1,71 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: pacar itu juga inai
+caption: Satu kata, banyak arti: di KBBI, pacar itu kekasih, tapi juga inai. Bisa juga racun, kali juga sungai, genting juga atap rumah. Sumber: KBBI VI Daring (dicek 11 November 2026) #bahasaindonesia #kbbi #katabaku
+---
+[cover kicker="SATU KATA, BANYAK ARTI #1"]
+Pacar Itu Kekasih. | Di KBBI, Juga Inai.
+Plus bisa, kali, genting, jarak, dan teras: tulisannya sama, artinya jauh beda.
+---
+[word]
+pos: nomina
+word: pacar
+meaning: inai
+example: Malam sebelum akad, kukunya merah oleh *pacar*.
+note: Pacar yang lain: kekasih. Dua entri terpisah di KBBI VI. Sumber: KBBI VI Daring
+---
+[card number=off]
+Kenapa satu kata bisa dua entri?
+KBBI memisahkan kata yang tulisannya sama tapi artinya tidak berhubungan menjadi entri bernomor: pacar 1 dan pacar 2.
+Nomornya cuma penanda, bukan peringkat. Inai sendiri, kata KBBI, daunnya “dijadikan pemerah kuku”.
+---
+[word]
+pos: nomina
+word: bisa
+meaning: zat racun yang dapat menyebabkan luka, busuk, atau mati bagi sesuatu yang hidup (biasanya terdapat pada binatang)
+example: Jangan dekati ular itu, *bisanya* mematikan.
+note: Bisa yang lain (verba): mampu; dapat. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: kali
+meaning: sungai
+example: Sore-sore anak kampung main air di *kali*.
+note: Kali punya 7 entri di KBBI VI, termasuk (ikan) lele. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · arsitektur
+word: genting
+meaning: tutup atap rumah yang terbuat dari tanah liat yang dicetak dan dibakar, bermacam-macam bentuknya
+example: Hujan deras semalam, *genting* kamarku bocor lagi.
+note: Genteng: bentuk tidak baku. Genting (a) lainnya: tegang; berbahaya. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: jarak
+meaning: perdu, tinggi 2 m, batangnya mudah patah, … dapat digunakan sebagai bahan minyak pelumas
+example: Di pagar kebun Kakek berjajar pohon *jarak*.
+note: Jarak yang lain: ruang sela antara dua benda atau tempat. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · kiasan
+word: teras
+meaning: inti sari; isi yang terutama; sesuatu yang terbaik; sesuatu yang terpenting
+example: Rapat itu dihadiri para pejabat *teras* kementerian.
+note: Dibaca /têras/, beda entri dari teras rumah. Arti dasarnya: inti kayu. Sumber: KBBI VI Daring
+---
+[table]
+Arti lain di KBBI
+| Kata | Selain yang biasa |
+| *pacar* | inai |
+| *bisa* | zat racun |
+| *kali* | sungai; (ikan) lele |
+| *genting* | tutup atap rumah |
+| *jarak* | perdu (Ricinus communis) |
+| *teras* | inti kayu |
+Tulisan sama, entri beda. Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Kata mana lagi yang *punya dua arti?*
+Komen satu kata, nanti kita cek di KBBI.

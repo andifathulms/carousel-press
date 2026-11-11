@@ -1,0 +1,58 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: grammar ala indonesia 4 she work
+caption: Kesalahan grammar bahasa Inggris yang sering dipakai orang Indonesia: “My sister work in Jakarta”. Kapan kata kerja dapat -s, dan kapan -s-nya hilang lagi. Sumber: Cambridge Grammar (Present simple; Present: typical errors) #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="GRAMMAR ALA INDONESIA · #4"]
+“My Sister Work in Jakarta”? | Tambah Satu Huruf: “Works”
+Kenapa he dan she bikin kata kerja dapat -s, dan kapan -s-nya justru hilang. Plus 1 kuis.
+---
+[compare]
+wrong: My sister work in Jakarta.
+right: My sister *works* in Jakarta.
+why: Satu orang selain aku dan kamu (my sister, Pak Budi, he, she) bikin kata kerjanya dapat -s.
+---
+[card kicker="Kenapa -s sering hilang?" number=off]
+*Kerja* nggak pernah berubah. | *Work* bisa jadi works.
+“Aku kerja, dia kerja, mereka kerja”: kata kerjanya sama terus.
+Di Inggris, untuk he, she, dan it, kata kerjanya dapat -s: I work, she works. Namanya present simple.
+---
+[card kicker="Polanya" number=off]
+he/she/it + kata kerja *-s*
+Biasanya cukup -s: works, likes. Akhiran ch, sh, ss, x: -es (watches). Konsonan + y: -ies (studies).
+Tidak beraturan: have jadi has, go jadi goes, do jadi does.
+---
+[compare]
+wrong: Our office have a big canteen.
+right: Our office *has* a big canteen.
+why: It juga ikut: kantor, hp, laptop. Have jadi has. Contoh Cambridge: The building has three rooms, bukan have.
+---
+[card kicker="Kuis" number=off]
+*A.* Does she likes spicy food? | *B.* Does she like spicy food?
+Mau ajak teman kantor makan seblak. Kamu tanya temannya dulu pakai yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Does she likes spicy food?
+right: Does she *like* spicy food?
+why: -s cuma dipakai sekali. Kalau sudah ada does atau doesn’t, kata kerjanya polos: She doesn’t like it.
+---
+[compare]
+wrong: My mom always cook rendang for Lebaran.
+right: My mom always *cooks* rendang for Lebaran.
+why: Kebiasaan juga pakai pola ini. Always, usually, every day tidak menggantikan -s-nya.
+---
+[table]
+He, she, it: *tambah -s*
+| Ala Indonesia | Inggris |
+| My sister work there. | My sister works there. |
+| It have a canteen. | It has a canteen. |
+| Does she likes it? | Does she like it? |
+| She not like it. | She doesn’t like it. |
+| Mom always cook. | Mom always cooks. |
+Does dan doesn’t sudah membawa -s-nya, jadi kata kerjanya polos.
+---
+[end cta="Simpan"]
+Dulu kamu bilang *“she work” atau “she works”?*
+Komen satu kata: work atau works. Lanjut di Grammar ala Indonesia #5.

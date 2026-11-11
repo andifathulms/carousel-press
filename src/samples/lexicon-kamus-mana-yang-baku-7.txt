@@ -1,0 +1,56 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kuitansi atau kwitansi
+caption: Kata baku yang sering salah di kantor: kuitansi, bukan kwitansi. Frekuensi, konsekuensi, kuartal, dan kuesioner juga. Sumber: KBBI VI Daring (dicek 11 November 2026); EYD Edisi V (Penulisan Unsur Serapan) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="MANA YANG BAKU? · #7"]
+Kwitansi atau | Kuitansi?
+Tebak dulu, baru geser. Plus frekuensi, kuartal, dan 2 jebakan lain yang sering muncul di kantor.
+---
+[card number=off]
+Yang baku: *kuitansi*
+KBBI VI mencatat kwitansi dan kwetansi sebagai bentuk tidak baku. Artinya: “surat bukti penerimaan uang”.
+Banyak kata serapan ikut pola yang mirip. EYD V: huruf q menjadi k, dan u tetap u. Aquarium jadi *akuarium*, frequency jadi *frekuensi*.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Naikkan frekwensi olahraga jadi tiga kali seminggu.
+right: Naikkan *frekuensi* olahraga jadi tiga kali seminggu.
+why: KBBI VI mencatat frekwensi sebagai bentuk tidak baku. Frekuensi: “kekerapan”.
+---
+[compare]
+wrong-label: Tidak ada di KBBI
+right-label: Di KBBI VI
+wrong: Setiap pilihan ada konsekwensinya.
+right: Setiap pilihan ada *konsekuensinya*.
+why: Konsekwensi tidak ada di KBBI VI Daring (per 11 Nov 2026). Konsekuensi: “akibat (dari suatu perbuatan, pendirian, dan sebagainya)”.
+---
+[compare]
+wrong-label: Tidak ada di KBBI
+right-label: Di KBBI VI
+wrong: Target kwartal ketiga sudah tercapai.
+right: Target *kuartal* ketiga sudah tercapai.
+why: Kwartal tidak ada di KBBI VI Daring (per 11 Nov 2026). Kuartal: “suku tahun (waktu seperempat tahun, yaitu tiga bulan); triwulan”.
+---
+[compare]
+wrong-label: Tidak baku
+right-label: Baku
+wrong: Tolong isi kuisioner ini, ya.
+right: Tolong isi *kuesioner* ini, ya.
+why: Jebakannya bukan di ku, tapi di huruf e: ku-e-si-o-ner. KBBI VI mencatat kuisioner sebagai bentuk tidak baku.
+---
+[table]
+Kw atau ku?
+| Tulis | Bukan |
+| *kuitansi* | kwitansi, kwetansi |
+| *frekuensi* | frekwensi |
+| *konsekuensi* | konsekwensi |
+| *kuartal* | kwartal |
+| *kuesioner* | kuisioner |
+Konsekwensi dan kwartal tidak ada di KBBI VI; sisanya bentuk tidak baku. Sumber: KBBI VI Daring
+---
+[end cta="Komen A atau B"]
+Di kantormu, tulisannya *yang mana?*
+Komen A untuk kwitansi, B untuk kuitansi.

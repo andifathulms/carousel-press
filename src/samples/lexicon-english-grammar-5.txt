@@ -1,0 +1,57 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: grammar ala indonesia 5 she is teacher
+caption: Kesalahan grammar bahasa Inggris yang sering dipakai orang Indonesia: “She is teacher”, “I’m an UI designer”. Kapan pakai a, kapan an. Sumber: Cambridge Grammar (A/an and the; Be); Cambridge Dictionary (UI) #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="GRAMMAR ALA INDONESIA · #5"]
+“She Is Teacher”? | Kurang “A”: She’s a Teacher
+Kapan pakai a, kapan an, dan jebakan “an UI designer”. Plus 2 kuis kecil.
+---
+[card kicker="Mana yang benar?" number=off]
+*A.* My sister is teacher. | *B.* My sister is a teacher.
+Kenalan sama orang baru, lalu ditanya kakakmu kerja apa. Kamu jawab pakai yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[card kicker="Kenapa “a” sering hilang?" number=off]
+Jawabannya B. | Pekerjaan butuh *a* di depannya.
+“Kakakku guru”: guru langsung, tanpa kata tambahan.
+Di Inggris, satu orang atau benda yang bisa dihitung perlu a atau an: a teacher. Namanya article.
+---
+[card kicker="Polanya" number=off]
+*a/an* + satu benda | yang bisa dihitung
+a teacher, a job, a laptop. Bunyi vokal di depan: an apple, an umbrella.
+Banyak (teachers) atau tak terhitung (rice): tanpa a.
+---
+[compare]
+wrong: I’m looking for job.
+right: I’m looking for *a job*.
+why: Job bisa dihitung (one job, two jobs), jadi satu job perlu a. Sering kepakai pas cerita lagi cari kerja.
+---
+[compare]
+wrong: Do you have umbrella?
+right: Do you have *an* umbrella?
+why: Umbrella diawali bunyi vokal, jadi an, bukan a. Sama: an apple, an email.
+---
+[card kicker="Kuis 2" number=off]
+*A.* I’m a UI designer. | *B.* I’m an UI designer.
+Ditanya kerja apa pas interview. Huruf U kan vokal. Jadi yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: I’m an UI designer.
+right: I’m *a* UI designer.
+why: Yang menentukan bunyinya, bukan hurufnya. UI dibaca /juːˈaɪ/, diawali bunyi y, jadi a. Sama: a university. Kebalikannya: an hour.
+---
+[table]
+A atau an: *dengar bunyinya*
+| Ala Indonesia | Inggris |
+| She is teacher. | She’s a teacher. |
+| I’m looking for job. | I’m looking for a job. |
+| Do you have umbrella? | Do you have an umbrella? |
+| I’m an UI designer. | I’m a UI designer. |
+a + bunyi konsonan (a UI designer). an + bunyi vokal (an hour).
+---
+[end cta="Simpan"]
+Kuis 2 tadi kamu pilih *a atau an?*
+Komen satu kata. Grammar ala Indonesia #6 minggu depan.

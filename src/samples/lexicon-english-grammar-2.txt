@@ -1,0 +1,57 @@
+handle: @kosakata_inggris
+template: lexicon/notebook
+lang: id
+title: grammar ala indonesia 2 he she dia
+caption: Kesalahan grammar bahasa Inggris yang sering dipakai orang Indonesia: “dia” jadi he atau she, “-nya” jadi his atau her. Sumber: Cambridge Grammar (Pronouns: personal; Pronouns: possessive) #belajarbahasainggris #kosakatainggris #grammar
+---
+[cover kicker="GRAMMAR ALA INDONESIA · #2"]
+“My Mom? He’s a Teacher”? | Harusnya “She’s”
+Dia di bahasa Inggris ada dua: he dan she. Cara biar nggak ketuker pas ngobrol. Plus 1 kuis.
+---
+[compare]
+wrong: My mom? He’s a teacher.
+right: My mom? *She’s* a teacher.
+why: Ibu itu perempuan, jadi she. He cuma untuk laki-laki. Kesalahan kecil, tapi pendengar bisa bingung: lagi ngomongin siapa?
+---
+[card kicker="Kenapa sering ketuker?" number=off]
+Indonesia cukup *dia*. | Inggris harus pilih.
+“Dia guru” bisa ibumu, bisa ayahmu. Di Inggris, kata gantinya ikut orangnya: he untuk laki-laki, she untuk perempuan.
+Sama dengan -nya: “tasnya” bisa his bag, bisa her bag.
+---
+[card kicker="Polanya" number=off]
+Laki-laki: *he, him, his* | Perempuan: *she, her, her*
+He’s late. Call him. It’s his bag.
+She’s late. Call her. It’s her bag.
+---
+[compare]
+wrong: My sister lost his own phone.
+right: My sister lost *her* own phone.
+why: Hp miliknya sendiri, dan kakakmu perempuan, jadi her. -nya ikut pemiliknya: kakak laki-laki, his phone.
+---
+[card kicker="Kuis" number=off]
+*A.* Pak Budi called. Please call her back. | *B.* Pak Budi called. Please call him back.
+Kamu angkat telepon buat teman kantor yang lagi keluar. Kamu tinggalkan pesan pakai yang mana?
+Jawab A atau B dulu, baru geser.
+---
+[compare]
+wrong: Pak Budi called. Please call her back.
+right: Pak Budi called. Please call *him* back.
+why: Setelah kata kerja pakai him atau her: call him, tell her. Pak dan Mas: he, him. Bu dan Mbak: she, her.
+---
+[card kicker="Belum tahu orangnya?" number=off]
+Laki-laki atau perempuan? | Belum tahu? Pakai *they*.
+Someone from HR called. They didn’t leave a name.
+Menurut Cambridge, they dipakai untuk satu orang kalau kita tidak tahu dia laki-laki atau perempuan.
+---
+[table]
+Dia, -nya: *pilih dulu orangnya*
+| Indonesia | Laki-laki | Perempuan |
+| dia | he | she |
+| telepon dia | call him | call her |
+| tasnya | his bag | her bag |
+| belum tahu | they | they |
+Pak, Mas: he. Bu, Mbak: she. Belum tahu orangnya: they.
+---
+[end cta="Kirim ke teman"]
+Kamu paling sering ketuker di *he/she atau his/her?*
+Komen salah satu. Lanjut di Grammar ala Indonesia #3.

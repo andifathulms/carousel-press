@@ -1,0 +1,80 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: seneng itu kembang gembili
+caption: Di KBBI, seneng itu kembang gembili (bahasa Jawa), gede bisa berarti sakit pinggang (bahasa Muna), dan abis itu bagian laut yang paling dalam. Di chat sah saja, di tulisan resmi pakai senang, besar, habis. Sumber: KBBI VI Daring (dicek 11 November 2026) #bahasaindonesia #katabaku #kbbi
+---
+[cover kicker="SALAH KAPRAH #6"]
+Lagi Seneng? | Di KBBI, Seneng Itu Kembang Gembili
+Yang baku: senang. Plus gede, abis, cuman, laper, dan bener: kata chat yang di KBBI ternyata beda.
+---
+[word]
+pos: nomina · Jawa
+word: seneng
+meaning: kembang gembili
+example: Nenek memetik *seneng* dari tanaman gembili di kebun.
+note: Seneng dengan arti senang belum tercatat di KBBI VI. Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Di chat
+right-label: Bentuk baku
+wrong: Aku seneng kamu datang.
+right: Aku *senang* kamu datang.
+why: Di KBBI VI, seneng hanya nomina Jawa. Senang salah satunya berarti “suka; gembira”.
+---
+[word]
+pos: adjektiva · Muna
+word: gede
+meaning: sakit pinggang
+example: Seharian mengangkat karung, Bapak *gede* sampai malam.
+note: Gede yang berarti besar juga ada, tapi ragam cakapan (cak). Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Kamar kosnya gede dan terang.
+right: Kamar kosnya *besar* dan terang.
+why: KBBI VI menandai gede yang berarti besar sebagai ragam cakapan (cak). Di tulisan resmi, pakai besar.
+---
+[word]
+pos: nomina · geografi
+word: abis
+meaning: bagian yang paling dalam dari lautan dengan kedalaman lebih dari 400 m
+example: Ikan aneh itu hidup di *abis*, jauh dari cahaya matahari.
+note: Abis yang berarti habis juga ada, tapi ragam cakapan (cak). Sumber: KBBI VI Daring
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Baterai ponselku abis.
+right: Baterai ponselku *habis*.
+why: KBBI VI menandai abis (verba) yang berarti habis sebagai ragam cakapan (cak).
+---
+[compare]
+wrong-label: Cakapan
+right-label: Resmi
+wrong: Aku cuman mau tanya satu hal.
+right: Aku *hanya* mau tanya satu hal.
+why: KBBI VI mencatat cuman sebagai adverbia ragam cakapan (cak) dengan arti hanya.
+---
+[compare]
+wrong-label: Di chat
+right-label: Bentuk baku
+wrong: Bener, aku laper.
+right: *Benar*, aku *lapar*.
+why: Laper dan bener tidak ada di KBBI VI Daring (per 11 Nov 2026). Yang tercatat lapar dan benar.
+---
+[table]
+Yang ditulis
+| Tulis | Bukan |
+| *senang* | seneng |
+| *besar* | gede |
+| *habis* | abis |
+| *hanya* | cuman |
+| *lapar* | laper |
+| *benar* | bener |
+Seneng (Jawa), gede (Muna), dan abis (geografi) punya arti lain. Sumber: KBBI VI Daring
+---
+[end cta="Komen"]
+Kesalahan mana yang *paling bikin gatal?*
+Komen satu kata: seneng, gede, atau abis.

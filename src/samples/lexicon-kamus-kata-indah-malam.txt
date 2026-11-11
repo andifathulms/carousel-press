@@ -1,0 +1,82 @@
+handle: @katabaku.id
+template: lexicon/kamus
+lang: id
+title: kata indah malam
+caption: Kata indah bahasa Indonesia tentang malam yang benar-benar ada di KBBI: rembulan, kartika, purnama, gemintang, gulita, hening, syahdu, lelap. Buat caption langit malam dan bio. Sumber: KBBI VI Daring (dicek 11 November 2026) #bahasaindonesia #kataindah #kbbi
+---
+[cover kicker="KATA INDAH #10 · KBBI VI"]
+Bulan Itu Rembulan, | Bintang Itu Kartika
+8 kata indah tentang malam yang benar-benar ada di KBBI, buat caption langit malam atau bio.
+---
+[word]
+pos: nomina · Jawa
+word: rembulan
+meaning: bulan
+example: Malam ini *rembulan* bulat sempurna. Kamu lihat juga?
+note: Label Jw: kata dari bahasa Jawa yang tercatat di KBBI. Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina · Sanskerta
+word: kartika
+meaning: bintang
+example: Di langit sepekat apa pun, kamu tetap *kartika* paling terang.
+note: Arti lainnya di KBBI VI: Pleiades. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: purnama
+meaning: saat bulan bundar benar (tanggal 15 bulan Kamariah)
+example: Bulan *purnama*, angin pantai, dan kamu di sebelahku.
+note: Sebagai nomina, purnama juga berarti bulan (30 atau 31 hari). Sumber: KBBI VI Daring
+---
+[word]
+pos: nomina
+word: gemintang
+meaning: susunan bintang; peta bintang; rasi
+example: Kita rebahan di atap, menebak *gemintang* satu per satu.
+note: Artinya susunan bintang, bukan sekadar banyak bintang. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: gulita
+meaning: gelap; pekat
+example: Lampu padam, malam *gulita*, tapi suaramu cukup jadi cahaya.
+note: Ada juga nomina (Hub): “… jarak penglihatan yang sama dengan nol”. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: hening
+meaning: bening; bersih; jernih
+example: Air telaga *hening*, bulan jatuh di permukaannya.
+note: Arti kedua yang lebih akrab: diam; lengang; sepi; sunyi. Sumber: KBBI VI Daring
+---
+[word]
+pos: adjektiva
+word: syahdu
+meaning: khidmat; mulia; agung
+example: Malam takbiran yang *syahdu*, rumah penuh doa.
+note: Bukan sahdu (bentuk tidak baku). Sumber: KBBI VI Daring
+---
+[word]
+pos: verba
+word: lelap
+meaning: nyenyak (tidur); tidak sadarkan diri
+example: Selamat tidur, semoga *lelap* sampai pagi.
+note: Lelap juga berarti hilang; lenyap. Sumber: KBBI VI Daring
+---
+[table]
+Kata indah untuk malam
+| Kata | Kelas |
+| *rembulan* | nomina (Jw) |
+| *kartika* | nomina (Skt) |
+| *purnama* | adjektiva |
+| *gemintang* | nomina |
+| *gulita* | adjektiva |
+| *hening* | adjektiva |
+| *syahdu* | adjektiva |
+| *lelap* | verba |
+Semua tercatat di KBBI VI Daring
+---
+[end cta="Simpan"]
+Pakai satu kata tadi *dalam satu kalimat.*
+Tulis di komen, lalu simpan buat foto langit malam berikutnya.

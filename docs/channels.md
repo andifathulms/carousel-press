@@ -644,6 +644,13 @@ Lists ("11 kalimat") and patterns ("Think jadi thought") are the weakest. Both w
 6. **Interview #N / Kantor #N** (new, high saves): one high-stakes situation per deck ("Tell me about yourself", "What's your weakness?", replying to a boss, a meeting phrase), with natural phrases to copy and one card of the stiff vs natural answer. Recap slide with every phrase before the end.
 7. **Sering salah dibaca #N** (pronunciation): one trap per deck (-ed, silent letters, stress), with `say:` respelling and IPA.
 8. **Patterns** (irregular verbs, make vs do): lowest priority (382 views), only with a mistake-hook cover, never the rule first.
+9. **Grammar ala Indonesia #N** (owner, Nov 2026: grammar is where Indonesians struggle most). One grammar point per deck, chosen because Indonesian works differently: no tense on verbs ("Yesterday I go"), no articles (a/an/the), *dia* for he and she, no "to be" before adjectives ("I very happy"), no -s for he/she/it ("He work"), no plural -s after numbers ("two book"), questions without do/does/did ("You already eat?"). Recipe, 8–10 slides:
+   - **Cover:** the exact wrong sentence Indonesians say, in quotes, plus a short hint of the fix (kicker `GRAMMAR ALA INDONESIA · #N`). Never the grammar term on the cover ("Simple Past Tense" is the 382-view mistake).
+   - **Slide 2:** the A/B quiz on the cover sentence, or the cover sentence fixed with `[compare]` (only when it is a real mistake per Cambridge Grammar).
+   - **The "kenapa" card:** one card that explains why Indonesians say it, by comparing the Indonesian sentence ("Kemarin aku pergi": *kemarin* already carries the time) with the English one (the verb carries it). This is the deck's edge: it explains, it doesn't scold.
+   - **The pattern:** one short formula a learner can copy (`he/she/it + verb-s`), then 3–4 `[compare]` or quiz rounds from daily life (chat, kantor, kampus).
+   - **Recap** `[table]` (Indonesia-style | Inggris), then the end with a one-tap ask ("Kamu dulu sering yang *A atau B?*") and the next number.
+   - **Sources:** Cambridge Grammar (dictionary.cambridge.org/grammar/british-grammar/…) for every rule and every "Not: …"; Indonesian side explained in plain words, no claims about Indonesian grammar beyond what the sentence shows. Use the grammar term once, small, in a card body, never as a headline.
 
 ### Slide order and endings
 
