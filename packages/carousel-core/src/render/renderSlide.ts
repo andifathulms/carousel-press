@@ -3,7 +3,7 @@ import type { Deck, Slide, Warning } from '../core/types';
 import type { PoolIcon } from '../core/iconNames';
 import { resolveIcons } from '../core/iconNames';
 import { type TextMeasurer, createCanvasMeasurer } from '../layout/measure';
-import type { SlideLayout } from '../templates/common';
+import type { PhotoSize, SlideLayout } from '../templates/common';
 import { getFamily } from '../templates/registry';
 import type { Variant } from '../templates/types';
 import { traitsOf } from '../templates/traits';
@@ -32,11 +32,16 @@ export interface RenderResult {
 /** Overflow outline drawn in the preview only. */
 export const OVERFLOW_OUTLINE = { color: '#FF3B30', width: 6, dash: [18, 12] };
 
-/** Pure layout of one slide (no drawing). */
+/**
+ * Pure layout of one slide (no drawing). `photo` is whether the slide has a photo, or its pixel
+ * size: families that frame photos (arsip) pick a plate by orientation, and assume landscape
+ * when only `true` is given.
+ */
 export function layoutSlide(
-  slide: Slide, deck: Deck, variant: Variant, measurer: TextMeasurer, icon: PoolIcon | null, hasPhoto: boolean,
+  slide: Slide, deck: Deck, variant: Variant, measurer: TextMeasurer, icon: PoolIcon | null, photo: boolean | PhotoSize,
 ): SlideLayout {
-  return getFamily(variant.family).layout({ slide, deck, variant, icon, hasPhoto, measurer });
+  const photoSize = typeof photo === 'object' ? photo : null;
+  return getFamily(variant.family).layout({ slide, deck, variant, icon, hasPhoto: !!photo, photoSize, measurer });
 }
 
 /** Icons for every slide of a deck under a variant's family. */
@@ -50,7 +55,9 @@ export function deckIcons(deck: Deck, variant: Variant): (PoolIcon | null)[] {
  */
 export function renderSlide(ctx: Ctx, slide: Slide, deck: Deck, variant: Variant, assets: RenderAssets): RenderResult {
   const measurer = createCanvasMeasurer(ctx, faceAvailable);
-  const L = layoutSlide(slide, deck, variant, measurer, assets.icon, !!assets.photo);
+  const p = assets.photo;
+  const L = layoutSlide(slide, deck, variant, measurer, assets.icon, p ? { w: p.width, h: p.height, ...(p.credit ? { credit: p.credit } : {}) } : false);
+  const family = getFamily(variant.family);
 
   ctx.save();
   ctx.setTransform(1, 0, 0, 1, 0, 0);
@@ -61,10 +68,14 @@ export function renderSlide(ctx: Ctx, slide: Slide, deck: Deck, variant: Variant
   ctx.fillRect(0, 0, CANVAS.w, CANVAS.h);
   // Serene photos are always heavily darkened (SPEC-ayah §3.3).
   const darkness = Math.max(variant.deco.minDarkness ?? 0, assets.darkness);
-  if (assets.photo) drawPhoto(ctx, assets.photo, darkness, variant.onPhoto.tint);
+  if (p && !family.ownsPhoto) drawPhoto(ctx, p, darkness, variant.onPhoto.tint);
+  if (family.ownsPhoto) {
+    L.photo = p;
+    L.darkness = darkness;
+  }
 
   if (assets.crests) L.crests = assets.crests;
-  getFamily(variant.family).draw(ctx, L);
+  family.draw(ctx, L);
 
   if (assets.preview && L.stack.overflow) {
     const top = L.stack.placed[0]?.y ?? ROWS.stackTopCard;

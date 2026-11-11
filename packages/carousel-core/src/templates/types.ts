@@ -93,7 +93,8 @@ export interface Variant {
   id: TemplateId;
   name: string;
   family: FamilyId;
-  fonts: { serif?: string; sans: string; mono: string };
+  /** `label`: a condensed face for tags, kicker tabs and the folio (arsip). Gated at 700. */
+  fonts: { serif?: string; sans: string; mono: string; label?: string };
   surfaces: Record<string, Surface> & { deep: Surface };
   rotation: string[];
   onPhoto: Surface & { tint: string };

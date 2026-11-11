@@ -29,7 +29,7 @@ const host = (id: string, from: string, patch: Partial<Variant> = {}): Variant =
 describe('registerVariant', () => {
   it('accepts a host variant on every existing family', () => {
     const fams = new Map(listVariants().map((v) => [v.family, v.id]));
-    expect([...fams.keys()].sort()).toEqual(['dev', 'editorial', 'lexicon', 'serene', 'sport']);
+    expect([...fams.keys()].sort()).toEqual(['arsip', 'dev', 'editorial', 'lexicon', 'serene', 'sport']);
     for (const [family, from] of fams) {
       const id = `host/${family}-one`;
       registerVariant(host(id, from));
@@ -39,7 +39,7 @@ describe('registerVariant', () => {
       expect(r.warnings).toEqual([]);
       expect(r.deck.template).toBe(id);
     }
-    expect(listVariants().length).toBe(BUILTIN_TEMPLATE_IDS.length + 5);
+    expect(listVariants().length).toBe(BUILTIN_TEMPLATE_IDS.length + 6);
   });
 
   it('throws a clear error when contrast fails', () => {

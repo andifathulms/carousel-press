@@ -1,7 +1,7 @@
 import type {
   CodeBlock, Deck, DeckHeader, FamilyId, Lang, ParseResult, Rich, Slide, SlideAttrs, SlideType, TemplateId, VerdictTone, Warning,
 } from './types';
-import { DEFAULT_TEMPLATE, LANGS, SLIDE_TYPES, builtinFamilyOf, isArabicType, isLexType } from './types';
+import { ARSIP_PLATES, type ArsipPlate, DEFAULT_TEMPLATE, LANGS, SLIDE_TYPES, builtinFamilyOf, isArabicType, isLexType } from './types';
 import { parseInline, parseRich, richToPlain } from './inline';
 import { canonicalIcon } from './iconNames';
 import { numberSlides } from './numbering';
@@ -33,7 +33,7 @@ const HEADER_LINE = /^\s*([a-z]+)\s*:\s*(.*)$/;
 const TAG_LINE = /^\[[^\]]*\]$/;
 const FENCE = /^\s*```/;
 const FENCE_CLOSE = /^\s*```\s*$/;
-const KNOWN_ATTRS = ['photo', 'icon', 'surface', 'cta', 'number', 'kicker', 'verdict', 'tone', 'dir'] as const;
+const KNOWN_ATTRS = ['photo', 'icon', 'surface', 'cta', 'number', 'kicker', 'verdict', 'tone', 'dir', 'credit', 'layout'] as const;
 const TONES = ['ok', 'warn', 'bad'] as const;
 const LONG_DECK = 10;
 
@@ -440,6 +440,13 @@ function applyAttr(tok: TagToken, attrs: SlideAttrs, warn: Warn): void {
       if (value === 'ltr' || value === 'rtl') attrs.dir = value;
       else warn('unknown-attr', `dir must be ltr or rtl, got "${value}"`);
       break;
+    case 'credit':
+      if (value.trim()) attrs.credit = value.trim();
+      break;
+    case 'layout':
+      if ((ARSIP_PLATES as readonly string[]).includes(value)) attrs.layout = value as ArsipPlate;
+      else warn('unknown-attr', `layout must be one of ${ARSIP_PLATES.join(', ')}, got "${value}"`);
+      break;
   }
 }
 
@@ -459,6 +466,8 @@ function checkAttrScope(slide: Slide, warn: Warn): void {
   if (a.verdict !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('verdict');
   if (a.tone !== undefined && slide.type !== 'card' && slide.type !== 'diagram') drop('tone');
   if (a.dir !== undefined && slide.type !== 'table') drop('dir');
+  if (a.credit !== undefined && slide.type !== 'cover' && slide.type !== 'card' && slide.type !== 'quote' && slide.type !== 'end') drop('credit');
+  if (a.layout !== undefined && slide.type !== 'card') drop('layout');
 }
 
 const TRAY_INDEX = /^\d+$/;

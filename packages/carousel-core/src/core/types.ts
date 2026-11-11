@@ -21,7 +21,7 @@ export function isArabicType(t: SlideType): t is ArabicType {
 export type Lang = 'id' | 'en';
 export const LANGS: readonly Lang[] = ['id', 'en'];
 
-export type FamilyId = 'editorial' | 'dev' | 'lexicon' | 'serene' | 'sport';
+export type FamilyId = 'editorial' | 'dev' | 'lexicon' | 'serene' | 'sport' | 'arsip';
 
 
 /** Templates shipped with the package. Hosts add more with registerVariant(). */
@@ -57,6 +57,8 @@ export const BUILTIN_TEMPLATE_IDS = [
   'lexicon/hanzi',
   'serene/fajr',
   'serene/isya',
+  'arsip/bata',
+  'arsip/nila',
 ] as const;
 export type BuiltinTemplateId = (typeof BUILTIN_TEMPLATE_IDS)[number];
 /** `family/name`: a built-in id or one a host registered. */
@@ -73,6 +75,7 @@ export function builtinFamilyOf(id: string): FamilyId | undefined {
   if (id.startsWith('dev/')) return 'dev';
   if (id.startsWith('sport/')) return 'sport';
   if (id.startsWith('serene/')) return 'serene';
+  if (id.startsWith('arsip/')) return 'arsip';
   return id.startsWith('lexicon/') ? 'lexicon' : 'editorial';
 }
 
@@ -168,7 +171,15 @@ export interface SlideAttrs {
   tone?: VerdictTone;
   /** `[table dir=rtl]`: mirror the column order (SPEC-script §3.2). */
   dir?: 'ltr' | 'rtl';
+  /** Photo caption + credit drawn on the slide (arsip family): "Gapura Wringin Lawang · Glasreifen, CC BY-SA 4.0". */
+  credit?: string;
+  /** Card plate override for the arsip family (SPEC-arsip §6). */
+  layout?: ArsipPlate;
 }
+
+/** Card plates a writer can force with `layout=` (SPEC-arsip §5). */
+export const ARSIP_PLATES = ['potret-atas', 'potret-bawah', 'bentang', 'babak', 'teks'] as const;
+export type ArsipPlate = (typeof ARSIP_PLATES)[number];
 
 export type VerdictTone = 'ok' | 'warn' | 'bad';
 

@@ -36,6 +36,11 @@ export const FAMILY_TRAITS: Record<FamilyId, FamilyTraits> = {
     headerRight: 'path', coverSwipeIcon: false, displayFace: 'sans', icons: { pool: DEV_ICONS, fallback: 'none' },
     weights: (v) => ({ sans: [400, 500, 600, 700, v.headlineWeight ?? 800], mono: [400, 500, 600, 700] }),
   },
+  // Arsip: Lora headlines (700) and quotes (600), DM Sans body and handle; no icons.
+  arsip: {
+    headerRight: 'rule', coverSwipeIcon: false, displayFace: 'serif', icons: { pool: EDITORIAL_ICONS, fallback: 'none' },
+    weights: () => ({ serif: [600, 700], sans: [400, 500, 600], mono: [400, 500, 600] }),
+  },
   sport: {
     headerRight: 'rule', coverSwipeIcon: false, displayFace: 'serif', icons: { pool: DEV_ICONS, fallback: 'none' },
     weights: (v) => ({ serif: [700, v.headlineWeight ?? 800], sans: [400, 500, 600, 700], mono: [400, 500, 600, 700] }),
