@@ -2,17 +2,22 @@
 // Every file is free to reuse; CC BY / BY-SA credits are in the deck captions (docs/photo-credits.md).
 
 const URLS = import.meta.glob<string>('./photos/*.jpg', { query: '?url', import: 'default', eager: true });
+import CREDITS_MD from '../../docs/photo-credits.md?raw';
 
 export interface SamplePhoto {
   id: string;
   url: string;
   focalX: number;
   focalY: number;
+  /** "Foto: Author · licence", from docs/photo-credits.md (drawn on arsip slides). */
+  credit?: string;
 }
 
 /** Focal points for the cover crop (0–1). Photos not listed here use the centre. */
 const FOCAL: Record<string, [number, number]> = {
   'banten-surosowan': [0.38, 0.5],
+  // Arsip quote band (1080×720): show the palm leaves, not the cloth above them.
+  'bubat-lontar': [0.5, 0.92],
   'banten-daendels': [0.5, 0.25],
   'banten-fort-diamant-gerbang': [0.47, 0.6],
   'bayu-peta-1728': [0.72, 0.6],
@@ -53,10 +58,35 @@ const FOCAL: Record<string, [number, number]> = {
   'lombok-vitrine': [0.5, 0.55],
 };
 
+/**
+ * Credit lines by photo id, read from the docs/photo-credits.md tables (| id | used by | file | author | licence |).
+ * Public-domain photos say so; CC0 photos keep the author as a courtesy.
+ */
+export function parseCredits(md: string): Map<string, string> {
+  const out = new Map<string, string>();
+  for (const line of md.split('\n')) {
+    const cells = line.split('|').map((c) => c.trim());
+    if (cells.length < 7) continue;
+    const [, id, , , author, licence] = cells;
+    if (!id || !author || !licence || id === 'Photo ID' || /^-+$/.test(id)) continue;
+    const lic = /^public domain$/i.test(licence) ? 'domain publik' : licence;
+    out.set(id, `Foto: ${author.replace(/^Unknown\b/, 'Anonim')} · ${lic}`);
+  }
+  return out;
+}
+
+const CREDITS = parseCredits(CREDITS_MD);
+
+/** The credit line for a bundled photo id, if it has one. */
+export function sampleCredit(id: string): string | undefined {
+  return CREDITS.get(id);
+}
+
 export const SAMPLE_PHOTOS: readonly SamplePhoto[] = Object.entries(URLS).map(([path, url]) => {
   const id = path.replace(/^.*\/|\.jpg$/g, '');
   const [focalX, focalY] = FOCAL[id] ?? [0.5, 0.5];
-  return { id, url, focalX, focalY };
+  const credit = CREDITS.get(id);
+  return { id, url, focalX, focalY, ...(credit ? { credit } : {}) };
 });
 
 export const SAMPLE_PHOTO_IDS: readonly string[] = SAMPLE_PHOTOS.map((p) => p.id);

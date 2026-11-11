@@ -2,6 +2,7 @@ import { createStore, del, entries, set } from 'idb-keyval';
 import { photoIdFromName } from 'carousel-core/src/core/slug';
 import { makeCanvas } from 'carousel-core/src/render/ctx';
 import type { PhotoInput } from 'carousel-core/src/render/photo';
+import { sampleCredit } from '../samples/photos';
 
 export interface PhotoMeta {
   id: string;
@@ -146,7 +147,8 @@ export class PhotoStore {
     }
     try {
       const image = await p;
-      return { image, width: r.width, height: r.height, focalX: r.focalX, focalY: r.focalY };
+      const credit = sampleCredit(id);
+      return { image, width: r.width, height: r.height, focalX: r.focalX, focalY: r.focalY, ...(credit ? { credit } : {}) };
     } catch {
       return null;
     }

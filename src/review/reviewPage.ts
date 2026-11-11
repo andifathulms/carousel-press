@@ -35,7 +35,7 @@ async function loadAssets(): Promise<Map<string, PhotoInput>> {
   ]);
   for (const p of SAMPLE_PHOTOS) {
     const img = await createImageBitmap(await (await fetch(p.url)).blob());
-    photos.set(p.id, { image: img, width: img.width, height: img.height, focalX: p.focalX, focalY: p.focalY });
+    photos.set(p.id, { image: img, width: img.width, height: img.height, focalX: p.focalX, focalY: p.focalY, ...(p.credit ? { credit: p.credit } : {}) });
   }
   return photos;
 }

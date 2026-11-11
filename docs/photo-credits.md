@@ -106,7 +106,7 @@ Re-cropped Oct 2026 to remove print borders, captions and paper margins: rotterd
 | bubat-lontar | Bubat | Lontar_Tojan_-_Babad_Bali_Dwipa.jpg (leaves moved lower, cloth extended above) | Eka343 | CC BY-SA 4.0 |
 | bubat-kawali-1900 | Bubat | KITLV_87606_-_Isidore_van_Kinsbergen_-_Inscribed_stone_at_Kawali_near_Tjiamis_-_Before_1900.tif | Isidore van Kinsbergen | Public domain |
 | bubat-gedung-sate | Bubat | Gedung_Sate_Oktober_2024_-_Rahmatdenas.jpg | Rahmatdenas | CC BY-SA 4.0 |
-| roehana-soenting-1912 | Soenting Melajoe | Surat_kabar_Soenting_Melajoe_1912_07_20_001.pdf (page 1, placed low on a dark ground) | Soenting Melajoe No. 3, 20 Juli 1912 | Public domain |
+| roehana-soenting-1912 | Soenting Melajoe | Surat_kabar_Soenting_Melajoe_1912_07_20_001.pdf (page 1, masthead and first columns) | Soenting Melajoe No. 3, 20 Juli 1912 | Public domain |
 | roehana-rumah-kelahiran | Soenting Melajoe | Rumah_Kelahiran_Roehana_Koeddoes_(Pintu_depan).jpg | Syurida | CC BY-SA 4.0 |
 | roehana-masjid-koto-gadang | Soenting Melajoe | KITLV_-_29366_-_Demmeni,_J._-_Mosque_at_Kota_Gedang_near_Fort_de_Kock_(Bukittinggi)_-_circa_1910.tif (mount cropped) | Jean Demmeni | Public domain |
 | roehana-ngarai-sianok | Soenting Melajoe | Ngarai_Sianok,_Bukittingi,_Sumatra_Barat.jpg | Defriyanramzi | CC BY-SA 4.0 |

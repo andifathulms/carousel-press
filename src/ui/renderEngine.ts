@@ -45,7 +45,7 @@ export class RenderEngine {
   static key(job: RenderJob, i: number, photo: PhotoInput | null, icon: string | null, crestKey = ''): string {
     const s = job.deck.slides[i]!;
     return String(hash(JSON.stringify(s) + job.variant.id + (s.photoId ?? '') +
-      (photo ? `${photo.focalX},${photo.focalY},${photo.width}` : '') + job.darkness + job.deck.handle +
+      (photo ? `${photo.focalX},${photo.focalY},${photo.width},${photo.height},${photo.credit ?? ''}` : '') + job.darkness + job.deck.handle +
       job.deck.lang + s.counter.total + (job.deck.counter ?? true) + job.deck.slug + (icon ?? '') + crestKey));
   }
 
