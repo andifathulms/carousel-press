@@ -85,6 +85,7 @@ carousel-press/
 │  │  ├─ dev/layout.ts
 │  │  ├─ dev/variants.ts       # github-dark, terminal, paper-light (DESIGN §6.1)
 │  │  ├─ sport/variants.ts     # papan, lapangan, kapur on the dev layout (DESIGN §6.6)
+│  │  ├─ arsip/                # Sejarah Nusantara plates: plan (display list, fit, chrome), cards, layout, draw (docs/SPEC-arsip.md)
 │  │  ├─ stamps.ts             # verdict stamp + diagram panel stack items (DESIGN §6.7)
 │  │  └─ stampsDraw.ts         # draws them for every family
 │  ├─ fonts/

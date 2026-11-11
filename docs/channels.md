@@ -24,7 +24,7 @@ The deck format is PRD §4. This file only says *what* to write and which templa
 |---|---|---|---|---|
 | 🌿 Ruang Rasa (@ruangrasakita.id) | `id` | Lines to send, conversation starters | `editorial/ruang-*` | one per pillar (see §1) |
 | 💻 Fathul Learn Coding (@fathul_learncoding) | `id` | Dev tips, AI for devs, learning journey | `dev/*` | `dev/github-dark` |
-| 📜 Sejarah Nusantara (@sejarah.nusantara.id) | `id` | Lesser-known Indonesian history | `editorial/*` | `editorial/sage` |
+| 📜 Sejarah Nusantara (@sejarah.nusantara.id) | `id` | Lesser-known Indonesian history | `arsip/*` | `arsip/bata` |
 | 🏟️ Sports Codex (@sportscodex) | `id` | Football match recaps and referee-call quizzes | `sport/*` | `sport/papan` |
 | 📊 Peta Angka | `id` | Regional data from NusaStats packs | `editorial/*` | `editorial/midnight` |
 | ✏️ Kosakata Inggris (@kosakata_inggris) | `id` (teaches English) | Daily words, common mistakes, A/B quizzes | `lexicon/*` | `lexicon/notebook` |
@@ -342,7 +342,9 @@ Each post should wake up a different regional audience, so **rotate regions**: n
 ### Deck recipe
 
 - **Header:** `handle: @sejarah.nusantara.id`.
-- **Templates:** `editorial/sage` (default: calm, archival feel, Lora serif), `editorial/midnight` (tragedies, wars, night-time events). Switch to `editorial/archive` once it exists (see Open items).
+- **Templates:** `arsip/bata` (default: paper story slides, brick for the hook and the turn) and `arsip/nila` (wars, tragedies, night-time events: the story runs on indigo). The design system is in `docs/SPEC-arsip.md` (Nov 2026): text never sits on a photo, photos are untinted prints with an on-slide credit.
+- **How arsip reads the deck:** card 1 (the hook) is always the brick slide. Mark one more card as the turn of the story with `surface=bata` (at most 2 brick slides per deck, never two in a row). Portrait photos make portrait plates, landscape photos make wide ones, and the photo bleeds off the top and bottom on alternate cards. A card without a photo becomes a text slide. Force a plate only when the pick is wrong: `layout=potret-atas|potret-bawah|bentang|babak|teks`.
+- **Credit on the slide:** bundled photos get `Foto: Author · licence` automatically. Add `credit="<subject, place> · Foto: <author>, <licence>"` when the subject isn't obvious (a prasasti, a map) or the photo isn't bundled. The caption keeps its credit line too.
 - **Cover:**
   - Kicker = the region first, then the year: `[cover kicker="KALIMANTAN TIMUR · 1965" photo=<id>]`. Someone from there should recognise it in one second. Use the province, or the city when it's better known.
   - Headline = the hook moment: a surprising true statement with a `|` break.
@@ -355,14 +357,14 @@ Each post should wake up a different regional audience, so **rotate regions**: n
   Use `number=off` on story cards.
 - **List deck** ("4 nama kota yang…"): cover + 4–6 cards + end. The cover's item is card 1.
 - **Length:** 8–10 slides (cover + 6–8 cards + end); at most 12 when the story truly needs it. Details that don't fit go in the pinned comment, not on more slides.
-- **Cards:** `[number=off icon=none photo=<id>]`. The editorial family adds an icon automatically, so always write `icon=none`; icons over photos are noise. Headline ≤ 8 words with the year in accent (`*1965*: …`). **Body ≤ 30 words**, two short sentences at most: one beat per slide, readable over a photo on a phone.
+- **Cards:** `[number=off icon=none photo=<id>]` (arsip draws no icons; `icon=none` keeps the deck right if it's ever switched to an editorial template). Headline ≤ 8 words with the year in accent (`*1965*: …`). **Body ≤ 30 words**, two short sentences at most: one beat per slide. Prefer period sources (KITLV photos, old maps, engravings, prasasti); never pre-pad a photo with a dark band, since arsip frames the whole image.
 - **Quote slide:** a documented quote (with attribution and source only), or a line from a prasasti/chronicle.
 - **End:** `[end photo=<cover photo> cta="…"]` with a named action (`cta="Komen A atau B"`, `cta="Komen"`, `cta="Kirim ke orang Kaltim"`), never the default "Simpan • Bagikan".
 - **Caption:** first line = the hook plus the region ("Kutai, Kalimantan Timur: …") + `Sumber:` short source list + a credit line if the image licence needs one + 2–4 hashtags including the region (`#sejarahindonesia`, `#kalimantantimur`, `#kutai`).
 
 ```text
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: payung sultan kutai dibakar
 caption: Kutai, Kalimantan Timur: … Sumber: [sumber terverifikasi] · Foto: [credit] #sejarahindonesia #kalimantantimur #kutai
@@ -1829,8 +1831,8 @@ When asked for "N posts" for an account: read its section, pick formats from its
 - **Ruang Rasa templates: shipped (Oct 2026).** Ruang Rasa moved off `rose-dusk`/`sage`/`midnight` to `editorial/ruang-*` (Fraunces + Instrument Sans). Still proposed, needs a PRD change: `kicker` on cards, a chat-bubble line, an options list with letter discs, a "kirim ke" tag. **The chat-bubble line comes first** (Oct 2026 second review): a generic bubble (no WhatsApp branding) makes a send card read as "a message to send" at a glance and suits screenshots.
 - **BPS Papua fix.** No BPS-based Peta Angka decks until the NusaStats ingest fix is merged (26 new-Papua kabupaten were missing from rankings). Dukcapil and DJPK packs are fine now.
 - **`chart` slide.** Add `[chart data=<pack-id> kind=bar top=N]` to Carousel Press: paste a `carousel-data/1` pack into a Data tab, rendered as a bar chart in template colours. Until then, rankings are one card per region.
-- **`figure` slide + `credit=`.** A slide that shows an image uncropped in a frame (maps, charts) without the dark photo overlay, plus a `credit="…"` line on photo slides. Needed by Sejarah Nusantara and Peta Angka. Courts and pitches are covered by `[diagram]` (shipped Oct 2026).
-- **`editorial/archive` variant.** Sepia paper, dark brown ink, serif, a small year/place label, so Sejarah Nusantara stops borrowing `sage`.
+- **`figure` slide.** A slide that shows an image uncropped in a frame (maps, charts) without the dark photo overlay. Still needed by Peta Angka; Sejarah Nusantara's framed photos and `credit=` shipped with `arsip` (Nov 2026). Courts and pitches are covered by `[diagram]` (shipped Oct 2026).
+- **`arsip/bata` and `arsip/nila`: shipped (Nov 2026).** Sejarah Nusantara's own design system (docs/SPEC-arsip.md), replacing `sage`/`midnight` and the proposed `editorial/archive`. All 43 sejarah samples moved over.
 - **New accounts may replace weak ones (owner decides).** SKD Harian and Jago Kantoran could replace an underperforming account (Whistle Notes or Ruang Rasa) instead of running alongside it. Nothing is paused until the owner decides.
 - **SKD Harian bio:** must include "Bukan akun resmi BKN" (see §10). No BKN, KemenPANRB, school or BUMN logos anywhere.
 - **`lexicon/lembar` (SKD Harian) and `dev/sheet` (Jago Kantoran): shipped (Oct 2026).** Built for these accounts, plus `excel` formula colouring in code blocks and the `[sheet]` slide (PRD §4.10), a mini spreadsheet for Jago Kantoran's formula steps (see `docs/decisions.md`).

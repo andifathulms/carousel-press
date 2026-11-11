@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: si pitung nyata ditembak polisi 1893
 caption: Jakarta, Betawi: Si Pitung bukan cuma cerita rakyat. Salihoen alias Pitung tewas ditembak polisi Batavia pada 14 Oktober 1893, dan koran-koran memberitakannya. Sumber: Bataviaasch Nieuwsblad (8–9 Agustus 1892, 20 Desember 1892, 20–21 April 1893, 16 Oktober 1893), Java-Bode (23 Februari 1893, 16 Oktober 1893), Bataviaasch Handelsblad (16 Oktober 1893), De Telegraaf (3 Juli 1893), semuanya di Delpher/KB; Margreet van Till, “In Search of Si Pitung”, BKI 152 (1996); The Jakarta Post (2017); detikNews (2011) · Foto: KITLV/Leiden University Libraries (CC BY 4.0); Olobaho dan Si Gam (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #sipitung #betawi #jakarta

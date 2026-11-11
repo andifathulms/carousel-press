@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: bubat tiga versi
 caption: Bandung, Jawa Barat: Jalan Hayam Wuruk baru diresmikan tahun 2018. Akarnya Perang Bubat 1357, yang diceritakan tiga naskah, dan ketiganya tidak sama. Sumber: Pararaton (terjemahan Indonesia); W.J. Sastrawan, Indonesia and the Malay World (2020); S. Azmi, "Bubat: Sisi Gelap Hubungan Kerajaan Majapahit Hindu dengan Kerajaan Sunda" (UIN Jakarta) mengutip Kidung Sunda (ed. Berg) dan Carita Parahyangan (ed. Atja & Danasasmita 1981); Sondarika dkk., Jurnal Artefak 11(2) 2024; Suara Surabaya, 11 Mei 2018 · Foto: Glasreifen, Ivuvisual, Eka343, Rahmatdenas (CC BY-SA 4.0) via Wikimedia Commons; I. van Kinsbergen (domain publik) #sejarahindonesia #perangbubat #jawabarat #majapahit

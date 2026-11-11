@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: kongsi lanfang mandor 1777-1884
 caption: Mandor, Kalimantan Barat: selama 107 tahun, penambang emas Hakka di Mandor memilih ketuanya sendiri lewat rapat, sampai Belanda membubarkan Kongsi Lanfang tahun 1884. Sumber: Sugiri Kustedja, “Benarkah Ada ‘Republik’ Lanfang Kongsi di Kalimantan Barat?”, Jurnal Sosioteknologi 15(2) (2016); J.J.M. de Groot, Het Kongsiwezen van Borneo (1885, memuat kronik Lanfang); Soerabaijasch Handelsblad 1 dan 11 Nov 1884; Bataviaasch Handelsblad 8 Nov 1884; De Locomotief 25 Nov 1884 (Delpher) · Foto: domain publik (Veth 1854 dan 1856, de Groot 1885, Schaank 1893); Wereldmuseum Leiden (CC0) #sejarahindonesia #kalimantanbarat #mandor #lanfang

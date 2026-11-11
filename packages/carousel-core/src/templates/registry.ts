@@ -18,11 +18,16 @@ import { LEAGUE_VARIANTS } from './sport/leagues';
 import { kabar } from './dev/kabar';
 import { layoutSerene } from './serene/layout';
 import { drawSerene } from './serene/draw';
+import { ARSIP_VARIANTS } from './arsip/variants';
+import { layoutArsip } from './arsip/layout';
+import { drawArsip } from './arsip/draw';
 
 /** A family is layout code; a variant is data. */
 export interface FamilyLayout {
   layout(input: LayoutInput): SlideLayout;
   draw(ctx: Ctx, layout: SlideLayout): void;
+  /** The family frames the photo itself; renderSlide doesn't paint it full-bleed (arsip). */
+  ownsPhoto?: boolean;
 }
 
 export const FAMILIES: Record<FamilyId, FamilyLayout> = {
@@ -33,10 +38,11 @@ export const FAMILIES: Record<FamilyId, FamilyLayout> = {
   serene: { layout: layoutSerene, draw: drawSerene },
   // Sport reuses the dev layout: display face + capitals for headlines, no terminal path.
   sport: { layout: layoutDev, draw: drawDev },
+  arsip: { layout: layoutArsip, draw: drawArsip, ownsPhoto: true },
 };
 
 /** The variants that ship with the package (review page, tests). */
-export const VARIANTS: readonly Variant[] = [...EDITORIAL_VARIANTS, ...DEV_VARIANTS, ...LEXICON_VARIANTS, ...SERENE_VARIANTS, ...SPORT_VARIANTS, ...LEAGUE_VARIANTS, kabar];
+export const VARIANTS: readonly Variant[] = [...EDITORIAL_VARIANTS, ...DEV_VARIANTS, ...LEXICON_VARIANTS, ...SERENE_VARIANTS, ...SPORT_VARIANTS, ...LEAGUE_VARIANTS, kabar, ...ARSIP_VARIANTS];
 
 const BY_ID = new Map<string, Variant>(VARIANTS.map((v) => [v.id, v]));
 const BUILTIN = new Set<string>(BUILTIN_TEMPLATE_IDS);

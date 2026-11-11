@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: harta lombok 1894 230 kg emas
 caption: Cakranegara, Lombok, NTB: tahun 1894 KNIL membawa 230 kg emas, 7.000 kg perak, dan ratusan naskah lontar dari istana Mataram-Cakranegara. Sebagian pulang 1977, 335 benda lagi pada 2023. Sumber: Commissie Koloniale Collecties, Advies Lombokschat I-2023-4 (12 Mei 2023) dan laporan asal-usul T. Quist (NMVW, 7 November 2022); Rijksoverheid (6 Juli 2023); Rijksmuseum, “War booty”; W.J. Sastrawan, Bijdragen tot de Taal-, Land- en Volkenkunde 181(1) (2025); De Telegraaf (28 Agustus 1894), Opregte Haarlemsche Courant (3 September 1894), Rotterdamsch Nieuwsblad (22 November 1894) via Delpher/KB; Antara (11 Juli 2023) · Foto: Rijksmuseum (CC0); KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #lombok #ntb #cakranegara

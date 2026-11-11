@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: asal-usul nama kota kaltim
 caption: Balikpapan, Kalimantan Timur: hari jadinya diambil dari pengeboran sumur minyak Mathilda. Hari jadi Samarinda pun dihitung dari Perjanjian Bongaya, dan sampai kini masih diperdebatkan. Sumber: Pemkot Balikpapan; Sarip & Nandini, Yupa 5(2) 2021; Sheilla & Sarip, Jurnal Riset Inossa 6(2) 2024; Perda Kabupaten Kutai No. 2/1997; Rifani, Jurnal Mahakam 1(1) 2012; Indische Kamparchieven; Australian War Memorial; Tirto (2017) · Foto: KITLV/Leiden University Libraries (CC BY 4.0), Sri Wahyuni Nur Indah Sari (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0) via Wikimedia Commons; Unsplash, consigliere ivan (CC0) #sejarahindonesia #kalimantantimur #balikpapan #samarinda

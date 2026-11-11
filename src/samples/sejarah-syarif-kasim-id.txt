@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: sultan syarif kasim ii
 caption: Siak, Riau: sultan terakhirnya menyatakan setia kepada Republik lewat satu telegram, lalu hidup dari tunjangan negara, dan singgasana emasnya pun dilaporkan dicuri pada 1967. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Siti Zaqiah, skripsi UIN Syarif Hidayatullah (2024, mengutip arsip ANRI & Delpher); Historia.id (2024); Wilaela, Sosial Budaya (UIN Suska); Museum Nasional; Setneg · Foto: Taufik Hadris, DinaMardiati, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #siak #riau

@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: empat sultanah aceh 1641-1699
 caption: Aceh: selama 59 tahun, 1641–1699, Kesultanan Aceh Darussalam dipimpin empat ratu berturut-turut. Sumber: Sher Banu A.L. Khan, pengantar Harta Karun No. 5, Arsip Nasional RI (2013); Sher Banu A.L. Khan, Sovereign Women in a Muslim Kingdom: The Sultanahs of Aceh, 1641–1699 (NUS Press, 2017); katalog naskah DREAMSEA/HMML (Mir’at al-Thullab) · Gambar: Johannes Vingboons sekitar 1665, Nationaal Archief; G.B. Hooijer (domain publik); Foto: Si Gam (CC BY-SA 3.0 dan 4.0) via Wikimedia Commons #sejarahindonesia #aceh #sultanahaceh #bandaaceh

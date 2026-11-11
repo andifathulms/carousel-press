@@ -38,6 +38,8 @@ export interface PhotoInput {
   height: number;
   focalX: number;
   focalY: number;
+  /** Caption/credit line shown on the slide by families that frame photos (arsip). */
+  credit?: string;
 }
 
 /** Draw the photo, the tint wash and the vertical gradient. darkness ∈ [0, 100]. */

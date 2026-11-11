@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: geger cilegon 9 juli 1888
 caption: Cilegon, Banten: 9 Juli 1888, pengikut Ki Wasyid menguasai Cilegon dan menewaskan pejabat kolonial beserta keluarganya. Tiga minggu kemudian Ki Wasyid tewas, dan puluhan haji dibuang. Sumber: Sartono Kartodirdjo, The Peasants’ Revolt of Banten in 1888 (KITLV, 1966; terj. Pustaka Jaya, 1984); Dadi Darmadi, Heritage of Nusantara 4(1) (2015); Parlindungan Siregar, Buletin Al-Turas 23(1) (2017); E. Tantri, Jurnal Masyarakat dan Budaya 16(1) (2015); De Locomotief, 10 dan 14 Juli 1888 (Delpher/KB) · Foto: KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #banten #cilegon #gegercilegon

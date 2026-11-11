@@ -12,6 +12,7 @@ import { deckIcons, layoutSlide } from '../render/renderSlide';
 import { createCanvasMeasurer } from '../layout/measure';
 import { getVariant } from '../templates/registry';
 import type { Variant } from '../templates/types';
+import type { PhotoSize } from '../templates/common';
 
 export { parseDeck } from './parse';
 
@@ -34,9 +35,10 @@ export class BlockingWarningsError extends Error {
 
 /**
  * Layout warnings for every slide with real fonts (the export gate). Fonts must
- * be loaded. `hasPhoto(i)` says whether slide i renders on a photo.
+ * be loaded. `hasPhoto(i)` says whether slide i renders on a photo, or gives its pixel size
+ * (families that frame photos pick a plate by orientation).
  */
-export function layoutWarnings(deck: Deck, variant: Variant, hasPhoto: (slideIndex: number) => boolean = () => false): Warning[] {
+export function layoutWarnings(deck: Deck, variant: Variant, hasPhoto: (slideIndex: number) => boolean | PhotoSize = () => false): Warning[] {
   const { ctx } = makeCanvas(8, 8);
   const m = createCanvasMeasurer(ctx, faceAvailable);
   const icons = deckIcons(deck, variant);

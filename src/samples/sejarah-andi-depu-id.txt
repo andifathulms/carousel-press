@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: andi depu tiang bendera tinambung 1946
 caption: Tinambung, Polewali Mandar, Sulawesi Barat: 15 Januari 1946, Andi Depu memeluk tiang bendera saat pasukan Belanda datang menurunkan Merah Putih. Ia panglima laskar KRIS Muda dan pahlawan nasional sejak 2018. Sumber: Abd Rahman Hamid, “Nasionalisme dalam Teror di Mandar Tahun 1947”, Paramita 26(1) (2016), mengutip Sinrang (1994), Pawiloy (1989) dan arsip LVRI serta NIT; Keppres 123/TK/2018 (Setkab, 8 Nov 2018) · Foto: KITLV/Leiden University Libraries (CC BY 4.0); Lfvalle1 (CC BY-SA 3.0) via Wikimedia Commons #sejarahindonesia #sulawesibarat #mandar #andidepu

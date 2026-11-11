@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: subuh 3 juli 1964 di tanjung palas
 caption: Bulungan, Kalimantan Utara: malam itu dua perwira bertamu dengan ramah ke istana; beberapa minggu kemudian istananya tinggal abu dan puluhan orang tewas, sebagian dibuang ke laut. Sumber: Magenda, East Kalimantan (1991) via Bond, tesis Univ. Melbourne (2020); Sellato, Archipel 89 (2015); Rahmadi, Islam Kawasan Kalimantan (UIN Antasari, 2020); Mentari & Wisnu, Avatara 5(1) 2017; UU No. 27/1959; Tirto (2017); detik.com (2026); Liputan6 (2017) · Foto: Ezagren (CC BY-SA 4.0), KITLV/Leiden University Libraries (CC BY 4.0), Delirium333 (CC BY 4.0, diolah) via Wikimedia Commons #sejarahindonesia #bulungan #kalimantanutara #sejarahlokal

@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: sultan nuku merebut kembali tidore 1797
 caption: Tidore, Maluku Utara: 12 April 1797, pangeran yang 17 tahun diburu VOC kembali ke Tidore dengan sekitar 70 kora-kora dan merebut kesultanannya. Sumber: Muridan S. Widjojo, Cross-cultural Alliance-making and Local Resistance in Maluku during the Revolt of Prince Nuku, c. 1780–1810 (disertasi Universitas Leiden, 2007; terbit Brill 2009), mengutip Corpus Diplomaticum VI serta arsip VOC dan Inggris; Daftar Penerima Gelar Pahlawan Nasional 1959–2017, Kemensetneg · Foto: Q.M.R. Ver Huell, 1817 (domain publik); Ana Ainina (CC BY 4.0); Marwan Mohamad, RaymondSutanto, Kainjock (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #malukuutara #tidore #sultannuku

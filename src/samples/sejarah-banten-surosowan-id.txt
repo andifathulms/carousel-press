@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: surosowan dijarah daendels 1808
 caption: Banten, 1808: utusan Daendels dibunuh di keraton, seminggu kemudian Surosowan diserbu dan sultannya dibuang ke Ambon. Sumber: Faizal Arifin, Agastya 11(1) 2021; Sunandar, Saepudin & Safitri, Al-Isnad 5(1) 2024; T.S. Raffles, The History of Java (1817); Atlas of Mutual Heritage, “Surosowan fort”; Historia (2024); Kompas.com (2023); DJKN Kanwil Banten (2025) · Foto: Mirani Pramitasari, Arif Permana Putra, Ewal Jr (CC BY-SA 4.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #banten #kesultananbanten #serang

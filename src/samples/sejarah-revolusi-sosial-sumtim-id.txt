@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: revolusi sosial sumatra timur 1946
 caption: Langkat, Sumatra Utara: Maret 1946 penyair Amir Hamzah dibunuh dalam Revolusi Sosial Sumatra Timur, dan kerangkanya baru ditemukan dua tahun kemudian. Sumber: Reid, The Blood of the People (via Sinuhaji, Historisme 2007, dan JOM FKIP UNRI); Said, Indonesia 15 (1973); van Langenberg, Indonesia 33 (1982); Rezani, IJHTC 10(2) 2025; Kementerian Penerangan RI, Propinsi Sumatera Utara (1953); Antara (2025, mengutip Lah Husny 1978); Setneg · Foto: Ramada Febrian, Davidelit (CC BY-SA 4.0), Nationaal Archief (CC0) via Wikimedia Commons #sejarahindonesia #sumaterautara #amirhamzah

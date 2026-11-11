@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: asal usul nama cirebon caruban
 caption: Cirebon, Jawa Barat: asal-usul nama Cirebon sering dikaitkan dengan udang rebon, padahal naskah Carita Purwaka Caruban Nagari (1720) menyebut asalnya Caruban, artinya “campuran”. Sumber: Atja, Carita Purwaka Caruban Nagari: Karya Sastra sebagai Sumber Pengetahuan Sejarah (Proyek Pengembangan Permuseuman Jawa Barat, 1986), termasuk kutipan Tomé Pires, Suma Oriental (terj. A. Cortesão, 1944) dan M.C. Ricklefs (1981); Perda Kota Cirebon No. 4 Tahun 2024 tentang Hari Jadi Cirebon; detikJabar (12 Januari 2024) · Foto: KITLV/Leiden University Libraries (CC BY 4.0); Midori (CC BY 3.0); Judgefloro (CC0) via Wikimedia Commons #sejarahindonesia #cirebon #asalusulnama #jawabarat

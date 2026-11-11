@@ -26,7 +26,10 @@ async function blockingWarnings(c: Controller): Promise<Warning[]> {
   await loadFonts(s.variant);
   await loadTextFonts(s.text);
   const { slides } = s.parsed.deck;
-  const hasPhoto = (i: number): boolean => !!(slides[i]?.photoId && c.photos.get(slides[i]!.photoId!));
+  const hasPhoto = (i: number): false | { w: number; h: number } => {
+    const r = slides[i]?.photoId ? c.photos.get(slides[i]!.photoId!) : undefined;
+    return r ? { w: r.width, h: r.height } : false;
+  };
   return [...s.parsed.warnings, ...layoutWarnings(s.parsed.deck, s.variant, hasPhoto)].filter(isBlocking);
 }
 

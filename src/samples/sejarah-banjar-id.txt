@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: kesultanan banjar dihapus
 caption: Banjar, Kalimantan Selatan: Belanda menghapus kesultanannya pada 1860, tapi putra Antasari masih melawan sampai gugur pada 1905. Sumber: Norpikriadi, Naditira Widya 8(2) 2014; Kalimantan (Kementerian Penerangan, 1953); Tirto (2021) mengutip Idwar Saleh & Helius Sjamsuddin; Amerta (BRIN); RCE, basis data kapal karam (Onrust); De Gids (1860); Setneg · Foto: Ilham Mufti Laksono, Tim WikiBarakat – WikiBanua, Herusutimbul (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #banjar #kalimantanselatan

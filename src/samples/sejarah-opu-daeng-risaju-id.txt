@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: opu daeng risaju
 caption: Luwu, Sulawesi Selatan: tahun 1934 Opu Daeng Risaju dipenjara, diceraikan, dan gelarnya dicabut karena menolak keluar dari PSII. Sumber: Kemdikbud, Sejarah Indonesia Kelas XII (2018), hlm. 42–44; Amir & Azis, Al-Qalam 28(2) 2022; Mattingaragau, Andi Djemma Pahlawan Nasional (2016); Masita dkk., JPDSH 1(5) 2022; Republika (2014); Setneg · Foto: Midori (CC BY 3.0), Jorge Franganillo (CC BY 2.0), KITLV/Leiden University Libraries (CC BY 4.0; rapat Sarekat Islam di Blitar) via Wikimedia Commons; Silentwinner (CC0) #sejarahindonesia #luwu #sulawesiselatan

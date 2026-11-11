@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: atisha berguru 12 tahun di swarnadwipa muaro jambi
 caption: Jambi, Candi Muaro Jambi: sekitar 1012–1024, biksu asal Bengal bernama Atisha berguru 12 tahun di Swarnadwipa sebelum mengubah sejarah Buddha di Tibet. Sumber: Peter Skilling, “Dharmakirti’s Durbodhaloka and the Literature of Srivijaya”, Journal of the Siam Society 85 (1997); Muarajambi Temple Compound, Daftar Tentatif UNESCO (berkas Indonesia, 2025); Claudine Salmon, Archipel 66 (2003); Adi dkk., Berkala Arkeologi 42(2), BRIN; Lesley Pullen, Konferensi Internasional Kajian Jambi (2013); The Jakarta Post (2014); Mongabay Indonesia (2024) · Foto: Anandajoti Bhikkhu/Photo Dharma (CC BY 2.0) via Wikimedia Commons; lukisan Atisha, The Met (domain publik) #sejarahindonesia #jambi #candimuarojambi #muarojambi

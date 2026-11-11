@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: ende pancasila di bawah pohon sukun
 caption: Ende, Nusa Tenggara Timur: 1934–1938 Sukarno dibuang Belanda ke Flores tanpa diadili, dan di bawah pohon sukun ia merenungkan Pancasila. Lahirnya di Ende atau di Jakarta? Sumber: Samingan & Roe, “Kajian Pemikiran Soekarno di Ende 1934–1938”, Sejarah dan Budaya 14(2) 2020 (mengutip Dhakidae 2013, Daras 2014, Cindy Adams); Setkab RI (Keppres 24/2016; upacara 1 Juni 2022) · Foto: Iskandar Hale Usman, Herusutimbul (CC BY-SA 4.0), Rosino (CC BY-SA 2.0), Felix Dance (CC BY 2.0), Rochelimit (CC BY-SA 3.0) via Wikimedia Commons #sejarahindonesia #ende #flores #pancasila #ntt

@@ -457,6 +457,9 @@ SKD Harian's questions read like a real computer answer sheet (lembar jawaban ko
 - **News band** (`deco.newsBand`): a full-width 22 px `accent` bar at the very top, then 8 px down a 4 px `accent` rule at 45% alpha, like a ticker. Both sit above SAFE (decoration, not content).
 - Severity is the existing verdict stamp (§6.7): `KRITIS` with `tone=bad`, `PENTING` with `tone=warn`, `INFO` with `tone=ok`.
 
+### 6.12 Arsip family (Sejarah Nusantara, Nov 2026)
+`arsip/bata` and `arsip/nila` are specified in **docs/SPEC-arsip.md** (tokens, type scale, eight plates, plate choice). It is the one family that frames photos itself: `renderSlide` skips the full-bleed photo and tint (`FamilyLayout.ownsPhoto`), and the layout returns a display list (`SlideLayout.arsip`). Text never sits on a photo; photos fill the TikTok UI zones; text stays in SAFE. Slide types other than cover/card/quote/end, and cards with `verdict=`, use the editorial layout with arsip tokens.
+
 ## 7. Icons
 
 - Author **original** line icons on a 24×24 grid as SVG path strings, and render them with `new Path2D(d)` scaled into the target box.

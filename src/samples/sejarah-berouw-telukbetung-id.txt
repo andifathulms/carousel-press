@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: kapal berouw teluk betung krakatau 1883
 caption: Teluk Betung, Lampung: 27 Agustus 1883, tsunami letusan Krakatau membawa kapal uap Berouw 3,3 km ke lembah Sungai Kuripan. Lampung kehilangan 12.466 jiwa. Sumber: R.D.M. Verbeek, Krakatau (edisi Prancis, 1885–1886, archive.org), termasuk tabel korban resmi; Rijksdienst voor het Cultureel Erfgoed, MaSS “Berouw” (mengutip E. Cotteau 1884); The Jakarta Post (11 Maret 2014) · Foto: Tropenmuseum (CC BY-SA 3.0); KITLV/Leiden University Libraries (CC BY 4.0 dan domain publik); litografi Parker & Coward 1888 (domain publik) via Wikimedia Commons #sejarahindonesia #lampung #krakatau #bandarlampung

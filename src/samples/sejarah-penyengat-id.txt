@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: pulau penyengat mas kawin sultan
 caption: Pulau Penyengat, Tanjungpinang, Kepulauan Riau: pulau kecil ini dulu mas kawin Sultan Mahmud Syah III untuk Engku Puteri Raja Hamidah, lalu jadi tempat Raja Ali Haji menulis Gurindam Dua Belas. Sumber: Faris Joraimi, “Mother Island”, BiblioAsia, National Library Board Singapore (2022); Myra Mentari Abubakar, “Herstory between borders”, New Mandala (2026); Alimuddin Hassan Palawa, “Raja Ali Haji: Pelindung Budaya dan Pemelihara Bahasa Melayu”, Al-Fikra UIN Suska Riau (2011); Olisstiowati dkk., “Sejarah Masjid Raya Sultan Riau di Pulau Penyengat”, JOM FKIP Universitas Riau (2019); Ramelan dkk., “Konsep Zonasi Pulau Penyengat”, Amerta (BRIN, 2017); Sulukindo, Universitas Diponegoro (tanggal Gurindam Dua Belas); teks Gurindam Dua Belas Pasal 5, Wikisource bahasa Indonesia · Foto: Rahma Azizah (CC BY-SA 4.0), a_rabin (CC BY 2.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons; J.C. Baane 1826 (domain publik) #sejarahindonesia #pulaupenyengat #kepulauanriau #tanjungpinang

@@ -16,7 +16,16 @@ export interface LayoutInput {
   variant: Variant;
   icon: PoolIcon | null;
   hasPhoto: boolean;
+  /** Pixel size of the slide's photo when known (families that frame photos choose a plate by it). */
+  photoSize?: PhotoSize | null;
   measurer: TextMeasurer;
+}
+
+export interface PhotoSize {
+  w: number;
+  h: number;
+  /** The photo's own credit line (arsip draws it when the slide has no `credit=`). */
+  credit?: string;
 }
 
 export interface HeaderLayout {
@@ -51,6 +60,11 @@ export interface SlideLayout {
   crests?: ReadonlyMap<string, PhotoInput>;
   /** Serene: every stack item and text line is centred (SPEC-ayah §3.3). */
   center?: boolean;
+  /** Set by renderSlide for families that draw the photo themselves (arsip). */
+  photo?: PhotoInput | null;
+  darkness?: number;
+  /** Arsip: the positioned display list (SPEC-arsip §5). */
+  arsip?: import('./arsip/plan').ArsipPlan;
 }
 
 /** Shared header/footer/CTA metrics (DESIGN §3.1, §3.2, §3.8). */

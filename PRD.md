@@ -114,6 +114,8 @@ The first non-empty line of a block may be a tag:
 | `kicker` | cover, card, quote | text | Small label above the title, e.g. `"GIT • CHEAT SHEET"`. On a card it replaces the badge; on a quote it sits above the quote (e.g. `kicker="Tafsir"`) |
 | `verdict` | card, diagram | text | A stamp above the headline, e.g. `verdict="SAH"` (drawn in capitals). It replaces the badge on that slide (DESIGN §6.7) |
 | `tone` | card, diagram | `ok` \| `warn` \| `bad` | Colour of the verdict stamp. Default `ok`. Anything else → `unknown-attr` |
+| `credit` | cover, card, quote, end | text | Photo caption + credit drawn on the slide by the `arsip` family, e.g. `credit="Gapura Wringin Lawang · Foto: Glasreifen, CC BY-SA 4.0"`. Without it, arsip draws the photo's own credit (bundled photos: from docs/photo-credits.md). Other families ignore it (owner-approved Nov 2026, docs/SPEC-arsip.md §8) |
+| `layout` | card | `potret-atas` \| `potret-bawah` \| `bentang` \| `babak` \| `teks` | Forces the `arsip` plate for this card instead of the automatic pick (SPEC-arsip §6). Other families ignore it. Anything else → `unknown-attr` |
 
 Unknown attribute → warning `unknown-attr`, ignored.
 
