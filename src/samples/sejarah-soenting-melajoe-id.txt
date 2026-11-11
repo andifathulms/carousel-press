@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: soenting melajoe dan roehana koeddoes
 caption: Padang, Sumatra Barat: koran perempuan tahun 1912, dengan penulis dari Sawahlunto sampai Mesir. Sumber: Herawati dkk., Jurnal Kajian Komunikasi 10(2) 2022 (Unpad); D.M. Chaniago, Kafa'ah 4(1) 2014; Soenting Melajoe No. 3, 20 Juli 1912 · Foto: Syurida, Defriyanramzi, Rahmat Irfan Denas (CC BY-SA 4.0) via Wikimedia Commons; J. Demmeni / KITLV (domain publik) #sejarahindonesia #roehanakoeddoes #sumaterabarat #pahlawannasional

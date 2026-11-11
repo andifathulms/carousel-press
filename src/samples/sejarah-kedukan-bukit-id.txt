@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: prasasti kedukan bukit
 caption: Palembang, Sumatra Selatan: hari jadi kotanya diambil dari tulisan di sebuah batu sungai abad ke-7, Prasasti Kedukan Bukit peninggalan Sriwijaya. Sumber: Griffiths, edisi DHARMA "Riverstone from Kedukan Bukit" (dharmalekha.info); Manguin, Journal of the Siam Society 113(2) 2025; Setianingsih, Berkala Arkeologi (BRIN); Zubir dkk., Bunga Rampai Sejarah Sumatera Selatan (BPSNT Padang, 2012) · Foto: Gunawan Kartapranata (CC BY-SA 4.0, CC BY-SA 3.0), The Bangsawan (CC BY-SA 4.0), KITLV (CC BY 4.0) via Wikimedia Commons; L.C. Westenenk (domain publik) #sejarahindonesia #sriwijaya #palembang #prasasti

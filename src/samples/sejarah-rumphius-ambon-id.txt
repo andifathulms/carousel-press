@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: rumphius ambon naskah tenggelam
 caption: Ambon, Maluku: Rumphius buta, kehilangan istri dan putrinya dalam tsunami 1674, perpustakaannya terbakar, lalu naskah buku tumbuhannya tenggelam di laut. Bukunya tetap terbit. Sumber: van Andel dkk., Blumea 63 (2018); Naturalis, Cyclopaedia of Malesian Collectors; Pranantyo & Cummins, Pure and Applied Geophysics (2019); CNBC Indonesia (2025) · Gambar: Rijksmuseum (CC0), Nationaal Archief & Herbarium Amboinense (domain publik); Foto: Len Worthington (CC BY-SA 2.0) dan naskah Cruijdeboek (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #ambon #maluku #rumphius

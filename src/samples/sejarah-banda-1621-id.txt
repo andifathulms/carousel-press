@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: banda 1621
 caption: Kepulauan Banda, Maluku: pala dulu hanya tumbuh di sini, dan tahun 1621 VOC datang untuk memilikinya sendiri. Sumber: Vincent C. Loth, "Pioneers and Perkeniers: The Banda Islands in the 17th Century", Cakalele 6 (1995); Colenbrander, Jan Pieterszoon Coen: Bescheiden I (1919), surat 27 Des 1614; Hurulean dkk., Arbitrer 4(1) 2022 (Univ. Pattimura); M. van Pagee (2024) · Foto: Schlawensko (CC BY-SA 4.0) via Wikimedia Commons; Rijksmuseum, Nationaal Archief (domain publik/CC0) #sejarahindonesia #banda #maluku #pala

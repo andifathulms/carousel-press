@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: benteng solor komandan voc kabur ke larantuka
 caption: Solor dan Larantuka, Flores Timur, NTT: tahun 1629, komandan benteng VOC di Lohayong menggelapkan uang Kompeni dan kabur ke Larantuka. Anak atau cucunya kelak memimpin kaum Topas di Timor. Sumber: Hans Hägerdal, Lords of the Land, Lords of the Sea: Conflict and Adaptation in Early Colonial Timor, 1600–1800 (KITLV Press, 2012, akses terbuka), mengutip A. de Roever (2002) dan Tiele & Heeres · Foto: Nationaal Archief / Atlas of Mutual Heritage, sekitar 1656 (domain publik); Nativeplants garden, Nugroho Arif Prabowo (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #nusatenggaratimur #florestimur #larantuka #solor

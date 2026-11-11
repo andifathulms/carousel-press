@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: trunajaya pemberontak atau pejuang
 caption: Madura, Jawa Timur: tahun 1677 pasukan Raden Trunajaya (Trunojoyo) menjarah istana Mataram di Plered. Tiga tahun kemudian ia ditikam raja yang dulu sekutunya. Sumber: M.C. Ricklefs, A History of Modern Indonesia since c.1200 (2008); Pigeaud & de Graaf, Islamic States in Java 1500–1700 (1976); H.J. de Graaf, “Gevangenneming en dood van Raden Truna-Djaja” (TBG 85, 1952); Universitas Trunojoyo Madura; Setkab (2017); Suara Surabaya (2019) · Gambar: Rijksmuseum (CC0), peta Hurdt 1678 dan Benjamin Wright 1649 (domain publik); Foto: Muhamad Abdu, Yovi prasetyo, Lukjsly (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #madura #trunojoyo #jawatimur

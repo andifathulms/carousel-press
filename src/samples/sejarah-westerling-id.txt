@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: operasi westerling di sulawesi selatan
 caption: Sulawesi Selatan, 1946–1947: ribuan orang dieksekusi tanpa pengadilan, dan 66 tahun kemudian Belanda meminta maaf kepada para janda korban. Berapa tepatnya korbannya masih diperdebatkan. Sumber: Abd Rahman Hamid, Paramita 26(1) 2016; Wulandari, Attoriolong 24(1) 2026; Tirto (Petrik Matanasi, 2019); Kousbroek, Hollands Maandblad 1988; AFP (2014); Al Jazeera (2013); Prakken d'Oliveira (2013); NOS (2015, 2022); DutchNews (2020); Setneg (2020); Antara (2023) · Foto: Wadaihangit, MesinKetik, Apri DAV (CC BY-SA 4.0) via Wikimedia Commons; Nationaal Archief (CC0) #sejarahindonesia #sulawesiselatan #makassar

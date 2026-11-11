@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: rapat damai tumbang anoi 1894
 caption: Gunung Mas, Kalimantan Tengah: tahun 1894, para kepala Dayak berkumpul berbulan-bulan di betang Damang Batu, Tumbang Anoi, untuk mengakhiri kayau dan perbudakan. Sumber: Sitti Utami Haryanti, “The Treaty of Tumbang Anoi, 1894”, dalam Trajectories of Memory (Springer, 2023); Sumiatie, Arianti & Susanto, Anterior Jurnal 21(2) (2022); situs Kecamatan Damang Batu, Pemkab Gunung Mas; Kompas (2011, mengutip KMA M. Usop, Pakat Dayak); RRI (April 2026) · Foto: Tropenmuseum / Wereldmuseum Amsterdam, sekitar 1894 (CC BY-SA 3.0); Raflinoer32 (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #kalimantantengah #tumbanganoi #dayak

@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: buton dan martabat tujuh
 caption: Baubau, Sulawesi Tenggara: di Kesultanan Buton, sultan dipilih dewan dan bisa dipecat. Undang-undang dasarnya sejak 1610: Martabat Tujuh. Sumber: Etnosia 5(1) 2020 (Unhas, mengutip Schoorl 2003); Hasaruddin, jurnal sejarah LPPM Unidayan; La Bakry & Hasaruddin (pnm.gov.my); Sritimuryati & Iriani, Attoriolong 19(2) 2021 · Foto: Marwan Mohamad (CC BY-SA 4.0), KITLV (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #buton #baubau #sulawesitenggara

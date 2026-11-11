@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: geger sepehi 1812 keraton jogja dijarah
 caption: Yogyakarta: 20 Juni 1812, Keraton Yogyakarta direbut pasukan Inggris dan sepoy India, Sultan Hamengku Buwono II ditawan, dan naskah istananya dibawa ke London. Sumber: Ardiyansyah & Meyer, “From Raids to Digital Returns”, Archipel 110 (2025); detikJogja (2023, mengutip situs Keraton Jogja dan Dinas Kebudayaan DIY); Antara Jogja (seminar sejarawan Harto Juwono & Djoko Marihandono); Tempo (2019) · Foto: RaFaDa20631 (CC BY-SA 4.0), CEphoto/Uwe Aranas (CC BY-SA 3.0), Daderot (CC0) via Wikimedia Commons; British Library & Topographisch Bureau (domain publik) #sejarahindonesia #yogyakarta #gegersepehi #jogja

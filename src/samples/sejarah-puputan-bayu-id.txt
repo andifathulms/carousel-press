@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: puputan bayu hari jadi banyuwangi
 caption: Banyuwangi, Jawa Timur: hari jadinya, 18 Desember, diambil dari Puputan Bayu 1771, perang rakyat Blambangan melawan VOC. Kotanya sendiri baru jadi ibu kota tahun 1774. Sumber: Sri Margana, Java's Last Frontier: The Struggle for Hegemony of Blambangan c. 1763–1813 (disertasi Universitas Leiden, 2007), bab 4–5, mengutip arsip VOC; Antara Jatim (2018); detikJatim (2021, 2022); Kompas.com (2021) · Foto: Aryphrase (CC BY-SA 3.0), Jakub Hałun & WMWis (CC BY-SA 4.0) via Wikimedia Commons; peta F. Valentijn 1728 (domain publik) #sejarahindonesia #banyuwangi #blambangan #puputanbayu

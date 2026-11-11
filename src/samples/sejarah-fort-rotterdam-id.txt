@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: fort rotterdam setelah 1667
 caption: Makassar, Sulawesi Selatan: ditangkap saat berunding di hari Lebaran, Pangeran Diponegoro dikurung lebih dari 20 tahun di Fort Rotterdam. Sumber: Sagimun M.D. (Depdikbud, 1975) mengutip Keyzer (1862); tesis Universitas Hasanuddin; jurnal UNM; Kompas TV mengutip Peter Carey, Takdir; Carey (2008) tentang Babad Diponegoro; Disbudpar Sulsel · Foto: Sanko, Heandra (CC BY-SA 3.0), Oceanmuse (CC BY 4.0) via Wikimedia Commons; Rijksmuseum (CC0); litografi C.W.M. van de Velde (domain publik) #sejarahindonesia #makassar #sulawesiselatan #fortrotterdam

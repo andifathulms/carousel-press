@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: perjanjian bongaya
 caption: Makassar, Sulawesi Selatan: 250.000 ringgit dan 1.000 budak, sebagian yang wajib diserahkan Gowa lewat Perjanjian Bongaya 1667. Sumber: Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud, 1975) termasuk teks perjanjian; Andaya, The Heritage of Arung Palakka (1981); Palallo, Attoriolong 18(1) 2020; Atlas of Mutual Heritage (Nationaal Archief); Setneg · Gambar: Romeyn de Hooge / Nationaal Archief (domain publik), Rijksmuseum (CC0); Foto: Herusutimbul, Torbenbrinker (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #makassar #sulawesiselatan

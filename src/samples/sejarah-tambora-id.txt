@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/midnight
+template: arsip/nila
 lang: id
 title: tambora 1815 dari sumbawa
 caption: Sumbawa, NTB: setelah Tambora meletus tahun 1815, dua kerajaan hilang, dan sebagian orang sampai menjual anaknya demi segantang beras. Sumber: Bernice de Jong Boers, Indonesia 60 (1995), Cornell; Oppenheimer, Progress in Physical Geography 27 (2003); University of Rhode Island (2006); Setkab (2015) · Foto: Felix Dance (CC BY 2.0), Georesearch Volcanedo, Budi Wasisto (CC BY-SA 4.0), Tisquesusa (CC BY 4.0) via Wikimedia Commons; NASA, Rijksmuseum (domain publik/CC0) #sejarahindonesia #tambora #sumbawa #ntb

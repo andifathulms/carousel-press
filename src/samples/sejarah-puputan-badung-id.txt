@@ -1,5 +1,5 @@
 handle: @sejarah.nusantara.id
-template: editorial/sage
+template: arsip/bata
 lang: id
 title: puputan badung 1906
 caption: Denpasar, Bali, 1906: berbaju putih dan membawa keris, raja Badung dan ratusan pengikutnya berjalan ke arah senapan Belanda. Sumber: Helen Creese, "A Puputan Tale", Indonesia 82 (2006), mengutip H.M. van Weede (1908), catatan harian I Gusti Putu Djlantik (1906) & Schulte Nordholt (1996); Inna Mirawati, Citra Lekha 17(1) 2013; Australian Museum (2014); Setkab RI (2015); Antara Bali (2025); The Jakarta Post (2011) · Foto: H.M. van Weede, KITLV/Leiden University Libraries (CC BY 4.0), Ray in Manila (CC BY 2.0) via Wikimedia Commons #sejarahindonesia #bali #puputan #denpasar
