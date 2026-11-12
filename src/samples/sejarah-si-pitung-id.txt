@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/nila
 lang: id
 title: si pitung nyata ditembak polisi 1893
-caption: Jakarta, Betawi: Si Pitung bukan cuma cerita rakyat. Salihoen alias Pitung tewas ditembak polisi Batavia pada 14 Oktober 1893, dan koran-koran memberitakannya. Sumber: Bataviaasch Nieuwsblad (8–9 Agustus 1892, 20 Desember 1892, 20–21 April 1893, 16 Oktober 1893), Java-Bode (23 Februari 1893, 16 Oktober 1893), Bataviaasch Handelsblad (16 Oktober 1893), De Telegraaf (3 Juli 1893), semuanya di Delpher/KB; Margreet van Till, “In Search of Si Pitung”, BKI 152 (1996); The Jakarta Post (2017); detikNews (2011) · Foto: KITLV/Leiden University Libraries (CC BY 4.0); Olobaho dan Si Gam (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #sipitung #betawi #jakarta
+caption: Jakarta, Betawi: Si Pitung bukan cuma cerita rakyat. Salihoen alias Pitung tewas ditembak polisi Batavia pada 14 Oktober 1893, dan koran-koran memberitakannya. Sumber: Bataviaasch Nieuwsblad (8–9 Agustus 1892, 20 Desember 1892, 20–21 April 1893, 16 dan 18 Oktober 1893), Java-Bode (23 Februari 1893, 16 Oktober 1893), Bataviaasch Handelsblad (16 Oktober 1893), De Telegraaf (3 Juli 1893), semuanya di Delpher/KB; Margreet van Till, “In Search of Si Pitung”, BKI 152 (1996); The Jakarta Post (2017); detikNews (2011) · Foto: KITLV/Leiden University Libraries (CC BY 4.0); Olobaho dan Si Gam (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #sipitung #betawi #jakarta
 ---
 [cover kicker="JAKARTA · 1893" photo=pitung-tanah-abang-1890]
 Si Pitung Itu Nyata. | Kematiannya Masuk Koran
@@ -10,19 +10,27 @@ Si Pitung Itu Nyata. | Kematiannya Masuk Koran
 ---
 [number=off icon=none photo=pitung-tanah-abang-1899]
 *14 Oktober 1893*: dikepung polisi
-Schout (kepala polisi) Tanah Abang, Hinne, dan anak buahnya memburunya sejak pagi. Pitung menembakkan revolvernya, lalu tertembak dan meninggal malam itu di rumah sakit kota.
+Schout (kepala polisi) Tanah Abang, Hinne, memburunya sejak pagi; seorang mata-mata memancingnya ke Tanah Abang.
+
+Pitung menembakkan revolvernya, lalu tertembak. Di rumah sakit kota ia sempat bilang lebih baik mati daripada masuk penjara, dan malam itu ia meninggal.
 ---
 [number=off icon=none photo=pitung-tanah-abang-1890]
 Koran tak sepakat soal detailnya
 Java-Bode menulis: dekat kuburan Cina di Petojo Udik. Bataviaasch Handelsblad: tanah lapang dekat Kota Bambu. Jamnya pun beda: setengah dua, pukul empat, atau pukul lima sore.
+
+Lukanya juga: Bataviaasch Nieuwsblad menyebut Hinne menembak kakinya, Java-Bode menyebut lengan, dada, dan punggung.
 ---
 [number=off icon=none photo=pitung-kali-tanah-abang]
 *1892*: ditangkap, lalu divonis mati
-Agustus 1892 ia ditangkap lewat jebakan mata-mata polisi. Akhir tahun, pengadilan keliling di Bekasi memvonis mati Pitung dan lima orang lain karena merampok rumah Sapioedin di Marunda.
+Agustus 1892 ia dijebak: seorang mata-mata membujuknya membayar denda senjata api tanpa izin di kantor kepala jaksa, dan di sana ia ditangkap.
+
+Akhir tahun, pengadilan keliling di Bekasi memvonis mati Pitung dan lima orang lain karena merampok rumah Sapioedin di Marunda.
 ---
 [number=off icon=none photo=pitung-tanah-abang-1899]
 *April 1893*: kabur dari penjara
-Pitung dan Dji-ie lolos dari penjara Meester Cornelis (kini Jatinegara), diduga lewat tembok lalu berenang menyeberangi kali. Polisi menawarkan hadiah f300, hidup atau mati.
+Vonis mati belum dijalankan ketika Pitung dan Dji-ie lolos dari penjara Meester Cornelis (kini Jatinegara), diduga lewat tembok lalu berenang menyeberangi kali.
+
+Dji-ie tertangkap di Depok hari itu juga, dan empat penjaga ditahan karena dicurigai memasok alat. Polisi menawarkan hadiah f300, hidup atau mati.
 ---
 [quote icon=none photo=pitung-kali-tanah-abang]
 Seberapa ditakuti atau dicintainya Pitung di distrik Kebayoran (bisa ditafsirkan dua-duanya) terbukti: di hutan, polisi menemukan keranjang berisi makanan segar dan uang untuknya.
@@ -30,15 +38,21 @@ Seberapa ditakuti atau dicintainya Pitung di distrik Kebayoran (bisa ditafsirkan
 ---
 [number=off icon=none photo=pitung-tanah-abang-1899]
 Peluru emas? Itu cerita rakyat
-Menurut cerita rakyat, Pitung kebal dan hanya mempan peluru emas. Koran 1893 hanya menyebut tembakan senapan dan revolver polisi. Kisah peluru emas tak ada di laporan zaman itu.
+Menurut cerita rakyat, Pitung kebal dan hanya mempan peluru emas. Koran 1893 hanya menyebut tembakan senapan dan revolver polisi.
+
+Tapi legendanya sudah mulai tumbuh: 18 Oktober 1893, makamnya di Krukut dilaporkan dijaga siang malam supaya tidak dikeramatkan.
 ---
 [number=off icon=none photo=pitung-rumah-marunda]
 Rumah Si Pitung di Marunda
-Rumah panggung ini dikelola Museum Kebaharian Jakarta. Menurut warga dan budayawan Ridwan Saidi, pemiliknya Haji Saipuddin, bandar ikan. Nama Rumah Si Pitung baru dipakai sejak 1972.
+Rumah panggung kayu di Marunda Pulo, Cilincing, ini dikelola Museum Kebaharian Jakarta; tahun 2017 jadi museumnya yang paling ramai.
+
+Menurut warga dan budayawan Ridwan Saidi, pemiliknya Haji Saipuddin, bandar ikan. Nama Rumah Si Pitung baru dipakai sejak 1972.
 ---
 [number=off icon=none photo=pitung-rumah-papan]
 Sahabat atau korban?
-Versi populer menyebut Haji Safiuddin sahabat Pitung. Vonis 1892 mencatat Pitung dihukum karena merampok rumah Sapioedin di Marunda. Apakah orangnya sama, sumber tak memastikan.
+Versi populer menyebut Haji Safiuddin sahabat Pitung. Agustus 1892, koran menulis enam orang mengenali Pitung sebagai pemimpin perampokan di rumah “hadji Sapioedin” di Kampung Marunda, dan vonisnya soal perkara itu.
+
+Apakah orangnya sama, sumber tak memastikan.
 ---
 [end photo=pitung-tanah-abang-1890 cta="Komen A atau B"]
 Si Pitung: *A.* pahlawan atau *B.* perampok?

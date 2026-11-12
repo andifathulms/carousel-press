@@ -2,43 +2,58 @@ handle: @sejarah.nusantara.id
 template: arsip/bata
 lang: id
 title: payung sultan kutai dibakar
-caption: Kutai, Kalimantan Timur: tahun 1965 pusaka sultannya dibakar di depan warga, setelah sultannya ditahan tanpa diadili. Sumber: Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020; Sarip, Yupa 4(2) 2020; kaltimkece.id & sejarahkaltim.com (Muhammad Sarip); Tirto (2017); detik.com (2024) · Foto: Sri Wahyuni Nur Indah Sari, Gunawan Kartapranata (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kutai #kalimantantimur
+caption: Kutai, Kalimantan Timur: tahun 1965 pusaka sultannya dibakar di depan warga, setelah sultannya ditahan tanpa diadili. Sumber: Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020; Sarip, Yupa 4(2) 2020; kaltimkece.id & sejarahkaltim.com (Muhammad Sarip); Tirto (2017); detik.com (2024); Sarip, kaltimtoday.co (23 Mar 2025); Tirto (2018, 2021, mengutip Magenda) · Foto: Sri Wahyuni Nur Indah Sari, Gunawan Kartapranata (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0), KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #kutai #kalimantantimur
 ---
 [cover kicker="KALIMANTAN TIMUR · 1965" photo=kutai-kedaton]
 Payung Sultan Kutai | Dibakar di Depan Warga
-Samarinda, 21 Mei 1965. Sultan Parikesit sudah berbulan-bulan ditahan tentara tanpa diadili.
+Samarinda, 21 Mei 1965. Sembilan bulan sebelumnya, Sultan Parikesit ditangkap tentara dan ditahan tanpa diadili.
 ---
 [number=off icon=none photo=kutai-mahkota]
 *21 Mei 1965*: pusaka dibakar
-Pakaian kebesaran, mantel, dan payung Sultan dibakar di Lapangan Kinibalu, di depan warga yang dikumpulkan. Sumber lain menyebut pembakaran juga di halaman keraton.
+Sehari sebelumnya, Pangdam Soemitro datang ke keraton Tenggarong. Pakaian kebesaran, mantel, dan payung Sultan dibawa ke Samarinda.
+
+Di Lapangan Kinibalu, warga dan kerabat Sultan dari tahanan disuruh menonton pusaka itu dibakar. Sumber lain menyebut pembakaran di halaman keraton.
 ---
 [quote icon=none photo=nama-samarinda-mahakam]
 Yang kita ganyang adalah sistemnya.
 — Pangdam Soemitro
+Diucapkan dalam jumpa pers sesudah pembakaran. Awal kalimatnya: “Kita mengganyang feodalisme, tetapi yang kita ganyang itu bukan manusianya.”
 ---
 [number=off icon=none photo=kutai-parikesit]
 *Agustus 1964*: Sultan ditangkap
-Tuduhannya makar dan menghidupkan feodalisme. Atas perintah Pangdam Mulawarman Soehario, Sultan, Bupati Kutai, dan sejumlah bangsawan ditahan berbulan-bulan tanpa diadili.
+Tuduhannya makar dan menghidupkan feodalisme. Atas perintah Pangdam Mulawarman Soehario, Sultan, Bupati Kutai Aji Raden Padmo, dan sejumlah bangsawan ditahan di Balikpapan tanpa diadili.
+
+Harian Rakjat, 25 September 1964, menyebut tuduhan lain: menghina Presiden Sukarno.
 ---
 [number=off icon=none photo=nama-tenggarong-tepian]
 Kerajaan tua di tepi Mahakam
-Menurut Salasilah Kutai, berdiri sekitar awal abad ke-14. Tahun 1844 Belanda membakar Tenggarong, dan Sultan terpaksa mengakui kedaulatan Belanda.
+Menurut Salasilah Kutai, naskah yang selesai ditulis 1849 dan kini disimpan di Berlin, kerajaan ini berdiri sekitar 1300 di Jaitan Layar, kini Kutai Lama.
+
+Ibu kotanya lalu pindah ke Jembayan, kemudian Tenggarong. April 1844 armada Belanda membakar Tenggarong, dan Oktober 1844 Sultan mengakui kedaulatan Belanda.
 ---
 [number=off icon=none photo=nama-balikpapan-pelabuhan]
 Kaya dari minyak
-Sejak 1888 Sultan memberi konsesi tambang ke pengusaha Belanda. Dari royaltinya, kesultanan membangun istana, rumah sakit jiwa, dan suaka margasatwa.
+Tahun 1888 Sultan memberi hak tambang batubara ke perusahaan Belanda, lalu izin mencari minyak ke Menten. Dari situ lahir sumur Mathilda di Balikpapan.
+
+Sultan mendapat royalti 5 persen. Dari royaltinya, kesultanan membangun istana, rumah sakit jiwa, dan suaka margasatwa.
 ---
 [number=off icon=none photo=kutai-mahakam]
 *1950–1960*: dari istimewa ke biasa
-Kesultanan dekat dengan Belanda, kaum republik curiga. Sempat jadi Daerah Istimewa tahun 1953, lalu 21 Januari 1960 pemerintahannya diserahkan ke pemerintah daerah.
+Kesultanan dekat dengan Belanda, kaum republik curiga. 23 Januari 1950, di lapangan yang kini bernama Kinibalu, Sultan Parikesit menyatakan setuju negara kesatuan.
+
+Tahun 1953 Kutai jadi Daerah Istimewa. Lalu 21 Januari 1960 Sultan menyerahkan pemerintahan kepada Bupati Aji Raden Padmo.
 ---
 [number=off icon=none photo=kutai-kedaton]
 Istana selamat, lalu dilepas
-Agustus 1964 militer mencoba membakar keraton, tapi Gubernur Abdoel Moeis Hassan mengirim polisi. Belakangan istana dilepas ke pemerintah dan jadi museum sejak 1971.
+Agustus 1964 militer mencoba membakar keraton, tapi Gubernur Abdoel Moeis Hassan mengirim polisi. Ia juga meminta kejaksaan menyegel keraton.
+
+Belakangan Pemprov Kaltim membayar ganti rugi Rp64 juta kepada Parikesit. Istana jadi museum sejak 1971, kini Museum Mulawarman.
 ---
 [number=off icon=none photo=kutai-mahkota]
 *2001*: sultan lagi, tanpa kuasa
-Parikesit wafat 1981, hidup dari tunjangan kecil negara. Tahun 2001 putra mahkota dinobatkan sebagai pemimpin adat dan budaya, bukan pemerintahan.
+Parikesit wafat 22 November 1981, hidup dari tunjangan kecil negara. Tahun 1999 Bupati Syaukani mengusulkan kesultanan dihidupkan lagi.
+
+22 September 2001 putra mahkota dinobatkan sebagai Sultan Aji Muhammad Salehuddin II: pemimpin adat dan budaya, bukan pemerintahan.
 ---
 [end photo=kutai-kedaton cta="Komen"]
 Kamu baru tahu *soal ini?*

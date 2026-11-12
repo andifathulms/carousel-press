@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/bata
 lang: id
 title: harta lombok 1894 230 kg emas
-caption: Cakranegara, Lombok, NTB: tahun 1894 KNIL membawa 230 kg emas, 7.000 kg perak, dan ratusan naskah lontar dari istana Mataram-Cakranegara. Sebagian pulang 1977, 335 benda lagi pada 2023. Sumber: Commissie Koloniale Collecties, Advies Lombokschat I-2023-4 (12 Mei 2023) dan laporan asal-usul T. Quist (NMVW, 7 November 2022); Rijksoverheid (6 Juli 2023); Rijksmuseum, “War booty”; W.J. Sastrawan, Bijdragen tot de Taal-, Land- en Volkenkunde 181(1) (2025); De Telegraaf (28 Agustus 1894), Opregte Haarlemsche Courant (3 September 1894), Rotterdamsch Nieuwsblad (22 November 1894) via Delpher/KB; Antara (11 Juli 2023) · Foto: Rijksmuseum (CC0); KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #lombok #ntb #cakranegara
+caption: Cakranegara, Lombok, NTB: tahun 1894 KNIL membawa 230 kg emas, 7.000 kg perak, dan ratusan naskah lontar dari istana Mataram-Cakranegara. Sebagian pulang 1977, 335 benda lagi pada 2023. Sumber: Commissie Koloniale Collecties, Advies Lombokschat I-2023-4 (12 Mei 2023) dan laporan asal-usul T. Quist (NMVW, 7 November 2022); Rijksoverheid (6 Juli 2023); Rijksmuseum, “War booty”; W.J. Sastrawan, Bijdragen tot de Taal-, Land- en Volkenkunde 181(1) (2025); De Telegraaf (28 Agustus 1894), Opregte Haarlemsche Courant (3 September 1894), Rotterdamsch Nieuwsblad (22 November 1894) via Delpher/KB; Antara (11 Juli 2023); L.M.J. Boegheim, “Munten uit de Lombok-schat”, Jaarboek voor Munt- en Penningkunde 83 (1996); Universiteit Leiden (Juli 2023) · Foto: Rijksmuseum (CC0); KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #lombok #ntb #cakranegara
 ---
 [cover kicker="NTB · LOMBOK, 1894" photo=lombok-vitrine]
 230 Kg Emas Diangkut | dari Istana Cakranegara
@@ -10,19 +10,27 @@ Harta Lombok: rampasan KNIL dari kerajaan dinasti Bali di Lombok. Sebagian baru 
 ---
 [number=off icon=none photo=lombok-benda-cakranegara]
 *1894*: 230 kg emas, 7.000 kg perak
-Dari istana Cakranegara dan medan perang, KNIL membawa emas, perak, perhiasan, dan permata. Ikut dibawa juga sekitar 500 naskah lontar.
+Dari istana Cakranegara dan medan perang, KNIL membawa emas, perak, perhiasan, dan permata, juga sekitar 500 naskah lontar.
+
+Banyak di antaranya rusak terbakar. Di Batavia, seluruh harta itu ditaksir bernilai 1 sampai 1,5 juta gulden.
 ---
 [number=off icon=none photo=lombok-kolam-cakranegara]
 Perang yang berlapis
-Lombok saat itu diperintah raja dinasti Bali dari Mataram-Cakranegara. Sebagian orang Sasak sedang memberontak dan, menurut telegram dari Batavia, ikut mengepung Cakranegara.
+Sejak sekitar 1740, Lombok diperintah raja dinasti Bali dari Mataram-Cakranegara. Sebagian orang Sasak memberontak, meminta bantuan Belanda, dan menurut telegram dari Batavia ikut mengepung Cakranegara.
+
+Sastrawan (2025) mencatat, sebagian lontar istana pun dulu terkumpul lewat kekerasan dalam perebutan kuasa Bali–Lombok.
 ---
 [number=off icon=none photo=lombok-perundingan]
 *25–26 Agustus 1894*: serangan malam
-Pasukan kerajaan menyerbu perkemahan KNIL di Cakranegara. Telegram dari Batavia: Jenderal Van Ham, 14 perwira, dan 150 serdadu tewas.
+Raja sempat menawarkan tunduk dan membayar denda perang; menurut sumber Belanda, 24 Agustus dibayar 269.000 keping perak dan 2.000 keping emas.
+
+Malamnya, pasukan kerajaan menyerbu perkemahan KNIL di Cakranegara. Telegram dari Batavia: Jenderal Van Ham, 14 perwira, dan 150 serdadu tewas.
 ---
 [number=off icon=none photo=lombok-perundingan]
 Lalu, pembalasan tiga bulan
-KNIL menembaki desa dengan meriam, membakar, dan menjarah istana. Ribuan laki-laki, perempuan, dan anak-anak di Lombok tewas. November 1894, raja tua menyerah.
+KNIL menembaki desa dengan meriam, membakar, dan menjarah istana. Ribuan laki-laki, perempuan, dan anak-anak di Lombok tewas.
+
+18 November 1894, istana Cakranegara ditembaki sampai terbakar, lalu direbut. Raja tua menyerah. Di antara perwira KNIL ada letnan muda Hendrikus Colijn, kelak perdana menteri Belanda.
 ---
 [quote icon=none photo=lombok-zaal-rijksmuseum]
 Harta emas, perak, dan permata ditemukan, mungkin senilai beberapa juta, yang menurut hak perang si pemenang jatuh ke tangan Belanda.
@@ -31,10 +39,14 @@ Harta emas, perak, dan permata ditemukan, mungkin senilai beberapa juta, yang me
 [number=off icon=none photo=lombok-zaal-rijksmuseum]
 *1896*: dijual untuk ongkos perang
 Sebagian harta dikapalkan ke Belanda dan dijual untuk menutup biaya perang serta menyantuni janda serdadu KNIL. Lebih dari 500 benda masuk Rijksmuseum.
+
+Koin peraknya dilebur di Utrecht jadi uang receh Hindia Belanda. Hasilnya sekitar ƒ661.000, jauh di bawah ongkos perang ƒ2,66 juta.
 ---
 [number=off icon=none photo=lombok-gerbang-puri]
 Pulang dua kali
-Tahun 1977, sekitar 235 benda dikembalikan ke Indonesia. Pada 10 Juli 2023 di Leiden, Belanda menyerahkan 335 benda lagi dari harta Lombok.
+Tahun 1977, sekitar 235 benda dikembalikan ke Indonesia. Pada 10 Juli 2023, di Museum Volkenkunde Leiden, Belanda menyerahkan 335 benda lagi dari harta Lombok.
+
+Guru besar Leiden Pieter ter Keurs menyebutnya “contoh khas barang rampasan”.
 ---
 [number=off icon=none photo=lombok-benda-cakranegara]
 Masih ada yang belum jelas

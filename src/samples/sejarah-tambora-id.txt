@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/nila
 lang: id
 title: tambora 1815 dari sumbawa
-caption: Sumbawa, NTB: setelah Tambora meletus tahun 1815, dua kerajaan hilang, dan sebagian orang sampai menjual anaknya demi segantang beras. Sumber: Bernice de Jong Boers, Indonesia 60 (1995), Cornell; Oppenheimer, Progress in Physical Geography 27 (2003); University of Rhode Island (2006); Setkab (2015) · Foto: Felix Dance (CC BY 2.0), Georesearch Volcanedo, Budi Wasisto (CC BY-SA 4.0), Tisquesusa (CC BY 4.0) via Wikimedia Commons; NASA, Rijksmuseum (domain publik/CC0) #sejarahindonesia #tambora #sumbawa #ntb
+caption: Sumbawa, NTB: setelah Tambora meletus tahun 1815, dua kerajaan hilang, dan sebagian orang sampai menjual anaknya demi segantang beras. Sumber: Bernice de Jong Boers, Indonesia 60 (1995), Cornell; Oppenheimer, Progress in Physical Geography 27 (2003); University of Rhode Island (2006); Setkab (2015); T.S. Raffles, The History of Java (1817), memuat laporan Owen Phillips · Foto: Felix Dance (CC BY 2.0), Georesearch Volcanedo, Budi Wasisto (CC BY-SA 4.0), Tisquesusa (CC BY 4.0) via Wikimedia Commons; NASA, Rijksmuseum (domain publik/CC0) #sejarahindonesia #tambora #sumbawa #ntb
 ---
 [cover kicker="NUSA TENGGARA BARAT · 1815" photo=tambora-kaldera]
 Dua Kerajaan Hilang | dalam Satu Letusan
@@ -10,35 +10,51 @@ Letusan Gunung Tambora di Pulau Sumbawa, April 1815.
 ---
 [number=off icon=none photo=tambora-tepi-kaldera]
 *April 1815*: Pekat dan Tambora lenyap
-Kerajaan Pekat dan Tambora musnah bersama rajanya, Muhamad dan Abdul Gafur. Sanggar kehilangan banyak penduduk, pantainya dihantam tsunami, dan abu menumpuk 50–60 cm.
+Kerajaan Pekat dan Tambora musnah bersama rajanya, Muhamad dan Abdul Gafur. Menurut Raja Sanggar, dari sedikitnya 12.000 penduduk keduanya, hanya segelintir yang selamat.
+
+Sanggar pun kehilangan banyak penduduk, pantainya dihantam tsunami, dan abu menumpuk 50–60 cm.
 ---
 [number=off icon=none photo=tambora-peta-1855]
 Sebelum 1815: enam kerajaan
 Sumbawa punya enam kerajaan: Sumbawa, Bima, Dompu, Sanggar, Pekat, dan Tambora. Orang Tambora bahkan punya bahasanya sendiri, yang kini sudah punah.
+
+Daftar kata yang dimuat Raffles (1817) menunjukkan bedanya: satu, dua, tiga dalam bahasa Tambora adalah seena, kalae, nih.
 ---
 [number=off icon=none photo=tambora-dari-teluk-saleh]
 *5–11 April 1815*: letusan
-Ledakan pertama pada 5 April terdengar ratusan kilometer jauhnya. Pada malam 10 April, menurut Raja Sanggar yang menyaksikannya, tiga tiang api naik dari puncak.
+Ledakan pertama pada 5 April terdengar ratusan kilometer jauhnya. Di Yogyakarta, pasukan sempat dikirim karena bunyinya dikira tembakan meriam.
+
+Pada malam 10 April, menurut Raja Sanggar yang menyaksikannya, tiga tiang api naik dari puncak, lalu menyatu di udara.
 ---
 [number=off icon=none photo=tambora-bima-litho]
 Catatan Kerajaan Bima
 Bo’ Sangaji Kai, catatan istana Bima, menulis: hari gelap, terdengar bunyi seperti meriam, lalu turun batu dan abu “lamanya tiga hari dua malam”.
+
+Naskah-naskah Kerajaan Bima ini disunting Henri Chambert-Loir dan Siti Maryam Salahuddin, terbit tahun 1999.
 ---
 [number=off icon=none photo=tambora-lapisan-abu]
 Separuh penduduk hilang
 Menurut taksiran Zollinger, Sumbawa kehilangan sekitar 84.000 dari 170.000 jiwa: 10.000 tewas langsung, 38.000 karena lapar dan penyakit, 36.000 mengungsi. Ini taksiran, bukan sensus.
+
+Letnan Owen Phillips, utusan Raffles, melihat jenazah di tepi jalan dan desa-desa kosong di Dompu dan Bima.
 ---
 [number=off icon=none photo=tambora-tepi-kaldera]
 Menjual anak demi beras
 Orang makan daun kering dan umbi beracun, ada yang menjual diri sebagai budak kepada pedagang dari Seram. Sebagian menjual anaknya demi beras, kadang hanya satu gantang, sekitar 3 kilogram.
+
+Raja Sanggar bercerita kepada Phillips: salah satu putrinya sendiri meninggal karena lapar.
 ---
 [number=off icon=none photo=tambora-raffles]
 *1816*: wabah, bantuan tak cukup
-Wabah 1816 ikut menewaskan Sultan Sumbawa dan tiga putranya; kapal bantuan Raffles tak banyak menolong. Di Bali dan Lombok, abu menimbun sawah, lalu kelaparan dan wabah menyusul.
+Phillips menyerahkan tiga koyan beras kepada Raja Sanggar atas nama Raffles, tapi kapal bantuan tak banyak menolong. Wabah 1816 ikut menewaskan Sultan Sumbawa dan tiga putranya.
+
+Di Bali dan Lombok, abu menimbun sawah, lalu kelaparan dan wabah menyusul.
 ---
 [number=off icon=none photo=tambora-sabana]
 *1824–2015*: dari puing ke taman nasional
-Tahun 1824 Tambora dan Pekat masih disebut “tumpukan puing”; baru 1844 pengungsi Sanggar meminta izin pulang. Tahun 2015, dua abad setelah letusan, Taman Nasional Gunung Tambora diresmikan.
+Tahun 1824 Tambora dan Pekat masih disebut “tumpukan puing”; baru 1844 pengungsi Sanggar meminta izin pulang.
+
+Tahun 2004, tim University of Rhode Island dan Direktorat Vulkanologi menggali rumah terkubur berisi mangkuk perunggu dan tembikar. Tahun 2015, Taman Nasional Gunung Tambora diresmikan.
 ---
 [end photo=tambora-kaldera cta="Komen"]
 Pernah dengar *Kerajaan Pekat dan Tambora?*
