@@ -907,3 +907,552 @@ Agents' full source lists are summarised here; every claim was checked against t
   - kata-indah-malam: rembulan (Jw), kartika (Skt), purnama, gemintang ("susunan bintang; peta bintang; rasi", not just "many stars"), gulita, hening, syahdu (tidak baku: sahdu), lelap.
   - imbuhan-menyontek: sontek¹/²/³ (sontek² tidak baku: contek), contek → sontek², menyontek (both senses; tidak baku: mencontek), mencontek → menyontek, sontekan, penyontek, colok³ / mencolok; contekan, nyontek and menyolok not found. The s → ny point rests on the KBBI forms (EYD V only says affixes are attached).
   - satu-kata-pacar: pacar¹/² (inai), inai¹, bisa¹/², kali²/⁴ (sungai, lele), genting¹/² (tidak baku: genteng), jarak¹/², teras¹ (inti kayu; ki "pejabat teras"). Homonym numbers explained as markers, not a ranking.
+
+## Sejarah Nusantara, longer cards (12 Nov 2026)
+
+The owner asked for more text on every slide. Card bodies grew from ~23 to 35–45 words, using only sources already in each deck's caption, re-read in full, or new sources at least as strong (new ones are added to that deck's caption). Per slide: what was added and where it comes from. Cards marked unchanged had no sourced detail to add. Items on the older "Left out" lists stayed out.
+
+Orchestrator edits after review: Mandor slide 8 dropped the line on Tokyo-trial exhibits (only exhibit cover sheets seen); Solor gives the widow's name as the VOC spelling "Injay Chili" instead of a guessed modern form; Rumphius no longer says how many daughters died (CNBC only; other sources say two).
+
+### sejarah-andi-depu-id
+All slide facts from Abd Rahman Hamid, "Nasionalisme dalam Teror di Mandar Tahun 1947", Paramita 26(1) 2016, pp. 95–105 (PDF journal.unnes.ac.id/nju/paramita/article/download/5149/4181), re-read in full; and Setkab, "Presiden Jokowi Anugerahkan Gelar Pahlawan Nasional Kepada 6 Tokoh Bangsa" (8 Nov 2018).
+- slide 2: Andi Depu led the flag-raising; Andi Parenrengi named; her words made hesitant youths brave — Hamid p. 97 (citing Sinrang 1994:324; Pawiloy 1989:192–193)
+- slide 4: news from a Japanese army captain via Andi Depu and M. Riri Amin Daud, spread across Mandar; Islam Muda founded 30 Apr 1945; A.R. (Abd. Rachman) Tamma chief of staff — Hamid pp. 96, 98 (Poelinggomang 2005; Kadir 1984; Arsip LVRI Reg. 191)
+- slide 5: five divisions, Divisi V women's, two divisions outside Mandar (Makassar … Bone, Parepare); Makassar branch 17 Oct 1946 — Hamid p. 98 (Arsip LVRI Reg. 191; NIT Reg. 139)
+- slide 6: full transfer route; Jan 1947, 400 combined fighters at Pamboang on Parenrengi's order — Hamid pp. 98–99 (Amir 2011; Arsip MRAD Reg. 15)
+- slide 7: 1 Feb 1947 market day in Tinambung, market visitors and 105 Majene prisoners taken to Galung Lombok, accused of being robbers, shot without legal process (no graphic detail) — Hamid pp. 101–102 (Arsip ART Reg. 25)
+- slide 8: released with comrades, 6 a.m. ceremony, next day visit with 500 residents to the victims' graves at Galung Lombok — Hamid p. 104 (Arsip ART Reg. 177)
+- slide 9: conferred at Istana Negara, 8 Nov 2018, with five others incl. Abdurrahman Baswedan and Depati Amir — Setkab 8 Nov 2018
+- quote slide: unchanged (it has no note line; none added)
+- new sources: none (both already in caption)
+
+### sejarah-baabullah-id
+Argensola = Bartolomé Leonardo de Argensola, Conquista de las islas Malucas (1609; 1891 reprint, archive.org ConquistaDeLasIslasMalucas, OCR text read). Leirissa = R.Z. Leirissa, "St. Francis Xavier and the Jesuits in Ambon (1546–1580)", Review of Culture 19 (2006), pp. 54–64 (icm.gov.mo PDF read).
+- slide 2: per Argensola, Mesquita feigned illness and invited Khairun to the fort to discuss state matters, five days after both swore reconciliation — Argensola libro II pp. 74–76 (attributed on slide)
+- slide 3: Ternate sent an envoy dressed in white (Maluku mourning colour) to Goa to complain; at the funeral the sons swore vengeance over the body — Argensola II pp. 77–78
+- slide 4: first stone laid by Captain António de Brito on St John the Baptist's day (hence the name); per Argensola the Maluku kings had asked for a fortress — Argensola libro I pp. 14–15 (attributed)
+- slide 5: Tabarija sent to Goa 1535, Khairun his stepbrother installed by the captain; 1557 Duarte d'Eça detained Khairun and his mother, rebellion, other Portuguese officials sent d'Eça to Goa — Leirissa pp. 54, 59
+- slide 6: the two elder brothers declined to lead the revenge, Baabullah (third son) accepted; five-year siege with hunger and thirst — Argensola II p. 79, III p. 91 ("Cinco años duró el cerco")
+- slide 7: terms incl. leaving with families and property; fortress handed over in the King of Portugal's name until Mesquita was punished (attributed to Argensola); some Portuguese moved to Tidore, whose king received them — Argensola III pp. 94–95 (Argensola's surrender day is St Stephen's day = 26 Dec, matching the existing "26 Desember")
+- slide 8: by 1580 a Jesuit (Fr Bernardino Ferrari) reported only six or seven Christian villages left on Ambon, from about 30 earlier — Leirissa pp. 58–59
+- slide 9: war continued until his death (Leirissa p. 59, attributed); Keppres 117/TK/2020 — Setneg/Setkab, Nov 2020
+- new sources: none (Argensola, Leirissa and Setneg already in caption)
+- doubt: Argensola names the killer "Martín Antonio Pimentel"; the deck keeps "Martim Afonso Pimentel" from the earlier sources. Argensola also says Mesquita was later shipped in chains to be handed to Ternate and was killed by Javanese at Japara on the way; left out (single chronicle, date unclear).
+
+### sejarah-banda-1621-id
+Loth = V.C. Loth, "Pioneers and Perkeniers: The Banda Islands in the 17th Century", Cakalele 6 (1995) 13–35 (full text read via the ScholarSpace TEXT bitstream).
+- slide 2: expedition left end of 1620 after the VOC secured Jayakarta; target the main island Lonthor — Loth pp. 17–18
+- slide 3: "after initial swift success by the Dutch"; orang kaya glossed as Banda's leaders; leaders captured and tried — Loth p. 18
+- slide 4: some deportees ended up as far as Ceylon/Sri Lanka; Coen's estimate of ~2,000 defenders, 600 of them men (letter to Heeren XVII, 6 May 1621, cited by Loth n. 18) — Loth pp. 18–19
+- slide 5: Portuguese present since Antonio d'Abreu, 1511; the VOC built a fort and trading post on Neira — Loth p. 16
+- slide 6: 1616 conquest of Ai, ~400 (many women and children) drowned fleeing to Run — Loth p. 17
+- slide 8: a few hundred of the ~1,000 survivors were on Run, spared because of the English presence — Loth p. 18
+- slide 9: perkeniers had to sell the whole harvest to the VOC at fixed prices; enslaved Bandanese also worked the land; beriberi — Loth pp. 21, 25–26 (n. 26, n. 29)
+- slide 10: Bandanese who had fled to Seram came back in kora-kora to help enslaved Bandanese escape — Loth p. 26
+- quote slide: unchanged (no note line)
+- new sources: none
+
+### sejarah-banjar-id
+Norpikriadi = "Perjalanan Kesultanan Banjar", Naditira Widya 8(2) 2014, pp. 79–94 (karya.brin.go.id PDF read; cites Helius Sjamsuddin 2001, Saleh 1962). Kalimantan = Kementerian Penerangan, Kalimantan (1953), pp. 375–383 of the print (id.wikisource "Halaman:Kalimantan.pdf/379–387", read).
+- slide 2: decision already taken in Batavia on 17 Dec 1859 (beslit); resistance continued in Kandangan, Barabai, Tanjung and Tanah Laut — Kalimantan pp. 379–380 (Wikisource 383–384)
+- slide 3: Hidayatullah's mother of royal blood (Sultan Adam's reason); Tamjidillah's 1852 secret letter promising all coal diggings to the Dutch; mine named Oranje Nassau (opened 28 Sep 1849) — Norpikriadi pp. 79–80, 88–89 (Helius 2001)
+- slide 4: Martapura and Pengaron besieged about 50 days (attributed to Kalimantan 1953); "sumber Indonesia lama" now named — Kalimantan p. 377 (Wikisource 381)
+- slide 5: Surapati had sworn loyalty and promised to capture Antasari; Onrust sunk; early Feb 1860 reprisal took his fort at Lahai, then villages burned — Kalimantan pp. 379–380 (Wikisource 383–384)
+- slide 6: followers snatched him back on the road; Dutch blockade of food until recaptured (28 Feb 1862) — Kalimantan p. 382 (Wikisource 386)
+- slide 7: Dutch used Demang Lehman to induce Hidayatullah's surrender with a promise of the throne; he felt deceived and fought on; Kalimantan dates his capture/execution 18 Feb 1863 vs 1864 elsewhere, so "sebagian sumber menyebut 1863" — Kalimantan pp. 382–383 (Wikisource 386–387)
+- slide 8: seat at Beras Kuning on the Menawing river; Dutch called him "pretendant Sultan" — Norpikriadi p. 83 (Helius 2001) and p. 86 (Castelein via Saleh 1962)
+- slide 9: Keppres 06/TK/1968 (Setneg list; date 27 Mar 1968 left out as before); Pangeran Haji Khairul Saleh installed as Raja Muda in 2010 (exact day left vague per deck notes) — Norpikriadi p. 90 (Mulyadi 2011)
+- new sources: none (Norpikriadi, Kalimantan 1953, Setneg already in caption)
+- doubt: slide 7 headline stays "*1864*" while the body now notes 1863 in some sources.
+
+### sejarah-banten-surosowan-id
+Arifin = Faizal Arifin, "Hegemoni Kolonialisme terhadap Kekuasaan di Nusantara: Strategi Politik Daendels Meruntuhkan Kesultanan Banten Tahun 1808–1811", Agastya 11(1) 2021 (PDF read; he cites Daendels 1814 Staat der Nederlandsche O.I. bezittingen, Verwey 1905, Velderhof 1901, Duinen 1918, Eijkman & Stapel 1924, Van der Kemp 1920).
+- slide 2: Daendels led in person; four cannon; per his own report the keraton held by 3,000 fell; loot (gold, silver, cash) shared out except six valuable keris sent to the Batavia treasury — Arifin pp. 10–11 (Daendels 1814; Velderhof 1901). Also matches Atlas of Mutual Heritage (~1,000 vs 3,000).
+- slide 3: deaths in the swamps; the Sultan refused new workers so as not to wrong his people, and told Batavia it was impossible — Arifin pp. 7–8 (Eijkman & Stapel 1924; Duinen 1918). No labour numbers added (1,000/1,500 dispute stays out).
+- slide 4: ultimatum via Du Puy with deadline 15 Nov; Sultan accepted part (an envoy, trying to find workers) but refused to leave the keraton and graves; Daendels insisted on all demands — Arifin p. 8 (Verwey 1905)
+- slide 5: letter mentions fertile Banten land incl. Tangerang for expanding rice; Arifin's reading that control of Banten also secured Batavia — Arifin pp. 9–10
+- slide 6: Du Puy came in the afternoon with a lieutenant and 14 soldiers; killed in the palace; Daendels lists five others killed incl. Lt Rohl — Arifin p. 9 (Verwey 1905; Daendels 1814)
+- slide 7: Wargadireja accused as instigator, tried by a Dutch military commission (manner of death still left out); crown prince made sultan, agreement of 27 Nov 1808 put all government under Dutch command (names left out) — Arifin pp. 10, 12 (Van der Kemp 1920)
+- slide 8: Daendels' sultan deposed 7 May 1809; 22 Aug 1810 lowlands under direct Dutch rule, sultan left with the interior — Arifin p. 13
+- slide 9: gradual destruction from 1808 (DJKN 2025, already cited); Arifin's point that sultanate buildings were seen as able to spark resistance — Arifin p. 13
+- new sources: none
+- not added (per the deck's "Left out" list): "Aku jadi Sultan!", Wargadireja shot/thrown into the sea, labourer numbers, sultans' names.
+
+### sejarah-bengkulu-ditukar-id
+Treaty = Anglo-Dutch Treaty of London, 17 Mar 1824, full text (en.wikisource "Anglo-Dutch Treaty of 1824", read). JP = The Jakarta Post, "Traces of British colonization in Bengkulu", 4 Jul 2014 (full text read).
+- slide 2: Art. 9 also bars any new British settlement or treaty in Sumatra; Art. 10 Dutch promise not to form any establishment on the Malay Peninsula — Treaty Arts. 9–10
+- slide 3: Art. 12 (Dutch withdraw objections to Singapore; no British settlement on Karimun, Batam, Bintan, Lingga or islands south of the Singapore Strait); Art. 11 (Belitung) — Treaty Arts. 11–12
+- slide 4: Fort York finished two years after 1685, 30 cannon; site in 2014 occupied by a primary school, government office and homes — JP
+- slide 5: Collet as EIC deputy governor; named after the Duke of Marlborough; 44,000 m², said to be the largest EIC fort in SE Asia; south gate with 13 m drawbridge over the moat — JP (JP says "finished five years later" than 1712; the slide keeps the 1712–1719 range)
+- slide 6: Robert Hamilton monument near Pantai Panjang, killed 1793 — JP
+- slide 7: the four children were Raffles's with his second wife Sophia Hull, in the British Cemetery near the fort; the governor's office was used by Raffles — JP
+- slide 8: fortifications handed over as they were (Art. 13); six years for inhabitants to dispose of property and move (Art. 14) — Treaty
+- slide 9: Kampong Bencoolen spanned Albert, Prinsep, Bencoolen, Waterloo Streets and Middle Road — Roots.gov.sg (National Heritage Board), "Forgotten Histories"; also NLB Infopedia SIP_174 (read via search excerpt only; the page is JS-rendered)
+- new sources: none (Treaty text, JP, Roots.gov.sg, Infopedia already in caption)
+- note: JP says Bengkulu was swapped "for Singapore"; the deck keeps the treaty's wording (Malacca).
+
+### sejarah-berouw-telukbetung-id
+Verbeek = R.D.M. Verbeek, Krakatau (French ed., 1885–86), archive.org krakatau00verbgoog OCR text, pp. 52–59 read. JP = The Jakarta Post, "Krakatau eruption remembered at Dipangga Park", 11 Mar 2014 (full text read).
+- slide 2: found "behind a fold" of the Kuripan valley; 2,600 m from the point in the Chinese quarter where it was thrown that morning — Verbeek p. 58
+- slide 3: HEADLINE CHANGED from "gelombang pertama" to "gelombang besar": Verbeek p. 56 says the first wave came at 6 p.m. on 26 Aug and flooded the jetty; the 06.30 wave also razed kampung Kankoeng (Kangkung) — Verbeek pp. 56–57
+- slide 4: darkness described as "plus noire que la plus noire nuit"; Residence on a hill 24 m above sea; water reached 22 m and stopped 30 m short — Verbeek pp. 55, 57–58
+- slide 5: only the Residence and fort on the hill, the prison and cemetery spared; salt ship Marie survived afloat in deep water — Verbeek pp. 55, 58
+- slide 6: the Ketimbang controller and family fled at night to the slopes of Rajabasa; next morning Ketimbang was gone; burning ash around noon — Verbeek pp. 53–54 (controller's name left out: OCR unclear)
+- slide 7: wave averaged 24 m from Varkenshoek to Teluk Betung; Kalianda totally devastated — Verbeek p. 55
+- slide 8: pumice from Teluk Betung to Gebang; supplies from Batavia landed at Ratai bay and carried overland; "end of October" — Verbeek pp. 58–59
+- slide 9: buoy found on the hill slope west of the cemetery (Verbeek p. 58); monument 2 m high, red light on top, inaugurated 1981 — JP 2014
+- new sources: none
+
+### sejarah-bongaya-id
+Sagimun = Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud 1975), id.wikisource Bab 3 and Bab 4 (read; Bab 3 includes his summary of the treaty's 30 articles).
+- slide 2: treaty signed at Bungaya near Barombong; 250,000 ringgit over five years (Art. 29); 1,000 male and female slaves (Art. 13) — card 1 now answers the cover directly — Sagimun Bab 3, treaty Arts. 13, 29, 30
+- slide 3: 12 Jun 1660 feint toward Somba Opu drew most defenders out of Pannakukang; troops hidden in boats under sails landed — Sagimun Bab 3
+- slide 4: escape timed with the harvest feast in Tallo (Sept 1660); three years in Buton under its sultan's protection; 1663 to Batavia with ~400 followers — Sagimun Bab 3
+- slide 5: Speelman left Batavia 24 Nov 1666; open war from 21 Dec 1666 (red flag); Bantaeng, Gowa's food store, burned — Sagimun Bab 3
+- slide 6: ~15,000 Gowa troops under Karaeng Bontomarannu besieging Buton; ~400 sold as slaves; the island now called Pulau Makassar — Sagimun Bab 3
+- slide 7: Karaeng Tallo and Karaeng Lengkese, who signed only in March 1668, rejoined Gowa — Sagimun Bab 4
+- slide 8: breach of five roede (~19 m) by mine; fighting 15–24 June 1669 — Sagimun Bab 4. SOURCES DISAGREE on Anak Makassar: the deck's earlier line (defenders blew it up) vs Sagimun (captured damaged among 272 cannon, part taken to Batavia, citing Speelman's biography p. 58); slide now gives both.
+- slide 9: Art. 18 obliged Gowa to free Bugis captives incl. Datu Soppeng La Tenribali — Sagimun Bab 3, treaty Art. 18
+- new sources: none (Sagimun already in caption)
+- doubt: the "pembela meledakkan" version comes from the deck's earlier sources (Andaya/Palallo, not re-checked here).
+
+### sejarah-bri-purwokerto-id
+Loc1898 = De Locomotief, 5 Feb 1898, "Persoverzicht. Credietbanken voor Inlanders" (summary of De Wolff van Westerrode's article), Delpher OCR via resolver.kb.nl urn ddd:010299338:mpeg21:a0046 (read). NC1909 = De Nieuwe Courant, 13 Apr 1909, "Koloniën … De vader van het landbouwkrediet" (citing Bataviaasch Nieuwsblad), urn MMKB15:000773020:mpeg21:a00004 (read). BRI AR2023 = BRI Annual Report 2023, company history p. 12 (ir-bri.com flipbook).
+- slide 2: native officials chronically short of money; moneylenders charged up to 120% a year — Loc1898
+- slide 3: over 40 years of loyal, honest service; "een merkwaardig en zeer verdienstelijk man" (rendered "istimewa dan sangat berjasa") — NC1909
+- slide 4: on European leave he heard about Raiffeisen credit cooperatives (congress talk by A.W. Slotemaker); his ideal of every desa as a mutual credit association; reorganised the bank on return — Loc1898
+- slide 5: the bank helps any resident of Afdeling Purwokerto in money trouble, with security, for a useful purpose; anyone caught deceiving is refused credit — Loc1898
+- slide 6: NC1909 says Wirjaatmadja gave the first impulse ("den eersten stoot") while European officials' support was indispensable for founding and organisation
+- slide 8: retired patih, died at a very great age; banks across Java arose following Purwokerto's example; remember him beside De Wolff van Westerrode "niet alleen in Indië maar ook hier in Nederland" — NC1909
+- slide 9: Government Regulation No. 1 of 22 Feb 1946; listed on the Jakarta Stock Exchange 10 Nov 2003 — BRI AR2023
+- quote slide: unchanged (no note line)
+- new sources: none (all three already in caption)
+- not added (per the deck's "Left out"): 4,000 gulden mosque fund, moneylender anecdote, Kiai Redja Soepena (popular media only). Also left out: Loc1898 says Foreign Orientals were excluded from loans (sensitive, would need context).
+
+### sejarah-bubat-id
+- slide 2: 2017 note that Bandung/Bogor had no street named Majapahit, Hayam Wuruk or Gajah Mada; trimmed "Harmoni Budaya" phrase to keep hook ≤40 — S. Azmi, Ushuluna 3(1) 2017, p. 18–19 (doi 10.15408/ushuluna.v3i1.15187)
+- slide 3: envoy Madu named in both Pararaton and Kidung Sunda — Pararaton terj. (archive.org KitabPararaton, bab X, p. 49); Azmi 2017 p. 30 (Kidung Sunda, "utusan raja yang bernama Madu")
+- slide 4: Sunda side was willing to offer the princess but the nobles refused; Prabu Maharaja fell first — Pararaton terj. bab X, pp. 49–50
+- slide 6: Kidung Sunda is Middle Javanese; Gajah Mada's argument that other Nusantara rulers came with tribute — Azmi 2017 pp. 27–29 (quoting Kidung Sunda via Partini 1986)
+- slide 7: Carita Parahyangan is a late-16th-c. Sundanese lontar kept at Perpustakaan Nasional (kropak 406) — Azmi 2017 pp. 26–27 citing Ensiklopedi Sunda (2000)
+- slide 8: Atja & Danasasmita note 64: battle lasted one day, "mungkin 29 Agustus 1357" — Azmi 2017 p. 26 (Atja & Danasasmita 1981, p. 46)
+- slide 9: Kidung Sunda written ~3 centuries after the event; Berg's translation circulating around the 1930s — Azmi 2017 p. 18 (citing Partini 1986 and Pikiran Rakyat 4 Jan 2010)
+- quote, cover, end: unchanged
+- new sources: none new; the Azmi citation in the caption now gives the journal (Ushuluna 3(1) 2017)
+
+### sejarah-bulungan-id
+(All additions come from sources already listed in the caption and summarised in docs/deck-sources.md "sejarah-bulungan-id"; nothing from its "Left out" list was added.)
+- slide 2 (hook): night of 2 July visit; at 06.00 the Dandim, Mayor Sumina Husain, made the makar accusation — Tirto, I.N. Raditya, 22 Aug 2017 (citing Bilfaqih 2006, Magenda)
+- slide 3: founder Wira Amir (1731), 27 Sep 1834 agreement recognising the Dutch, Konvensi Malinau 7 Aug 1949, last sultan Djalaluddin d. 1958 — Rahmadi, Islam Kawasan Kalimantan (2020) pp. 34–35, 132–135; Mentari & Wisnu, Avatara 5(1) 2017; Sellato, Archipel 89 (2015)
+- slide 4: arms found in the sultan's former palace; 24 April order to arrest all Bulungan aristocrats — Magenda (1991) pp. 60–61 via Bond (2020) pp. 60–66
+- slide 5: other counts: 87 victims / 37 dead (Koran Kaltim 2013, via Tirto and Rahmadi); "puluhan bangsawan dan ratusan rakyat" (Datu Fajar's notes, via Bond 2020)
+- slide 6: residents ordered to help burn (Tirto 2017); Sellato's 18 July vs detik's Raja Muda palace 18 July / two-storey main palace 23–24 July — Sellato 2015 fig. 22; detikKalimantan 30 Jun 2026
+- slide 7: "Bultiken" was the Dandim's name for the alleged movement; origin of the name and whether the organisation existed are disputed — detik 2026; Bond 2020
+- slide 8: relatives took Malaysian citizenship (Rahmadi; Tirto); Datu Fajar named, mid-May 1965 (Bond 2020); heir lived 50+ years in Tawau (Liputan6, 9 Mar 2017)
+- slide 9: replica smaller than the original, run by the regency, holds salvaged objects — Sellato 2015 fig. 23; detik 2026
+- cover, end: unchanged
+- new sources: none
+
+### sejarah-ende-pancasila-id
+Main source: Samingan & Roe, "Kajian Pemikiran Soekarno di Ende 1934–1938", Sejarah dan Budaya 14(2) 2020, pp. 98–107 (full text, journal2.um.ac.id article 9697).
+- slide 2 (hook): usually every Friday night (malam Jumat); replacement planted at the same spot; known as "pohon Pancasila" since the 1980s — Samingan & Roe pp. 103–104 (citing Muskens 1973)
+- slide 4: ship KPM van Riebeek; tutor Pranoto; house of Haji Abdullah Ambuwaru in Kampung Ambugaga — Samingan & Roe p. 102 (citing Daras 2014)
+- slide 5: officials and traders avoided him at first out of fear of the Dutch; coconut pickers; the friends' question about majority-Catholic Flores in a majority-Muslim state (paraphrased) — Samingan & Roe pp. 102, 105 (citing Dhakidae 2013)
+- slide 6: play titles (Rahasia Kelimutu, Dr. Setan, Indonesia 45); Immaculata parish hall; left Ende on the night of 18 Oct 1938 — Samingan & Roe pp. 103–105 (citing Daras 2014)
+- slide 7: Keppres 24/2016 named; 2022 ceremony led by President Joko Widodo at Lapangan Pancasila Ende, "pertama kali dilaksanakan di luar Gedung Pancasila, Jakarta" — Setkab, 1 Jun 2022 (https://setkab.go.id/presiden-pimpin-upacara-peringatan-hari-lahir-pancasila-di-ende-ntt/)
+- slide 8: 1950 visit to Ende where he affirmed the breadfruit tree as the place — Samingan & Roe p. 106 (citing Batmomolin 2001)
+- quote, cover, end: unchanged
+- new sources: none (both already in the caption)
+- note: the journal says the family sailed in February 1934; other sources give 14 Jan 1934 as arrival. No month was put on the slide.
+
+### sejarah-fort-rotterdam-id
+- slide 2 (hook): his exile quarters were "two miserable, hot rooms" (Fort New Amsterdam, then Fort Rotterdam) — Memory of the World nomination "Babad Diponegoro" (UNESCO 2012-49, Indonesia & Netherlands, drafted by P. Carey), §4.2, via https://mow.anri.go.id/ (citing Wassing-Visser 1995:246)
+- slide 3: Bongaya date 18 Nov 1667 — Sagimun M.D., Sultan Hasanudin Menentang VOC (Depdikbud 1975), Bab 4 (id.wikisource); bastion names Bone, Bacan, Amboina, Mandarsyah, Buton — Unhas thesis F061211045 (repository.unhas.ac.id/51562), p. 13 citing M. Ramli dkk., Bangunan Bersejarah di Kota Makassar; other Gowa forts razed, only Ujung Pandang left — Sagimun 1975 Bab 4
+- slide 4: Speelman used it as residence/garrison and asked Arung Palakka to live nearby at Bontoala; the Dutch governor's tasks (rice, tithes, watching the kings, keeping Bone and Gowa apart) — Sagimun 1975 Bab 4, quoting Keyzer, Oud en Nieuw Oost-Indiën III (1862) pp. 118–119
+- slide 5: via Semarang and Batavia, corvette Pollux to Manado May–June 1830 — MoW nomination §3.2 (4 May–10 June 1830); Carey, Destiny (2014) list of maps
+- slide 6: written 20 May 1831–5 Feb 1832, from memory, with a Javanese scribe, macapat, ~1,150 pages; original lost, 1860s pégon copy at Perpustakaan Nasional; MoW 2013 — MoW nomination §3.2.1, §4.3
+- slide 7: Prince Hendrik's visit to the fort in March 1837, "full of fire" — MoW nomination §4.2 (citing Wassing-Visser 1995:245); Gramedia listing of Carey, Percakapan dengan Diponegoro (Fort Rotterdam 1837)
+- slide 8: 1970s large restoration; inaugurated 1977 as office of Balai Pelestarian Peninggalan Purbakala Makassar — Unhas thesis F061211045, p. 16
+- slide 9: SK Mendikbud No. 025/M/2014 of 17 Jan 2014 signed by Mohammad Nuh; listed as monument in 1940 (Monumenten Ordonnantie Stbl. 1931 No. 238) — Unhas thesis F061211045, pp. 1, 7
+- cover, end: unchanged
+- new sources: MoW nomination file "Babad Diponegoro" (UNESCO 2012-49, via ANRI) added to the caption; Sagimun 1975 and the Unhas thesis were already listed
+- note: the MoW file says Diponegoro died "in Fort Rotterdam"; the slide keeps "wafat di Makassar". The founding year (1545 vs 1630s) is still left out.
+
+### sejarah-geger-cilegon-id
+- slide 2 (hook): on 8 July the white-clad groups gathered at H. Ishak's house in Desa Saneja; attack on Monday 9 July — Siregar, Buletin Al-Turas 23(1) 2017, p. 66 (zenodo.org/records/556933)
+- slide 3: unchanged (no further sourced detail; De Locomotief on Delpher and Sartono's book on OAPEN could not be reached)
+- slide 4: unchanged (same reason)
+- slide 5: Dutch relief reached European victims faster than local people — Tantri, Jurnal Masyarakat dan Budaya 16(1), pp. 191–214, full text (ejournal.brin.go.id/jmb/article/view/8709), p. ~205
+- slide 6: three months before, pencak silat training and weapon-making; witness Achmad's full list (boat tax, ban on worship at the mosque, loud prayer, tall minarets) — Siregar 2017 pp. 64–66 (citing Taufik Abdullah dkk. and Sartono 1984 pp. 474–477)
+- slide 7: pursuit led by Captain A.A. Veenhuyzen; Haji Usman and Haji Abdul Gani also killed on 30 July; two women among the exiles (Nyi Aminah and Nyi Rainah, not named on the slide) — Siregar 2017 p. 66
+- slide 9 (debate): the colonial government believed tarekat members were the main movers and hunted religious teachers — Siregar 2017 p. 66 (citing Suminto 1985 p. 67)
+- quote, cover, end: unchanged
+- new sources: none (Siregar and Tantri already in the caption)
+- note: Siregar gives 19 dead on the Dutch side, 30 dead on Ki Wasyid's side, and 42 haji among the 94 exiles; the deck keeps "puluhan" haji and leaves the tolls out, as docs/deck-sources.md says.
+
+### sejarah-geger-sepehi-id
+- slide 2 (hook): palace troops "outnumbered, outgunned, and outmaneuvered"; HB II and close family taken prisoner — Ardiyansyah & Meyer, Archipel 110 (2025) p. 337 (eprints.whiterose.ac.uk/id/eprint/236829)
+- slide 3: loot picked over by Raffles, Resident John Crawfurd and Colin Mackenzie; Serat Suryaraja (1774) among the few manuscripts left in the kraton — Archipel 110 pp. 337, 345–346 (the latter quoting the Diorama Arsip Jogja label, 2022)
+- slide 4: looting lasted "empat hari penuh"; princes and officials forced to hand over jewelled keris; ~800,000 Spanish dollars, wayang kulit and gamelan taken — Kompas TV, 10 Jul 2023, quoting P. Carey, Takdir (Kompas 2014). The women sentence kept as before (Antara Jogja, 4 Apr 2026)
+- slide 5: Daendels had forced HB II to hand power to the crown prince; Crawfurd Resident from Nov 1811; HB II built up forces with Pakubuwono IV — detikJogja, 10 Aug 2023 (d-6869421)
+- slide 6: Major William Thorn recorded ~17,000 soldiers and armed civilians defending behind the moat and walls — detikJogja 2023 (citing Thorn)
+- slide 7: under the contract with Crawfurd the British took Kedu, Jipang, Japan, Grobogan and Pacitan — detikJogja 2023
+- slide 8: unchanged (no stronger source found for what Diponegoro did in 1812; Carey's Historia article was blocked)
+- slide 9: HB X's view that digitisation keeps the kraton close to today's generation — Archipel 110 p. 351 (his symposium speech)
+- cover, end: unchanged
+- new sources: Kompas TV, 10 Jul 2023, citing Carey, Takdir — added to the caption
+- note: the Diorama Arsip Jogja label and Carey say "ribuan naskah"; Archipel says the library held "more than 150 manuscripts". The slide keeps "lebih dari 150".
+
+### sejarah-gorontalo-1942-id
+Main source: Hasanuddin, "Pendudukan Jepang di Gorontalo", Jurnal Esagenang (BPNB Manado) 12(22), Agustus 2013, pp. 78–90 (full text via Globethics repository; the journal title Esagenang is readable on this copy), citing Habibie dkk. (2004) and Yayasan 23 Januari 1942 (1981).
+- slide 2 (hook): flag reading "Indonesia Berparlemen" put on the Kantor Pos wall by U.H. Buluati; the field is in front of today's governor's residence; youths and students sang Indonesia Raya — Hasanuddin pp. 80–81
+- slide 4: Manado fell 11 Jan 1942; Dutch fled to Poso; burning at Pabean and Talumolo; nationalists, esp. Nani Wartabone, disappointed — Hasanuddin p. 80
+- slide 5: R.M. Kusno Dhanupojo's house in Kampung Ipilo; Kusno vice-chair, U.H. Buluati secretary; Jembatan Talumolo, irigasi Lomaya, Kantor Pos, fuel depot, guarded to stop further burning — Hasanuddin p. 80. Spelling changed from "Kusno Danupoyo" to the source's "Kusno Dhanupojo".
+- slide 6: police under Pendang Kalengkongan and Ardani Ali joined, with Chinese and Arab residents; Asisten Residen J. Korn, the kontrolir and the police chief among ~20 held — Hasanuddin p. 81
+- slide 8: Japanese commander Yamai; from March 1942 Merah Putih flew beside the Hinomaru and Indonesia Raya was sung with Kimigayo — Hasanuddin pp. 82–83
+- slide 9: takeover on 6 Jun 1942, he refused the Gunco Kaigi Gico (adviser) post; three jogugu died (Rasyid Monoarfa, Datau, Hippy, not named on the slide); released 6 Jun 1944 — Hasanuddin pp. 83, 88. The torture method is left out (no gore).
+- slide 10: Keppres No. 085/TK/2003 (Kemensetneg hero list, already in the caption); Hari Patriotik ke-84 in 2026 (Pemprov Gorontalo, in the caption); took over government from the Japanese on 15 Aug 1945 — Hasanuddin p. 88
+- quote, cover, end: unchanged
+- new sources: none (the caption's "BPNB Manado (2013)" could name the journal: Esagenang 12(22). Left as it is.)
+
+### sejarah-harta-lombok-id
+New main source: L.M.J. Boegheim, "Munten uit de Lombok-schat", Jaarboek voor Munt- en Penningkunde 83 (1996) pp. 111–140 (Koninklijk Nederlands Genootschap voor Munt- en Penningkunde; full text at jaarboekvoormuntenpenningkunde.nl/jaarboek/1996/1996g.pdf; built on the Rijks Munt archive, dossier 245, and Vanvugt 1994).
+- slide 2 (hook): much of it fire-damaged; whole treasure taken to Batavia and valued at 1–1.5 million guilders — Boegheim pp. 111–112
+- slide 3: Balinese rule over Lombok since c. 1740; the Sasak called in Dutch help — Boegheim p. 111; lontar collection itself partly formed through violence in Bali–Lombok power struggles — W.J. Sastrawan, BKI 181(1) 2025 (abstract, ANU research portal; already in the caption)
+- slide 4: the raja had offered submission and a war indemnity; reportedly 269,000 silver and 2,000 gold pieces paid on 24 Aug 1894 — Boegheim p. 111 (citing Vanvugt 1994, pp. 29, 31). Written as "menurut sumber Belanda".
+- slide 5: 18 Nov 1894 the Cakranegara palace shot into flames, stormed and taken; 2nd Lt Hendrikus Colijn (later Dutch PM) took part — Boegheim p. 112
+- slide 7: silver coins re-minted at the Utrecht Mint into small change for the Indies; proceeds ~ƒ661,000 vs operation cost ƒ2,656,917 — Boegheim pp. 112, 137
+- slide 8: 10 July 2023 handover at Museum Volkenkunde Leiden; Prof. Pieter ter Keurs: "typisch voorbeeld van roofbuit" (translated) — Universiteit Leiden news, July 2023 (universiteitleiden.nl/nieuws/2023/07/staat-geeft-roofkunst-terug-vertel-wel-het-complete-verhaal)
+- slide 9: unchanged (the CKC advice blg-1100344 and the Rijksmuseum page could not be fetched: 403/429)
+- quote, cover, end: unchanged
+- new sources: Boegheim 1996; Universiteit Leiden news July 2023 (both added to the caption)
+- doubts: Boegheim dates the first return to 1978; the deck keeps 1977 (Rijksoverheid/CKC). Boegheim's English summary says "700 kg silver", but his Dutch text says "ruim 7.000 kg"; the deck keeps 7.000. Casualty counts are still left out, as the notes say.
+
+### sejarah-kedukan-bukit-id
+- slide 2 (hook): SK number 57/UM/WK; the date is the day the party arrived and made the settlement — Zubir, Seno & Arios, Bunga Rampai Sejarah Sumatera Selatan (BPSNT Padang 2012) p. ~196 (number already recorded in docs/deck-sources.md); DHARMA edition lines 8–9
+- slide 3: opening "svasti śrī"; "paruh terang" (śukla-pakṣa); only the title Dapunta Hiyang, no personal name — A. Griffiths, DHARMA edition INSIDENK00159 (dharmalekha.info/texts/INSIDENK00159), lines 1–2
+- slide 4: "kośa duA ratus cāra di sāmvau" = provisions, two hundred, by boat; the "śa" of kośa is supplied by editors (Poerbatjaraka, Boechari) — DHARMA edition line 5–6 and apparatus
+- slide 5: Cœdès read "mata jap"; Griffiths: Krom's "Malayu" "cannot yet be definitively rejected" — DHARMA apparatus to line 7
+- slide 6: text after "vanuA" is lost on the stone — DHARMA edition line 9 and editor's note 9
+- slide 8: found 20 Nov 1920 (Zubir dkk. 2012); ten lines on a round river stone (Setianingsih, Berkala Arkeologi); Cœdès's edition 1930 (BEFEO 30) — DHARMA bibliography
+- slide 9: Chinese Shilifoshi and Arab Sribuza; Kern read the Kota Kapur inscription in 1913 as a king's name; Cœdès was 32 in 1918 — Manguin, JSS 113(2) 2025 pp. 149–151
+- slide 10: Indonesian–EFEO excavations 1989–1996; the 680s Old Malay inscriptions come only from Palembang and its surroundings — Manguin 2025 p. 159
+- quote, cover, end: unchanged
+- new sources: none (all already in the caption)
+- note: slide 10 no longer says "penggalian di sepanjang Musi"; it now gives Manguin's 1989–1996 excavations (Pusat Penelitian Arkeologi Nasional + EFEO), written as "Indonesia dan EFEO (Prancis)".
+
+### sejarah-kutai-id
+- slide 1 (cover): "berbulan-bulan ditahan" → "Sembilan bulan sebelumnya ... ditangkap" (kaltimkece "Mengapa Soehario Menangkap Sultan Parikesit?" says the Sultan was held 7 months from Aug 1964, so he may already have been released by 21 May 1965) — kaltimkece.id/historia/mengapa-soehario-menangkap-sultan-parikesit
+- slide 2: Soemitro's visit to the Tenggarong keraton on 20 May, regalia taken to Samarinda, relatives brought from detention made to watch — Muhammad Sarip, "Jejak Sejarah Dwifungsi Tentara di Kalimantan Timur 1959-1965", kaltimtoday.co, 23 Mar 2025
+- slide 3 (quote note): said at the press conference after the burning; fuller sentence quoted — same Sarip/kaltimtoday article
+- slide 4: Bupati Aji Raden Padmo named, held in Balikpapan; Harian Rakjat 25 Sep 1964 charge of insulting Sukarno — kaltimkece (Mengapa Soehario…); kaltimtoday (Sarip 2025)
+- slide 5: Salasilah Kutai finished 1849, kept in Berlin; founded c. 1300 at Jaitan Layar (Kutai Lama); capitals Jembayan then Tenggarong (no year for the move, per the old "left out" note); April 1844 burning, 11 Oct 1844 recognition — Sarip, Yupa 4(2) 2020 pp. 51, 55; Tirto, "Ingin Jadi Raja Kutai, Hidup James Murray Berakhir Nahas" (5 Jun 2017)
+- slide 6: 1888 coal concession, oil exploration permit to Menten, Mathilda well; 5% royalty — Tirto, "Aji Muhammad Sulaiman" (1 May 2018, citing Magenda 2010); Tirto, "Aji Parikesit" (16 Feb 2021, citing Magenda); kaltimkece "Sultan Parikesit, Raja Terkaya…"
+- slide 7: 23 Jan 1950 announcement at today's Lapangan Kinibalu (supports unitary state); handover 21 Jan 1960 to A.R. Padmo — kaltimkece "Lapangan Kinibalu, Kemenangan Kaum Republik…"; Afriandi & Ariyadi, Jurnal Reformasi 10(2) 2020 p. 133
+- slide 8: Moeis Hassan had the prosecutor seal the keraton; Rp64 juta compensation; now Museum Mulawarman — kaltimkece "Kembalinya Saksi Bisu…" (Fachrizal Muliawan, 17 Dec 2018); Tirto 2021
+- slide 9: death 22 Nov 1981; Syaukani's 1999 proposal; 22 Sep 2001 coronation as Sultan Aji Muhammad Salehuddin II — kaltimkece; Afriandi & Ariyadi 2020 p. 133–134
+- new sources: Sarip, kaltimtoday.co (23 Mar 2025); Tirto 2018 and 2021 (Matanasi, citing Magenda). Added to caption.
+- not used: Parikesit's age at death (92 per kaltimkece vs 86 per Tirto); golden sword "sold" (kaltimkece/Tempo) vs "kept in Museum Nasional" (kaltimkece 2018).
+
+### sejarah-lanfang-id
+All additions from Sugiri Kustedja, "Benarkah Ada 'Republik' Lanfang Kongsi di Kalimantan Barat?", Jurnal Sosioteknologi 15(2), Aug 2016, pp. 255–266 (PDF: journal-itb.org/sostek/volumes/2016/15/issues/2/sostek-sostek-2016-v15-i3-3cfa62ef.pdf).
+- slide 2: majority vote "tidak lazim pada masa itu", when the sultanates around were feudal — p. 255–256
+- slide 3: Luo first taught in Pontianak; took the Shanxin Jinhu mine of Zhang Acai; 108 probably modelled on the 108 heroes of Shuihu Zhuan — p. 260
+- slide 4: expansion from Sepata to Landak and the Sambas border, guard posts on the rivers — p. 261
+- slide 5: Jiayingzhou rule because Luo had been cheated by Huang Anba (from Zhenping); assistant at the zongting must come from Dapuxian — p. 262–263
+- slide 6: Liu Asheng ruled 1848–1876 and 1880–1884; appointed his own son when he stepped down for a time — p. 263–264, Table I
+- slide 7: members placed under colonial administration; Lanfang the last kongsi occupied by the Dutch — p. 255, 265
+- slide 8: kongsi resistance in West Kalimantan 1822–1824, 1850–1854, 1884–1885 — p. 255 (the Rijk shooting itself is unchanged; Delpher not re-read)
+- slide 9: Western "republic" itself only emerged late 18th c.; Yuan Bingling (2000): oath of brotherhood, full assembly in a hall as in Shuihu Zhuan — p. 265–266
+- new sources: none (Kustedja already in caption)
+
+### sejarah-lembah-bada-id
+- slide 2: spread of more than 3,000 years; Entovera, Wineki, Pokekea all in the Besoa/Behoa valley — Umar, Berkala Arkeologi 30(2) 2010 pp. 2, 7 (Entovera, Pokekea in Besoa); Mongabay 30 Jul 2019 (Wineki, Lembah Behoa)
+- slide 3: UNESCO file's wide range (began c. 3,000 years ago, lasted to c. 500 years ago) — whc.unesco.org/en/tentativelists/6826 (submitted 15 Apr 2025)
+- slide 4: largest kalamba up to 216 cm across, ~180 cm tall, mostly sandstone; bones and teeth in kalamba no. 38 burned — Umar 2010 pp. 3, 6
+- slide 5: 64 kalamba in Bada; stone mortars, dakon, dulang, pitted stones — Mongabay 30 Jul 2019 (BPCB Gorontalo data)
+- slide 6: Haris Sukendar's 1975 excavation in Bada: glass beads, iron adze, pottery — Umar 2010 p. 5
+- slide 7: the four DNA samples were female; undated because the bone couldn't be C-14 dated — Umar 2010 p. 7 (citing Sentausa 2003, Yuniawati 2008)
+- slide 8: 15 April 2025 entry on UNESCO Tentative List (Napu, Behoa, Bada, Palu) — UNESCO Tentative List 6826
+- new sources: UNESCO Tentative List 6826 (2025), added to caption. Umar 2010 was read in full (scanned pages).
+- not used: UNESCO's "largest statue c. 380 cm" (could be read as Palindo's height, which the deck left out on purpose); Umar's 2170 BP date (abstract puts it at Entovera, body at Pokekea).
+
+### sejarah-mandor-id
+All additions use facts already recorded in docs/deck-sources.md (Mandor section), from sources in the caption.
+- slide 2: Tokkeitai (navy military police); arrests until June incl. Sultan Sambas and the Mempawah ruler — Paijens 2025 pp. 53–57; Kompas 28 Jun 2020; Tirto 2021/2022
+- slide 3: Sultan Pontianak (74) and his sons Pangeran Adipati and Pangeran Agung among those killed — RRI Pontianak 16 Jun 2026 (Borneo Sinbun list via Syafaruddin Usman)
+- slide 4: two gold crowns seized (Jan 1944); suspicion of revolt after the Haga group was crushed in Banjarmasin 1943 — Tirto; Firmansyah dkk., Fajar Historia 6(1) 2022
+- slide 5: Borneo Sinbun 1 Jul 1944 printed 48 names — RRI Pontianak 2026
+- slide 6: Borneo Sinbun headline words "Sampai Ke Akar-akarnja" — Tirto (headline quoted in full there); Kompas
+- slide 7: many groups turned against the Japanese after the massacre — Paijens 2025; killings of Japanese soldiers attributed to Kalimantan (Kementerian Penerangan 1953) pp. 131–132
+- slide 8: graves near Mandor and Sungai Durian; tribunal Oct–Nov 1947; record and Borneo Sinbun used as exhibits at the Tokyo trial — Paijens; Tirto; IMTFE exhibit titles (Court Exh. 1696/1697, per deck-sources notes)
+- slide 9: provincial pilgrimages since 1973; ten mass graves — Kompas 2020; Antara Kalbar 28 Jun 2015
+- new sources: none
+- doubt: the IMTFE exhibit point rests on Commons exhibit titles (cover sheets only) as recorded in deck-sources; drop that sentence if you want only fully read sources.
+
+### sejarah-martabat-tujuh-id
+- slide 2: each kaomu family prepares candidates; siolimbona picks one with a good track record — La Ode Abdul Munafi dkk., "Pebula", ETNOSIA 5(1) 2020 p. 70 (journal.unhas.ac.id/index.php/etnosia/article/view/8559)
+- slide 3: the sultan does not swear; Bontona Baluwu swears him in: no nepotism, collusion, corruption (the article's own translation of the Wolio oath) — ETNOSIA 2020 p. 72
+- slide 4: Islam brought by Syaikh Abdul Wahid bin Sulaiman, an Arab preacher from Johor — ETNOSIA 2020 p. 69
+- slide 5: unchanged (no further sourced detail on the reasons beyond the three already on the slide)
+- slide 6: La Elangi ruled 1597–1631; Sapati La Singa announced it in front of the keraton mosque (oral tradition); 12 chapters incl. justice, finance, rights of the people — Hasaruddin, Jurnal Pendidikan Sejarah (LPPM Unidayan) 2017 p. ~143; ETNOSIA 2020 p. 71 (citing Addin dkk. 2011)
+- slide 7: the three kaomu lines descend from La Elangi and his cousins La Singa and La Bula — Hasaruddin 2017 p. ~145
+- slide 8: pebula covers embezzlement, bribery, extortion, profit by deceit — ETNOSIA 2020 p. 71
+- slide 9: six pre-Islamic rajas plus 37 sultans; La Ode / Wa Ode titles — ETNOSIA 2020 pp. 68–69
+- new sources: none
+
+### sejarah-muaro-jambi-id
+- slide 2: Dharmakirti's Durbodhaloka is one of the earliest extant works of SE Asian literature — Skilling, JSS 85 (1997) p. 188
+- slide 3: Atisha reached Western Tibet in 1042 and translated the Durbodhaloka there (with Rin chen bzang po, 1042–1045) — Skilling 1997 p. 188
+- slide 4: colophon: written in the city of Srivijaya, 10th regnal year of Cudamanivarman, before 1005; Chola inscriptions place that line in Kataha, hence Skilling's Kedah reading — Skilling 1997 pp. 188–190
+- slide 5: restoration by the central government only from 1975; Gumpung the first restored — UNESCO Tentative List 6827; The Jakarta Post 25 Nov 2014
+- slide 6: c. 7.5 km along the Batanghari; Kedaton the widest temple complex — Mongabay 12 Aug 2024; UNESCO 6827
+- slide 7: statue of white andesite; Gumpung well inscription 9th–10th c. (Bambang Budi Utomo) — The Jakarta Post 25 Nov 2014
+- slide 8: new file submitted 15 Apr 2025, 3,981 ha vs 2,062 ha in the 2009 entry (Ref. 5465) — UNESCO Tentative List 6827
+- slide 9: coal stockpiling in Muara Jambi village since 1989; one operator right next to Candi Teluk I — Mongabay 12 Aug 2024
+- new sources: none (all already in caption)
+- not used: Mongabay's "3,891 ha" (conflicts with UNESCO's 3,981); the JP's "80 menapo / 7 restored" (older count).
+
+### sejarah-nama-cirebon-id
+All from Atja, Carita Purwaka Caruban Nagari (1986), full text read (pustaka.taratsa.id scan), unless noted.
+- slide 2: Muara Jati port visited by ships from China, Arab lands, Persia, India, Malaka, Tumasik, Pasai, Palembang (per CPCN) — Atja p. 31
+- slide 3: author Pangeran Arya Carbon, nephew of Pangeran Wangsakerta; Gemeente Cheribon 1906 — Atja pp. 7–8
+- slide 4: the keraton's name Pakungwati; pakung = a kind of shrimp (Zoetmulder, Van der Tuuk) — Atja pp. 29–30
+- slide 5: residents call themselves "wong Grage" — Atja p. 29
+- slide 6: first kuwu Ki Gedeng Alang-alang, Walangsungsang's father-in-law; Walangsungsang the second kuwu (Pangeran Cakrabuwana) — Atja pp. 33–35
+- slide 7: lord called Lebe, vassal of Pate Rodim of Demak; Cherimon "heathen" about forty years earlier — Pires via Cortesão 1944 p. 183, quoted in Atja pp. 24, 44
+- slide 8: De Graaf & Pigeaud's three doubts (imitation Kawi, many AD years, aim of explaining the royal family) — Atja p. 13 quoting De Graaf & Pigeaud 1974/1985
+- slide 9: 1389 date came from tradition gathered by Pangeran Sulaeman Sulendraningrat (Caruban Larang); new Perda uses the babad alas event per CPCN — Atja p. 8; Perda Kota Cirebon No. 4/2024 (peraturan.bpk.go.id), considerations b–c
+- new sources: De Graaf & Pigeaud named in the caption (via Atja)
+- doubt: "pendirinya baru lahir 1423" (existing line, detikJabar) is not in the Perda text itself.
+
+### sejarah-nama-kota-kaltim-id
+- slide 2: Sultan of Kutai let Menten explore for oil; the forest around the Mathilda well grew into the city — Tirto, "Aji Muhammad Sulaiman: Sultan Kutai yang Ramah terhadap Belanda" (Matanasi, 1 May 2018, citing Magenda 2010)
+- slide 3: unchanged (Pemkot Balikpapan page unreachable; no stronger source for the plank legend)
+- slide 4: unchanged (Kayun Kuleng / Papan Ayun only in weak sources)
+- slide 5: Oemar Dachlan (Prima, April 1978): streets flooded at every high tide until the early 1950s; older residents said "Samarénda" — Sheilla & Sarip, Jurnal Riset Inossa 6(2) 2024 pp. ~7–8
+- slide 6: Bongaya signed 18 Nov 1667; the date matches the founding of the Samarinda municipal government, 21 Jan 1960 — Sarip & Nandini, Yupa 5(2) 2021 pp. 63–64
+- slide 7: Pemkot's 2004 book cites Eisenberger (1936) p. 9, but the name Mangkona is not in that book — Sarip & Nandini 2021 pp. 64–65 (attributed to Sarip on the slide)
+- slide 8: capital at Jembayan from 1732; Tenggarong the seat until 1960 — Sarip, Yupa 4(2) 2020 p. 55 (table)
+- slide 9: Tepian Pandan already home to the Kedang Lampong; alternative reading tangga (Lampong "place") + arung (Bugis "king") — Rifani, Jurnal Mahakam 1(1) 2012 (citing D. Adham 1999 and Bambang Suwondo 1984)
+- new sources: Tirto 2018 (added to caption). Rifani 2012 was already listed.
+- doubt: not added on purpose: Sarip's "the MKSKS authors fabricated data" wording and the La Maddukelleng anachronism argument; they sharpen the Bugis-founder debate (ethnic edge), so the slide keeps only the checkable citation point.
+
+### sejarah-nuku-tidore-id
+All from Muridan S. Widjojo, Cross-cultural alliance-making… (PhD, Leiden 2007), full text (scholarlypublications.universiteitleiden.nl/handle/1887/12311).
+- slide 2: that night three of the five fleeing kora-kora went back to join Nuku — p. 89
+- slide 3: Sultan also had to hand over an inventory of all jewellery, gold and silver (Corpus Diplomaticum VI 442–7) — p. 64
+- slide 4: charges: not eradicating spice trees, not preventing raids by Tidore's subjects — p. 62
+- slide 5 (quote note): per the letter, this refusal was the main reason Jamaludin was removed — p. 65
+- slide 6: Nuku's letter of 11 Nov 1781: the Company said the Sultan would be back from Batavia in three months — p. 65
+- slide 7: siege from 13 Mar 1797; the redoubt (a corporal and five soldiers) surrendered 21 Mar — pp. 88–89. Christian villages and the flagpole punishment still left out, as before.
+- slide 8: first attack 22 Jan 1801 refused Nuku's help and failed — p. ~93
+- slide 9: never visited the Dutch governor at Ternate, kept flying the English flag — p. ~103
+- slide 10: Katoppo and Adrian Lapian looked for the grave in the early 1960s; "Jou Barakati" = "the Blessed Lord"; Katoppo's book 1957; Maluku proposed him as national hero — pp. 10–11
+- new sources: none
+
+### sejarah-opu-daeng-risaju-id
+Main new reading: Kemdikbud, Sejarah Indonesia SMA/MA Kelas XII, edisi revisi 2018, pp. 42–44 (already in Sumber; full text read via the BSE e-paper https://epaper.myedisi.com/bse/62465/index_60.html). Al-Qalam (Amir & Azis 2022) and the Islah article were behind bot walls and could not be opened.
+- slide 2 (hook): pro-Dutch members of the Dewan Hadat tried her in an adat court and demanded exile (diselong); Opu Balirante refused — Kemdikbud p. 44. The "sources differ on who punished her" line is kept.
+- slide 3: parents Opu Daeng Mawellu and Muhammad Abdullah To Barengseng; taught herself Latin script; husband H. Muhammad Daud, an ulama who had lived in Mecca — Kemdikbud p. 42; Republika 10 Nov 2014
+- slide 4: introduced to PSII by H. Muhammad Yahya, trader long resident in Java and founder of PSII Parepare; branch officially founded 14 Jan 1930 at a mass meeting at Pasar Lama Palopo — Kemdikbud p. 43
+- slide 5: activity in Malangke (afdeling Masamba); controleur came to her house; more active after release — Kemdikbud p. 43
+- slide 6: Datu Andi Kambo's appeal (family/kingdom's dignity) and her reply "irislah dadaku dan keluarkanlah darah bangsawan itu dari dalam tubuhku" — Kemdikbud p. 42, citing Mustari Busra p. 133 (quoted exactly, as a fragment)
+- slide 7: inactive under the Japanese ban on political activity; mobilised Luwu youth against NICA in the revolution — Kemdikbud p. 44
+- slide 8: captured in hiding; walked to Watampone; one month in Bone prison without trial, then Sengkang and Bajo; deaf for life — Kemdikbud p. 44 (torture details still left out)
+- slide 9: moved to Parepare after 1949 to follow son Haji Abdul Kadir Daud; inactive in PSII from 1950, only an elder — Kemdikbud p. 44
+- cover, end: unchanged
+- new sources: none (Kemdikbud already listed)
+- doubts: the textbook's opening paragraph says "penjara selama 3 bulan" while its body says 13 months (first sentence) and 14 months (1934); slides keep 13 and 14. The textbook says the walk was 40 km; left off the slide because Palopo–Watampone is far longer and the starting point is unclear.
+
+### sejarah-penyengat-id
+- slide 2 (hook): Engku Puteri died 1844, tomb on Penyengat — Abubakar, "Herstory between borders", New Mandala (2026) (1774–1844, tomb); Ramelan dkk., Amerta 35(1) 2017 (Makam Engku Putri Hamidah among the island's sites)
+- slide 3: Lingga the royal seat since 1788 — Joraimi, "Mother Island", BiblioAsia 17(4) 2022 (web version); surviving sites: Istana Raja Ali YDM VIII, Gudang Mesiu, Benteng Bukit Kursi — Ramelan dkk., Amerta 2017 p. 63
+- slide 4: Sultan Mahmud's death 1811 and the decade-long succession crisis; Dutch wanted the Cogan for their favoured sultan — New Mandala (2026)
+- slide 5: old mosque a simple wooden building; distant residents donated food incl. eggs, origin of the egg-white story (still marked disputed) — Olisstiowati dkk., JOM FKIP Unri 6(1) 2019 pp. 4–5 (citing Disbudpar Tanjungpinang 2006)
+- slide 6: written at age 38 (Sulukindo, Undip); later published in Batavia by Elisa Netscher in Arabic script with Dutch translation (Sulukindo gives 1854; a Jambi conference paper gives 1853, so no year on the slide)
+- slide 8: Bustan al-Katibin lithographed in Riau 1875 and used in schools in Johor and Singapore (von de Wall); Kitab Pengetahuan Bahasa worked on from 1857 until his death in 1873 — Palawa, Al-Fikra 10(1) 2011 pp. 2, 6
+- slide 9: 1824 Anglo-Dutch treaty put Riau-Lingga in the Dutch sphere (New Mandala; BiblioAsia); Sultan Abdul Rahman Mu'azzam Syah II deposed 1911 after refusing the treaty, lived in exile in Singapore until his death in 1930 — BiblioAsia 2022
+- cover, quote, end: unchanged
+- new sources: none (all already in the caption)
+- dropped: the 1761–1812 / 1801 / 1803 mosque-start dates and the "13 steps = rukun salat" symbolism in Olisstiowati (inconsistent within the paper); handwritten Qur'an by Abdurrahman Stambul (student paper only).
+
+### sejarah-puputan-badung-id
+All additions from Helen Creese, "A Puputan Tale", Indonesia 82 (2006) (already in Sumber), read in full (eCommons PDF).
+- slide 2 (hook): tirta pengentas sprinkled the night before, "usually only sprinkled on those who have died" — Creese pp. 25–26 (Putri Kapandyan family account + note 68)
+- slide 3: gold coins handed out that morning by the puri treasurer (Saunggaling) and blessed with the Cokorda.s prayer, labelled "menurut kisah keluarga puri" — Creese pp. 26–27
+- slide 4: Kwee Tek Tjiang from Banjarmasin; 3,000 ringgit = Dfl 7,500; Dutch charged it to the Badung king; Sanur people saved many of the crew; oath at Pura Tambang Badung — Creese p. 2 (intro) and p. 14 + n. 41
+- slide 5: Dutch blockade after refusal; ultimatum 17 July 1906; on 16 Sept the force moved from Sanur via Intaran and Renon, fighting at Renon — Creese p. 2, n. on p. 21 (van Weede), p. 18 (family account)
+- slide 6: van Weede: cremation fire visible from the Dutch bivouac at Sanur (Creese n. 65, van Weede p. 462); pinch of ashes in the Cokorda's red head cloth (Creese p. 25 + n. 66, also Agung, "Lintasan Babad Badung")
+- slide 7: Djlantik accompanied the expedition as interpreter; Bhuwanawinasa by Pedanda Ngurah, figure credited to "the Tuan Besar" (Canto 8.4) — Creese n. 2
+- slide 8: Tabanan as Badung's main ally; exile to Lombok as the threat; Dewa Agung of Klungkung as titular overlord of the Balinese kingdoms — Creese n. 48, n. 42
+- slide 9: nine-year-old crown prince fled, exiled to Lombok, regent (bupati) of Badung in 1929 — Creese p. 19 + n. 49 (deck-sources had this as "cut for space", not disputed)
+- cover, quote/end: unchanged
+- new sources: none
+- note: Creese's family account also dates an ultimatum (by Liefrinck) to 12 Sept 1906; the slide keeps 17 July 1906 from Creese's own introduction.
+
+### sejarah-puputan-bayu-id
+All additions from S. Margana, Java's Last Frontier (Leiden 2007) (already in Sumber), chapters 3–5 downloaded from the Leiden repository and read.
+- slide 2 (hook): Van Schaar led the 150 to Songgon; attackers fewer in number; firearms captured — ch. 4, pp. 132–133 (VOC 3664, Schophoff to Heinrich 15 Apr 1772). Van Schaar's mutilation deliberately left out (no gore).
+- slide 3: "end of March 1767" flag raised in the capital; Wilis's revolt and exile to Banda (1768); 1771 First Regent Kartanagara, brother of the Regent of Surabaya Jayanagara — ch. 3 (opening section, VOC 3215); ch. 4 pp. 130–131
+- slide 4: promise of a better life; trader Solong saw his whole village move to Bayu; both regents' force driven back — ch. 4 pp. 131–132 (Babad Bayu; Residents' letter 2 Aug 1771)
+- slide 5: captured envoy Si Lakar: ~2,000 left in Bayu, two-thirds women and children; Jagapati wounded and died 11 June 1772 — ch. 4 pp. 136–137 (VOC 3364, Heinrich 12 June 1772)
+- slide 6: 3,665 warriors (plus 1,283 batur) from Madura and East Java arrived by 23 June; three-pronged approach; Heinrich: four of his men wounded, forty killed on the other side; captives killed — ch. 4 pp. 139–140
+- slide 7: < 3,000 = 8.3% of the pre-occupation population; many fled to Nusa Barong, Bali, Central Java — ch. 5 pp. 174–175
+- slide 8: Ulupampang epidemic killed thousands incl. Europeans; Banyuwangi an uninhabited area on the Kali Buntu; workers from Gresik, Sedayu, Lamongan, Pamekasan, Surabaya; Resident Schophoff and Regent Wiraguna moved 21 Oct 1774 — ch. 5 pp. 165–168
+- slide 9: Margana's two explanations for the 18 Dec choice — ch. 5 p. 164
+- cover, end: unchanged
+- new sources: none
+- notes: "disentri" was already on slide 5 (Margana ch. 5 mentions dysentery). Margana says the local government approved 18 Dec "in 1998"; the slide keeps its existing *1995* headline (Antara: DPRD session 9 May 1995), the split already logged in deck-sources as left out. Van Schaar's mutilation (ch. 4 p. 133) deliberately not used.
+
+### sejarah-revolusi-sosial-sumtim-id
+- slide 2 (hook): arrested in Binjai; night of 19 March moved with 26 Langkat nobles to a tobacco warehouse at Kuala Begumit; killed the next day — Antara, Asro Kamal Rokan 19 Dec 2025 (citing Lah Husny 1978) (already in Sumber). Manner of killing and killer's name still left out (no-gore / single source).
+- slide 3: concessions included land worked by the people without their consent; royalties: Deli from tobacco firms, Langkat from BPM oil — Said, Indonesia 15 (1973) pp. 145ff (read in full)
+- slide 4: Japanese revoked noble privileges; sultans formed committees to welcome the Dutch back; laskar names Pesindo, Napindo, Sabilillah — Maulimardewa dkk., JOM FKIP UNRI (citing Depdikbud Sejarah Daerah Riau, Sjahnan 1982, Sinuhaji/Reid)
+- slide 5: "pelopor Pujangga Baru", Republic representative = setara bupati (Antara 2025); Saleh Umar named, "one of the strong men of East Sumatra", "two offices mutually contradictory" (Said 1973)
+- slide 6: crowd gathered from the morning on a rumour of a Dutch landing; small TRI unit could not hold it; palace became Pesindo HQ — JOM FKIP UNRI via Sinuhaji/Reid
+- slide 7: Sultan of Langkat's Maybach later used publicly by PKI leader Abdul Karim Ms. (Said 1973); Serdang covered by TRI and handed over power (UNRI via Sinuhaji/Reid)
+- slide 8: "hundreds arrested"; Dutch troops freed the interned sultans of Langkat, Serdang and Asahan in the July–Aug 1947 offensive — van Langenberg, Indonesia 33 (1982) pp. 2, 6
+- slide 9: Amir Sjarifuddin's April 1946 visit (Kemenpen 1953, p. 117); Saleh Umar detained partly because seized "feudal" jewels were in his hands, released without trial, case dideponeerd — Said 1973
+- slide 10: reburial a year after the 1948 discovery (Antara 2025); Keppres 106/TK/1975 (Setneg list); Masjid Azizi as the Langkat sultanate mosque (deck-sources note, Antara Sumut)
+- cover, end: unchanged
+- new sources: none (all already in the caption)
+- doubt: Said says the Sultan of Langkat sheltered in Pematang Siantar; van Langenberg says he was interned until freed by the Dutch in 1947. Slide 8 follows van Langenberg (stronger, explicit). The Maybach line spells the name "Abdul Xarim M.S." as the earlier deck notes chose.
+
+### sejarah-rumphius-ambon-id
+Sources re-read: van Andel, Mazumdar, Barth & Veldkamp, Blumea 63(1) 2018: 11–19 (full text, Naturalis repository); Naturalis/Nationaal Herbarium, Cyclopaedia of Malesian Collectors, "Rumpf, Georg Everhard" (full page); Pranantyo & Cummins, PAGEOPH 177 (2020, online Dec 2019) — abstract only (full text blocked).
+- slide 2 (hook): copies of important papers were customarily made in Batavia because ships often foundered (Blumea p. 11); Governor-General Camphuys had the copy made beforehand (Cyclopaedia; Blumea p. 16)
+- slide 3: three years in Portugal after his ship fell to the Portuguese; enlisted with the VOC 1652; Ambon 1653; merchant (onderkoopman 1657, koopman 1662) — Cyclopaedia
+- slide 4: "incurably blind"; almost 1,300 species with illustrated descriptions and uses (Blumea p. 11); Amboinsche Rariteitkamer, Amsterdam 1705 (Cyclopaedia)
+- slide 5: extreme run-up on Ambon's north coast; landslide offshore between Seith and Hila — Pranantyo & Cummins abstract
+- slide 6: earthquake-triggered submarine landslide ~1 km³; nearby faults (Seram megathrust, South Seram thrust, Ambon faults) insufficient — Pranantyo & Cummins abstract
+- slide 7: Paul Hermann, Paradisus Batavus (1698), received a drawing of Flos susannae from Batavia — Blumea p. 16
+- slide 8: Rumphian specimens bought 1682 by Grand Duke Cosimo III de' Medici; in Florence later mixed up and labels lost — Cyclopaedia (citing Martelli 1902/1903)
+- slide 9: Burman, director of the Amsterdam Botanic Garden, translated into Latin, six large volumes (12 books + addendum); four possible Rumphius specimens found in Hermann's herbarium in Leiden — Blumea pp. 11, 18
+- cover, end: unchanged
+- new sources: none (Naturalis Cyclopaedia, Blumea, Pranantyo & Cummins already in Sumber)
+- doubts: Imlek timing and wife + one daughter still rest on CNBC only (unchanged; Wikipedia says two daughters, some sources one). Birth year: Blumea 1627, Cyclopaedia "probably 1628", so "sekitar 43 tahun" stays.
+
+### sejarah-si-pitung-id
+Re-read the period papers myself via the KB/Delpher SRU + resolver (OCR text): Bataviaasch Nieuwsblad 8 and 9 Aug 1892, 20 Dec 1892, 20 and 21 Apr 1893, 16 and 18 Oct 1893; Java-Bode 23 Feb and 16 Oct 1893; Bataviaasch Handelsblad 16 and 17 Oct 1893; De Telegraaf 17 Nov 1893 (reprint of Java-Bode). Plus The Jakarta Post 24 Nov 2017 (Rumah Si Pitung).
+- slide 2 (hook): a spy lured him to Tanah Abang (Java-Bode 16 Oct 1893: lured from Meester Cornelis with a proposed "amok-party"); at the stadsverband he said he would rather die than be taken to prison (Java-Bode 16 Oct 1893), died that evening ("te half acht")
+- slide 3: wounds differ: Bat. Nieuwsblad 16 Oct 1893 — Hinne shot him in the leg; Java-Bode 16 Oct 1893 — arm, chest, then an oppasser's bullet through the lower back
+- slide 4: the trap — a spy persuaded him to pay a fine for unlicensed firearms at the hoofddjaksa's office, where he was seized (Bat. Nieuwsblad 9 Aug 1892)
+- slide 5: execution not yet carried out (Bat. Nieuwsblad 20 Apr 1893); Dji-ie arrested at Depok; four guards arrested on suspicion of supplying tools (Bat. Nieuwsblad 21 Apr 1893)
+- slide 7: grave at Krokot (Krukut) guarded day and night by four piekeniers so it would not become keramat (Bat. Nieuwsblad 18 Oct 1893) — NEW date added to the caption's Bataviaasch Nieuwsblad list
+- slide 8: Jl. Kampung Marunda Pulo, Cilincing; wooden stilt house; most popular of the three museums under the Maritime Museum (The Jakarta Post 24 Nov 2017)
+- slide 9: six people from Meester Cornelis recognised Pitung as leader of the robbery at "den hadjie Sapioedin van kampong Maroenda" (Bat. Nieuwsblad 8 and 9 Aug 1892); vonis for that robbery (Bat. Nieuwsblad 20 Dec 1892; Java-Bode 23 Feb 1893)
+- cover, quote, end: unchanged
+- new sources: Bataviaasch Nieuwsblad 18 Oct 1893 (Delpher, resolver urn ddd:110618625:mpeg21:a0008)
+- notes: The Jakarta Post 2019 says he died "half past eight"; Java-Bode actually says "te half acht" (7:30 pm), so no hour on the slide. Not used: f125 found under his roof (BN 8 Aug 1892), the rumour he planned to flee to Mecca, the earlier failed escape foiled by the jailer's son (BN 21 Apr 1893), Hinne's Order of the Netherlands Lion (BN 16 Oct 1893) — all sourced, cut for length; usable in the pinned comment.
+
+### sejarah-soenting-melajoe-id
+Main source re-read in full: Herawati, Karlinah, Agustin & Sjafirah, "Women writers' profiles of Soenting Melajoe Newspaper (1912–1921)", Jurnal Kajian Komunikasi 10(2) 2022, pp. 171–184 (already in Sumber).
+- slide 2 (hook): researchers read 1,472 readable pages and counted 587 women writers; largest groups Kayu Tanam (23), Padang (19), Menggala Lampung (18); Sawahlunto, Bengkulu, Palembang, Lubuk Pakam in Table 2 — pp. 174–176. Johor and Egypt kept from Chaniago, Kafa'ah 4(1) 2014 (per deck-sources).
+- slide 3: father a prosecutor's clerk; Adiesa, the prosecutor's wife with no children of her own; mother died 1897, return to Koto Gadang; class for girls while still a teenager — p. 177
+- slide 4: married her cousin Abdul Kudus (Pamuncak Sutan) in 1908; growing output of weaving/lace led to KAS 1911 with 60 members; cooking added to the subjects — p. 177
+- slide 5: Datuk Sutan Maharadja was chief editor of Oetoesan Melajoe and knew of Amai Setia; "whoever offered which one", they decided together — pp. 173, 177
+- slide 6: Zoebaidah resigned 17 Aug 1917, replaced by Sitti Nurmah; 26 Oct 1917 Amna (about 18, from Bengkulu) asked to be editor — p. 178
+- slide 7: Ruhina from Durian, Sawahlunto; Minangkabau was peaceful; the "war" was to bring women out of "darkness" (researchers' reading) — p. 173
+- slide 8: Poetri Hindia founded by Tirto Adhi Soerjo, patron the Regent of Karanganyar, aimed at high-priyayi wives and families, Dutch editor-in-chief — p. 173
+- slide 9: last issue year 10 no. 4; print strike Feb 1921; Roehana cousin of Agus Salim and (different mother) elder sister of Sutan Sjahrir; hero 8 Nov 2019 — pp. 174, 178
+- cover, end: unchanged
+- new sources: none
+
+### sejarah-solor-larantuka-id
+Hägerdal 2012 (OAPEN) could not be re-read: the OAPEN and MPDL hosts sit behind bot checks. New detail comes from the Atlas of Mutual Heritage (Nationaal Archief et al.), "Fort Henricus" / Solor pages (atlasofmutualheritage.nl/en/id/7090 and /6268, citing De Roever, De jacht op sandelhout), plus one line from a Hägerdal abstract.
+- slide 2: Larantuka in East Flores, the Portuguese base since they left Solor in 1613 — internal to the deck (slide 5, Hägerdal 2012)
+- slide 3: 1615, sandalwood trade judged unprofitable, Batavia decided to abandon the fort — AMH 7090
+- slide 4: Dominicans settled at Lohayong c. 1557, stockade 1561 — AMH 7090 (AMH says the stockade was against Makassar slave raiders; left out). "misionaris Dominikan" before António da Cruz shortened to the name.
+- slide 5: **sources disagree** — AMH says about a thousand people (mostly women and children) got safe conduct to Malacca; Hägerdal (on the slide) says 1,500+ to Larantuka. Both now on the slide.
+- slide 6: after the VOC left in 1657, Kaicili Pertawi's widow (AMH: "Injay Chili") wrote to GG Maetsuyker asking for arms against the Portuguese — AMH 7090. Spelled "Nyai Cili" on the slide (AMH's "Injay" = Nyai); owner may prefer AMH's spelling.
+- slide 7: 1620 garrison: 23 European soldiers, 80 Solorese of Kaicili Pertawi's family, 17 Chinese — AMH 7090
+- slide 8: 1628 Batavia ordered the fort dismantled and blown up so the Portuguese couldn't use it — AMH 7090
+- slide 9: Hornay and Da Costa families took turns leading the "black Portuguese", in Oecusse up to modern times — Hägerdal, "Colonial or indigenous rule? The black Portuguese of Timor in the 17th and 18th centuries" (2007, Leiden repository), read from the abstract only (full text also behind a bot check)
+- cover, end: unchanged
+- new sources: Atlas of Mutual Heritage "Fort Henricus"; Hägerdal 2007 (both added to caption)
+- note: AMH's own pages disagree on details (7090 says 1633 then 1623 for a Portuguese reoccupation; 6268 says abandoned 1616 and rebuilt Sep 1618), so only points that match across AMH pages and the deck were used.
+
+### sejarah-sultanah-aceh-id
+- slide 2: "Selama 59 tahun", all four of royal blood, first three ruled till death, fourth deposed 1699 — Khan, Harta Karun Doc 5 intro (ANRI 2013), p. 2–3; Mitrasing, review of Khan 2017, Kemanusiaan 25(1) 2018, p. 163 ("They were all of royal blood")
+- slide 3: Iskandar Thani a prince from Pahang, died 1641 aged 31, childless; widow = daughter of Iskandar Muda; ruled until her death 1675 — Khan, HK Doc 5 p. 2; Mitrasing 2018 p. 164
+- slide 4: Abdurrauf as qadi, Mir'at al-Thullab as guide for judges, initially reluctant after long study in Yemen, Mecca, Medina — Dzulkifli Hadi Imawan, "The Contribution of Shaikh Abdurrauf As-Singkili…", Millah 21(3) 2022, pp. 806–809 (citing Al-Sinkili ed. 2015, pp. xxxiv–xxxv)
+- slide 5: army not strengthened; Jacob de Roy (1690s) ~100 European ships a year; gold surpassed pepper after more gold found under Safiatuddin, mines forbidden to foreigners — Khan, HK Doc 5 p. 3
+- slide 6: Den Arent memorandum 1689: 4 great + 8 lesser orang kaya, meet twice a week at the queen's court, "the queen is queen only in name" — HK Doc 5, English translation pp. 13–14 (VOC Daghregister 2 Nov 1689)
+- slide 7: inland holy man said to have 20,000 followers whom the orang kaya obey when they disagree — HK Doc 5 translation p. 14
+- slide 8: Badr al-Alam ruled 1699–1702 — Khan HK Doc 5 p. 2; Abdurrauf died 1693 — Imawan, Millah 2022 p. 807
+- cover, end: unchanged
+- new sources: Mitrasing, Kemanusiaan 25(1) 2018; Imawan, Millah 21(3) 2022 (added to caption)
+
+### sejarah-syarif-kasim-id
+- slide 2: he had handed palace, land and wealth to the Republic — Wahyuni, Agustono & Warjio, Yupa 4(1) 2020, p. 45 ("menyerahkan semua hartanya … termasuk Istana Asserayah Hasyimiyah beserta tanah")
+- slide 3: born Siak 1 Dec 1893, son of Sultan Syarif Hasyim, schooled in Batavia (Instituut Beck en Volten) — Yupa 4(1) 2020, p. 43; DJKN Kemenkeu
+- slide 4: Madrasah Taufiqiyah Al-Hasyimiyah (boys), an HIS, Latifah School (girls); Tengku Maharatu as second consort — Yupa 4(1) 2020, p. 43; DJKN Kemenkeu ("Permaisuri Kedua Tengku Maharatu"). No "first in Riau" claim (dropped earlier, still dropped)
+- slide 5: hoped to use Japan against the Dutch; strict Japanese control of radio — Yupa 4(1) 2020, p. 41
+- slide 6: telegram "berdiri di belakang Bung Karno dan Bung Hatta"; formed KNI — Yupa 4(1) 2020, pp. 43–44
+- slide 7: DJKN says 10,000 guilders; Rp20,000 in Medan 1946 + promise to sell palace treasures; T.M. Hasan letter 19 Jan 1950 No. 649/AO on the Sultan's jewels — Yupa 4(1) 2020, p. 44; DJKN Kemenkeu article 14803
+- slide 8: Social Revolution March 1946 targeted nobility; escort by Divisi Rencong; RRI Kutaraja speech — Yupa 4(1) 2020, pp. 46–47
+- slide 9: lived in Jakarta, back to Siak 1960, died at Rumbai, grave beside Masjid Syahabuddin — DJKN Kemenkeu, "Mengenal Istana Siak Sri Indrapura" (kanwil-rsk article 14803)
+- slide 10: UIN Sultan Syarif Kasim Riau (name of the university); Istana Asseraiyah Hasyimiah built 1889 under his father, now a museum — DJKN Kemenkeu. Note: DJKN gives the hero title as 1997; the Keppres (Setneg) is 1998, the slide keeps the Keppres.
+- cover, end: unchanged
+- new sources: DJKN Kemenkeu (Kanwil Riau, Sumbar, Kepri), "Mengenal Istana Siak Sri Indrapura" (added to caption; the deck-sources notes already used it for the 10,000 guilders)
+
+### sejarah-tambora-id
+Main new source: T.S. Raffles, The History of Java (1817), vol. 1, introduction, account of the Tomboro eruption (Project Gutenberg #49843), which reprints Assey's narrative and Lt. Owen Phillips' report from Bima with the Raja of Sanggar's eyewitness account. (De Jong Boers 1995 could not be re-read: Cornell eCommons blocks automated download, so nothing new was taken from it.)
+- slide 2: Raja of Sanggar: "not fewer than twelve thousand individuals in Tomboro and Pekáté", "only five or six survive" → "hanya segelintir yang selamat" — Raffles 1817 (Phillips report)
+- slide 3: Tambora words one/two/three = seena, kálae, nih — Raffles 1817, vol. 2, "Comparative vocabulary of the Bugis … Sembáwa, Tembóra, and Endé languages"
+- slide 4: troops marched from Yogyakarta thinking a post was attacked; three columns of flame "united in the air" — Raffles 1817 (Assey narrative; Phillips report)
+- slide 5: Bo' Sangaji Kai edited by Henri Chambert-Loir & Siti Maryam R. Salahuddin (1999) — as recorded in docs/deck-sources.md (edition already used for the quote)
+- slide 6: Phillips saw corpses by the road and deserted villages in Dompu and Bima — Raffles 1817
+- slide 7: Raja of Sanggar told Phillips one of his own daughters died of hunger — Raffles 1817
+- slide 8: Phillips gave the Raja three coyang of rice in Raffles' name — Raffles 1817 (sentence reordered; the 1816 epidemic and Bali/Lombok facts unchanged)
+- slide 9: 2004 dig by URI (Sigurdsson) with Indonesia's Directorate of Volcanology, carbonised house with bronze bowls and ceramics — URI news release 27 Feb 2006 (already in caption); "dua abad setelah letusan" dropped for length. Human remains left out.
+- new sources: Raffles, The History of Java (1817) (added to caption)
+
+### sejarah-trunajaya-id
+Main source re-read: Pigeaud & de Graaf, Islamic States in Java 1500–1700 (1976, open access; read from the full-text copy), summaries IV (Mangku Rat I), V (Hurdt's expedition) and VI (Truna Jaya's death, de Graaf TBG 85, 1952) — already in the caption.
+- slide 2: "almost no fighting, but much fire-raising and plundering"; only the compounds of the Madurese and Cerbon princes (and Pangeran Purbaya's) spared — Pigeaud & de Graaf pp. 73–74 (summarising de Graaf, Mangku Rat I, part II, pp. 181–188)
+- slide 3: married a daughter of Raden Kajoran; Kajoran promoted the understanding with the crown prince — Pigeaud & de Graaf p. 68 (de Graaf pp. 46–51)
+- slide 4: pact with Karaeng Galesong sealed by intermarriage; title Panembahan Maduretna after 1676, supported by Sunan Giri — Pigeaud & de Graaf pp. 69–70 (de Graaf pp. 84, 110)
+- slide 5: Speelman stormed Surabaya after failed talks; Trunajaya unwilling to acknowledge Mataram suzerainty over Madura — Pigeaud & de Graaf p. 72 (de Graaf pp. 162–170)
+- slide 6: long inland route at Amangkurat II's urging; more than 800 ox-carts of food — Pigeaud & de Graaf pp. 78–79 (Hurdt journal, pp. 40–45)
+- slide 7: king's excuse that Trunajaya meant to murder him; Batavia gave it little credence but did not call him to account — Pigeaud & de Graaf pp. 83–84 (de Graaf 1952, p. 301)
+- slide 8: UTM a state university by Keppres 85/2001 (deck-sources notes); Bandara Trunojoyo inaugurated by President Joko Widodo 20 Apr 2022 — Setkab (en), "President Jokowi Inaugurates Trunojoyo Airport in E. Java", 20 Apr 2022. Still no claim about his hero status beyond the 2019 proposal.
+- slide 9: his letter urged Amangkurat II to break with the VOC and restore Majapahit — Pigeaud & de Graaf p. 83 (de Graaf 1952, p. 287); "kota-kota pesisir serta Plered" for the looting (pp. 69–71, 73)
+- cover, end: unchanged
+- new sources: Setkab 20 Apr 2022 (caption now "Setkab (2017, 2022)")
+
+### sejarah-tumbang-anoi-id
+All additions from Sumiatie, Arianti & Susanto, "Explorasi Nilai-Nilai Demokrasi pada Rapat Damai di Desa Tumbang Anoi Tahun 1894", Anterior Jurnal 21(2) 2022, pp. 13–19 (already in the caption), pp. 15–17:
+- slide 2: oath on 25 May 1894 by the adat heads to accept all decisions
+- slide 3: Dutch recognition of Dayak adat law and restoration of the rights of local traditional rule; disputes decided by the Rapat Adat Besar held during the meeting
+- slide 4: Potong Rotan ceremony (each end held by the hostile parties, then cut) — the article bases this on interviews with Damang Batu's descendants (Lalang, Tiong Batu), so the slide says "Menurut keturunan Damang Batu"; salt/ash symbolism and the animal sacrifices left out for length
+- slide 5: Dutch felt unsafe in the interior amid inter-group war; Resident Brus came with staff and soldiers to Kuala Kapuas
+- slide 6: meeting held at the house of Tamanggung Tungah, Damang Batu's grandfather, coordinated by Damang Batu with the Dutch (the PDF's two-column text is jumbled here; the reading "Tamanggung Tungah (kakek Damang Batu)" is confirmed by the search-engine extract of the same article)
+- slide 7: unchanged (no further sourced detail on the disputed numbers)
+- slide 8: similar meetings at Nyaring Uhing near Puruk Cahu and Tanjung Selor (1901), Sintang (1904)
+- slide 9: kayau and slavery no longer found after the meeting (attributed to Sumiatie dkk.)
+- new sources: none
+
+### sejarah-westerling-id
+- slide 2: the settlement covers executions at Suppa, Galung Lombok, Bulukumba, Parepare (early 1947) — Prakken d'Oliveira press release 9 Aug 2013. **Correction:** the apology was given at the Dutch embassy in Jakarta, not "di Sulawesi Selatan" as the slide said — Al Jazeera 12 Sep 2013 ("at a Jakarta ceremony", "at the Dutch embassy"); deck-sources.md already recorded Jakarta
+- slide 3: LAPRIS founded at Polongbangkeng 17 Jul 1946 — Wulandari, Attoriolong 24(1) 2026; GAPRI/KRIS Muda in Mandar, Monsees shot (Paramita 26(1) 2016, p. 99); Westhoff killed 16 Dec 1946 (Attoriolong)
+- slide 4: men separated from women and children; Batua, first operation, 35 executed (IJzereef 1984 p. 99) — Tirto, Matanasi 23 Jan 2019 (both in deck-sources notes)
+- slide 5: Galung Lombok on market day at Tinambung; people told to name "perampok", those who didn't were shot, incl. a member of the Majene adat council (Haji Muhammad Jusuf) and imams — Abd Rahman Hamid, Paramita 26(1) 2016, pp. 101–102 (citing ART/MRAD archives). Date kept as "awal Februari" (Paramita 1 Feb; other sources 2 Feb). The ~700 buried still left out.
+- slide 6: Kawilarang (1988): DST helped by an armed militia, Barisan Penjaga Kampung — Tirto, Matanasi 31 Jan 2019
+- slide 7: Kahar Muzakkar in Yogyakarta, Soekarno then used the figure in speeches — Paramita 26(1) 2016, p. 96 (citing Said dkk. 1979); 1,700 "not all Westerling's victims" — Tirto 31 Jan 2019. Makka's 1970 figure left out: Tirto's wording ("sulit menemukan jejak kematian lebih 3.000 jiwa") can be read either way.
+- slide 8: memoir Challenge to Terror (1953), 11 operations, ~600 dead; APRA attack dated 23 Jan 1950 — Tirto 31 Jan 2019; CNN Indonesia 13 Jul 2021
+- slide 9: the 2022 study also covers violence by Indonesian fighters — NOS 17 Feb 2022 / Universiteit Leiden news 17 Feb 2022
+- cover, end: unchanged
+- new sources: none (all already in the caption: Paramita, Attoriolong, Tirto, Prakken d'Oliveira, Al Jazeera, NOS)
+
+### sejarah-yupa-id
+- slide 2: yupa code D.2b; 20,000 reading is the one in Sejarah Nasional Indonesia II (2008, p. 39) — Muhammad Sarip, "Menelusuri riwayat derma 20 ribu sapi…", kaltimkece.id (quotes the SNI translation and the code D.2b)
+- slide 3: Pallawa as used in India in the 4th–5th c. (Poerbatjaraka 1975, via Kasnowihardjo, Berkala Arkeologi 26(1) 2006, p. 45); Brahmins brought from India (Vogel 1917/1918 pp. 185–197, via Sarip, Yupa 4(2) 2020, p. 53)
+- slide 4: Kern ~400, Damais 425, Wurjantoro mid-5th c. ~450 — Sarip, Yupa 4(2) 2020, p. 53
+- slide 5: Aswawarman named as founder of the dynasty (wangsakarta); SNI compares Kundunga with the Bugis name Kadungga — kaltimkece.id, "Melacak Kundunga…" (Sarip/kaltimkece, quoting Sejarah Nasional Indonesia II, 2010, pp. 36–38, and Boechari 2012)
+- slide 6: unchanged (no new sourced detail found on the 1879/1940 finds beyond what the slide says; the 1879 "Bukit Berubus" location stays out as before, and kaltimkece's "seven stones in 1879" conflicts with the 1879/1940 split)
+- slide 7: Mees (1935): the name Kutai only from the late 13th c., downstream on the Mahakam; Martapura conquered by Kutai Kertanegara 1635 — Sarip, Yupa 4(2) 2020, pp. 51, 57
+- slide 8: "Lesung Batu", a 260 cm stone at Tanjung Gelombang that the Balai Arkeologi Yogyakarta team thinks is a yupa pillar, moved at least three times — Kasnowihardjo, Berkala Arkeologi 26(1) 2006, pp. 50–53 (hedged as their hypothesis)
+- slide 9: 2006 recommendation to re-erect copies at Muara Kaman once the original spot is found — Kasnowihardjo 2006, p. 56
+- new sources: none (all already in the caption: kaltimkece, Sarip 2020, Kasnowihardjo 2006)

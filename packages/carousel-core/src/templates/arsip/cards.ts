@@ -1,7 +1,7 @@
 // Card plates (docs/SPEC-arsip.md §5): babak, potret atas/bawah, bentang, teks.
 import { isEmptyRich } from '../../core/inline';
 import type { StackResult } from '../../layout/stack';
-import { CANVAS, CONTENT_W, ROWS, SAFE } from '../../render/safezone';
+import { CANVAS, CONTENT_W, ROWS, SAFE, UI_ZONES } from '../../render/safezone';
 import { centeredShift } from '../common';
 import type { Surface } from '../types';
 import { type Block, CHROME_A, type PlateName, bottomOf, brand, fitBlocks, footer, marginRule, shift, textBlock } from './plan';
@@ -67,13 +67,13 @@ export function babak(A: ArsipCtx): { stack: StackResult; surface: Surface; name
   } else {
     const blocks = storyBlocks(A, 'bigHeadline', CONTENT_W, P.gap);
     stack = fitBlocks(blocks, PLATE.top, ROWS.stackLimit, A.m);
+    // The print bleeds off the right and bottom (into the caption zone) when at least landMin of it shows above it.
     const y = stack.bottom + P.landGap;
-    const h = Math.min(P.landMax, P.landBottom - y);
-    const shown = !!A.photo && h >= P.landMin;
-    if (shown) print(A, { x: SAFE.left, y, w: CANVAS.w - SAFE.left, h, border: P.print.border }, 0, true);
+    const shown = !!A.photo && UI_ZONES.caption.y - y >= P.landMin;
+    if (shown) print(A, { x: SAFE.left, y, w: CANVAS.w - SAFE.left, h: CANVAS.h - y, border: P.print.border }, 0, true);
     else if (!stack.overflow) shift(stack, centeredShift(PLATE.top, stack.bottom, PLATE.top));
     emit(A, blocks, stack, s);
-    chrome(A, s, { credit: shown, folio: s.ink });
+    chrome(A, s, { credit: shown, folio: s.ink, ...(shown ? { chip: s.bg } : {}) });
     return { stack, surface: s, name: 'bata' };
   }
   chrome(A, s, { credit: true, folio: s.ink });

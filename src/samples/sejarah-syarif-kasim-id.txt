@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/bata
 lang: id
 title: sultan syarif kasim ii
-caption: Siak, Riau: sultan terakhirnya menyatakan setia kepada Republik lewat satu telegram, lalu hidup dari tunjangan negara, dan singgasana emasnya pun dilaporkan dicuri pada 1967. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Siti Zaqiah, skripsi UIN Syarif Hidayatullah (2024, mengutip arsip ANRI & Delpher); Historia.id (2024); Wilaela, Sosial Budaya (UIN Suska); Museum Nasional; Setneg · Foto: Taufik Hadris, DinaMardiati, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #siak #riau
+caption: Siak, Riau: sultan terakhirnya menyatakan setia kepada Republik lewat satu telegram, lalu hidup dari tunjangan negara, dan singgasana emasnya pun dilaporkan dicuri pada 1967. Sumber: Wahyuni, Agustono & Warjio, Yupa 4(1) 2020; Siti Zaqiah, skripsi UIN Syarif Hidayatullah (2024, mengutip arsip ANRI & Delpher); Historia.id (2024); Wilaela, Sosial Budaya (UIN Suska); Museum Nasional; Setneg; DJKN Kemenkeu · Foto: Taufik Hadris, DinaMardiati, KITLV/Leiden University Libraries (CC BY 4.0) via Wikimedia Commons #sejarahindonesia #siak #riau
 ---
 [cover kicker="RIAU · 1945–1968" photo=istana-siak]
 Mahkota Emas 1,8 Kg, | Tunjangan Rp1.000
@@ -10,39 +10,57 @@ Sultan Syarif Kasim II, sultan terakhir Siak, menyatakan setia kepada Republik l
 ---
 [number=off icon=none photo=siak-mahkota]
 Mahkota di museum, sultan bertunjangan
-Mahkota aslinya bertatah berlian dan rubi, kini di Museum Nasional; Istana Siak memajang replikanya. Sultannya diberi tunjangan Rp1.000, lalu Rp3.000–4.000 per bulan pada 1951–1953.
+Mahkota aslinya bertatah berlian dan rubi, kini di Museum Nasional; Istana Siak memajang replikanya.
+
+Sultannya, yang sudah menyerahkan istana, tanah, dan hartanya kepada Republik Indonesia, diberi tunjangan negara Rp1.000, lalu Rp3.000–4.000 per bulan pada 1951–1953.
 ---
 [number=off icon=none photo=siak-sultan-1926]
 *1915*: sultan di usia 21
-Ia dinobatkan sebagai sultan ke-12 pada 3 Maret 1915. Tapi sejak Traktat Siak 1858 Siak di bawah Belanda, dan kontrak politiknya diperbarui 1916, lalu 1938.
+Lahir di Siak 1 Desember 1893, putra Sultan Syarif Hasyim, ia bersekolah di Batavia. Ia dinobatkan sebagai sultan ke-12 pada 3 Maret 1915.
+
+Tapi sejak Traktat Siak 1858 Siak di bawah Belanda, dan kontrak politiknya diperbarui 1916, lalu 1938.
 ---
 [number=off icon=none photo=siak-madrasah-taufiqiyah]
 Sekolah untuk rakyatnya
-Ia mendirikan Madrasah Taufiqiyah, dan istrinya, Tengku Agung, merintis sekolah putri. Setelah Tengku Agung wafat pada 1929, adiknya, Tengku Maharatu, meneruskan sekolah-sekolah itu.
+Ia mendirikan Madrasah Taufiqiyah Al-Hasyimiyah untuk anak laki-laki dan sebuah sekolah HIS. Istrinya, Tengku Agung, merintis sekolah putri: Latifah School.
+
+Setelah Tengku Agung wafat pada 1929, adiknya, Tengku Maharatu, yang menjadi permaisuri kedua, meneruskan sekolah-sekolah itu.
 ---
 [number=off icon=none photo=siak-sungai]
 *1942*: Jepang tak lebih baik
-Jepang tiba di Siak pada April 1942. Mereka mengambil kapal Sultan, memungut padi dan karet rakyat, dan memaksa warga menanam jarak untuk minyak pesawat.
+Sultan sempat berharap bisa memakai Jepang untuk melawan Belanda. Jepang tiba di Siak pada April 1942.
+
+Mereka mengambil kapal Sultan, memungut padi dan karet rakyat, dan memaksa warga menanam jarak untuk minyak pesawat. Radio diawasi ketat, sehingga kabar dari luar sulit masuk.
 ---
 [number=off icon=none photo=istana-siak]
 *28 November 1945*: satu telegram
-Akhir Oktober 1945 utusannya, O.K.M. Djamil, memastikan kabar proklamasi di Pekanbaru. Pada 28 November ia mengirim telegram ke Presiden Soekarno: Siak setia kepada Republik Indonesia.
+Akhir Oktober 1945 utusannya, O.K.M. Djamil, memastikan kabar proklamasi di Pekanbaru. Pada 28 November ia mengirim telegram ke Presiden Soekarno: Siak setia kepada Republik dan berdiri di belakang Bung Karno dan Bung Hatta.
+
+Ia lalu membentuk Komite Nasional Indonesia di Siak.
 ---
 [number=off icon=none photo=siak-mahkota]
 Berapa yang ia sumbangkan?
-Angka 13 juta gulden sering dikutip, tapi teks arsipnya belum pernah dikutip langsung. Sumber lain menyebut 10.000 gulden atau Rp20.000.
+Angka 13 juta gulden sering dikutip, tapi teks arsipnya belum pernah dikutip langsung. Kementerian Keuangan menyebut 10.000 gulden.
+
+Jurnal Yupa (2020) mencatat Rp20.000 pada 1946 di Medan, dengan janji menjual harta istana jika negara membutuhkannya. Surat Gubernur T.M. Hasan, Januari 1950, membahas permata-permatanya.
 ---
 [number=off icon=none photo=siak-sungai]
 *1947*: mengungsi ke Aceh
-Setelah Revolusi Sosial 1946 di Sumatra Timur, sekelompok laskar berencana menculiknya demi intan berliannya. Ia dikawal ke Aceh, tiba di Banda Aceh 10 September 1947.
+Revolusi Sosial Maret 1946 menyasar keluarga sultan di Sumatra Timur. Sekelompok laskar berencana menculiknya demi intan berliannya.
+
+Pasukan Divisi Rencong mengawalnya ke Aceh; ia tiba di Banda Aceh 10 September 1947. Dari RRI Kutaraja ia meminta rakyat Siak tetap memilih Republik.
 ---
 [number=off icon=none photo=siak-sultan-1926]
 *1967–1968*: takhta hilang, sultan wafat
-September 1967, koran melaporkan singgasana emasnya dicuri. Ia wafat 23 April 1968 di Pekanbaru, sultan terakhir Siak, tanpa anak kandung.
+Setelah lama tinggal di Jakarta, ia kembali ke Siak tahun 1960. September 1967, koran melaporkan singgasana emasnya dicuri.
+
+Ia wafat 23 April 1968 di Rumbai, Pekanbaru, sultan terakhir Siak, tanpa anak kandung. Makamnya di samping Masjid Syahabuddin, Siak.
 ---
 [number=off icon=none photo=siak-istana-lama]
 *1998*: Pahlawan Nasional
-Gelar itu diberikan lewat Keppres No. 109/TK/1998 tanggal 6 November 1998. Namanya kini dipakai bandara di Pekanbaru.
+Gelar itu diberikan lewat Keppres No. 109/TK/1998 tanggal 6 November 1998.
+
+Namanya kini dipakai bandara di Pekanbaru dan Universitas Islam Negeri Sultan Syarif Kasim Riau. Istana Siak, yang dibangun ayahnya tahun 1889, kini menjadi museum.
 ---
 [end photo=istana-siak cta="Komen A atau B"]
 Sumbangannya: *A.* 13 juta gulden, *B.* 10.000 gulden?

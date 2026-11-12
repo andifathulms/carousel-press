@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/bata
 lang: id
 title: asal usul nama cirebon caruban
-caption: Cirebon, Jawa Barat: asal-usul nama Cirebon sering dikaitkan dengan udang rebon, padahal naskah Carita Purwaka Caruban Nagari (1720) menyebut asalnya Caruban, artinya “campuran”. Sumber: Atja, Carita Purwaka Caruban Nagari: Karya Sastra sebagai Sumber Pengetahuan Sejarah (Proyek Pengembangan Permuseuman Jawa Barat, 1986), termasuk kutipan Tomé Pires, Suma Oriental (terj. A. Cortesão, 1944) dan M.C. Ricklefs (1981); Perda Kota Cirebon No. 4 Tahun 2024 tentang Hari Jadi Cirebon; detikJabar (12 Januari 2024) · Foto: KITLV/Leiden University Libraries (CC BY 4.0); Midori (CC BY 3.0); Judgefloro (CC0) via Wikimedia Commons #sejarahindonesia #cirebon #asalusulnama #jawabarat
+caption: Cirebon, Jawa Barat: asal-usul nama Cirebon sering dikaitkan dengan udang rebon, padahal naskah Carita Purwaka Caruban Nagari (1720) menyebut asalnya Caruban, artinya “campuran”. Sumber: Atja, Carita Purwaka Caruban Nagari: Karya Sastra sebagai Sumber Pengetahuan Sejarah (Proyek Pengembangan Permuseuman Jawa Barat, 1986), termasuk kutipan Tomé Pires, Suma Oriental (terj. A. Cortesão, 1944), De Graaf & Pigeaud (1974, 1985) dan M.C. Ricklefs (1981); Perda Kota Cirebon No. 4 Tahun 2024 tentang Hari Jadi Cirebon; detikJabar (12 Januari 2024) · Foto: KITLV/Leiden University Libraries (CC BY 4.0); Midori (CC BY 3.0); Judgefloro (CC0) via Wikimedia Commons #sejarahindonesia #cirebon #asalusulnama #jawabarat
 ---
 [cover kicker="CIREBON · ASAL-USUL NAMA" photo=cirebon-kasepuhan]
 Cirebon dari Udang Rebon? | Naskah 1720 Bilang Lain
@@ -11,34 +11,50 @@ Asal-usul nama Cirebon menurut Carita Purwaka Caruban Nagari, dan versi terasi y
 [number=off icon=none photo=cirebon-pelabuhan]
 *1720*: Caruban, artinya campuran
 Menurut Carita Purwaka Caruban Nagari, tempat ini dihuni orang dari berbagai bangsa, agama, bahasa, tulisan, dan pekerjaan. Karena itu disebut Caruban.
+
+Pelabuhannya, Muara Jati, disinggahi perahu dari Cina, Arab, Persia, India, Malaka, Tumasik, Pasai, sampai Palembang.
 ---
 [number=off icon=none photo=cirebon-masjid]
 Caruban, Carbon, Cerbon, Cirebon
 Naskah yang sama mencatat bunyinya bergeser: Caruban, lalu Carbon, Cerbon, dan akhirnya Cirebon. Di zaman Belanda, kotanya ditulis Cheribon.
+
+Penulis naskah itu sendiri bernama Pangeran Arya Carbon, keponakan Pangeran Wangsakerta. Tahun 1906 Belanda menjadikannya Gemeente Cheribon.
 ---
 [number=off icon=none photo=cirebon-rebon]
 Lalu, udang rebon?
 Filolog Atja (1986) menyebutnya etimologi rakyat: ci dari cai (Sunda, air) dan rebon, udang kecil bahan terasi. Sejak dulu Cirebon memang penghasil terasi.
+
+Keratonnya pun bernama Pakungwati. Menurut Atja, pakung dalam kamus Jawa Kuno berarti sejenis udang.
 ---
 [number=off icon=none photo=cirebon-terasi]
 Grage: Nagari Gede atau glagi?
-Cirebon juga disebut Grage, dari Nagari Gede yang lama-lama diucapkan Garage, lalu Grage. Seorang narasumber tua bilang ke Atja: dari glagi, udang kering bahan terasi.
+Cirebon juga disebut Grage, dari Nagari Gede yang lama-lama diucapkan Garage, lalu Grage. Penduduknya menyebut diri “wong Grage”.
+
+Ada versi lain: seorang narasumber tua bilang ke Atja, grage berasal dari glagi, udang kering bahan terasi.
 ---
 [number=off icon=none photo=cirebon-gunungjati]
 *1445*: pedukuhan di tegal alang-alang
 Menurut naskah itu, Walangsungsang (Pangeran Cakrabuana) membuka pedukuhan di Kebon Pesisir, Lemahwungkuk, atas saran gurunya, Syekh Datuk Kahfi. Makin ramai, dinamai Caruban.
+
+Kuwu pertamanya Ki Gedeng Alang-alang, mertua Walangsungsang. Walangsungsang lalu menggantikannya sebagai kuwu kedua.
 ---
 [number=off icon=none photo=cirebon-pelabuhan]
 *1513–1515*: orang Portugis menulis ‘Cherimon’
 Tomé Pires mencatat pelabuhan Cherimon: sekitar seribu penduduk, tiga atau empat jung, dan kayu terbaik di Jawa untuk membuat jung.
+
+Penguasanya disebut Lebe, bawahan Pate Rodim, penguasa Demak. Kata Pires, sekitar 40 tahun sebelumnya Cherimon belum Islam.
 ---
 [number=off icon=none photo=cirebon-masjid]
 Naskahnya pun perlu dibaca hati-hati
 Naskah ini ditulis 1720, sekitar dua abad setelah peristiwanya. Sejarawan M.C. Ricklefs menulis ada alasan untuk meragukan keasliannya.
+
+De Graaf dan Pigeaud menunjuk tiga hal: bahasanya Kawi tiruan, banyak tahun ditulis dalam tarikh Masehi, dan semuanya seolah ingin menjelaskan sejarah keluarga raja.
 ---
 [number=off icon=none photo=cirebon-gunungjati]
 *2024*: umur Cirebon dipotong 58 tahun
 Perda Kota Cirebon No. 4/2024 mengganti hari jadi dari 1 Muharam 791 H (1389 M) ke 849 H (1445 M). Alasannya: pendirinya baru lahir 1423.
+
+Angka 1389 berasal dari tradisi yang dihimpun Pangeran Sulaeman Sulendraningrat. Perda baru memakai peristiwa babad alas menurut naskah 1720.
 ---
 [end photo=cirebon-kasepuhan cta="Kirim ke wong Grage"]
 Wong Cirebon, dari kecil *dengar versi yang mana?*

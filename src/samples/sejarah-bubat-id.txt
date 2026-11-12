@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/nila
 lang: id
 title: bubat tiga versi
-caption: Bandung, Jawa Barat: Jalan Hayam Wuruk baru diresmikan tahun 2018. Akarnya Perang Bubat 1357, yang diceritakan tiga naskah, dan ketiganya tidak sama. Sumber: Pararaton (terjemahan Indonesia); W.J. Sastrawan, Indonesia and the Malay World (2020); S. Azmi, "Bubat: Sisi Gelap Hubungan Kerajaan Majapahit Hindu dengan Kerajaan Sunda" (UIN Jakarta) mengutip Kidung Sunda (ed. Berg) dan Carita Parahyangan (ed. Atja & Danasasmita 1981); Sondarika dkk., Jurnal Artefak 11(2) 2024; Suara Surabaya, 11 Mei 2018 · Foto: Glasreifen, Ivuvisual, Eka343, Rahmatdenas (CC BY-SA 4.0) via Wikimedia Commons; I. van Kinsbergen (domain publik) #sejarahindonesia #perangbubat #jawabarat #majapahit
+caption: Bandung, Jawa Barat: Jalan Hayam Wuruk baru diresmikan tahun 2018. Akarnya Perang Bubat 1357, yang diceritakan tiga naskah, dan ketiganya tidak sama. Sumber: Pararaton (terjemahan Indonesia); W.J. Sastrawan, Indonesia and the Malay World (2020); S. Azmi, "Bubat: Sisi Gelap Hubungan Kerajaan Majapahit Hindu dengan Kerajaan Sunda", Ushuluna 3(1) 2017 (UIN Jakarta) mengutip Kidung Sunda (ed. Berg) dan Carita Parahyangan (ed. Atja & Danasasmita 1981); Sondarika dkk., Jurnal Artefak 11(2) 2024; Suara Surabaya, 11 Mei 2018 · Foto: Glasreifen, Ivuvisual, Eka343, Rahmatdenas (CC BY-SA 4.0) via Wikimedia Commons; I. van Kinsbergen (domain publik) #sejarahindonesia #perangbubat #jawabarat #majapahit
 ---
 [cover kicker="JAWA BARAT & JAWA TIMUR · 1357" photo=bubat-wringin-lawang]
 Jalan Hayam Wuruk | Baru Ada di Bandung 2018
@@ -10,15 +10,21 @@ Akarnya peristiwa tahun 1357 di Bubat, yang diceritakan berbeda oleh tiga naskah
 ---
 [number=off icon=none photo=bubat-gedung-sate]
 *11 Mei 2018*: tiga jalan baru
-Di Gedung Sate, Gubernur Jawa Barat, Gubernur Jawa Timur, dan Wakil Gubernur DIY meresmikan Jalan Majapahit, Jalan Hayam Wuruk, dan Jalan Citraresmi di Bandung, dalam acara Harmoni Budaya Jawa-Sunda.
+Di Gedung Sate, gubernur Jawa Barat dan Jawa Timur serta wakil gubernur DIY meresmikan Jalan Majapahit, Hayam Wuruk, dan Citraresmi di Bandung.
+
+Tahun 2017, Syaiful Azmi mencatat Bandung dan Bogor belum punya jalan bernama Majapahit, Hayam Wuruk, atau Gajah Mada.
 ---
 [number=off icon=none photo=bubat-bajang-ratu]
 *1357*: yang disepakati
 Raja Sunda datang ke Majapahit untuk menikahkan putrinya dengan Hayam Wuruk, lalu tewas bersama rombongannya dalam pertempuran. Kisahnya ada di Pararaton, Kidung Sunda, dan Carita Parahyangan.
+
+Pararaton dan Kidung Sunda sama-sama menyebut utusan Majapahit bernama Madu yang datang melamar. Selebihnya, ketiganya berbeda.
 ---
 [number=off icon=none photo=bubat-wringin-lawang]
 Versi Pararaton: persembahan
-Gajah Mada keberatan pernikahan dirayakan resmi: sang putri harus diserahkan sebagai persembahan. Para bangsawan Sunda memilih bertempur, dan serangan balik mereka sempat memukul Majapahit sebelum rombongan Sunda habis.
+Gajah Mada keberatan pernikahan dirayakan resmi: sang putri harus diserahkan sebagai persembahan. Pihak Sunda sempat mau menurut, tapi para bangsawannya menolak dan memilih bertempur di Bubat.
+
+Prabu Maharaja gugur lebih dulu. Serangan balik para bangsawan sempat memukul Majapahit sebelum rombongan Sunda habis.
 ---
 [quote icon=none photo=bubat-lontar]
 …Bali, Sunda, Palembang, Tumasik, barulah saya menikmati masa istirahat.
@@ -27,19 +33,27 @@ Sesudah Bubat, Pararaton menulis: “Sekarang Gajah Mada menikmati masa istiraha
 ---
 [number=off icon=none photo=bubat-bajang-ratu]
 Versi Kidung Sunda: Gajah Mada
-Ia membujuk Hayam Wuruk agar tak menyambut Raja Sunda di Bubat, lalu membunuh patih Sunda, Anepaken, dalam pertempuran. Setelah raja gugur, putri dan permaisuri mengakhiri hidup; Hayam Wuruk menyesalinya.
+Dalam kidung berbahasa Jawa Tengahan ini, Gajah Mada membujuk Hayam Wuruk agar tak menyambut Raja Sunda di Bubat: raja-raja lain di Nusantara datang membawa persembahan.
+
+Ia lalu membunuh patih Sunda, Anepaken, dalam pertempuran. Setelah raja gugur, putri dan permaisuri mengakhiri hidup; Hayam Wuruk menyesalinya.
 ---
 [number=off icon=none photo=bubat-kawali-1900]
 Versi Carita Parahyangan
-Naskah Sunda ini tak memakai kata Bubat. Isinya singkat: Prabu Maharaja memerintah tujuh tahun, “mendapat bencana” karena putrinya, banyak orang pergi ke Jawa, “maka terjadilah perang di Majapahit.”
+Naskah lontar Sunda dari akhir abad ke-16 ini, kini disimpan di Perpustakaan Nasional, tak memakai kata Bubat. Isinya singkat: Prabu Maharaja memerintah tujuh tahun dan “mendapat bencana” karena putrinya.
+
+Banyak orang pergi ke Jawa, “maka terjadilah perang di Majapahit.”
 ---
 [number=off icon=none photo=bubat-kawali-1900]
 Dari mana nama Dyah Pitaloka?
 Pararaton tak menyebut nama sang putri, dan Carita Parahyangan menyebutnya Tohan. Nama Dyah Pitaloka Citraresmi muncul di catatan penjelas edisi Atja dan Saleh Danasasmita (1981).
+
+Catatan itu juga menyebut pertempurannya hanya sehari, “mungkin 29 Agustus 1357”.
 ---
 [number=off icon=none photo=bubat-gedung-sate]
 Ingatan yang panjang
-Kidung Sunda terjemahan filolog Belanda C.C. Berg beredar luas di masyarakat Sunda; sebagian peneliti menduga itu menghidupkan lagi luka lama. Mitos larangan menikah Sunda–Jawa masih dipercaya sebagian orang.
+Kidung Sunda ditulis sekitar tiga abad sesudah peristiwanya. Sekitar 1930-an, terjemahan filolog Belanda C.C. Berg beredar di masyarakat Sunda; sebagian peneliti menduga itu menghidupkan lagi luka lama.
+
+Mitos larangan menikah Sunda–Jawa masih dipercaya sebagian orang.
 ---
 [end photo=bubat-wringin-lawang cta="Komen A atau B"]
 Lebih percaya *A. Pararaton* | atau *B. Kidung Sunda?*

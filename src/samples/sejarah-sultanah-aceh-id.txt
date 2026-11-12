@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/bata
 lang: id
 title: empat sultanah aceh 1641-1699
-caption: Aceh: selama 59 tahun, 1641–1699, Kesultanan Aceh Darussalam dipimpin empat ratu berturut-turut. Sumber: Sher Banu A.L. Khan, pengantar Harta Karun No. 5, Arsip Nasional RI (2013); Sher Banu A.L. Khan, Sovereign Women in a Muslim Kingdom: The Sultanahs of Aceh, 1641–1699 (NUS Press, 2017); katalog naskah DREAMSEA/HMML (Mir’at al-Thullab) · Gambar: Johannes Vingboons sekitar 1665, Nationaal Archief; G.B. Hooijer (domain publik); Foto: Si Gam (CC BY-SA 3.0 dan 4.0) via Wikimedia Commons #sejarahindonesia #aceh #sultanahaceh #bandaaceh
+caption: Aceh: selama 59 tahun, 1641–1699, Kesultanan Aceh Darussalam dipimpin empat ratu berturut-turut. Sumber: Sher Banu A.L. Khan, pengantar Harta Karun No. 5, Arsip Nasional RI (2013); Sher Banu A.L. Khan, Sovereign Women in a Muslim Kingdom: The Sultanahs of Aceh, 1641–1699 (NUS Press, 2017); katalog naskah DREAMSEA/HMML (Mir’at al-Thullab); Ingrid Mitrasing, resensi di Kemanusiaan 25(1) 2018; Dzulkifli Hadi Imawan, Millah 21(3) 2022 · Gambar: Johannes Vingboons sekitar 1665, Nationaal Archief; G.B. Hooijer (domain publik); Foto: Si Gam (CC BY-SA 3.0 dan 4.0) via Wikimedia Commons #sejarahindonesia #aceh #sultanahaceh #bandaaceh
 ---
 [cover kicker="ACEH · 1641–1699" photo=sultanah-atjeh-1665]
 59 Tahun, Aceh | Dipimpin Empat Ratu
@@ -10,31 +10,45 @@ Kesultanan Aceh Darussalam: empat sultanah berturut-turut, berbagi kuasa dengan 
 ---
 [number=off icon=none photo=sultanah-peta-atjeh]
 Empat ratu berturut-turut
-Safiatuddin (1641–1675), Naqiatuddin (1675–1678), Zakiatuddin (1678–1688), dan Kamalat Syah (1688–1699). Setelah itu, Aceh tak pernah lagi dipimpin perempuan.
+Selama 59 tahun: Safiatuddin (1641–1675), Naqiatuddin (1675–1678), Zakiatuddin (1678–1688), dan Kamalat Syah (1688–1699). Keempatnya berdarah raja.
+
+Tiga ratu pertama memerintah sampai wafat; yang keempat diturunkan tahun 1699. Setelah itu, Aceh tak pernah lagi dipimpin perempuan.
 ---
 [number=off icon=none photo=sultanah-gunongan]
 *1641*: janda sultan naik takhta
-Taj al-Alam Safiatuddin Syah, janda Sultan Iskandar Thani, naik takhta tahun 1641. Ia memerintah sampai 1675, terlama di antara keempat ratu.
+Sultan Iskandar Thani, pangeran asal Pahang, wafat tahun 1641 dalam usia 31 tahun tanpa anak. Jandanya, putri Sultan Iskandar Muda, naik takhta sebagai Taj al-Alam Safiatuddin Syah.
+
+Ia memerintah sampai wafat pada 1675, terlama di antara keempat ratu.
 ---
 [number=off icon=none photo=sultanah-taman-1880]
 Ulama menulis untuknya
-Abdurrauf as-Singkili menulis kitab fikih Mir’at al-Thullab atas permintaan Safiatuddin. Ulama Nuruddin ar-Raniri memujinya sebagai ratu yang agung dan pemurah.
+Abdurrauf as-Singkili, qadi kerajaan, menulis kitab fikih Mir’at al-Thullab atas permintaan Safiatuddin, sebagai pegangan para hakim. Awalnya ia ragu karena lama merantau belajar di Yaman, Mekkah, dan Madinah.
+
+Ulama Nuruddin ar-Raniri memujinya sebagai ratu yang agung dan pemurah.
 ---
 [number=off icon=none photo=sultanah-krueng-aceh]
 Berdagang, bukan berperang
-Di bawah para ratu, Aceh memilih diplomasi ketimbang perang. Pelabuhannya tetap pusat dagang kain India, dan di akhir abad ke-17 emas lebih penting dari lada.
+Di bawah para ratu, Aceh memilih diplomasi ketimbang perang, dan tentaranya tak diperkuat. Pelabuhannya tetap pusat dagang kain India; tahun 1690-an, Jacob de Roy mencatat sekitar seratus kapal Eropa datang tiap tahun.
+
+Emas pun mengalahkan lada setelah tambang baru dibuka, terlarang bagi orang asing.
 ---
 [number=off icon=none photo=sultanah-peta-atjeh]
 Kuasa dibagi dengan orang kaya
-Para ratu berbagi kuasa dengan orang kaya, bangsawan dagang Aceh. Menurut sejarawan Sher Banu Khan, takhta mereka sah menurut Islam dan adat.
+Laporan kapal Belanda Den Arent tahun 1689: Aceh diperintah empat orang kaya besar dan delapan yang lebih kecil, yang bersidang dua kali seminggu di istana.
+
+Laporan itu menyebut ratu “hanya ratu dalam nama”. Sher Banu Khan menilai takhta mereka sah menurut Islam dan adat.
 ---
 [number=off icon=none photo=sultanah-gunongan]
 *1688*: protes dari pedalaman
 Setelah Zakiatuddin wafat, kelompok dari pedalaman memprotes pemerintahan perempuan. Sengketa itu diselesaikan dengan memilih ratu lagi: Kamalat Syah.
+
+Setahun kemudian, laporan Den Arent mencatat seorang tokoh agama di pedalaman, konon berpengikut 20.000 orang, yang dipatuhi para orang kaya saat mereka berselisih.
 ---
 [number=off icon=none photo=sultanah-taman-1880]
 *1699*: ratu terakhir diturunkan
-Kamalat Syah digantikan Badr al-Alam Syarif Hasyim, keturunan Arab. Surat dari Mekkah yang melarang ratu dipakai sebagai alasan. Khan menilai penyebabnya politik, bukan agama.
+Kamalat Syah digantikan Badr al-Alam Syarif Hasyim, keturunan Arab, yang bertakhta sampai 1702. Surat dari Mekkah yang melarang ratu dipakai sebagai alasan.
+
+Khan menilai penyebabnya politik, bukan agama. Abdurrauf, qadi kerajaan sejak masa Safiatuddin, sudah wafat pada 1693.
 ---
 [end photo=sultanah-atjeh-1665 cta="Komen"]
 Kamu tahu berapa *ratu Aceh sebelum ini?*

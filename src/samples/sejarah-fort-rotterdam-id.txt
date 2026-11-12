@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/bata
 lang: id
 title: fort rotterdam setelah 1667
-caption: Makassar, Sulawesi Selatan: ditangkap saat berunding di hari Lebaran, Pangeran Diponegoro dikurung lebih dari 20 tahun di Fort Rotterdam. Sumber: Sagimun M.D. (Depdikbud, 1975) mengutip Keyzer (1862); tesis Universitas Hasanuddin; jurnal UNM; Kompas TV mengutip Peter Carey, Takdir; Carey (2008) tentang Babad Diponegoro; Disbudpar Sulsel · Foto: Sanko, Heandra (CC BY-SA 3.0), Oceanmuse (CC BY 4.0) via Wikimedia Commons; Rijksmuseum (CC0); litografi C.W.M. van de Velde (domain publik) #sejarahindonesia #makassar #sulawesiselatan #fortrotterdam
+caption: Makassar, Sulawesi Selatan: ditangkap saat berunding di hari Lebaran, Pangeran Diponegoro dikurung lebih dari 20 tahun di Fort Rotterdam. Sumber: Sagimun M.D. (Depdikbud, 1975) mengutip Keyzer (1862); tesis Universitas Hasanuddin; jurnal UNM; Kompas TV mengutip Peter Carey, Takdir; Carey (2008) tentang Babad Diponegoro; berkas nominasi Memory of the World “Babad Diponegoro” (UNESCO 2012-49, via ANRI); Disbudpar Sulsel · Foto: Sanko, Heandra (CC BY-SA 3.0), Oceanmuse (CC BY 4.0) via Wikimedia Commons; Rijksmuseum (CC0); litografi C.W.M. van de Velde (domain publik) #sejarahindonesia #makassar #sulawesiselatan #fortrotterdam
 ---
 [cover kicker="MAKASSAR · 1833–1855" photo=rotterdam-litho-1845]
 Lebih dari 20 Tahun | Diponegoro Dikurung di Sini
@@ -11,34 +11,50 @@ Fort Rotterdam, bekas benteng Kerajaan Gowa di Makassar.
 [number=off icon=none photo=rotterdam-ruang-diponegoro]
 *11 Juli 1833*: Diponegoro tiba
 Setelah tiga tahun di Manado, Pangeran Diponegoro dipindah ke Makassar dengan kapal Circe. Ia masuk benteng bersama keluarga dan 23 pengikutnya.
+
+Lebih dari 20 tahun berikutnya, ia hidup di dua kamar yang panas di dalam benteng ini.
 ---
 [number=off icon=none photo=rotterdam-denah]
 *1667*: dari Gowa ke VOC
-Benteng Ujung Pandang milik Gowa-Tallo diserahkan ke VOC lewat Perjanjian Bongaya, lalu dinamai Rotterdam, kota kelahiran Speelman. VOC membangunnya ulang dengan lima bastion.
+Lewat Perjanjian Bongaya, 18 November 1667, Benteng Ujung Pandang milik Gowa-Tallo diserahkan ke VOC, lalu dinamai Rotterdam, kota kelahiran Speelman.
+
+VOC membangunnya ulang dengan lima bastion: Bone, Bacan, Amboina, Mandarsyah, dan Buton. Benteng-benteng Gowa lainnya kemudian diratakan VOC.
 ---
 [number=off icon=none photo=rotterdam-halaman]
 Kunci wilayah timur
-Benteng ini jadi pusat kekuasaan VOC di Sulawesi Selatan. Seorang penulis Belanda (1862) menyebut Makassar “kunci seluruh wilayah timur”.
+Speelman menjadikannya tempat tinggal dan pertahanan pasukan VOC. Sekutunya, Arung Palakka, diminta tinggal dekat, di Bontoala.
+
+Seorang penulis Belanda (1862) menyebut Makassar “kunci seluruh wilayah timur”. Tugas wakil Belanda: mengurus beras dan pajak, mengawasi raja-raja, dan menjaga agar Bone dan Gowa tak terlalu dekat.
 ---
 [number=off icon=none photo=rotterdam-foto-lama]
 *1830*: ditangkap saat berunding
 28 Maret 1830, saat Lebaran, Diponegoro datang ke Magelang untuk berunding dengan Jenderal De Kock, tapi justru ditahan. Ia menyebutnya pengkhianatan; Belanda menyebutnya penyerahan diri.
+
+Lewat Semarang dan Batavia, korvet Pollux membawanya ke Manado pada Mei–Juni 1830.
 ---
 [number=off icon=none photo=rotterdam-ruang-diponegoro]
 *1831*: babadnya lahir di Manado
-Otobiografinya, Babad Diponegoro, ditulis di Manado pada 1831–1832, sebelum ia dipindah ke benteng ini. Naskahnya masuk daftar Memory of the World UNESCO pada 2013.
+Babad Diponegoro ditulis di Manado, 20 Mei 1831–5 Februari 1832, dari ingatan, lewat seorang juru tulis Jawa, dalam tembang macapat: sekitar 1.150 halaman.
+
+Naskah aslinya hilang; salinan tahun 1860-an kini di Perpustakaan Nasional. Tahun 2013 babad ini masuk Memory of the World UNESCO.
 ---
 [number=off icon=none photo=rotterdam-makam-diponegoro]
 *8 Januari 1855*: wafat
+Maret 1837, putra raja Belanda, Pangeran Hendrik, menjenguknya di benteng dan menyebutnya masih “penuh api”.
+
 Diponegoro wafat di Makassar dan dimakamkan di luar benteng, di Kampung Melayu. Istrinya, Ratnaningsih, tetap di Makassar sampai wafat pada 1885, dimakamkan di sampingnya.
 ---
 [number=off icon=none photo=rotterdam-maket]
 *1938*: jadi museum
-Celebes Museum dibuka di bekas rumah Speelman di dalam benteng. Sejak 1 Mei 1970 namanya Museum La Galigo, dan benteng dipugar pada 1970-an.
+Celebes Museum dibuka di bekas rumah Speelman di dalam benteng. Sejak 1 Mei 1970 namanya Museum La Galigo.
+
+Benteng ini dipugar besar-besaran pada 1970-an, lalu pada 1977 diresmikan sebagai kantor Balai Pelestarian Peninggalan Purbakala Makassar.
 ---
 [number=off icon=none photo=rotterdam-halaman]
 *2014*: cagar budaya nasional
-Fort Rotterdam ditetapkan sebagai cagar budaya peringkat nasional pada 2014. Benteng ini buka setiap hari untuk umum.
+Lewat SK Mendikbud Mohammad Nuh No. 025/M/2014, 17 Januari 2014, Fort Rotterdam ditetapkan sebagai situs cagar budaya peringkat nasional. Status monumennya sudah tercatat sejak 1940, di masa kolonial.
+
+Benteng ini buka setiap hari untuk umum.
 ---
 [end photo=rotterdam-litho-1845 cta="Komen"]
 Kamu pernah ke *Fort Rotterdam?*

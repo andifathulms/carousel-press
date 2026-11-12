@@ -10,23 +10,33 @@ Prasasti Kedukan Bukit, salah satu tulisan tertua yang menyebut nama Sriwijaya.
 ---
 [number=off icon=none photo=kedukan-ampera]
 Hari jadi: *17 Juni 683*
-Lewat SK Wali Kota Palembang 6 Mei 1972, tanggal 5 Asadha 605 Saka di batu ini dijadikan hari jadi kota. Sumber lain mengonversi tanggal yang sama ke 16 Juni 682.
+Lewat SK Wali Kota Palembang No. 57/UM/WK, 6 Mei 1972, tanggal 5 Asadha 605 Saka di batu ini dijadikan hari jadi kota: hari rombongan Dapunta Hiyang tiba dan membuat permukiman.
+
+Sumber lain mengonversi tanggal yang sama ke 16 Juni 682.
 ---
 [number=off icon=none photo=kedukan-siguntang]
 “604 tahun Saka telah lewat”
-Begitu prasasti membuka tanggalnya. Hari ke-11 bulan Waisakha, Dapunta Hiyang naik samwau, perahu, untuk “mangalap siddhayatra”, yang sering diartikan mencari berkah perjalanan suci.
+Begitu prasasti membuka tanggalnya, sesudah salam “svasti śrī”.
+
+Hari ke-11 paruh terang bulan Waisakha, Dapunta Hiyang naik samwau, perahu, untuk “mangalap siddhayatra”, yang sering diartikan mencari berkah perjalanan suci. Prasasti hanya menyebut gelarnya, Dapunta Hiyang, tanpa nama pribadi.
 ---
 [number=off icon=none photo=kedukan-musi-kitlv]
 Dua laksa tentara
-Hari ke-7 bulan Jyestha, ia berangkat dari Minanga Tamwan membawa bala dua laksa, atau 20.000 orang, beserta perbekalan. Yang berjalan kaki tercatat 1.312 orang.
+Hari ke-7 bulan Jyestha, ia berangkat dari Minanga Tamwan membawa bala dua laksa, atau 20.000 orang, dan perbekalan dua ratus yang naik perahu. Yang berjalan kaki tercatat 1.312 orang.
+
+Kata “perbekalan” (kośa) sebagian sudah aus; huruf terakhirnya ditambahkan para ahli.
 ---
 [number=off icon=none photo=kedukan-siguntang]
 Tujuannya terhapus
-Di baris ketujuh, tempat yang dituju tinggal terbaca “ma..”. Krom menebak “Malayu”, Boechari sempat membacanya “Mukha Upang” lalu menarik bacaannya. Belum ada kata sepakat.
+Di baris ketujuh, tempat yang dituju tinggal terbaca “ma..”. Cœdès membacanya “mata jap”, Krom menebak “Malayu”, Boechari sempat membacanya “Mukha Upang” lalu menarik bacaannya.
+
+Arlo Griffiths, penyunting edisi terbaru, menilai tebakan Krom belum bisa ditolak. Belum ada kata sepakat.
 ---
 [number=off icon=none photo=kedukan-ampera]
 “Datang membuat wanua”
 Hari ke-5 bulan Asadha, rombongan itu tiba dengan “laghu mudita”, ringan dan gembira, lalu membuat wanua: sebuah permukiman. Inilah tanggal hari jadi Palembang.
+
+Di mana wanua itu? Teks sesudah kata “wanua” sudah hilang dari batu.
 ---
 [quote icon=none photo=kedukan-bukit]
 Śrīvijaya jaya siddhayātra subhikṣa.
@@ -35,15 +45,21 @@ Kira-kira: Sriwijaya jaya, perjalanan sucinya berhasil, makmur.
 ---
 [number=off icon=none photo=kedukan-musi-kitlv]
 *1920*: ditemukan di tepi sungai
-Batenburg, pejabat Belanda, menemukannya di Kedukan Bukit, tepi Sungai Tatang yang bermuara ke Musi. Batu aslinya kini disimpan di Museum Nasional, Jakarta.
+Batenburg, pejabat Belanda, menemukannya 20 November 1920 di Kedukan Bukit, tepi Sungai Tatang yang bermuara ke Musi. Tulisannya sepuluh baris, dipahat pada batu sungai yang bulat.
+
+Cœdès menerbitkan bacaan dan terjemahannya pada 1930. Batu aslinya kini di Museum Nasional, Jakarta.
 ---
 [number=off icon=none photo=kedukan-talang-tuwo]
 Sriwijaya sempat terlupa
-Namanya ada di catatan Cina dan Arab, tapi Sriwijaya baru “ditemukan” pada 1918. Kern mengira Sri Vijaya nama raja; George Cœdès menunjukkan itu nama sebuah negeri.
+Namanya ada di catatan Cina (Shilifoshi) dan Arab (Sribuza), tapi Sriwijaya baru “ditemukan” pada 1918. Membaca prasasti Kota Kapur, Kern (1913) mengira Sri Vijaya nama raja.
+
+George Cœdès, saat itu 32 tahun, menunjukkan itu nama sebuah negeri.
 ---
 [number=off icon=none photo=kedukan-buddha-seguntang]
 *Kini*: pusatnya di Palembang?
-Para ahli lama berdebat: pusat Sriwijaya di Palembang atau di Semenanjung Melayu? Penggalian di sepanjang Musi kini menguatkan Palembang sebagai pusat awalnya.
+Para ahli lama berdebat: pusat Sriwijaya di Palembang atau di Semenanjung Melayu? Penggalian Indonesia dan EFEO (Prancis) tahun 1989–1996 menguatkan Palembang sebagai pusat awalnya.
+
+Prasasti Melayu Kuno dari tahun 680-an hanya ditemukan di Palembang dan sekitarnya.
 ---
 [end photo=kedukan-bukit cta="Komen"]
 Orang Palembang, *udah tahu soal ini?*

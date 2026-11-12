@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/bata
 lang: id
 title: asal-usul nama kota kaltim
-caption: Balikpapan, Kalimantan Timur: hari jadinya diambil dari pengeboran sumur minyak Mathilda. Hari jadi Samarinda pun dihitung dari Perjanjian Bongaya, dan sampai kini masih diperdebatkan. Sumber: Pemkot Balikpapan; Sarip & Nandini, Yupa 5(2) 2021; Sheilla & Sarip, Jurnal Riset Inossa 6(2) 2024; Perda Kabupaten Kutai No. 2/1997; Rifani, Jurnal Mahakam 1(1) 2012; Indische Kamparchieven; Australian War Memorial; Tirto (2017) · Foto: KITLV/Leiden University Libraries (CC BY 4.0), Sri Wahyuni Nur Indah Sari (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0) via Wikimedia Commons; Unsplash, consigliere ivan (CC0) #sejarahindonesia #kalimantantimur #balikpapan #samarinda
+caption: Balikpapan, Kalimantan Timur: hari jadinya diambil dari pengeboran sumur minyak Mathilda. Hari jadi Samarinda pun dihitung dari Perjanjian Bongaya, dan sampai kini masih diperdebatkan. Sumber: Pemkot Balikpapan; Sarip & Nandini, Yupa 5(2) 2021; Sheilla & Sarip, Jurnal Riset Inossa 6(2) 2024; Perda Kabupaten Kutai No. 2/1997; Rifani, Jurnal Mahakam 1(1) 2012; Indische Kamparchieven; Australian War Memorial; Tirto (2017); Tirto (2018, mengutip Magenda) · Foto: KITLV/Leiden University Libraries (CC BY 4.0), Sri Wahyuni Nur Indah Sari (CC BY-SA 4.0), Bloesafir Pamanjagau (CC BY 3.0) via Wikimedia Commons; Unsplash, consigliere ivan (CC0) #sejarahindonesia #kalimantantimur #balikpapan #samarinda
 ---
 [cover kicker="KALIMANTAN TIMUR · 1897" photo=nama-papan]
 Ulang Tahun Balikpapan | Diambil dari Sumur Minyak
@@ -11,6 +11,8 @@ Balikpapan, Samarinda, Tenggarong: mana asal-usul yang tercatat, mana cerita rak
 [number=off icon=none photo=nama-balikpapan-pelabuhan]
 *10 Februari 1897*: sumur Mathilda
 Hari jadi Balikpapan adalah tanggal pengeboran pertama sumur minyak Mathilda. Tanggal ini ditetapkan lewat seminar sejarah kota pada 1984.
+
+Sultan Kutai memberi izin mencari minyak kepada pengusaha Belanda, Menten. Hutan di sekitar sumur itu lama-lama menjadi kota.
 ---
 [number=off icon=none photo=nama-papan]
 Balikpapan: legenda papan
@@ -23,22 +25,32 @@ Cerita rakyat Pasir Balik menyebut leluhur bernama Kayun Kuleng dan Papan Ayun. 
 [number=off icon=none photo=nama-samarinda-mahakam]
 Samarinda: sama rendah?
 Penjelasan populernya: rumah rakit pendatang dibangun sama tinggi, lambang kesetaraan. Penelitian lain membacanya “sama randah” dalam bahasa Banjar: daratan serendah permukaan Mahakam.
+
+Menurut wartawan Oemar Dachlan (1978), sampai awal 1950-an jalan-jalan kota terendam tiap Mahakam pasang. Warga lama melafalkannya Samarénda.
 ---
 [number=off icon=none photo=nama-samarinda-islamic-center]
 *1668*: hari jadi Samarinda
-Perda 1988 menetapkannya dari kedatangan pendatang Bugis Wajo pimpinan La Mohang Daeng Mangkona. Tanggal 21 Januari dihitung 64 hari setelah Perjanjian Bongaya.
+Perda 1988 menetapkannya dari kedatangan pendatang Bugis Wajo pimpinan La Mohang Daeng Mangkona. Tanggal 21 Januari dihitung 64 hari setelah Perjanjian Bongaya, 18 November 1667.
+
+Tanggal itu sama dengan hari lahir Pemerintah Kotapraja Samarinda, 21 Januari 1960.
 ---
 [number=off icon=none photo=nama-samarinda-mahakam]
 Samarinda: masih diperdebatkan
 Naskah perjanjian Bugis–Kutai menyebut pemimpin pertamanya Anakoda Tujing, bukan Mangkona. Menurut sejarawan Muhammad Sarip, pertemuannya terjadi sekitar 1732 atau sesudahnya.
+
+Sarip juga mencatat, buku Pemkot 2004 mengutip Eisenberger (1936), padahal nama Mangkona tak ada di buku itu.
 ---
 [number=off icon=none photo=nama-tenggarong-tepian]
 *1782*: lahirnya Tenggarong
 Ibu kota Kutai pindah ke Tepian Pandan, lalu Aji Imbut, bergelar Sultan Muhammad Muslihuddin, menamainya Tenggarong. Tahun ini tercantum dalam Perda Kabupaten Kutai 1997.
+
+Sebelumnya, sejak 1732, ibu kota ada di Jembayan. Tenggarong tetap jadi pusat kesultanan sampai 1960.
 ---
 [number=off icon=none photo=nama-tenggarong-lembuswana]
 Tenggarong: tangga arung
 Menurut tradisi, pengikut Bugis Aji Imbut menyebut tempat itu “Tangga Arung”, rumah raja. Lama-lama sebutan itu menjadi Tenggarong.
+
+Tepian Pandan sudah lebih dulu dihuni orang Kedang Lampong. Versi lain membaca tangga dari bahasa Lampong, “tempat”, dan arung dari bahasa Bugis, “raja”.
 ---
 [end photo=nama-papan cta="Komen"]
 Orang Kaltim, versi mana *yang pernah kamu dengar?*

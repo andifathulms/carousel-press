@@ -314,7 +314,7 @@ Every slide has a photo: the place, object, an old print/map, or a true related 
 
 - Language: Indonesian (`lang: id`), standard but relaxed: `kamu` is fine, light slang only in the hook. Proper names in correct spelling (`Kesultanan Kutai Kartanegara ing Martadipura` on first mention).
 - Put the year or place at the start of story headlines: `*1960*: …`, `Tenggarong, 2001: …` (`*…*` = accent colour).
-- Body ≤ 30 words per slide (two short sentences at most). One beat of the story per slide.
+- Card body **35–45 words** (owner, 12 Nov 2026: the slides looked empty; the old ≤ 30 rule was for text over photos, which arsip no longer does). The hook card 35–40, so its print still fits. Over ~25 words, split it into two short paragraphs with a blank line. Still one beat of the story per slide: deepen it with sourced detail (who, where, the number, what the document says, where sources disagree), never with padding. A short true slide beats a long padded one.
 - The hook must be true. No "rahasia yang disembunyikan", no clickbait the deck can't back up.
 
 ### Comments, debate and moderation (owner, Oct 2026 second review)
@@ -357,7 +357,7 @@ Each post should wake up a different regional audience, so **rotate regions**: n
   Use `number=off` on story cards.
 - **List deck** ("4 nama kota yang…"): cover + 4–6 cards + end. The cover's item is card 1.
 - **Length:** 8–10 slides (cover + 6–8 cards + end); at most 12 when the story truly needs it. Details that don't fit go in the pinned comment, not on more slides.
-- **Cards:** `[number=off icon=none photo=<id>]` (arsip draws no icons; `icon=none` keeps the deck right if it's ever switched to an editorial template). Headline ≤ 8 words with the year in accent (`*1965*: …`). **Body ≤ 30 words**, two short sentences at most: one beat per slide. Prefer period sources (KITLV photos, old maps, engravings, prasasti); never pre-pad a photo with a dark band, since arsip frames the whole image.
+- **Cards:** `[number=off icon=none photo=<id>]` (arsip draws no icons; `icon=none` keeps the deck right if it's ever switched to an editorial template). Headline ≤ 8 words with the year in accent (`*1965*: …`). **Body 35–45 words** in two short paragraphs (see Writing rules); cover subtitle ≤ 28 words, the note under a quote ≤ 30. Check with `python3 scripts/wc-sejarah.py`. Prefer period sources (KITLV photos, old maps, engravings, prasasti); never pre-pad a photo with a dark band, since arsip frames the whole image.
 - **Quote slide:** a documented quote (with attribution and source only), or a line from a prasasti/chronicle.
 - **End:** `[end photo=<cover photo> cta="…"]` with a named action (`cta="Komen A atau B"`, `cta="Komen"`, `cta="Kirim ke orang Kaltim"`), never the default "Simpan • Bagikan".
 - **Caption:** first line = the hook plus the region ("Kutai, Kalimantan Timur: …") + `Sumber:` short source list + a credit line if the image licence needs one + 2–4 hashtags including the region (`#sejarahindonesia`, `#kalimantantimur`, `#kutai`).

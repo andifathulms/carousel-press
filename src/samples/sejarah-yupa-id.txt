@@ -10,19 +10,27 @@ Prasasti yupa dari Muara Kaman, bukti tertulis tertua yang diketahui di Nusantar
 ---
 [number=off icon=none photo=yupa-sapi]
 Hadiah Mulawarman untuk para brahmana
-Satu yupa mencatat sapi yang dihadiahkan di tempat suci Waprakeswara. Jumlahnya 20.000 menurut bacaan Chhabra yang kini ada di buku pelajaran, tapi 1.020 menurut Kern dan Vogel.
+Yupa berkode D.2b mencatat sapi yang dihadiahkan Mulawarman kepada para brahmana di tempat suci Waprakeswara.
+
+Jumlahnya 20.000 menurut bacaan Chhabra, yang dipakai buku Sejarah Nasional Indonesia dan buku pelajaran, tapi 1.020 menurut Kern dan Vogel.
 ---
 [number=off icon=none photo=yupa-aksara]
 Tujuh tiang batu bernama yupa
-Bahasanya Sanskerta, hurufnya Pallawa awal, didirikan para brahmana untuk Raja Mulawarman. Dalam tradisi Weda, yupa aslinya tiang kayu untuk kurban; batu-batu ini tiang peringatan.
+Bahasanya Sanskerta, hurufnya Pallawa awal, seperti yang dipakai di India abad ke-4 dan ke-5. Para brahmana, yang menurut Vogel datang dari India, mendirikannya untuk Raja Mulawarman.
+
+Dalam tradisi Weda, yupa aslinya tiang kayu untuk kurban; batu-batu ini tiang peringatan.
 ---
 [number=off icon=none photo=yupa-ciaruteun]
 Kapan dibuatnya?
-Yupa tidak bertanggal; dari bentuk hurufnya, ahli menaksir sekitar 400, 425, atau 450 Masehi. Itu lebih tua dari prasasti Purnawarman di Jawa Barat.
+Yupa tidak bertanggal. Dari bentuk hurufnya, Kern menaksir sekitar 400 Masehi, epigraf Louis-Charles Damais 425, dan arkeolog UI Edhie Wurjantoro pertengahan abad ke-5, sekitar 450.
+
+Taksiran mana pun tetap lebih tua dari prasasti Purnawarman di Jawa Barat.
 ---
 [number=off icon=none photo=yupa-aksara]
 Siapa Kundunga?
-Yupa menyebut Kundunga, putranya Aswawarman, dan cucunya Mulawarman. Nama Kundunga bukan Sanskerta: Kern menganggapnya orang lokal Kalimantan, Chhabra menduga Tamil, dan belum ada kata sepakat.
+Yupa menyebut Kundunga, putranya Aswawarman, dan cucunya Mulawarman. Yang disebut pendiri wangsa justru Aswawarman, bukan Kundunga.
+
+Nama Kundunga bukan Sanskerta: Kern menganggapnya orang lokal Kalimantan, Chhabra menduga Tamil, buku Sejarah Nasional Indonesia membandingkannya dengan nama Bugis Kadungga. Belum ada kata sepakat.
 ---
 [number=off icon=none photo=yupa-replika-muara-kaman]
 *1879* dan *1940*: ditemukan
@@ -30,15 +38,21 @@ Empat yupa ditemukan di Muara Kaman pada 1879 dan diserahkan Sultan Kutai ke mus
 ---
 [number=off icon=none photo=yupa-replika-muara-kaman]
 Tidak ada kata “Kutai”
-Nama Kutai tidak tertulis di yupa mana pun; peneliti zaman Belanda menamai kerajaan ini dari lokasi temuannya. Sejarawan Muhammad Sarip berpendapat namanya justru Martapura.
+Nama Kutai tidak tertulis di yupa mana pun; peneliti zaman Belanda menamai kerajaan ini dari lokasi temuannya. Menurut Mees (1935), nama Kutai baru muncul akhir abad ke-13, di hilir Mahakam.
+
+Sejarawan Muhammad Sarip berpendapat namanya justru Martapura, yang ditaklukkan Kutai Kertanegara tahun 1635.
 ---
 [number=off icon=none photo=kutai-mahakam]
 Tempat asalnya hilang
 Sebelum arkeolog datang, situs Muara Kaman sudah digali pencari harta, termasuk seratus orang atas perintah Sultan. Titik asli berdirinya prasasti belum ditemukan.
+
+Di Tanjung Gelombang tergeletak “Lesung Batu” sepanjang 2,6 meter. Tim Balai Arkeologi Yogyakarta (2006) menduga itu tugu yupa, yang sedikitnya tiga kali dipindah.
 ---
 [number=off icon=none photo=yupa-museum-nasional]
 Kini: asli di museum, replika di Tenggarong
-Ketujuh yupa asli disimpan di Museum Nasional Indonesia, berstatus cagar budaya peringkat nasional. Museum Mulawarman di Tenggarong memajang replikanya.
+Ketujuh yupa asli disimpan di Museum Nasional Indonesia, Jakarta, berstatus cagar budaya peringkat nasional. Museum Mulawarman di Tenggarong memajang replikanya.
+
+Tahun 2006 peneliti Balai Arkeologi Yogyakarta mengusulkan salinan yupa didirikan kembali di Muara Kaman, setelah titik aslinya ditemukan.
 ---
 [end photo=yupa-mulawarman cta="Komen A atau B"]
 Berapa sapinya? *A. 20.000* atau *B. 1.020*

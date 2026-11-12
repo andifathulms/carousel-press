@@ -2,7 +2,7 @@ handle: @sejarah.nusantara.id
 template: arsip/bata
 lang: id
 title: megalit lembah bada lore lindu
-caption: Poso, Sulawesi Tengah: megalit Lore Lindu di Lembah Bada, Besoa, dan Napu. Arca dan kalamba ini sudah dicatat sejak 1898, tapi umurnya masih diperdebatkan. Sumber: Kirleis, Müller, Kortemeier, Behling & Soeghondo, “The Megalithic Landscape of Central Sulawesi, Indonesia”, dalam Crossing Borders in Southeast Asian Archaeology (2012); Dwi Yani Yuniawati Umar, “Stone Vats (Kalambas) as One of Megalithic Remains in the Lore Valley”, Berkala Arkeologi 30(2) (2010); Mongabay Indonesia, 30 Jul 2019 (data BPCB Gorontalo) · Foto: Walter Kaudern 1918 (domain publik, Museum Kebudayaan Dunia, Swedia); Lo2asinamura, Bingkaijay, Romi Hidayat1986 (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #sulawesitengah #poso #lembahbada #megalit
+caption: Poso, Sulawesi Tengah: megalit Lore Lindu di Lembah Bada, Besoa, dan Napu. Arca dan kalamba ini sudah dicatat sejak 1898, tapi umurnya masih diperdebatkan. Sumber: Kirleis, Müller, Kortemeier, Behling & Soeghondo, “The Megalithic Landscape of Central Sulawesi, Indonesia”, dalam Crossing Borders in Southeast Asian Archaeology (2012); Dwi Yani Yuniawati Umar, “Stone Vats (Kalambas) as One of Megalithic Remains in the Lore Valley”, Berkala Arkeologi 30(2) (2010); Mongabay Indonesia, 30 Jul 2019 (data BPCB Gorontalo); Daftar Tentatif UNESCO 6826 (2025) · Foto: Walter Kaudern 1918 (domain publik, Museum Kebudayaan Dunia, Swedia); Lo2asinamura, Bingkaijay, Romi Hidayat1986 (CC BY-SA 4.0) via Wikimedia Commons #sejarahindonesia #sulawesitengah #poso #lembahbada #megalit
 ---
 [cover kicker="SULAWESI TENGAH · LORE LINDU" photo=bada-palindo]
 Patung Batu di Lembah Poso | Umurnya Masih Diperdebatkan
@@ -11,30 +11,44 @@ Megalit Lore Lindu di Lembah Bada, Besoa, dan Napu: arca seperti Palindo, ikon L
 [number=off icon=none photo=bada-pokekea]
 Tiga situs, tiga angka
 Arang di situs Entovera: 1387–831 SM. Kerangka di situs Wineki: 2351–1416 SM. Endapan di dalam dua kalamba Pokekea: abad ke-8 sampai ke-13 Masehi.
+
+Selisihnya lebih dari tiga ribu tahun, padahal ketiga situs ada di Lembah Besoa.
 ---
 [number=off icon=none photo=bada-behoa]
 Kenapa angkanya beda jauh?
 Yang ditanggali adalah arang, tulang, dan endapan di sekitar atau di dalam batu, bukan batunya. Kirleis dkk. menyimpulkan kalamba Pokekea sudah berdiri sebelum sekitar 830 M.
+
+Berkas Indonesia ke UNESCO (2025) memakai rentang lebar: mulai sekitar 3.000 tahun lalu, bertahan sampai sekitar 500 tahun lalu.
 ---
 [number=off icon=none photo=bada-kalamba-1918]
 Kalamba, tong batu untuk kubur
-Warga menyebut wadahnya kalamba, “perahu”, dan tutupnya tuatena. Di kalamba no. 38 situs Tadulako ada gigi sedikitnya 10 orang dewasa dan 1 anak.
+Warga menyebut wadahnya kalamba, “perahu”, dan tutupnya tuatena. Yang terbesar bergaris tengah sampai 216 cm dan tinggi sekitar 180 cm, umumnya dari batu pasir.
+
+Di kalamba no. 38 situs Tadulako ada gigi sedikitnya 10 orang dewasa dan 1 anak. Tulang dan giginya sudah dibakar.
 ---
 [number=off icon=none photo=bada-langke-bulawa-1918]
 Bukan cuma satu patung
-Survei BPCB Gorontalo mencatat 2.007 tinggalan di 118 situs dalam empat lembah. Di Lembah Bada saja ada 186 tinggalan di 35 situs.
+Survei BPCB Gorontalo mencatat 2.007 tinggalan di 118 situs dalam empat lembah. Di Lembah Bada saja ada 186 tinggalan di 35 situs, termasuk 64 kalamba.
+
+Selain arca dan kalamba, ada lumpang batu, batu dakon, dulang batu, dan batu berlubang.
 ---
 [number=off icon=none photo=bada-tadulako-1918]
 *1898*: mulai dicatat orang luar
 Misionaris Adriani dan Kruyt menulis tentang batu-batu ini tahun 1898. Walter Kaudern memotretnya pada 1917–1921 dan menerbitkan Megalithic Finds in Central Celebes (1938).
+
+Tahun 1975 Haris Sukendar menggali di sekitar kalamba Lembah Bada dan menemukan manik-manik kaca, beliung besi, dan pecahan gerabah.
 ---
 [number=off icon=none photo=bada-behoa]
 Siapa pembuatnya?
 DNA tulang dari kalamba Tadulako paling dekat dengan sampel orang Kajang, Sulawesi Selatan, di antara lima populasi yang dibandingkan. Itu baru petunjuk, belum jawaban.
+
+Empat sampel tulangnya milik perempuan. Umurnya belum diketahui, karena sampel itu tak bisa ditanggali radiokarbon.
 ---
 [number=off icon=none photo=bada-pokekea]
 Lembah Bada hari ini
 Kawasan ini masuk Cagar Biosfer Lore Lindu sejak 1977. Tahun 2019, kajian BPCB Gorontalo disiapkan untuk mengusulkannya jadi warisan dunia.
+
+Pada 15 April 2025, megalit di Lembah Napu, Behoa, Bada, dan Palu didaftarkan Indonesia ke daftar tentatif UNESCO.
 ---
 [end photo=bada-palindo cta="Kirim ke orang Poso"]
 Orang Poso, pernah lihat *Palindo langsung?*

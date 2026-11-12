@@ -70,10 +70,10 @@ Lora and DM Sans are what the account posts in today (`editorial/sage`), so foll
 | Role | Face | Size max → min (step) | lh | Max lines |
 |---|---|---|---|---|
 | cover headline | serif 700 | 88 → 68 (4) | 1.06 | 4 |
-| cover subtitle | sans 400 | 38 → 32 (2) | 1.45 | 3 |
+| cover subtitle | sans 400 | 38 → 32 (2) | 1.45 | 4 |
 | kicker tab | label 600 | 30 fixed, +4 tracking | — | 1 |
 | card headline | serif 700 | 70 → 56 (2); bata/teks plates 84 → 64 | 1.10 | 3 |
-| body | sans 400 | 38 → 34 (2) | 1.45 | 9 |
+| body | sans 400 | 38 → 34 (2) | 1.45 | 12 |
 | quote text | serif 600 italic | 58 → 44 (2) | 1.20 | 6 |
 | attribution / tag | label 600 | 26–28 fixed | — | 1 |
 | end headline | serif 700 | 76 → 60 (4) | 1.08 | 3 |
@@ -81,7 +81,7 @@ Lora and DM Sans are what the account posts in today (`editorial/sage`), so foll
 | folio | label 500 | 30 fixed, +2 tracking | — | 1 |
 | credit | caption italic | 24 fixed | 1.3 | 2 |
 
-The body column is 624 px wide (x 288 → 912), about 33 characters per line at 38 px. That holds ≤ 30 words (the channel rule) in 6–7 lines.
+The body column is 624 px wide (x 288 → 912), about 33 characters per line at 38 px. A 35–45-word body (the channel rule since 12 Nov 2026) takes 8–10 lines; the photo plates shrink their photo to make room (§5).
 
 ---
 
@@ -109,15 +109,15 @@ Seven layouts. All coordinates are canvas px. "Bleeds" means the photo runs off 
 | # | Plate | Surface | Photo | Text |
 |---|---|---|---|---|
 | P1 | **Sampul** (cover) | nila band 0–760 | full-bleed 0→1080 × 760→1920 | `lembar` card x 72–936, top 428, shadow 0 18 40 / 28%; bata **kicker tab** sits on its top-left edge (region · year); headline + subtitle inside, inset 48 |
-| P2 | **Babak** (hook / turn) | bata | landscape print x 96 → 1080 (bleeds right), y 1000–1380; or a portrait print 336×440 top-right, rotated | headline 84 at y 330 (beside the print if portrait), body column below |
-| P3 | **Potret atas** (top bleed) | kertas | portrait: x 396→1080; landscape: full width with the handle on a chip; y 0→640–840, bleeds top | headline on a plate biting the photo's bottom-left corner (plate top = photo bottom − 140); body column 80 px under the headline |
+| P2 | **Babak** (hook / turn) | bata | landscape print x 96 → 1080 from 72 px under the body, bleeding right and bottom (dropped when less than 300 px would show above the caption zone); or a portrait print 336×380 top-right, rotated | headline 84 at y 330 (beside the print if portrait), body column below |
+| P3 | **Potret atas** (top bleed) | kertas | portrait: x 396→1080; landscape: full width with the handle on a chip; y 0→520–840 (shrinks as the text grows), bleeds top | headline on a plate biting the photo's bottom-left corner (plate top = photo bottom − 140); body column 80 px under the headline |
 | P4 | **Potret bawah** (portrait, bottom) | kertas | x 396→1080, y 1040→1920, bleeds right + bottom | headline at y 330, body column below; credit + folio on kertas chips over the photo |
 | P5 | **Bentang** (landscape) | kertas | full width, y (body end + 80, ≥ 960) → 1920, bleeds 3 sides | headline at y 330, body column; chips for the footer |
 | P6 | **Naskah** (quote) | nila | photo band 0→720, bleeds top + sides | `naskah` sheet x 84–924, top 600, rotated −1.2°, shadow; `NASKAH · <source>` tag, quote, attribution; the extra body line in the column below |
 | P7 | **Akhir** (end) | nila | the cover photo as a print, 440×420 at (96, 310), rotated | end headline at y 800 (A/B options stay in the headline's accents); body below; the CTA in label caps on a `lembar` plate |
 | — | **Teks** (no photo) | kertas | none | headline 80 at y 420, body column at y 700 |
 
-Stack-fit still applies inside each plate (body steps down first, then the headline). When text still overflows at min size, the photo gives up height before anything clips: P3 to a minimum of 640 tall, P5 to a minimum of 360 visible above y 1500.
+Stack-fit still applies inside each plate (body steps down first, then the headline). When text still overflows at min size, the photo gives up height before anything clips: P3 to a minimum of 520 tall; P4/P5 need the photo to start by y 1180, else the card falls back to P3.
 
 ---
 
